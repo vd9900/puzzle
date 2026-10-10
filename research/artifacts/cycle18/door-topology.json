@@ -1,0 +1,505 @@
+{
+  "assumptions": [
+    "Repeated metaphor and chronology are constraints, not complete executable graph definitions",
+    "Only three declared topology readings are compared",
+    "First-piece source domain may be broader than one matrix representation"
+  ],
+  "chronology": {
+    "first_piece_is_named_but_the_word_matrix_is_not_in_the_warning": true,
+    "first_warning_precedes_May_and_August_statements": true,
+    "no_index_origin_or_traversal_defined": true,
+    "records": [
+      {
+        "creator_record": {
+          "archived_utc_timestamp": "2020-01-14T10:38:06+00:00",
+          "character_span_zero_based_half_open": [
+            7395,
+            7629
+          ],
+          "column_one_based": 1,
+          "header": "=== [14.01.2020 05:38:06 UTC-05:00] Jrk Bgrt",
+          "line_one_based": 195,
+          "source": {
+            "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+            "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+          },
+          "utf8_byte_span_zero_based_half_open": [
+            7431,
+            7665
+          ]
+        },
+        "matching_exports_are_not_independent_authentication": true,
+        "name": "FIRST_PIECE_MULTIPLE_DOOR_WARNING",
+        "no_explicit_source_url_container_or_branch_count": true,
+        "original_chat_record": {
+          "archived_utc_timestamp": "2020-01-14T10:38:06+00:00",
+          "character_span_zero_based_half_open": [
+            112144,
+            112378
+          ],
+          "column_one_based": 1,
+          "header": "=== [14.01.2020 05:38:06 UTC-05:00] Jrk Bgrt",
+          "line_one_based": 3941,
+          "source": {
+            "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+            "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+          },
+          "utf8_byte_span_zero_based_half_open": [
+            113598,
+            113832
+          ]
+        },
+        "phrase_maps": [
+          {
+            "character_span_zero_based_half_open": [
+              7464,
+              7518
+            ],
+            "column_one_based": 1,
+            "line_one_based": 197,
+            "literal": "Go back to the first puzzle piece without further ado.",
+            "utf8_byte_span_zero_based_half_open": [
+              7500,
+              7554
+            ]
+          },
+          {
+            "character_span_zero_based_half_open": [
+              7520,
+              7617
+            ],
+            "column_one_based": 1,
+            "line_one_based": 199,
+            "literal": "It might have shown you only one door, beware that the rabbits nest may contain a whole lot more.",
+            "utf8_byte_span_zero_based_half_open": [
+              7556,
+              7653
+            ]
+          }
+        ]
+      },
+      {
+        "creator_record": {
+          "archived_utc_timestamp": "2020-05-11T20:31:25+00:00",
+          "character_span_zero_based_half_open": [
+            12600,
+            12754
+          ],
+          "column_one_based": 1,
+          "header": "=== [11.05.2020 15:31:25 UTC-05:00] Jrk Bgrt",
+          "line_one_based": 363,
+          "source": {
+            "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+            "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+          },
+          "utf8_byte_span_zero_based_half_open": [
+            12698,
+            12855
+          ]
+        },
+        "matching_exports_are_not_independent_authentication": true,
+        "name": "SECOND_DOOR_STATEMENT",
+        "no_explicit_source_url_container_or_branch_count": true,
+        "original_chat_record": {
+          "archived_utc_timestamp": "2020-05-11T20:31:25+00:00",
+          "character_span_zero_based_half_open": [
+            282910,
+            283064
+          ],
+          "column_one_based": 1,
+          "header": "=== [11.05.2020 15:31:25 UTC-05:00] Jrk Bgrt",
+          "line_one_based": 9450,
+          "source": {
+            "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+            "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+          },
+          "utf8_byte_span_zero_based_half_open": [
+            285799,
+            285956
+          ]
+        },
+        "phrase_maps": [
+          {
+            "character_span_zero_based_half_open": [
+              12653,
+              12706
+            ],
+            "column_one_based": 54,
+            "line_one_based": 363,
+            "literal": "who knows what you'll find after opening the 2nd door",
+            "utf8_byte_span_zero_based_half_open": [
+              12751,
+              12804
+            ]
+          }
+        ]
+      },
+      {
+        "creator_record": {
+          "archived_utc_timestamp": "2020-08-02T16:56:20+00:00",
+          "character_span_zero_based_half_open": [
+            13989,
+            14096
+          ],
+          "column_one_based": 1,
+          "header": "=== [02.08.2020 11:56:20 UTC-05:00] Jrk Bgrt",
+          "line_one_based": 411,
+          "source": {
+            "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+            "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+          },
+          "utf8_byte_span_zero_based_half_open": [
+            14106,
+            14213
+          ]
+        },
+        "matching_exports_are_not_independent_authentication": true,
+        "name": "EXTRA_DOOR_STATEMENT",
+        "no_explicit_source_url_container_or_branch_count": true,
+        "original_chat_record": {
+          "archived_utc_timestamp": "2020-08-02T16:56:20+00:00",
+          "character_span_zero_based_half_open": [
+            312330,
+            312437
+          ],
+          "column_one_based": 1,
+          "header": "=== [02.08.2020 11:56:20 UTC-05:00] Jrk Bgrt",
+          "line_one_based": 10401,
+          "source": {
+            "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+            "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+          },
+          "utf8_byte_span_zero_based_half_open": [
+            315467,
+            315574
+          ]
+        },
+        "phrase_maps": [
+          {
+            "character_span_zero_based_half_open": [
+              13989,
+              14033
+            ],
+            "column_one_based": 1,
+            "line_one_based": 411,
+            "literal": "Really nobody managed to find the extra door",
+            "utf8_byte_span_zero_based_half_open": [
+              14106,
+              14150
+            ]
+          }
+        ]
+      }
+    ],
+    "second_and_extra_are_not_explicitly_equal_references": true,
+    "whole_lot_more_is_not_an_exact_door_count": true
+  },
+  "confidence": "HIGH statement/screenshot identity; UNKNOWN unique intended topology",
+  "contradictions": [
+    "A repeated door metaphor does not define an executable source transformation",
+    "Second and extra are not explicitly co-referent",
+    "No named source domain identifies matrix versus image/page",
+    "Missing topology edges cannot be supplied by completed search negatives"
+  ],
+  "date": "2026-10-01",
+  "hypotheses": [
+    {
+      "assumptions": [
+        "The first warning describes source-associated alternatives rather than later stages",
+        "An alternate entrance can coexist with the known route"
+      ],
+      "confidence": "MEDIUM first-warning grammar; UNKNOWN entrance identity",
+      "contradictions": [
+        "No operation or other-entry location is named",
+        "The original source object could be broader than the14x14 matrix",
+        "Completed variants/routes remain negative and are not reopened"
+      ],
+      "edges": [
+        [
+          "first-puzzle-piece",
+          "known-entry",
+          "ALREADY_DOCUMENTED_ROUTE"
+        ],
+        [
+          "first-puzzle-piece",
+          "unidentified-other-entry",
+          "POSSIBLE_MULTIPLE_ENTRANCE_NOT_DERIVED"
+        ]
+      ],
+      "hypothesis": "The first-piece/rabbits-nest warning allows more than one entrance or derivation associated with an original source object",
+      "id": "C18-DOOR-ALTERNATIVE-ENTRANCES",
+      "input": "Original public door statements and one full-warning screenshot",
+      "next_test": "Audit preserved primary page/image references for the exact domain of first-piece and rabbits-nest; distinguish original image, containing webpage and later page labels before any new transformation",
+      "operation_order": [
+        "map complete first-piece warning",
+        "compare dated second/extra wording",
+        "retain only declared topology without identifying an entrance"
+      ],
+      "output": "A finite topology interpretation, not a derived alternate entrance",
+      "source_evidence": [
+        {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+          "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+        },
+        {
+          "path": "research/sources/maintained-hints__2020-01-14-roses-are-red.png",
+          "sha256": "7f4886a829a682012d9120f2fce923394accade39046e7283d41a3986fea3410"
+        },
+        {
+          "path": "research/artifacts/cycle17/operand-ownership.json",
+          "sha256": "f66dfde3395b9edf008bc06d71be6d611413be8833e6da798f03fba90e958926"
+        },
+        {
+          "path": "research/artifacts/cycle17/door-reference-audit.json",
+          "sha256": "d3fc3ac04aa188e537095bf02691ce9fa30dbe2e44dc6635e42aa6c801031c9f"
+        },
+        {
+          "path": "research/artifacts/cycle18/final-reference-audit-v2.json",
+          "sha256": "bb154ce439a9e2aa92629a68c57486ef88aac81625b77d46a5b6d8552aaee533"
+        }
+      ],
+      "source_locations": [
+        "research/evidence/cycle02/_work__creator_jrk.txt:195",
+        "research/evidence/cycle02/_work__creator_jrk.txt:199",
+        "research/evidence/cycle02/_work__creator_jrk.txt:363",
+        "research/evidence/cycle02/_work__creator_jrk.txt:411",
+        "research/evidence/cycle02/_work__chat_transcript.txt:3941",
+        "research/evidence/cycle02/_work__chat_transcript.txt:9450",
+        "research/evidence/cycle02/_work__chat_transcript.txt:10401",
+        "research/sources/maintained-hints__2020-01-14-roses-are-red.png"
+      ],
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "assumptions": [
+        "Door is a stage-entrance metaphor",
+        "Second denotes local progression, not source alternatives"
+      ],
+      "confidence": "MEDIUM later-stage wording; LOW unique serial placement",
+      "contradictions": [
+        "First-piece warning explicitly returns to an earlier source",
+        "Extra is not explicitly assigned to second or a later stage",
+        "No original statement names the embedded containers in this graph"
+      ],
+      "edges": [
+        [
+          "known-entry",
+          "unidentified-second-stage",
+          "POSSIBLE_SERIAL_STAGE"
+        ],
+        [
+          "unidentified-second-stage",
+          "unidentified-later-stage",
+          "UNKNOWN_SERIALITY"
+        ]
+      ],
+      "hypothesis": "Second/extra doors describe later serial stage entrances rather than a fork in the initial artifact",
+      "id": "C18-DOOR-SERIAL-STAGES",
+      "input": "Original public door statements and one full-warning screenshot",
+      "next_test": "Audit preserved primary page/image references for the exact domain of first-piece and rabbits-nest; distinguish original image, containing webpage and later page labels before any new transformation",
+      "operation_order": [
+        "map complete first-piece warning",
+        "compare dated second/extra wording",
+        "retain only declared topology without identifying an entrance"
+      ],
+      "output": "A finite topology interpretation, not a derived alternate entrance",
+      "source_evidence": [
+        {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+          "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+        },
+        {
+          "path": "research/sources/maintained-hints__2020-01-14-roses-are-red.png",
+          "sha256": "7f4886a829a682012d9120f2fce923394accade39046e7283d41a3986fea3410"
+        },
+        {
+          "path": "research/artifacts/cycle17/operand-ownership.json",
+          "sha256": "f66dfde3395b9edf008bc06d71be6d611413be8833e6da798f03fba90e958926"
+        },
+        {
+          "path": "research/artifacts/cycle17/door-reference-audit.json",
+          "sha256": "d3fc3ac04aa188e537095bf02691ce9fa30dbe2e44dc6635e42aa6c801031c9f"
+        },
+        {
+          "path": "research/artifacts/cycle18/final-reference-audit-v2.json",
+          "sha256": "bb154ce439a9e2aa92629a68c57486ef88aac81625b77d46a5b6d8552aaee533"
+        }
+      ],
+      "source_locations": [
+        "research/evidence/cycle02/_work__creator_jrk.txt:195",
+        "research/evidence/cycle02/_work__creator_jrk.txt:199",
+        "research/evidence/cycle02/_work__creator_jrk.txt:363",
+        "research/evidence/cycle02/_work__creator_jrk.txt:411",
+        "research/evidence/cycle02/_work__chat_transcript.txt:3941",
+        "research/evidence/cycle02/_work__chat_transcript.txt:9450",
+        "research/evidence/cycle02/_work__chat_transcript.txt:10401",
+        "research/sources/maintained-hints__2020-01-14-roses-are-red.png"
+      ],
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "assumptions": [
+        "The metaphor need not define source dependency edges",
+        "Further exact instructions may be needed to operationalize it"
+      ],
+      "confidence": "MEDIUM conservative semantic reading; UNKNOWN intended structure",
+      "contradictions": [
+        "Repeated source-return and extra-door statements may be operative",
+        "The December2021 reiteration preserves another-door relevance",
+        "A thematic reading does not explain the numeric door groups"
+      ],
+      "edges": [
+        [
+          "door-metaphor",
+          "unspecified-puzzle-structure",
+          "THEMATIC_REFERENCE_WITHOUT_EXECUTABLE_EDGE"
+        ]
+      ],
+      "hypothesis": "Door language is a thematic warning about hidden puzzle structure without specifying a graph operation",
+      "id": "C18-DOOR-THEMATIC",
+      "input": "Original public door statements and one full-warning screenshot",
+      "next_test": "Audit preserved primary page/image references for the exact domain of first-piece and rabbits-nest; distinguish original image, containing webpage and later page labels before any new transformation",
+      "operation_order": [
+        "map complete first-piece warning",
+        "compare dated second/extra wording",
+        "retain only declared topology without identifying an entrance"
+      ],
+      "output": "A finite topology interpretation, not a derived alternate entrance",
+      "source_evidence": [
+        {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+          "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+        },
+        {
+          "path": "research/sources/maintained-hints__2020-01-14-roses-are-red.png",
+          "sha256": "7f4886a829a682012d9120f2fce923394accade39046e7283d41a3986fea3410"
+        },
+        {
+          "path": "research/artifacts/cycle17/operand-ownership.json",
+          "sha256": "f66dfde3395b9edf008bc06d71be6d611413be8833e6da798f03fba90e958926"
+        },
+        {
+          "path": "research/artifacts/cycle17/door-reference-audit.json",
+          "sha256": "d3fc3ac04aa188e537095bf02691ce9fa30dbe2e44dc6635e42aa6c801031c9f"
+        },
+        {
+          "path": "research/artifacts/cycle18/final-reference-audit-v2.json",
+          "sha256": "bb154ce439a9e2aa92629a68c57486ef88aac81625b77d46a5b6d8552aaee533"
+        }
+      ],
+      "source_locations": [
+        "research/evidence/cycle02/_work__creator_jrk.txt:195",
+        "research/evidence/cycle02/_work__creator_jrk.txt:199",
+        "research/evidence/cycle02/_work__creator_jrk.txt:363",
+        "research/evidence/cycle02/_work__creator_jrk.txt:411",
+        "research/evidence/cycle02/_work__chat_transcript.txt:3941",
+        "research/evidence/cycle02/_work__chat_transcript.txt:9450",
+        "research/evidence/cycle02/_work__chat_transcript.txt:10401",
+        "research/sources/maintained-hints__2020-01-14-roses-are-red.png"
+      ],
+      "status": "INCONCLUSIVE"
+    }
+  ],
+  "hypothesis": "Full creator-attributed door statements select serial versus alternative-entrance topology for the intended construction",
+  "id": "C18-DOOR-TOPOLOGY",
+  "input": "Full original first-piece warning, later second/extra-door statements and preserved image",
+  "later_door_source_reused": {
+    "December_reiteration_preserves_relevance": true,
+    "no_numeric_door_interpretation_retested": true,
+    "source": {
+      "path": "research/artifacts/cycle17/door-reference-audit.json",
+      "sha256": "d3fc3ac04aa188e537095bf02691ce9fa30dbe2e44dc6635e42aa6c801031c9f"
+    }
+  },
+  "new_cryptographic_trials": 0,
+  "new_trial_inputs": 0,
+  "next_test": "Perform one bounded primary-source domain audit for first-puzzle-piece/rabbits-nest: exact original webpage image references, preserved original-image region ownership and separate later page headings. Determine which sources are explicitly named or merely inferred; no hidden-system access, image edits, route trials or trial-text generation.",
+  "operation_order": [
+    "validate frozen topology task",
+    "cross-check three original dated bodies",
+    "map four exact public phrase anchors",
+    "identify the full-warning screenshot region",
+    "reuse later door relevance without repeating its date audit",
+    "compare three finite topology readings"
+  ],
+  "output": "Exact source-bound topology constraints and three unresolved semantic graphs",
+  "result": "Full January2020 warning returns to the first puzzle piece and says it may have shown only one door while the rabbits nest may contain more. May second-door and August extra-door statements are later, unnamed and not explicitly the same entrance. Screenshot visibly contains the full warning. This weakens an assumed single serial chain but does not prove a fork or identify source/object/operation/count. Alternative-entrance, serial-stage and thematic readings survive; no alternate source route or container binding derived.",
+  "search_space": {
+    "complete_warning_screenshots": 1,
+    "creator_bodies_cross_checked": 3,
+    "declared_topology_readings": 3,
+    "fixed_public_phrase_anchors": 4,
+    "new_alternate_entry_trials": 0
+  },
+  "source_evidence": [
+    {
+      "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+      "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+    },
+    {
+      "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+      "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+    },
+    {
+      "path": "research/sources/maintained-hints__2020-01-14-roses-are-red.png",
+      "sha256": "7f4886a829a682012d9120f2fce923394accade39046e7283d41a3986fea3410"
+    },
+    {
+      "path": "research/artifacts/cycle17/operand-ownership.json",
+      "sha256": "f66dfde3395b9edf008bc06d71be6d611413be8833e6da798f03fba90e958926"
+    },
+    {
+      "path": "research/artifacts/cycle17/door-reference-audit.json",
+      "sha256": "d3fc3ac04aa188e537095bf02691ce9fa30dbe2e44dc6635e42aa6c801031c9f"
+    },
+    {
+      "path": "research/artifacts/cycle18/final-reference-audit-v2.json",
+      "sha256": "bb154ce439a9e2aa92629a68c57486ef88aac81625b77d46a5b6d8552aaee533"
+    }
+  ],
+  "source_locations": [
+    "research/evidence/cycle02/_work__creator_jrk.txt:195",
+    "research/evidence/cycle02/_work__creator_jrk.txt:199",
+    "research/evidence/cycle02/_work__creator_jrk.txt:363",
+    "research/evidence/cycle02/_work__creator_jrk.txt:411",
+    "research/evidence/cycle02/_work__chat_transcript.txt:3941",
+    "research/evidence/cycle02/_work__chat_transcript.txt:9450",
+    "research/evidence/cycle02/_work__chat_transcript.txt:10401",
+    "research/sources/maintained-hints__2020-01-14-roses-are-red.png"
+  ],
+  "status": "INCONCLUSIVE",
+  "warning_screenshot": {
+    "complete_warning_visible_not_only_three_color_lines": true,
+    "dimensions": [
+      574,
+      262
+    ],
+    "human_visual_locator_xyxy": [
+      67,
+      118,
+      521,
+      163
+    ],
+    "locator_not_OCR_or_source_selection_rule": true,
+    "screenshot_displayed_time_0338_timezone_not_given": true,
+    "source": {
+      "path": "research/sources/maintained-hints__2020-01-14-roses-are-red.png",
+      "sha256": "7f4886a829a682012d9120f2fce923394accade39046e7283d41a3986fea3410"
+    },
+    "visible_public_warning": "It might have shown you only one door, beware that the rabbits nest may contain a whole lot more.",
+    "visible_speaker_admin_label": "Jrk Bgrt/admin",
+    "visible_warning_below_first_piece_return_instruction": true
+  }
+}

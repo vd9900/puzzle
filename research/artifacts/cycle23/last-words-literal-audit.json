@@ -1,0 +1,14 @@
+{
+  "TARGET_MATCH": false,
+  "aes_trials": 216,
+  "bounded_raw_key_slots": 32,
+  "id": "C23-LAST-WORDS-LITERAL-AUDIT",
+  "ledger_sha256": "d46e45b80b484214d4f90e528751671e2ed2f0edea0d9a6ca8552f0bb46c122f",
+  "max_hit_printable_ratio": 0.392405,
+  "meaning": "Every frozen literal form, crypto fingerprint, padding result, structure score, raw-key gate and Boolean target result reproduces without storing secret bytes",
+  "padding_hits": 1,
+  "qualifying_small_blob_hits": 1,
+  "status": "CONFIRMED",
+  "structure_hits": 0,
+  "unique_passwords": 36
+}

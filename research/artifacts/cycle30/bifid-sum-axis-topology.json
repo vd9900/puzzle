@@ -1,0 +1,87 @@
+{
+  "aes_operations": 0,
+  "architecture_discriminator": {
+    "coordinate_plane_paired_column_reduction": "STRONGLY SUPPORTED structurally: all15 groups preserve one exact FAED source column through every Bifid cell and cover all570 output symbols once.",
+    "intended_numeric_sum_or_receiver": "UNKNOWN: topology selects the natural axis but supplies no symbol weights, orientation, normalization, or receiver.",
+    "prior_raw_faed_sum_campaign_equivalence": "REJECTED as an exact formal repeat: no output group has the same letter-count linear form as any tested raw-FAED width15-column or width38-row group.",
+    "serialized_38x15_column_reduction": "WEAK: exact15-item tiling, but every group mixes two FAED source columns because width15 is odd relative to Bifid digraph serialization."
+  },
+  "candidate_lists_generated": 0,
+  "checksum_tests": 0,
+  "date": "2026-10-02",
+  "dependency_topology": {
+    "plane_paired_output_coverage": 570,
+    "plane_paired_single_source_column_groups": 15,
+    "plane_paired_source_columns_zero_based": [[0], [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [12], [13], [14]],
+    "rendered_output_coverage": 570,
+    "rendered_single_source_column_groups": 0,
+    "rendered_source_columns_zero_based": [[0, 7], [0, 8], [1, 8], [1, 9], [2, 9], [2, 10], [3, 10], [3, 11], [4, 11], [4, 12], [5, 12], [5, 13], [6, 13], [6, 14], [7, 14]],
+    "rendered_two_source_column_groups": 15
+  },
+  "exact_remaining_unknown": "No authored evidence selects symbol weights or establishes that the fifteen structural groups are numeric sums, BIP39 indices, or any other receiver type.",
+  "fixed_shapes": {
+    "bifid_even_plane": [19, 15],
+    "bifid_odd_plane": [19, 15],
+    "bifid_serialized": [38, 15],
+    "faed": [38, 15],
+    "groups_per_architecture": 15,
+    "symbols_per_group": 38
+  },
+  "formal_additive_comparison": {
+    "comparisons": {
+      "plane_paired_vs_raw_width15_columns": {
+        "all_pair_equal_groups": 0,
+        "left_groups": 15,
+        "ordered_equal_groups": 0,
+        "right_groups": 15,
+        "symbols_per_group": [38],
+        "whole_vector_multiset_equal": false
+      },
+      "plane_paired_vs_raw_width38_rows": {
+        "all_pair_equal_groups": 0,
+        "left_groups": 15,
+        "ordered_equal_groups": 0,
+        "right_groups": 15,
+        "symbols_per_group": [38],
+        "whole_vector_multiset_equal": false
+      },
+      "plane_paired_vs_rendered": {
+        "all_pair_equal_groups": 0,
+        "left_groups": 15,
+        "ordered_equal_groups": 0,
+        "right_groups": 15,
+        "symbols_per_group": [38],
+        "whole_vector_multiset_equal": false
+      },
+      "rendered_vs_raw_width15_columns": {
+        "all_pair_equal_groups": 0,
+        "left_groups": 15,
+        "ordered_equal_groups": 0,
+        "right_groups": 15,
+        "symbols_per_group": [38],
+        "whole_vector_multiset_equal": false
+      },
+      "rendered_vs_raw_width38_rows": {
+        "all_pair_equal_groups": 0,
+        "left_groups": 15,
+        "ordered_equal_groups": 0,
+        "right_groups": 15,
+        "symbols_per_group": [38],
+        "whole_vector_multiset_equal": false
+      }
+    },
+    "interpretation": "No post-Bifid group equals any raw-FAED group, and the two post-Bifid axes do not equal one another, as formal additive expressions. Special numeric mappings may still collide; none is selected here.",
+    "method": "Represent each group by its 25-component source-keyed-square letter-count vector; equal vectors would give equal sums for every additive symbol mapping.",
+    "numeric_mapping_trials": 0,
+    "numeric_sum_vectors_calculated": 0
+  },
+  "graph_effect": "Refine the missing edge to matrixsumlist semantics plus the paired Bifid even/odd19x15 planes, reduced by their shared15-column axis, leading to an unknown15-item receiver.",
+  "hypothesis": "If matrixsumlist consumes Bifid570 as fifteen groups, the dependency-preserving groups are corresponding columns of its two19x15 coordinate planes, rather than columns of the serialized38x15 rendering.",
+  "id": "C30-BIFID-SUM-AXIS-TOPOLOGY",
+  "invariant": "A Bifid-native downstream column must retain one-to-one lineage to a single width15 FAED source column and cover every output symbol exactly once.",
+  "mnemonic_words_generated": 0,
+  "next_test": "Do not instantiate values. Resume only if source evidence supplies a numeric mapping or a non-cryptographic receiver constraint that can distinguish the remaining interpretations.",
+  "private_key_operations": 0,
+  "seed_derivations": 0,
+  "status": "PROMISING"
+}

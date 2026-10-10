@@ -1,0 +1,62 @@
+{
+  "audited_ledgers": [
+    {
+      "ledger": "research/artifacts/cycle02/C02-INNER-TEXT-bef2940d741e7f7c.jsonl",
+      "ledger_sha256": "adea5af3e399150c43fab4420d677fe45b4bcf75f1377eca986b37c7b721b551",
+      "padding_hits": 113,
+      "recomputed": "Every password, KEY/IV/salt, padding status, hit plaintext, score and structural/target gate",
+      "records": 4914,
+      "targets": {
+        "cosmic-duality": 9828,
+        "phase32-inner": 9828,
+        "salphaseion-small": 9828
+      },
+      "trials": 29484
+    },
+    {
+      "ledger": "research/artifacts/cycle02/joint-aes.jsonl",
+      "ledger_sha256": "8a99dbb1a78e652a2a72a3207380271344f0f45351a388a162380db8ac74b374",
+      "padding_hits": 370,
+      "recomputed": "Every password, KEY/IV/salt, padding status, hit plaintext, score and structural/target gate",
+      "records": 14460,
+      "targets": {
+        "cosmic-duality": 28920,
+        "phase32-inner": 28920,
+        "salphaseion-small": 28920
+      },
+      "trials": 86760
+    },
+    {
+      "ledger": "research/artifacts/cycle02/prime-gap-aes.jsonl",
+      "ledger_sha256": "dec7388d5f7cf815c77a8036e73c1e8476f28ca4c53fc22cbd572474564b3e2c",
+      "padding_hits": 12,
+      "recomputed": "Every password, KEY/IV/salt, padding status, hit plaintext, score and structural/target gate",
+      "records": 567,
+      "targets": {
+        "cosmic-duality": 1134,
+        "phase32-inner": 1134,
+        "salphaseion-small": 1134
+      },
+      "trials": 3402
+    },
+    {
+      "ledger": "research/artifacts/cycle02/paired-aes.jsonl",
+      "ledger_sha256": "44dece8c871a1d1b247823adf249cbc27f93292dd9deccc456646ddbb4027f49",
+      "padding_hits": 235,
+      "recomputed": "Every password, KEY/IV/salt, padding status, hit plaintext, score and structural/target gate",
+      "records": 8856,
+      "targets": {
+        "cosmic-duality": 17712,
+        "phase32-inner": 17712,
+        "salphaseion-small": 17712
+      },
+      "trials": 53136
+    }
+  ],
+  "id": "C02-LEDGER-AUDIT",
+  "meaning": "Confirms reproducibility and ledger accounting, not a solution or exhaustive rejection of other hypotheses",
+  "padding_hits": 730,
+  "status": "CONFIRMED",
+  "total_trials": 172782,
+  "unique_passwords": 28797
+}

@@ -1,0 +1,341 @@
+{
+  "aes_operations": 0,
+  "candidate_material_generated": 0,
+  "classification": {
+    "Architect_words_as_receiver": "WEAK/UNKNOWN; strongest semantic candidate from mention order only",
+    "faed_or_bifid_as_direct14_receiver": "REJECTED",
+    "faed_or_bifid_as_forced15_receiver": "REJECTED without a source-defined15-value producer and operation",
+    "hash_or_password_api_as_receiver": "TYPE-COMPATIBLE NOT BOUND",
+    "independently_specified_receiver": "REJECTED within the preserved corpus",
+    "matrixsumlist_output_consumer": "UNKNOWN",
+    "recovered_exact14_receiver": "REJECTED"
+  },
+  "date": "2026-10-02",
+  "faed_bifid_assessment": {
+    "bifid_plane_shapes": [
+      [
+        19,
+        15
+      ],
+      [
+        19,
+        15
+      ]
+    ],
+    "classification": "STRUCTURALLY FIXED MATRICES, NOT INDEPENDENTLY SPECIFIED RECEIVERS",
+    "faed_shape": [
+      38,
+      15
+    ],
+    "fifteen_column_structure_verified": true,
+    "fourteen_value_input_contract": false,
+    "matrixsumlist_binding": false,
+    "variable_length_input_contract": false
+  },
+  "fixed_shape_candidates": [
+    {
+      "candidate": "original grid row or column slots",
+      "classification": "UPSTREAM/SELF-DOMAIN, NOT A RECEIVER",
+      "explicit_input_contract": false,
+      "independently_downstream_of_matrixsumlist": false,
+      "reason": "The grid is the proposed operand domain itself; no authored feedback edge consumes a derived list.",
+      "shape": [
+        14,
+        14
+      ],
+      "slot_counts": [
+        14,
+        14
+      ]
+    },
+    {
+      "candidate": "joined dbbi/raw-label panel",
+      "classification": "INFERRED UPSTREAM LAYOUT, NOT A RECEIVER",
+      "explicit_input_contract": false,
+      "independently_downstream_of_matrixsumlist": false,
+      "reason": "The13x15 panel is an analyst reconstruction and matrixsumlist is part of its source material.",
+      "shape": [
+        13,
+        15
+      ],
+      "slot_counts": [
+        13,
+        15
+      ]
+    },
+    {
+      "candidate": "faed570 matrix",
+      "classification": "NO DIRECT14-SLOT CONTRACT",
+      "explicit_input_contract": false,
+      "independently_downstream_of_matrixsumlist": false,
+      "reason": "Its derived axes are38 and15. Source adjacency supplies no add/select/reorder operation.",
+      "shape": [
+        38,
+        15
+      ],
+      "slot_counts": [
+        38,
+        15
+      ]
+    },
+    {
+      "candidate": "Bifid coordinate planes",
+      "classification": "NO DIRECT14-SLOT CONTRACT",
+      "copies": 2,
+      "explicit_input_contract": false,
+      "independently_downstream_of_matrixsumlist": false,
+      "reason": "Each plane has19 rows and15 columns. The recovered Bifid transform consumes faed plus its fixed square, not a sum list.",
+      "shape": [
+        19,
+        15
+      ],
+      "slot_counts": [
+        19,
+        15
+      ]
+    },
+    {
+      "candidate": "source-keyed Bifid square",
+      "classification": "OCCUPIED INPUT CONTRACT",
+      "explicit_input_contract": true,
+      "independently_downstream_of_matrixsumlist": false,
+      "reason": "The square is already deterministically supplied by dbbi first-occurrence order; replacing it would discard the verified dependency.",
+      "shape": [
+        5,
+        5
+      ],
+      "slot_counts": [
+        25
+      ]
+    }
+  ],
+  "fixed_shape_independent_direct14_receivers": [],
+  "graph_effect": "Keep matrixsumlist -> unknown consumer. Retain a dashed WEAK mention-order edge to lastwordsbeforearchichoice; remove any asserted matrixsumlist -> FAED/Bifid or14->15 edge.",
+  "hypothesis": "At least one recovered object independently specifies a receiver contract for a matrixsumlist output, including a14-value list or a genuinely bound variable-length input.",
+  "id": "C35-MATRIXSUMLIST-RECEIVER-AUDIT",
+  "invariant": "A receiver must be downstream independently of the proposed producer and specify accepted type/cardinality plus assignment semantics; equal size or a generic variable-byte API is insufficient.",
+  "next_test": "No further receiver test is justified from current objects. Resume only if new source evidence names a receiver or supplies an input contract; then test that single edge without dimension-forcing or cryptographic execution.",
+  "numeric_mapping_trials": 0,
+  "numeric_sum_vectors_calculated": 0,
+  "ordered_hint_successor": {
+    "from": "matrixsumlist",
+    "reason": "The next clue names a word-selection problem but supplies no source, choice anchor, count, boundaries, or mapping from a numeric list.",
+    "receiver_edge": "UNKNOWN",
+    "relationship": "VERIFIED MENTION ORDER",
+    "to": "lastwordsbeforearchichoice"
+  },
+  "private_key_operations": 0,
+  "recovered_objects": {
+    "count": 14,
+    "exact_size14_objects": [],
+    "matrixsumlist_known_downstream_consumers": [],
+    "objects": [
+      {
+        "id": "dbbi91",
+        "known_downstream_consumers": [
+          "frozen prime parse",
+          "source-derived Bifid square"
+        ],
+        "size": 91,
+        "type": "source-letter-stream",
+        "unit": "ASCII characters"
+      },
+      {
+        "id": "matrix104",
+        "known_downstream_consumers": [
+          "matrixsumlist label",
+          "continued prime-marker positions89/97"
+        ],
+        "size": 104,
+        "type": "binary",
+        "unit": "bits"
+      },
+      {
+        "id": "matrixsumlist",
+        "known_downstream_consumers": [],
+        "size": 13,
+        "type": "instruction-or-object-label",
+        "unit": "ASCII characters"
+      },
+      {
+        "id": "frame25",
+        "known_downstream_consumers": [
+          "conditional alignment control"
+        ],
+        "size": 25,
+        "type": "binary",
+        "unit": "bits"
+      },
+      {
+        "id": "residual60",
+        "known_downstream_consumers": [],
+        "size": 60,
+        "type": "source-letter-stream",
+        "unit": "ASCII characters"
+      },
+      {
+        "id": "faed570",
+        "known_downstream_consumers": [
+          "frozen Bifid transformation"
+        ],
+        "size": 570,
+        "type": "source-letter-stream",
+        "unit": "ASCII characters"
+      },
+      {
+        "id": "Bifid570",
+        "known_downstream_consumers": [],
+        "size": 570,
+        "type": "derived-letter-stream",
+        "unit": "ASCII characters"
+      },
+      {
+        "id": "btcseed",
+        "known_downstream_consumers": [],
+        "size": 7,
+        "type": "recognized-prefix",
+        "unit": "ASCII characters"
+      },
+      {
+        "id": "Bifid-body563",
+        "known_downstream_consumers": [],
+        "size": 563,
+        "type": "derived-letter-stream",
+        "unit": "ASCII characters"
+      },
+      {
+        "id": "speech1539",
+        "known_downstream_consumers": [
+          "mapped words/references; selector unknown"
+        ],
+        "size": 1539,
+        "type": "edited-narrative-text",
+        "unit": "ASCII characters"
+      },
+      {
+        "id": "checker149",
+        "known_downstream_consumers": [
+          "frozen straddling checkerboard"
+        ],
+        "size": 149,
+        "type": "decimal-prefix-code",
+        "unit": "ASCII characters"
+      },
+      {
+        "id": "checkertext91",
+        "known_downstream_consumers": [],
+        "size": 91,
+        "type": "decoded-public-text",
+        "unit": "ASCII characters"
+      },
+      {
+        "id": "SMALL",
+        "known_downstream_consumers": [],
+        "size": 128,
+        "type": "salted-envelope-base64",
+        "unit": "ASCII characters"
+      },
+      {
+        "id": "inner-envelope",
+        "known_downstream_consumers": [],
+        "size": 128,
+        "type": "salted-envelope-base64",
+        "unit": "ASCII characters"
+      }
+    ]
+  },
+  "result": "No recovered object independently specifies a receiver for matrixsumlist output. There is no exact14-item recovered receiver. FAED/Bifid have fixed15-column geometry but no14-value port, no variable-length port, and no authored operation. Architect-word selection is the strongest semantic successor, yet all four of its source/count/boundary bindings remain missing. Hash/password APIs accept arbitrary bytes and therefore cannot discriminate the intended output.",
+  "source_evidence": [
+    {
+      "path": "research/artifacts/cycle22/architecture-reconstruction-v3.json",
+      "sha256": "1f36ad3ac5046951766444071060aa2bc9033460e04196d8a2471fbf899dc46e"
+    },
+    {
+      "path": "research/artifacts/cycle24/matrix-width-interface.json",
+      "sha256": "1c1cca45458ca0600b22061aa890232d26d807b7c708e0580a130445ff42f6df"
+    },
+    {
+      "path": "research/artifacts/cycle17/operand-ownership.json",
+      "sha256": "f66dfde3395b9edf008bc06d71be6d611413be8833e6da798f03fba90e958926"
+    },
+    {
+      "path": "research/artifacts/cycle11/hint-instruction-order.json",
+      "sha256": "05a3ad4ec7ed7572f1223fb90c97612caa4fde6ffc199baeebdcd1794d74150d"
+    },
+    {
+      "path": "research/artifacts/cycle34/matrixsumlist-wording-audit.json",
+      "sha256": "64be416d063dea4b0282fb1ad5bb24d2f13eded324ca3a4b053be9fb23d58753"
+    }
+  ],
+  "status": "REJECTED",
+  "variable_length_candidates": [
+    {
+      "accepts_variable_count_or_indices": true,
+      "candidate": "lastwordsbeforearchichoice / Architect selection",
+      "classification": "WEAK/UNKNOWN POSSIBLE SEMANTIC RECEIVER",
+      "explicit_matrixsumlist_binding": false,
+      "independent_source_identity": false,
+      "support": "It is the next named clue in the verified February2023 mention order.",
+      "unresolved_contract": [
+        "source_identity",
+        "choice_anchor",
+        "word_count",
+        "word_boundaries"
+      ]
+    },
+    {
+      "accepts_variable_bytes": true,
+      "candidate": "first SHA input",
+      "classification": "TYPE-COMPATIBLE, NOT BOUND",
+      "explicit_matrixsumlist_binding": false,
+      "independent_source_identity": false,
+      "support": "A local SHA operator exists later in the primary source.",
+      "unresolved_contract": [
+        "input_identity",
+        "input_representation",
+        "output_consumer"
+      ]
+    },
+    {
+      "accepts_variable_bytes": true,
+      "candidate": "answer SHA input",
+      "classification": "TYPE-COMPATIBLE, NOT BOUND",
+      "explicit_matrixsumlist_binding": false,
+      "independent_source_identity": false,
+      "support": "A second local SHA operator exists after the embedded container.",
+      "unresolved_contract": [
+        "answer_identity",
+        "answer_representation",
+        "output_consumer"
+      ]
+    },
+    {
+      "accepts_variable_bytes": true,
+      "candidate": "password/hash byte API",
+      "classification": "TYPE_COMPATIBLE_NOT_BOUND",
+      "explicit_matrixsumlist_binding": false,
+      "independent_source_identity": false,
+      "support": "Variable-length byte input accepts all sizes; compatibility provides no input-selection evidence",
+      "unresolved_contract": [
+        "input identity",
+        "representation",
+        "target association"
+      ]
+    },
+    {
+      "accepts_variable_bytes": null,
+      "candidate": "yinyang",
+      "classification": "UNTYPED LABEL, NOT A RECEIVER CONTRACT",
+      "explicit_matrixsumlist_binding": false,
+      "independent_source_identity": false,
+      "support": "It follows the Architect clue in mention order but has no recovered typed interface.",
+      "unresolved_contract": [
+        "object type",
+        "input type",
+        "operation",
+        "consumer"
+      ]
+    }
+  ],
+  "variable_length_explicitly_bound_receivers": []
+}

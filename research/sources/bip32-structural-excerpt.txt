@@ -1,0 +1,6 @@
+Source: https://raw.githubusercontent.com/bitcoin/bips/master/bip-0032.mediawiki
+Retrieved UTC: 2026-10-01T20:08:44Z
+Full upstream SHA-256: e5e00a8289db2f681052cf24a745320afc225e66b25d1e489a7c884d2fc7f11f
+Purpose: structural format constraints only; no seed, key, or address derivation.
+
+Generate a seed byte sequence S of a chosen length between 128 and 512 bits; 256 bits is advised.

@@ -1,0 +1,58 @@
+# chunk02 supplement: address-chained / OP_RETURN-text brainwallet candidates (from the chunk's on-chain discussion) and '#'-prefixed lines dropped as comments
+1GyT5WrLYpwFkuiVoPDJZa1Q6jtjbjuBff
+18CchrjA3Uzfrzy4DFqao9ric6YfK4hjdc
+1K23RS1y2fnuZRkhw5nUpFr5Jk5WN11Zeq
+1AD2wfwXukZ1kUAy848hTQQ72aSBZPB75r
+1M5ypvDbp124ZtKPbg3GJg1JqNs1x7TPoN
+13HGhjkmKUkP8sk9k63BLmhkxRjy7uK4Rp
+148XH2YBmLr4oAJXQcG84FpNYoBmqnVPHQ
+1NULY7DhzuNvSDtPkFzNo6oRTZQWBqXNE9
+1G1kRAFR68y6CUq1SAJMzHmjd6sEEgtVUT
+16eEXbSuKN8tvcos1iKjdju6dAaWWRBMEs
+1KHMK2C8uBptRz67FbrXy43yHzhZG16Hbm
+1PhXF3xVQ8Sg9FomBcmRwRbvvGfm3Y2os1
+3GSMG24TujqfMJG1kQoBX18DzJHQLeJYMK
+17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa
+1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa
+17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe
+1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe
+bitcoin:1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe
+gsmg.io/1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe
+GSMG1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe
+GSMGIO1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe
+GSMG.io: do you beleive me you need it?
+do you beleive me you need it?
+doyoubeleivemeyouneedit
+do you believe me you need it?
+doyoubelievemeyouneedit
+GSMG.io: part of the cipher
+part of the cipher
+partofthecipher
+Good job, Neo!
+goodjobneo
+Good job Neo
+GSMG.io: Good job, Neo!
+Halving
+halving
+GSMG.io: Halving
+GSMG.io neighbors, half and double
+neighbors, half and double
+neighborshalfanddouble
+half and double
+halfanddouble
+GSMG.io: Right, this is causality
+Right, this is causality
+GSMG.io: are you sure?
+GSMG.io: You are here because 227 chars were correct
+You are here because 227 chars were correct
+GSMG.io: phase3.2 pass OK
+phase3.2 pass OK
+GSMG.io:
+GSMG.io
+you need it
+youneedit
+beleive
+believe
+X2SH4Y0QB15#
+FEFEFE#
+X 2 S H 4 Y 0 Q B 15 #

@@ -1,0 +1,49 @@
+{
+  "audited_ledgers": [
+    {
+      "ledger": "research/artifacts/cycle04/ranked-alphabet-aes.jsonl",
+      "ledger_sha256": "173aaff3f3d66991bd42031206c089b6c29b9ce5d93f7cd3a4824a0013ba71f9",
+      "padding_hits": 67,
+      "recomputed": "Every password, KEY/IV/salt, padding status, hit plaintext, score and structural/target gate",
+      "records": 2496,
+      "targets": {
+        "cosmic-duality": 4992,
+        "phase32-inner": 4992,
+        "salphaseion-small": 4992
+      },
+      "trials": 14976
+    },
+    {
+      "ledger": "research/artifacts/cycle04/bifid-material-aes.jsonl",
+      "ledger_sha256": "22edad32812b26375713fa84494de0c9adf2a47ef21d8c47da4806db9ba3dda7",
+      "padding_hits": 3,
+      "recomputed": "Every password, KEY/IV/salt, padding status, hit plaintext, score and structural/target gate",
+      "records": 54,
+      "targets": {
+        "cosmic-duality": 108,
+        "phase32-inner": 108,
+        "salphaseion-small": 108
+      },
+      "trials": 324
+    },
+    {
+      "ledger": "research/artifacts/cycle04/hash-composition-aes.jsonl",
+      "ledger_sha256": "56621b13e8d7ca5af300cd686bc9180667f5b4a4b45178f77c0d668e7d109d76",
+      "padding_hits": 6,
+      "recomputed": "Every password, KEY/IV/salt, padding status, hit plaintext, score and structural/target gate",
+      "records": 360,
+      "targets": {
+        "cosmic-duality": 720,
+        "phase32-inner": 720,
+        "salphaseion-small": 720
+      },
+      "trials": 2160
+    }
+  ],
+  "id": "C02-LEDGER-AUDIT",
+  "meaning": "Confirms reproducibility and ledger accounting, not a solution or exhaustive rejection of other hypotheses",
+  "padding_hits": 76,
+  "status": "CONFIRMED",
+  "total_trials": 17460,
+  "unique_passwords": 2910
+}

@@ -1,0 +1,4009 @@
+{
+  "candidate_fingerprints": [
+    "07d2091b8686dee77408d6e4cb16b8049b3df33e2a5146f516965d8922488de0",
+    "0b18094559a255ee695ab9c8539c2171c60627a52ce08bd55af00c3c56142666",
+    "152179e12a4123506da534b2c685d56714995fbba85f44ade17b236144d47b25",
+    "1cda8451377a0ed6c6e4978ee7903cd86afcbbf3372946fc9a89afcf3e056817",
+    "312db1cac07ea93a7cc6c12d6f485e2c5ddbcc875ebdefae5e2e0fde44b9fec9",
+    "3181d2b8e1aae0beb102029397f4767778304bbd65d7146bd1973f375c533477",
+    "35bde83e1d1cc753f71e0ffae4b9a9cf03fab25e907602fb383e0013d4ec32b9",
+    "37089970d88e5cab2f41c9179e48ed1d8760f0c7aa61d66f3230d47e9ca9ca46",
+    "48ce0e064f3f045fd4cb7621e60353ac429909fdd768b98e4a2a188433b2a7b7",
+    "6045da991233a3adc1d8ed875cdfb239b92a0a3ea71af2c80db2480d1ead4de6",
+    "66987416060459ad5b3a19c338378dfc615f445fca77a09e736d3b33effa547f",
+    "66d6787aca59e47709a9e029c3953d3b21da78fdaf2256cc818eb880d61b6e89",
+    "6894c2497a3b7f6f45ca562286fe7454a88b9fd093e4f128c6db30325cba0aea",
+    "6a700571fdda9cfb53a9a2b5a004c955f32edf7937bd5edb1e409d902f5abec9",
+    "6f22a6862cc76697cc078548a2b13612ba68d728378280c9815fa1698213647f",
+    "751a86b4b82b28acd1638ed5595a533dc4d589b27db1c2c6462caa0cc3bce2a5",
+    "76b6eb6dc98e658062844c8b39bc608a01968982ba958ef798f7972a2c6e465a",
+    "77bec17dc0cd27bb6e4c17f377ff9b3346b4ad537b47f380153b48d9f3b1a4a5",
+    "8f8149987a20a5512d46dd62617bedc36aebaa8eccccdc1bac1e2a5de1a3cfad",
+    "91950ede81a9c44e006da988f2c526969994ad1609c49eeb2e352282adcd0111",
+    "9556126d1bc0fbec6acde1cb48d37497077a3ab8123fd2864fb08f9ea62838b5",
+    "986f6a6e32e3c10158bdff6908820ba7f05dadba999c7b9619a776c80e6dc8d6",
+    "9db3625aba38664fadfd7c5c3dce4f4cd5cef9d8bfddc22dbdf8925ca16326d9",
+    "a83f4b6ea11a0d643e6b795450e1e2059d642d4e84912c9c707565ef5f00dff4",
+    "a961236efc82d6715e7bb3f07e6bb8e2803856f35b10386a4ccc8813b83e8b25",
+    "b04828bcebbd9a52151505e0addd2497aba9b4e67496f909f01699352c9a6941",
+    "b05f093b3ec711fd1953821bb3292b4882d6a8f93b72331d57c7063e576f7bd5",
+    "b2af61ef6495c46d028f886987c53b4299da56c40dd7ef568ac6a73645e8d3d4",
+    "b451e7bc640a6c51e2c6c70b71ff0f97afc4dd2eadfaf15ad6b6af6de4d404b3",
+    "bd6273e7a4e0a6faa00b77caacf943ff04361635c516d4771b79efa6693c6997",
+    "bdcba4bf5bc8909c1f96a72bfb602d5574c2630d013a8c0fa15cfdac7db50717",
+    "c07c95a12906ece1bfe87ac8ba0692de420edb54aafc54c8c30d197da54e47dd",
+    "c52d32baad03b1ee7029a0bd2e120cdb38fb566bb633427a6d4f535c4beff92d",
+    "c587ea5ad52e397c32c791ab1fd82e35cea8f17a78d313946fe72cf2ceb33748",
+    "c87fccc8ffd7f31ccd0fd9a783281769f298cf1e4d59e37fadfac898fc5b91e1",
+    "ca35b055b2902e8db27491502d87c31f4c3cb4291f6125db4460d6447570c721",
+    "d1c60a7d2c94b4508ca2e0e183dd15b003b26b4633d90a0fbf668261e0324d6a",
+    "d6a7db682f59248b620c4af35260a190741452e3405d9506beae7dd955247cda",
+    "d88fc11001ebfff36e85f94c10659f3fde9a9c356b6af7d66e02d01347affd2f",
+    "da2b20a0b5b878a57ff95ca380f5d26f6f47a0d773689f49fc7c728c3792188c",
+    "dd1a3b2669748b8eea70c9a24988f193992567f1306e9826f3e46374ea5474ba",
+    "e9c620c04b92c73a4ea121474d762ee1be9d71fa3450cd3b66fdd52356e75a9c",
+    "f401078c5ccb431e21bd0efe383a17bb9cfdcf04b6b62cabb16cb8bcee282a3b",
+    "f41d4cf0b4529e76ea54956f344be5c465208ea823673fa525a6b80ae28671f9",
+    "f96e62699bb3f41e56f1da82aaf5f85552c587ff5e324b6b1a4987edee8a0099",
+    "ffe2d4f93471763c8bbe1ef611066d3c52d39b762c4db6ebbe1fbcf79404325b"
+  ],
+  "candidate_set_sha256": "7b6e73574d98d551af2f4b292edf451794c8fefc3ff54f047d4eed653846ee93",
+  "forms": [
+    {
+      "complete_inverse_round_trip": true,
+      "fingerprint_policy": "Domain-separated output fingerprint does not disclose the hash used as a candidate password",
+      "output_fingerprint": "77af58629a5334010c4433b8945896a34c95f352e645286379e369617660de83",
+      "output_length": 563,
+      "parameters": {
+        "axis_sums": [
+          6,
+          10,
+          8,
+          7,
+          6,
+          6,
+          5,
+          4,
+          9,
+          9,
+          7,
+          8,
+          7,
+          9
+        ],
+        "body_length": 563,
+        "columnar_direction": "encrypt",
+        "header_preserved_outside_route": true,
+        "matrix_provenance": [
+          {
+            "axis": "rows",
+            "matrix": "original-near-white-0",
+            "reverse": false,
+            "shape": [
+              14,
+              14
+            ]
+          }
+        ],
+        "password_transform": "sha256-lowerhex; same representation as independently verified earlier AES stages",
+        "source": "exact source-keyed Bifid570 then unchanged7-character btcseed header/body split",
+        "stable_column_order_zero_based": [
+          7,
+          6,
+          0,
+          4,
+          5,
+          3,
+          10,
+          12,
+          2,
+          11,
+          8,
+          9,
+          13,
+          1
+        ]
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 563,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.001783,
+        "longest_printable_run": 563,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "complete_inverse_round_trip": true,
+      "fingerprint_policy": "Domain-separated output fingerprint does not disclose the hash used as a candidate password",
+      "output_fingerprint": "e83117c2389accc5d152a31a72f0287e279c8ee69ae6ed2872d3d51676e14d03",
+      "output_length": 563,
+      "parameters": {
+        "axis_sums": [
+          6,
+          10,
+          8,
+          7,
+          6,
+          6,
+          5,
+          4,
+          9,
+          9,
+          7,
+          8,
+          7,
+          9
+        ],
+        "body_length": 563,
+        "columnar_direction": "decrypt",
+        "header_preserved_outside_route": true,
+        "matrix_provenance": [
+          {
+            "axis": "rows",
+            "matrix": "original-near-white-0",
+            "reverse": false,
+            "shape": [
+              14,
+              14
+            ]
+          }
+        ],
+        "password_transform": "sha256-lowerhex; same representation as independently verified earlier AES stages",
+        "source": "exact source-keyed Bifid570 then unchanged7-character btcseed header/body split",
+        "stable_column_order_zero_based": [
+          7,
+          6,
+          0,
+          4,
+          5,
+          3,
+          10,
+          12,
+          2,
+          11,
+          8,
+          9,
+          13,
+          1
+        ]
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 563,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.003565,
+        "longest_printable_run": 563,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "complete_inverse_round_trip": true,
+      "fingerprint_policy": "Domain-separated output fingerprint does not disclose the hash used as a candidate password",
+      "output_fingerprint": "fde6d38659161bbb58119fb45a222a2eafd3cbbec2cfe4d7a5d6dc4440231ef6",
+      "output_length": 563,
+      "parameters": {
+        "axis_sums": [
+          9,
+          7,
+          8,
+          7,
+          9,
+          9,
+          4,
+          5,
+          6,
+          6,
+          7,
+          8,
+          10,
+          6
+        ],
+        "body_length": 563,
+        "columnar_direction": "encrypt",
+        "header_preserved_outside_route": true,
+        "matrix_provenance": [
+          {
+            "axis": "rows",
+            "matrix": "original-near-white-0",
+            "reverse": true,
+            "shape": [
+              14,
+              14
+            ]
+          }
+        ],
+        "password_transform": "sha256-lowerhex; same representation as independently verified earlier AES stages",
+        "source": "exact source-keyed Bifid570 then unchanged7-character btcseed header/body split",
+        "stable_column_order_zero_based": [
+          6,
+          7,
+          8,
+          9,
+          13,
+          1,
+          3,
+          10,
+          2,
+          11,
+          0,
+          4,
+          5,
+          12
+        ]
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 563,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.001783,
+        "longest_printable_run": 563,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "complete_inverse_round_trip": true,
+      "fingerprint_policy": "Domain-separated output fingerprint does not disclose the hash used as a candidate password",
+      "output_fingerprint": "1d11c198d7ba4f05cfd82d48581ee85b486ac9be0bb394460679e3a54f60abd9",
+      "output_length": 563,
+      "parameters": {
+        "axis_sums": [
+          9,
+          7,
+          8,
+          7,
+          9,
+          9,
+          4,
+          5,
+          6,
+          6,
+          7,
+          8,
+          10,
+          6
+        ],
+        "body_length": 563,
+        "columnar_direction": "decrypt",
+        "header_preserved_outside_route": true,
+        "matrix_provenance": [
+          {
+            "axis": "rows",
+            "matrix": "original-near-white-0",
+            "reverse": true,
+            "shape": [
+              14,
+              14
+            ]
+          }
+        ],
+        "password_transform": "sha256-lowerhex; same representation as independently verified earlier AES stages",
+        "source": "exact source-keyed Bifid570 then unchanged7-character btcseed header/body split",
+        "stable_column_order_zero_based": [
+          6,
+          7,
+          8,
+          9,
+          13,
+          1,
+          3,
+          10,
+          2,
+          11,
+          0,
+          4,
+          5,
+          12
+        ]
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 563,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.003565,
+        "longest_printable_run": 563,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "complete_inverse_round_trip": true,
+      "fingerprint_policy": "Domain-separated output fingerprint does not disclose the hash used as a candidate password",
+      "output_fingerprint": "2ece4775dd0eec269a0d6e0163005251b2c6ba266279a5b2ee645f83a000d6a4",
+      "output_length": 563,
+      "parameters": {
+        "axis_sums": [
+          8,
+          10,
+          8,
+          10,
+          8,
+          7,
+          3,
+          6,
+          7,
+          5,
+          9,
+          6,
+          6,
+          8
+        ],
+        "body_length": 563,
+        "columnar_direction": "encrypt",
+        "header_preserved_outside_route": true,
+        "matrix_provenance": [
+          {
+            "axis": "columns",
+            "matrix": "original-near-white-0",
+            "reverse": false,
+            "shape": [
+              14,
+              14
+            ]
+          }
+        ],
+        "password_transform": "sha256-lowerhex; same representation as independently verified earlier AES stages",
+        "source": "exact source-keyed Bifid570 then unchanged7-character btcseed header/body split",
+        "stable_column_order_zero_based": [
+          6,
+          9,
+          7,
+          11,
+          12,
+          5,
+          8,
+          0,
+          2,
+          4,
+          13,
+          10,
+          1,
+          3
+        ]
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 563,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.001783,
+        "longest_printable_run": 563,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "complete_inverse_round_trip": true,
+      "fingerprint_policy": "Domain-separated output fingerprint does not disclose the hash used as a candidate password",
+      "output_fingerprint": "9c79d16b6da7e616d8f5e3142a437aec2c5c05c8c51340dba330c39e4c7443ae",
+      "output_length": 563,
+      "parameters": {
+        "axis_sums": [
+          8,
+          10,
+          8,
+          10,
+          8,
+          7,
+          3,
+          6,
+          7,
+          5,
+          9,
+          6,
+          6,
+          8
+        ],
+        "body_length": 563,
+        "columnar_direction": "decrypt",
+        "header_preserved_outside_route": true,
+        "matrix_provenance": [
+          {
+            "axis": "columns",
+            "matrix": "original-near-white-0",
+            "reverse": false,
+            "shape": [
+              14,
+              14
+            ]
+          }
+        ],
+        "password_transform": "sha256-lowerhex; same representation as independently verified earlier AES stages",
+        "source": "exact source-keyed Bifid570 then unchanged7-character btcseed header/body split",
+        "stable_column_order_zero_based": [
+          6,
+          9,
+          7,
+          11,
+          12,
+          5,
+          8,
+          0,
+          2,
+          4,
+          13,
+          10,
+          1,
+          3
+        ]
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 563,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 563,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "complete_inverse_round_trip": true,
+      "fingerprint_policy": "Domain-separated output fingerprint does not disclose the hash used as a candidate password",
+      "output_fingerprint": "9c8d3b4f00110704245a7f71d4a57bc507c1e9505beb6fe985234113102f3b04",
+      "output_length": 563,
+      "parameters": {
+        "axis_sums": [
+          8,
+          6,
+          6,
+          9,
+          5,
+          7,
+          6,
+          3,
+          7,
+          8,
+          10,
+          8,
+          10,
+          8
+        ],
+        "body_length": 563,
+        "columnar_direction": "encrypt",
+        "header_preserved_outside_route": true,
+        "matrix_provenance": [
+          {
+            "axis": "columns",
+            "matrix": "original-near-white-0",
+            "reverse": true,
+            "shape": [
+              14,
+              14
+            ]
+          }
+        ],
+        "password_transform": "sha256-lowerhex; same representation as independently verified earlier AES stages",
+        "source": "exact source-keyed Bifid570 then unchanged7-character btcseed header/body split",
+        "stable_column_order_zero_based": [
+          7,
+          4,
+          1,
+          2,
+          6,
+          5,
+          8,
+          0,
+          9,
+          11,
+          13,
+          3,
+          10,
+          12
+        ]
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 563,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.001783,
+        "longest_printable_run": 563,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "complete_inverse_round_trip": true,
+      "fingerprint_policy": "Domain-separated output fingerprint does not disclose the hash used as a candidate password",
+      "output_fingerprint": "80407be0a323a85280699a744dc49661c673910553bb3e12c353ab09bda7ad72",
+      "output_length": 563,
+      "parameters": {
+        "axis_sums": [
+          8,
+          6,
+          6,
+          9,
+          5,
+          7,
+          6,
+          3,
+          7,
+          8,
+          10,
+          8,
+          10,
+          8
+        ],
+        "body_length": 563,
+        "columnar_direction": "decrypt",
+        "header_preserved_outside_route": true,
+        "matrix_provenance": [
+          {
+            "axis": "columns",
+            "matrix": "original-near-white-0",
+            "reverse": true,
+            "shape": [
+              14,
+              14
+            ]
+          }
+        ],
+        "password_transform": "sha256-lowerhex; same representation as independently verified earlier AES stages",
+        "source": "exact source-keyed Bifid570 then unchanged7-character btcseed header/body split",
+        "stable_column_order_zero_based": [
+          7,
+          4,
+          1,
+          2,
+          6,
+          5,
+          8,
+          0,
+          9,
+          11,
+          13,
+          3,
+          10,
+          12
+        ]
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 563,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 563,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "complete_inverse_round_trip": true,
+      "fingerprint_policy": "Domain-separated output fingerprint does not disclose the hash used as a candidate password",
+      "output_fingerprint": "3c7553f6514337135a5f84be5fff0a41cdbdd183d945cd83fbe95dfd875401ac",
+      "output_length": 563,
+      "parameters": {
+        "axis_sums": [
+          6,
+          10,
+          8,
+          7,
+          6,
+          6,
+          5,
+          4,
+          9,
+          9,
+          7,
+          8,
+          7,
+          9,
+          8,
+          10,
+          8,
+          10,
+          8,
+          7,
+          3,
+          6,
+          7,
+          5,
+          9,
+          6,
+          6,
+          8
+        ],
+        "body_length": 563,
+        "columnar_direction": "encrypt",
+        "header_preserved_outside_route": true,
+        "matrix_provenance": [
+          {
+            "axis": "rows-then-columns",
+            "matrix": "original-near-white-0",
+            "reverse": false,
+            "shape": [
+              14,
+              14
+            ]
+          }
+        ],
+        "password_transform": "sha256-lowerhex; same representation as independently verified earlier AES stages",
+        "source": "exact source-keyed Bifid570 then unchanged7-character btcseed header/body split",
+        "stable_column_order_zero_based": [
+          20,
+          7,
+          6,
+          23,
+          0,
+          4,
+          5,
+          21,
+          25,
+          26,
+          3,
+          10,
+          12,
+          19,
+          22,
+          2,
+          11,
+          14,
+          16,
+          18,
+          27,
+          8,
+          9,
+          13,
+          24,
+          1,
+          15,
+          17
+        ]
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 563,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.001783,
+        "longest_printable_run": 563,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "complete_inverse_round_trip": true,
+      "fingerprint_policy": "Domain-separated output fingerprint does not disclose the hash used as a candidate password",
+      "output_fingerprint": "a023dc66e14904d68e67cea61d15fca872c3a4b640a2dcd48adfd9615d16a5f0",
+      "output_length": 563,
+      "parameters": {
+        "axis_sums": [
+          6,
+          10,
+          8,
+          7,
+          6,
+          6,
+          5,
+          4,
+          9,
+          9,
+          7,
+          8,
+          7,
+          9,
+          8,
+          10,
+          8,
+          10,
+          8,
+          7,
+          3,
+          6,
+          7,
+          5,
+          9,
+          6,
+          6,
+          8
+        ],
+        "body_length": 563,
+        "columnar_direction": "decrypt",
+        "header_preserved_outside_route": true,
+        "matrix_provenance": [
+          {
+            "axis": "rows-then-columns",
+            "matrix": "original-near-white-0",
+            "reverse": false,
+            "shape": [
+              14,
+              14
+            ]
+          }
+        ],
+        "password_transform": "sha256-lowerhex; same representation as independently verified earlier AES stages",
+        "source": "exact source-keyed Bifid570 then unchanged7-character btcseed header/body split",
+        "stable_column_order_zero_based": [
+          20,
+          7,
+          6,
+          23,
+          0,
+          4,
+          5,
+          21,
+          25,
+          26,
+          3,
+          10,
+          12,
+          19,
+          22,
+          2,
+          11,
+          14,
+          16,
+          18,
+          27,
+          8,
+          9,
+          13,
+          24,
+          1,
+          15,
+          17
+        ]
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 563,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.001783,
+        "longest_printable_run": 563,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "complete_inverse_round_trip": true,
+      "fingerprint_policy": "Domain-separated output fingerprint does not disclose the hash used as a candidate password",
+      "output_fingerprint": "d30dfca51a117135ba82cd9986ec195edd198aec045704ecb0072596e1d7688b",
+      "output_length": 563,
+      "parameters": {
+        "axis_sums": [
+          8,
+          6,
+          6,
+          9,
+          5,
+          7,
+          6,
+          3,
+          7,
+          8,
+          10,
+          8,
+          10,
+          8,
+          9,
+          7,
+          8,
+          7,
+          9,
+          9,
+          4,
+          5,
+          6,
+          6,
+          7,
+          8,
+          10,
+          6
+        ],
+        "body_length": 563,
+        "columnar_direction": "encrypt",
+        "header_preserved_outside_route": true,
+        "matrix_provenance": [
+          {
+            "axis": "rows-then-columns",
+            "matrix": "original-near-white-0",
+            "reverse": true,
+            "shape": [
+              14,
+              14
+            ]
+          }
+        ],
+        "password_transform": "sha256-lowerhex; same representation as independently verified earlier AES stages",
+        "source": "exact source-keyed Bifid570 then unchanged7-character btcseed header/body split",
+        "stable_column_order_zero_based": [
+          7,
+          20,
+          4,
+          21,
+          1,
+          2,
+          6,
+          22,
+          23,
+          27,
+          5,
+          8,
+          15,
+          17,
+          24,
+          0,
+          9,
+          11,
+          13,
+          16,
+          25,
+          3,
+          14,
+          18,
+          19,
+          10,
+          12,
+          26
+        ]
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 563,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.001783,
+        "longest_printable_run": 563,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "complete_inverse_round_trip": true,
+      "fingerprint_policy": "Domain-separated output fingerprint does not disclose the hash used as a candidate password",
+      "output_fingerprint": "026fc4cabb5fb49f9bb486460566d2d21c25c7cc1a9a87d5a488ef1f08a62401",
+      "output_length": 563,
+      "parameters": {
+        "axis_sums": [
+          8,
+          6,
+          6,
+          9,
+          5,
+          7,
+          6,
+          3,
+          7,
+          8,
+          10,
+          8,
+          10,
+          8,
+          9,
+          7,
+          8,
+          7,
+          9,
+          9,
+          4,
+          5,
+          6,
+          6,
+          7,
+          8,
+          10,
+          6
+        ],
+        "body_length": 563,
+        "columnar_direction": "decrypt",
+        "header_preserved_outside_route": true,
+        "matrix_provenance": [
+          {
+            "axis": "rows-then-columns",
+            "matrix": "original-near-white-0",
+            "reverse": true,
+            "shape": [
+              14,
+              14
+            ]
+          }
+        ],
+        "password_transform": "sha256-lowerhex; same representation as independently verified earlier AES stages",
+        "source": "exact source-keyed Bifid570 then unchanged7-character btcseed header/body split",
+        "stable_column_order_zero_based": [
+          7,
+          20,
+          4,
+          21,
+          1,
+          2,
+          6,
+          22,
+          23,
+          27,
+          5,
+          8,
+          15,
+          17,
+          24,
+          0,
+          9,
+          11,
+          13,
+          16,
+          25,
+          3,
+          14,
+          18,
+          19,
+          10,
+          12,
+          26
+        ]
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 563,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.001783,
+        "longest_printable_run": 563,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "complete_inverse_round_trip": true,
+      "fingerprint_policy": "Domain-separated output fingerprint does not disclose the hash used as a candidate password",
+      "output_fingerprint": "40bb2eb176963e07e122fb3887764c12a2f995f1db23443a5f54fedb869ae03a",
+      "output_length": 563,
+      "parameters": {
+        "axis_sums": [
+          8,
+          10,
+          8,
+          10,
+          8,
+          7,
+          3,
+          6,
+          7,
+          5,
+          9,
+          6,
+          6,
+          8,
+          6,
+          10,
+          8,
+          7,
+          6,
+          6,
+          5,
+          4,
+          9,
+          9,
+          7,
+          8,
+          7,
+          9
+        ],
+        "body_length": 563,
+        "columnar_direction": "encrypt",
+        "header_preserved_outside_route": true,
+        "matrix_provenance": [
+          {
+            "axis": "columns-then-rows",
+            "matrix": "original-near-white-0",
+            "reverse": false,
+            "shape": [
+              14,
+              14
+            ]
+          }
+        ],
+        "password_transform": "sha256-lowerhex; same representation as independently verified earlier AES stages",
+        "source": "exact source-keyed Bifid570 then unchanged7-character btcseed header/body split",
+        "stable_column_order_zero_based": [
+          6,
+          21,
+          9,
+          20,
+          7,
+          11,
+          12,
+          14,
+          18,
+          19,
+          5,
+          8,
+          17,
+          24,
+          26,
+          0,
+          2,
+          4,
+          13,
+          16,
+          25,
+          10,
+          22,
+          23,
+          27,
+          1,
+          3,
+          15
+        ]
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 563,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.001783,
+        "longest_printable_run": 563,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "complete_inverse_round_trip": true,
+      "fingerprint_policy": "Domain-separated output fingerprint does not disclose the hash used as a candidate password",
+      "output_fingerprint": "c02e875045252fec28382d8fde440effb5e70f2fd83206603a07cd4751df9048",
+      "output_length": 563,
+      "parameters": {
+        "axis_sums": [
+          8,
+          10,
+          8,
+          10,
+          8,
+          7,
+          3,
+          6,
+          7,
+          5,
+          9,
+          6,
+          6,
+          8,
+          6,
+          10,
+          8,
+          7,
+          6,
+          6,
+          5,
+          4,
+          9,
+          9,
+          7,
+          8,
+          7,
+          9
+        ],
+        "body_length": 563,
+        "columnar_direction": "decrypt",
+        "header_preserved_outside_route": true,
+        "matrix_provenance": [
+          {
+            "axis": "columns-then-rows",
+            "matrix": "original-near-white-0",
+            "reverse": false,
+            "shape": [
+              14,
+              14
+            ]
+          }
+        ],
+        "password_transform": "sha256-lowerhex; same representation as independently verified earlier AES stages",
+        "source": "exact source-keyed Bifid570 then unchanged7-character btcseed header/body split",
+        "stable_column_order_zero_based": [
+          6,
+          21,
+          9,
+          20,
+          7,
+          11,
+          12,
+          14,
+          18,
+          19,
+          5,
+          8,
+          17,
+          24,
+          26,
+          0,
+          2,
+          4,
+          13,
+          16,
+          25,
+          10,
+          22,
+          23,
+          27,
+          1,
+          3,
+          15
+        ]
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 563,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.001783,
+        "longest_printable_run": 563,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "complete_inverse_round_trip": true,
+      "fingerprint_policy": "Domain-separated output fingerprint does not disclose the hash used as a candidate password",
+      "output_fingerprint": "4307e47a695f54ae4acbedb7fb7cd62ad88b12fdd8475e2104b9310bf7f7fd2b",
+      "output_length": 563,
+      "parameters": {
+        "axis_sums": [
+          9,
+          7,
+          8,
+          7,
+          9,
+          9,
+          4,
+          5,
+          6,
+          6,
+          7,
+          8,
+          10,
+          6,
+          8,
+          6,
+          6,
+          9,
+          5,
+          7,
+          6,
+          3,
+          7,
+          8,
+          10,
+          8,
+          10,
+          8
+        ],
+        "body_length": 563,
+        "columnar_direction": "encrypt",
+        "header_preserved_outside_route": true,
+        "matrix_provenance": [
+          {
+            "axis": "columns-then-rows",
+            "matrix": "original-near-white-0",
+            "reverse": true,
+            "shape": [
+              14,
+              14
+            ]
+          }
+        ],
+        "password_transform": "sha256-lowerhex; same representation as independently verified earlier AES stages",
+        "source": "exact source-keyed Bifid570 then unchanged7-character btcseed header/body split",
+        "stable_column_order_zero_based": [
+          21,
+          6,
+          7,
+          18,
+          8,
+          9,
+          13,
+          15,
+          16,
+          20,
+          1,
+          3,
+          10,
+          19,
+          22,
+          2,
+          11,
+          14,
+          23,
+          25,
+          27,
+          0,
+          4,
+          5,
+          17,
+          12,
+          24,
+          26
+        ]
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 563,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.001783,
+        "longest_printable_run": 563,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "complete_inverse_round_trip": true,
+      "fingerprint_policy": "Domain-separated output fingerprint does not disclose the hash used as a candidate password",
+      "output_fingerprint": "e6bd8dbdce167d68095ed8e4aa3be82943d1f9344b5547620b8d87831d7137fb",
+      "output_length": 563,
+      "parameters": {
+        "axis_sums": [
+          9,
+          7,
+          8,
+          7,
+          9,
+          9,
+          4,
+          5,
+          6,
+          6,
+          7,
+          8,
+          10,
+          6,
+          8,
+          6,
+          6,
+          9,
+          5,
+          7,
+          6,
+          3,
+          7,
+          8,
+          10,
+          8,
+          10,
+          8
+        ],
+        "body_length": 563,
+        "columnar_direction": "decrypt",
+        "header_preserved_outside_route": true,
+        "matrix_provenance": [
+          {
+            "axis": "columns-then-rows",
+            "matrix": "original-near-white-0",
+            "reverse": true,
+            "shape": [
+              14,
+              14
+            ]
+          }
+        ],
+        "password_transform": "sha256-lowerhex; same representation as independently verified earlier AES stages",
+        "source": "exact source-keyed Bifid570 then unchanged7-character btcseed header/body split",
+        "stable_column_order_zero_based": [
+          21,
+          6,
+          7,
+          18,
+          8,
+          9,
+          13,
+          15,
+          16,
+          20,
+          1,
+          3,
+          10,
+          19,
+          22,
+          2,
+          11,
+          14,
+          23,
+          25,
+          27,
+          0,
+          4,
+          5,
+          17,
+          12,
+          24,
+          26
+        ]
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 563,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 563,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "complete_inverse_round_trip": true,
+      "fingerprint_policy": "Domain-separated output fingerprint does not disclose the hash used as a candidate password",
+      "output_fingerprint": "4452c9e5948cd3d4dcecd82b13b956aead94b0bfe637ff27fdd99c99ad7ca1f6",
+      "output_length": 563,
+      "parameters": {
+        "axis_sums": [
+          6,
+          10,
+          8,
+          7,
+          6,
+          6,
+          5,
+          5,
+          9,
+          9,
+          7,
+          8,
+          7,
+          9
+        ],
+        "body_length": 563,
+        "columnar_direction": "encrypt",
+        "header_preserved_outside_route": true,
+        "matrix_provenance": [
+          {
+            "axis": "rows",
+            "matrix": "explicit-near-white-1",
+            "reverse": false,
+            "shape": [
+              14,
+              14
+            ]
+          }
+        ],
+        "password_transform": "sha256-lowerhex; same representation as independently verified earlier AES stages",
+        "source": "exact source-keyed Bifid570 then unchanged7-character btcseed header/body split",
+        "stable_column_order_zero_based": [
+          6,
+          7,
+          0,
+          4,
+          5,
+          3,
+          10,
+          12,
+          2,
+          11,
+          8,
+          9,
+          13,
+          1
+        ]
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 563,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.001783,
+        "longest_printable_run": 563,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "complete_inverse_round_trip": true,
+      "fingerprint_policy": "Domain-separated output fingerprint does not disclose the hash used as a candidate password",
+      "output_fingerprint": "a3e7efa3bd9aeeeed2406a5c024a2dec4ca69f175967f8401ba0487e78763c1d",
+      "output_length": 563,
+      "parameters": {
+        "axis_sums": [
+          6,
+          10,
+          8,
+          7,
+          6,
+          6,
+          5,
+          5,
+          9,
+          9,
+          7,
+          8,
+          7,
+          9
+        ],
+        "body_length": 563,
+        "columnar_direction": "decrypt",
+        "header_preserved_outside_route": true,
+        "matrix_provenance": [
+          {
+            "axis": "rows",
+            "matrix": "explicit-near-white-1",
+            "reverse": false,
+            "shape": [
+              14,
+              14
+            ]
+          }
+        ],
+        "password_transform": "sha256-lowerhex; same representation as independently verified earlier AES stages",
+        "source": "exact source-keyed Bifid570 then unchanged7-character btcseed header/body split",
+        "stable_column_order_zero_based": [
+          6,
+          7,
+          0,
+          4,
+          5,
+          3,
+          10,
+          12,
+          2,
+          11,
+          8,
+          9,
+          13,
+          1
+        ]
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 563,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.003565,
+        "longest_printable_run": 563,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "complete_inverse_round_trip": true,
+      "fingerprint_policy": "Domain-separated output fingerprint does not disclose the hash used as a candidate password",
+      "output_fingerprint": "fde6d38659161bbb58119fb45a222a2eafd3cbbec2cfe4d7a5d6dc4440231ef6",
+      "output_length": 563,
+      "parameters": {
+        "axis_sums": [
+          9,
+          7,
+          8,
+          7,
+          9,
+          9,
+          5,
+          5,
+          6,
+          6,
+          7,
+          8,
+          10,
+          6
+        ],
+        "body_length": 563,
+        "columnar_direction": "encrypt",
+        "header_preserved_outside_route": true,
+        "matrix_provenance": [
+          {
+            "axis": "rows",
+            "matrix": "explicit-near-white-1",
+            "reverse": true,
+            "shape": [
+              14,
+              14
+            ]
+          }
+        ],
+        "password_transform": "sha256-lowerhex; same representation as independently verified earlier AES stages",
+        "source": "exact source-keyed Bifid570 then unchanged7-character btcseed header/body split",
+        "stable_column_order_zero_based": [
+          6,
+          7,
+          8,
+          9,
+          13,
+          1,
+          3,
+          10,
+          2,
+          11,
+          0,
+          4,
+          5,
+          12
+        ]
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 563,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.001783,
+        "longest_printable_run": 563,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "complete_inverse_round_trip": true,
+      "fingerprint_policy": "Domain-separated output fingerprint does not disclose the hash used as a candidate password",
+      "output_fingerprint": "1d11c198d7ba4f05cfd82d48581ee85b486ac9be0bb394460679e3a54f60abd9",
+      "output_length": 563,
+      "parameters": {
+        "axis_sums": [
+          9,
+          7,
+          8,
+          7,
+          9,
+          9,
+          5,
+          5,
+          6,
+          6,
+          7,
+          8,
+          10,
+          6
+        ],
+        "body_length": 563,
+        "columnar_direction": "decrypt",
+        "header_preserved_outside_route": true,
+        "matrix_provenance": [
+          {
+            "axis": "rows",
+            "matrix": "explicit-near-white-1",
+            "reverse": true,
+            "shape": [
+              14,
+              14
+            ]
+          }
+        ],
+        "password_transform": "sha256-lowerhex; same representation as independently verified earlier AES stages",
+        "source": "exact source-keyed Bifid570 then unchanged7-character btcseed header/body split",
+        "stable_column_order_zero_based": [
+          6,
+          7,
+          8,
+          9,
+          13,
+          1,
+          3,
+          10,
+          2,
+          11,
+          0,
+          4,
+          5,
+          12
+        ]
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 563,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.003565,
+        "longest_printable_run": 563,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "complete_inverse_round_trip": true,
+      "fingerprint_policy": "Domain-separated output fingerprint does not disclose the hash used as a candidate password",
+      "output_fingerprint": "fcba242cb72c14520c6b8a7ad8269ea47b25a479dfd785c91beb6e5d90139be8",
+      "output_length": 563,
+      "parameters": {
+        "axis_sums": [
+          8,
+          10,
+          8,
+          10,
+          9,
+          7,
+          3,
+          6,
+          7,
+          5,
+          9,
+          6,
+          6,
+          8
+        ],
+        "body_length": 563,
+        "columnar_direction": "encrypt",
+        "header_preserved_outside_route": true,
+        "matrix_provenance": [
+          {
+            "axis": "columns",
+            "matrix": "explicit-near-white-1",
+            "reverse": false,
+            "shape": [
+              14,
+              14
+            ]
+          }
+        ],
+        "password_transform": "sha256-lowerhex; same representation as independently verified earlier AES stages",
+        "source": "exact source-keyed Bifid570 then unchanged7-character btcseed header/body split",
+        "stable_column_order_zero_based": [
+          6,
+          9,
+          7,
+          11,
+          12,
+          5,
+          8,
+          0,
+          2,
+          13,
+          4,
+          10,
+          1,
+          3
+        ]
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 563,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.001783,
+        "longest_printable_run": 563,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "complete_inverse_round_trip": true,
+      "fingerprint_policy": "Domain-separated output fingerprint does not disclose the hash used as a candidate password",
+      "output_fingerprint": "f0222402eb77779fbf202a0f0df5fba6f7dcc8466853a0ad1973f6ae855a6c43",
+      "output_length": 563,
+      "parameters": {
+        "axis_sums": [
+          8,
+          10,
+          8,
+          10,
+          9,
+          7,
+          3,
+          6,
+          7,
+          5,
+          9,
+          6,
+          6,
+          8
+        ],
+        "body_length": 563,
+        "columnar_direction": "decrypt",
+        "header_preserved_outside_route": true,
+        "matrix_provenance": [
+          {
+            "axis": "columns",
+            "matrix": "explicit-near-white-1",
+            "reverse": false,
+            "shape": [
+              14,
+              14
+            ]
+          }
+        ],
+        "password_transform": "sha256-lowerhex; same representation as independently verified earlier AES stages",
+        "source": "exact source-keyed Bifid570 then unchanged7-character btcseed header/body split",
+        "stable_column_order_zero_based": [
+          6,
+          9,
+          7,
+          11,
+          12,
+          5,
+          8,
+          0,
+          2,
+          13,
+          4,
+          10,
+          1,
+          3
+        ]
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 563,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 563,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "complete_inverse_round_trip": true,
+      "fingerprint_policy": "Domain-separated output fingerprint does not disclose the hash used as a candidate password",
+      "output_fingerprint": "7af4f636d3753be7bba5f08f97cf3d78d4ab6b976d60ed46cd1f5aa2515a437f",
+      "output_length": 563,
+      "parameters": {
+        "axis_sums": [
+          8,
+          6,
+          6,
+          9,
+          5,
+          7,
+          6,
+          3,
+          7,
+          9,
+          10,
+          8,
+          10,
+          8
+        ],
+        "body_length": 563,
+        "columnar_direction": "encrypt",
+        "header_preserved_outside_route": true,
+        "matrix_provenance": [
+          {
+            "axis": "columns",
+            "matrix": "explicit-near-white-1",
+            "reverse": true,
+            "shape": [
+              14,
+              14
+            ]
+          }
+        ],
+        "password_transform": "sha256-lowerhex; same representation as independently verified earlier AES stages",
+        "source": "exact source-keyed Bifid570 then unchanged7-character btcseed header/body split",
+        "stable_column_order_zero_based": [
+          7,
+          4,
+          1,
+          2,
+          6,
+          5,
+          8,
+          0,
+          11,
+          13,
+          3,
+          9,
+          10,
+          12
+        ]
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 563,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.001783,
+        "longest_printable_run": 563,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "complete_inverse_round_trip": true,
+      "fingerprint_policy": "Domain-separated output fingerprint does not disclose the hash used as a candidate password",
+      "output_fingerprint": "0f9440f0486ea809e6f83bf4536a0d3cc44caa83f66f97dc6f6bccf9ef70fa96",
+      "output_length": 563,
+      "parameters": {
+        "axis_sums": [
+          8,
+          6,
+          6,
+          9,
+          5,
+          7,
+          6,
+          3,
+          7,
+          9,
+          10,
+          8,
+          10,
+          8
+        ],
+        "body_length": 563,
+        "columnar_direction": "decrypt",
+        "header_preserved_outside_route": true,
+        "matrix_provenance": [
+          {
+            "axis": "columns",
+            "matrix": "explicit-near-white-1",
+            "reverse": true,
+            "shape": [
+              14,
+              14
+            ]
+          }
+        ],
+        "password_transform": "sha256-lowerhex; same representation as independently verified earlier AES stages",
+        "source": "exact source-keyed Bifid570 then unchanged7-character btcseed header/body split",
+        "stable_column_order_zero_based": [
+          7,
+          4,
+          1,
+          2,
+          6,
+          5,
+          8,
+          0,
+          11,
+          13,
+          3,
+          9,
+          10,
+          12
+        ]
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 563,
+        "dictionary_coverage": 0.007105,
+        "language_score": 0.0,
+        "longest_printable_run": 563,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {
+          "half": 1
+        },
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "complete_inverse_round_trip": true,
+      "fingerprint_policy": "Domain-separated output fingerprint does not disclose the hash used as a candidate password",
+      "output_fingerprint": "a459c6f411d79bca3fd12150b3d2fac3fda128bbdce551d7fd5ffdc3c915f779",
+      "output_length": 563,
+      "parameters": {
+        "axis_sums": [
+          6,
+          10,
+          8,
+          7,
+          6,
+          6,
+          5,
+          5,
+          9,
+          9,
+          7,
+          8,
+          7,
+          9,
+          8,
+          10,
+          8,
+          10,
+          9,
+          7,
+          3,
+          6,
+          7,
+          5,
+          9,
+          6,
+          6,
+          8
+        ],
+        "body_length": 563,
+        "columnar_direction": "encrypt",
+        "header_preserved_outside_route": true,
+        "matrix_provenance": [
+          {
+            "axis": "rows-then-columns",
+            "matrix": "explicit-near-white-1",
+            "reverse": false,
+            "shape": [
+              14,
+              14
+            ]
+          }
+        ],
+        "password_transform": "sha256-lowerhex; same representation as independently verified earlier AES stages",
+        "source": "exact source-keyed Bifid570 then unchanged7-character btcseed header/body split",
+        "stable_column_order_zero_based": [
+          20,
+          6,
+          7,
+          23,
+          0,
+          4,
+          5,
+          21,
+          25,
+          26,
+          3,
+          10,
+          12,
+          19,
+          22,
+          2,
+          11,
+          14,
+          16,
+          27,
+          8,
+          9,
+          13,
+          18,
+          24,
+          1,
+          15,
+          17
+        ]
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 563,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.001783,
+        "longest_printable_run": 563,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "complete_inverse_round_trip": true,
+      "fingerprint_policy": "Domain-separated output fingerprint does not disclose the hash used as a candidate password",
+      "output_fingerprint": "6cf2ff3e75e2437abc324a2b8b652d5bd86d6ffdf290e5db6eea9ca1f4dbbff5",
+      "output_length": 563,
+      "parameters": {
+        "axis_sums": [
+          6,
+          10,
+          8,
+          7,
+          6,
+          6,
+          5,
+          5,
+          9,
+          9,
+          7,
+          8,
+          7,
+          9,
+          8,
+          10,
+          8,
+          10,
+          9,
+          7,
+          3,
+          6,
+          7,
+          5,
+          9,
+          6,
+          6,
+          8
+        ],
+        "body_length": 563,
+        "columnar_direction": "decrypt",
+        "header_preserved_outside_route": true,
+        "matrix_provenance": [
+          {
+            "axis": "rows-then-columns",
+            "matrix": "explicit-near-white-1",
+            "reverse": false,
+            "shape": [
+              14,
+              14
+            ]
+          }
+        ],
+        "password_transform": "sha256-lowerhex; same representation as independently verified earlier AES stages",
+        "source": "exact source-keyed Bifid570 then unchanged7-character btcseed header/body split",
+        "stable_column_order_zero_based": [
+          20,
+          6,
+          7,
+          23,
+          0,
+          4,
+          5,
+          21,
+          25,
+          26,
+          3,
+          10,
+          12,
+          19,
+          22,
+          2,
+          11,
+          14,
+          16,
+          27,
+          8,
+          9,
+          13,
+          18,
+          24,
+          1,
+          15,
+          17
+        ]
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 563,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 563,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "complete_inverse_round_trip": true,
+      "fingerprint_policy": "Domain-separated output fingerprint does not disclose the hash used as a candidate password",
+      "output_fingerprint": "d67917cf88ffbfc898677014a587fd3bcbfc06d0c4e750840cfeb509a3b9d33a",
+      "output_length": 563,
+      "parameters": {
+        "axis_sums": [
+          8,
+          6,
+          6,
+          9,
+          5,
+          7,
+          6,
+          3,
+          7,
+          9,
+          10,
+          8,
+          10,
+          8,
+          9,
+          7,
+          8,
+          7,
+          9,
+          9,
+          5,
+          5,
+          6,
+          6,
+          7,
+          8,
+          10,
+          6
+        ],
+        "body_length": 563,
+        "columnar_direction": "encrypt",
+        "header_preserved_outside_route": true,
+        "matrix_provenance": [
+          {
+            "axis": "rows-then-columns",
+            "matrix": "explicit-near-white-1",
+            "reverse": true,
+            "shape": [
+              14,
+              14
+            ]
+          }
+        ],
+        "password_transform": "sha256-lowerhex; same representation as independently verified earlier AES stages",
+        "source": "exact source-keyed Bifid570 then unchanged7-character btcseed header/body split",
+        "stable_column_order_zero_based": [
+          7,
+          4,
+          20,
+          21,
+          1,
+          2,
+          6,
+          22,
+          23,
+          27,
+          5,
+          8,
+          15,
+          17,
+          24,
+          0,
+          11,
+          13,
+          16,
+          25,
+          3,
+          9,
+          14,
+          18,
+          19,
+          10,
+          12,
+          26
+        ]
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 563,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.001783,
+        "longest_printable_run": 563,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "complete_inverse_round_trip": true,
+      "fingerprint_policy": "Domain-separated output fingerprint does not disclose the hash used as a candidate password",
+      "output_fingerprint": "a4d04397c207bf336ef158afc91c2af6b0721c27da75feeeccb377cfaf2e2c10",
+      "output_length": 563,
+      "parameters": {
+        "axis_sums": [
+          8,
+          6,
+          6,
+          9,
+          5,
+          7,
+          6,
+          3,
+          7,
+          9,
+          10,
+          8,
+          10,
+          8,
+          9,
+          7,
+          8,
+          7,
+          9,
+          9,
+          5,
+          5,
+          6,
+          6,
+          7,
+          8,
+          10,
+          6
+        ],
+        "body_length": 563,
+        "columnar_direction": "decrypt",
+        "header_preserved_outside_route": true,
+        "matrix_provenance": [
+          {
+            "axis": "rows-then-columns",
+            "matrix": "explicit-near-white-1",
+            "reverse": true,
+            "shape": [
+              14,
+              14
+            ]
+          }
+        ],
+        "password_transform": "sha256-lowerhex; same representation as independently verified earlier AES stages",
+        "source": "exact source-keyed Bifid570 then unchanged7-character btcseed header/body split",
+        "stable_column_order_zero_based": [
+          7,
+          4,
+          20,
+          21,
+          1,
+          2,
+          6,
+          22,
+          23,
+          27,
+          5,
+          8,
+          15,
+          17,
+          24,
+          0,
+          11,
+          13,
+          16,
+          25,
+          3,
+          9,
+          14,
+          18,
+          19,
+          10,
+          12,
+          26
+        ]
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 563,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.003565,
+        "longest_printable_run": 563,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "complete_inverse_round_trip": true,
+      "fingerprint_policy": "Domain-separated output fingerprint does not disclose the hash used as a candidate password",
+      "output_fingerprint": "8bc423230b71fad0c0562894f44bc11e5b6ec30dc273308f42e5c7fc32ae7ac5",
+      "output_length": 563,
+      "parameters": {
+        "axis_sums": [
+          8,
+          10,
+          8,
+          10,
+          9,
+          7,
+          3,
+          6,
+          7,
+          5,
+          9,
+          6,
+          6,
+          8,
+          6,
+          10,
+          8,
+          7,
+          6,
+          6,
+          5,
+          5,
+          9,
+          9,
+          7,
+          8,
+          7,
+          9
+        ],
+        "body_length": 563,
+        "columnar_direction": "encrypt",
+        "header_preserved_outside_route": true,
+        "matrix_provenance": [
+          {
+            "axis": "columns-then-rows",
+            "matrix": "explicit-near-white-1",
+            "reverse": false,
+            "shape": [
+              14,
+              14
+            ]
+          }
+        ],
+        "password_transform": "sha256-lowerhex; same representation as independently verified earlier AES stages",
+        "source": "exact source-keyed Bifid570 then unchanged7-character btcseed header/body split",
+        "stable_column_order_zero_based": [
+          6,
+          9,
+          20,
+          21,
+          7,
+          11,
+          12,
+          14,
+          18,
+          19,
+          5,
+          8,
+          17,
+          24,
+          26,
+          0,
+          2,
+          13,
+          16,
+          25,
+          4,
+          10,
+          22,
+          23,
+          27,
+          1,
+          3,
+          15
+        ]
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 563,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.001783,
+        "longest_printable_run": 563,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "complete_inverse_round_trip": true,
+      "fingerprint_policy": "Domain-separated output fingerprint does not disclose the hash used as a candidate password",
+      "output_fingerprint": "9635391927112fb27d9c12da155375ae426ac9dda02f9d56e45d547df7aa8132",
+      "output_length": 563,
+      "parameters": {
+        "axis_sums": [
+          8,
+          10,
+          8,
+          10,
+          9,
+          7,
+          3,
+          6,
+          7,
+          5,
+          9,
+          6,
+          6,
+          8,
+          6,
+          10,
+          8,
+          7,
+          6,
+          6,
+          5,
+          5,
+          9,
+          9,
+          7,
+          8,
+          7,
+          9
+        ],
+        "body_length": 563,
+        "columnar_direction": "decrypt",
+        "header_preserved_outside_route": true,
+        "matrix_provenance": [
+          {
+            "axis": "columns-then-rows",
+            "matrix": "explicit-near-white-1",
+            "reverse": false,
+            "shape": [
+              14,
+              14
+            ]
+          }
+        ],
+        "password_transform": "sha256-lowerhex; same representation as independently verified earlier AES stages",
+        "source": "exact source-keyed Bifid570 then unchanged7-character btcseed header/body split",
+        "stable_column_order_zero_based": [
+          6,
+          9,
+          20,
+          21,
+          7,
+          11,
+          12,
+          14,
+          18,
+          19,
+          5,
+          8,
+          17,
+          24,
+          26,
+          0,
+          2,
+          13,
+          16,
+          25,
+          4,
+          10,
+          22,
+          23,
+          27,
+          1,
+          3,
+          15
+        ]
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 563,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 563,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "complete_inverse_round_trip": true,
+      "fingerprint_policy": "Domain-separated output fingerprint does not disclose the hash used as a candidate password",
+      "output_fingerprint": "65446af3d2f527fad11b14cb1e6b5c4456bd892236a82b79bc6ed2e75b22e48d",
+      "output_length": 563,
+      "parameters": {
+        "axis_sums": [
+          9,
+          7,
+          8,
+          7,
+          9,
+          9,
+          5,
+          5,
+          6,
+          6,
+          7,
+          8,
+          10,
+          6,
+          8,
+          6,
+          6,
+          9,
+          5,
+          7,
+          6,
+          3,
+          7,
+          9,
+          10,
+          8,
+          10,
+          8
+        ],
+        "body_length": 563,
+        "columnar_direction": "encrypt",
+        "header_preserved_outside_route": true,
+        "matrix_provenance": [
+          {
+            "axis": "columns-then-rows",
+            "matrix": "explicit-near-white-1",
+            "reverse": true,
+            "shape": [
+              14,
+              14
+            ]
+          }
+        ],
+        "password_transform": "sha256-lowerhex; same representation as independently verified earlier AES stages",
+        "source": "exact source-keyed Bifid570 then unchanged7-character btcseed header/body split",
+        "stable_column_order_zero_based": [
+          21,
+          6,
+          7,
+          18,
+          8,
+          9,
+          13,
+          15,
+          16,
+          20,
+          1,
+          3,
+          10,
+          19,
+          22,
+          2,
+          11,
+          14,
+          25,
+          27,
+          0,
+          4,
+          5,
+          17,
+          23,
+          12,
+          24,
+          26
+        ]
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 563,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.001783,
+        "longest_printable_run": 563,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "complete_inverse_round_trip": true,
+      "fingerprint_policy": "Domain-separated output fingerprint does not disclose the hash used as a candidate password",
+      "output_fingerprint": "d1c90b3f756feb1a2e6fc8b21c4b17d02dcc8491ef795dc312bb42f60978d496",
+      "output_length": 563,
+      "parameters": {
+        "axis_sums": [
+          9,
+          7,
+          8,
+          7,
+          9,
+          9,
+          5,
+          5,
+          6,
+          6,
+          7,
+          8,
+          10,
+          6,
+          8,
+          6,
+          6,
+          9,
+          5,
+          7,
+          6,
+          3,
+          7,
+          9,
+          10,
+          8,
+          10,
+          8
+        ],
+        "body_length": 563,
+        "columnar_direction": "decrypt",
+        "header_preserved_outside_route": true,
+        "matrix_provenance": [
+          {
+            "axis": "columns-then-rows",
+            "matrix": "explicit-near-white-1",
+            "reverse": true,
+            "shape": [
+              14,
+              14
+            ]
+          }
+        ],
+        "password_transform": "sha256-lowerhex; same representation as independently verified earlier AES stages",
+        "source": "exact source-keyed Bifid570 then unchanged7-character btcseed header/body split",
+        "stable_column_order_zero_based": [
+          21,
+          6,
+          7,
+          18,
+          8,
+          9,
+          13,
+          15,
+          16,
+          20,
+          1,
+          3,
+          10,
+          19,
+          22,
+          2,
+          11,
+          14,
+          25,
+          27,
+          0,
+          4,
+          5,
+          17,
+          23,
+          12,
+          24,
+          26
+        ]
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 563,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 563,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "complete_inverse_round_trip": true,
+      "fingerprint_policy": "Domain-separated output fingerprint does not disclose the hash used as a candidate password",
+      "output_fingerprint": "17cbe7a9fdcefe2a3cfcbb533555bf8df5ceba077b1b4e621209653c834b2cf9",
+      "output_length": 563,
+      "parameters": {
+        "axis_sums": [
+          6,
+          10,
+          7,
+          6,
+          6,
+          5,
+          4,
+          8,
+          8,
+          7,
+          8,
+          6,
+          8
+        ],
+        "body_length": 563,
+        "columnar_direction": "encrypt",
+        "header_preserved_outside_route": true,
+        "matrix_provenance": [
+          {
+            "axis": "rows",
+            "matrix": "omit-near-white-row-column",
+            "reverse": false,
+            "shape": [
+              13,
+              13
+            ]
+          }
+        ],
+        "password_transform": "sha256-lowerhex; same representation as independently verified earlier AES stages",
+        "source": "exact source-keyed Bifid570 then unchanged7-character btcseed header/body split",
+        "stable_column_order_zero_based": [
+          6,
+          5,
+          0,
+          3,
+          4,
+          11,
+          2,
+          9,
+          7,
+          8,
+          10,
+          12,
+          1
+        ]
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 563,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.001783,
+        "longest_printable_run": 563,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "complete_inverse_round_trip": true,
+      "fingerprint_policy": "Domain-separated output fingerprint does not disclose the hash used as a candidate password",
+      "output_fingerprint": "90d70e8666cc7b11f6061150341c2607bd7891c82221d94a028d8b4033145fed",
+      "output_length": 563,
+      "parameters": {
+        "axis_sums": [
+          6,
+          10,
+          7,
+          6,
+          6,
+          5,
+          4,
+          8,
+          8,
+          7,
+          8,
+          6,
+          8
+        ],
+        "body_length": 563,
+        "columnar_direction": "decrypt",
+        "header_preserved_outside_route": true,
+        "matrix_provenance": [
+          {
+            "axis": "rows",
+            "matrix": "omit-near-white-row-column",
+            "reverse": false,
+            "shape": [
+              13,
+              13
+            ]
+          }
+        ],
+        "password_transform": "sha256-lowerhex; same representation as independently verified earlier AES stages",
+        "source": "exact source-keyed Bifid570 then unchanged7-character btcseed header/body split",
+        "stable_column_order_zero_based": [
+          6,
+          5,
+          0,
+          3,
+          4,
+          11,
+          2,
+          9,
+          7,
+          8,
+          10,
+          12,
+          1
+        ]
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 563,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 563,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "complete_inverse_round_trip": true,
+      "fingerprint_policy": "Domain-separated output fingerprint does not disclose the hash used as a candidate password",
+      "output_fingerprint": "0e8066fb18db7232445c949b177249b2c3f3a295eecb62cbcdacf6e15bf0e628",
+      "output_length": 563,
+      "parameters": {
+        "axis_sums": [
+          8,
+          6,
+          8,
+          7,
+          8,
+          8,
+          4,
+          5,
+          6,
+          6,
+          7,
+          10,
+          6
+        ],
+        "body_length": 563,
+        "columnar_direction": "encrypt",
+        "header_preserved_outside_route": true,
+        "matrix_provenance": [
+          {
+            "axis": "rows",
+            "matrix": "omit-near-white-row-column",
+            "reverse": true,
+            "shape": [
+              13,
+              13
+            ]
+          }
+        ],
+        "password_transform": "sha256-lowerhex; same representation as independently verified earlier AES stages",
+        "source": "exact source-keyed Bifid570 then unchanged7-character btcseed header/body split",
+        "stable_column_order_zero_based": [
+          6,
+          7,
+          1,
+          8,
+          9,
+          12,
+          3,
+          10,
+          0,
+          2,
+          4,
+          5,
+          11
+        ]
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 563,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.001783,
+        "longest_printable_run": 563,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "complete_inverse_round_trip": true,
+      "fingerprint_policy": "Domain-separated output fingerprint does not disclose the hash used as a candidate password",
+      "output_fingerprint": "2b6dce6bb606a4c3736cd95247341f2311d8a730ecaffda8815f41a9956064ed",
+      "output_length": 563,
+      "parameters": {
+        "axis_sums": [
+          8,
+          6,
+          8,
+          7,
+          8,
+          8,
+          4,
+          5,
+          6,
+          6,
+          7,
+          10,
+          6
+        ],
+        "body_length": 563,
+        "columnar_direction": "decrypt",
+        "header_preserved_outside_route": true,
+        "matrix_provenance": [
+          {
+            "axis": "rows",
+            "matrix": "omit-near-white-row-column",
+            "reverse": true,
+            "shape": [
+              13,
+              13
+            ]
+          }
+        ],
+        "password_transform": "sha256-lowerhex; same representation as independently verified earlier AES stages",
+        "source": "exact source-keyed Bifid570 then unchanged7-character btcseed header/body split",
+        "stable_column_order_zero_based": [
+          6,
+          7,
+          1,
+          8,
+          9,
+          12,
+          3,
+          10,
+          0,
+          2,
+          4,
+          5,
+          11
+        ]
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 563,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 563,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "complete_inverse_round_trip": true,
+      "fingerprint_policy": "Domain-separated output fingerprint does not disclose the hash used as a candidate password",
+      "output_fingerprint": "550088ae47f30fc362b5162bed378f30a5f3015bb6cce948e1254fe89f3d987d",
+      "output_length": 563,
+      "parameters": {
+        "axis_sums": [
+          7,
+          9,
+          7,
+          10,
+          7,
+          3,
+          6,
+          7,
+          5,
+          8,
+          6,
+          6,
+          8
+        ],
+        "body_length": 563,
+        "columnar_direction": "encrypt",
+        "header_preserved_outside_route": true,
+        "matrix_provenance": [
+          {
+            "axis": "columns",
+            "matrix": "omit-near-white-row-column",
+            "reverse": false,
+            "shape": [
+              13,
+              13
+            ]
+          }
+        ],
+        "password_transform": "sha256-lowerhex; same representation as independently verified earlier AES stages",
+        "source": "exact source-keyed Bifid570 then unchanged7-character btcseed header/body split",
+        "stable_column_order_zero_based": [
+          5,
+          8,
+          6,
+          10,
+          11,
+          0,
+          2,
+          4,
+          7,
+          9,
+          12,
+          1,
+          3
+        ]
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 563,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.001783,
+        "longest_printable_run": 563,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "complete_inverse_round_trip": true,
+      "fingerprint_policy": "Domain-separated output fingerprint does not disclose the hash used as a candidate password",
+      "output_fingerprint": "55a2ff647d6a3ffcfca3c4a332290511460c0ce7292d30bd0ca2701ea6bd50f1",
+      "output_length": 563,
+      "parameters": {
+        "axis_sums": [
+          7,
+          9,
+          7,
+          10,
+          7,
+          3,
+          6,
+          7,
+          5,
+          8,
+          6,
+          6,
+          8
+        ],
+        "body_length": 563,
+        "columnar_direction": "decrypt",
+        "header_preserved_outside_route": true,
+        "matrix_provenance": [
+          {
+            "axis": "columns",
+            "matrix": "omit-near-white-row-column",
+            "reverse": false,
+            "shape": [
+              13,
+              13
+            ]
+          }
+        ],
+        "password_transform": "sha256-lowerhex; same representation as independently verified earlier AES stages",
+        "source": "exact source-keyed Bifid570 then unchanged7-character btcseed header/body split",
+        "stable_column_order_zero_based": [
+          5,
+          8,
+          6,
+          10,
+          11,
+          0,
+          2,
+          4,
+          7,
+          9,
+          12,
+          1,
+          3
+        ]
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 563,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 563,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "complete_inverse_round_trip": true,
+      "fingerprint_policy": "Domain-separated output fingerprint does not disclose the hash used as a candidate password",
+      "output_fingerprint": "b5b0e5cd7d282cc12c63920ace595976fef2a049b69ed3a4148ddca82506d255",
+      "output_length": 563,
+      "parameters": {
+        "axis_sums": [
+          8,
+          6,
+          6,
+          8,
+          5,
+          7,
+          6,
+          3,
+          7,
+          10,
+          7,
+          9,
+          7
+        ],
+        "body_length": 563,
+        "columnar_direction": "encrypt",
+        "header_preserved_outside_route": true,
+        "matrix_provenance": [
+          {
+            "axis": "columns",
+            "matrix": "omit-near-white-row-column",
+            "reverse": true,
+            "shape": [
+              13,
+              13
+            ]
+          }
+        ],
+        "password_transform": "sha256-lowerhex; same representation as independently verified earlier AES stages",
+        "source": "exact source-keyed Bifid570 then unchanged7-character btcseed header/body split",
+        "stable_column_order_zero_based": [
+          7,
+          4,
+          1,
+          2,
+          6,
+          5,
+          8,
+          10,
+          12,
+          0,
+          3,
+          11,
+          9
+        ]
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 563,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.001783,
+        "longest_printable_run": 563,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "complete_inverse_round_trip": true,
+      "fingerprint_policy": "Domain-separated output fingerprint does not disclose the hash used as a candidate password",
+      "output_fingerprint": "276d772879f114c2118ceb31453af83ec2cc9635628ab01d35969c4009fd9359",
+      "output_length": 563,
+      "parameters": {
+        "axis_sums": [
+          8,
+          6,
+          6,
+          8,
+          5,
+          7,
+          6,
+          3,
+          7,
+          10,
+          7,
+          9,
+          7
+        ],
+        "body_length": 563,
+        "columnar_direction": "decrypt",
+        "header_preserved_outside_route": true,
+        "matrix_provenance": [
+          {
+            "axis": "columns",
+            "matrix": "omit-near-white-row-column",
+            "reverse": true,
+            "shape": [
+              13,
+              13
+            ]
+          }
+        ],
+        "password_transform": "sha256-lowerhex; same representation as independently verified earlier AES stages",
+        "source": "exact source-keyed Bifid570 then unchanged7-character btcseed header/body split",
+        "stable_column_order_zero_based": [
+          7,
+          4,
+          1,
+          2,
+          6,
+          5,
+          8,
+          10,
+          12,
+          0,
+          3,
+          11,
+          9
+        ]
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 563,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 563,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "complete_inverse_round_trip": true,
+      "fingerprint_policy": "Domain-separated output fingerprint does not disclose the hash used as a candidate password",
+      "output_fingerprint": "14a97e6e56912f264a8c467ee7424b3f2fdc85409f494cc17934fbea195b345b",
+      "output_length": 563,
+      "parameters": {
+        "axis_sums": [
+          6,
+          10,
+          7,
+          6,
+          6,
+          5,
+          4,
+          8,
+          8,
+          7,
+          8,
+          6,
+          8,
+          7,
+          9,
+          7,
+          10,
+          7,
+          3,
+          6,
+          7,
+          5,
+          8,
+          6,
+          6,
+          8
+        ],
+        "body_length": 563,
+        "columnar_direction": "encrypt",
+        "header_preserved_outside_route": true,
+        "matrix_provenance": [
+          {
+            "axis": "rows-then-columns",
+            "matrix": "omit-near-white-row-column",
+            "reverse": false,
+            "shape": [
+              13,
+              13
+            ]
+          }
+        ],
+        "password_transform": "sha256-lowerhex; same representation as independently verified earlier AES stages",
+        "source": "exact source-keyed Bifid570 then unchanged7-character btcseed header/body split",
+        "stable_column_order_zero_based": [
+          18,
+          6,
+          5,
+          21,
+          0,
+          3,
+          4,
+          11,
+          19,
+          23,
+          24,
+          2,
+          9,
+          13,
+          15,
+          17,
+          20,
+          7,
+          8,
+          10,
+          12,
+          22,
+          25,
+          14,
+          1,
+          16
+        ]
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 563,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.001783,
+        "longest_printable_run": 563,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "complete_inverse_round_trip": true,
+      "fingerprint_policy": "Domain-separated output fingerprint does not disclose the hash used as a candidate password",
+      "output_fingerprint": "a713850ec5c3982543e6de7735ac8e9fbe7ebabeb9db36e68cc99e31a1fc5845",
+      "output_length": 563,
+      "parameters": {
+        "axis_sums": [
+          6,
+          10,
+          7,
+          6,
+          6,
+          5,
+          4,
+          8,
+          8,
+          7,
+          8,
+          6,
+          8,
+          7,
+          9,
+          7,
+          10,
+          7,
+          3,
+          6,
+          7,
+          5,
+          8,
+          6,
+          6,
+          8
+        ],
+        "body_length": 563,
+        "columnar_direction": "decrypt",
+        "header_preserved_outside_route": true,
+        "matrix_provenance": [
+          {
+            "axis": "rows-then-columns",
+            "matrix": "omit-near-white-row-column",
+            "reverse": false,
+            "shape": [
+              13,
+              13
+            ]
+          }
+        ],
+        "password_transform": "sha256-lowerhex; same representation as independently verified earlier AES stages",
+        "source": "exact source-keyed Bifid570 then unchanged7-character btcseed header/body split",
+        "stable_column_order_zero_based": [
+          18,
+          6,
+          5,
+          21,
+          0,
+          3,
+          4,
+          11,
+          19,
+          23,
+          24,
+          2,
+          9,
+          13,
+          15,
+          17,
+          20,
+          7,
+          8,
+          10,
+          12,
+          22,
+          25,
+          14,
+          1,
+          16
+        ]
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 563,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 563,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "complete_inverse_round_trip": true,
+      "fingerprint_policy": "Domain-separated output fingerprint does not disclose the hash used as a candidate password",
+      "output_fingerprint": "93d89f4638759984df309e7770b5b95c3bf3d28299095a4b99442c177dae2f68",
+      "output_length": 563,
+      "parameters": {
+        "axis_sums": [
+          8,
+          6,
+          6,
+          8,
+          5,
+          7,
+          6,
+          3,
+          7,
+          10,
+          7,
+          9,
+          7,
+          8,
+          6,
+          8,
+          7,
+          8,
+          8,
+          4,
+          5,
+          6,
+          6,
+          7,
+          10,
+          6
+        ],
+        "body_length": 563,
+        "columnar_direction": "encrypt",
+        "header_preserved_outside_route": true,
+        "matrix_provenance": [
+          {
+            "axis": "rows-then-columns",
+            "matrix": "omit-near-white-row-column",
+            "reverse": true,
+            "shape": [
+              13,
+              13
+            ]
+          }
+        ],
+        "password_transform": "sha256-lowerhex; same representation as independently verified earlier AES stages",
+        "source": "exact source-keyed Bifid570 then unchanged7-character btcseed header/body split",
+        "stable_column_order_zero_based": [
+          7,
+          19,
+          4,
+          20,
+          1,
+          2,
+          6,
+          14,
+          21,
+          22,
+          25,
+          5,
+          8,
+          10,
+          12,
+          16,
+          23,
+          0,
+          3,
+          13,
+          15,
+          17,
+          18,
+          11,
+          9,
+          24
+        ]
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 563,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.001783,
+        "longest_printable_run": 563,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "complete_inverse_round_trip": true,
+      "fingerprint_policy": "Domain-separated output fingerprint does not disclose the hash used as a candidate password",
+      "output_fingerprint": "f7c3c9f0a9afc9b203eaca65470514dd1b7e11e9a44f17b9ade5be708bd95351",
+      "output_length": 563,
+      "parameters": {
+        "axis_sums": [
+          8,
+          6,
+          6,
+          8,
+          5,
+          7,
+          6,
+          3,
+          7,
+          10,
+          7,
+          9,
+          7,
+          8,
+          6,
+          8,
+          7,
+          8,
+          8,
+          4,
+          5,
+          6,
+          6,
+          7,
+          10,
+          6
+        ],
+        "body_length": 563,
+        "columnar_direction": "decrypt",
+        "header_preserved_outside_route": true,
+        "matrix_provenance": [
+          {
+            "axis": "rows-then-columns",
+            "matrix": "omit-near-white-row-column",
+            "reverse": true,
+            "shape": [
+              13,
+              13
+            ]
+          }
+        ],
+        "password_transform": "sha256-lowerhex; same representation as independently verified earlier AES stages",
+        "source": "exact source-keyed Bifid570 then unchanged7-character btcseed header/body split",
+        "stable_column_order_zero_based": [
+          7,
+          19,
+          4,
+          20,
+          1,
+          2,
+          6,
+          14,
+          21,
+          22,
+          25,
+          5,
+          8,
+          10,
+          12,
+          16,
+          23,
+          0,
+          3,
+          13,
+          15,
+          17,
+          18,
+          11,
+          9,
+          24
+        ]
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 563,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 563,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "complete_inverse_round_trip": true,
+      "fingerprint_policy": "Domain-separated output fingerprint does not disclose the hash used as a candidate password",
+      "output_fingerprint": "65273dfc76499439fd0e4fb656b3a01dfb6732aac0ef658cbe9f0897811994fa",
+      "output_length": 563,
+      "parameters": {
+        "axis_sums": [
+          7,
+          9,
+          7,
+          10,
+          7,
+          3,
+          6,
+          7,
+          5,
+          8,
+          6,
+          6,
+          8,
+          6,
+          10,
+          7,
+          6,
+          6,
+          5,
+          4,
+          8,
+          8,
+          7,
+          8,
+          6,
+          8
+        ],
+        "body_length": 563,
+        "columnar_direction": "encrypt",
+        "header_preserved_outside_route": true,
+        "matrix_provenance": [
+          {
+            "axis": "columns-then-rows",
+            "matrix": "omit-near-white-row-column",
+            "reverse": false,
+            "shape": [
+              13,
+              13
+            ]
+          }
+        ],
+        "password_transform": "sha256-lowerhex; same representation as independently verified earlier AES stages",
+        "source": "exact source-keyed Bifid570 then unchanged7-character btcseed header/body split",
+        "stable_column_order_zero_based": [
+          5,
+          19,
+          8,
+          18,
+          6,
+          10,
+          11,
+          13,
+          16,
+          17,
+          24,
+          0,
+          2,
+          4,
+          7,
+          15,
+          22,
+          9,
+          12,
+          20,
+          21,
+          23,
+          25,
+          1,
+          3,
+          14
+        ]
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 563,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.001783,
+        "longest_printable_run": 563,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "complete_inverse_round_trip": true,
+      "fingerprint_policy": "Domain-separated output fingerprint does not disclose the hash used as a candidate password",
+      "output_fingerprint": "3cb17c9f3f8a0a488f8eabaf5795db5fc4886689c87c6c248a6b23e02edb2c20",
+      "output_length": 563,
+      "parameters": {
+        "axis_sums": [
+          7,
+          9,
+          7,
+          10,
+          7,
+          3,
+          6,
+          7,
+          5,
+          8,
+          6,
+          6,
+          8,
+          6,
+          10,
+          7,
+          6,
+          6,
+          5,
+          4,
+          8,
+          8,
+          7,
+          8,
+          6,
+          8
+        ],
+        "body_length": 563,
+        "columnar_direction": "decrypt",
+        "header_preserved_outside_route": true,
+        "matrix_provenance": [
+          {
+            "axis": "columns-then-rows",
+            "matrix": "omit-near-white-row-column",
+            "reverse": false,
+            "shape": [
+              13,
+              13
+            ]
+          }
+        ],
+        "password_transform": "sha256-lowerhex; same representation as independently verified earlier AES stages",
+        "source": "exact source-keyed Bifid570 then unchanged7-character btcseed header/body split",
+        "stable_column_order_zero_based": [
+          5,
+          19,
+          8,
+          18,
+          6,
+          10,
+          11,
+          13,
+          16,
+          17,
+          24,
+          0,
+          2,
+          4,
+          7,
+          15,
+          22,
+          9,
+          12,
+          20,
+          21,
+          23,
+          25,
+          1,
+          3,
+          14
+        ]
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 563,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 563,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "complete_inverse_round_trip": true,
+      "fingerprint_policy": "Domain-separated output fingerprint does not disclose the hash used as a candidate password",
+      "output_fingerprint": "6507f2322bed97f08716d8c42b93fa13b63d4a7326572eb944eea9dad6db9aee",
+      "output_length": 563,
+      "parameters": {
+        "axis_sums": [
+          8,
+          6,
+          8,
+          7,
+          8,
+          8,
+          4,
+          5,
+          6,
+          6,
+          7,
+          10,
+          6,
+          8,
+          6,
+          6,
+          8,
+          5,
+          7,
+          6,
+          3,
+          7,
+          10,
+          7,
+          9,
+          7
+        ],
+        "body_length": 563,
+        "columnar_direction": "encrypt",
+        "header_preserved_outside_route": true,
+        "matrix_provenance": [
+          {
+            "axis": "columns-then-rows",
+            "matrix": "omit-near-white-row-column",
+            "reverse": true,
+            "shape": [
+              13,
+              13
+            ]
+          }
+        ],
+        "password_transform": "sha256-lowerhex; same representation as independently verified earlier AES stages",
+        "source": "exact source-keyed Bifid570 then unchanged7-character btcseed header/body split",
+        "stable_column_order_zero_based": [
+          20,
+          6,
+          7,
+          17,
+          1,
+          8,
+          9,
+          12,
+          14,
+          15,
+          19,
+          3,
+          10,
+          18,
+          21,
+          23,
+          25,
+          0,
+          2,
+          4,
+          5,
+          13,
+          16,
+          24,
+          11,
+          22
+        ]
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 563,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.001783,
+        "longest_printable_run": 563,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "complete_inverse_round_trip": true,
+      "fingerprint_policy": "Domain-separated output fingerprint does not disclose the hash used as a candidate password",
+      "output_fingerprint": "4a7b78ebcec5e0afa6b64a0ec69334579199e548e8cb92eb3e5380863f31db29",
+      "output_length": 563,
+      "parameters": {
+        "axis_sums": [
+          8,
+          6,
+          8,
+          7,
+          8,
+          8,
+          4,
+          5,
+          6,
+          6,
+          7,
+          10,
+          6,
+          8,
+          6,
+          6,
+          8,
+          5,
+          7,
+          6,
+          3,
+          7,
+          10,
+          7,
+          9,
+          7
+        ],
+        "body_length": 563,
+        "columnar_direction": "decrypt",
+        "header_preserved_outside_route": true,
+        "matrix_provenance": [
+          {
+            "axis": "columns-then-rows",
+            "matrix": "omit-near-white-row-column",
+            "reverse": true,
+            "shape": [
+              13,
+              13
+            ]
+          }
+        ],
+        "password_transform": "sha256-lowerhex; same representation as independently verified earlier AES stages",
+        "source": "exact source-keyed Bifid570 then unchanged7-character btcseed header/body split",
+        "stable_column_order_zero_based": [
+          20,
+          6,
+          7,
+          17,
+          1,
+          8,
+          9,
+          12,
+          14,
+          15,
+          19,
+          3,
+          10,
+          18,
+          21,
+          23,
+          25,
+          0,
+          2,
+          4,
+          5,
+          13,
+          16,
+          24,
+          11,
+          22
+        ]
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 563,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 563,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    }
+  ],
+  "hypothesis": "The matrix sum-list routes the explicitly tagged Bifid body after fractionation, not the faed source before it; the exact btcseed header remains outside the routed payload",
+  "id": "C08-NEXT-POST-BIFID-ROUTING",
+  "invariant": "Restore the unchanged header, inverse the exact stable numeric route and re-encode with the original Bifid square to reproduce faed570. The next AES must pass structural/downstream/local Boolean gates; a prefix is not the verifier",
+  "justification": "The primary matrix label, reproduced Bifid header/body and SHA command provide a bounded alternative operation order. Cycle07 routed faed before Bifid, and cycle04 tested the untransposed suffix; neither implements this edge. The prime-conditioned control weakens independence of btcseed, so the prefix is treated as a tentative header and never as proof of a seed/key. No new alphabet/cipher or candidate phrase is introduced",
+  "limits": "Frozen plan only. No current AES replay or execution. Only the24 already documented lists, two exact route directions, one preserved header and one verified SHA-password representation. No prefix repair, output pruning, raw-password/hash-chain variants, arbitrary alphabet or tie permutations",
+  "new_aes_trials_executed": 0,
+  "new_candidate_fingerprints": [
+    "07d2091b8686dee77408d6e4cb16b8049b3df33e2a5146f516965d8922488de0",
+    "0b18094559a255ee695ab9c8539c2171c60627a52ce08bd55af00c3c56142666",
+    "152179e12a4123506da534b2c685d56714995fbba85f44ade17b236144d47b25",
+    "1cda8451377a0ed6c6e4978ee7903cd86afcbbf3372946fc9a89afcf3e056817",
+    "312db1cac07ea93a7cc6c12d6f485e2c5ddbcc875ebdefae5e2e0fde44b9fec9",
+    "3181d2b8e1aae0beb102029397f4767778304bbd65d7146bd1973f375c533477",
+    "35bde83e1d1cc753f71e0ffae4b9a9cf03fab25e907602fb383e0013d4ec32b9",
+    "37089970d88e5cab2f41c9179e48ed1d8760f0c7aa61d66f3230d47e9ca9ca46",
+    "48ce0e064f3f045fd4cb7621e60353ac429909fdd768b98e4a2a188433b2a7b7",
+    "6045da991233a3adc1d8ed875cdfb239b92a0a3ea71af2c80db2480d1ead4de6",
+    "66987416060459ad5b3a19c338378dfc615f445fca77a09e736d3b33effa547f",
+    "66d6787aca59e47709a9e029c3953d3b21da78fdaf2256cc818eb880d61b6e89",
+    "6894c2497a3b7f6f45ca562286fe7454a88b9fd093e4f128c6db30325cba0aea",
+    "6a700571fdda9cfb53a9a2b5a004c955f32edf7937bd5edb1e409d902f5abec9",
+    "6f22a6862cc76697cc078548a2b13612ba68d728378280c9815fa1698213647f",
+    "751a86b4b82b28acd1638ed5595a533dc4d589b27db1c2c6462caa0cc3bce2a5",
+    "76b6eb6dc98e658062844c8b39bc608a01968982ba958ef798f7972a2c6e465a",
+    "77bec17dc0cd27bb6e4c17f377ff9b3346b4ad537b47f380153b48d9f3b1a4a5",
+    "8f8149987a20a5512d46dd62617bedc36aebaa8eccccdc1bac1e2a5de1a3cfad",
+    "91950ede81a9c44e006da988f2c526969994ad1609c49eeb2e352282adcd0111",
+    "9556126d1bc0fbec6acde1cb48d37497077a3ab8123fd2864fb08f9ea62838b5",
+    "986f6a6e32e3c10158bdff6908820ba7f05dadba999c7b9619a776c80e6dc8d6",
+    "9db3625aba38664fadfd7c5c3dce4f4cd5cef9d8bfddc22dbdf8925ca16326d9",
+    "a83f4b6ea11a0d643e6b795450e1e2059d642d4e84912c9c707565ef5f00dff4",
+    "a961236efc82d6715e7bb3f07e6bb8e2803856f35b10386a4ccc8813b83e8b25",
+    "b04828bcebbd9a52151505e0addd2497aba9b4e67496f909f01699352c9a6941",
+    "b05f093b3ec711fd1953821bb3292b4882d6a8f93b72331d57c7063e576f7bd5",
+    "b2af61ef6495c46d028f886987c53b4299da56c40dd7ef568ac6a73645e8d3d4",
+    "b451e7bc640a6c51e2c6c70b71ff0f97afc4dd2eadfaf15ad6b6af6de4d404b3",
+    "bd6273e7a4e0a6faa00b77caacf943ff04361635c516d4771b79efa6693c6997",
+    "bdcba4bf5bc8909c1f96a72bfb602d5574c2630d013a8c0fa15cfdac7db50717",
+    "c07c95a12906ece1bfe87ac8ba0692de420edb54aafc54c8c30d197da54e47dd",
+    "c52d32baad03b1ee7029a0bd2e120cdb38fb566bb633427a6d4f535c4beff92d",
+    "c587ea5ad52e397c32c791ab1fd82e35cea8f17a78d313946fe72cf2ceb33748",
+    "c87fccc8ffd7f31ccd0fd9a783281769f298cf1e4d59e37fadfac898fc5b91e1",
+    "ca35b055b2902e8db27491502d87c31f4c3cb4291f6125db4460d6447570c721",
+    "d1c60a7d2c94b4508ca2e0e183dd15b003b26b4633d90a0fbf668261e0324d6a",
+    "d6a7db682f59248b620c4af35260a190741452e3405d9506beae7dd955247cda",
+    "d88fc11001ebfff36e85f94c10659f3fde9a9c356b6af7d66e02d01347affd2f",
+    "da2b20a0b5b878a57ff95ca380f5d26f6f47a0d773689f49fc7c728c3792188c",
+    "dd1a3b2669748b8eea70c9a24988f193992567f1306e9826f3e46374ea5474ba",
+    "e9c620c04b92c73a4ea121474d762ee1be9d71fa3450cd3b66fdd52356e75a9c",
+    "f401078c5ccb431e21bd0efe383a17bb9cfdcf04b6b62cabb16cb8bcee282a3b",
+    "f41d4cf0b4529e76ea54956f344be5c465208ea823673fa525a6b80ae28671f9",
+    "f96e62699bb3f41e56f1da82aaf5f85552c587ff5e324b6b1a4987edee8a0099",
+    "ffe2d4f93471763c8bbe1ef611066d3c52d39b762c4db6ebbe1fbcf79404325b"
+  ],
+  "search_space": {
+    "columnar_directions": 2,
+    "distinct_axis_lists": 24,
+    "forms": 48,
+    "header_variants": 1,
+    "kdf_digests": [
+      "md5",
+      "sha256"
+    ],
+    "new_unique_passwords": 46,
+    "password_transforms": [
+      "sha256-lowerhex"
+    ],
+    "planned_aes_trials": 276,
+    "previously_tested_passwords_skipped": 0,
+    "targets": [
+      "phase32-inner",
+      "salphaseion-small",
+      "cosmic-duality"
+    ],
+    "unique_passwords": 46
+  },
+  "source_evidence": [
+    {
+      "locator": null,
+      "path": "research/sources/salphaseion.html",
+      "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+    },
+    {
+      "locator": null,
+      "path": "research/sources/gsmg-puzzle.png",
+      "sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830"
+    },
+    {
+      "locator": null,
+      "path": "research/artifacts/cycle04/bifid-evidence.json",
+      "sha256": "b3e75c099064c8a32fa07ab165e16865a41760f099abe2d104c549a80971d6b1"
+    },
+    {
+      "locator": null,
+      "path": "research/artifacts/cycle07/numeric-routing-frozen-plan.json",
+      "sha256": "b5ff9c58dd303b861e7ebfbec58a3a47b435486184f7347033dd1bc20e649ced"
+    },
+    {
+      "locator": null,
+      "path": "research/artifacts/cycle08/prime-conditioned-bifid-control.json",
+      "sha256": "c3128a4119aeef78b43698461b7602ef5bc7c1854131ddd2e31fb5b4e031d28b"
+    },
+    {
+      "locator": null,
+      "path": "research/artifacts/cycle08/instruction-order.json",
+      "sha256": "5f5822204c310f666027d4bfdc619ab82545093b58830780951f71ecbc7f856a"
+    },
+    {
+      "locator": null,
+      "path": "research/artifacts/cycle08/cumulative-aes-audit.json",
+      "sha256": "6dbb448a8cfba6cd92360a9871302b2ba7827200abcaa53ec7c756f1a56c4a06"
+    }
+  ],
+  "status": "UNTESTED"
+}

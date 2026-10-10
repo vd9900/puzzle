@@ -1,0 +1,9 @@
+START puzzle_texts 11:03:25
+END puzzle_texts rc=0 11:04:06
+START creator_messages 11:04:06
+END creator_messages rc=0 11:04:55
+START gsmg_public_site 11:04:55
+END gsmg_public_site rc=0 11:06:10
+START carroll_public_domain 11:06:10
+END carroll_public_domain rc=0 11:15:07
+ALLDONE 11:15:07

@@ -1,0 +1,21 @@
+# lens parse_skeptic: escaped candidates (python unicode_escape; hex:<64hex> = raw digest bytes as password; b64:<hex> = base64 of digest bytes; empty: = empty password). Retest with parse_skeptic_escaped.py
+\n
+\r\n
+enter\n
+\nenter
+theflowerblossomsthroughwhatseemstobeaconcretesurface\n
+5ac407837447fba24ba2802e4d1e9aecb4580aa29fef1088cc387c180b746f75\n
+causality\n
+jacquefrescogiveitjustonesecondheisenbergsuncertaintyprinciple\n
+thispassword\n
+lastwordsbeforearchichoice\n
+matrixsumlist\n
+hex:5ac407837447fba24ba2802e4d1e9aecb4580aa29fef1088cc387c180b746f75
+hex:d2a21abb1d6edd04fe83fa69405d4b8d7cc5fd61d11fb4e10ea6149cea5603d5
+hex:89727c598b9cd1cf8873f27cb7057f050645ddb6a7a157a110239ac0152f6a32
+hex:e08d706b3e4ce964b632746cf568913cb93f1ed36476fbb0494b80ed17c5975c
+hex:74c1d7592daf4f89b0a7ba5e368bb59cc9e19c6a4ebb7f33cd8ccf8f3edacac0
+hex:77094e7a1591fb81379f1582cf88db5aa6ab8e77176a4d8428a1ff5decfd102d
+b64:5ac407837447fba24ba2802e4d1e9aecb4580aa29fef1088cc387c180b746f75
+b64:89727c598b9cd1cf8873f27cb7057f050645ddb6a7a157a110239ac0152f6a32
+empty:

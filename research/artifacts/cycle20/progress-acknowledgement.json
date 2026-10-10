@@ -1,0 +1,718 @@
+{
+  "assumptions": [
+    "Only one declared16-record window is inspected",
+    "Chronological adjacency is not authenticated reply scope",
+    "A progress statement is not an exact transformation/output oracle"
+  ],
+  "checkpoint_reused": {
+    "no_literal_gate_or_checkpoint_experiment_repeated": true,
+    "no_specific_container_binding_derived": true,
+    "source": {
+      "path": "research/artifacts/cycle13/checkpoint-referents-v2.json",
+      "sha256": "cbae760d02cae34419174bfc7f5d5d36addbc83b57051a74aedec4c9211a2d09"
+    }
+  },
+  "confidence": "HIGH bodies/order/timing; UNKNOWN reply scope and acknowledged object",
+  "context": {
+    "acknowledgement_to_hardest_statement_seconds": 34,
+    "community_matrix_and_prime_then_double_hash_then_nothing_are_separate_records": true,
+    "creator_bodies_cross_checked": [
+      {
+        "creator_record": {
+          "archived_utc_timestamp": "2023-08-03T20:33:50+00:00",
+          "character_span_zero_based_half_open": [
+            26747,
+            26797
+          ],
+          "column_one_based": 1,
+          "header": "=== [03.08.2023 15:33:50 UTC-05:00] Jrk Bgrt",
+          "line_one_based": 757,
+          "source": {
+            "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+            "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+          },
+          "utf8_byte_span_zero_based_half_open": [
+            26962,
+            27012
+          ]
+        },
+        "original_chat_record": {
+          "archived_utc_timestamp": "2023-08-03T20:33:50+00:00",
+          "character_span_zero_based_half_open": [
+            762886,
+            762936
+          ],
+          "column_one_based": 1,
+          "header": "=== [03.08.2023 15:33:50 UTC-05:00] Jrk Bgrt",
+          "line_one_based": 21191,
+          "source": {
+            "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+            "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+          },
+          "utf8_byte_span_zero_based_half_open": [
+            770985,
+            771035
+          ]
+        }
+      },
+      {
+        "creator_record": {
+          "archived_utc_timestamp": "2023-08-03T20:34:24+00:00",
+          "character_span_zero_based_half_open": [
+            26844,
+            26879
+          ],
+          "column_one_based": 1,
+          "header": "=== [03.08.2023 15:34:24 UTC-05:00] Jrk Bgrt",
+          "line_one_based": 760,
+          "source": {
+            "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+            "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+          },
+          "utf8_byte_span_zero_based_half_open": [
+            27059,
+            27094
+          ]
+        },
+        "original_chat_record": {
+          "archived_utc_timestamp": "2023-08-03T20:34:24+00:00",
+          "character_span_zero_based_half_open": [
+            762983,
+            763018
+          ],
+          "column_one_based": 1,
+          "header": "=== [03.08.2023 15:34:24 UTC-05:00] Jrk Bgrt",
+          "line_one_based": 21194,
+          "source": {
+            "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+            "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+          },
+          "utf8_byte_span_zero_based_half_open": [
+            771082,
+            771117
+          ]
+        }
+      }
+    ],
+    "flat_export_order_does_not_recover_reply_targets": true,
+    "nearest_prior_question": {
+      "archived_utc_timestamp": "2023-08-03T20:32:00+00:00",
+      "character_span_zero_based_half_open": [
+        762759,
+        762839
+      ],
+      "column_one_based": 1,
+      "header": "=== [03.08.2023 15:32:00 UTC-05:00] Deleted Account",
+      "line_one_based": 21188,
+      "source": {
+        "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+        "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+      },
+      "utf8_byte_span_zero_based_half_open": [
+        770858,
+        770938
+      ]
+    },
+    "no_cipher_recipe_output_or_named_operand_in_fixed_window": true,
+    "records": [
+      {
+        "character_span_zero_based_half_open": [
+          761856,
+          761876
+        ],
+        "column_one_based": 1,
+        "header": "=== [03.08.2023 15:18:17 UTC-05:00] Deleted Account",
+        "line_one_based": 21155,
+        "public_body": "oh oh!! cheeky move!",
+        "reply_target_metadata_preserved": false,
+        "source": {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        "speaker": "Deleted Account",
+        "utf8_byte_span_zero_based_half_open": [
+          769944,
+          769964
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          761923,
+          761947
+        ],
+        "column_one_based": 1,
+        "header": "=== [03.08.2023 15:19:53 UTC-05:00] stranger",
+        "line_one_based": 21158,
+        "public_body": "Matrix and prime numbers",
+        "reply_target_metadata_preserved": false,
+        "source": {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        "speaker": "stranger",
+        "utf8_byte_span_zero_based_half_open": [
+          770011,
+          770035
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          761994,
+          762005
+        ],
+        "column_one_based": 1,
+        "header": "=== [03.08.2023 15:21:00 UTC-05:00] stranger",
+        "line_one_based": 21161,
+        "public_body": "Double hash",
+        "reply_target_metadata_preserved": false,
+        "source": {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        "speaker": "stranger",
+        "utf8_byte_span_zero_based_half_open": [
+          770082,
+          770093
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          762052,
+          762064
+        ],
+        "column_one_based": 1,
+        "header": "=== [03.08.2023 15:21:11 UTC-05:00] stranger",
+        "line_one_based": 21164,
+        "public_body": "And\u2026 nothing",
+        "reply_target_metadata_preserved": false,
+        "source": {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        "speaker": "stranger",
+        "utf8_byte_span_zero_based_half_open": [
+          770140,
+          770154
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          762106,
+          762207
+        ],
+        "column_one_based": 1,
+        "header": "=== [03.08.2023 15:27:40 UTC-05:00] Zil",
+        "line_one_based": 21167,
+        "public_body": "is this the hint? sorry, this puzzle made me trust noone, not even myself, so just want to be clear \ud83d\ude01",
+        "reply_target_metadata_preserved": false,
+        "source": {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        "speaker": "Zil",
+        "utf8_byte_span_zero_based_half_open": [
+          770196,
+          770300
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          762261,
+          762263
+        ],
+        "column_one_based": 1,
+        "header": "=== [03.08.2023 15:28:11 UTC-05:00] Deleted Account",
+        "line_one_based": 21170,
+        "public_body": "+1",
+        "reply_target_metadata_preserved": false,
+        "source": {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        "speaker": "Deleted Account",
+        "utf8_byte_span_zero_based_half_open": [
+          770354,
+          770356
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          762305,
+          762338
+        ],
+        "column_one_based": 1,
+        "header": "=== [03.08.2023 15:28:12 UTC-05:00] Zil",
+        "line_one_based": 21173,
+        "public_body": "two peanuts are better than one \ud83e\udd20",
+        "reply_target_metadata_preserved": false,
+        "source": {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        "speaker": "Zil",
+        "utf8_byte_span_zero_based_half_open": [
+          770398,
+          770434
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          762385,
+          762426
+        ],
+        "column_one_based": 1,
+        "header": "=== [03.08.2023 15:28:20 UTC-05:00] Jrk Bgrt",
+        "line_one_based": 21176,
+        "public_body": "Might be. Wish I had said nothing though.",
+        "reply_target_metadata_preserved": false,
+        "source": {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        "speaker": "Jrk Bgrt",
+        "utf8_byte_span_zero_based_half_open": [
+          770481,
+          770522
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          762474,
+          762505
+        ],
+        "column_one_based": 1,
+        "header": "=== [03.08.2023 15:28:41 UTC-05:00] ArchOptic",
+        "line_one_based": 21179,
+        "public_body": "Now you get lots of questions \ud83d\ude02",
+        "reply_target_metadata_preserved": false,
+        "source": {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        "speaker": "ArchOptic",
+        "utf8_byte_span_zero_based_half_open": [
+          770570,
+          770604
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          762547,
+          762601
+        ],
+        "column_one_based": 1,
+        "header": "=== [03.08.2023 15:30:13 UTC-05:00] Zil",
+        "line_one_based": 21182,
+        "public_body": "at least the chatroom is a little more active now :-)!",
+        "reply_target_metadata_preserved": false,
+        "source": {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        "speaker": "Zil",
+        "utf8_byte_span_zero_based_half_open": [
+          770646,
+          770700
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          762648,
+          762705
+        ],
+        "column_one_based": 1,
+        "header": "=== [03.08.2023 15:30:14 UTC-05:00] Jrk Bgrt",
+        "line_one_based": 21185,
+        "public_body": "Exactly, should have refrained from typing earlier maybe.",
+        "reply_target_metadata_preserved": false,
+        "source": {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        "speaker": "Jrk Bgrt",
+        "utf8_byte_span_zero_based_half_open": [
+          770747,
+          770804
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          762759,
+          762839
+        ],
+        "column_one_based": 1,
+        "header": "=== [03.08.2023 15:32:00 UTC-05:00] Deleted Account",
+        "line_one_based": 21188,
+        "public_body": "But you can confirm if there is indeed a 3rd door that is yet to be found right?",
+        "reply_target_metadata_preserved": false,
+        "source": {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        "speaker": "Deleted Account",
+        "utf8_byte_span_zero_based_half_open": [
+          770858,
+          770938
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          762886,
+          762936
+        ],
+        "column_one_based": 1,
+        "header": "=== [03.08.2023 15:33:50 UTC-05:00] Jrk Bgrt",
+        "line_one_based": 21191,
+        "public_body": "I saw that you guys got really really far already.",
+        "reply_target_metadata_preserved": false,
+        "source": {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        "speaker": "Jrk Bgrt",
+        "utf8_byte_span_zero_based_half_open": [
+          770985,
+          771035
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          762983,
+          763018
+        ],
+        "column_one_based": 1,
+        "header": "=== [03.08.2023 15:34:24 UTC-05:00] Jrk Bgrt",
+        "line_one_based": 21194,
+        "public_body": "Actually, the hardest part is done.",
+        "reply_target_metadata_preserved": false,
+        "source": {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        "speaker": "Jrk Bgrt",
+        "utf8_byte_span_zero_based_half_open": [
+          771082,
+          771117
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          763066,
+          763114
+        ],
+        "column_one_based": 1,
+        "header": "=== [03.08.2023 15:35:14 UTC-05:00] ArchOptic",
+        "line_one_based": 21197,
+        "public_body": "Sweet. Hopefully we can do it without more hints",
+        "reply_target_metadata_preserved": false,
+        "source": {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        "speaker": "ArchOptic",
+        "utf8_byte_span_zero_based_half_open": [
+          771165,
+          771213
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          763156,
+          763223
+        ],
+        "column_one_based": 1,
+        "header": "=== [03.08.2023 15:36:22 UTC-05:00] Zil",
+        "line_one_based": 21200,
+        "public_body": "I bet two years from now we'll still be asking for more peanuts \ud83d\udc3f\ufe0f\ud83e\udd73",
+        "reply_target_metadata_preserved": false,
+        "source": {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        "speaker": "Zil",
+        "utf8_byte_span_zero_based_half_open": [
+          771255,
+          771330
+        ]
+      }
+    ],
+    "third_door_question_to_acknowledgement_seconds": 110
+  },
+  "contradictions": [
+    "No explicit recipe/output confirmation in the audited context",
+    "Flat transcript cannot authenticate reply relationships",
+    "General progress does not identify which missing construction edge is solved"
+  ],
+  "date": "2026-10-01",
+  "earlier_question_reused": {
+    "no_btc_question_retested_or_reinterpreted_as_Bifid_confirmation": true,
+    "question": {
+      "classification": "CREATOR_ATTRIBUTED_QUESTION_NOT_EXPLICIT_BIFID_VALIDATION",
+      "creator_record": {
+        "archived_utc_timestamp": "2023-08-03T19:51:33+00:00",
+        "character_span_zero_based_half_open": [
+          26372,
+          26415
+        ],
+        "column_one_based": 1,
+        "header": "=== [03.08.2023 14:51:33 UTC-05:00] Jrk Bgrt",
+        "line_one_based": 745,
+        "source": {
+          "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+          "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          26587,
+          26630
+        ]
+      },
+      "does_not_literally_name_Bifid_residual_or_btcseed": true,
+      "exact_public_question": "Are you really looking for just the btc...?",
+      "no_reply_target_or_recipe_confirmation": true,
+      "original_chat_record": {
+        "archived_utc_timestamp": "2023-08-03T19:51:33+00:00",
+        "character_span_zero_based_half_open": [
+          761118,
+          761161
+        ],
+        "column_one_based": 1,
+        "header": "=== [03.08.2023 14:51:33 UTC-05:00] Jrk Bgrt",
+        "line_one_based": 21137,
+        "source": {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          769203,
+          769246
+        ]
+      },
+      "separate_date_and_wording_not_the_final_hint_clause": true
+    },
+    "source": {
+      "path": "research/artifacts/cycle18/final-reference-audit-v2.json",
+      "sha256": "bb154ce439a9e2aa92629a68c57486ef88aac81625b77d46a5b6d8552aaee533"
+    }
+  },
+  "hypotheses": [
+    {
+      "assumptions": [
+        "You guys refers to the collective solver group",
+        "Hardest part is a qualitative progress assessment"
+      ],
+      "confidence": "MEDIUM-HIGH exact general wording; UNKNOWN completed object",
+      "contradictions": [
+        "The immediately preceding question asks about a third door",
+        "Unpreserved reply targets might have narrowed the context"
+      ],
+      "hypothesis": "The creator acknowledges aggregate community progress without confirming a particular transformation",
+      "id": "C20-PROGRESS-GENERAL",
+      "input": "Sixteen original flat-export records and two preserved creator bodies",
+      "next_test": "Audit only the preserved July12 2026 close-friends hint screenshot and its fixed README attribution against an exact matching original creator/chat record if present. Establish text, sender/date attribution and the object referred to by it without investigating personal contacts. Determine whether the statement directly favors thematic/contextual recognition over an algorithmic operand; no external access, personal-data search, dictionaries or cryptographic trials.",
+      "operation_order": [
+        "map fixed context",
+        "cross-check acknowledgement bodies",
+        "distinguish progress claim from exact recipe confirmation"
+      ],
+      "output": "One bounded acknowledgement-scope interpretation without algorithm promotion",
+      "source_evidence": [
+        {
+          "path": "research/artifacts/cycle20/phase-name-semantics.json",
+          "sha256": "bee223494e3a994a7ed62dfd8a4ed9a4e8e817e6a0463fa6b6b9f34123358f33"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+          "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        {
+          "path": "research/artifacts/cycle18/final-reference-audit-v2.json",
+          "sha256": "bb154ce439a9e2aa92629a68c57486ef88aac81625b77d46a5b6d8552aaee533"
+        },
+        {
+          "path": "research/artifacts/cycle13/checkpoint-referents-v2.json",
+          "sha256": "cbae760d02cae34419174bfc7f5d5d36addbc83b57051a74aedec4c9211a2d09"
+        }
+      ],
+      "source_locations": [
+        "research/evidence/cycle02/_work__chat_transcript.txt:21154",
+        "research/evidence/cycle02/_work__chat_transcript.txt:21187",
+        "research/evidence/cycle02/_work__chat_transcript.txt:21190",
+        "research/evidence/cycle02/_work__chat_transcript.txt:21193",
+        "research/evidence/cycle02/_work__chat_transcript.txt:21199",
+        "research/evidence/cycle02/_work__creator_jrk.txt:757",
+        "research/evidence/cycle02/_work__creator_jrk.txt:760",
+        "research/artifacts/cycle18/final-reference-audit-v2.json"
+      ],
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "assumptions": [
+        "Flat adjacency indicates reply scope despite missing reply identifiers",
+        "General progress wording indirectly answers the door question"
+      ],
+      "confidence": "LOW-MEDIUM adjacency; LOW exact confirmation",
+      "contradictions": [
+        "No yes/no, door count or named entrance is confirmed",
+        "No reply-target metadata preserved",
+        "The statement may refer to aggregate earlier progress"
+      ],
+      "hypothesis": "The acknowledgement responds to the nearest prior third-door question",
+      "id": "C20-PROGRESS-THIRD-DOOR",
+      "input": "Sixteen original flat-export records and two preserved creator bodies",
+      "next_test": "Audit only the preserved July12 2026 close-friends hint screenshot and its fixed README attribution against an exact matching original creator/chat record if present. Establish text, sender/date attribution and the object referred to by it without investigating personal contacts. Determine whether the statement directly favors thematic/contextual recognition over an algorithmic operand; no external access, personal-data search, dictionaries or cryptographic trials.",
+      "operation_order": [
+        "map fixed context",
+        "cross-check acknowledgement bodies",
+        "distinguish progress claim from exact recipe confirmation"
+      ],
+      "output": "One bounded acknowledgement-scope interpretation without algorithm promotion",
+      "source_evidence": [
+        {
+          "path": "research/artifacts/cycle20/phase-name-semantics.json",
+          "sha256": "bee223494e3a994a7ed62dfd8a4ed9a4e8e817e6a0463fa6b6b9f34123358f33"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+          "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        {
+          "path": "research/artifacts/cycle18/final-reference-audit-v2.json",
+          "sha256": "bb154ce439a9e2aa92629a68c57486ef88aac81625b77d46a5b6d8552aaee533"
+        },
+        {
+          "path": "research/artifacts/cycle13/checkpoint-referents-v2.json",
+          "sha256": "cbae760d02cae34419174bfc7f5d5d36addbc83b57051a74aedec4c9211a2d09"
+        }
+      ],
+      "source_locations": [
+        "research/evidence/cycle02/_work__chat_transcript.txt:21154",
+        "research/evidence/cycle02/_work__chat_transcript.txt:21187",
+        "research/evidence/cycle02/_work__chat_transcript.txt:21190",
+        "research/evidence/cycle02/_work__chat_transcript.txt:21193",
+        "research/evidence/cycle02/_work__chat_transcript.txt:21199",
+        "research/evidence/cycle02/_work__creator_jrk.txt:757",
+        "research/evidence/cycle02/_work__creator_jrk.txt:760",
+        "research/artifacts/cycle18/final-reference-audit-v2.json"
+      ],
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "assumptions": [
+        "Multiple separate earlier messages form the creator's intended reply target",
+        "General progress acknowledgement confirms an algorithm"
+      ],
+      "confidence": "LOW; no recipe/output binding",
+      "contradictions": [
+        "Community double-hash message is followed by And nothing",
+        "No exact recipe, output, input or affirmative algorithm reference",
+        "Nearest preceding question is about a third door, not that method"
+      ],
+      "hypothesis": "The acknowledgement validates the preceding community matrix/primes/double-hash interpretation",
+      "id": "C20-PROGRESS-MATRIX-HASH",
+      "input": "Sixteen original flat-export records and two preserved creator bodies",
+      "next_test": "Audit only the preserved July12 2026 close-friends hint screenshot and its fixed README attribution against an exact matching original creator/chat record if present. Establish text, sender/date attribution and the object referred to by it without investigating personal contacts. Determine whether the statement directly favors thematic/contextual recognition over an algorithmic operand; no external access, personal-data search, dictionaries or cryptographic trials.",
+      "operation_order": [
+        "map fixed context",
+        "cross-check acknowledgement bodies",
+        "distinguish progress claim from exact recipe confirmation"
+      ],
+      "output": "One bounded acknowledgement-scope interpretation without algorithm promotion",
+      "source_evidence": [
+        {
+          "path": "research/artifacts/cycle20/phase-name-semantics.json",
+          "sha256": "bee223494e3a994a7ed62dfd8a4ed9a4e8e817e6a0463fa6b6b9f34123358f33"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+          "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        {
+          "path": "research/artifacts/cycle18/final-reference-audit-v2.json",
+          "sha256": "bb154ce439a9e2aa92629a68c57486ef88aac81625b77d46a5b6d8552aaee533"
+        },
+        {
+          "path": "research/artifacts/cycle13/checkpoint-referents-v2.json",
+          "sha256": "cbae760d02cae34419174bfc7f5d5d36addbc83b57051a74aedec4c9211a2d09"
+        }
+      ],
+      "source_locations": [
+        "research/evidence/cycle02/_work__chat_transcript.txt:21154",
+        "research/evidence/cycle02/_work__chat_transcript.txt:21187",
+        "research/evidence/cycle02/_work__chat_transcript.txt:21190",
+        "research/evidence/cycle02/_work__chat_transcript.txt:21193",
+        "research/evidence/cycle02/_work__chat_transcript.txt:21199",
+        "research/evidence/cycle02/_work__creator_jrk.txt:757",
+        "research/evidence/cycle02/_work__creator_jrk.txt:760",
+        "research/artifacts/cycle18/final-reference-audit-v2.json"
+      ],
+      "status": "INCONCLUSIVE"
+    }
+  ],
+  "hypothesis": "The original hardest-part-is-done acknowledgement confirms a specific constructed puzzle object or operation",
+  "id": "C20-PROGRESS-ACKNOWLEDGEMENT",
+  "input": "One fixed original August2023 window plus existing source/name/checkpoint evidence",
+  "new_cryptographic_trials": 0,
+  "new_trial_inputs": 0,
+  "next_test": "Audit only the preserved July12 2026 close-friends hint screenshot and its fixed README attribution against an exact matching original creator/chat record if present. Establish text, sender/date attribution and the object referred to by it without investigating personal contacts. Determine whether the statement directly favors thematic/contextual recognition over an algorithmic operand; no external access, personal-data search, dictionaries or cryptographic trials.",
+  "operation_order": [
+    "validate frozen context task",
+    "map sixteen exact original bodies",
+    "cross-check two creator acknowledgements",
+    "measure nearest-question and acknowledgement timing",
+    "reuse earlier separate question and checkpoint limits",
+    "compare three acknowledgement scopes"
+  ],
+  "output": "Exact public context maps, timing and three unresolved acknowledgement referents",
+  "result": "Fixed window shows separate community Matrix and prime numbers, Double hash and And nothing messages, then later third-door question. Creator's general progress acknowledgement follows that question110s later, hardest-part statement34s after. Neither names a method, output, operand, exact door or container; reply IDs are not preserved. Aggregate progress is best supported grammatically, while narrower reply scopes remain unverified. No Bifid, residual or double-hash validation follows.",
+  "search_space": {
+    "creator_acknowledgement_bodies_cross_checked": 2,
+    "declared_acknowledgement_scopes": 3,
+    "fixed_context_windows": 1,
+    "original_context_records": 16
+  },
+  "source_evidence": [
+    {
+      "path": "research/artifacts/cycle20/phase-name-semantics.json",
+      "sha256": "bee223494e3a994a7ed62dfd8a4ed9a4e8e817e6a0463fa6b6b9f34123358f33"
+    },
+    {
+      "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+      "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+    },
+    {
+      "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+      "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+    },
+    {
+      "path": "research/artifacts/cycle18/final-reference-audit-v2.json",
+      "sha256": "bb154ce439a9e2aa92629a68c57486ef88aac81625b77d46a5b6d8552aaee533"
+    },
+    {
+      "path": "research/artifacts/cycle13/checkpoint-referents-v2.json",
+      "sha256": "cbae760d02cae34419174bfc7f5d5d36addbc83b57051a74aedec4c9211a2d09"
+    }
+  ],
+  "source_locations": [
+    "research/evidence/cycle02/_work__chat_transcript.txt:21154",
+    "research/evidence/cycle02/_work__chat_transcript.txt:21187",
+    "research/evidence/cycle02/_work__chat_transcript.txt:21190",
+    "research/evidence/cycle02/_work__chat_transcript.txt:21193",
+    "research/evidence/cycle02/_work__chat_transcript.txt:21199",
+    "research/evidence/cycle02/_work__creator_jrk.txt:757",
+    "research/evidence/cycle02/_work__creator_jrk.txt:760",
+    "research/artifacts/cycle18/final-reference-audit-v2.json"
+  ],
+  "status": "INCONCLUSIVE"
+}

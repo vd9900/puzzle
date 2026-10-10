@@ -1,0 +1,86 @@
+{
+  "controls": [
+    {
+      "add_one_monte_carlo_tail_estimate": 0.00039996000399960006,
+      "btcseed_prefix_matches": 3,
+      "distinct_prefixes": 5190,
+      "distinct_source_keyed_squares": 7454,
+      "limits": "Conditional Monte Carlo control, not an exact probability or a multiple-hypothesis corrected global p-value; alternative-key controls never become password candidates and no AES is run",
+      "logical_tokens": 84,
+      "mask": 505,
+      "nonoriginal_square_prefix_matches": 3,
+      "null": "Uniformly permuted exact residual-symbol multiset, reinserted into fixed logical nonprime positions; preserve every prime b/be token, color order, total source length and symbol counts; faed source held fixed",
+      "observed_prefix_match_frequency": 0.0003,
+      "original_square_matches": 0,
+      "residual_multiset": {
+        "a": 3,
+        "b": 2,
+        "c": 8,
+        "d": 4,
+        "e": 11,
+        "f": 10,
+        "g": 10,
+        "h": 8,
+        "i": 5
+      },
+      "residual_symbols": 61,
+      "seed": 2026093513,
+      "shuffles": 10000
+    },
+    {
+      "add_one_monte_carlo_tail_estimate": 0.0004999500049995,
+      "btcseed_prefix_matches": 4,
+      "distinct_prefixes": 5224,
+      "distinct_source_keyed_squares": 7487,
+      "limits": "Conditional Monte Carlo control, not an exact probability or a multiple-hypothesis corrected global p-value; alternative-key controls never become password candidates and no AES is run",
+      "logical_tokens": 83,
+      "mask": 1017,
+      "nonoriginal_square_prefix_matches": 3,
+      "null": "Uniformly permuted exact residual-symbol multiset, reinserted into fixed logical nonprime positions; preserve every prime b/be token, color order, total source length and symbol counts; faed source held fixed",
+      "observed_prefix_match_frequency": 0.0004,
+      "original_square_matches": 1,
+      "residual_multiset": {
+        "a": 3,
+        "b": 2,
+        "c": 8,
+        "d": 4,
+        "e": 10,
+        "f": 10,
+        "g": 10,
+        "h": 8,
+        "i": 5
+      },
+      "residual_symbols": 60,
+      "seed": 2026094025,
+      "shuffles": 10000
+    }
+  ],
+  "id": "C08-PRIME-CONDITIONED-BIFID-CONTROL",
+  "new_aes_trials": 0,
+  "new_passwords": 0,
+  "original_prefix_reproduced": true,
+  "result": "Quantifies dependence between the prime/color template and the source-keyed Bifid prefix without optimizing plaintext or selecting a password. Confirmation refers to the reproducible control, not creator intent or a reward key",
+  "source_evidence": [
+    {
+      "locator": null,
+      "path": "research/sources/salphaseion.html",
+      "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+    },
+    {
+      "locator": null,
+      "path": "research/artifacts/cycle04/bifid-square-control.json",
+      "sha256": "b492219d457fb6c710d387b61dbd9728018b1befc510d37b065eb26714c2c2ec"
+    },
+    {
+      "locator": null,
+      "path": "research/artifacts/cycle03/prime-boundary.json",
+      "sha256": "7a267b998cb9353cabba47bb4005abee0cbec18c7f878eb52c223bdf14fc9727"
+    }
+  ],
+  "status": "CONFIRMED",
+  "unconstrained_square_fraction": {
+    "denominator": 45360,
+    "meaning": "Earlier8 prefix-producing first-nine permutations among9!; not the appropriate conditional prime-grammar null",
+    "numerator": 1
+  }
+}

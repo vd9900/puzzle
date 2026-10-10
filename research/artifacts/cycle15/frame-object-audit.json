@@ -1,0 +1,3950 @@
+{
+  "assumptions": [
+    "Two frozen branch conventions only",
+    "All semantic mappings remain historical hypotheses",
+    "Existing source traversal is reused without variants"
+  ],
+  "boundary_bits_discriminate_branches": false,
+  "branch_differences": [
+    {
+      "1017_span": [
+        89,
+        91
+      ],
+      "1017_token": "be",
+      "505_span": [
+        89,
+        90
+      ],
+      "505_token": "b",
+      "event_index_zero_based": 22,
+      "same_bit_value": false
+    },
+    {
+      "1017_span": [
+        96,
+        97
+      ],
+      "1017_token": "b",
+      "505_span": [
+        95,
+        96
+      ],
+      "505_token": "b",
+      "event_index_zero_based": 23,
+      "same_bit_value": true
+    },
+    {
+      "1017_span": [
+        104,
+        105
+      ],
+      "1017_token": "a",
+      "505_span": [
+        103,
+        104
+      ],
+      "505_token": "a",
+      "event_index_zero_based": 24,
+      "same_bit_value": true
+    }
+  ],
+  "branches": [
+    {
+      "borrowed_boundary_bits": [
+        1,
+        0
+      ],
+      "comparisons": [
+        {
+          "event_index_zero_based": 0,
+          "existing_semantic_event_label_bit": 1,
+          "image_event": {
+            "bit_position_in_octet_zero_based": 7,
+            "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+            "color": "blue",
+            "column_zero_based": 0,
+            "event_index_zero_based": 0,
+            "original_binary_bit": 1,
+            "row_zero_based": 7,
+            "verified_octet_index_zero_based": 0,
+            "verified_source_character": "g",
+            "verified_source_octet_bits": "01100111",
+            "verified_spiral_index_zero_based": 7
+          },
+          "near_white_semantic_assignment_is_assumed_not_original_binary": false,
+          "original_binary_bit_matches": true,
+          "semantic_label_matches": true,
+          "source_marker": {
+            "character_span_zero_based_half_open": [
+              458,
+              459
+            ],
+            "column_one_based": 48,
+            "event_index_zero_based": 0,
+            "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+            "line_one_based": 17,
+            "logical_position_one_based": 2,
+            "normalized_span_zero_based_half_open": [
+              1,
+              2
+            ],
+            "region": "dbbi",
+            "semantic_label_bit": 1,
+            "token": "b",
+            "utf8_byte_span_zero_based_half_open": [
+              458,
+              459
+            ]
+          }
+        },
+        {
+          "event_index_zero_based": 1,
+          "existing_semantic_event_label_bit": 1,
+          "image_event": {
+            "bit_position_in_octet_zero_based": 7,
+            "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+            "color": "blue",
+            "column_zero_based": 2,
+            "event_index_zero_based": 1,
+            "original_binary_bit": 1,
+            "row_zero_based": 13,
+            "verified_octet_index_zero_based": 1,
+            "verified_source_character": "s",
+            "verified_source_octet_bits": "01110011",
+            "verified_spiral_index_zero_based": 15
+          },
+          "near_white_semantic_assignment_is_assumed_not_original_binary": false,
+          "original_binary_bit_matches": true,
+          "semantic_label_matches": true,
+          "source_marker": {
+            "character_span_zero_based_half_open": [
+              460,
+              461
+            ],
+            "column_one_based": 50,
+            "event_index_zero_based": 1,
+            "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+            "line_one_based": 17,
+            "logical_position_one_based": 3,
+            "normalized_span_zero_based_half_open": [
+              2,
+              3
+            ],
+            "region": "dbbi",
+            "semantic_label_bit": 1,
+            "token": "b",
+            "utf8_byte_span_zero_based_half_open": [
+              460,
+              461
+            ]
+          }
+        },
+        {
+          "event_index_zero_based": 2,
+          "existing_semantic_event_label_bit": 1,
+          "image_event": {
+            "bit_position_in_octet_zero_based": 7,
+            "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+            "color": "blue",
+            "column_zero_based": 10,
+            "event_index_zero_based": 2,
+            "original_binary_bit": 1,
+            "row_zero_based": 13,
+            "verified_octet_index_zero_based": 2,
+            "verified_source_character": "m",
+            "verified_source_octet_bits": "01101101",
+            "verified_spiral_index_zero_based": 23
+          },
+          "near_white_semantic_assignment_is_assumed_not_original_binary": false,
+          "original_binary_bit_matches": true,
+          "semantic_label_matches": true,
+          "source_marker": {
+            "character_span_zero_based_half_open": [
+              464,
+              465
+            ],
+            "column_one_based": 54,
+            "event_index_zero_based": 2,
+            "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+            "line_one_based": 17,
+            "logical_position_one_based": 5,
+            "normalized_span_zero_based_half_open": [
+              4,
+              5
+            ],
+            "region": "dbbi",
+            "semantic_label_bit": 1,
+            "token": "b",
+            "utf8_byte_span_zero_based_half_open": [
+              464,
+              465
+            ]
+          }
+        },
+        {
+          "event_index_zero_based": 3,
+          "existing_semantic_event_label_bit": 1,
+          "image_event": {
+            "bit_position_in_octet_zero_based": 7,
+            "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+            "color": "blue",
+            "column_zero_based": 13,
+            "event_index_zero_based": 3,
+            "original_binary_bit": 1,
+            "row_zero_based": 8,
+            "verified_octet_index_zero_based": 3,
+            "verified_source_character": "g",
+            "verified_source_octet_bits": "01100111",
+            "verified_spiral_index_zero_based": 31
+          },
+          "near_white_semantic_assignment_is_assumed_not_original_binary": false,
+          "original_binary_bit_matches": true,
+          "semantic_label_matches": true,
+          "source_marker": {
+            "character_span_zero_based_half_open": [
+              468,
+              469
+            ],
+            "column_one_based": 58,
+            "event_index_zero_based": 3,
+            "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+            "line_one_based": 17,
+            "logical_position_one_based": 7,
+            "normalized_span_zero_based_half_open": [
+              6,
+              7
+            ],
+            "region": "dbbi",
+            "semantic_label_bit": 1,
+            "token": "b",
+            "utf8_byte_span_zero_based_half_open": [
+              468,
+              469
+            ]
+          }
+        },
+        {
+          "event_index_zero_based": 4,
+          "existing_semantic_event_label_bit": 0,
+          "image_event": {
+            "bit_position_in_octet_zero_based": 7,
+            "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+            "color": "yellow",
+            "column_zero_based": 13,
+            "event_index_zero_based": 4,
+            "original_binary_bit": 0,
+            "row_zero_based": 0,
+            "verified_octet_index_zero_based": 4,
+            "verified_source_character": ".",
+            "verified_source_octet_bits": "00101110",
+            "verified_spiral_index_zero_based": 39
+          },
+          "near_white_semantic_assignment_is_assumed_not_original_binary": false,
+          "original_binary_bit_matches": true,
+          "semantic_label_matches": true,
+          "source_marker": {
+            "character_span_zero_based_half_open": [
+              476,
+              479
+            ],
+            "column_one_based": 66,
+            "event_index_zero_based": 4,
+            "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+            "line_one_based": 17,
+            "logical_position_one_based": 11,
+            "normalized_span_zero_based_half_open": [
+              10,
+              12
+            ],
+            "region": "dbbi",
+            "semantic_label_bit": 0,
+            "token": "be",
+            "utf8_byte_span_zero_based_half_open": [
+              476,
+              479
+            ]
+          }
+        },
+        {
+          "event_index_zero_based": 5,
+          "existing_semantic_event_label_bit": 1,
+          "image_event": {
+            "bit_position_in_octet_zero_based": 7,
+            "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+            "color": "blue",
+            "column_zero_based": 5,
+            "event_index_zero_based": 5,
+            "original_binary_bit": 1,
+            "row_zero_based": 0,
+            "verified_octet_index_zero_based": 5,
+            "verified_source_character": "i",
+            "verified_source_octet_bits": "01101001",
+            "verified_spiral_index_zero_based": 47
+          },
+          "near_white_semantic_assignment_is_assumed_not_original_binary": false,
+          "original_binary_bit_matches": true,
+          "semantic_label_matches": true,
+          "source_marker": {
+            "character_span_zero_based_half_open": [
+              482,
+              483
+            ],
+            "column_one_based": 72,
+            "event_index_zero_based": 5,
+            "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+            "line_one_based": 17,
+            "logical_position_one_based": 13,
+            "normalized_span_zero_based_half_open": [
+              13,
+              14
+            ],
+            "region": "dbbi",
+            "semantic_label_bit": 1,
+            "token": "b",
+            "utf8_byte_span_zero_based_half_open": [
+              482,
+              483
+            ]
+          }
+        },
+        {
+          "event_index_zero_based": 6,
+          "existing_semantic_event_label_bit": 1,
+          "image_event": {
+            "bit_position_in_octet_zero_based": 7,
+            "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+            "color": "blue",
+            "column_zero_based": 1,
+            "event_index_zero_based": 6,
+            "original_binary_bit": 1,
+            "row_zero_based": 4,
+            "verified_octet_index_zero_based": 6,
+            "verified_source_character": "o",
+            "verified_source_octet_bits": "01101111",
+            "verified_spiral_index_zero_based": 55
+          },
+          "near_white_semantic_assignment_is_assumed_not_original_binary": false,
+          "original_binary_bit_matches": true,
+          "semantic_label_matches": true,
+          "source_marker": {
+            "character_span_zero_based_half_open": [
+              490,
+              491
+            ],
+            "column_one_based": 80,
+            "event_index_zero_based": 6,
+            "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+            "line_one_based": 17,
+            "logical_position_one_based": 17,
+            "normalized_span_zero_based_half_open": [
+              17,
+              18
+            ],
+            "region": "dbbi",
+            "semantic_label_bit": 1,
+            "token": "b",
+            "utf8_byte_span_zero_based_half_open": [
+              490,
+              491
+            ]
+          }
+        },
+        {
+          "event_index_zero_based": 7,
+          "existing_semantic_event_label_bit": 1,
+          "image_event": {
+            "bit_position_in_octet_zero_based": 7,
+            "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+            "color": "blue",
+            "column_zero_based": 1,
+            "event_index_zero_based": 7,
+            "original_binary_bit": 1,
+            "row_zero_based": 12,
+            "verified_octet_index_zero_based": 7,
+            "verified_source_character": "/",
+            "verified_source_octet_bits": "00101111",
+            "verified_spiral_index_zero_based": 63
+          },
+          "near_white_semantic_assignment_is_assumed_not_original_binary": false,
+          "original_binary_bit_matches": true,
+          "semantic_label_matches": true,
+          "source_marker": {
+            "character_span_zero_based_half_open": [
+              494,
+              495
+            ],
+            "column_one_based": 84,
+            "event_index_zero_based": 7,
+            "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+            "line_one_based": 17,
+            "logical_position_one_based": 19,
+            "normalized_span_zero_based_half_open": [
+              19,
+              20
+            ],
+            "region": "dbbi",
+            "semantic_label_bit": 1,
+            "token": "b",
+            "utf8_byte_span_zero_based_half_open": [
+              494,
+              495
+            ]
+          }
+        },
+        {
+          "event_index_zero_based": 8,
+          "existing_semantic_event_label_bit": 0,
+          "image_event": {
+            "bit_position_in_octet_zero_based": 7,
+            "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+            "color": "yellow",
+            "column_zero_based": 9,
+            "event_index_zero_based": 8,
+            "original_binary_bit": 0,
+            "row_zero_based": 12,
+            "verified_octet_index_zero_based": 8,
+            "verified_source_character": "t",
+            "verified_source_octet_bits": "01110100",
+            "verified_spiral_index_zero_based": 71
+          },
+          "near_white_semantic_assignment_is_assumed_not_original_binary": false,
+          "original_binary_bit_matches": true,
+          "semantic_label_matches": true,
+          "source_marker": {
+            "character_span_zero_based_half_open": [
+              502,
+              505
+            ],
+            "column_one_based": 92,
+            "event_index_zero_based": 8,
+            "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+            "line_one_based": 17,
+            "logical_position_one_based": 23,
+            "normalized_span_zero_based_half_open": [
+              23,
+              25
+            ],
+            "region": "dbbi",
+            "semantic_label_bit": 0,
+            "token": "be",
+            "utf8_byte_span_zero_based_half_open": [
+              502,
+              505
+            ]
+          }
+        },
+        {
+          "event_index_zero_based": 9,
+          "existing_semantic_event_label_bit": 0,
+          "image_event": {
+            "bit_position_in_octet_zero_based": 7,
+            "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+            "color": "yellow",
+            "column_zero_based": 12,
+            "event_index_zero_based": 9,
+            "original_binary_bit": 0,
+            "row_zero_based": 7,
+            "verified_octet_index_zero_based": 9,
+            "verified_source_character": "h",
+            "verified_source_octet_bits": "01101000",
+            "verified_spiral_index_zero_based": 79
+          },
+          "near_white_semantic_assignment_is_assumed_not_original_binary": false,
+          "original_binary_bit_matches": true,
+          "semantic_label_matches": true,
+          "source_marker": {
+            "character_span_zero_based_half_open": [
+              516,
+              519
+            ],
+            "column_one_based": 106,
+            "event_index_zero_based": 9,
+            "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+            "line_one_based": 17,
+            "logical_position_one_based": 29,
+            "normalized_span_zero_based_half_open": [
+              30,
+              32
+            ],
+            "region": "dbbi",
+            "semantic_label_bit": 0,
+            "token": "be",
+            "utf8_byte_span_zero_based_half_open": [
+              516,
+              519
+            ]
+          }
+        },
+        {
+          "event_index_zero_based": 10,
+          "existing_semantic_event_label_bit": 1,
+          "image_event": {
+            "bit_position_in_octet_zero_based": 7,
+            "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+            "color": "blue",
+            "column_zero_based": 10,
+            "event_index_zero_based": 10,
+            "original_binary_bit": 1,
+            "row_zero_based": 1,
+            "verified_octet_index_zero_based": 10,
+            "verified_source_character": "e",
+            "verified_source_octet_bits": "01100101",
+            "verified_spiral_index_zero_based": 87
+          },
+          "near_white_semantic_assignment_is_assumed_not_original_binary": false,
+          "original_binary_bit_matches": true,
+          "semantic_label_matches": true,
+          "source_marker": {
+            "character_span_zero_based_half_open": [
+              522,
+              523
+            ],
+            "column_one_based": 112,
+            "event_index_zero_based": 10,
+            "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+            "line_one_based": 17,
+            "logical_position_one_based": 31,
+            "normalized_span_zero_based_half_open": [
+              33,
+              34
+            ],
+            "region": "dbbi",
+            "semantic_label_bit": 1,
+            "token": "b",
+            "utf8_byte_span_zero_based_half_open": [
+              522,
+              523
+            ]
+          }
+        },
+        {
+          "event_index_zero_based": 11,
+          "existing_semantic_event_label_bit": 1,
+          "image_event": {
+            "bit_position_in_octet_zero_based": 7,
+            "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+            "color": "blue",
+            "column_zero_based": 2,
+            "event_index_zero_based": 11,
+            "original_binary_bit": 1,
+            "row_zero_based": 1,
+            "verified_octet_index_zero_based": 11,
+            "verified_source_character": "s",
+            "verified_source_octet_bits": "01110011",
+            "verified_spiral_index_zero_based": 95
+          },
+          "near_white_semantic_assignment_is_assumed_not_original_binary": false,
+          "original_binary_bit_matches": true,
+          "semantic_label_matches": true,
+          "source_marker": {
+            "character_span_zero_based_half_open": [
+              534,
+              535
+            ],
+            "column_one_based": 124,
+            "event_index_zero_based": 11,
+            "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+            "line_one_based": 17,
+            "logical_position_one_based": 37,
+            "normalized_span_zero_based_half_open": [
+              39,
+              40
+            ],
+            "region": "dbbi",
+            "semantic_label_bit": 1,
+            "token": "b",
+            "utf8_byte_span_zero_based_half_open": [
+              534,
+              535
+            ]
+          }
+        },
+        {
+          "event_index_zero_based": 12,
+          "existing_semantic_event_label_bit": 1,
+          "image_event": {
+            "bit_position_in_octet_zero_based": 7,
+            "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+            "color": "blue",
+            "column_zero_based": 2,
+            "event_index_zero_based": 12,
+            "original_binary_bit": 1,
+            "row_zero_based": 9,
+            "verified_octet_index_zero_based": 12,
+            "verified_source_character": "e",
+            "verified_source_octet_bits": "01100101",
+            "verified_spiral_index_zero_based": 103
+          },
+          "near_white_semantic_assignment_is_assumed_not_original_binary": false,
+          "original_binary_bit_matches": true,
+          "semantic_label_matches": true,
+          "source_marker": {
+            "character_span_zero_based_half_open": [
+              542,
+              543
+            ],
+            "column_one_based": 132,
+            "event_index_zero_based": 12,
+            "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+            "line_one_based": 17,
+            "logical_position_one_based": 41,
+            "normalized_span_zero_based_half_open": [
+              43,
+              44
+            ],
+            "region": "dbbi",
+            "semantic_label_bit": 1,
+            "token": "b",
+            "utf8_byte_span_zero_based_half_open": [
+              542,
+              543
+            ]
+          }
+        },
+        {
+          "event_index_zero_based": 13,
+          "existing_semantic_event_label_bit": 1,
+          "image_event": {
+            "bit_position_in_octet_zero_based": 7,
+            "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+            "color": "blue",
+            "column_zero_based": 8,
+            "event_index_zero_based": 13,
+            "original_binary_bit": 1,
+            "row_zero_based": 11,
+            "verified_octet_index_zero_based": 13,
+            "verified_source_character": "e",
+            "verified_source_octet_bits": "01100101",
+            "verified_spiral_index_zero_based": 111
+          },
+          "near_white_semantic_assignment_is_assumed_not_original_binary": false,
+          "original_binary_bit_matches": true,
+          "semantic_label_matches": true,
+          "source_marker": {
+            "character_span_zero_based_half_open": [
+              546,
+              547
+            ],
+            "column_one_based": 136,
+            "event_index_zero_based": 13,
+            "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+            "line_one_based": 17,
+            "logical_position_one_based": 43,
+            "normalized_span_zero_based_half_open": [
+              45,
+              46
+            ],
+            "region": "dbbi",
+            "semantic_label_bit": 1,
+            "token": "b",
+            "utf8_byte_span_zero_based_half_open": [
+              546,
+              547
+            ]
+          }
+        },
+        {
+          "event_index_zero_based": 14,
+          "existing_semantic_event_label_bit": 0,
+          "image_event": {
+            "bit_position_in_octet_zero_based": 7,
+            "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+            "color": "yellow",
+            "column_zero_based": 11,
+            "event_index_zero_based": 14,
+            "original_binary_bit": 0,
+            "row_zero_based": 6,
+            "verified_octet_index_zero_based": 14,
+            "verified_source_character": "d",
+            "verified_source_octet_bits": "01100100",
+            "verified_spiral_index_zero_based": 119
+          },
+          "near_white_semantic_assignment_is_assumed_not_original_binary": false,
+          "original_binary_bit_matches": true,
+          "semantic_label_matches": true,
+          "source_marker": {
+            "character_span_zero_based_half_open": [
+              554,
+              557
+            ],
+            "column_one_based": 144,
+            "event_index_zero_based": 14,
+            "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+            "line_one_based": 17,
+            "logical_position_one_based": 47,
+            "normalized_span_zero_based_half_open": [
+              49,
+              51
+            ],
+            "region": "dbbi",
+            "semantic_label_bit": 0,
+            "token": "be",
+            "utf8_byte_span_zero_based_half_open": [
+              554,
+              557
+            ]
+          }
+        },
+        {
+          "event_index_zero_based": 15,
+          "existing_semantic_event_label_bit": 1,
+          "image_event": {
+            "bit_position_in_octet_zero_based": 7,
+            "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+            "color": "blue",
+            "column_zero_based": 7,
+            "event_index_zero_based": 15,
+            "original_binary_bit": 1,
+            "row_zero_based": 2,
+            "verified_octet_index_zero_based": 15,
+            "verified_source_character": "i",
+            "verified_source_octet_bits": "01101001",
+            "verified_spiral_index_zero_based": 127
+          },
+          "near_white_semantic_assignment_is_assumed_not_original_binary": false,
+          "original_binary_bit_matches": true,
+          "semantic_label_matches": true,
+          "source_marker": {
+            "character_span_zero_based_half_open": [
+              568,
+              569
+            ],
+            "column_one_based": 158,
+            "event_index_zero_based": 15,
+            "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+            "line_one_based": 17,
+            "logical_position_one_based": 53,
+            "normalized_span_zero_based_half_open": [
+              56,
+              57
+            ],
+            "region": "dbbi",
+            "semantic_label_bit": 1,
+            "token": "b",
+            "utf8_byte_span_zero_based_half_open": [
+              568,
+              569
+            ]
+          }
+        },
+        {
+          "event_index_zero_based": 16,
+          "existing_semantic_event_label_bit": 1,
+          "image_event": {
+            "bit_position_in_octet_zero_based": 7,
+            "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+            "color": "blue",
+            "column_zero_based": 3,
+            "event_index_zero_based": 16,
+            "original_binary_bit": 1,
+            "row_zero_based": 6,
+            "verified_octet_index_zero_based": 16,
+            "verified_source_character": "s",
+            "verified_source_octet_bits": "01110011",
+            "verified_spiral_index_zero_based": 135
+          },
+          "near_white_semantic_assignment_is_assumed_not_original_binary": false,
+          "original_binary_bit_matches": true,
+          "semantic_label_matches": true,
+          "source_marker": {
+            "character_span_zero_based_half_open": [
+              580,
+              581
+            ],
+            "column_one_based": 170,
+            "event_index_zero_based": 16,
+            "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+            "line_one_based": 17,
+            "logical_position_one_based": 59,
+            "normalized_span_zero_based_half_open": [
+              62,
+              63
+            ],
+            "region": "dbbi",
+            "semantic_label_bit": 1,
+            "token": "b",
+            "utf8_byte_span_zero_based_half_open": [
+              580,
+              581
+            ]
+          }
+        },
+        {
+          "event_index_zero_based": 17,
+          "existing_semantic_event_label_bit": 0,
+          "image_event": {
+            "bit_position_in_octet_zero_based": 7,
+            "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+            "color": "yellow",
+            "column_zero_based": 7,
+            "event_index_zero_based": 17,
+            "original_binary_bit": 0,
+            "row_zero_based": 10,
+            "verified_octet_index_zero_based": 17,
+            "verified_source_character": "p",
+            "verified_source_octet_bits": "01110000",
+            "verified_spiral_index_zero_based": 143
+          },
+          "near_white_semantic_assignment_is_assumed_not_original_binary": false,
+          "original_binary_bit_matches": true,
+          "semantic_label_matches": true,
+          "source_marker": {
+            "character_span_zero_based_half_open": [
+              584,
+              587
+            ],
+            "column_one_based": 174,
+            "event_index_zero_based": 17,
+            "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+            "line_one_based": 17,
+            "logical_position_one_based": 61,
+            "normalized_span_zero_based_half_open": [
+              64,
+              66
+            ],
+            "region": "dbbi",
+            "semantic_label_bit": 0,
+            "token": "be",
+            "utf8_byte_span_zero_based_half_open": [
+              584,
+              587
+            ]
+          }
+        },
+        {
+          "event_index_zero_based": 18,
+          "existing_semantic_event_label_bit": 0,
+          "image_event": {
+            "bit_position_in_octet_zero_based": 7,
+            "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+            "color": "yellow",
+            "column_zero_based": 10,
+            "event_index_zero_based": 18,
+            "original_binary_bit": 0,
+            "row_zero_based": 5,
+            "verified_octet_index_zero_based": 18,
+            "verified_source_character": "l",
+            "verified_source_octet_bits": "01101100",
+            "verified_spiral_index_zero_based": 151
+          },
+          "near_white_semantic_assignment_is_assumed_not_original_binary": false,
+          "original_binary_bit_matches": true,
+          "semantic_label_matches": true,
+          "source_marker": {
+            "character_span_zero_based_half_open": [
+              598,
+              601
+            ],
+            "column_one_based": 188,
+            "event_index_zero_based": 18,
+            "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+            "line_one_based": 17,
+            "logical_position_one_based": 67,
+            "normalized_span_zero_based_half_open": [
+              71,
+              73
+            ],
+            "region": "dbbi",
+            "semantic_label_bit": 0,
+            "token": "be",
+            "utf8_byte_span_zero_based_half_open": [
+              598,
+              601
+            ]
+          }
+        },
+        {
+          "event_index_zero_based": 19,
+          "existing_semantic_event_label_bit": 1,
+          "image_event": {
+            "bit_position_in_octet_zero_based": 7,
+            "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+            "color": "blue",
+            "column_zero_based": 4,
+            "event_index_zero_based": 19,
+            "original_binary_bit": 1,
+            "row_zero_based": 3,
+            "verified_octet_index_zero_based": 19,
+            "verified_source_character": "a",
+            "verified_source_octet_bits": "01100001",
+            "verified_spiral_index_zero_based": 159
+          },
+          "near_white_semantic_assignment_is_assumed_not_original_binary": false,
+          "original_binary_bit_matches": true,
+          "semantic_label_matches": true,
+          "source_marker": {
+            "character_span_zero_based_half_open": [
+              608,
+              609
+            ],
+            "column_one_based": 198,
+            "event_index_zero_based": 19,
+            "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+            "line_one_based": 17,
+            "logical_position_one_based": 71,
+            "normalized_span_zero_based_half_open": [
+              76,
+              77
+            ],
+            "region": "dbbi",
+            "semantic_label_bit": 1,
+            "token": "b",
+            "utf8_byte_span_zero_based_half_open": [
+              608,
+              609
+            ]
+          }
+        },
+        {
+          "event_index_zero_based": 20,
+          "existing_semantic_event_label_bit": 1,
+          "image_event": {
+            "bit_position_in_octet_zero_based": 3,
+            "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+            "color": "near_white",
+            "column_zero_based": 4,
+            "event_index_zero_based": 20,
+            "original_binary_bit": 0,
+            "row_zero_based": 7,
+            "verified_octet_index_zero_based": 20,
+            "verified_source_character": "n",
+            "verified_source_octet_bits": "01101110",
+            "verified_spiral_index_zero_based": 163
+          },
+          "near_white_semantic_assignment_is_assumed_not_original_binary": true,
+          "original_binary_bit_matches": false,
+          "semantic_label_matches": true,
+          "source_marker": {
+            "character_span_zero_based_half_open": [
+              612,
+              613
+            ],
+            "column_one_based": 202,
+            "event_index_zero_based": 20,
+            "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+            "line_one_based": 17,
+            "logical_position_one_based": 73,
+            "normalized_span_zero_based_half_open": [
+              78,
+              79
+            ],
+            "region": "dbbi",
+            "semantic_label_bit": 1,
+            "token": "b",
+            "utf8_byte_span_zero_based_half_open": [
+              612,
+              613
+            ]
+          }
+        },
+        {
+          "event_index_zero_based": 21,
+          "existing_semantic_event_label_bit": 0,
+          "image_event": {
+            "bit_position_in_octet_zero_based": 7,
+            "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+            "color": "yellow",
+            "column_zero_based": 6,
+            "event_index_zero_based": 21,
+            "original_binary_bit": 0,
+            "row_zero_based": 9,
+            "verified_octet_index_zero_based": 20,
+            "verified_source_character": "n",
+            "verified_source_octet_bits": "01101110",
+            "verified_spiral_index_zero_based": 167
+          },
+          "near_white_semantic_assignment_is_assumed_not_original_binary": false,
+          "original_binary_bit_matches": true,
+          "semantic_label_matches": true,
+          "source_marker": {
+            "character_span_zero_based_half_open": [
+              624,
+              627
+            ],
+            "column_one_based": 214,
+            "event_index_zero_based": 21,
+            "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+            "line_one_based": 17,
+            "logical_position_one_based": 79,
+            "normalized_span_zero_based_half_open": [
+              84,
+              86
+            ],
+            "region": "dbbi",
+            "semantic_label_bit": 0,
+            "token": "be",
+            "utf8_byte_span_zero_based_half_open": [
+              624,
+              627
+            ]
+          }
+        },
+        {
+          "event_index_zero_based": 22,
+          "existing_semantic_event_label_bit": 0,
+          "image_event": {
+            "bit_position_in_octet_zero_based": 7,
+            "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+            "color": "yellow",
+            "column_zero_based": 9,
+            "event_index_zero_based": 22,
+            "original_binary_bit": 0,
+            "row_zero_based": 4,
+            "verified_octet_index_zero_based": 21,
+            "verified_source_character": "t",
+            "verified_source_octet_bits": "01110100",
+            "verified_spiral_index_zero_based": 175
+          },
+          "near_white_semantic_assignment_is_assumed_not_original_binary": false,
+          "original_binary_bit_matches": false,
+          "semantic_label_matches": false,
+          "source_marker": {
+            "character_span_zero_based_half_open": [
+              634,
+              635
+            ],
+            "column_one_based": 224,
+            "event_index_zero_based": 22,
+            "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+            "line_one_based": 17,
+            "logical_position_one_based": 83,
+            "normalized_span_zero_based_half_open": [
+              89,
+              90
+            ],
+            "region": "dbbi",
+            "semantic_label_bit": 1,
+            "token": "b",
+            "utf8_byte_span_zero_based_half_open": [
+              634,
+              635
+            ]
+          }
+        },
+        {
+          "event_index_zero_based": 23,
+          "existing_semantic_event_label_bit": 1,
+          "image_event": {
+            "bit_position_in_octet_zero_based": 7,
+            "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+            "color": "blue",
+            "column_zero_based": 5,
+            "event_index_zero_based": 23,
+            "original_binary_bit": 1,
+            "row_zero_based": 8,
+            "verified_octet_index_zero_based": 22,
+            "verified_source_character": "e",
+            "verified_source_octet_bits": "01100101",
+            "verified_spiral_index_zero_based": 183
+          },
+          "near_white_semantic_assignment_is_assumed_not_original_binary": false,
+          "original_binary_bit_matches": true,
+          "semantic_label_matches": true,
+          "source_marker": {
+            "binary_offset_zero_based": 4,
+            "character_span_zero_based_half_open": [
+              646,
+              647
+            ],
+            "column_one_based": 236,
+            "encoded_label_bit_offset_zero_based": 4,
+            "encoded_label_character_index_zero_based": 0,
+            "event_index_zero_based": 23,
+            "label_rule": "EXISTING_BINARY_LABEL_A0_B1_CONTINUING_LOGICAL_COUNTER",
+            "line_one_based": 17,
+            "logical_position_one_based": 89,
+            "normalized_span_zero_based_half_open": [
+              95,
+              96
+            ],
+            "region": "matrixsumlist-binary",
+            "semantic_label_bit": 1,
+            "token": "b",
+            "utf8_byte_span_zero_based_half_open": [
+              646,
+              647
+            ]
+          }
+        },
+        {
+          "event_index_zero_based": 24,
+          "existing_semantic_event_label_bit": 0,
+          "image_event": {
+            "bit_position_in_octet_zero_based": 7,
+            "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+            "color": "yellow",
+            "column_zero_based": 6,
+            "event_index_zero_based": 24,
+            "original_binary_bit": 0,
+            "row_zero_based": 5,
+            "verified_octet_index_zero_based": 23,
+            "verified_source_character": "d",
+            "verified_source_octet_bits": "01100100",
+            "verified_spiral_index_zero_based": 191
+          },
+          "near_white_semantic_assignment_is_assumed_not_original_binary": false,
+          "original_binary_bit_matches": true,
+          "semantic_label_matches": true,
+          "source_marker": {
+            "binary_offset_zero_based": 12,
+            "character_span_zero_based_half_open": [
+              662,
+              663
+            ],
+            "column_one_based": 252,
+            "encoded_label_bit_offset_zero_based": 4,
+            "encoded_label_character_index_zero_based": 1,
+            "event_index_zero_based": 24,
+            "label_rule": "EXISTING_BINARY_LABEL_A0_B1_CONTINUING_LOGICAL_COUNTER",
+            "line_one_based": 17,
+            "logical_position_one_based": 97,
+            "normalized_span_zero_based_half_open": [
+              103,
+              104
+            ],
+            "region": "matrixsumlist-binary",
+            "semantic_label_bit": 0,
+            "token": "a",
+            "utf8_byte_span_zero_based_half_open": [
+              662,
+              663
+            ]
+          }
+        }
+      ],
+      "logical_length": 84,
+      "markers": [
+        {
+          "character_span_zero_based_half_open": [
+            458,
+            459
+          ],
+          "column_one_based": 48,
+          "event_index_zero_based": 0,
+          "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+          "line_one_based": 17,
+          "logical_position_one_based": 2,
+          "normalized_span_zero_based_half_open": [
+            1,
+            2
+          ],
+          "region": "dbbi",
+          "semantic_label_bit": 1,
+          "token": "b",
+          "utf8_byte_span_zero_based_half_open": [
+            458,
+            459
+          ]
+        },
+        {
+          "character_span_zero_based_half_open": [
+            460,
+            461
+          ],
+          "column_one_based": 50,
+          "event_index_zero_based": 1,
+          "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+          "line_one_based": 17,
+          "logical_position_one_based": 3,
+          "normalized_span_zero_based_half_open": [
+            2,
+            3
+          ],
+          "region": "dbbi",
+          "semantic_label_bit": 1,
+          "token": "b",
+          "utf8_byte_span_zero_based_half_open": [
+            460,
+            461
+          ]
+        },
+        {
+          "character_span_zero_based_half_open": [
+            464,
+            465
+          ],
+          "column_one_based": 54,
+          "event_index_zero_based": 2,
+          "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+          "line_one_based": 17,
+          "logical_position_one_based": 5,
+          "normalized_span_zero_based_half_open": [
+            4,
+            5
+          ],
+          "region": "dbbi",
+          "semantic_label_bit": 1,
+          "token": "b",
+          "utf8_byte_span_zero_based_half_open": [
+            464,
+            465
+          ]
+        },
+        {
+          "character_span_zero_based_half_open": [
+            468,
+            469
+          ],
+          "column_one_based": 58,
+          "event_index_zero_based": 3,
+          "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+          "line_one_based": 17,
+          "logical_position_one_based": 7,
+          "normalized_span_zero_based_half_open": [
+            6,
+            7
+          ],
+          "region": "dbbi",
+          "semantic_label_bit": 1,
+          "token": "b",
+          "utf8_byte_span_zero_based_half_open": [
+            468,
+            469
+          ]
+        },
+        {
+          "character_span_zero_based_half_open": [
+            476,
+            479
+          ],
+          "column_one_based": 66,
+          "event_index_zero_based": 4,
+          "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+          "line_one_based": 17,
+          "logical_position_one_based": 11,
+          "normalized_span_zero_based_half_open": [
+            10,
+            12
+          ],
+          "region": "dbbi",
+          "semantic_label_bit": 0,
+          "token": "be",
+          "utf8_byte_span_zero_based_half_open": [
+            476,
+            479
+          ]
+        },
+        {
+          "character_span_zero_based_half_open": [
+            482,
+            483
+          ],
+          "column_one_based": 72,
+          "event_index_zero_based": 5,
+          "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+          "line_one_based": 17,
+          "logical_position_one_based": 13,
+          "normalized_span_zero_based_half_open": [
+            13,
+            14
+          ],
+          "region": "dbbi",
+          "semantic_label_bit": 1,
+          "token": "b",
+          "utf8_byte_span_zero_based_half_open": [
+            482,
+            483
+          ]
+        },
+        {
+          "character_span_zero_based_half_open": [
+            490,
+            491
+          ],
+          "column_one_based": 80,
+          "event_index_zero_based": 6,
+          "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+          "line_one_based": 17,
+          "logical_position_one_based": 17,
+          "normalized_span_zero_based_half_open": [
+            17,
+            18
+          ],
+          "region": "dbbi",
+          "semantic_label_bit": 1,
+          "token": "b",
+          "utf8_byte_span_zero_based_half_open": [
+            490,
+            491
+          ]
+        },
+        {
+          "character_span_zero_based_half_open": [
+            494,
+            495
+          ],
+          "column_one_based": 84,
+          "event_index_zero_based": 7,
+          "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+          "line_one_based": 17,
+          "logical_position_one_based": 19,
+          "normalized_span_zero_based_half_open": [
+            19,
+            20
+          ],
+          "region": "dbbi",
+          "semantic_label_bit": 1,
+          "token": "b",
+          "utf8_byte_span_zero_based_half_open": [
+            494,
+            495
+          ]
+        },
+        {
+          "character_span_zero_based_half_open": [
+            502,
+            505
+          ],
+          "column_one_based": 92,
+          "event_index_zero_based": 8,
+          "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+          "line_one_based": 17,
+          "logical_position_one_based": 23,
+          "normalized_span_zero_based_half_open": [
+            23,
+            25
+          ],
+          "region": "dbbi",
+          "semantic_label_bit": 0,
+          "token": "be",
+          "utf8_byte_span_zero_based_half_open": [
+            502,
+            505
+          ]
+        },
+        {
+          "character_span_zero_based_half_open": [
+            516,
+            519
+          ],
+          "column_one_based": 106,
+          "event_index_zero_based": 9,
+          "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+          "line_one_based": 17,
+          "logical_position_one_based": 29,
+          "normalized_span_zero_based_half_open": [
+            30,
+            32
+          ],
+          "region": "dbbi",
+          "semantic_label_bit": 0,
+          "token": "be",
+          "utf8_byte_span_zero_based_half_open": [
+            516,
+            519
+          ]
+        },
+        {
+          "character_span_zero_based_half_open": [
+            522,
+            523
+          ],
+          "column_one_based": 112,
+          "event_index_zero_based": 10,
+          "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+          "line_one_based": 17,
+          "logical_position_one_based": 31,
+          "normalized_span_zero_based_half_open": [
+            33,
+            34
+          ],
+          "region": "dbbi",
+          "semantic_label_bit": 1,
+          "token": "b",
+          "utf8_byte_span_zero_based_half_open": [
+            522,
+            523
+          ]
+        },
+        {
+          "character_span_zero_based_half_open": [
+            534,
+            535
+          ],
+          "column_one_based": 124,
+          "event_index_zero_based": 11,
+          "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+          "line_one_based": 17,
+          "logical_position_one_based": 37,
+          "normalized_span_zero_based_half_open": [
+            39,
+            40
+          ],
+          "region": "dbbi",
+          "semantic_label_bit": 1,
+          "token": "b",
+          "utf8_byte_span_zero_based_half_open": [
+            534,
+            535
+          ]
+        },
+        {
+          "character_span_zero_based_half_open": [
+            542,
+            543
+          ],
+          "column_one_based": 132,
+          "event_index_zero_based": 12,
+          "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+          "line_one_based": 17,
+          "logical_position_one_based": 41,
+          "normalized_span_zero_based_half_open": [
+            43,
+            44
+          ],
+          "region": "dbbi",
+          "semantic_label_bit": 1,
+          "token": "b",
+          "utf8_byte_span_zero_based_half_open": [
+            542,
+            543
+          ]
+        },
+        {
+          "character_span_zero_based_half_open": [
+            546,
+            547
+          ],
+          "column_one_based": 136,
+          "event_index_zero_based": 13,
+          "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+          "line_one_based": 17,
+          "logical_position_one_based": 43,
+          "normalized_span_zero_based_half_open": [
+            45,
+            46
+          ],
+          "region": "dbbi",
+          "semantic_label_bit": 1,
+          "token": "b",
+          "utf8_byte_span_zero_based_half_open": [
+            546,
+            547
+          ]
+        },
+        {
+          "character_span_zero_based_half_open": [
+            554,
+            557
+          ],
+          "column_one_based": 144,
+          "event_index_zero_based": 14,
+          "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+          "line_one_based": 17,
+          "logical_position_one_based": 47,
+          "normalized_span_zero_based_half_open": [
+            49,
+            51
+          ],
+          "region": "dbbi",
+          "semantic_label_bit": 0,
+          "token": "be",
+          "utf8_byte_span_zero_based_half_open": [
+            554,
+            557
+          ]
+        },
+        {
+          "character_span_zero_based_half_open": [
+            568,
+            569
+          ],
+          "column_one_based": 158,
+          "event_index_zero_based": 15,
+          "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+          "line_one_based": 17,
+          "logical_position_one_based": 53,
+          "normalized_span_zero_based_half_open": [
+            56,
+            57
+          ],
+          "region": "dbbi",
+          "semantic_label_bit": 1,
+          "token": "b",
+          "utf8_byte_span_zero_based_half_open": [
+            568,
+            569
+          ]
+        },
+        {
+          "character_span_zero_based_half_open": [
+            580,
+            581
+          ],
+          "column_one_based": 170,
+          "event_index_zero_based": 16,
+          "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+          "line_one_based": 17,
+          "logical_position_one_based": 59,
+          "normalized_span_zero_based_half_open": [
+            62,
+            63
+          ],
+          "region": "dbbi",
+          "semantic_label_bit": 1,
+          "token": "b",
+          "utf8_byte_span_zero_based_half_open": [
+            580,
+            581
+          ]
+        },
+        {
+          "character_span_zero_based_half_open": [
+            584,
+            587
+          ],
+          "column_one_based": 174,
+          "event_index_zero_based": 17,
+          "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+          "line_one_based": 17,
+          "logical_position_one_based": 61,
+          "normalized_span_zero_based_half_open": [
+            64,
+            66
+          ],
+          "region": "dbbi",
+          "semantic_label_bit": 0,
+          "token": "be",
+          "utf8_byte_span_zero_based_half_open": [
+            584,
+            587
+          ]
+        },
+        {
+          "character_span_zero_based_half_open": [
+            598,
+            601
+          ],
+          "column_one_based": 188,
+          "event_index_zero_based": 18,
+          "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+          "line_one_based": 17,
+          "logical_position_one_based": 67,
+          "normalized_span_zero_based_half_open": [
+            71,
+            73
+          ],
+          "region": "dbbi",
+          "semantic_label_bit": 0,
+          "token": "be",
+          "utf8_byte_span_zero_based_half_open": [
+            598,
+            601
+          ]
+        },
+        {
+          "character_span_zero_based_half_open": [
+            608,
+            609
+          ],
+          "column_one_based": 198,
+          "event_index_zero_based": 19,
+          "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+          "line_one_based": 17,
+          "logical_position_one_based": 71,
+          "normalized_span_zero_based_half_open": [
+            76,
+            77
+          ],
+          "region": "dbbi",
+          "semantic_label_bit": 1,
+          "token": "b",
+          "utf8_byte_span_zero_based_half_open": [
+            608,
+            609
+          ]
+        },
+        {
+          "character_span_zero_based_half_open": [
+            612,
+            613
+          ],
+          "column_one_based": 202,
+          "event_index_zero_based": 20,
+          "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+          "line_one_based": 17,
+          "logical_position_one_based": 73,
+          "normalized_span_zero_based_half_open": [
+            78,
+            79
+          ],
+          "region": "dbbi",
+          "semantic_label_bit": 1,
+          "token": "b",
+          "utf8_byte_span_zero_based_half_open": [
+            612,
+            613
+          ]
+        },
+        {
+          "character_span_zero_based_half_open": [
+            624,
+            627
+          ],
+          "column_one_based": 214,
+          "event_index_zero_based": 21,
+          "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+          "line_one_based": 17,
+          "logical_position_one_based": 79,
+          "normalized_span_zero_based_half_open": [
+            84,
+            86
+          ],
+          "region": "dbbi",
+          "semantic_label_bit": 0,
+          "token": "be",
+          "utf8_byte_span_zero_based_half_open": [
+            624,
+            627
+          ]
+        },
+        {
+          "character_span_zero_based_half_open": [
+            634,
+            635
+          ],
+          "column_one_based": 224,
+          "event_index_zero_based": 22,
+          "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+          "line_one_based": 17,
+          "logical_position_one_based": 83,
+          "normalized_span_zero_based_half_open": [
+            89,
+            90
+          ],
+          "region": "dbbi",
+          "semantic_label_bit": 1,
+          "token": "b",
+          "utf8_byte_span_zero_based_half_open": [
+            634,
+            635
+          ]
+        },
+        {
+          "binary_offset_zero_based": 4,
+          "character_span_zero_based_half_open": [
+            646,
+            647
+          ],
+          "column_one_based": 236,
+          "encoded_label_bit_offset_zero_based": 4,
+          "encoded_label_character_index_zero_based": 0,
+          "event_index_zero_based": 23,
+          "label_rule": "EXISTING_BINARY_LABEL_A0_B1_CONTINUING_LOGICAL_COUNTER",
+          "line_one_based": 17,
+          "logical_position_one_based": 89,
+          "normalized_span_zero_based_half_open": [
+            95,
+            96
+          ],
+          "region": "matrixsumlist-binary",
+          "semantic_label_bit": 1,
+          "token": "b",
+          "utf8_byte_span_zero_based_half_open": [
+            646,
+            647
+          ]
+        },
+        {
+          "binary_offset_zero_based": 12,
+          "character_span_zero_based_half_open": [
+            662,
+            663
+          ],
+          "column_one_based": 252,
+          "encoded_label_bit_offset_zero_based": 4,
+          "encoded_label_character_index_zero_based": 1,
+          "event_index_zero_based": 24,
+          "label_rule": "EXISTING_BINARY_LABEL_A0_B1_CONTINUING_LOGICAL_COUNTER",
+          "line_one_based": 17,
+          "logical_position_one_based": 97,
+          "normalized_span_zero_based_half_open": [
+            103,
+            104
+          ],
+          "region": "matrixsumlist-binary",
+          "semantic_label_bit": 0,
+          "token": "a",
+          "utf8_byte_span_zero_based_half_open": [
+            662,
+            663
+          ]
+        }
+      ],
+      "mask": 505,
+      "original_binary_mismatch_event_indices": [
+        20,
+        22
+      ],
+      "residual_length": 61,
+      "residual_sha256": "56e78fb61ca4ec0f23fcc7d374050b3e32821a540b87ecda9364267b76c32161",
+      "semantic_mismatch_event_indices": [
+        22
+      ]
+    },
+    {
+      "borrowed_boundary_bits": [
+        1,
+        0
+      ],
+      "comparisons": [
+        {
+          "event_index_zero_based": 0,
+          "existing_semantic_event_label_bit": 1,
+          "image_event": {
+            "bit_position_in_octet_zero_based": 7,
+            "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+            "color": "blue",
+            "column_zero_based": 0,
+            "event_index_zero_based": 0,
+            "original_binary_bit": 1,
+            "row_zero_based": 7,
+            "verified_octet_index_zero_based": 0,
+            "verified_source_character": "g",
+            "verified_source_octet_bits": "01100111",
+            "verified_spiral_index_zero_based": 7
+          },
+          "near_white_semantic_assignment_is_assumed_not_original_binary": false,
+          "original_binary_bit_matches": true,
+          "semantic_label_matches": true,
+          "source_marker": {
+            "character_span_zero_based_half_open": [
+              458,
+              459
+            ],
+            "column_one_based": 48,
+            "event_index_zero_based": 0,
+            "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+            "line_one_based": 17,
+            "logical_position_one_based": 2,
+            "normalized_span_zero_based_half_open": [
+              1,
+              2
+            ],
+            "region": "dbbi",
+            "semantic_label_bit": 1,
+            "token": "b",
+            "utf8_byte_span_zero_based_half_open": [
+              458,
+              459
+            ]
+          }
+        },
+        {
+          "event_index_zero_based": 1,
+          "existing_semantic_event_label_bit": 1,
+          "image_event": {
+            "bit_position_in_octet_zero_based": 7,
+            "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+            "color": "blue",
+            "column_zero_based": 2,
+            "event_index_zero_based": 1,
+            "original_binary_bit": 1,
+            "row_zero_based": 13,
+            "verified_octet_index_zero_based": 1,
+            "verified_source_character": "s",
+            "verified_source_octet_bits": "01110011",
+            "verified_spiral_index_zero_based": 15
+          },
+          "near_white_semantic_assignment_is_assumed_not_original_binary": false,
+          "original_binary_bit_matches": true,
+          "semantic_label_matches": true,
+          "source_marker": {
+            "character_span_zero_based_half_open": [
+              460,
+              461
+            ],
+            "column_one_based": 50,
+            "event_index_zero_based": 1,
+            "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+            "line_one_based": 17,
+            "logical_position_one_based": 3,
+            "normalized_span_zero_based_half_open": [
+              2,
+              3
+            ],
+            "region": "dbbi",
+            "semantic_label_bit": 1,
+            "token": "b",
+            "utf8_byte_span_zero_based_half_open": [
+              460,
+              461
+            ]
+          }
+        },
+        {
+          "event_index_zero_based": 2,
+          "existing_semantic_event_label_bit": 1,
+          "image_event": {
+            "bit_position_in_octet_zero_based": 7,
+            "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+            "color": "blue",
+            "column_zero_based": 10,
+            "event_index_zero_based": 2,
+            "original_binary_bit": 1,
+            "row_zero_based": 13,
+            "verified_octet_index_zero_based": 2,
+            "verified_source_character": "m",
+            "verified_source_octet_bits": "01101101",
+            "verified_spiral_index_zero_based": 23
+          },
+          "near_white_semantic_assignment_is_assumed_not_original_binary": false,
+          "original_binary_bit_matches": true,
+          "semantic_label_matches": true,
+          "source_marker": {
+            "character_span_zero_based_half_open": [
+              464,
+              465
+            ],
+            "column_one_based": 54,
+            "event_index_zero_based": 2,
+            "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+            "line_one_based": 17,
+            "logical_position_one_based": 5,
+            "normalized_span_zero_based_half_open": [
+              4,
+              5
+            ],
+            "region": "dbbi",
+            "semantic_label_bit": 1,
+            "token": "b",
+            "utf8_byte_span_zero_based_half_open": [
+              464,
+              465
+            ]
+          }
+        },
+        {
+          "event_index_zero_based": 3,
+          "existing_semantic_event_label_bit": 1,
+          "image_event": {
+            "bit_position_in_octet_zero_based": 7,
+            "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+            "color": "blue",
+            "column_zero_based": 13,
+            "event_index_zero_based": 3,
+            "original_binary_bit": 1,
+            "row_zero_based": 8,
+            "verified_octet_index_zero_based": 3,
+            "verified_source_character": "g",
+            "verified_source_octet_bits": "01100111",
+            "verified_spiral_index_zero_based": 31
+          },
+          "near_white_semantic_assignment_is_assumed_not_original_binary": false,
+          "original_binary_bit_matches": true,
+          "semantic_label_matches": true,
+          "source_marker": {
+            "character_span_zero_based_half_open": [
+              468,
+              469
+            ],
+            "column_one_based": 58,
+            "event_index_zero_based": 3,
+            "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+            "line_one_based": 17,
+            "logical_position_one_based": 7,
+            "normalized_span_zero_based_half_open": [
+              6,
+              7
+            ],
+            "region": "dbbi",
+            "semantic_label_bit": 1,
+            "token": "b",
+            "utf8_byte_span_zero_based_half_open": [
+              468,
+              469
+            ]
+          }
+        },
+        {
+          "event_index_zero_based": 4,
+          "existing_semantic_event_label_bit": 0,
+          "image_event": {
+            "bit_position_in_octet_zero_based": 7,
+            "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+            "color": "yellow",
+            "column_zero_based": 13,
+            "event_index_zero_based": 4,
+            "original_binary_bit": 0,
+            "row_zero_based": 0,
+            "verified_octet_index_zero_based": 4,
+            "verified_source_character": ".",
+            "verified_source_octet_bits": "00101110",
+            "verified_spiral_index_zero_based": 39
+          },
+          "near_white_semantic_assignment_is_assumed_not_original_binary": false,
+          "original_binary_bit_matches": true,
+          "semantic_label_matches": true,
+          "source_marker": {
+            "character_span_zero_based_half_open": [
+              476,
+              479
+            ],
+            "column_one_based": 66,
+            "event_index_zero_based": 4,
+            "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+            "line_one_based": 17,
+            "logical_position_one_based": 11,
+            "normalized_span_zero_based_half_open": [
+              10,
+              12
+            ],
+            "region": "dbbi",
+            "semantic_label_bit": 0,
+            "token": "be",
+            "utf8_byte_span_zero_based_half_open": [
+              476,
+              479
+            ]
+          }
+        },
+        {
+          "event_index_zero_based": 5,
+          "existing_semantic_event_label_bit": 1,
+          "image_event": {
+            "bit_position_in_octet_zero_based": 7,
+            "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+            "color": "blue",
+            "column_zero_based": 5,
+            "event_index_zero_based": 5,
+            "original_binary_bit": 1,
+            "row_zero_based": 0,
+            "verified_octet_index_zero_based": 5,
+            "verified_source_character": "i",
+            "verified_source_octet_bits": "01101001",
+            "verified_spiral_index_zero_based": 47
+          },
+          "near_white_semantic_assignment_is_assumed_not_original_binary": false,
+          "original_binary_bit_matches": true,
+          "semantic_label_matches": true,
+          "source_marker": {
+            "character_span_zero_based_half_open": [
+              482,
+              483
+            ],
+            "column_one_based": 72,
+            "event_index_zero_based": 5,
+            "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+            "line_one_based": 17,
+            "logical_position_one_based": 13,
+            "normalized_span_zero_based_half_open": [
+              13,
+              14
+            ],
+            "region": "dbbi",
+            "semantic_label_bit": 1,
+            "token": "b",
+            "utf8_byte_span_zero_based_half_open": [
+              482,
+              483
+            ]
+          }
+        },
+        {
+          "event_index_zero_based": 6,
+          "existing_semantic_event_label_bit": 1,
+          "image_event": {
+            "bit_position_in_octet_zero_based": 7,
+            "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+            "color": "blue",
+            "column_zero_based": 1,
+            "event_index_zero_based": 6,
+            "original_binary_bit": 1,
+            "row_zero_based": 4,
+            "verified_octet_index_zero_based": 6,
+            "verified_source_character": "o",
+            "verified_source_octet_bits": "01101111",
+            "verified_spiral_index_zero_based": 55
+          },
+          "near_white_semantic_assignment_is_assumed_not_original_binary": false,
+          "original_binary_bit_matches": true,
+          "semantic_label_matches": true,
+          "source_marker": {
+            "character_span_zero_based_half_open": [
+              490,
+              491
+            ],
+            "column_one_based": 80,
+            "event_index_zero_based": 6,
+            "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+            "line_one_based": 17,
+            "logical_position_one_based": 17,
+            "normalized_span_zero_based_half_open": [
+              17,
+              18
+            ],
+            "region": "dbbi",
+            "semantic_label_bit": 1,
+            "token": "b",
+            "utf8_byte_span_zero_based_half_open": [
+              490,
+              491
+            ]
+          }
+        },
+        {
+          "event_index_zero_based": 7,
+          "existing_semantic_event_label_bit": 1,
+          "image_event": {
+            "bit_position_in_octet_zero_based": 7,
+            "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+            "color": "blue",
+            "column_zero_based": 1,
+            "event_index_zero_based": 7,
+            "original_binary_bit": 1,
+            "row_zero_based": 12,
+            "verified_octet_index_zero_based": 7,
+            "verified_source_character": "/",
+            "verified_source_octet_bits": "00101111",
+            "verified_spiral_index_zero_based": 63
+          },
+          "near_white_semantic_assignment_is_assumed_not_original_binary": false,
+          "original_binary_bit_matches": true,
+          "semantic_label_matches": true,
+          "source_marker": {
+            "character_span_zero_based_half_open": [
+              494,
+              495
+            ],
+            "column_one_based": 84,
+            "event_index_zero_based": 7,
+            "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+            "line_one_based": 17,
+            "logical_position_one_based": 19,
+            "normalized_span_zero_based_half_open": [
+              19,
+              20
+            ],
+            "region": "dbbi",
+            "semantic_label_bit": 1,
+            "token": "b",
+            "utf8_byte_span_zero_based_half_open": [
+              494,
+              495
+            ]
+          }
+        },
+        {
+          "event_index_zero_based": 8,
+          "existing_semantic_event_label_bit": 0,
+          "image_event": {
+            "bit_position_in_octet_zero_based": 7,
+            "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+            "color": "yellow",
+            "column_zero_based": 9,
+            "event_index_zero_based": 8,
+            "original_binary_bit": 0,
+            "row_zero_based": 12,
+            "verified_octet_index_zero_based": 8,
+            "verified_source_character": "t",
+            "verified_source_octet_bits": "01110100",
+            "verified_spiral_index_zero_based": 71
+          },
+          "near_white_semantic_assignment_is_assumed_not_original_binary": false,
+          "original_binary_bit_matches": true,
+          "semantic_label_matches": true,
+          "source_marker": {
+            "character_span_zero_based_half_open": [
+              502,
+              505
+            ],
+            "column_one_based": 92,
+            "event_index_zero_based": 8,
+            "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+            "line_one_based": 17,
+            "logical_position_one_based": 23,
+            "normalized_span_zero_based_half_open": [
+              23,
+              25
+            ],
+            "region": "dbbi",
+            "semantic_label_bit": 0,
+            "token": "be",
+            "utf8_byte_span_zero_based_half_open": [
+              502,
+              505
+            ]
+          }
+        },
+        {
+          "event_index_zero_based": 9,
+          "existing_semantic_event_label_bit": 0,
+          "image_event": {
+            "bit_position_in_octet_zero_based": 7,
+            "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+            "color": "yellow",
+            "column_zero_based": 12,
+            "event_index_zero_based": 9,
+            "original_binary_bit": 0,
+            "row_zero_based": 7,
+            "verified_octet_index_zero_based": 9,
+            "verified_source_character": "h",
+            "verified_source_octet_bits": "01101000",
+            "verified_spiral_index_zero_based": 79
+          },
+          "near_white_semantic_assignment_is_assumed_not_original_binary": false,
+          "original_binary_bit_matches": true,
+          "semantic_label_matches": true,
+          "source_marker": {
+            "character_span_zero_based_half_open": [
+              516,
+              519
+            ],
+            "column_one_based": 106,
+            "event_index_zero_based": 9,
+            "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+            "line_one_based": 17,
+            "logical_position_one_based": 29,
+            "normalized_span_zero_based_half_open": [
+              30,
+              32
+            ],
+            "region": "dbbi",
+            "semantic_label_bit": 0,
+            "token": "be",
+            "utf8_byte_span_zero_based_half_open": [
+              516,
+              519
+            ]
+          }
+        },
+        {
+          "event_index_zero_based": 10,
+          "existing_semantic_event_label_bit": 1,
+          "image_event": {
+            "bit_position_in_octet_zero_based": 7,
+            "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+            "color": "blue",
+            "column_zero_based": 10,
+            "event_index_zero_based": 10,
+            "original_binary_bit": 1,
+            "row_zero_based": 1,
+            "verified_octet_index_zero_based": 10,
+            "verified_source_character": "e",
+            "verified_source_octet_bits": "01100101",
+            "verified_spiral_index_zero_based": 87
+          },
+          "near_white_semantic_assignment_is_assumed_not_original_binary": false,
+          "original_binary_bit_matches": true,
+          "semantic_label_matches": true,
+          "source_marker": {
+            "character_span_zero_based_half_open": [
+              522,
+              523
+            ],
+            "column_one_based": 112,
+            "event_index_zero_based": 10,
+            "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+            "line_one_based": 17,
+            "logical_position_one_based": 31,
+            "normalized_span_zero_based_half_open": [
+              33,
+              34
+            ],
+            "region": "dbbi",
+            "semantic_label_bit": 1,
+            "token": "b",
+            "utf8_byte_span_zero_based_half_open": [
+              522,
+              523
+            ]
+          }
+        },
+        {
+          "event_index_zero_based": 11,
+          "existing_semantic_event_label_bit": 1,
+          "image_event": {
+            "bit_position_in_octet_zero_based": 7,
+            "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+            "color": "blue",
+            "column_zero_based": 2,
+            "event_index_zero_based": 11,
+            "original_binary_bit": 1,
+            "row_zero_based": 1,
+            "verified_octet_index_zero_based": 11,
+            "verified_source_character": "s",
+            "verified_source_octet_bits": "01110011",
+            "verified_spiral_index_zero_based": 95
+          },
+          "near_white_semantic_assignment_is_assumed_not_original_binary": false,
+          "original_binary_bit_matches": true,
+          "semantic_label_matches": true,
+          "source_marker": {
+            "character_span_zero_based_half_open": [
+              534,
+              535
+            ],
+            "column_one_based": 124,
+            "event_index_zero_based": 11,
+            "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+            "line_one_based": 17,
+            "logical_position_one_based": 37,
+            "normalized_span_zero_based_half_open": [
+              39,
+              40
+            ],
+            "region": "dbbi",
+            "semantic_label_bit": 1,
+            "token": "b",
+            "utf8_byte_span_zero_based_half_open": [
+              534,
+              535
+            ]
+          }
+        },
+        {
+          "event_index_zero_based": 12,
+          "existing_semantic_event_label_bit": 1,
+          "image_event": {
+            "bit_position_in_octet_zero_based": 7,
+            "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+            "color": "blue",
+            "column_zero_based": 2,
+            "event_index_zero_based": 12,
+            "original_binary_bit": 1,
+            "row_zero_based": 9,
+            "verified_octet_index_zero_based": 12,
+            "verified_source_character": "e",
+            "verified_source_octet_bits": "01100101",
+            "verified_spiral_index_zero_based": 103
+          },
+          "near_white_semantic_assignment_is_assumed_not_original_binary": false,
+          "original_binary_bit_matches": true,
+          "semantic_label_matches": true,
+          "source_marker": {
+            "character_span_zero_based_half_open": [
+              542,
+              543
+            ],
+            "column_one_based": 132,
+            "event_index_zero_based": 12,
+            "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+            "line_one_based": 17,
+            "logical_position_one_based": 41,
+            "normalized_span_zero_based_half_open": [
+              43,
+              44
+            ],
+            "region": "dbbi",
+            "semantic_label_bit": 1,
+            "token": "b",
+            "utf8_byte_span_zero_based_half_open": [
+              542,
+              543
+            ]
+          }
+        },
+        {
+          "event_index_zero_based": 13,
+          "existing_semantic_event_label_bit": 1,
+          "image_event": {
+            "bit_position_in_octet_zero_based": 7,
+            "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+            "color": "blue",
+            "column_zero_based": 8,
+            "event_index_zero_based": 13,
+            "original_binary_bit": 1,
+            "row_zero_based": 11,
+            "verified_octet_index_zero_based": 13,
+            "verified_source_character": "e",
+            "verified_source_octet_bits": "01100101",
+            "verified_spiral_index_zero_based": 111
+          },
+          "near_white_semantic_assignment_is_assumed_not_original_binary": false,
+          "original_binary_bit_matches": true,
+          "semantic_label_matches": true,
+          "source_marker": {
+            "character_span_zero_based_half_open": [
+              546,
+              547
+            ],
+            "column_one_based": 136,
+            "event_index_zero_based": 13,
+            "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+            "line_one_based": 17,
+            "logical_position_one_based": 43,
+            "normalized_span_zero_based_half_open": [
+              45,
+              46
+            ],
+            "region": "dbbi",
+            "semantic_label_bit": 1,
+            "token": "b",
+            "utf8_byte_span_zero_based_half_open": [
+              546,
+              547
+            ]
+          }
+        },
+        {
+          "event_index_zero_based": 14,
+          "existing_semantic_event_label_bit": 0,
+          "image_event": {
+            "bit_position_in_octet_zero_based": 7,
+            "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+            "color": "yellow",
+            "column_zero_based": 11,
+            "event_index_zero_based": 14,
+            "original_binary_bit": 0,
+            "row_zero_based": 6,
+            "verified_octet_index_zero_based": 14,
+            "verified_source_character": "d",
+            "verified_source_octet_bits": "01100100",
+            "verified_spiral_index_zero_based": 119
+          },
+          "near_white_semantic_assignment_is_assumed_not_original_binary": false,
+          "original_binary_bit_matches": true,
+          "semantic_label_matches": true,
+          "source_marker": {
+            "character_span_zero_based_half_open": [
+              554,
+              557
+            ],
+            "column_one_based": 144,
+            "event_index_zero_based": 14,
+            "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+            "line_one_based": 17,
+            "logical_position_one_based": 47,
+            "normalized_span_zero_based_half_open": [
+              49,
+              51
+            ],
+            "region": "dbbi",
+            "semantic_label_bit": 0,
+            "token": "be",
+            "utf8_byte_span_zero_based_half_open": [
+              554,
+              557
+            ]
+          }
+        },
+        {
+          "event_index_zero_based": 15,
+          "existing_semantic_event_label_bit": 1,
+          "image_event": {
+            "bit_position_in_octet_zero_based": 7,
+            "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+            "color": "blue",
+            "column_zero_based": 7,
+            "event_index_zero_based": 15,
+            "original_binary_bit": 1,
+            "row_zero_based": 2,
+            "verified_octet_index_zero_based": 15,
+            "verified_source_character": "i",
+            "verified_source_octet_bits": "01101001",
+            "verified_spiral_index_zero_based": 127
+          },
+          "near_white_semantic_assignment_is_assumed_not_original_binary": false,
+          "original_binary_bit_matches": true,
+          "semantic_label_matches": true,
+          "source_marker": {
+            "character_span_zero_based_half_open": [
+              568,
+              569
+            ],
+            "column_one_based": 158,
+            "event_index_zero_based": 15,
+            "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+            "line_one_based": 17,
+            "logical_position_one_based": 53,
+            "normalized_span_zero_based_half_open": [
+              56,
+              57
+            ],
+            "region": "dbbi",
+            "semantic_label_bit": 1,
+            "token": "b",
+            "utf8_byte_span_zero_based_half_open": [
+              568,
+              569
+            ]
+          }
+        },
+        {
+          "event_index_zero_based": 16,
+          "existing_semantic_event_label_bit": 1,
+          "image_event": {
+            "bit_position_in_octet_zero_based": 7,
+            "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+            "color": "blue",
+            "column_zero_based": 3,
+            "event_index_zero_based": 16,
+            "original_binary_bit": 1,
+            "row_zero_based": 6,
+            "verified_octet_index_zero_based": 16,
+            "verified_source_character": "s",
+            "verified_source_octet_bits": "01110011",
+            "verified_spiral_index_zero_based": 135
+          },
+          "near_white_semantic_assignment_is_assumed_not_original_binary": false,
+          "original_binary_bit_matches": true,
+          "semantic_label_matches": true,
+          "source_marker": {
+            "character_span_zero_based_half_open": [
+              580,
+              581
+            ],
+            "column_one_based": 170,
+            "event_index_zero_based": 16,
+            "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+            "line_one_based": 17,
+            "logical_position_one_based": 59,
+            "normalized_span_zero_based_half_open": [
+              62,
+              63
+            ],
+            "region": "dbbi",
+            "semantic_label_bit": 1,
+            "token": "b",
+            "utf8_byte_span_zero_based_half_open": [
+              580,
+              581
+            ]
+          }
+        },
+        {
+          "event_index_zero_based": 17,
+          "existing_semantic_event_label_bit": 0,
+          "image_event": {
+            "bit_position_in_octet_zero_based": 7,
+            "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+            "color": "yellow",
+            "column_zero_based": 7,
+            "event_index_zero_based": 17,
+            "original_binary_bit": 0,
+            "row_zero_based": 10,
+            "verified_octet_index_zero_based": 17,
+            "verified_source_character": "p",
+            "verified_source_octet_bits": "01110000",
+            "verified_spiral_index_zero_based": 143
+          },
+          "near_white_semantic_assignment_is_assumed_not_original_binary": false,
+          "original_binary_bit_matches": true,
+          "semantic_label_matches": true,
+          "source_marker": {
+            "character_span_zero_based_half_open": [
+              584,
+              587
+            ],
+            "column_one_based": 174,
+            "event_index_zero_based": 17,
+            "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+            "line_one_based": 17,
+            "logical_position_one_based": 61,
+            "normalized_span_zero_based_half_open": [
+              64,
+              66
+            ],
+            "region": "dbbi",
+            "semantic_label_bit": 0,
+            "token": "be",
+            "utf8_byte_span_zero_based_half_open": [
+              584,
+              587
+            ]
+          }
+        },
+        {
+          "event_index_zero_based": 18,
+          "existing_semantic_event_label_bit": 0,
+          "image_event": {
+            "bit_position_in_octet_zero_based": 7,
+            "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+            "color": "yellow",
+            "column_zero_based": 10,
+            "event_index_zero_based": 18,
+            "original_binary_bit": 0,
+            "row_zero_based": 5,
+            "verified_octet_index_zero_based": 18,
+            "verified_source_character": "l",
+            "verified_source_octet_bits": "01101100",
+            "verified_spiral_index_zero_based": 151
+          },
+          "near_white_semantic_assignment_is_assumed_not_original_binary": false,
+          "original_binary_bit_matches": true,
+          "semantic_label_matches": true,
+          "source_marker": {
+            "character_span_zero_based_half_open": [
+              598,
+              601
+            ],
+            "column_one_based": 188,
+            "event_index_zero_based": 18,
+            "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+            "line_one_based": 17,
+            "logical_position_one_based": 67,
+            "normalized_span_zero_based_half_open": [
+              71,
+              73
+            ],
+            "region": "dbbi",
+            "semantic_label_bit": 0,
+            "token": "be",
+            "utf8_byte_span_zero_based_half_open": [
+              598,
+              601
+            ]
+          }
+        },
+        {
+          "event_index_zero_based": 19,
+          "existing_semantic_event_label_bit": 1,
+          "image_event": {
+            "bit_position_in_octet_zero_based": 7,
+            "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+            "color": "blue",
+            "column_zero_based": 4,
+            "event_index_zero_based": 19,
+            "original_binary_bit": 1,
+            "row_zero_based": 3,
+            "verified_octet_index_zero_based": 19,
+            "verified_source_character": "a",
+            "verified_source_octet_bits": "01100001",
+            "verified_spiral_index_zero_based": 159
+          },
+          "near_white_semantic_assignment_is_assumed_not_original_binary": false,
+          "original_binary_bit_matches": true,
+          "semantic_label_matches": true,
+          "source_marker": {
+            "character_span_zero_based_half_open": [
+              608,
+              609
+            ],
+            "column_one_based": 198,
+            "event_index_zero_based": 19,
+            "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+            "line_one_based": 17,
+            "logical_position_one_based": 71,
+            "normalized_span_zero_based_half_open": [
+              76,
+              77
+            ],
+            "region": "dbbi",
+            "semantic_label_bit": 1,
+            "token": "b",
+            "utf8_byte_span_zero_based_half_open": [
+              608,
+              609
+            ]
+          }
+        },
+        {
+          "event_index_zero_based": 20,
+          "existing_semantic_event_label_bit": 1,
+          "image_event": {
+            "bit_position_in_octet_zero_based": 3,
+            "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+            "color": "near_white",
+            "column_zero_based": 4,
+            "event_index_zero_based": 20,
+            "original_binary_bit": 0,
+            "row_zero_based": 7,
+            "verified_octet_index_zero_based": 20,
+            "verified_source_character": "n",
+            "verified_source_octet_bits": "01101110",
+            "verified_spiral_index_zero_based": 163
+          },
+          "near_white_semantic_assignment_is_assumed_not_original_binary": true,
+          "original_binary_bit_matches": false,
+          "semantic_label_matches": true,
+          "source_marker": {
+            "character_span_zero_based_half_open": [
+              612,
+              613
+            ],
+            "column_one_based": 202,
+            "event_index_zero_based": 20,
+            "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+            "line_one_based": 17,
+            "logical_position_one_based": 73,
+            "normalized_span_zero_based_half_open": [
+              78,
+              79
+            ],
+            "region": "dbbi",
+            "semantic_label_bit": 1,
+            "token": "b",
+            "utf8_byte_span_zero_based_half_open": [
+              612,
+              613
+            ]
+          }
+        },
+        {
+          "event_index_zero_based": 21,
+          "existing_semantic_event_label_bit": 0,
+          "image_event": {
+            "bit_position_in_octet_zero_based": 7,
+            "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+            "color": "yellow",
+            "column_zero_based": 6,
+            "event_index_zero_based": 21,
+            "original_binary_bit": 0,
+            "row_zero_based": 9,
+            "verified_octet_index_zero_based": 20,
+            "verified_source_character": "n",
+            "verified_source_octet_bits": "01101110",
+            "verified_spiral_index_zero_based": 167
+          },
+          "near_white_semantic_assignment_is_assumed_not_original_binary": false,
+          "original_binary_bit_matches": true,
+          "semantic_label_matches": true,
+          "source_marker": {
+            "character_span_zero_based_half_open": [
+              624,
+              627
+            ],
+            "column_one_based": 214,
+            "event_index_zero_based": 21,
+            "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+            "line_one_based": 17,
+            "logical_position_one_based": 79,
+            "normalized_span_zero_based_half_open": [
+              84,
+              86
+            ],
+            "region": "dbbi",
+            "semantic_label_bit": 0,
+            "token": "be",
+            "utf8_byte_span_zero_based_half_open": [
+              624,
+              627
+            ]
+          }
+        },
+        {
+          "event_index_zero_based": 22,
+          "existing_semantic_event_label_bit": 0,
+          "image_event": {
+            "bit_position_in_octet_zero_based": 7,
+            "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+            "color": "yellow",
+            "column_zero_based": 9,
+            "event_index_zero_based": 22,
+            "original_binary_bit": 0,
+            "row_zero_based": 4,
+            "verified_octet_index_zero_based": 21,
+            "verified_source_character": "t",
+            "verified_source_octet_bits": "01110100",
+            "verified_spiral_index_zero_based": 175
+          },
+          "near_white_semantic_assignment_is_assumed_not_original_binary": false,
+          "original_binary_bit_matches": true,
+          "semantic_label_matches": true,
+          "source_marker": {
+            "character_span_zero_based_half_open": [
+              634,
+              637
+            ],
+            "column_one_based": 224,
+            "event_index_zero_based": 22,
+            "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+            "line_one_based": 17,
+            "logical_position_one_based": 83,
+            "normalized_span_zero_based_half_open": [
+              89,
+              91
+            ],
+            "region": "dbbi",
+            "semantic_label_bit": 0,
+            "token": "be",
+            "utf8_byte_span_zero_based_half_open": [
+              634,
+              637
+            ]
+          }
+        },
+        {
+          "event_index_zero_based": 23,
+          "existing_semantic_event_label_bit": 1,
+          "image_event": {
+            "bit_position_in_octet_zero_based": 7,
+            "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+            "color": "blue",
+            "column_zero_based": 5,
+            "event_index_zero_based": 23,
+            "original_binary_bit": 1,
+            "row_zero_based": 8,
+            "verified_octet_index_zero_based": 22,
+            "verified_source_character": "e",
+            "verified_source_octet_bits": "01100101",
+            "verified_spiral_index_zero_based": 183
+          },
+          "near_white_semantic_assignment_is_assumed_not_original_binary": false,
+          "original_binary_bit_matches": true,
+          "semantic_label_matches": true,
+          "source_marker": {
+            "binary_offset_zero_based": 5,
+            "character_span_zero_based_half_open": [
+              648,
+              649
+            ],
+            "column_one_based": 238,
+            "encoded_label_bit_offset_zero_based": 5,
+            "encoded_label_character_index_zero_based": 0,
+            "event_index_zero_based": 23,
+            "label_rule": "EXISTING_BINARY_LABEL_A0_B1_CONTINUING_LOGICAL_COUNTER",
+            "line_one_based": 17,
+            "logical_position_one_based": 89,
+            "normalized_span_zero_based_half_open": [
+              96,
+              97
+            ],
+            "region": "matrixsumlist-binary",
+            "semantic_label_bit": 1,
+            "token": "b",
+            "utf8_byte_span_zero_based_half_open": [
+              648,
+              649
+            ]
+          }
+        },
+        {
+          "event_index_zero_based": 24,
+          "existing_semantic_event_label_bit": 0,
+          "image_event": {
+            "bit_position_in_octet_zero_based": 7,
+            "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+            "color": "yellow",
+            "column_zero_based": 6,
+            "event_index_zero_based": 24,
+            "original_binary_bit": 0,
+            "row_zero_based": 5,
+            "verified_octet_index_zero_based": 23,
+            "verified_source_character": "d",
+            "verified_source_octet_bits": "01100100",
+            "verified_spiral_index_zero_based": 191
+          },
+          "near_white_semantic_assignment_is_assumed_not_original_binary": false,
+          "original_binary_bit_matches": true,
+          "semantic_label_matches": true,
+          "source_marker": {
+            "binary_offset_zero_based": 13,
+            "character_span_zero_based_half_open": [
+              664,
+              665
+            ],
+            "column_one_based": 254,
+            "encoded_label_bit_offset_zero_based": 5,
+            "encoded_label_character_index_zero_based": 1,
+            "event_index_zero_based": 24,
+            "label_rule": "EXISTING_BINARY_LABEL_A0_B1_CONTINUING_LOGICAL_COUNTER",
+            "line_one_based": 17,
+            "logical_position_one_based": 97,
+            "normalized_span_zero_based_half_open": [
+              104,
+              105
+            ],
+            "region": "matrixsumlist-binary",
+            "semantic_label_bit": 0,
+            "token": "a",
+            "utf8_byte_span_zero_based_half_open": [
+              664,
+              665
+            ]
+          }
+        }
+      ],
+      "logical_length": 83,
+      "markers": [
+        {
+          "character_span_zero_based_half_open": [
+            458,
+            459
+          ],
+          "column_one_based": 48,
+          "event_index_zero_based": 0,
+          "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+          "line_one_based": 17,
+          "logical_position_one_based": 2,
+          "normalized_span_zero_based_half_open": [
+            1,
+            2
+          ],
+          "region": "dbbi",
+          "semantic_label_bit": 1,
+          "token": "b",
+          "utf8_byte_span_zero_based_half_open": [
+            458,
+            459
+          ]
+        },
+        {
+          "character_span_zero_based_half_open": [
+            460,
+            461
+          ],
+          "column_one_based": 50,
+          "event_index_zero_based": 1,
+          "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+          "line_one_based": 17,
+          "logical_position_one_based": 3,
+          "normalized_span_zero_based_half_open": [
+            2,
+            3
+          ],
+          "region": "dbbi",
+          "semantic_label_bit": 1,
+          "token": "b",
+          "utf8_byte_span_zero_based_half_open": [
+            460,
+            461
+          ]
+        },
+        {
+          "character_span_zero_based_half_open": [
+            464,
+            465
+          ],
+          "column_one_based": 54,
+          "event_index_zero_based": 2,
+          "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+          "line_one_based": 17,
+          "logical_position_one_based": 5,
+          "normalized_span_zero_based_half_open": [
+            4,
+            5
+          ],
+          "region": "dbbi",
+          "semantic_label_bit": 1,
+          "token": "b",
+          "utf8_byte_span_zero_based_half_open": [
+            464,
+            465
+          ]
+        },
+        {
+          "character_span_zero_based_half_open": [
+            468,
+            469
+          ],
+          "column_one_based": 58,
+          "event_index_zero_based": 3,
+          "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+          "line_one_based": 17,
+          "logical_position_one_based": 7,
+          "normalized_span_zero_based_half_open": [
+            6,
+            7
+          ],
+          "region": "dbbi",
+          "semantic_label_bit": 1,
+          "token": "b",
+          "utf8_byte_span_zero_based_half_open": [
+            468,
+            469
+          ]
+        },
+        {
+          "character_span_zero_based_half_open": [
+            476,
+            479
+          ],
+          "column_one_based": 66,
+          "event_index_zero_based": 4,
+          "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+          "line_one_based": 17,
+          "logical_position_one_based": 11,
+          "normalized_span_zero_based_half_open": [
+            10,
+            12
+          ],
+          "region": "dbbi",
+          "semantic_label_bit": 0,
+          "token": "be",
+          "utf8_byte_span_zero_based_half_open": [
+            476,
+            479
+          ]
+        },
+        {
+          "character_span_zero_based_half_open": [
+            482,
+            483
+          ],
+          "column_one_based": 72,
+          "event_index_zero_based": 5,
+          "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+          "line_one_based": 17,
+          "logical_position_one_based": 13,
+          "normalized_span_zero_based_half_open": [
+            13,
+            14
+          ],
+          "region": "dbbi",
+          "semantic_label_bit": 1,
+          "token": "b",
+          "utf8_byte_span_zero_based_half_open": [
+            482,
+            483
+          ]
+        },
+        {
+          "character_span_zero_based_half_open": [
+            490,
+            491
+          ],
+          "column_one_based": 80,
+          "event_index_zero_based": 6,
+          "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+          "line_one_based": 17,
+          "logical_position_one_based": 17,
+          "normalized_span_zero_based_half_open": [
+            17,
+            18
+          ],
+          "region": "dbbi",
+          "semantic_label_bit": 1,
+          "token": "b",
+          "utf8_byte_span_zero_based_half_open": [
+            490,
+            491
+          ]
+        },
+        {
+          "character_span_zero_based_half_open": [
+            494,
+            495
+          ],
+          "column_one_based": 84,
+          "event_index_zero_based": 7,
+          "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+          "line_one_based": 17,
+          "logical_position_one_based": 19,
+          "normalized_span_zero_based_half_open": [
+            19,
+            20
+          ],
+          "region": "dbbi",
+          "semantic_label_bit": 1,
+          "token": "b",
+          "utf8_byte_span_zero_based_half_open": [
+            494,
+            495
+          ]
+        },
+        {
+          "character_span_zero_based_half_open": [
+            502,
+            505
+          ],
+          "column_one_based": 92,
+          "event_index_zero_based": 8,
+          "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+          "line_one_based": 17,
+          "logical_position_one_based": 23,
+          "normalized_span_zero_based_half_open": [
+            23,
+            25
+          ],
+          "region": "dbbi",
+          "semantic_label_bit": 0,
+          "token": "be",
+          "utf8_byte_span_zero_based_half_open": [
+            502,
+            505
+          ]
+        },
+        {
+          "character_span_zero_based_half_open": [
+            516,
+            519
+          ],
+          "column_one_based": 106,
+          "event_index_zero_based": 9,
+          "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+          "line_one_based": 17,
+          "logical_position_one_based": 29,
+          "normalized_span_zero_based_half_open": [
+            30,
+            32
+          ],
+          "region": "dbbi",
+          "semantic_label_bit": 0,
+          "token": "be",
+          "utf8_byte_span_zero_based_half_open": [
+            516,
+            519
+          ]
+        },
+        {
+          "character_span_zero_based_half_open": [
+            522,
+            523
+          ],
+          "column_one_based": 112,
+          "event_index_zero_based": 10,
+          "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+          "line_one_based": 17,
+          "logical_position_one_based": 31,
+          "normalized_span_zero_based_half_open": [
+            33,
+            34
+          ],
+          "region": "dbbi",
+          "semantic_label_bit": 1,
+          "token": "b",
+          "utf8_byte_span_zero_based_half_open": [
+            522,
+            523
+          ]
+        },
+        {
+          "character_span_zero_based_half_open": [
+            534,
+            535
+          ],
+          "column_one_based": 124,
+          "event_index_zero_based": 11,
+          "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+          "line_one_based": 17,
+          "logical_position_one_based": 37,
+          "normalized_span_zero_based_half_open": [
+            39,
+            40
+          ],
+          "region": "dbbi",
+          "semantic_label_bit": 1,
+          "token": "b",
+          "utf8_byte_span_zero_based_half_open": [
+            534,
+            535
+          ]
+        },
+        {
+          "character_span_zero_based_half_open": [
+            542,
+            543
+          ],
+          "column_one_based": 132,
+          "event_index_zero_based": 12,
+          "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+          "line_one_based": 17,
+          "logical_position_one_based": 41,
+          "normalized_span_zero_based_half_open": [
+            43,
+            44
+          ],
+          "region": "dbbi",
+          "semantic_label_bit": 1,
+          "token": "b",
+          "utf8_byte_span_zero_based_half_open": [
+            542,
+            543
+          ]
+        },
+        {
+          "character_span_zero_based_half_open": [
+            546,
+            547
+          ],
+          "column_one_based": 136,
+          "event_index_zero_based": 13,
+          "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+          "line_one_based": 17,
+          "logical_position_one_based": 43,
+          "normalized_span_zero_based_half_open": [
+            45,
+            46
+          ],
+          "region": "dbbi",
+          "semantic_label_bit": 1,
+          "token": "b",
+          "utf8_byte_span_zero_based_half_open": [
+            546,
+            547
+          ]
+        },
+        {
+          "character_span_zero_based_half_open": [
+            554,
+            557
+          ],
+          "column_one_based": 144,
+          "event_index_zero_based": 14,
+          "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+          "line_one_based": 17,
+          "logical_position_one_based": 47,
+          "normalized_span_zero_based_half_open": [
+            49,
+            51
+          ],
+          "region": "dbbi",
+          "semantic_label_bit": 0,
+          "token": "be",
+          "utf8_byte_span_zero_based_half_open": [
+            554,
+            557
+          ]
+        },
+        {
+          "character_span_zero_based_half_open": [
+            568,
+            569
+          ],
+          "column_one_based": 158,
+          "event_index_zero_based": 15,
+          "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+          "line_one_based": 17,
+          "logical_position_one_based": 53,
+          "normalized_span_zero_based_half_open": [
+            56,
+            57
+          ],
+          "region": "dbbi",
+          "semantic_label_bit": 1,
+          "token": "b",
+          "utf8_byte_span_zero_based_half_open": [
+            568,
+            569
+          ]
+        },
+        {
+          "character_span_zero_based_half_open": [
+            580,
+            581
+          ],
+          "column_one_based": 170,
+          "event_index_zero_based": 16,
+          "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+          "line_one_based": 17,
+          "logical_position_one_based": 59,
+          "normalized_span_zero_based_half_open": [
+            62,
+            63
+          ],
+          "region": "dbbi",
+          "semantic_label_bit": 1,
+          "token": "b",
+          "utf8_byte_span_zero_based_half_open": [
+            580,
+            581
+          ]
+        },
+        {
+          "character_span_zero_based_half_open": [
+            584,
+            587
+          ],
+          "column_one_based": 174,
+          "event_index_zero_based": 17,
+          "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+          "line_one_based": 17,
+          "logical_position_one_based": 61,
+          "normalized_span_zero_based_half_open": [
+            64,
+            66
+          ],
+          "region": "dbbi",
+          "semantic_label_bit": 0,
+          "token": "be",
+          "utf8_byte_span_zero_based_half_open": [
+            584,
+            587
+          ]
+        },
+        {
+          "character_span_zero_based_half_open": [
+            598,
+            601
+          ],
+          "column_one_based": 188,
+          "event_index_zero_based": 18,
+          "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+          "line_one_based": 17,
+          "logical_position_one_based": 67,
+          "normalized_span_zero_based_half_open": [
+            71,
+            73
+          ],
+          "region": "dbbi",
+          "semantic_label_bit": 0,
+          "token": "be",
+          "utf8_byte_span_zero_based_half_open": [
+            598,
+            601
+          ]
+        },
+        {
+          "character_span_zero_based_half_open": [
+            608,
+            609
+          ],
+          "column_one_based": 198,
+          "event_index_zero_based": 19,
+          "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+          "line_one_based": 17,
+          "logical_position_one_based": 71,
+          "normalized_span_zero_based_half_open": [
+            76,
+            77
+          ],
+          "region": "dbbi",
+          "semantic_label_bit": 1,
+          "token": "b",
+          "utf8_byte_span_zero_based_half_open": [
+            608,
+            609
+          ]
+        },
+        {
+          "character_span_zero_based_half_open": [
+            612,
+            613
+          ],
+          "column_one_based": 202,
+          "event_index_zero_based": 20,
+          "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+          "line_one_based": 17,
+          "logical_position_one_based": 73,
+          "normalized_span_zero_based_half_open": [
+            78,
+            79
+          ],
+          "region": "dbbi",
+          "semantic_label_bit": 1,
+          "token": "b",
+          "utf8_byte_span_zero_based_half_open": [
+            612,
+            613
+          ]
+        },
+        {
+          "character_span_zero_based_half_open": [
+            624,
+            627
+          ],
+          "column_one_based": 214,
+          "event_index_zero_based": 21,
+          "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+          "line_one_based": 17,
+          "logical_position_one_based": 79,
+          "normalized_span_zero_based_half_open": [
+            84,
+            86
+          ],
+          "region": "dbbi",
+          "semantic_label_bit": 0,
+          "token": "be",
+          "utf8_byte_span_zero_based_half_open": [
+            624,
+            627
+          ]
+        },
+        {
+          "character_span_zero_based_half_open": [
+            634,
+            637
+          ],
+          "column_one_based": 224,
+          "event_index_zero_based": 22,
+          "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+          "line_one_based": 17,
+          "logical_position_one_based": 83,
+          "normalized_span_zero_based_half_open": [
+            89,
+            91
+          ],
+          "region": "dbbi",
+          "semantic_label_bit": 0,
+          "token": "be",
+          "utf8_byte_span_zero_based_half_open": [
+            634,
+            637
+          ]
+        },
+        {
+          "binary_offset_zero_based": 5,
+          "character_span_zero_based_half_open": [
+            648,
+            649
+          ],
+          "column_one_based": 238,
+          "encoded_label_bit_offset_zero_based": 5,
+          "encoded_label_character_index_zero_based": 0,
+          "event_index_zero_based": 23,
+          "label_rule": "EXISTING_BINARY_LABEL_A0_B1_CONTINUING_LOGICAL_COUNTER",
+          "line_one_based": 17,
+          "logical_position_one_based": 89,
+          "normalized_span_zero_based_half_open": [
+            96,
+            97
+          ],
+          "region": "matrixsumlist-binary",
+          "semantic_label_bit": 1,
+          "token": "b",
+          "utf8_byte_span_zero_based_half_open": [
+            648,
+            649
+          ]
+        },
+        {
+          "binary_offset_zero_based": 13,
+          "character_span_zero_based_half_open": [
+            664,
+            665
+          ],
+          "column_one_based": 254,
+          "encoded_label_bit_offset_zero_based": 5,
+          "encoded_label_character_index_zero_based": 1,
+          "event_index_zero_based": 24,
+          "label_rule": "EXISTING_BINARY_LABEL_A0_B1_CONTINUING_LOGICAL_COUNTER",
+          "line_one_based": 17,
+          "logical_position_one_based": 97,
+          "normalized_span_zero_based_half_open": [
+            104,
+            105
+          ],
+          "region": "matrixsumlist-binary",
+          "semantic_label_bit": 0,
+          "token": "a",
+          "utf8_byte_span_zero_based_half_open": [
+            664,
+            665
+          ]
+        }
+      ],
+      "mask": 1017,
+      "original_binary_mismatch_event_indices": [
+        20
+      ],
+      "residual_length": 60,
+      "residual_sha256": "21cbfa185f92492652ec5c40ba29b2f29f65804f8bd285c0de7685a2aad53109",
+      "semantic_mismatch_event_indices": []
+    }
+  ],
+  "confidence": "HIGH for exact fixed comparisons; MEDIUM for labels as intended objects; UNKNOWN for construction",
+  "contradictions": [
+    "25 events are not25 decoded bytes",
+    "Semantic labels are not all original decoded bits",
+    "Cell weighting does not follow from a label match",
+    "Borrowed bits do not distinguish the two frozen branches",
+    "No consumer joins labels/residual/Bifid to matrixsumlist"
+  ],
+  "date": "2026-10-01",
+  "full_semantic_match_is_not_independent_of_historical_conventions": true,
+  "hypotheses": [
+    {
+      "assumptions": [
+        "The existing verified traversal is the intended event order",
+        "Documented b/be labels are intended color references"
+      ],
+      "confidence": "HIGH for source coverage; MEDIUM for intended label role",
+      "contradictions": [
+        "Source establishes24 per-octet positions but not their downstream consumer",
+        "Near-white still needs an explicit semantic convention",
+        "No matrixsumlist operand or serialization follows"
+      ],
+      "hypothesis": "Blue/yellow cells are per-octet labels, with near-white an additional event-level discriminator",
+      "id": "C15-FRAME-LABELS",
+      "input": "Existing source event/marker identities, not new trial text",
+      "next_test": "Inspect source-authored boundary/normalization rules that could bind a sumlist object to these labels; no new route, weight or extraction without a consumer",
+      "operation_order": [
+        "map existing original events",
+        "map only fixed prime-marker branches",
+        "compare labels separately from original binary bits",
+        "retain missing operation/consumer"
+      ],
+      "output": "Typed label constraints and fixed-branch witnesses",
+      "source_evidence": [
+        {
+          "path": "research/sources/gsmg-puzzle.png",
+          "sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830"
+        },
+        {
+          "path": "research/sources/salphaseion.html",
+          "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+        },
+        {
+          "path": "research/artifacts/cycle10/instruction-graphs-v3.json",
+          "sha256": "31a20ee0b58c1289d16de425c76f4521ca228a01c6ca12122d074056a8e81132"
+        },
+        {
+          "path": "research/artifacts/cycle14/speech-delta.json",
+          "sha256": "a2fbb4e5dcc526143c9740500849c46c4439ac4622a1340ef764c3ee728962e0"
+        },
+        {
+          "path": "research/artifacts/cycle03/prime-boundary.json",
+          "sha256": "7a267b998cb9353cabba47bb4005abee0cbec18c7f878eb52c223bdf14fc9727"
+        }
+      ],
+      "source_locations": [
+        "research/sources/gsmg-puzzle.png",
+        "research/sources/salphaseion.html:17",
+        "research/artifacts/cycle10/instruction-graphs-v3.json:1",
+        "research/artifacts/cycle03/prime-boundary.json:1"
+      ],
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "assumptions": [
+        "Near-white remains a distinct original color",
+        "The historical semantic1 assignment is conditional, not a pixel change"
+      ],
+      "confidence": "HIGH for original bit0/event structure; UNKNOWN for intended operation",
+      "contradictions": [
+        "Semantic1 differs from the original source bit0",
+        "No instruction to invert this source pixel",
+        "Both frozen branches need the same near-white convention; it alone does not choose a residual"
+      ],
+      "hypothesis": "Near-white is an extra semantic marker rather than a decoded byte or a verified changed binary bit",
+      "id": "C15-NEARWHITE-ROLE",
+      "input": "Existing source event/marker identities, not new trial text",
+      "next_test": "Inspect source-authored boundary/normalization rules that could bind a sumlist object to these labels; no new route, weight or extraction without a consumer",
+      "operation_order": [
+        "map existing original events",
+        "map only fixed prime-marker branches",
+        "compare labels separately from original binary bits",
+        "retain missing operation/consumer"
+      ],
+      "output": "Typed label constraints and fixed-branch witnesses",
+      "source_evidence": [
+        {
+          "path": "research/sources/gsmg-puzzle.png",
+          "sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830"
+        },
+        {
+          "path": "research/sources/salphaseion.html",
+          "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+        },
+        {
+          "path": "research/artifacts/cycle10/instruction-graphs-v3.json",
+          "sha256": "31a20ee0b58c1289d16de425c76f4521ca228a01c6ca12122d074056a8e81132"
+        },
+        {
+          "path": "research/artifacts/cycle14/speech-delta.json",
+          "sha256": "a2fbb4e5dcc526143c9740500849c46c4439ac4622a1340ef764c3ee728962e0"
+        },
+        {
+          "path": "research/artifacts/cycle03/prime-boundary.json",
+          "sha256": "7a267b998cb9353cabba47bb4005abee0cbec18c7f878eb52c223bdf14fc9727"
+        }
+      ],
+      "source_locations": [
+        "research/sources/gsmg-puzzle.png",
+        "research/sources/salphaseion.html:17",
+        "research/artifacts/cycle10/instruction-graphs-v3.json:1",
+        "research/artifacts/cycle03/prime-boundary.json:1"
+      ],
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "assumptions": [
+        "Only the existing505/1017 branch conventions are compared",
+        "Borrowed markers retain their region-specific binary mapping"
+      ],
+      "confidence": "HIGH for fixed-branch witness; no creator-intent proof",
+      "contradictions": [
+        "Borrowed b/a label values are identical for both branches",
+        "Only one terminal prime label differs",
+        "The full semantic match depends on prior near-white/counter conventions, not independent confirmation"
+      ],
+      "hypothesis": "The frozen residual branch distinction is the prime83 b-versus-be token, not the two borrowed boundary bits",
+      "id": "C15-BRANCH-DISCRIMINATOR",
+      "input": "Existing source event/marker identities, not new trial text",
+      "next_test": "Inspect source-authored boundary/normalization rules that could bind a sumlist object to these labels; no new route, weight or extraction without a consumer",
+      "operation_order": [
+        "map existing original events",
+        "map only fixed prime-marker branches",
+        "compare labels separately from original binary bits",
+        "retain missing operation/consumer"
+      ],
+      "output": "Typed label constraints and fixed-branch witnesses",
+      "source_evidence": [
+        {
+          "path": "research/sources/gsmg-puzzle.png",
+          "sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830"
+        },
+        {
+          "path": "research/sources/salphaseion.html",
+          "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+        },
+        {
+          "path": "research/artifacts/cycle10/instruction-graphs-v3.json",
+          "sha256": "31a20ee0b58c1289d16de425c76f4521ca228a01c6ca12122d074056a8e81132"
+        },
+        {
+          "path": "research/artifacts/cycle14/speech-delta.json",
+          "sha256": "a2fbb4e5dcc526143c9740500849c46c4439ac4622a1340ef764c3ee728962e0"
+        },
+        {
+          "path": "research/artifacts/cycle03/prime-boundary.json",
+          "sha256": "7a267b998cb9353cabba47bb4005abee0cbec18c7f878eb52c223bdf14fc9727"
+        }
+      ],
+      "source_locations": [
+        "research/sources/gsmg-puzzle.png",
+        "research/sources/salphaseion.html:17",
+        "research/artifacts/cycle10/instruction-graphs-v3.json:1",
+        "research/artifacts/cycle03/prime-boundary.json:1"
+      ],
+      "status": "INCONCLUSIVE"
+    }
+  ],
+  "hypothesis": "Existing image-frame and prime-marker identities constrain object roles more directly than another sum algorithm",
+  "id": "C15-FRAME-OBJECT-AUDIT",
+  "image": {
+    "blue_yellow_events_label_all24_octets_once": true,
+    "decoded_octet_count": 24,
+    "event_count": 25,
+    "events": [
+      {
+        "bit_position_in_octet_zero_based": 7,
+        "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+        "color": "blue",
+        "column_zero_based": 0,
+        "event_index_zero_based": 0,
+        "original_binary_bit": 1,
+        "row_zero_based": 7,
+        "verified_octet_index_zero_based": 0,
+        "verified_source_character": "g",
+        "verified_source_octet_bits": "01100111",
+        "verified_spiral_index_zero_based": 7
+      },
+      {
+        "bit_position_in_octet_zero_based": 7,
+        "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+        "color": "blue",
+        "column_zero_based": 2,
+        "event_index_zero_based": 1,
+        "original_binary_bit": 1,
+        "row_zero_based": 13,
+        "verified_octet_index_zero_based": 1,
+        "verified_source_character": "s",
+        "verified_source_octet_bits": "01110011",
+        "verified_spiral_index_zero_based": 15
+      },
+      {
+        "bit_position_in_octet_zero_based": 7,
+        "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+        "color": "blue",
+        "column_zero_based": 10,
+        "event_index_zero_based": 2,
+        "original_binary_bit": 1,
+        "row_zero_based": 13,
+        "verified_octet_index_zero_based": 2,
+        "verified_source_character": "m",
+        "verified_source_octet_bits": "01101101",
+        "verified_spiral_index_zero_based": 23
+      },
+      {
+        "bit_position_in_octet_zero_based": 7,
+        "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+        "color": "blue",
+        "column_zero_based": 13,
+        "event_index_zero_based": 3,
+        "original_binary_bit": 1,
+        "row_zero_based": 8,
+        "verified_octet_index_zero_based": 3,
+        "verified_source_character": "g",
+        "verified_source_octet_bits": "01100111",
+        "verified_spiral_index_zero_based": 31
+      },
+      {
+        "bit_position_in_octet_zero_based": 7,
+        "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+        "color": "yellow",
+        "column_zero_based": 13,
+        "event_index_zero_based": 4,
+        "original_binary_bit": 0,
+        "row_zero_based": 0,
+        "verified_octet_index_zero_based": 4,
+        "verified_source_character": ".",
+        "verified_source_octet_bits": "00101110",
+        "verified_spiral_index_zero_based": 39
+      },
+      {
+        "bit_position_in_octet_zero_based": 7,
+        "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+        "color": "blue",
+        "column_zero_based": 5,
+        "event_index_zero_based": 5,
+        "original_binary_bit": 1,
+        "row_zero_based": 0,
+        "verified_octet_index_zero_based": 5,
+        "verified_source_character": "i",
+        "verified_source_octet_bits": "01101001",
+        "verified_spiral_index_zero_based": 47
+      },
+      {
+        "bit_position_in_octet_zero_based": 7,
+        "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+        "color": "blue",
+        "column_zero_based": 1,
+        "event_index_zero_based": 6,
+        "original_binary_bit": 1,
+        "row_zero_based": 4,
+        "verified_octet_index_zero_based": 6,
+        "verified_source_character": "o",
+        "verified_source_octet_bits": "01101111",
+        "verified_spiral_index_zero_based": 55
+      },
+      {
+        "bit_position_in_octet_zero_based": 7,
+        "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+        "color": "blue",
+        "column_zero_based": 1,
+        "event_index_zero_based": 7,
+        "original_binary_bit": 1,
+        "row_zero_based": 12,
+        "verified_octet_index_zero_based": 7,
+        "verified_source_character": "/",
+        "verified_source_octet_bits": "00101111",
+        "verified_spiral_index_zero_based": 63
+      },
+      {
+        "bit_position_in_octet_zero_based": 7,
+        "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+        "color": "yellow",
+        "column_zero_based": 9,
+        "event_index_zero_based": 8,
+        "original_binary_bit": 0,
+        "row_zero_based": 12,
+        "verified_octet_index_zero_based": 8,
+        "verified_source_character": "t",
+        "verified_source_octet_bits": "01110100",
+        "verified_spiral_index_zero_based": 71
+      },
+      {
+        "bit_position_in_octet_zero_based": 7,
+        "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+        "color": "yellow",
+        "column_zero_based": 12,
+        "event_index_zero_based": 9,
+        "original_binary_bit": 0,
+        "row_zero_based": 7,
+        "verified_octet_index_zero_based": 9,
+        "verified_source_character": "h",
+        "verified_source_octet_bits": "01101000",
+        "verified_spiral_index_zero_based": 79
+      },
+      {
+        "bit_position_in_octet_zero_based": 7,
+        "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+        "color": "blue",
+        "column_zero_based": 10,
+        "event_index_zero_based": 10,
+        "original_binary_bit": 1,
+        "row_zero_based": 1,
+        "verified_octet_index_zero_based": 10,
+        "verified_source_character": "e",
+        "verified_source_octet_bits": "01100101",
+        "verified_spiral_index_zero_based": 87
+      },
+      {
+        "bit_position_in_octet_zero_based": 7,
+        "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+        "color": "blue",
+        "column_zero_based": 2,
+        "event_index_zero_based": 11,
+        "original_binary_bit": 1,
+        "row_zero_based": 1,
+        "verified_octet_index_zero_based": 11,
+        "verified_source_character": "s",
+        "verified_source_octet_bits": "01110011",
+        "verified_spiral_index_zero_based": 95
+      },
+      {
+        "bit_position_in_octet_zero_based": 7,
+        "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+        "color": "blue",
+        "column_zero_based": 2,
+        "event_index_zero_based": 12,
+        "original_binary_bit": 1,
+        "row_zero_based": 9,
+        "verified_octet_index_zero_based": 12,
+        "verified_source_character": "e",
+        "verified_source_octet_bits": "01100101",
+        "verified_spiral_index_zero_based": 103
+      },
+      {
+        "bit_position_in_octet_zero_based": 7,
+        "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+        "color": "blue",
+        "column_zero_based": 8,
+        "event_index_zero_based": 13,
+        "original_binary_bit": 1,
+        "row_zero_based": 11,
+        "verified_octet_index_zero_based": 13,
+        "verified_source_character": "e",
+        "verified_source_octet_bits": "01100101",
+        "verified_spiral_index_zero_based": 111
+      },
+      {
+        "bit_position_in_octet_zero_based": 7,
+        "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+        "color": "yellow",
+        "column_zero_based": 11,
+        "event_index_zero_based": 14,
+        "original_binary_bit": 0,
+        "row_zero_based": 6,
+        "verified_octet_index_zero_based": 14,
+        "verified_source_character": "d",
+        "verified_source_octet_bits": "01100100",
+        "verified_spiral_index_zero_based": 119
+      },
+      {
+        "bit_position_in_octet_zero_based": 7,
+        "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+        "color": "blue",
+        "column_zero_based": 7,
+        "event_index_zero_based": 15,
+        "original_binary_bit": 1,
+        "row_zero_based": 2,
+        "verified_octet_index_zero_based": 15,
+        "verified_source_character": "i",
+        "verified_source_octet_bits": "01101001",
+        "verified_spiral_index_zero_based": 127
+      },
+      {
+        "bit_position_in_octet_zero_based": 7,
+        "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+        "color": "blue",
+        "column_zero_based": 3,
+        "event_index_zero_based": 16,
+        "original_binary_bit": 1,
+        "row_zero_based": 6,
+        "verified_octet_index_zero_based": 16,
+        "verified_source_character": "s",
+        "verified_source_octet_bits": "01110011",
+        "verified_spiral_index_zero_based": 135
+      },
+      {
+        "bit_position_in_octet_zero_based": 7,
+        "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+        "color": "yellow",
+        "column_zero_based": 7,
+        "event_index_zero_based": 17,
+        "original_binary_bit": 0,
+        "row_zero_based": 10,
+        "verified_octet_index_zero_based": 17,
+        "verified_source_character": "p",
+        "verified_source_octet_bits": "01110000",
+        "verified_spiral_index_zero_based": 143
+      },
+      {
+        "bit_position_in_octet_zero_based": 7,
+        "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+        "color": "yellow",
+        "column_zero_based": 10,
+        "event_index_zero_based": 18,
+        "original_binary_bit": 0,
+        "row_zero_based": 5,
+        "verified_octet_index_zero_based": 18,
+        "verified_source_character": "l",
+        "verified_source_octet_bits": "01101100",
+        "verified_spiral_index_zero_based": 151
+      },
+      {
+        "bit_position_in_octet_zero_based": 7,
+        "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+        "color": "blue",
+        "column_zero_based": 4,
+        "event_index_zero_based": 19,
+        "original_binary_bit": 1,
+        "row_zero_based": 3,
+        "verified_octet_index_zero_based": 19,
+        "verified_source_character": "a",
+        "verified_source_octet_bits": "01100001",
+        "verified_spiral_index_zero_based": 159
+      },
+      {
+        "bit_position_in_octet_zero_based": 3,
+        "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+        "color": "near_white",
+        "column_zero_based": 4,
+        "event_index_zero_based": 20,
+        "original_binary_bit": 0,
+        "row_zero_based": 7,
+        "verified_octet_index_zero_based": 20,
+        "verified_source_character": "n",
+        "verified_source_octet_bits": "01101110",
+        "verified_spiral_index_zero_based": 163
+      },
+      {
+        "bit_position_in_octet_zero_based": 7,
+        "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+        "color": "yellow",
+        "column_zero_based": 6,
+        "event_index_zero_based": 21,
+        "original_binary_bit": 0,
+        "row_zero_based": 9,
+        "verified_octet_index_zero_based": 20,
+        "verified_source_character": "n",
+        "verified_source_octet_bits": "01101110",
+        "verified_spiral_index_zero_based": 167
+      },
+      {
+        "bit_position_in_octet_zero_based": 7,
+        "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+        "color": "yellow",
+        "column_zero_based": 9,
+        "event_index_zero_based": 22,
+        "original_binary_bit": 0,
+        "row_zero_based": 4,
+        "verified_octet_index_zero_based": 21,
+        "verified_source_character": "t",
+        "verified_source_octet_bits": "01110100",
+        "verified_spiral_index_zero_based": 175
+      },
+      {
+        "bit_position_in_octet_zero_based": 7,
+        "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+        "color": "blue",
+        "column_zero_based": 5,
+        "event_index_zero_based": 23,
+        "original_binary_bit": 1,
+        "row_zero_based": 8,
+        "verified_octet_index_zero_based": 22,
+        "verified_source_character": "e",
+        "verified_source_octet_bits": "01100101",
+        "verified_spiral_index_zero_based": 183
+      },
+      {
+        "bit_position_in_octet_zero_based": 7,
+        "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+        "color": "yellow",
+        "column_zero_based": 6,
+        "event_index_zero_based": 24,
+        "original_binary_bit": 0,
+        "row_zero_based": 5,
+        "verified_octet_index_zero_based": 23,
+        "verified_source_character": "d",
+        "verified_source_octet_bits": "01100100",
+        "verified_spiral_index_zero_based": 191
+      }
+    ],
+    "events_in_four_bit_tail": 0,
+    "events_per_decoded_octet": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      1,
+      1,
+      1
+    ],
+    "frozen_source": {
+      "path": "research/artifacts/cycle13/visual-correspondence.json",
+      "sha256": "2ab2d8c6055dfa8dc7fb2c63fe2faf9f2fcf3da1f58ac7c0305049452058664b"
+    },
+    "near_white_is_an_extra_event_not_an_extra_octet": true,
+    "no_changed_pixel_or_decoded_text_generated": true,
+    "source": {
+      "path": "research/sources/gsmg-puzzle.png",
+      "sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830"
+    }
+  },
+  "input": "One unchanged original image, frozen25-event map and two documented marker branches",
+  "near_white_case": {
+    "event_index_zero_based": 20,
+    "existing_semantic_event_label_bit": 1,
+    "image_event": {
+      "bit_position_in_octet_zero_based": 3,
+      "classification": "ORIGINAL_IMAGE_EVENT_IN_EXISTING_VERIFIED_TRAVERSAL",
+      "color": "near_white",
+      "column_zero_based": 4,
+      "event_index_zero_based": 20,
+      "original_binary_bit": 0,
+      "row_zero_based": 7,
+      "verified_octet_index_zero_based": 20,
+      "verified_source_character": "n",
+      "verified_source_octet_bits": "01101110",
+      "verified_spiral_index_zero_based": 163
+    },
+    "near_white_semantic_assignment_is_assumed_not_original_binary": true,
+    "original_binary_bit_matches": false,
+    "semantic_label_matches": true,
+    "source_marker": {
+      "character_span_zero_based_half_open": [
+        612,
+        613
+      ],
+      "column_one_based": 202,
+      "event_index_zero_based": 20,
+      "label_rule": "DOCUMENTED_B_EQUALS_BLUE_1_BE_EQUALS_YELLOW_0_NOT_CELL_WEIGHTS",
+      "line_one_based": 17,
+      "logical_position_one_based": 73,
+      "normalized_span_zero_based_half_open": [
+        78,
+        79
+      ],
+      "region": "dbbi",
+      "semantic_label_bit": 1,
+      "token": "b",
+      "utf8_byte_span_zero_based_half_open": [
+        612,
+        613
+      ]
+    }
+  },
+  "new_cryptographic_trials": 0,
+  "new_image_variants": 0,
+  "new_trial_inputs": 0,
+  "next_test": "Audit primary source boundary/type semantics around matrixsumlist: distinguish a delimiter or object label from data at that same position, and identify whether source-authored instructions define which representation/operand a later consumer accepts. Use exact original boundaries and existing transforms only.",
+  "operation_order": [
+    "read frozen task/source maps",
+    "map25 original events to24 decoded octets",
+    "map two frozen prime-label branches and existing89/97 boundary markers",
+    "compare semantic labels separately from original binary bits",
+    "identify exact branch differences"
+  ],
+  "output": "Source-bound event/octet identities, semantic-versus-bit comparisons and branch discriminators",
+  "result": "Blue/yellow labels cover24 octets once; near-white is extra in the same n octet as a yellow label. Its source bit is0 while historical semantic label is1. Frozen505/1017 differ semantically only at event22/logical prime83;89/97 borrowed b/a bits match for both and do not independently select a branch. No new operation or sumlist object is established.",
+  "search_space": {
+    "comparisons": 50,
+    "events_per_branch": 25,
+    "fixed_event_maps": 1,
+    "fixed_images": 1,
+    "frozen_branches": 2,
+    "new_tokenizations": 0
+  },
+  "source_evidence": [
+    {
+      "path": "research/sources/gsmg-puzzle.png",
+      "sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830"
+    },
+    {
+      "path": "research/sources/salphaseion.html",
+      "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+    },
+    {
+      "path": "research/artifacts/cycle10/instruction-graphs-v3.json",
+      "sha256": "31a20ee0b58c1289d16de425c76f4521ca228a01c6ca12122d074056a8e81132"
+    },
+    {
+      "path": "research/artifacts/cycle14/speech-delta.json",
+      "sha256": "a2fbb4e5dcc526143c9740500849c46c4439ac4622a1340ef764c3ee728962e0"
+    },
+    {
+      "path": "research/artifacts/cycle03/prime-boundary.json",
+      "sha256": "7a267b998cb9353cabba47bb4005abee0cbec18c7f878eb52c223bdf14fc9727"
+    }
+  ],
+  "source_locations": [
+    "research/sources/gsmg-puzzle.png",
+    "research/sources/salphaseion.html:17",
+    "research/artifacts/cycle10/instruction-graphs-v3.json:1",
+    "research/artifacts/cycle03/prime-boundary.json:1"
+  ],
+  "source_maps_reproduce_saved_continuous_frame": true,
+  "status": "INCONCLUSIVE"
+}

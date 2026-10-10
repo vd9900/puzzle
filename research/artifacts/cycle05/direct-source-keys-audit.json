@@ -1,0 +1,7 @@
+{
+  "id": "C05-DIRECT-SOURCE-KEYS-AUDIT",
+  "ledger_sha256": "f504f5b8347041c07f85a0df60201fb8a76d9b944ce0f8d06d5ddca78434d24a",
+  "meaning": "Every source-derived scalar fingerprint, representation provenance, address pair and target gate reproduces. Independent EC verification is required on a positive gate, not performed for every negative.",
+  "scalar_checks": 12475,
+  "status": "CONFIRMED"
+}

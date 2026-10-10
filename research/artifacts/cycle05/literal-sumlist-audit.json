@@ -1,0 +1,9 @@
+{
+  "aes_trials": 5184,
+  "id": "C05-LITERAL-SUMLIST-AUDIT",
+  "ledger_sha256": "8f2235e32c0733ac3bbb91a3e16b8407757cbe78ec78a5ba0a3b034d192385da",
+  "meaning": "Every planned candidate, provenance, six distinct target/KDF pairs, KEY/IV, padding outcome, plaintext and score/gate reproduced; this does not solve the puzzle",
+  "padding_hits": 17,
+  "status": "CONFIRMED",
+  "unique_passwords": 864
+}

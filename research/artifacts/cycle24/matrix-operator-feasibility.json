@@ -1,0 +1,72 @@
+{
+  "id": "C24-MATRIX-OPERATOR-FEASIBILITY",
+  "date": "2026-10-02",
+  "status": "REJECTED",
+  "hypothesis": "The fixed15-value matrix sum list directly specifies a downstream permutation, row/cell selection, complete partition, or printable text without another convention.",
+  "source_evidence": [
+    {"path": "research/artifacts/cycle24/matrix-sum-interface.json", "sha256": "fe7aa9e3722e459ce9693e754394e4b89ed939c4cb7642c7cacd1ea6e2c3d7a9"},
+    {"path": "research/artifacts/cycle15/sum-remainder-audit.json", "sha256": "5cbdb788bfd367ca37d7534f2fbc3053dbcadb28fe3a12547d4883fcc870a8c7"},
+    {"path": "research/artifacts/cycle12/selector-evidence.json", "sha256": "63e9be7f2c2276f7f9090ba48bd8eefa250c77b45820cbd22b01c0cc9d6ed675"},
+    {"path": "research/artifacts/phase32-beaufort.txt", "sha256": "b08a3151c88cdeb3b2e730a9d9445e1a349498d89bc94ba1d0837f9e04cc3bcd"}
+  ],
+  "invariant": "A direct interpretation must fit its target domain without modulo, ranking, tie breaking, offsets, truncation, padding, or a guessed arithmetic sign.",
+  "observed": {
+    "sum_list": [69, 58, 49, 59, 53, 74, 60, 0, 13, 13, 7, 6, 6, 3, 8],
+    "count": 15,
+    "unique_values": 13,
+    "duplicate_values": [6, 13],
+    "minimum": 0,
+    "maximum": 74,
+    "total": 478,
+    "direct_interpretations_passing": 0,
+    "direct_checks": {
+      "column_permutation_zero_based": {"valid": false, "range": [0, 14], "failing_offsets": [0, 1, 2, 3, 4, 5, 6], "all_distinct": false},
+      "column_permutation_one_based": {"valid": false, "range": [1, 15], "failing_offsets": [0, 1, 2, 3, 4, 5, 6, 7], "all_distinct": false},
+      "faed_row_selection_zero_based": {"valid": false, "range": [0, 37], "failing_offsets": [0, 1, 2, 3, 4, 5, 6]},
+      "faed_row_selection_one_based": {"valid": false, "range": [1, 38], "failing_offsets": [0, 1, 2, 3, 4, 5, 6, 7]},
+      "half_panel_row_selection_zero_based": {"valid": false, "range": [0, 18], "failing_offsets": [0, 1, 2, 3, 4, 5, 6]},
+      "half_panel_row_selection_one_based": {"valid": false, "range": [1, 19], "failing_offsets": [0, 1, 2, 3, 4, 5, 6, 7]},
+      "bifid_square_selection_zero_based": {"valid": false, "range": [0, 24], "failing_offsets": [0, 1, 2, 3, 4, 5, 6]},
+      "bifid_square_selection_one_based": {"valid": false, "range": [1, 25], "failing_offsets": [0, 1, 2, 3, 4, 5, 6, 7]},
+      "partition_full_faed": {"valid": false, "required_total": 570, "observed_total": 478},
+      "partition_faed_half": {"valid": false, "required_total": 285, "observed_total": 478},
+      "direct_printable_ascii": {"valid": false, "range": [32, 126], "failing_offsets": [7, 8, 9, 10, 11, 12, 13, 14]}
+    }
+  },
+  "source_language_constraints": {
+    "sum_of_a_remainder": "Inherited from the preserved Matrix dialogue; cycle15 found it supplies no independent modulus, operand, or serialization.",
+    "select": "The preserved modified speech scopes select to twenty-three ciphers, sixteen encryptions, and/or seven intertwined passwords, not matrix rows or columns.",
+    "roadmap": "The creator-attributed roadmap orders yellowblueprimes before matrixsumlist but does not name the action after the list is formed.",
+    "creator_export_literal_scan": {
+      "messages": 411,
+      "keyword_counts": {"array": 0, "choice": 0, "column": 0, "index": 0, "indices": 0, "row": 0, "select": 0, "selector": 0, "sumlist": 0},
+      "scope_limit": "Absence of these literal words is not proof that no encoded or synonymous instruction exists."
+    }
+  },
+  "classification": {
+    "direct_permutation": "REJECTED",
+    "direct_row_or_square_selection": "REJECTED",
+    "direct_complete_partition": "REJECTED",
+    "direct_printable_text": "REJECTED",
+    "normalized_or_arithmetic_consumer": "UNKNOWN"
+  },
+  "missing_parameters": [
+    "downstream target plane or rendered matrix",
+    "action such as add, subtract, reorder, select, or partition",
+    "modulus or reduction rule if values must enter a bounded domain",
+    "index origin for selection",
+    "tie rule for ranking because6 and13 repeat"
+  ],
+  "result": "No direct interpretation of the exact sum-list15 is type-valid. Every surviving consumer requires at least one unauthored normalization or action parameter, so applying the list now would be an unconstrained transform sweep.",
+  "reproduction": {
+    "command": "python3 -m tools.matrix_operator_feasibility",
+    "test_command": "python3 -m unittest tests.test_matrix_operator_feasibility -v",
+    "tool_sha256": "24904af1ecfe04e2ac59455977d5a61533ab5339a93be25c9779013c388004a6",
+    "test_sha256": "c8fe008c080eeb81bf774c19e81ea708eae86530ff8974b3e01eb2d8edf9804e",
+    "tests_passed": 6
+  },
+  "new_cryptographic_trials": 0,
+  "new_trial_inputs": 0,
+  "private_key_operations": 0,
+  "aes_operations": 0
+}

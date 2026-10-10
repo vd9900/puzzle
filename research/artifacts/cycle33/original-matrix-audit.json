@@ -1,0 +1,989 @@
+{
+  "aes_operations": 0,
+  "candidate_material_generated": 0,
+  "classification": {
+    "exclusive_cell_mask_for_matrixsumlist": "UNKNOWN",
+    "original14x14_grid_and_orientation": "VERIFIED",
+    "prime_marker_correspondence": "STRONGLY SUPPORTED/PROMISING but conditional",
+    "summation_axis": "UNKNOWN",
+    "twenty_four_visible_yellow_blue_cells": "VERIFIED",
+    "yellow_blue_binary_encoding_values": "VERIFIED for the earlier URL decode",
+    "yellow_blue_summation_weights": "UNKNOWN"
+  },
+  "date": "2026-10-02",
+  "exact_missing_bindings": [
+    "cell-domain rule: all196 cells versus visible yellow/blue cells versus conditional25-event frame",
+    "numeric-type rule: binary bit versus color count, letter ordinal, RGB, or another value",
+    "axis rule: rows, columns, both, or prior spiral/octet grouping"
+  ],
+  "id": "C33-ORIGINAL-MATRIX-INSTRUCTION-AUDIT",
+  "new_image_variants": 0,
+  "new_numeric_weight_sweeps": 0,
+  "next_test": "No parameter-free test on the original square matrix can distinguish rows from columns or choose a summation weight. Continue only if an authored source supplies at least one of the three missing bindings.",
+  "numeric_values": {
+    "classification": "UNKNOWN for matrix summation; binary encoding bits cannot be promoted to arithmetic weights without an additional binding",
+    "distinct_source_derived_numbers": {
+      "color_population_counts": {
+        "blue": 15,
+        "yellow": 9
+      },
+      "dominant_rgb": {
+        "blue": [
+          63,
+          72,
+          204
+        ],
+        "yellow": [
+          255,
+          242,
+          0
+        ]
+      },
+      "initial_letter_ordinals": {
+        "blue_B": 2,
+        "yellow_Y": 25
+      }
+    },
+    "near_white_conflict": {
+      "conditional_prime_frame_label": 1,
+      "same_numeric_role": false,
+      "verified_image_bit": 0
+    },
+    "summation_weight_assignment_present_in_source": false,
+    "verified_encoding_role": {
+      "classification": "VERIFIED for the original URL encoding",
+      "mapping": {
+        "black": 1,
+        "blue": 1,
+        "near_white": 0,
+        "white": 0,
+        "yellow": 0
+      },
+      "meaning": "The unique per-color binary assignment among32 mappings that reproduces the verified spiral URL."
+    }
+  },
+  "prime_relation": {
+    "bounded_control_result": "Five color subsequences reproduce: two L84/mask505 and three L83/mask1017. One-event-per-byte admits one match from each branch, so it does not uniquely select L84. Requiring exactly bytes1..23 additionally selects L84 but is an unsupported extra condition. Continuous-counter full match still uniquely selects L83 within that separate explicit rule.",
+    "classification": "STRONGLY SUPPORTED/PROMISING cross-artifact relation, not a source-complete cell-selection instruction",
+    "conditional25_event_full_match_count": 1,
+    "conditional_full_match_event_map": [
+      {
+        "cell": [
+          7,
+          0
+        ],
+        "color": "blue",
+        "event_ordinal_one_based": 1,
+        "prime_position_one_based": 2,
+        "semantic_label_bit": 1,
+        "source_region": "dbbi",
+        "source_token": "b",
+        "spiral_index_zero_based": 7
+      },
+      {
+        "cell": [
+          13,
+          2
+        ],
+        "color": "blue",
+        "event_ordinal_one_based": 2,
+        "prime_position_one_based": 3,
+        "semantic_label_bit": 1,
+        "source_region": "dbbi",
+        "source_token": "b",
+        "spiral_index_zero_based": 15
+      },
+      {
+        "cell": [
+          13,
+          10
+        ],
+        "color": "blue",
+        "event_ordinal_one_based": 3,
+        "prime_position_one_based": 5,
+        "semantic_label_bit": 1,
+        "source_region": "dbbi",
+        "source_token": "b",
+        "spiral_index_zero_based": 23
+      },
+      {
+        "cell": [
+          8,
+          13
+        ],
+        "color": "blue",
+        "event_ordinal_one_based": 4,
+        "prime_position_one_based": 7,
+        "semantic_label_bit": 1,
+        "source_region": "dbbi",
+        "source_token": "b",
+        "spiral_index_zero_based": 31
+      },
+      {
+        "cell": [
+          0,
+          13
+        ],
+        "color": "yellow",
+        "event_ordinal_one_based": 5,
+        "prime_position_one_based": 11,
+        "semantic_label_bit": 0,
+        "source_region": "dbbi",
+        "source_token": "be",
+        "spiral_index_zero_based": 39
+      },
+      {
+        "cell": [
+          0,
+          5
+        ],
+        "color": "blue",
+        "event_ordinal_one_based": 6,
+        "prime_position_one_based": 13,
+        "semantic_label_bit": 1,
+        "source_region": "dbbi",
+        "source_token": "b",
+        "spiral_index_zero_based": 47
+      },
+      {
+        "cell": [
+          4,
+          1
+        ],
+        "color": "blue",
+        "event_ordinal_one_based": 7,
+        "prime_position_one_based": 17,
+        "semantic_label_bit": 1,
+        "source_region": "dbbi",
+        "source_token": "b",
+        "spiral_index_zero_based": 55
+      },
+      {
+        "cell": [
+          12,
+          1
+        ],
+        "color": "blue",
+        "event_ordinal_one_based": 8,
+        "prime_position_one_based": 19,
+        "semantic_label_bit": 1,
+        "source_region": "dbbi",
+        "source_token": "b",
+        "spiral_index_zero_based": 63
+      },
+      {
+        "cell": [
+          12,
+          9
+        ],
+        "color": "yellow",
+        "event_ordinal_one_based": 9,
+        "prime_position_one_based": 23,
+        "semantic_label_bit": 0,
+        "source_region": "dbbi",
+        "source_token": "be",
+        "spiral_index_zero_based": 71
+      },
+      {
+        "cell": [
+          7,
+          12
+        ],
+        "color": "yellow",
+        "event_ordinal_one_based": 10,
+        "prime_position_one_based": 29,
+        "semantic_label_bit": 0,
+        "source_region": "dbbi",
+        "source_token": "be",
+        "spiral_index_zero_based": 79
+      },
+      {
+        "cell": [
+          1,
+          10
+        ],
+        "color": "blue",
+        "event_ordinal_one_based": 11,
+        "prime_position_one_based": 31,
+        "semantic_label_bit": 1,
+        "source_region": "dbbi",
+        "source_token": "b",
+        "spiral_index_zero_based": 87
+      },
+      {
+        "cell": [
+          1,
+          2
+        ],
+        "color": "blue",
+        "event_ordinal_one_based": 12,
+        "prime_position_one_based": 37,
+        "semantic_label_bit": 1,
+        "source_region": "dbbi",
+        "source_token": "b",
+        "spiral_index_zero_based": 95
+      },
+      {
+        "cell": [
+          9,
+          2
+        ],
+        "color": "blue",
+        "event_ordinal_one_based": 13,
+        "prime_position_one_based": 41,
+        "semantic_label_bit": 1,
+        "source_region": "dbbi",
+        "source_token": "b",
+        "spiral_index_zero_based": 103
+      },
+      {
+        "cell": [
+          11,
+          8
+        ],
+        "color": "blue",
+        "event_ordinal_one_based": 14,
+        "prime_position_one_based": 43,
+        "semantic_label_bit": 1,
+        "source_region": "dbbi",
+        "source_token": "b",
+        "spiral_index_zero_based": 111
+      },
+      {
+        "cell": [
+          6,
+          11
+        ],
+        "color": "yellow",
+        "event_ordinal_one_based": 15,
+        "prime_position_one_based": 47,
+        "semantic_label_bit": 0,
+        "source_region": "dbbi",
+        "source_token": "be",
+        "spiral_index_zero_based": 119
+      },
+      {
+        "cell": [
+          2,
+          7
+        ],
+        "color": "blue",
+        "event_ordinal_one_based": 16,
+        "prime_position_one_based": 53,
+        "semantic_label_bit": 1,
+        "source_region": "dbbi",
+        "source_token": "b",
+        "spiral_index_zero_based": 127
+      },
+      {
+        "cell": [
+          6,
+          3
+        ],
+        "color": "blue",
+        "event_ordinal_one_based": 17,
+        "prime_position_one_based": 59,
+        "semantic_label_bit": 1,
+        "source_region": "dbbi",
+        "source_token": "b",
+        "spiral_index_zero_based": 135
+      },
+      {
+        "cell": [
+          10,
+          7
+        ],
+        "color": "yellow",
+        "event_ordinal_one_based": 18,
+        "prime_position_one_based": 61,
+        "semantic_label_bit": 0,
+        "source_region": "dbbi",
+        "source_token": "be",
+        "spiral_index_zero_based": 143
+      },
+      {
+        "cell": [
+          5,
+          10
+        ],
+        "color": "yellow",
+        "event_ordinal_one_based": 19,
+        "prime_position_one_based": 67,
+        "semantic_label_bit": 0,
+        "source_region": "dbbi",
+        "source_token": "be",
+        "spiral_index_zero_based": 151
+      },
+      {
+        "cell": [
+          3,
+          4
+        ],
+        "color": "blue",
+        "event_ordinal_one_based": 20,
+        "prime_position_one_based": 71,
+        "semantic_label_bit": 1,
+        "source_region": "dbbi",
+        "source_token": "b",
+        "spiral_index_zero_based": 159
+      },
+      {
+        "cell": [
+          7,
+          4
+        ],
+        "color": "near_white",
+        "event_ordinal_one_based": 21,
+        "prime_position_one_based": 73,
+        "semantic_label_bit": 1,
+        "source_region": "dbbi",
+        "source_token": "b",
+        "spiral_index_zero_based": 163
+      },
+      {
+        "cell": [
+          9,
+          6
+        ],
+        "color": "yellow",
+        "event_ordinal_one_based": 22,
+        "prime_position_one_based": 79,
+        "semantic_label_bit": 0,
+        "source_region": "dbbi",
+        "source_token": "be",
+        "spiral_index_zero_based": 167
+      },
+      {
+        "cell": [
+          4,
+          9
+        ],
+        "color": "yellow",
+        "event_ordinal_one_based": 23,
+        "prime_position_one_based": 83,
+        "semantic_label_bit": 0,
+        "source_region": "dbbi",
+        "source_token": "be",
+        "spiral_index_zero_based": 175
+      },
+      {
+        "cell": [
+          8,
+          5
+        ],
+        "color": "blue",
+        "event_ordinal_one_based": 24,
+        "prime_position_one_based": 89,
+        "semantic_label_bit": 1,
+        "source_region": "matrixsumlist-binary",
+        "source_token": "b",
+        "spiral_index_zero_based": 183
+      },
+      {
+        "cell": [
+          5,
+          6
+        ],
+        "color": "yellow",
+        "event_ordinal_one_based": 25,
+        "prime_position_one_based": 97,
+        "semantic_label_bit": 0,
+        "source_region": "matrixsumlist-binary",
+        "source_token": "a",
+        "spiral_index_zero_based": 191
+      }
+    ],
+    "conditional_full_match_mask": 1017,
+    "conditions_required": [
+      "merge one particular subset of optional be digraphs in dbbi (mask1017)",
+      "use one-based logical prime positions",
+      "interpret dbbi b as1 and be as0",
+      "add the unmentioned near-white cell and assign it semantic1 although its verified image bit is0",
+      "continue the counter across the dbbi/matrixsumlist source boundary",
+      "interpret binary-label b/a as1/0 for the final two events"
+    ],
+    "ordinary24_color_frame_max_prefix": 20,
+    "ordinary24_full_match_count": 0
+  },
+  "private_key_operations": 0,
+  "question": "Does the original14x14 source plus yellowblueprimes fix the cells, their summation values, and a summation axis?",
+  "result": "The source fixes the14x14 grid, its orientation, the24 visible yellow/blue coordinates, their spiral order, and their binary roles in the earlier URL. It does not say that only those cells are summed, does not bind encoding bits or any other color numbers as summation weights, and does not choose rows versus columns. The conditional25-event prime match adds evidence for a cross-object label sequence but relies on an unmentioned near-white event and several parsing conventions, so it cannot close those three interfaces.",
+  "selected_cells": {
+    "classification": {
+      "colored_cells_as_the_exclusive_sum mask": "UNKNOWN",
+      "near_white_as_an_additional_selected_cell": "WEAK/CONDITIONAL",
+      "spiral_order_of_visible_locations": "VERIFIED by the earlier URL decode",
+      "visible_yellow_blue_locations": "VERIFIED"
+    },
+    "every_decoded_octet_has_exactly_one_yellow_or_blue_terminal_cell": true,
+    "instruction_explicitly_says_to_sum_only_colored_cells": false,
+    "near_white_cell": {
+      "bit_position_in_octet_zero_based": 3,
+      "color": "near_white",
+      "column_zero_based": 4,
+      "dominant_rgb": [
+        254,
+        254,
+        254
+      ],
+      "octet_index_zero_based": 20,
+      "row_zero_based": 7,
+      "spiral_index_zero_based": 163,
+      "spiral_position_one_based": 164,
+      "verified_binary_bit": 0
+    },
+    "near_white_is_named_by_yellowblueprimes": false,
+    "yellow_blue_cells": [
+      {
+        "bit_position_in_octet_zero_based": 7,
+        "color": "blue",
+        "column_zero_based": 0,
+        "dominant_rgb": [
+          63,
+          72,
+          204
+        ],
+        "octet_index_zero_based": 0,
+        "row_zero_based": 7,
+        "spiral_index_zero_based": 7,
+        "spiral_position_one_based": 8,
+        "verified_binary_bit": 1
+      },
+      {
+        "bit_position_in_octet_zero_based": 7,
+        "color": "blue",
+        "column_zero_based": 2,
+        "dominant_rgb": [
+          63,
+          72,
+          204
+        ],
+        "octet_index_zero_based": 1,
+        "row_zero_based": 13,
+        "spiral_index_zero_based": 15,
+        "spiral_position_one_based": 16,
+        "verified_binary_bit": 1
+      },
+      {
+        "bit_position_in_octet_zero_based": 7,
+        "color": "blue",
+        "column_zero_based": 10,
+        "dominant_rgb": [
+          63,
+          72,
+          204
+        ],
+        "octet_index_zero_based": 2,
+        "row_zero_based": 13,
+        "spiral_index_zero_based": 23,
+        "spiral_position_one_based": 24,
+        "verified_binary_bit": 1
+      },
+      {
+        "bit_position_in_octet_zero_based": 7,
+        "color": "blue",
+        "column_zero_based": 13,
+        "dominant_rgb": [
+          63,
+          72,
+          204
+        ],
+        "octet_index_zero_based": 3,
+        "row_zero_based": 8,
+        "spiral_index_zero_based": 31,
+        "spiral_position_one_based": 32,
+        "verified_binary_bit": 1
+      },
+      {
+        "bit_position_in_octet_zero_based": 7,
+        "color": "yellow",
+        "column_zero_based": 13,
+        "dominant_rgb": [
+          255,
+          242,
+          0
+        ],
+        "octet_index_zero_based": 4,
+        "row_zero_based": 0,
+        "spiral_index_zero_based": 39,
+        "spiral_position_one_based": 40,
+        "verified_binary_bit": 0
+      },
+      {
+        "bit_position_in_octet_zero_based": 7,
+        "color": "blue",
+        "column_zero_based": 5,
+        "dominant_rgb": [
+          63,
+          72,
+          204
+        ],
+        "octet_index_zero_based": 5,
+        "row_zero_based": 0,
+        "spiral_index_zero_based": 47,
+        "spiral_position_one_based": 48,
+        "verified_binary_bit": 1
+      },
+      {
+        "bit_position_in_octet_zero_based": 7,
+        "color": "blue",
+        "column_zero_based": 1,
+        "dominant_rgb": [
+          63,
+          72,
+          204
+        ],
+        "octet_index_zero_based": 6,
+        "row_zero_based": 4,
+        "spiral_index_zero_based": 55,
+        "spiral_position_one_based": 56,
+        "verified_binary_bit": 1
+      },
+      {
+        "bit_position_in_octet_zero_based": 7,
+        "color": "blue",
+        "column_zero_based": 1,
+        "dominant_rgb": [
+          63,
+          72,
+          204
+        ],
+        "octet_index_zero_based": 7,
+        "row_zero_based": 12,
+        "spiral_index_zero_based": 63,
+        "spiral_position_one_based": 64,
+        "verified_binary_bit": 1
+      },
+      {
+        "bit_position_in_octet_zero_based": 7,
+        "color": "yellow",
+        "column_zero_based": 9,
+        "dominant_rgb": [
+          255,
+          242,
+          0
+        ],
+        "octet_index_zero_based": 8,
+        "row_zero_based": 12,
+        "spiral_index_zero_based": 71,
+        "spiral_position_one_based": 72,
+        "verified_binary_bit": 0
+      },
+      {
+        "bit_position_in_octet_zero_based": 7,
+        "color": "yellow",
+        "column_zero_based": 12,
+        "dominant_rgb": [
+          255,
+          242,
+          0
+        ],
+        "octet_index_zero_based": 9,
+        "row_zero_based": 7,
+        "spiral_index_zero_based": 79,
+        "spiral_position_one_based": 80,
+        "verified_binary_bit": 0
+      },
+      {
+        "bit_position_in_octet_zero_based": 7,
+        "color": "blue",
+        "column_zero_based": 10,
+        "dominant_rgb": [
+          63,
+          72,
+          204
+        ],
+        "octet_index_zero_based": 10,
+        "row_zero_based": 1,
+        "spiral_index_zero_based": 87,
+        "spiral_position_one_based": 88,
+        "verified_binary_bit": 1
+      },
+      {
+        "bit_position_in_octet_zero_based": 7,
+        "color": "blue",
+        "column_zero_based": 2,
+        "dominant_rgb": [
+          63,
+          72,
+          204
+        ],
+        "octet_index_zero_based": 11,
+        "row_zero_based": 1,
+        "spiral_index_zero_based": 95,
+        "spiral_position_one_based": 96,
+        "verified_binary_bit": 1
+      },
+      {
+        "bit_position_in_octet_zero_based": 7,
+        "color": "blue",
+        "column_zero_based": 2,
+        "dominant_rgb": [
+          63,
+          72,
+          204
+        ],
+        "octet_index_zero_based": 12,
+        "row_zero_based": 9,
+        "spiral_index_zero_based": 103,
+        "spiral_position_one_based": 104,
+        "verified_binary_bit": 1
+      },
+      {
+        "bit_position_in_octet_zero_based": 7,
+        "color": "blue",
+        "column_zero_based": 8,
+        "dominant_rgb": [
+          63,
+          72,
+          204
+        ],
+        "octet_index_zero_based": 13,
+        "row_zero_based": 11,
+        "spiral_index_zero_based": 111,
+        "spiral_position_one_based": 112,
+        "verified_binary_bit": 1
+      },
+      {
+        "bit_position_in_octet_zero_based": 7,
+        "color": "yellow",
+        "column_zero_based": 11,
+        "dominant_rgb": [
+          255,
+          242,
+          0
+        ],
+        "octet_index_zero_based": 14,
+        "row_zero_based": 6,
+        "spiral_index_zero_based": 119,
+        "spiral_position_one_based": 120,
+        "verified_binary_bit": 0
+      },
+      {
+        "bit_position_in_octet_zero_based": 7,
+        "color": "blue",
+        "column_zero_based": 7,
+        "dominant_rgb": [
+          63,
+          72,
+          204
+        ],
+        "octet_index_zero_based": 15,
+        "row_zero_based": 2,
+        "spiral_index_zero_based": 127,
+        "spiral_position_one_based": 128,
+        "verified_binary_bit": 1
+      },
+      {
+        "bit_position_in_octet_zero_based": 7,
+        "color": "blue",
+        "column_zero_based": 3,
+        "dominant_rgb": [
+          63,
+          72,
+          204
+        ],
+        "octet_index_zero_based": 16,
+        "row_zero_based": 6,
+        "spiral_index_zero_based": 135,
+        "spiral_position_one_based": 136,
+        "verified_binary_bit": 1
+      },
+      {
+        "bit_position_in_octet_zero_based": 7,
+        "color": "yellow",
+        "column_zero_based": 7,
+        "dominant_rgb": [
+          255,
+          242,
+          0
+        ],
+        "octet_index_zero_based": 17,
+        "row_zero_based": 10,
+        "spiral_index_zero_based": 143,
+        "spiral_position_one_based": 144,
+        "verified_binary_bit": 0
+      },
+      {
+        "bit_position_in_octet_zero_based": 7,
+        "color": "yellow",
+        "column_zero_based": 10,
+        "dominant_rgb": [
+          255,
+          242,
+          0
+        ],
+        "octet_index_zero_based": 18,
+        "row_zero_based": 5,
+        "spiral_index_zero_based": 151,
+        "spiral_position_one_based": 152,
+        "verified_binary_bit": 0
+      },
+      {
+        "bit_position_in_octet_zero_based": 7,
+        "color": "blue",
+        "column_zero_based": 4,
+        "dominant_rgb": [
+          63,
+          72,
+          204
+        ],
+        "octet_index_zero_based": 19,
+        "row_zero_based": 3,
+        "spiral_index_zero_based": 159,
+        "spiral_position_one_based": 160,
+        "verified_binary_bit": 1
+      },
+      {
+        "bit_position_in_octet_zero_based": 7,
+        "color": "yellow",
+        "column_zero_based": 6,
+        "dominant_rgb": [
+          255,
+          242,
+          0
+        ],
+        "octet_index_zero_based": 20,
+        "row_zero_based": 9,
+        "spiral_index_zero_based": 167,
+        "spiral_position_one_based": 168,
+        "verified_binary_bit": 0
+      },
+      {
+        "bit_position_in_octet_zero_based": 7,
+        "color": "yellow",
+        "column_zero_based": 9,
+        "dominant_rgb": [
+          255,
+          242,
+          0
+        ],
+        "octet_index_zero_based": 21,
+        "row_zero_based": 4,
+        "spiral_index_zero_based": 175,
+        "spiral_position_one_based": 176,
+        "verified_binary_bit": 0
+      },
+      {
+        "bit_position_in_octet_zero_based": 7,
+        "color": "blue",
+        "column_zero_based": 5,
+        "dominant_rgb": [
+          63,
+          72,
+          204
+        ],
+        "octet_index_zero_based": 22,
+        "row_zero_based": 8,
+        "spiral_index_zero_based": 183,
+        "spiral_position_one_based": 184,
+        "verified_binary_bit": 1
+      },
+      {
+        "bit_position_in_octet_zero_based": 7,
+        "color": "yellow",
+        "column_zero_based": 6,
+        "dominant_rgb": [
+          255,
+          242,
+          0
+        ],
+        "octet_index_zero_based": 23,
+        "row_zero_based": 5,
+        "spiral_index_zero_based": 191,
+        "spiral_position_one_based": 192,
+        "verified_binary_bit": 0
+      }
+    ],
+    "yellow_blue_coordinates_are_source_fixed": true,
+    "yellow_blue_count": 24
+  },
+  "source_evidence": [
+    {
+      "path": "research/sources/gsmg-puzzle.png",
+      "sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830"
+    },
+    {
+      "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+      "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+    },
+    {
+      "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+      "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+    },
+    {
+      "path": "research/artifacts/cycle03/prime-boundary.json",
+      "sha256": "7a267b998cb9353cabba47bb4005abee0cbec18c7f878eb52c223bdf14fc9727"
+    },
+    {
+      "path": "research/artifacts/cycle05/prime-selection-controls.json",
+      "sha256": "72fda8b6a483a4c15392c5729a66b8aa0dfcb86e04d85ffa70c6d4bef82f2498"
+    },
+    {
+      "path": "research/artifacts/cycle11/hint-instruction-order.json",
+      "sha256": "05a3ad4ec7ed7572f1223fb90c97612caa4fde6ffc199baeebdcd1794d74150d"
+    }
+  ],
+  "status": "INCONCLUSIVE",
+  "summation_axis": {
+    "binary_column_sums_left_to_right": [
+      8,
+      10,
+      8,
+      10,
+      8,
+      7,
+      3,
+      6,
+      7,
+      5,
+      9,
+      6,
+      6,
+      8
+    ],
+    "binary_row_sums_top_to_bottom": [
+      6,
+      10,
+      8,
+      7,
+      6,
+      6,
+      5,
+      4,
+      9,
+      9,
+      7,
+      8,
+      7,
+      9
+    ],
+    "blue_counts_by_column": [
+      1,
+      2,
+      3,
+      1,
+      1,
+      2,
+      0,
+      1,
+      1,
+      0,
+      2,
+      0,
+      0,
+      1
+    ],
+    "blue_counts_by_row": [
+      1,
+      2,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      2,
+      1,
+      0,
+      1,
+      1,
+      2
+    ],
+    "both_axes_partition_all196_cells_once": true,
+    "classification": "UNKNOWN: rows, columns, both, or the prior spiral grouping are not selected by the source wording",
+    "column_count": 14,
+    "column_total": 101,
+    "explicit_axis_terms_in_relevant_creator_hints": [],
+    "ordered_lists_equal": false,
+    "row_and_column_lists_have_equal_length_but_different_ordered_values": true,
+    "row_count": 14,
+    "row_total": 101,
+    "square_dimensions_cannot_select_an_axis": true,
+    "verified_spiral_is_an_order_not_a_sum_axis": true,
+    "yellow_counts_by_column": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      1,
+      0,
+      2,
+      1,
+      1,
+      1,
+      1
+    ],
+    "yellow_counts_by_row": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      2,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0
+    ]
+  },
+  "verified_matrix": {
+    "exact_url_mapping_match_count": 1,
+    "orientation_is_visually_fixed_by_complete_png": true,
+    "palette_counts": {
+      "black": 86,
+      "blue": 15,
+      "near_white": 1,
+      "white": 85,
+      "yellow": 9
+    },
+    "palette_rgb": {
+      "black": [
+        0,
+        0,
+        0
+      ],
+      "blue": [
+        63,
+        72,
+        204
+      ],
+      "near_white": [
+        254,
+        254,
+        254
+      ],
+      "white": [
+        255,
+        255,
+        255
+      ],
+      "yellow": [
+        255,
+        242,
+        0
+      ]
+    },
+    "per_color_binary_assignments_checked": 32,
+    "shape": [
+      14,
+      14
+    ],
+    "trailing_bits": "0000",
+    "unique_binary_mapping": {
+      "black": 1,
+      "blue": 1,
+      "near_white": 0,
+      "white": 0,
+      "yellow": 0
+    },
+    "verified_spiral_decode": "gsmg.io/theseedisplanted"
+  }
+}

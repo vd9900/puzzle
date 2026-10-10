@@ -1,0 +1,126 @@
+{
+  "claimed_full_output_matches_primary_derived": true,
+  "elapsed_seconds": 3.564,
+  "id": "C04-BIFID-EVIDENCE",
+  "limits": "No inferred intended plaintext or target key. Prefix depends on eight source characters and chosen source-key/period; extensive uncounted key/period searches and post-selection invalidate the simple1/26^7 claim. Round-trip verifies implementation only.",
+  "output_sha256": "15d62c8228c1a30f3f6280fcdce2251fe616135e9de291b0c7b8a792dd8d0507",
+  "parity": {
+    "even_offsets_zero_based_alphabet": "bcde",
+    "explanation": "All input symbols occupy square positions0..8. With even period570, even plaintext positions combine two row coordinates limited0/1; therefore exactly square indices0,1,5,6 are possible. This restriction is forced by input/square, not evidence of a second cipher or null instruction.",
+    "odd_offsets_zero_based_alphabet": "abcdefghiklmnopqrstuvwxyz",
+    "predicted_even_alphabet": "dbce"
+  },
+  "period": 570,
+  "plaintext": "btcseeddeoemckeadhbschdkbdcsdkdvbxcpcochcrdicibqeebddbcndsbdcpdgcpdncncsescgddclenbmcuducqcacdeldzelcmefdfesdodwckbycubwbaesbwbnemedeadobrcpbgbqcoegbsenesblbtesdadpduescpcreacnckcscdcnbedkckctclbrenenccegelcncubsbgeseienduefddbackdnbsdsescrbsebblbierdvcobdccegbseobvbvcdemcpcscgeldiegdadwdycacpegenbyebcgclcrdbbrdgdbdmercncgdtcdbncfclcpdnbrbbebcnereremeldsdadlencqbochdqdgbxegcfcueeeidacieadoctdneiegdeeldeelbmckedbbeacmcodremcccmcscgdbcocmdtdlbmcdbmbmdpbsdnbsdyeoeocienbseobicbbbcncnecducibecccgdocmeedubndeelblbacpcpcmdxdxdrdgcbcmdndrddecdweadhbtdicqcpdoefdhdgdxdpciel",
+  "prefix": {
+    "domains": {
+      "0": [
+        "f"
+      ],
+      "1": [
+        "a"
+      ],
+      "2": [
+        "e"
+      ],
+      "3": [
+        "b",
+        "d",
+        "f",
+        "h",
+        "i"
+      ],
+      "285": [
+        "a"
+      ],
+      "286": [
+        "i"
+      ],
+      "287": [
+        "e"
+      ],
+      "288": [
+        "b",
+        "d",
+        "f",
+        "h",
+        "i"
+      ]
+    },
+    "observed": "btcseed",
+    "source_letters_at_constrained_positions": {
+      "0": "f",
+      "1": "a",
+      "2": "e",
+      "3": "d",
+      "285": "a",
+      "286": "i",
+      "287": "e",
+      "288": "d"
+    },
+    "sufficient_eight_source_letters": "faedaied"
+  },
+  "result": "Exact source-derived Bifid decode reproduces btcseed prefix and archived full output, but remainder is not natural language or a verified next stage. Fixed-key/fixed-data shuffle probabilities are conditional comparisons, not universal odds after all community searches.",
+  "score": {
+    "alphabetic_ratio": 1.0,
+    "bytes": 570,
+    "dictionary_coverage": 0.0,
+    "language_score": 0.001761,
+    "longest_printable_run": 570,
+    "printable_ratio": 1.0,
+    "puzzle_vocabulary_hits": {},
+    "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+    "whole_word_hits": []
+  },
+  "search_space": {
+    "directions": [
+      "decode",
+      "encode round-trip"
+    ],
+    "exact_probability_assignments_upper_bound": 25,
+    "periods": [
+      570
+    ],
+    "shuffle_nulls": 2,
+    "shuffles_per_null": 10000,
+    "square_keys": 1
+  },
+  "shuffle_controls": [
+    {
+      "exact_probability_decimal": 4.411677430728625e-07,
+      "exact_probability_denominator": 1914387165111736,
+      "exact_probability_numerator": 844565865,
+      "expected_matches": 0.004411677430728625,
+      "fixed_prefix": "",
+      "matches": 0,
+      "null": "Uniformly permuted exact source-symbol multiset, without replacement; fixed prefix excluded from shuffled pool",
+      "seed": 2026093004,
+      "shuffle_count": 10000
+    },
+    {
+      "exact_probability_decimal": 0.0007586448742280572,
+      "exact_probability_denominator": 1692392638,
+      "exact_probability_numerator": 1283925,
+      "expected_matches": 7.586448742280572,
+      "fixed_prefix": "faed",
+      "matches": 7,
+      "null": "Uniformly permuted exact source-symbol multiset, without replacement; fixed prefix excluded from shuffled pool",
+      "seed": 2026093004,
+      "shuffle_count": 10000
+    }
+  ],
+  "source_evidence": [
+    {
+      "locator": "exact dbbi91 keyword and faed570 ciphertext",
+      "path": "research/sources/salphaseion.html",
+      "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+    },
+    {
+      "locator": "2025-06-25 07:49:43 and 15:10:20 creator-unauthenticated community claims",
+      "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+      "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+    }
+  ],
+  "square": "dbifhcegaklmnopqrstuvwxyz",
+  "status": "PROMISING"
+}

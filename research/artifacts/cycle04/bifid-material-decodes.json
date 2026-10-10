@@ -1,0 +1,380 @@
+[
+  {
+    "decoded_base64": "YnRjc2VlZGRlb2VtY2tlYWRoYnNjaGRrYmRjc2RrZHZieGNwY29jaGNyZGljaWJxZWViZGRiY25kc2JkY3BkZ2NwZG5jbmNzZXNjZ2RkY2xlbmJtY3VkdWNxY2FjZGVsZHplbGNtZWZkZmVzZG9kd2NrYnljdWJ3YmFlc2J3Ym5lbWVkZWFkb2JyY3BiZ2JxY29lZ2JzZW5lc2JsYnRlc2RhZHBkdWVzY3BjcmVhY25ja2NzY2RjbmJlZGtja2N0Y2xicmVuZW5jY2VnZWxjbmN1YnNiZ2VzZWllbmR1ZWZkZGJhY2tkbmJzZHNlc2NyYnNlYmJsYmllcmR2Y29iZGNjZWdic2VvYnZidmNkZW1jcGNzY2dlbGRpZWdkYWR3ZHljYWNwZWdlbmJ5ZWJjZ2NsY3JkYmJyZGdkYmRtZXJjbmNnZHRjZGJuY2ZjbGNwZG5icmJiZWJjbmVyZXJlbWVsZHNkYWRsZW5jcWJvY2hkcWRnYnhlZ2NmY3VlZWVpZGFjaWVhZG9jdGRuZWllZ2RlZWxkZWVsYm1ja2VkYmJlYWNtY29kcmVtY2NjbWNzY2dkYmNvY21kdGRsYm1jZGJtYm1kcGJzZG5ic2R5ZW9lb2NpZW5ic2VvYmljYmJiY25jbmVjZHVjaWJlY2NjZ2RvY21lZWR1Ym5kZWVsYmxiYWNwY3BjbWR4ZHhkcmRnY2JjbWRuZHJkZGVjZHdlYWRoYnRkaWNxY3Bkb2VmZGhkZ2R4ZHBjaWVs",
+    "parameters": {
+      "bifid_period": 570,
+      "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+      "material": "bifid-full570",
+      "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+      "transform": "exact-lowercase"
+    },
+    "score": {
+      "alphabetic_ratio": 1.0,
+      "bytes": 570,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.001761,
+      "longest_printable_run": 570,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "QlRDU0VFRERFT0VNQ0tFQURIQlNDSERLQkRDU0RLRFZCWENQQ09DSENSRElDSUJRRUVCRERCQ05EU0JEQ1BER0NQRE5DTkNTRVNDR0REQ0xFTkJNQ1VEVUNRQ0FDREVMRFpFTENNRUZERkVTRE9EV0NLQllDVUJXQkFFU0JXQk5FTUVERUFET0JSQ1BCR0JRQ09FR0JTRU5FU0JMQlRFU0RBRFBEVUVTQ1BDUkVBQ05DS0NTQ0RDTkJFREtDS0NUQ0xCUkVORU5DQ0VHRUxDTkNVQlNCR0VTRUlFTkRVRUZEREJBQ0tETkJTRFNFU0NSQlNFQkJMQklFUkRWQ09CRENDRUdCU0VPQlZCVkNERU1DUENTQ0dFTERJRUdEQURXRFlDQUNQRUdFTkJZRUJDR0NMQ1JEQkJSREdEQkRNRVJDTkNHRFRDREJOQ0ZDTENQRE5CUkJCRUJDTkVSRVJFTUVMRFNEQURMRU5DUUJPQ0hEUURHQlhFR0NGQ1VFRUVJREFDSUVBRE9DVERORUlFR0RFRUxERUVMQk1DS0VEQkJFQUNNQ09EUkVNQ0NDTUNTQ0dEQkNPQ01EVERMQk1DREJNQk1EUEJTRE5CU0RZRU9FT0NJRU5CU0VPQklDQkJCQ05DTkVDRFVDSUJFQ0NDR0RPQ01FRURVQk5ERUVMQkxCQUNQQ1BDTURYRFhEUkRHQ0JDTURORFJEREVDRFdFQURIQlRESUNRQ1BET0VGREhER0RYRFBDSUVM",
+    "parameters": {
+      "bifid_period": 570,
+      "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+      "material": "bifid-full570",
+      "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+      "transform": "uppercase"
+    },
+    "score": {
+      "alphabetic_ratio": 1.0,
+      "bytes": 570,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.001761,
+      "longest_printable_run": 570,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "bGVpY3BkeGRnZGhkZmVvZHBjcWNpZHRiaGRhZXdkY2VkZHJkbmRtY2JjZ2RyZHhkeGRtY3BjcGNhYmxibGVlZG5idWRlZW1jb2RnY2NjZWJpY3VkY2VuY25jYmJiY2lib2VzYm5laWNvZW9leWRzYm5kc2JwZG1ibWJkY21ibGR0ZG1jb2NiZGdjc2NtY2NjbWVyZG9jbWNhZWJiZGVrY21ibGVlZGxlZWRnZWllbmR0Y29kYWVpY2FkaWVlZXVjZmNnZXhiZ2RxZGhjb2JxY25lbGRhZHNkbGVtZXJlcmVuY2JlYmJyYm5kcGNsY2ZjbmJkY3RkZ2NuY3JlbWRiZGdkcmJiZHJjbGNnY2JleWJuZWdlcGNhY3lkd2RhZGdlaWRsZWdjc2NwY21lZGN2YnZib2VzYmdlY2NkYm9jdmRyZWlibGJiZXNicmNzZXNkc2JuZGtjYWJkZGZldWRuZWllc2VnYnNidWNuY2xlZ2VjY25lbmVyYmxjdGNrY2tkZWJuY2Rjc2NrY25jYWVyY3Bjc2V1ZHBkYWRzZXRibGJzZW5lc2JnZW9jcWJnYnBjcmJvZGFlZGVtZW5id2JzZWFid2J1Y3lia2N3ZG9kc2VmZGZlbWNsZXpkbGVkY2FjcWN1ZHVjbWJuZWxjZGRnY3Nlc2NuY25kcGNnZHBjZGJzZG5jYmRkYmVlcWJpY2lkcmNoY29jcGN4YnZka2RzY2Ria2RoY3NiaGRhZWtjbWVvZWRkZWVzY3Ri",
+    "parameters": {
+      "bifid_period": 570,
+      "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+      "material": "bifid-full570",
+      "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+      "transform": "reverse-bytes"
+    },
+    "score": {
+      "alphabetic_ratio": 1.0,
+      "bytes": 570,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.001761,
+      "longest_printable_run": 570,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "ZGVvZW1ja2VhZGhic2NoZGtiZGNzZGtkdmJ4Y3Bjb2NoY3JkaWNpYnFlZWJkZGJjbmRzYmRjcGRnY3BkbmNuY3Nlc2NnZGRjbGVuYm1jdWR1Y3FjYWNkZWxkemVsY21lZmRmZXNkb2R3Y2tieWN1YndiYWVzYndibmVtZWRlYWRvYnJjcGJnYnFjb2VnYnNlbmVzYmxidGVzZGFkcGR1ZXNjcGNyZWFjbmNrY3NjZGNuYmVka2NrY3RjbGJyZW5lbmNjZWdlbGNuY3Vic2JnZXNlaWVuZHVlZmRkYmFja2RuYnNkc2VzY3Jic2ViYmxiaWVyZHZjb2JkY2NlZ2JzZW9idmJ2Y2RlbWNwY3NjZ2VsZGllZ2RhZHdkeWNhY3BlZ2VuYnllYmNnY2xjcmRiYnJkZ2RiZG1lcmNuY2dkdGNkYm5jZmNsY3BkbmJyYmJlYmNuZXJlcmVtZWxkc2RhZGxlbmNxYm9jaGRxZGdieGVnY2ZjdWVlZWlkYWNpZWFkb2N0ZG5laWVnZGVlbGRlZWxibWNrZWRiYmVhY21jb2RyZW1jY2NtY3NjZ2RiY29jbWR0ZGxibWNkYm1ibWRwYnNkbmJzZHllb2VvY2llbmJzZW9iaWNiYmJjbmNuZWNkdWNpYmVjY2NnZG9jbWVlZHVibmRlZWxibGJhY3BjcGNtZHhkeGRyZGdjYmNtZG5kcmRkZWNkd2VhZGhidGRpY3FjcGRvZWZkaGRnZHhkcGNpZWw=",
+    "parameters": {
+      "bifid_period": 570,
+      "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+      "material": "after-btcseed563",
+      "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+      "transform": "exact-lowercase"
+    },
+    "score": {
+      "alphabetic_ratio": 1.0,
+      "bytes": 563,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.001783,
+      "longest_printable_run": 563,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "REVPRU1DS0VBREhCU0NIREtCRENTREtEVkJYQ1BDT0NIQ1JESUNJQlFFRUJEREJDTkRTQkRDUERHQ1BETkNOQ1NFU0NHRERDTEVOQk1DVURVQ1FDQUNERUxEWkVMQ01FRkRGRVNET0RXQ0tCWUNVQldCQUVTQldCTkVNRURFQURPQlJDUEJHQlFDT0VHQlNFTkVTQkxCVEVTREFEUERVRVNDUENSRUFDTkNLQ1NDRENOQkVES0NLQ1RDTEJSRU5FTkNDRUdFTENOQ1VCU0JHRVNFSUVORFVFRkREQkFDS0ROQlNEU0VTQ1JCU0VCQkxCSUVSRFZDT0JEQ0NFR0JTRU9CVkJWQ0RFTUNQQ1NDR0VMRElFR0RBRFdEWUNBQ1BFR0VOQllFQkNHQ0xDUkRCQlJER0RCRE1FUkNOQ0dEVENEQk5DRkNMQ1BETkJSQkJFQkNORVJFUkVNRUxEU0RBRExFTkNRQk9DSERRREdCWEVHQ0ZDVUVFRUlEQUNJRUFET0NURE5FSUVHREVFTERFRUxCTUNLRURCQkVBQ01DT0RSRU1DQ0NNQ1NDR0RCQ09DTURURExCTUNEQk1CTURQQlNETkJTRFlFT0VPQ0lFTkJTRU9CSUNCQkJDTkNORUNEVUNJQkVDQ0NHRE9DTUVFRFVCTkRFRUxCTEJBQ1BDUENNRFhEWERSREdDQkNNRE5EUkRERUNEV0VBREhCVERJQ1FDUERPRUZESERHRFhEUENJRUw=",
+    "parameters": {
+      "bifid_period": 570,
+      "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+      "material": "after-btcseed563",
+      "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+      "transform": "uppercase"
+    },
+    "score": {
+      "alphabetic_ratio": 1.0,
+      "bytes": 563,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.001783,
+      "longest_printable_run": 563,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "bGVpY3BkeGRnZGhkZmVvZHBjcWNpZHRiaGRhZXdkY2VkZHJkbmRtY2JjZ2RyZHhkeGRtY3BjcGNhYmxibGVlZG5idWRlZW1jb2RnY2NjZWJpY3VkY2VuY25jYmJiY2lib2VzYm5laWNvZW9leWRzYm5kc2JwZG1ibWJkY21ibGR0ZG1jb2NiZGdjc2NtY2NjbWVyZG9jbWNhZWJiZGVrY21ibGVlZGxlZWRnZWllbmR0Y29kYWVpY2FkaWVlZXVjZmNnZXhiZ2RxZGhjb2JxY25lbGRhZHNkbGVtZXJlcmVuY2JlYmJyYm5kcGNsY2ZjbmJkY3RkZ2NuY3JlbWRiZGdkcmJiZHJjbGNnY2JleWJuZWdlcGNhY3lkd2RhZGdlaWRsZWdjc2NwY21lZGN2YnZib2VzYmdlY2NkYm9jdmRyZWlibGJiZXNicmNzZXNkc2JuZGtjYWJkZGZldWRuZWllc2VnYnNidWNuY2xlZ2VjY25lbmVyYmxjdGNrY2tkZWJuY2Rjc2NrY25jYWVyY3Bjc2V1ZHBkYWRzZXRibGJzZW5lc2JnZW9jcWJnYnBjcmJvZGFlZGVtZW5id2JzZWFid2J1Y3lia2N3ZG9kc2VmZGZlbWNsZXpkbGVkY2FjcWN1ZHVjbWJuZWxjZGRnY3Nlc2NuY25kcGNnZHBjZGJzZG5jYmRkYmVlcWJpY2lkcmNoY29jcGN4YnZka2RzY2Ria2RoY3NiaGRhZWtjbWVvZWQ=",
+    "parameters": {
+      "bifid_period": 570,
+      "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+      "material": "after-btcseed563",
+      "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+      "transform": "reverse-bytes"
+    },
+    "score": {
+      "alphabetic_ratio": 1.0,
+      "bytes": 563,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.001783,
+      "longest_printable_run": 563,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "YmNlZGVlY2VkYmNkYmNkZGJjY2NjZGNiZWJkY2RiY2RjZGNjZWNkY2ViY2RjY2NlZGVjZWRlZGRjYmNiYmViYmVlZWRiY2JiY2ViZWViYmVkZGRlY2NlY2NjY2NiZGNjY2JlZWNlZWNjYmJlZWVkZWRiY2RiZGVjYmViYmVkY2JjZWJlYmJjZWNjY2VkZWRkZGNjZWViZWNjY2RiZGRkZWNjZGNiY2NjZGJiZWNlZWVlZGRkZWNiY2RkYmVjY2VlZGNlZGNkZWVkZWRlYmNlYmVjY2RlY2NjY2RjY2RkYmNiYmRiZGJkZWVjZWJlYmNiY2NlZGNiY2NkY2VkYmRlYmJjY2NkZGRkY2NkZGRlZGVkYmRjY2RlZGRkZGNl",
+    "parameters": {
+      "bifid_period": 570,
+      "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+      "material": "full-even-positions285",
+      "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+      "transform": "exact-lowercase"
+    },
+    "score": {
+      "alphabetic_ratio": 1.0,
+      "bytes": 285,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 285,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "QkNFREVFQ0VEQkNEQkNEREJDQ0NDRENCRUJEQ0RCQ0RDRENDRUNEQ0VCQ0RDQ0NFREVDRURFRERDQkNCQkVCQkVFRURCQ0JCQ0VCRUVCQkVERERFQ0NFQ0NDQ0NCRENDQ0JFRUNFRUNDQkJFRUVERURCQ0RCREVDQkVCQkVEQ0JDRUJFQkJDRUNDQ0VERURERENDRUVCRUNDQ0RCRERERUNDRENCQ0NDREJCRUNFRUVFRERERUNCQ0REQkVDQ0VFRENFRENERUVERURFQkNFQkVDQ0RFQ0NDQ0RDQ0REQkNCQkRCREJERUVDRUJFQkNCQ0NFRENCQ0NEQ0VEQkRFQkJDQ0NEREREQ0NERERFREVEQkRDQ0RFRERERENF",
+    "parameters": {
+      "bifid_period": 570,
+      "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+      "material": "full-even-positions285",
+      "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+      "transform": "uppercase"
+    },
+    "score": {
+      "alphabetic_ratio": 1.0,
+      "bytes": 285,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 285,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "ZWNkZGRkZWRjY2RiZGVkZWRkZGNjZGRkZGNjY2JiZWRiZGVjZGNjYmNkZWNjYmNiZWJlY2VlZGJkYmRiYmNiZGRjY2RjY2NjZWRjY2ViZWNiZWRlZGVlZGNkZWNkZWVjY2ViZGRjYmNlZGRkZWVlZWNlYmJkY2NjYmNkY2NlZGRkYmRjY2NlYmVlY2NkZGRlZGVjY2NlY2JiZWJlY2JjZGViYmViY2VkYmRjYmRlZGVlZWJiY2NlZWNlZWJjY2NkYmNjY2NjZWNjZWRkZGViYmVlYmVjYmJjYmRlZWViYmViYmNiY2RkZWRlY2VkZWNjY2RjYmVjZGNlY2NkY2RjYmRjZGJlYmNkY2NjY2JkZGNiZGNiZGVjZWVkZWNi",
+    "parameters": {
+      "bifid_period": 570,
+      "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+      "material": "full-even-positions285",
+      "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+      "transform": "reverse-bytes"
+    },
+    "score": {
+      "alphabetic_ratio": 1.0,
+      "bytes": 285,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 285,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "dHNlZG9ta2Foc2hrZHNrdnhwb2hyaWlxZWRibnNkcGdwbm5zc2dkbG5tdXVxYWRsemxtZmZzb3dreXV3YXN3bm1kYW9ycGdxb2dzbnNsdHNhcHVzcHJhbmtzZG5la2t0bHJubmNnbG51c2dzaW51ZmRha25zc3Nyc2JsaXJ2b2RjZ3NvdnZkbXBzZ2xpZ2F3eWFwZ255YmdscmJyZ2Jtcm5ndGRuZmxwbnJiYm5ycm1sc2FsbnFvaHFneGdmdWVpYWlhb3RuaWdlbGVsbWtkYmFtb3JtY21zZ2JvbXRsbWRtbXBzbnN5b29pbnNvaWJibm5jdWllY2dvbWV1bmVsbGFwcG14eHJnYm1ucmRjd2FodGlxcG9maGd4cGls",
+    "parameters": {
+      "bifid_period": 570,
+      "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+      "material": "full-odd-positions285",
+      "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+      "transform": "exact-lowercase"
+    },
+    "score": {
+      "alphabetic_ratio": 1.0,
+      "bytes": 285,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.003534,
+      "longest_printable_run": 285,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "VFNFRE9NS0FIU0hLRFNLVlhQT0hSSUlRRURCTlNEUEdQTk5TU0dETE5NVVVRQURMWkxNRkZTT1dLWVVXQVNXTk1EQU9SUEdRT0dTTlNMVFNBUFVTUFJBTktTRE5FS0tUTFJOTkNHTE5VU0dTSU5VRkRBS05TU1NSU0JMSVJWT0RDR1NPVlZETVBTR0xJR0FXWUFQR05ZQkdMUkJSR0JNUk5HVERORkxQTlJCQk5SUk1MU0FMTlFPSFFHWEdGVUVJQUlBT1ROSUdFTEVMTUtEQkFNT1JNQ01TR0JPTVRMTURNTVBTTlNZT09JTlNPSUJCTk5DVUlFQ0dPTUVVTkVMTEFQUE1YWFJHQk1OUkRDV0FIVElRUE9GSEdYUElM",
+    "parameters": {
+      "bifid_period": 570,
+      "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+      "material": "full-odd-positions285",
+      "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+      "transform": "uppercase"
+    },
+    "score": {
+      "alphabetic_ratio": 1.0,
+      "bytes": 285,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.003534,
+      "longest_printable_run": 285,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "bGlweGdoZm9wcWl0aGF3Y2Rybm1iZ3J4eG1wcGFsbGVudWVtb2djZWl1Y25uYmJpb3NuaW9veXNuc3BtbWRtbHRtb2Jnc21jbXJvbWFiZGttbGVsZWdpbnRvYWlhaWV1Zmd4Z3Fob3FubGFzbG1ycm5iYnJucGxmbmR0Z25ybWJncmJybGdieW5ncGF5d2FnaWxnc3BtZHZ2b3NnY2RvdnJpbGJzcnNzc25rYWRmdW5pc2dzdW5sZ2NubnJsdGtrZW5kc2tuYXJwc3VwYXN0bHNuc2dvcWdwcm9hZG1ud3Nhd3V5a3dvc2ZmbWx6bGRhcXV1bW5sZGdzc25ucGdwZHNuYmRlcWlpcmhvcHh2a3Nka2hzaGFrbW9kZXN0",
+    "parameters": {
+      "bifid_period": 570,
+      "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+      "material": "full-odd-positions285",
+      "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+      "transform": "reverse-bytes"
+    },
+    "score": {
+      "alphabetic_ratio": 1.0,
+      "bytes": 285,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.003534,
+      "longest_printable_run": 285,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "YnRjc2VlZA==",
+    "parameters": {
+      "bifid_period": 570,
+      "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+      "material": "bifid-prefix",
+      "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+      "transform": "exact-lowercase"
+    },
+    "score": {
+      "alphabetic_ratio": 1.0,
+      "bytes": 7,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 7,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "QlRDU0VFRA==",
+    "parameters": {
+      "bifid_period": 570,
+      "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+      "material": "bifid-prefix",
+      "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+      "transform": "uppercase"
+    },
+    "score": {
+      "alphabetic_ratio": 1.0,
+      "bytes": 7,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 7,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "ZGVlc2N0Yg==",
+    "parameters": {
+      "bifid_period": 570,
+      "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+      "material": "bifid-prefix",
+      "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+      "transform": "reverse-bytes"
+    },
+    "score": {
+      "alphabetic_ratio": 1.0,
+      "bytes": 7,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 7,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "ZGJpZmhjZWdha2xtbm9wcXJzdHV2d3h5eg==",
+    "parameters": {
+      "bifid_period": 570,
+      "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+      "material": "source-key-square",
+      "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+      "transform": "exact-lowercase"
+    },
+    "score": {
+      "alphabetic_ratio": 1.0,
+      "bytes": 25,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 25,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "REJJRkhDRUdBS0xNTk9QUVJTVFVWV1hZWg==",
+    "parameters": {
+      "bifid_period": 570,
+      "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+      "material": "source-key-square",
+      "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+      "transform": "uppercase"
+    },
+    "score": {
+      "alphabetic_ratio": 1.0,
+      "bytes": 25,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 25,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "enl4d3Z1dHNycXBvbm1sa2FnZWNoZmliZA==",
+    "parameters": {
+      "bifid_period": 570,
+      "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+      "material": "source-key-square",
+      "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+      "transform": "reverse-bytes"
+    },
+    "score": {
+      "alphabetic_ratio": 1.0,
+      "bytes": 25,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 25,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  }
+]

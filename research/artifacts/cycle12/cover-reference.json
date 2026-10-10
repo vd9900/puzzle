@@ -1,0 +1,228 @@
+{
+  "assumptions": [
+    "Screenshot attachment thumbnail corresponds to preserved Cosmic Duality cover",
+    "Creator's later barrystyle attribution refers to the prior cover/image contribution",
+    "Visible yin-yang geometry is relevant to the checkpoint name rather than only thematic decoration"
+  ],
+  "confidence": "MEDIUM-HIGH for context attribution; LOW for mathematical construction",
+  "contradictions": [
+    "Full transcript does not preserve attachment thumbnail metadata",
+    "Later attribution names a contributor, not a specific file digest",
+    "The color/geometry correspondence is currently qualitative only"
+  ],
+  "cover": {
+    "image_size": [
+      553,
+      651
+    ],
+    "no_exact_star_count_claim": true,
+    "no_source_authored_color_palette_inferred": true,
+    "source": {
+      "path": "research/sources/maintained-hints__cosmic-duality-book.png",
+      "sha256": "edde7220c751583a7f9a884b64ee72a28e8d5c2e53c29a74d7a1c7cdc4221504"
+    },
+    "visual_observations": [
+      "Two interlocking contrasting curved star fields",
+      "A bright pale point in the upper warm-colored field",
+      "A bright yellow/orange point in the lower blue/pale field"
+    ],
+    "visually_reviewed_title": "Cosmic Duality"
+  },
+  "date": "2026-09-30",
+  "hypothesis": "The archived cover image is a puzzle-relevant object for a visual yin-yang checkpoint rather than evidence for a guessed book-text cipher",
+  "id": "C12-COVER-REFERENCE",
+  "input": "Preserved cover and chat screenshot only",
+  "new_cryptographic_trials": 0,
+  "new_image_variants": 0,
+  "new_trial_inputs": 0,
+  "next_test": "Source-constrained visual correspondence audit between the preserved cover, original image and color-wording hint. First establish what is actually shared and what mapping is absent; no arbitrary palettes, star counting, rotations or cipher expansion.",
+  "operation_order": [
+    "locate screenshot attachment and attributed replies",
+    "verify exact archived reaction and later attribution wording",
+    "record visual features separately from any transformation",
+    "retain missing correspondence rules"
+  ],
+  "output": "Source-attributed image-reference graph with no pixel decoding or text-cipher assumption",
+  "records": [
+    {
+      "creator_labeled_export": {
+        "archived_utc_timestamp": "2022-12-11T15:30:38+00:00",
+        "character_span_zero_based_half_open": [
+          22340,
+          22366
+        ],
+        "column_one_based": 1,
+        "header": "=== [11.12.2022 10:30:38 UTC-05:00] Jrk Bgrt",
+        "line_one_based": 663,
+        "source": {
+          "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+          "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          22524,
+          22550
+        ]
+      },
+      "exports_are_not_independent_authentication": true,
+      "full_transcript": {
+        "archived_utc_timestamp": "2022-12-11T15:30:38+00:00",
+        "character_span_zero_based_half_open": [
+          700764,
+          700790
+        ],
+        "column_one_based": 1,
+        "header": "=== [11.12.2022 10:30:38 UTC-05:00] Jrk Bgrt",
+        "line_one_based": 20024,
+        "source": {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          708360,
+          708386
+        ]
+      },
+      "same_text": true,
+      "short_public_quote": ".... That is very specific"
+    },
+    {
+      "creator_labeled_export": {
+        "archived_utc_timestamp": "2022-12-11T15:33:20+00:00",
+        "character_span_zero_based_half_open": [
+          22413,
+          22476
+        ],
+        "column_one_based": 1,
+        "header": "=== [11.12.2022 10:33:20 UTC-05:00] Jrk Bgrt",
+        "line_one_based": 666,
+        "source": {
+          "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+          "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          22597,
+          22663
+        ]
+      },
+      "exports_are_not_independent_authentication": true,
+      "full_transcript": {
+        "archived_utc_timestamp": "2022-12-11T15:33:20+00:00",
+        "character_span_zero_based_half_open": [
+          701137,
+          701200
+        ],
+        "column_one_based": 1,
+        "header": "=== [11.12.2022 10:33:20 UTC-05:00] Jrk Bgrt",
+        "line_one_based": 20036,
+        "source": {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          708733,
+          708799
+        ]
+      },
+      "same_text": true,
+      "short_public_quote": "If the puzzle is solved you'll see how scary specific that is"
+    },
+    {
+      "creator_labeled_export": {
+        "archived_utc_timestamp": "2023-01-09T04:52:11+00:00",
+        "character_span_zero_based_half_open": [
+          22523,
+          22600
+        ],
+        "column_one_based": 1,
+        "header": "=== [08.01.2023 23:52:11 UTC-05:00] Jrk Bgrt",
+        "line_one_based": 669,
+        "source": {
+          "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+          "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          22710,
+          22787
+        ]
+      },
+      "exports_are_not_independent_authentication": true,
+      "full_transcript": {
+        "archived_utc_timestamp": "2023-01-09T04:52:11+00:00",
+        "character_span_zero_based_half_open": [
+          702203,
+          702280
+        ],
+        "column_one_based": 1,
+        "header": "=== [08.01.2023 23:52:11 UTC-05:00] Jrk Bgrt",
+        "line_one_based": 20070,
+        "source": {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          709802,
+          709879
+        ]
+      },
+      "same_text": true,
+      "short_public_quote": "provided a very specific hint already."
+    }
+  ],
+  "result": "Image relevance has stronger preserved attribution than an incidental title guess, but visual yin-yang and two bright points do not specify a decoding. Creator-attributed acknowledgement is not an authenticated solution or a book-text instruction.",
+  "screenshot": {
+    "image_size": [
+      543,
+      576
+    ],
+    "original_attachment_not_preserved_under_that_filename": true,
+    "source": {
+      "path": "research/sources/maintained-hints__2022-12-10-cosmic.png",
+      "sha256": "6c61b0d2245d9627f10ed6e82a5f76aa2e0701bf6a8f977c4772ceabcffdfc5d"
+    },
+    "thumbnail_cover_identification_is_visual_not_byte_identity": true,
+    "visible_attachment_contributor": "barrystyle",
+    "visible_attachment_filename": "image_2022-12-11_07-09-14.png",
+    "visible_dates": [
+      "December10 2022",
+      "December11 2022"
+    ]
+  },
+  "source_connections": [
+    "The primary page heading independently names Cosmic Duality",
+    "February23 2023 decoded hint names yinyang after lastwordsbeforearchichoice",
+    "January8 2023 creator-labeled text attributes a very specific prior hint to barrystyle"
+  ],
+  "source_evidence": [
+    {
+      "path": "research/sources/maintained-hints__cosmic-duality-book.png",
+      "sha256": "edde7220c751583a7f9a884b64ee72a28e8d5c2e53c29a74d7a1c7cdc4221504"
+    },
+    {
+      "path": "research/sources/maintained-hints__2022-12-10-cosmic.png",
+      "sha256": "6c61b0d2245d9627f10ed6e82a5f76aa2e0701bf6a8f977c4772ceabcffdfc5d"
+    },
+    {
+      "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+      "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+    },
+    {
+      "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+      "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+    }
+  ],
+  "source_locations": [
+    "research/sources/maintained-hints__cosmic-duality-book.png",
+    "research/sources/maintained-hints__2022-12-10-cosmic.png",
+    "research/evidence/cycle02/_work__creator_jrk.txt:663",
+    "research/evidence/cycle02/_work__creator_jrk.txt:669",
+    "research/sources/salphaseion.html:19"
+  ],
+  "status": "PROMISING",
+  "unknowns": [
+    "No explicit attachment hash binds thumbnail to full preserved cover",
+    "No exact spatial mapping to original14x14 image or25 events",
+    "No rule mapping cover geometry to residual60/61 or faed570",
+    "No verified placement after a particular container",
+    "No page number or instruction to use book text"
+  ]
+}

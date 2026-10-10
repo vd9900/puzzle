@@ -1,0 +1,9 @@
+{
+  "aes_trials": 324,
+  "id": "C04-BIFID-MATERIAL-AUDIT",
+  "ledger_sha256": "22edad32812b26375713fa84494de0c9adf2a47ef21d8c47da4806db9ba3dda7",
+  "meaning": "Every planned candidate, provenance, six distinct target/KDF pairs, KEY/IV, padding outcome, plaintext and score/gate reproduced; this does not solve the puzzle",
+  "padding_hits": 3,
+  "status": "CONFIRMED",
+  "unique_passwords": 54
+}

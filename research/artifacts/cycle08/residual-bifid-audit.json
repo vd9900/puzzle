@@ -1,0 +1,14 @@
+{
+  "TARGET_MATCH": false,
+  "aes_trials": 18,
+  "bounded_raw_key_slots": 0,
+  "id": "C08-RESIDUAL-BIFID-AUDIT",
+  "ledger_sha256": "fb94223f756170f829c81de4e22b9ad15e7c68bca9db11b9851a31e66a80f605",
+  "max_hit_printable_ratio": 0,
+  "meaning": "Every exact candidate/transform, AES/KDF fingerprint, padding result, score, structure filter, raw-key slot and Boolean target gate reproduces without storing secret bytes",
+  "padding_hits": 0,
+  "qualifying_small_blob_hits": 0,
+  "status": "CONFIRMED",
+  "structure_hits": 0,
+  "unique_passwords": 3
+}

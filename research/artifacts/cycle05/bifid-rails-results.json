@@ -1,0 +1,20 @@
+{
+  "aes_trials": 504,
+  "candidate_set_sha256": "8066302b98f30b6358c6f4aca284b06366690af4e58c81251b70b9fc3c5a562a",
+  "elapsed_seconds": null,
+  "id": "C05-BIFID-RAILS",
+  "ledger_sha256": "6d17993b1edd656b904f910bfec5c36301929fd5c2c0b78b80d215e8e438f954",
+  "max_hit_printable_ratio": 0,
+  "padding_hits": 0,
+  "plan": "research/artifacts/cycle05/bifid-rails-plan.json",
+  "recovery": {
+    "elapsed_seconds": "Original execution runtime was not recorded; unknown, not inferred from audit time",
+    "ledger_overwritten": false,
+    "method": "Recompute every preserved trial and verify complete frozen-plan coverage before creating the missing summary"
+  },
+  "result": "Exact source-keyed Bifid coordinate rails with strict binary/quinary byte interpretations supplies no recognized structure or scoped target match; finite negative only",
+  "status": "INCONCLUSIVE",
+  "structure_hits": 0,
+  "target_matches": 0,
+  "unique_passwords": 84
+}

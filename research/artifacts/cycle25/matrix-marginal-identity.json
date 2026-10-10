@@ -1,0 +1,53 @@
+{
+  "id": "C25-MATRIX-MARGINAL-IDENTITY",
+  "date": "2026-10-02",
+  "status": "REJECTED",
+  "hypothesis": "The fixed 15-value upstream sum list is already an ordered or reorder-only canonical column marginal of a fixed downstream FAED/Bifid representation.",
+  "upstream_type_analysis": {
+    "rank_sum7": [69, 58, 49, 59, 53, 74, 60],
+    "bit_count8": [0, 13, 13, 7, 6, 6, 3, 8],
+    "concatenated_sum_list15": [69, 58, 49, 59, 53, 74, 60, 0, 13, 13, 7, 6, 6, 3, 8],
+    "common_numeric_scale_authored": false,
+    "zero_column_reason": "All thirteen decoded lowercase ASCII characters have a zero most-significant bit."
+  },
+  "downstream_marginal_test": {
+    "objects": ["faed.full38x15", "faed.upper19x15", "faed.lower19x15", "bifid.rendered38x15", "bifid.even19x15", "bifid.odd19x15"],
+    "coordinate_origins": [0, 1],
+    "marginals_per_object_and_origin": ["row_coordinate", "column_coordinate", "coordinate_pair_total"],
+    "signatures_checked": 36,
+    "signature_sha256": "5c41e0a4034b208a53603902e23cf271445a64feed42d48005748623475061b7",
+    "ordered_exact_matches": [],
+    "reorder_only_multiset_matches": [],
+    "bifid_conservation_controls_passed": 4
+  },
+  "classification": {
+    "shared_width15_geometry": "STRONGLY SUPPORTED",
+    "homogeneous_sum_list15": "WEAK",
+    "direct_downstream_coordinate_marginal": "REJECTED",
+    "two_field_7_plus_8_interface": "STRONGLY SUPPORTED dimensionally; consumer UNKNOWN",
+    "parameterized_downstream_operation": "UNKNOWN"
+  },
+  "graph_effect": "Delete the direct panel-sum15 to downstream coordinate-marginal edge. Retain the exact two-field 7|8 geometry and an unknown parameterized consumer edge.",
+  "exact_remaining_unknown": "No public instruction binds the rank-sum7 or bit-count8 field to a downstream target, action, normalization, or field-wise consumer.",
+  "source_evidence": [
+    {"path": "research/sources/salphaseion.html", "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"},
+    {"path": "research/artifacts/cycle24/matrix-width-interface.json", "sha256": "1c1cca45458ca0600b22061aa890232d26d807b7c708e0580a130445ff42f6df"},
+    {"path": "research/artifacts/cycle24/matrix-sum-interface.json", "sha256": "fe7aa9e3722e459ce9693e754394e4b89ed939c4cb7642c7cacd1ea6e2c3d7a9"}
+  ],
+  "reproduction": {
+    "command": "python3 -m tools.matrix_marginal_identity",
+    "test_command": "python3 -m unittest tests.test_matrix_marginal_identity -v",
+    "tool_sha256": "03a1355d61718d6b888652e3d8db36fe03de96159b021da6715063538258d6f9",
+    "test_sha256": "5627e610d2281f356056c8f018612fb53a37ffdccb18fd46edc7b7d9cf7c2ef3",
+    "tests_passed": 6
+  },
+  "limits": [
+    "This rejects exact ordered and reorder-only coordinate-marginal identity, not every possible arithmetic transform.",
+    "The 13x15 rowwise source join remains inferred rather than creator-authored.",
+    "No modulus, offset, ranking, sign, fitted mapping, cryptographic trial, or private-key operation was used."
+  ],
+  "new_cryptographic_trials": 0,
+  "new_trial_inputs": 0,
+  "private_key_operations": 0,
+  "aes_operations": 0
+}

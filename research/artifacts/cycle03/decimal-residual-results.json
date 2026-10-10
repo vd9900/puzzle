@@ -1,0 +1,15 @@
+{
+  "aes_trials": 8208,
+  "candidate_set_sha256": "2d71437764c5aea38daccb50b2f8682959683e1d5c133d7d61b6a94ea2d9f744",
+  "elapsed_seconds": 1.947,
+  "id": "C03-DECIMAL-RESIDUAL",
+  "ledger_sha256": "3d6b0da9281159040a703e8fcc8a4ab74f40b9385992e8687f3392ae8e3a6ebe",
+  "max_hit_printable_ratio": 0.468354,
+  "padding_hits": 26,
+  "plan": "research/artifacts/cycle03/next-decimal-residual-plan.json",
+  "result": "Source-supported radix10 integer/byte/hex representations of unchanged residual/faed supplies no recognized structure or scoped target match; finite negative only",
+  "status": "INCONCLUSIVE",
+  "structure_hits": 0,
+  "target_matches": 0,
+  "unique_passwords": 1368
+}

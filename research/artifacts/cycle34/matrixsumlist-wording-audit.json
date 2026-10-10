@@ -1,0 +1,367 @@
+{
+  "aes_operations": 0,
+  "candidate_material_generated": 0,
+  "classification": {
+    "actual_yellow_blue_numbers": "UNKNOWN",
+    "cell_domain": "UNKNOWN",
+    "first_piece_as_source_domain": "STRONGLY SUPPORTED",
+    "matrixsumlist_as_three-word_imperative": "WEAK/PLAUSIBLE; source supplies a concatenated label without grammar",
+    "numeric_interpretation": "UNKNOWN",
+    "prime_relevance": "VERIFIED as wording",
+    "prime_role_values_vs_positions": "UNKNOWN",
+    "summation_axis": "UNKNOWN",
+    "yellow_and_blue_each_have_some_number": "VERIFIED as wording"
+  },
+  "creator_corpus": {
+    "axis_and_domain_counts_in_relevant_messages": {
+      "across": 0,
+      "axes": 0,
+      "axis": 0,
+      "cell": 0,
+      "cells": 0,
+      "column": 0,
+      "columns": 0,
+      "grid": 0,
+      "grids": 0,
+      "horizontal": 0,
+      "pixel": 0,
+      "pixels": 0,
+      "row": 0,
+      "rows": 0,
+      "square": 0,
+      "squares": 0,
+      "table": 0,
+      "tables": 0,
+      "vertical": 0
+    },
+    "exact_term_counts": {
+      "across": 0,
+      "axes": 0,
+      "axis": 0,
+      "blue": 1,
+      "cell": 0,
+      "cells": 0,
+      "column": 0,
+      "columns": 0,
+      "grid": 0,
+      "grids": 0,
+      "horizontal": 0,
+      "list": 1,
+      "lists": 0,
+      "matrices": 0,
+      "matrix": 0,
+      "number": 4,
+      "numbers": 1,
+      "pixel": 0,
+      "pixels": 0,
+      "prime": 3,
+      "primes": 0,
+      "row": 0,
+      "rows": 0,
+      "square": 0,
+      "squares": 0,
+      "sum": 0,
+      "sums": 0,
+      "table": 0,
+      "tables": 0,
+      "vertical": 0,
+      "yellow": 1
+    },
+    "matrix_literal_count_before_decoding_binary_hints": 0,
+    "message_count": 411,
+    "messages_matching_audited_terms": [
+      {
+        "body": "Roses are White but often Red.\nYellow has a number and so does Blue.\nGo back to the first puzzle piece without further ado.\n\nIt might have shown you only one door, beware that the rabbits nest may contain a whole lot more.\n\nHush hush.",
+        "header_line_one_based": 194,
+        "matched_terms": [
+          "blue",
+          "number",
+          "yellow"
+        ],
+        "relevant_to_matrixsumlist_binding": true,
+        "timestamp": "14.01.2020 05:38:06 UTC-05:00"
+      },
+      {
+        "body": "I've just been notified that number 2 has made it to the next stage.",
+        "header_line_one_based": 437,
+        "matched_terms": [
+          "number"
+        ],
+        "relevant_to_matrixsumlist_binding": false,
+        "timestamp": "01.10.2020 07:41:56 UTC-05:00"
+      },
+      {
+        "body": "You are at the prime part already???",
+        "header_line_one_based": 485,
+        "matched_terms": [
+          "prime"
+        ],
+        "relevant_to_matrixsumlist_binding": true,
+        "timestamp": "01.03.2021 06:34:42 UTC-05:00"
+      },
+      {
+        "body": "The previous \"there is another door hint\" is still a thing. We're not sure if anyone has found another door so far, and we can't check that... We've seen prime numbers being mentioned; well, that is definitely an aspect which is required to proceed. Furthermore, along the way, some characters need to be 'zeroed out'.. Best of luck and happy holidays! \ud83e\udd42",
+        "header_line_one_based": 626,
+        "matched_terms": [
+          "numbers",
+          "prime"
+        ],
+        "relevant_to_matrixsumlist_binding": true,
+        "timestamp": "26.12.2021 15:18:32 UTC-05:00"
+      },
+      {
+        "body": "At least prime number is very important to get any further.",
+        "header_line_one_based": 671,
+        "matched_terms": [
+          "number",
+          "prime"
+        ],
+        "relevant_to_matrixsumlist_binding": true,
+        "timestamp": "09.01.2023 05:10:46 UTC-05:00"
+      },
+      {
+        "body": "You only need the last number of pi and it might get you somewhere.",
+        "header_line_one_based": 1101,
+        "matched_terms": [
+          "number"
+        ],
+        "relevant_to_matrixsumlist_binding": false,
+        "timestamp": "29.11.2024 06:06:24 UTC-05:00"
+      },
+      {
+        "body": "Blueprint is sort of the leading list at this point.",
+        "header_line_one_based": 1128,
+        "matched_terms": [
+          "list"
+        ],
+        "relevant_to_matrixsumlist_binding": false,
+        "timestamp": "29.11.2024 06:32:02 UTC-05:00"
+      }
+    ],
+    "sum_literal_count_before_decoding_binary_hints": 0
+  },
+  "date": "2026-10-02",
+  "formatting": {
+    "label_contains_authored_spaces_or_punctuation": false,
+    "label_decoded": "matrixsumlist",
+    "normalized_spans": {
+      "dbbi91": [
+        0,
+        91
+      ],
+      "faed570": [
+        195,
+        765
+      ],
+      "matrixsumlist104": [
+        91,
+        195
+      ]
+    },
+    "official_hint_contains_explicit_arrows_verbs_axis_or_index_convention": false,
+    "official_hint_decoded": "yellowblueprimesmatrixsumlistlastwordsbeforearchichoiceyinyangwewontgiveawaythepassworditsinfrontofyoureyesbutyourenotseeingitverylaststepisatruegiveawaypromised",
+    "official_hint_sequence": [
+      "yellowblueprimes",
+      "matrixsumlist",
+      "lastwordsbeforearchichoice",
+      "yinyang"
+    ],
+    "physical_order": [
+      "dbbi91",
+      "matrixsumlist104",
+      "faed570"
+    ],
+    "primary_compact_length": 1075,
+    "secondary_spaced_transcription_is_not_primary_formatting": true,
+    "separator_after_label": false,
+    "separator_before_label": false,
+    "textarea_physical_nonempty_lines": 1,
+    "textarea_supplies_matrix_rows": false
+  },
+  "graph_effect": "Retain yellowblueprimes -> matrixsumlist as authored mention order. Do not promote it to selected-cells -> weighted matrix -> row/column sums.",
+  "hypothesis": "Preserved source-authored wording or formatting explicitly fixes at least one matrixsumlist argument: cell domain, numeric interpretation, or axis.",
+  "id": "C34-MATRIXSUMLIST-WORDING-AUDIT",
+  "new_numeric_combinations": 0,
+  "new_pixel_operations": 0,
+  "next_test": "Stop source-internal matrix execution. Resume only if a new author-attributed record explicitly binds at least one of cell domain, numeric type, or axis; otherwise preserve matrixsumlist as underdetermined.",
+  "pass_condition": "An authored phrase must identify a concrete operand subset, numeric role/value rule, or row/column/other summation direction without importing a community convention.",
+  "private_key_operations": 0,
+  "question_reply_controls": {
+    "elapsed_seconds": 20,
+    "generic_prime_part_reply": {
+      "body": "You are at the prime part already???",
+      "header_line_one_based": 14031,
+      "speaker": "Jrk Bgrt",
+      "timestamp": "01.03.2021 06:34:42 UTC-05:00"
+    },
+    "specific_prime_values_question": {
+      "body": "just say which primes 2,3,5,7 we need use",
+      "header_line_one_based": 14022,
+      "speaker": "Janusz Baran",
+      "timestamp": "01.03.2021 06:34:22 UTC-05:00"
+    },
+    "specific_values_confirmed": false
+  },
+  "relevant_records": [
+    {
+      "does_not_establish": [
+        "a cell subset",
+        "either number",
+        "whether numbers are values or indices",
+        "a sum axis"
+      ],
+      "establishes": [
+        "Yellow and Blue each have a number",
+        "return to the first puzzle piece"
+      ],
+      "id": "COLOR-FIRST-PIECE",
+      "record": {
+        "body": "Roses are White but often Red.\nYellow has a number and so does Blue.\nGo back to the first puzzle piece without further ado.\n\nIt might have shown you only one door, beware that the rabbits nest may contain a whole lot more.\n\nHush hush.",
+        "header_line_one_based": 194,
+        "speaker": "Jrk Bgrt",
+        "timestamp": "14.01.2020 05:38:06 UTC-05:00"
+      }
+    },
+    {
+      "does_not_establish": [
+        "specific prime values",
+        "index origin",
+        "operand",
+        "values versus positions"
+      ],
+      "establishes": [
+        "prime relevance at the current part"
+      ],
+      "id": "PRIME-PART",
+      "records": [
+        {
+          "body": "You are at the prime part already???",
+          "header_line_one_based": 485,
+          "speaker": "Jrk Bgrt",
+          "timestamp": "01.03.2021 06:34:42 UTC-05:00"
+        },
+        {
+          "body": "Oh wait, shouldn't have said that. That might have been a hint \ud83e\udd14.",
+          "header_line_one_based": 488,
+          "speaker": "Jrk Bgrt",
+          "timestamp": "01.03.2021 06:35:15 UTC-05:00"
+        }
+      ]
+    },
+    {
+      "does_not_establish": [
+        "which earlier hint was meant with certainty",
+        "cell domain",
+        "numeric value",
+        "axis"
+      ],
+      "elapsed_seconds": 445,
+      "establishes": [
+        "the creator treated an earlier remark as a hint when matrixsumlist was requested"
+      ],
+      "id": "MATRIXSUMLIST-REPLY",
+      "question": {
+        "body": "So don't you think it's time for a hint on matrixsumlist?",
+        "header_line_one_based": 15713,
+        "speaker": "Deleted Account",
+        "timestamp": "14.03.2021 10:12:04 UTC-05:00"
+      },
+      "reply": {
+        "body": "I gave an unforseen hint already \ud83e\udd37\u200d\u2642",
+        "header_line_one_based": 15716,
+        "speaker": "Jrk Bgrt",
+        "timestamp": "14.03.2021 10:19:29 UTC-05:00"
+      }
+    },
+    {
+      "does_not_establish": [
+        "that characters are image cells",
+        "which characters",
+        "whether zero is a summation weight",
+        "axis"
+      ],
+      "establishes": [
+        "prime numbers are required somewhere",
+        "some characters are zeroed somewhere"
+      ],
+      "id": "PRIME-ZEROING",
+      "record": {
+        "body": "The previous \"there is another door hint\" is still a thing. We're not sure if anyone has found another door so far, and we can't check that... We've seen prime numbers being mentioned; well, that is definitely an aspect which is required to proceed. Furthermore, along the way, some characters need to be 'zeroed out'.. Best of luck and happy holidays! \ud83e\udd42",
+        "header_line_one_based": 626,
+        "speaker": "Jrk Bgrt",
+        "timestamp": "26.12.2021 15:18:32 UTC-05:00"
+      }
+    },
+    {
+      "does_not_establish": [
+        "yes to prime-valued matrix entries",
+        "primes as entries rather than positions",
+        "a sum list"
+      ],
+      "elapsed_seconds": 15223,
+      "establishes": [
+        "prime importance is reiterated"
+      ],
+      "id": "SUMList-PRIME-CONTEXT",
+      "question": {
+        "body": "sumlist matrix -contains prime numbers ? xD",
+        "header_line_one_based": 20072,
+        "speaker": "Janusz Baran",
+        "timestamp": "09.01.2023 00:57:03 UTC-05:00"
+      },
+      "reply": {
+        "body": "At least prime number is very important to get any further.",
+        "header_line_one_based": 20075,
+        "speaker": "Jrk Bgrt",
+        "timestamp": "09.01.2023 05:10:46 UTC-05:00"
+      },
+      "reply_metadata_present": false
+    },
+    {
+      "creator_record": {
+        "body": "R=18\nA=1\nB=2\n\nCould also be 21 or 1812 bit \ud83e\uddd0. Sometimes I'm glad I don't have to solve this puzzle myself.",
+        "header_line_one_based": 16781,
+        "speaker": "Jrk Bgrt",
+        "timestamp": "01.04.2021 08:29:41 UTC-05:00"
+      },
+      "does_not_establish": [
+        "Y=25 in this operation",
+        "B/Y as matrix weights",
+        "which cells",
+        "axis",
+        "a reply binding to the preceding message"
+      ],
+      "elapsed_seconds": 134,
+      "establishes": [
+        "creator-authored A1Z26-style examples R=18, A=1, B=2 exist"
+      ],
+      "id": "RAB-NUMERIC-NOTATION",
+      "preceding_community_message": {
+        "body": "look: 15+9+1= 25 bit... 15*3+9*2+1=64 bit.",
+        "header_line_one_based": 16775,
+        "speaker": "Saber ^:)> (---}> \u00bf\u00a1\u00d7( ;) <><",
+        "timestamp": "01.04.2021 08:27:27 UTC-05:00"
+      }
+    }
+  ],
+  "result": "No preserved source-authored wording or formatting fixes the cell domain, numeric interpretation, or summation axis. The strongest statements identify the first puzzle piece, say Yellow and Blue each have a number, and require primes somewhere. The R/A/B notation proves an alphabet-number convention was available but does not bind B/Y as matrix weights. Primary and official-hint formatting provide adjacency/order only, with no separators, rows, verbs, axis, or index convention.",
+  "source_evidence": [
+    {
+      "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+      "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+    },
+    {
+      "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+      "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+    },
+    {
+      "path": "research/sources/salphaseion.html",
+      "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+    },
+    {
+      "path": "research/artifacts/cycle11/hint-instruction-order.json",
+      "sha256": "05a3ad4ec7ed7572f1223fb90c97612caa4fde6ffc199baeebdcd1794d74150d"
+    }
+  ],
+  "status": "INCONCLUSIVE"
+}

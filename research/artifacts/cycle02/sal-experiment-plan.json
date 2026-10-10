@@ -1,0 +1,66 @@
+{
+  "board_trials": 10260,
+  "checkerboard_alphabets": [
+    "known-checkerboard",
+    "hint-phrase",
+    "matrixsumlist-keyed",
+    "plain-alphabet",
+    "salphaseion-keyed",
+    "thematrixhasyou-keyed"
+  ],
+  "checkerboard_prefix_pairs": 45,
+  "excluded": "No arbitrary substitution permutation search, free cipher key search, or blind dictionary; no padded rectangles or manual ciphertext edits",
+  "id": "C02-SAL-COORDINATES",
+  "justification": "a1z26 and whole-number decoding already work on adjacent segments; prime/zero hints support small literal zeroing alternatives; known checkerboard and matrixsumlist support constrained coordinate/prefix/matrix-route alternatives. First-occurrence digit mapping is a secondary claim, not a confirmed Bifid square.",
+  "matrix_pair_trials": 12,
+  "numeric_mapping_count": 19,
+  "numeric_trials_upper_bound": 228,
+  "prime_mask_trials": 24,
+  "route_dimensions": {
+    "dbbi": [
+      [
+        7,
+        13
+      ],
+      [
+        13,
+        7
+      ]
+    ],
+    "faed": [
+      [
+        2,
+        285
+      ],
+      [
+        3,
+        190
+      ],
+      [
+        5,
+        114
+      ],
+      [
+        6,
+        95
+      ],
+      [
+        10,
+        57
+      ],
+      [
+        15,
+        38
+      ],
+      [
+        19,
+        30
+      ],
+      [
+        30,
+        19
+      ]
+    ]
+  },
+  "route_trials": 120
+}

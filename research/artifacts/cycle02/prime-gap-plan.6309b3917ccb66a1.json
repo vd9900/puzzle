@@ -1,0 +1,15 @@
+{
+  "aes_trials": 3402,
+  "candidate_set_sha256": "f7839379d119607a55732bd87f3bdd6ba6cb650381a81f0557234d2499e97611",
+  "expected_seconds": "Fewer than 2000 trials; prior measured local legacy-AES throughput exceeds 50000 trials/s, excluding ledger/scoring overhead",
+  "id": "C02-PRIME-GAP-SUMS",
+  "justification": "Only fully prime-marked parses among the maximum 20-color-bit prefix matches; matrixsumlist motivates literal sums of nonprime gaps; raw and SHA256 variants follow prior puzzle stages. Tail inclusion is explicit, not silently discarded.",
+  "limits": "No arbitrary offsets, extra character edits or keyword fitting",
+  "parse_sum_lists": 12,
+  "source": {
+    "locator": "dbbi prime-marker gaps",
+    "path": "research/sources/salphaseion.html",
+    "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+  },
+  "unique_passwords": 567
+}

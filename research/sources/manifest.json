@@ -1,0 +1,839 @@
+{
+  "blockstream-address.json": {
+    "bytes": 284,
+    "content_type": "application/json",
+    "final_url": "https://blockstream.info/api/address/1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:13:03.453005+00:00",
+    "sha256": "2db662c5efde5ca91ddca63101b5ec27023dca62b9cea7468adf347084199b8e",
+    "url": "https://blockstream.info/api/address/1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe"
+  },
+  "blockstream-secondary-address.json": {
+    "bytes": 274,
+    "content_type": "application/json",
+    "final_url": "https://blockstream.info/api/address/17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:19:38.153336+00:00",
+    "sha256": "57bc3b6749ae511b5ff79dfc48f0e1ff52f739097654fd7639f1b61508c07ace",
+    "url": "https://blockstream.info/api/address/17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa"
+  },
+  "blockstream-utxos.json": {
+    "bytes": 30409,
+    "content_type": "application/json",
+    "final_url": "https://blockstream.info/api/address/1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe/utxo",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:13:04.805351+00:00",
+    "sha256": "fb00e27910f3ad7377f03278060ea29587a07b3d1d470725913c089fbb233678",
+    "url": "https://blockstream.info/api/address/1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe/utxo"
+  },
+  "community-README.md": {
+    "bytes": 28936,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/puzzlehunt/gsmgio-5btc-puzzle/fb92dd15487c6e2d275adb8c923698b7166c328e/README.md",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:13:05.743370+00:00",
+    "sha256": "442270a145641d6f75337bf0e12338889d22f029dc613d13f0a4d651875dae6a",
+    "url": "https://raw.githubusercontent.com/puzzlehunt/gsmgio-5btc-puzzle/fb92dd15487c6e2d275adb8c923698b7166c328e/README.md"
+  },
+  "community-SalPhaselonCosmicDuality.png": {
+    "bytes": 49970,
+    "content_type": "image/png",
+    "final_url": "https://raw.githubusercontent.com/puzzlehunt/gsmgio-5btc-puzzle/fb92dd15487c6e2d275adb8c923698b7166c328e/SalPhaselonCosmicDuality.png",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:13:59.323853+00:00",
+    "sha256": "a3810ba24250c5a04908e1281c2202e73f7487f9d19f41bfd2c3e55fa9be57ed",
+    "url": "https://raw.githubusercontent.com/puzzlehunt/gsmgio-5btc-puzzle/fb92dd15487c6e2d275adb8c923698b7166c328e/SalPhaselonCosmicDuality.png"
+  },
+  "community-phase2.png": {
+    "bytes": 56258,
+    "content_type": "image/png",
+    "final_url": "https://raw.githubusercontent.com/puzzlehunt/gsmgio-5btc-puzzle/fb92dd15487c6e2d275adb8c923698b7166c328e/phase2.png",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:13:58.483209+00:00",
+    "sha256": "c5526b205cac47c5a79162296abfd0a6c46ea5f4f9249aa7e770c6014baf4964",
+    "url": "https://raw.githubusercontent.com/puzzlehunt/gsmgio-5btc-puzzle/fb92dd15487c6e2d275adb8c923698b7166c328e/phase2.png"
+  },
+  "community-phase3.png": {
+    "bytes": 127044,
+    "content_type": "image/png",
+    "final_url": "https://raw.githubusercontent.com/puzzlehunt/gsmgio-5btc-puzzle/fb92dd15487c6e2d275adb8c923698b7166c328e/phase3.png",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:13:58.927180+00:00",
+    "sha256": "c8637fc3ff532dcdefb5f3a3e50e4d4457ddcd725d8a157c3eed5d44de789ddb",
+    "url": "https://raw.githubusercontent.com/puzzlehunt/gsmgio-5btc-puzzle/fb92dd15487c6e2d275adb8c923698b7166c328e/phase3.png"
+  },
+  "community-photo_2020-04-26_09-24-30.jpg": {
+    "bytes": 90957,
+    "content_type": "image/jpeg",
+    "final_url": "https://raw.githubusercontent.com/puzzlehunt/gsmgio-5btc-puzzle/fb92dd15487c6e2d275adb8c923698b7166c328e/photo_2020-04-26_09-24-30.jpg",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:13:59.765513+00:00",
+    "sha256": "312dfc1898cb0a453ad093d7febb21c1d799717b2c089a5ea1d204aa96df9a35",
+    "url": "https://raw.githubusercontent.com/puzzlehunt/gsmgio-5btc-puzzle/fb92dd15487c6e2d275adb8c923698b7166c328e/photo_2020-04-26_09-24-30.jpg"
+  },
+  "community-puzzle.png": {
+    "bytes": 29931,
+    "content_type": "image/png",
+    "final_url": "https://raw.githubusercontent.com/puzzlehunt/gsmgio-5btc-puzzle/fb92dd15487c6e2d275adb8c923698b7166c328e/puzzle.png",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:13:57.725061+00:00",
+    "sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830",
+    "url": "https://raw.githubusercontent.com/puzzlehunt/gsmgio-5btc-puzzle/fb92dd15487c6e2d275adb8c923698b7166c328e/puzzle.png"
+  },
+  "community-theseedisplanted.png": {
+    "bytes": 8619,
+    "content_type": "image/png",
+    "final_url": "https://raw.githubusercontent.com/puzzlehunt/gsmgio-5btc-puzzle/fb92dd15487c6e2d275adb8c923698b7166c328e/theseedisplanted.png",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:13:58.085189+00:00",
+    "sha256": "6230f079b0127877aaa19988316d0338a7a8b72280417b3afd6d5fe632ea2993",
+    "url": "https://raw.githubusercontent.com/puzzlehunt/gsmgio-5btc-puzzle/fb92dd15487c6e2d275adb8c923698b7166c328e/theseedisplanted.png"
+  },
+  "github-commit.json": {
+    "bytes": 11011,
+    "content_type": "application/json; charset=utf-8",
+    "final_url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/commits/master",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:13:05.343141+00:00",
+    "sha256": "c660fca0b63967cf14be0124dc82597fc3c65f975ff4878cc3c3238a3a038d58",
+    "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/commits/master"
+  },
+  "github-issue-104-comments.json": {
+    "bytes": 7421,
+    "content_type": "application/json; charset=utf-8",
+    "final_url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/issues/104/comments?per_page=100",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:15:04.975532+00:00",
+    "sha256": "9c10d577719fd79e2cfdc903465aa407d5037627ac150932702beef0ffbb78bd",
+    "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/issues/104/comments?per_page=100"
+  },
+  "github-issue-105-comments.json": {
+    "bytes": 2,
+    "content_type": "application/json; charset=utf-8",
+    "final_url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/issues/105/comments?per_page=100",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:15:05.400090+00:00",
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/issues/105/comments?per_page=100"
+  },
+  "github-issue-108-comments.json": {
+    "bytes": 13370,
+    "content_type": "application/json; charset=utf-8",
+    "final_url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/issues/108/comments?per_page=100",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:13:08.201893+00:00",
+    "sha256": "5780c05d822b1eaf269a3621716ab6c332297cf8a1b7c5bca186efc7365440f3",
+    "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/issues/108/comments?per_page=100"
+  },
+  "github-issue-108.json": {
+    "bytes": 4214,
+    "content_type": "application/json; charset=utf-8",
+    "final_url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/issues/108",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:13:07.749504+00:00",
+    "sha256": "f96f4eb76e1a9fbd800d81242501897758a04722d04055c4dbf7073fe7eb98ad",
+    "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/issues/108"
+  },
+  "github-issue-109-comments.json": {
+    "bytes": 12666,
+    "content_type": "application/json; charset=utf-8",
+    "final_url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/issues/109/comments?per_page=100",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:14:19.054860+00:00",
+    "sha256": "6e71b468352913786326251eff4d6c3e62814fca08ea20e70581b2691c29bd95",
+    "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/issues/109/comments?per_page=100"
+  },
+  "github-issue-110-comments.json": {
+    "bytes": 3654,
+    "content_type": "application/json; charset=utf-8",
+    "final_url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/issues/110/comments?per_page=100",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:14:19.521587+00:00",
+    "sha256": "945cf3b21598849cbcae921c2e4870d99c8ae7aa01f0d5793531d33374021aab",
+    "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/issues/110/comments?per_page=100"
+  },
+  "github-issue-111-comments.json": {
+    "bytes": 17272,
+    "content_type": "application/json; charset=utf-8",
+    "final_url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/issues/111/comments?per_page=100",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:14:19.977899+00:00",
+    "sha256": "b179cdae5f70467fe0ecc5cd3aacaed3921ad1c0ebb6765bab94ca9d98571069",
+    "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/issues/111/comments?per_page=100"
+  },
+  "github-issue-15-comments-page2.json": {
+    "bytes": 62430,
+    "content_type": "application/json; charset=utf-8",
+    "final_url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/issues/15/comments?per_page=100&page=2",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:19:40.283922+00:00",
+    "sha256": "2a9afa0f7aa825c862b55c5c53548332f06f66e2d059a01e6665aa9230c5e20a",
+    "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/issues/15/comments?per_page=100&page=2"
+  },
+  "github-issue-15-comments.json": {
+    "bytes": 249846,
+    "content_type": "application/json; charset=utf-8",
+    "final_url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/issues/15/comments?per_page=100",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:15:04.010877+00:00",
+    "sha256": "c4467a1df32a49fe18278feae5c02bbbbef765ea6aa361f83839dd5f07caa2de",
+    "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/issues/15/comments?per_page=100"
+  },
+  "github-issue-55-comments.json": {
+    "bytes": 54364,
+    "content_type": "application/json; charset=utf-8",
+    "final_url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/issues/55/comments?per_page=100",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:15:04.544422+00:00",
+    "sha256": "0bff107d7f0cee883b47ba4568bc6f18cb6be79b40b8803660bd648748e8a333",
+    "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/issues/55/comments?per_page=100"
+  },
+  "github-issue-68-comments.json": {
+    "bytes": 95738,
+    "content_type": "application/json; charset=utf-8",
+    "final_url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/issues/68/comments?per_page=100",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:13:07.328833+00:00",
+    "sha256": "11427b172435a2ca54c1474bb3877ad99b31036eddf0a3e3008127fddd54642a",
+    "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/issues/68/comments?per_page=100"
+  },
+  "github-issue-68.json": {
+    "bytes": 3329,
+    "content_type": "application/json; charset=utf-8",
+    "final_url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/issues/68",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:13:06.673897+00:00",
+    "sha256": "00d0a56f313500b6b0396c8f361995ded6fe96d83e33afaf94c12284e9322449",
+    "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/issues/68"
+  },
+  "github-issues-page1.json": {
+    "bytes": 509095,
+    "content_type": "application/json; charset=utf-8",
+    "final_url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/issues?state=all&per_page=100&page=1",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:13:02.114684+00:00",
+    "sha256": "6ae4b1da7c9d6da984aa5a50ac6b8420b46fa85e3cd6eb8586490e49010f59b8",
+    "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/issues?state=all&per_page=100&page=1"
+  },
+  "github-issues-page2.json": {
+    "bytes": 25235,
+    "content_type": "application/json; charset=utf-8",
+    "final_url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/issues?state=all&per_page=100&page=2",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:13:02.697523+00:00",
+    "sha256": "a6b71308c39750e10309cbf0d8ebd30699086f93e3b1506f1d1541f529152eac",
+    "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/issues?state=all&per_page=100&page=2"
+  },
+  "github-repository.json": {
+    "bytes": 5595,
+    "content_type": "application/json; charset=utf-8",
+    "final_url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:13:00.811859+00:00",
+    "sha256": "0f446adc3974b24e382020442d4a735a4faf888b959842e911b5255a17536411",
+    "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle"
+  },
+  "github-tree.json": {
+    "bytes": 1865,
+    "content_type": "application/json; charset=utf-8",
+    "final_url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/git/trees/fb92dd15487c6e2d275adb8c923698b7166c328e?recursive=1",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:13:06.164304+00:00",
+    "sha256": "537aa0f7e0ed1d22e19f5f110543dc97b5ae3afe650ef2cef13751dff9f72bd5",
+    "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/git/trees/fb92dd15487c6e2d275adb8c923698b7166c328e?recursive=1"
+  },
+  "gsmg-puzzle.png": {
+    "bytes": 29931,
+    "content_type": "image/png",
+    "final_url": "https://gsmg.io/puzzle",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:13:00.383161+00:00",
+    "sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830",
+    "url": "https://gsmg.io/puzzle"
+  },
+  "maintained-README.md": {
+    "bytes": 17440,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/README.md",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:15:14.496288+00:00",
+    "sha256": "8d4ee414a4839e51e9c79ed387e1ea327835ea98039eef2633d0d8885bcdd015",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/README.md"
+  },
+  "maintained-commit.json": {
+    "bytes": 4522,
+    "content_type": "application/json; charset=utf-8",
+    "final_url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/master",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:15:13.522121+00:00",
+    "sha256": "e70f7d6ba3e80ea6fe74d95dc48059f05133f5f2cb697e08c51ce887914c2fa4",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/master"
+  },
+  "maintained-decentraland-assets__puzzlepiece.mp3": {
+    "bytes": 212031,
+    "content_type": "audio/mpeg",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/decentraland-assets/puzzlepiece.mp3",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:19:35.313706+00:00",
+    "sha256": "ef17a96dce37b4dd7cbf79f210c5cbaf37fcae60e5faf8004de4e0832bd0dfee",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/decentraland-assets/puzzlepiece.mp3"
+  },
+  "maintained-decentraland.ipynb": {
+    "bytes": 1152695,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/decentraland.ipynb",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:15:50.641130+00:00",
+    "sha256": "62f981b8be64d50d5833c12e81bb16e4320b2d2e3210bde91c645c85d6759443",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/decentraland.ipynb"
+  },
+  "maintained-hints__2020-01-14-roses-are-red.png": {
+    "bytes": 90192,
+    "content_type": "image/png",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2020-01-14-roses-are-red.png",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:15:51.297572+00:00",
+    "sha256": "7f4886a829a682012d9120f2fce923394accade39046e7283d41a3986fea3410",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2020-01-14-roses-are-red.png"
+  },
+  "maintained-hints__2020-02-20-decentraland.jpg": {
+    "bytes": 90957,
+    "content_type": "image/jpeg",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2020-02-20-decentraland.jpg",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:15:51.734630+00:00",
+    "sha256": "312dfc1898cb0a453ad093d7febb21c1d799717b2c089a5ea1d204aa96df9a35",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2020-02-20-decentraland.jpg"
+  },
+  "maintained-hints__2020-04-08.png": {
+    "bytes": 57827,
+    "content_type": "image/png",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2020-04-08.png",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:15:52.102338+00:00",
+    "sha256": "64db0a372d006dc9b6d7900e8de028eb5f8a9a6e50866565a2e530f69f4f9cfc",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2020-04-08.png"
+  },
+  "maintained-hints__2020-05-11.png": {
+    "bytes": 47397,
+    "content_type": "image/png",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2020-05-11.png",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:15:52.911590+00:00",
+    "sha256": "ac8e1d9bbc1e7891eff5282e39dbc57ca0f8ef90e827b4fde4aef7f944ecdfc2",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2020-05-11.png"
+  },
+  "maintained-hints__2020-06-07-salph-discord.png": {
+    "bytes": 20515,
+    "content_type": "image/png",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2020-06-07-salph-discord.png",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:15:53.323196+00:00",
+    "sha256": "349aca1ff8271272674bfffa99fed92e2393881b7acb19eb76042687ce3a90dc",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2020-06-07-salph-discord.png"
+  },
+  "maintained-hints__2020-08-02.png": {
+    "bytes": 82591,
+    "content_type": "image/png",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2020-08-02.png",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:15:53.736375+00:00",
+    "sha256": "de4186928bb3bacd78724a8b1036245561728224fb73efec66a647084ba991dc",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2020-08-02.png"
+  },
+  "maintained-hints__2021-01-21.png": {
+    "bytes": 62794,
+    "content_type": "image/png",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2021-01-21.png",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:15:55.304961+00:00",
+    "sha256": "3acd19edd58a678249b669670cc61b66bd3ade6ad40b8f521eb57dfff1aad523",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2021-01-21.png"
+  },
+  "maintained-hints__2021-02-12-salph-mention.png": {
+    "bytes": 78406,
+    "content_type": "image/png",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2021-02-12-salph-mention.png",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:15:55.802169+00:00",
+    "sha256": "b6c7e76159a1df675b9d09ea4a02982533b6fd62604b754f97f61dc38e5a1d55",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2021-02-12-salph-mention.png"
+  },
+  "maintained-hints__2021-03-01-primes.png": {
+    "bytes": 189488,
+    "content_type": "image/png",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2021-03-01-primes.png",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:15:56.497692+00:00",
+    "sha256": "233f67719bbec6be109a56b60c18a6d3ae705aefbe0ea8371eac57a72d96dede",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2021-03-01-primes.png"
+  },
+  "maintained-hints__2021-03-01-spelling-hint.png": {
+    "bytes": 134859,
+    "content_type": "image/png",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2021-03-01-spelling-hint.png",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:15:57.000030+00:00",
+    "sha256": "c0f1747aa365636f244214f3e895f8bcf9b02040f57d19f18885ce63f39367ef",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2021-03-01-spelling-hint.png"
+  },
+  "maintained-hints__2021-03-14.png": {
+    "bytes": 131249,
+    "content_type": "image/png",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2021-03-14.png",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:15:57.612086+00:00",
+    "sha256": "4e3dc1a4c1306be5efaccec6f47f95c1652a21cc33d23991927a33dd8975ebf4",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2021-03-14.png"
+  },
+  "maintained-hints__2021-04-01-april_fool.png": {
+    "bytes": 33218,
+    "content_type": "image/png",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2021-04-01-april%20fool.png",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:15:58.196784+00:00",
+    "sha256": "e7ff51ad5e00646d9fb785602090db93da36d249365326e46e8ca1ec959ac33c",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2021-04-01-april%20fool.png"
+  },
+  "maintained-hints__2021-04-16-salph.png": {
+    "bytes": 211370,
+    "content_type": "image/png",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2021-04-16-salph.png",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:15:59.208702+00:00",
+    "sha256": "6d0038e5f7988e3d8f6bf46892f445680b2f8c3194d30b438687e6b73cdb5812",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2021-04-16-salph.png"
+  },
+  "maintained-hints__2021-05-06-salph_instructions.png": {
+    "bytes": 32128,
+    "content_type": "image/png",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2021-05-06-salph%20instructions.png",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:15:59.634226+00:00",
+    "sha256": "21b3f2eaa7bdf8db60d2ab8d579087f2499ce8f864974f803d722692a19ff596",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2021-05-06-salph%20instructions.png"
+  },
+  "maintained-hints__2021-12-02-another-door-hint.png": {
+    "bytes": 43838,
+    "content_type": "image/png",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2021-12-02-another-door-hint.png",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:16:00.252065+00:00",
+    "sha256": "6fbd2939e02d0f48fa2f83cd82d83052f751033262e52f0eeb5eba7926a87ebb",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2021-12-02-another-door-hint.png"
+  },
+  "maintained-hints__2021-12-25-hint.png": {
+    "bytes": 65612,
+    "content_type": "image/png",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2021-12-25-hint.png",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:16:00.875680+00:00",
+    "sha256": "63096303fc9fc83292bc33e3819746c99f87495ca618bb19afa65645e7409083",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2021-12-25-hint.png"
+  },
+  "maintained-hints__2022-12-10-cosmic.png": {
+    "bytes": 243495,
+    "content_type": "image/png",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2022-12-10-cosmic.png",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:16:01.691488+00:00",
+    "sha256": "6c61b0d2245d9627f10ed6e82a5f76aa2e0701bf6a8f977c4772ceabcffdfc5d",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2022-12-10-cosmic.png"
+  },
+  "maintained-hints__2023-01-09-prime-number.png": {
+    "bytes": 50943,
+    "content_type": "image/png",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2023-01-09-prime-number.png",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:16:02.332236+00:00",
+    "sha256": "fa043633c30163a7c8ffe162a137e20eac44993cb44b65b35ed8f741f3348fb5",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2023-01-09-prime-number.png"
+  },
+  "maintained-hints__2023-01-12-theory_of_everything.png": {
+    "bytes": 30798,
+    "content_type": "image/png",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2023-01-12-theory%20of%20everything.png",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:16:03.019228+00:00",
+    "sha256": "d94f05e7a955244aa2ae10261a7217097747d7f52ea49da2d254c015ff41fee6",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2023-01-12-theory%20of%20everything.png"
+  },
+  "maintained-hints__2023-02-23.png": {
+    "bytes": 155098,
+    "content_type": "image/png",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2023-02-23.png",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:16:03.569127+00:00",
+    "sha256": "5dddf73995c45497facb034e3d38d2bbbe3642603b15fce22e118d34209c0197",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2023-02-23.png"
+  },
+  "maintained-hints__2023-08-03-1.png": {
+    "bytes": 77053,
+    "content_type": "image/png",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2023-08-03-1.png",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:16:04.006882+00:00",
+    "sha256": "3e955954b5b8f687a8615ab409f1481556c448145980cdbe11dd0b0de0e8c216",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2023-08-03-1.png"
+  },
+  "maintained-hints__2023-08-03-2.png": {
+    "bytes": 50112,
+    "content_type": "image/png",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2023-08-03-2.png",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:16:04.401773+00:00",
+    "sha256": "6564f5a9be9e4f43c1fced18775cf117992c8884742cf7f14ffa23f1a51e3395",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2023-08-03-2.png"
+  },
+  "maintained-hints__2023-08-06-1.png": {
+    "bytes": 169022,
+    "content_type": "image/png",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2023-08-06-1.png",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:16:04.870624+00:00",
+    "sha256": "2696ea0469ed91d4f03a6b06f038d3c62837015caef4a450eb3eaf3794bc4f7d",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2023-08-06-1.png"
+  },
+  "maintained-hints__2023-08-06-2.png": {
+    "bytes": 80485,
+    "content_type": "image/png",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2023-08-06-2.png",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:16:05.321213+00:00",
+    "sha256": "692add262a52302458069e7172c74b2b13aeee1e734685ce201fcb1ab5f42743",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2023-08-06-2.png"
+  },
+  "maintained-hints__2023-08-06-3.png": {
+    "bytes": 32782,
+    "content_type": "image/png",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2023-08-06-3.png",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:16:05.697987+00:00",
+    "sha256": "75e756cec140a234f146e30b42be4155cbb332bbe5241d54c35b33f35ddb2a26",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2023-08-06-3.png"
+  },
+  "maintained-hints__2023-08-06-4.png": {
+    "bytes": 200644,
+    "content_type": "image/png",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2023-08-06-4.png",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:16:06.144417+00:00",
+    "sha256": "5b4b92a99af75af85150293ab89b5a2d9a8b2682e7bc1d5a049ad7a0804f0c23",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2023-08-06-4.png"
+  },
+  "maintained-hints__2024-04-10.png": {
+    "bytes": 31810,
+    "content_type": "image/png",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2024-04-10.png",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:16:06.516523+00:00",
+    "sha256": "f6d874a357ad45287c8bb30638e525b42a3f1ee1a84c5b32922764b73c887b0e",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2024-04-10.png"
+  },
+  "maintained-hints__2024-04-19-1.png": {
+    "bytes": 101090,
+    "content_type": "image/png",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2024-04-19-1.png",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:16:06.956923+00:00",
+    "sha256": "ff7ee78ab3805a2f5d9f4b16e6418e132ddfa963338d067a781efabeef90eab8",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2024-04-19-1.png"
+  },
+  "maintained-hints__2024-04-19-2.png": {
+    "bytes": 99806,
+    "content_type": "image/png",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2024-04-19-2.png",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:16:07.355214+00:00",
+    "sha256": "85dcbbd1c2dc00ef0e566c1caa2b485ef2c53650fba211acb66ab0350cfd2af8",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2024-04-19-2.png"
+  },
+  "maintained-hints__2026-01-01-new-year-hint.png": {
+    "bytes": 170312,
+    "content_type": "image/png",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2026-01-01-new-year-hint.png",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:16:07.964166+00:00",
+    "sha256": "028419db3ee983bd38e44acf2b1ed642f329b3624081ab789622580dca78e26f",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2026-01-01-new-year-hint.png"
+  },
+  "maintained-hints__2026-07-12-official-hint.png": {
+    "bytes": 34745,
+    "content_type": "image/png",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2026-07-12-official-hint.png",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:16:08.362654+00:00",
+    "sha256": "d7f2c4c7fa3d608be892428984bc7488c017b68dd5c493bf0e7f4ba440c501e0",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2026-07-12-official-hint.png"
+  },
+  "maintained-hints__2026-07-12-other-msg.png": {
+    "bytes": 68341,
+    "content_type": "image/png",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2026-07-12-other-msg.png",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:16:08.830778+00:00",
+    "sha256": "357b3ce1f1108a7203554b6c0fd7c21f8359fad0de4dc767bf5c0771603d7c42",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2026-07-12-other-msg.png"
+  },
+  "maintained-hints__cosmic-duality-book.png": {
+    "bytes": 687085,
+    "content_type": "image/png",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/cosmic-duality-book.png",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:16:09.420963+00:00",
+    "sha256": "edde7220c751583a7f9a884b64ee72a28e8d5c2e53c29a74d7a1c7cdc4221504",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/cosmic-duality-book.png"
+  },
+  "maintained-hints__decentraland-tg.png": {
+    "bytes": 247119,
+    "content_type": "image/png",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/decentraland-tg.png",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:16:09.973223+00:00",
+    "sha256": "e0e9d0ea66a1e867032a54217fc57833a4b1bfcb114fd3d67a029776a19f60f6",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/decentraland-tg.png"
+  },
+  "maintained-phase0.ipynb": {
+    "bytes": 7592,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/phase0.ipynb",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:16:10.438117+00:00",
+    "sha256": "a9b5d6071a2b9618e7fcc40355761ccc2a31481c3a514408b101c8b2283e9bbc",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/phase0.ipynb"
+  },
+  "maintained-phase1.ipynb": {
+    "bytes": 174985,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/phase1.ipynb",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:16:10.930240+00:00",
+    "sha256": "60f424df150dc3c133328226275d50c00217764d816af355519822563f95e9bc",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/phase1.ipynb"
+  },
+  "maintained-phase2-assets__phase2.1.txt": {
+    "bytes": 648,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/phase2-assets/phase2.1.txt",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:19:35.687078+00:00",
+    "sha256": "e2f9dd65604a3231f8b3301724e8d713a88fffc4b6c7c4aeeb20f58a582b593a",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/phase2-assets/phase2.1.txt"
+  },
+  "maintained-phase2-assets__phase3.txt": {
+    "bytes": 4090,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/phase2-assets/phase3.txt",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:19:36.057808+00:00",
+    "sha256": "c4ad94559a44a927c1032cc0e024515f9510a0806a2d14458dbf4a360af9865f",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/phase2-assets/phase3.txt"
+  },
+  "maintained-phase2.ipynb": {
+    "bytes": 3739609,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/phase2.ipynb",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:16:14.003682+00:00",
+    "sha256": "fa884a087430deaeef17234c82c82d9e83e9bffd806dd2853b8680a7d9a1f1de",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/phase2.ipynb"
+  },
+  "maintained-phase3-assets__phase3.2.txt": {
+    "bytes": 2422,
+    "content_type": "application/octet-stream",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/phase3-assets/phase3.2.txt",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:19:36.428261+00:00",
+    "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/phase3-assets/phase3.2.txt"
+  },
+  "maintained-phase3.2.ipynb": {
+    "bytes": 1754587,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/phase3.2.ipynb",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:16:14.702741+00:00",
+    "sha256": "f8f6d01a87d47f754a0ed68b5daebf57f6f5b049281c445b97d7ea1cd38274ef",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/phase3.2.ipynb"
+  },
+  "maintained-phase3.ipynb": {
+    "bytes": 1020572,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/phase3.ipynb",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:16:15.360067+00:00",
+    "sha256": "17f72c9538bd158a5462c39261a3dc00c6bd07e33ae955827d0958e1e998a603",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/phase3.ipynb"
+  },
+  "maintained-repository.json": {
+    "bytes": 16569,
+    "content_type": "application/json; charset=utf-8",
+    "final_url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:15:13.077243+00:00",
+    "sha256": "d86377ad8d2f16197d3f57b23fe449cbe919b81da16406c1b8e23ae5626ef679",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle"
+  },
+  "maintained-salphaseion.ipynb": {
+    "bytes": 85624,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/salphaseion.ipynb",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:16:15.757900+00:00",
+    "sha256": "2c4b2e6aa4aa3d8d3f5b5ee49ffc6a2c03e894efccdffc6dc30bc2536c384b14",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/salphaseion.ipynb"
+  },
+  "maintained-tree.json": {
+    "bytes": 24229,
+    "content_type": "application/json; charset=utf-8",
+    "final_url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/trees/9e61693404ef74e8e681598116d371924f399ffa?recursive=1",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:15:14.103781+00:00",
+    "sha256": "e2bce557f9a46456159b564a9cf22ddbe41d73753d76da5f07130e55990bd04a",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/trees/9e61693404ef74e8e681598116d371924f399ffa?recursive=1"
+  },
+  "maintained-unverified__.gitkeep": {
+    "bytes": 0,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/unverified/.gitkeep",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:16:16.120771+00:00",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/unverified/.gitkeep"
+  },
+  "maintained-unverified__11110.md": {
+    "bytes": 1833,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/unverified/11110.md",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:16:16.504898+00:00",
+    "sha256": "0ddb48cef75fbe83f6693672ab83a529209973b804b8134d1c4f79fc7132b0f6",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/unverified/11110.md"
+  },
+  "maintained-unverified__README.md": {
+    "bytes": 1081,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/unverified/README.md",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:16:16.931584+00:00",
+    "sha256": "ded25c0a5c309ab7668404cf35cc7f154ed9b6ec67eaf2dcd554bc344dc16fca",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/unverified/README.md"
+  },
+  "maintained-unverified__phase0_fefefe_parity.md": {
+    "bytes": 865,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/unverified/phase0_fefefe_parity.md",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:16:17.334911+00:00",
+    "sha256": "9655b52b41cdbb047afd69552d137caafa9b41d4844b5a83f2a8c19458e32a00",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/unverified/phase0_fefefe_parity.md"
+  },
+  "maintained-unverified__phase0_yellow_blue_counts.md": {
+    "bytes": 1187,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/unverified/phase0_yellow_blue_counts.md",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:16:17.700998+00:00",
+    "sha256": "46eb4da6b0c9d0161d4c0ce639013584668155ad3c1b016f39795bc58a44d431",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/unverified/phase0_yellow_blue_counts.md"
+  },
+  "maintained-unverified__phase3.2_1141.md": {
+    "bytes": 2293,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/unverified/phase3.2_1141.md",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:16:18.104841+00:00",
+    "sha256": "05b428be66f073f3e61ed49824275dd42c9ecd2edb343f81e97effdb622cb5cb",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/unverified/phase3.2_1141.md"
+  },
+  "maintained-unverified__sample_3.2_attempt_1.md": {
+    "bytes": 138,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/unverified/sample_3.2_attempt_1.md",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:16:18.501263+00:00",
+    "sha256": "2a3f010d77dfe9c64bac81bd0494eb68ea4cab525c1bec235c2571722bd85bd1",
+    "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/unverified/sample_3.2_attempt_1.md"
+  },
+  "mempool-address.json": {
+    "bytes": 284,
+    "content_type": "application/json",
+    "final_url": "https://mempool.space/api/address/1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:13:03.863628+00:00",
+    "sha256": "2db662c5efde5ca91ddca63101b5ec27023dca62b9cea7468adf347084199b8e",
+    "url": "https://mempool.space/api/address/1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe"
+  },
+  "mempool-secondary-address.json": {
+    "bytes": 274,
+    "content_type": "application/json",
+    "final_url": "https://mempool.space/api/address/17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:19:38.542250+00:00",
+    "sha256": "57bc3b6749ae511b5ff79dfc48f0e1ff52f739097654fd7639f1b61508c07ace",
+    "url": "https://mempool.space/api/address/17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa"
+  },
+  "openssl-enc-documentation.html": {
+    "bytes": 53742,
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://docs.openssl.org/3.0/man1/openssl-enc/",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:14:03.366228+00:00",
+    "sha256": "b16115bd6a46b32753a67d0a49dd544069240efd08ae00bdc86564c9c54c8948",
+    "url": "https://docs.openssl.org/3.0/man1/openssl-enc/"
+  },
+  "phase2.html": {
+    "bytes": 9207,
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://gsmg.io/choiceisanillusioncreatedbetweenthosewithpowerandthosewithoutaveryspecialdessertiwroteitmyself",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:14:01.818959+00:00",
+    "sha256": "06fbd4461ab20d45c54a7053c7c0cfa256ba82a5ad4c73a47fac67f3f1cdf7d9",
+    "url": "https://gsmg.io/choiceisanillusioncreatedbetweenthosewithpowerandthosewithoutaveryspecialdessertiwroteitmyself"
+  },
+  "privatekeys-gsmg.html": {
+    "bytes": 14640,
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://privatekeys.pw/puzzles/gsmg-puzzle",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:12:59.144123+00:00",
+    "sha256": "9c1b7669e79be76903eb447f7ea8173508b467b76096a3cb33a81c228241d5d6",
+    "url": "https://privatekeys.pw/puzzles/gsmg-puzzle"
+  },
+  "privatekeys-puzzle.png": {
+    "bytes": 29931,
+    "content_type": "image/png",
+    "final_url": "https://privatekeys.pw/images/puzzles/gsmg-puzzle.png",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:19:39.714121+00:00",
+    "sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830",
+    "url": "https://privatekeys.pw/images/puzzles/gsmg-puzzle.png"
+  },
+  "pycryptodome-aes-documentation.html": {
+    "bytes": 26003,
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://www.pycryptodome.org/src/cipher/aes",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:14:03.920351+00:00",
+    "sha256": "6b3a2e09de1974a740940211c33cd799b8b2677fae15cb784a8680478cbf9412",
+    "url": "https://www.pycryptodome.org/src/cipher/aes"
+  },
+  "salphaseion.html": {
+    "bytes": 4536,
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://gsmg.io/89727c598b9cd1cf8873f27cb7057f050645ddb6a7a157a110239ac0152f6a32",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:14:02.876298+00:00",
+    "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77",
+    "url": "https://gsmg.io/89727c598b9cd1cf8873f27cb7057f050645ddb6a7a157a110239ac0152f6a32"
+  },
+  "theseedisplanted.html": {
+    "bytes": 832,
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://gsmg.io/theseedisplanted",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:14:00.860892+00:00",
+    "sha256": "7cb766d406008a397f8ae32b3a38ca68b42724bb07b3481deb84baad5c725183",
+    "url": "https://gsmg.io/theseedisplanted"
+  }
+}

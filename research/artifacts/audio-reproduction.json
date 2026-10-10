@@ -1,0 +1,9 @@
+{
+  "source_sha256": "ef17a96dce37b4dd7cbf79f210c5cbaf37fcae60e5faf8004de4e0832bd0dfee",
+  "artifact": "decentraland-spectrogram.png",
+  "transform": "Left channel minus right channel; logarithmic intensity spectrogram",
+  "transcription": "48 41 53 48 54 48 45 54 45 58 54",
+  "transcription_provenance": "Human/assistant visual reading of reproduced spectrogram; corroborated by maintained notebook",
+  "decoded": "HASHTHETEXT",
+  "status": "CONFIRMED"
+}

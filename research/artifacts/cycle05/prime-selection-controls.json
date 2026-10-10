@@ -1,0 +1,296 @@
+{
+  "binary_tail_control": {
+    "ascii_bit_masks": [
+      4,
+      4
+    ],
+    "limits": "Illustrative independence control for two lowercase ASCII characters; real words and historically selected boundary are not uniformly random",
+    "offsets_zero_based": [
+      5,
+      13
+    ],
+    "probability_decimal": 0.2485207100591716,
+    "required_bits": [
+      1,
+      0
+    ],
+    "total_char_pairs": 676,
+    "uniform_lowercase_first_two_chars_matches": 168
+  },
+  "branches": [
+    {
+      "logical_tokens": 84,
+      "marker_bits": "11110111001111011001101",
+      "marker_counts": {
+        "b": 16,
+        "be": 7
+      },
+      "mask": 505,
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "logical_tokens": 83,
+      "marker_bits": "11110111001111011001100",
+      "marker_counts": {
+        "b": 15,
+        "be": 8
+      },
+      "mask": 1017,
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    }
+  ],
+  "continuous_counter_matches": [
+    {
+      "added_binary_markers": [
+        {
+          "binary_offset_zero_based": 5,
+          "bit": "1",
+          "position_one_based": 89
+        },
+        {
+          "binary_offset_zero_based": 13,
+          "bit": "0",
+          "position_one_based": 97
+        }
+      ],
+      "mask": 1017,
+      "near_white_hypothesis_bit": 1
+    }
+  ],
+  "frame_comparisons": [
+    {
+      "conditional_shuffle_null": {
+        "definition": "Uniformly reorder ordinary blue/yellow event colors while fixing near-white position and comparing either of the two observed marker patterns as a subsequence. Does not account for historical selection of marker rule, patterns or image traversal.",
+        "fixed_near_white_offset_zero_based": 20,
+        "matched_frames": 107,
+        "ordinary_blue_count": 15,
+        "ordinary_yellow_count": 9,
+        "probability_decimal": 8.183531369693707e-05,
+        "probability_denominator": 1307504,
+        "probability_numerator": 107,
+        "total_distinct_frames": 1307504
+      },
+      "frame": "1111011100111101100100010",
+      "matches": [],
+      "near_white_hypothesis_bit": 0
+    },
+    {
+      "conditional_shuffle_null": {
+        "definition": "Uniformly reorder ordinary blue/yellow event colors while fixing near-white position and comparing either of the two observed marker patterns as a subsequence. Does not account for historical selection of marker rule, patterns or image traversal.",
+        "fixed_near_white_offset_zero_based": 20,
+        "matched_frames": 72,
+        "ordinary_blue_count": 15,
+        "ordinary_yellow_count": 9,
+        "probability_decimal": 5.506675314186419e-05,
+        "probability_denominator": 163438,
+        "probability_numerator": 9,
+        "total_distinct_frames": 1307504
+      },
+      "frame": "1111011100111101100110010",
+      "matches": [
+        {
+          "exact_first_23_bytes": true,
+          "logical_tokens": 84,
+          "mask": 505,
+          "omitted_event_ordinals_one_based": [
+            22,
+            25
+          ],
+          "one_event_per_distinct_byte": true,
+          "represented_byte_ordinals_one_based": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ]
+        },
+        {
+          "exact_first_23_bytes": false,
+          "logical_tokens": 84,
+          "mask": 505,
+          "omitted_event_ordinals_one_based": [
+            23,
+            25
+          ],
+          "one_event_per_distinct_byte": false,
+          "represented_byte_ordinals_one_based": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            23
+          ]
+        },
+        {
+          "exact_first_23_bytes": false,
+          "logical_tokens": 83,
+          "mask": 1017,
+          "omitted_event_ordinals_one_based": [
+            22,
+            24
+          ],
+          "one_event_per_distinct_byte": true,
+          "represented_byte_ordinals_one_based": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            24
+          ]
+        },
+        {
+          "exact_first_23_bytes": false,
+          "logical_tokens": 83,
+          "mask": 1017,
+          "omitted_event_ordinals_one_based": [
+            23,
+            24
+          ],
+          "one_event_per_distinct_byte": false,
+          "represented_byte_ordinals_one_based": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            24
+          ]
+        },
+        {
+          "exact_first_23_bytes": false,
+          "logical_tokens": 83,
+          "mask": 1017,
+          "omitted_event_ordinals_one_based": [
+            24,
+            25
+          ],
+          "one_event_per_distinct_byte": false,
+          "represented_byte_ordinals_one_based": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22
+          ]
+        }
+      ],
+      "near_white_hypothesis_bit": 1
+    }
+  ],
+  "id": "C05-PRIME-SELECTION-CONTROL",
+  "limits": "Confirms bounded structural comparisons only. Neither branch nor next-stage key is authenticated. All probabilities are conditional controls, not universal creator-intent odds.",
+  "result": "Five color subsequences reproduce: two L84/mask505 and three L83/mask1017. One-event-per-byte admits one match from each branch, so it does not uniquely select L84. Requiring exactly bytes1..23 additionally selects L84 but is an unsupported extra condition. Continuous-counter full match still uniquely selects L83 within that separate explicit rule.",
+  "search_space": {
+    "binary_tail_character_pairs": 676,
+    "near_white_interpretations": 2,
+    "optional_be_tokenizations": 1024,
+    "shuffle_count_method": "Exact memoized binary-subsequence automaton, not Monte Carlo",
+    "subsequence_comparisons": 1200,
+    "valid_prime_branches": 2
+  },
+  "source_evidence": [
+    {
+      "locator": null,
+      "path": "research/sources/gsmg-puzzle.png",
+      "sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830"
+    },
+    {
+      "locator": null,
+      "path": "research/sources/salphaseion.html",
+      "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+    },
+    {
+      "locator": "Secondary claim of five selections and branch ambiguity; reproduced locally, not trusted as proof",
+      "path": "research/evidence/cycle05/fork-_work__prime_host_delta_2026-09-17__RELATORIO.md",
+      "sha256": "954ca740eaf9fc4f52754d57361e9d5445d48a5518154e502340beea9897217d"
+    }
+  ],
+  "status": "CONFIRMED"
+}

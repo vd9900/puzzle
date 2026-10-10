@@ -1,0 +1,159 @@
+80,122
+122,80
+80 122
+80122
+(80,122)
+x80y122
+X80Y122
+80,81
+81,80
+80 81
+8081
+(80,81)
+x80y81
+X80Y81
+80,68
+68,80
+80 68
+8068
+(80,68)
+x80y68
+X80Y68
+80,27
+27,80
+80 27
+8027
+(80,27)
+x80y27
+X80Y27
+-4,122
+122,-4
+-4 122
+-4122
+(-4,122)
+x-4y122
+X-4Y122
+-4,81
+81,-4
+-4 81
+-481
+(-4,81)
+x-4y81
+X-4Y81
+-4,68
+68,-4
+-4 68
+-468
+(-4,68)
+x-4y68
+X-4Y68
+-4,27
+27,-4
+-4 27
+-427
+(-4,27)
+x-4y27
+X-4Y27
+80,122,-4,81
+sum 80 122
+80+122
+202
+76
+80-122
+-4-81
+-85
+80122-481
+2,0
+0,2
+20
+02
+23,28
+28,23
+2328
+2823
+82,32
+24,52
+52,24
+2452
+5224
+25,42
+4,51
+51,4
+451
+514
+15,4
+-24,-61
+-61,-24
+-24-61
+-61-24
+-16,-42
+61-24-
+23,82
+82,23
+2382
+8223
+28,32
+24,-61
+-61,24
+24-61
+-6124
+-16,42
+61-24
+# 15 B Q 0 Y 4 H S 2 X #
+15 B Q 0 Y 4 H S 2 X
+15BQ0Y4HS2X
+# 51 52 28 0 Y 4 24 23 2 X #
+51 52 28 0 Y 4 24 23 2 X
+5152280Y42423 2X
+515228 0 Y 4 24 23 2 X
+#15 25 82 0 Y 4 42 32 2 X#
+15 25 82 0 4 42 32 2
+1525820442322
+51 52 28 0 4 24 23 2
+5152280424232
+X2SH4Y0QB15 reversed
+51BQ0Y4HS2X
+gewelttaeS
+5 gewelttaeS
+sinreP
+madrettoR
+Seattleweg 5 Pernis 3195 ND
+SEATTLEWEG
+SEATTLEWEG 5
+seattleweg 5
+seattleweg5pernis
+Seattleweg5Pernis
+seattleweg 5 rotterdam
+Seattleweg 5 Rotterdam Pernis
+Pernis 3195
+Pernis, Rotterdam
+Eemhavenweg
+Eemhaven
+Waalhaven
+Vondelingenplaat
+Vondelingenweg
+Botlek
+Europoort
+Maasvlakte
+Rotterdam harbour
+Port of Rotterdam
+portofrotterdam
+Havenbedrijf
+Oude Maas
+oudemaas
+Heijplaat
+RDM
+Pernis metro
+Hoogvliet
+Rhoon
+Poortugaal
+Schiedam
+Vlaardingen
+Benelux
+Beneluxtunnel
+Beneluxplein
+A4
+A15
+N492
+3195
+3195 ND Rotterdam

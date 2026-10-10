@@ -1,0 +1,363 @@
+{
+  "assumptions": [
+    "Preserved timestamps and exact source bodies are compared, not authenticated publication intent",
+    "An earlier generic this-password phrase is not the later decoded label",
+    "A creator can repeat a previously known requirement"
+  ],
+  "chronology": {
+    "another_door_reference_map": {
+      "character_span_zero_based_half_open": [
+        21000,
+        21059
+      ],
+      "column_one_based": 1,
+      "line_one_based": 627,
+      "literal": "The previous \"there is another door hint\" is still a thing.",
+      "utf8_byte_span_zero_based_half_open": [
+        21172,
+        21231
+      ]
+    },
+    "creator_zero_record": {
+      "archived_utc_timestamp": "2021-12-26T20:18:32+00:00",
+      "character_span_zero_based_half_open": [
+        21000,
+        21354
+      ],
+      "column_one_based": 1,
+      "header": "=== [26.12.2021 15:18:32 UTC-05:00] Jrk Bgrt",
+      "line_one_based": 627,
+      "source": {
+        "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+        "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+      },
+      "utf8_byte_span_zero_based_half_open": [
+        21172,
+        21529
+      ]
+    },
+    "date_order_does_not_prove_the_creator_excluded_an_already_known_step": true,
+    "decode_record_classification": "COMMUNITY_PUBLIC_DECODING_NOT_CREATOR_INTENT_PROOF",
+    "earliest_exact_local_decode_record": {
+      "archived_utc_timestamp": "2021-05-19T23:33:09+00:00",
+      "character_span_zero_based_half_open": [
+        633616,
+        634081
+      ],
+      "column_one_based": 1,
+      "header": "=== [19.05.2021 18:33:09 UTC-05:00] Deleted Account",
+      "line_one_based": 18496,
+      "source": {
+        "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+        "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+      },
+      "utf8_byte_span_zero_based_half_open": [
+        640499,
+        640964
+      ]
+    },
+    "generic_earlier_occurrence_is_not_encoded_label_evidence": true,
+    "generic_earlier_this_password_record": {
+      "archived_utc_timestamp": "2020-03-23T00:36:36+00:00",
+      "character_span_zero_based_half_open": [
+        160390,
+        160494
+      ],
+      "column_one_based": 1,
+      "header": "=== [22.03.2020 19:36:36 UTC-05:00] Deleted Account",
+      "line_one_based": 5471,
+      "source": {
+        "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+        "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+      },
+      "utf8_byte_span_zero_based_half_open": [
+        162415,
+        162519
+      ]
+    },
+    "local_decode_phrase_maps": [
+      {
+        "character_span_zero_based_half_open": [
+          634034,
+          634060
+        ],
+        "column_one_based": 419,
+        "line_one_based": 18496,
+        "literal": "lastwordsbeforearchichoice",
+        "utf8_byte_span_zero_based_half_open": [
+          640917,
+          640943
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          634065,
+          634077
+        ],
+        "column_one_based": 450,
+        "line_one_based": 18496,
+        "literal": "thispassword",
+        "utf8_byte_span_zero_based_half_open": [
+          640948,
+          640960
+        ]
+      }
+    ],
+    "no_new_decoding_or_zeroing_masks": true,
+    "original_chat_zero_record": {
+      "archived_utc_timestamp": "2021-12-26T20:18:32+00:00",
+      "character_span_zero_based_half_open": [
+        670786,
+        671140
+      ],
+      "column_one_based": 1,
+      "header": "=== [26.12.2021 15:18:32 UTC-05:00] Jrk Bgrt",
+      "line_one_based": 19305,
+      "source": {
+        "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+        "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+      },
+      "utf8_byte_span_zero_based_half_open": [
+        678066,
+        678423
+      ]
+    },
+    "same_zeroing_body_in_two_exports": true,
+    "seconds_local_decode_predates_zeroing_hint": 19082723,
+    "zeroing_phrase_map": {
+      "character_span_zero_based_half_open": [
+        21278,
+        21317
+      ],
+      "column_one_based": 279,
+      "line_one_based": 627,
+      "literal": "some characters need to be 'zeroed out'",
+      "utf8_byte_span_zero_based_half_open": [
+        21450,
+        21489
+      ]
+    }
+  },
+  "confidence": "HIGH exact preserved date/role comparison; UNKNOWN intended zeroing operand",
+  "contradictions": [
+    "Temporal order alone does not identify or exclude an operand",
+    "Local decoder substitution is not a universal zeroing rule",
+    "Co-occurring previous-door/prime/zeroing references do not supply a shared site"
+  ],
+  "date": "2026-10-01",
+  "hypotheses": [
+    {
+      "assumptions": [
+        "Local numeric decoding and later instructions are separate typed claims",
+        "A later hint may recap an already known stage"
+      ],
+      "confidence": "HIGH role/chronology distinction; UNKNOWN intended zeroing site",
+      "contradictions": [
+        "Chronology does not prove the hint concerns a different operation",
+        "Creator wording does not exclude a known decoder",
+        "No specific source characters or zeroing mechanism identified"
+      ],
+      "hypothesis": "The already-decoded o=0 trailer labels are a local representation role, not sufficient identification of the later zeroing operand",
+      "id": "C17-ZERO-LOCAL-ROLE",
+      "input": "Existing trailer-decoding evidence and dated creator-attributed hint",
+      "next_test": "Source-map the original previous another-door hint and same-day context, testing only date versus coordinates versus object-label grammar before interpreting its braces/numbers",
+      "operation_order": [
+        "compare fixed source publication dates",
+        "retain local numeric-zero representation role",
+        "require a shared source/operand/site before adding a zeroing edge"
+      ],
+      "output": "A source/chronology constraint, not a new mask or transformed string",
+      "source_evidence": [
+        {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+          "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+        },
+        {
+          "path": "research/artifacts/cycle10/instruction-graphs-v3.json",
+          "sha256": "31a20ee0b58c1289d16de425c76f4521ca228a01c6ca12122d074056a8e81132"
+        },
+        {
+          "path": "research/artifacts/cycle14/source-binding-audit.json",
+          "sha256": "b26c94ccd5c52072ac1dc371ac92f62da16a7cabaf8ab002252d07d662489bb4"
+        },
+        {
+          "path": "research/artifacts/cycle15/label-boundary-audit.json",
+          "sha256": "3d965046baecf2372ffcf7d79537c537019583f9def802e8fe0faefcdc70e94f"
+        },
+        {
+          "path": "research/artifacts/cycle17/thispassword-scope.json",
+          "sha256": "9516b883b406d42bc4a14ab2bbd73d0f7c210a9f587ccb28fe3591c9b307aa20"
+        }
+      ],
+      "source_locations": [
+        "research/evidence/cycle02/_work__chat_transcript.txt:18496",
+        "research/evidence/cycle02/_work__chat_transcript.txt:5471",
+        "research/evidence/cycle02/_work__creator_jrk.txt:627",
+        "research/evidence/cycle02/_work__chat_transcript.txt:19305",
+        "research/sources/salphaseion.html:17"
+      ],
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "assumptions": [
+        "Shared message context is not an explicit common operand",
+        "Previous-door reference should be resolved as text before assigning numeric selectors"
+      ],
+      "confidence": "HIGH missing-binding observation; UNKNOWN joint construction",
+      "contradictions": [
+        "Creator may intend a coupled construction implicitly",
+        "No exact operator or input ownership is supplied",
+        "Existing reinsertion wording cannot establish a zeroing inverse"
+      ],
+      "hypothesis": "The reiterated another-door and prime/zeroing clauses remain separate constraints until a shared operand or site is source-bound",
+      "id": "C17-ZERO-DOOR-SEPARATION",
+      "input": "Existing trailer-decoding evidence and dated creator-attributed hint",
+      "next_test": "Source-map the original previous another-door hint and same-day context, testing only date versus coordinates versus object-label grammar before interpreting its braces/numbers",
+      "operation_order": [
+        "compare fixed source publication dates",
+        "retain local numeric-zero representation role",
+        "require a shared source/operand/site before adding a zeroing edge"
+      ],
+      "output": "A source/chronology constraint, not a new mask or transformed string",
+      "source_evidence": [
+        {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+          "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+        },
+        {
+          "path": "research/artifacts/cycle10/instruction-graphs-v3.json",
+          "sha256": "31a20ee0b58c1289d16de425c76f4521ca228a01c6ca12122d074056a8e81132"
+        },
+        {
+          "path": "research/artifacts/cycle14/source-binding-audit.json",
+          "sha256": "b26c94ccd5c52072ac1dc371ac92f62da16a7cabaf8ab002252d07d662489bb4"
+        },
+        {
+          "path": "research/artifacts/cycle15/label-boundary-audit.json",
+          "sha256": "3d965046baecf2372ffcf7d79537c537019583f9def802e8fe0faefcdc70e94f"
+        },
+        {
+          "path": "research/artifacts/cycle17/thispassword-scope.json",
+          "sha256": "9516b883b406d42bc4a14ab2bbd73d0f7c210a9f587ccb28fe3591c9b307aa20"
+        }
+      ],
+      "source_locations": [
+        "research/evidence/cycle02/_work__chat_transcript.txt:18496",
+        "research/evidence/cycle02/_work__chat_transcript.txt:5471",
+        "research/evidence/cycle02/_work__creator_jrk.txt:627",
+        "research/evidence/cycle02/_work__chat_transcript.txt:19305",
+        "research/sources/salphaseion.html:17"
+      ],
+      "status": "INCONCLUSIVE"
+    }
+  ],
+  "hypothesis": "Known trailer numeric-zero decoding fixes the operand of the creator's later zeroing instruction",
+  "id": "C17-ZEROING-CHRONOLOGY",
+  "input": "Existing public trailer-decoding evidence, generic occurrence and creator-attributed zeroing statement",
+  "local_zero_roles": {
+    "existing_local_label_decoder_regions": [
+      {
+        "local_zero_symbol_role": "o represents numeric digit0 in an existing decoder",
+        "name": "lastwordsbeforearchichoice",
+        "not_evidence_of_a_new_global_zeroing_rule": true,
+        "original_span_zero_based_half_open": [
+          766,
+          829
+        ],
+        "source": {
+          "path": "research/sources/salphaseion.html",
+          "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+        },
+        "transform": "a..i=1..9,o=0; decimal integer to minimal big-endian ASCII"
+      },
+      {
+        "local_zero_symbol_role": "o represents numeric digit0 in an existing decoder",
+        "name": "thispassword",
+        "not_evidence_of_a_new_global_zeroing_rule": true,
+        "original_span_zero_based_half_open": [
+          830,
+          859
+        ],
+        "source": {
+          "path": "research/sources/salphaseion.html",
+          "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+        },
+        "transform": "a..i=1..9,o=0; decimal integer to minimal big-endian ASCII"
+      }
+    ],
+    "literal_character_zero_deletion_and_arithmetic_zero_are_not_equivalent": true,
+    "old_numeric_zero_decode_is_not_a_new_mask_operation": true,
+    "prime_zeroing_constraints_reused": {
+      "carried_code_object": "NOT_SPECIFIED",
+      "original_piece_return_supported": true,
+      "prime_mask_values_axis_and_order": "NOT_SPECIFIED",
+      "prime_relevance_explicit": true,
+      "reinsertion_site": "NOT_SPECIFIED",
+      "same_operand_or_site": "NOT_SPECIFIED",
+      "some_character_zeroing_explicit": true,
+      "zeroing_equals_inverse_of_reinsertion": "NOT_SPECIFIED",
+      "zeroing_means_deletion": "NOT_SPECIFIED"
+    }
+  },
+  "new_cryptographic_trials": 0,
+  "new_trial_inputs": 0,
+  "next_test": "Resolve only the exact prior another-door hint cited by the December2021 source. Map April1 2021 original wording, braces/spacing and same-day creator context against date, coordinate and object-label readings. Do not turn1/4/21 into an index sweep, introduce a new route or generate trial text.",
+  "operation_order": [
+    "bind three exact dated message headers",
+    "reuse frozen earliest/zeroing source maps",
+    "cross-check zeroing body between two exports",
+    "compare chronology without new decoding",
+    "retain local-zero versus unbound-zeroing distinction"
+  ],
+  "output": "Fixed date/source comparison and two finite zero-role hypotheses",
+  "result": "Exact lastwords/thispassword local decoding was posted May19 2021 before the December26 2021 prime/zeroing hint. The earlier March2020 this-password hit is generic prose, not encoded-label evidence. Existing o=0 decoding explains two local representations but does not identify the later zeroing source/characters/mechanism. Hint chronology alone cannot exclude a recap. Another-door context and reinsertion remain unjoined; no new mask or inverse inferred.",
+  "search_space": {
+    "creator_zeroing_exports_cross_checked": 2,
+    "finite_semantic_hypotheses": 2,
+    "fixed_message_headers": 3,
+    "local_decoded_labels": 2,
+    "new_zeroing_masks": 0
+  },
+  "source_evidence": [
+    {
+      "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+      "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+    },
+    {
+      "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+      "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+    },
+    {
+      "path": "research/artifacts/cycle10/instruction-graphs-v3.json",
+      "sha256": "31a20ee0b58c1289d16de425c76f4521ca228a01c6ca12122d074056a8e81132"
+    },
+    {
+      "path": "research/artifacts/cycle14/source-binding-audit.json",
+      "sha256": "b26c94ccd5c52072ac1dc371ac92f62da16a7cabaf8ab002252d07d662489bb4"
+    },
+    {
+      "path": "research/artifacts/cycle15/label-boundary-audit.json",
+      "sha256": "3d965046baecf2372ffcf7d79537c537019583f9def802e8fe0faefcdc70e94f"
+    },
+    {
+      "path": "research/artifacts/cycle17/thispassword-scope.json",
+      "sha256": "9516b883b406d42bc4a14ab2bbd73d0f7c210a9f587ccb28fe3591c9b307aa20"
+    }
+  ],
+  "source_locations": [
+    "research/evidence/cycle02/_work__chat_transcript.txt:18496",
+    "research/evidence/cycle02/_work__chat_transcript.txt:5471",
+    "research/evidence/cycle02/_work__creator_jrk.txt:627",
+    "research/evidence/cycle02/_work__chat_transcript.txt:19305",
+    "research/sources/salphaseion.html:17"
+  ],
+  "status": "INCONCLUSIVE"
+}

@@ -1,0 +1,100 @@
+{
+  "candidate_fingerprints": [
+    "164ec8b041ccb0687981d466c18e1c67bb6b31a7d831a4a5418e76a4e8399129",
+    "5836776e074b009bdb8d7d4a8990f645becfa7f2ca8b5e726bdf9111bdc51b61",
+    "b7f9ef7896b6901f39906409af3cfadf383caddad764e207232a6aae0788f893"
+  ],
+  "candidate_set_sha256": "303004b6f6ff2b0ac37d94142245609b86a44a70783ea676cfaa991fa8bc12a3",
+  "forms": [
+    {
+      "output_fingerprint": "5836776e074b009bdb8d7d4a8990f645becfa7f2ca8b5e726bdf9111bdc51b61",
+      "output_length": 570,
+      "parameters": {
+        "bifid_period": 570,
+        "branch_masks": [
+          505,
+          1017
+        ],
+        "keyword_square_fingerprint": "3adecc6fc9d05bb2ac25dad55968d9e49fa19b22119c367cbe43562ee1dac7c1",
+        "residual_fingerprints": {
+          "1017": "21cbfa185f92492652ec5c40ba29b2f29f65804f8bd285c0de7685a2aad53109",
+          "505": "56e78fb61ca4ec0f23fcc7d374050b3e32821a540b87ecda9364267b76c32161"
+        },
+        "residual_lengths": [
+          60,
+          61
+        ],
+        "source_fingerprint": "066191b4aafc114fbca7f0d168382f40129c4ff18490375b689741081d5ef3c2",
+        "terminal_e_branch_invariant": true,
+        "transformation": "remove logical prime b/be markers, first-occurrence keyed Bifid, decrypt exact faed570"
+      },
+      "retains_btcseed_prefix": false,
+      "round_trip": true,
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 570,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.010563,
+        "longest_printable_run": 570,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    }
+  ],
+  "gate": "Unchanged structure/downstream checks and bounded adjacent32-byte raw-key pairs for qualifying small-blob padding hits; final local Boolean independently verified on a positive target",
+  "hypothesis": "Prime marker removal is a Bifid keyword preparation step, rather than treating unmodified dbbi as the keyword",
+  "id": "C08-RESIDUAL-BIFID",
+  "invariant": "Both documented prime branches yield the same source-derived square; full-period decryption re-encodes to unchanged faed; exact local target or independently justified next-stage structure is required",
+  "justification": "The original dbbi keyword yielded a nonverified btcseed prefix, while its independently structured prime extraction yields a60-letter residual. Testing only that residual as the same existing Bifid keyword connects these clues without free alphabets or new ciphers. This does not establish that the residual is an AES answer; loss of the prefix is recorded rather than optimized away",
+  "limits": "One source-derived keyword, one existing period/direction, no alternate alphabet/period/prefix edits or phrase composition; exclude both all15 historical ledgers and preserved baseline before AES; no candidate bytes written",
+  "search_space": {
+    "bifid_periods": [
+      570
+    ],
+    "distinct_source_keyed_squares": 1,
+    "forms": 1,
+    "kdf_digests": [
+      "md5",
+      "sha256"
+    ],
+    "password_transforms": 3,
+    "planned_aes_trials": 18,
+    "prime_branches": 2,
+    "targets": [
+      "phase32-inner",
+      "salphaseion-small",
+      "cosmic-duality"
+    ],
+    "unique_passwords": 3
+  },
+  "source_evidence": [
+    {
+      "locator": null,
+      "path": "research/sources/salphaseion.html",
+      "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+    },
+    {
+      "locator": null,
+      "path": "research/artifacts/cycle03/prime-boundary.json",
+      "sha256": "7a267b998cb9353cabba47bb4005abee0cbec18c7f878eb52c223bdf14fc9727"
+    },
+    {
+      "locator": null,
+      "path": "research/artifacts/cycle04/bifid-evidence.json",
+      "sha256": "b3e75c099064c8a32fa07ab165e16865a41760f099abe2d104c549a80971d6b1"
+    },
+    {
+      "locator": null,
+      "path": "research/artifacts/cycle08/instruction-order.json",
+      "sha256": "5f5822204c310f666027d4bfdc619ab82545093b58830780951f71ecbc7f856a"
+    },
+    {
+      "locator": null,
+      "path": "research/artifacts/cycle08/baseline-identity-audit.json",
+      "sha256": "0f0af6b4839289202d7baf44010b83e918622f1ed05ac0f29c49ccb98c9731a0"
+    }
+  ],
+  "status": "UNTESTED"
+}

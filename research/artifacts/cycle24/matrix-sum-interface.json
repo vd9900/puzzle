@@ -1,0 +1,73 @@
+{
+  "id": "C24-MATRIX-SUM-INTERFACE",
+  "date": "2026-10-02",
+  "status": "PROMISING",
+  "hypothesis": "matrixsumlist names a typed interface: sum the13 rows of the fixed13x15 dbbi-plus-raw-label panel to obtain one value for each of the15 aligned faed/Bifid columns.",
+  "source_evidence": [
+    {"path": "research/sources/salphaseion.html", "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"},
+    {"path": "research/artifacts/cycle23/residual-frame-join.json", "sha256": "907645e849823e215cff57fca4a74dba5cbf68f6468a3f58a1306f3b0c758d19"},
+    {"path": "research/artifacts/cycle24/matrix-width-interface.json", "sha256": "1c1cca45458ca0600b22061aa890232d26d807b7c708e0580a130445ff42f6df"}
+  ],
+  "preconditions": [
+    "Use only the exact13x15 layout established by C24-MATRIX-WIDTH-INTERFACE.",
+    "Interpret dbbi a through i as1 through9, following the page-adjacent decimal/A1Z26 convention.",
+    "Retain the raw label's established binary type a=0 and b=1.",
+    "Do not apply the resulting list to a downstream object."
+  ],
+  "operation": "Sum each of the15 columns across all13 rows; transpose-equivalently, sum each row of the15x13 orientation.",
+  "observed": {
+    "matrix_shape": [13, 15],
+    "column_sum_list": [69, 58, 49, 59, 53, 74, 60, 0, 13, 13, 7, 6, 6, 3, 8],
+    "column_sum_count": 15,
+    "row_sum_list": [32, 33, 36, 47, 34, 48, 34, 33, 31, 41, 32, 48, 29],
+    "row_sum_count": 13,
+    "conserved_total": 478,
+    "transpose_invariant": true,
+    "downstream_shapes": {
+      "faed": [38, 15],
+      "faed_upper_half": [19, 15],
+      "faed_lower_half": [19, 15],
+      "bifid_even_coordinate_plane": [19, 15],
+      "bifid_odd_coordinate_plane": [19, 15]
+    },
+    "fifteen_value_list_matches_every_downstream_column_domain": true,
+    "thirteen_value_list_matches_any_downstream_axis": false
+  },
+  "information_accounting": {
+    "residual_dbbi_cells": 60,
+    "first23_event_expanded_dbbi_cells": 31,
+    "final2_event_cells_in_raw_label": 2,
+    "other_raw_label_cells": 102,
+    "panel_cells_accounted": 195,
+    "panel_cells_expected": 195,
+    "all25_event_labels_represented": true
+  },
+  "architecture_discriminator": {
+    "sum_across13_to_list15": "STRONGLY SUPPORTED structurally: the list has exactly one value per column in faed, both faed halves, and both Bifid coordinate planes.",
+    "sum_across15_to_list13": "WEAK as a downstream interface: its13 values match the label-row count but no fixed axis of the19x15 or38x15 downstream matrices.",
+    "how_list15_operates_on_downstream_columns": "UNKNOWN: addition, subtraction, ordering, selection, or another operation would be an unsupported new choice."
+  },
+  "coverage_comparison": {
+    "exact_vector_found_in_preserved_prior_reports_or_plans": false,
+    "prior_related_coverage": "Separate dbbi/faed rectangles, original-image axis sums, raw faed width15/38 grids, and dbbi-plus-label padded to14x14.",
+    "not_executed": "No downstream arithmetic, route, cipher, scoring, password, encrypted-container, or key operation."
+  },
+  "graph_effect": "Add a PROMISING typed edge (residual60 + all25 event labels + untouched label bits) -> public13x15 panel -> sum-list15, with a dimensionally exact but operation-free alignment to faed/Bifid columns.",
+  "result": "The fixed mixed-type panel produces a unique orientation-invariant15-value sum list aligned to every downstream15-column representation. This identifies a plausible matrixsumlist output type but does not specify how that list is consumed.",
+  "limits": [
+    "Applying the page-adjacent A1Z26 convention to dbbi is source-supported but not explicitly commanded for this panel.",
+    "The rowwise dbbi/label join remains an inferred layout.",
+    "Dimensional alignment is not proof that any arithmetic action on faed is intended."
+  ],
+  "reproduction": {
+    "command": "python3 -m tools.matrix_sum_interface",
+    "test_command": "python3 -m unittest tests.test_matrix_sum_interface -v",
+    "tool_sha256": "c63aa6959eb3e27316307b9352bc56094ac7faeab1ebe49ced19329eb7358082",
+    "test_sha256": "faf030b1dbd9dd79537d3b08f046f8deb8f68527f9471664d08c62df85638796",
+    "tests_passed": 5
+  },
+  "new_cryptographic_trials": 0,
+  "new_trial_inputs": 0,
+  "private_key_operations": 0,
+  "aes_operations": 0
+}

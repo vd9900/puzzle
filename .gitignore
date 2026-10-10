@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+research/private/
+# large or regenerable research artefacts
+scratch/wf/engine_*
+scratch/wf/*.log
+scratch/dl/
+scratch/kangaroo/
+scratch/corpora/
+scratch/chat_chunks/
+scratch/quadgrams.pkl
+*.log
+/tmp/

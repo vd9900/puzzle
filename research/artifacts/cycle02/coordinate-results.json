@@ -1,0 +1,285 @@
+{
+  "aes_trials": 6984,
+  "decoded_forms": 388,
+  "elapsed_seconds": 0.34,
+  "id": "C02-RESIDUAL-COORDINATES",
+  "max_padding_hit_printable_ratio": 0.443038,
+  "padding_hits": 25,
+  "result": "No downstream-validated solution from exact 3x3/3-coordinate regrouping or fixed base9 byte groups",
+  "status": "INCONCLUSIVE",
+  "structure_hits": 0,
+  "target_matches": 0,
+  "top_decodes": [
+    {
+      "decoded": "jm.w.xckkfjftspuci.hbkdwuthiiqoykyuob.rh",
+      "parameters": {
+        "coordinate_stream": "row-plane-then-column-plane",
+        "cube_alphabet": "lastwordbefchipgjkmnquvxyz.",
+        "cube_key": "lastwordsbeforearchichoicethispassword",
+        "digit_mapping": "alphabet-order",
+        "grouping": "two ternary coordinates per symbol -> exact three-coordinate groups, 120 digits -> 40 characters",
+        "square_orientation": {
+          "reflect_columns": false,
+          "reflect_rows": false,
+          "transpose": false
+        },
+        "stream_reverse": false
+      },
+      "score": {
+        "alphabetic_ratio": 0.9,
+        "bytes": 40,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.029412,
+        "longest_printable_run": 40,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded": "eg.yvfizivunnedfmpzye.ntfwsdkqkzztx.m.cq",
+      "parameters": {
+        "coordinate_stream": "row-plane-then-column-plane",
+        "cube_alphabet": "abcdefghijklmnopqrstuvwxyz.",
+        "cube_key": "unkeyed",
+        "digit_mapping": "alphabet-order",
+        "grouping": "two ternary coordinates per symbol -> exact three-coordinate groups, 120 digits -> 40 characters",
+        "square_orientation": {
+          "reflect_columns": false,
+          "reflect_rows": false,
+          "transpose": false
+        },
+        "stream_reverse": true
+      },
+      "score": {
+        "alphabetic_ratio": 0.9,
+        "bytes": 40,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.029412,
+        "longest_printable_run": 40,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded": "bkdwuthiiqoykyuob.rhjm.w.xckkfjftspuci.h",
+      "parameters": {
+        "coordinate_stream": "row-plane-then-column-plane",
+        "cube_alphabet": "lastwordbefchipgjkmnquvxyz.",
+        "cube_key": "lastwordsbeforearchichoicethispassword",
+        "digit_mapping": "alphabet-order",
+        "grouping": "two ternary coordinates per symbol -> exact three-coordinate groups, 120 digits -> 40 characters",
+        "square_orientation": {
+          "reflect_columns": false,
+          "reflect_rows": false,
+          "transpose": true
+        },
+        "stream_reverse": false
+      },
+      "score": {
+        "alphabetic_ratio": 0.9,
+        "bytes": 40,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.029412,
+        "longest_printable_run": 40,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded": "e.ntfwsdkqkzztx.m.cqeg.yvfizivunnedfmpzy",
+      "parameters": {
+        "coordinate_stream": "row-plane-then-column-plane",
+        "cube_alphabet": "abcdefghijklmnopqrstuvwxyz.",
+        "cube_key": "unkeyed",
+        "digit_mapping": "alphabet-order",
+        "grouping": "two ternary coordinates per symbol -> exact three-coordinate groups, 120 digits -> 40 characters",
+        "square_orientation": {
+          "reflect_columns": false,
+          "reflect_rows": false,
+          "transpose": true
+        },
+        "stream_reverse": true
+      },
+      "score": {
+        "alphabetic_ratio": 0.9,
+        "bytes": 40,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.029412,
+        "longest_printable_run": 40,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded": "wuacfvsbsfgnnwxvolbce.ntfwsdkqkzztx.m.cq",
+      "parameters": {
+        "coordinate_stream": "row-plane-then-column-plane",
+        "cube_alphabet": "abcdefghijklmnopqrstuvwxyz.",
+        "cube_key": "unkeyed",
+        "digit_mapping": "alphabet-order",
+        "grouping": "two ternary coordinates per symbol -> exact three-coordinate groups, 120 digits -> 40 characters",
+        "square_orientation": {
+          "reflect_columns": true,
+          "reflect_rows": false,
+          "transpose": false
+        },
+        "stream_reverse": true
+      },
+      "score": {
+        "alphabetic_ratio": 0.925,
+        "bytes": 40,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.028571,
+        "longest_printable_run": 40,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded": "e.ntfwsdkqkzztx.m.cqwuacfvsbsfgnnwxvolbc",
+      "parameters": {
+        "coordinate_stream": "row-plane-then-column-plane",
+        "cube_alphabet": "abcdefghijklmnopqrstuvwxyz.",
+        "cube_key": "unkeyed",
+        "digit_mapping": "alphabet-order",
+        "grouping": "two ternary coordinates per symbol -> exact three-coordinate groups, 120 digits -> 40 characters",
+        "square_orientation": {
+          "reflect_columns": false,
+          "reflect_rows": true,
+          "transpose": true
+        },
+        "stream_reverse": true
+      },
+      "score": {
+        "alphabetic_ratio": 0.925,
+        "bytes": 40,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.028571,
+        "longest_printable_run": 40,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded": "s.frvgtfrvjzforbkgqfpzcjcjgsjvgy.nbrmcpi",
+      "parameters": {
+        "coordinate_stream": "interleaved-row-column",
+        "cube_alphabet": "themarixsyoubcdfgjklnpqvwz.",
+        "cube_key": "thematrixhasyou",
+        "digit_mapping": "dbbi-first-occurrence-order",
+        "grouping": "two ternary coordinates per symbol -> exact three-coordinate groups, 120 digits -> 40 characters",
+        "square_orientation": {
+          "reflect_columns": true,
+          "reflect_rows": false,
+          "transpose": false
+        },
+        "stream_reverse": true
+      },
+      "score": {
+        "alphabetic_ratio": 0.95,
+        "bytes": 40,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.027778,
+        "longest_printable_run": 40,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded": "fblvltgeejfjxyhogilpbkdwuthiiqoykyuob.rh",
+      "parameters": {
+        "coordinate_stream": "row-plane-then-column-plane",
+        "cube_alphabet": "lastwordbefchipgjkmnquvxyz.",
+        "cube_key": "lastwordsbeforearchichoicethispassword",
+        "digit_mapping": "alphabet-order",
+        "grouping": "two ternary coordinates per symbol -> exact three-coordinate groups, 120 digits -> 40 characters",
+        "square_orientation": {
+          "reflect_columns": false,
+          "reflect_rows": true,
+          "transpose": false
+        },
+        "stream_reverse": false
+      },
+      "score": {
+        "alphabetic_ratio": 0.975,
+        "bytes": 40,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.027027,
+        "longest_printable_run": 40,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded": "bkdwuthiiqoykyuob.rhfblvltgeejfjxyhogilp",
+      "parameters": {
+        "coordinate_stream": "row-plane-then-column-plane",
+        "cube_alphabet": "lastwordbefchipgjkmnquvxyz.",
+        "cube_key": "lastwordsbeforearchichoicethispassword",
+        "digit_mapping": "alphabet-order",
+        "grouping": "two ternary coordinates per symbol -> exact three-coordinate groups, 120 digits -> 40 characters",
+        "square_orientation": {
+          "reflect_columns": true,
+          "reflect_rows": false,
+          "transpose": true
+        },
+        "stream_reverse": false
+      },
+      "score": {
+        "alphabetic_ratio": 0.975,
+        "bytes": 40,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.027027,
+        "longest_printable_run": 40,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded": "aiqyjxyudgnpmqdnexkhgoxiximingqkiexyrzku",
+      "parameters": {
+        "coordinate_stream": "interleaved-row-column",
+        "cube_alphabet": "lastwordbefchipgjkmnquvxyz.",
+        "cube_key": "lastwordsbeforearchichoicethispassword",
+        "digit_mapping": "alphabet-order",
+        "grouping": "two ternary coordinates per symbol -> exact three-coordinate groups, 120 digits -> 40 characters",
+        "square_orientation": {
+          "reflect_columns": false,
+          "reflect_rows": false,
+          "transpose": true
+        },
+        "stream_reverse": true
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 40,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.026316,
+        "longest_printable_run": 40,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    }
+  ],
+  "unique_passwords": 1164
+}

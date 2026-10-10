@@ -1,0 +1,767 @@
+{
+  "assumptions": [
+    "Original dated text and context are faithfully preserved",
+    "Speaker labels are attribution, not signed authentication",
+    "No omitted reply metadata may be invented"
+  ],
+  "confidence": "HIGH for wording/timing; MEDIUM for recognition or later-stage semantics; UNKNOWN for the complete construction",
+  "context": {
+    "elapsed_question_to_response_seconds": 84,
+    "intervening_messages": 3,
+    "intervening_roles": [
+      "Creator asks Que?",
+      "Another participant quotes a bunny-page comment",
+      "Another participant says the comment has been there for a while"
+    ],
+    "no_authenticated_reply_binding": true,
+    "no_container_identified_by_the_question_or_response": true,
+    "public_question": "is yinyang found after decoding an AES ciphertext?",
+    "question_location": {
+      "archived_utc_timestamp": "2025-04-28T17:00:12+00:00",
+      "character_span_zero_based_half_open": [
+        4276389,
+        4276439
+      ],
+      "column_one_based": 1,
+      "header": "=== [28.04.2025 12:00:12 UTC-05:00] silver_anth",
+      "line_one_based": 110453,
+      "source": {
+        "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+        "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+      },
+      "utf8_byte_span_zero_based_half_open": [
+        4317717,
+        4317767
+      ]
+    },
+    "response_can_refer_to_question_or_intervening_page_discussion": true,
+    "response_location": {
+      "archived_utc_timestamp": "2025-04-28T17:01:36+00:00",
+      "character_span_zero_based_half_open": [
+        4276709,
+        4276777
+      ],
+      "column_one_based": 1,
+      "header": "=== [28.04.2025 12:01:36 UTC-05:00] Jrk Bgrt",
+      "line_one_based": 110465,
+      "source": {
+        "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+        "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+      },
+      "utf8_byte_span_zero_based_half_open": [
+        4318040,
+        4318110
+      ]
+    },
+    "window": [
+      {
+        "body_not_republished": true,
+        "location": {
+          "archived_utc_timestamp": "2025-04-28T17:00:12+00:00",
+          "character_span_zero_based_half_open": [
+            4276389,
+            4276439
+          ],
+          "column_one_based": 1,
+          "header": "=== [28.04.2025 12:00:12 UTC-05:00] silver_anth",
+          "line_one_based": 110453,
+          "source": {
+            "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+            "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+          },
+          "utf8_byte_span_zero_based_half_open": [
+            4317717,
+            4317767
+          ]
+        },
+        "relative_message_index": -4
+      },
+      {
+        "body_not_republished": true,
+        "location": {
+          "archived_utc_timestamp": "2025-04-28T17:00:26+00:00",
+          "character_span_zero_based_half_open": [
+            4276486,
+            4276490
+          ],
+          "column_one_based": 1,
+          "header": "=== [28.04.2025 12:00:26 UTC-05:00] Jrk Bgrt",
+          "line_one_based": 110456,
+          "source": {
+            "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+            "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+          },
+          "utf8_byte_span_zero_based_half_open": [
+            4317814,
+            4317818
+          ]
+        },
+        "relative_message_index": -3
+      },
+      {
+        "body_not_republished": true,
+        "location": {
+          "archived_utc_timestamp": "2025-04-28T17:00:46+00:00",
+          "character_span_zero_based_half_open": [
+            4276530,
+            4276596
+          ],
+          "column_one_based": 1,
+          "header": "=== [28.04.2025 12:00:46 UTC-05:00] X",
+          "line_one_based": 110459,
+          "source": {
+            "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+            "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+          },
+          "utf8_byte_span_zero_based_half_open": [
+            4317858,
+            4317927
+          ]
+        },
+        "relative_message_index": -2
+      },
+      {
+        "body_not_republished": true,
+        "location": {
+          "archived_utc_timestamp": "2025-04-28T17:00:56+00:00",
+          "character_span_zero_based_half_open": [
+            4276640,
+            4276662
+          ],
+          "column_one_based": 1,
+          "header": "=== [28.04.2025 12:00:56 UTC-05:00] S | h",
+          "line_one_based": 110462,
+          "source": {
+            "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+            "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+          },
+          "utf8_byte_span_zero_based_half_open": [
+            4317971,
+            4317993
+          ]
+        },
+        "relative_message_index": -1
+      },
+      {
+        "body_not_republished": true,
+        "location": {
+          "archived_utc_timestamp": "2025-04-28T17:01:36+00:00",
+          "character_span_zero_based_half_open": [
+            4276709,
+            4276777
+          ],
+          "column_one_based": 1,
+          "header": "=== [28.04.2025 12:01:36 UTC-05:00] Jrk Bgrt",
+          "line_one_based": 110465,
+          "source": {
+            "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+            "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+          },
+          "utf8_byte_span_zero_based_half_open": [
+            4318040,
+            4318110
+          ]
+        },
+        "relative_message_index": 0
+      },
+      {
+        "body_not_republished": true,
+        "location": {
+          "archived_utc_timestamp": "2025-04-28T17:01:52+00:00",
+          "character_span_zero_based_half_open": [
+            4276827,
+            4276828
+          ],
+          "column_one_based": 1,
+          "header": "=== [28.04.2025 12:01:52 UTC-05:00] silver_anth",
+          "line_one_based": 110468,
+          "source": {
+            "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+            "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+          },
+          "utf8_byte_span_zero_based_half_open": [
+            4318160,
+            4318164
+          ]
+        },
+        "relative_message_index": 1
+      }
+    ]
+  },
+  "contradictions": [
+    "No unique literal/output-format requirement",
+    "No authenticated reply target for next phase",
+    "Cover relevance does not specify a decoding",
+    "No new clue connects source-keyed Bifid/residual60 to a particular checkpoint object"
+  ],
+  "data_flow_graphs": {
+    "C13-CHECKPOINT-LITERAL": {
+      "edges": [
+        [
+          "unresolved-construction",
+          "complete-literal-object",
+          "HYPOTHESIS_LITERAL_FORMAT_NOT_SPECIFIED"
+        ]
+      ],
+      "nodes": [
+        "unresolved-construction",
+        "complete-literal-object"
+      ]
+    },
+    "C13-CHECKPOINT-PHASE": {
+      "edges": [
+        [
+          "upstream-object",
+          "later-phase",
+          "HYPOTHESIS_AMBIGUOUS_REPLY_ANTECEDENT"
+        ],
+        [
+          "later-phase",
+          "Cosmic-Duality-label",
+          "HYPOTHESIS_NOT_A_CREATOR_BINDING"
+        ]
+      ],
+      "nodes": [
+        "upstream-object",
+        "later-phase",
+        "Cosmic-Duality-label"
+      ]
+    },
+    "C13-CHECKPOINT-VISUAL": {
+      "edges": [
+        [
+          "unresolved-construction",
+          "recognizable-visual-object",
+          "HYPOTHESIS_NO_SOURCE_RENDERING_RULE"
+        ]
+      ],
+      "nodes": [
+        "unresolved-construction",
+        "recognizable-visual-object"
+      ]
+    }
+  },
+  "date": "2026-09-30",
+  "eliminated_requirement": "Exact literal yinyang/yingyang text is not an established necessary gate for every possible public construction; unchanged literal extraction remains a bounded negative only",
+  "hypotheses": [
+    {
+      "assumptions": [
+        "The quoted name is intended as literal text",
+        "Creator's ying spelling does not specify a different cipher alphabet",
+        "An as-yet-unverified operation supplies the complete checkpoint"
+      ],
+      "confidence": "LOW-MEDIUM; literal wording permits this but does not require it",
+      "contradictions": [
+        "hit/reached are also stage/object language",
+        "No quoted exact required bytes or output format",
+        "ying yang and yingyang differ from the decoded February2023 yinyang"
+      ],
+      "hypothesis": "yin-yang is a literal recognizable output token or named text checkpoint",
+      "id": "C13-CHECKPOINT-LITERAL",
+      "input": "Unknown output/intermediate from the unresolved public construction",
+      "next_test": "Accept a literal test only for an independently source-derived complete text object; do not generate spellings or anagrams to fit the name",
+      "operation_order": [
+        "prime/color instruction",
+        "matrixsumlist object or operation",
+        "Architect-related selection",
+        "recognizable text checkpoint"
+      ],
+      "output": "A public text object recognizably naming yin-yang, not merely a partial yang substring",
+      "source_evidence": [
+        {
+          "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+          "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        {
+          "path": "research/sources/salphaseion.html",
+          "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+        },
+        {
+          "path": "research/artifacts/cycle11/hint-instruction-order.json",
+          "sha256": "05a3ad4ec7ed7572f1223fb90c97612caa4fde6ffc199baeebdcd1794d74150d"
+        },
+        {
+          "path": "research/artifacts/cycle13/visual-correspondence.json",
+          "sha256": "2ab2d8c6055dfa8dc7fb2c63fe2faf9f2fcf3da1f58ac7c0305049452058664b"
+        }
+      ],
+      "source_locations": [
+        "research/evidence/cycle02/_work__creator_jrk.txt:804",
+        "research/evidence/cycle02/_work__creator_jrk.txt:1186",
+        "research/evidence/cycle02/_work__creator_jrk.txt:1198",
+        "research/evidence/cycle02/_work__chat_transcript.txt:110453",
+        "research/evidence/cycle02/_work__chat_transcript.txt:110465",
+        "research/sources/salphaseion.html:19"
+      ],
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "assumptions": [
+        "The attributed cover contributes a visual recognition clue",
+        "The object arises downstream of the ordered instructions",
+        "Its source-to-output construction remains to be specified"
+      ],
+      "confidence": "MEDIUM for recognition semantics; LOW for any specific visual transformation",
+      "contradictions": [
+        "No explicit rendering or pixel mapping instruction",
+        "Existing cover resemblance is already visible and does not establish a newly reached checkpoint",
+        "Opposite-color appearance alone does not select residual/Bifid halves or routing"
+      ],
+      "hypothesis": "yin-yang denotes a recognizable visual or structural object rather than a required substring",
+      "id": "C13-CHECKPOINT-VISUAL",
+      "input": "Unknown output/intermediate from the unresolved public construction",
+      "next_test": "Require an exact source-backed construction and a consumer; do not treat the already visible cover itself as proof of reaching the checkpoint",
+      "operation_order": [
+        "prime/color instruction",
+        "matrixsumlist object or operation",
+        "Architect-related selection",
+        "recognizable dual object"
+      ],
+      "output": "A structured public object with a justified yin-yang interpretation",
+      "source_evidence": [
+        {
+          "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+          "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        {
+          "path": "research/sources/salphaseion.html",
+          "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+        },
+        {
+          "path": "research/artifacts/cycle11/hint-instruction-order.json",
+          "sha256": "05a3ad4ec7ed7572f1223fb90c97612caa4fde6ffc199baeebdcd1794d74150d"
+        },
+        {
+          "path": "research/artifacts/cycle13/visual-correspondence.json",
+          "sha256": "2ab2d8c6055dfa8dc7fb2c63fe2faf9f2fcf3da1f58ac7c0305049452058664b"
+        }
+      ],
+      "source_locations": [
+        "research/evidence/cycle02/_work__creator_jrk.txt:804",
+        "research/evidence/cycle02/_work__creator_jrk.txt:1186",
+        "research/evidence/cycle02/_work__creator_jrk.txt:1198",
+        "research/evidence/cycle02/_work__chat_transcript.txt:110453",
+        "research/evidence/cycle02/_work__chat_transcript.txt:110465",
+        "research/sources/salphaseion.html:19"
+      ],
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "assumptions": [
+        "The next-phase reply refers to the earlier yin-yang question rather than the intervening page comment",
+        "Primary Cosmic Duality heading names the relevant later object",
+        "Primary heading order reflects traversal, not merely parallel publication"
+      ],
+      "confidence": "MEDIUM for later-stage semantics; LOW for identifying Cosmic Duality or a particular container",
+      "contradictions": [
+        "Three intervening messages and no reply ID leave the next-phase antecedent ambiguous",
+        "Original SalPhaseIon and Cosmic Duality objects are already adjacent on one page",
+        "No creator-attributed wording identifies SMALL, the inner container, residual60 or Bifid as this checkpoint's direct predecessor"
+      ],
+      "hypothesis": "yin-yang denotes a later phase/object, with Cosmic Duality a possible but unverified label",
+      "id": "C13-CHECKPOINT-PHASE",
+      "input": "Unknown output/intermediate from the unresolved public construction",
+      "next_test": "Audit only source-authored entrance/exit labels or exact cross-references that bind the named public phase to an upstream object; preserve parallel versus sequential ambiguity",
+      "operation_order": [
+        "resolve an upstream construction",
+        "reach a later public phase/object",
+        "recognize the yin-yang checkpoint"
+      ],
+      "output": "A later public puzzle object; no specific container binding is established",
+      "source_evidence": [
+        {
+          "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+          "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        {
+          "path": "research/sources/salphaseion.html",
+          "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+        },
+        {
+          "path": "research/artifacts/cycle11/hint-instruction-order.json",
+          "sha256": "05a3ad4ec7ed7572f1223fb90c97612caa4fde6ffc199baeebdcd1794d74150d"
+        },
+        {
+          "path": "research/artifacts/cycle13/visual-correspondence.json",
+          "sha256": "2ab2d8c6055dfa8dc7fb2c63fe2faf9f2fcf3da1f58ac7c0305049452058664b"
+        }
+      ],
+      "source_locations": [
+        "research/evidence/cycle02/_work__creator_jrk.txt:804",
+        "research/evidence/cycle02/_work__creator_jrk.txt:1186",
+        "research/evidence/cycle02/_work__creator_jrk.txt:1198",
+        "research/evidence/cycle02/_work__chat_transcript.txt:110453",
+        "research/evidence/cycle02/_work__chat_transcript.txt:110465",
+        "research/sources/salphaseion.html:19"
+      ],
+      "status": "INCONCLUSIVE"
+    }
+  ],
+  "hypothesis": "Original checkpoint wording can distinguish a required literal token from a recognizable object or later phase",
+  "id": "C13-CHECKPOINT-REFERENTS",
+  "input": "Three original dated statements, one fixed context window, primary headings and existing ordered hint",
+  "literal_inventory": {
+    "message_count": 411,
+    "no_semantic_or_creator_authentication_claim_from_counts": true,
+    "scope": "Literal whole-word matches in this creator-labeled text export only; the separately verified encoded hint is not plain-text absence evidence",
+    "source": {
+      "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+      "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+    },
+    "terms": {
+      "Cosmic Duality": {
+        "case_matching": "CASE_INSENSITIVE",
+        "distinct_original_messages": 0,
+        "exact_word_occurrences": 0,
+        "locations": []
+      },
+      "SMALL": {
+        "case_matching": "CASE_SENSITIVE",
+        "distinct_original_messages": 0,
+        "exact_word_occurrences": 0,
+        "locations": []
+      },
+      "small": {
+        "case_matching": "CASE_SENSITIVE",
+        "distinct_original_messages": 1,
+        "exact_word_occurrences": 1,
+        "locations": [
+          {
+            "character_span_zero_based_half_open": [
+              28731,
+              28736
+            ],
+            "column_one_based": 11,
+            "header": "=== [06.08.2023 07:13:30 UTC-05:00] Jrk Bgrt",
+            "line_one_based": 807,
+            "literal": "small",
+            "utf8_byte_span_zero_based_half_open": [
+              28959,
+              28964
+            ]
+          }
+        ]
+      },
+      "ying yang": {
+        "case_matching": "CASE_INSENSITIVE",
+        "distinct_original_messages": 1,
+        "exact_word_occurrences": 1,
+        "locations": [
+          {
+            "character_span_zero_based_half_open": [
+              28622,
+              28631
+            ],
+            "column_one_based": 17,
+            "header": "=== [06.08.2023 07:12:13 UTC-05:00] Jrk Bgrt",
+            "line_one_based": 804,
+            "literal": "ying yang",
+            "utf8_byte_span_zero_based_half_open": [
+              28850,
+              28859
+            ]
+          }
+        ]
+      },
+      "yingyang": {
+        "case_matching": "CASE_INSENSITIVE",
+        "distinct_original_messages": 1,
+        "exact_word_occurrences": 2,
+        "locations": [
+          {
+            "character_span_zero_based_half_open": [
+              42678,
+              42686
+            ],
+            "column_one_based": 18,
+            "header": "=== [28.04.2025 11:57:17 UTC-05:00] Jrk Bgrt",
+            "line_one_based": 1186,
+            "literal": "yingyang",
+            "utf8_byte_span_zero_based_half_open": [
+              43005,
+              43013
+            ]
+          },
+          {
+            "character_span_zero_based_half_open": [
+              42734,
+              42742
+            ],
+            "column_one_based": 74,
+            "header": "=== [28.04.2025 11:57:17 UTC-05:00] Jrk Bgrt",
+            "line_one_based": 1186,
+            "literal": "yingyang",
+            "utf8_byte_span_zero_based_half_open": [
+              43061,
+              43069
+            ]
+          }
+        ]
+      },
+      "yinyang": {
+        "case_matching": "CASE_INSENSITIVE",
+        "distinct_original_messages": 0,
+        "exact_word_occurrences": 0,
+        "locations": []
+      }
+    }
+  },
+  "new_cryptographic_trials": 0,
+  "new_trial_inputs": 0,
+  "next_test": "Audit exact source-authored relational wording in the modified Architect speech and adjacent instruction paragraphs: identify named inputs/outputs and whether prime reinsertion precedes selection. Do not extract new trial strings until an operand, selector and order are supported.",
+  "operation_order": [
+    "map three original dated checkpoint records",
+    "separate repeated words from distinct messages",
+    "map the six-message next-phase context",
+    "compare primary headings with the frozen ordered hint",
+    "retain three finite referent graphs"
+  ],
+  "ordered_hint_phrases": [
+    "yellowblueprimes",
+    "matrixsumlist",
+    "lastwordsbeforearchichoice",
+    "yinyang"
+  ],
+  "output": "Exact phrase/source maps, bounded contextual inference and three non-executed construction hypotheses",
+  "primary_headings": [
+    {
+      "character_span_zero_based_half_open": [
+        392,
+        405
+      ],
+      "column_one_based": 5,
+      "line_one_based": 16,
+      "text": "SalPhaseIon",
+      "utf8_byte_span_zero_based_half_open": [
+        392,
+        405
+      ]
+    },
+    {
+      "character_span_zero_based_half_open": [
+        2622,
+        2638
+      ],
+      "column_one_based": 5,
+      "line_one_based": 19,
+      "text": "Cosmic Duality",
+      "utf8_byte_span_zero_based_half_open": [
+        2622,
+        2638
+      ]
+    }
+  ],
+  "primary_small_literal_present": false,
+  "records": [
+    {
+      "creator_labeled_export": {
+        "archived_utc_timestamp": "2023-08-06T12:12:13+00:00",
+        "character_span_zero_based_half_open": [
+          28581,
+          28674
+        ],
+        "column_one_based": 1,
+        "header": "=== [06.08.2023 07:12:13 UTC-05:00] Jrk Bgrt",
+        "line_one_based": 802,
+        "source": {
+          "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+          "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          28809,
+          28902
+        ]
+      },
+      "exact_public_quote": "Once you hit a \"ying yang\", you'll be able to solve it the same day.",
+      "full_transcript": {
+        "archived_utc_timestamp": "2023-08-06T12:12:13+00:00",
+        "character_span_zero_based_half_open": [
+          829081,
+          829174
+        ],
+        "column_one_based": 1,
+        "header": "=== [06.08.2023 07:12:13 UTC-05:00] Jrk Bgrt",
+        "line_one_based": 22796,
+        "source": {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          837407,
+          837500
+        ]
+      },
+      "matching_exports_are_not_independent_authentication": true,
+      "quote_location": {
+        "character_span_zero_based_half_open": [
+          28606,
+          28674
+        ],
+        "column_one_based": 1,
+        "line_one_based": 804,
+        "utf8_byte_span_zero_based_half_open": [
+          28834,
+          28902
+        ]
+      },
+      "reply_target_metadata_preserved": false
+    },
+    {
+      "creator_labeled_export": {
+        "archived_utc_timestamp": "2025-04-28T16:57:17+00:00",
+        "character_span_zero_based_half_open": [
+          42661,
+          42767
+        ],
+        "column_one_based": 1,
+        "header": "=== [28.04.2025 11:57:17 UTC-05:00] Jrk Bgrt",
+        "line_one_based": 1186,
+        "source": {
+          "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+          "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          42988,
+          43094
+        ]
+      },
+      "exact_public_quote": "Did anyone found yingyang? I don't think so, you guys are so smart, when yingyang is reached, 2 hours max.",
+      "full_transcript": {
+        "archived_utc_timestamp": "2025-04-28T16:57:17+00:00",
+        "character_span_zero_based_half_open": [
+          4275547,
+          4275653
+        ],
+        "column_one_based": 1,
+        "header": "=== [28.04.2025 11:57:17 UTC-05:00] Jrk Bgrt",
+        "line_one_based": 110423,
+        "source": {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          4316869,
+          4316975
+        ]
+      },
+      "matching_exports_are_not_independent_authentication": true,
+      "quote_location": {
+        "character_span_zero_based_half_open": [
+          42661,
+          42767
+        ],
+        "column_one_based": 1,
+        "line_one_based": 1186,
+        "utf8_byte_span_zero_based_half_open": [
+          42988,
+          43094
+        ]
+      },
+      "reply_target_metadata_preserved": false
+    },
+    {
+      "creator_labeled_export": {
+        "archived_utc_timestamp": "2025-04-28T17:01:36+00:00",
+        "character_span_zero_based_half_open": [
+          43062,
+          43130
+        ],
+        "column_one_based": 1,
+        "header": "=== [28.04.2025 12:01:36 UTC-05:00] Jrk Bgrt",
+        "line_one_based": 1198,
+        "source": {
+          "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+          "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          43389,
+          43459
+        ]
+      },
+      "exact_public_quote": "It\u2019s the next phase, but I await the day someone finally gets there.",
+      "full_transcript": {
+        "archived_utc_timestamp": "2025-04-28T17:01:36+00:00",
+        "character_span_zero_based_half_open": [
+          4276709,
+          4276777
+        ],
+        "column_one_based": 1,
+        "header": "=== [28.04.2025 12:01:36 UTC-05:00] Jrk Bgrt",
+        "line_one_based": 110465,
+        "source": {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          4318040,
+          4318110
+        ]
+      },
+      "matching_exports_are_not_independent_authentication": true,
+      "quote_location": {
+        "character_span_zero_based_half_open": [
+          43062,
+          43130
+        ],
+        "column_one_based": 1,
+        "line_one_based": 1198,
+        "utf8_byte_span_zero_based_half_open": [
+          43389,
+          43459
+        ]
+      },
+      "reply_target_metadata_preserved": false
+    }
+  ],
+  "result": "hit/reached and next-phase language support recognition or later-stage semantics, but do not specify output format or a named container. The next-phase response follows the AES question by84 seconds with three intervening messages and no reply binding. Cosmic Duality is a plausible public label, not a verified destination.",
+  "revision": 2,
+  "search_space": {
+    "context_window_messages": 6,
+    "cryptographic_trials": 0,
+    "finite_referent_hypotheses": 3,
+    "original_checkpoint_messages": 3
+  },
+  "source_evidence": [
+    {
+      "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+      "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+    },
+    {
+      "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+      "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+    },
+    {
+      "path": "research/sources/salphaseion.html",
+      "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+    },
+    {
+      "path": "research/artifacts/cycle11/hint-instruction-order.json",
+      "sha256": "05a3ad4ec7ed7572f1223fb90c97612caa4fde6ffc199baeebdcd1794d74150d"
+    },
+    {
+      "path": "research/artifacts/cycle13/visual-correspondence.json",
+      "sha256": "2ab2d8c6055dfa8dc7fb2c63fe2faf9f2fcf3da1f58ac7c0305049452058664b"
+    }
+  ],
+  "source_locations": [
+    "research/evidence/cycle02/_work__creator_jrk.txt:804",
+    "research/evidence/cycle02/_work__creator_jrk.txt:1186",
+    "research/evidence/cycle02/_work__creator_jrk.txt:1198",
+    "research/evidence/cycle02/_work__chat_transcript.txt:110453",
+    "research/evidence/cycle02/_work__chat_transcript.txt:110465",
+    "research/sources/salphaseion.html:19"
+  ],
+  "status": "INCONCLUSIVE"
+}

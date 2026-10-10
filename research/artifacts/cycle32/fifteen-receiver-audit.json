@@ -1,0 +1,66 @@
+{
+  "aes_operations": 0,
+  "blue_event_candidate": {
+    "all_event_count": 25,
+    "blue_event_count": 15,
+    "blue_events_are_exactly_terminal_one_bits": true,
+    "blue_octet_indices_zero_based": [0, 1, 2, 3, 5, 6, 7, 10, 11, 12, 13, 15, 16, 19, 22],
+    "color_counts": {"blue": 15, "near_white": 1, "yellow": 9},
+    "direct_bijection_to15_bifid_columns": false,
+    "direct_distinct_column_slots": 10,
+    "image_coordinate_domain": [14, 14],
+    "independent_of_existing_url_decode": false,
+    "odd_ascii_octet_indices_zero_based": [0, 1, 2, 3, 5, 6, 7, 10, 11, 12, 13, 15, 16, 19, 22],
+    "ordinal_pairing_requires_new_assignment": true,
+    "unique_image_columns": 10,
+    "unique_image_rows": 12
+  },
+  "candidate_lists_generated": 0,
+  "checksum_tests": 0,
+  "classification": {
+    "bip39_as_receiver": "WEAK:15 is valid externally, but BIP39 is not a recovered puzzle object and no authored binding exists",
+    "blue_event_ordinal_to_bifid_column_pairing": "UNKNOWN/WEAK: a bijection can be imposed by ordinal, but no public rule assigns it",
+    "known_recovered_fixed_size15_receiver": "REJECTED: zero objects in the frozen recovered-object inventory have size15",
+    "ordered_blue_events_as_direct_receiver": "REJECTED: the15 blue events are exactly the existing URL bytes with terminal bit1 and expose only10 distinct image columns"
+  },
+  "date": "2026-10-02",
+  "exact_remaining_unknown": "A downstream receiver type or authored assignment is absent. The only exact15 compatibility found is an external BIP39 format, whose use would require creating and checking candidate indices under an unbound numeric map.",
+  "external_standard_candidate": {
+    "allowed_word_counts": [12, 15, 18, 21, 24],
+    "fifteen_is_allowed": true,
+    "name": "BIP39 mnemonic",
+    "recovered_public_puzzle_object": false,
+    "source_authored_binding": false
+  },
+  "graph_effect": "Do not add a Bifid15-groups to blue15-events edge. The blue cardinality is a dependent property of the existing URL decode, not an independent15-slot receiver. No internal recovered receiver remains for the proposed list.",
+  "hypothesis": "An already recovered public puzzle object supplies an independently typed fifteen-slot receiver for the fifteen dependency-preserving Bifid groups.",
+  "id": "C32-FIFTEEN-RECEIVER-AUDIT",
+  "invariant": "A native receiver must expose fifteen distinct slots independently of the producer and supply a source-backed assignment rule; equal cardinality alone is insufficient.",
+  "mnemonic_words_generated": 0,
+  "next_test": "Stop structural execution unless new source evidence names a fifteen-slot receiver or binds matrixsumlist to a numeric map. Do not infer a receiver from cardinality alone.",
+  "numeric_mapping_trials": 0,
+  "numeric_sum_vectors_calculated": 0,
+  "private_key_operations": 0,
+  "recovered_object_inventory": {
+    "exact_size15_objects": [],
+    "object_sizes": {
+      "Bifid-body563": {"size": 563, "unit": "ASCII characters"},
+      "Bifid570": {"size": 570, "unit": "ASCII characters"},
+      "SMALL": {"size": 128, "unit": "ASCII characters"},
+      "btcseed": {"size": 7, "unit": "ASCII characters"},
+      "checker149": {"size": 149, "unit": "ASCII characters"},
+      "checkertext91": {"size": 91, "unit": "ASCII characters"},
+      "dbbi91": {"size": 91, "unit": "ASCII characters"},
+      "faed570": {"size": 570, "unit": "ASCII characters"},
+      "frame25": {"size": 25, "unit": "bits"},
+      "inner-envelope": {"size": 128, "unit": "ASCII characters"},
+      "matrix104": {"size": 104, "unit": "bits"},
+      "matrixsumlist": {"size": 13, "unit": "ASCII characters"},
+      "residual60": {"size": 60, "unit": "ASCII characters"},
+      "speech1539": {"size": 1539, "unit": "ASCII characters"}
+    },
+    "objects_checked": 14
+  },
+  "seed_derivations": 0,
+  "status": "REJECTED"
+}

@@ -1,0 +1,1642 @@
+{
+  "elapsed_seconds": 4.211,
+  "findings": {
+    "grid_triangle_note": "91=14*13/2 supports checking unordered grid-axis pairs; all 12 defined population-sum tests recorded",
+    "scoring_warning": "Checkerboard and route heuristics require independent semantic/downstream validation; text-like symbols are not confirmation",
+    "simple_pair_substitution_rejected": "faed contains 75 distinct aligned pairs at offset 0; cannot directly encode a bijective 26-letter alphabet with fixed two-symbol units"
+  },
+  "id": "C02-SAL-COORDINATES",
+  "ledger": "research/artifacts/cycle02/sal-experiments.jsonl",
+  "status": "INCONCLUSIVE",
+  "top_outputs": [
+    {
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "family": "checkerboard",
+      "id": "C02-SAL-COORDINATES:checkerboard:1821",
+      "parameters": {
+        "alphabet": "salpheionbcdfgjkmqrtuvwxyz./",
+        "alphabet_name": "salphaseion-keyed",
+        "digit_mapping": "first-occurrence-dbbi-from-1",
+        "mapping": {
+          "a": "9",
+          "b": "2",
+          "c": "6",
+          "d": "1",
+          "e": "7",
+          "f": "4",
+          "g": "8",
+          "h": "5",
+          "i": "3"
+        },
+        "prefixes": [
+          4,
+          8
+        ]
+      },
+      "plaintext_hex": "616c6c706c636865656c697570686f6c696c6970686c692e697a6c696c6c7a6868696c6868636f6c62686c696665616c6c6a6565756369692e69656c696165706c636676756969696f6c69",
+      "plaintext_latin1": "allplcheeliupholiliphli.izlillzhhilhhcolbhlifealljeeucii.ieliaeplcfvuiiioli",
+      "result": "INCONCLUSIVE",
+      "score": {
+        "alphabetic_ratio": 0.973333,
+        "bytes": 75,
+        "dictionary_coverage": 0.054795,
+        "language_score": 0.0,
+        "longest_printable_run": 75,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {
+          "life": 1
+        },
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "sha256": "861d661833cc1aaaf3d8142ea985ccf61178ccb103c79e93cd915fc71ae5d6dc",
+      "source": {
+        "locator": "dbbi",
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "structural_validity": [],
+      "transformation": "letter-to-digit then straddling checkerboard"
+    },
+    {
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "family": "checkerboard",
+      "id": "C02-SAL-COORDINATES:checkerboard:1441",
+      "parameters": {
+        "alphabet": "matrixsulbcdefghjknopqvwyz./",
+        "alphabet_name": "matrixsumlist-keyed",
+        "digit_mapping": "first-occurrence-dbbi-reverse-from-0",
+        "mapping": {
+          "a": "0",
+          "b": "7",
+          "c": "3",
+          "d": "8",
+          "e": "2",
+          "f": "5",
+          "g": "1",
+          "h": "4",
+          "i": "6"
+        },
+        "prefixes": [
+          1,
+          8
+        ]
+      },
+      "plaintext_hex": "7a737873697372747473616878726d7361736178727361626163736173736372726173727269736d73697673616969747a7369747474686973616162617473617178736973696967686161616d7361",
+      "plaintext_latin1": "zsxsisrttsahxrmsasaxrsabacsasscrrasrrismsivsaiitzsittthisaabatsaqxsisiighaaamsa",
+      "result": "INCONCLUSIVE",
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 79,
+        "dictionary_coverage": 0.050633,
+        "language_score": 0.025974,
+        "longest_printable_run": 79,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {
+          "this": 1
+        },
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "sha256": "e6f1b0707e87a1ee6776ba4176884c76c5c1a0c5ca2329af7609c61cab79455d",
+      "source": {
+        "locator": "dbbi",
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "structural_validity": [],
+      "transformation": "letter-to-digit then straddling checkerboard"
+    },
+    {
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "family": "checkerboard",
+      "id": "C02-SAL-COORDINATES:checkerboard:1827",
+      "parameters": {
+        "alphabet": "salpheionbcdfgjkmqrtuvwxyz./",
+        "alphabet_name": "salphaseion-keyed",
+        "digit_mapping": "first-occurrence-dbbi-from-1",
+        "mapping": {
+          "a": "9",
+          "b": "2",
+          "c": "6",
+          "d": "1",
+          "e": "7",
+          "f": "4",
+          "g": "8",
+          "h": "5",
+          "i": "3"
+        },
+        "prefixes": [
+          4,
+          9
+        ]
+      },
+      "plaintext_hex": "616c6c706c636865656c696f6c706875696c6970686c696f6f696f696c696c6c6f696868696c6868637562686c696665616c6c6a65656f6c6369696f6f69656c696165706c63666f706f6c6969697569",
+      "plaintext_latin1": "allplcheeliolphuiliphliooioililloihhilhhcubhlifealljeeolciiooieliaeplcfopoliiiui",
+      "result": "INCONCLUSIVE",
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 80,
+        "dictionary_coverage": 0.05,
+        "language_score": 0.0,
+        "longest_printable_run": 80,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {
+          "life": 1
+        },
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "sha256": "ff8b04c58e1c117cae2b276b83dac6ebb5f497db1d7da61c72f51342d6dd5f5b",
+      "source": {
+        "locator": "dbbi",
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "structural_validity": [],
+      "transformation": "letter-to-digit then straddling checkerboard"
+    },
+    {
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "family": "checkerboard",
+      "id": "C02-SAL-COORDINATES:checkerboard:1885",
+      "parameters": {
+        "alphabet": "matrixsulbcdefghjknopqvwyz./",
+        "alphabet_name": "matrixsumlist-keyed",
+        "digit_mapping": "first-occurrence-dbbi-from-1",
+        "mapping": {
+          "a": "9",
+          "b": "2",
+          "c": "6",
+          "d": "1",
+          "e": "7",
+          "f": "4",
+          "g": "8",
+          "h": "5",
+          "i": "3"
+        },
+        "prefixes": [
+          8,
+          9
+        ]
+      },
+      "plaintext_hex": "61747472746974787373747563727870757475727874756a7568747574746878787574787869747069617874756969736174746973737363697475756a75737475617372746974696964637575757075",
+      "plaintext_latin1": "attrtitxsstucrxputurxtujuhtutthxxutxxitpiaxtuiisattissscituujustuasrtitiidcuuupu",
+      "result": "INCONCLUSIVE",
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 80,
+        "dictionary_coverage": 0.05,
+        "language_score": 0.0,
+        "longest_printable_run": 80,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {
+          "just": 1
+        },
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "sha256": "30277d96827f3b4595bdf92d1940f84da1ab78e5c1df14863ed320059035f1f3",
+      "source": {
+        "locator": "dbbi",
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "structural_validity": [],
+      "transformation": "letter-to-digit then straddling checkerboard"
+    },
+    {
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "family": "checkerboard",
+      "id": "C02-SAL-COORDINATES:checkerboard:4948",
+      "parameters": {
+        "alphabet": "themarixsyoubcdfgjklnpqvwz./",
+        "alphabet_name": "thematrixhasyou-keyed",
+        "digit_mapping": "a1-zero-nonprime-values",
+        "mapping": {
+          "a": "0",
+          "b": "2",
+          "c": "3",
+          "d": "0",
+          "e": "5",
+          "f": "0",
+          "g": "7",
+          "h": "0",
+          "i": "0"
+        },
+        "prefixes": [
+          1,
+          7
+        ]
+      },
+      "plaintext_hex": "7468687468746874656568616e74747468616861747468617a61766861686876747461687474746874687474746861747465746868746565656e746861617a6165686174657468746874746b6e616161746861",
+      "plaintext_latin1": "thhththteehanttthahatthazavhahhvttahttththttthattethhteeenthaazaehateththttknaaatha",
+      "result": "INCONCLUSIVE",
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 83,
+        "dictionary_coverage": 0.048193,
+        "language_score": 0.148148,
+        "longest_printable_run": 83,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {
+          "that": 1
+        },
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "sha256": "ca4f1f2bb09c6101db63cafd5c2afe057408e00e90769435c24bcc6ac028edd3",
+      "source": {
+        "locator": "dbbi",
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "structural_validity": [],
+      "transformation": "letter-to-digit then straddling checkerboard"
+    },
+    {
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "family": "checkerboard",
+      "id": "C02-SAL-COORDINATES:checkerboard:1447",
+      "parameters": {
+        "alphabet": "matrixsulbcdefghjknopqvwyz./",
+        "alphabet_name": "matrixsumlist-keyed",
+        "digit_mapping": "first-occurrence-dbbi-reverse-from-0",
+        "mapping": {
+          "a": "0",
+          "b": "7",
+          "c": "3",
+          "d": "8",
+          "e": "2",
+          "f": "5",
+          "g": "1",
+          "h": "4",
+          "i": "6"
+        },
+        "prefixes": [
+          1,
+          9
+        ]
+      },
+      "plaintext_hex": "7573737873697372747473616878726d7361736178727361626163736173736372726173727269736d7369757273616969747573736974747468697361616261747361757478736973696967686161616d7361",
+      "plaintext_latin1": "ussxsisrttsahxrmsasaxrsabacsasscrrasrrismsiursaiitussittthisaabatsautxsisiighaaamsa",
+      "result": "INCONCLUSIVE",
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 83,
+        "dictionary_coverage": 0.048193,
+        "language_score": 0.024691,
+        "longest_printable_run": 83,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {
+          "this": 1
+        },
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "sha256": "f84d8bbb893f378e18daf6bf561be81062655621ec43d027fbab79bef61304bf",
+      "source": {
+        "locator": "dbbi",
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "structural_validity": [],
+      "transformation": "letter-to-digit then straddling checkerboard"
+    },
+    {
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "family": "checkerboard",
+      "id": "C02-SAL-COORDINATES:checkerboard:4942",
+      "parameters": {
+        "alphabet": "themarixsyoubcdfgjklnpqvwz./",
+        "alphabet_name": "thematrixhasyou-keyed",
+        "digit_mapping": "a1-zero-nonprime-values",
+        "mapping": {
+          "a": "0",
+          "b": "2",
+          "c": "3",
+          "d": "0",
+          "e": "5",
+          "f": "0",
+          "g": "7",
+          "h": "0",
+          "i": "0"
+        },
+        "prefixes": [
+          1,
+          6
+        ]
+      },
+      "plaintext_hex": "74686874687468746565686172687474746861686174746861727261726168616868726174746168747474687468747474686174746574686874656565726874686161727261656861746574687468747472747268616161746861",
+      "plaintext_latin1": "thhththteeharhttthahattharrarahahhrattahttththttthattethhteeerhthaarraehateththttrtrhaaatha",
+      "result": "INCONCLUSIVE",
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 91,
+        "dictionary_coverage": 0.043956,
+        "language_score": 0.11236,
+        "longest_printable_run": 91,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {
+          "that": 1
+        },
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "sha256": "b11febf0ea32f14e2b27474598aa6e18821b18d0eb2243c85bbc85a890cd5786",
+      "source": {
+        "locator": "dbbi",
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "structural_validity": [],
+      "transformation": "letter-to-digit then straddling checkerboard"
+    },
+    {
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "family": "checkerboard",
+      "id": "C02-SAL-COORDINATES:checkerboard:4954",
+      "parameters": {
+        "alphabet": "themarixsyoubcdfgjklnpqvwz./",
+        "alphabet_name": "thematrixhasyou-keyed",
+        "digit_mapping": "a1-zero-nonprime-values",
+        "mapping": {
+          "a": "0",
+          "b": "2",
+          "c": "3",
+          "d": "0",
+          "e": "5",
+          "f": "0",
+          "g": "7",
+          "h": "0",
+          "i": "0"
+        },
+        "prefixes": [
+          1,
+          8
+        ]
+      },
+      "plaintext_hex": "74686874687468746565686169687474746861686174746861696961696168616868696174746168747474687468747474686174746574686874656565696874686161696961656861746574687468747469746968616161746861",
+      "plaintext_latin1": "thhththteehaihttthahatthaiiaiahahhiattahttththttthattethhteeeihthaaiiaehateththttitihaaatha",
+      "result": "INCONCLUSIVE",
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 91,
+        "dictionary_coverage": 0.043956,
+        "language_score": 0.11236,
+        "longest_printable_run": 91,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {
+          "that": 1
+        },
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "sha256": "bbf10549a3b76bac3d23e67c291205786e4dc30feda997590d9f1b9ff42d6d47",
+      "source": {
+        "locator": "dbbi",
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "structural_validity": [],
+      "transformation": "letter-to-digit then straddling checkerboard"
+    },
+    {
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "family": "checkerboard",
+      "id": "C02-SAL-COORDINATES:checkerboard:4960",
+      "parameters": {
+        "alphabet": "themarixsyoubcdfgjklnpqvwz./",
+        "alphabet_name": "thematrixhasyou-keyed",
+        "digit_mapping": "a1-zero-nonprime-values",
+        "mapping": {
+          "a": "0",
+          "b": "2",
+          "c": "3",
+          "d": "0",
+          "e": "5",
+          "f": "0",
+          "g": "7",
+          "h": "0",
+          "i": "0"
+        },
+        "prefixes": [
+          1,
+          9
+        ]
+      },
+      "plaintext_hex": "74686874687468746565686169687474746861686174746861696961696168616868696174746168747474687468747474686174746574686874656565696874686161696961656861746574687468747469746968616161746861",
+      "plaintext_latin1": "thhththteehaihttthahatthaiiaiahahhiattahttththttthattethhteeeihthaaiiaehateththttitihaaatha",
+      "result": "INCONCLUSIVE",
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 91,
+        "dictionary_coverage": 0.043956,
+        "language_score": 0.11236,
+        "longest_printable_run": 91,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {
+          "that": 1
+        },
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "sha256": "bbf10549a3b76bac3d23e67c291205786e4dc30feda997590d9f1b9ff42d6d47",
+      "source": {
+        "locator": "dbbi",
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "structural_validity": [],
+      "transformation": "letter-to-digit then straddling checkerboard"
+    },
+    {
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "family": "checkerboard",
+      "id": "C02-SAL-COORDINATES:checkerboard:9100",
+      "parameters": {
+        "alphabet": "themarixsyoubcdfgjklnpqvwz./",
+        "alphabet_name": "thematrixhasyou-keyed",
+        "digit_mapping": "a1-zero-g",
+        "mapping": {
+          "a": "1",
+          "b": "2",
+          "c": "3",
+          "d": "4",
+          "e": "5",
+          "f": "6",
+          "g": "0",
+          "h": "8",
+          "i": "9"
+        },
+        "prefixes": [
+          4,
+          6
+        ]
+      },
+      "plaintext_hex": "6c6173746161646d657965696974746d6875766274717465747874686861737478686c616d746974746d7978696169686965686978746d61786b656b616b68786c65786c7468617461686d7465656168746b7461617474686e686d74706f6178776868707879697463616b69696d74746861746365696961746174696d61746864656a68746170786d747478716d74686874746e787468786d6e69616d68616d656d617868786d616574657478616d6374746b6174686173742f786d7878782f2e74746d746b75737461706561617874612f6574786574747469696e6d747871616961647974786d6f69786d7468786179616968697469696d786973692e6578786d616d6578786d697869787878747862746169696475696d65686b6e6968696168746174616d687669746d6b7474746d68742e69746965687869786a61696971617474736d7869747474747469687969787478746574616d7461646d7374686d6d636978786d78746e776974746861786f65617865656178787174716978616161786161616d78717479696a74742e61742f6877787474656d656d61696d6168656e616f7878656e71616361697478746c687874746874656178786d6978616a6e616974656d6d686969657878657865657865756568696878676c69787869786d",
+      "plaintext_latin1": "lastaadmeyeiittmhuvbtqtetxthhastxhlamtittmyxiaihiehixtmaxkekakhxlexlthatahmteeahtktaatthnhmtpoaxwhhpxyitcakiimtthatceiiatatimathdejhtapxmttxqmthhttnxthxmniamhamemaxhxmaetetxamcttkathast/xmxxx/.ttmtkustapeaaxta/etxetttiinmtxqaiadytxmoixmthxayaihitiimxisi.exxmamexxmixixxxtxbtaiiduimehknihiahtatamhvitmktttmht.itiehxixjaiiqattsmxitttttihyixtxtetamtadmsthmmcixxmxtnwitthaxoeaxeeaxxqtqixaaaxaaamxqtyijtt.at/hwxttememaimahenaoxxenqacaitxtlhxtthteaxxmixajnaitemmhiiexxexeexeuehihxglixxixm",
+      "result": "INCONCLUSIVE",
+      "score": {
+        "alphabetic_ratio": 0.983402,
+        "bytes": 482,
+        "dictionary_coverage": 0.025316,
+        "language_score": 0.012712,
+        "longest_printable_run": 482,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {
+          "last": 1,
+          "that": 2
+        },
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "sha256": "47482734a16d8807744eabf87c2ae05aa697502222636f97e17897814d7fa67e",
+      "source": {
+        "locator": "faed",
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "structural_validity": [],
+      "transformation": "letter-to-digit then straddling checkerboard"
+    },
+    {
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "family": "checkerboard",
+      "id": "C02-SAL-COORDINATES:checkerboard:10078",
+      "parameters": {
+        "alphabet": "themarixsyoubcdfgjklnpqvwz./",
+        "alphabet_name": "thematrixhasyou-keyed",
+        "digit_mapping": "a1-zero-nonprime-values",
+        "mapping": {
+          "a": "0",
+          "b": "2",
+          "c": "3",
+          "d": "0",
+          "e": "5",
+          "f": "0",
+          "g": "7",
+          "h": "0",
+          "i": "0"
+        },
+        "prefixes": [
+          1,
+          7
+        ]
+      },
+      "plaintext_hex": "747461747a61617474656874746874747a65747465746174746b746e6b6b7461747a7474747461656b7a65747474746174747468747474706174746e7476746b747474687474746b617674656e6861746b7a61617a74746874656b6574686174747474747465747474746b6161746b74657a74616b6168747461766b65616b74746874747476746574657a747474656b747a7468746b746574687461657461656865617474746561686e6b616574617a74766b61747a74747465747474747474747a656b6b65747a61746568616174767474686b687a6b747468656b7474617461747474746b6574687474656b74617474617474746b74657474746b7474687474656165687474657474747474746b74747674747474746574656874746b6874747461747676657474617470747a7a65746b74746b687474747474746174747474617a747074747a7a6b74747474746b6e766576747465747a746565746174747465746b687474747a7461747468686174686861747474746b74747461616174616161657474746b747474747a7474616b74747474747a6865686561746561746874686174687474687468747461746161746b6b7474747a746e617474657474617474746861746e65657474746874746874686874687465687474747474747474747474747465",
+      "plaintext_latin1": "ttatzaattehtthttzettetattktnkktatzttttaekzettttattthtttpattntvtkttthtttkavtenhatkzaaztthtekethattttttettttkaatkteztakahttavkeaktthtttvteteztttektzthtktethtaetaeheattteahnkaetaztvkatztttetttttttzekketzatehaatvtthkhzktthekttatattttkethttektattatttktetttktthtteaehttettttttkttvtttttetehttkhtttatvvettatptzzetkttkhttttttattttaztpttzzktttttknvevttetzteetatttetkhtttztatthhathhattttktttaaataaaetttkttttzttaktttttzheheateaththathtththttataatkktttztnattettattthatneettthtththhthtehttttttttttttte",
+      "result": "INCONCLUSIVE",
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 487,
+        "dictionary_coverage": 0.024641,
+        "language_score": 0.026804,
+        "longest_printable_run": 487,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {
+          "that": 3
+        },
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "sha256": "d89bffaa6cb69daeac71860703f1886826a4dbbb8ceda37cb07a123169ce7bc4",
+      "source": {
+        "locator": "faed",
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "structural_validity": [],
+      "transformation": "letter-to-digit then straddling checkerboard"
+    },
+    {
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "family": "checkerboard",
+      "id": "C02-SAL-COORDINATES:checkerboard:9832",
+      "parameters": {
+        "alphabet": "themarixsyoubcdfgjklnpqvwz./",
+        "alphabet_name": "thematrixhasyou-keyed",
+        "digit_mapping": "a1-zero-prime-values",
+        "mapping": {
+          "a": "1",
+          "b": "0",
+          "c": "0",
+          "d": "4",
+          "e": "0",
+          "f": "6",
+          "g": "0",
+          "h": "8",
+          "i": "9"
+        },
+        "prefixes": [
+          2,
+          4
+        ]
+      },
+      "plaintext_hex": "6168746b7474747774746c746969747474686b61747174616b747478746868746b7478686168747474697474746c786974696869746869787474747861747461747461746878616874786168746874747468747474747468746174747474747468617468747461746b7478616168686174786c69746b74617469697474746874746b74696974747474697474746877742f68747461747874747478616b74686874746174787468787461746974746874747474747868787474747474747874746b74746174747468746b7461787874787878617861697474747461746b6b7474617474747478747461787474787474747469696174747478616b6974776c7478746b697874746878746c746968697469697478696b6961697478787474747478787469786978787874787174746969776b6974746861746174696869746874747474746861746974746174747474746874616969746974687869782f746969616b74746b747869747474747469686c697874787474747474747477746b746874746b697878747874617461616974746874786b7474787474747878616b612e78747474787474747478616b6c692f7474616974746178686161787474747474747469747468746174746b7878746174616b6b7469747874616868787474687474747878746978742f61747469747474746869697478787478747478746b74686968782e6168697878697874",
+      "plaintext_latin1": "ahtktttwttltiittthkatqtakttxthhtktxhahtttitttlxitihithixtttxattattathxahtxahthttthttttthtatttttthathttatktxaahhatxlitktatiittthttktiittttittthwt/httatxtttxakthhttatxthxtatitthtttttxhxttttttxttkttattthtktaxxtxxxaxaittttatkkttattttxttaxttxttttiiatttxakitwltxtkixtthxtltihitiitxikiaitxxttttxxtixixxxtxqttiiwkitthatatihithttttthatittattttthtaiitithxix/tiiakttktxitttttihlixtxtttttttwtkthttkixxtxtataaitthtxkttxtttxxaka.xtttxttttxakli/ttaittaxhaaxtttttttitthtattkxxtatakktitxtahhxtthtttxxtixt/attitttthiitxxtxttxtkthihx.ahixxixt",
+      "result": "INCONCLUSIVE",
+      "score": {
+        "alphabetic_ratio": 0.988528,
+        "bytes": 523,
+        "dictionary_coverage": 0.023211,
+        "language_score": 0.019417,
+        "longest_printable_run": 523,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {
+          "that": 3
+        },
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "sha256": "e29449ca55443de76f5d68d0846da43174a7d377cdfd6531882c62e014f42c17",
+      "source": {
+        "locator": "faed",
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "structural_validity": [],
+      "transformation": "letter-to-digit then straddling checkerboard"
+    },
+    {
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "family": "checkerboard",
+      "id": "C02-SAL-COORDINATES:checkerboard:9868",
+      "parameters": {
+        "alphabet": "themarixsyoubcdfgjklnpqvwz./",
+        "alphabet_name": "thematrixhasyou-keyed",
+        "digit_mapping": "a1-zero-prime-values",
+        "mapping": {
+          "a": "1",
+          "b": "0",
+          "c": "0",
+          "d": "4",
+          "e": "0",
+          "f": "6",
+          "g": "0",
+          "h": "8",
+          "i": "9"
+        },
+        "prefixes": [
+          3,
+          4
+        ]
+      },
+      "plaintext_hex": "6168746b7474747774746c746969747474686b61747174616b747478746868746b7478686168747474697474746c786974696869746869787474747861747461747461746878616874786168746874747468747474747468746174747474747468617468747461746b7478616168686174786c69746b74617469697474746874746b74696974747474697474746877742f68747461747874747478616b74686874746174787468787461746974746874747474747868787474747474747874746b74746174747468746b7461787874787878617861697474747461746b6b7474617474747478747461787474787474747469696174747478616b6974776c7478746b697874746878746c746968697469697478696b6961697478787474747478787469786978787874787174746969776b6974746861746174696869746874747474746861746974746174747474746874616969746974687869782f746969616b74746b747869747474747469686c697874787474747474747477746b746874746b697878747874617461616974746874786b7474787474747878616b612e78747474787474747478616b6c692f7474616974746178686161787474747474747469747468746174746b7878746174616b6b7469747874616868787474687474747878746978742f61747469747474746869697478787478747478746b74686968782e6168697878697874",
+      "plaintext_latin1": "ahtktttwttltiittthkatqtakttxthhtktxhahtttitttlxitihithixtttxattattathxahtxahthttthttttthtatttttthathttatktxaahhatxlitktatiittthttktiittttittthwt/httatxtttxakthhttatxthxtatitthtttttxhxttttttxttkttattthtktaxxtxxxaxaittttatkkttattttxttaxttxttttiiatttxakitwltxtkixtthxtltihitiitxikiaitxxttttxxtixixxxtxqttiiwkitthatatihithttttthatittattttthtaiitithxix/tiiakttktxitttttihlixtxtttttttwtkthttkixxtxtataaitthtxkttxtttxxaka.xtttxttttxakli/ttaittaxhaaxtttttttitthtattkxxtatakktitxtahhxtthtttxxtixt/attitttthiitxxtxttxtkthihx.ahixxixt",
+      "result": "INCONCLUSIVE",
+      "score": {
+        "alphabetic_ratio": 0.988528,
+        "bytes": 523,
+        "dictionary_coverage": 0.023211,
+        "language_score": 0.019417,
+        "longest_printable_run": 523,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {
+          "that": 3
+        },
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "sha256": "e29449ca55443de76f5d68d0846da43174a7d377cdfd6531882c62e014f42c17",
+      "source": {
+        "locator": "faed",
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "structural_validity": [],
+      "transformation": "letter-to-digit then straddling checkerboard"
+    },
+    {
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "family": "checkerboard",
+      "id": "C02-SAL-COORDINATES:checkerboard:9904",
+      "parameters": {
+        "alphabet": "themarixsyoubcdfgjklnpqvwz./",
+        "alphabet_name": "thematrixhasyou-keyed",
+        "digit_mapping": "a1-zero-prime-values",
+        "mapping": {
+          "a": "1",
+          "b": "0",
+          "c": "0",
+          "d": "4",
+          "e": "0",
+          "f": "6",
+          "g": "0",
+          "h": "8",
+          "i": "9"
+        },
+        "prefixes": [
+          4,
+          5
+        ]
+      },
+      "plaintext_hex": "6168747374747464747479746969747474687361746274617374747874686874737478686168747474697474747978697469686974686978747474786174746174746174687861687478616874687474746874747474746874617474747474746861746874746174737478616168686174787969747374617469697474746874747374696974747474697474746864746a687474617478747474786173746868747461747874687874617469747468747474747478687874747474747478747473747461747474687473746178787478787861786169747474746174737374746174747474787474617874747874747474696961747474786173697464797478747369787474687874797469686974696974786973696169747878747474747878746978697878787478627474696964736974746861746174696869746874747474746861746974746174747474746874616969746974687869786a7469696173747473747869747474747469687969787478747474747474746474737468747473697878747874617461616974746874787374747874747478786173616778747474787474747478617379696a7474616974746178686161787474747474747469747468746174747378787461746173737469747874616868787474687474747878746978746a6174746974747474686969747878747874747874737468696878676168697878697874",
+      "plaintext_latin1": "ahtstttdttytiittthsatbtasttxthhtstxhahtttitttyxitihithixtttxattattathxahtxahthttthttttthtatttttthathttatstxaahhatxyitstatiittthttstiittttittthdtjhttatxtttxasthhttatxthxtatitthtttttxhxttttttxttsttattthtstaxxtxxxaxaittttatssttattttxttaxttxttttiiatttxasitdytxtsixtthxtytihitiitxisiaitxxttttxxtixixxxtxbttiidsitthatatihithttttthatittattttthtaiitithxixjtiiasttstxitttttihyixtxtttttttdtsthttsixxtxtataaitthtxsttxtttxxasagxtttxttttxasyijttaittaxhaaxtttttttitthtattsxxtatasstitxtahhxtthtttxxtixtjattitttthiitxxtxttxtsthihxgahixxixt",
+      "result": "INCONCLUSIVE",
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 523,
+        "dictionary_coverage": 0.022945,
+        "language_score": 0.019194,
+        "longest_printable_run": 523,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {
+          "that": 3
+        },
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "sha256": "0688e54b8c6a47fb4a75c8ba79e692ddc53fb71944a417197462a87758c02e89",
+      "source": {
+        "locator": "faed",
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "structural_validity": [],
+      "transformation": "letter-to-digit then straddling checkerboard"
+    },
+    {
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "family": "checkerboard",
+      "id": "C02-SAL-COORDINATES:checkerboard:10084",
+      "parameters": {
+        "alphabet": "themarixsyoubcdfgjklnpqvwz./",
+        "alphabet_name": "thematrixhasyou-keyed",
+        "digit_mapping": "a1-zero-nonprime-values",
+        "mapping": {
+          "a": "0",
+          "b": "2",
+          "c": "3",
+          "d": "0",
+          "e": "5",
+          "f": "0",
+          "g": "7",
+          "h": "0",
+          "i": "0"
+        },
+        "prefixes": [
+          1,
+          8
+        ]
+      },
+      "plaintext_hex": "747461746969616174746568747468747469696574746574617474697474696869746974746174696974747474616569746969657474747461747474687474746965617474696874696174697474747468747474697461696174656968686174697469696161696974746874656974657468617474747474746574747474697461617469747465696974616974616874746169616974656169747474687474746961746574656969747474656974746969746874697474657468746165746165686561747474656168696869746165746169697469616974617469697474746574747474747474696965697469746574696961746568616174696174746869746869696974747468656974747461746174747474697465746874746569747461747461747474697474657474746974747468747465616568747465747474747474697474746961747474747465746568747469746874747461746961696165747461746965746969696965746974747469746874747474747461747474746169697469657474696969696974747474747469746968696165696174746574696974656574617474746574697468747474696974617474686861746868617474747469747474746161617461616165747474697474747474696974746169747474747474696968656865617465617468746861746874746874687474617461617469746974747474696974696861747465747461747474686174696865657474746874746874686874687465687474747474747474747474747465",
+      "plaintext_latin1": "ttatiiaattehtthttiiettetattittihitittatiittttaeitiiettttattthtttieattihtiatitttthtttitaiateihhatitiiaaiitthteitethattttttettttitaatitteiitaitahttaiaiteaittthtttiateteiittteittiithtittethtaetaeheattteahihitaetaiitiaitatiitttetttttttiieititetiiatehaatiatthithiiitttheitttatattttitethtteittattatttittetttittthtteaehttettttttitttiatttttetehttithtttatiaiaettatietiiiietitttithttttttattttaiitiettiiiiittttttitihiaeiattetiiteetatttetithtttiitatthhathhattttittttaaataaaetttitttttiittaittttttiiheheateaththathtththttataatitittttiitihattettattthatiheettthtththhthtehttttttttttttte",
+      "result": "INCONCLUSIVE",
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 570,
+        "dictionary_coverage": 0.021053,
+        "language_score": 0.028169,
+        "longest_printable_run": 570,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {
+          "that": 3
+        },
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "sha256": "a3c660995753742c3e6983d2aab6788d942677fb390177ad261281c3d3dedf85",
+      "source": {
+        "locator": "faed",
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "structural_validity": [],
+      "transformation": "letter-to-digit then straddling checkerboard"
+    },
+    {
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "family": "checkerboard",
+      "id": "C02-SAL-COORDINATES:checkerboard:10090",
+      "parameters": {
+        "alphabet": "themarixsyoubcdfgjklnpqvwz./",
+        "alphabet_name": "thematrixhasyou-keyed",
+        "digit_mapping": "a1-zero-nonprime-values",
+        "mapping": {
+          "a": "0",
+          "b": "2",
+          "c": "3",
+          "d": "0",
+          "e": "5",
+          "f": "0",
+          "g": "7",
+          "h": "0",
+          "i": "0"
+        },
+        "prefixes": [
+          1,
+          9
+        ]
+      },
+      "plaintext_hex": "747461746969616174746568747468747469696574746574617474697474696869746974746174696974747474616569746969657474747461747474687474746965617474696874696174697474747468747474697461696174656968686174697469696161696974746874656974657468617474747474746574747474697461617469747465696974616974616874746169616974656169747474687474746961746574656969747474656974746969746874697474657468746165746165686561747474656168696869746165746169697469616974617469697474746574747474747474696965697469746574696961746568616174696174746869746869696974747468656974747461746174747474697465746874746569747461747461747474697474657474746974747468747465616568747465747474747474697474746961747474747465746568747469746874747461746961696165747461746965746969696965746974747469746874747474747461747474746169697469657474696969696974747474747469746968696165696174746574696974656574617474746574697468747474696974617474686861746868617474747469747474746161617461616165747474697474747474696974746169747474747474696968656865617465617468746861746874746874687474617461617469746974747474696974696861747465747461747474686174696865657474746874746874686874687465687474747474747474747474747465",
+      "plaintext_latin1": "ttatiiaattehtthttiiettetattittihitittatiittttaeitiiettttattthtttieattihtiatitttthtttitaiateihhatitiiaaiitthteitethattttttettttitaatitteiitaitahttaiaiteaittthtttiateteiittteittiithtittethtaetaeheattteahihitaetaiitiaitatiitttetttttttiieititetiiatehaatiatthithiiitttheitttatattttitethtteittattatttittetttittthtteaehttettttttitttiatttttetehttithtttatiaiaettatietiiiietitttithttttttattttaiitiettiiiiittttttitihiaeiattetiiteetatttetithtttiitatthhathhattttittttaaataaaetttitttttiittaittttttiiheheateaththathtththttataatitittttiitihattettattthatiheettthtththhthtehttttttttttttte",
+      "result": "INCONCLUSIVE",
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 570,
+        "dictionary_coverage": 0.021053,
+        "language_score": 0.028169,
+        "longest_printable_run": 570,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {
+          "that": 3
+        },
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "sha256": "a3c660995753742c3e6983d2aab6788d942677fb390177ad261281c3d3dedf85",
+      "source": {
+        "locator": "faed",
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "structural_validity": [],
+      "transformation": "letter-to-digit then straddling checkerboard"
+    },
+    {
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "family": "checkerboard",
+      "id": "C02-SAL-COORDINATES:checkerboard:10072",
+      "parameters": {
+        "alphabet": "themarixsyoubcdfgjklnpqvwz./",
+        "alphabet_name": "thematrixhasyou-keyed",
+        "digit_mapping": "a1-zero-nonprime-values",
+        "mapping": {
+          "a": "0",
+          "b": "2",
+          "c": "3",
+          "d": "0",
+          "e": "5",
+          "f": "0",
+          "g": "7",
+          "h": "0",
+          "i": "0"
+        },
+        "prefixes": [
+          1,
+          6
+        ]
+      },
+      "plaintext_hex": "747461747272616174746568747468747472726574746574617474727474726872747274746174727274747474616572747272657474747461747474687474747265617474726874726174727474747468747474727461726174657268686174727472726161727274746874657274657468617474747474746574747474727461617472747465727274617274616874746172617274656172747474687474747261746574657272747474657274747272746874727474657468746165746165686561747474656168726872746165746172727472617274617472727474746574747474747474727265727472746574727261746568616174726174746872746872727274747468657274747461746174747474727465746874746572747461747461747474727474657474747274747468747465616568747465747474747474727474747261747474747465746568747472746874747461747261726165747461747265747272727265747274747472746874747474747461747474746172727472657474727272727274747474747472747268726165726174746574727274656574617474746574727468747474727274617474686861746868617474747472747474746161617461616165747474727474747474727274746172747474747474727268656865617465617468746861746874746874687474617461617472747274747474727274726861747465747461747474686174726865657474746874746874686874687465687474747474747474747474747465",
+      "plaintext_latin1": "ttatrraattehtthttrrettetattrttrhrtrttatrrttttaertrrettttattthtttreattrhtratrtttthtttrtaraterhhatrtrraarrtthtertethattttttettttrtaatrtterrtartahttarartearttthtttrateterrttterttrrthtrttethtaetaeheattteahrhrtaetarrtrartatrrtttetttttttrrertrtetrratehaatratthrthrrrttthertttatattttrtethtterttattatttrttetttrttthtteaehttettttttrtttratttttetehttrthtttatraraettatretrrrretrtttrthttttttattttarrtrettrrrrrttttttrtrhraerattetrrteetatttetrthtttrrtatthhathhattttrttttaaataaaetttrtttttrrttarttttttrrheheateaththathtththttataatrtrttttrrtrhattettattthatrheettthtththhthtehttttttttttttte",
+      "result": "INCONCLUSIVE",
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 570,
+        "dictionary_coverage": 0.021053,
+        "language_score": 0.026408,
+        "longest_printable_run": 570,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {
+          "that": 3
+        },
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "sha256": "f0633504ff6ac8b8b7ef7ba4d0c15a6add4ae2726369d6252ceb153dd97effeb",
+      "source": {
+        "locator": "faed",
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "structural_validity": [],
+      "transformation": "letter-to-digit then straddling checkerboard"
+    },
+    {
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "family": "checkerboard",
+      "id": "C02-SAL-COORDINATES:checkerboard:9826",
+      "parameters": {
+        "alphabet": "themarixsyoubcdfgjklnpqvwz./",
+        "alphabet_name": "thematrixhasyou-keyed",
+        "digit_mapping": "a1-zero-prime-values",
+        "mapping": {
+          "a": "1",
+          "b": "0",
+          "c": "0",
+          "d": "4",
+          "e": "0",
+          "f": "6",
+          "g": "0",
+          "h": "8",
+          "i": "9"
+        },
+        "prefixes": [
+          2,
+          3
+        ]
+      },
+      "plaintext_hex": "616874657474747465617474656874696974747468657461746565746165747474787468687465747478686168747474697474746568786974696869746869787474747861747461747461746878616874786168746874747468747474747468746174747474747468617468747461746574747861616868617478656869746574746174696974747468747465747469697474747469747474686561746578687474617478747474786165747468687474617478746878746174697474687474747474786878747474747474787474657474746174747468746574746178787478787861786169747474746174657465747474617474747478747461787474787474747469696174747478616574697465616568747874657469787474687874656874696869746969747869657469616974787874747474787874697869787878747865657474696965616574697474686174617469686974687474747474686174697474617474747474687461696974697468786978657874696961657474746574747869747474747469686568697874787474747474747465617465747468747465746978787478746174616169747468747865747474787474747878616574616569787474747874747474786165746568696578747461697474617868616178747474747474746974746874617474657478787461746165746574746974787461686878747468747474787874697874657861747469747474746869697478787478747478746574746869687865696168697878697874",
+      "plaintext_latin1": "ahtetttteattehtiittthetateetaetttxthhtettxhahtttitttehxitihithixtttxattattathxahtxahthttthttttthtatttttthathttatettxaahhatxehitettatiittthttettiittttitttheatexhttatxtttxaetthhttatxthxtatitthtttttxhxttttttxttetttattthtettaxxtxxxaxaittttatetetttattttxttaxttxttttiiatttxaetiteaehtxtetixtthxtehtihitiitxietiaitxxttttxxtixixxxtxeettiieaetitthatatihithttttthatittattttthtaiitithxixextiiaetttettxitttttihehixtxttttttteatetthttetixxtxtataaitthtxetttxtttxxaetaeixtttxttttxaetehiexttaittaxhaaxtttttttitthtattetxxtataetettitxtahhxtthtttxxtixtexattitttthiitxxtxttxtetthihxeiahixxixt",
+      "result": "INCONCLUSIVE",
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 570,
+        "dictionary_coverage": 0.021053,
+        "language_score": 0.021127,
+        "longest_printable_run": 570,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {
+          "that": 3
+        },
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "sha256": "8645665ad788581a26e59681a4d0dc844e8d7582aa11f64b61cbad321e864499",
+      "source": {
+        "locator": "faed",
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "structural_validity": [],
+      "transformation": "letter-to-digit then straddling checkerboard"
+    },
+    {
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "family": "checkerboard",
+      "id": "C02-SAL-COORDINATES:checkerboard:9838",
+      "parameters": {
+        "alphabet": "themarixsyoubcdfgjklnpqvwz./",
+        "alphabet_name": "thematrixhasyou-keyed",
+        "digit_mapping": "a1-zero-prime-values",
+        "mapping": {
+          "a": "1",
+          "b": "0",
+          "c": "0",
+          "d": "4",
+          "e": "0",
+          "f": "6",
+          "g": "0",
+          "h": "8",
+          "i": "9"
+        },
+        "prefixes": [
+          2,
+          5
+        ]
+      },
+      "plaintext_hex": "6168746d747474746d6174746d68746969747474686d7461746d6d74616d74747478746868746d747478686168747474697474746d68786974696869746869787474747861747461747461746878616874786168746874747468747474747468746174747474747468617468747461746d747478616168686174786d6869746d7474617469697474746874746d747469697474747469747474686d61746d7868747461747874747478616d7474686874746174787468787461746974746874747474747868787474747474747874746d7474746174747468746d747461787874787878617861697474747461746d746d747474617474747478747461787474787474747469696174747478616d7469746d616d687478746d74697874746878746d68746968697469697478696d746961697478787474747478787469786978787874786d6d747469696d616d746974746861746174696869746874747474746861746974746174747474746874616969746974687869786d78746969616d7474746d74747869747474747469686d6869787478747474747474746d61746d74746874746d74697878747874617461616974746874786d747474787474747878616d74616d6978747474787474747478616d746d68696d787474616974746178686161787474747474747469747468746174746d747878746174616d746d747469747874616868787474687474747878746978746d7861747469747474746869697478787478747478746d7474686968786d696168697878697874",
+      "plaintext_latin1": "ahtmttttmattmhtiittthmtatmmtamtttxthhtmttxhahtttitttmhxitihithixtttxattattathxahtxahthttthttttthtatttttthathttatmttxaahhatxmhitmttatiittthttmttiittttittthmatmxhttatxtttxamtthhttatxthxtatitthtttttxhxttttttxttmtttattthtmttaxxtxxxaxaittttatmtmtttattttxttaxttxttttiiatttxamtitmamhtxtmtixtthxtmhtihitiitximtiaitxxttttxxtixixxxtxmmttiimamtitthatatihithttttthatittattttthtaiitithxixmxtiiamtttmttxitttttihmhixtxtttttttmatmtthttmtixxtxtataaitthtxmtttxtttxxamtamixtttxttttxamtmhimxttaittaxhaaxtttttttitthtattmtxxtatamtmttitxtahhxtthtttxxtixtmxattitttthiitxxtxttxtmtthihxmiahixxixt",
+      "result": "INCONCLUSIVE",
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 570,
+        "dictionary_coverage": 0.021053,
+        "language_score": 0.017606,
+        "longest_printable_run": 570,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {
+          "that": 3
+        },
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "sha256": "9ceb1f364f63f83205b0b710445be4698a75a39a179b63b963350280ac2f327c",
+      "source": {
+        "locator": "faed",
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "structural_validity": [],
+      "transformation": "letter-to-digit then straddling checkerboard"
+    },
+    {
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "family": "checkerboard",
+      "id": "C02-SAL-COORDINATES:checkerboard:9874",
+      "parameters": {
+        "alphabet": "themarixsyoubcdfgjklnpqvwz./",
+        "alphabet_name": "thematrixhasyou-keyed",
+        "digit_mapping": "a1-zero-prime-values",
+        "mapping": {
+          "a": "1",
+          "b": "0",
+          "c": "0",
+          "d": "4",
+          "e": "0",
+          "f": "6",
+          "g": "0",
+          "h": "8",
+          "i": "9"
+        },
+        "prefixes": [
+          3,
+          5
+        ]
+      },
+      "plaintext_hex": "6168746d747474746d6174746d68746969747474686d7461746d6d74616d74747478746868746d747478686168747474697474746d68786974696869746869787474747861747461747461746878616874786168746874747468747474747468746174747474747468617468747461746d747478616168686174786d6869746d7474617469697474746874746d747469697474747469747474686d61746d7868747461747874747478616d7474686874746174787468787461746974746874747474747868787474747474747874746d7474746174747468746d747461787874787878617861697474747461746d746d747474617474747478747461787474787474747469696174747478616d7469746d616d687478746d74697874746878746d68746968697469697478696d746961697478787474747478787469786978787874786d6d747469696d616d746974746861746174696869746874747474746861746974746174747474746874616969746974687869786d78746969616d7474746d74747869747474747469686d6869787478747474747474746d61746d74746874746d74697878747874617461616974746874786d747474787474747878616d74616d6978747474787474747478616d746d68696d787474616974746178686161787474747474747469747468746174746d747878746174616d746d747469747874616868787474687474747878746978746d7861747469747474746869697478787478747478746d7474686968786d696168697878697874",
+      "plaintext_latin1": "ahtmttttmattmhtiittthmtatmmtamtttxthhtmttxhahtttitttmhxitihithixtttxattattathxahtxahthttthttttthtatttttthathttatmttxaahhatxmhitmttatiittthttmttiittttittthmatmxhttatxtttxamtthhttatxthxtatitthtttttxhxttttttxttmtttattthtmttaxxtxxxaxaittttatmtmtttattttxttaxttxttttiiatttxamtitmamhtxtmtixtthxtmhtihitiitximtiaitxxttttxxtixixxxtxmmttiimamtitthatatihithttttthatittattttthtaiitithxixmxtiiamtttmttxitttttihmhixtxtttttttmatmtthttmtixxtxtataaitthtxmtttxtttxxamtamixtttxttttxamtmhimxttaittaxhaaxtttttttitthtattmtxxtatamtmttitxtahhxtthtttxxtixtmxattitttthiitxxtxttxtmtthihxmiahixxixt",
+      "result": "INCONCLUSIVE",
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 570,
+        "dictionary_coverage": 0.021053,
+        "language_score": 0.017606,
+        "longest_printable_run": 570,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {
+          "that": 3
+        },
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "sha256": "9ceb1f364f63f83205b0b710445be4698a75a39a179b63b963350280ac2f327c",
+      "source": {
+        "locator": "faed",
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "structural_validity": [],
+      "transformation": "letter-to-digit then straddling checkerboard"
+    },
+    {
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "family": "checkerboard",
+      "id": "C02-SAL-COORDINATES:checkerboard:9118",
+      "parameters": {
+        "alphabet": "themarixsyoubcdfgjklnpqvwz./",
+        "alphabet_name": "thematrixhasyou-keyed",
+        "digit_mapping": "a1-zero-g",
+        "mapping": {
+          "a": "1",
+          "b": "2",
+          "c": "3",
+          "d": "4",
+          "e": "5",
+          "f": "6",
+          "g": "0",
+          "h": "8",
+          "i": "9"
+        },
+        "prefixes": [
+          4,
+          9
+        ]
+      },
+      "plaintext_hex": "72686173746161646d657965787874746d687572616274727365746b68686173746c7268616d747874746d792e617868786568786b6d6177746572746172746877686577687468617461686d74656561687472747461617474687265686d74726d6f6177726868726d716878746361727478786d74746861746365787861746174786d61746864656a687461726d7074747775746868747472656b6870726578616d68616d656d616c706165746574766d6374747274617468617374722f6d2f77777874746d74727475737461726d6561616b61726e746e747474787872656d7477637861647974706f787074687679617868787478786d2e73787278652f6d616d652f6d782e2f6b71736178786475786d6568727472657868786168746174616d68726178746d72747474746d6874727878747865682e7176787872637474736d2e7474747474786879786b6b6574616d7461646d7374686d6d63782f6d6b726572727874746861716565616e65612f727372677661617661616d777379786a747472786174726c72726b74656d656d61786d6168657265616f2f6572657263636178746b7268686b74687465612f6d78766a7265617874656d6d687878652f656e656e756568786871787268782f7870",
+      "plaintext_latin1": "rhastaadmeyexxttmhurabtrsetkhhastlrhamtxttmy.axhxehxkmawtertarthwhewhthatahmteeahtrttaatthrehmtrmoawrhhrmqhxtcartxxmtthatcexxatatxmathdejhtarmpttwuthhttrekhprexamhamemalpaetetvmcttrtathastr/m/wwxttmtrtustarmeaakarntntttxxremtwcxadytpoxpthvyaxhxtxxm.sxrxe/mame/mx./kqsaxxduxmehrtrexhxahtatamhraxtmrttttmhtrxxtxeh.qvxxrcttsm.tttttxhyxkketamtadmsthmmcx/mkrerrxtthaqeeanea/rsrgvaavaamwsyxjttrxatrlrrktememaxmahereao/ererccaxtkrhhkthtea/mxvjreaxtemmhxxe/enenuehxhqxrhx/xp",
+      "result": "INCONCLUSIVE",
+      "score": {
+        "alphabetic_ratio": 0.965665,
+        "bytes": 466,
+        "dictionary_coverage": 0.017778,
+        "language_score": 0.020089,
+        "longest_printable_run": 466,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {
+          "that": 2
+        },
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "sha256": "6a3129ad13285890ea1dc412b4d315e05f39e8f7ad6f5500072a607ab8c80292",
+      "source": {
+        "locator": "faed",
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "structural_validity": [],
+      "transformation": "letter-to-digit then straddling checkerboard"
+    },
+    {
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "family": "checkerboard",
+      "id": "C02-SAL-COORDINATES:checkerboard:9088",
+      "parameters": {
+        "alphabet": "themarixsyoubcdfgjklnpqvwz./",
+        "alphabet_name": "thematrixhasyou-keyed",
+        "digit_mapping": "a1-zero-g",
+        "mapping": {
+          "a": "1",
+          "b": "2",
+          "c": "3",
+          "d": "4",
+          "e": "5",
+          "f": "6",
+          "g": "0",
+          "h": "8",
+          "i": "9"
+        },
+        "prefixes": [
+          3,
+          9
+        ]
+      },
+      "plaintext_hex": "7268616d747461616d726f6d686578787474796d64616d6d74726d7465746b6868616d74746c7268617378747462682e617868786568786b6377746572746172746877686577687468617461687365656168747274746161747468726568737262656177726868726a6d6878746d61617274787873746861746d6165787861746174786374686d72656d6c7461726a7374776d736868747472656b68707265786179616f636c70616574657476626174747274617468616d7474722f6a2f72777874747372746d62747461726f61616b61726e746e7474747878726573776d6178616d726d6874706d6578707468766d68617868787478786a786d74787278652f636f2f672e2f6b716d746178786d726d676f6872747265786878616874617461797261787464747474747974727878747865682e71767878726d6174746d746a78747474747478686d68786b6b65746173616d7262747468756d61782f6a74726572727874746861716565616e65612f726d74726d787661617661616a726d746d68786d6b7472786174726c72726b74656f63786368657265616d652f657265726d616d616178746b7268686b74687465612f67766d77656178746575687878652f656e656e6d6f68786871787268782f7870",
+      "plaintext_latin1": "rhamttaamromhexxttymdammtrmtetkhhamttlrhasxttbh.axhxehxkcwtertarthwhewhthatahseeahtrttaatthrehsrbeawrhhrjmhxtmaartxxsthatmaexxatatxcthmremltarjstwmshhttrekhprexayaoclpaetetvbattrtathamttr/j/rwxttsrtmbttaroaakarntntttxxreswmaxamrmhtpmexpthvmhaxhxtxxjxmtxrxe/co/g./kqmtaxxmrmgohrtrexhxahtatayraxtdttttytrxxtxeh.qvxxrmattmtjxtttttxhmhxkketasamrbtthumax/jtrerrxtthaqeeanea/rmtrmxvaavaajrmtmhxmktrxatrlrrkteocxchereame/erermamaaxtkrhhkthtea/gvmweaxteuhxxe/enenmohxhqxrhx/xp",
+      "result": "INCONCLUSIVE",
+      "score": {
+        "alphabetic_ratio": 0.970085,
+        "bytes": 468,
+        "dictionary_coverage": 0.017621,
+        "language_score": 0.019912,
+        "longest_printable_run": 468,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {
+          "that": 2
+        },
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "sha256": "312f9589ef012dd63b2de8f05419e5e11072e0d256318dbc0a8a8cb2b4f2298c",
+      "source": {
+        "locator": "faed",
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "structural_validity": [],
+      "transformation": "letter-to-digit then straddling checkerboard"
+    },
+    {
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "family": "checkerboard",
+      "id": "C02-SAL-COORDINATES:checkerboard:9052",
+      "parameters": {
+        "alphabet": "themarixsyoubcdfgjklnpqvwz./",
+        "alphabet_name": "thematrixhasyou-keyed",
+        "digit_mapping": "a1-zero-g",
+        "mapping": {
+          "a": "1",
+          "b": "2",
+          "c": "3",
+          "d": "4",
+          "e": "5",
+          "f": "6",
+          "g": "0",
+          "h": "8",
+          "i": "9"
+        },
+        "prefixes": [
+          2,
+          9
+        ]
+      },
+      "plaintext_hex": "7268616d747461616d726562686778747465686d6572616d6d74726d74736b6868616d74746c7268616574787474656d682e6178687879786b6561777464746172746877686a726874686174616865746f61687472747461617474687279657472656d63777268687265716878746d6161727478786574746861746d6167786174617478656174686d72626c74617265707474776d657468687474726a7468707267616568616575616c7061737376656d6174747274617468616d7474722f652f7777787474657472746d656d747461726563616b61726e746e7474747878727574776d6178616d726d6874706d67707468766d6861786878747878652e6d747872786a7061656a70782e2f6b716d746178786d726d657865797274726768786168746174616568726178746572747474746568747278787478792e71767878726d6174746d74652e747474747478686d68786b6b73616574616d72656d74746865656d61782f656b7264727874746861716f616e632f726d74726d7876616176616165776d746d68786d6b7472786174726c72726b747575617865616864636d6a6e72646d616d616178746b7268686b746874632f6578766d7763787475656878786a6e6e6a626579786871787268782f7870",
+      "plaintext_latin1": "rhamttaamrebhgxttehmerammtrmtskhhamttlrhaetxttemh.axhxyxkeawtdtarthwhjrhthatahetoahtrttaatthryetremcwrhhreqhxtmaartxxetthatmagxatatxeathmrbltarepttwmethhttrjthprgaehaeualpassvemattrtathamttr/e/wwxttetrtmemttarecakarntntttxxrutwmaxamrmhtpmgpthvmhaxhxtxxe.mtxrxjpaejpx./kqmtaxxmrmexeyrtrghxahtataehraxterttttehtrxxtxy.qvxxrmattmte.tttttxhmhxkksaetamremttheemax/ekrdrxtthaqoanc/rmtrmxvaavaaewmtmhxmktrxatrlrrktuuaxeahdcmjnrdmamaaxtkrhhkthtc/exvmwcxtuehxxjnnjbeyxhqxrhx/xp",
+      "result": "INCONCLUSIVE",
+      "score": {
+        "alphabetic_ratio": 0.974359,
+        "bytes": 468,
+        "dictionary_coverage": 0.017544,
+        "language_score": 0.017621,
+        "longest_printable_run": 468,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {
+          "that": 2
+        },
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "sha256": "7fb090d372cd4b434b0c1e87b6689a09a3150149b22f957b70f14ee0367b19ff",
+      "source": {
+        "locator": "faed",
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "structural_validity": [],
+      "transformation": "letter-to-digit then straddling checkerboard"
+    },
+    {
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "family": "checkerboard",
+      "id": "C02-SAL-COORDINATES:checkerboard:9112",
+      "parameters": {
+        "alphabet": "themarixsyoubcdfgjklnpqvwz./",
+        "alphabet_name": "thematrixhasyou-keyed",
+        "digit_mapping": "a1-zero-g",
+        "mapping": {
+          "a": "1",
+          "b": "2",
+          "c": "3",
+          "d": "4",
+          "e": "5",
+          "f": "6",
+          "g": "0",
+          "h": "8",
+          "i": "9"
+        },
+        "prefixes": [
+          4,
+          8
+        ]
+      },
+      "plaintext_hex": "72686173746161646d6579652e74746d687572616274727365747874686861737478687268616d746b746d7978766c6e682f746d6178727465727461727468787268657872687468617461686d74656561687472747461617474687265686d74726d6f617872726868726d78796b636172742e6d747468617463652e617461747061746864656a687461726d786d747478727574686874747265787468786d7265766d68616d656d617868786d616574657478616d63747472746174686173747278786d7878787278726b746d74727475737461726d6561617874617278657478657474742e72656d7478726376647974786d6f2f6d7468786179616c6b2e6d787174776e78786d616d6578786d2f2f787874786274612e6475706568727472656c7668746174616d6872616b6d72747474746d6874722e746e68782f6a612e72637474736d786b747474746c792f7478746574616d7461646d7374686d6d632f786d7874726572726b746861786f65617865656178787273726778616161786161616d78727379717874747276747278687272787474656d656d61706168657265616f7878657265726363616b78747268687874746874656178786d2f616a7265616b656d6d682e6578786578656578657565686c786772682f782f6d",
+      "plaintext_latin1": "rhastaadmeye.ttmhurabtrsetxthhastxhrhamtktmyxvlnh/tmaxrtertarthxrhexrhthatahmteeahtrttaatthrehmtrmoaxrrhhrmxykcart.mtthatce.atatpathdejhtarmxmttxruthhttrexthxmrevmhamemaxhxmaetetxamcttrtathastrxxmxxxrxrktmtrtustarmeaaxtarxetxettt.remtxrcvdytxmo/mthxayalk.mxqtwnxxmamexxm//xxtxbta.dupehrtrelvhtatamhrakmrttttmhtr.tnhx/ja.rcttsmxkttttly/txtetamtadmsthmmc/xmxtrerrkthaxoeaxeeaxxrsrgxaaaxaaamxrsyqxttrvtrxhrrxttememapahereaoxxererccakxtrhhxtthteaxxm/ajreakemmh.exxexeexeuehlxgrh/x/m",
+      "result": "INCONCLUSIVE",
+      "score": {
+        "alphabetic_ratio": 0.960251,
+        "bytes": 478,
+        "dictionary_coverage": 0.017429,
+        "language_score": 0.019694,
+        "longest_printable_run": 478,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {
+          "that": 2
+        },
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "sha256": "1014f14e5efb70aa2094fd4f516f019ab7a2854ab49b6725558d7d48db4d08e6",
+      "source": {
+        "locator": "faed",
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "structural_validity": [],
+      "transformation": "letter-to-digit then straddling checkerboard"
+    },
+    {
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "family": "checkerboard",
+      "id": "C02-SAL-COORDINATES:checkerboard:9046",
+      "parameters": {
+        "alphabet": "themarixsyoubcdfgjklnpqvwz./",
+        "alphabet_name": "thematrixhasyou-keyed",
+        "digit_mapping": "a1-zero-g",
+        "mapping": {
+          "a": "1",
+          "b": "2",
+          "c": "3",
+          "d": "4",
+          "e": "5",
+          "f": "6",
+          "g": "0",
+          "h": "8",
+          "i": "9"
+        },
+        "prefixes": [
+          2,
+          8
+        ]
+      },
+      "plaintext_hex": "7268616d747461616d72656268676b7465686d6572616d6d74726d747378746868616d7474786872686165746b74656d6878766c6e682f7465617872746474617274687872686a726874686174616865746f61687472747461617474687279657472656d6378727268687265786d686b6d616172742e6574746861746d616776746174706174686d72627868746172657865747478726d657468687474726a74687865726761656861657561786878656173737861656d6174747274617468616d7474727878657878787278726b74657472746d656d74746172656361787461727873787374742e72757478726d61766d726d687478656d677865746878616d68616c6b2e65787174776e78786561656a78652f2f787874786d6d74612e6d726d6570797274726768766874617461656872616b657274747474656874722e746e68782f6d78612e726d6174746d7465786b747474746c6d682f74787473616574616d72656d74746865656d612f786578747264726b746861786d6f61786f617878726d74726d2f616161786161616578726d746d6871787474727674727868727278747475756170616864636d6a7864646d616d61616b78747268687874746874637878652f616d7872636b7565682e6a786a6f786265796c786d77682f782f65",
+      "plaintext_latin1": "rhamttaamrebhgktehmerammtrmtsxthhamttxhrhaetktemhxvlnh/teaxrtdtarthxrhjrhthatahetoahtrttaatthryetremcxrrhhrexmhkmaart.etthatmagvtatpathmrbxhtarexettxrmethhttrjthxergaehaeuaxhxeassxaemattrtathamttrxxexxxrxrktetrtmemttarecaxtarxsxstt.rutxrmavmrmhtxemgxethxamhalk.exqtwnxxeaejxe//xxtxmmta.mrmepyrtrghvhtataehrakerttttehtr.tnhx/mxa.rmattmtexkttttlmh/txtsaetamremttheema/xextrdrkthaxmoaxoaxxrmtrm/aaaxaaaexrmtmhqxttrvtrxhrrxttuuapahdcmjxddmamaakxtrhhxtthtcxxe/amxrckueh.jxjoxbeylxmwh/x/e",
+      "result": "INCONCLUSIVE",
+      "score": {
+        "alphabetic_ratio": 0.96473,
+        "bytes": 482,
+        "dictionary_coverage": 0.017204,
+        "language_score": 0.019438,
+        "longest_printable_run": 482,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {
+          "that": 2
+        },
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "sha256": "037c42b5dc8c1f41c39d17dbee73139525abe91fcc6ede31396175697407d61a",
+      "source": {
+        "locator": "faed",
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "structural_validity": [],
+      "transformation": "letter-to-digit then straddling checkerboard"
+    },
+    {
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "family": "checkerboard",
+      "id": "C02-SAL-COORDINATES:checkerboard:9034",
+      "parameters": {
+        "alphabet": "themarixsyoubcdfgjklnpqvwz./",
+        "alphabet_name": "thematrixhasyou-keyed",
+        "digit_mapping": "a1-zero-g",
+        "mapping": {
+          "a": "1",
+          "b": "2",
+          "c": "3",
+          "d": "4",
+          "e": "5",
+          "f": "6",
+          "g": "0",
+          "h": "8",
+          "i": "9"
+        },
+        "prefixes": [
+          2,
+          6
+        ]
+      },
+      "plaintext_hex": "6c616d747461616d7062686769747465686d65766d6d7471747378746868616d747478686c616574697474656d68786961696869796978746561786b6474616b68786c6a6c74686174616865746f6168746b7461617474686e686574706d637877686870786d6869746d61616b69696574746861746d6167696174617469656174686d6e6d78687461707865747478716574686874746e78746878656e6961656861657561786878656173737861656d6174746b617468616d74742f78657878782f2e747465746b6d656d7474617063617874612f737873747469696e657478716169616d71687478656d677865746878616d68616968697469696578696d74692e6a786561656a786569786978787874786d6d746169696d71656965796b6e6968696168746174616568766974656b7474746568742e697469797869786d78616969716174746d74657869747474747469686d68697874787473616574616d706d74746865656d616978786578746e776974746861786d6f61786f617878717471697861616178616161657871746d68696d7874742e61742f68777874747575616965616864636d6a7864646d616d6161697478746c687874746874637878656978616d786e61697475656869696a786a6f786265796968786d696c697878697865",
+      "plaintext_latin1": "lamttaampbhgittehmevmmtqtsxthhamttxhlaetittemhxiaihiyixteaxkdtakhxljlthatahetoahtktaatthnhetpmcxwhhpxmhitmaakiietthatmagiatatieathmnmxhtapxettxqethhttnxthxeniaehaeuaxhxeassxaemattkathamtt/xexxx/.ttetkmemttapcaxta/sxsttiinetxqaiamqhtxemgxethxamhaihitiieximti.jxeaejxeixixxxtxmmtaiimqeieyknihiahtataehvitekttteht.itiyxixmxaiiqattmtexitttttihmhixtxtsaetampmttheemaixxextnwitthaxmoaxoaxxqtqixaaaxaaaexqtmhimxtt.at/hwxttuuaieahdcmjxddmamaaitxtlhxtthtcxxeixamxnaituehiijxjoxbeyihxmilixxixe",
+      "result": "INCONCLUSIVE",
+      "score": {
+        "alphabetic_ratio": 0.983437,
+        "bytes": 483,
+        "dictionary_coverage": 0.016842,
+        "language_score": 0.019027,
+        "longest_printable_run": 483,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {
+          "that": 2
+        },
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "sha256": "0eb8a1f065a7d5a062c96855785be1d525a9c6e8395ceb714a00a9eca94efc8f",
+      "source": {
+        "locator": "faed",
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "structural_validity": [],
+      "transformation": "letter-to-digit then straddling checkerboard"
+    },
+    {
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "family": "checkerboard",
+      "id": "C02-SAL-COORDINATES:checkerboard:9106",
+      "parameters": {
+        "alphabet": "themarixsyoubcdfgjklnpqvwz./",
+        "alphabet_name": "thematrixhasyou-keyed",
+        "digit_mapping": "a1-zero-g",
+        "mapping": {
+          "a": "1",
+          "b": "2",
+          "c": "3",
+          "d": "4",
+          "e": "5",
+          "f": "6",
+          "g": "0",
+          "h": "8",
+          "i": "9"
+        },
+        "prefixes": [
+          4,
+          7
+        ]
+      },
+      "plaintext_hex": "72686173746161646d657965696974746d687572616274727365747874686861737478687268616d746974746d7978696169686965686978746d6178727465727461727468787268657872687468617461686d74656561687472747461617474687265686d74726d6f617872726868726d787969746361727469696d74746861746365696961746174696d61746864656a687461726d786d747478727574686874747265787468786d726569616d68616d656d617868786d616574657478616d63747472746174686173747278786d7878787278726974746d74727475737461726d656161787461727865747865747474696972656d747872636961647974786d6f69786d7468786179616968697469696d7869736972696578786d616d6578786d697869787878747862746169696475696d6568727472656968696168746174616d68726169746d72747474746d6874726969746965687869786a61696972637474736d7869747474747469687969787478746574616d7461646d7374686d6d636978786d7874726572726974746861786f65617865656178787273726778616161786161616d78727379696a7474726961747278687272787474656d656d61696d6168657265616f787865726572636361697478747268687874746874656178786d6978616a7265616974656d6d68696965787865786565786575656869687867726869787869786d",
+      "plaintext_latin1": "rhastaadmeyeiittmhurabtrsetxthhastxhrhamtittmyxiaihiehixtmaxrtertarthxrhexrhthatahmteeahtrttaatthrehmtrmoaxrrhhrmxyitcartiimtthatceiiatatimathdejhtarmxmttxruthhttrexthxmreiamhamemaxhxmaetetxamcttrtathastrxxmxxxrxrittmtrtustarmeaaxtarxetxetttiiremtxrciadytxmoixmthxayaihitiimxisiriexxmamexxmixixxxtxbtaiiduimehrtreihiahtatamhraitmrttttmhtriitiehxixjaiircttsmxitttttihyixtxtetamtadmsthmmcixxmxtrerritthaxoeaxeeaxxrsrgxaaaxaaamxrsyijttriatrxhrrxttememaimahereaoxxererccaitxtrhhxtthteaxxmixajreaitemmhiiexxexeexeuehihxgrhixxixm",
+      "result": "INCONCLUSIVE",
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 523,
+        "dictionary_coverage": 0.015296,
+        "language_score": 0.017274,
+        "longest_printable_run": 523,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {
+          "that": 2
+        },
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "sha256": "4b64c5329e6936046a18143e853bc56444621aa69ba7ef9ef12c28cf6280c766",
+      "source": {
+        "locator": "faed",
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "structural_validity": [],
+      "transformation": "letter-to-digit then straddling checkerboard"
+    },
+    {
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "family": "checkerboard",
+      "id": "C02-SAL-COORDINATES:checkerboard:9040",
+      "parameters": {
+        "alphabet": "themarixsyoubcdfgjklnpqvwz./",
+        "alphabet_name": "thematrixhasyou-keyed",
+        "digit_mapping": "a1-zero-g",
+        "mapping": {
+          "a": "1",
+          "b": "2",
+          "c": "3",
+          "d": "4",
+          "e": "5",
+          "f": "6",
+          "g": "0",
+          "h": "8",
+          "i": "9"
+        },
+        "prefixes": [
+          2,
+          7
+        ]
+      },
+      "plaintext_hex": "7268616d747461616d726562686769747465686d6572616d6d74726d747378746868616d747478687268616574697474656d687869616968697969787465617872746474617274687872686a726874686174616865746f61687472747461617474687279657472656d6378727268687265786d6869746d6161727469696574746861746d6167696174617469656174686d72627868746172657865747478726d657468687474726a74687865726761656861657561786878656173737861656d6174747274617468616d747472787865787878727872697474657472746d656d7474617265636178746172787378737474696972757478726d6169616d726d687478656d677865746878616d68616968697469696578696d746972696a786561656a786569786978787874786d6d746169696d726d656965797274726768696168746174616568726169746572747474746568747269697469797869786d78616969726d6174746d74657869747474747469686d68697874787473616574616d72656d74746865656d616978786578747264726974746861786d6f61786f617878726d74726d6978616161786161616578726d746d68696d7874747269617472786872727874747575616965616864636d6a7864646d616d6161697478747268687874746874637878656978616d787263697475656869696a786a6f786265796968786d697268697878697865",
+      "plaintext_latin1": "rhamttaamrebhgittehmerammtrmtsxthhamttxhrhaetittemhxiaihiyixteaxrtdtarthxrhjrhthatahetoahtrttaatthryetremcxrrhhrexmhitmaartiietthatmagiatatieathmrbxhtarexettxrmethhttrjthxergaehaeuaxhxeassxaemattrtathamttrxxexxxrxrittetrtmemttarecaxtarxsxsttiirutxrmaiamrmhtxemgxethxamhaihitiieximtirijxeaejxeixixxxtxmmtaiimrmeieyrtrghiahtataehraiterttttehtriitiyxixmxaiirmattmtexitttttihmhixtxtsaetamremttheemaixxextrdritthaxmoaxoaxxrmtrmixaaaxaaaexrmtmhimxttriatrxhrrxttuuaieahdcmjxddmamaaitxtrhhxtthtcxxeixamxrcituehiijxjoxbeyihxmirhixxixe",
+      "result": "INCONCLUSIVE",
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 525,
+        "dictionary_coverage": 0.015238,
+        "language_score": 0.017208,
+        "longest_printable_run": 525,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {
+          "that": 2
+        },
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "sha256": "78d5565aeff8b1edd54439e5508df654a093bc3757f2443bfaa33f7c0223af2d",
+      "source": {
+        "locator": "faed",
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "structural_validity": [],
+      "transformation": "letter-to-digit then straddling checkerboard"
+    },
+    {
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "family": "checkerboard",
+      "id": "C02-SAL-COORDINATES:checkerboard:9670",
+      "parameters": {
+        "alphabet": "themarixsyoubcdfgjklnpqvwz./",
+        "alphabet_name": "thematrixhasyou-keyed",
+        "digit_mapping": "a1-zero-i",
+        "mapping": {
+          "a": "1",
+          "b": "2",
+          "c": "3",
+          "d": "4",
+          "e": "5",
+          "f": "6",
+          "g": "7",
+          "h": "8",
+          "i": "0"
+        },
+        "prefixes": [
+          5,
+          7
+        ]
+      },
+      "plaintext_hex": "7268627a6361726d6561686569697a6d68616d72626177616e6b6c68627a74687268752e7a6d61687469676869656869747073726e7276726c747268657472686c66796d6e6579777a637a687265686d776d61657372726868726d746168697163722e696d7a6866616f69696666696d666861726561746876726d746d7a7472616d6c687a7265746c746d726569756875656d7368746d6f6e6b75616677766c627a7274746d747474727472697a6d77716d617a646d656374767274656b657a2e6972656d6b726167627261686b6d616569746d6c7462686768692e696d7469612e72696574746d756574746d6974697474746b61617669696172616d696d65687277656968697976766d68726770727a7a6d687769692e656874697461746769726166717074697a7a2e68616869746b6e766d7661726d617a686d6d616774746d7477657272697a687361656573656573747261776169746373637574726171686961747a7269667274687272747a656d656d676d796572656265747465726572616263696b776868747a686e73746d697462747265676e6d6d686969657474657465657465616d65686968746169726869747469746d",
+      "plaintext_latin1": "rhbzcarmeaheiizmhamrbawanklhbzthrhu.zmahtighiehitpsrnrvrltrhetrhlfymneywzczhrehmwmaesrrhhrmtahiqcr.imzhfaoiiffimfhareathvrmtmztramlhzretltmreiuhuemshtmonkuafwvlbzrttmtttrtrizmwqmazdmectvrtekez.iremkragbrahkmaeitmltbhghi.imtia.riettmuettmititttkaaviiaramimehrweihiyvvmhrgprzzmhwii.ehtitatgirafqptizz.hahitknvmvarmazhmmagttmtwerrizhsaeeseestrawaitcscutraqhiatzrifrthrrtzememgmyerebettererabcikwhhtzhnstmitbtregnmmhiietteteeteamehihtairhittitm",
+      "result": "INCONCLUSIVE",
+      "score": {
+        "alphabetic_ratio": 0.984091,
+        "bytes": 440,
+        "dictionary_coverage": 0.013857,
+        "language_score": 0.00464,
+        "longest_printable_run": 440,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {
+          "better": 1
+        },
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "sha256": "56a7d97318c35592a2c8bdab5c4bd26af079ef334665e742cf630ee803d258ab",
+      "source": {
+        "locator": "faed",
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "structural_validity": [],
+      "transformation": "letter-to-digit then straddling checkerboard"
+    },
+    {
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "family": "checkerboard",
+      "id": "C02-SAL-COORDINATES:checkerboard:9676",
+      "parameters": {
+        "alphabet": "themarixsyoubcdfgjklnpqvwz./",
+        "alphabet_name": "thematrixhasyou-keyed",
+        "digit_mapping": "a1-zero-i",
+        "mapping": {
+          "a": "1",
+          "b": "2",
+          "c": "3",
+          "d": "4",
+          "e": "5",
+          "f": "6",
+          "g": "7",
+          "h": "8",
+          "i": "0"
+        },
+        "prefixes": [
+          5,
+          8
+        ]
+      },
+      "plaintext_hex": "72686269696361726d656168652e69696d68616d726261697261696569746968686269697468726875697a696d616874766c6e686b696d73726965726964696874726865747268696866796d6965657969726969636969687265686d69726d61657372726868726d7461687a616372692e6d69696866616f2e666670666861726561746869646d746d69697472616d69686869697265746968746d7265766d6875656d7368746d6f6965697475616669726966686269697274746d7474747274727a696d697269616d616969646d656374696474656974656969692e72656d69747261676272616869746d61656b6d696874626867687a2e6d747169776e74746d756574746d6b6b74746974616169677172616d706568726972656c7668696675687267696d72696969696d6869722e696e68746b6174677761666961696d747a696969696c61686b6974696569756962726d616969686d6d616774746d7469726572727a696873616565736565737472616972616b63736375747261696168717469697276697274687272746969656d656d676d7965726562657474657265726162637a746972686874696968696573746d6b627472656769656d6d682e657474657465657465616d65686c746177686b746b6d",
+      "plaintext_latin1": "rhbiicarmeahe.iimhamrbairaieitihhbiithrhuizimahtvlnhkimsrieridihtrhetrhihfymieeyiriiciihrehmirmaesrrhhrmtahzacri.miihfao.ffpfhareathidmtmiitramihhiiretihtmrevmhuemshtmoieituafirifhbiirttmtttrtrzimiriamaiidmectidteiteiii.remitragbrahitmaekmihtbhghz.mtqiwnttmuettmkkttitaaigqrampehrirelvhifuhrgimriiiimhir.inhtkatgwafiaimtziiiilahkitieiuibrmaiihmmagttmtirerrzihsaeeseestrairakcscutraiahqtiirvirthrrtiiememgmyerebettererabcztirhhtiihiestmkbtregiemmh.etteteeteamehltawhktkm",
+      "result": "INCONCLUSIVE",
+      "score": {
+        "alphabetic_ratio": 0.985075,
+        "bytes": 469,
+        "dictionary_coverage": 0.012987,
+        "language_score": 0.006522,
+        "longest_printable_run": 469,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {
+          "better": 1
+        },
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "sha256": "7d9cccb41bef58f25678771d5498fa43fa38d3f54d3bc7b6f9d8c7b76e4e5f43",
+      "source": {
+        "locator": "faed",
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "structural_validity": [],
+      "transformation": "letter-to-digit then straddling checkerboard"
+    }
+  ],
+  "total_trials": 10644,
+  "trials_by_family": {
+    "checkerboard": 10260,
+    "grid-pairs": 12,
+    "numeric": 228,
+    "prime-mask": 24,
+    "route": 120
+  }
+}

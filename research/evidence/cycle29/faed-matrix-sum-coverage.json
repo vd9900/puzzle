@@ -1,0 +1,21 @@
+{
+  "classification": "SECONDARY_RESEARCH_CODE",
+  "repository": "devjotaduo/gsmgio-5btc-puzzle",
+  "commit": "94024e11107c295b12de106c636e5616bffa5d3b",
+  "path": "solver/faed_matrix_sum_attack.py",
+  "git_blob_sha1": "ae4a6c0cdbfb1aede06ccc02ce69aa3bf77e86c0",
+  "retrieved_utc": "2026-10-01T20:08:44Z",
+  "retrieved_sha256": "fd5e722b23b3f7d8852f00acdb3315fc680d732c323960677912da24540ee059",
+  "declared_purpose": "Test the literal FAED 15x38 sum list against AES and the BTC target.",
+  "structural_coverage": {
+    "input": "raw FAED570 from sources()['faed']",
+    "layout_widths": [15, 38],
+    "layout_orientations": ["forward", "reverse", "rows-reversed", "columns-reversed"],
+    "mapping_names": ["a0", "a1", "hint"],
+    "sum_axes": ["rows", "columns"],
+    "bip39_branch": "raw FAED split into fifteen contiguous rows of38, a=0 ordinal sums; then one valid checksum completion and wallet-path checks",
+    "recovered_bifid570_used_as_sum_matrix_input": false
+  },
+  "execution": "NOT EXECUTED in this research phase",
+  "candidate_material_preserved_here": false
+}

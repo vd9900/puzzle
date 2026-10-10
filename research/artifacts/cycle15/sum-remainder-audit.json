@@ -1,0 +1,359 @@
+{
+  "assumptions": [
+    "Preserved movie quotations are secondary baselines, not authenticated scripts",
+    "Lexical recognition is weaker than an executable object/operand binding"
+  ],
+  "comparison": {
+    "anchors": [
+      {
+        "encoded_fixture_byte_span_zero_based_half_open": [
+          447,
+          455
+        ],
+        "inherited_from_preserved_baseline": true,
+        "phrase": "yourlife",
+        "verified_decoded_span_zero_based_half_open": [
+          0,
+          8
+        ]
+      },
+      {
+        "encoded_fixture_byte_span_zero_based_half_open": [
+          460,
+          463
+        ],
+        "inherited_from_preserved_baseline": true,
+        "phrase": "sum",
+        "verified_decoded_span_zero_based_half_open": [
+          13,
+          16
+        ]
+      },
+      {
+        "encoded_fixture_byte_span_zero_based_half_open": [
+          466,
+          475
+        ],
+        "inherited_from_preserved_baseline": true,
+        "phrase": "remainder",
+        "verified_decoded_span_zero_based_half_open": [
+          19,
+          28
+        ]
+      },
+      {
+        "encoded_fixture_byte_span_zero_based_half_open": [
+          479,
+          497
+        ],
+        "inherited_from_preserved_baseline": true,
+        "phrase": "unbalancedequation",
+        "verified_decoded_span_zero_based_half_open": [
+          32,
+          50
+        ]
+      },
+      {
+        "encoded_fixture_byte_span_zero_based_half_open": [
+          523,
+          533
+        ],
+        "inherited_from_preserved_baseline": false,
+        "phrase": "thispuzzle",
+        "verified_decoded_span_zero_based_half_open": [
+          76,
+          86
+        ]
+      }
+    ],
+    "baseline_normalized_openings_equal": true,
+    "changed_puzzle_referent": "thispuzzle",
+    "changed_puzzle_referent_span_zero_based_half_open": [
+      76,
+      86
+    ],
+    "explicit_sum_operator_operand_or_list_format": false,
+    "literal_matrixsumlist_in_opening": false,
+    "matching_secondary_quotations_not_independent_authentication": true,
+    "puzzle_encoded_opening_span_zero_based_half_open": [
+      447,
+      533
+    ],
+    "puzzle_opening_length": 86,
+    "puzzle_opening_span_zero_based_half_open": [
+      0,
+      86
+    ],
+    "records": [
+      {
+        "baseline_normalized_length": 85,
+        "baseline_referent": "thematrix",
+        "changed_referent_source_location": {
+          "character_span_zero_based_half_open": [
+            1237974,
+            1237984
+          ],
+          "column_one_based": 109,
+          "line_one_based": 32774,
+          "utf8_byte_span_zero_based_half_open": [
+            1247071,
+            1247081
+          ]
+        },
+        "classification": "COMMUNITY_MOVIE_QUOTATION_NOT_AUTHENTICATED_ORIGINAL_SCRIPT",
+        "quoted_opening_source_location": {
+          "character_span_zero_based_half_open": [
+            1237881,
+            1237984
+          ],
+          "column_one_based": 16,
+          "line_one_based": 32774,
+          "utf8_byte_span_zero_based_half_open": [
+            1246978,
+            1247081
+          ]
+        },
+        "record": {
+          "archived_utc_timestamp": "2023-09-02T04:38:24+00:00",
+          "character_span_zero_based_half_open": [
+            1237811,
+            1238455
+          ],
+          "column_one_based": 1,
+          "header": "=== [01.09.2023 23:38:24 UTC-05:00] Deleted Account",
+          "line_one_based": 32768,
+          "source": {
+            "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+            "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+          },
+          "utf8_byte_span_zero_based_half_open": [
+            1246908,
+            1247556
+          ]
+        },
+        "shared_prefix_source_location": {
+          "character_span_zero_based_half_open": [
+            1237881,
+            1237973
+          ],
+          "column_one_based": 16,
+          "line_one_based": 32774,
+          "utf8_byte_span_zero_based_half_open": [
+            1246978,
+            1247070
+          ]
+        }
+      },
+      {
+        "baseline_normalized_length": 85,
+        "baseline_referent": "thematrix",
+        "changed_referent_source_location": {
+          "character_span_zero_based_half_open": [
+            6390781,
+            6390791
+          ],
+          "column_one_based": 105,
+          "line_one_based": 164325,
+          "utf8_byte_span_zero_based_half_open": [
+            6463202,
+            6463212
+          ]
+        },
+        "classification": "COMMUNITY_MOVIE_QUOTATION_NOT_AUTHENTICATED_ORIGINAL_SCRIPT",
+        "quoted_opening_source_location": {
+          "character_span_zero_based_half_open": [
+            6390688,
+            6390791
+          ],
+          "column_one_based": 12,
+          "line_one_based": 164325,
+          "utf8_byte_span_zero_based_half_open": [
+            6463109,
+            6463212
+          ]
+        },
+        "record": {
+          "archived_utc_timestamp": "2026-01-24T19:14:49+00:00",
+          "character_span_zero_based_half_open": [
+            6390677,
+            6390791
+          ],
+          "column_one_based": 1,
+          "header": "=== [24.01.2026 14:14:49 UTC-05:00] Black&White",
+          "line_one_based": 164325,
+          "source": {
+            "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+            "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+          },
+          "utf8_byte_span_zero_based_half_open": [
+            6463098,
+            6463212
+          ]
+        },
+        "shared_prefix_source_location": {
+          "character_span_zero_based_half_open": [
+            6390688,
+            6390780
+          ],
+          "column_one_based": 12,
+          "line_one_based": 164325,
+          "utf8_byte_span_zero_based_half_open": [
+            6463109,
+            6463201
+          ]
+        }
+      }
+    ],
+    "shared_prefix_length": 76
+  },
+  "confidence": "HIGH for exact preserved-text comparison; UNKNOWN for complete intended construction",
+  "contradictions": [
+    "No explicit matrixsumlist name or numeric data in this opening",
+    "Inherited phrase is not independent operation evidence",
+    "Secondary quotations do not authenticate a full baseline",
+    "No exact connection to prime residual, source-keyed Bifid or downstream text"
+  ],
+  "date": "2026-10-01",
+  "hypotheses": [
+    {
+      "assumptions": [
+        "The label is a reference rather than a numeric operation",
+        "The creator intended the retained movie phrase to identify this exact source"
+      ],
+      "confidence": "MEDIUM-LOW for lexical recognition; UNKNOWN for exact object binding",
+      "contradictions": [
+        "No word list or label equality specified",
+        "The source is a speech paragraph, while the community recipe used another paragraph",
+        "Inherited wording alone does not prove a creator-authored navigation rule"
+      ],
+      "hypothesis": "matrixsumlist identifies the modified Architect speech by its recognizable sum/remainder opening",
+      "id": "C15-SUM-NAMED-OBJECT",
+      "input": "Existing source opening and encoded matrixsumlist label",
+      "next_test": "Audit only unexamined puzzle-specific edits elsewhere in the preserved speech for an exact named object/consumer; require source anchors and count rules before extracting last words",
+      "operation_order": [
+        "locate exact modified-speech opening",
+        "distinguish inherited phrase from edited referent",
+        "require an explicit object or operand binding before further transformation"
+      ],
+      "output": "A finite semantic interpretation, not an extracted trial string",
+      "source_evidence": [
+        {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        {
+          "path": "research/artifacts/phase32-beaufort.txt",
+          "sha256": "b08a3151c88cdeb3b2e730a9d9445e1a349498d89bc94ba1d0837f9e04cc3bcd"
+        },
+        {
+          "path": "research/artifacts/phase32.txt",
+          "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+        },
+        {
+          "path": "research/artifacts/cycle15/label-boundary-audit.json",
+          "sha256": "3d965046baecf2372ffcf7d79537c537019583f9def802e8fe0faefcdc70e94f"
+        }
+      ],
+      "source_locations": [
+        "research/evidence/cycle02/_work__chat_transcript.txt:32774",
+        "research/evidence/cycle02/_work__chat_transcript.txt:164325",
+        "research/artifacts/phase32-beaufort.txt:1",
+        "research/artifacts/phase32.txt:5"
+      ],
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "assumptions": [
+        "Narrative wording is operative",
+        "A separately specified remainder maps to a numeric representation"
+      ],
+      "confidence": "LOW without an operand or output format",
+      "contradictions": [
+        "Sum/remainder phrase is already in the preserved baseline",
+        "The edited referent thispuzzle is not a list definition",
+        "No values, axis, grouping or consuming object supplied",
+        "Completed literal and weighted constructions are not reopened"
+      ],
+      "hypothesis": "The retained sum/remainder language prescribes an arithmetic operation on a puzzle-derived remainder",
+      "id": "C15-SUM-ARITHMETIC",
+      "input": "Existing source opening and encoded matrixsumlist label",
+      "next_test": "Audit only unexamined puzzle-specific edits elsewhere in the preserved speech for an exact named object/consumer; require source anchors and count rules before extracting last words",
+      "operation_order": [
+        "locate exact modified-speech opening",
+        "distinguish inherited phrase from edited referent",
+        "require an explicit object or operand binding before further transformation"
+      ],
+      "output": "A finite semantic interpretation, not an extracted trial string",
+      "source_evidence": [
+        {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        {
+          "path": "research/artifacts/phase32-beaufort.txt",
+          "sha256": "b08a3151c88cdeb3b2e730a9d9445e1a349498d89bc94ba1d0837f9e04cc3bcd"
+        },
+        {
+          "path": "research/artifacts/phase32.txt",
+          "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+        },
+        {
+          "path": "research/artifacts/cycle15/label-boundary-audit.json",
+          "sha256": "3d965046baecf2372ffcf7d79537c537019583f9def802e8fe0faefcdc70e94f"
+        }
+      ],
+      "source_locations": [
+        "research/evidence/cycle02/_work__chat_transcript.txt:32774",
+        "research/evidence/cycle02/_work__chat_transcript.txt:164325",
+        "research/artifacts/phase32-beaufort.txt:1",
+        "research/artifacts/phase32.txt:5"
+      ],
+      "status": "INCONCLUSIVE"
+    }
+  ],
+  "hypothesis": "The modified speech's sum/remainder opening defines an intended sumlist object or arithmetic operand",
+  "id": "C15-SUM-REMAINDER-AUDIT",
+  "input": "Existing86-letter modified-speech opening and two preserved baseline quotations",
+  "new_cryptographic_trials": 0,
+  "new_trial_inputs": 0,
+  "next_test": "Audit preserved baseline coverage and unexamined puzzle-specific speech edits beyond the opening and reinsertion clause. Determine whether a named object/consumer can bind lastwordsbeforearchichoice; do not invent a choice anchor, word count, arithmetic grouping or new trial string.",
+  "operation_order": [
+    "bind two original dated community quotes",
+    "map the shared76-letter opening prefix",
+    "map the changed referent and five fixed source anchors",
+    "separate recognition from arithmetic interpretations"
+  ],
+  "output": "Exact source maps, inherited-versus-edited wording and two bounded semantic hypotheses",
+  "result": "The76-letter sum/remainder scaffold is shared with both preserved movie quotations; only thematrix becomes thispuzzle at76:86. It supports possible recognition of an Architect object but supplies no sum operator, numeric operand, list serialization or residual60/faed570 join.",
+  "search_space": {
+    "distinct_normalized_baseline_openings": 1,
+    "finite_semantic_hypotheses": 2,
+    "fixed_opening_anchors": 5,
+    "preserved_baseline_records": 2
+  },
+  "source_evidence": [
+    {
+      "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+      "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+    },
+    {
+      "path": "research/artifacts/phase32-beaufort.txt",
+      "sha256": "b08a3151c88cdeb3b2e730a9d9445e1a349498d89bc94ba1d0837f9e04cc3bcd"
+    },
+    {
+      "path": "research/artifacts/phase32.txt",
+      "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+    },
+    {
+      "path": "research/artifacts/cycle15/label-boundary-audit.json",
+      "sha256": "3d965046baecf2372ffcf7d79537c537019583f9def802e8fe0faefcdc70e94f"
+    }
+  ],
+  "source_locations": [
+    "research/evidence/cycle02/_work__chat_transcript.txt:32774",
+    "research/evidence/cycle02/_work__chat_transcript.txt:164325",
+    "research/artifacts/phase32-beaufort.txt:1",
+    "research/artifacts/phase32.txt:5"
+  ],
+  "status": "INCONCLUSIVE"
+}

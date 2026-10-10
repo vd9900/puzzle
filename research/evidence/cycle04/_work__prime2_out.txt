@@ -1,0 +1,36 @@
+
+=== split by 'abe' -> 3 chunks ===
+  'dbbibfbhccbegbih' len=16 b@[2, 3, 5, 7, 11, 14] primes?=[True, True, True, True, True, False]
+  'beihbeggegebebbgehhebhhfbabfdhbeffcdbbfcccgbfbeeggecbedcibfbffgigbeee' len=69 b@[1, 5, 12, 14, 15, 21, 25, 27, 31, 37, 38, 44, 46, 53, 58, 60, 66] primes?=[False, True, False, False, False, False, False, False, True, True, False, False, False, True, False, False, False]
+  '' len=0 b@[] primes?=[]
+
+=== split by 'be' -> 11 chunks ===
+  'dbbibfbhcc' len=10 b@[2, 3, 5, 7] primes?=[True, True, True, True]
+  'gbiha' len=5 b@[2] primes?=[True]
+  '' len=0 b@[] primes?=[]
+  'ih' len=2 b@[] primes?=[]
+  'ggege' len=5 b@[] primes?=[]
+  'bbgehhebhhfbabfdh' len=17 b@[1, 2, 8, 12, 14] primes?=[False, True, False, False, False]
+  'ffcdbbfcccgbf' len=13 b@[5, 6, 12] primes?=[True, False, False]
+  'eggec' len=5 b@[] primes?=[]
+  'dcibfbffgig' len=11 b@[4, 6] primes?=[False, False]
+  'eea' len=3 b@[] primes?=[]
+  '' len=0 b@[] primes?=[]
+
+=== PoW reset-counting walk ===
+  seg='dbbibfbhccbegb' endcount=14
+  seg='ihabebeihbeggegeb' endcount=18
+  seg='ebb' endcount=4
+  seg='gehhebhhfbabfdhbeffcdbb' endcount=24
+  seg='fcccgbfb' endcount=9
+  seg='eeggecb' endcount=8
+  seg='edcib' endcount=6
+  seg='fbffgigb' endcount=9
+  seg='eeeab' endcount=6
+  seg='e' endcount=2
+
+gaps between b's: [1, 1, 2, 2, 4, 3, 4, 2, 4, 7, 2, 1, 6, 4, 2, 4, 6, 1, 6, 2, 7, 5, 2, 6, 5]
+prime gaps:       [2, 1, 2, 2, 4, 2, 4, 2, 4, 6, 2, 6, 4, 2, 4, 6, 6, 2, 6, 4, 2, 6, 4, 6, 8]
+
+remove b@prime (7 removed): difhccegbihabebeihbeggegeebbgehhebhhfbabfdhbeffcdbbfcccgbfbeeggecbedcibfffgigbeeeabe
+  a-i=1-9: 496833572981252598257757552275885288621264825663422633372625577532543926667972555125

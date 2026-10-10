@@ -1,0 +1,57 @@
+{
+  "id": "C26-BIFID-FIELD-BOUNDARY",
+  "date": "2026-10-02",
+  "status": "REJECTED",
+  "hypothesis": "The upstream 7|8 field boundary propagates through the recovered Bifid transform so btcseed is an independent seven-column downstream field.",
+  "first_row": {
+    "rendered": "btcseeddeoemcke",
+    "left7": "btcseed",
+    "right8": "deoemcke",
+    "global_cut_offset": 7,
+    "crossing_output_digraph": "dd",
+    "shared_source_pair_index": 3,
+    "shared_faed_offsets": [3, 288],
+    "left_source_pair_indices": [0, 1, 2, 3],
+    "right_source_pair_indices": [3, 4, 5, 6, 7]
+  },
+  "all_rendered_rows": {
+    "rows": 38,
+    "field_widths": [7, 8],
+    "split_digraph_boundaries": 19,
+    "between_digraph_boundaries": 19,
+    "split_rows_zero_based": [0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36],
+    "between_rows_zero_based": [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37]
+  },
+  "coordinate_plane_control": {
+    "even_plane_shape": [19, 15],
+    "odd_plane_shape": [19, 15],
+    "even_plane_first7": "bcedeec",
+    "odd_plane_first7": "tsedomk",
+    "either_plane_first7_is_btcseed": false
+  },
+  "classification": {
+    "shared_width15_geometry": "VERIFIED as arithmetic tiling",
+    "btcseed_as_serialized_prefix": "VERIFIED",
+    "btcseed_as_independent_seven_column_bifid_field": "REJECTED",
+    "upstream_7_plus_8_to_downstream_7_plus_8_data_flow": "REJECTED for direct field preservation",
+    "unknown_parameterized_consumer": "UNKNOWN"
+  },
+  "graph_effect": "Delete the direct field-preserving 13x(7|8) to Bifid38x(7|8) edge. Retain width15 as a dimensional constraint and btcseed as a serialized prefix, pending an authored cross-field operation.",
+  "exact_remaining_unknown": "No source-backed operation maps the upstream rank-sum7/bit-count8 fields to the serialized Bifid output across this dependency-crossing boundary, or names a later receiver for the 570-symbol output.",
+  "source_evidence": [
+    {"path": "research/sources/salphaseion.html", "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"},
+    {"path": "research/artifacts/cycle24/matrix-width-interface.json", "sha256": "1c1cca45458ca0600b22061aa890232d26d807b7c708e0580a130445ff42f6df"},
+    {"path": "research/artifacts/cycle25/matrix-marginal-identity.json", "sha256": "e6fb90750b6f4a03e5a5b7518a1d277d049d8ebdc9f35dbba5b827b7f01edaa1"}
+  ],
+  "reproduction": {
+    "command": "python3 -m tools.bifid_field_boundary",
+    "test_command": "python3 -m unittest tests.test_bifid_field_boundary -v",
+    "tool_sha256": "b76f08de5b8dd165ace2444c4eabaa8658cd7b7c11af75fad3b3c9a41bc4f26d",
+    "test_sha256": "7f49dbfe53f9cc5f463da2fec4bf4a6097fd0f59a638239ac3ae43e64798306c",
+    "tests_passed": 5
+  },
+  "new_cryptographic_trials": 0,
+  "new_trial_inputs": 0,
+  "private_key_operations": 0,
+  "aes_operations": 0
+}

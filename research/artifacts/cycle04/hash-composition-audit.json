@@ -1,0 +1,9 @@
+{
+  "aes_trials": 2160,
+  "id": "C04-HASH-COMPOSITION-AUDIT",
+  "ledger_sha256": "56621b13e8d7ca5af300cd686bc9180667f5b4a4b45178f77c0d668e7d109d76",
+  "meaning": "Every planned candidate, provenance, six distinct target/KDF pairs, KEY/IV, padding outcome, plaintext and score/gate reproduced; this does not solve the puzzle",
+  "padding_hits": 6,
+  "status": "CONFIRMED",
+  "unique_passwords": 360
+}

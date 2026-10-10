@@ -1,0 +1,259 @@
+{
+  "candidate_fingerprints": [
+    "0649db700ec0a078fb82080efd097829de5abeb0267c9e07cdc180b542b8bd7d",
+    "109f6a4985751e8aa3d0b0fb1f26d570ca2b748d6744641fae66580ab1d01775",
+    "216d57ec9861a936d2864a2653d434397ef699d1456a0e702b564742aed9aa12",
+    "21ed50d5ab0f335f9ad362d2a62342b8ecd9ab9fae212f091e4b18e0e57873b9",
+    "23f3410c3296a38310611a98356827ea551402b9684e26fac20bffe3b7217042",
+    "2837369c96d3b150887ab5f34e0c0f1590013f2232eaa8090e86751787f00d7a",
+    "33fcc534110a73087cecf65310cd7e40acd341776599c70e453506f1539ced1c",
+    "4ed9dee75c5586edb628c7b60868b2199550a0b5f99fbb7adbe146dcf1282972",
+    "52723c99d7cb14e68b87f40387c4c4423a917dad0f948417b3640fe833a60aed",
+    "591bc897c734329f66321c2c58d15ab48bf86d382306fadede45e99342d59dcd",
+    "5b7dc188327750e806e072aa37582407ff5b596b7c4e61dc084432476ebf1a56",
+    "5ba7b5429d53e868fcb4712cb72417f570fa955bd767352a9dc009b394747b15",
+    "5ce00830b32c333d1adfde7cf5e3756740aea04cf4f92fad8542ae09c0bb6008",
+    "65194136ce30a44d48da71e89144c0166c2e6d91671ba272114482fe77a0f03d",
+    "6630d7ebfa135c165377408044846bf0615f1c3268a71c0fd2e59549d01ffdf4",
+    "66f652bdc2e36b51a0ef54921cdf86de972159496bd372c0c0ad8d534a58303c",
+    "67ef815d2f9a275473fc534c47a628d261e9d67748bb3aa5ab9d1535dec2c28d",
+    "6f8ad97ecacb16189fcc24e8bb157b0915ea45fe6bafc9e7e4d5a2dfb54983cc",
+    "828b76f1bb7bfe2cd6b96870fce981046547568d5257232eb99bf67fa3a74454",
+    "843b6c46105242aab202967595a42d3f0613f1bfaf5ff84e8d46d7745ee2b1b6",
+    "8836c0a02e5d6834918935d1bb9b418593015797265de2d2815290ecfd2386c7",
+    "9c3167dcf2b6aac4cdcdcd8fcd1df5294bb0bef84eb1045a2b11716e637cb2cc",
+    "a0a46f77600f1710a471b374021fe81f5b51ef5136662a4d8b685eec6cde03c9",
+    "a727526fdd87762dc7984d6b7597150a1bafa5bd6b506f9778bf729a96c99f87",
+    "a7f2c1d85a263a83a538d514b94aeabb264c8f5ed5826912233af8814e78a879",
+    "a9c0962c3300e5a665e1ad2b2a743e6a4271c99b1cef3f9ab25bff93cd9a6747",
+    "acc2a3f1835c6c5e5e7a408c32e59c44596f5c8cad21f4d20195dba1a8a0fd45",
+    "b1c7efc4e83f0c7855759080938a62b1761e41e86b1dbbfde1d98c2419a47a80",
+    "b91ae64ddb2c0037003e7c372ccb6e078b296074d2205a1cbd3164a0c27f2c22",
+    "bc701a820f81cfcff11f9c001ecb3ea5dc0cb1732ae71cfcf55d2cde2d21fba9",
+    "c8929d164a8d24319270f71a788a36876c21dfe9c8660a8769e41b054573a229",
+    "cb9ac6ed62f03a25ad900c41aa2c6e7c17bdbd3283e81c6d974dc89ecef6a785",
+    "d6364438917d1365d1c4ca8afae5fde13d93a191af7b9129b261c409795e19f6",
+    "d6408abf2903473cbbe7d88d5914eedf3eb0b4ea208162ad9ed4008b36f5bed6",
+    "e341d0acc713038c1ccde6a086e94e9245702a9dfc4c7f6e9427213b37760418",
+    "fba14cb7837c9f6629ffbfbc5ff485b90363901ca63aaaf99d88e0a5ccfb6ad7"
+  ],
+  "candidate_identifier_policy": "SHA256(gsmg-candidate-identity NUL || password); untagged SHA256(password) is computed only in memory for legacy no-repeat comparisons. This prevents a raw-material identifier from displaying its SHA256-lowerhex password variant",
+  "candidate_set_sha256": "20774bc71d12fae1c21963d72806685f1a0ac7d358ecd9adac90109131906b6f",
+  "date": "2026-10-02",
+  "forms": [
+    {
+      "material_fingerprint": "efe94e319b990bc21b43e9c5dfba63862689215359b4989d0480e73f2d22c2c9",
+      "material_length": 24,
+      "provenance": [
+        {
+          "case": "uppercase",
+          "punctuation": "letters-and-spaces"
+        }
+      ]
+    },
+    {
+      "material_fingerprint": "e31fb80d5a63339736a529f11cf82df91a69d5bc6e7678a25b37cd922eee31a0",
+      "material_length": 25,
+      "provenance": [
+        {
+          "case": "uppercase",
+          "punctuation": "without-terminal-period"
+        }
+      ]
+    },
+    {
+      "material_fingerprint": "8fd81eed9e9227decabf7fcbeaf5902edc07015ec4bb334afa227d792da512fd",
+      "material_length": 26,
+      "provenance": [
+        {
+          "case": "uppercase",
+          "punctuation": "exact"
+        }
+      ]
+    },
+    {
+      "material_fingerprint": "c52800f7f76f05514e07acd3142d0dce369d0676dd29d6121a13a315d5490de8",
+      "material_length": 19,
+      "provenance": [
+        {
+          "case": "uppercase",
+          "punctuation": "letters-compact"
+        }
+      ]
+    },
+    {
+      "material_fingerprint": "da15adbc70ea2258c31b968c9b97bc8ce7eaaab5914d1776a162d4767870c616",
+      "material_length": 24,
+      "provenance": [
+        {
+          "case": "source-case",
+          "punctuation": "letters-and-spaces"
+        }
+      ]
+    },
+    {
+      "material_fingerprint": "21cf529b5d8cbd98263c62b88813f543198b77d99e9e94b9d218424abd8a642a",
+      "material_length": 25,
+      "provenance": [
+        {
+          "case": "source-case",
+          "punctuation": "without-terminal-period"
+        }
+      ]
+    },
+    {
+      "material_fingerprint": "a9fe3f49a217064841cbaf9e2df85aec124e8d9666ff6af2608dfd3058b4d3c1",
+      "material_length": 26,
+      "provenance": [
+        {
+          "case": "source-case",
+          "punctuation": "exact"
+        }
+      ]
+    },
+    {
+      "material_fingerprint": "7ec9a0730e77e00453a62fdfe1f9af705156e9af6b377c523e4b8cf67e4fff67",
+      "material_length": 19,
+      "provenance": [
+        {
+          "case": "source-case",
+          "punctuation": "letters-compact"
+        }
+      ]
+    },
+    {
+      "material_fingerprint": "28bcac509b9422e8be60053e0bdd5a6e1ff6a5de6d19edecdad06fec9ab5564d",
+      "material_length": 24,
+      "provenance": [
+        {
+          "case": "lowercase",
+          "punctuation": "letters-and-spaces"
+        }
+      ]
+    },
+    {
+      "material_fingerprint": "aa11c0966918c6c014dee8487c31ccc78a1baa0e676218135552fb0365ead376",
+      "material_length": 25,
+      "provenance": [
+        {
+          "case": "lowercase",
+          "punctuation": "without-terminal-period"
+        }
+      ]
+    },
+    {
+      "material_fingerprint": "5918738bb5a98fbd4147d3787493a909c74f2689cd2aa71189a19bfce54e99e7",
+      "material_length": 26,
+      "provenance": [
+        {
+          "case": "lowercase",
+          "punctuation": "exact"
+        }
+      ]
+    },
+    {
+      "material_fingerprint": "b6a29be7f04594713a87e1f2df7e61e096fab5b43b29e8442b9df708ddb059da",
+      "material_length": 19,
+      "provenance": [
+        {
+          "case": "lowercase",
+          "punctuation": "letters-compact"
+        }
+      ]
+    }
+  ],
+  "hypothesis": "The literal last sentence before the encoded Architect block is the password material referenced by lastwordsbeforearchichoice and thispassword; the following shabef command applies SHA256",
+  "id": "C23-LAST-WORDS-LITERAL",
+  "invariant": "Only punctuation removal, whitespace compaction and whole-string source/lower/upper casing are allowed. No word permutations, internal case masks, added terms, dictionaries, cipher changes or keyspace enumeration.",
+  "justification": "The sentence is the exact final prose before the encoded Architect speech in the source stage. Existing candidate inventories contain 1141 and generic labels but no literal occurrence of the sentence or its compact form. The three transformations are the raw source and the two standard SHA256 representations already distinguished by the verified earlier stages.",
+  "new_candidate_fingerprints": [
+    "0649db700ec0a078fb82080efd097829de5abeb0267c9e07cdc180b542b8bd7d",
+    "109f6a4985751e8aa3d0b0fb1f26d570ca2b748d6744641fae66580ab1d01775",
+    "216d57ec9861a936d2864a2653d434397ef699d1456a0e702b564742aed9aa12",
+    "21ed50d5ab0f335f9ad362d2a62342b8ecd9ab9fae212f091e4b18e0e57873b9",
+    "23f3410c3296a38310611a98356827ea551402b9684e26fac20bffe3b7217042",
+    "2837369c96d3b150887ab5f34e0c0f1590013f2232eaa8090e86751787f00d7a",
+    "33fcc534110a73087cecf65310cd7e40acd341776599c70e453506f1539ced1c",
+    "4ed9dee75c5586edb628c7b60868b2199550a0b5f99fbb7adbe146dcf1282972",
+    "52723c99d7cb14e68b87f40387c4c4423a917dad0f948417b3640fe833a60aed",
+    "591bc897c734329f66321c2c58d15ab48bf86d382306fadede45e99342d59dcd",
+    "5b7dc188327750e806e072aa37582407ff5b596b7c4e61dc084432476ebf1a56",
+    "5ba7b5429d53e868fcb4712cb72417f570fa955bd767352a9dc009b394747b15",
+    "5ce00830b32c333d1adfde7cf5e3756740aea04cf4f92fad8542ae09c0bb6008",
+    "65194136ce30a44d48da71e89144c0166c2e6d91671ba272114482fe77a0f03d",
+    "6630d7ebfa135c165377408044846bf0615f1c3268a71c0fd2e59549d01ffdf4",
+    "66f652bdc2e36b51a0ef54921cdf86de972159496bd372c0c0ad8d534a58303c",
+    "67ef815d2f9a275473fc534c47a628d261e9d67748bb3aa5ab9d1535dec2c28d",
+    "6f8ad97ecacb16189fcc24e8bb157b0915ea45fe6bafc9e7e4d5a2dfb54983cc",
+    "828b76f1bb7bfe2cd6b96870fce981046547568d5257232eb99bf67fa3a74454",
+    "843b6c46105242aab202967595a42d3f0613f1bfaf5ff84e8d46d7745ee2b1b6",
+    "8836c0a02e5d6834918935d1bb9b418593015797265de2d2815290ecfd2386c7",
+    "9c3167dcf2b6aac4cdcdcd8fcd1df5294bb0bef84eb1045a2b11716e637cb2cc",
+    "a0a46f77600f1710a471b374021fe81f5b51ef5136662a4d8b685eec6cde03c9",
+    "a727526fdd87762dc7984d6b7597150a1bafa5bd6b506f9778bf729a96c99f87",
+    "a7f2c1d85a263a83a538d514b94aeabb264c8f5ed5826912233af8814e78a879",
+    "a9c0962c3300e5a665e1ad2b2a743e6a4271c99b1cef3f9ab25bff93cd9a6747",
+    "acc2a3f1835c6c5e5e7a408c32e59c44596f5c8cad21f4d20195dba1a8a0fd45",
+    "b1c7efc4e83f0c7855759080938a62b1761e41e86b1dbbfde1d98c2419a47a80",
+    "b91ae64ddb2c0037003e7c372ccb6e078b296074d2205a1cbd3164a0c27f2c22",
+    "bc701a820f81cfcff11f9c001ecb3ea5dc0cb1732ae71cfcf55d2cde2d21fba9",
+    "c8929d164a8d24319270f71a788a36876c21dfe9c8660a8769e41b054573a229",
+    "cb9ac6ed62f03a25ad900c41aa2c6e7c17bdbd3283e81c6d974dc89ecef6a785",
+    "d6364438917d1365d1c4ca8afae5fde13d93a191af7b9129b261c409795e19f6",
+    "d6408abf2903473cbbe7d88d5914eedf3eb0b4ea208162ad9ed4008b36f5bed6",
+    "e341d0acc713038c1ccde6a086e94e9245702a9dfc4c7f6e9427213b37760418",
+    "fba14cb7837c9f6629ffbfbc5ff485b90363901ca63aaaf99d88e0a5ccfb6ad7"
+  ],
+  "new_cryptographic_trials_executed": 0,
+  "search_space": {
+    "distinct_normalized_materials": 12,
+    "kdf_digests": [
+      "md5",
+      "sha256"
+    ],
+    "new_unique_passwords": 36,
+    "password_transforms": [
+      "raw",
+      "sha256-lowerhex",
+      "sha256-raw"
+    ],
+    "planned_aes_trials": 216,
+    "previously_tested_passwords_skipped": 0,
+    "source_sentences": 1,
+    "targets": [
+      "phase32-inner",
+      "salphaseion-small",
+      "cosmic-duality"
+    ],
+    "unique_passwords": 36
+  },
+  "source_evidence": [
+    {
+      "locator": "One for one, four for one.",
+      "path": "research/artifacts/phase32.txt",
+      "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+    },
+    {
+      "locator": "lastwordsbeforearchichoice / thispassword / shabef sequence",
+      "path": "research/sources/salphaseion.html",
+      "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+    },
+    {
+      "locator": null,
+      "path": "research/artifacts/cycle08/instruction-order.json",
+      "sha256": "5f5822204c310f666027d4bfdc619ab82545093b58830780951f71ecbc7f856a"
+    },
+    {
+      "locator": null,
+      "path": "research/artifacts/cycle09/cumulative-aes-audit.json",
+      "sha256": "5d3f6dd5fdbc9a1723641e24a370fdb5c4266720684a32e20d9a110601f2b763"
+    },
+    {
+      "locator": null,
+      "path": "research/artifacts/cycle10/masked-missing-cell-audit.json",
+      "sha256": "2b42ad2a295d1e90152b80d62ba96c8898b1ebdab0551b2c8683384da9ba17fb"
+    }
+  ],
+  "status": "UNTESTED",
+  "verification_policy": "Only local Boolean target results and structural scores are saved. Password, AES key/IV, plaintext bytes, scalars and candidate addresses are omitted."
+}

@@ -1,0 +1,7 @@
+{
+  "group": "composition",
+  "ledger_sha256": "131a30a4169ab4f4a90d96128ca0cbd2d0a916d1097c3081879a1d0ced82d62b",
+  "meaning": "Every recorded key-slot offset, source plaintext hash, scalar fingerprint, both addresses and target gate reproduce; does not solve the puzzle",
+  "slot_checks": 160,
+  "status": "CONFIRMED"
+}

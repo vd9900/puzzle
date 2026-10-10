@@ -1,0 +1,1288 @@
+{
+  "assumptions": [
+    "An earlier local entry input is not automatically a later retained operand",
+    "Names supplied by secondary solutions are not original source labels",
+    "Previously mapped prefix, speech delta and codecs are controls, not rerun experiments"
+  ],
+  "confidence": "HIGH local primary wording and frozen maps; UNKNOWN intended carried object",
+  "contradictions": [
+    "No named prior-output equality or carry assignment occurs in the audited primary clauses",
+    "Generic answer/code vocabulary does not establish data identity",
+    "Speech edits may be operative even when the original dialogue is narrative"
+  ],
+  "current_prefix_anchors": [
+    {
+      "character_span_zero_based_half_open": [
+        145,
+        163
+      ],
+      "column_one_based": 146,
+      "line_one_based": 1,
+      "literal": "some of my answers",
+      "role": "LOCAL_SPEAKER_ANSWERS_NOT_AN_EXPLICIT_PREVIOUS_RIDDLE_AGGREGATE",
+      "source": {
+        "path": "research/artifacts/phase32.txt",
+        "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+      },
+      "utf8_byte_span_zero_based_half_open": [
+        145,
+        163
+      ]
+    },
+    {
+      "character_span_zero_based_half_open": [
+        236,
+        255
+      ],
+      "column_one_based": 237,
+      "line_one_based": 1,
+      "literal": "your first question",
+      "role": "LOCAL_DIALOGUE_QUESTION_NOT_A_GLOBAL_SELECTOR",
+      "source": {
+        "path": "research/artifacts/phase32.txt",
+        "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+      },
+      "utf8_byte_span_zero_based_half_open": [
+        236,
+        255
+      ]
+    },
+    {
+      "character_span_zero_based_half_open": [
+        336,
+        366
+      ],
+      "column_one_based": 1,
+      "line_one_based": 3,
+      "literal": "... am I here? Wake up, you...",
+      "role": "LOCAL_DIALOGUE_AND_TRANSFORM_HINT_NOT_A_NAMED_CARRIED_OBJECT",
+      "source": {
+        "path": "research/artifacts/phase32.txt",
+        "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+      },
+      "utf8_byte_span_zero_based_half_open": [
+        336,
+        366
+      ]
+    },
+    {
+      "character_span_zero_based_half_open": [
+        367,
+        416
+      ],
+      "column_one_based": 32,
+      "line_one_based": 3,
+      "literal": "I've designed you a beautiful strategic position.",
+      "role": "POSITION_REFERENCE_WITHOUT_TYPED_SOURCE_ASSIGNMENT",
+      "source": {
+        "path": "research/artifacts/phase32.txt",
+        "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+      },
+      "utf8_byte_span_zero_based_half_open": [
+        367,
+        416
+      ]
+    }
+  ],
+  "date": "2026-10-01",
+  "earlier_names_not_literal_in_primary_phase3": {
+    "Heisenberg": false,
+    "Jacque Fresco": false
+  },
+  "explicit_later_carried_input_identities": 0,
+  "fixture_archive_pairs_verified": [
+    [
+      "research/artifacts/phase3.txt",
+      "research/sources/maintained-phase2-assets__phase3.txt"
+    ],
+    [
+      "research/artifacts/phase32.txt",
+      "research/sources/maintained-phase3-assets__phase3.2.txt"
+    ]
+  ],
+  "frozen_controls": {
+    "branch_roles": {
+      "roles": {
+        "91_letter_selected_text_origin": "Numeric paragraph3 via the already verified checkerboard, not the encoded Architect speech in paragraph2",
+        "91_letter_text_is_not_immediately_adjacent_to_container": true,
+        "checkerboard_width_clue": {
+          "belongs_to_paragraph_index_zero_based": 4,
+          "byte_span_zero_based_half_open": [
+            2258,
+            2287
+          ],
+          "literal": "as wide as the first one seen"
+        },
+        "encoding_clue": {
+          "byte_span_zero_based_half_open": [
+            417,
+            443
+          ],
+          "clue_has_no_literal_1141_index_or_slice": true,
+          "literal": "One for one, four for one."
+        },
+        "historical_speech_offset1141_selection_already_tested_not_relaunched": true,
+        "layout_does_not_prove_a_last_words_referent": true,
+        "no_primary_choice_word_in_any_paragraph": true,
+        "paragraphs": [
+          {
+            "ASCII_only": true,
+            "byte_span_zero_based_half_open": [
+              0,
+              332
+            ],
+            "contains_literal_choice": false,
+            "length": 332,
+            "numeric_only": false,
+            "paragraph_index_zero_based": 0,
+            "role": "public stage introductory text"
+          },
+          {
+            "ASCII_only": true,
+            "byte_span_zero_based_half_open": [
+              336,
+              443
+            ],
+            "contains_literal_choice": false,
+            "length": 107,
+            "numeric_only": false,
+            "paragraph_index_zero_based": 1,
+            "role": "encoding and classical-transform clue"
+          },
+          {
+            "ASCII_only": false,
+            "byte_span_zero_based_half_open": [
+              447,
+              1986
+            ],
+            "contains_literal_choice": false,
+            "length": 1539,
+            "numeric_only": false,
+            "paragraph_index_zero_based": 2,
+            "role": "encoded Architect-speech branch"
+          },
+          {
+            "ASCII_only": true,
+            "byte_span_zero_based_half_open": [
+              1990,
+              2139
+            ],
+            "contains_literal_choice": false,
+            "length": 149,
+            "numeric_only": true,
+            "paragraph_index_zero_based": 3,
+            "role": "numeric checkerboard branch"
+          },
+          {
+            "ASCII_only": true,
+            "byte_span_zero_based_half_open": [
+              2143,
+              2288
+            ],
+            "contains_literal_choice": false,
+            "length": 145,
+            "numeric_only": false,
+            "paragraph_index_zero_based": 4,
+            "role": "checkerboard-alphabet clue immediately before the container"
+          },
+          {
+            "ASCII_only": true,
+            "byte_span_zero_based_half_open": [
+              2292,
+              2422
+            ],
+            "contains_literal_choice": false,
+            "length": 130,
+            "numeric_only": false,
+            "paragraph_index_zero_based": 5,
+            "role": "public encoded container"
+          }
+        ],
+        "source": {
+          "path": "research/artifacts/phase32.txt",
+          "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+        }
+      },
+      "source": {
+        "path": "research/artifacts/cycle12/source-join-preflight-v2.json",
+        "sha256": "231b9748acccd054d0a43f7af2420faca8cade6523aace16e0803f370a3f3660"
+      }
+    },
+    "local_namespace": {
+      "phase2_domain": "parts1..7 local to the Phase3-entry construction",
+      "source": {
+        "path": "research/artifacts/cycle18/notation-namespace.json",
+        "sha256": "09f606c45aeb53ea01f693ed8e8306fe1d298e755c9f31d799229ed1ff2ec188"
+      }
+    },
+    "speech_delta": {
+      "no_baseline_realignment": true,
+      "segments": [
+        {
+          "baseline_normalized_span_zero_based_half_open": [
+            12,
+            28
+          ],
+          "baseline_phrase": "The function of the",
+          "baseline_quote_source_location": {
+            "character_span_zero_based_half_open": [
+              1249401,
+              1249420
+            ],
+            "column_one_based": 16,
+            "line_one_based": 33097,
+            "utf8_byte_span_zero_based_half_open": [
+              1258525,
+              1258544
+            ]
+          },
+          "insertion_is_zero_width_in_baseline": false,
+          "kind": "INHERITED",
+          "puzzle_decoded_span_zero_based_half_open": [
+            984,
+            1000
+          ],
+          "puzzle_encoded_fixture_span_zero_based_half_open": [
+            1431,
+            1447
+          ],
+          "puzzle_phrase_normalized": "thefunctionofthe"
+        },
+        {
+          "baseline_normalized_span_zero_based_half_open": [
+            28,
+            31
+          ],
+          "baseline_phrase": "One",
+          "baseline_quote_source_location": {
+            "character_span_zero_based_half_open": [
+              1249421,
+              1249424
+            ],
+            "column_one_based": 36,
+            "line_one_based": 33097,
+            "utf8_byte_span_zero_based_half_open": [
+              1258545,
+              1258548
+            ]
+          },
+          "insertion_is_zero_width_in_baseline": false,
+          "kind": "REPLACEMENT",
+          "puzzle_decoded_span_zero_based_half_open": [
+            1000,
+            1003
+          ],
+          "puzzle_encoded_fixture_span_zero_based_half_open": [
+            1447,
+            1450
+          ],
+          "puzzle_phrase_normalized": "you"
+        },
+        {
+          "baseline_normalized_span_zero_based_half_open": [
+            31,
+            55
+          ],
+          "baseline_phrase": "is now to return to the source",
+          "baseline_quote_source_location": {
+            "character_span_zero_based_half_open": [
+              1249425,
+              1249455
+            ],
+            "column_one_based": 40,
+            "line_one_based": 33097,
+            "utf8_byte_span_zero_based_half_open": [
+              1258549,
+              1258579
+            ]
+          },
+          "insertion_is_zero_width_in_baseline": false,
+          "kind": "INHERITED",
+          "puzzle_decoded_span_zero_based_half_open": [
+            1003,
+            1027
+          ],
+          "puzzle_encoded_fixture_span_zero_based_half_open": [
+            1450,
+            1474
+          ],
+          "puzzle_phrase_normalized": "isnowtoreturntothesource"
+        },
+        {
+          "baseline_normalized_span_zero_based_half_open": [
+            55,
+            55
+          ],
+          "baseline_phrase": "",
+          "baseline_quote_source_location": {
+            "character_span_zero_based_half_open": [
+              1249457,
+              1249457
+            ],
+            "column_one_based": 72,
+            "line_one_based": 33097,
+            "utf8_byte_span_zero_based_half_open": [
+              1258581,
+              1258581
+            ]
+          },
+          "insertion_is_zero_width_in_baseline": true,
+          "kind": "INSERTION",
+          "puzzle_decoded_span_zero_based_half_open": [
+            1027,
+            1032
+          ],
+          "puzzle_encoded_fixture_span_zero_based_half_open": [
+            1474,
+            1479
+          ],
+          "puzzle_phrase_normalized": "codes"
+        },
+        {
+          "baseline_normalized_span_zero_based_half_open": [
+            55,
+            98
+          ],
+          "baseline_phrase": "allowing a temporary dissemination of the code you",
+          "baseline_quote_source_location": {
+            "character_span_zero_based_half_open": [
+              1249457,
+              1249507
+            ],
+            "column_one_based": 72,
+            "line_one_based": 33097,
+            "utf8_byte_span_zero_based_half_open": [
+              1258581,
+              1258631
+            ]
+          },
+          "insertion_is_zero_width_in_baseline": false,
+          "kind": "INHERITED",
+          "puzzle_decoded_span_zero_based_half_open": [
+            1032,
+            1075
+          ],
+          "puzzle_encoded_fixture_span_zero_based_half_open": [
+            1479,
+            1522
+          ],
+          "puzzle_phrase_normalized": "allowingatemporarydisseminationofthecodeyou"
+        },
+        {
+          "baseline_normalized_span_zero_based_half_open": [
+            98,
+            98
+          ],
+          "baseline_phrase": "",
+          "baseline_quote_source_location": {
+            "character_span_zero_based_half_open": [
+              1249508,
+              1249508
+            ],
+            "column_one_based": 123,
+            "line_one_based": 33097,
+            "utf8_byte_span_zero_based_half_open": [
+              1258632,
+              1258632
+            ]
+          },
+          "insertion_is_zero_width_in_baseline": true,
+          "kind": "INSERTION",
+          "puzzle_decoded_span_zero_based_half_open": [
+            1075,
+            1084
+          ],
+          "puzzle_encoded_fixture_span_zero_based_half_open": [
+            1522,
+            1531
+          ],
+          "puzzle_phrase_normalized": "hopefully"
+        },
+        {
+          "baseline_normalized_span_zero_based_half_open": [
+            98,
+            122
+          ],
+          "baseline_phrase": "carry, reinserting the prime",
+          "baseline_quote_source_location": {
+            "character_span_zero_based_half_open": [
+              1249508,
+              1249536
+            ],
+            "column_one_based": 123,
+            "line_one_based": 33097,
+            "utf8_byte_span_zero_based_half_open": [
+              1258632,
+              1258660
+            ]
+          },
+          "insertion_is_zero_width_in_baseline": false,
+          "kind": "INHERITED",
+          "puzzle_decoded_span_zero_based_half_open": [
+            1084,
+            1108
+          ],
+          "puzzle_encoded_fixture_span_zero_based_half_open": [
+            1531,
+            1555
+          ],
+          "puzzle_phrase_normalized": "carryreinsertingtheprime"
+        },
+        {
+          "baseline_normalized_span_zero_based_half_open": [
+            122,
+            129
+          ],
+          "baseline_phrase": "program",
+          "baseline_quote_source_location": {
+            "character_span_zero_based_half_open": [
+              1249537,
+              1249544
+            ],
+            "column_one_based": 152,
+            "line_one_based": 33097,
+            "utf8_byte_span_zero_based_half_open": [
+              1258661,
+              1258668
+            ]
+          },
+          "insertion_is_zero_width_in_baseline": false,
+          "kind": "REPLACEMENT",
+          "puzzle_decoded_span_zero_based_half_open": [
+            1108,
+            1114
+          ],
+          "puzzle_encoded_fixture_span_zero_based_half_open": [
+            1555,
+            1561
+          ],
+          "puzzle_phrase_normalized": "basics"
+        },
+        {
+          "baseline_normalized_span_zero_based_half_open": [
+            129,
+            168
+          ],
+          "baseline_phrase": "After which you will be required to select from",
+          "baseline_quote_source_location": {
+            "character_span_zero_based_half_open": [
+              1249546,
+              1249593
+            ],
+            "column_one_based": 161,
+            "line_one_based": 33097,
+            "utf8_byte_span_zero_based_half_open": [
+              1258670,
+              1258717
+            ]
+          },
+          "insertion_is_zero_width_in_baseline": false,
+          "kind": "INHERITED",
+          "puzzle_decoded_span_zero_based_half_open": [
+            1114,
+            1153
+          ],
+          "puzzle_encoded_fixture_span_zero_based_half_open": [
+            1561,
+            1600
+          ],
+          "puzzle_phrase_normalized": "afterwhichyouwillberequiredtoselectfrom"
+        },
+        {
+          "baseline_normalized_span_zero_based_half_open": [
+            168,
+            177
+          ],
+          "baseline_phrase": "the matrix",
+          "baseline_quote_source_location": {
+            "character_span_zero_based_half_open": [
+              1249594,
+              1249604
+            ],
+            "column_one_based": 209,
+            "line_one_based": 33097,
+            "utf8_byte_span_zero_based_half_open": [
+              1258718,
+              1258728
+            ]
+          },
+          "insertion_is_zero_width_in_baseline": false,
+          "kind": "REPLACEMENT",
+          "puzzle_decoded_span_zero_based_half_open": [
+            1153,
+            1157
+          ],
+          "puzzle_encoded_fixture_span_zero_based_half_open": [
+            1600,
+            1604
+          ],
+          "puzzle_phrase_normalized": "over"
+        },
+        {
+          "baseline_normalized_span_zero_based_half_open": [
+            177,
+            190
+          ],
+          "baseline_phrase": "23 individuals",
+          "baseline_quote_source_location": {
+            "character_span_zero_based_half_open": [
+              1249605,
+              1249619
+            ],
+            "column_one_based": 220,
+            "line_one_based": 33097,
+            "utf8_byte_span_zero_based_half_open": [
+              1258729,
+              1258743
+            ]
+          },
+          "insertion_is_zero_width_in_baseline": false,
+          "kind": "REPLACEMENT",
+          "puzzle_decoded_span_zero_based_half_open": [
+            1157,
+            1175
+          ],
+          "puzzle_encoded_fixture_span_zero_based_half_open": [
+            1604,
+            1622
+          ],
+          "puzzle_phrase_normalized": "twentythreeciphers"
+        },
+        {
+          "baseline_normalized_span_zero_based_half_open": [
+            190,
+            198
+          ],
+          "baseline_phrase": "16 female",
+          "baseline_quote_source_location": {
+            "character_span_zero_based_half_open": [
+              1249621,
+              1249630
+            ],
+            "column_one_based": 236,
+            "line_one_based": 33097,
+            "utf8_byte_span_zero_based_half_open": [
+              1258745,
+              1258754
+            ]
+          },
+          "insertion_is_zero_width_in_baseline": false,
+          "kind": "REPLACEMENT",
+          "puzzle_decoded_span_zero_based_half_open": [
+            1175,
+            1198
+          ],
+          "puzzle_encoded_fixture_span_zero_based_half_open": [
+            1622,
+            1645
+          ],
+          "puzzle_phrase_normalized": "sixteenencryptionsandor"
+        },
+        {
+          "baseline_normalized_span_zero_based_half_open": [
+            198,
+            203
+          ],
+          "baseline_phrase": "7 male",
+          "baseline_quote_source_location": {
+            "character_span_zero_based_half_open": [
+              1249632,
+              1249638
+            ],
+            "column_one_based": 247,
+            "line_one_based": 33097,
+            "utf8_byte_span_zero_based_half_open": [
+              1258756,
+              1258762
+            ]
+          },
+          "insertion_is_zero_width_in_baseline": false,
+          "kind": "REPLACEMENT",
+          "puzzle_decoded_span_zero_based_half_open": [
+            1198,
+            1223
+          ],
+          "puzzle_encoded_fixture_span_zero_based_half_open": [
+            1645,
+            1670
+          ],
+          "puzzle_phrase_normalized": "sevenintertwinedpasswords"
+        }
+      ],
+      "source": {
+        "path": "research/artifacts/cycle14/speech-delta.json",
+        "sha256": "a2fbb4e5dcc526143c9740500849c46c4439ac4622a1340ef764c3ee728962e0"
+      }
+    },
+    "speech_directives": {
+      "anchors": [
+        {
+          "archived_spacing": "RETURN TO THE SOURCE CODES",
+          "encoded_fixture_byte_span_zero_based_half_open": [
+            1457,
+            1479
+          ],
+          "normalized_phrase": "returntothesourcecodes",
+          "secondary_spacing_location": {
+            "character_span_zero_based_half_open": [
+              19162,
+              19188
+            ],
+            "column_one_based": 8,
+            "line_one_based": 314,
+            "utf8_byte_span_zero_based_half_open": [
+              20987,
+              21013
+            ]
+          },
+          "verified_decoded_span_zero_based_half_open": [
+            1010,
+            1032
+          ]
+        },
+        {
+          "archived_spacing": "THE CODE YOU HOPEFULLY CARRY",
+          "encoded_fixture_byte_span_zero_based_half_open": [
+            1512,
+            1536
+          ],
+          "normalized_phrase": "thecodeyouhopefullycarry",
+          "secondary_spacing_location": {
+            "character_span_zero_based_half_open": [
+              19227,
+              19255
+            ],
+            "column_one_based": 73,
+            "line_one_based": 314,
+            "utf8_byte_span_zero_based_half_open": [
+              21052,
+              21080
+            ]
+          },
+          "verified_decoded_span_zero_based_half_open": [
+            1065,
+            1089
+          ]
+        },
+        {
+          "archived_spacing": "REINSERTING THE PRIME BASICS",
+          "encoded_fixture_byte_span_zero_based_half_open": [
+            1536,
+            1561
+          ],
+          "normalized_phrase": "reinsertingtheprimebasics",
+          "secondary_spacing_location": {
+            "character_span_zero_based_half_open": [
+              19257,
+              19285
+            ],
+            "column_one_based": 1,
+            "line_one_based": 315,
+            "utf8_byte_span_zero_based_half_open": [
+              21082,
+              21110
+            ]
+          },
+          "verified_decoded_span_zero_based_half_open": [
+            1089,
+            1114
+          ]
+        },
+        {
+          "archived_spacing": "AFTER WHICH",
+          "encoded_fixture_byte_span_zero_based_half_open": [
+            1561,
+            1571
+          ],
+          "normalized_phrase": "afterwhich",
+          "secondary_spacing_location": {
+            "character_span_zero_based_half_open": [
+              19286,
+              19297
+            ],
+            "column_one_based": 30,
+            "line_one_based": 315,
+            "utf8_byte_span_zero_based_half_open": [
+              21111,
+              21122
+            ]
+          },
+          "verified_decoded_span_zero_based_half_open": [
+            1114,
+            1124
+          ]
+        },
+        {
+          "archived_spacing": "SELECT FROM",
+          "encoded_fixture_byte_span_zero_based_half_open": [
+            1590,
+            1600
+          ],
+          "normalized_phrase": "selectfrom",
+          "secondary_spacing_location": {
+            "character_span_zero_based_half_open": [
+              19322,
+              19333
+            ],
+            "column_one_based": 66,
+            "line_one_based": 315,
+            "utf8_byte_span_zero_based_half_open": [
+              21147,
+              21158
+            ]
+          },
+          "verified_decoded_span_zero_based_half_open": [
+            1143,
+            1153
+          ]
+        },
+        {
+          "archived_spacing": "OVER TWENTY-THREE CIPHERS",
+          "encoded_fixture_byte_span_zero_based_half_open": [
+            1600,
+            1622
+          ],
+          "normalized_phrase": "overtwentythreeciphers",
+          "secondary_spacing_location": {
+            "character_span_zero_based_half_open": [
+              19334,
+              19359
+            ],
+            "column_one_based": 78,
+            "line_one_based": 315,
+            "utf8_byte_span_zero_based_half_open": [
+              21159,
+              21184
+            ]
+          },
+          "verified_decoded_span_zero_based_half_open": [
+            1153,
+            1175
+          ]
+        },
+        {
+          "archived_spacing": "SIXTEEN ENCRYPTIONS",
+          "encoded_fixture_byte_span_zero_based_half_open": [
+            1622,
+            1640
+          ],
+          "normalized_phrase": "sixteenencryptions",
+          "secondary_spacing_location": {
+            "character_span_zero_based_half_open": [
+              19361,
+              19380
+            ],
+            "column_one_based": 1,
+            "line_one_based": 316,
+            "utf8_byte_span_zero_based_half_open": [
+              21186,
+              21205
+            ]
+          },
+          "verified_decoded_span_zero_based_half_open": [
+            1175,
+            1193
+          ]
+        },
+        {
+          "archived_spacing": "AND OR SEVEN INTERTWINED PASSWORDS",
+          "encoded_fixture_byte_span_zero_based_half_open": [
+            1640,
+            1670
+          ],
+          "normalized_phrase": "andorsevenintertwinedpasswords",
+          "secondary_spacing_location": {
+            "character_span_zero_based_half_open": [
+              19381,
+              19415
+            ],
+            "column_one_based": 21,
+            "line_one_based": 316,
+            "utf8_byte_span_zero_based_half_open": [
+              21206,
+              21240
+            ]
+          },
+          "verified_decoded_span_zero_based_half_open": [
+            1193,
+            1223
+          ]
+        }
+      ],
+      "source": {
+        "path": "research/artifacts/cycle13/relational-directives.json",
+        "sha256": "83df4133dc681862e5a7f9d9909584cb4ac207b385c546b0accec0b69bea9a72"
+      }
+    }
+  },
+  "hypotheses": [
+    {
+      "assumptions": [
+        "Carry refers to a retained earlier-stage input",
+        "The earlier riddle aggregate survives its local entry use as a later object"
+      ],
+      "confidence": "LOW later operand ownership",
+      "contradictions": [
+        "Speech names no earlier answer, aggregate or source span",
+        "My answers in the prefix belongs to the current speaker",
+        "Earlier explicit local consumers do not assign this later carried object"
+      ],
+      "hypothesis": "The code you hopefully carry is the aggregate of earlier Phase3 riddle outputs",
+      "id": "C20-CARRY-PREVIOUS-ANSWERS",
+      "input": "Original stage instructions and frozen speech/source maps; no derived entry material",
+      "next_test": "Audit the exact primary phrase as wide as the first one seen as a source-reference/type constraint. Compare only the already documented first14x14 grid, earlier eight-file image page, earlier chess/FEN object and current decimal codebook column domain. Require matching object type, width definition and an authored antecedent; do not resize boards, reroute symbols, rebuild alphabets or decode new candidates.",
+      "operation_order": [
+        "reuse local riddle output roles",
+        "compare original current dialogue references",
+        "retain unassigned carried object before reinsertion/selection"
+      ],
+      "output": "A symbolic cross-stage ownership interpretation with the missing input edge explicit",
+      "source_evidence": [
+        {
+          "path": "research/artifacts/cycle19/earliest-hint-reference.json",
+          "sha256": "f029690eaa583d05433998e3354748a55293cbbd56bc3bd5123a7f3995c1fc1f"
+        },
+        {
+          "path": "research/artifacts/cycle13/relational-directives.json",
+          "sha256": "83df4133dc681862e5a7f9d9909584cb4ac207b385c546b0accec0b69bea9a72"
+        },
+        {
+          "path": "research/artifacts/cycle14/speech-delta.json",
+          "sha256": "a2fbb4e5dcc526143c9740500849c46c4439ac4622a1340ef764c3ee728962e0"
+        },
+        {
+          "path": "research/artifacts/cycle12/source-join-preflight-v2.json",
+          "sha256": "231b9748acccd054d0a43f7af2420faca8cade6523aace16e0803f370a3f3660"
+        },
+        {
+          "path": "research/artifacts/cycle18/notation-namespace.json",
+          "sha256": "09f606c45aeb53ea01f693ed8e8306fe1d298e755c9f31d799229ed1ff2ec188"
+        },
+        {
+          "path": "research/sources/phase2.html",
+          "sha256": "06fbd4461ab20d45c54a7053c7c0cfa256ba82a5ad4c73a47fac67f3f1cdf7d9"
+        },
+        {
+          "path": "research/artifacts/phase32-beaufort.txt",
+          "sha256": "b08a3151c88cdeb3b2e730a9d9445e1a349498d89bc94ba1d0837f9e04cc3bcd"
+        },
+        {
+          "path": "research/artifacts/phase3.txt",
+          "sha256": "c4ad94559a44a927c1032cc0e024515f9510a0806a2d14458dbf4a360af9865f"
+        },
+        {
+          "path": "research/sources/maintained-phase2-assets__phase3.txt",
+          "sha256": "c4ad94559a44a927c1032cc0e024515f9510a0806a2d14458dbf4a360af9865f"
+        },
+        {
+          "path": "research/artifacts/phase32.txt",
+          "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+        },
+        {
+          "path": "research/sources/maintained-phase3-assets__phase3.2.txt",
+          "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+        }
+      ],
+      "source_locations": [
+        "research/sources/phase2.html:42",
+        "research/artifacts/phase3.txt:1",
+        "research/artifacts/phase3.txt:3",
+        "research/artifacts/phase3.txt:5",
+        "research/artifacts/phase3.txt:7",
+        "research/artifacts/phase32.txt:1",
+        "research/artifacts/phase32.txt:1",
+        "research/artifacts/phase32.txt:3",
+        "research/artifacts/phase32.txt:3",
+        "research/artifacts/cycle13/relational-directives.json",
+        "research/artifacts/cycle14/speech-delta.json",
+        "research/artifacts/cycle12/source-join-preflight-v2.json",
+        "research/artifacts/cycle18/notation-namespace.json"
+      ],
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "assumptions": [
+        "Local dialogue antecedents are read ordinarily",
+        "Puzzle-specific noun edits need separate operative bindings"
+      ],
+      "confidence": "MEDIUM local grammatical ownership; UNKNOWN concealed operation",
+      "contradictions": [
+        "Codes/hopefully/basics and selection nouns are mapped puzzle edits",
+        "A narrative reading alone does not explain the intended end-stage construction"
+      ],
+      "hypothesis": "Current answers/question and carried-code references primarily retain local Architect dialogue roles without assigning an earlier riddle aggregate",
+      "id": "C20-CARRY-NARRATIVE",
+      "input": "Original stage instructions and frozen speech/source maps; no derived entry material",
+      "next_test": "Audit the exact primary phrase as wide as the first one seen as a source-reference/type constraint. Compare only the already documented first14x14 grid, earlier eight-file image page, earlier chess/FEN object and current decimal codebook column domain. Require matching object type, width definition and an authored antecedent; do not resize boards, reroute symbols, rebuild alphabets or decode new candidates.",
+      "operation_order": [
+        "reuse local riddle output roles",
+        "compare original current dialogue references",
+        "retain unassigned carried object before reinsertion/selection"
+      ],
+      "output": "A symbolic cross-stage ownership interpretation with the missing input edge explicit",
+      "source_evidence": [
+        {
+          "path": "research/artifacts/cycle19/earliest-hint-reference.json",
+          "sha256": "f029690eaa583d05433998e3354748a55293cbbd56bc3bd5123a7f3995c1fc1f"
+        },
+        {
+          "path": "research/artifacts/cycle13/relational-directives.json",
+          "sha256": "83df4133dc681862e5a7f9d9909584cb4ac207b385c546b0accec0b69bea9a72"
+        },
+        {
+          "path": "research/artifacts/cycle14/speech-delta.json",
+          "sha256": "a2fbb4e5dcc526143c9740500849c46c4439ac4622a1340ef764c3ee728962e0"
+        },
+        {
+          "path": "research/artifacts/cycle12/source-join-preflight-v2.json",
+          "sha256": "231b9748acccd054d0a43f7af2420faca8cade6523aace16e0803f370a3f3660"
+        },
+        {
+          "path": "research/artifacts/cycle18/notation-namespace.json",
+          "sha256": "09f606c45aeb53ea01f693ed8e8306fe1d298e755c9f31d799229ed1ff2ec188"
+        },
+        {
+          "path": "research/sources/phase2.html",
+          "sha256": "06fbd4461ab20d45c54a7053c7c0cfa256ba82a5ad4c73a47fac67f3f1cdf7d9"
+        },
+        {
+          "path": "research/artifacts/phase32-beaufort.txt",
+          "sha256": "b08a3151c88cdeb3b2e730a9d9445e1a349498d89bc94ba1d0837f9e04cc3bcd"
+        },
+        {
+          "path": "research/artifacts/phase3.txt",
+          "sha256": "c4ad94559a44a927c1032cc0e024515f9510a0806a2d14458dbf4a360af9865f"
+        },
+        {
+          "path": "research/sources/maintained-phase2-assets__phase3.txt",
+          "sha256": "c4ad94559a44a927c1032cc0e024515f9510a0806a2d14458dbf4a360af9865f"
+        },
+        {
+          "path": "research/artifacts/phase32.txt",
+          "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+        },
+        {
+          "path": "research/sources/maintained-phase3-assets__phase3.2.txt",
+          "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+        }
+      ],
+      "source_locations": [
+        "research/sources/phase2.html:42",
+        "research/artifacts/phase3.txt:1",
+        "research/artifacts/phase3.txt:3",
+        "research/artifacts/phase3.txt:5",
+        "research/artifacts/phase3.txt:7",
+        "research/artifacts/phase32.txt:1",
+        "research/artifacts/phase32.txt:1",
+        "research/artifacts/phase32.txt:3",
+        "research/artifacts/phase32.txt:3",
+        "research/artifacts/cycle13/relational-directives.json",
+        "research/artifacts/cycle14/speech-delta.json",
+        "research/artifacts/cycle12/source-join-preflight-v2.json",
+        "research/artifacts/cycle18/notation-namespace.json"
+      ],
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "assumptions": [
+        "Return-to-source is operative",
+        "An unassigned source object is carried into the speech instructions"
+      ],
+      "confidence": "MEDIUM source-return association; LOW exact object identity",
+      "contradictions": [
+        "No directive names dbbi, residual, faed or a specific image region",
+        "No insertion site, count or consumer assigned",
+        "Reproduced transformations do not authenticate a cross-stage carry edge"
+      ],
+      "hypothesis": "The carried code is another source-derived object, potentially from the initial-image/prime/sumlist branch rather than earlier riddle answers",
+      "id": "C20-CARRY-SOURCE-OBJECT",
+      "input": "Original stage instructions and frozen speech/source maps; no derived entry material",
+      "next_test": "Audit the exact primary phrase as wide as the first one seen as a source-reference/type constraint. Compare only the already documented first14x14 grid, earlier eight-file image page, earlier chess/FEN object and current decimal codebook column domain. Require matching object type, width definition and an authored antecedent; do not resize boards, reroute symbols, rebuild alphabets or decode new candidates.",
+      "operation_order": [
+        "reuse local riddle output roles",
+        "compare original current dialogue references",
+        "retain unassigned carried object before reinsertion/selection"
+      ],
+      "output": "A symbolic cross-stage ownership interpretation with the missing input edge explicit",
+      "source_evidence": [
+        {
+          "path": "research/artifacts/cycle19/earliest-hint-reference.json",
+          "sha256": "f029690eaa583d05433998e3354748a55293cbbd56bc3bd5123a7f3995c1fc1f"
+        },
+        {
+          "path": "research/artifacts/cycle13/relational-directives.json",
+          "sha256": "83df4133dc681862e5a7f9d9909584cb4ac207b385c546b0accec0b69bea9a72"
+        },
+        {
+          "path": "research/artifacts/cycle14/speech-delta.json",
+          "sha256": "a2fbb4e5dcc526143c9740500849c46c4439ac4622a1340ef764c3ee728962e0"
+        },
+        {
+          "path": "research/artifacts/cycle12/source-join-preflight-v2.json",
+          "sha256": "231b9748acccd054d0a43f7af2420faca8cade6523aace16e0803f370a3f3660"
+        },
+        {
+          "path": "research/artifacts/cycle18/notation-namespace.json",
+          "sha256": "09f606c45aeb53ea01f693ed8e8306fe1d298e755c9f31d799229ed1ff2ec188"
+        },
+        {
+          "path": "research/sources/phase2.html",
+          "sha256": "06fbd4461ab20d45c54a7053c7c0cfa256ba82a5ad4c73a47fac67f3f1cdf7d9"
+        },
+        {
+          "path": "research/artifacts/phase32-beaufort.txt",
+          "sha256": "b08a3151c88cdeb3b2e730a9d9445e1a349498d89bc94ba1d0837f9e04cc3bcd"
+        },
+        {
+          "path": "research/artifacts/phase3.txt",
+          "sha256": "c4ad94559a44a927c1032cc0e024515f9510a0806a2d14458dbf4a360af9865f"
+        },
+        {
+          "path": "research/sources/maintained-phase2-assets__phase3.txt",
+          "sha256": "c4ad94559a44a927c1032cc0e024515f9510a0806a2d14458dbf4a360af9865f"
+        },
+        {
+          "path": "research/artifacts/phase32.txt",
+          "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+        },
+        {
+          "path": "research/sources/maintained-phase3-assets__phase3.2.txt",
+          "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+        }
+      ],
+      "source_locations": [
+        "research/sources/phase2.html:42",
+        "research/artifacts/phase3.txt:1",
+        "research/artifacts/phase3.txt:3",
+        "research/artifacts/phase3.txt:5",
+        "research/artifacts/phase3.txt:7",
+        "research/artifacts/phase32.txt:1",
+        "research/artifacts/phase32.txt:1",
+        "research/artifacts/phase32.txt:3",
+        "research/artifacts/phase32.txt:3",
+        "research/artifacts/cycle13/relational-directives.json",
+        "research/artifacts/cycle14/speech-delta.json",
+        "research/artifacts/cycle12/source-join-preflight-v2.json",
+        "research/artifacts/cycle18/notation-namespace.json"
+      ],
+      "status": "INCONCLUSIVE"
+    }
+  ],
+  "hypothesis": "Original stage instructions explicitly carry a named earlier answer object into the later speech's reinsertion/selection construction",
+  "id": "C20-CARRY-FORWARD-OWNERSHIP",
+  "input": "Public Phase2/Phase3/Phase3.2 instructions, existing speech delta/directives and branch maps",
+  "new_cryptographic_trials": 0,
+  "new_trial_inputs": 0,
+  "next_test": "Audit the exact primary phrase as wide as the first one seen as a source-reference/type constraint. Compare only the already documented first14x14 grid, earlier eight-file image page, earlier chess/FEN object and current decimal codebook column domain. Require matching object type, width definition and an authored antecedent; do not resize boards, reroute symbols, rebuild alphabets or decode new candidates.",
+  "operation_order": [
+    "validate frozen next task",
+    "verify two fixture/archive pairs",
+    "map five primary local-object anchors and four original-prefix anchors",
+    "reuse eight directive maps and six paragraph roles",
+    "compare six cross-stage ownership interfaces",
+    "retain three finite carried-object readings without deriving input"
+  ],
+  "output": "Exact local named-object scope, six symbolic interfaces and three unresolved carry hypotheses",
+  "ownership_interfaces": [
+    {
+      "binding": "EXPLICIT_PRIMARY_AGGREGATE",
+      "consumer": "Phase3 entry",
+      "later_carried_object_identity": "NOT_ASSIGNED",
+      "source_object": "Phase2 local parts1..7"
+    },
+    {
+      "binding": "EXPLICIT_LOCAL_ACCESS_ROLE",
+      "consumer": "next-step riddle context",
+      "later_carried_object_identity": "NOT_ASSIGNED",
+      "source_object": "Phase3 thinker-name answer"
+    },
+    {
+      "binding": "EXPLICIT_PRIMARY_PREFIX",
+      "consumer": "giveit-prefixed local answer",
+      "later_carried_object_identity": "NOT_ASSIGNED",
+      "source_object": "Phase3 middle answer"
+    },
+    {
+      "binding": "LOCAL_ORDER_WITHOUT_EXPLICIT_CONCATENATION_SYNTAX",
+      "consumer": "Phase3.2 local entry context",
+      "later_carried_object_identity": "NOT_ASSIGNED",
+      "source_object": "Phase3 precision-limit riddle answer"
+    },
+    {
+      "binding": "LOCAL_SPEAKER_ROLE",
+      "consumer": "local dialogue",
+      "later_carried_object_identity": "NOT_ASSIGNED",
+      "source_object": "Phase3.2 my answers / first question"
+    },
+    {
+      "binding": "CONDITIONAL_OPERATIVE_ROLE_WITHOUT_INPUT_IDENTITY",
+      "consumer": "prime-basics reinsertion then selection",
+      "later_carried_object_identity": "NOT_ASSIGNED",
+      "source_object": "speech code you hopefully carry"
+    }
+  ],
+  "primary_local_anchors": [
+    {
+      "character_span_zero_based_half_open": [
+        3419,
+        3487
+      ],
+      "column_one_based": 4,
+      "line_one_based": 42,
+      "literal": "--> parts 1..7 --> sha-256 -> dgst is the password to enter Phase 3.",
+      "role": "EXPLICIT_LOCAL_AGGREGATE_AND_CONSUMER",
+      "source": {
+        "path": "research/sources/phase2.html",
+        "sha256": "06fbd4461ab20d45c54a7053c7c0cfa256ba82a5ad4c73a47fac67f3f1cdf7d9"
+      },
+      "utf8_byte_span_zero_based_half_open": [
+        3421,
+        3489
+      ]
+    },
+    {
+      "character_span_zero_based_half_open": [
+        127,
+        220
+      ],
+      "column_one_based": 128,
+      "line_one_based": 1,
+      "literal": "The thinker's 1name behind all of that would grant you access to the next step (of humanity).",
+      "role": "RIDDLE_OUTPUT_ROLE_NOT_LATER_CARRIED_OBJECT",
+      "source": {
+        "path": "research/artifacts/phase3.txt",
+        "sha256": "c4ad94559a44a927c1032cc0e024515f9510a0806a2d14458dbf4a360af9865f"
+      },
+      "utf8_byte_span_zero_based_half_open": [
+        127,
+        220
+      ]
+    },
+    {
+      "character_span_zero_based_half_open": [
+        432,
+        470
+      ],
+      "column_one_based": 137,
+      "line_one_based": 3,
+      "literal": "just add giveit in front of the answer",
+      "role": "EXPLICIT_LOCAL_PREFIX_OPERATION",
+      "source": {
+        "path": "research/artifacts/phase3.txt",
+        "sha256": "c4ad94559a44a927c1032cc0e024515f9510a0806a2d14458dbf4a360af9865f"
+      },
+      "utf8_byte_span_zero_based_half_open": [
+        432,
+        470
+      ]
+    },
+    {
+      "character_span_zero_based_half_open": [
+        527,
+        625
+      ],
+      "column_one_based": 1,
+      "line_one_based": 5,
+      "literal": "3.The fundamental limit to the precision with which certain pairs of physical properties are know.",
+      "role": "LOCAL_RIDDLE_NOT_NAMED_CARRIED_OBJECT",
+      "source": {
+        "path": "research/artifacts/phase3.txt",
+        "sha256": "c4ad94559a44a927c1032cc0e024515f9510a0806a2d14458dbf4a360af9865f"
+      },
+      "utf8_byte_span_zero_based_half_open": [
+        527,
+        625
+      ]
+    },
+    {
+      "character_span_zero_based_half_open": [
+        649,
+        722
+      ],
+      "column_one_based": 1,
+      "line_one_based": 7,
+      "literal": "Phase 3.2 is ciphered with aes-256-cbc base64 and a sha256 pw, yet again.",
+      "role": "EXPLICIT_NEXT_CONTAINER_FORMAT_NOT_FINAL_OPERAND",
+      "source": {
+        "path": "research/artifacts/phase3.txt",
+        "sha256": "c4ad94559a44a927c1032cc0e024515f9510a0806a2d14458dbf4a360af9865f"
+      },
+      "utf8_byte_span_zero_based_half_open": [
+        649,
+        722
+      ]
+    }
+  ],
+  "result": "Earlier parts1..7 have an explicit local Phase3 consumer; Phase3 riddle output roles and prefix operation are local to entry. Current my-answers/first-question references belong to Architect dialogue, not an explicit previous-answer aggregate. Frozen carried-code/reinsertion/selection wording does not name an earlier output or branch object. Six ownership interfaces leave the later carried identity unassigned. This rejects promoting an earlier local entry input into a later carry edge, not all possible intended reuse.",
+  "search_space": {
+    "cross_stage_ownership_interfaces": 6,
+    "declared_carry_readings": 3,
+    "fixture_archive_pairs": 2,
+    "frozen_directive_maps": 8,
+    "frozen_paragraph_roles": 6,
+    "original_prefix_anchors": 4,
+    "primary_local_anchors": 5
+  },
+  "source_evidence": [
+    {
+      "path": "research/artifacts/cycle19/earliest-hint-reference.json",
+      "sha256": "f029690eaa583d05433998e3354748a55293cbbd56bc3bd5123a7f3995c1fc1f"
+    },
+    {
+      "path": "research/artifacts/cycle13/relational-directives.json",
+      "sha256": "83df4133dc681862e5a7f9d9909584cb4ac207b385c546b0accec0b69bea9a72"
+    },
+    {
+      "path": "research/artifacts/cycle14/speech-delta.json",
+      "sha256": "a2fbb4e5dcc526143c9740500849c46c4439ac4622a1340ef764c3ee728962e0"
+    },
+    {
+      "path": "research/artifacts/cycle12/source-join-preflight-v2.json",
+      "sha256": "231b9748acccd054d0a43f7af2420faca8cade6523aace16e0803f370a3f3660"
+    },
+    {
+      "path": "research/artifacts/cycle18/notation-namespace.json",
+      "sha256": "09f606c45aeb53ea01f693ed8e8306fe1d298e755c9f31d799229ed1ff2ec188"
+    },
+    {
+      "path": "research/sources/phase2.html",
+      "sha256": "06fbd4461ab20d45c54a7053c7c0cfa256ba82a5ad4c73a47fac67f3f1cdf7d9"
+    },
+    {
+      "path": "research/artifacts/phase32-beaufort.txt",
+      "sha256": "b08a3151c88cdeb3b2e730a9d9445e1a349498d89bc94ba1d0837f9e04cc3bcd"
+    },
+    {
+      "path": "research/artifacts/phase3.txt",
+      "sha256": "c4ad94559a44a927c1032cc0e024515f9510a0806a2d14458dbf4a360af9865f"
+    },
+    {
+      "path": "research/sources/maintained-phase2-assets__phase3.txt",
+      "sha256": "c4ad94559a44a927c1032cc0e024515f9510a0806a2d14458dbf4a360af9865f"
+    },
+    {
+      "path": "research/artifacts/phase32.txt",
+      "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+    },
+    {
+      "path": "research/sources/maintained-phase3-assets__phase3.2.txt",
+      "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+    }
+  ],
+  "source_locations": [
+    "research/sources/phase2.html:42",
+    "research/artifacts/phase3.txt:1",
+    "research/artifacts/phase3.txt:3",
+    "research/artifacts/phase3.txt:5",
+    "research/artifacts/phase3.txt:7",
+    "research/artifacts/phase32.txt:1",
+    "research/artifacts/phase32.txt:1",
+    "research/artifacts/phase32.txt:3",
+    "research/artifacts/phase32.txt:3",
+    "research/artifacts/cycle13/relational-directives.json",
+    "research/artifacts/cycle14/speech-delta.json",
+    "research/artifacts/cycle12/source-join-preflight-v2.json",
+    "research/artifacts/cycle18/notation-namespace.json"
+  ],
+  "status": "INCONCLUSIVE"
+}

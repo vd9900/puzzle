@@ -1,0 +1,238 @@
+{
+  "assumptions": [
+    "Standard PNG metadata and trailing bytes are bounded public container objects",
+    "No image-data decoding or alternate traversal is needed"
+  ],
+  "confidence": "HIGH byte/container properties; UNKNOWN intended command or argument",
+  "contradictions": [
+    "Standard metadata absence cannot identify a visible-text region or final argument",
+    "Container validity is not proof of the puzzle creator's intended data flow"
+  ],
+  "date": "2026-10-01",
+  "hypotheses": [
+    {
+      "assumptions": [
+        "The proposed object must be a tEXt, zTXt or iTXt chunk in the unchanged PNG"
+      ],
+      "confidence": "HIGH bounded container result; UNKNOWN overall instruction role",
+      "contradictions": [
+        "No standard textual chunk is present in the actual preserved PNG"
+      ],
+      "hypothesis": "HASHTHETEXT refers to a standard PNG textual metadata object in the preserved initial image",
+      "id": "C19-PNG-METADATA-TEXT",
+      "input": "The original public PNG container only",
+      "next_test": "Audit the preserved original-image text regions against the exact earlier source clue First/zero and firsthint/lastcommand wording, using only already mapped primary text and fixed original creator records. Require a source-authored distinction between command identity and literal argument identity; do not normalize, hash or extract new trial strings.",
+      "operation_order": [
+        "read unchanged PNG",
+        "validate chunk structure and CRCs",
+        "classify text-object availability"
+      ],
+      "output": "Presence or absence of standard textual metadata, not a hash input",
+      "source_evidence": [
+        {
+          "path": "research/sources/gsmg-puzzle.png",
+          "sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830"
+        },
+        {
+          "path": "research/artifacts/cycle19/first-piece-domain-v2.json",
+          "sha256": "f7b3720a38ac034acfda362bf2a060a0d25829ab10fc6d810f5df7ad86af1154"
+        }
+      ],
+      "source_locations": [
+        "research/sources/gsmg-puzzle.png",
+        "research/artifacts/cycle19/first-piece-domain-v2.json"
+      ],
+      "status": "REJECTED"
+    },
+    {
+      "assumptions": [
+        "The instruction may refer to raster-visible text",
+        "Earlier secondary image-text entry interpretation remains distinct from a final argument"
+      ],
+      "confidence": "MEDIUM object availability; UNKNOWN final source/argument binding",
+      "contradictions": [
+        "Metadata absence does not prove a visible-text selection",
+        "Source includes several visible regions without an authored selector"
+      ],
+      "hypothesis": "HASHTHETEXT refers to visible original-image text rather than PNG textual metadata",
+      "id": "C19-PNG-VISIBLE-TEXT",
+      "input": "The original public PNG container only",
+      "next_test": "Audit the preserved original-image text regions against the exact earlier source clue First/zero and firsthint/lastcommand wording, using only already mapped primary text and fixed original creator records. Require a source-authored distinction between command identity and literal argument identity; do not normalize, hash or extract new trial strings.",
+      "operation_order": [
+        "read unchanged PNG",
+        "validate chunk structure and CRCs",
+        "classify text-object availability"
+      ],
+      "output": "Surviving visible-object interpretation without normalization, extraction or hashing",
+      "source_evidence": [
+        {
+          "path": "research/sources/gsmg-puzzle.png",
+          "sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830"
+        },
+        {
+          "path": "research/artifacts/cycle19/first-piece-domain-v2.json",
+          "sha256": "f7b3720a38ac034acfda362bf2a060a0d25829ab10fc6d810f5df7ad86af1154"
+        }
+      ],
+      "source_locations": [
+        "research/sources/gsmg-puzzle.png",
+        "research/artifacts/cycle19/first-piece-domain-v2.json"
+      ],
+      "status": "INCONCLUSIVE"
+    }
+  ],
+  "hypothesis": "PNG container structure provides an additional textual source object for the instruction construction",
+  "id": "C19-PNG-SOURCE-STRUCTURE",
+  "input": "One unchanged original public PNG and preceding source-domain report",
+  "new_cryptographic_trials": 0,
+  "new_trial_inputs": 0,
+  "next_test": "Audit the preserved original-image text regions against the exact earlier source clue First/zero and firsthint/lastcommand wording, using only already mapped primary text and fixed original creator records. Require a source-authored distinction between command identity and literal argument identity; do not normalize, hash or extract new trial strings.",
+  "operation_order": [
+    "validate frozen source-domain task",
+    "parse signature and length-delimited chunks",
+    "verify every CRC and exact terminal coverage",
+    "classify textual/ancillary chunk presence",
+    "retain visible-text and other instruction arguments as unbound"
+  ],
+  "output": "Exact PNG chunk spans, CRC results and text-object availability",
+  "result": "All preserved PNG chunks have valid CRCs. Standard textual metadata presence and terminal coverage are recorded exactly; no raster data, textual payload, QR symbol or trial input is decoded. Absence of standard text chunks rejects only the bounded metadata-text interpretation, not all steganography or visible-text instruction roles.",
+  "search_space": {
+    "chunks": 6,
+    "declared_object_roles": 2,
+    "pixel_decodes": 0,
+    "text_chunks": 0,
+    "unchanged_images": 1
+  },
+  "source_evidence": [
+    {
+      "path": "research/sources/gsmg-puzzle.png",
+      "sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830"
+    },
+    {
+      "path": "research/artifacts/cycle19/first-piece-domain-v2.json",
+      "sha256": "f7b3720a38ac034acfda362bf2a060a0d25829ab10fc6d810f5df7ad86af1154"
+    }
+  ],
+  "source_locations": [
+    "research/sources/gsmg-puzzle.png",
+    "research/artifacts/cycle19/first-piece-domain-v2.json"
+  ],
+  "status": "INCONCLUSIVE",
+  "structure": {
+    "ancillary_chunk_types": [
+      "sRGB",
+      "gAMA",
+      "pHYs"
+    ],
+    "chunk_data_not_decompressed_or_interpreted": true,
+    "chunks": [
+      {
+        "CRC_valid": true,
+        "ancillary": false,
+        "data_span_zero_based_half_open": [
+          16,
+          29
+        ],
+        "file_span_zero_based_half_open": [
+          8,
+          33
+        ],
+        "length": 13,
+        "text_chunk": false,
+        "type": "IHDR"
+      },
+      {
+        "CRC_valid": true,
+        "ancillary": true,
+        "data_span_zero_based_half_open": [
+          41,
+          42
+        ],
+        "file_span_zero_based_half_open": [
+          33,
+          46
+        ],
+        "length": 1,
+        "text_chunk": false,
+        "type": "sRGB"
+      },
+      {
+        "CRC_valid": true,
+        "ancillary": true,
+        "data_span_zero_based_half_open": [
+          54,
+          58
+        ],
+        "file_span_zero_based_half_open": [
+          46,
+          62
+        ],
+        "length": 4,
+        "text_chunk": false,
+        "type": "gAMA"
+      },
+      {
+        "CRC_valid": true,
+        "ancillary": true,
+        "data_span_zero_based_half_open": [
+          70,
+          79
+        ],
+        "file_span_zero_based_half_open": [
+          62,
+          83
+        ],
+        "length": 9,
+        "text_chunk": false,
+        "type": "pHYs"
+      },
+      {
+        "CRC_valid": true,
+        "ancillary": false,
+        "data_span_zero_based_half_open": [
+          91,
+          29915
+        ],
+        "file_span_zero_based_half_open": [
+          83,
+          29919
+        ],
+        "length": 29824,
+        "text_chunk": false,
+        "type": "IDAT"
+      },
+      {
+        "CRC_valid": true,
+        "ancillary": false,
+        "data_span_zero_based_half_open": [
+          29927,
+          29927
+        ],
+        "file_span_zero_based_half_open": [
+          29919,
+          29931
+        ],
+        "length": 0,
+        "text_chunk": false,
+        "type": "IEND"
+      }
+    ],
+    "image_header": {
+      "bit_depth": 8,
+      "color_type": 6,
+      "compression": 0,
+      "filtering": 0,
+      "height": 1556,
+      "interlace": 0,
+      "width": 1048
+    },
+    "signature_span_zero_based_half_open": [
+      0,
+      8
+    ],
+    "terminal_offset": 29931,
+    "text_chunk_types": [],
+    "total_bytes": 29931,
+    "trailing_byte_count": 0
+  }
+}

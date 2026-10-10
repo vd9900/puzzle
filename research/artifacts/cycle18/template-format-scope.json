@@ -1,0 +1,624 @@
+{
+  "assumptions": [
+    "Compare only fixed original templates, not normalization variants",
+    "Source spelling, local decoder normalization and semantic-object representation are separate roles",
+    "Paragraph proximity supports local scope but is not author authentication"
+  ],
+  "confidence": "HIGH original markup/tag locations; UNKNOWN current final-argument format",
+  "contradictions": [
+    "Transferring an earlier local tag silently creates an unbound current input rule",
+    "Source decoding normalization is not final argument serialization",
+    "Operator identity alone does not establish an argument object or format"
+  ],
+  "current_fragments": {
+    "current_local_operator_subphrases": [
+      {
+        "character_span_zero_based_half_open": [
+          2176,
+          2187
+        ],
+        "column_one_based": 1766,
+        "line_one_based": 17,
+        "literal": "shabef",
+        "name": "first-shabef",
+        "normalized_span_zero_based_half_open": [
+          860,
+          866
+        ],
+        "utf8_byte_span_zero_based_half_open": [
+          2176,
+          2187
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          2188,
+          2245
+        ],
+        "column_one_based": 1778,
+        "line_one_based": 17,
+        "literal": "ourfirsthintisyourlastcommand",
+        "name": "ourfirsthintisyourlastcommand",
+        "normalized_span_zero_based_half_open": [
+          866,
+          895
+        ],
+        "utf8_byte_span_zero_based_half_open": [
+          2188,
+          2245
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          2582,
+          2593
+        ],
+        "column_one_based": 2172,
+        "line_one_based": 17,
+        "literal": "shabef",
+        "name": "second-shabef",
+        "normalized_span_zero_based_half_open": [
+          1063,
+          1069
+        ],
+        "utf8_byte_span_zero_based_half_open": [
+          2582,
+          2593
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          2594,
+          2605
+        ],
+        "column_one_based": 2184,
+        "line_one_based": 17,
+        "literal": "anstoo",
+        "name": "anstoo",
+        "normalized_span_zero_based_half_open": [
+          1069,
+          1075
+        ],
+        "utf8_byte_span_zero_based_half_open": [
+          2594,
+          2605
+        ]
+      }
+    ],
+    "decoded_labels_not_replaced_into_any_trial_input": true,
+    "earlier_para_scope_rules_not_transferred_to_current_textarea": true,
+    "first_textarea_source_location": {
+      "character_span_zero_based_half_open": [
+        456,
+        2605
+      ],
+      "column_one_based": 46,
+      "line_one_based": 17,
+      "utf8_byte_span_zero_based_half_open": [
+        456,
+        2605
+      ]
+    },
+    "five_relevant_fragments_share_one_primary_textarea": true,
+    "known_operator_does_not_supply_input_case_spacing_or_encoding": true,
+    "literal_format_tag_occurrences_in_encoded_source": 0,
+    "literal_part_range_arrows_in_encoded_source": false,
+    "source": {
+      "path": "research/sources/salphaseion.html",
+      "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+    },
+    "source_owned_fragment_maps": [
+      {
+        "character_span_zero_based_half_open": [
+          638,
+          845
+        ],
+        "column_one_based": 228,
+        "decoded": "matrixsumlist",
+        "encoded_sha256": "29b59b580d592d009d10d3513e92b4466c79934cbf1a8b7d5710e23b924626a5",
+        "grammar_type": "BINARY_ENCODED_TEXT_LABEL",
+        "length": 104,
+        "line_one_based": 17,
+        "name": "matrixsumlist",
+        "normalized_span_zero_based_half_open": [
+          91,
+          195
+        ],
+        "source": {
+          "path": "research/sources/salphaseion.html",
+          "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+        },
+        "transform": "a=0,b=1; MSB-first ASCII octets",
+        "type_does_not_identify_input_output_or_consumer": true,
+        "utf8_byte_span_zero_based_half_open": [
+          638,
+          845
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          1988,
+          2113
+        ],
+        "column_one_based": 1578,
+        "decoded": "lastwordsbeforearchichoice",
+        "encoded_sha256": "5d013695c4b410387ca881e93cb77295fb4a38b17077d518a28a6954b1fe80f3",
+        "grammar_type": "DECIMAL_INTEGER_ENCODED_TEXT_LABEL",
+        "length": 63,
+        "line_one_based": 17,
+        "name": "lastwordsbeforearchichoice",
+        "normalized_span_zero_based_half_open": [
+          766,
+          829
+        ],
+        "source": {
+          "path": "research/sources/salphaseion.html",
+          "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+        },
+        "transform": "a..i=1..9,o=0; decimal integer to minimal big-endian ASCII",
+        "type_does_not_identify_input_output_or_consumer": true,
+        "utf8_byte_span_zero_based_half_open": [
+          1988,
+          2113
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          2116,
+          2173
+        ],
+        "column_one_based": 1706,
+        "decoded": "thispassword",
+        "encoded_sha256": "4447f552c0f76528be4df75028a3ecdb3878bccd46acb4b3fabe6442304fd9c4",
+        "grammar_type": "DECIMAL_INTEGER_ENCODED_TEXT_LABEL",
+        "length": 29,
+        "line_one_based": 17,
+        "name": "thispassword",
+        "normalized_span_zero_based_half_open": [
+          830,
+          859
+        ],
+        "source": {
+          "path": "research/sources/salphaseion.html",
+          "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+        },
+        "transform": "a..i=1..9,o=0; decimal integer to minimal big-endian ASCII",
+        "type_does_not_identify_input_output_or_consumer": true,
+        "utf8_byte_span_zero_based_half_open": [
+          2116,
+          2173
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          2176,
+          2245
+        ],
+        "column_one_based": 1766,
+        "encoded_sha256": "d3dcdb2f2b66c1b95733b6944051eb4cc5d6143b4666fb1580928a262418cac1",
+        "grammar_type": "MIXED_LITERAL_SHA_WORDING",
+        "length": 35,
+        "line_one_based": 17,
+        "literal": "shabefourfirsthintisyourlastcommand",
+        "name": "first-command",
+        "normalized_span_zero_based_half_open": [
+          860,
+          895
+        ],
+        "source": {
+          "path": "research/sources/salphaseion.html",
+          "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+        },
+        "type_does_not_identify_input_output_or_consumer": true,
+        "utf8_byte_span_zero_based_half_open": [
+          2176,
+          2245
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          2582,
+          2605
+        ],
+        "column_one_based": 2172,
+        "encoded_sha256": "e6190c95f277454dd5953a49d0b34dd176685cba336fa4b54277c8e4edc067cb",
+        "grammar_type": "MIXED_LITERAL_SHA_WORDING",
+        "length": 12,
+        "line_one_based": 17,
+        "literal": "shabefanstoo",
+        "name": "answer-command",
+        "normalized_span_zero_based_half_open": [
+          1063,
+          1075
+        ],
+        "source": {
+          "path": "research/sources/salphaseion.html",
+          "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+        },
+        "type_does_not_identify_input_output_or_consumer": true,
+        "utf8_byte_span_zero_based_half_open": [
+          2582,
+          2605
+        ]
+      }
+    ],
+    "whitespace_removal_is_encoded_container_normalization_not_a_hash_input_rule": true
+  },
+  "date": "2026-10-01",
+  "earlier_templates": {
+    "aggregate_order_and_consumer": {
+      "source_location": {
+        "character_span_zero_based_half_open": [
+          3419,
+          3540
+        ],
+        "column_one_based": 4,
+        "line_one_based": 42,
+        "utf8_byte_span_zero_based_half_open": [
+          3421,
+          3542
+        ]
+      },
+      "text": "--> parts 1..7 --> sha-256 -> dgst is the password to enter Phase 3. Phase 3 is also ciphered with aes-256-cbc /w base64."
+    },
+    "aggregate_order_names_local_parts_and_next_phase": true,
+    "format_templates": [
+      {
+        "candidate_owner_locations": [
+          {
+            "character_span_zero_based_half_open": [
+              480,
+              664
+            ],
+            "column_one_based": 4,
+            "line_one_based": 18,
+            "utf8_byte_span_zero_based_half_open": [
+              480,
+              664
+            ]
+          }
+        ],
+        "candidate_owner_paragraph_indices": [
+          0
+        ],
+        "literal_tag": "/(aaa, connected enf)",
+        "owner_rule_supported_by_format": "INLINE_TAG_IN_SAME_PRIMARY_PARAGRAPH",
+        "paragraph_index_zero_based": 0,
+        "position_supports_scope_not_exact_creator_authentication": true,
+        "tag_body": "aaa, connected enf",
+        "tag_source_location": {
+          "character_span_zero_based_half_open": [
+            643,
+            664
+          ],
+          "column_one_based": 167,
+          "line_one_based": 18,
+          "utf8_byte_span_zero_based_half_open": [
+            643,
+            664
+          ]
+        }
+      },
+      {
+        "candidate_owner_locations": [
+          {
+            "character_span_zero_based_half_open": [
+              2686,
+              3204
+            ],
+            "column_one_based": 4,
+            "line_one_based": 37,
+            "utf8_byte_span_zero_based_half_open": [
+              2688,
+              3206
+            ]
+          }
+        ],
+        "candidate_owner_paragraph_indices": [
+          3
+        ],
+        "literal_tag": "/(aBa, connected enf)",
+        "owner_rule_supported_by_format": "STANDALONE_TAG_AFTER_PRECEDING_PRIMARY_PARAGRAPH",
+        "paragraph_index_zero_based": 4,
+        "position_supports_scope_not_exact_creator_authentication": true,
+        "tag_body": "aBa, connected enf",
+        "tag_source_location": {
+          "character_span_zero_based_half_open": [
+            3212,
+            3233
+          ],
+          "column_one_based": 4,
+          "line_one_based": 38,
+          "utf8_byte_span_zero_based_half_open": [
+            3214,
+            3235
+          ]
+        }
+      },
+      {
+        "candidate_owner_locations": [
+          {
+            "character_span_zero_based_half_open": [
+              3308,
+              3378
+            ],
+            "column_one_based": 4,
+            "line_one_based": 40,
+            "utf8_byte_span_zero_based_half_open": [
+              3310,
+              3380
+            ]
+          }
+        ],
+        "candidate_owner_paragraph_indices": [
+          6
+        ],
+        "literal_tag": "/(aBa, connected not enf)",
+        "owner_rule_supported_by_format": "STANDALONE_TAG_AFTER_PRECEDING_PRIMARY_PARAGRAPH",
+        "paragraph_index_zero_based": 7,
+        "position_supports_scope_not_exact_creator_authentication": true,
+        "tag_body": "aBa, connected not enf",
+        "tag_source_location": {
+          "character_span_zero_based_half_open": [
+            3386,
+            3411
+          ],
+          "column_one_based": 4,
+          "line_one_based": 41,
+          "utf8_byte_span_zero_based_half_open": [
+            3388,
+            3413
+          ]
+        }
+      }
+    ],
+    "not_enf_and_enf_are_distinct_authored_spellings": true,
+    "phase3_local_tags": [
+      {
+        "literal_tag": "/(aa,connected enf)",
+        "not_a_global_character_count_instruction": true,
+        "paragraph_index_zero_based": 0,
+        "same_paragraph_prefix_length": 273,
+        "tag_source_location": {
+          "character_span_zero_based_half_open": [
+            273,
+            292
+          ],
+          "column_one_based": 274,
+          "line_one_based": 1,
+          "utf8_byte_span_zero_based_half_open": [
+            273,
+            292
+          ]
+        }
+      },
+      {
+        "literal_tag": "/(aa,connected enf)",
+        "not_a_global_character_count_instruction": true,
+        "paragraph_index_zero_based": 1,
+        "same_paragraph_prefix_length": 208,
+        "tag_source_location": {
+          "character_span_zero_based_half_open": [
+            504,
+            523
+          ],
+          "column_one_based": 209,
+          "line_one_based": 3,
+          "utf8_byte_span_zero_based_half_open": [
+            504,
+            523
+          ]
+        }
+      },
+      {
+        "literal_tag": "/(aa,connected enf)",
+        "not_a_global_character_count_instruction": true,
+        "paragraph_index_zero_based": 2,
+        "same_paragraph_prefix_length": 99,
+        "tag_source_location": {
+          "character_span_zero_based_half_open": [
+            626,
+            645
+          ],
+          "column_one_based": 100,
+          "line_one_based": 5,
+          "utf8_byte_span_zero_based_half_open": [
+            626,
+            645
+          ]
+        }
+      }
+    ],
+    "phase3_source": {
+      "path": "research/artifacts/phase3.txt",
+      "sha256": "c4ad94559a44a927c1032cc0e024515f9510a0806a2d14458dbf4a360af9865f"
+    },
+    "primary_page_source": {
+      "path": "research/sources/phase2.html",
+      "sha256": "06fbd4461ab20d45c54a7053c7c0cfa256ba82a5ad4c73a47fac67f3f1cdf7d9"
+    },
+    "primary_paragraph_count": 9,
+    "same_tag_family_has_scope_variation_and_different_casing_patterns": true,
+    "scope_rule_does_not_define_an_unmentioned_current_object": true
+  },
+  "hypotheses": [
+    {
+      "assumptions": [
+        "Tag placement next to a paragraph supports local ownership",
+        "An explicit not-enf tag is a deliberate local distinction"
+      ],
+      "confidence": "HIGH exact local placement/variation; MEDIUM intended scope",
+      "contradictions": [
+        "Exact semantics are partly explained only by secondary sources",
+        "Standalone tag may cover more than one prior fragment",
+        "Local ownership does not bind the current hash argument"
+      ],
+      "hypothesis": "Earlier casing/connection tags are local riddle-format controls rather than a universal normalization recipe",
+      "id": "C18-FORMAT-LOCAL-SCOPE",
+      "input": "Public primary paragraph/text-area structures and preserved source maps",
+      "next_test": "Audit exact spatial referents in the preserved in-front-of-your-eyes and very-last-step hint clauses against original-page image/text layout; do not select letter positions or derive trial text",
+      "operation_order": [
+        "map original format tag attachment",
+        "separate local part-domain consumer from later fragments",
+        "retain encoding-normalization versus final-argument distinction"
+      ],
+      "output": "A local formatting-scope constraint, not normalized trial strings",
+      "source_evidence": [
+        {
+          "path": "research/sources/phase2.html",
+          "sha256": "06fbd4461ab20d45c54a7053c7c0cfa256ba82a5ad4c73a47fac67f3f1cdf7d9"
+        },
+        {
+          "path": "research/artifacts/phase3.txt",
+          "sha256": "c4ad94559a44a927c1032cc0e024515f9510a0806a2d14458dbf4a360af9865f"
+        },
+        {
+          "path": "research/sources/salphaseion.html",
+          "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+        },
+        {
+          "path": "research/artifacts/cycle10/instruction-graphs-v3.json",
+          "sha256": "31a20ee0b58c1289d16de425c76f4521ca228a01c6ca12122d074056a8e81132"
+        },
+        {
+          "path": "research/artifacts/cycle15/label-boundary-audit.json",
+          "sha256": "3d965046baecf2372ffcf7d79537c537019583f9def802e8fe0faefcdc70e94f"
+        },
+        {
+          "path": "research/artifacts/cycle18/notation-namespace.json",
+          "sha256": "09f606c45aeb53ea01f693ed8e8306fe1d298e755c9f31d799229ed1ff2ec188"
+        }
+      ],
+      "source_locations": [
+        "research/sources/phase2.html:18",
+        "research/sources/phase2.html:38",
+        "research/sources/phase2.html:41",
+        "research/sources/phase2.html:42",
+        "research/artifacts/phase3.txt:1",
+        "research/artifacts/phase3.txt:3",
+        "research/artifacts/phase3.txt:5",
+        "research/sources/salphaseion.html:17"
+      ],
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "assumptions": [
+        "Encoded-string normalization and semantic-object formatting are different stages",
+        "A final argument needs its own source-owned representation rule"
+      ],
+      "confidence": "HIGH source-versus-input distinction; UNKNOWN final format",
+      "contradictions": [
+        "Creator may expect implicit reuse of known conventions",
+        "Absence of an explicit tag does not forbid a convention",
+        "No independent selected-word object is available to format"
+      ],
+      "hypothesis": "Current character-spacing removal decodes source labels but does not establish final input casing, whitespace or representation",
+      "id": "C18-FORMAT-CURRENT-UNKNOWN",
+      "input": "Public primary paragraph/text-area structures and preserved source maps",
+      "next_test": "Audit exact spatial referents in the preserved in-front-of-your-eyes and very-last-step hint clauses against original-page image/text layout; do not select letter positions or derive trial text",
+      "operation_order": [
+        "map original format tag attachment",
+        "separate local part-domain consumer from later fragments",
+        "retain encoding-normalization versus final-argument distinction"
+      ],
+      "output": "A local formatting-scope constraint, not normalized trial strings",
+      "source_evidence": [
+        {
+          "path": "research/sources/phase2.html",
+          "sha256": "06fbd4461ab20d45c54a7053c7c0cfa256ba82a5ad4c73a47fac67f3f1cdf7d9"
+        },
+        {
+          "path": "research/artifacts/phase3.txt",
+          "sha256": "c4ad94559a44a927c1032cc0e024515f9510a0806a2d14458dbf4a360af9865f"
+        },
+        {
+          "path": "research/sources/salphaseion.html",
+          "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+        },
+        {
+          "path": "research/artifacts/cycle10/instruction-graphs-v3.json",
+          "sha256": "31a20ee0b58c1289d16de425c76f4521ca228a01c6ca12122d074056a8e81132"
+        },
+        {
+          "path": "research/artifacts/cycle15/label-boundary-audit.json",
+          "sha256": "3d965046baecf2372ffcf7d79537c537019583f9def802e8fe0faefcdc70e94f"
+        },
+        {
+          "path": "research/artifacts/cycle18/notation-namespace.json",
+          "sha256": "09f606c45aeb53ea01f693ed8e8306fe1d298e755c9f31d799229ed1ff2ec188"
+        }
+      ],
+      "source_locations": [
+        "research/sources/phase2.html:18",
+        "research/sources/phase2.html:38",
+        "research/sources/phase2.html:41",
+        "research/sources/phase2.html:42",
+        "research/artifacts/phase3.txt:1",
+        "research/artifacts/phase3.txt:3",
+        "research/artifacts/phase3.txt:5",
+        "research/sources/salphaseion.html:17"
+      ],
+      "status": "INCONCLUSIVE"
+    }
+  ],
+  "hypothesis": "Earlier authored instruction templates bind final argument formatting for the current label/hash sequence",
+  "id": "C18-TEMPLATE-FORMAT-SCOPE",
+  "input": "Original public HTML/plaintext structure and current frozen label mappings",
+  "new_cryptographic_trials": 0,
+  "new_trial_inputs": 0,
+  "next_test": "Perform one fixed spatial-reference audit of the preserved in-front-of-your-eyes and very-last-step clauses: exact primary image/page visible text, inline label positions and creator-attributed hint source. Separate instruction telling the solver where to look from a selection/count rule; no pixel edits, traversals or extracted trial strings.",
+  "operation_order": [
+    "validate frozen template task",
+    "map three Phase2 format tags and aggregate consumer",
+    "map three Phase3 local tag attachments",
+    "map five current fragments inside one textarea",
+    "compare two finite format-scope hypotheses"
+  ],
+  "output": "Exact primary tag-attachment and missing final-format bridge audit",
+  "result": "Earlier templates attach casing/connection tags locally and explicitly distinguish connected enf from connected not enf. Phase2 states a local parts1..7 aggregate and named next-phase consumer; Phase3 attaches the same lower-case-pattern tag to three separate riddles. Current five labels/operator fragments share one encoded textarea, with no matching authored format tag or part-domain arrow. Removing encoded character spaces does not identify semantic input casing, word boundaries, serialization or consumer. No normalized trial text produced.",
+  "search_space": {
+    "current_fragments": 5,
+    "earlier_format_tags": 3,
+    "earlier_local_riddle_tags": 3,
+    "explicit_aggregate_template": 1,
+    "finite_format_scope_hypotheses": 2,
+    "new_normalization_trials": 0
+  },
+  "source_evidence": [
+    {
+      "path": "research/sources/phase2.html",
+      "sha256": "06fbd4461ab20d45c54a7053c7c0cfa256ba82a5ad4c73a47fac67f3f1cdf7d9"
+    },
+    {
+      "path": "research/artifacts/phase3.txt",
+      "sha256": "c4ad94559a44a927c1032cc0e024515f9510a0806a2d14458dbf4a360af9865f"
+    },
+    {
+      "path": "research/sources/salphaseion.html",
+      "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+    },
+    {
+      "path": "research/artifacts/cycle10/instruction-graphs-v3.json",
+      "sha256": "31a20ee0b58c1289d16de425c76f4521ca228a01c6ca12122d074056a8e81132"
+    },
+    {
+      "path": "research/artifacts/cycle15/label-boundary-audit.json",
+      "sha256": "3d965046baecf2372ffcf7d79537c537019583f9def802e8fe0faefcdc70e94f"
+    },
+    {
+      "path": "research/artifacts/cycle18/notation-namespace.json",
+      "sha256": "09f606c45aeb53ea01f693ed8e8306fe1d298e755c9f31d799229ed1ff2ec188"
+    }
+  ],
+  "source_locations": [
+    "research/sources/phase2.html:18",
+    "research/sources/phase2.html:38",
+    "research/sources/phase2.html:41",
+    "research/sources/phase2.html:42",
+    "research/artifacts/phase3.txt:1",
+    "research/artifacts/phase3.txt:3",
+    "research/artifacts/phase3.txt:5",
+    "research/sources/salphaseion.html:17"
+  ],
+  "status": "INCONCLUSIVE"
+}

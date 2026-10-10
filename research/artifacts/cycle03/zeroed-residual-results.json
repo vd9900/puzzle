@@ -1,0 +1,15 @@
+{
+  "aes_trials": 1080,
+  "candidate_set_sha256": "a2f10199f966e1f31f411299db3271a26334563b79066556e8e7bf5e4fa47e23",
+  "elapsed_seconds": 0.081,
+  "id": "C03-ZEROED-RESIDUAL",
+  "ledger_sha256": "1359e709178bc21255ffd5654841bf4c1f49243086db90bef28e596e51f3cd54",
+  "max_hit_printable_ratio": 0.443038,
+  "padding_hits": 3,
+  "plan": "research/artifacts/cycle02/next-zeroed-residual-plan.json",
+  "result": "Literal single-symbol zero replacement followed by the known-prefix checkerboard supplies no recognized structure or scoped target match; finite negative only",
+  "status": "INCONCLUSIVE",
+  "structure_hits": 0,
+  "target_matches": 0,
+  "unique_passwords": 180
+}

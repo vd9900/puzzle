@@ -1,0 +1,9 @@
+{
+  "aes_trials": 1080,
+  "id": "C03-ZEROED-RESIDUAL-AUDIT",
+  "ledger_sha256": "1359e709178bc21255ffd5654841bf4c1f49243086db90bef28e596e51f3cd54",
+  "meaning": "Every planned candidate, provenance, six distinct target/KDF pairs, KEY/IV, padding outcome, plaintext and score/gate reproduced; this does not solve the puzzle",
+  "padding_hits": 3,
+  "status": "CONFIRMED",
+  "unique_passwords": 180
+}

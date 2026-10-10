@@ -1,0 +1,2762 @@
+[
+  {
+    "decoded_base64": "WsQHg3RH+6JLooAuTR6a7LRYCqKf7xCIzDh8GAt0b3UV1iyCKMGjDz9igPzc4iUf5hYTXp3ikbDHuKeS3Y0FBw==",
+    "parameters": {
+      "answer": "source-bifid-full570",
+      "answer_sha256": "15d62c8228c1a30f3f6280fcdce2251fe616135e9de291b0c7b8a792dd8d0507",
+      "composition": "first-then-answer",
+      "digest_representation": "digest-raw32",
+      "first_hint": "first-form-flower-answer",
+      "first_hint_sha256": "5ac407837447fba24ba2802e4d1e9aecb4580aa29fef1088cc387c180b746f75",
+      "first_hint_text": "theflowerblossomsthroughwhatseemstobeaconcretesurface"
+    },
+    "score": {
+      "alphabetic_ratio": 0.15625,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 3,
+      "printable_ratio": 0.296875,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "FdYsgijBow8/YoD83OIlH+YWE16d4pGwx7inkt2NBQdaxAeDdEf7okuigC5NHprstFgKop/vEIjMOHwYC3RvdQ==",
+    "parameters": {
+      "answer": "source-bifid-full570",
+      "answer_sha256": "15d62c8228c1a30f3f6280fcdce2251fe616135e9de291b0c7b8a792dd8d0507",
+      "composition": "answer-then-first",
+      "digest_representation": "digest-raw32",
+      "first_hint": "first-form-flower-answer",
+      "first_hint_sha256": "5ac407837447fba24ba2802e4d1e9aecb4580aa29fef1088cc387c180b746f75",
+      "first_hint_text": "theflowerblossomsthroughwhatseemstobeaconcretesurface"
+    },
+    "score": {
+      "alphabetic_ratio": 0.15625,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 3,
+      "printable_ratio": 0.296875,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "TxIrAVyGWK10wADSkfy/81JOGfwCDYE4C4Dbitb5anI=",
+    "parameters": {
+      "answer": "source-bifid-full570",
+      "answer_sha256": "15d62c8228c1a30f3f6280fcdce2251fe616135e9de291b0c7b8a792dd8d0507",
+      "composition": "equal-length-xor",
+      "digest_representation": "digest-raw32",
+      "first_hint": "first-form-flower-answer",
+      "first_hint_sha256": "5ac407837447fba24ba2802e4d1e9aecb4580aa29fef1088cc387c180b746f75",
+      "first_hint_text": "theflowerblossomsthroughwhatseemstobeaconcretesurface"
+    },
+    "score": {
+      "alphabetic_ratio": 0.21875,
+      "bytes": 32,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 2,
+      "printable_ratio": 0.34375,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "NWFjNDA3ODM3NDQ3ZmJhMjRiYTI4MDJlNGQxZTlhZWNiNDU4MGFhMjlmZWYxMDg4Y2MzODdjMTgwYjc0NmY3NTE1ZDYyYzgyMjhjMWEzMGYzZjYyODBmY2RjZTIyNTFmZTYxNjEzNWU5ZGUyOTFiMGM3YjhhNzkyZGQ4ZDA1MDc=",
+    "parameters": {
+      "answer": "source-bifid-full570",
+      "answer_sha256": "15d62c8228c1a30f3f6280fcdce2251fe616135e9de291b0c7b8a792dd8d0507",
+      "composition": "first-then-answer",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "first-form-flower-answer",
+      "first_hint_sha256": "5ac407837447fba24ba2802e4d1e9aecb4580aa29fef1088cc387c180b746f75",
+      "first_hint_text": "theflowerblossomsthroughwhatseemstobeaconcretesurface"
+    },
+    "score": {
+      "alphabetic_ratio": 0.367188,
+      "bytes": 128,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 128,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "MTVkNjJjODIyOGMxYTMwZjNmNjI4MGZjZGNlMjI1MWZlNjE2MTM1ZTlkZTI5MWIwYzdiOGE3OTJkZDhkMDUwNzVhYzQwNzgzNzQ0N2ZiYTI0YmEyODAyZTRkMWU5YWVjYjQ1ODBhYTI5ZmVmMTA4OGNjMzg3YzE4MGI3NDZmNzU=",
+    "parameters": {
+      "answer": "source-bifid-full570",
+      "answer_sha256": "15d62c8228c1a30f3f6280fcdce2251fe616135e9de291b0c7b8a792dd8d0507",
+      "composition": "answer-then-first",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "first-form-flower-answer",
+      "first_hint_sha256": "5ac407837447fba24ba2802e4d1e9aecb4580aa29fef1088cc387c180b746f75",
+      "first_hint_text": "theflowerblossomsthroughwhatseemstobeaconcretesurface"
+    },
+    "score": {
+      "alphabetic_ratio": 0.367188,
+      "bytes": 128,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 128,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "BFQHAgJUAAEFDFcGB1FRVAcEVwAAAFQGUAdUVwtUVAUHAgQOAVJUVwACAFQIAVoIAFRRAFZUCApUBg9QBlMHAg==",
+    "parameters": {
+      "answer": "source-bifid-full570",
+      "answer_sha256": "15d62c8228c1a30f3f6280fcdce2251fe616135e9de291b0c7b8a792dd8d0507",
+      "composition": "equal-length-xor",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "first-form-flower-answer",
+      "first_hint_sha256": "5ac407837447fba24ba2802e4d1e9aecb4580aa29fef1088cc387c180b746f75",
+      "first_hint_text": "theflowerblossomsthroughwhatseemstobeaconcretesurface"
+    },
+    "score": {
+      "alphabetic_ratio": 0.390625,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 3,
+      "printable_ratio": 0.40625,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "WsQHg3RH+6JLooAuTR6a7LRYCqKf7xCIzDh8GAt0b3U3diMUxMpSxpXXONPgilj83XdfDcMNKZaobbaFd1qvqA==",
+    "parameters": {
+      "answer": "source-bifid-suffix563",
+      "answer_sha256": "37762314c4ca52c695d738d3e08a58fcdd775f0dc30d2996a86db685775aafa8",
+      "composition": "first-then-answer",
+      "digest_representation": "digest-raw32",
+      "first_hint": "first-form-flower-answer",
+      "first_hint_sha256": "5ac407837447fba24ba2802e4d1e9aecb4580aa29fef1088cc387c180b746f75",
+      "first_hint_text": "theflowerblossomsthroughwhatseemstobeaconcretesurface"
+    },
+    "score": {
+      "alphabetic_ratio": 0.25,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 6,
+      "printable_ratio": 0.421875,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "N3YjFMTKUsaV1zjT4IpY/N13Xw3DDSmWqG22hXdar6haxAeDdEf7okuigC5NHprstFgKop/vEIjMOHwYC3RvdQ==",
+    "parameters": {
+      "answer": "source-bifid-suffix563",
+      "answer_sha256": "37762314c4ca52c695d738d3e08a58fcdd775f0dc30d2996a86db685775aafa8",
+      "composition": "answer-then-first",
+      "digest_representation": "digest-raw32",
+      "first_hint": "first-form-flower-answer",
+      "first_hint_sha256": "5ac407837447fba24ba2802e4d1e9aecb4580aa29fef1088cc387c180b746f75",
+      "first_hint_text": "theflowerblossomsthroughwhatseemstobeaconcretesurface"
+    },
+    "score": {
+      "alphabetic_ratio": 0.25,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 3,
+      "printable_ratio": 0.421875,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "bbIkl7CNqWTedbj9rZTCEGkvVa9c4jkeZFXKnXwuwN0=",
+    "parameters": {
+      "answer": "source-bifid-suffix563",
+      "answer_sha256": "37762314c4ca52c695d738d3e08a58fcdd775f0dc30d2996a86db685775aafa8",
+      "composition": "equal-length-xor",
+      "digest_representation": "digest-raw32",
+      "first_hint": "first-form-flower-answer",
+      "first_hint_sha256": "5ac407837447fba24ba2802e4d1e9aecb4580aa29fef1088cc387c180b746f75",
+      "first_hint_text": "theflowerblossomsthroughwhatseemstobeaconcretesurface"
+    },
+    "score": {
+      "alphabetic_ratio": 0.21875,
+      "bytes": 32,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 3,
+      "printable_ratio": 0.40625,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "NWFjNDA3ODM3NDQ3ZmJhMjRiYTI4MDJlNGQxZTlhZWNiNDU4MGFhMjlmZWYxMDg4Y2MzODdjMTgwYjc0NmY3NTM3NzYyMzE0YzRjYTUyYzY5NWQ3MzhkM2UwOGE1OGZjZGQ3NzVmMGRjMzBkMjk5NmE4NmRiNjg1Nzc1YWFmYTg=",
+    "parameters": {
+      "answer": "source-bifid-suffix563",
+      "answer_sha256": "37762314c4ca52c695d738d3e08a58fcdd775f0dc30d2996a86db685775aafa8",
+      "composition": "first-then-answer",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "first-form-flower-answer",
+      "first_hint_sha256": "5ac407837447fba24ba2802e4d1e9aecb4580aa29fef1088cc387c180b746f75",
+      "first_hint_text": "theflowerblossomsthroughwhatseemstobeaconcretesurface"
+    },
+    "score": {
+      "alphabetic_ratio": 0.367188,
+      "bytes": 128,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 128,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "Mzc3NjIzMTRjNGNhNTJjNjk1ZDczOGQzZTA4YTU4ZmNkZDc3NWYwZGMzMGQyOTk2YTg2ZGI2ODU3NzVhYWZhODVhYzQwNzgzNzQ0N2ZiYTI0YmEyODAyZTRkMWU5YWVjYjQ1ODBhYTI5ZmVmMTA4OGNjMzg3YzE4MGI3NDZmNzU=",
+    "parameters": {
+      "answer": "source-bifid-suffix563",
+      "answer_sha256": "37762314c4ca52c695d738d3e08a58fcdd775f0dc30d2996a86db685775aafa8",
+      "composition": "answer-then-first",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "first-form-flower-answer",
+      "first_hint_sha256": "5ac407837447fba24ba2802e4d1e9aecb4580aa29fef1088cc387c180b746f75",
+      "first_hint_text": "theflowerblossomsthroughwhatseemstobeaconcretesurface"
+    },
+    "score": {
+      "alphabetic_ratio": 0.367188,
+      "bytes": 128,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 128,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "BlZUAgIECQdUAFdWU1ACBA1XBQULCFZWUVQJBAxZAwAGUAIPBQdRVlpVVQIDCQEOAlsFXFVVCQ0HVQJVVwBWDQ==",
+    "parameters": {
+      "answer": "source-bifid-suffix563",
+      "answer_sha256": "37762314c4ca52c695d738d3e08a58fcdd775f0dc30d2996a86db685775aafa8",
+      "composition": "equal-length-xor",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "first-form-flower-answer",
+      "first_hint_sha256": "5ac407837447fba24ba2802e4d1e9aecb4580aa29fef1088cc387c180b746f75",
+      "first_hint_text": "theflowerblossomsthroughwhatseemstobeaconcretesurface"
+    },
+    "score": {
+      "alphabetic_ratio": 0.390625,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 5,
+      "printable_ratio": 0.53125,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "WsQHg3RH+6JLooAuTR6a7LRYCqKf7xCIzDh8GAt0b3Uhy/oYX5JJJlLsXEC6KbLyn2WAT4vShcDedoWiqtUxCQ==",
+    "parameters": {
+      "answer": "frame-selected-residual60",
+      "answer_sha256": "21cbfa185f92492652ec5c40ba29b2f29f65804f8bd285c0de7685a2aad53109",
+      "composition": "first-then-answer",
+      "digest_representation": "digest-raw32",
+      "first_hint": "first-form-flower-answer",
+      "first_hint_sha256": "5ac407837447fba24ba2802e4d1e9aecb4580aa29fef1088cc387c180b746f75",
+      "first_hint_text": "theflowerblossomsthroughwhatseemstobeaconcretesurface"
+    },
+    "score": {
+      "alphabetic_ratio": 0.21875,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 4,
+      "printable_ratio": 0.40625,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "Icv6GF+SSSZS7FxAuimy8p9lgE+L0oXA3naFoqrVMQlaxAeDdEf7okuigC5NHprstFgKop/vEIjMOHwYC3RvdQ==",
+    "parameters": {
+      "answer": "frame-selected-residual60",
+      "answer_sha256": "21cbfa185f92492652ec5c40ba29b2f29f65804f8bd285c0de7685a2aad53109",
+      "composition": "answer-then-first",
+      "digest_representation": "digest-raw32",
+      "first_hint": "first-form-flower-answer",
+      "first_hint_sha256": "5ac407837447fba24ba2802e4d1e9aecb4580aa29fef1088cc387c180b746f75",
+      "first_hint_text": "theflowerblossomsthroughwhatseemstobeaconcretesurface"
+    },
+    "score": {
+      "alphabetic_ratio": 0.21875,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 3,
+      "printable_ratio": 0.40625,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "ew/9myvVsoQZTtxu9zcoHis9iu0UPZVIEk75uqGhXnw=",
+    "parameters": {
+      "answer": "frame-selected-residual60",
+      "answer_sha256": "21cbfa185f92492652ec5c40ba29b2f29f65804f8bd285c0de7685a2aad53109",
+      "composition": "equal-length-xor",
+      "digest_representation": "digest-raw32",
+      "first_hint": "first-form-flower-answer",
+      "first_hint_sha256": "5ac407837447fba24ba2802e4d1e9aecb4580aa29fef1088cc387c180b746f75",
+      "first_hint_text": "theflowerblossomsthroughwhatseemstobeaconcretesurface"
+    },
+    "score": {
+      "alphabetic_ratio": 0.125,
+      "bytes": 32,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 2,
+      "printable_ratio": 0.40625,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "NWFjNDA3ODM3NDQ3ZmJhMjRiYTI4MDJlNGQxZTlhZWNiNDU4MGFhMjlmZWYxMDg4Y2MzODdjMTgwYjc0NmY3NTIxY2JmYTE4NWY5MjQ5MjY1MmVjNWM0MGJhMjliMmYyOWY2NTgwNGY4YmQyODVjMGRlNzY4NWEyYWFkNTMxMDk=",
+    "parameters": {
+      "answer": "frame-selected-residual60",
+      "answer_sha256": "21cbfa185f92492652ec5c40ba29b2f29f65804f8bd285c0de7685a2aad53109",
+      "composition": "first-then-answer",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "first-form-flower-answer",
+      "first_hint_sha256": "5ac407837447fba24ba2802e4d1e9aecb4580aa29fef1088cc387c180b746f75",
+      "first_hint_text": "theflowerblossomsthroughwhatseemstobeaconcretesurface"
+    },
+    "score": {
+      "alphabetic_ratio": 0.367188,
+      "bytes": 128,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 128,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "MjFjYmZhMTg1ZjkyNDkyNjUyZWM1YzQwYmEyOWIyZjI5ZjY1ODA0ZjhiZDI4NWMwZGU3Njg1YTJhYWQ1MzEwOTVhYzQwNzgzNzQ0N2ZiYTI0YmEyODAyZTRkMWU5YWVjYjQ1ODBhYTI5ZmVmMTA4OGNjMzg3YzE4MGI3NDZmNzU=",
+    "parameters": {
+      "answer": "frame-selected-residual60",
+      "answer_sha256": "21cbfa185f92492652ec5c40ba29b2f29f65804f8bd285c0de7685a2aad53109",
+      "composition": "answer-then-first",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "first-form-flower-answer",
+      "first_hint_sha256": "5ac407837447fba24ba2802e4d1e9aecb4580aa29fef1088cc387c180b746f75",
+      "first_hint_text": "theflowerblossomsthroughwhatseemstobeaconcretesurface"
+    },
+    "score": {
+      "alphabetic_ratio": 0.367188,
+      "bytes": 128,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 128,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "B1AAVlZWCQsCUg0FUltTBAFQBFENUwZVVgUDXFtTA1FbUgMNCFFVVAEEAVQJBVsIBwYEDg9WUApRA1MBBVcHDA==",
+    "parameters": {
+      "answer": "frame-selected-residual60",
+      "answer_sha256": "21cbfa185f92492652ec5c40ba29b2f29f65804f8bd285c0de7685a2aad53109",
+      "composition": "equal-length-xor",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "first-form-flower-answer",
+      "first_hint_sha256": "5ac407837447fba24ba2802e4d1e9aecb4580aa29fef1088cc387c180b746f75",
+      "first_hint_text": "theflowerblossomsthroughwhatseemstobeaconcretesurface"
+    },
+    "score": {
+      "alphabetic_ratio": 0.375,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 3,
+      "printable_ratio": 0.546875,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "WsQHg3RH+6JLooAuTR6a7LRYCqKf7xCIzDh8GAt0b3UGYZG0qvwRT7yn8NFoOC9AEpxP8YSQN1tol0EIHV7zwg==",
+    "parameters": {
+      "answer": "unchanged-faed570",
+      "answer_sha256": "066191b4aafc114fbca7f0d168382f40129c4ff18490375b689741081d5ef3c2",
+      "composition": "first-then-answer",
+      "digest_representation": "digest-raw32",
+      "first_hint": "first-form-flower-answer",
+      "first_hint_sha256": "5ac407837447fba24ba2802e4d1e9aecb4580aa29fef1088cc387c180b746f75",
+      "first_hint_text": "theflowerblossomsthroughwhatseemstobeaconcretesurface"
+    },
+    "score": {
+      "alphabetic_ratio": 0.234375,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 4,
+      "printable_ratio": 0.390625,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "BmGRtKr8EU+8p/DRaDgvQBKcT/GEkDdbaJdBCB1e88JaxAeDdEf7okuigC5NHprstFgKop/vEIjMOHwYC3RvdQ==",
+    "parameters": {
+      "answer": "unchanged-faed570",
+      "answer_sha256": "066191b4aafc114fbca7f0d168382f40129c4ff18490375b689741081d5ef3c2",
+      "composition": "answer-then-first",
+      "digest_representation": "digest-raw32",
+      "first_hint": "first-form-flower-answer",
+      "first_hint_sha256": "5ac407837447fba24ba2802e4d1e9aecb4580aa29fef1088cc387c180b746f75",
+      "first_hint_text": "theflowerblossomsthroughwhatseemstobeaconcretesurface"
+    },
+    "score": {
+      "alphabetic_ratio": 0.234375,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 4,
+      "printable_ratio": 0.390625,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "XKWWN9676u33BXD/JSa1rKbERVMbfyfTpK89EBYqnLc=",
+    "parameters": {
+      "answer": "unchanged-faed570",
+      "answer_sha256": "066191b4aafc114fbca7f0d168382f40129c4ff18490375b689741081d5ef3c2",
+      "composition": "equal-length-xor",
+      "digest_representation": "digest-raw32",
+      "first_hint": "first-form-flower-answer",
+      "first_hint_sha256": "5ac407837447fba24ba2802e4d1e9aecb4580aa29fef1088cc387c180b746f75",
+      "first_hint_text": "theflowerblossomsthroughwhatseemstobeaconcretesurface"
+    },
+    "score": {
+      "alphabetic_ratio": 0.09375,
+      "bytes": 32,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 2,
+      "printable_ratio": 0.3125,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "NWFjNDA3ODM3NDQ3ZmJhMjRiYTI4MDJlNGQxZTlhZWNiNDU4MGFhMjlmZWYxMDg4Y2MzODdjMTgwYjc0NmY3NTA2NjE5MWI0YWFmYzExNGZiY2E3ZjBkMTY4MzgyZjQwMTI5YzRmZjE4NDkwMzc1YjY4OTc0MTA4MWQ1ZWYzYzI=",
+    "parameters": {
+      "answer": "unchanged-faed570",
+      "answer_sha256": "066191b4aafc114fbca7f0d168382f40129c4ff18490375b689741081d5ef3c2",
+      "composition": "first-then-answer",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "first-form-flower-answer",
+      "first_hint_sha256": "5ac407837447fba24ba2802e4d1e9aecb4580aa29fef1088cc387c180b746f75",
+      "first_hint_text": "theflowerblossomsthroughwhatseemstobeaconcretesurface"
+    },
+    "score": {
+      "alphabetic_ratio": 0.34375,
+      "bytes": 128,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 128,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "MDY2MTkxYjRhYWZjMTE0ZmJjYTdmMGQxNjgzODJmNDAxMjljNGZmMTg0OTAzNzViNjg5NzQxMDgxZDVlZjNjMjVhYzQwNzgzNzQ0N2ZiYTI0YmEyODAyZTRkMWU5YWVjYjQ1ODBhYTI5ZmVmMTA4OGNjMzg3YzE4MGI3NDZmNzU=",
+    "parameters": {
+      "answer": "unchanged-faed570",
+      "answer_sha256": "066191b4aafc114fbca7f0d168382f40129c4ff18490375b689741081d5ef3c2",
+      "composition": "answer-then-first",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "first-form-flower-answer",
+      "first_hint_sha256": "5ac407837447fba24ba2802e4d1e9aecb4580aa29fef1088cc387c180b746f75",
+      "first_hint_text": "theflowerblossomsthroughwhatseemstobeaconcretesurface"
+    },
+    "score": {
+      "alphabetic_ratio": 0.34375,
+      "bytes": 128,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 128,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "BVdVBQkGWgdWVVJUV1NVVFYBAAVeAFZUAlwCXQsHUVNTBgxbBAcHAwFSXFYCBw1aVVsKDwNSAQABBgJRUFVUBw==",
+    "parameters": {
+      "answer": "unchanged-faed570",
+      "answer_sha256": "066191b4aafc114fbca7f0d168382f40129c4ff18490375b689741081d5ef3c2",
+      "composition": "equal-length-xor",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "first-form-flower-answer",
+      "first_hint_sha256": "5ac407837447fba24ba2802e4d1e9aecb4580aa29fef1088cc387c180b746f75",
+      "first_hint_text": "theflowerblossomsthroughwhatseemstobeaconcretesurface"
+    },
+    "score": {
+      "alphabetic_ratio": 0.40625,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 9,
+      "printable_ratio": 0.546875,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "TgXbJkSvvTbXRZW6f0Nd81Fvi7stI3a/vDsJNt/pImsV1iyCKMGjDz9igPzc4iUf5hYTXp3ikbDHuKeS3Y0FBw==",
+    "parameters": {
+      "answer": "source-bifid-full570",
+      "answer_sha256": "15d62c8228c1a30f3f6280fcdce2251fe616135e9de291b0c7b8a792dd8d0507",
+      "composition": "first-then-answer",
+      "digest_representation": "digest-raw32",
+      "first_hint": "first-instruction-white-rabbit",
+      "first_hint_sha256": "4e05db2644afbd36d74595ba7f435df3516f8bbb2d2376bfbc3b0936dfe9226b",
+      "first_hint_text": "followthewhiterabbit"
+    },
+    "score": {
+      "alphabetic_ratio": 0.140625,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 3,
+      "printable_ratio": 0.359375,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "FdYsgijBow8/YoD83OIlH+YWE16d4pGwx7inkt2NBQdOBdsmRK+9NtdFlbp/Q13zUW+Luy0jdr+8Owk23+kiaw==",
+    "parameters": {
+      "answer": "source-bifid-full570",
+      "answer_sha256": "15d62c8228c1a30f3f6280fcdce2251fe616135e9de291b0c7b8a792dd8d0507",
+      "composition": "answer-then-first",
+      "digest_representation": "digest-raw32",
+      "first_hint": "first-instruction-white-rabbit",
+      "first_hint_sha256": "4e05db2644afbd36d74595ba7f435df3516f8bbb2d2376bfbc3b0936dfe9226b",
+      "first_hint_text": "followthewhiterabbit"
+    },
+    "score": {
+      "alphabetic_ratio": 0.140625,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 3,
+      "printable_ratio": 0.359375,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "W9P3pGxuHjnoJxVGo6F47Ld5mOWwwecPe4OupAJkJ2w=",
+    "parameters": {
+      "answer": "source-bifid-full570",
+      "answer_sha256": "15d62c8228c1a30f3f6280fcdce2251fe616135e9de291b0c7b8a792dd8d0507",
+      "composition": "equal-length-xor",
+      "digest_representation": "digest-raw32",
+      "first_hint": "first-instruction-white-rabbit",
+      "first_hint_sha256": "4e05db2644afbd36d74595ba7f435df3516f8bbb2d2376bfbc3b0936dfe9226b",
+      "first_hint_text": "followthewhiterabbit"
+    },
+    "score": {
+      "alphabetic_ratio": 0.21875,
+      "bytes": 32,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 3,
+      "printable_ratio": 0.375,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "NGUwNWRiMjY0NGFmYmQzNmQ3NDU5NWJhN2Y0MzVkZjM1MTZmOGJiYjJkMjM3NmJmYmMzYjA5MzZkZmU5MjI2YjE1ZDYyYzgyMjhjMWEzMGYzZjYyODBmY2RjZTIyNTFmZTYxNjEzNWU5ZGUyOTFiMGM3YjhhNzkyZGQ4ZDA1MDc=",
+    "parameters": {
+      "answer": "source-bifid-full570",
+      "answer_sha256": "15d62c8228c1a30f3f6280fcdce2251fe616135e9de291b0c7b8a792dd8d0507",
+      "composition": "first-then-answer",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "first-instruction-white-rabbit",
+      "first_hint_sha256": "4e05db2644afbd36d74595ba7f435df3516f8bbb2d2376bfbc3b0936dfe9226b",
+      "first_hint_text": "followthewhiterabbit"
+    },
+    "score": {
+      "alphabetic_ratio": 0.390625,
+      "bytes": 128,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 128,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "MTVkNjJjODIyOGMxYTMwZjNmNjI4MGZjZGNlMjI1MWZlNjE2MTM1ZTlkZTI5MWIwYzdiOGE3OTJkZDhkMDUwNzRlMDVkYjI2NDRhZmJkMzZkNzQ1OTViYTdmNDM1ZGYzNTE2ZjhiYmIyZDIzNzZiZmJjM2IwOTM2ZGZlOTIyNmI=",
+    "parameters": {
+      "answer": "source-bifid-full570",
+      "answer_sha256": "15d62c8228c1a30f3f6280fcdce2251fe616135e9de291b0c7b8a792dd8d0507",
+      "composition": "answer-then-first",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "first-instruction-white-rabbit",
+      "first_hint_sha256": "4e05db2644afbd36d74595ba7f435df3516f8bbb2d2376bfbc3b0936dfe9226b",
+      "first_hint_text": "followthewhiterabbit"
+    },
+    "score": {
+      "alphabetic_ratio": 0.390625,
+      "bytes": 128,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 128,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "BVBUA1YBCgQGDAJXA1cDUFdRAgcBBQQCUwVRAQdRV1VQBwdQCVFXBwsAVwEOBwBWAVRRWlEOCgQAAl1dAgcGVQ==",
+    "parameters": {
+      "answer": "source-bifid-full570",
+      "answer_sha256": "15d62c8228c1a30f3f6280fcdce2251fe616135e9de291b0c7b8a792dd8d0507",
+      "composition": "equal-length-xor",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "first-instruction-white-rabbit",
+      "first_hint_sha256": "4e05db2644afbd36d74595ba7f435df3516f8bbb2d2376bfbc3b0936dfe9226b",
+      "first_hint_text": "followthewhiterabbit"
+    },
+    "score": {
+      "alphabetic_ratio": 0.375,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 4,
+      "printable_ratio": 0.453125,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "TgXbJkSvvTbXRZW6f0Nd81Fvi7stI3a/vDsJNt/pIms3diMUxMpSxpXXONPgilj83XdfDcMNKZaobbaFd1qvqA==",
+    "parameters": {
+      "answer": "source-bifid-suffix563",
+      "answer_sha256": "37762314c4ca52c695d738d3e08a58fcdd775f0dc30d2996a86db685775aafa8",
+      "composition": "first-then-answer",
+      "digest_representation": "digest-raw32",
+      "first_hint": "first-instruction-white-rabbit",
+      "first_hint_sha256": "4e05db2644afbd36d74595ba7f435df3516f8bbb2d2376bfbc3b0936dfe9226b",
+      "first_hint_text": "followthewhiterabbit"
+    },
+    "score": {
+      "alphabetic_ratio": 0.234375,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 5,
+      "printable_ratio": 0.484375,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "N3YjFMTKUsaV1zjT4IpY/N13Xw3DDSmWqG22hXdar6hOBdsmRK+9NtdFlbp/Q13zUW+Luy0jdr+8Owk23+kiaw==",
+    "parameters": {
+      "answer": "source-bifid-suffix563",
+      "answer_sha256": "37762314c4ca52c695d738d3e08a58fcdd775f0dc30d2996a86db685775aafa8",
+      "composition": "answer-then-first",
+      "digest_representation": "digest-raw32",
+      "first_hint": "first-instruction-white-rabbit",
+      "first_hint_sha256": "4e05db2644afbd36d74595ba7f435df3516f8bbb2d2376bfbc3b0936dfe9226b",
+      "first_hint_text": "followthewhiterabbit"
+    },
+    "score": {
+      "alphabetic_ratio": 0.234375,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 3,
+      "printable_ratio": 0.484375,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "eXP4MoBl7/BCkq1pn8kFD4wY1LbuLl8pFFa/s6izjcM=",
+    "parameters": {
+      "answer": "source-bifid-suffix563",
+      "answer_sha256": "37762314c4ca52c695d738d3e08a58fcdd775f0dc30d2996a86db685775aafa8",
+      "composition": "equal-length-xor",
+      "digest_representation": "digest-raw32",
+      "first_hint": "first-instruction-white-rabbit",
+      "first_hint_sha256": "4e05db2644afbd36d74595ba7f435df3516f8bbb2d2376bfbc3b0936dfe9226b",
+      "first_hint_text": "followthewhiterabbit"
+    },
+    "score": {
+      "alphabetic_ratio": 0.1875,
+      "bytes": 32,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 3,
+      "printable_ratio": 0.3125,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "NGUwNWRiMjY0NGFmYmQzNmQ3NDU5NWJhN2Y0MzVkZjM1MTZmOGJiYjJkMjM3NmJmYmMzYjA5MzZkZmU5MjI2YjM3NzYyMzE0YzRjYTUyYzY5NWQ3MzhkM2UwOGE1OGZjZGQ3NzVmMGRjMzBkMjk5NmE4NmRiNjg1Nzc1YWFmYTg=",
+    "parameters": {
+      "answer": "source-bifid-suffix563",
+      "answer_sha256": "37762314c4ca52c695d738d3e08a58fcdd775f0dc30d2996a86db685775aafa8",
+      "composition": "first-then-answer",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "first-instruction-white-rabbit",
+      "first_hint_sha256": "4e05db2644afbd36d74595ba7f435df3516f8bbb2d2376bfbc3b0936dfe9226b",
+      "first_hint_text": "followthewhiterabbit"
+    },
+    "score": {
+      "alphabetic_ratio": 0.390625,
+      "bytes": 128,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 128,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "Mzc3NjIzMTRjNGNhNTJjNjk1ZDczOGQzZTA4YTU4ZmNkZDc3NWYwZGMzMGQyOTk2YTg2ZGI2ODU3NzVhYWZhODRlMDVkYjI2NDRhZmJkMzZkNzQ1OTViYTdmNDM1ZGYzNTE2ZjhiYmIyZDIzNzZiZmJjM2IwOTM2ZGZlOTIyNmI=",
+    "parameters": {
+      "answer": "source-bifid-suffix563",
+      "answer_sha256": "37762314c4ca52c695d738d3e08a58fcdd775f0dc30d2996a86db685775aafa8",
+      "composition": "answer-then-first",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "first-instruction-white-rabbit",
+      "first_hint_sha256": "4e05db2644afbd36d74595ba7f435df3516f8bbb2d2376bfbc3b0936dfe9226b",
+      "first_hint_text": "followthewhiterabbit"
+    },
+    "score": {
+      "alphabetic_ratio": 0.390625,
+      "bytes": 128,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 128,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "B1IHA1ZRAwJXAAIHV1ZQAF0CUAIKDQZSUlYMUgBcAFBRVQFRDQRSBlFXAlcFD1tQA1sFBlIPCwNTUVBYU1RXWg==",
+    "parameters": {
+      "answer": "source-bifid-suffix563",
+      "answer_sha256": "37762314c4ca52c695d738d3e08a58fcdd775f0dc30d2996a86db685775aafa8",
+      "composition": "equal-length-xor",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "first-instruction-white-rabbit",
+      "first_hint_sha256": "4e05db2644afbd36d74595ba7f435df3516f8bbb2d2376bfbc3b0936dfe9226b",
+      "first_hint_text": "followthewhiterabbit"
+    },
+    "score": {
+      "alphabetic_ratio": 0.46875,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 8,
+      "printable_ratio": 0.578125,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "TgXbJkSvvTbXRZW6f0Nd81Fvi7stI3a/vDsJNt/pImshy/oYX5JJJlLsXEC6KbLyn2WAT4vShcDedoWiqtUxCQ==",
+    "parameters": {
+      "answer": "frame-selected-residual60",
+      "answer_sha256": "21cbfa185f92492652ec5c40ba29b2f29f65804f8bd285c0de7685a2aad53109",
+      "composition": "first-then-answer",
+      "digest_representation": "digest-raw32",
+      "first_hint": "first-instruction-white-rabbit",
+      "first_hint_sha256": "4e05db2644afbd36d74595ba7f435df3516f8bbb2d2376bfbc3b0936dfe9226b",
+      "first_hint_text": "followthewhiterabbit"
+    },
+    "score": {
+      "alphabetic_ratio": 0.203125,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 3,
+      "printable_ratio": 0.46875,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "Icv6GF+SSSZS7FxAuimy8p9lgE+L0oXA3naFoqrVMQlOBdsmRK+9NtdFlbp/Q13zUW+Luy0jdr+8Owk23+kiaw==",
+    "parameters": {
+      "answer": "frame-selected-residual60",
+      "answer_sha256": "21cbfa185f92492652ec5c40ba29b2f29f65804f8bd285c0de7685a2aad53109",
+      "composition": "answer-then-first",
+      "digest_representation": "digest-raw32",
+      "first_hint": "first-instruction-white-rabbit",
+      "first_hint_sha256": "4e05db2644afbd36d74595ba7f435df3516f8bbb2d2376bfbc3b0936dfe9226b",
+      "first_hint_text": "followthewhiterabbit"
+    },
+    "score": {
+      "alphabetic_ratio": 0.203125,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 3,
+      "printable_ratio": 0.46875,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "b84hPhs99BCFqcn6xWrvAc4KC/Sm8fN/Yk2MlHU8E2I=",
+    "parameters": {
+      "answer": "frame-selected-residual60",
+      "answer_sha256": "21cbfa185f92492652ec5c40ba29b2f29f65804f8bd285c0de7685a2aad53109",
+      "composition": "equal-length-xor",
+      "digest_representation": "digest-raw32",
+      "first_hint": "first-instruction-white-rabbit",
+      "first_hint_sha256": "4e05db2644afbd36d74595ba7f435df3516f8bbb2d2376bfbc3b0936dfe9226b",
+      "first_hint_text": "followthewhiterabbit"
+    },
+    "score": {
+      "alphabetic_ratio": 0.1875,
+      "bytes": 32,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 2,
+      "printable_ratio": 0.34375,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "NGUwNWRiMjY0NGFmYmQzNmQ3NDU5NWJhN2Y0MzVkZjM1MTZmOGJiYjJkMjM3NmJmYmMzYjA5MzZkZmU5MjI2YjIxY2JmYTE4NWY5MjQ5MjY1MmVjNWM0MGJhMjliMmYyOWY2NTgwNGY4YmQyODVjMGRlNzY4NWEyYWFkNTMxMDk=",
+    "parameters": {
+      "answer": "frame-selected-residual60",
+      "answer_sha256": "21cbfa185f92492652ec5c40ba29b2f29f65804f8bd285c0de7685a2aad53109",
+      "composition": "first-then-answer",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "first-instruction-white-rabbit",
+      "first_hint_sha256": "4e05db2644afbd36d74595ba7f435df3516f8bbb2d2376bfbc3b0936dfe9226b",
+      "first_hint_text": "followthewhiterabbit"
+    },
+    "score": {
+      "alphabetic_ratio": 0.390625,
+      "bytes": 128,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 128,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "MjFjYmZhMTg1ZjkyNDkyNjUyZWM1YzQwYmEyOWIyZjI5ZjY1ODA0ZjhiZDI4NWMwZGU3Njg1YTJhYWQ1MzEwOTRlMDVkYjI2NDRhZmJkMzZkNzQ1OTViYTdmNDM1ZGYzNTE2ZjhiYmIyZDIzNzZiZmJjM2IwOTM2ZGZlOTIyNmI=",
+    "parameters": {
+      "answer": "frame-selected-residual60",
+      "answer_sha256": "21cbfa185f92492652ec5c40ba29b2f29f65804f8bd285c0de7685a2aad53109",
+      "composition": "answer-then-first",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "first-instruction-white-rabbit",
+      "first_hint_sha256": "4e05db2644afbd36d74595ba7f435df3516f8bbb2d2376bfbc3b0936dfe9226b",
+      "first_hint_text": "followthewhiterabbit"
+    },
+    "score": {
+      "alphabetic_ratio": 0.390625,
+      "bytes": 128,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 128,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "BlRTVwIDAw4BUlhUVl0BAFEFUVYMVlZRVQcGCldWAAEMVwBTAFJWBAoGVgEPAwFWBgYEVAgMUgQFBwEMAQMGWw==",
+    "parameters": {
+      "answer": "frame-selected-residual60",
+      "answer_sha256": "21cbfa185f92492652ec5c40ba29b2f29f65804f8bd285c0de7685a2aad53109",
+      "composition": "equal-length-xor",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "first-instruction-white-rabbit",
+      "first_hint_sha256": "4e05db2644afbd36d74595ba7f435df3516f8bbb2d2376bfbc3b0936dfe9226b",
+      "first_hint_text": "followthewhiterabbit"
+    },
+    "score": {
+      "alphabetic_ratio": 0.375,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 5,
+      "printable_ratio": 0.4375,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "TgXbJkSvvTbXRZW6f0Nd81Fvi7stI3a/vDsJNt/pImsGYZG0qvwRT7yn8NFoOC9AEpxP8YSQN1tol0EIHV7zwg==",
+    "parameters": {
+      "answer": "unchanged-faed570",
+      "answer_sha256": "066191b4aafc114fbca7f0d168382f40129c4ff18490375b689741081d5ef3c2",
+      "composition": "first-then-answer",
+      "digest_representation": "digest-raw32",
+      "first_hint": "first-instruction-white-rabbit",
+      "first_hint_sha256": "4e05db2644afbd36d74595ba7f435df3516f8bbb2d2376bfbc3b0936dfe9226b",
+      "first_hint_text": "followthewhiterabbit"
+    },
+    "score": {
+      "alphabetic_ratio": 0.21875,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 4,
+      "printable_ratio": 0.453125,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "BmGRtKr8EU+8p/DRaDgvQBKcT/GEkDdbaJdBCB1e88JOBdsmRK+9NtdFlbp/Q13zUW+Luy0jdr+8Owk23+kiaw==",
+    "parameters": {
+      "answer": "unchanged-faed570",
+      "answer_sha256": "066191b4aafc114fbca7f0d168382f40129c4ff18490375b689741081d5ef3c2",
+      "composition": "answer-then-first",
+      "digest_representation": "digest-raw32",
+      "first_hint": "first-instruction-white-rabbit",
+      "first_hint_sha256": "4e05db2644afbd36d74595ba7f435df3516f8bbb2d2376bfbc3b0936dfe9226b",
+      "first_hint_text": "followthewhiterabbit"
+    },
+    "score": {
+      "alphabetic_ratio": 0.21875,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.083333,
+      "longest_printable_run": 4,
+      "printable_ratio": 0.453125,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "SGRKku5TrHlr4mVrF3tys0PzxEqps0Hk1KxIPsK30ak=",
+    "parameters": {
+      "answer": "unchanged-faed570",
+      "answer_sha256": "066191b4aafc114fbca7f0d168382f40129c4ff18490375b689741081d5ef3c2",
+      "composition": "equal-length-xor",
+      "digest_representation": "digest-raw32",
+      "first_hint": "first-instruction-white-rabbit",
+      "first_hint_sha256": "4e05db2644afbd36d74595ba7f435df3516f8bbb2d2376bfbc3b0936dfe9226b",
+      "first_hint_text": "followthewhiterabbit"
+    },
+    "score": {
+      "alphabetic_ratio": 0.40625,
+      "bytes": 32,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 3,
+      "printable_ratio": 0.46875,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "NGUwNWRiMjY0NGFmYmQzNmQ3NDU5NWJhN2Y0MzVkZjM1MTZmOGJiYjJkMjM3NmJmYmMzYjA5MzZkZmU5MjI2YjA2NjE5MWI0YWFmYzExNGZiY2E3ZjBkMTY4MzgyZjQwMTI5YzRmZjE4NDkwMzc1YjY4OTc0MTA4MWQ1ZWYzYzI=",
+    "parameters": {
+      "answer": "unchanged-faed570",
+      "answer_sha256": "066191b4aafc114fbca7f0d168382f40129c4ff18490375b689741081d5ef3c2",
+      "composition": "first-then-answer",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "first-instruction-white-rabbit",
+      "first_hint_sha256": "4e05db2644afbd36d74595ba7f435df3516f8bbb2d2376bfbc3b0936dfe9226b",
+      "first_hint_text": "followthewhiterabbit"
+    },
+    "score": {
+      "alphabetic_ratio": 0.367188,
+      "bytes": 128,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 128,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "MDY2MTkxYjRhYWZjMTE0ZmJjYTdmMGQxNjgzODJmNDAxMjljNGZmMTg0OTAzNzViNjg5NzQxMDgxZDVlZjNjMjRlMDVkYjI2NDRhZmJkMzZkNzQ1OTViYTdmNDM1ZGYzNTE2ZjhiYmIyZDIzNzZiZmJjM2IwOTM2ZGZlOTIyNmI=",
+    "parameters": {
+      "answer": "unchanged-faed570",
+      "answer_sha256": "066191b4aafc114fbca7f0d168382f40129c4ff18490375b689741081d5ef3c2",
+      "composition": "answer-then-first",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "first-instruction-white-rabbit",
+      "first_hint_sha256": "4e05db2644afbd36d74595ba7f435df3516f8bbb2d2376bfbc3b0936dfe9226b",
+      "first_hint_text": "followthewhiterabbit"
+    },
+    "score": {
+      "alphabetic_ratio": 0.367188,
+      "bytes": 128,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 128,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "BFMGBF1TUAJVVQcFU1UHUAZUVQJfBQZQAV4HCwcCUgMEAw8FDAQEUwpQCwMEAVcEVFsKVQQIAw5VAlBcVAFVUA==",
+    "parameters": {
+      "answer": "unchanged-faed570",
+      "answer_sha256": "066191b4aafc114fbca7f0d168382f40129c4ff18490375b689741081d5ef3c2",
+      "composition": "equal-length-xor",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "first-instruction-white-rabbit",
+      "first_hint_sha256": "4e05db2644afbd36d74595ba7f435df3516f8bbb2d2376bfbc3b0936dfe9226b",
+      "first_hint_text": "followthewhiterabbit"
+    },
+    "score": {
+      "alphabetic_ratio": 0.34375,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 3,
+      "printable_ratio": 0.453125,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "Oj8OJFNg1R6kH1XH24oT8nD789zvO0+UrBxLPO6NsukV1iyCKMGjDz9igPzc4iUf5hYTXp3ikbDHuKeS3Y0FBw==",
+    "parameters": {
+      "answer": "source-bifid-full570",
+      "answer_sha256": "15d62c8228c1a30f3f6280fcdce2251fe616135e9de291b0c7b8a792dd8d0507",
+      "composition": "first-then-answer",
+      "digest_representation": "digest-raw32",
+      "first_hint": "first-image-decoded-route",
+      "first_hint_sha256": "3a3f0e245360d51ea41f55c7db8a13f270fbf3dcef3b4f94ac1c4b3cee8db2e9",
+      "first_hint_text": "gsmg.io/theseedisplanted"
+    },
+    "score": {
+      "alphabetic_ratio": 0.09375,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 3,
+      "printable_ratio": 0.265625,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "FdYsgijBow8/YoD83OIlH+YWE16d4pGwx7inkt2NBQc6Pw4kU2DVHqQfVcfbihPycPvz3O87T5SsHEs87o2y6Q==",
+    "parameters": {
+      "answer": "source-bifid-full570",
+      "answer_sha256": "15d62c8228c1a30f3f6280fcdce2251fe616135e9de291b0c7b8a792dd8d0507",
+      "composition": "answer-then-first",
+      "digest_representation": "digest-raw32",
+      "first_hint": "first-image-decoded-route",
+      "first_hint_sha256": "3a3f0e245360d51ea41f55c7db8a13f270fbf3dcef3b4f94ac1c4b3cee8db2e9",
+      "first_hint_text": "gsmg.io/theseedisplanted"
+    },
+    "score": {
+      "alphabetic_ratio": 0.09375,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 3,
+      "printable_ratio": 0.265625,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "L+kipnuhdhGbfdU7B2g27Zbt4IJy2d4ka6TsrjMAt+4=",
+    "parameters": {
+      "answer": "source-bifid-full570",
+      "answer_sha256": "15d62c8228c1a30f3f6280fcdce2251fe616135e9de291b0c7b8a792dd8d0507",
+      "composition": "equal-length-xor",
+      "digest_representation": "digest-raw32",
+      "first_hint": "first-image-decoded-route",
+      "first_hint_sha256": "3a3f0e245360d51ea41f55c7db8a13f270fbf3dcef3b4f94ac1c4b3cee8db2e9",
+      "first_hint_text": "gsmg.io/theseedisplanted"
+    },
+    "score": {
+      "alphabetic_ratio": 0.125,
+      "bytes": 32,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 2,
+      "printable_ratio": 0.375,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "M2EzZjBlMjQ1MzYwZDUxZWE0MWY1NWM3ZGI4YTEzZjI3MGZiZjNkY2VmM2I0Zjk0YWMxYzRiM2NlZThkYjJlOTE1ZDYyYzgyMjhjMWEzMGYzZjYyODBmY2RjZTIyNTFmZTYxNjEzNWU5ZGUyOTFiMGM3YjhhNzkyZGQ4ZDA1MDc=",
+    "parameters": {
+      "answer": "source-bifid-full570",
+      "answer_sha256": "15d62c8228c1a30f3f6280fcdce2251fe616135e9de291b0c7b8a792dd8d0507",
+      "composition": "first-then-answer",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "first-image-decoded-route",
+      "first_hint_sha256": "3a3f0e245360d51ea41f55c7db8a13f270fbf3dcef3b4f94ac1c4b3cee8db2e9",
+      "first_hint_text": "gsmg.io/theseedisplanted"
+    },
+    "score": {
+      "alphabetic_ratio": 0.421875,
+      "bytes": 128,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 128,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "MTVkNjJjODIyOGMxYTMwZjNmNjI4MGZjZGNlMjI1MWZlNjE2MTM1ZTlkZTI5MWIwYzdiOGE3OTJkZDhkMDUwNzNhM2YwZTI0NTM2MGQ1MWVhNDFmNTVjN2RiOGExM2YyNzBmYmYzZGNlZjNiNGY5NGFjMWM0YjNjZWU4ZGIyZTk=",
+    "parameters": {
+      "answer": "source-bifid-full570",
+      "answer_sha256": "15d62c8228c1a30f3f6280fcdce2251fe616135e9de291b0c7b8a792dd8d0507",
+      "composition": "answer-then-first",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "first-image-decoded-route",
+      "first_hint_sha256": "3a3f0e245360d51ea41f55c7db8a13f270fbf3dcef3b4f94ac1c4b3cee8db2e9",
+      "first_hint_text": "gsmg.io/theseedisplanted"
+    },
+    "score": {
+      "alphabetic_ratio": 0.421875,
+      "bytes": 128,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 128,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "AlRXUAIGCgYHC1UBBQYBA1JSB1QNBQVUAAFdUwMGV1RSBldUVwBRBlwCVlANV1sEAlRTW1VVClEBAQAAUgdVDg==",
+    "parameters": {
+      "answer": "source-bifid-full570",
+      "answer_sha256": "15d62c8228c1a30f3f6280fcdce2251fe616135e9de291b0c7b8a792dd8d0507",
+      "composition": "equal-length-xor",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "first-image-decoded-route",
+      "first_hint_sha256": "3a3f0e245360d51ea41f55c7db8a13f270fbf3dcef3b4f94ac1c4b3cee8db2e9",
+      "first_hint_text": "gsmg.io/theseedisplanted"
+    },
+    "score": {
+      "alphabetic_ratio": 0.40625,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 5,
+      "printable_ratio": 0.53125,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "Oj8OJFNg1R6kH1XH24oT8nD789zvO0+UrBxLPO6Nsuk3diMUxMpSxpXXONPgilj83XdfDcMNKZaobbaFd1qvqA==",
+    "parameters": {
+      "answer": "source-bifid-suffix563",
+      "answer_sha256": "37762314c4ca52c695d738d3e08a58fcdd775f0dc30d2996a86db685775aafa8",
+      "composition": "first-then-answer",
+      "digest_representation": "digest-raw32",
+      "first_hint": "first-image-decoded-route",
+      "first_hint_sha256": "3a3f0e245360d51ea41f55c7db8a13f270fbf3dcef3b4f94ac1c4b3cee8db2e9",
+      "first_hint_text": "gsmg.io/theseedisplanted"
+    },
+    "score": {
+      "alphabetic_ratio": 0.1875,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 3,
+      "printable_ratio": 0.390625,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "N3YjFMTKUsaV1zjT4IpY/N13Xw3DDSmWqG22hXdar6g6Pw4kU2DVHqQfVcfbihPycPvz3O87T5SsHEs87o2y6Q==",
+    "parameters": {
+      "answer": "source-bifid-suffix563",
+      "answer_sha256": "37762314c4ca52c695d738d3e08a58fcdd775f0dc30d2996a86db685775aafa8",
+      "composition": "answer-then-first",
+      "digest_representation": "digest-raw32",
+      "first_hint": "first-image-decoded-route",
+      "first_hint_sha256": "3a3f0e245360d51ea41f55c7db8a13f270fbf3dcef3b4f94ac1c4b3cee8db2e9",
+      "first_hint_text": "gsmg.io/theseedisplanted"
+    },
+    "score": {
+      "alphabetic_ratio": 0.1875,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 3,
+      "printable_ratio": 0.390625,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "DUktMJeqh9gxyG0UOwBLDq2MrNEsNmYCBHH9uZnXHUE=",
+    "parameters": {
+      "answer": "source-bifid-suffix563",
+      "answer_sha256": "37762314c4ca52c695d738d3e08a58fcdd775f0dc30d2996a86db685775aafa8",
+      "composition": "equal-length-xor",
+      "digest_representation": "digest-raw32",
+      "first_hint": "first-image-decoded-route",
+      "first_hint_sha256": "3a3f0e245360d51ea41f55c7db8a13f270fbf3dcef3b4f94ac1c4b3cee8db2e9",
+      "first_hint_text": "gsmg.io/theseedisplanted"
+    },
+    "score": {
+      "alphabetic_ratio": 0.1875,
+      "bytes": 32,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 3,
+      "printable_ratio": 0.40625,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "M2EzZjBlMjQ1MzYwZDUxZWE0MWY1NWM3ZGI4YTEzZjI3MGZiZjNkY2VmM2I0Zjk0YWMxYzRiM2NlZThkYjJlOTM3NzYyMzE0YzRjYTUyYzY5NWQ3MzhkM2UwOGE1OGZjZGQ3NzVmMGRjMzBkMjk5NmE4NmRiNjg1Nzc1YWFmYTg=",
+    "parameters": {
+      "answer": "source-bifid-suffix563",
+      "answer_sha256": "37762314c4ca52c695d738d3e08a58fcdd775f0dc30d2996a86db685775aafa8",
+      "composition": "first-then-answer",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "first-image-decoded-route",
+      "first_hint_sha256": "3a3f0e245360d51ea41f55c7db8a13f270fbf3dcef3b4f94ac1c4b3cee8db2e9",
+      "first_hint_text": "gsmg.io/theseedisplanted"
+    },
+    "score": {
+      "alphabetic_ratio": 0.421875,
+      "bytes": 128,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 128,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "Mzc3NjIzMTRjNGNhNTJjNjk1ZDczOGQzZTA4YTU4ZmNkZDc3NWYwZGMzMGQyOTk2YTg2ZGI2ODU3NzVhYWZhODNhM2YwZTI0NTM2MGQ1MWVhNDFmNTVjN2RiOGExM2YyNzBmYmYzZGNlZjNiNGY5NGFjMWM0YjNjZWU4ZGIyZTk=",
+    "parameters": {
+      "answer": "source-bifid-suffix563",
+      "answer_sha256": "37762314c4ca52c695d738d3e08a58fcdd775f0dc30d2996a86db685775aafa8",
+      "composition": "answer-then-first",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "first-image-decoded-route",
+      "first_hint_sha256": "3a3f0e245360d51ea41f55c7db8a13f270fbf3dcef3b4f94ac1c4b3cee8db2e9",
+      "first_hint_text": "gsmg.io/theseedisplanted"
+    },
+    "score": {
+      "alphabetic_ratio": 0.421875,
+      "bytes": 128,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 128,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "AFYEUAJWAwBWB1VRUQdSU1gBVVEGDQcEAVIAAAQLAFFTVFFVU1VUBwZVAwYGXwACAFsHB1ZUC1ZSUg0FA1QEAQ==",
+    "parameters": {
+      "answer": "source-bifid-suffix563",
+      "answer_sha256": "37762314c4ca52c695d738d3e08a58fcdd775f0dc30d2996a86db685775aafa8",
+      "composition": "equal-length-xor",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "first-image-decoded-route",
+      "first_hint_sha256": "3a3f0e245360d51ea41f55c7db8a13f270fbf3dcef3b4f94ac1c4b3cee8db2e9",
+      "first_hint_text": "gsmg.io/theseedisplanted"
+    },
+    "score": {
+      "alphabetic_ratio": 0.4375,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 8,
+      "printable_ratio": 0.5,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "Oj8OJFNg1R6kH1XH24oT8nD789zvO0+UrBxLPO6Nsukhy/oYX5JJJlLsXEC6KbLyn2WAT4vShcDedoWiqtUxCQ==",
+    "parameters": {
+      "answer": "frame-selected-residual60",
+      "answer_sha256": "21cbfa185f92492652ec5c40ba29b2f29f65804f8bd285c0de7685a2aad53109",
+      "composition": "first-then-answer",
+      "digest_representation": "digest-raw32",
+      "first_hint": "first-image-decoded-route",
+      "first_hint_sha256": "3a3f0e245360d51ea41f55c7db8a13f270fbf3dcef3b4f94ac1c4b3cee8db2e9",
+      "first_hint_text": "gsmg.io/theseedisplanted"
+    },
+    "score": {
+      "alphabetic_ratio": 0.15625,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 3,
+      "printable_ratio": 0.375,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "Icv6GF+SSSZS7FxAuimy8p9lgE+L0oXA3naFoqrVMQk6Pw4kU2DVHqQfVcfbihPycPvz3O87T5SsHEs87o2y6Q==",
+    "parameters": {
+      "answer": "frame-selected-residual60",
+      "answer_sha256": "21cbfa185f92492652ec5c40ba29b2f29f65804f8bd285c0de7685a2aad53109",
+      "composition": "answer-then-first",
+      "digest_representation": "digest-raw32",
+      "first_hint": "first-image-decoded-route",
+      "first_hint_sha256": "3a3f0e245360d51ea41f55c7db8a13f270fbf3dcef3b4f94ac1c4b3cee8db2e9",
+      "first_hint_text": "gsmg.io/theseedisplanted"
+    },
+    "score": {
+      "alphabetic_ratio": 0.15625,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 3,
+      "printable_ratio": 0.375,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "G/T0PAzynDj28wmHYaOhAO+ec5Nk6cpUcmrOnkRYg+A=",
+    "parameters": {
+      "answer": "frame-selected-residual60",
+      "answer_sha256": "21cbfa185f92492652ec5c40ba29b2f29f65804f8bd285c0de7685a2aad53109",
+      "composition": "equal-length-xor",
+      "digest_representation": "digest-raw32",
+      "first_hint": "first-image-decoded-route",
+      "first_hint_sha256": "3a3f0e245360d51ea41f55c7db8a13f270fbf3dcef3b4f94ac1c4b3cee8db2e9",
+      "first_hint_text": "gsmg.io/theseedisplanted"
+    },
+    "score": {
+      "alphabetic_ratio": 0.25,
+      "bytes": 32,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 3,
+      "printable_ratio": 0.34375,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "M2EzZjBlMjQ1MzYwZDUxZWE0MWY1NWM3ZGI4YTEzZjI3MGZiZjNkY2VmM2I0Zjk0YWMxYzRiM2NlZThkYjJlOTIxY2JmYTE4NWY5MjQ5MjY1MmVjNWM0MGJhMjliMmYyOWY2NTgwNGY4YmQyODVjMGRlNzY4NWEyYWFkNTMxMDk=",
+    "parameters": {
+      "answer": "frame-selected-residual60",
+      "answer_sha256": "21cbfa185f92492652ec5c40ba29b2f29f65804f8bd285c0de7685a2aad53109",
+      "composition": "first-then-answer",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "first-image-decoded-route",
+      "first_hint_sha256": "3a3f0e245360d51ea41f55c7db8a13f270fbf3dcef3b4f94ac1c4b3cee8db2e9",
+      "first_hint_text": "gsmg.io/theseedisplanted"
+    },
+    "score": {
+      "alphabetic_ratio": 0.421875,
+      "bytes": 128,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 128,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "MjFjYmZhMTg1ZjkyNDkyNjUyZWM1YzQwYmEyOWIyZjI5ZjY1ODA0ZjhiZDI4NWMwZGU3Njg1YTJhYWQ1MzEwOTNhM2YwZTI0NTM2MGQ1MWVhNDFmNTVjN2RiOGExM2YyNzBmYmYzZGNlZjNiNGY5NGFjMWM0YjNjZWU4ZGIyZTk=",
+    "parameters": {
+      "answer": "frame-selected-residual60",
+      "answer_sha256": "21cbfa185f92492652ec5c40ba29b2f29f65804f8bd285c0de7685a2aad53109",
+      "composition": "answer-then-first",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "first-image-decoded-route",
+      "first_hint_sha256": "3a3f0e245360d51ea41f55c7db8a13f270fbf3dcef3b4f94ac1c4b3cee8db2e9",
+      "first_hint_text": "gsmg.io/theseedisplanted"
+    },
+    "score": {
+      "alphabetic_ratio": 0.421875,
+      "bytes": 128,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 128,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "AVBQBFYEAwwAVQ8CUAwDU1QGVAUAVlcHBgMKWFMBAAAOVlBXXgNQBV0EV1AMU1oEBQYGVQxXUlEEBFxRUQNVAA==",
+    "parameters": {
+      "answer": "frame-selected-residual60",
+      "answer_sha256": "21cbfa185f92492652ec5c40ba29b2f29f65804f8bd285c0de7685a2aad53109",
+      "composition": "equal-length-xor",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "first-image-decoded-route",
+      "first_hint_sha256": "3a3f0e245360d51ea41f55c7db8a13f270fbf3dcef3b4f94ac1c4b3cee8db2e9",
+      "first_hint_text": "gsmg.io/theseedisplanted"
+    },
+    "score": {
+      "alphabetic_ratio": 0.421875,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 4,
+      "printable_ratio": 0.484375,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "Oj8OJFNg1R6kH1XH24oT8nD789zvO0+UrBxLPO6NsukGYZG0qvwRT7yn8NFoOC9AEpxP8YSQN1tol0EIHV7zwg==",
+    "parameters": {
+      "answer": "unchanged-faed570",
+      "answer_sha256": "066191b4aafc114fbca7f0d168382f40129c4ff18490375b689741081d5ef3c2",
+      "composition": "first-then-answer",
+      "digest_representation": "digest-raw32",
+      "first_hint": "first-image-decoded-route",
+      "first_hint_sha256": "3a3f0e245360d51ea41f55c7db8a13f270fbf3dcef3b4f94ac1c4b3cee8db2e9",
+      "first_hint_text": "gsmg.io/theseedisplanted"
+    },
+    "score": {
+      "alphabetic_ratio": 0.171875,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 4,
+      "printable_ratio": 0.359375,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "BmGRtKr8EU+8p/DRaDgvQBKcT/GEkDdbaJdBCB1e88I6Pw4kU2DVHqQfVcfbihPycPvz3O87T5SsHEs87o2y6Q==",
+    "parameters": {
+      "answer": "unchanged-faed570",
+      "answer_sha256": "066191b4aafc114fbca7f0d168382f40129c4ff18490375b689741081d5ef3c2",
+      "composition": "answer-then-first",
+      "digest_representation": "digest-raw32",
+      "first_hint": "first-image-decoded-route",
+      "first_hint_sha256": "3a3f0e245360d51ea41f55c7db8a13f270fbf3dcef3b4f94ac1c4b3cee8db2e9",
+      "first_hint_text": "gsmg.io/theseedisplanted"
+    },
+    "score": {
+      "alphabetic_ratio": 0.171875,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 4,
+      "printable_ratio": 0.359375,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "PF6fkPmcxFEYuKUWs7I8smJnvC1rq3jPxIsKNPPTQSs=",
+    "parameters": {
+      "answer": "unchanged-faed570",
+      "answer_sha256": "066191b4aafc114fbca7f0d168382f40129c4ff18490375b689741081d5ef3c2",
+      "composition": "equal-length-xor",
+      "digest_representation": "digest-raw32",
+      "first_hint": "first-image-decoded-route",
+      "first_hint_sha256": "3a3f0e245360d51ea41f55c7db8a13f270fbf3dcef3b4f94ac1c4b3cee8db2e9",
+      "first_hint_text": "gsmg.io/theseedisplanted"
+    },
+    "score": {
+      "alphabetic_ratio": 0.1875,
+      "bytes": 32,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 2,
+      "printable_ratio": 0.40625,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "M2EzZjBlMjQ1MzYwZDUxZWE0MWY1NWM3ZGI4YTEzZjI3MGZiZjNkY2VmM2I0Zjk0YWMxYzRiM2NlZThkYjJlOTA2NjE5MWI0YWFmYzExNGZiY2E3ZjBkMTY4MzgyZjQwMTI5YzRmZjE4NDkwMzc1YjY4OTc0MTA4MWQ1ZWYzYzI=",
+    "parameters": {
+      "answer": "unchanged-faed570",
+      "answer_sha256": "066191b4aafc114fbca7f0d168382f40129c4ff18490375b689741081d5ef3c2",
+      "composition": "first-then-answer",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "first-image-decoded-route",
+      "first_hint_sha256": "3a3f0e245360d51ea41f55c7db8a13f270fbf3dcef3b4f94ac1c4b3cee8db2e9",
+      "first_hint_text": "gsmg.io/theseedisplanted"
+    },
+    "score": {
+      "alphabetic_ratio": 0.398438,
+      "bytes": 128,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 128,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "MDY2MTkxYjRhYWZjMTE0ZmJjYTdmMGQxNjgzODJmNDAxMjljNGZmMTg0OTAzNzViNjg5NzQxMDgxZDVlZjNjMjNhM2YwZTI0NTM2MGQ1MWVhNDFmNTVjN2RiOGExM2YyNzBmYmYzZGNlZjNiNGY5NGFjMWM0YjNjZWU4ZGIyZTk=",
+    "parameters": {
+      "answer": "unchanged-faed570",
+      "answer_sha256": "066191b4aafc114fbca7f0d168382f40129c4ff18490375b689741081d5ef3c2",
+      "composition": "answer-then-first",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "first-image-decoded-route",
+      "first_hint_sha256": "3a3f0e245360d51ea41f55c7db8a13f270fbf3dcef3b4f94ac1c4b3cee8db2e9",
+      "first_hint_text": "gsmg.io/theseedisplanted"
+    },
+    "score": {
+      "alphabetic_ratio": 0.398438,
+      "bytes": 128,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 128,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "A1cFVwlUUABUUlBTVQQFAwNXUFFTBQcGUloLWQNVUgIGAl8BUlUCUl1SClIHUQxWV1sIVABTA1tUAQ0BBAEGCw==",
+    "parameters": {
+      "answer": "unchanged-faed570",
+      "answer_sha256": "066191b4aafc114fbca7f0d168382f40129c4ff18490375b689741081d5ef3c2",
+      "composition": "equal-length-xor",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "first-image-decoded-route",
+      "first_hint_sha256": "3a3f0e245360d51ea41f55c7db8a13f270fbf3dcef3b4f94ac1c4b3cee8db2e9",
+      "first_hint_text": "gsmg.io/theseedisplanted"
+    },
+    "score": {
+      "alphabetic_ratio": 0.453125,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 5,
+      "printable_ratio": 0.5625,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "iXJ8WYuc0c+Ic/J8twV/BQZF3banoVehECOawBUvajIV1iyCKMGjDz9igPzc4iUf5hYTXp3ikbDHuKeS3Y0FBw==",
+    "parameters": {
+      "answer": "source-bifid-full570",
+      "answer_sha256": "15d62c8228c1a30f3f6280fcdce2251fe616135e9de291b0c7b8a792dd8d0507",
+      "composition": "first-then-answer",
+      "digest_representation": "digest-raw32",
+      "first_hint": "first-image-printed-text",
+      "first_hint_sha256": "89727c598b9cd1cf8873f27cb7057f050645ddb6a7a157a110239ac0152f6a32",
+      "first_hint_text": "GSMGIO5BTCPUZZLECHALLENGE1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe"
+    },
+    "score": {
+      "alphabetic_ratio": 0.109375,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 3,
+      "printable_ratio": 0.265625,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "FdYsgijBow8/YoD83OIlH+YWE16d4pGwx7inkt2NBQeJcnxZi5zRz4hz8ny3BX8FBkXdtqehV6EQI5rAFS9qMg==",
+    "parameters": {
+      "answer": "source-bifid-full570",
+      "answer_sha256": "15d62c8228c1a30f3f6280fcdce2251fe616135e9de291b0c7b8a792dd8d0507",
+      "composition": "answer-then-first",
+      "digest_representation": "digest-raw32",
+      "first_hint": "first-image-printed-text",
+      "first_hint_sha256": "89727c598b9cd1cf8873f27cb7057f050645ddb6a7a157a110239ac0152f6a32",
+      "first_hint_text": "GSMGIO5BTCPUZZLECHALLENGE1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe"
+    },
+    "score": {
+      "alphabetic_ratio": 0.109375,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 3,
+      "printable_ratio": 0.265625,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "nKRQ26NdcsC3EXKAa+daGuBTzug6Q8YR15s9UsiibzU=",
+    "parameters": {
+      "answer": "source-bifid-full570",
+      "answer_sha256": "15d62c8228c1a30f3f6280fcdce2251fe616135e9de291b0c7b8a792dd8d0507",
+      "composition": "equal-length-xor",
+      "digest_representation": "digest-raw32",
+      "first_hint": "first-image-printed-text",
+      "first_hint_sha256": "89727c598b9cd1cf8873f27cb7057f050645ddb6a7a157a110239ac0152f6a32",
+      "first_hint_text": "GSMGIO5BTCPUZZLECHALLENGE1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe"
+    },
+    "score": {
+      "alphabetic_ratio": 0.28125,
+      "bytes": 32,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 2,
+      "printable_ratio": 0.40625,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "ODk3MjdjNTk4YjljZDFjZjg4NzNmMjdjYjcwNTdmMDUwNjQ1ZGRiNmE3YTE1N2ExMTAyMzlhYzAxNTJmNmEzMjE1ZDYyYzgyMjhjMWEzMGYzZjYyODBmY2RjZTIyNTFmZTYxNjEzNWU5ZGUyOTFiMGM3YjhhNzkyZGQ4ZDA1MDc=",
+    "parameters": {
+      "answer": "source-bifid-full570",
+      "answer_sha256": "15d62c8228c1a30f3f6280fcdce2251fe616135e9de291b0c7b8a792dd8d0507",
+      "composition": "first-then-answer",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "first-image-printed-text",
+      "first_hint_sha256": "89727c598b9cd1cf8873f27cb7057f050645ddb6a7a157a110239ac0152f6a32",
+      "first_hint_text": "GSMGIO5BTCPUZZLECHALLENGE1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe"
+    },
+    "score": {
+      "alphabetic_ratio": 0.335938,
+      "bytes": 128,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 128,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "MTVkNjJjODIyOGMxYTMwZjNmNjI4MGZjZGNlMjI1MWZlNjE2MTM1ZTlkZTI5MWIwYzdiOGE3OTJkZDhkMDUwNzg5NzI3YzU5OGI5Y2QxY2Y4ODczZjI3Y2I3MDU3ZjA1MDY0NWRkYjZhN2ExNTdhMTEwMjM5YWMwMTUyZjZhMzI=",
+    "parameters": {
+      "answer": "source-bifid-full570",
+      "answer_sha256": "15d62c8228c1a30f3f6280fcdce2251fe616135e9de291b0c7b8a792dd8d0507",
+      "composition": "answer-then-first",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "first-image-printed-text",
+      "first_hint_sha256": "89727c598b9cd1cf8873f27cb7057f050645ddb6a7a157a110239ac0152f6a32",
+      "first_hint_text": "GSMGIO5BTCPUZZLECHALLENGE1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe"
+    },
+    "score": {
+      "alphabetic_ratio": 0.335938,
+      "bytes": 128,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 128,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "CQxTBAUADQsKWlpSBQJTAAteAQFeAlEABlRVBwVTAVNVAAUDVVdXU1hTBAMMBgMBUgdQC1hWWgJVUQoCBlQDBQ==",
+    "parameters": {
+      "answer": "source-bifid-full570",
+      "answer_sha256": "15d62c8228c1a30f3f6280fcdce2251fe616135e9de291b0c7b8a792dd8d0507",
+      "composition": "equal-length-xor",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "first-image-printed-text",
+      "first_hint_sha256": "89727c598b9cd1cf8873f27cb7057f050645ddb6a7a157a110239ac0152f6a32",
+      "first_hint_text": "GSMGIO5BTCPUZZLECHALLENGE1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe"
+    },
+    "score": {
+      "alphabetic_ratio": 0.390625,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 6,
+      "printable_ratio": 0.484375,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "iXJ8WYuc0c+Ic/J8twV/BQZF3banoVehECOawBUvajI3diMUxMpSxpXXONPgilj83XdfDcMNKZaobbaFd1qvqA==",
+    "parameters": {
+      "answer": "source-bifid-suffix563",
+      "answer_sha256": "37762314c4ca52c695d738d3e08a58fcdd775f0dc30d2996a86db685775aafa8",
+      "composition": "first-then-answer",
+      "digest_representation": "digest-raw32",
+      "first_hint": "first-image-printed-text",
+      "first_hint_sha256": "89727c598b9cd1cf8873f27cb7057f050645ddb6a7a157a110239ac0152f6a32",
+      "first_hint_text": "GSMGIO5BTCPUZZLECHALLENGE1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe"
+    },
+    "score": {
+      "alphabetic_ratio": 0.203125,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 6,
+      "printable_ratio": 0.390625,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "N3YjFMTKUsaV1zjT4IpY/N13Xw3DDSmWqG22hXdar6iJcnxZi5zRz4hz8ny3BX8FBkXdtqehV6EQI5rAFS9qMg==",
+    "parameters": {
+      "answer": "source-bifid-suffix563",
+      "answer_sha256": "37762314c4ca52c695d738d3e08a58fcdd775f0dc30d2996a86db685775aafa8",
+      "composition": "answer-then-first",
+      "digest_representation": "digest-raw32",
+      "first_hint": "first-image-printed-text",
+      "first_hint_sha256": "89727c598b9cd1cf8873f27cb7057f050645ddb6a7a157a110239ac0152f6a32",
+      "first_hint_text": "GSMGIO5BTCPUZZLECHALLENGE1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe"
+    },
+    "score": {
+      "alphabetic_ratio": 0.203125,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 3,
+      "printable_ratio": 0.390625,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "vgRfTU9WgwkdpMqvV48n+dsygrtkrH43uE4sRWJ1xZo=",
+    "parameters": {
+      "answer": "source-bifid-suffix563",
+      "answer_sha256": "37762314c4ca52c695d738d3e08a58fcdd775f0dc30d2996a86db685775aafa8",
+      "composition": "equal-length-xor",
+      "digest_representation": "digest-raw32",
+      "first_hint": "first-image-printed-text",
+      "first_hint_sha256": "89727c598b9cd1cf8873f27cb7057f050645ddb6a7a157a110239ac0152f6a32",
+      "first_hint_text": "GSMGIO5BTCPUZZLECHALLENGE1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe"
+    },
+    "score": {
+      "alphabetic_ratio": 0.28125,
+      "bytes": 32,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 5,
+      "printable_ratio": 0.5,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "ODk3MjdjNTk4YjljZDFjZjg4NzNmMjdjYjcwNTdmMDUwNjQ1ZGRiNmE3YTE1N2ExMTAyMzlhYzAxNTJmNmEzMjM3NzYyMzE0YzRjYTUyYzY5NWQ3MzhkM2UwOGE1OGZjZGQ3NzVmMGRjMzBkMjk5NmE4NmRiNjg1Nzc1YWFmYTg=",
+    "parameters": {
+      "answer": "source-bifid-suffix563",
+      "answer_sha256": "37762314c4ca52c695d738d3e08a58fcdd775f0dc30d2996a86db685775aafa8",
+      "composition": "first-then-answer",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "first-image-printed-text",
+      "first_hint_sha256": "89727c598b9cd1cf8873f27cb7057f050645ddb6a7a157a110239ac0152f6a32",
+      "first_hint_text": "GSMGIO5BTCPUZZLECHALLENGE1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe"
+    },
+    "score": {
+      "alphabetic_ratio": 0.335938,
+      "bytes": 128,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 128,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "Mzc3NjIzMTRjNGNhNTJjNjk1ZDczOGQzZTA4YTU4ZmNkZDc3NWYwZGMzMGQyOTk2YTg2ZGI2ODU3NzVhYWZhODg5NzI3YzU5OGI5Y2QxY2Y4ODczZjI3Y2I3MDU3ZjA1MDY0NWRkYjZhN2ExNTdhMTEwMjM5YWMwMTUyZjZhMzI=",
+    "parameters": {
+      "answer": "source-bifid-suffix563",
+      "answer_sha256": "37762314c4ca52c695d738d3e08a58fcdd775f0dc30d2996a86db685775aafa8",
+      "composition": "answer-then-first",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "first-image-printed-text",
+      "first_hint_sha256": "89727c598b9cd1cf8873f27cb7057f050645ddb6a7a157a110239ac0152f6a32",
+      "first_hint_text": "GSMGIO5BTCPUZZLECHALLENGE1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe"
+    },
+    "score": {
+      "alphabetic_ratio": 0.335938,
+      "bytes": 128,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 128,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "Cw4ABAVQBA1bVloCUQMAUAENUwRVClNQBwcIVAJeVlZUUgMCUQJSUgIEUVUHDlgHUAgEV1tXWwUGAgcHVwdSCg==",
+    "parameters": {
+      "answer": "source-bifid-suffix563",
+      "answer_sha256": "37762314c4ca52c695d738d3e08a58fcdd775f0dc30d2996a86db685775aafa8",
+      "composition": "equal-length-xor",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "first-image-printed-text",
+      "first_hint_sha256": "89727c598b9cd1cf8873f27cb7057f050645ddb6a7a157a110239ac0152f6a32",
+      "first_hint_text": "GSMGIO5BTCPUZZLECHALLENGE1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe"
+    },
+    "score": {
+      "alphabetic_ratio": 0.390625,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 5,
+      "printable_ratio": 0.515625,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "iXJ8WYuc0c+Ic/J8twV/BQZF3banoVehECOawBUvajIhy/oYX5JJJlLsXEC6KbLyn2WAT4vShcDedoWiqtUxCQ==",
+    "parameters": {
+      "answer": "frame-selected-residual60",
+      "answer_sha256": "21cbfa185f92492652ec5c40ba29b2f29f65804f8bd285c0de7685a2aad53109",
+      "composition": "first-then-answer",
+      "digest_representation": "digest-raw32",
+      "first_hint": "first-image-printed-text",
+      "first_hint_sha256": "89727c598b9cd1cf8873f27cb7057f050645ddb6a7a157a110239ac0152f6a32",
+      "first_hint_text": "GSMGIO5BTCPUZZLECHALLENGE1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe"
+    },
+    "score": {
+      "alphabetic_ratio": 0.171875,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 4,
+      "printable_ratio": 0.375,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "Icv6GF+SSSZS7FxAuimy8p9lgE+L0oXA3naFoqrVMQmJcnxZi5zRz4hz8ny3BX8FBkXdtqehV6EQI5rAFS9qMg==",
+    "parameters": {
+      "answer": "frame-selected-residual60",
+      "answer_sha256": "21cbfa185f92492652ec5c40ba29b2f29f65804f8bd285c0de7685a2aad53109",
+      "composition": "answer-then-first",
+      "digest_representation": "digest-raw32",
+      "first_hint": "first-image-printed-text",
+      "first_hint_sha256": "89727c598b9cd1cf8873f27cb7057f050645ddb6a7a157a110239ac0152f6a32",
+      "first_hint_text": "GSMGIO5BTCPUZZLECHALLENGE1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe"
+    },
+    "score": {
+      "alphabetic_ratio": 0.171875,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 3,
+      "printable_ratio": 0.375,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "qLmGQdQOmOnan648DSzN95kgXfksc9JhzlUfYr/6Wzs=",
+    "parameters": {
+      "answer": "frame-selected-residual60",
+      "answer_sha256": "21cbfa185f92492652ec5c40ba29b2f29f65804f8bd285c0de7685a2aad53109",
+      "composition": "equal-length-xor",
+      "digest_representation": "digest-raw32",
+      "first_hint": "first-image-printed-text",
+      "first_hint_sha256": "89727c598b9cd1cf8873f27cb7057f050645ddb6a7a157a110239ac0152f6a32",
+      "first_hint_text": "GSMGIO5BTCPUZZLECHALLENGE1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe"
+    },
+    "score": {
+      "alphabetic_ratio": 0.15625,
+      "bytes": 32,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 2,
+      "printable_ratio": 0.40625,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "ODk3MjdjNTk4YjljZDFjZjg4NzNmMjdjYjcwNTdmMDUwNjQ1ZGRiNmE3YTE1N2ExMTAyMzlhYzAxNTJmNmEzMjIxY2JmYTE4NWY5MjQ5MjY1MmVjNWM0MGJhMjliMmYyOWY2NTgwNGY4YmQyODVjMGRlNzY4NWEyYWFkNTMxMDk=",
+    "parameters": {
+      "answer": "frame-selected-residual60",
+      "answer_sha256": "21cbfa185f92492652ec5c40ba29b2f29f65804f8bd285c0de7685a2aad53109",
+      "composition": "first-then-answer",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "first-image-printed-text",
+      "first_hint_sha256": "89727c598b9cd1cf8873f27cb7057f050645ddb6a7a157a110239ac0152f6a32",
+      "first_hint_text": "GSMGIO5BTCPUZZLECHALLENGE1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe"
+    },
+    "score": {
+      "alphabetic_ratio": 0.335938,
+      "bytes": 128,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 128,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "MjFjYmZhMTg1ZjkyNDkyNjUyZWM1YzQwYmEyOWIyZjI5ZjY1ODA0ZjhiZDI4NWMwZGU3Njg1YTJhYWQ1MzEwOTg5NzI3YzU5OGI5Y2QxY2Y4ODczZjI3Y2I3MDU3ZjA1MDY0NWRkYjZhN2ExNTdhMTEwMjM5YWMwMTUyZjZhMzI=",
+    "parameters": {
+      "answer": "frame-selected-residual60",
+      "answer_sha256": "21cbfa185f92492652ec5c40ba29b2f29f65804f8bd285c0de7685a2aad53109",
+      "composition": "answer-then-first",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "first-image-printed-text",
+      "first_hint_sha256": "89727c598b9cd1cf8873f27cb7057f050645ddb6a7a157a110239ac0152f6a32",
+      "first_hint_text": "GSMGIO5BTCPUZZLECHALLENGE1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe"
+    },
+    "score": {
+      "alphabetic_ratio": 0.335938,
+      "bytes": 128,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 128,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "CghUUFECBAENBABRUAhRUA0KUlBTUQNTAFYCDFVUVgcJUAIAXFRWUFlVBQMNAgIBVVUFBQFUAgJQVFZTBVADCw==",
+    "parameters": {
+      "answer": "frame-selected-residual60",
+      "answer_sha256": "21cbfa185f92492652ec5c40ba29b2f29f65804f8bd285c0de7685a2aad53109",
+      "composition": "equal-length-xor",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "first-image-printed-text",
+      "first_hint_sha256": "89727c598b9cd1cf8873f27cb7057f050645ddb6a7a157a110239ac0152f6a32",
+      "first_hint_text": "GSMGIO5BTCPUZZLECHALLENGE1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe"
+    },
+    "score": {
+      "alphabetic_ratio": 0.46875,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 6,
+      "printable_ratio": 0.578125,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "iXJ8WYuc0c+Ic/J8twV/BQZF3banoVehECOawBUvajIGYZG0qvwRT7yn8NFoOC9AEpxP8YSQN1tol0EIHV7zwg==",
+    "parameters": {
+      "answer": "unchanged-faed570",
+      "answer_sha256": "066191b4aafc114fbca7f0d168382f40129c4ff18490375b689741081d5ef3c2",
+      "composition": "first-then-answer",
+      "digest_representation": "digest-raw32",
+      "first_hint": "first-image-printed-text",
+      "first_hint_sha256": "89727c598b9cd1cf8873f27cb7057f050645ddb6a7a157a110239ac0152f6a32",
+      "first_hint_text": "GSMGIO5BTCPUZZLECHALLENGE1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe"
+    },
+    "score": {
+      "alphabetic_ratio": 0.1875,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 4,
+      "printable_ratio": 0.359375,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "BmGRtKr8EU+8p/DRaDgvQBKcT/GEkDdbaJdBCB1e88KJcnxZi5zRz4hz8ny3BX8FBkXdtqehV6EQI5rAFS9qMg==",
+    "parameters": {
+      "answer": "unchanged-faed570",
+      "answer_sha256": "066191b4aafc114fbca7f0d168382f40129c4ff18490375b689741081d5ef3c2",
+      "composition": "answer-then-first",
+      "digest_representation": "digest-raw32",
+      "first_hint": "first-image-printed-text",
+      "first_hint_sha256": "89727c598b9cd1cf8873f27cb7057f050645ddb6a7a157a110239ac0152f6a32",
+      "first_hint_text": "GSMGIO5BTCPUZZLECHALLENGE1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe"
+    },
+    "score": {
+      "alphabetic_ratio": 0.1875,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 4,
+      "printable_ratio": 0.359375,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "jxPt7SFgwIA01AKt3z1QRRTZkkcjMWD6eLTbyAhxmfA=",
+    "parameters": {
+      "answer": "unchanged-faed570",
+      "answer_sha256": "066191b4aafc114fbca7f0d168382f40129c4ff18490375b689741081d5ef3c2",
+      "composition": "equal-length-xor",
+      "digest_representation": "digest-raw32",
+      "first_hint": "first-image-printed-text",
+      "first_hint_sha256": "89727c598b9cd1cf8873f27cb7057f050645ddb6a7a157a110239ac0152f6a32",
+      "first_hint_text": "GSMGIO5BTCPUZZLECHALLENGE1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe"
+    },
+    "score": {
+      "alphabetic_ratio": 0.15625,
+      "bytes": 32,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 4,
+      "printable_ratio": 0.375,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "ODk3MjdjNTk4YjljZDFjZjg4NzNmMjdjYjcwNTdmMDUwNjQ1ZGRiNmE3YTE1N2ExMTAyMzlhYzAxNTJmNmEzMjA2NjE5MWI0YWFmYzExNGZiY2E3ZjBkMTY4MzgyZjQwMTI5YzRmZjE4NDkwMzc1YjY4OTc0MTA4MWQ1ZWYzYzI=",
+    "parameters": {
+      "answer": "unchanged-faed570",
+      "answer_sha256": "066191b4aafc114fbca7f0d168382f40129c4ff18490375b689741081d5ef3c2",
+      "composition": "first-then-answer",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "first-image-printed-text",
+      "first_hint_sha256": "89727c598b9cd1cf8873f27cb7057f050645ddb6a7a157a110239ac0152f6a32",
+      "first_hint_text": "GSMGIO5BTCPUZZLECHALLENGE1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe"
+    },
+    "score": {
+      "alphabetic_ratio": 0.3125,
+      "bytes": 128,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 128,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "MDY2MTkxYjRhYWZjMTE0ZmJjYTdmMGQxNjgzODJmNDAxMjljNGZmMTg0OTAzNzViNjg5NzQxMDgxZDVlZjNjMjg5NzI3YzU5OGI5Y2QxY2Y4ODczZjI3Y2I3MDU3ZjA1MDY0NWRkYjZhN2ExNTdhMTEwMjM5YWMwMTUyZjZhMzI=",
+    "parameters": {
+      "answer": "unchanged-faed570",
+      "answer_sha256": "066191b4aafc114fbca7f0d168382f40129c4ff18490375b689741081d5ef3c2",
+      "composition": "answer-then-first",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "first-image-printed-text",
+      "first_hint_sha256": "89727c598b9cd1cf8873f27cb7057f050645ddb6a7a157a110239ac0152f6a32",
+      "first_hint_text": "GSMGIO5BTCPUZZLECHALLENGE1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe"
+    },
+    "score": {
+      "alphabetic_ratio": 0.3125,
+      "bytes": 128,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 128,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "CA8BAw5SVw1ZA18AVQBXAFpbVgQAAlNSVA8DDQUABAUBBA1WUAIEB1kDWAEGAFRTBwgLBA1QUwgAUQcDUFJQAA==",
+    "parameters": {
+      "answer": "unchanged-faed570",
+      "answer_sha256": "066191b4aafc114fbca7f0d168382f40129c4ff18490375b689741081d5ef3c2",
+      "composition": "equal-length-xor",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "first-image-printed-text",
+      "first_hint_sha256": "89727c598b9cd1cf8873f27cb7057f050645ddb6a7a157a110239ac0152f6a32",
+      "first_hint_text": "GSMGIO5BTCPUZZLECHALLENGE1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe"
+    },
+    "score": {
+      "alphabetic_ratio": 0.34375,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 3,
+      "printable_ratio": 0.4375,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "WWjcXgLL34GB0TXxQzcucGJQTMBiaOCUzq4ltWxacq4V1iyCKMGjDz9igPzc4iUf5hYTXp3ikbDHuKeS3Y0FBw==",
+    "parameters": {
+      "answer": "source-bifid-full570",
+      "answer_sha256": "15d62c8228c1a30f3f6280fcdce2251fe616135e9de291b0c7b8a792dd8d0507",
+      "composition": "first-then-answer",
+      "digest_representation": "digest-raw32",
+      "first_hint": "audio-instruction",
+      "first_hint_sha256": "5968dc5e02cbdf8181d135f143372e7062504cc06268e094ceae25b56c5a72ae",
+      "first_hint_text": "HASHTHETEXT"
+    },
+    "score": {
+      "alphabetic_ratio": 0.203125,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 7,
+      "printable_ratio": 0.359375,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "FdYsgijBow8/YoD83OIlH+YWE16d4pGwx7inkt2NBQdZaNxeAsvfgYHRNfFDNy5wYlBMwGJo4JTOriW1bFpyrg==",
+    "parameters": {
+      "answer": "source-bifid-full570",
+      "answer_sha256": "15d62c8228c1a30f3f6280fcdce2251fe616135e9de291b0c7b8a792dd8d0507",
+      "composition": "answer-then-first",
+      "digest_representation": "digest-raw32",
+      "first_hint": "audio-instruction",
+      "first_hint_sha256": "5968dc5e02cbdf8181d135f143372e7062504cc06268e094ceae25b56c5a72ae",
+      "first_hint_text": "HASHTHETEXT"
+    },
+    "score": {
+      "alphabetic_ratio": 0.203125,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 7,
+      "printable_ratio": 0.359375,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "TL7w3CoKfI6+s7UNn9ULb4RGX57/inEkCRaCJ7HXd6k=",
+    "parameters": {
+      "answer": "source-bifid-full570",
+      "answer_sha256": "15d62c8228c1a30f3f6280fcdce2251fe616135e9de291b0c7b8a792dd8d0507",
+      "composition": "equal-length-xor",
+      "digest_representation": "digest-raw32",
+      "first_hint": "audio-instruction",
+      "first_hint_sha256": "5968dc5e02cbdf8181d135f143372e7062504cc06268e094ceae25b56c5a72ae",
+      "first_hint_text": "HASHTHETEXT"
+    },
+    "score": {
+      "alphabetic_ratio": 0.15625,
+      "bytes": 32,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 2,
+      "printable_ratio": 0.40625,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "NTk2OGRjNWUwMmNiZGY4MTgxZDEzNWYxNDMzNzJlNzA2MjUwNGNjMDYyNjhlMDk0Y2VhZTI1YjU2YzVhNzJhZTE1ZDYyYzgyMjhjMWEzMGYzZjYyODBmY2RjZTIyNTFmZTYxNjEzNWU5ZGUyOTFiMGM3YjhhNzkyZGQ4ZDA1MDc=",
+    "parameters": {
+      "answer": "source-bifid-full570",
+      "answer_sha256": "15d62c8228c1a30f3f6280fcdce2251fe616135e9de291b0c7b8a792dd8d0507",
+      "composition": "first-then-answer",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "audio-instruction",
+      "first_hint_sha256": "5968dc5e02cbdf8181d135f143372e7062504cc06268e094ceae25b56c5a72ae",
+      "first_hint_text": "HASHTHETEXT"
+    },
+    "score": {
+      "alphabetic_ratio": 0.351562,
+      "bytes": 128,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 128,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "MTVkNjJjODIyOGMxYTMwZjNmNjI4MGZjZGNlMjI1MWZlNjE2MTM1ZTlkZTI5MWIwYzdiOGE3OTJkZDhkMDUwNzU5NjhkYzVlMDJjYmRmODE4MWQxMzVmMTQzMzcyZTcwNjI1MDRjYzA2MjY4ZTA5NGNlYWUyNWI1NmM1YTcyYWU=",
+    "parameters": {
+      "answer": "source-bifid-full570",
+      "answer_sha256": "15d62c8228c1a30f3f6280fcdce2251fe616135e9de291b0c7b8a792dd8d0507",
+      "composition": "answer-then-first",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "audio-instruction",
+      "first_hint_sha256": "5968dc5e02cbdf8181d135f143372e7062504cc06268e094ceae25b56c5a72ae",
+      "first_hint_text": "HASHTHETEXT"
+    },
+    "score": {
+      "alphabetic_ratio": 0.351562,
+      "bytes": 128,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 128,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "BAxSDlYADVcCCgBTBVUIVwtXUgMLBQBSUFBWBQBQBlZTBAQGBVBWVQ9WUwpcAVsEAFIDXVMCWwdSBw0FBwdRUg==",
+    "parameters": {
+      "answer": "source-bifid-full570",
+      "answer_sha256": "15d62c8228c1a30f3f6280fcdce2251fe616135e9de291b0c7b8a792dd8d0507",
+      "composition": "equal-length-xor",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "audio-instruction",
+      "first_hint_sha256": "5968dc5e02cbdf8181d135f143372e7062504cc06268e094ceae25b56c5a72ae",
+      "first_hint_text": "HASHTHETEXT"
+    },
+    "score": {
+      "alphabetic_ratio": 0.390625,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 4,
+      "printable_ratio": 0.515625,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "WWjcXgLL34GB0TXxQzcucGJQTMBiaOCUzq4ltWxacq43diMUxMpSxpXXONPgilj83XdfDcMNKZaobbaFd1qvqA==",
+    "parameters": {
+      "answer": "source-bifid-suffix563",
+      "answer_sha256": "37762314c4ca52c695d738d3e08a58fcdd775f0dc30d2996a86db685775aafa8",
+      "composition": "first-then-answer",
+      "digest_representation": "digest-raw32",
+      "first_hint": "audio-instruction",
+      "first_hint_sha256": "5968dc5e02cbdf8181d135f143372e7062504cc06268e094ceae25b56c5a72ae",
+      "first_hint_text": "HASHTHETEXT"
+    },
+    "score": {
+      "alphabetic_ratio": 0.296875,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 7,
+      "printable_ratio": 0.484375,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "N3YjFMTKUsaV1zjT4IpY/N13Xw3DDSmWqG22hXdar6hZaNxeAsvfgYHRNfFDNy5wYlBMwGJo4JTOriW1bFpyrg==",
+    "parameters": {
+      "answer": "source-bifid-suffix563",
+      "answer_sha256": "37762314c4ca52c695d738d3e08a58fcdd775f0dc30d2996a86db685775aafa8",
+      "composition": "answer-then-first",
+      "digest_representation": "digest-raw32",
+      "first_hint": "audio-instruction",
+      "first_hint_sha256": "5968dc5e02cbdf8181d135f143372e7062504cc06268e094ceae25b56c5a72ae",
+      "first_hint_text": "HASHTHETEXT"
+    },
+    "score": {
+      "alphabetic_ratio": 0.296875,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 7,
+      "printable_ratio": 0.484375,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "bh7/SsYBjUcUBg0io712jL8nE82hZckCZsOTMBsA3QY=",
+    "parameters": {
+      "answer": "source-bifid-suffix563",
+      "answer_sha256": "37762314c4ca52c695d738d3e08a58fcdd775f0dc30d2996a86db685775aafa8",
+      "composition": "equal-length-xor",
+      "digest_representation": "digest-raw32",
+      "first_hint": "audio-instruction",
+      "first_hint_sha256": "5968dc5e02cbdf8181d135f143372e7062504cc06268e094ceae25b56c5a72ae",
+      "first_hint_text": "HASHTHETEXT"
+    },
+    "score": {
+      "alphabetic_ratio": 0.1875,
+      "bytes": 32,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 1,
+      "printable_ratio": 0.3125,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "NTk2OGRjNWUwMmNiZGY4MTgxZDEzNWYxNDMzNzJlNzA2MjUwNGNjMDYyNjhlMDk0Y2VhZTI1YjU2YzVhNzJhZTM3NzYyMzE0YzRjYTUyYzY5NWQ3MzhkM2UwOGE1OGZjZGQ3NzVmMGRjMzBkMjk5NmE4NmRiNjg1Nzc1YWFmYTg=",
+    "parameters": {
+      "answer": "source-bifid-suffix563",
+      "answer_sha256": "37762314c4ca52c695d738d3e08a58fcdd775f0dc30d2996a86db685775aafa8",
+      "composition": "first-then-answer",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "audio-instruction",
+      "first_hint_sha256": "5968dc5e02cbdf8181d135f143372e7062504cc06268e094ceae25b56c5a72ae",
+      "first_hint_text": "HASHTHETEXT"
+    },
+    "score": {
+      "alphabetic_ratio": 0.351562,
+      "bytes": 128,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 128,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "Mzc3NjIzMTRjNGNhNTJjNjk1ZDczOGQzZTA4YTU4ZmNkZDc3NWYwZGMzMGQyOTk2YTg2ZGI2ODU3NzVhYWZhODU5NjhkYzVlMDJjYmRmODE4MWQxMzVmMTQzMzcyZTcwNjI1MDRjYzA2MjY4ZTA5NGNlYWUyNWI1NmM1YTcyYWU=",
+    "parameters": {
+      "answer": "source-bifid-suffix563",
+      "answer_sha256": "37762314c4ca52c695d738d3e08a58fcdd775f0dc30d2996a86db685775aafa8",
+      "composition": "answer-then-first",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "audio-instruction",
+      "first_hint_sha256": "5968dc5e02cbdf8181d135f143372e7062504cc06268e094ceae25b56c5a72ae",
+      "first_hint_text": "HASHTHETEXT"
+    },
+    "score": {
+      "alphabetic_ratio": 0.351562,
+      "bytes": 128,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 128,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "Bg4BDlZQBFFTBgADUVRbBwEEAAYADQICUQMLVgddUVNSVgIHAQVTVFUBBlxXCQACAl1XAVADWgABVAAAVlQAXQ==",
+    "parameters": {
+      "answer": "source-bifid-suffix563",
+      "answer_sha256": "37762314c4ca52c695d738d3e08a58fcdd775f0dc30d2996a86db685775aafa8",
+      "composition": "equal-length-xor",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "audio-instruction",
+      "first_hint_sha256": "5968dc5e02cbdf8181d135f143372e7062504cc06268e094ceae25b56c5a72ae",
+      "first_hint_text": "HASHTHETEXT"
+    },
+    "score": {
+      "alphabetic_ratio": 0.34375,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 5,
+      "printable_ratio": 0.453125,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "WWjcXgLL34GB0TXxQzcucGJQTMBiaOCUzq4ltWxacq4hy/oYX5JJJlLsXEC6KbLyn2WAT4vShcDedoWiqtUxCQ==",
+    "parameters": {
+      "answer": "frame-selected-residual60",
+      "answer_sha256": "21cbfa185f92492652ec5c40ba29b2f29f65804f8bd285c0de7685a2aad53109",
+      "composition": "first-then-answer",
+      "digest_representation": "digest-raw32",
+      "first_hint": "audio-instruction",
+      "first_hint_sha256": "5968dc5e02cbdf8181d135f143372e7062504cc06268e094ceae25b56c5a72ae",
+      "first_hint_text": "HASHTHETEXT"
+    },
+    "score": {
+      "alphabetic_ratio": 0.265625,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 7,
+      "printable_ratio": 0.46875,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "Icv6GF+SSSZS7FxAuimy8p9lgE+L0oXA3naFoqrVMQlZaNxeAsvfgYHRNfFDNy5wYlBMwGJo4JTOriW1bFpyrg==",
+    "parameters": {
+      "answer": "frame-selected-residual60",
+      "answer_sha256": "21cbfa185f92492652ec5c40ba29b2f29f65804f8bd285c0de7685a2aad53109",
+      "composition": "answer-then-first",
+      "digest_representation": "digest-raw32",
+      "first_hint": "audio-instruction",
+      "first_hint_sha256": "5968dc5e02cbdf8181d135f143372e7062504cc06268e094ceae25b56c5a72ae",
+      "first_hint_text": "HASHTHETEXT"
+    },
+    "score": {
+      "alphabetic_ratio": 0.265625,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 7,
+      "printable_ratio": 0.46875,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "eKMmRl1ZlqfTPWmx+R6cgv01zI/pumVUENigF8aPQ6c=",
+    "parameters": {
+      "answer": "frame-selected-residual60",
+      "answer_sha256": "21cbfa185f92492652ec5c40ba29b2f29f65804f8bd285c0de7685a2aad53109",
+      "composition": "equal-length-xor",
+      "digest_representation": "digest-raw32",
+      "first_hint": "audio-instruction",
+      "first_hint_sha256": "5968dc5e02cbdf8181d135f143372e7062504cc06268e094ceae25b56c5a72ae",
+      "first_hint_text": "HASHTHETEXT"
+    },
+    "score": {
+      "alphabetic_ratio": 0.21875,
+      "bytes": 32,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 4,
+      "printable_ratio": 0.34375,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "NTk2OGRjNWUwMmNiZGY4MTgxZDEzNWYxNDMzNzJlNzA2MjUwNGNjMDYyNjhlMDk0Y2VhZTI1YjU2YzVhNzJhZTIxY2JmYTE4NWY5MjQ5MjY1MmVjNWM0MGJhMjliMmYyOWY2NTgwNGY4YmQyODVjMGRlNzY4NWEyYWFkNTMxMDk=",
+    "parameters": {
+      "answer": "frame-selected-residual60",
+      "answer_sha256": "21cbfa185f92492652ec5c40ba29b2f29f65804f8bd285c0de7685a2aad53109",
+      "composition": "first-then-answer",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "audio-instruction",
+      "first_hint_sha256": "5968dc5e02cbdf8181d135f143372e7062504cc06268e094ceae25b56c5a72ae",
+      "first_hint_text": "HASHTHETEXT"
+    },
+    "score": {
+      "alphabetic_ratio": 0.351562,
+      "bytes": 128,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 128,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "MjFjYmZhMTg1ZjkyNDkyNjUyZWM1YzQwYmEyOWIyZjI5ZjY1ODA0ZjhiZDI4NWMwZGU3Njg1YTJhYWQ1MzEwOTU5NjhkYzVlMDJjYmRmODE4MWQxMzVmMTQzMzcyZTcwNjI1MDRjYzA2MjY4ZTA5NGNlYWUyNWI1NmM1YTcyYWU=",
+    "parameters": {
+      "answer": "frame-selected-residual60",
+      "answer_sha256": "21cbfa185f92492652ec5c40ba29b2f29f65804f8bd285c0de7685a2aad53109",
+      "composition": "answer-then-first",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "audio-instruction",
+      "first_hint_sha256": "5968dc5e02cbdf8181d135f143372e7062504cc06268e094ceae25b56c5a72ae",
+      "first_hint_text": "HASHTHETEXT"
+    },
+    "score": {
+      "alphabetic_ratio": 0.351562,
+      "bytes": 128,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 128,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "BwhVWgICBF0FVFpQUF8KBw0DAVIGVlIBVlIBDlBXUQIPVAMFDFNXVg5QUgpdBVoEBwBWUwoAAwdXAlFUBANRXA==",
+    "parameters": {
+      "answer": "frame-selected-residual60",
+      "answer_sha256": "21cbfa185f92492652ec5c40ba29b2f29f65804f8bd285c0de7685a2aad53109",
+      "composition": "equal-length-xor",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "audio-instruction",
+      "first_hint_sha256": "5968dc5e02cbdf8181d135f143372e7062504cc06268e094ceae25b56c5a72ae",
+      "first_hint_text": "HASHTHETEXT"
+    },
+    "score": {
+      "alphabetic_ratio": 0.421875,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 5,
+      "printable_ratio": 0.546875,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "WWjcXgLL34GB0TXxQzcucGJQTMBiaOCUzq4ltWxacq4GYZG0qvwRT7yn8NFoOC9AEpxP8YSQN1tol0EIHV7zwg==",
+    "parameters": {
+      "answer": "unchanged-faed570",
+      "answer_sha256": "066191b4aafc114fbca7f0d168382f40129c4ff18490375b689741081d5ef3c2",
+      "composition": "first-then-answer",
+      "digest_representation": "digest-raw32",
+      "first_hint": "audio-instruction",
+      "first_hint_sha256": "5968dc5e02cbdf8181d135f143372e7062504cc06268e094ceae25b56c5a72ae",
+      "first_hint_text": "HASHTHETEXT"
+    },
+    "score": {
+      "alphabetic_ratio": 0.28125,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 7,
+      "printable_ratio": 0.453125,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "BmGRtKr8EU+8p/DRaDgvQBKcT/GEkDdbaJdBCB1e88JZaNxeAsvfgYHRNfFDNy5wYlBMwGJo4JTOriW1bFpyrg==",
+    "parameters": {
+      "answer": "unchanged-faed570",
+      "answer_sha256": "066191b4aafc114fbca7f0d168382f40129c4ff18490375b689741081d5ef3c2",
+      "composition": "answer-then-first",
+      "digest_representation": "digest-raw32",
+      "first_hint": "audio-instruction",
+      "first_hint_sha256": "5968dc5e02cbdf8181d135f143372e7062504cc06268e094ceae25b56c5a72ae",
+      "first_hint_text": "HASHTHETEXT"
+    },
+    "score": {
+      "alphabetic_ratio": 0.28125,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 7,
+      "printable_ratio": 0.453125,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "XwlN6qg3zs49dsUgKw8BMHDMAzHm+NfPpjlkvXEEgWw=",
+    "parameters": {
+      "answer": "unchanged-faed570",
+      "answer_sha256": "066191b4aafc114fbca7f0d168382f40129c4ff18490375b689741081d5ef3c2",
+      "composition": "equal-length-xor",
+      "digest_representation": "digest-raw32",
+      "first_hint": "audio-instruction",
+      "first_hint_sha256": "5968dc5e02cbdf8181d135f143372e7062504cc06268e094ceae25b56c5a72ae",
+      "first_hint_text": "HASHTHETEXT"
+    },
+    "score": {
+      "alphabetic_ratio": 0.1875,
+      "bytes": 32,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 2,
+      "printable_ratio": 0.46875,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "NTk2OGRjNWUwMmNiZGY4MTgxZDEzNWYxNDMzNzJlNzA2MjUwNGNjMDYyNjhlMDk0Y2VhZTI1YjU2YzVhNzJhZTA2NjE5MWI0YWFmYzExNGZiY2E3ZjBkMTY4MzgyZjQwMTI5YzRmZjE4NDkwMzc1YjY4OTc0MTA4MWQ1ZWYzYzI=",
+    "parameters": {
+      "answer": "unchanged-faed570",
+      "answer_sha256": "066191b4aafc114fbca7f0d168382f40129c4ff18490375b689741081d5ef3c2",
+      "composition": "first-then-answer",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "audio-instruction",
+      "first_hint_sha256": "5968dc5e02cbdf8181d135f143372e7062504cc06268e094ceae25b56c5a72ae",
+      "first_hint_text": "HASHTHETEXT"
+    },
+    "score": {
+      "alphabetic_ratio": 0.328125,
+      "bytes": 128,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 128,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "MDY2MTkxYjRhYWZjMTE0ZmJjYTdmMGQxNjgzODJmNDAxMjljNGZmMTg0OTAzNzViNjg5NzQxMDgxZDVlZjNjMjU5NjhkYzVlMDJjYmRmODE4MWQxMzVmMTQzMzcyZTcwNjI1MDRjYzA2MjY4ZTA5NGNlYWUyNWI1NmM1YTcyYWU=",
+    "parameters": {
+      "answer": "unchanged-faed570",
+      "answer_sha256": "066191b4aafc114fbca7f0d168382f40129c4ff18490375b689741081d5ef3c2",
+      "composition": "answer-then-first",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "audio-instruction",
+      "first_hint_sha256": "5968dc5e02cbdf8181d135f143372e7062504cc06268e094ceae25b56c5a72ae",
+      "first_hint_text": "HASHTHETEXT"
+    },
+    "score": {
+      "alphabetic_ratio": 0.328125,
+      "bytes": 128,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 128,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "BQ8ACV1SV1FRUwUBVVcMV1pSBQZVBQIAAgsADwADAwAHAAxTAAUFAQ4GDwhWBwxWVV1YUgYEUg0HBwAEUQECVw==",
+    "parameters": {
+      "answer": "unchanged-faed570",
+      "answer_sha256": "066191b4aafc114fbca7f0d168382f40129c4ff18490375b689741081d5ef3c2",
+      "composition": "equal-length-xor",
+      "digest_representation": "digest-lowerhex64",
+      "first_hint": "audio-instruction",
+      "first_hint_sha256": "5968dc5e02cbdf8181d135f143372e7062504cc06268e094ceae25b56c5a72ae",
+      "first_hint_text": "HASHTHETEXT"
+    },
+    "score": {
+      "alphabetic_ratio": 0.3125,
+      "bytes": 64,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 6,
+      "printable_ratio": 0.375,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  }
+]

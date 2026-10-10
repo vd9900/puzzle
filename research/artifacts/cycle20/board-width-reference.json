@@ -1,0 +1,341 @@
+{
+  "assumptions": [
+    "Only four already documented object types are compared",
+    "Component counts, occupied symbols, pixels and column domains are not interchangeable",
+    "No FEN move, grid traversal, codec or alphabet is reconstructed"
+  ],
+  "codebook_domains": {
+    "column_count": 10,
+    "eight_filled_symbols_is_not_eight_column_domain": true,
+    "filled_first_row_symbols": 8,
+    "function_line_one_based": 272,
+    "prefixed_row_domains": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    ],
+    "single_digit_column_domain": [
+      0,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "source": {
+      "path": "tools/gsmg.py",
+      "sha256": "618a8107528df2e467ace83b737f5c8439c0927c6da801ad6718bb8542915fce"
+    },
+    "static_AST_inspection_only_no_codebook_or_decoder_execution": true
+  },
+  "confidence": "HIGH byte/width/type properties; UNKNOWN authored first-one antecedent",
+  "contradictions": [
+    "No primary antecedent assignment names an earlier board",
+    "Equal component counts do not establish equal width metrics",
+    "The known decoded codebook is secondary implementation evidence, not independent author intent"
+  ],
+  "date": "2026-10-01",
+  "fen_anchor": {
+    "character_span_zero_based_half_open": [
+      3241,
+      3300
+    ],
+    "column_one_based": 4,
+    "line_one_based": 39,
+    "literal": "B5KR/1r5B/6R1/2b1p1p1/2P1k1P1/1p2P2p/1P2P2P/3N1N2 w - - 0 1",
+    "role": "EARLIER_FEN_BOARD_WIDTH_NOT_A_RECOMPUTED_MOVE",
+    "source": {
+      "path": "research/sources/phase2.html",
+      "sha256": "06fbd4461ab20d45c54a7053c7c0cfa256ba82a5ad4c73a47fac67f3f1cdf7d9"
+    },
+    "utf8_byte_span_zero_based_half_open": [
+      3243,
+      3302
+    ]
+  },
+  "hypotheses": [
+    {
+      "assumptions": [
+        "Wide means column-domain size",
+        "First one names one of those two earlier boards",
+        "The existing decoded codebook is the intended current object"
+      ],
+      "confidence": "HIGH observed10-versus14/8 difference; LOW literal equality reading",
+      "contradictions": [
+        "Known widths are14,8 and10, not equal",
+        "Original phrase names no board or metric",
+        "A decoded-output implementation cannot silently replace source-authored geometry"
+      ],
+      "hypothesis": "As wide as first one seen requires the current codebook to have exactly the same column-domain width as the original grid or earlier chess board",
+      "id": "C20-WIDTH-EQUAL-DOMAIN",
+      "input": "Frozen original grid/page, primary FEN and static existing codebook domains",
+      "next_test": "Inspect one fixed original creator-attributed March14 2021 statement about breaking SalPhaseIon giving the feeling of the phase's name, cross-check its original transcript body and compare only exact authored SalPhaseIon/Cosmic Duality headings and frozen checkpoint wording. Determine whether phase-name semantics provides an object-role constraint rather than a new algorithm or literal-output gate. Do not generate name permutations, decode new text or repeat checkpoint/cover experiments.",
+      "operation_order": [
+        "reuse exact width-clue span",
+        "type four fixed source objects",
+        "compare only known widths without reconstructing anything"
+      ],
+      "output": "One typed width-reference interpretation with antecedent/metric unresolved",
+      "source_evidence": [
+        {
+          "path": "research/artifacts/cycle20/carry-forward-ownership.json",
+          "sha256": "ea99ae43bea59c22cefc159894b3e7a2f4166cf6ec47ff21c1946f726ba556a8"
+        },
+        {
+          "path": "research/artifacts/cycle19/first-piece-domain-v2.json",
+          "sha256": "f7b3720a38ac034acfda362bf2a060a0d25829ab10fc6d810f5df7ad86af1154"
+        },
+        {
+          "path": "research/artifacts/cycle15/frame-object-audit.json",
+          "sha256": "56897976b72da60096261c7b1b5ea76ce1e5497dc0f04996bf75c8770e298d2e"
+        },
+        {
+          "path": "research/artifacts/cycle12/source-join-preflight-v2.json",
+          "sha256": "231b9748acccd054d0a43f7af2420faca8cade6523aace16e0803f370a3f3660"
+        },
+        {
+          "path": "research/artifacts/phase32.txt",
+          "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+        },
+        {
+          "path": "research/sources/phase2.html",
+          "sha256": "06fbd4461ab20d45c54a7053c7c0cfa256ba82a5ad4c73a47fac67f3f1cdf7d9"
+        },
+        {
+          "path": "tools/gsmg.py",
+          "sha256": "618a8107528df2e467ace83b737f5c8439c0927c6da801ad6718bb8542915fce"
+        }
+      ],
+      "source_locations": [
+        "research/artifacts/phase32.txt:9",
+        "research/sources/phase2.html:39",
+        "tools/gsmg.py:272",
+        "research/artifacts/cycle19/first-piece-domain-v2.json",
+        "research/artifacts/cycle15/frame-object-audit.json",
+        "research/artifacts/cycle12/source-join-preflight-v2.json"
+      ],
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "assumptions": [
+        "As wide may refer to a different object/representation",
+        "A source-authored antecedent remains to be identified"
+      ],
+      "confidence": "MEDIUM type distinction; UNKNOWN intended source or metric",
+      "contradictions": [
+        "The comparative wording may be operative",
+        "No alternative metric is directly specified",
+        "Asset-count or populated-symbol equality is not a column-width equality"
+      ],
+      "hypothesis": "The width clause is a board/source analogy or a different width metric rather than literal equality of column domains",
+      "id": "C20-WIDTH-REFERENCE-TYPE",
+      "input": "Frozen original grid/page, primary FEN and static existing codebook domains",
+      "next_test": "Inspect one fixed original creator-attributed March14 2021 statement about breaking SalPhaseIon giving the feeling of the phase's name, cross-check its original transcript body and compare only exact authored SalPhaseIon/Cosmic Duality headings and frozen checkpoint wording. Determine whether phase-name semantics provides an object-role constraint rather than a new algorithm or literal-output gate. Do not generate name permutations, decode new text or repeat checkpoint/cover experiments.",
+      "operation_order": [
+        "reuse exact width-clue span",
+        "type four fixed source objects",
+        "compare only known widths without reconstructing anything"
+      ],
+      "output": "One typed width-reference interpretation with antecedent/metric unresolved",
+      "source_evidence": [
+        {
+          "path": "research/artifacts/cycle20/carry-forward-ownership.json",
+          "sha256": "ea99ae43bea59c22cefc159894b3e7a2f4166cf6ec47ff21c1946f726ba556a8"
+        },
+        {
+          "path": "research/artifacts/cycle19/first-piece-domain-v2.json",
+          "sha256": "f7b3720a38ac034acfda362bf2a060a0d25829ab10fc6d810f5df7ad86af1154"
+        },
+        {
+          "path": "research/artifacts/cycle15/frame-object-audit.json",
+          "sha256": "56897976b72da60096261c7b1b5ea76ce1e5497dc0f04996bf75c8770e298d2e"
+        },
+        {
+          "path": "research/artifacts/cycle12/source-join-preflight-v2.json",
+          "sha256": "231b9748acccd054d0a43f7af2420faca8cade6523aace16e0803f370a3f3660"
+        },
+        {
+          "path": "research/artifacts/phase32.txt",
+          "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+        },
+        {
+          "path": "research/sources/phase2.html",
+          "sha256": "06fbd4461ab20d45c54a7053c7c0cfa256ba82a5ad4c73a47fac67f3f1cdf7d9"
+        },
+        {
+          "path": "tools/gsmg.py",
+          "sha256": "618a8107528df2e467ace83b737f5c8439c0927c6da801ad6718bb8542915fce"
+        }
+      ],
+      "source_locations": [
+        "research/artifacts/phase32.txt:9",
+        "research/sources/phase2.html:39",
+        "tools/gsmg.py:272",
+        "research/artifacts/cycle19/first-piece-domain-v2.json",
+        "research/artifacts/cycle15/frame-object-audit.json",
+        "research/artifacts/cycle12/source-join-preflight-v2.json"
+      ],
+      "status": "INCONCLUSIVE"
+    }
+  ],
+  "hypothesis": "The explicit first-one-seen width reference supplies an authored earlier-board binding for the current construction",
+  "id": "C20-BOARD-WIDTH-REFERENCE",
+  "input": "One exact primary phrase, fixed earlier source objects and preserved codebook implementation",
+  "new_cryptographic_trials": 0,
+  "new_trial_inputs": 0,
+  "next_test": "Inspect one fixed original creator-attributed March14 2021 statement about breaking SalPhaseIon giving the feeling of the phase's name, cross-check its original transcript body and compare only exact authored SalPhaseIon/Cosmic Duality headings and frozen checkpoint wording. Determine whether phase-name semantics provides an object-role constraint rather than a new algorithm or literal-output gate. Do not generate name permutations, decode new text or repeat checkpoint/cover experiments.",
+  "no_fixed_object_has_all_of_earlier_status_type_width_and_authored_antecedent": true,
+  "operation_order": [
+    "validate frozen width task",
+    "verify exact original width-clue bytes",
+    "reuse existing image/page/frame ownership",
+    "validate original FEN rank widths without a move",
+    "inspect existing codebook AST domains without executing it",
+    "compare four typed objects and two readings"
+  ],
+  "output": "Typed width compatibility table, original source spans and two unresolved referent hypotheses",
+  "result": "Original width clause belongs to alphabet-clue paragraph4. Four fixed objects separate14 grid columns, eight later-page assets without board width, eight chess files and current10-column decimal codebook. Its first row has eight filled symbols but ten possible columns; these are not the same type. Literal same-column-domain equality with grid/chess fails narrowly; no antecedent, alternate metric or new construction is assigned. Existing codebook/decode remains untouched.",
+  "search_space": {
+    "FEN_ranks_validated": 8,
+    "declared_width_readings": 2,
+    "existing_codebook_functions_statically_inspected": 1,
+    "fixed_typed_objects": 4,
+    "new_board_variants": 0,
+    "original_width_clauses": 1
+  },
+  "source_evidence": [
+    {
+      "path": "research/artifacts/cycle20/carry-forward-ownership.json",
+      "sha256": "ea99ae43bea59c22cefc159894b3e7a2f4166cf6ec47ff21c1946f726ba556a8"
+    },
+    {
+      "path": "research/artifacts/cycle19/first-piece-domain-v2.json",
+      "sha256": "f7b3720a38ac034acfda362bf2a060a0d25829ab10fc6d810f5df7ad86af1154"
+    },
+    {
+      "path": "research/artifacts/cycle15/frame-object-audit.json",
+      "sha256": "56897976b72da60096261c7b1b5ea76ce1e5497dc0f04996bf75c8770e298d2e"
+    },
+    {
+      "path": "research/artifacts/cycle12/source-join-preflight-v2.json",
+      "sha256": "231b9748acccd054d0a43f7af2420faca8cade6523aace16e0803f370a3f3660"
+    },
+    {
+      "path": "research/artifacts/phase32.txt",
+      "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+    },
+    {
+      "path": "research/sources/phase2.html",
+      "sha256": "06fbd4461ab20d45c54a7053c7c0cfa256ba82a5ad4c73a47fac67f3f1cdf7d9"
+    },
+    {
+      "path": "tools/gsmg.py",
+      "sha256": "618a8107528df2e467ace83b737f5c8439c0927c6da801ad6718bb8542915fce"
+    }
+  ],
+  "source_frame_reused": {
+    "existing_report_id": "C15-FRAME-OBJECT-AUDIT",
+    "no_new_grid_or_frame_extraction": true,
+    "source": {
+      "path": "research/artifacts/cycle15/frame-object-audit.json",
+      "sha256": "56897976b72da60096261c7b1b5ea76ce1e5497dc0f04996bf75c8770e298d2e"
+    }
+  },
+  "source_locations": [
+    "research/artifacts/phase32.txt:9",
+    "research/sources/phase2.html:39",
+    "tools/gsmg.py:272",
+    "research/artifacts/cycle19/first-piece-domain-v2.json",
+    "research/artifacts/cycle15/frame-object-audit.json",
+    "research/artifacts/cycle12/source-join-preflight-v2.json"
+  ],
+  "status": "INCONCLUSIVE",
+  "typed_objects": [
+    {
+      "authored_first_one_antecedent_assignment": false,
+      "codebook_width_equal": false,
+      "earlier_than_current_clue_in_known_pipeline": true,
+      "known_width": 14,
+      "limitation": "Grid width14 is known; width type and shared operand are not assigned",
+      "object": "original14x14 grid",
+      "width_kind": "grid_cell_columns"
+    },
+    {
+      "asset_count": 8,
+      "authored_first_one_antecedent_assignment": false,
+      "codebook_width_equal": null,
+      "earlier_than_current_clue_in_known_pipeline": true,
+      "known_width": null,
+      "limitation": "Eight references do not define one authored board or column domain",
+      "object": "earlier eight-image page",
+      "width_kind": "asset_count_not_authored_spatial_width"
+    },
+    {
+      "authored_first_one_antecedent_assignment": false,
+      "codebook_width_equal": false,
+      "earlier_than_current_clue_in_known_pipeline": true,
+      "known_width": 8,
+      "limitation": "Eight files differ from current10-column codebook; first row's eight filled symbols is another type",
+      "object": "earlier FEN chess board",
+      "rank_widths": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "width_kind": "chess_files_per_rank"
+    },
+    {
+      "authored_first_one_antecedent_assignment": false,
+      "codebook_width_equal": true,
+      "earlier_than_current_clue_in_known_pipeline": false,
+      "known_width": 10,
+      "limitation": "Self-width equality is tautological; current implementation is not an earlier primary antecedent",
+      "object": "current decimal checkerboard",
+      "width_kind": "codebook_digit_column_domain"
+    }
+  ],
+  "width_clue_reused": {
+    "belongs_to_paragraph_index_zero_based": 4,
+    "byte_span_zero_based_half_open": [
+      2258,
+      2287
+    ],
+    "literal": "as wide as the first one seen",
+    "original_source": {
+      "path": "research/artifacts/phase32.txt",
+      "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+    },
+    "source": {
+      "path": "research/artifacts/cycle12/source-join-preflight-v2.json",
+      "sha256": "231b9748acccd054d0a43f7af2420faca8cade6523aace16e0803f370a3f3660"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "audited_ledgers": [
+    {
+      "ledger": "research/artifacts/cycle03/zeroed-residual-aes.jsonl",
+      "ledger_sha256": "1359e709178bc21255ffd5654841bf4c1f49243086db90bef28e596e51f3cd54",
+      "padding_hits": 3,
+      "recomputed": "Every password, KEY/IV/salt, padding status, hit plaintext, score and structural/target gate",
+      "records": 180,
+      "targets": {
+        "cosmic-duality": 360,
+        "phase32-inner": 360,
+        "salphaseion-small": 360
+      },
+      "trials": 1080
+    },
+    {
+      "ledger": "research/artifacts/cycle03/image-sum-aes.jsonl",
+      "ledger_sha256": "1f6065c49c5a49e9c0ee1905b54e9d9bb3dd2ce15934a0505a6c44957a8fe49b",
+      "padding_hits": 137,
+      "recomputed": "Every password, KEY/IV/salt, padding status, hit plaintext, score and structural/target gate",
+      "records": 6030,
+      "targets": {
+        "cosmic-duality": 12060,
+        "phase32-inner": 12060,
+        "salphaseion-small": 12060
+      },
+      "trials": 36180
+    },
+    {
+      "ledger": "research/artifacts/cycle03/decimal-residual-aes.jsonl",
+      "ledger_sha256": "3d6b0da9281159040a703e8fcc8a4ab74f40b9385992e8687f3392ae8e3a6ebe",
+      "padding_hits": 26,
+      "recomputed": "Every password, KEY/IV/salt, padding status, hit plaintext, score and structural/target gate",
+      "records": 1368,
+      "targets": {
+        "cosmic-duality": 2736,
+        "phase32-inner": 2736,
+        "salphaseion-small": 2736
+      },
+      "trials": 8208
+    }
+  ],
+  "id": "C02-LEDGER-AUDIT",
+  "meaning": "Confirms reproducibility and ledger accounting, not a solution or exhaustive rejection of other hypotheses",
+  "padding_hits": 166,
+  "status": "CONFIRMED",
+  "total_trials": 45468,
+  "unique_passwords": 7578
+}

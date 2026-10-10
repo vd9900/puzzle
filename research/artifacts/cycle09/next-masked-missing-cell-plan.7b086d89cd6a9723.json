@@ -1,0 +1,2318 @@
+{
+  "candidate_fingerprints": [
+    "01c4142ee6b4cf784f6d20764733a3d4fd11080c07fa0243df22368c55812e0f",
+    "0503126b5c15c8bc1fd8cabcb7bc10210ed91f7520d43431bea2561106f87c45",
+    "08bc55216b172f2c6738b65ae55cefbe8e1f4ebb0b3460761de5cf40c7012f0c",
+    "0e43b25b2363586c5fcf8b5df9550d7165fcd97d94a4ff55217224277e7b3130",
+    "0e8e6a7ead0445b598b2438ec6738f1cd52555da88736323ee26cbfa247b58e7",
+    "105ef71673bcceb282e130e7c599deaa96a8e2f41f4999b9915e328390a97665",
+    "11ef477006ed9acb8fb17170e0ada2d1044bd4104224eaef1cfeca9ede6c094a",
+    "1288f5dd6e1a68d139cf3d534fd4fa9918135a53e2b3ca755962198fca783385",
+    "12d94054480033dc7254bb1241a92e93f4c285786789e1a44a1d2cf4ad964035",
+    "133587f4c16055d2e16395cb2f48c32a966641f9a70fbd285a3e5577ebf95122",
+    "13aac87d917eb5da30a2cf21d5cf4c6c11a37d26c5c5a58bfbbd5f2bd379fbfd",
+    "13aaf6048edb5d1de117c0fad2aef61ba6a3b2ee31daa1980174419a29e6f56f",
+    "1417c9e4245f36ea1df75432105897c329b2b17ab4fa27afc64e1ada9a67b6dc",
+    "1449fd567276c8bd8538d538da10f42dbc2dd8394d819c88fbe89d2322418d55",
+    "14df93d8a8f23b9bced9084e57c8803eb2ae2fe1c8b4a87f75ef4288e51b3489",
+    "14f52008b842dc1aa82ea1b6e306e74cda066a57119f05ad6322852f5805dad7",
+    "15f274b5f71ce0421737b5710032af3fa85ff1e7c1a20b099382c499559725f5",
+    "16a497f39acf7adf5dec2986fff0f2f71e9d494a8b83d8cf3f403b6f7844f139",
+    "16aea43a0c3584973ca5b6237397da5e78bfd8f04416b7864869786aa495033c",
+    "171ecfcef671a2baa09c65340e8da3ceb4ce683b76e6023ec4bc82bd17b8acdf",
+    "17cce0be4de9bdadbd7826df44e6a4ee73929bb19ed95ab4157be31c54f1a88c",
+    "18baa0312a8078ff62b9fede6187bf01951b69259c53ec3b15f843510a6e8306",
+    "18dace8f432f027e002c62796d9fa7ec293b213db66ee2d55546105244bbe403",
+    "1d184b40249f89a1e5d4cb4053e26e1310e680eaf4689e09ccd46253467f197c",
+    "1ded78b9f0db3949615e2bda784bc4dfe1cfd05249beba2ebcf06e7202e34525",
+    "1e5db245cdebe6ad5d169fedd1e3c35849d01e984bca4359a61ed57714d0922d",
+    "201a663213af244e03773dca680f3046f86730d1a7c28d3c3de9fbb2b1b8931e",
+    "202b214f0db979caf4da375b75f5a09acf1bb86810e4354efc5c18646730e0a4",
+    "243d00c8c5cfeca896a8341c2f482d1120ba98665c8786f90a7d993a63412628",
+    "2637d57c4ed79fd568d6d17e764d08401cc8d49cc92032f5cd6b0e5b61329db1",
+    "265cb8963232a70ba77c1d79b8af3e56c9b4223606e71c67b20bdd81be4a641c",
+    "26fc2b8961e58d9003dfaf63c9a82b3c644b60c3e48c3cedac3928aee5b2b63b",
+    "2a4006f817ba2e09e80eb299a79599d413af9b72cf340bc324fa10c8fdb360be",
+    "2a4e04bbcf1773537f226c408b49c38da5b867a11c9317c7b708c68009900566",
+    "2a5626ffa4b5e5e17b20d3beceef3d1d97a3a6f92f7715e3069909d034be4a65",
+    "2b59641a4a90c782c19a85006c5af1fab9b6ad902aaa7163043563696e8e46ee",
+    "2c63005f07608bf21789f1497b85db87e0010fc061369520f6fee70834cfbeba",
+    "2d19668e4fe5717c8a21b3a2aa4f8b78cec12e65c8bf97e1c1979d14906fb0fd",
+    "2d61bcaf2edc9b0d8fd58f56345e26ea924db97ef0bc4b92aa7026b6bcd78fb0",
+    "31349fa10e6b59fa5227956d1077b8c3a69e29bab2049672d503eba636a74852",
+    "33a3549a65714dfeb8536095b26cf525a84b2515b7fcbdc95ed7845e8ad76e22",
+    "33c9f5e592f561e9a20a2187db72701a567763dc4c98764a68dcd0fb50d2ffdd",
+    "340bc08b0b0d6d1e028e51d4daeea7b7d16ebefaae6176cb641a0f57f336891c",
+    "3522d7d7ec47f7c72fa48e030a02f327f6855da5c42f1bb14507e8a97840c237",
+    "361b2234e6931c9929b5a8efb80b9a0511bc3f09a49d9c084a68ae174322daff",
+    "373aef7010dd1384976f41e45498ce39e5cafe5f3c3b47a9fb76c35cc3317b72",
+    "37aa87c5341f2aa07d3e25e705fcad59b57ee22e6b364a2a1cc092d557b25770",
+    "3977fedd44ceab7db3aef8c235da55c9c044e159b2c58a6c604a65a1feb7208b",
+    "39d3afb1ce08c79b6b6d63ef6933c543916e5640abee1f7e39e96bf888bc3d10",
+    "3bedc9717ebbc6d5cbd70f2f3db86a629d2635d34f5558a29b8e869891d4b536",
+    "3bf245911478088f3b79f10b6206b4a54794f3b0643c2b4676a1f5af7244578d",
+    "3ded8b89d7135bbcf3cf2064f8502b5e2b971a4abdb738595b0da831235b663e",
+    "3e09690174fd9eeefbd220653deb82c39f369a552d240146ace31bd342c33652",
+    "3fb43bf27380963e92a2446efd2dee347c5a7ed64d4de257df919d01c59ab3b8",
+    "3fd1c84424fbf1a38643f4f1b43445c16d6f44f0758c2dfacc6d3b691b2c4ebb",
+    "40dc79ec5ce1909e9004add2334049a5f39661af9babb6cf3024fb356ad93b56",
+    "41a7f28a1a31d38cf1f08bc9ebb830c9ba54034181d568551107d11d7c223b2d",
+    "41e3264b9b3fc1b32f7b7a177dcada329c4e6d43ec980ab77e1633d004cf5f36",
+    "42343f6a5e411b340c228645ed5b628c1c333f1ec34d0fee8b4f9fd260518cad",
+    "42d2b8e757b70a0e8da34981cba5c0372e820876b852d5a2270f26e224ae26f7",
+    "4599306fadf00887682d38166de5e9e3470e430f39008a8b5b86f5363b74a822",
+    "45eb119534dac117d1e0e743aae429b5b242e28e285852766ddaad93f1b146d2",
+    "47aa9c4a919b4f809383081fc700af3eaea6cc2d7bb6923bf9d2f233816b5ac8",
+    "4ab89913361bbb85d2896750c8ae2b11b79ee7a0e5066b91006456d79222c0c4",
+    "4d1cd98651b354973c208536313a6f59aafcccdd3bb5b7ebe72350a1d934d2ea",
+    "4fc20f97378df4d5a0723914fdc7aa1443d9680472b18d2ebc1d7e46128e6154",
+    "546b3ee84d96ad3955d030c767c589aaa0f614a8045acbe5ade90a925273bc51",
+    "558c1bcd2a8b0e30c2b035b36eebe37f6f3b9514830e2e6b1c25d54cafae5ff5",
+    "55f4789d593ab71b9b0d1236c6dae0dc3c56e83d27938a39bf04289313fde182",
+    "560f1eccc62b023a27ea0d3917d602d3b6c1c0494ed7c6700740cde476724a4e",
+    "56fe497c0840d4b83a9725beccb3a677248cb1a0bedd916127af565efa8ef688",
+    "5b0b2fecb5cb14678359ad26bc2169cd587727c1612ed9238e04a1f39909ad03",
+    "5ebcdc0c6948711b3422fe233bdba820df26a977a9aed43e650019237f6091bc",
+    "608314f6f0deaaae6e6af18780eac6c586e4aaa7ca492c0554a78c0970e57371",
+    "611501ab07e986bc155c09565d6736ee805214588261c1283c4a2143c6a4d8dd",
+    "629f384e361d2fcd15063643257ca885d738693fbb8cf361499619a7195c2750",
+    "62f4bd27dfafe2c6808dffa3616e318efb80ea652a0e02fac5d99a86c7128232",
+    "6522309da20964fe00ae3469452aa93a02f4031577e6679510a0e761e9e04f40",
+    "67d7402d4cdebe8e46e7b3f16cb1eea9d63cc3a1cdfc5479f296cca9d82e3807",
+    "6856bf349362d76f69d09c81fb02afd4b4f770d5adc1e72d4eca84d0755283fb",
+    "68fcca708fd3b80775f988dd11874ca59848cc240d9b3248799376d70b27073c",
+    "6a136c17ad257224991911b83ebf5fa33686f1135e6089512869521c5f7dd32f",
+    "6a2337a4ffd88d86ef47804bcdfc0eb87b9a9f0a4b737b7002d6d99b3a2fa800",
+    "6d73dc7ff82ae9f7e0ed4357ceb9f6dd536e27e5212a2e32011aea4e22550293",
+    "6e3964bdbffb05f9fea196ebb1e4b867327cc707ad16c22f571e948c9e17b5c8",
+    "7028249b692836514c8c035b0db16054e609d141cc9a085bdc38ac32cf1bd0a4",
+    "705c73acccf26ab8df375b751aded796c85b333cc9ec0127974058f3679616f0",
+    "71d74b9b5fdd8056f92835f9a4434a659441b17c8ecd39df871202dee320dcf5",
+    "7456ed1943d7614751a02074718ba7e379a7815420fbcf033ee19277b1352b96",
+    "74e365bbb1c0259f3dbf81863d346e1cfd3376760b6d309f3a427ca286010d8b",
+    "77ca5a168126340f3c5c1936700b854755566d8e1d9959130b865c72beddc33c",
+    "7c5b932efcce5d72fe73d683bdd41eeab200b1b7f55f9363bb7a826ae7842d68",
+    "7df4c6d9c032287adcb7d7e36fe625c4b64a64772bd6d34e7f25c96897f586d6",
+    "7f5d3fcff08dc829d3f4d7aeb6e0994b00f16d5f908647af694646dd178c1c05",
+    "801361bea31bf8353aa27be15680383c24cef8af0d8ba6b291218611db5d7826",
+    "8028b4edbe6b70f56ba72aa6ce9d05f07493c98648847cb937eeb3cf31c4d8cf",
+    "8053756100f4eccbd633cf00832d0e23234f078dbc9d44740208c63f01d0bbad",
+    "80db83ebab4c317b9d1306cbccc938099a0faaf666af9415246f3f018eda8f6c",
+    "86ebddfe464573cc5828112b2797c75ef489a04aacd6ca3ed83e46d025e9cfc1",
+    "872e3b619100ca9c449289c4f2de467eb56feb5a222a16cb617dc7c6fa5f1bd2",
+    "8b87e59a9bb5cb802f815022edcf5f29cc58eea5a42ffc984259678cfb402a9a",
+    "8d6927cfd84e8af9013cd33f067d158911d9ab56ac2a11b8a27b8e15fbbd9976",
+    "8d6e59a6b8d6c9cb73c54ae7b368ca814a9e3c9e69f6b6979c8cbaa303961a1f",
+    "8edde24c67ac8d088094244d28b2b4a81e5cc9576c3e4a4e855949f3c0075aa6",
+    "8f30f18bae8dfaca2663495d5a2c4870e951df4b4e39a3982549f4db88daaf76",
+    "8f3932190f7b981fb57cd2bc6e161328f4434ebdc59813ed91413484dcf930e7",
+    "9143ae68917c4364cbe969bc7f41e883d97654c9196204f3d28733111be937be",
+    "92e22f04b832df2dcc0d7f6326aae4cf9cd0fd42272f7d09b55603f8d9e4270e",
+    "9459a3f4f842062c11610aaca75c59c75e36795585ac2eb0393b8c74bc39912a",
+    "950cb57ffd92667e6e2b4434223b765816021cfe94fa1bd7fec878264a499b7c",
+    "96ee80859e143b9cd65d8d0e38f4b751d7a1498a0cd909f96ade05e282170b47",
+    "96fdafedbca2409425caa2a0c93ecf5c87d30a74a5992c475e47f3fd46eb8038",
+    "9760c2ea292074325a295b1319ef198b2b0bafa35359f1e9486ca9411d8dd68b",
+    "97a42f776a477648374d1b4998c7a2198405d88d9cdbb1aff2d8a3fbd26340de",
+    "97bbcb29a1219f9c1797505bf2fea5e86b8c908424d77df0a20f519cead3ad46",
+    "97cb60b984dd2bc623b873a411315f739b7294d7d8d0d676d192bf340cb72db9",
+    "984513d10fb4b654c25e3a3b0a441d89d34ba7e64dd38223cfc472c4a9ea4e36",
+    "994c2f65befc486c523e440b5c41d7893ad40ed5b3f210b643f69c4b3e506e73",
+    "9b50288d1ba52f6ac071b7038b2b61bc631eda81e0bb08550c971745a66d34c5",
+    "9bfe45d5d878866b96c6c21e9089bbbf22fc4c84460e9aacd2d6ca0bfb7e0307",
+    "9c288a9249e5c7b3c4a29597a86a6c8e6af800665f08a292cb8bca556ae3a7a3",
+    "9c7b57bdc1a53c05ffa2218efcba2f49bbe8fed9f0e1465cfb1cb77e7b34fc65",
+    "9cd0a046ff8bb59a1a55bcaf5d0e0ef73eeb18d247292bcd5b2e633bfd0b2833",
+    "9daaae38390eeb1f7a8e81a38d921e53c589fb0ba18a88e2876047a4db0b7115",
+    "9e9506e0869bf34f153d8865e99f7a21d1b7beaf01a34f4226d5c053fb3b88e0",
+    "9f0bb3158638d6c27d16b66ddfcadcc632998bf42e3b7e54d4d74dad4a705aef",
+    "a055fdbaa590895f6f7d8ac35d8a7b721e46a1ee4f19d51be45c1923c829bf1a",
+    "a38ae99e64de8caebe84da8726a303a5bdc2f0a80c8f7f337780cc47d52a3852",
+    "a421b6c47e6a59391a58f70704e8d28bb3218e8f96754bf71ad892770b30fab8",
+    "a7258cc27b2a94ab555949a05b29ea1fd0607697f80f6341a2548f578296e0f8",
+    "a97bfcf21343ae4c753115952222606a1590daca428d5bdca876c00fa49d4328",
+    "aa8bcc9d82f40fa4a44108b7ceb5a253b39acd3aa8b7e30345037ef41d9823ed",
+    "aab4c67fe563ea0a05d1f2791df0ab8bebcf6bfca879a2f58bb58d35d8249535",
+    "ab23f2caf596c252acc3db7042ba5ead116d1ea7d3546b6b620dc9ece5e0ec1d",
+    "ab525d6858a257c2faeb1c51d8b02f56cbc3b94ecf996b5fdb41006be56c464f",
+    "acb5f15b49bebfdc386821b3e869f0ba4807567cc85eef8fd15d8117d4c197b9",
+    "accd002ebbff1d6364e3ae883e35af2766bdf9faca83b3515c0a315b0080263b",
+    "ad1142a5e195591c511c70e893a3ce28257f5a42f304d1cc07af18b86fcefb64",
+    "ad9c99c6f5ea0be8c4309cfbef0453ed22e2b507338556bb3ecde7436c8bbcbd",
+    "af3a068ee6add20e2ea89aba3ba6689adf09005dc4ec51bb11c653f244b56d16",
+    "b1c037bae8ce8045f7378b6058e5519430aacaefe26327299387d14878ed3ede",
+    "b441777ce715a9cf8389c431e879fef054ff29d3796b1b48a636aaa47d9a3bd5",
+    "b4b913cba8ce218eda0bc62fefe9ff532c824e529905dcebdb3cb8f1fcd2026e",
+    "b4f8e5a319d0cda04a6af4f71f0f38ad1a12eb31198554ce4c343984d5977954",
+    "b58913688a46f6493f5a36a52b8679132832f59c9f1d87b4502d21d946dc08cb",
+    "b59ef29eff685cb936fb730d1e1b1c6d88f2f4d5cf7efc9b2afa114e499b6fe8",
+    "b8c316c219fedce85d0797cdd8c7e992e2771f92058d5ae32116d6a6777dec13",
+    "ba21695b2e5a0c2a30c5608c9d57b9c14d50af8775768b8edf28bca38cca8126",
+    "bbc9555f8a6925200163297337950c9af18597a90d1e63b62ab2d2f82bf37662",
+    "bcb421be254a06786b94db6f71db883a2884f95e5b5a01207995b2bdbcd10e03",
+    "bf4245a73c2a3719f926785c2d917d23e3f9f067da8b079e67a593eaf58c5c56",
+    "c0ac62f124e631db0b41987365a9f90295169851db4287e2962e6c0759d1cefa",
+    "c179d8b02d08ac6dd4cfde67a68f312987449bda6882167a9337678569a89202",
+    "c1b4d03226c343d3cecf0cacc8714efe068ad810324f7a4bc44afff5209dc32a",
+    "c22676b4f16323ce053aff8d9aa3e353a3bef7e377c1912425538351c2041077",
+    "c31734cb7a172c76728637d1384d4e66c1dca0313453022ffce73dc8314ae56e",
+    "c4f05d222aee5d294fd43b60738dde62140f5c7cd17848fd4923c91a5c96b5ca",
+    "c8f39dcdba0e19f1f2d73e98e37d07f3c961a5434b218d6c93adfc5bc85da2c8",
+    "cbecbaafe1c67f7aa70435a5834ee50971ce46b6dae0dae85fd0bd38d106c54b",
+    "cda76faba642e11c4421bbb9cb82972ecb0beeef366705ce1544385312fb34a8",
+    "ce42a44deba7908b64b03449d89766813bd079a6a132d1f8cc3b1de5507afeeb",
+    "cfb228edad027e0931ac461f597f21ee21c7a52cbbc352941c938ec55d8fc070",
+    "d15a51abc382a10233cf4fa71f1ff209eefe9afea59cf035e3418b7e486cb1eb",
+    "d1ad23dcc4b8cfe4d733b8cd14fd100196b0dbf2ae81c4e7d8e0c8ed48ad10f6",
+    "d8fcf89faf4952f8a9a45b4c81f93b24014573e6a4d6be0a6d5966542dd7250e",
+    "d98c8ae1b83c110e9b76526737c040f643b2905cf60d9328eb7b7f4feedb1e2b",
+    "da8507e6719fb117b9c6a48916817958c00bda73fc630de4c1ec364428e6130e",
+    "db094326aec2cf92daf537208be97147a2e4ab197c69deef0a5c4f9a583ce636",
+    "dc5e7aaadc2c054ef45e973b09eecc555fb108195ff89e7903a5f5a672003475",
+    "dee983665d4a1689909d7a3df8341cd71796c2d0fe269d266c567e4eaf7d52cb",
+    "dfbef64bcf81446f2b231a4bbc9b19ff833808226fe91e3b09a0e48d99aee40e",
+    "e1fa08cd13d1b0ceb24d864985ddbd924861df09a5dd1b31e3ecb45d613357bd",
+    "e242d88e4b88904674fa97ccd18b29b84f69e97b87512b7bfb6a855f588dd806",
+    "e3142edc5c5f011dd624df86616878edac0f2480d0810d7ed338f64d0880714d",
+    "e4bb10d1ed8a81d2cb49afd46d4fa594c588714cb3402643975d2e2a374b7a22",
+    "e75dc08e93321f0fee752c7f6aa62674a19e9729e6d87ff06fcfcd7cfd61da32",
+    "eb4faf04c2bd3854b9f12595be61778229d8322d083cefc92f075e2b04998bb8",
+    "ec2d1b048d686929d19173ae2ffc72b1373926b9db4b6cf6db4b5e2befbeb811",
+    "ed4f0e7a545a5e15250e9c5fe69e4244c37ba06d976639f82049fd5c14aeeec7",
+    "edb386748380c532577566ad8b62390b4f922930cb0519aab71866f2b2b6396b",
+    "ef97c102ca23e5ef7f4d885e951e8a4c37bca2467223f0afef7a42f80f9337ce",
+    "efffeba6af972a56bab5fb042ce2ea57958904af8308f24d91873fa3afb5a325",
+    "f16bb67ac17ed99db09d7fdb66f422ac498422322f83c73018723fe3cbf4e33e",
+    "f37b732edc441dd19242baaac246988391649903dc7e2ed62253fbe0051f6552",
+    "f517b29c1e12b13097a9fa93a6e13f0840fef0421b1514c18cce74dbb3db414f",
+    "f5e4d59f881279cc6b576ed2c36a902636d9974f806b09cf5d739255e5372f57",
+    "f6193581b81dda5b7225194bac947ea9aa7dc53be752641e699ca66082d8e94b",
+    "f66ceeb02405d2fa74295013578d6646eaeab0ccbd5d370eaa7800c9601db7ce",
+    "f66f98b557f24c51533ed7643ad8ec0d9e806e650392f20f3100965ec79708de",
+    "f68413986a289a6574eff5ee92fd0a92bac11b245bb121bc589a703e1d278845",
+    "f7ffa3781f68b795d522c3687dc8c94e2cb0e6ad5d576318d84402c348940c48",
+    "fdc15172ea87a201e91247f0cb237da8836a8a9a6a1e7bec6beef6f4bc920f61"
+  ],
+  "candidate_set_sha256": "d4422822b64a9660cd871b7145786e8f9c1d881d50f7ec8f4d285e2ee0e5a981",
+  "forms": [
+    {
+      "material_fingerprint": "56a94ec78249d8a4ae14b37b7a2b634b411d4502a56802c2b80ee75e21346ca9",
+      "material_length": 14,
+      "parameters": {
+        "representation": "one-byte-totals",
+        "source_provenance": [
+          {
+            "axis_order": "rows",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 0,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "210fcfad2ec0adb0416c93d88525cac5093f30ffaee540a2e4609c3bc1b000b7",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": false,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 14,
+        "totals_fingerprint": "86842dbf7913027e3f30af4e17220a8057755127bcca63c12e99affd4ff4064e"
+      }
+    },
+    {
+      "material_fingerprint": "f870f3ac58a5a0301c674edb4214e3774086748a37da3e4801de7b1e02e44813",
+      "material_length": 22,
+      "parameters": {
+        "representation": "decimal-concatenation",
+        "source_provenance": [
+          {
+            "axis_order": "rows",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 0,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "210fcfad2ec0adb0416c93d88525cac5093f30ffaee540a2e4609c3bc1b000b7",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": false,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 14,
+        "totals_fingerprint": "86842dbf7913027e3f30af4e17220a8057755127bcca63c12e99affd4ff4064e"
+      }
+    },
+    {
+      "material_fingerprint": "dc133dfe763d753670673f1e3ef33c27975550250f527d2c808b5e59541d3a0c",
+      "material_length": 35,
+      "parameters": {
+        "representation": "decimal-comma-list",
+        "source_provenance": [
+          {
+            "axis_order": "rows",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 0,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "210fcfad2ec0adb0416c93d88525cac5093f30ffaee540a2e4609c3bc1b000b7",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": false,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 14,
+        "totals_fingerprint": "86842dbf7913027e3f30af4e17220a8057755127bcca63c12e99affd4ff4064e"
+      }
+    },
+    {
+      "material_fingerprint": "08154574ddbe30d7bcfeb846c72e21972ebb3963f71582428bf95ad9d8fb9732",
+      "material_length": 9,
+      "parameters": {
+        "representation": "decimal-minimal-integer-big-endian",
+        "source_provenance": [
+          {
+            "axis_order": "rows",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 0,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "210fcfad2ec0adb0416c93d88525cac5093f30ffaee540a2e4609c3bc1b000b7",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": false,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 14,
+        "totals_fingerprint": "86842dbf7913027e3f30af4e17220a8057755127bcca63c12e99affd4ff4064e"
+      }
+    },
+    {
+      "material_fingerprint": "a44181270f28f4ffeedb664377f2a4292cf62ea0337ef53baf84de05623fb907",
+      "material_length": 14,
+      "parameters": {
+        "representation": "one-byte-totals",
+        "source_provenance": [
+          {
+            "axis_order": "rows",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 0,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "210fcfad2ec0adb0416c93d88525cac5093f30ffaee540a2e4609c3bc1b000b7",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": true,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 14,
+        "totals_fingerprint": "80c94973bdf11c31aad8c845081cfd51d1e56fe873d1337973ccc0f66a31059d"
+      }
+    },
+    {
+      "material_fingerprint": "659d083e8298b3e646244d875046f561d178cd8545f7f95e731b4765855a4833",
+      "material_length": 22,
+      "parameters": {
+        "representation": "decimal-concatenation",
+        "source_provenance": [
+          {
+            "axis_order": "rows",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 0,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "210fcfad2ec0adb0416c93d88525cac5093f30ffaee540a2e4609c3bc1b000b7",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": true,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 14,
+        "totals_fingerprint": "80c94973bdf11c31aad8c845081cfd51d1e56fe873d1337973ccc0f66a31059d"
+      }
+    },
+    {
+      "material_fingerprint": "58f353c7a6859c07ff69dd8ba0c3246ebeaf2be1e00d99b46cb2c0072a23b6ba",
+      "material_length": 35,
+      "parameters": {
+        "representation": "decimal-comma-list",
+        "source_provenance": [
+          {
+            "axis_order": "rows",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 0,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "210fcfad2ec0adb0416c93d88525cac5093f30ffaee540a2e4609c3bc1b000b7",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": true,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 14,
+        "totals_fingerprint": "80c94973bdf11c31aad8c845081cfd51d1e56fe873d1337973ccc0f66a31059d"
+      }
+    },
+    {
+      "material_fingerprint": "2a9a5c19ba71c85db6a3228ddb5865c26d88630210a3584daf274e5d0d6bd0af",
+      "material_length": 9,
+      "parameters": {
+        "representation": "decimal-minimal-integer-big-endian",
+        "source_provenance": [
+          {
+            "axis_order": "rows",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 0,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "210fcfad2ec0adb0416c93d88525cac5093f30ffaee540a2e4609c3bc1b000b7",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": true,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 14,
+        "totals_fingerprint": "80c94973bdf11c31aad8c845081cfd51d1e56fe873d1337973ccc0f66a31059d"
+      }
+    },
+    {
+      "material_fingerprint": "a1d3f0edf067e172efc3e2f233eb63cdfeb37cfb8a23887459265046ce6e23a4",
+      "material_length": 14,
+      "parameters": {
+        "representation": "one-byte-totals",
+        "source_provenance": [
+          {
+            "axis_order": "columns",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 0,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "210fcfad2ec0adb0416c93d88525cac5093f30ffaee540a2e4609c3bc1b000b7",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": false,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 14,
+        "totals_fingerprint": "306bf97ba18a36af84603d4d136b59cbd05bbe19f6d3eccc495c45aca8e66919"
+      }
+    },
+    {
+      "material_fingerprint": "297ac839ce5cb1b34b30bef5baa2d414f1f31a07fb2e0bc3f951ff5debd4ef35",
+      "material_length": 22,
+      "parameters": {
+        "representation": "decimal-concatenation",
+        "source_provenance": [
+          {
+            "axis_order": "columns",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 0,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "210fcfad2ec0adb0416c93d88525cac5093f30ffaee540a2e4609c3bc1b000b7",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": false,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 14,
+        "totals_fingerprint": "306bf97ba18a36af84603d4d136b59cbd05bbe19f6d3eccc495c45aca8e66919"
+      }
+    },
+    {
+      "material_fingerprint": "4118421dc3ea96d4bb1c5fd9df8053b5457a95dbc75434a5be0e5f51fab4aecb",
+      "material_length": 35,
+      "parameters": {
+        "representation": "decimal-comma-list",
+        "source_provenance": [
+          {
+            "axis_order": "columns",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 0,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "210fcfad2ec0adb0416c93d88525cac5093f30ffaee540a2e4609c3bc1b000b7",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": false,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 14,
+        "totals_fingerprint": "306bf97ba18a36af84603d4d136b59cbd05bbe19f6d3eccc495c45aca8e66919"
+      }
+    },
+    {
+      "material_fingerprint": "15608a107ae9d983b8eba997e856f1dbc91d3ce60c7e3bb782678b5994d609da",
+      "material_length": 9,
+      "parameters": {
+        "representation": "decimal-minimal-integer-big-endian",
+        "source_provenance": [
+          {
+            "axis_order": "columns",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 0,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "210fcfad2ec0adb0416c93d88525cac5093f30ffaee540a2e4609c3bc1b000b7",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": false,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 14,
+        "totals_fingerprint": "306bf97ba18a36af84603d4d136b59cbd05bbe19f6d3eccc495c45aca8e66919"
+      }
+    },
+    {
+      "material_fingerprint": "777642ea4b227f8b9b99c318f5050182f5eca0d16f4f119dbfddfc01ad38d358",
+      "material_length": 14,
+      "parameters": {
+        "representation": "one-byte-totals",
+        "source_provenance": [
+          {
+            "axis_order": "columns",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 0,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "210fcfad2ec0adb0416c93d88525cac5093f30ffaee540a2e4609c3bc1b000b7",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": true,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 14,
+        "totals_fingerprint": "ccf2056cc492522a85e92afc68c6c58d95a3e669980ab26d521e15a4e5383162"
+      }
+    },
+    {
+      "material_fingerprint": "65f3f851884ccf4a67055487b27a1e8792077e54db85e606bd42c0d3789e0202",
+      "material_length": 22,
+      "parameters": {
+        "representation": "decimal-concatenation",
+        "source_provenance": [
+          {
+            "axis_order": "columns",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 0,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "210fcfad2ec0adb0416c93d88525cac5093f30ffaee540a2e4609c3bc1b000b7",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": true,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 14,
+        "totals_fingerprint": "ccf2056cc492522a85e92afc68c6c58d95a3e669980ab26d521e15a4e5383162"
+      }
+    },
+    {
+      "material_fingerprint": "94a2a2c8d8426a75dae9700b45c6f7b4c2df7fce08ccaa180ae80a6f50d1548f",
+      "material_length": 35,
+      "parameters": {
+        "representation": "decimal-comma-list",
+        "source_provenance": [
+          {
+            "axis_order": "columns",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 0,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "210fcfad2ec0adb0416c93d88525cac5093f30ffaee540a2e4609c3bc1b000b7",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": true,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 14,
+        "totals_fingerprint": "ccf2056cc492522a85e92afc68c6c58d95a3e669980ab26d521e15a4e5383162"
+      }
+    },
+    {
+      "material_fingerprint": "ab84f2f60e957bbcaea748aed84c4739e885315de3b2d4acaec395d3618b9fcd",
+      "material_length": 9,
+      "parameters": {
+        "representation": "decimal-minimal-integer-big-endian",
+        "source_provenance": [
+          {
+            "axis_order": "columns",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 0,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "210fcfad2ec0adb0416c93d88525cac5093f30ffaee540a2e4609c3bc1b000b7",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": true,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 14,
+        "totals_fingerprint": "ccf2056cc492522a85e92afc68c6c58d95a3e669980ab26d521e15a4e5383162"
+      }
+    },
+    {
+      "material_fingerprint": "816f4ca55272005f302bb0c6e31b65520826276428f23a5f61e4dba86bb27b01",
+      "material_length": 28,
+      "parameters": {
+        "representation": "one-byte-totals",
+        "source_provenance": [
+          {
+            "axis_order": "rows-then-columns",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 0,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "210fcfad2ec0adb0416c93d88525cac5093f30ffaee540a2e4609c3bc1b000b7",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": false,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 28,
+        "totals_fingerprint": "57ff6897f2ffc91a1830986ba812c6e79a2ff6d269bbce02e01c26e241e82308"
+      }
+    },
+    {
+      "material_fingerprint": "22f2922720390b75f67e46263c0d5c0ee074d8bdf34ed94f6f7f451fdddd9a7a",
+      "material_length": 44,
+      "parameters": {
+        "representation": "decimal-concatenation",
+        "source_provenance": [
+          {
+            "axis_order": "rows-then-columns",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 0,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "210fcfad2ec0adb0416c93d88525cac5093f30ffaee540a2e4609c3bc1b000b7",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": false,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 28,
+        "totals_fingerprint": "57ff6897f2ffc91a1830986ba812c6e79a2ff6d269bbce02e01c26e241e82308"
+      }
+    },
+    {
+      "material_fingerprint": "6fd6b725e5709617c1696e644525186041480bc72b722afab2cb5d5a9cf1bf24",
+      "material_length": 71,
+      "parameters": {
+        "representation": "decimal-comma-list",
+        "source_provenance": [
+          {
+            "axis_order": "rows-then-columns",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 0,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "210fcfad2ec0adb0416c93d88525cac5093f30ffaee540a2e4609c3bc1b000b7",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": false,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 28,
+        "totals_fingerprint": "57ff6897f2ffc91a1830986ba812c6e79a2ff6d269bbce02e01c26e241e82308"
+      }
+    },
+    {
+      "material_fingerprint": "be169f31563e47c383d5139faf173b2fd09825449664bb41e083a402068170fc",
+      "material_length": 19,
+      "parameters": {
+        "representation": "decimal-minimal-integer-big-endian",
+        "source_provenance": [
+          {
+            "axis_order": "rows-then-columns",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 0,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "210fcfad2ec0adb0416c93d88525cac5093f30ffaee540a2e4609c3bc1b000b7",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": false,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 28,
+        "totals_fingerprint": "57ff6897f2ffc91a1830986ba812c6e79a2ff6d269bbce02e01c26e241e82308"
+      }
+    },
+    {
+      "material_fingerprint": "fd2f3f6ac856bbec47c3330be1146ba83d4f1f32afd07765d25b6cefd1458670",
+      "material_length": 28,
+      "parameters": {
+        "representation": "one-byte-totals",
+        "source_provenance": [
+          {
+            "axis_order": "rows-then-columns",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 0,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "210fcfad2ec0adb0416c93d88525cac5093f30ffaee540a2e4609c3bc1b000b7",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": true,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 28,
+        "totals_fingerprint": "2a32891ee91d286d03e672832bbc5d0971d632c0082ac6957b01482d3ca2ca78"
+      }
+    },
+    {
+      "material_fingerprint": "6237ec83a7be2619a15a4387ae1589bee339d517cb729d16126d6caf57ad0de8",
+      "material_length": 44,
+      "parameters": {
+        "representation": "decimal-concatenation",
+        "source_provenance": [
+          {
+            "axis_order": "rows-then-columns",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 0,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "210fcfad2ec0adb0416c93d88525cac5093f30ffaee540a2e4609c3bc1b000b7",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": true,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 28,
+        "totals_fingerprint": "2a32891ee91d286d03e672832bbc5d0971d632c0082ac6957b01482d3ca2ca78"
+      }
+    },
+    {
+      "material_fingerprint": "eb3d399e7b0f95d0a9b87a261f31af2e71325d37eec4bb0a2b56934ab925cabc",
+      "material_length": 71,
+      "parameters": {
+        "representation": "decimal-comma-list",
+        "source_provenance": [
+          {
+            "axis_order": "rows-then-columns",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 0,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "210fcfad2ec0adb0416c93d88525cac5093f30ffaee540a2e4609c3bc1b000b7",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": true,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 28,
+        "totals_fingerprint": "2a32891ee91d286d03e672832bbc5d0971d632c0082ac6957b01482d3ca2ca78"
+      }
+    },
+    {
+      "material_fingerprint": "6fdfda7c64cb794f32b58d63082db4783a814b1585aec5583bf679bd56c7585e",
+      "material_length": 19,
+      "parameters": {
+        "representation": "decimal-minimal-integer-big-endian",
+        "source_provenance": [
+          {
+            "axis_order": "rows-then-columns",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 0,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "210fcfad2ec0adb0416c93d88525cac5093f30ffaee540a2e4609c3bc1b000b7",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": true,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 28,
+        "totals_fingerprint": "2a32891ee91d286d03e672832bbc5d0971d632c0082ac6957b01482d3ca2ca78"
+      }
+    },
+    {
+      "material_fingerprint": "1f433cc3a05b33515e85be6516dee607023ceca1436e36a475f1ce6a21cad7e4",
+      "material_length": 28,
+      "parameters": {
+        "representation": "one-byte-totals",
+        "source_provenance": [
+          {
+            "axis_order": "columns-then-rows",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 0,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "210fcfad2ec0adb0416c93d88525cac5093f30ffaee540a2e4609c3bc1b000b7",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": false,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 28,
+        "totals_fingerprint": "7d5909f10d62a729a579701a021ce7135b195b9d3d581231e83290dd1fc02538"
+      }
+    },
+    {
+      "material_fingerprint": "165ce933570111c0db231194206a0fbefec6b130c19aca15efd10bf0f8042778",
+      "material_length": 44,
+      "parameters": {
+        "representation": "decimal-concatenation",
+        "source_provenance": [
+          {
+            "axis_order": "columns-then-rows",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 0,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "210fcfad2ec0adb0416c93d88525cac5093f30ffaee540a2e4609c3bc1b000b7",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": false,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 28,
+        "totals_fingerprint": "7d5909f10d62a729a579701a021ce7135b195b9d3d581231e83290dd1fc02538"
+      }
+    },
+    {
+      "material_fingerprint": "e0bcc528da4cf714c38d74dd855a297af3bbd9ef7c0627af1b3b8873ca3ecbd9",
+      "material_length": 71,
+      "parameters": {
+        "representation": "decimal-comma-list",
+        "source_provenance": [
+          {
+            "axis_order": "columns-then-rows",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 0,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "210fcfad2ec0adb0416c93d88525cac5093f30ffaee540a2e4609c3bc1b000b7",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": false,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 28,
+        "totals_fingerprint": "7d5909f10d62a729a579701a021ce7135b195b9d3d581231e83290dd1fc02538"
+      }
+    },
+    {
+      "material_fingerprint": "76fe604fb2aac205df8d777fa67c9f610e985edaeb5725a16f9dee2339536dc6",
+      "material_length": 19,
+      "parameters": {
+        "representation": "decimal-minimal-integer-big-endian",
+        "source_provenance": [
+          {
+            "axis_order": "columns-then-rows",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 0,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "210fcfad2ec0adb0416c93d88525cac5093f30ffaee540a2e4609c3bc1b000b7",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": false,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 28,
+        "totals_fingerprint": "7d5909f10d62a729a579701a021ce7135b195b9d3d581231e83290dd1fc02538"
+      }
+    },
+    {
+      "material_fingerprint": "51202dc7371fb2b15e1a72a20bbd9960a5024090504dd7c94d265f7f31744bc7",
+      "material_length": 28,
+      "parameters": {
+        "representation": "one-byte-totals",
+        "source_provenance": [
+          {
+            "axis_order": "columns-then-rows",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 0,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "210fcfad2ec0adb0416c93d88525cac5093f30ffaee540a2e4609c3bc1b000b7",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": true,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 28,
+        "totals_fingerprint": "5022f4e750e42ea7684f737189b4490549234aa252520fb9cc1aadd10c25ff4e"
+      }
+    },
+    {
+      "material_fingerprint": "191eadd66f468bc07992978a21fde4d57400c87ea9f806b542df131e04458262",
+      "material_length": 44,
+      "parameters": {
+        "representation": "decimal-concatenation",
+        "source_provenance": [
+          {
+            "axis_order": "columns-then-rows",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 0,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "210fcfad2ec0adb0416c93d88525cac5093f30ffaee540a2e4609c3bc1b000b7",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": true,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 28,
+        "totals_fingerprint": "5022f4e750e42ea7684f737189b4490549234aa252520fb9cc1aadd10c25ff4e"
+      }
+    },
+    {
+      "material_fingerprint": "1c740535b372f311599ab08757ce6df596f9b38f41517f1cfbdc0083ab6023e9",
+      "material_length": 71,
+      "parameters": {
+        "representation": "decimal-comma-list",
+        "source_provenance": [
+          {
+            "axis_order": "columns-then-rows",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 0,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "210fcfad2ec0adb0416c93d88525cac5093f30ffaee540a2e4609c3bc1b000b7",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": true,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 28,
+        "totals_fingerprint": "5022f4e750e42ea7684f737189b4490549234aa252520fb9cc1aadd10c25ff4e"
+      }
+    },
+    {
+      "material_fingerprint": "dd8b155667d895d486aa9b7fe7111df1dc0d371bf69d9a751e1c133be9512cef",
+      "material_length": 18,
+      "parameters": {
+        "representation": "decimal-minimal-integer-big-endian",
+        "source_provenance": [
+          {
+            "axis_order": "columns-then-rows",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 0,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "210fcfad2ec0adb0416c93d88525cac5093f30ffaee540a2e4609c3bc1b000b7",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": true,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 28,
+        "totals_fingerprint": "5022f4e750e42ea7684f737189b4490549234aa252520fb9cc1aadd10c25ff4e"
+      }
+    },
+    {
+      "material_fingerprint": "3df21bb3c1ccb065bd32d098ef8e3e63ecc8a89cd8ecbfc917ee4f4c694efd1c",
+      "material_length": 14,
+      "parameters": {
+        "representation": "one-byte-totals",
+        "source_provenance": [
+          {
+            "axis_order": "rows",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 1,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "b6135a5ef517ab0b7e043ee1e6eba706a07a0de8045869290cf2bc134ec4d86c",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": false,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 14,
+        "totals_fingerprint": "886027948cc6ec2775d7995ee498fbc12cb45bd8d588c88370ea7de8442c1616"
+      }
+    },
+    {
+      "material_fingerprint": "18064c91de5b0be4f4bc4ffb4392210af7a5f330267744ef90c4ccb2ed5371c7",
+      "material_length": 25,
+      "parameters": {
+        "representation": "decimal-concatenation",
+        "source_provenance": [
+          {
+            "axis_order": "rows",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 1,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "b6135a5ef517ab0b7e043ee1e6eba706a07a0de8045869290cf2bc134ec4d86c",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": false,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 14,
+        "totals_fingerprint": "886027948cc6ec2775d7995ee498fbc12cb45bd8d588c88370ea7de8442c1616"
+      }
+    },
+    {
+      "material_fingerprint": "8690da99cf93749ae32859452401896c1562c276160103d9b96a42ac9f6754d0",
+      "material_length": 38,
+      "parameters": {
+        "representation": "decimal-comma-list",
+        "source_provenance": [
+          {
+            "axis_order": "rows",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 1,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "b6135a5ef517ab0b7e043ee1e6eba706a07a0de8045869290cf2bc134ec4d86c",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": false,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 14,
+        "totals_fingerprint": "886027948cc6ec2775d7995ee498fbc12cb45bd8d588c88370ea7de8442c1616"
+      }
+    },
+    {
+      "material_fingerprint": "8adb9a165cc608f06d9cab52e2b099a49f4e978a6a47a19c155748c1924c11bd",
+      "material_length": 11,
+      "parameters": {
+        "representation": "decimal-minimal-integer-big-endian",
+        "source_provenance": [
+          {
+            "axis_order": "rows",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 1,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "b6135a5ef517ab0b7e043ee1e6eba706a07a0de8045869290cf2bc134ec4d86c",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": false,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 14,
+        "totals_fingerprint": "886027948cc6ec2775d7995ee498fbc12cb45bd8d588c88370ea7de8442c1616"
+      }
+    },
+    {
+      "material_fingerprint": "95bad224240ded601d0ca3df18caed772bb5f34731d915dc97f9a7e68b91cebd",
+      "material_length": 14,
+      "parameters": {
+        "representation": "one-byte-totals",
+        "source_provenance": [
+          {
+            "axis_order": "rows",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 1,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "b6135a5ef517ab0b7e043ee1e6eba706a07a0de8045869290cf2bc134ec4d86c",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": true,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 14,
+        "totals_fingerprint": "f7c83725bab41abcc439561cfd00caded3d522541bd204bf961ac552fc83f2e0"
+      }
+    },
+    {
+      "material_fingerprint": "c5db01bd034e302e5fc1b4a4fe815dbd5bb5902c5dbac388cd865c76e139150d",
+      "material_length": 25,
+      "parameters": {
+        "representation": "decimal-concatenation",
+        "source_provenance": [
+          {
+            "axis_order": "rows",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 1,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "b6135a5ef517ab0b7e043ee1e6eba706a07a0de8045869290cf2bc134ec4d86c",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": true,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 14,
+        "totals_fingerprint": "f7c83725bab41abcc439561cfd00caded3d522541bd204bf961ac552fc83f2e0"
+      }
+    },
+    {
+      "material_fingerprint": "8e3186d038d245c2c2550b5f6778cb4fe6754e8d51e085bfe20a24878cc12148",
+      "material_length": 38,
+      "parameters": {
+        "representation": "decimal-comma-list",
+        "source_provenance": [
+          {
+            "axis_order": "rows",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 1,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "b6135a5ef517ab0b7e043ee1e6eba706a07a0de8045869290cf2bc134ec4d86c",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": true,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 14,
+        "totals_fingerprint": "f7c83725bab41abcc439561cfd00caded3d522541bd204bf961ac552fc83f2e0"
+      }
+    },
+    {
+      "material_fingerprint": "3827a639b65908d9c4d494745dd67325069792f0a235d7420289c67d2d558187",
+      "material_length": 11,
+      "parameters": {
+        "representation": "decimal-minimal-integer-big-endian",
+        "source_provenance": [
+          {
+            "axis_order": "rows",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 1,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "b6135a5ef517ab0b7e043ee1e6eba706a07a0de8045869290cf2bc134ec4d86c",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": true,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 14,
+        "totals_fingerprint": "f7c83725bab41abcc439561cfd00caded3d522541bd204bf961ac552fc83f2e0"
+      }
+    },
+    {
+      "material_fingerprint": "5d1f8f533ca297bbbc20c587f1901abd9591330a393d488a611d1cf2fee54ca5",
+      "material_length": 14,
+      "parameters": {
+        "representation": "one-byte-totals",
+        "source_provenance": [
+          {
+            "axis_order": "columns",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 1,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "b6135a5ef517ab0b7e043ee1e6eba706a07a0de8045869290cf2bc134ec4d86c",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": false,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 14,
+        "totals_fingerprint": "4705865d3ad9ad3639aaaf61a230f48de5fc78140b7002cf73d5d0110e2e1ab2"
+      }
+    },
+    {
+      "material_fingerprint": "06a65253d061b22ecb47e116c5d0a01a94fb063f80658bfa34ad4da60e437106",
+      "material_length": 26,
+      "parameters": {
+        "representation": "decimal-concatenation",
+        "source_provenance": [
+          {
+            "axis_order": "columns",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 1,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "b6135a5ef517ab0b7e043ee1e6eba706a07a0de8045869290cf2bc134ec4d86c",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": false,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 14,
+        "totals_fingerprint": "4705865d3ad9ad3639aaaf61a230f48de5fc78140b7002cf73d5d0110e2e1ab2"
+      }
+    },
+    {
+      "material_fingerprint": "f34726faa9ef2912ceb54c5b9b1d652a25ea1f39320cd63850f18431f08f8ba2",
+      "material_length": 39,
+      "parameters": {
+        "representation": "decimal-comma-list",
+        "source_provenance": [
+          {
+            "axis_order": "columns",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 1,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "b6135a5ef517ab0b7e043ee1e6eba706a07a0de8045869290cf2bc134ec4d86c",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": false,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 14,
+        "totals_fingerprint": "4705865d3ad9ad3639aaaf61a230f48de5fc78140b7002cf73d5d0110e2e1ab2"
+      }
+    },
+    {
+      "material_fingerprint": "23b59047d620d5b6abb8e7efef077f0a95fcf57449587c7147c800f9dda48631",
+      "material_length": 11,
+      "parameters": {
+        "representation": "decimal-minimal-integer-big-endian",
+        "source_provenance": [
+          {
+            "axis_order": "columns",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 1,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "b6135a5ef517ab0b7e043ee1e6eba706a07a0de8045869290cf2bc134ec4d86c",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": false,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 14,
+        "totals_fingerprint": "4705865d3ad9ad3639aaaf61a230f48de5fc78140b7002cf73d5d0110e2e1ab2"
+      }
+    },
+    {
+      "material_fingerprint": "aeac37f1a7f71c3ed244fba6e3d012e1fba198566ae76f08151e2a4caa65a604",
+      "material_length": 14,
+      "parameters": {
+        "representation": "one-byte-totals",
+        "source_provenance": [
+          {
+            "axis_order": "columns",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 1,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "b6135a5ef517ab0b7e043ee1e6eba706a07a0de8045869290cf2bc134ec4d86c",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": true,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 14,
+        "totals_fingerprint": "faa9179a19e36beca8750cdc95046d16bee3183a9de6b45398a07847b0b8fb8f"
+      }
+    },
+    {
+      "material_fingerprint": "957ba0b790ff4d750b127ecadb12f61e9b834c597097d414a5f92e24777a80e0",
+      "material_length": 26,
+      "parameters": {
+        "representation": "decimal-concatenation",
+        "source_provenance": [
+          {
+            "axis_order": "columns",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 1,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "b6135a5ef517ab0b7e043ee1e6eba706a07a0de8045869290cf2bc134ec4d86c",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": true,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 14,
+        "totals_fingerprint": "faa9179a19e36beca8750cdc95046d16bee3183a9de6b45398a07847b0b8fb8f"
+      }
+    },
+    {
+      "material_fingerprint": "7ccb69b628ace2f731e63085bb4ec9e1550ca0e2475b367bb9aee1d67ac10e32",
+      "material_length": 39,
+      "parameters": {
+        "representation": "decimal-comma-list",
+        "source_provenance": [
+          {
+            "axis_order": "columns",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 1,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "b6135a5ef517ab0b7e043ee1e6eba706a07a0de8045869290cf2bc134ec4d86c",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": true,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 14,
+        "totals_fingerprint": "faa9179a19e36beca8750cdc95046d16bee3183a9de6b45398a07847b0b8fb8f"
+      }
+    },
+    {
+      "material_fingerprint": "5630c750b4dcd3b7465e91d78db203c45a4259765cf8c5b70c08d5f128bc6bad",
+      "material_length": 11,
+      "parameters": {
+        "representation": "decimal-minimal-integer-big-endian",
+        "source_provenance": [
+          {
+            "axis_order": "columns",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 1,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "b6135a5ef517ab0b7e043ee1e6eba706a07a0de8045869290cf2bc134ec4d86c",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": true,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 14,
+        "totals_fingerprint": "faa9179a19e36beca8750cdc95046d16bee3183a9de6b45398a07847b0b8fb8f"
+      }
+    },
+    {
+      "material_fingerprint": "dcd3af0381beb8efc5d377557aeafaa6cb2d5a2ed81abea07ff5b09ead8c94f5",
+      "material_length": 28,
+      "parameters": {
+        "representation": "one-byte-totals",
+        "source_provenance": [
+          {
+            "axis_order": "rows-then-columns",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 1,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "b6135a5ef517ab0b7e043ee1e6eba706a07a0de8045869290cf2bc134ec4d86c",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": false,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 28,
+        "totals_fingerprint": "6c6691464b29d621a315dd805424efca7626b087cca047976247ac03933a65c7"
+      }
+    },
+    {
+      "material_fingerprint": "2ecdfd1c56424e82f9adb69d0cd3174543cdacd0cfde7e5c2c4f3aa0cfeca2d8",
+      "material_length": 51,
+      "parameters": {
+        "representation": "decimal-concatenation",
+        "source_provenance": [
+          {
+            "axis_order": "rows-then-columns",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 1,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "b6135a5ef517ab0b7e043ee1e6eba706a07a0de8045869290cf2bc134ec4d86c",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": false,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 28,
+        "totals_fingerprint": "6c6691464b29d621a315dd805424efca7626b087cca047976247ac03933a65c7"
+      }
+    },
+    {
+      "material_fingerprint": "5d84026c2f3d45bee83efed2a7044d8286ce86489d54ed7f5280b0f1c3613ff2",
+      "material_length": 78,
+      "parameters": {
+        "representation": "decimal-comma-list",
+        "source_provenance": [
+          {
+            "axis_order": "rows-then-columns",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 1,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "b6135a5ef517ab0b7e043ee1e6eba706a07a0de8045869290cf2bc134ec4d86c",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": false,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 28,
+        "totals_fingerprint": "6c6691464b29d621a315dd805424efca7626b087cca047976247ac03933a65c7"
+      }
+    },
+    {
+      "material_fingerprint": "0b5f2f6da010c0ae3818ef9b553ba6a7a6b44c08453334dc4637969c62c5093b",
+      "material_length": 21,
+      "parameters": {
+        "representation": "decimal-minimal-integer-big-endian",
+        "source_provenance": [
+          {
+            "axis_order": "rows-then-columns",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 1,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "b6135a5ef517ab0b7e043ee1e6eba706a07a0de8045869290cf2bc134ec4d86c",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": false,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 28,
+        "totals_fingerprint": "6c6691464b29d621a315dd805424efca7626b087cca047976247ac03933a65c7"
+      }
+    },
+    {
+      "material_fingerprint": "a8fb3e388be3c124a97fa9e562cb0f1b44b409bd9a01c333a166bf1cd514754f",
+      "material_length": 28,
+      "parameters": {
+        "representation": "one-byte-totals",
+        "source_provenance": [
+          {
+            "axis_order": "rows-then-columns",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 1,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "b6135a5ef517ab0b7e043ee1e6eba706a07a0de8045869290cf2bc134ec4d86c",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": true,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 28,
+        "totals_fingerprint": "50eb6d249ada203350c3e3d050a4facdf47fa9f1de5d579348e165cf60c6fdb5"
+      }
+    },
+    {
+      "material_fingerprint": "625f1db698280f0171da019f2db7909653c56edf163d4cd70c1590ea6581b46e",
+      "material_length": 51,
+      "parameters": {
+        "representation": "decimal-concatenation",
+        "source_provenance": [
+          {
+            "axis_order": "rows-then-columns",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 1,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "b6135a5ef517ab0b7e043ee1e6eba706a07a0de8045869290cf2bc134ec4d86c",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": true,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 28,
+        "totals_fingerprint": "50eb6d249ada203350c3e3d050a4facdf47fa9f1de5d579348e165cf60c6fdb5"
+      }
+    },
+    {
+      "material_fingerprint": "726cd6ea26c72ce1cc82c6e1311567e165de553cf33e18a73907d53e003c33c1",
+      "material_length": 78,
+      "parameters": {
+        "representation": "decimal-comma-list",
+        "source_provenance": [
+          {
+            "axis_order": "rows-then-columns",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 1,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "b6135a5ef517ab0b7e043ee1e6eba706a07a0de8045869290cf2bc134ec4d86c",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": true,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 28,
+        "totals_fingerprint": "50eb6d249ada203350c3e3d050a4facdf47fa9f1de5d579348e165cf60c6fdb5"
+      }
+    },
+    {
+      "material_fingerprint": "75b4a94c57ccc0eb1b643150ba99d61fffc4ae70997ee9570af77e0855fd0917",
+      "material_length": 22,
+      "parameters": {
+        "representation": "decimal-minimal-integer-big-endian",
+        "source_provenance": [
+          {
+            "axis_order": "rows-then-columns",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 1,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "b6135a5ef517ab0b7e043ee1e6eba706a07a0de8045869290cf2bc134ec4d86c",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": true,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 28,
+        "totals_fingerprint": "50eb6d249ada203350c3e3d050a4facdf47fa9f1de5d579348e165cf60c6fdb5"
+      }
+    },
+    {
+      "material_fingerprint": "f2363d59e1b9c93d280fe9f57f360c13b427b0bbe0dfeaf2f6ebb35305a71a50",
+      "material_length": 28,
+      "parameters": {
+        "representation": "one-byte-totals",
+        "source_provenance": [
+          {
+            "axis_order": "columns-then-rows",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 1,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "b6135a5ef517ab0b7e043ee1e6eba706a07a0de8045869290cf2bc134ec4d86c",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": false,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 28,
+        "totals_fingerprint": "b25b35dc3cdbd2df0f6ccb7e74bf4fe10153f6dfee04d1b45fe3c9f8bc191175"
+      }
+    },
+    {
+      "material_fingerprint": "f0f333efeff72182041de8318a54e1a5b253e6cc5814268388e86290a4f502dc",
+      "material_length": 51,
+      "parameters": {
+        "representation": "decimal-concatenation",
+        "source_provenance": [
+          {
+            "axis_order": "columns-then-rows",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 1,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "b6135a5ef517ab0b7e043ee1e6eba706a07a0de8045869290cf2bc134ec4d86c",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": false,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 28,
+        "totals_fingerprint": "b25b35dc3cdbd2df0f6ccb7e74bf4fe10153f6dfee04d1b45fe3c9f8bc191175"
+      }
+    },
+    {
+      "material_fingerprint": "0bcf9c79a99af6a6cf680888f112a69856c703d51f3c5d65138f54864a2de2f5",
+      "material_length": 78,
+      "parameters": {
+        "representation": "decimal-comma-list",
+        "source_provenance": [
+          {
+            "axis_order": "columns-then-rows",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 1,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "b6135a5ef517ab0b7e043ee1e6eba706a07a0de8045869290cf2bc134ec4d86c",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": false,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 28,
+        "totals_fingerprint": "b25b35dc3cdbd2df0f6ccb7e74bf4fe10153f6dfee04d1b45fe3c9f8bc191175"
+      }
+    },
+    {
+      "material_fingerprint": "f18ca38b6559b2c4a5ef02842ee0c625a567fa9df80beaf080d8c9a70356348e",
+      "material_length": 21,
+      "parameters": {
+        "representation": "decimal-minimal-integer-big-endian",
+        "source_provenance": [
+          {
+            "axis_order": "columns-then-rows",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 1,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "b6135a5ef517ab0b7e043ee1e6eba706a07a0de8045869290cf2bc134ec4d86c",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": false,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 28,
+        "totals_fingerprint": "b25b35dc3cdbd2df0f6ccb7e74bf4fe10153f6dfee04d1b45fe3c9f8bc191175"
+      }
+    },
+    {
+      "material_fingerprint": "29c086c00affd80a565869721b3a21183a05c2408e3a6f88777a25e884fd8183",
+      "material_length": 28,
+      "parameters": {
+        "representation": "one-byte-totals",
+        "source_provenance": [
+          {
+            "axis_order": "columns-then-rows",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 1,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "b6135a5ef517ab0b7e043ee1e6eba706a07a0de8045869290cf2bc134ec4d86c",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": true,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 28,
+        "totals_fingerprint": "0af201ba75191c002d9a153fa75c87cbb7b6600f7f3490d22daad391bcf9c9ba"
+      }
+    },
+    {
+      "material_fingerprint": "3c904a63eed52e36fbd6b07ae6a71618a7de4a99ab083a7187b9092b80359dc9",
+      "material_length": 51,
+      "parameters": {
+        "representation": "decimal-concatenation",
+        "source_provenance": [
+          {
+            "axis_order": "columns-then-rows",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 1,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "b6135a5ef517ab0b7e043ee1e6eba706a07a0de8045869290cf2bc134ec4d86c",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": true,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 28,
+        "totals_fingerprint": "0af201ba75191c002d9a153fa75c87cbb7b6600f7f3490d22daad391bcf9c9ba"
+      }
+    },
+    {
+      "material_fingerprint": "873790530883df9edc8e5822d17041927cf3cdaa8f41d2bcde8869b14a07aec7",
+      "material_length": 78,
+      "parameters": {
+        "representation": "decimal-comma-list",
+        "source_provenance": [
+          {
+            "axis_order": "columns-then-rows",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 1,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "b6135a5ef517ab0b7e043ee1e6eba706a07a0de8045869290cf2bc134ec4d86c",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": true,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 28,
+        "totals_fingerprint": "0af201ba75191c002d9a153fa75c87cbb7b6600f7f3490d22daad391bcf9c9ba"
+      }
+    },
+    {
+      "material_fingerprint": "cbf99c87da2b222f7073cd54cb8dec83f86480526f47f2af90963220cc8c4230",
+      "material_length": 22,
+      "parameters": {
+        "representation": "decimal-minimal-integer-big-endian",
+        "source_provenance": [
+          {
+            "axis_order": "columns-then-rows",
+            "complement_reconstruction_verified": true,
+            "fill_route": "verified-counterclockwise-spiral",
+            "hole_route_offset_zero_based": 163,
+            "keep_original_image_bit": 1,
+            "mask_policy": "Use only original black/blue1 and white/yellow/nearwhite0 mapping; the actual hole is zero under either mask",
+            "masked_matrix_fingerprint": "b6135a5ef517ab0b7e043ee1e6eba706a07a0de8045869290cf2bc134ec4d86c",
+            "near_white_hole_zero_based": [
+              7,
+              4
+            ],
+            "original_annotated_matrix_fingerprint": "31818c34be987f46372a00cd50b602554f17854854b1f987b832583c8b21c2bd",
+            "reverse_totals": true,
+            "source_symbols": 195,
+            "total": 478,
+            "value_mapping": "dbbi-a1-i9-binary-a0-b1"
+          }
+        ],
+        "total_count": 28,
+        "totals_fingerprint": "0af201ba75191c002d9a153fa75c87cbb7b6600f7f3490d22daad391bcf9c9ba"
+      }
+    }
+  ],
+  "hypothesis": "Image0/1 cells zero complementary portions of the existing actual-hole annotated matrix before the matrixsumlist operation",
+  "id": "C09-NEXT-MASKED-MISSING-CELL",
+  "invariant": "195 source values occupy every non-hole cell once under the existing typed mapping and verified spiral; the actual anomaly remains zero; complementary image masks reconstruct all annotated values exactly before axis aggregation",
+  "justification": "Uses the exact195=196-1 length, observed anomaly, independently verified bit-mask/spiral, characters-zeroed wording and matrixsumlist together. The completed unmasked-hole sum experiment did not apply the image as a positional mask. Only one typed mapping and verified route are retained; no alternate fill/image/color weights introduced. This remains an unverified creator-intent hypothesis, not a plaintext prediction",
+  "limits": "Plan only. No endpoint-zero placement, arbitrary holes, extra rows/column fills, symbol subsets, color RGB weights, ring/diagonal sums, keyword composition, alphabet permutations or huge dictionaries. Candidate/grid/total/key byte sequences not written; exact forms regenerate locally. Before execution revalidate all18 ledgers plus baseline identities",
+  "new_aes_trials_executed": 0,
+  "new_candidate_fingerprints": [
+    "01c4142ee6b4cf784f6d20764733a3d4fd11080c07fa0243df22368c55812e0f",
+    "0503126b5c15c8bc1fd8cabcb7bc10210ed91f7520d43431bea2561106f87c45",
+    "08bc55216b172f2c6738b65ae55cefbe8e1f4ebb0b3460761de5cf40c7012f0c",
+    "0e43b25b2363586c5fcf8b5df9550d7165fcd97d94a4ff55217224277e7b3130",
+    "0e8e6a7ead0445b598b2438ec6738f1cd52555da88736323ee26cbfa247b58e7",
+    "105ef71673bcceb282e130e7c599deaa96a8e2f41f4999b9915e328390a97665",
+    "11ef477006ed9acb8fb17170e0ada2d1044bd4104224eaef1cfeca9ede6c094a",
+    "1288f5dd6e1a68d139cf3d534fd4fa9918135a53e2b3ca755962198fca783385",
+    "12d94054480033dc7254bb1241a92e93f4c285786789e1a44a1d2cf4ad964035",
+    "133587f4c16055d2e16395cb2f48c32a966641f9a70fbd285a3e5577ebf95122",
+    "13aac87d917eb5da30a2cf21d5cf4c6c11a37d26c5c5a58bfbbd5f2bd379fbfd",
+    "13aaf6048edb5d1de117c0fad2aef61ba6a3b2ee31daa1980174419a29e6f56f",
+    "1417c9e4245f36ea1df75432105897c329b2b17ab4fa27afc64e1ada9a67b6dc",
+    "1449fd567276c8bd8538d538da10f42dbc2dd8394d819c88fbe89d2322418d55",
+    "14df93d8a8f23b9bced9084e57c8803eb2ae2fe1c8b4a87f75ef4288e51b3489",
+    "14f52008b842dc1aa82ea1b6e306e74cda066a57119f05ad6322852f5805dad7",
+    "15f274b5f71ce0421737b5710032af3fa85ff1e7c1a20b099382c499559725f5",
+    "16a497f39acf7adf5dec2986fff0f2f71e9d494a8b83d8cf3f403b6f7844f139",
+    "16aea43a0c3584973ca5b6237397da5e78bfd8f04416b7864869786aa495033c",
+    "171ecfcef671a2baa09c65340e8da3ceb4ce683b76e6023ec4bc82bd17b8acdf",
+    "17cce0be4de9bdadbd7826df44e6a4ee73929bb19ed95ab4157be31c54f1a88c",
+    "18baa0312a8078ff62b9fede6187bf01951b69259c53ec3b15f843510a6e8306",
+    "18dace8f432f027e002c62796d9fa7ec293b213db66ee2d55546105244bbe403",
+    "1d184b40249f89a1e5d4cb4053e26e1310e680eaf4689e09ccd46253467f197c",
+    "1ded78b9f0db3949615e2bda784bc4dfe1cfd05249beba2ebcf06e7202e34525",
+    "1e5db245cdebe6ad5d169fedd1e3c35849d01e984bca4359a61ed57714d0922d",
+    "201a663213af244e03773dca680f3046f86730d1a7c28d3c3de9fbb2b1b8931e",
+    "202b214f0db979caf4da375b75f5a09acf1bb86810e4354efc5c18646730e0a4",
+    "243d00c8c5cfeca896a8341c2f482d1120ba98665c8786f90a7d993a63412628",
+    "2637d57c4ed79fd568d6d17e764d08401cc8d49cc92032f5cd6b0e5b61329db1",
+    "265cb8963232a70ba77c1d79b8af3e56c9b4223606e71c67b20bdd81be4a641c",
+    "26fc2b8961e58d9003dfaf63c9a82b3c644b60c3e48c3cedac3928aee5b2b63b",
+    "2a4006f817ba2e09e80eb299a79599d413af9b72cf340bc324fa10c8fdb360be",
+    "2a4e04bbcf1773537f226c408b49c38da5b867a11c9317c7b708c68009900566",
+    "2a5626ffa4b5e5e17b20d3beceef3d1d97a3a6f92f7715e3069909d034be4a65",
+    "2b59641a4a90c782c19a85006c5af1fab9b6ad902aaa7163043563696e8e46ee",
+    "2c63005f07608bf21789f1497b85db87e0010fc061369520f6fee70834cfbeba",
+    "2d19668e4fe5717c8a21b3a2aa4f8b78cec12e65c8bf97e1c1979d14906fb0fd",
+    "2d61bcaf2edc9b0d8fd58f56345e26ea924db97ef0bc4b92aa7026b6bcd78fb0",
+    "31349fa10e6b59fa5227956d1077b8c3a69e29bab2049672d503eba636a74852",
+    "33a3549a65714dfeb8536095b26cf525a84b2515b7fcbdc95ed7845e8ad76e22",
+    "33c9f5e592f561e9a20a2187db72701a567763dc4c98764a68dcd0fb50d2ffdd",
+    "340bc08b0b0d6d1e028e51d4daeea7b7d16ebefaae6176cb641a0f57f336891c",
+    "3522d7d7ec47f7c72fa48e030a02f327f6855da5c42f1bb14507e8a97840c237",
+    "361b2234e6931c9929b5a8efb80b9a0511bc3f09a49d9c084a68ae174322daff",
+    "373aef7010dd1384976f41e45498ce39e5cafe5f3c3b47a9fb76c35cc3317b72",
+    "37aa87c5341f2aa07d3e25e705fcad59b57ee22e6b364a2a1cc092d557b25770",
+    "3977fedd44ceab7db3aef8c235da55c9c044e159b2c58a6c604a65a1feb7208b",
+    "39d3afb1ce08c79b6b6d63ef6933c543916e5640abee1f7e39e96bf888bc3d10",
+    "3bedc9717ebbc6d5cbd70f2f3db86a629d2635d34f5558a29b8e869891d4b536",
+    "3bf245911478088f3b79f10b6206b4a54794f3b0643c2b4676a1f5af7244578d",
+    "3ded8b89d7135bbcf3cf2064f8502b5e2b971a4abdb738595b0da831235b663e",
+    "3e09690174fd9eeefbd220653deb82c39f369a552d240146ace31bd342c33652",
+    "3fb43bf27380963e92a2446efd2dee347c5a7ed64d4de257df919d01c59ab3b8",
+    "3fd1c84424fbf1a38643f4f1b43445c16d6f44f0758c2dfacc6d3b691b2c4ebb",
+    "40dc79ec5ce1909e9004add2334049a5f39661af9babb6cf3024fb356ad93b56",
+    "41a7f28a1a31d38cf1f08bc9ebb830c9ba54034181d568551107d11d7c223b2d",
+    "41e3264b9b3fc1b32f7b7a177dcada329c4e6d43ec980ab77e1633d004cf5f36",
+    "42343f6a5e411b340c228645ed5b628c1c333f1ec34d0fee8b4f9fd260518cad",
+    "42d2b8e757b70a0e8da34981cba5c0372e820876b852d5a2270f26e224ae26f7",
+    "4599306fadf00887682d38166de5e9e3470e430f39008a8b5b86f5363b74a822",
+    "45eb119534dac117d1e0e743aae429b5b242e28e285852766ddaad93f1b146d2",
+    "47aa9c4a919b4f809383081fc700af3eaea6cc2d7bb6923bf9d2f233816b5ac8",
+    "4ab89913361bbb85d2896750c8ae2b11b79ee7a0e5066b91006456d79222c0c4",
+    "4d1cd98651b354973c208536313a6f59aafcccdd3bb5b7ebe72350a1d934d2ea",
+    "4fc20f97378df4d5a0723914fdc7aa1443d9680472b18d2ebc1d7e46128e6154",
+    "546b3ee84d96ad3955d030c767c589aaa0f614a8045acbe5ade90a925273bc51",
+    "558c1bcd2a8b0e30c2b035b36eebe37f6f3b9514830e2e6b1c25d54cafae5ff5",
+    "55f4789d593ab71b9b0d1236c6dae0dc3c56e83d27938a39bf04289313fde182",
+    "560f1eccc62b023a27ea0d3917d602d3b6c1c0494ed7c6700740cde476724a4e",
+    "56fe497c0840d4b83a9725beccb3a677248cb1a0bedd916127af565efa8ef688",
+    "5b0b2fecb5cb14678359ad26bc2169cd587727c1612ed9238e04a1f39909ad03",
+    "5ebcdc0c6948711b3422fe233bdba820df26a977a9aed43e650019237f6091bc",
+    "608314f6f0deaaae6e6af18780eac6c586e4aaa7ca492c0554a78c0970e57371",
+    "611501ab07e986bc155c09565d6736ee805214588261c1283c4a2143c6a4d8dd",
+    "629f384e361d2fcd15063643257ca885d738693fbb8cf361499619a7195c2750",
+    "62f4bd27dfafe2c6808dffa3616e318efb80ea652a0e02fac5d99a86c7128232",
+    "6522309da20964fe00ae3469452aa93a02f4031577e6679510a0e761e9e04f40",
+    "67d7402d4cdebe8e46e7b3f16cb1eea9d63cc3a1cdfc5479f296cca9d82e3807",
+    "6856bf349362d76f69d09c81fb02afd4b4f770d5adc1e72d4eca84d0755283fb",
+    "68fcca708fd3b80775f988dd11874ca59848cc240d9b3248799376d70b27073c",
+    "6a136c17ad257224991911b83ebf5fa33686f1135e6089512869521c5f7dd32f",
+    "6a2337a4ffd88d86ef47804bcdfc0eb87b9a9f0a4b737b7002d6d99b3a2fa800",
+    "6d73dc7ff82ae9f7e0ed4357ceb9f6dd536e27e5212a2e32011aea4e22550293",
+    "6e3964bdbffb05f9fea196ebb1e4b867327cc707ad16c22f571e948c9e17b5c8",
+    "7028249b692836514c8c035b0db16054e609d141cc9a085bdc38ac32cf1bd0a4",
+    "705c73acccf26ab8df375b751aded796c85b333cc9ec0127974058f3679616f0",
+    "71d74b9b5fdd8056f92835f9a4434a659441b17c8ecd39df871202dee320dcf5",
+    "7456ed1943d7614751a02074718ba7e379a7815420fbcf033ee19277b1352b96",
+    "74e365bbb1c0259f3dbf81863d346e1cfd3376760b6d309f3a427ca286010d8b",
+    "77ca5a168126340f3c5c1936700b854755566d8e1d9959130b865c72beddc33c",
+    "7c5b932efcce5d72fe73d683bdd41eeab200b1b7f55f9363bb7a826ae7842d68",
+    "7df4c6d9c032287adcb7d7e36fe625c4b64a64772bd6d34e7f25c96897f586d6",
+    "7f5d3fcff08dc829d3f4d7aeb6e0994b00f16d5f908647af694646dd178c1c05",
+    "801361bea31bf8353aa27be15680383c24cef8af0d8ba6b291218611db5d7826",
+    "8028b4edbe6b70f56ba72aa6ce9d05f07493c98648847cb937eeb3cf31c4d8cf",
+    "8053756100f4eccbd633cf00832d0e23234f078dbc9d44740208c63f01d0bbad",
+    "80db83ebab4c317b9d1306cbccc938099a0faaf666af9415246f3f018eda8f6c",
+    "86ebddfe464573cc5828112b2797c75ef489a04aacd6ca3ed83e46d025e9cfc1",
+    "872e3b619100ca9c449289c4f2de467eb56feb5a222a16cb617dc7c6fa5f1bd2",
+    "8b87e59a9bb5cb802f815022edcf5f29cc58eea5a42ffc984259678cfb402a9a",
+    "8d6927cfd84e8af9013cd33f067d158911d9ab56ac2a11b8a27b8e15fbbd9976",
+    "8d6e59a6b8d6c9cb73c54ae7b368ca814a9e3c9e69f6b6979c8cbaa303961a1f",
+    "8edde24c67ac8d088094244d28b2b4a81e5cc9576c3e4a4e855949f3c0075aa6",
+    "8f30f18bae8dfaca2663495d5a2c4870e951df4b4e39a3982549f4db88daaf76",
+    "8f3932190f7b981fb57cd2bc6e161328f4434ebdc59813ed91413484dcf930e7",
+    "9143ae68917c4364cbe969bc7f41e883d97654c9196204f3d28733111be937be",
+    "92e22f04b832df2dcc0d7f6326aae4cf9cd0fd42272f7d09b55603f8d9e4270e",
+    "9459a3f4f842062c11610aaca75c59c75e36795585ac2eb0393b8c74bc39912a",
+    "950cb57ffd92667e6e2b4434223b765816021cfe94fa1bd7fec878264a499b7c",
+    "96ee80859e143b9cd65d8d0e38f4b751d7a1498a0cd909f96ade05e282170b47",
+    "96fdafedbca2409425caa2a0c93ecf5c87d30a74a5992c475e47f3fd46eb8038",
+    "9760c2ea292074325a295b1319ef198b2b0bafa35359f1e9486ca9411d8dd68b",
+    "97a42f776a477648374d1b4998c7a2198405d88d9cdbb1aff2d8a3fbd26340de",
+    "97bbcb29a1219f9c1797505bf2fea5e86b8c908424d77df0a20f519cead3ad46",
+    "97cb60b984dd2bc623b873a411315f739b7294d7d8d0d676d192bf340cb72db9",
+    "984513d10fb4b654c25e3a3b0a441d89d34ba7e64dd38223cfc472c4a9ea4e36",
+    "994c2f65befc486c523e440b5c41d7893ad40ed5b3f210b643f69c4b3e506e73",
+    "9b50288d1ba52f6ac071b7038b2b61bc631eda81e0bb08550c971745a66d34c5",
+    "9bfe45d5d878866b96c6c21e9089bbbf22fc4c84460e9aacd2d6ca0bfb7e0307",
+    "9c288a9249e5c7b3c4a29597a86a6c8e6af800665f08a292cb8bca556ae3a7a3",
+    "9c7b57bdc1a53c05ffa2218efcba2f49bbe8fed9f0e1465cfb1cb77e7b34fc65",
+    "9cd0a046ff8bb59a1a55bcaf5d0e0ef73eeb18d247292bcd5b2e633bfd0b2833",
+    "9daaae38390eeb1f7a8e81a38d921e53c589fb0ba18a88e2876047a4db0b7115",
+    "9e9506e0869bf34f153d8865e99f7a21d1b7beaf01a34f4226d5c053fb3b88e0",
+    "9f0bb3158638d6c27d16b66ddfcadcc632998bf42e3b7e54d4d74dad4a705aef",
+    "a055fdbaa590895f6f7d8ac35d8a7b721e46a1ee4f19d51be45c1923c829bf1a",
+    "a38ae99e64de8caebe84da8726a303a5bdc2f0a80c8f7f337780cc47d52a3852",
+    "a421b6c47e6a59391a58f70704e8d28bb3218e8f96754bf71ad892770b30fab8",
+    "a7258cc27b2a94ab555949a05b29ea1fd0607697f80f6341a2548f578296e0f8",
+    "a97bfcf21343ae4c753115952222606a1590daca428d5bdca876c00fa49d4328",
+    "aa8bcc9d82f40fa4a44108b7ceb5a253b39acd3aa8b7e30345037ef41d9823ed",
+    "aab4c67fe563ea0a05d1f2791df0ab8bebcf6bfca879a2f58bb58d35d8249535",
+    "ab23f2caf596c252acc3db7042ba5ead116d1ea7d3546b6b620dc9ece5e0ec1d",
+    "ab525d6858a257c2faeb1c51d8b02f56cbc3b94ecf996b5fdb41006be56c464f",
+    "acb5f15b49bebfdc386821b3e869f0ba4807567cc85eef8fd15d8117d4c197b9",
+    "accd002ebbff1d6364e3ae883e35af2766bdf9faca83b3515c0a315b0080263b",
+    "ad1142a5e195591c511c70e893a3ce28257f5a42f304d1cc07af18b86fcefb64",
+    "ad9c99c6f5ea0be8c4309cfbef0453ed22e2b507338556bb3ecde7436c8bbcbd",
+    "af3a068ee6add20e2ea89aba3ba6689adf09005dc4ec51bb11c653f244b56d16",
+    "b1c037bae8ce8045f7378b6058e5519430aacaefe26327299387d14878ed3ede",
+    "b441777ce715a9cf8389c431e879fef054ff29d3796b1b48a636aaa47d9a3bd5",
+    "b4b913cba8ce218eda0bc62fefe9ff532c824e529905dcebdb3cb8f1fcd2026e",
+    "b4f8e5a319d0cda04a6af4f71f0f38ad1a12eb31198554ce4c343984d5977954",
+    "b58913688a46f6493f5a36a52b8679132832f59c9f1d87b4502d21d946dc08cb",
+    "b59ef29eff685cb936fb730d1e1b1c6d88f2f4d5cf7efc9b2afa114e499b6fe8",
+    "b8c316c219fedce85d0797cdd8c7e992e2771f92058d5ae32116d6a6777dec13",
+    "ba21695b2e5a0c2a30c5608c9d57b9c14d50af8775768b8edf28bca38cca8126",
+    "bbc9555f8a6925200163297337950c9af18597a90d1e63b62ab2d2f82bf37662",
+    "bcb421be254a06786b94db6f71db883a2884f95e5b5a01207995b2bdbcd10e03",
+    "bf4245a73c2a3719f926785c2d917d23e3f9f067da8b079e67a593eaf58c5c56",
+    "c0ac62f124e631db0b41987365a9f90295169851db4287e2962e6c0759d1cefa",
+    "c179d8b02d08ac6dd4cfde67a68f312987449bda6882167a9337678569a89202",
+    "c1b4d03226c343d3cecf0cacc8714efe068ad810324f7a4bc44afff5209dc32a",
+    "c22676b4f16323ce053aff8d9aa3e353a3bef7e377c1912425538351c2041077",
+    "c31734cb7a172c76728637d1384d4e66c1dca0313453022ffce73dc8314ae56e",
+    "c4f05d222aee5d294fd43b60738dde62140f5c7cd17848fd4923c91a5c96b5ca",
+    "c8f39dcdba0e19f1f2d73e98e37d07f3c961a5434b218d6c93adfc5bc85da2c8",
+    "cbecbaafe1c67f7aa70435a5834ee50971ce46b6dae0dae85fd0bd38d106c54b",
+    "cda76faba642e11c4421bbb9cb82972ecb0beeef366705ce1544385312fb34a8",
+    "ce42a44deba7908b64b03449d89766813bd079a6a132d1f8cc3b1de5507afeeb",
+    "cfb228edad027e0931ac461f597f21ee21c7a52cbbc352941c938ec55d8fc070",
+    "d15a51abc382a10233cf4fa71f1ff209eefe9afea59cf035e3418b7e486cb1eb",
+    "d1ad23dcc4b8cfe4d733b8cd14fd100196b0dbf2ae81c4e7d8e0c8ed48ad10f6",
+    "d8fcf89faf4952f8a9a45b4c81f93b24014573e6a4d6be0a6d5966542dd7250e",
+    "d98c8ae1b83c110e9b76526737c040f643b2905cf60d9328eb7b7f4feedb1e2b",
+    "da8507e6719fb117b9c6a48916817958c00bda73fc630de4c1ec364428e6130e",
+    "db094326aec2cf92daf537208be97147a2e4ab197c69deef0a5c4f9a583ce636",
+    "dc5e7aaadc2c054ef45e973b09eecc555fb108195ff89e7903a5f5a672003475",
+    "dee983665d4a1689909d7a3df8341cd71796c2d0fe269d266c567e4eaf7d52cb",
+    "dfbef64bcf81446f2b231a4bbc9b19ff833808226fe91e3b09a0e48d99aee40e",
+    "e1fa08cd13d1b0ceb24d864985ddbd924861df09a5dd1b31e3ecb45d613357bd",
+    "e242d88e4b88904674fa97ccd18b29b84f69e97b87512b7bfb6a855f588dd806",
+    "e3142edc5c5f011dd624df86616878edac0f2480d0810d7ed338f64d0880714d",
+    "e4bb10d1ed8a81d2cb49afd46d4fa594c588714cb3402643975d2e2a374b7a22",
+    "e75dc08e93321f0fee752c7f6aa62674a19e9729e6d87ff06fcfcd7cfd61da32",
+    "eb4faf04c2bd3854b9f12595be61778229d8322d083cefc92f075e2b04998bb8",
+    "ec2d1b048d686929d19173ae2ffc72b1373926b9db4b6cf6db4b5e2befbeb811",
+    "ed4f0e7a545a5e15250e9c5fe69e4244c37ba06d976639f82049fd5c14aeeec7",
+    "edb386748380c532577566ad8b62390b4f922930cb0519aab71866f2b2b6396b",
+    "ef97c102ca23e5ef7f4d885e951e8a4c37bca2467223f0afef7a42f80f9337ce",
+    "efffeba6af972a56bab5fb042ce2ea57958904af8308f24d91873fa3afb5a325",
+    "f16bb67ac17ed99db09d7fdb66f422ac498422322f83c73018723fe3cbf4e33e",
+    "f37b732edc441dd19242baaac246988391649903dc7e2ed62253fbe0051f6552",
+    "f517b29c1e12b13097a9fa93a6e13f0840fef0421b1514c18cce74dbb3db414f",
+    "f5e4d59f881279cc6b576ed2c36a902636d9974f806b09cf5d739255e5372f57",
+    "f6193581b81dda5b7225194bac947ea9aa7dc53be752641e699ca66082d8e94b",
+    "f66ceeb02405d2fa74295013578d6646eaeab0ccbd5d370eaa7800c9601db7ce",
+    "f66f98b557f24c51533ed7643ad8ec0d9e806e650392f20f3100965ec79708de",
+    "f68413986a289a6574eff5ee92fd0a92bac11b245bb121bc589a703e1d278845",
+    "f7ffa3781f68b795d522c3687dc8c94e2cb0e6ad5d576318d84402c348940c48",
+    "fdc15172ea87a201e91247f0cb237da8836a8a9a6a1e7bec6beef6f4bc920f61"
+  ],
+  "search_space": {
+    "annotated_matrices": 1,
+    "axis_orders": 4,
+    "complementary_image_masks": 2,
+    "directions": 2,
+    "distinct_sum_lists": 16,
+    "forms": 64,
+    "kdf_digests": [
+      "md5",
+      "sha256"
+    ],
+    "new_unique_passwords": 192,
+    "password_transforms": 3,
+    "placement_routes": 1,
+    "planned_aes_trials": 1152,
+    "previously_tested_passwords_skipped": 0,
+    "representations": 4,
+    "targets": [
+      "phase32-inner",
+      "salphaseion-small",
+      "cosmic-duality"
+    ],
+    "typed_value_mappings": 1,
+    "unique_passwords": 192
+  },
+  "source_evidence": [
+    {
+      "locator": null,
+      "path": "research/sources/gsmg-puzzle.png",
+      "sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830"
+    },
+    {
+      "locator": null,
+      "path": "research/sources/salphaseion.html",
+      "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+    },
+    {
+      "locator": "line627, December26 2021 characters need to be zeroed out, unauthenticated speaker label",
+      "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+      "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+    },
+    {
+      "locator": "Existing195 typed source values/actual-hole/verified-spiral placement",
+      "path": "research/artifacts/cycle05/next-missing-cell-plan.json",
+      "sha256": "4b2e741843f6efc4089e670036318037ec77271735237b7dd54bbee519a10268"
+    },
+    {
+      "locator": "Secondary endpoint-zero placement uses image selectors, not the exact actual-hole placement; inspected, never executed",
+      "path": "research/evidence/cycle05/fork-solver__prime_host_delta.cjs",
+      "sha256": "012b8b1aeb7f3f1141a4faf4342813d054f1564a35bef78457777bb798b346bc"
+    },
+    {
+      "locator": null,
+      "path": "research/artifacts/cycle09/sumlist-codec-preflight.json",
+      "sha256": "d927436df7bc14b71ea5b111d7fba21beb5e37378210f49d9c688900869c31ee"
+    },
+    {
+      "locator": null,
+      "path": "research/artifacts/cycle09/cumulative-aes-audit.json",
+      "sha256": "5d3f6dd5fdbc9a1723641e24a370fdb5c4266720684a32e20d9a110601f2b763"
+    }
+  ],
+  "status": "UNTESTED"
+}

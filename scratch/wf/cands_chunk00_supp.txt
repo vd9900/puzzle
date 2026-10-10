@@ -1,0 +1,36 @@
+# chunk00 supplement: derived values implied by chat (colour hex as decimal, cell counts, hush-hush double forms)
+16773632
+4147404
+167736324147404
+414740416773632
+16773632 4147404
+15
+9
+24
+15 9
+159
+915
+1509
+15+9
+15 blue 9 yellow
+blue15yellow9
+yellow9blue15
+fff20016773632
+3f48cc4147404
+blue 3f48cc yellow fff200
+yellow fff200 blue 3f48cc
+3F48CC
+FFF200
+3F48CCFFF200
+FFF2003F48CC
+fff2003f48cc
+womb
+mother
+metra
+mitra
+μήτρα
+matrix greek
+greek matrix
+hushhushhashhash
+hash hash
+hashhash

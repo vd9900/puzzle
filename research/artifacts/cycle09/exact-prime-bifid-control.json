@@ -1,0 +1,279 @@
+{
+  "controls": [
+    {
+      "exact_original_square_probability_denominator": 1624117131,
+      "exact_original_square_probability_numerator": 40000,
+      "exact_prefix_probability_decimal": 0.000205533073358971,
+      "exact_prefix_probability_denominator": 901107283675599,
+      "exact_prefix_probability_numerator": 185207349440,
+      "expected_prefix_matches_per_10000": 2.05533073358971,
+      "logical_tokens": 84,
+      "mask": 505,
+      "null": "Exact uniform permutation of the residual multiset, fixed prime b/be template and exact faed source, same null as cycle08 Monte Carlo;8 previously enumerated prefix-producing first-nine squares reused, no new alphabet search",
+      "residual_symbols": 61,
+      "terms": [
+        {
+          "diagnostics": {
+            "last_required_fixed_token_logical_one_based": 11,
+            "peak_states": 53,
+            "prefix_residual_draws": 6,
+            "surviving_states": 7,
+            "tail_method": "Conditional unseen-letter first occurrences form a size-biased order with probability count(letter)/sum(counts of still-unseen letters); all later fixed b/e symbols have already occurred"
+          },
+          "exact_probability_decimal": 3.027099180547734e-05,
+          "exact_probability_denominator": 1374252957,
+          "exact_probability_numerator": 41600,
+          "is_original_source_square": false,
+          "square_fingerprint": "93dd9afd5b7dc999afc9df75a7cafc9f20f49788de0d48429b8557b9e1868762"
+        },
+        {
+          "diagnostics": {
+            "last_required_fixed_token_logical_one_based": 11,
+            "peak_states": 53,
+            "prefix_residual_draws": 6,
+            "surviving_states": 7,
+            "tail_method": "Conditional unseen-letter first occurrences form a size-biased order with probability count(letter)/sum(counts of still-unseen letters); all later fixed b/e symbols have already occurred"
+          },
+          "exact_probability_decimal": 2.4628765522207892e-05,
+          "exact_probability_denominator": 1624117131,
+          "exact_probability_numerator": 40000,
+          "is_original_source_square": true,
+          "square_fingerprint": "fa195b35579c86c09190638b6bff400c5ef512f6e632c55eb27f618e0a1f6442"
+        },
+        {
+          "diagnostics": {
+            "last_required_fixed_token_logical_one_based": 11,
+            "peak_states": 1,
+            "prefix_residual_draws": 6,
+            "surviving_states": 0,
+            "tail_method": "Conditional unseen-letter first occurrences form a size-biased order with probability count(letter)/sum(counts of still-unseen letters); all later fixed b/e symbols have already occurred"
+          },
+          "exact_probability_decimal": 0.0,
+          "exact_probability_denominator": 1,
+          "exact_probability_numerator": 0,
+          "is_original_source_square": false,
+          "square_fingerprint": "e9179dc99af0dd7156b724881ff3538f54529545ba4094ce51150966baae3caf"
+        },
+        {
+          "diagnostics": {
+            "last_required_fixed_token_logical_one_based": 11,
+            "peak_states": 1,
+            "prefix_residual_draws": 6,
+            "surviving_states": 0,
+            "tail_method": "Conditional unseen-letter first occurrences form a size-biased order with probability count(letter)/sum(counts of still-unseen letters); all later fixed b/e symbols have already occurred"
+          },
+          "exact_probability_decimal": 0.0,
+          "exact_probability_denominator": 1,
+          "exact_probability_numerator": 0,
+          "is_original_source_square": false,
+          "square_fingerprint": "a3ae31ebdb27d3c53b49a2add7bbdc0cfc424b51ab919b67c8c9dd1d63bc47a7"
+        },
+        {
+          "diagnostics": {
+            "last_required_fixed_token_logical_one_based": 11,
+            "peak_states": 56,
+            "prefix_residual_draws": 6,
+            "surviving_states": 56,
+            "tail_method": "Conditional unseen-letter first occurrences form a size-biased order with probability count(letter)/sum(counts of still-unseen letters); all later fixed b/e symbols have already occurred"
+          },
+          "exact_probability_decimal": 8.929711063013455e-05,
+          "exact_probability_denominator": 17917713,
+          "exact_probability_numerator": 1600,
+          "is_original_source_square": false,
+          "square_fingerprint": "33fee2aadd5b406db914854b5ec1cf98788e51d392bfedd2c7030bd1f84af0a1"
+        },
+        {
+          "diagnostics": {
+            "last_required_fixed_token_logical_one_based": 11,
+            "peak_states": 56,
+            "prefix_residual_draws": 6,
+            "surviving_states": 56,
+            "tail_method": "Conditional unseen-letter first occurrences form a size-biased order with probability count(letter)/sum(counts of still-unseen letters); all later fixed b/e symbols have already occurred"
+          },
+          "exact_probability_decimal": 6.133620540115124e-05,
+          "exact_probability_denominator": 5217147,
+          "exact_probability_numerator": 320,
+          "is_original_source_square": false,
+          "square_fingerprint": "075841482801ffc20e54d16dcccfcf378be3a14e74372208c11b363337efbbb7"
+        },
+        {
+          "diagnostics": {
+            "last_required_fixed_token_logical_one_based": 11,
+            "peak_states": 1,
+            "prefix_residual_draws": 6,
+            "surviving_states": 0,
+            "tail_method": "Conditional unseen-letter first occurrences form a size-biased order with probability count(letter)/sum(counts of still-unseen letters); all later fixed b/e symbols have already occurred"
+          },
+          "exact_probability_decimal": 0.0,
+          "exact_probability_denominator": 1,
+          "exact_probability_numerator": 0,
+          "is_original_source_square": false,
+          "square_fingerprint": "3b75c9b100435404c7a2d38a111ab25c647e9e4a8f168d2fada3a222f2984a6d"
+        },
+        {
+          "diagnostics": {
+            "last_required_fixed_token_logical_one_based": 11,
+            "peak_states": 1,
+            "prefix_residual_draws": 6,
+            "surviving_states": 0,
+            "tail_method": "Conditional unseen-letter first occurrences form a size-biased order with probability count(letter)/sum(counts of still-unseen letters); all later fixed b/e symbols have already occurred"
+          },
+          "exact_probability_decimal": 0.0,
+          "exact_probability_denominator": 1,
+          "exact_probability_numerator": 0,
+          "is_original_source_square": false,
+          "square_fingerprint": "4295751fa63a72019ef633f03f2f60f5b2ad6bbcf22543a701e00f2290b3b537"
+        }
+      ]
+    },
+    {
+      "exact_original_square_probability_denominator": 2958319,
+      "exact_original_square_probability_numerator": 80,
+      "exact_prefix_probability_decimal": 0.00019951454752692942,
+      "exact_prefix_probability_denominator": 487484268217947,
+      "exact_prefix_probability_numerator": 97260203200,
+      "expected_prefix_matches_per_10000": 1.9951454752692943,
+      "logical_tokens": 83,
+      "mask": 1017,
+      "null": "Exact uniform permutation of the residual multiset, fixed prime b/be template and exact faed source, same null as cycle08 Monte Carlo;8 previously enumerated prefix-producing first-nine squares reused, no new alphabet search",
+      "residual_symbols": 60,
+      "terms": [
+        {
+          "diagnostics": {
+            "last_required_fixed_token_logical_one_based": 11,
+            "peak_states": 53,
+            "prefix_residual_draws": 6,
+            "surviving_states": 7,
+            "tail_method": "Conditional unseen-letter first occurrences form a size-biased order with probability count(letter)/sum(counts of still-unseen letters); all later fixed b/e symbols have already occurred"
+          },
+          "exact_probability_decimal": 3.325046180311435e-05,
+          "exact_probability_denominator": 247816107,
+          "exact_probability_numerator": 8240,
+          "is_original_source_square": false,
+          "square_fingerprint": "93dd9afd5b7dc999afc9df75a7cafc9f20f49788de0d48429b8557b9e1868762"
+        },
+        {
+          "diagnostics": {
+            "last_required_fixed_token_logical_one_based": 11,
+            "peak_states": 53,
+            "prefix_residual_draws": 6,
+            "surviving_states": 7,
+            "tail_method": "Conditional unseen-letter first occurrences form a size-biased order with probability count(letter)/sum(counts of still-unseen letters); all later fixed b/e symbols have already occurred"
+          },
+          "exact_probability_decimal": 2.7042384543384267e-05,
+          "exact_probability_denominator": 2958319,
+          "exact_probability_numerator": 80,
+          "is_original_source_square": true,
+          "square_fingerprint": "fa195b35579c86c09190638b6bff400c5ef512f6e632c55eb27f618e0a1f6442"
+        },
+        {
+          "diagnostics": {
+            "last_required_fixed_token_logical_one_based": 11,
+            "peak_states": 1,
+            "prefix_residual_draws": 6,
+            "surviving_states": 0,
+            "tail_method": "Conditional unseen-letter first occurrences form a size-biased order with probability count(letter)/sum(counts of still-unseen letters); all later fixed b/e symbols have already occurred"
+          },
+          "exact_probability_decimal": 0.0,
+          "exact_probability_denominator": 1,
+          "exact_probability_numerator": 0,
+          "is_original_source_square": false,
+          "square_fingerprint": "e9179dc99af0dd7156b724881ff3538f54529545ba4094ce51150966baae3caf"
+        },
+        {
+          "diagnostics": {
+            "last_required_fixed_token_logical_one_based": 11,
+            "peak_states": 1,
+            "prefix_residual_draws": 6,
+            "surviving_states": 0,
+            "tail_method": "Conditional unseen-letter first occurrences form a size-biased order with probability count(letter)/sum(counts of still-unseen letters); all later fixed b/e symbols have already occurred"
+          },
+          "exact_probability_decimal": 0.0,
+          "exact_probability_denominator": 1,
+          "exact_probability_numerator": 0,
+          "is_original_source_square": false,
+          "square_fingerprint": "a3ae31ebdb27d3c53b49a2add7bbdc0cfc424b51ab919b67c8c9dd1d63bc47a7"
+        },
+        {
+          "diagnostics": {
+            "last_required_fixed_token_logical_one_based": 11,
+            "peak_states": 56,
+            "prefix_residual_draws": 6,
+            "surviving_states": 56,
+            "tail_method": "Conditional unseen-letter first occurrences form a size-biased order with probability count(letter)/sum(counts of still-unseen letters); all later fixed b/e symbols have already occurred"
+          },
+          "exact_probability_decimal": 8.253217800663951e-05,
+          "exact_probability_denominator": 9693189,
+          "exact_probability_numerator": 800,
+          "is_original_source_square": false,
+          "square_fingerprint": "33fee2aadd5b406db914854b5ec1cf98788e51d392bfedd2c7030bd1f84af0a1"
+        },
+        {
+          "diagnostics": {
+            "last_required_fixed_token_logical_one_based": 11,
+            "peak_states": 56,
+            "prefix_residual_draws": 6,
+            "surviving_states": 56,
+            "tail_method": "Conditional unseen-letter first occurrences form a size-biased order with probability count(letter)/sum(counts of still-unseen letters); all later fixed b/e symbols have already occurred"
+          },
+          "exact_probability_decimal": 5.66895231737913e-05,
+          "exact_probability_denominator": 2822391,
+          "exact_probability_numerator": 160,
+          "is_original_source_square": false,
+          "square_fingerprint": "075841482801ffc20e54d16dcccfcf378be3a14e74372208c11b363337efbbb7"
+        },
+        {
+          "diagnostics": {
+            "last_required_fixed_token_logical_one_based": 11,
+            "peak_states": 1,
+            "prefix_residual_draws": 6,
+            "surviving_states": 0,
+            "tail_method": "Conditional unseen-letter first occurrences form a size-biased order with probability count(letter)/sum(counts of still-unseen letters); all later fixed b/e symbols have already occurred"
+          },
+          "exact_probability_decimal": 0.0,
+          "exact_probability_denominator": 1,
+          "exact_probability_numerator": 0,
+          "is_original_source_square": false,
+          "square_fingerprint": "3b75c9b100435404c7a2d38a111ab25c647e9e4a8f168d2fada3a222f2984a6d"
+        },
+        {
+          "diagnostics": {
+            "last_required_fixed_token_logical_one_based": 11,
+            "peak_states": 1,
+            "prefix_residual_draws": 6,
+            "surviving_states": 0,
+            "tail_method": "Conditional unseen-letter first occurrences form a size-biased order with probability count(letter)/sum(counts of still-unseen letters); all later fixed b/e symbols have already occurred"
+          },
+          "exact_probability_decimal": 0.0,
+          "exact_probability_denominator": 1,
+          "exact_probability_numerator": 0,
+          "is_original_source_square": false,
+          "square_fingerprint": "4295751fa63a72019ef633f03f2f60f5b2ad6bbcf22543a701e00f2290b3b537"
+        }
+      ]
+    }
+  ],
+  "id": "C09-EXACT-PRIME-BIFID-CONTROL",
+  "limits": "Not a global discovery p-value, no correction for historical hypothesis selection and no independence claim; fixed first-nine keyed-square family only. Alternative squares are probability terms, never AES/password candidates",
+  "new_aes_trials": 0,
+  "new_passwords": 0,
+  "result": "Exact first-occurrence probability under the fixed prime grammar replaces sampling uncertainty for that conditional question; neither statistical rarity nor square uniqueness verifies a downstream AES stage or creator intent",
+  "source_evidence": [
+    {
+      "locator": null,
+      "path": "research/artifacts/cycle04/bifid-square-control.json",
+      "sha256": "b492219d457fb6c710d387b61dbd9728018b1befc510d37b065eb26714c2c2ec"
+    },
+    {
+      "locator": null,
+      "path": "research/artifacts/cycle08/prime-conditioned-bifid-control.json",
+      "sha256": "c3128a4119aeef78b43698461b7602ef5bc7c1854131ddd2e31fb5b4e031d28b"
+    },
+    {
+      "locator": null,
+      "path": "research/artifacts/cycle03/prime-boundary.json",
+      "sha256": "7a267b998cb9353cabba47bb4005abee0cbec18c7f878eb52c223bdf14fc9727"
+    }
+  ],
+  "status": "CONFIRMED"
+}

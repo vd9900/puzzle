@@ -1,0 +1,101 @@
+{
+  "candidate_rule": "Explicit page tokens, reproduced speech/message, speech suffix lengths 1..32; raw UTF-8 and lowercase SHA-256 hex passwords; MD5/SHA-256 legacy EVP KDFs",
+  "candidate_set_sha256": "9511652223ddd15700d908cf6d9e3a752ee9b6e601f040f75f0271b77d4202e1",
+  "confirmed_solution": false,
+  "elapsed_seconds": 0.0252,
+  "padding_valid_hits": [
+    {
+      "artifact": "search-phase32-inner-md5-e59de42f1e76bdd4.bin",
+      "bytes": 79,
+      "digest": "md5",
+      "longest_printable_ascii_run": 3,
+      "password_sha256": "e59de42f1e76bdd438cf3a639358fa9bfa27ea0b775d1a1155ce34acbcb33663",
+      "sha256": "9dedbf3c52c4c01d3ccb4d137a4f02e6a445c485fe7e5f0a8820233b0debc520",
+      "shannon_entropy_bits_per_byte": 5.9556,
+      "status": "INCONCLUSIVE",
+      "target": "phase32-inner"
+    },
+    {
+      "artifact": "search-phase32-inner-md5-5ba2d5fd4c00b67f.bin",
+      "bytes": 79,
+      "digest": "md5",
+      "longest_printable_ascii_run": 7,
+      "password_sha256": "5ba2d5fd4c00b67ff90a47c3f2a4e1d2b93bd897439db1239e6615f140bd7ad7",
+      "sha256": "cc86d939cd0ef4e6f17e7605f05551d4b07e2e02182a3db8b5e3c4b78c74fb65",
+      "shannon_entropy_bits_per_byte": 6.0759,
+      "status": "INCONCLUSIVE",
+      "target": "phase32-inner"
+    },
+    {
+      "artifact": "search-salphaseion-small-md5-e06146aee02e11ba.bin",
+      "bytes": 79,
+      "digest": "md5",
+      "longest_printable_ascii_run": 4,
+      "password_sha256": "e06146aee02e11ba83a2d0e2f4a6ada7e0bd9a501e7f5fde0208211be4ae740b",
+      "sha256": "fd8e05543f06cff6c7271dcd2d6cee74337f5db2fdff69fff36a53312fcb3d90",
+      "shannon_entropy_bits_per_byte": 6.117,
+      "status": "INCONCLUSIVE",
+      "target": "salphaseion-small"
+    },
+    {
+      "artifact": "search-salphaseion-small-md5-47c52fd8732fe0a3.bin",
+      "bytes": 79,
+      "digest": "md5",
+      "longest_printable_ascii_run": 5,
+      "password_sha256": "47c52fd8732fe0a37ec70240197d03db3edf124cc81adf41ac3cfc6a8bc1ec74",
+      "sha256": "b9508f9e69732873186ab3715630aa483ee463a22de0b926b4de7f455cf37601",
+      "shannon_entropy_bits_per_byte": 5.8481,
+      "status": "INCONCLUSIVE",
+      "target": "salphaseion-small"
+    },
+    {
+      "artifact": "search-salphaseion-small-md5-d26c7b380cdd0694.bin",
+      "bytes": 79,
+      "digest": "md5",
+      "longest_printable_ascii_run": 4,
+      "password_sha256": "d26c7b380cdd069430767ad4dcabe4d1f0d9678677abbed07930720b3b34cb0b",
+      "sha256": "0d81cc44e639827cee353fef66f4ce02866597bcb198fed36886833d27e2b5a6",
+      "shannon_entropy_bits_per_byte": 6.0821,
+      "status": "INCONCLUSIVE",
+      "target": "salphaseion-small"
+    },
+    {
+      "artifact": "search-salphaseion-small-md5-a35346830e8e94ea.bin",
+      "bytes": 79,
+      "digest": "md5",
+      "longest_printable_ascii_run": 5,
+      "password_sha256": "a35346830e8e94ea068ec6606a59f2bd7b21c2ad1fe042a05c9b75b740b85f28",
+      "sha256": "1449a2178eea7c0e3fabac8c1ad2afa294be4fc1800c594a025a056e88c626bf",
+      "shannon_entropy_bits_per_byte": 6.1266,
+      "status": "INCONCLUSIVE",
+      "target": "salphaseion-small"
+    },
+    {
+      "artifact": "search-cosmic-duality-sha256-f7c21385d548f99e.bin",
+      "bytes": 1327,
+      "digest": "sha256",
+      "longest_printable_ascii_run": 7,
+      "password_sha256": "f7c21385d548f99eeb884b2709c8511d019a4670114602272a42817e38feaa5e",
+      "sha256": "c9d685fba71d162e8344642ca1b2eb92ba747cb87db638e3914ab83aee1bc81c",
+      "shannon_entropy_bits_per_byte": 7.8466,
+      "status": "INCONCLUSIVE",
+      "target": "cosmic-duality"
+    },
+    {
+      "artifact": "search-cosmic-duality-sha256-90829b510c369756.bin",
+      "bytes": 1327,
+      "digest": "sha256",
+      "longest_printable_ascii_run": 9,
+      "password_sha256": "90829b510c3697569da47d2817f545f1e2a1cddd78e45f821dafcdab3dc0c281",
+      "sha256": "a794fc84d5cac8bfac2e8ed651b7ecfecdffdccb996f0a2f1ef367e8f0ad1684",
+      "shannon_entropy_bits_per_byte": 7.8525,
+      "status": "INCONCLUSIVE",
+      "target": "cosmic-duality"
+    }
+  ],
+  "passwords_per_target": 122,
+  "reason": "Padding-valid candidates require semantic structure or a target-address match; exhausting this finite set does not exclude other passwords",
+  "scope": "Finite source-clue candidates only; no keyspace enumeration and no network requests",
+  "status": "INCONCLUSIVE",
+  "trials": 732
+}

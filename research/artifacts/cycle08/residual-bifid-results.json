@@ -1,0 +1,16 @@
+{
+  "TARGET_MATCH": false,
+  "aes_trials": 18,
+  "bounded_raw_key_slots": 0,
+  "elapsed_seconds": 0.003,
+  "id": "C08-RESIDUAL-BIFID",
+  "ledger_sha256": "fb94223f756170f829c81de4e22b9ad15e7c68bca9db11b9851a31e66a80f605",
+  "max_hit_printable_ratio": 0,
+  "padding_hits": 0,
+  "qualifying_small_blob_hits": 0,
+  "result": "The frozen source-derived construction has no exact scoped target; padding and structure filters are not a creator-intent proof",
+  "secret_logging": "No password, AES key/IV, scalar, plaintext byte sequence or candidate address is stored; all source material regenerates locally",
+  "status": "INCONCLUSIVE",
+  "structure_hits": 0,
+  "unique_passwords": 3
+}

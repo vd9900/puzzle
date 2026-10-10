@@ -1,0 +1,1123 @@
+{
+  "candidate_set_sha256": "b39bb3e3730062f9ffa6e359fcf08d443a4ff64ca383ff24f277b37ca73a7239",
+  "estimated_crypto_seconds": 0.006,
+  "forms": [
+    {
+      "decoded_base64": "YnRjc2VlZGRlb2VtY2tlYWRoYnNjaGRrYmRjc2RrZHZieGNwY29jaGNyZGljaWJxZWViZGRiY25kc2JkY3BkZ2NwZG5jbmNzZXNjZ2RkY2xlbmJtY3VkdWNxY2FjZGVsZHplbGNtZWZkZmVzZG9kd2NrYnljdWJ3YmFlc2J3Ym5lbWVkZWFkb2JyY3BiZ2JxY29lZ2JzZW5lc2JsYnRlc2RhZHBkdWVzY3BjcmVhY25ja2NzY2RjbmJlZGtja2N0Y2xicmVuZW5jY2VnZWxjbmN1YnNiZ2VzZWllbmR1ZWZkZGJhY2tkbmJzZHNlc2NyYnNlYmJsYmllcmR2Y29iZGNjZWdic2VvYnZidmNkZW1jcGNzY2dlbGRpZWdkYWR3ZHljYWNwZWdlbmJ5ZWJjZ2NsY3JkYmJyZGdkYmRtZXJjbmNnZHRjZGJuY2ZjbGNwZG5icmJiZWJjbmVyZXJlbWVsZHNkYWRsZW5jcWJvY2hkcWRnYnhlZ2NmY3VlZWVpZGFjaWVhZG9jdGRuZWllZ2RlZWxkZWVsYm1ja2VkYmJlYWNtY29kcmVtY2NjbWNzY2dkYmNvY21kdGRsYm1jZGJtYm1kcGJzZG5ic2R5ZW9lb2NpZW5ic2VvYmljYmJiY25jbmVjZHVjaWJlY2NjZ2RvY21lZWR1Ym5kZWVsYmxiYWNwY3BjbWR4ZHhkcmRnY2JjbWRuZHJkZGVjZHdlYWRoYnRkaWNxY3Bkb2VmZGhkZ2R4ZHBjaWVs",
+      "parameters": {
+        "bifid_period": 570,
+        "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+        "material": "bifid-full570",
+        "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+        "transform": "exact-lowercase"
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 570,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.001761,
+        "longest_printable_run": 570,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded_base64": "QlRDU0VFRERFT0VNQ0tFQURIQlNDSERLQkRDU0RLRFZCWENQQ09DSENSRElDSUJRRUVCRERCQ05EU0JEQ1BER0NQRE5DTkNTRVNDR0REQ0xFTkJNQ1VEVUNRQ0FDREVMRFpFTENNRUZERkVTRE9EV0NLQllDVUJXQkFFU0JXQk5FTUVERUFET0JSQ1BCR0JRQ09FR0JTRU5FU0JMQlRFU0RBRFBEVUVTQ1BDUkVBQ05DS0NTQ0RDTkJFREtDS0NUQ0xCUkVORU5DQ0VHRUxDTkNVQlNCR0VTRUlFTkRVRUZEREJBQ0tETkJTRFNFU0NSQlNFQkJMQklFUkRWQ09CRENDRUdCU0VPQlZCVkNERU1DUENTQ0dFTERJRUdEQURXRFlDQUNQRUdFTkJZRUJDR0NMQ1JEQkJSREdEQkRNRVJDTkNHRFRDREJOQ0ZDTENQRE5CUkJCRUJDTkVSRVJFTUVMRFNEQURMRU5DUUJPQ0hEUURHQlhFR0NGQ1VFRUVJREFDSUVBRE9DVERORUlFR0RFRUxERUVMQk1DS0VEQkJFQUNNQ09EUkVNQ0NDTUNTQ0dEQkNPQ01EVERMQk1DREJNQk1EUEJTRE5CU0RZRU9FT0NJRU5CU0VPQklDQkJCQ05DTkVDRFVDSUJFQ0NDR0RPQ01FRURVQk5ERUVMQkxCQUNQQ1BDTURYRFhEUkRHQ0JDTURORFJEREVDRFdFQURIQlRESUNRQ1BET0VGREhER0RYRFBDSUVM",
+      "parameters": {
+        "bifid_period": 570,
+        "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+        "material": "bifid-full570",
+        "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+        "transform": "uppercase"
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 570,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.001761,
+        "longest_printable_run": 570,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded_base64": "bGVpY3BkeGRnZGhkZmVvZHBjcWNpZHRiaGRhZXdkY2VkZHJkbmRtY2JjZ2RyZHhkeGRtY3BjcGNhYmxibGVlZG5idWRlZW1jb2RnY2NjZWJpY3VkY2VuY25jYmJiY2lib2VzYm5laWNvZW9leWRzYm5kc2JwZG1ibWJkY21ibGR0ZG1jb2NiZGdjc2NtY2NjbWVyZG9jbWNhZWJiZGVrY21ibGVlZGxlZWRnZWllbmR0Y29kYWVpY2FkaWVlZXVjZmNnZXhiZ2RxZGhjb2JxY25lbGRhZHNkbGVtZXJlcmVuY2JlYmJyYm5kcGNsY2ZjbmJkY3RkZ2NuY3JlbWRiZGdkcmJiZHJjbGNnY2JleWJuZWdlcGNhY3lkd2RhZGdlaWRsZWdjc2NwY21lZGN2YnZib2VzYmdlY2NkYm9jdmRyZWlibGJiZXNicmNzZXNkc2JuZGtjYWJkZGZldWRuZWllc2VnYnNidWNuY2xlZ2VjY25lbmVyYmxjdGNrY2tkZWJuY2Rjc2NrY25jYWVyY3Bjc2V1ZHBkYWRzZXRibGJzZW5lc2JnZW9jcWJnYnBjcmJvZGFlZGVtZW5id2JzZWFid2J1Y3lia2N3ZG9kc2VmZGZlbWNsZXpkbGVkY2FjcWN1ZHVjbWJuZWxjZGRnY3Nlc2NuY25kcGNnZHBjZGJzZG5jYmRkYmVlcWJpY2lkcmNoY29jcGN4YnZka2RzY2Ria2RoY3NiaGRhZWtjbWVvZWRkZWVzY3Ri",
+      "parameters": {
+        "bifid_period": 570,
+        "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+        "material": "bifid-full570",
+        "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+        "transform": "reverse-bytes"
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 570,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.001761,
+        "longest_printable_run": 570,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded_base64": "ZGVvZW1ja2VhZGhic2NoZGtiZGNzZGtkdmJ4Y3Bjb2NoY3JkaWNpYnFlZWJkZGJjbmRzYmRjcGRnY3BkbmNuY3Nlc2NnZGRjbGVuYm1jdWR1Y3FjYWNkZWxkemVsY21lZmRmZXNkb2R3Y2tieWN1YndiYWVzYndibmVtZWRlYWRvYnJjcGJnYnFjb2VnYnNlbmVzYmxidGVzZGFkcGR1ZXNjcGNyZWFjbmNrY3NjZGNuYmVka2NrY3RjbGJyZW5lbmNjZWdlbGNuY3Vic2JnZXNlaWVuZHVlZmRkYmFja2RuYnNkc2VzY3Jic2ViYmxiaWVyZHZjb2JkY2NlZ2JzZW9idmJ2Y2RlbWNwY3NjZ2VsZGllZ2RhZHdkeWNhY3BlZ2VuYnllYmNnY2xjcmRiYnJkZ2RiZG1lcmNuY2dkdGNkYm5jZmNsY3BkbmJyYmJlYmNuZXJlcmVtZWxkc2RhZGxlbmNxYm9jaGRxZGdieGVnY2ZjdWVlZWlkYWNpZWFkb2N0ZG5laWVnZGVlbGRlZWxibWNrZWRiYmVhY21jb2RyZW1jY2NtY3NjZ2RiY29jbWR0ZGxibWNkYm1ibWRwYnNkbmJzZHllb2VvY2llbmJzZW9iaWNiYmJjbmNuZWNkdWNpYmVjY2NnZG9jbWVlZHVibmRlZWxibGJhY3BjcGNtZHhkeGRyZGdjYmNtZG5kcmRkZWNkd2VhZGhidGRpY3FjcGRvZWZkaGRnZHhkcGNpZWw=",
+      "parameters": {
+        "bifid_period": 570,
+        "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+        "material": "after-btcseed563",
+        "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+        "transform": "exact-lowercase"
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 563,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.001783,
+        "longest_printable_run": 563,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded_base64": "REVPRU1DS0VBREhCU0NIREtCRENTREtEVkJYQ1BDT0NIQ1JESUNJQlFFRUJEREJDTkRTQkRDUERHQ1BETkNOQ1NFU0NHRERDTEVOQk1DVURVQ1FDQUNERUxEWkVMQ01FRkRGRVNET0RXQ0tCWUNVQldCQUVTQldCTkVNRURFQURPQlJDUEJHQlFDT0VHQlNFTkVTQkxCVEVTREFEUERVRVNDUENSRUFDTkNLQ1NDRENOQkVES0NLQ1RDTEJSRU5FTkNDRUdFTENOQ1VCU0JHRVNFSUVORFVFRkREQkFDS0ROQlNEU0VTQ1JCU0VCQkxCSUVSRFZDT0JEQ0NFR0JTRU9CVkJWQ0RFTUNQQ1NDR0VMRElFR0RBRFdEWUNBQ1BFR0VOQllFQkNHQ0xDUkRCQlJER0RCRE1FUkNOQ0dEVENEQk5DRkNMQ1BETkJSQkJFQkNORVJFUkVNRUxEU0RBRExFTkNRQk9DSERRREdCWEVHQ0ZDVUVFRUlEQUNJRUFET0NURE5FSUVHREVFTERFRUxCTUNLRURCQkVBQ01DT0RSRU1DQ0NNQ1NDR0RCQ09DTURURExCTUNEQk1CTURQQlNETkJTRFlFT0VPQ0lFTkJTRU9CSUNCQkJDTkNORUNEVUNJQkVDQ0NHRE9DTUVFRFVCTkRFRUxCTEJBQ1BDUENNRFhEWERSREdDQkNNRE5EUkRERUNEV0VBREhCVERJQ1FDUERPRUZESERHRFhEUENJRUw=",
+      "parameters": {
+        "bifid_period": 570,
+        "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+        "material": "after-btcseed563",
+        "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+        "transform": "uppercase"
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 563,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.001783,
+        "longest_printable_run": 563,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded_base64": "bGVpY3BkeGRnZGhkZmVvZHBjcWNpZHRiaGRhZXdkY2VkZHJkbmRtY2JjZ2RyZHhkeGRtY3BjcGNhYmxibGVlZG5idWRlZW1jb2RnY2NjZWJpY3VkY2VuY25jYmJiY2lib2VzYm5laWNvZW9leWRzYm5kc2JwZG1ibWJkY21ibGR0ZG1jb2NiZGdjc2NtY2NjbWVyZG9jbWNhZWJiZGVrY21ibGVlZGxlZWRnZWllbmR0Y29kYWVpY2FkaWVlZXVjZmNnZXhiZ2RxZGhjb2JxY25lbGRhZHNkbGVtZXJlcmVuY2JlYmJyYm5kcGNsY2ZjbmJkY3RkZ2NuY3JlbWRiZGdkcmJiZHJjbGNnY2JleWJuZWdlcGNhY3lkd2RhZGdlaWRsZWdjc2NwY21lZGN2YnZib2VzYmdlY2NkYm9jdmRyZWlibGJiZXNicmNzZXNkc2JuZGtjYWJkZGZldWRuZWllc2VnYnNidWNuY2xlZ2VjY25lbmVyYmxjdGNrY2tkZWJuY2Rjc2NrY25jYWVyY3Bjc2V1ZHBkYWRzZXRibGJzZW5lc2JnZW9jcWJnYnBjcmJvZGFlZGVtZW5id2JzZWFid2J1Y3lia2N3ZG9kc2VmZGZlbWNsZXpkbGVkY2FjcWN1ZHVjbWJuZWxjZGRnY3Nlc2NuY25kcGNnZHBjZGJzZG5jYmRkYmVlcWJpY2lkcmNoY29jcGN4YnZka2RzY2Ria2RoY3NiaGRhZWtjbWVvZWQ=",
+      "parameters": {
+        "bifid_period": 570,
+        "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+        "material": "after-btcseed563",
+        "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+        "transform": "reverse-bytes"
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 563,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.001783,
+        "longest_printable_run": 563,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded_base64": "YmNlZGVlY2VkYmNkYmNkZGJjY2NjZGNiZWJkY2RiY2RjZGNjZWNkY2ViY2RjY2NlZGVjZWRlZGRjYmNiYmViYmVlZWRiY2JiY2ViZWViYmVkZGRlY2NlY2NjY2NiZGNjY2JlZWNlZWNjYmJlZWVkZWRiY2RiZGVjYmViYmVkY2JjZWJlYmJjZWNjY2VkZWRkZGNjZWViZWNjY2RiZGRkZWNjZGNiY2NjZGJiZWNlZWVlZGRkZWNiY2RkYmVjY2VlZGNlZGNkZWVkZWRlYmNlYmVjY2RlY2NjY2RjY2RkYmNiYmRiZGJkZWVjZWJlYmNiY2NlZGNiY2NkY2VkYmRlYmJjY2NkZGRkY2NkZGRlZGVkYmRjY2RlZGRkZGNl",
+      "parameters": {
+        "bifid_period": 570,
+        "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+        "material": "full-even-positions285",
+        "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+        "transform": "exact-lowercase"
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 285,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 285,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded_base64": "QkNFREVFQ0VEQkNEQkNEREJDQ0NDRENCRUJEQ0RCQ0RDRENDRUNEQ0VCQ0RDQ0NFREVDRURFRERDQkNCQkVCQkVFRURCQ0JCQ0VCRUVCQkVERERFQ0NFQ0NDQ0NCRENDQ0JFRUNFRUNDQkJFRUVERURCQ0RCREVDQkVCQkVEQ0JDRUJFQkJDRUNDQ0VERURERENDRUVCRUNDQ0RCRERERUNDRENCQ0NDREJCRUNFRUVFRERERUNCQ0REQkVDQ0VFRENFRENERUVERURFQkNFQkVDQ0RFQ0NDQ0RDQ0REQkNCQkRCREJERUVDRUJFQkNCQ0NFRENCQ0NEQ0VEQkRFQkJDQ0NEREREQ0NERERFREVEQkRDQ0RFRERERENF",
+      "parameters": {
+        "bifid_period": 570,
+        "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+        "material": "full-even-positions285",
+        "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+        "transform": "uppercase"
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 285,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 285,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded_base64": "ZWNkZGRkZWRjY2RiZGVkZWRkZGNjZGRkZGNjY2JiZWRiZGVjZGNjYmNkZWNjYmNiZWJlY2VlZGJkYmRiYmNiZGRjY2RjY2NjZWRjY2ViZWNiZWRlZGVlZGNkZWNkZWVjY2ViZGRjYmNlZGRkZWVlZWNlYmJkY2NjYmNkY2NlZGRkYmRjY2NlYmVlY2NkZGRlZGVjY2NlY2JiZWJlY2JjZGViYmViY2VkYmRjYmRlZGVlZWJiY2NlZWNlZWJjY2NkYmNjY2NjZWNjZWRkZGViYmVlYmVjYmJjYmRlZWViYmViYmNiY2RkZWRlY2VkZWNjY2RjYmVjZGNlY2NkY2RjYmRjZGJlYmNkY2NjY2JkZGNiZGNiZGVjZWVkZWNi",
+      "parameters": {
+        "bifid_period": 570,
+        "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+        "material": "full-even-positions285",
+        "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+        "transform": "reverse-bytes"
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 285,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 285,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded_base64": "dHNlZG9ta2Foc2hrZHNrdnhwb2hyaWlxZWRibnNkcGdwbm5zc2dkbG5tdXVxYWRsemxtZmZzb3dreXV3YXN3bm1kYW9ycGdxb2dzbnNsdHNhcHVzcHJhbmtzZG5la2t0bHJubmNnbG51c2dzaW51ZmRha25zc3Nyc2JsaXJ2b2RjZ3NvdnZkbXBzZ2xpZ2F3eWFwZ255YmdscmJyZ2Jtcm5ndGRuZmxwbnJiYm5ycm1sc2FsbnFvaHFneGdmdWVpYWlhb3RuaWdlbGVsbWtkYmFtb3JtY21zZ2JvbXRsbWRtbXBzbnN5b29pbnNvaWJibm5jdWllY2dvbWV1bmVsbGFwcG14eHJnYm1ucmRjd2FodGlxcG9maGd4cGls",
+      "parameters": {
+        "bifid_period": 570,
+        "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+        "material": "full-odd-positions285",
+        "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+        "transform": "exact-lowercase"
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 285,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.003534,
+        "longest_printable_run": 285,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded_base64": "VFNFRE9NS0FIU0hLRFNLVlhQT0hSSUlRRURCTlNEUEdQTk5TU0dETE5NVVVRQURMWkxNRkZTT1dLWVVXQVNXTk1EQU9SUEdRT0dTTlNMVFNBUFVTUFJBTktTRE5FS0tUTFJOTkNHTE5VU0dTSU5VRkRBS05TU1NSU0JMSVJWT0RDR1NPVlZETVBTR0xJR0FXWUFQR05ZQkdMUkJSR0JNUk5HVERORkxQTlJCQk5SUk1MU0FMTlFPSFFHWEdGVUVJQUlBT1ROSUdFTEVMTUtEQkFNT1JNQ01TR0JPTVRMTURNTVBTTlNZT09JTlNPSUJCTk5DVUlFQ0dPTUVVTkVMTEFQUE1YWFJHQk1OUkRDV0FIVElRUE9GSEdYUElM",
+      "parameters": {
+        "bifid_period": 570,
+        "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+        "material": "full-odd-positions285",
+        "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+        "transform": "uppercase"
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 285,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.003534,
+        "longest_printable_run": 285,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded_base64": "bGlweGdoZm9wcWl0aGF3Y2Rybm1iZ3J4eG1wcGFsbGVudWVtb2djZWl1Y25uYmJpb3NuaW9veXNuc3BtbWRtbHRtb2Jnc21jbXJvbWFiZGttbGVsZWdpbnRvYWlhaWV1Zmd4Z3Fob3FubGFzbG1ycm5iYnJucGxmbmR0Z25ybWJncmJybGdieW5ncGF5d2FnaWxnc3BtZHZ2b3NnY2RvdnJpbGJzcnNzc25rYWRmdW5pc2dzdW5sZ2NubnJsdGtrZW5kc2tuYXJwc3VwYXN0bHNuc2dvcWdwcm9hZG1ud3Nhd3V5a3dvc2ZmbWx6bGRhcXV1bW5sZGdzc25ucGdwZHNuYmRlcWlpcmhvcHh2a3Nka2hzaGFrbW9kZXN0",
+      "parameters": {
+        "bifid_period": 570,
+        "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+        "material": "full-odd-positions285",
+        "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+        "transform": "reverse-bytes"
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 285,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.003534,
+        "longest_printable_run": 285,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded_base64": "YnRjc2VlZA==",
+      "parameters": {
+        "bifid_period": 570,
+        "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+        "material": "bifid-prefix",
+        "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+        "transform": "exact-lowercase"
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 7,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 7,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded_base64": "QlRDU0VFRA==",
+      "parameters": {
+        "bifid_period": 570,
+        "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+        "material": "bifid-prefix",
+        "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+        "transform": "uppercase"
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 7,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 7,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded_base64": "ZGVlc2N0Yg==",
+      "parameters": {
+        "bifid_period": 570,
+        "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+        "material": "bifid-prefix",
+        "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+        "transform": "reverse-bytes"
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 7,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 7,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded_base64": "ZGJpZmhjZWdha2xtbm9wcXJzdHV2d3h5eg==",
+      "parameters": {
+        "bifid_period": 570,
+        "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+        "material": "source-key-square",
+        "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+        "transform": "exact-lowercase"
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 25,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 25,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded_base64": "REJJRkhDRUdBS0xNTk9QUVJTVFVWV1hZWg==",
+      "parameters": {
+        "bifid_period": 570,
+        "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+        "material": "source-key-square",
+        "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+        "transform": "uppercase"
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 25,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 25,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded_base64": "enl4d3Z1dHNycXBvbm1sa2FnZWNoZmliZA==",
+      "parameters": {
+        "bifid_period": 570,
+        "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+        "material": "source-key-square",
+        "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+        "transform": "reverse-bytes"
+      },
+      "score": {
+        "alphabetic_ratio": 1.0,
+        "bytes": 25,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 25,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    }
+  ],
+  "gate": "Independent downstream structure or exact scoped-address match, including bounded direct raw-key pair interpretation of small-blob hits",
+  "hypothesis": "Exact source-derived Bifid output, reproduced btcseed prefix/suffix, or complementary parity rails feed unresolved AES",
+  "id": "C04-BIFID-MATERIAL",
+  "justification": "A source-keyed public recipe reproduces a concrete btcseed prefix and exact archived570-letter result. Testing its actual material as downstream passphrase is stronger than assuming letters imply a solution. Parity rails are explicit weaker yinyang alternatives; their alphabet restriction is algebraically forced.",
+  "limits": "Plan only; no free Bifid key/period, second cipher, decoder alphabet, payload edit, arbitrary slice or brute-force dictionary. Prefix alone is not enough.",
+  "passwords": {
+    "0c5d984f90e9baefc09f1d3888e62acbd101f9b0194887e2ae88fc6c9967745e": {
+      "password_hex": "4254435345454444454f454d434b4541444842534348444b42444353444b445642584350434f43484352444943494251454542444442434e44534244435044474350444e434e4353455343474444434c454e424d43554455435143414344454c445a454c434d454644464553444f4457434b425943554257424145534257424e454d45444541444f4252435042474251434f45474253454e4553424c425445534441445044554553435043524541434e434b43534344434e4245444b434b4354434c4252454e454e43434547454c434e43554253424745534549454e4455454644444241434b444e425344534553435242534542424c424945524456434f4244434345474253454f425642564344454d435043534347454c44494547444144574459434143504547454e425945424347434c43524442425244474442444d4552434e434744544344424e4346434c4350444e425242424542434e45524552454d454c44534441444c454e4351424f434844514447425845474346435545454549444143494541444f4354444e454945474445454c4445454c424d434b454442424541434d434f4452454d4343434d435343474442434f434d4454444c424d4344424d424d44504253444e42534459454f454f4349454e4253454f424943424242434e434e454344554349424543434347444f434d45454455424e4445454c424c424143504350434d44584458445244474342434d444e4452444445434457454144484254444943514350444f454644484447445844504349454c",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "bifid-full570",
+          "representation": "raw",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "uppercase"
+        }
+      ]
+    },
+    "15d62c8228c1a30f3f6280fcdce2251fe616135e9de291b0c7b8a792dd8d0507": {
+      "password_hex": "6274637365656464656f656d636b6561646862736368646b62646373646b647662786370636f63686372646963696271656562646462636e64736264637064676370646e636e6373657363676464636c656e626d63756475637163616364656c647a656c636d656664666573646f6477636b627963756277626165736277626e656d65646561646f6272637062676271636f65676273656e6573626c627465736461647064756573637063726561636e636b63736364636e6265646b636b6374636c6272656e656e63636567656c636e63756273626765736569656e6475656664646261636b646e627364736573637262736562626c626965726476636f6264636365676273656f627662766364656d637063736367656c64696567646164776479636163706567656e627965626367636c63726462627264676462646d6572636e636764746364626e6366636c6370646e627262626562636e65726572656d656c64736461646c656e6371626f636864716467627865676366637565656569646163696561646f6374646e656965676465656c6465656c626d636b656462626561636d636f6472656d6363636d637363676462636f636d6474646c626d6364626d626d64706273646e62736479656f656f6369656e6273656f626963626262636e636e656364756369626563636367646f636d65656475626e6465656c626c626163706370636d64786478647264676362636d646e6472646465636477656164686274646963716370646f656664686467647864706369656c",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "bifid-full570",
+          "representation": "raw",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "exact-lowercase"
+        }
+      ]
+    },
+    "1662740afa05d1a3f45527f89910bb4ca26b6614a1076026b87e1df36dfe2a74": {
+      "password_hex": "30633564393834663930653962616566633039663164333838386536326163626431303166396230313934383837653261653838666336633939363737343565",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "bifid-full570",
+          "representation": "sha256-lowerhex",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "uppercase"
+        }
+      ]
+    },
+    "18ca76bf19bb791af556ff4daed3436f39ba3398bcbcfa162af4f77c67d22fb5": {
+      "password_hex": "44454f454d434b4541444842534348444b42444353444b445642584350434f43484352444943494251454542444442434e44534244435044474350444e434e4353455343474444434c454e424d43554455435143414344454c445a454c434d454644464553444f4457434b425943554257424145534257424e454d45444541444f4252435042474251434f45474253454e4553424c425445534441445044554553435043524541434e434b43534344434e4245444b434b4354434c4252454e454e43434547454c434e43554253424745534549454e4455454644444241434b444e425344534553435242534542424c424945524456434f4244434345474253454f425642564344454d435043534347454c44494547444144574459434143504547454e425945424347434c43524442425244474442444d4552434e434744544344424e4346434c4350444e425242424542434e45524552454d454c44534441444c454e4351424f434844514447425845474346435545454549444143494541444f4354444e454945474445454c4445454c424d434b454442424541434d434f4452454d4343434d435343474442434f434d4454444c424d4344424d424d44504253444e42534459454f454f4349454e4253454f424943424242434e434e454344554349424543434347444f434d45454455424e4445454c424c424143504350434d44584458445244474342434d444e4452444445434457454144484254444943514350444f454644484447445844504349454c",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "after-btcseed563",
+          "representation": "raw",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "uppercase"
+        }
+      ]
+    },
+    "25a82c7983cd39872782af928f91aa001611734d728a5e7641e00020d3c58977": {
+      "password_hex": "33613932386338653666623766373131616332323832633332653635303535393765656365303362383863333266666432316566656637653634616466643339",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "after-btcseed563",
+          "representation": "sha256-lowerhex",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "reverse-bytes"
+        }
+      ]
+    },
+    "2d08df3d8f929d02699f9f683240b031e9732995d945c9a71fb9cf0c22968e96": {
+      "password_hex": "4442494648434547414b4c4d4e4f505152535455565758595a",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "source-key-square",
+          "representation": "raw",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "uppercase"
+        }
+      ]
+    },
+    "308ae4a3ca1781108eb6bffb9ac911c15b8fbaced09aa957712951b08f99bc82": {
+      "password_hex": "32643038646633643866393239643032363939663966363833323430623033316539373332393935643934356339613731666239636630633232393638653936",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "source-key-square",
+          "representation": "sha256-lowerhex",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "uppercase"
+        }
+      ]
+    },
+    "31e00960cc79d3186c6d152144d6b8054bf53700c8607e54b7e5fa3f383b371e": {
+      "password_hex": "63376465356238636466333030613665346637373131623938646165656139363662386639326135646366343838373133666431636236333238346537363432",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "bifid-prefix",
+          "representation": "sha256-lowerhex",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "uppercase"
+        }
+      ]
+    },
+    "33fc727b5a9d1d11013051bc4bc3af2c9c5dcf60ff07e4a9688ad041bf0889fb": {
+      "password_hex": "424345444545434544424344424344444243434343444342454244434442434443444343454344434542434443434345444543454445444443424342424542424545454442434242434542454542424544444445434345434343434342444343434245454345454343424245454544454442434442444543424542424544434243454245424243454343434544454444444343454542454343434442444444454343444342434343444242454345454545444444454342434444424543434545444345444344454544454445424345424543434445434343434443434444424342424442444244454543454245424342434345444342434344434544424445424243434344444444434344444445444544424443434445444444444345",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "full-even-positions285",
+          "representation": "raw",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "uppercase"
+        }
+      ]
+    },
+    "354a32ac8b78a150432c66d4bd1b0c2a79f51810bbca92c18093a618077fcbd8": {
+      "password_hex": "37762314c4ca52c695d738d3e08a58fcdd775f0dc30d2996a86db685775aafa8",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "after-btcseed563",
+          "representation": "sha256-raw",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "exact-lowercase"
+        }
+      ]
+    },
+    "37762314c4ca52c695d738d3e08a58fcdd775f0dc30d2996a86db685775aafa8": {
+      "password_hex": "64656f656d636b6561646862736368646b62646373646b647662786370636f63686372646963696271656562646462636e64736264637064676370646e636e6373657363676464636c656e626d63756475637163616364656c647a656c636d656664666573646f6477636b627963756277626165736277626e656d65646561646f6272637062676271636f65676273656e6573626c627465736461647064756573637063726561636e636b63736364636e6265646b636b6374636c6272656e656e63636567656c636e63756273626765736569656e6475656664646261636b646e627364736573637262736562626c626965726476636f6264636365676273656f627662766364656d637063736367656c64696567646164776479636163706567656e627965626367636c63726462627264676462646d6572636e636764746364626e6366636c6370646e627262626562636e65726572656d656c64736461646c656e6371626f636864716467627865676366637565656569646163696561646f6374646e656965676465656c6465656c626d636b656462626561636d636f6472656d6363636d637363676462636f636d6474646c626d6364626d626d64706273646e62736479656f656f6369656e6273656f626963626262636e636e656364756369626563636367646f636d65656475626e6465656c626c626163706370636d64786478647264676362636d646e6472646465636477656164686274646963716370646f656664686467647864706369656c",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "after-btcseed563",
+          "representation": "raw",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "exact-lowercase"
+        }
+      ]
+    },
+    "38a72e2c75b021633a2e6acf67dd5c8db669c1a222a0cfd24848a8936bdb783c": {
+      "password_hex": "33336663373237623561396431643131303133303531626334626333616632633963356463663630666630376534613936383861643034316266303838396662",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "full-even-positions285",
+          "representation": "sha256-lowerhex",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "uppercase"
+        }
+      ]
+    },
+    "391a321616d497feb16449e204637129c2f8c6011a467074e88007038dac0fbf": {
+      "password_hex": "3a928c8e6fb7f711ac2282c32e6505597eece03b88c32ffd21efef7e64adfd39",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "after-btcseed563",
+          "representation": "sha256-raw",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "reverse-bytes"
+        }
+      ]
+    },
+    "398bd35f14b5b4ccaffc430549672e3ae623dbc6db3ac02eacf1d7e7a496db08": {
+      "password_hex": "62746373656564",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "bifid-prefix",
+          "representation": "raw",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "exact-lowercase"
+        }
+      ]
+    },
+    "39944e6452b893445ebecea7b617729cb7656e64f0f0a5dd7de9cfd69ca6cf78": {
+      "password_hex": "559ca4e1b0e19d8cff512e6dc65e37381efbbeca9405f3b031cee34424e30df9",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "full-odd-positions285",
+          "representation": "sha256-raw",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "uppercase"
+        }
+      ]
+    },
+    "3a928c8e6fb7f711ac2282c32e6505597eece03b88c32ffd21efef7e64adfd39": {
+      "password_hex": "6c656963706478646764686466656f6470637163696474626864616577646365646472646e646d63626367647264786478646d637063706361626c626c6565646e62756465656d636f646763636365626963756463656e636e636262626369626f6573626e6569636f656f65796473626e64736270646d626d6264636d626c6474646d636f636264676373636d6363636d6572646f636d636165626264656b636d626c6565646c656564676569656e6474636f646165696361646965656575636663676578626764716468636f6271636e656c64616473646c656d65726572656e636265626272626e6470636c6366636e626463746467636e6372656d64626467647262626472636c636763626579626e65676570636163796477646164676569646c656763736370636d656463766276626f6573626765636364626f637664726569626c626265736272637365736473626e646b6361626464666575646e65696573656762736275636e636c65676563636e656e6572626c6374636b636b6465626e63646373636b636e636165726370637365756470646164736574626c6273656e65736267656f6371626762706372626f64616564656d656e627762736561627762756379626b6377646f647365666466656d636c657a646c65646361637163756475636d626e656c6364646763736573636e636e64706367647063646273646e63626464626565716269636964726368636f637063786276646b64736364626b6468637362686461656b636d656f6564",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "after-btcseed563",
+          "representation": "raw",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "reverse-bytes"
+        }
+      ]
+    },
+    "3b6509139eec59ec3796b9643c6c8ccddf10f2aa7b9b25ab828e599be01759be": {
+      "password_hex": "34303165396366643936306538306632343566353162663831363537386237626435306137393332353935636337653930326465323037353536303433393036",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "full-odd-positions285",
+          "representation": "sha256-lowerhex",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "exact-lowercase"
+        }
+      ]
+    },
+    "401e9cfd960e80f245f51bf816578b7bd50a7932595cc7e902de207556043906": {
+      "password_hex": "747365646f6d6b616873686b64736b7678706f68726969716564626e73647067706e6e737367646c6e6d75757161646c7a6c6d6666736f776b7975776173776e6d64616f727067716f67736e736c7473617075737072616e6b73646e656b6b746c726e6e63676c6e75736773696e756664616b6e7373737273626c6972766f646367736f7676646d7073676c69676177796170676e7962676c72627267626d726e6774646e666c706e7262626e72726d6c73616c6e716f6871677867667565696169616f746e6967656c656c6d6b6462616d6f726d636d7367626f6d746c6d646d6d70736e73796f6f696e736f6962626e6e6375696563676f6d65756e656c6c6170706d78787267626d6e726463776168746971706f6668677870696c",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "full-odd-positions285",
+          "representation": "raw",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "exact-lowercase"
+        }
+      ]
+    },
+    "420582f87804873f2af7822d40b27c15dbaea24e7b031c5cb0fd7f8b7eed54e7": {
+      "password_hex": "a1c4bddd547578a1634a710c3e9c6f1d61442eb3edac373f6038ed719a1eccdb",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "source-key-square",
+          "representation": "sha256-raw",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "reverse-bytes"
+        }
+      ]
+    },
+    "43fedba6e42d9c78f8cddd5c93ac43dea6e656a721a419d4f4d6858029ead599": {
+      "password_hex": "401e9cfd960e80f245f51bf816578b7bd50a7932595cc7e902de207556043906",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "full-odd-positions285",
+          "representation": "sha256-raw",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "exact-lowercase"
+        }
+      ]
+    },
+    "4508c0a716ee6110271238885db1d3242a37841b45dd3501dd631fd6c2943d76": {
+      "password_hex": "2d08df3d8f929d02699f9f683240b031e9732995d945c9a71fb9cf0c22968e96",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "source-key-square",
+          "representation": "sha256-raw",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "uppercase"
+        }
+      ]
+    },
+    "4b0da8dde389bd5bd388d0f546d1701e29bca3e41366f19afb93850216d9e910": {
+      "password_hex": "33393862643335663134623562346363616666633433303534393637326533616536323364626336646233616330326561636631643765376134393664623038",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "bifid-prefix",
+          "representation": "sha256-lowerhex",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "exact-lowercase"
+        }
+      ]
+    },
+    "4f7bd2c0c6d510efa57240f3766fbcc5d8c0ec6308e60b34a21c756db74e1a86": {
+      "password_hex": "6c6970786768666f707169746861776364726e6d62677278786d7070616c6c656e75656d6f6763656975636e6e6262696f736e696f6f79736e73706d6d646d6c746d6f6267736d636d726f6d6162646b6d6c656c6567696e746f6169616965756667786771686f716e6c61736c6d72726e6262726e706c666e6474676e726d62677262726c6762796e67706179776167696c6773706d6476766f736763646f7672696c6273727373736e6b616466756e69736773756e6c67636e6e726c746b6b656e64736b6e6172707375706173746c736e73676f716770726f61646d6e7773617775796b776f7366666d6c7a6c64617175756d6e6c646773736e6e70677064736e62646571696972686f7078766b73646b687368616b6d6f64657374",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "full-odd-positions285",
+          "representation": "raw",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "reverse-bytes"
+        }
+      ]
+    },
+    "50bf42947bbb47b83ff88beb83b34b612ccbde200e308d7fb6df744ed393fba7": {
+      "password_hex": "c7de5b8cdf300a6e4f7711b98daeea966b8f92a5dcf488713fd1cb63284e7642",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "bifid-prefix",
+          "representation": "sha256-raw",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "uppercase"
+        }
+      ]
+    },
+    "50fc5ce112cae8d35154edd40f0d6e72f309b923d994f596e2a73c42536c03d5": {
+      "password_hex": "b4311b05665a488d4259a94fb0890d9ab44f0cafd1c0eddd55dfe7d8636c43e0",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "full-even-positions285",
+          "representation": "sha256-raw",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "reverse-bytes"
+        }
+      ]
+    },
+    "559ca4e1b0e19d8cff512e6dc65e37381efbbeca9405f3b031cee34424e30df9": {
+      "password_hex": "545345444f4d4b414853484b44534b5658504f48524949514544424e53445047504e4e535347444c4e4d55555141444c5a4c4d4646534f574b5955574153574e4d44414f525047514f47534e534c5453415055535052414e4b53444e454b4b544c524e4e43474c4e55534753494e554644414b4e5353535253424c4952564f444347534f5656444d5053474c49474157594150474e5942474c52425247424d524e4754444e464c504e5242424e52524d4c53414c4e514f4851475847465545494149414f544e4947454c454c4d4b4442414d4f524d434d5347424f4d544c4d444d4d50534e53594f4f494e534f4942424e4e4355494543474f4d45554e454c4c4150504d58585247424d4e524443574148544951504f4648475850494c",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "full-odd-positions285",
+          "representation": "raw",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "uppercase"
+        }
+      ]
+    },
+    "57100274a40afd4278595dd992bd32df89433c1d511af138b626e011f5c32d9f": {
+      "password_hex": "31386361373662663139626237393161663535366666346461656433343336663339626133333938626362636661313632616634663737633637643232666235",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "after-btcseed563",
+          "representation": "sha256-lowerhex",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "uppercase"
+        }
+      ]
+    },
+    "6206a07d9ddadaefc52b1525b4bf991642777a3ac0ea0969e1b3248a1f8b5c79": {
+      "password_hex": "fa195b35579c86c09190638b6bff400c5ef512f6e632c55eb27f618e0a1f6442",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "source-key-square",
+          "representation": "sha256-raw",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "exact-lowercase"
+        }
+      ]
+    },
+    "6619629e1efdfcb801138507cf5709c8855bb2e9fae169d39d2330ac27637789": {
+      "password_hex": "398bd35f14b5b4ccaffc430549672e3ae623dbc6db3ac02eacf1d7e7a496db08",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "bifid-prefix",
+          "representation": "sha256-raw",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "exact-lowercase"
+        }
+      ]
+    },
+    "6f767a81a41cc2107fb5fd608473bdb0b47442c88587a194bfa85cdedcf438ef": {
+      "password_hex": "4f7bd2c0c6d510efa57240f3766fbcc5d8c0ec6308e60b34a21c756db74e1a86",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "full-odd-positions285",
+          "representation": "sha256-raw",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "reverse-bytes"
+        }
+      ]
+    },
+    "7028988a1de0bdfcd6547bbb5427f72832cde142a9e9cfeba7ffb9ab94dd36c8": {
+      "password_hex": "31356436326338323238633161333066336636323830666364636532323531666536313631333565396465323931623063376238613739326464386430353037",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "bifid-full570",
+          "representation": "sha256-lowerhex",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "exact-lowercase"
+        }
+      ]
+    },
+    "7395649b13119abdc00beb27094d22cdbde683d0f4e2fc6270ab9c4cb6813ff5": {
+      "password_hex": "62343331316230353636356134383864343235396139346662303839306439616234346630636166643163306564646435356466653764383633366334336530",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "full-even-positions285",
+          "representation": "sha256-lowerhex",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "reverse-bytes"
+        }
+      ]
+    },
+    "7897806c9ecd8e4cec0ac76840a133c8ad55ae7a35427be34efeb3ac2e0a2062": {
+      "password_hex": "65396230643866333131633235616335663466633937346466396665386537346464313239363862363763393530646535313235333631306164373532326438",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "full-even-positions285",
+          "representation": "sha256-lowerhex",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "exact-lowercase"
+        }
+      ]
+    },
+    "8065d1f89f5752069e77a0f296d204bc4b39ec50abb4f8c4530c1ca9a875ce74": {
+      "password_hex": "aa0738e688eda48fcf5b5491a8816d179ca9ca6232ffddbda1568ad9a84c7f72",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "bifid-full570",
+          "representation": "sha256-raw",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "reverse-bytes"
+        }
+      ]
+    },
+    "959f365b4a9ef5002182d053c3a14c7bade1a1713c4ce6d4868204e0e269e634": {
+      "password_hex": "33fc727b5a9d1d11013051bc4bc3af2c9c5dcf60ff07e4a9688ad041bf0889fb",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "full-even-positions285",
+          "representation": "sha256-raw",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "uppercase"
+        }
+      ]
+    },
+    "969b520ee59a1be39620253938df7ebf0de7fa3d6ea6e3173a5c59e4cdd66f0f": {
+      "password_hex": "18ca76bf19bb791af556ff4daed3436f39ba3398bcbcfa162af4f77c67d22fb5",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "after-btcseed563",
+          "representation": "sha256-raw",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "uppercase"
+        }
+      ]
+    },
+    "a1c4bddd547578a1634a710c3e9c6f1d61442eb3edac373f6038ed719a1eccdb": {
+      "password_hex": "7a797877767574737271706f6e6d6c6b616765636866696264",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "source-key-square",
+          "representation": "raw",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "reverse-bytes"
+        }
+      ]
+    },
+    "aa0738e688eda48fcf5b5491a8816d179ca9ca6232ffddbda1568ad9a84c7f72": {
+      "password_hex": "6c656963706478646764686466656f6470637163696474626864616577646365646472646e646d63626367647264786478646d637063706361626c626c6565646e62756465656d636f646763636365626963756463656e636e636262626369626f6573626e6569636f656f65796473626e64736270646d626d6264636d626c6474646d636f636264676373636d6363636d6572646f636d636165626264656b636d626c6565646c656564676569656e6474636f646165696361646965656575636663676578626764716468636f6271636e656c64616473646c656d65726572656e636265626272626e6470636c6366636e626463746467636e6372656d64626467647262626472636c636763626579626e65676570636163796477646164676569646c656763736370636d656463766276626f6573626765636364626f637664726569626c626265736272637365736473626e646b6361626464666575646e65696573656762736275636e636c65676563636e656e6572626c6374636b636b6465626e63646373636b636e636165726370637365756470646164736574626c6273656e65736267656f6371626762706372626f64616564656d656e627762736561627762756379626b6377646f647365666466656d636c657a646c65646361637163756475636d626e656c6364646763736573636e636e64706367647063646273646e63626464626565716269636964726368636f637063786276646b64736364626b6468637362686461656b636d656f656464656573637462",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "bifid-full570",
+          "representation": "raw",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "reverse-bytes"
+        }
+      ]
+    },
+    "b4311b05665a488d4259a94fb0890d9ab44f0cafd1c0eddd55dfe7d8636c43e0": {
+      "password_hex": "656364646464656463636462646564656464646363646464646363636262656462646563646363626364656363626362656265636565646264626462626362646463636463636363656463636562656362656465646565646364656364656563636562646463626365646464656565656365626264636363626364636365646464626463636365626565636364646465646563636365636262656265636263646562626562636564626463626465646565656262636365656365656263636364626363636363656363656464646562626565626563626263626465656562626562626362636464656465636564656363636463626563646365636364636463626463646265626364636363636264646362646362646563656564656362",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "full-even-positions285",
+          "representation": "raw",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "reverse-bytes"
+        }
+      ]
+    },
+    "b8cd3bc024d298cbdaed94f5b36e3c98eab0cd37c33739b3042631d1c4edde47": {
+      "password_hex": "35353963613465316230653139643863666635313265366463363565333733383165666262656361393430356633623033316365653334343234653330646639",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "full-odd-positions285",
+          "representation": "sha256-lowerhex",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "uppercase"
+        }
+      ]
+    },
+    "bb55f57d4015f7481201a330915e9baff5468131fa129e46e1f2078a43114cee": {
+      "password_hex": "e9b0d8f311c25ac5f4fc974df9fe8e74dd12968b67c950de51253610ad7522d8",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "full-even-positions285",
+          "representation": "sha256-raw",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "exact-lowercase"
+        }
+      ]
+    },
+    "c7de5b8cdf300a6e4f7711b98daeea966b8f92a5dcf488713fd1cb63284e7642": {
+      "password_hex": "42544353454544",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "bifid-prefix",
+          "representation": "raw",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "uppercase"
+        }
+      ]
+    },
+    "cec3d22144aeb9d67b625555b83cf8ca5af9455fed14f52d1f1a84e6498ca3de": {
+      "password_hex": "15d62c8228c1a30f3f6280fcdce2251fe616135e9de291b0c7b8a792dd8d0507",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "bifid-full570",
+          "representation": "sha256-raw",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "exact-lowercase"
+        }
+      ]
+    },
+    "cffa1b9429573b5c62847af4410cf3f475e2cfe4b9147c332b4da2d2279e6df8": {
+      "password_hex": "33373736323331346334636135326336393564373338643365303861353866636464373735663064633330643239393661383664623638353737356161666138",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "after-btcseed563",
+          "representation": "sha256-lowerhex",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "exact-lowercase"
+        }
+      ]
+    },
+    "dc464621cb61a50dc87949b9bd2223a549e9aacdb962f0aacb4b6d944d3aec19": {
+      "password_hex": "34663762643263306336643531306566613537323430663337363666626363356438633065633633303865363062333461323163373536646237346531613836",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "full-odd-positions285",
+          "representation": "sha256-lowerhex",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "reverse-bytes"
+        }
+      ]
+    },
+    "e5bd4b95cb7ca5db19445ea57371ae721f0ae55996808f5f79beb028ea471b0c": {
+      "password_hex": "61316334626464643534373537386131363334613731306333653963366631643631343432656233656461633337336636303338656437313961316563636462",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "source-key-square",
+          "representation": "sha256-lowerhex",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "reverse-bytes"
+        }
+      ]
+    },
+    "e60bd9b23e2d3f1838962f5dec35143c5db3ebc588c433492d196d6f9e477752": {
+      "password_hex": "0c5d984f90e9baefc09f1d3888e62acbd101f9b0194887e2ae88fc6c9967745e",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "bifid-full570",
+          "representation": "sha256-raw",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "uppercase"
+        }
+      ]
+    },
+    "e68cd0a433b52a1b65e6987924896b5eb144648a8c993932ca43578f9096bf28": {
+      "password_hex": "eced7bd93233c6624047f93d784e38fe3db8083f2bf3cb02e7a14b6a078a5a11",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "bifid-prefix",
+          "representation": "sha256-raw",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "reverse-bytes"
+        }
+      ]
+    },
+    "e7fc38847729b13af2798667783530dbed92e044debd0abfc80b5f95ce486788": {
+      "password_hex": "65636564376264393332333363363632343034376639336437383465333866653364623830383366326266336362303265376131346236613037386135613131",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "bifid-prefix",
+          "representation": "sha256-lowerhex",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "reverse-bytes"
+        }
+      ]
+    },
+    "e9b0d8f311c25ac5f4fc974df9fe8e74dd12968b67c950de51253610ad7522d8": {
+      "password_hex": "626365646565636564626364626364646263636363646362656264636462636463646363656364636562636463636365646563656465646463626362626562626565656462636262636562656562626564646465636365636363636362646363636265656365656363626265656564656462636462646563626562626564636263656265626263656363636564656464646363656562656363636462646464656363646362636363646262656365656565646464656362636464626563636565646365646364656564656465626365626563636465636363636463636464626362626462646264656563656265626362636365646362636364636564626465626263636364646464636364646465646564626463636465646464646365",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "full-even-positions285",
+          "representation": "raw",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "exact-lowercase"
+        }
+      ]
+    },
+    "eced7bd93233c6624047f93d784e38fe3db8083f2bf3cb02e7a14b6a078a5a11": {
+      "password_hex": "64656573637462",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "bifid-prefix",
+          "representation": "raw",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "reverse-bytes"
+        }
+      ]
+    },
+    "ed5cafb309b3dbecd557a78962f4246fea14c10534b334c0d29d17832bfdd995": {
+      "password_hex": "61613037333865363838656461343866636635623534393161383831366431373963613963613632333266666464626461313536386164396138346337663732",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "bifid-full570",
+          "representation": "sha256-lowerhex",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "reverse-bytes"
+        }
+      ]
+    },
+    "eff5a4483709b727f7fee60cac4de958f154b62aa21495f66ef406b0cc27099b": {
+      "password_hex": "66613139356233353537396338366330393139303633386236626666343030633565663531326636653633326335356562323766363138653061316636343432",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "source-key-square",
+          "representation": "sha256-lowerhex",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "exact-lowercase"
+        }
+      ]
+    },
+    "fa195b35579c86c09190638b6bff400c5ef512f6e632c55eb27f618e0a1f6442": {
+      "password_hex": "6462696668636567616b6c6d6e6f707172737475767778797a",
+      "provenance": [
+        {
+          "bifid_period": 570,
+          "bifid_square": "dbifhcegaklmnopqrstuvwxyz",
+          "material": "source-key-square",
+          "representation": "raw",
+          "source_wording": "exact faed with full-period Bifid; remove exactly the reproduced prefix only for suffix variant",
+          "transform": "exact-lowercase"
+        }
+      ]
+    }
+  },
+  "search_space": {
+    "decode_forms": 18,
+    "hash_representations": 3,
+    "kdf_digests": [
+      "md5",
+      "sha256"
+    ],
+    "materials": 6,
+    "planned_aes_trials": 324,
+    "targets": [
+      "phase32-inner",
+      "salphaseion-small",
+      "cosmic-duality"
+    ],
+    "text_transforms": 3,
+    "unique_passwords": 54
+  },
+  "source_evidence": [
+    {
+      "locator": null,
+      "path": "research/sources/salphaseion.html",
+      "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+    },
+    {
+      "locator": null,
+      "path": "research/artifacts/cycle04/bifid-evidence.json",
+      "sha256": "b3e75c099064c8a32fa07ab165e16865a41760f099abe2d104c549a80971d6b1"
+    }
+  ],
+  "status": "UNTESTED"
+}

@@ -1,0 +1,719 @@
+{
+  "assumptions": [
+    "Frozen mask1017 provides an83-token one-based logical domain",
+    "Blue=1, yellow=0 and near-white=1 use the already selected semantic convention",
+    "At prime positions semantic1 maps to token b and semantic0 maps to token be",
+    "The final two event labels remain attached to the following binary region and are not inserted into dbbi"
+  ],
+  "confidence": "HIGH for exact conditional reconstruction; UNKNOWN for creator intent or downstream use",
+  "contradictions": [
+    "The mask1017 tokenization and near-white=1 semantic convention were selected by the earlier cross-artifact match. This audit proves reversibility under that frozen construction; it is not independent evidence that the creator intended the join.",
+    "The join reconstructs an already public source object, so it does not by itself create new entropy or a new downstream input",
+    "The two remaining event labels belong to absolute prime positions89 and97 in the binary region and do not complete a25-symbol square assignment"
+  ],
+  "date": "2026-10-02",
+  "final_two_boundary_markers": [
+    {
+      "bit": "1",
+      "character_span_zero_based_half_open": [
+        648,
+        649
+      ],
+      "column_one_based": 238,
+      "event_index_zero_based": 23,
+      "line_one_based": 17,
+      "logical_position_one_based": 89,
+      "normalized_span_zero_based_half_open": [
+        96,
+        97
+      ],
+      "region": "matrixsumlist-binary",
+      "utf8_byte_span_zero_based_half_open": [
+        648,
+        649
+      ]
+    },
+    {
+      "bit": "0",
+      "character_span_zero_based_half_open": [
+        664,
+        665
+      ],
+      "column_one_based": 254,
+      "event_index_zero_based": 24,
+      "line_one_based": 17,
+      "logical_position_one_based": 97,
+      "normalized_span_zero_based_half_open": [
+        104,
+        105
+      ],
+      "region": "matrixsumlist-binary",
+      "utf8_byte_span_zero_based_half_open": [
+        664,
+        665
+      ]
+    }
+  ],
+  "graph_effect": "Add a conditional reversible edge residual60 + first23 semantic event labels -> dbbi91 -> first-occurrence square25. Keep the final two boundary markers, faed570/Bifid570, matrixsumlist operator and every downstream consumer edge separate and unresolved.",
+  "hypotheses": [],
+  "hypothesis": "Residual60 plus the first23 ordered image-event semantic labels losslessly reconstructs the mask1017 dbbi logical-token object and its source-derived Bifid square",
+  "id": "C23-RESIDUAL-FRAME-JOIN",
+  "information_accounting": {
+    "final_binary_region_labels_kept_separate": 2,
+    "logical_domain": 83,
+    "original_raw_letters": 91,
+    "prime_event_labels_used": 23,
+    "reconstructed_raw_letters": 91,
+    "residual_tokens": 60,
+    "semantic_one_tokens": 15,
+    "semantic_zero_tokens_expanding_to_be": 8
+  },
+  "input": "Frozen residual60 with logical positions plus first23 frozen image-event semantic labels",
+  "new_cryptographic_trials": 0,
+  "new_image_variants": 0,
+  "new_trial_inputs": 0,
+  "next_test": "Audit whether the exact 25 ordered event identities supply a source-defined permutation or selector for the 25 first-occurrence square symbols. Use only preserved order/position fields and reject a mapping if it merely pairs equal-sized lists by index. Do not generate alternate squares, routes, passwords or cryptographic trials.",
+  "operation_order": [
+    "load the frozen60 nonprime tokens with logical positions",
+    "derive the first23 semantic bits from the ordered original image events",
+    "map1 to b and0 to be at the23 prime positions in1..83",
+    "interleave prime and nonprime tokens without changing their order",
+    "concatenate83 tokens and compare all91 raw source letters",
+    "derive first-occurrence ownership and compare the fixed25-symbol square"
+  ],
+  "output": "Reconstructed83-token/91-letter dbbi source object and first-occurrence ownership map",
+  "reconstruction": {
+    "all_logical_positions_accounted_once": true,
+    "exact_prime_token_match": true,
+    "exact_raw_match": true,
+    "original_raw_sha256": "71fe46259e270c113529dfaded4b59c59a9dffd826a7202ab07fc498b6a2c5ca",
+    "raw_sha256": "71fe46259e270c113529dfaded4b59c59a9dffd826a7202ab07fc498b6a2c5ca",
+    "tokens": [
+      {
+        "logical_position_one_based": 1,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "d"
+      },
+      {
+        "logical_position_one_based": 2,
+        "owner": "event-label",
+        "semantic_bit": 1,
+        "token": "b"
+      },
+      {
+        "logical_position_one_based": 3,
+        "owner": "event-label",
+        "semantic_bit": 1,
+        "token": "b"
+      },
+      {
+        "logical_position_one_based": 4,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "i"
+      },
+      {
+        "logical_position_one_based": 5,
+        "owner": "event-label",
+        "semantic_bit": 1,
+        "token": "b"
+      },
+      {
+        "logical_position_one_based": 6,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "f"
+      },
+      {
+        "logical_position_one_based": 7,
+        "owner": "event-label",
+        "semantic_bit": 1,
+        "token": "b"
+      },
+      {
+        "logical_position_one_based": 8,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "h"
+      },
+      {
+        "logical_position_one_based": 9,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "c"
+      },
+      {
+        "logical_position_one_based": 10,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "c"
+      },
+      {
+        "logical_position_one_based": 11,
+        "owner": "event-label",
+        "semantic_bit": 0,
+        "token": "be"
+      },
+      {
+        "logical_position_one_based": 12,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "g"
+      },
+      {
+        "logical_position_one_based": 13,
+        "owner": "event-label",
+        "semantic_bit": 1,
+        "token": "b"
+      },
+      {
+        "logical_position_one_based": 14,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "i"
+      },
+      {
+        "logical_position_one_based": 15,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "h"
+      },
+      {
+        "logical_position_one_based": 16,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "a"
+      },
+      {
+        "logical_position_one_based": 17,
+        "owner": "event-label",
+        "semantic_bit": 1,
+        "token": "b"
+      },
+      {
+        "logical_position_one_based": 18,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "e"
+      },
+      {
+        "logical_position_one_based": 19,
+        "owner": "event-label",
+        "semantic_bit": 1,
+        "token": "b"
+      },
+      {
+        "logical_position_one_based": 20,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "e"
+      },
+      {
+        "logical_position_one_based": 21,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "i"
+      },
+      {
+        "logical_position_one_based": 22,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "h"
+      },
+      {
+        "logical_position_one_based": 23,
+        "owner": "event-label",
+        "semantic_bit": 0,
+        "token": "be"
+      },
+      {
+        "logical_position_one_based": 24,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "g"
+      },
+      {
+        "logical_position_one_based": 25,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "g"
+      },
+      {
+        "logical_position_one_based": 26,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "e"
+      },
+      {
+        "logical_position_one_based": 27,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "g"
+      },
+      {
+        "logical_position_one_based": 28,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "e"
+      },
+      {
+        "logical_position_one_based": 29,
+        "owner": "event-label",
+        "semantic_bit": 0,
+        "token": "be"
+      },
+      {
+        "logical_position_one_based": 30,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "b"
+      },
+      {
+        "logical_position_one_based": 31,
+        "owner": "event-label",
+        "semantic_bit": 1,
+        "token": "b"
+      },
+      {
+        "logical_position_one_based": 32,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "g"
+      },
+      {
+        "logical_position_one_based": 33,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "e"
+      },
+      {
+        "logical_position_one_based": 34,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "h"
+      },
+      {
+        "logical_position_one_based": 35,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "h"
+      },
+      {
+        "logical_position_one_based": 36,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "e"
+      },
+      {
+        "logical_position_one_based": 37,
+        "owner": "event-label",
+        "semantic_bit": 1,
+        "token": "b"
+      },
+      {
+        "logical_position_one_based": 38,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "h"
+      },
+      {
+        "logical_position_one_based": 39,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "h"
+      },
+      {
+        "logical_position_one_based": 40,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "f"
+      },
+      {
+        "logical_position_one_based": 41,
+        "owner": "event-label",
+        "semantic_bit": 1,
+        "token": "b"
+      },
+      {
+        "logical_position_one_based": 42,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "a"
+      },
+      {
+        "logical_position_one_based": 43,
+        "owner": "event-label",
+        "semantic_bit": 1,
+        "token": "b"
+      },
+      {
+        "logical_position_one_based": 44,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "f"
+      },
+      {
+        "logical_position_one_based": 45,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "d"
+      },
+      {
+        "logical_position_one_based": 46,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "h"
+      },
+      {
+        "logical_position_one_based": 47,
+        "owner": "event-label",
+        "semantic_bit": 0,
+        "token": "be"
+      },
+      {
+        "logical_position_one_based": 48,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "f"
+      },
+      {
+        "logical_position_one_based": 49,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "f"
+      },
+      {
+        "logical_position_one_based": 50,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "c"
+      },
+      {
+        "logical_position_one_based": 51,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "d"
+      },
+      {
+        "logical_position_one_based": 52,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "b"
+      },
+      {
+        "logical_position_one_based": 53,
+        "owner": "event-label",
+        "semantic_bit": 1,
+        "token": "b"
+      },
+      {
+        "logical_position_one_based": 54,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "f"
+      },
+      {
+        "logical_position_one_based": 55,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "c"
+      },
+      {
+        "logical_position_one_based": 56,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "c"
+      },
+      {
+        "logical_position_one_based": 57,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "c"
+      },
+      {
+        "logical_position_one_based": 58,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "g"
+      },
+      {
+        "logical_position_one_based": 59,
+        "owner": "event-label",
+        "semantic_bit": 1,
+        "token": "b"
+      },
+      {
+        "logical_position_one_based": 60,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "f"
+      },
+      {
+        "logical_position_one_based": 61,
+        "owner": "event-label",
+        "semantic_bit": 0,
+        "token": "be"
+      },
+      {
+        "logical_position_one_based": 62,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "e"
+      },
+      {
+        "logical_position_one_based": 63,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "g"
+      },
+      {
+        "logical_position_one_based": 64,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "g"
+      },
+      {
+        "logical_position_one_based": 65,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "e"
+      },
+      {
+        "logical_position_one_based": 66,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "c"
+      },
+      {
+        "logical_position_one_based": 67,
+        "owner": "event-label",
+        "semantic_bit": 0,
+        "token": "be"
+      },
+      {
+        "logical_position_one_based": 68,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "d"
+      },
+      {
+        "logical_position_one_based": 69,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "c"
+      },
+      {
+        "logical_position_one_based": 70,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "i"
+      },
+      {
+        "logical_position_one_based": 71,
+        "owner": "event-label",
+        "semantic_bit": 1,
+        "token": "b"
+      },
+      {
+        "logical_position_one_based": 72,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "f"
+      },
+      {
+        "logical_position_one_based": 73,
+        "owner": "event-label",
+        "semantic_bit": 1,
+        "token": "b"
+      },
+      {
+        "logical_position_one_based": 74,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "f"
+      },
+      {
+        "logical_position_one_based": 75,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "f"
+      },
+      {
+        "logical_position_one_based": 76,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "g"
+      },
+      {
+        "logical_position_one_based": 77,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "i"
+      },
+      {
+        "logical_position_one_based": 78,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "g"
+      },
+      {
+        "logical_position_one_based": 79,
+        "owner": "event-label",
+        "semantic_bit": 0,
+        "token": "be"
+      },
+      {
+        "logical_position_one_based": 80,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "e"
+      },
+      {
+        "logical_position_one_based": 81,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "e"
+      },
+      {
+        "logical_position_one_based": 82,
+        "owner": "residual",
+        "semantic_bit": null,
+        "token": "a"
+      },
+      {
+        "logical_position_one_based": 83,
+        "owner": "event-label",
+        "semantic_bit": 0,
+        "token": "be"
+      }
+    ]
+  },
+  "result": "The exact conditional join reconstructs all83 logical tokens and all91 raw dbbi letters. It also reproduces the fixed Bifid square: residual tokens supply d/i/f/h/c/g/a, while event labels supply the first b/e. This closes an information-accounting gap but does not identify a password, matrix operator, or terminal consumer.",
+  "search_space": {
+    "alternate_orders": 0,
+    "event_labels": 23,
+    "frozen_branches": 1,
+    "label_mappings": 1,
+    "logical_positions": 83,
+    "residual_tokens": 60
+  },
+  "selection_caveat": "The mask1017 tokenization and near-white=1 semantic convention were selected by the earlier cross-artifact match. This audit proves reversibility under that frozen construction; it is not independent evidence that the creator intended the join.",
+  "source_evidence": [
+    {
+      "path": "research/artifacts/cycle23/coordinate-interface.json",
+      "sha256": "6a753c2a39008705cfe320a6fd5cc693c250f37ac48ffd4594764c829d4e1d6a"
+    },
+    {
+      "path": "research/artifacts/cycle10/instruction-graphs-v3.json",
+      "sha256": "31a20ee0b58c1289d16de425c76f4521ca228a01c6ca12122d074056a8e81132"
+    },
+    {
+      "path": "research/artifacts/cycle22/architecture-reconstruction-v3.json",
+      "sha256": "1f36ad3ac5046951766444071060aa2bc9033460e04196d8a2471fbf899dc46e"
+    },
+    {
+      "path": "research/artifacts/cycle15/frame-object-audit.json",
+      "sha256": "56897976b72da60096261c7b1b5ea76ce1e5497dc0f04996bf75c8770e298d2e"
+    },
+    {
+      "path": "research/sources/gsmg-puzzle.png",
+      "sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830"
+    },
+    {
+      "path": "research/sources/salphaseion.html",
+      "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+    }
+  ],
+  "source_locations": [
+    "research/artifacts/cycle10/instruction-graphs-v3.json",
+    "research/artifacts/cycle15/frame-object-audit.json",
+    "research/artifacts/cycle22/architecture-reconstruction-v3.json",
+    "research/sources/gsmg-puzzle.png",
+    "research/sources/salphaseion.html:17"
+  ],
+  "square_dependency": {
+    "derived_square": "dbifhcegaklmnopqrstuvwxyz",
+    "exact_match": true,
+    "expected_square": "dbifhcegaklmnopqrstuvwxyz",
+    "first_occurrences": [
+      {
+        "logical_position_one_based": 1,
+        "owner": "residual",
+        "reconstructed_raw_offset_zero_based": 0,
+        "symbol": "d",
+        "token_offset_zero_based": 0
+      },
+      {
+        "logical_position_one_based": 2,
+        "owner": "event-label",
+        "reconstructed_raw_offset_zero_based": 1,
+        "symbol": "b",
+        "token_offset_zero_based": 0
+      },
+      {
+        "logical_position_one_based": 4,
+        "owner": "residual",
+        "reconstructed_raw_offset_zero_based": 3,
+        "symbol": "i",
+        "token_offset_zero_based": 0
+      },
+      {
+        "logical_position_one_based": 6,
+        "owner": "residual",
+        "reconstructed_raw_offset_zero_based": 5,
+        "symbol": "f",
+        "token_offset_zero_based": 0
+      },
+      {
+        "logical_position_one_based": 8,
+        "owner": "residual",
+        "reconstructed_raw_offset_zero_based": 7,
+        "symbol": "h",
+        "token_offset_zero_based": 0
+      },
+      {
+        "logical_position_one_based": 9,
+        "owner": "residual",
+        "reconstructed_raw_offset_zero_based": 8,
+        "symbol": "c",
+        "token_offset_zero_based": 0
+      },
+      {
+        "logical_position_one_based": 11,
+        "owner": "event-label",
+        "reconstructed_raw_offset_zero_based": 11,
+        "symbol": "e",
+        "token_offset_zero_based": 1
+      },
+      {
+        "logical_position_one_based": 12,
+        "owner": "residual",
+        "reconstructed_raw_offset_zero_based": 12,
+        "symbol": "g",
+        "token_offset_zero_based": 0
+      },
+      {
+        "logical_position_one_based": 16,
+        "owner": "residual",
+        "reconstructed_raw_offset_zero_based": 16,
+        "symbol": "a",
+        "token_offset_zero_based": 0
+      }
+    ],
+    "observed_symbols_owned_by_event_labels": [
+      "b",
+      "e"
+    ],
+    "observed_symbols_owned_by_residual": [
+      "d",
+      "i",
+      "f",
+      "h",
+      "c",
+      "g",
+      "a"
+    ]
+  },
+  "status": "CONFIRMED"
+}

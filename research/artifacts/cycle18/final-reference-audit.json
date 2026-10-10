@@ -1,0 +1,490 @@
+{
+  "assumptions": [
+    "Only fixed preserved clauses/layout and a separate dated question are compared",
+    "Human region locators are approximate visual aids, not pixel extraction rules",
+    "Earlier documented entry-route argument cannot be silently reused as a final argument"
+  ],
+  "clauses": {
+    "classification": "CREATOR_ATTRIBUTED_ARCHIVED_HINT_CORROBORATED_BY_SCREENSHOT; NOT_SIGNED_AUTHENTICATION",
+    "clauses": [
+      {
+        "character_span_zero_based_half_open": [
+          24752,
+          24976
+        ],
+        "column_one_based": 667,
+        "decoded_span_zero_based_half_open": [
+          62,
+          87
+        ],
+        "line_one_based": 711,
+        "original_octet_span_zero_based_half_open": [
+          74,
+          99
+        ],
+        "phrase": "wewontgiveawaythepassword",
+        "source_order": "descending octet indices and reversed bits",
+        "utf8_byte_span_zero_based_half_open": [
+          24945,
+          25169
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          24401,
+          24751
+        ],
+        "column_one_based": 316,
+        "decoded_span_zero_based_half_open": [
+          87,
+          126
+        ],
+        "line_one_based": 711,
+        "original_octet_span_zero_based_half_open": [
+          35,
+          74
+        ],
+        "phrase": "itsinfrontofyoureyesbutyourenotseeingit",
+        "source_order": "descending octet indices and reversed bits",
+        "utf8_byte_span_zero_based_half_open": [
+          24594,
+          24944
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          24086,
+          24400
+        ],
+        "column_one_based": 1,
+        "decoded_span_zero_based_half_open": [
+          126,
+          161
+        ],
+        "line_one_based": 711,
+        "original_octet_span_zero_based_half_open": [
+          0,
+          35
+        ],
+        "phrase": "verylaststepisatruegiveawaypromised",
+        "source_order": "descending octet indices and reversed bits",
+        "utf8_byte_span_zero_based_half_open": [
+          24279,
+          24593
+        ]
+      }
+    ],
+    "decoded_source_span_zero_based_half_open": [
+      62,
+      161
+    ],
+    "frozen_source": {
+      "path": "research/artifacts/cycle11/hint-instruction-order.json",
+      "sha256": "05a3ad4ec7ed7572f1223fb90c97612caa4fde6ffc199baeebdcd1794d74150d"
+    },
+    "giveaway_lexical_echo_is_not_an_algorithm_or_output_format": true,
+    "it_has_no_explicit_page_image_or_stage_name": true,
+    "no_hint_binary_decoding_repeated": true,
+    "original_creator_source": {
+      "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+      "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+    },
+    "original_header": "=== [23.02.2023 18:20:03 UTC-05:00] Jrk Bgrt",
+    "password_is_lexically_named_before_it": true,
+    "spaced_sentence_punctuation_is_not_encoded": true,
+    "verylaststep_is_not_assigned_to_a_named_container": true
+  },
+  "confidence": "HIGH source/clause identity; UNKNOWN intended visible object",
+  "contradictions": [
+    "A spatial pronoun with no named source cannot uniquely select an object",
+    "Visibility and giveaway promises do not define serialization or final consumer",
+    "Separate creator question is not exact recipe confirmation"
+  ],
+  "date": "2026-10-01",
+  "hypotheses": [
+    {
+      "assumptions": [
+        "It refers to the named password object",
+        "Visibility is literal or structural, not a new cipher family"
+      ],
+      "confidence": "MEDIUM lexical recognition cue; UNKNOWN object",
+      "contradictions": [
+        "No image/page/stage named",
+        "Several primary image/page regions are simultaneously visible",
+        "Recognition cue supplies no exact source/count/format"
+      ],
+      "hypothesis": "The final it-in-front-of-your-eyes clause asks the solver to recognize an existing visible object rather than generate new transformations",
+      "id": "C18-FINAL-REFERENCE-VISIBLE",
+      "input": "Original public final-hint clauses and preserved image/page layout",
+      "next_test": "Analyze the exact yinyang/checkpoint-to-final-clause grammar in the same preserved hint, comparing phase label versus recognized structure while reusing original reached/hit chronology; no binary decode or output trial",
+      "operation_order": [
+        "map frozen final clause positions",
+        "compare bounded visible/structural referent",
+        "retain missing source and output identity without extraction"
+      ],
+      "output": "A referent/recognition constraint, not a selected text object",
+      "source_evidence": [
+        {
+          "path": "research/artifacts/cycle11/hint-instruction-order.json",
+          "sha256": "05a3ad4ec7ed7572f1223fb90c97612caa4fde6ffc199baeebdcd1794d74150d"
+        },
+        {
+          "path": "research/artifacts/cycle10/instruction-graphs-v3.json",
+          "sha256": "31a20ee0b58c1289d16de425c76f4521ca228a01c6ca12122d074056a8e81132"
+        },
+        {
+          "path": "research/sources/gsmg-puzzle.png",
+          "sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830"
+        },
+        {
+          "path": "research/sources/maintained-README.md",
+          "sha256": "8d4ee414a4839e51e9c79ed387e1ea327835ea98039eef2633d0d8885bcdd015"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+          "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+        },
+        {
+          "path": "research/artifacts/cycle18/template-format-scope.json",
+          "sha256": "fbc5a04a2dad82dac493a7f7d18014a0d716c412970378ef8a2b24c9934e49e5"
+        }
+      ],
+      "source_locations": [
+        "research/evidence/cycle02/_work__creator_jrk.txt:711",
+        "research/evidence/cycle02/_work__creator_jrk.txt:745",
+        "research/sources/maintained-README.md:158",
+        "research/sources/gsmg-puzzle.png",
+        "research/sources/salphaseion.html:17"
+      ],
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "assumptions": [
+        "Visibility may be figurative after reconstructing a known intermediate",
+        "A later exact construction resolves the pronoun"
+      ],
+      "confidence": "LOW-MEDIUM compatible structural reference",
+      "contradictions": [
+        "No intermediate is explicitly named",
+        "A Bifid prefix or partial language match cannot validate the complete object",
+        "No stated bridge from label structure to final output"
+      ],
+      "hypothesis": "In-front-of-your-eyes refers to an already derived intermediate structure or label relationship rather than original image footer text",
+      "id": "C18-FINAL-REFERENCE-STRUCTURAL",
+      "input": "Original public final-hint clauses and preserved image/page layout",
+      "next_test": "Analyze the exact yinyang/checkpoint-to-final-clause grammar in the same preserved hint, comparing phase label versus recognized structure while reusing original reached/hit chronology; no binary decode or output trial",
+      "operation_order": [
+        "map frozen final clause positions",
+        "compare bounded visible/structural referent",
+        "retain missing source and output identity without extraction"
+      ],
+      "output": "A referent/recognition constraint, not a selected text object",
+      "source_evidence": [
+        {
+          "path": "research/artifacts/cycle11/hint-instruction-order.json",
+          "sha256": "05a3ad4ec7ed7572f1223fb90c97612caa4fde6ffc199baeebdcd1794d74150d"
+        },
+        {
+          "path": "research/artifacts/cycle10/instruction-graphs-v3.json",
+          "sha256": "31a20ee0b58c1289d16de425c76f4521ca228a01c6ca12122d074056a8e81132"
+        },
+        {
+          "path": "research/sources/gsmg-puzzle.png",
+          "sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830"
+        },
+        {
+          "path": "research/sources/maintained-README.md",
+          "sha256": "8d4ee414a4839e51e9c79ed387e1ea327835ea98039eef2633d0d8885bcdd015"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+          "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+        },
+        {
+          "path": "research/artifacts/cycle18/template-format-scope.json",
+          "sha256": "fbc5a04a2dad82dac493a7f7d18014a0d716c412970378ef8a2b24c9934e49e5"
+        }
+      ],
+      "source_locations": [
+        "research/evidence/cycle02/_work__creator_jrk.txt:711",
+        "research/evidence/cycle02/_work__creator_jrk.txt:745",
+        "research/sources/maintained-README.md:158",
+        "research/sources/gsmg-puzzle.png",
+        "research/sources/salphaseion.html:17"
+      ],
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "assumptions": [
+        "Promised qualifies stage difficulty/recognizability rather than an operator",
+        "Giveaway repeats narrative language, not a named cipher"
+      ],
+      "confidence": "HIGH lexical promise observation; UNKNOWN final operation",
+      "contradictions": [
+        "Could encode a secondary clue implicitly",
+        "No exact final-stage boundaries/consumer supplied",
+        "A separate btc question does not validate Bifid or fix the output type"
+      ],
+      "hypothesis": "Very-last-step true-giveaway is a final-stage promise, not an instruction defining output encoding or a selection algorithm",
+      "id": "C18-FINAL-REFERENCE-PROMISE",
+      "input": "Original public final-hint clauses and preserved image/page layout",
+      "next_test": "Analyze the exact yinyang/checkpoint-to-final-clause grammar in the same preserved hint, comparing phase label versus recognized structure while reusing original reached/hit chronology; no binary decode or output trial",
+      "operation_order": [
+        "map frozen final clause positions",
+        "compare bounded visible/structural referent",
+        "retain missing source and output identity without extraction"
+      ],
+      "output": "A referent/recognition constraint, not a selected text object",
+      "source_evidence": [
+        {
+          "path": "research/artifacts/cycle11/hint-instruction-order.json",
+          "sha256": "05a3ad4ec7ed7572f1223fb90c97612caa4fde6ffc199baeebdcd1794d74150d"
+        },
+        {
+          "path": "research/artifacts/cycle10/instruction-graphs-v3.json",
+          "sha256": "31a20ee0b58c1289d16de425c76f4521ca228a01c6ca12122d074056a8e81132"
+        },
+        {
+          "path": "research/sources/gsmg-puzzle.png",
+          "sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830"
+        },
+        {
+          "path": "research/sources/maintained-README.md",
+          "sha256": "8d4ee414a4839e51e9c79ed387e1ea327835ea98039eef2633d0d8885bcdd015"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+          "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+        },
+        {
+          "path": "research/artifacts/cycle18/template-format-scope.json",
+          "sha256": "fbc5a04a2dad82dac493a7f7d18014a0d716c412970378ef8a2b24c9934e49e5"
+        }
+      ],
+      "source_locations": [
+        "research/evidence/cycle02/_work__creator_jrk.txt:711",
+        "research/evidence/cycle02/_work__creator_jrk.txt:745",
+        "research/sources/maintained-README.md:158",
+        "research/sources/gsmg-puzzle.png",
+        "research/sources/salphaseion.html:17"
+      ],
+      "status": "INCONCLUSIVE"
+    }
+  ],
+  "hypothesis": "Final visibility/giveaway wording uniquely identifies an existing source object and final consumer",
+  "id": "C18-FINAL-REFERENCE",
+  "input": "Public decoded clue/source maps and original visible artifacts",
+  "new_cryptographic_trials": 0,
+  "new_trial_inputs": 0,
+  "next_test": "Perform one exact intra-hint checkpoint grammar audit: yinyang followed by no-giveaway/visibility/final-step clauses, against already preserved creator hit/reached statements and their chronology. Distinguish checkpoint label, literal output and recognized structure without re-running transformations or adopting a universal literal gate.",
+  "operation_order": [
+    "validate frozen referent task",
+    "reuse three original clause maps",
+    "locate three original-image regions and current page headings",
+    "map one secondary entry-route interpretation",
+    "cross-check separate creator question",
+    "compare three finite referents without selected text"
+  ],
+  "output": "Exact clause provenance and bounded referent ambiguity audit",
+  "result": "Frozen final clauses name password before it, but no image/page/stage or selection/count rule. Original image has simultaneously visible grid/rabbit, title/logo and QR/public-identifier regions; no unique object chosen. Current primary headings do not literally name SMALL or HASHTHETEXT. Secondary entry-route visible-text interpretation is not a final-argument binding. Separate August2023 btc question does not name Bifid/residual/btcseed. Recognition/structural/promise readings survive without new extraction.",
+  "search_space": {
+    "finite_referent_hypotheses": 3,
+    "frozen_final_clauses": 3,
+    "new_pixel_or_text_selections": 0,
+    "original_visible_image_regions": 3,
+    "secondary_entry_prose_anchors": 1,
+    "separate_creator_question_cross_checked": 1
+  },
+  "secondary_entry_interpretation": {
+    "an_earlier_entry_route_does_not_identify_a_later_selected_object": true,
+    "classification": "SECONDARY_DOCUMENTED_ENTRY_ROUTE_ARGUMENT_INTERPRETATION",
+    "earlier_audio_command_argument_not_encoded": true,
+    "old_entry_transform_not_reexecuted": true,
+    "short_public_literal": "Using everything we have so far, it points us back to the original image to hash the text on the image",
+    "source": {
+      "path": "research/sources/maintained-README.md",
+      "sha256": "8d4ee414a4839e51e9c79ed387e1ea327835ea98039eef2633d0d8885bcdd015"
+    },
+    "source_location": {
+      "character_span_zero_based_half_open": [
+        8887,
+        8989
+      ],
+      "column_one_based": 1,
+      "line_one_based": 158,
+      "utf8_byte_span_zero_based_half_open": [
+        8887,
+        8989
+      ]
+    }
+  },
+  "separate_question": {
+    "classification": "CREATOR_ATTRIBUTED_QUESTION_NOT_EXPLICIT_BIFID_VALIDATION",
+    "creator_record": {
+      "archived_utc_timestamp": "2023-08-03T19:51:33+00:00",
+      "character_span_zero_based_half_open": [
+        26372,
+        26415
+      ],
+      "column_one_based": 1,
+      "header": "=== [03.08.2023 14:51:33 UTC-05:00] Jrk Bgrt",
+      "line_one_based": 745,
+      "source": {
+        "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+        "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+      },
+      "utf8_byte_span_zero_based_half_open": [
+        26587,
+        26630
+      ]
+    },
+    "does_not_literally_name_Bifid_residual_or_btcseed": true,
+    "exact_public_question": "Are you really looking for just the btc...?",
+    "no_reply_target_or_recipe_confirmation": true,
+    "original_chat_record": {
+      "archived_utc_timestamp": "2023-08-03T19:51:33+00:00",
+      "character_span_zero_based_half_open": [
+        761118,
+        761161
+      ],
+      "column_one_based": 1,
+      "header": "=== [03.08.2023 14:51:33 UTC-05:00] Jrk Bgrt",
+      "line_one_based": 21137,
+      "source": {
+        "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+        "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+      },
+      "utf8_byte_span_zero_based_half_open": [
+        769203,
+        769246
+      ]
+    },
+    "separate_date_and_wording_not_the_final_hint_clause": true
+  },
+  "source_evidence": [
+    {
+      "path": "research/artifacts/cycle11/hint-instruction-order.json",
+      "sha256": "05a3ad4ec7ed7572f1223fb90c97612caa4fde6ffc199baeebdcd1794d74150d"
+    },
+    {
+      "path": "research/artifacts/cycle10/instruction-graphs-v3.json",
+      "sha256": "31a20ee0b58c1289d16de425c76f4521ca228a01c6ca12122d074056a8e81132"
+    },
+    {
+      "path": "research/sources/gsmg-puzzle.png",
+      "sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830"
+    },
+    {
+      "path": "research/sources/maintained-README.md",
+      "sha256": "8d4ee414a4839e51e9c79ed387e1ea327835ea98039eef2633d0d8885bcdd015"
+    },
+    {
+      "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+      "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+    },
+    {
+      "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+      "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+    },
+    {
+      "path": "research/artifacts/cycle18/template-format-scope.json",
+      "sha256": "fbc5a04a2dad82dac493a7f7d18014a0d716c412970378ef8a2b24c9934e49e5"
+    }
+  ],
+  "source_locations": [
+    "research/evidence/cycle02/_work__creator_jrk.txt:711",
+    "research/evidence/cycle02/_work__creator_jrk.txt:745",
+    "research/sources/maintained-README.md:158",
+    "research/sources/gsmg-puzzle.png",
+    "research/sources/salphaseion.html:17"
+  ],
+  "status": "INCONCLUSIVE",
+  "visible_regions": {
+    "all_regions_are_simultaneously_visible_not_a_unique_look_here_selector": true,
+    "current_primary_literal_HASHTHETEXT": false,
+    "current_primary_literal_SMALL": false,
+    "current_primary_page_headings": [
+      {
+        "character_span_zero_based_half_open": [
+          392,
+          405
+        ],
+        "column_one_based": 5,
+        "line_one_based": 16,
+        "text": "SalPhaseIon",
+        "utf8_byte_span_zero_based_half_open": [
+          392,
+          405
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          2622,
+          2638
+        ],
+        "column_one_based": 5,
+        "line_one_based": 19,
+        "text": "Cosmic Duality",
+        "utf8_byte_span_zero_based_half_open": [
+          2622,
+          2638
+        ]
+      }
+    ],
+    "human_visual_region_locators": [
+      {
+        "approximate_pixel_rectangle_xyxy": [
+          0,
+          0,
+          1048,
+          1048
+        ],
+        "description": "Original14x14 colored/achromatic grid with central rabbit",
+        "region": "GRID_AND_RABBIT"
+      },
+      {
+        "approximate_pixel_rectangle_xyxy": [
+          0,
+          1065,
+          1048,
+          1275
+        ],
+        "description": "Visible challenge title and logo beneath the grid",
+        "region": "CHALLENGE_TITLE_AND_LOGO"
+      },
+      {
+        "approximate_pixel_rectangle_xyxy": [
+          0,
+          1275,
+          1048,
+          1556
+        ],
+        "description": "Visible QR symbol and public identifier, not decoded or used for matching",
+        "region": "QR_AND_PUBLIC_IDENTIFIER"
+      }
+    ],
+    "locators_are_not_exact_OCR_boxes_or_selection_masks": true,
+    "no_new_pixel_variant_traversal_or_selected_text": true,
+    "no_qr_or_identifier_decoding_matching_or_use": true,
+    "original_dimensions": [
+      1048,
+      1556
+    ],
+    "original_image_source": {
+      "path": "research/sources/gsmg-puzzle.png",
+      "sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830"
+    }
+  }
+}

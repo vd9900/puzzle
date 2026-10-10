@@ -1,0 +1,14 @@
+{
+  "aes_trials": 36180,
+  "decode_forms": 2304,
+  "elapsed_seconds": 1.379,
+  "id": "C03-IMAGE-SUMSTREAM",
+  "ledger_sha256": "1f6065c49c5a49e9c0ee1905b54e9d9bb3dd2ce15934a0505a6c44957a8fe49b",
+  "max_hit_printable_ratio": 0.493671,
+  "padding_hits": 137,
+  "result": "Literal image-axis sum streams plus bounded mod9/columnar/decoder rules supply no recognized downstream structure or scoped key; family negative, not rejection of the image as a key source",
+  "status": "INCONCLUSIVE",
+  "structure_hits": 0,
+  "target_matches": 0,
+  "unique_passwords": 6030
+}

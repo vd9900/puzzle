@@ -1,0 +1,67 @@
+{
+  "aes_operations": 0,
+  "candidate_lists_generated": 0,
+  "checksum_tests": 0,
+  "classification": {
+    "dbbi_to_global_square_to_all_bifid_groups": "VERIFIED mechanically",
+    "decoded_matrixsumlist_label_as_operation": "UNKNOWN: it may instruct a later operation, but the operation and receiver are not specified",
+    "faed_column_c_to_paired_bifid_group_c": "VERIFIED mechanically",
+    "raw_matrixsumlist_bits_to_bifid_transform": "REJECTED as a data dependency in the recovered transform",
+    "rowwise_13x15_join_geometry": "VERIFIED",
+    "upstream_panel_column_c_to_downstream_group_c": "REJECTED: zero groups have exclusive same-index panel lineage"
+  },
+  "date": "2026-10-02",
+  "dependency_summary": {
+    "distinct_global_dbbi_key_column_patterns": 1,
+    "groups": 15,
+    "groups_with_all_nine_faed_input_symbols": 15,
+    "groups_with_any_raw_label_bit_dependency": 0,
+    "groups_with_exact_local_faed_column_lineage": 15,
+    "groups_with_exclusive_same_index_upstream_panel_dependency": 0,
+    "shared_global_dbbi_key_columns_zero_based": [0, 1, 2, 3, 4, 5]
+  },
+  "downstream_dependency_groups": {
+    "faed_input_alphabet_in_every_group": "abcdefghi",
+    "global_dbbi_key_source_columns_in_every_group_zero_based": [0, 1, 2, 3, 4, 5],
+    "local_faed_source_columns_zero_based": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
+    "output_alphabet_sizes_by_group": [15, 14, 12, 15, 15, 16, 14, 12, 17, 16, 14, 17, 18, 12, 15],
+    "raw_label_bit_source_columns_in_every_group_zero_based": []
+  },
+  "exact_remaining_unknown": "The public objects do not specify what matrix is to be summed, the symbol weights, or the receiver of a resulting list. Width15 and source lineage alone cannot supply those semantics.",
+  "graph_effect": "Separate shared width from data flow. dbbi91 supplies one global square, FAED supplies fifteen local source columns, and raw label bits only decode the instruction name. Any matrixsumlist-to-Bifid edge must be a semantic control edge added after decoding, not inherited columnwise data.",
+  "hypothesis": "The upstream13x15 dbbi-plus-label panel flows column by column into the fifteen dependency-preserving post-Bifid groups.",
+  "id": "C31-MATRIX-BIFID-DEPENDENCY-JOIN",
+  "invariant": "A direct columnwise edge requires downstream group c to depend specifically on upstream panel column c, rather than on a separate FAED column plus one global key dependency shared by every group.",
+  "mnemonic_words_generated": 0,
+  "next_test": "No further parameter-free structural operation is licensed. Require source evidence binding matrixsumlist to the paired Bifid planes and defining either weights or a non-cryptographic receiver invariant.",
+  "numeric_mapping_trials": 0,
+  "numeric_sum_vectors_calculated": 0,
+  "private_key_operations": 0,
+  "seed_derivations": 0,
+  "square_dependency": {
+    "dbbi_panel_columns_contributing_first_occurrences_zero_based": [0, 1, 2, 3, 4, 5],
+    "dbbi_panel_columns_without_first_occurrence_zero_based": [6],
+    "fixed_alphabet_supplement_count": 16,
+    "fixed_alphabet_supplement_symbols": "klmnopqrstuvwxyz",
+    "observed_first_occurrence_symbols": "dbifhcega",
+    "observed_first_occurrences": [
+      {"offset_zero_based": 0, "panel_column_zero_based": 0, "row_zero_based": 0, "symbol": "d"},
+      {"offset_zero_based": 1, "panel_column_zero_based": 1, "row_zero_based": 0, "symbol": "b"},
+      {"offset_zero_based": 3, "panel_column_zero_based": 3, "row_zero_based": 0, "symbol": "i"},
+      {"offset_zero_based": 5, "panel_column_zero_based": 5, "row_zero_based": 0, "symbol": "f"},
+      {"offset_zero_based": 7, "panel_column_zero_based": 0, "row_zero_based": 1, "symbol": "h"},
+      {"offset_zero_based": 8, "panel_column_zero_based": 1, "row_zero_based": 1, "symbol": "c"},
+      {"offset_zero_based": 11, "panel_column_zero_based": 4, "row_zero_based": 1, "symbol": "e"},
+      {"offset_zero_based": 12, "panel_column_zero_based": 5, "row_zero_based": 1, "symbol": "g"},
+      {"offset_zero_based": 16, "panel_column_zero_based": 2, "row_zero_based": 2, "symbol": "a"}
+    ]
+  },
+  "status": "REJECTED",
+  "upstream_panel": {
+    "dbbi_columns_zero_based": [0, 1, 2, 3, 4, 5, 6],
+    "decoded_label": "matrixsumlist",
+    "raw_label_bit_columns_zero_based": [7, 8, 9, 10, 11, 12, 13, 14],
+    "rowwise_join_round_trip": true,
+    "shape": [13, 15]
+  }
+}

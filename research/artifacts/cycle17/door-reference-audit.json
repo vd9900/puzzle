@@ -1,0 +1,477 @@
+{
+  "assumptions": [
+    "Archived offsets establish preserved dates, not the author's original timezone",
+    "A secondary screenshot filename cannot authenticate an April-Fools-only interpretation",
+    "Same-day co-occurrence is weaker than explicit definition or reply binding"
+  ],
+  "confidence": "HIGH original wording/distinct screenshot identity; UNKNOWN intended source selectors",
+  "contradictions": [
+    "Date coincidence does not supply an operation or source",
+    "Same-day screenshot is not the earlier door-hint image",
+    "21 is incompatible only with a direct14x14 row/column, not all possible object indices",
+    "Reiteration does not affirm an exact date/index interpretation"
+  ],
+  "date": "2026-10-01",
+  "hypotheses": [
+    {
+      "assumptions": [
+        "The hint intentionally encodes a date",
+        "Day/month/short-year convention is intended"
+      ],
+      "confidence": "MEDIUM exact date correspondence; UNKNOWN location/consumer",
+      "contradictions": [
+        "Month/day convention yields another valid date",
+        "Community March31 publication claim has no preserved author-timezone proof",
+        "December reiteration does not establish how a date finds a door"
+      ],
+      "hypothesis": "Brace groups1/4/21 reference the archived April1 2021 date rather than a literal data index",
+      "id": "C17-DOOR-DATE",
+      "input": "Public door-hint text, preserved timestamp and distinct screenshot/message",
+      "next_test": "Compare fixed numeric/name-selector notation in preserved earlier public phase text with the door braces; require matching grammatical roles before assigning any source indices",
+      "operation_order": [
+        "bind exact original brace wording",
+        "preserve timestamp convention and same-day context",
+        "compare only the declared semantic reading",
+        "require authored source and units before interpreting selectors"
+      ],
+      "output": "A semantic reference hypothesis, not a new route, selection or trial string",
+      "source_evidence": [
+        {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+          "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+        },
+        {
+          "path": "research/sources/maintained-hints__2021-04-01-april_fool.png",
+          "sha256": "e7ff51ad5e00646d9fb785602090db93da36d249365326e46e8ca1ec959ac33c"
+        },
+        {
+          "path": "research/artifacts/cycle14/source-binding-audit.json",
+          "sha256": "b26c94ccd5c52072ac1dc371ac92f62da16a7cabaf8ab002252d07d662489bb4"
+        },
+        {
+          "path": "research/artifacts/cycle17/zeroing-chronology.json",
+          "sha256": "a421b1d79c5a2bc5a337354201489a73222dcde9dbf953e0c7d81601db36fc49"
+        }
+      ],
+      "source_locations": [
+        "research/evidence/cycle02/_work__creator_jrk.txt:534",
+        "research/evidence/cycle02/_work__chat_transcript.txt:16719",
+        "research/evidence/cycle02/_work__creator_jrk.txt:540",
+        "research/evidence/cycle02/_work__chat_transcript.txt:16782",
+        "research/sources/maintained-hints__2021-04-01-april_fool.png"
+      ],
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "assumptions": [
+        "Braces group selectors rather than date fields",
+        "An external source schema fixes three coordinate roles"
+      ],
+      "confidence": "LOW without dimension/source/origin",
+      "contradictions": [
+        "No source, dimensions, coordinate units or indexing origin is named",
+        "21 cannot be a direct row or column of the14x14 image",
+        "Different source types could accommodate21 but no type is selected"
+      ],
+      "hypothesis": "Brace groups refer to source coordinates or indexed objects but require an independently defined source and origin",
+      "id": "C17-DOOR-COORDINATES",
+      "input": "Public door-hint text, preserved timestamp and distinct screenshot/message",
+      "next_test": "Compare fixed numeric/name-selector notation in preserved earlier public phase text with the door braces; require matching grammatical roles before assigning any source indices",
+      "operation_order": [
+        "bind exact original brace wording",
+        "preserve timestamp convention and same-day context",
+        "compare only the declared semantic reading",
+        "require authored source and units before interpreting selectors"
+      ],
+      "output": "A semantic reference hypothesis, not a new route, selection or trial string",
+      "source_evidence": [
+        {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+          "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+        },
+        {
+          "path": "research/sources/maintained-hints__2021-04-01-april_fool.png",
+          "sha256": "e7ff51ad5e00646d9fb785602090db93da36d249365326e46e8ca1ec959ac33c"
+        },
+        {
+          "path": "research/artifacts/cycle14/source-binding-audit.json",
+          "sha256": "b26c94ccd5c52072ac1dc371ac92f62da16a7cabaf8ab002252d07d662489bb4"
+        },
+        {
+          "path": "research/artifacts/cycle17/zeroing-chronology.json",
+          "sha256": "a421b1d79c5a2bc5a337354201489a73222dcde9dbf953e0c7d81601db36fc49"
+        }
+      ],
+      "source_locations": [
+        "research/evidence/cycle02/_work__creator_jrk.txt:534",
+        "research/evidence/cycle02/_work__chat_transcript.txt:16719",
+        "research/evidence/cycle02/_work__creator_jrk.txt:540",
+        "research/evidence/cycle02/_work__chat_transcript.txt:16782",
+        "research/sources/maintained-hints__2021-04-01-april_fool.png"
+      ],
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "assumptions": [
+        "Puzzle objects have an intended numbering scheme",
+        "Stage and object labels can be distinguished without trying permutations"
+      ],
+      "confidence": "LOW without an authored label namespace",
+      "contradictions": [
+        "No explicit three-part namespace or stage map supplied",
+        "Primary numeric labels elsewhere may have different roles",
+        "Same-day R/A/B message and screenshot are distinct, not a definition of the door braces"
+      ],
+      "hypothesis": "Brace groups identify stage/object labels rather than arithmetic or a new traversal",
+      "id": "C17-DOOR-NAMED-OBJECTS",
+      "input": "Public door-hint text, preserved timestamp and distinct screenshot/message",
+      "next_test": "Compare fixed numeric/name-selector notation in preserved earlier public phase text with the door braces; require matching grammatical roles before assigning any source indices",
+      "operation_order": [
+        "bind exact original brace wording",
+        "preserve timestamp convention and same-day context",
+        "compare only the declared semantic reading",
+        "require authored source and units before interpreting selectors"
+      ],
+      "output": "A semantic reference hypothesis, not a new route, selection or trial string",
+      "source_evidence": [
+        {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+          "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+        },
+        {
+          "path": "research/sources/maintained-hints__2021-04-01-april_fool.png",
+          "sha256": "e7ff51ad5e00646d9fb785602090db93da36d249365326e46e8ca1ec959ac33c"
+        },
+        {
+          "path": "research/artifacts/cycle14/source-binding-audit.json",
+          "sha256": "b26c94ccd5c52072ac1dc371ac92f62da16a7cabaf8ab002252d07d662489bb4"
+        },
+        {
+          "path": "research/artifacts/cycle17/zeroing-chronology.json",
+          "sha256": "a421b1d79c5a2bc5a337354201489a73222dcde9dbf953e0c7d81601db36fc49"
+        }
+      ],
+      "source_locations": [
+        "research/evidence/cycle02/_work__creator_jrk.txt:534",
+        "research/evidence/cycle02/_work__chat_transcript.txt:16719",
+        "research/evidence/cycle02/_work__creator_jrk.txt:540",
+        "research/evidence/cycle02/_work__chat_transcript.txt:16782",
+        "research/sources/maintained-hints__2021-04-01-april_fool.png"
+      ],
+      "status": "INCONCLUSIVE"
+    }
+  ],
+  "hypothesis": "Exact previous-door wording selects a date, coordinate or named-object interpretation for the unresolved construction",
+  "id": "C17-DOOR-REFERENCE",
+  "input": "Original public text, archived creator/context records and one preserved image",
+  "new_cryptographic_trials": 0,
+  "new_trial_inputs": 0,
+  "next_test": "Perform a fixed public-text notation comparison: earlier phase2/phase3 numeric name selectors and existing brace punctuation versus the door's1/4/21 groups. Determine whether a shared grammatical namespace is actually authored; do not invent numbering, choose a new traversal or extract trial material.",
+  "operation_order": [
+    "bind two exact creator messages in two exports",
+    "map three brace source spans",
+    "compare four fixed context records",
+    "identify the screenshot as the distinct R/A/B message",
+    "retain three semantic interpretations without selection"
+  ],
+  "output": "Exact punctuation/date/image correspondence and three finite door-reference hypotheses",
+  "records": {
+    "December2021_reiteration_rules_out_dismissing_door_only_as_a_joke": true,
+    "archived_UTC_date": "2021-04-01",
+    "author_timezone_not_proven_from_archive_offset": true,
+    "brace_groups": [
+      {
+        "character_span_zero_based_half_open": [
+          18470,
+          18474
+        ],
+        "column_one_based": 39,
+        "interior": "1 ",
+        "line_one_based": 534,
+        "literal": "{1 }",
+        "numeric_value": 1,
+        "utf8_byte_span_zero_based_half_open": [
+          18619,
+          18623
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          18475,
+          18478
+        ],
+        "column_one_based": 44,
+        "interior": "4",
+        "line_one_based": 534,
+        "literal": "{4}",
+        "numeric_value": 4,
+        "utf8_byte_span_zero_based_half_open": [
+          18624,
+          18627
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          18480,
+          18484
+        ],
+        "column_one_based": 49,
+        "interior": "21",
+        "line_one_based": 534,
+        "literal": "{21}",
+        "numeric_value": 21,
+        "utf8_byte_span_zero_based_half_open": [
+          18629,
+          18633
+        ]
+      }
+    ],
+    "brace_values_match_archived_day_month_shortyear": true,
+    "context": [
+      {
+        "classification": "COMMUNITY_INTERPRETATION_OR_QUESTION",
+        "record": {
+          "archived_utc_timestamp": "2021-04-01T07:50:36+00:00",
+          "character_span_zero_based_half_open": [
+            549173,
+            549206
+          ],
+          "column_one_based": 1,
+          "header": "=== [01.04.2021 02:50:36 UTC-05:00] Deleted Account",
+          "line_one_based": 16722,
+          "source": {
+            "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+            "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+          },
+          "utf8_byte_span_zero_based_half_open": [
+            554712,
+            554745
+          ]
+        },
+        "reply_target_metadata_preserved": false,
+        "short_public_text": "is a space after 1 are important?"
+      },
+      {
+        "classification": "COMMUNITY_INTERPRETATION_OR_QUESTION",
+        "record": {
+          "archived_utc_timestamp": "2021-04-01T08:15:19+00:00",
+          "character_span_zero_based_half_open": [
+            549486,
+            549502
+          ],
+          "column_one_based": 1,
+          "header": "=== [01.04.2021 03:15:19 UTC-05:00] omaru",
+          "line_one_based": 16734,
+          "source": {
+            "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+            "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+          },
+          "utf8_byte_span_zero_based_half_open": [
+            555025,
+            555044
+          ]
+        },
+        "reply_target_metadata_preserved": false,
+        "short_public_text": "April fool's ? \ud83d\ude04"
+      },
+      {
+        "classification": "CREATOR_ATTRIBUTED_CONTEXT_NOT_REPLY_BINDING",
+        "record": {
+          "archived_utc_timestamp": "2021-04-01T08:34:22+00:00",
+          "character_span_zero_based_half_open": [
+            549549,
+            549597
+          ],
+          "column_one_based": 1,
+          "header": "=== [01.04.2021 03:34:22 UTC-05:00] Jrk Bgrt",
+          "line_one_based": 16737,
+          "source": {
+            "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+            "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+          },
+          "utf8_byte_span_zero_based_half_open": [
+            555091,
+            555139
+          ]
+        },
+        "reply_target_metadata_preserved": false,
+        "short_public_text": "Good one V ;-). (Assuming you played cyberpunk)."
+      },
+      {
+        "classification": "COMMUNITY_INTERPRETATION_OR_QUESTION",
+        "record": {
+          "archived_utc_timestamp": "2024-03-16T11:34:59+00:00",
+          "character_span_zero_based_half_open": [
+            2352110,
+            2352419
+          ],
+          "column_one_based": 1,
+          "header": "=== [16.03.2024 06:34:59 UTC-05:00] Deleted Account",
+          "line_one_based": 60266,
+          "source": {
+            "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+            "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+          },
+          "utf8_byte_span_zero_based_half_open": [
+            2365865,
+            2366174
+          ]
+        },
+        "reply_target_metadata_preserved": false,
+        "short_public_text": "Another door might be found on.... \n\nThis hint/trolling (whichever stance you take looking at this post by JRK) was actually made on March 31st - not on April fools day - \n\nAlso 1 - 4 - 21 is April fools, yes... \n\nBut it's also Jan 4th depending on how a person formats their dates....\n\nHOWEVER..............."
+      }
+    ],
+    "creator_record": {
+      "archived_utc_timestamp": "2021-04-01T06:57:38+00:00",
+      "character_span_zero_based_half_open": [
+        18432,
+        18485
+      ],
+      "column_one_based": 1,
+      "header": "=== [01.04.2021 01:57:38 UTC-05:00] Jrk Bgrt",
+      "line_one_based": 534,
+      "source": {
+        "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+        "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+      },
+      "utf8_byte_span_zero_based_half_open": [
+        18581,
+        18634
+      ]
+    },
+    "day_month_shortyear_components": [
+      1,
+      4,
+      21
+    ],
+    "exact_public_hint": "Hint: \"another door might be found on {1 },{4} ,{21}\"",
+    "month_day_reading_is_valid_but_not_selected": "2021-01-04",
+    "original_chat_record": {
+      "archived_utc_timestamp": "2021-04-01T06:57:38+00:00",
+      "character_span_zero_based_half_open": [
+        549066,
+        549119
+      ],
+      "column_one_based": 1,
+      "header": "=== [01.04.2021 01:57:38 UTC-05:00] Jrk Bgrt",
+      "line_one_based": 16719,
+      "source": {
+        "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+        "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+      },
+      "utf8_byte_span_zero_based_half_open": [
+        554605,
+        554658
+      ]
+    },
+    "rab_creator_record": {
+      "archived_utc_timestamp": "2021-04-01T13:29:41+00:00",
+      "character_span_zero_based_half_open": [
+        18627,
+        18733
+      ],
+      "column_one_based": 1,
+      "header": "=== [01.04.2021 08:29:41 UTC-05:00] Jrk Bgrt",
+      "line_one_based": 540,
+      "source": {
+        "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+        "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+      },
+      "utf8_byte_span_zero_based_half_open": [
+        18776,
+        18885
+      ]
+    },
+    "rab_exact_body": "R=18\nA=1\nB=2\n\nCould also be 21 or 1812 bit \ud83e\uddd0. Sometimes I'm glad I don't have to solve this puzzle myself.",
+    "rab_message_is_distinct_not_same_hint": true,
+    "rab_original_chat_record": {
+      "archived_utc_timestamp": "2021-04-01T13:29:41+00:00",
+      "character_span_zero_based_half_open": [
+        551704,
+        551810
+      ],
+      "column_one_based": 1,
+      "header": "=== [01.04.2021 08:29:41 UTC-05:00] Jrk Bgrt",
+      "line_one_based": 16782,
+      "source": {
+        "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+        "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+      },
+      "utf8_byte_span_zero_based_half_open": [
+        557265,
+        557374
+      ]
+    },
+    "reiteration_does_not_select_date_coordinates_or_indexing": true,
+    "same_bodies_in_both_exports": true,
+    "seconds_door_to_rab": 23523
+  },
+  "result": "Original {1 },{4} ,{21} values match April1 2021 in the preserved day/month/year timestamp. This supports a date reading but does not define a door location; author timezone and month/day ambiguity remain. Screenshot depicts a distinct R/A/B message23523 seconds later, not the braced hint. December reiteration prevents dismissing the hint solely as an April-Fools joke. Coordinate/object readings require missing source/schema/origin; no route or indices tested.",
+  "screenshot": {
+    "dimensions": [
+      516,
+      164
+    ],
+    "displayed_time_does_not_override_archived_timestamp": true,
+    "does_not_display_braced_door_hint": true,
+    "secondary_filename_april_fool_is_not_creator_authentication": true,
+    "source": {
+      "path": "research/sources/maintained-hints__2021-04-01-april_fool.png",
+      "sha256": "e7ff51ad5e00646d9fb785602090db93da36d249365326e46e8ca1ec959ac33c"
+    },
+    "time_display_timezone_not_encoded": true,
+    "visual_reading": "Jrk Bgrt/admin; R=18, A=1, B=2; Could also be21 or1812 bit; displayed07:29 AM",
+    "visual_reading_is_human_not_machine_OCR": true,
+    "visually_matches_distinct_rab_message": true
+  },
+  "search_space": {
+    "brace_groups": 3,
+    "creator_messages_cross_checked": 2,
+    "finite_semantic_hypotheses": 3,
+    "fixed_context_records": 4,
+    "new_index_or_route_trials": 0,
+    "source_screenshots": 1
+  },
+  "source_evidence": [
+    {
+      "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+      "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+    },
+    {
+      "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+      "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+    },
+    {
+      "path": "research/sources/maintained-hints__2021-04-01-april_fool.png",
+      "sha256": "e7ff51ad5e00646d9fb785602090db93da36d249365326e46e8ca1ec959ac33c"
+    },
+    {
+      "path": "research/artifacts/cycle14/source-binding-audit.json",
+      "sha256": "b26c94ccd5c52072ac1dc371ac92f62da16a7cabaf8ab002252d07d662489bb4"
+    },
+    {
+      "path": "research/artifacts/cycle17/zeroing-chronology.json",
+      "sha256": "a421b1d79c5a2bc5a337354201489a73222dcde9dbf953e0c7d81601db36fc49"
+    }
+  ],
+  "source_locations": [
+    "research/evidence/cycle02/_work__creator_jrk.txt:534",
+    "research/evidence/cycle02/_work__chat_transcript.txt:16719",
+    "research/evidence/cycle02/_work__creator_jrk.txt:540",
+    "research/evidence/cycle02/_work__chat_transcript.txt:16782",
+    "research/sources/maintained-hints__2021-04-01-april_fool.png"
+  ],
+  "status": "INCONCLUSIVE"
+}

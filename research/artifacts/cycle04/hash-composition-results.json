@@ -1,0 +1,15 @@
+{
+  "aes_trials": 2160,
+  "candidate_set_sha256": "1d989e0fc677f8768cce5ed296365f8888f498583dfa1ba6270b4f453bf5eecf",
+  "elapsed_seconds": 0.239,
+  "id": "C04-HASH-COMPOSITION",
+  "ledger_sha256": "56621b13e8d7ca5af300cd686bc9180667f5b4a4b45178f77c0d668e7d109d76",
+  "max_hit_printable_ratio": 0.455696,
+  "padding_hits": 6,
+  "plan": "research/artifacts/cycle04/hash-composition-plan.json",
+  "result": "First-hint and source-answer sha256 digest composition supplies no recognized structure or scoped target match; finite negative only",
+  "status": "INCONCLUSIVE",
+  "structure_hits": 0,
+  "target_matches": 0,
+  "unique_passwords": 360
+}

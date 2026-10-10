@@ -1,0 +1,420 @@
+{
+  "assumptions": [
+    "Visible sender/admin labels are attribution evidence, not signed authorship",
+    "README date and filename are secondary labels, not original message timestamps",
+    "No personal contacts or private data need to be investigated"
+  ],
+  "confidence": "HIGH visible wording and captured bytes; MEDIUM sender attribution; UNKNOWN original date/antecedent/operation",
+  "contradictions": [
+    "No exact advantage, shared idea or operand is specified",
+    "Relative best chance cannot establish secret prerequisite or unique contextual solution",
+    "Original message date/body is not independently preserved in the available transcript range"
+  ],
+  "date": "2026-10-01",
+  "date_provenance": {
+    "July12_2026_is_filename_and_README_label": true,
+    "capture_UTC": "2026-09-30T06:16:08.362654+00:00",
+    "capture_time_not_original_publication": true,
+    "original_message_timestamp_unverified": true
+  },
+  "hypotheses": [
+    {
+      "assumptions": [
+        "Best chance may reflect shared context rather than private data",
+        "Technical skills and recognition can be independent requirements"
+      ],
+      "confidence": "MEDIUM contrast grammar; UNKNOWN specific idea or operation",
+      "contradictions": [
+        "Hint does not name any shared idea, source or phase",
+        "Friends may have another advantage",
+        "Best chance is not a necessary condition or proof of a textual operand"
+      ],
+      "hypothesis": "Familiarity with the creator's ideas or intended meaning may help identify the intended construction without replacing its technical stages",
+      "id": "C21-FRIENDS-CONTEXTUAL",
+      "input": "One public screenshot, five fixed secondary anchors and two preserved original transcript ranges",
+      "next_test": "Audit only the companion preserved July12 2026 screenshot's author-message/understanding wording and its reply-preview boundary. Compare it with the exact original creator statement The puzzle talks for me and frozen phase-name wording. Determine whether a communicative object is explicitly intended, without inferring a ciphertext consumer, personal fact, literal answer or algorithm. No external access, payout analysis, trial text or cryptographic search.",
+      "operation_order": [
+        "map preserved screenshot and README attribution",
+        "bound original transcript coverage",
+        "distinguish relative advantage from source/operand assignment"
+      ],
+      "output": "One bounded contextual-hint interpretation without a personal-data or algorithm search",
+      "source_evidence": [
+        {
+          "path": "research/artifacts/cycle20/progress-acknowledgement.json",
+          "sha256": "b5d9f00aa036cb935d70838b1d977126d44fa122e5248333b0e4d73f9ebfd265"
+        },
+        {
+          "path": "research/sources/maintained-hints__2026-07-12-official-hint.png",
+          "sha256": "d7f2c4c7fa3d608be892428984bc7488c017b68dd5c493bf0e7f4ba440c501e0"
+        },
+        {
+          "path": "research/sources/manifest.json",
+          "sha256": "a0d09faa73cc3977c4b2447a8bebac24042a233633449e409b97170ce24f3b91"
+        },
+        {
+          "path": "research/sources/maintained-README.md",
+          "sha256": "8d4ee414a4839e51e9c79ed387e1ea327835ea98039eef2633d0d8885bcdd015"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+          "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+        }
+      ],
+      "source_locations": [
+        "research/sources/maintained-hints__2026-07-12-official-hint.png",
+        "research/sources/manifest.json",
+        "research/sources/maintained-README.md:411",
+        "research/sources/maintained-README.md:413",
+        "research/sources/maintained-README.md:415",
+        "research/sources/maintained-README.md:417",
+        "research/sources/maintained-README.md:419"
+      ],
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "assumptions": [
+        "Best chance reflects information asymmetry",
+        "The missing information would be needed to distinguish intended meaning"
+      ],
+      "confidence": "LOW exact access claim; UNKNOWN advantage",
+      "contradictions": [
+        "No private access, private datum or inaccessible input is stated",
+        "Best chance does not say only friends can solve it",
+        "Current public-only scope excludes investigating people or contacts"
+      ],
+      "hypothesis": "Close friends have additional knowledge or access unavailable in the public artifacts",
+      "id": "C21-FRIENDS-ACCESS",
+      "input": "One public screenshot, five fixed secondary anchors and two preserved original transcript ranges",
+      "next_test": "Audit only the companion preserved July12 2026 screenshot's author-message/understanding wording and its reply-preview boundary. Compare it with the exact original creator statement The puzzle talks for me and frozen phase-name wording. Determine whether a communicative object is explicitly intended, without inferring a ciphertext consumer, personal fact, literal answer or algorithm. No external access, payout analysis, trial text or cryptographic search.",
+      "operation_order": [
+        "map preserved screenshot and README attribution",
+        "bound original transcript coverage",
+        "distinguish relative advantage from source/operand assignment"
+      ],
+      "output": "One bounded contextual-hint interpretation without a personal-data or algorithm search",
+      "source_evidence": [
+        {
+          "path": "research/artifacts/cycle20/progress-acknowledgement.json",
+          "sha256": "b5d9f00aa036cb935d70838b1d977126d44fa122e5248333b0e4d73f9ebfd265"
+        },
+        {
+          "path": "research/sources/maintained-hints__2026-07-12-official-hint.png",
+          "sha256": "d7f2c4c7fa3d608be892428984bc7488c017b68dd5c493bf0e7f4ba440c501e0"
+        },
+        {
+          "path": "research/sources/manifest.json",
+          "sha256": "a0d09faa73cc3977c4b2447a8bebac24042a233633449e409b97170ce24f3b91"
+        },
+        {
+          "path": "research/sources/maintained-README.md",
+          "sha256": "8d4ee414a4839e51e9c79ed387e1ea327835ea98039eef2633d0d8885bcdd015"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+          "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+        }
+      ],
+      "source_locations": [
+        "research/sources/maintained-hints__2026-07-12-official-hint.png",
+        "research/sources/manifest.json",
+        "research/sources/maintained-README.md:411",
+        "research/sources/maintained-README.md:413",
+        "research/sources/maintained-README.md:415",
+        "research/sources/maintained-README.md:417",
+        "research/sources/maintained-README.md:419"
+      ],
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "assumptions": [
+        "It refers generally to the puzzle",
+        "The note marks intentional guidance but not an algorithm"
+      ],
+      "confidence": "MEDIUM-HIGH literal scope; UNKNOWN construction consequence",
+      "contradictions": [
+        "Explicit NOTE says the contrast is a hint",
+        "A deliberately contextual reference may constrain intended meaning more than encouragement alone"
+      ],
+      "hypothesis": "The hint comments on solver familiarity and complementary abilities without assigning any operative text input",
+      "id": "C21-FRIENDS-GENERAL",
+      "input": "One public screenshot, five fixed secondary anchors and two preserved original transcript ranges",
+      "next_test": "Audit only the companion preserved July12 2026 screenshot's author-message/understanding wording and its reply-preview boundary. Compare it with the exact original creator statement The puzzle talks for me and frozen phase-name wording. Determine whether a communicative object is explicitly intended, without inferring a ciphertext consumer, personal fact, literal answer or algorithm. No external access, payout analysis, trial text or cryptographic search.",
+      "operation_order": [
+        "map preserved screenshot and README attribution",
+        "bound original transcript coverage",
+        "distinguish relative advantage from source/operand assignment"
+      ],
+      "output": "One bounded contextual-hint interpretation without a personal-data or algorithm search",
+      "source_evidence": [
+        {
+          "path": "research/artifacts/cycle20/progress-acknowledgement.json",
+          "sha256": "b5d9f00aa036cb935d70838b1d977126d44fa122e5248333b0e4d73f9ebfd265"
+        },
+        {
+          "path": "research/sources/maintained-hints__2026-07-12-official-hint.png",
+          "sha256": "d7f2c4c7fa3d608be892428984bc7488c017b68dd5c493bf0e7f4ba440c501e0"
+        },
+        {
+          "path": "research/sources/manifest.json",
+          "sha256": "a0d09faa73cc3977c4b2447a8bebac24042a233633449e409b97170ce24f3b91"
+        },
+        {
+          "path": "research/sources/maintained-README.md",
+          "sha256": "8d4ee414a4839e51e9c79ed387e1ea327835ea98039eef2633d0d8885bcdd015"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+          "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+        }
+      ],
+      "source_locations": [
+        "research/sources/maintained-hints__2026-07-12-official-hint.png",
+        "research/sources/manifest.json",
+        "research/sources/maintained-README.md:411",
+        "research/sources/maintained-README.md:413",
+        "research/sources/maintained-README.md:415",
+        "research/sources/maintained-README.md:417",
+        "research/sources/maintained-README.md:419"
+      ],
+      "status": "INCONCLUSIVE"
+    }
+  ],
+  "hypothesis": "The preserved close-friends hint directly identifies contextual recognition as the missing construction requirement",
+  "id": "C21-CONTEXTUAL-HINT-PROVENANCE",
+  "input": "Public contextual-hint screenshot, preserved README, manifest and transcript ranges",
+  "instruction_scope": {
+    "NOTE_marks_hint_not_an_operation_or_argument": true,
+    "best_chance_is_not_only_possible_solver_group": true,
+    "it_has_no_named_stage_source_container_or_object": true,
+    "skills_comparison_does_not_define_a_cipher_family": true
+  },
+  "new_cryptographic_trials": 0,
+  "new_trial_inputs": 0,
+  "next_test": "Audit only the companion preserved July12 2026 screenshot's author-message/understanding wording and its reply-preview boundary. Compare it with the exact original creator statement The puzzle talks for me and frozen phase-name wording. Determine whether a communicative object is explicitly intended, without inferring a ciphertext consumer, personal fact, literal answer or algorithm. No external access, payout analysis, trial text or cryptographic search.",
+  "operation_order": [
+    "validate frozen task",
+    "verify exact source bytes against manifest",
+    "map five fixed README anchors",
+    "record human-observed screenshot text/sender/time",
+    "bound two original transcript ranges and exact phrase presence",
+    "compare three finite contextual roles"
+  ],
+  "original_transcript_coverage": [
+    {
+      "absence_not_contradiction_when_snapshot_ends_before_labeled_hint": true,
+      "exact_friends_phrase_occurrences": 0,
+      "exact_note_phrase_occurrences": 0,
+      "latest_archived_UTC": "2026-05-28T13:34:18+00:00",
+      "latest_chronological_header": "=== [28.05.2026 08:34:18 UTC-05:00] Jrk Bgrt",
+      "latest_header_line_one_based": 1281,
+      "latest_record_precedes_secondary_July12_label": true,
+      "original_header_records": 411,
+      "source": {
+        "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+        "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+      }
+    },
+    {
+      "absence_not_contradiction_when_snapshot_ends_before_labeled_hint": true,
+      "exact_friends_phrase_occurrences": 0,
+      "exact_note_phrase_occurrences": 0,
+      "latest_archived_UTC": "2026-06-12T07:55:58+00:00",
+      "latest_chronological_header": "=== [12.06.2026 02:55:58 UTC-05:00] Sell The Dip",
+      "latest_header_line_one_based": 181123,
+      "latest_record_precedes_secondary_July12_label": true,
+      "original_header_records": 51177,
+      "source": {
+        "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+        "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+      }
+    }
+  ],
+  "output": "Exact attribution/coverage constraints and three unresolved contextual roles",
+  "personal_data_queries": 0,
+  "readme_maps": [
+    {
+      "character_span_zero_based_half_open": [
+        17118,
+        17136
+      ],
+      "column_one_based": 1,
+      "line_one_based": 411,
+      "literal": "## 2026-07-12 hint",
+      "source": {
+        "path": "research/sources/maintained-README.md",
+        "sha256": "8d4ee414a4839e51e9c79ed387e1ea327835ea98039eef2633d0d8885bcdd015"
+      },
+      "utf8_byte_span_zero_based_half_open": [
+        17118,
+        17136
+      ]
+    },
+    {
+      "character_span_zero_based_half_open": [
+        17138,
+        17191
+      ],
+      "column_one_based": 1,
+      "line_one_based": 413,
+      "literal": "![July 2026 Hint](hints/2026-07-12-official-hint.png)",
+      "source": {
+        "path": "research/sources/maintained-README.md",
+        "sha256": "8d4ee414a4839e51e9c79ed387e1ea327835ea98039eef2633d0d8885bcdd015"
+      },
+      "utf8_byte_span_zero_based_half_open": [
+        17138,
+        17191
+      ]
+    },
+    {
+      "character_span_zero_based_half_open": [
+        17193,
+        17204
+      ],
+      "column_one_based": 1,
+      "line_one_based": 415,
+      "literal": "> @Jrk Bgrk",
+      "source": {
+        "path": "research/sources/maintained-README.md",
+        "sha256": "8d4ee414a4839e51e9c79ed387e1ea327835ea98039eef2633d0d8885bcdd015"
+      },
+      "utf8_byte_span_zero_based_half_open": [
+        17193,
+        17204
+      ]
+    },
+    {
+      "character_span_zero_based_half_open": [
+        17209,
+        17322
+      ],
+      "column_one_based": 3,
+      "line_one_based": 417,
+      "literal": "My close friends have the best chance of solving it (a few tried). But they don't have the skills some of you do.",
+      "source": {
+        "path": "research/sources/maintained-README.md",
+        "sha256": "8d4ee414a4839e51e9c79ed387e1ea327835ea98039eef2633d0d8885bcdd015"
+      },
+      "utf8_byte_span_zero_based_half_open": [
+        17209,
+        17322
+      ]
+    },
+    {
+      "character_span_zero_based_half_open": [
+        17327,
+        17348
+      ],
+      "column_one_based": 3,
+      "line_one_based": 419,
+      "literal": "NOTE: that is a hint.",
+      "source": {
+        "path": "research/sources/maintained-README.md",
+        "sha256": "8d4ee414a4839e51e9c79ed387e1ea327835ea98039eef2633d0d8885bcdd015"
+      },
+      "utf8_byte_span_zero_based_half_open": [
+        17327,
+        17348
+      ]
+    }
+  ],
+  "result": "Screenshot visibly attributes a relative solving advantage to close friends and contrasts their skills with public solvers; separate NOTE marks it a hint. No stage, object, private input or algorithm is named. README/filename supply July12 label but screenshot has no date/timezone; README sender spelling differs. Original creator/chat snapshots end in May/June2026 and contain neither exact phrase, so missing transcript corroboration is a coverage limit, not contradiction. Contextual recognition is plausible, not an identified operand or a public-only impossibility claim.",
+  "screenshot": {
+    "date_and_timezone_visible": false,
+    "dimensions": [
+      525,
+      128
+    ],
+    "human_visual_regions": [
+      {
+        "public_text": "My close friends have the best chance of solving it (a few tried). But they don't have the skills some of you do.",
+        "rectangle_xyxy": [
+          53,
+          32,
+          482,
+          74
+        ]
+      },
+      {
+        "public_text": "NOTE: that is a hint.",
+        "rectangle_xyxy": [
+          52,
+          91,
+          218,
+          114
+        ]
+      }
+    ],
+    "locators_are_not_OCR_or_extraction_masks": true,
+    "source": {
+      "path": "research/sources/maintained-hints__2026-07-12-official-hint.png",
+      "sha256": "d7f2c4c7fa3d608be892428984bc7488c017b68dd5c493bf0e7f4ba440c501e0"
+    },
+    "visible_sender_admin_label": "Jrk Bgrt/Admin",
+    "visible_times": [
+      "06:51 PM",
+      "06:51 PM"
+    ]
+  },
+  "search_space": {
+    "declared_context_readings": 3,
+    "exact_phrase_presence_patterns": 2,
+    "fixed_README_anchors": 5,
+    "original_transcript_ranges": 2,
+    "preserved_hint_screenshots": 1
+  },
+  "sender_spelling_discrepancy": {
+    "README": "Jrk Bgrk",
+    "screenshot": "Jrk Bgrt",
+    "typo_does_not_alone_disprove_screenshot_attribution": true
+  },
+  "source_evidence": [
+    {
+      "path": "research/artifacts/cycle20/progress-acknowledgement.json",
+      "sha256": "b5d9f00aa036cb935d70838b1d977126d44fa122e5248333b0e4d73f9ebfd265"
+    },
+    {
+      "path": "research/sources/maintained-hints__2026-07-12-official-hint.png",
+      "sha256": "d7f2c4c7fa3d608be892428984bc7488c017b68dd5c493bf0e7f4ba440c501e0"
+    },
+    {
+      "path": "research/sources/manifest.json",
+      "sha256": "a0d09faa73cc3977c4b2447a8bebac24042a233633449e409b97170ce24f3b91"
+    },
+    {
+      "path": "research/sources/maintained-README.md",
+      "sha256": "8d4ee414a4839e51e9c79ed387e1ea327835ea98039eef2633d0d8885bcdd015"
+    },
+    {
+      "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+      "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+    },
+    {
+      "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+      "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+    }
+  ],
+  "source_locations": [
+    "research/sources/maintained-hints__2026-07-12-official-hint.png",
+    "research/sources/manifest.json",
+    "research/sources/maintained-README.md:411",
+    "research/sources/maintained-README.md:413",
+    "research/sources/maintained-README.md:415",
+    "research/sources/maintained-README.md:417",
+    "research/sources/maintained-README.md:419"
+  ],
+  "status": "INCONCLUSIVE"
+}

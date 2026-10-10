@@ -1,0 +1,448 @@
+# Endgame do GSMG.IO 5 BTC — relatório único
+
+**Estado em 2026-09-18: a fase final não está resolvida.** Nenhum dos três blobs AES foi
+aberto de forma autenticada e o prêmio segue intacto em
+[`1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe`](https://mempool.space/address/1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe)
+(1,25635374 BTC, 126 transações). Este documento substitui o caderno cronológico
+(`docs/historico/ENDGAME_cronologico_2026.md`) como fonte de verdade: aqui está o que é dado,
+o que está provado, o que foi refutado e com que cobertura, e o único lead aberto. Os relatórios
+de cada experimento estão em `_work/<experimento>/RELATORIO.md`, indexados em
+[`docs/RESEARCH-INDEX.md`](docs/RESEARCH-INDEX.md). Regras de trabalho em [`AGENTS.md`](AGENTS.md).
+
+## 1. Os dados (verbatim, conferidos byte a byte contra o site ao vivo)
+
+A página `gsmg.io/89727c598b9cd1cf8873f27cb7057f050645ddb6a7a157a110239ac0152f6a32` (o SHA256 de
+`GSMGIO5BTCPUZZLECHALLENGE1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe`, o "hash the text" da fase 0) tem
+título `GSMG Puzzle`, dois `<h1>` (`SalPhaseIon`, `Cosmic Duality`) e dois `<textarea>`. Nada mais:
+sem script, comentário ou atributo escondido. Em ordem de leitura:
+
+| # | Conteúdo | Tamanho | Estado |
+|---|---|---|---|
+| 1 | `dbbi` — símbolos a–i | 91 = 7×13 | **não decodificado** (ver §6) |
+| 2 | binário a/b (a=0, b=1, 8 bits) | 104 | = `matrixsumlist` |
+| 3 | `faed` — símbolos a–i | 570 = 15×38 | **não decodificado**; estatisticamente i.i.d. |
+| 4 | `z` + a–i,o (a=1..i=9, o=0 → decimal → hex → ASCII) | | = `lastwordsbeforearchichoice` |
+| 5 | `z` + idem | | = `thispassword` |
+| 6 | `z` + `shabef` (a1z26 = `sha256`) + texto | | `our first hint is your last command` |
+| 7 | blob **SMALL** (`Salted__`, salt `3ab585348552415d`) | 80 B de ciphertext | fechado; o binário a/b `enter` fica **inline** entre as duas metades do base64 |
+| 8 | `shabef ans too` | | `sha256 answer too` |
+| 9 | blob **COSMIC** (salt `2d3f6fe06dc950e6`) | 1328 B | fechado |
+
+Há ainda o blob **TAIL32** (salt `b45a5e3d827593ca`, 80 B) no fim do plaintext da fase 3.2, após
+"Raising the stakes without extra chances of winning. A fubcd-king & oracle-queen, thingky mvps,
+on a sad board but as wide as the first one seen." O criador confirmou (2023-06-10) que é real e
+nunca foi aberto.
+
+Strings (as transcrições completas estão no `README.md`, seção Salphaseion):
+
+```
+dbbi = dbbibfbhccbegbihabebeihbeggegebebbgehhebhhfbabfdhbeffcdbbfcccgbfbeeggecbedcibfbffgigbeeeabe
+faed = faedggeedfcbdabhhggcadcfeddgfdgbgigaaedggiafaecghggcd… (570)
+```
+
+**Matriz da fase 0** (`follow_the_white_rabbit.png`, 14×14, 350 px; a página `/puzzle` é o PNG
+1048×1556 com a matriz, uma faixa vermelha, o logo, o QR do endereço e o texto do banner): 101 uns;
+lida em espiral anti-horária a partir de (0,0) dá `gsmg.io/theseedisplanted`. Exatamente cinco
+cores: preto, branco, azul `#3F48CC` (15 células), amarelo `#FFF200` (9) e **uma célula inteira**
+`#FEFEFE` em (linha 7, coluna 4) = índice espiral 163. As 24 células azuis/amarelas estão nos
+índices espirais 7, 15, …, 191: o último bit de cada byte da URL (azul = 1, amarelo = 0), uma
+moldura de verificação desenhada pelo autor. O centro contém um coelho branco em pixel-art
+(decoração; a "matriz de 102 uns" era erro de amostragem). Somas de linha
+`[6,10,8,7,6,6,5,4,9,9,7,8,7,9]`, de coluna `[8,10,8,10,8,7,3,6,7,5,9,6,6,8]`.
+
+## 2. O que o criador disse (Jrk Bgrt / @SoWut, Telegram)
+
+| Data | Fala | Uso |
+|---|---|---|
+| 2020-01-14 | "Roses are White but often Red. Yellow has a number and so does Blue. Go back to the first puzzle piece without further ado. It might have shown you only one door, beware that the rabbits nest may contain a whole lot more." | levou ao "hash the text" da fase 0 → URL do endgame |
+| 2020-05-21 | "First or zero" | responde à numeração da peça/fase zero (#4105), não à indexação dos primos; a segmentação de §6 foi encontrada em base 1 |
+| 2021-03-05 | "Infrared" (a "xor black/white/yellow/blue? or sum for red") | sem operação que renda senha (§5-F) |
+| 2021-04-01 | "R=18 / A=1 / B=2. Could also be 21 or 1812 bit" | a1z26 |
+| 2021-12-26 | "prime numbers … definitely required to proceed. … some characters need to be 'zeroed out'" | primos = §6; "zeroed out" ainda sem operação |
+| 2023-01-09 | "At least prime number is very important to get any further." | idem |
+| 2023-02-23 | binário invertido: `yellowblueprimes matrixsumlist lastwordsbeforearchichoice yinyang wewontgiveawaythepassword itsinfrontofyoureyesbutyourenotseeingit verylaststepisatruegiveawaypromised` | o roadmap |
+| 2023-06-10 | TAIL32 "Correct" (nunca aberto), "No" (não é o hint da SalPhaseIon) | |
+| 2023-08-06 / 2025-04-28 | "Once you hit a 'ying yang', you'll be able to solve it the same day"; "when yingyang is reached, 2 hours max" | yinyang é uma etapa, não a senha |
+| 2024-01-26 | "Regular Bitcoin Private key" | alvo = chave privada Bitcoin; a fala não determina representação binária, textual ou intermediária |
+| 2022-12-11 | ".... That is very specific" sobre a **capa** do livro *Cosmic Duality* (yin-yang de campos estelares, uma estrela branca e uma amarela) | a "página 39" foi acréscimo da comunidade |
+| 2026-07-12 | "My close friends have the best chance of solving it (a few tried). But they don't have the skills some of you do" + "NOTE: that is a hint"; "I have a hidden laptop which I haven't touched in years. On that thing… is the actual answer"; "The \"5\" btc was never the actual prize. That was only a tiny fraction"; "salphaseion 100% solvable: Yes" | **classe de senha**, não impossibilidade — ver a nota de contexto abaixo |
+| 2026-09-01 | "Couple hours, and no." — resposta a "quanto tempo levou? trabalhou sozinho?", ou seja **não** sozinho; a "two sloppy days" ele respondeu "Same same". "Pfff. Coincidence." (YOUWON) | **teto de complexidade**: ferramentas online, poucas camadas |
+
+**Contexto da noite de 2026-07-12 (conferido verbatim no export; corrige a leitura fácil).** As quatro
+falas acima são de uma única sessão de bar, 21:17–22:30, com ele declaradamente bêbado ("I might me
+drunk", 21:26). Não é um drop estruturado, e três pontos desarmam a leitura "a resposta está trancada
+num objeto físico":
+
+1. **O laptop é sobre a memória dele, não sobre o puzzle.** A fala responde a reclamações de que ele só
+   aparece quando há hint, e vem logo depois de "I have these moment where I get into a frenzy … A day
+   later I can hardly understand what I have done. And that is not a joke" (21:37) e de um "I don't know
+   right now" (21:45) a uma teoria de primos. O sentido é *o gabarito que eu perdi está lá*, não *a peça
+   que falta ao puzzle está lá*. Em 16/07, a um participante que brincou ter procurado o laptop, ele
+   respondeu "Well, it's hidden in a room with a hidden door" — piada, sem conteúdo operacional.
+2. **No mesmo fio ele afirma solubilidade:** "Yes" a *salphaseion is 100% solveable?* (22:01) e "I've
+   verified many times back then after some sad rushed mistakes, it's all still solvable with a few
+   stable qubits" (22:03). Se a solução dependesse do objeto físico, a afirmação seria vazia.
+3. **Contradição levantada no grupo e nunca respondida** (17/07): se ele não toca o laptop há anos, as
+   transações de halving de 2024 implicam que opera as chaves por outro meio.
+
+O hint marcado (`NOTE: that is a hint`) está sobre **close friends**, não sobre o laptop, e é
+deliberadamente paradoxal: os amigos têm mais chance **apesar de não terem a habilidade técnica** do
+grupo. O que eles têm é o **vocabulário pessoal/cultural** dele. Leitura operacional: o passo final é uma
+palavra ou expressão de registro pessoal-informal, do mesmo universo semântico de `causality` e
+`thematrixhasyou` — uma **classe de senha**, não um mecanismo novo nem um segredo inacessível. Isso é
+evidência *a favor* de continuar a criptoanálise sob o teto da regra 4, e não contra. "Some already found
+it. And understood not to risk it… 🤐" e "Iykyk" (22:17–22:20) são alegações não verificáveis ditas na
+mesma sessão. Perseguir identidade, locais ou o objeto é interdito pela regra 6 do `AGENTS.md` e não tem
+valor operacional. `itsinfrontofyoureyesbutyourenotseeingit` **não** é fala dele: é token do roadmap de
+2023-02-23; não há nenhuma ocorrência do criador com essa frase nos exports.
+
+Exports do Telegram até 2026-09-17: nenhuma fala do criador depois de 2026-09-01 (o export de
+04 a 17/09, com 1.209 mensagens, não tem nenhuma dele).
+
+## 3. Fatos provados
+
+1. **KDF.** Os blobs autenticados das fases 2, 3 e 3.2 abrem com `openssl enc` EVP_BytesToKey
+   **SHA256** (openssl ≥ 1.1.0), não com MD5 usando as senhas conhecidas. O cabeçalho `Salted__`
+   é compatível com senha e salt, mas não identifica digest, iterações ou uso de padding.
+   Os testes de PBKDF2, digests EVP e `-K` com 9 IVs deram negativo nos parâmetros e corpora
+   enumerados; isso não prova o KDF dos três blobs ainda fechados.
+2. **A "cadeia comunitária" é miragem.** Chain1 (SMALL com a senha dos cinco tokens), Chain2
+   (TAIL32 com o WIF resultante), `cc` (COSMIC com a passphrase XOR `a795de11…`), Chain4, os "35
+   blocos", `half`/`better_half` e `BTCSEED`: todos abrem só sob EVP-**MD5**, têm padding `0x01` e
+   plaintext de alta entropia (a assinatura de falso-positivo), a máscara de Chain4 é construída
+   (`cosmic[158:166] XOR "Salted__"`), e `BTCSEED` depende de só 8 dos 570 símbolos de `faed`
+   (mantidos esses 8 e alterados os outros 562, o prefixo sobrevive em 1.000/1.000 casos). Os
+   endereços `1JG648…`/`145ZQ9…` derivados dela são os de um golpe, não o prêmio.
+3. **`faed` é material i.i.d.** (entropia condicional e informação mútua no lag 285 dentro do
+   nulo; 3.381 permutações estruturadas sem sinal): exclui Bifid-570 real e checkerboard direto ou permutado sobre `faed`.
+4. **Evidência estatística forte de que `dbbi` foi construído com marcadores `b`/`be` nas posições
+   lógicas primas** (§6): 0 em 20.000 embaralhamentos e uma única família em 2.925 regras. A
+   intenção do autor é inferência, não medida.
+5. **A célula `#FEFEFE` é uma célula inteira e uniforme** (25×25 px, exatamente 625 px em três
+   capturas idênticas), não antialiasing: a imagem tem 25 marcas, não 24. A origem exata do RGB
+   não é verificável no JPEG de referência.
+6. **Site revivido em 2026-08-15**: os dados do puzzle (matriz, `dbbi`, `faed`, blobs) são
+   idênticos às capturas do Wayback; o HTML tem diferenças cosméticas (um comentário novo em
+   `/choiceisanillusion…`, `<H1>` voltou a `<h1>` no endgame). A raiz é uma animação de despedida;
+   404 = `Hello :-)`; 71 caminhos temáticos = 404.
+7. **Oráculo.** O plaintext autêntico da fase 3.2 tem só 58,9 % de ASCII (segmento EBCDIC cp273)
+   e era descartado como ruído pelo oráculo histórico. `G.semantic` agora reconhece blob openssl
+   aninhado (`Salted__`/`U2FsdGVk`, 0 falsos positivos em 200 k) e a assinatura EBCDIC; 431 k
+   plaintexts de 2026-09-17 e 9.967 de 2026-09-02 foram re-varridos: 0.
+8. **Scorer.** `solver/scorer.py` treinou no export do Telegram e aprendeu os quadgramas do próprio
+   `dbbi` (DIFH = −5,13 vs THEQ = −4,06); a leitura identidade do resíduo de §6 pontua z +6,9 com
+   ele e z 1,5 com o scorer limpo. Todo escore histórico sobre saídas ricas em a–i está inflado.
+9. **Ruído calibrado** (720 k senhas aleatórias): z de padding entre −1,2 e +2,1 por sub-família e
+   `printable` até ~0,60 em 80 B são o comportamento normal do acaso. Em escala ≥ 10⁷ a taxa de
+   referência é Σ_{j=1..16} 256⁻ʲ = 1/255 (o `unpad` aceita 1–16), não 1/256: contra 1/256 um lote de
+   10⁸ nasce com z ≈ +2,6 (provado pelo histograma de comprimentos de padding da rodada de
+   2026-09-17). O teto de `printable` sobe com o número de paddings: 0,62–0,65 com ~143 k por blob de
+   80 B. Maior desvio já visto: z +3,75 numa sub-família de 151 k decifrações, reproduzido, sem
+   mecanismo possível e p ≈ 0,03 após look-elsewhere — acaso.
+10. **Superfície ECC nula:** pubkey exposta, 6 assinaturas com `r` distintos, nonces pequenos ou
+    relacionados excluídos (BSGS), ECDLP intacto.
+11. **Oráculo de dois endereços.** As duas transações de gasto de `1GSMG…` (`2aa9a4a9…`, 2,5 BTC;
+    `88cdb3cd…`, 1,25 BTC) mandaram os halvings para
+    [`17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa`](https://mempool.space/address/17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa),
+    que guarda 3,75055856 BTC, nunca gastou (pubkey não exposta) e é chave **distinta** (a forma
+    comprimida da pubkey de `1GSMG` dá `1cc6xa…`; a comunidade já notara, #69284). Que a chave de `17ucy`
+    esteja em algum envelope **não** está provado: o endereço é de 2020 e o criador glosou "better half"
+    como a esposa. Mas até 2026-09-17 `solver/oracles.py` e `G.fast_priv_scan` comparavam só com
+    `1GSMG`: toda varredura de privkey do projeto era cega para 3/4 dos fundos. O kit agora testa os dois
+    (`O.PRIZE_ADDRS`, `O.TARGET_H160S`; `fast_priv_scan` compara o h160 das duas formas de pubkey, com
+    controle plantado no self-test). Re-varredura retroativa de todo conteúdo hex guardado (plaintexts
+    com padding e também materiais de decodificadores, §3.14):
+    694.386 anteriores (81.862.702 verificações) + 1.331.155 da rodada "operador ensinado"
+    (231.207.482): **0**. O MITM de 16! (§4-B) exige a pubkey do alvo e **não** pode ser refeito para
+    `17ucy`; os demais negativos históricos de privkey valem só para `1GSMG`, exceto as famílias
+    re-verificadas na §3.14.
+12. **Revisão paralela dos bytes salvos contra os dois alvos.** Implementação separada da de
+    §3.11 (`solver/oraculo_duplo_2026_09_17/oracle.py`), feita em paralelo na branch
+    `codex/oraculo-duplo` sobre um corpus distinto (`_work/` + `solver/`, com prefixos); a
+    sobreposição com o corpus da §3.11 não foi medida. Ela notou ainda
+    que `G.fast_priv_scan` varria só raw32, apesar da docstring mencionar hex/WIF. Resultado:
+    **zero chaves dos dois alvos** em 592.339 conteúdos únicos (58.357.232 tentativas raw32, 674
+    hex64 e 3 WIFs válidos), com pubkeys comprimidas/não comprimidas e controles independentes.
+    É um snapshot finito de plaintexts, prefixos e representações preservadas; não recupera
+    candidatos descartados nem estende ao segundo alvo as antigas buscas baseadas na pubkey
+    exposta. Cobertura e limites no
+    [relatório do oráculo duplo](_work/oraculo_duplo_2026-09-17/RELATORIO.md).
+13. **Auditoria multiagente de 18/09: cobertura ampliada, ainda sem solução.** A fase 3.2
+    usa a direção inversa de cp273 em relação ao decoder textual inicialmente implementado.
+    A correção reproduz os 1.539 bytes autênticos do Beaufort no offset 447; nova varredura
+    textual dos 592.339 conteúdos anteriores: zero candidatos adicionais e zero hits. **Lacuna
+    declarada:** o corpus da §3.11 (694.386 plaintexts + 1.331.155 da rodada "operador
+    ensinado") não passou pela visão cp273 inversa nem por UTF-16 (fechada na §3.14).
+    Também foram recuperados 225.854 plaintexts completos de binários COSMIC e caudas Bifid
+    que não pertenciam ao corpus anterior. A varredura concluída verificou todas as
+    253.179.237 janelas raw32 em cada orientação BE/LE (**506.358.474 tentativas**) contra
+    os dois alvos, sem hit. A auditoria independente conferiu os 2.506 lotes, hashes de
+    corpus/código e arquivo de hits vazio. O scanner Go antigo terminou por falta de memória,
+    apesar de um relatório citar a contagem calculada como execução. Separadamente, o filtro
+    dos modos de fluxo podia descartar chaves binárias interiores antes da persistência:
+    esse espaço grande continua aberto. [Escopo e evidências](_work/multiagente_2026-09-18/RELATORIO.md).
+14. **Enxame de 18/09: lacunas reproduzidas fechadas, sem solução.** Sete lentes de ideação (seis
+    do Claude e o Codex Astra) propuseram 17 hipóteses. As 13 do Claude caíram no gate
+    adversarial com prior ≤ 2. As 4 do Codex e 3 lacunas de oráculo reproduzidas pelos
+    verificadores viraram frentes de teste, cada uma com revisão independente. Resultado: zero
+    candidatos e zero hits em 6,58 M decisões AES e ~168 M testes de privkey contra os dois alvos.
+    - **Visões cp273 e UTF-16 sobre o corpus da §3.11** (1.894.673 conteúdos, 6 visões): 0. O
+      corpus da §3.11 é de conteúdos hex, que incluem materiais de decodificadores; não é só de
+      plaintexts.
+    - **Decimal → bytes → EBCDIC no repertório da direção autêntica.** A busca de 16/09 podava
+      pelo repertório da direção errada, e o falso negativo foi demonstrado. Refeita a leitura por
+      inteiro completo (33,8 M inteiros de `dbbi` e 13,1 M configurações literais e de bijeção):
+      0 textos aceitos.
+    - **Seleções de 256 bits de `faed`** como pré-imagem de senha (1,15 M AES) e contra `17ucy`: 0.
+    - **Lista numérica + fala antes de "choice"** (474 k senhas, 2,84 M AES): 0.
+    - **CBC sem padding.** COSMIC por bloco sobre as 1,27 M formas do corpus histórico e
+      SMALL/TAIL32 sem unpad com os 7 operandos, com raw32 BE/LE: 0.
+    - **`17ucy` nos escalares históricos** (11,19 M: F6 completa, brainwallets, corpus de 466.310
+      bases, famílias `.cjs`, `prime_host`, `select256`): 0.
+    - **Plaintexts de 17/09 deixados em `%TEMP%`**, que nenhuma re-varredura tinha lido (152.952
+      conteúdos, 150 M janelas raw32 BE+LE): 0.
+    - **Continua aberto:** só os modos de fluxo. O raw32 sem unpad do corpus de 1,27 M em SMALL/TAIL32
+      foi fechado (498.682.408 janelas BE/LE contra os dois alvos, 0; z de padding −0,87), e os outros
+      quatro abertos declarados aqui foram fechados na §3.15.
+      [Relatório](_work/lacunas_2026-09-18/RELATORIO_A1_A2.md).
+
+    [Relatório, frentes e revisões](_work/enxame_2026-09-18/RELATORIO.md).
+15. **Lacunas de 18/09: as quatro baratas fechadas, sem solução.**
+    - **EBCDIC por códigos decimais na direção autêntica da 3.2** (os 26.127.728 casos de 16/09, com
+      os scripts históricos intactos): 45 casos segmentáveis e 58.232.392 caminhos, mas nenhum passa
+      de 52 % de letras e espaço nem de 58 % de letras e dígitos (máximo exato por DP sobre todos os
+      caminhos). As três leituras decimais de 16/09 ficam cobertas nas duas direções.
+    - **Recoleta da §3.11 corrigida:** `retro_dois_alvos.collect()` perdia linhas de `.jsonl` por
+      `splitlines()` (quebra em `\x85`/U+2028). Hoje são 1.723 conteúdos, 909 fora de qualquer
+      corpus; raw32 BE/LE e 7 visões: 0.
+    - **N−k** dos 11.188.119 escalares do `retro_17ucy`, contra os dois alvos: 0.
+    - **Corpus órfão, camadas C e D** (outras 15 cifras; 797.172 sobreviventes e 12.754.752
+      montagens de blocos, com as contagens de 17/09 reconciliadas): 0 em ~985 M testes BE/LE contra
+      os dois alvos. O corpus órfão inteiro (A a D) está coberto contra os dois alvos.
+
+    [Relatório](_work/lacunas_2026-09-18/RELATORIO.md).
+
+## 4. O que foi refutado, por família
+
+Cada linha tem cobertura declarada, oráculo duro e, quando há escore, nulo casado; os números
+exatos e os scripts estão nos relatórios linkados em `docs/RESEARCH-INDEX.md` e nos scripts de
+`solver/`. **Reabrir qualquer família é permitido; confira a cobertura declarada antes de
+codar.** Insumo novo do criador ou lacuna de cobertura reproduzida, como em §3.13, são
+motivos fortes para reabrir; o negativo de uma enumeração finita não exclui todas as funções
+da mesma família.
+Os negativos históricos de privkey valem para o endereço efetivamente configurado em cada
+experimento; a revisão de §3.12 amplia apenas a cobertura dos bytes preservados.
+
+### A. Alegações públicas
+| Alegação | Teste | Resultado |
+|---|---|---|
+| Issue #108: "dois typos no blob SMALL" (2026-08) | a página **já** tem `J`@18 e `s`@51 e o salt `3ab58534…` que a issue chama de corrigido | refutada com precisão de caractere |
+| Issue #111: FirstHalf/BetterHalf de um `gros` de 2432 B | 2432 é o tamanho do **ciphertext** da fase 3.2; nenhum blob gera plaintext desse tamanho | irreproduzível |
+| Issues #110/#99: 12 endereços extraídos do cosmic | operam sobre a cadeia-miragem | sem valor |
+| "YOUWON" (`(dbbi − M91) mod 26`) | look-elsewhere ≈ 3 %; 216 AES + privkey | coincidência ("Pfff. Coincidence.") |
+| Cadeia "23/16/7/&8/Hb_m!%D" (Codex, 2026) | ≥ 15 artefatos equivalentes no espaço enumerado | ruído |
+| *Looking Forward* (o "Bingo" de 2026-03-03) | senha (5,77 M AES), running key (7,05 M), cifra de livro, 16 gravuras, páginas do scan | 0 |
+
+### B. Decodificação de `dbbi` e `faed`
+| Família | Cobertura | Resultado |
+|---|---|---|
+| Decimal → hex → ASCII (o método da página) com zeros: cada letra, até duas, **todas** as ocorrências, `g→0/7`, UTF-8, EBCDIC 1141, bases primas 11–257, base 127, bases 29/31/37 com alfabetos, potências, Brotli/Zstd/zlib/gzip | certificados de cobertura integral (2^107 máscaras etc.); EBCDIC por inteiro completo e por códigos concatenados refeito na direção autêntica da 3.2 (§3.14, §3.15) | 0 |
+| Straddling checkerboard / VIC direto e permutado, Bifid 3×3 exaustivo (60.480 classes) e 5×5, Trifid, Bazeries, Nihilist, Polybius, MadHatter | 104 M decodes + hill-climb GPU com controles | 0 |
+| Transposições por `matrixsumlist`/`lastwords…`/`dbbi`, keystreams mod 9/10 (listas, tokens, cores, primos), running keys do corpus e do livro (6,4 M alinhamentos) | | 0 |
+| RSA por caractere com primos das cores, `dbbi` como escalar secp256k1, `dbbi` como SHA256 de listas (525 k pré-imagens), somas de linhas/colunas/anéis/diagonais/retângulos em todas as dimensões, produtos internos, distâncias | | 0 |
+| Codificações sem zero (base 9 bijetiva, códigos com zeros apagados, trits) | 11,6 M modelos; **cobertura parcial**: DBBI admite 192.969 modelos compatíveis e só o melhor caminho de cada foi testado | 0 |
+| Resíduo L83/L84 como **escalar direto** de `1GSMG`, bases 2–19, atribuição global de dígitos com colisões, dois sinais | 72 configurações, 3,15 bi pares configuração/atribuição; duas implementações C independentes na estrutura; 22 controles positivos cada + 80.780 atribuições enumeradas literalmente | 0 |
+| `dbbi` (64 tokens `b`/`g`) como **chave privada hex** sob **todas** as 16! bijeções | MITM na curva, 4 ordens × 2 sinais = 1,67 × 10¹⁴ chaves; controle plantado recuperado exato | 0 |
+
+### C. Senhas
+| Família | Cobertura | Resultado |
+|---|---|---|
+| Corpus histórico (tokens da página, roadmap, Arquiteto, Matrix, Mr. Robot, Venus Project, site novo, Cosmic Duality OCR, fase 3.2) | 466.310 senhas-base × 3 formas = 1,27 M, nos 3 blobs × 2 KDF | 0 |
+| "our first hint is your last command" como gramática de composição; "seven intertwined" (concatenação, XOR de sha256, encadeado; entrelaçado só sobre 9 tokens do roadmap/página, k=1); tokens do roadmap em 1–3 partes, com o resíduo de §6 | ~7 M + 6,7 M + 60 k | 0 |
+| `faed` como 95 cores RGB nos 95 zeros da matriz (570 = 95 × 6); somas de linha/coluna como senha; 720 configurações | 109.440 senhas, 656.640 AES; raw32 sem filtro de padding nas saídas (610,7 M janelas) | 0 |
+| Senhas Unicode (☯, trigramas, 陰陽/阴阳/太極/음양, emojis; UTF-8/16, NFC/NFD) | 754 k senhas | 0 |
+| `matrixsumlist` como o operador que o criador demonstrou (`R=18/A=1/B=2 → 21 \| 1812`): ordinais a1z26 → soma \| lista sobre 152 objetos nomeados e a saída de `yellowblueprimes` em L83 e L84 (bits como dígitos e como binário) | 230.506 senhas, 1,38 M AES, 253 k privkeys (dois alvos) | 0 |
+| `lastwordsbeforearchichoice` literal: janelas antes das 5 ocorrências de "choice" no transcript do Arquiteto, falas, blocos cortados, com RAB e codec z | 70.340 senhas, 474 k AES, 211 k brainwallets | 0 |
+| "seven intertwined" como entrelaçamento de caracteres dos 7 operandos de nível-senha (fase 1, `causality`, junções de 227 B e 62 B, `thematrixhasyou`, URL, título+endereço): 28 conjuntos × 7! ordens × k 1–9 × inversões × caixa | ≈ 285 M AES (COSMIC inteiro), 11,6 M privkeys (dois alvos) | 0 |
+| **Diff do monólogo contra o roteiro de *Matrix Reloaded*** (duas transcrições concordantes). Desvios únicos: inserções YOU/ME/WELL/NOT/CODES/HOPEFULLY, "WE"→"I", SIXTH→LAST, ONE→YOU, MATRIX→PUZZLE, PROGRAM→BASICS, ZION→"YOUR WILL TO LIVE AND", "ENTIRE HUMAN RACE"→"ENTIRENESS OF YOURSELF SELF… CIAO BELLA O", + a súplica GSMG (HUNDRED FOURTY, WISEMAN ABOVE). Testado: palavras inseridas/duplicadas como senha; letras extras das grafias erradas (24 permutações "UIHG"); mapa ONE→YOU aplicado ao Bifid; posições das duplicadas como índices de blocos; seleções 7+16=23 blocos; fatias de 140. **Consequência que o mapa não registrava: os números 23/16/7 são do roteiro** ("select from the matrix 23 individuals — 16 female, 7 male"), não escolha do criador — ver §6. [Histórico](docs/historico/ENDGAME_cronologico_2026.md) | ≈ 120 frases canônicas nos 35 blocos, SMALL e COSMIC (raw + sha256hex), mais os testes mecânicos do diff | 0 |
+| "twenty-three ciphers" como família de codecs: 65 de byte único e os multi-byte (UTF, CJK), nas duas direções, sobre plaintexts guardados, campos da página e senhas | 762 k AES, ≈ 100 M reinterpretações | 0 |
+| Dualidade (`half / better half`, yin-yang): um blob como senha do outro, metades do SMALL em torno de `enter`, cortes em todos os pontos, XOR, complemento da matriz, estrelas da capa (proxy) | 265 k senhas, 1,6 M AES | 0 |
+| Referência pessoal pela gramática das fases: 104 itens públicos do mundo do criador, aridade 1–3 (4–6 na lista curta), 7 materiais, separadores | ≈ 1,7 M candidatos, 32,6 M AES | 0 (triplas verbatim a 67,5 %) |
+| Extensão da anterior com o registro pessoal-informal de 12/07 e 16/07 que o inventário não pegou: 41 itens inéditos (typos dele inclusos), disjunção garantida por construção | 19.913 candidatos, 358 k AES, 19.913 brainwallets; nulo casado z +0,57 | 0 (z +1,16) |
+| "our first hint is your last command" literal: o sha256 publicado em 22/04/2019 como argumento `-pass`; "segunda porta" = `sha256(título + 17ucy…)` e variantes | 217 senhas; 10 URLs (todas 404) | 0 |
+| Senha como **arquivo** (`-kfile`/`-pass file:` = 1.ª linha; 89 artefatos, chunks PNG, digests dos bytes, 128 k linhas de texto) | 767 k decifrações | 0 |
+| Textos do site revivido, capa/livro, falas do criador, linhas de comando openssl | | 0 |
+
+### D. Premissas da ferramenta
+| Premissa | Cobertura | Resultado |
+|---|---|---|
+| A cifra é aes-256-cbc | 16 cifras/modos do `openssl enc` × corpus 1,27 M × 3 blobs × 2 KDF = 122 M, controle por cifra com o CLI real | 0 reconhecidos; filtro de modos de fluxo não cobre raw32 binário interior (§3.13); CBC sem padding: fechado — COSMIC por bloco, SMALL/TAIL32 com os 7 operandos (§3.14) e o corpus de 1,27 M em SMALL/TAIL32 sem unpad (498,7 M janelas BE/LE, 0) |
+| Os blocos do ciphertext estão publicados fora de ordem (o `enter` como marca) | 120 permutações × salt cruzado SMALL↔TAIL32 × 2 KDF × 1,27 M = 1,22 bi lógicos; oráculo por bloco agnóstico a IV/ordem/padding: 0/10,18 M pares com ≥ 2 blocos limpos | refutada; os negativos são de **senha** |
+| O método da página converte hex ímpar com **zero à esquerda** (`G.z_method` e ~40 scripts), não como o `From_Hex` do CyberChef (pares desde o início). Só diverge com hex ímpar, que texto printável nunca produz, e para bytes codificados pelo criador o zero à esquerda é o inverso exato ([relatório](_work/hex_paridade_2026-09-18/RELATORIO.md)) | leitura CyberChef nas 1.767 configurações divergentes de L83/L84/`dbbi`/`faed` × 512 zeragens: 3.296 senhas, 19.776 AES, 18,4 M janelas raw32 | 0 |
+| KDF/IV alternativos, `-K` cru, chave = passphrase XOR | | 0 |
+
+### E. Chave direta e seleção
+| Família | Cobertura | Resultado |
+|---|---|---|
+| BIP39/BIP32 de listas, matriz, índices coloridos, BTCSEED | ver o caderno histórico | 0 |
+| Seleção de 256 bits de `faed` por índices principiados (primos, cores, `g`/`i`, múltiplos, i/i+285) | 3,77 M privkeys; **parcial**: o braço AES ficou ~200× mais fino | 0 |
+| Números das cores (479/484 e derivados) como parâmetro; célula 163 como ponteiro (símbolos e bits); URL com bits azuis zerados | 1,1 M | 0 |
+| Cor como seletor sobre `dbbi` em primos; inversão yin-yang (**parcial**); espectro (a–i ↔ IR…UV, nm/THz) | 3,5 M + 0,9 M + 11,9 M | 0 |
+
+### F. Mídia e forense
+PNGs (alfa, LSB, sub-pixel, chunks, QR = URL do endereço, coelho central), MP3 do Decentraland
+(frames, metadados, áreas não alocadas; só `HASHTHETEXT`), HTMLs (byte a byte), plaintexts
+autênticos das fases (nada além de CRLF e do segmento EBCDIC, que é bijeção exata cp273),
+Wayback do domínio inteiro (nenhuma página inédita): **nada oculto**.
+
+## 5. Trabalho pronto e não executado
+
+`dbbi` como **senha** sha256-hex do SMALL sob as 16! bijeções não tem estrutura linear e exige força
+bruta AES. O kernel OpenCL está construído e validado ponta a ponta
+(`solver/gpu_aes16_dbbi_hex/`, controles exatos, blob aninhado incluído), mas rende 44 M/s
+sustentados na RTX 5060: **132 h por variante** (direta/minúsculo/SMALL; reverso, maiúsculo, TAIL32
+e COSMIC são só parametrização). Não foi disparado; `python launch.py` retoma por checkpoint.
+
+## 6. O lead aberto: `yellowblueprimes` em `dbbi`
+
+Regra (atlas comunitário, 2026-09-15; reproduzida e verificada aqui): numerando as posições
+**lógicas** de `dbbi` a partir de 1, em posição **prima** consome-se `b` ou `be` do texto físico,
+nas demais um símbolo, e exige-se consumo integral dos 91 símbolos.
+
+- Existem exatamente **duas** segmentações (L83 e L84, diferem só no `e` final); **0 em 20.000**
+  embaralhamentos preservando contagens; **única família em 2.925 regras** (outras letras, sufixos,
+  primos 0-based, contados do fim, físicos, compostos, quadrados, Fibonacci: nenhuma). `faed` não
+  admite segmentação sob 4.248 variantes.
+- L84: 23 primos, **16 `b` + 7 `be`** — os números do Arquiteto ("twenty-three ciphers, sixteen
+  encryptions and or seven intertwined passwords"). Tipos como bits (`b`=0, `be`=1):
+  `00001000110000100110010` (em L83 o `e` final vira o 23.º `be` e o último bit vira 1: `…0110011`). Coincidem posição a posição com as cores dos 25 eventos da matriz em
+  ordem espiral (`BBBBYBBBYYBBBBYBBYYBWYYBY`, `#FEFEFE` = azul) omitindo dois eventos — 22 e 25,
+  ou 23 e 25: p familiar 6,3 × 10⁻⁴. Só a ordem espiral casa. **Mas L83 também casa** (omitindo
+  22/24, 23/24 ou 24/25): as cores confirmam a segmentação e não a desambiguam nem trazem
+  informação nova. São 5 casamentos no total, não 4.
+- Resíduo L84 (61 símbolos fora dos primos):
+  `difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae` (L83 = sem o `e` final).
+  **É indistinguível de i.i.d.** (χ² p 0,11, autocorrelação p 0,20, bigramas p 0,67).
+- Esgotado sobre o resíduo e os 84/83 tokens (0 em tudo): decimal/base 9 com todas as escolhas de
+  zero; checkerboard (todos os escapes, 27 alfabetos), Polybius/Bifid 3×3, a1z26, bases, índices
+  em textos; keystream `matrixsumlist` (mod 9/10); todas as grades vs somas da matriz (com a=1..i=9 o
+  resíduo soma 341 em L84 e 336 em L83; a matriz soma 101); resíduo nas células da matriz; somas como ordem de leitura; 60/61 como
+  parâmetros; marcadores como chave/seleção/XOR/número; omissões como parâmetro; 16/7/23
+  como partições e iterações; entrelaçamento das 7 palavras da 3.2.2; âncoras no Bifid de `faed`;
+  grade 7×12; resíduo como chave sobre `faed`; gramática SHA256 das fases 2–3.2 com 60.005
+  concatenações; "coluna j = letra j do rótulo" (7×13, 15×38).
+
+**As duas ligações seguem desconhecidas: qual segmentação é a pretendida e como `matrixsumlist` consome
+o resíduo.** Sobre a **primeira**, o argumento 16/7 é a melhor razão disponível para L84, mas é fraco e
+é preciso dizer por quê. A favor: das duas segmentações que a regra admite, só L84 dá **23 = 16 `b` +
+7 `be`** (L83 dá 15 + 8), e a fala que enuncia esses números é o plaintext da própria 3.2. Contra, e
+decisivo para o peso: **os números são do roteiro do filme, não do criador.** O Arquiteto de *Matrix
+Reloaded* diz "reinserting the **prime program**. After which you will be required to select from the
+matrix **23 individuals — 16 female, 7 male**"; o criador trocou só os substantivos (`program→basics`,
+`individuals→ciphers`, `female→encryptions`, `male→intertwined passwords`). Logo a adjacência entre
+"prime" e "16/7" — que parecia desenho — é estrutura do texto copiado. Some-se que **23 não discrimina**
+(π(83) = π(84) = 23, consequência aritmética do comprimento) e que as duas segmentações, diferindo por
+um token, têm sempre repartições adjacentes. O argumento é **condicional**: se o criador desenhou `dbbi`
+para bater os números que ia citar, então L84. Nada mudou a favor de L83, e L84 já era a premissa em
+uso — a maioria das campanhas varre as duas, e `prime_host_l84_2026-09-17` fixou L84 por decisão
+declarada, registrando que "a justificativa dessa escolha continua sendo uma hipótese". O ganho é de
+prioridade, não de conhecimento.
+[Nota](_work/l83_cosmic_2026-09-18/DISCRIMINANTE.md). Sobre o **primeiro**: a coincidência de que o COSMIC tem 83 blocos AES e L83 tem 83 tokens foi
+testada como correspondência e **não tem lastro**. Particionando os 83 blocos pelas 23 posições primas,
+as quatro estatísticas (média, variância, bits por byte, entropia) dão menor p = 0,433 contra 20.000
+partições aleatórias — 1,0 após Bonferroni. A coincidência cai de "pista" para "número" e **não
+discrimina L83 de L84**. O teste só veria estrutura no ciphertext; se os marcadores disserem algo sobre
+os blocos que só faz sentido depois de decifrar, nenhum teste sobre o CT o detectaria. Na mesma rodada, a
+segmentação foi **reconstruída do zero** por implementação independente: saem exatamente as duas, com
+L84 em 16 `b` + 7 `be` e resíduo idêntico byte a byte ao publicado aqui, e L83 em 15 `b` + 8 `be`.
+[Relatório](_work/l83_cosmic_2026-09-18/RELATORIO.md). Sobre o segundo, uma leitura **inversa** foi testada e fechada em 18/09: que o resíduo **seja**
+o objeto que o rótulo nomeia — a lista das 14 somas de linha e 14 de coluna —, em vez de ser o alvo da
+operação. Isso cobria a lacuna que `symbolic_color_sums_2026-09-16` deixou explícita ("combinar linhas e
+colunas em uma lista de 28 valores"). Os limites de peso saem dos dados, não de escolha: azul aparece em
+22 das 28 somas e amarelo em 15, então um azul de 3 dígitos exigiria ≥ 72 dígitos e um amarelo de 4
+exigiria ≥ 73, contra os 60/61 símbolos do resíduo — logo azul ≤ 99 e amarelo ≤ 999, com todos os pares
+de primos incluídos. Em L83 e L84, nos dois sentidos, com as 512 escolhas globais de letras zeráveis e
+16 ordens: 0 em 524.288 combinações, e 0 num segundo método com 1.564.864 combinações de pesos e perfis.
+**Verificado de forma independente pelo coordenador** com código próprio (2.046 alvos, 1.564.864
+combinações e 240.928 construções de comprimento compatível — os três números idênticos, 0 reconstruções),
+além da grade de cores conferida contra `G.COLORED` e da varredura raw32 da mesma entrega refeita inteira
+(8.347.680 janelas BE/LE, 0). Não fecha outras bases, permutações quaisquer das 28 somas nem as somas
+dentro de outra transformação.
+O mesmo princípio (o rótulo nomeia um objeto) foi aplicado aos demais rótulos, com um teto algébrico
+ainda mais forte: **o resíduo não tem `o`, logo sua string de dígitos não tem zero**, e em a1z26 só
+`j`(10) e `t`(20) geram zero — o texto-fonte não pode conter `j` nem `t`, e `t` é a segunda letra mais
+comum do inglês. Isso mata de imediato `lastwordsbeforearchichoice`, `thispassword`, `matrixsumlist`,
+`causality`, `thematrixhasyou` e `enter` como literais; `yellowblueprimes` e `yinyang` passam no filtro
+e morrem no comprimento (27 e 11 dígitos contra 60/61). Sobre o objeto que o rótulo nomeia: das 200
+janelas antes das 5 ocorrências de "choice" no `MISC.txt`, só 13 (6,5 %) sobrevivem ao filtro e nenhuma
+tem comprimento compatível. Fecha "o resíduo é a codificação **a1z26** de um texto em inglês". A leitura
+**ASCII decimal** também foi fechada, por impossibilidade estrutural: o dígito `2` não pode iniciar
+código imprimível algum (21–29 < 32; 2xx > 126), e o resíduo contém `2` (a letra `b`) — a enumeração
+exaustiva do DAG dá **0 caminhos** nos quatro alvos. Com o método `To_Base(16)` da página (fechado no
+PR #7, exaustivo por ser bijetivo), as três codificações decimais naturais do resíduo estão encerradas.
+A **bijeção arbitrária** também foi varrida (3.628.800 atribuições × 4 alvos): em ASCII
+decimal dá **0 leituras viáveis**, o que torna aquele fechamento independente de convenção; e **a1z26 também está fechada por exaustão**: o caminho canônico
+(substituição monoalfabética, 1.451.520 pares) tem melhor escore −5,739 contra −3,766 do inglês, e os
+caminhos **com pares** — antes só amostrados — foram fechados por um teste de limiar exato (existe
+caminho com média ≥ L ⇔ max(soma − L·n_quadgramas) ≥ 0, uma passada de DP): em 1.501.920 pares
+bijeção-alvo viáveis, **0 atingem L = −4,5**, com melhor margem −59,21. Com isso as leituras textuais do
+resíduo estão esgotadas; continuam fora apenas bases não decimais e **objetos que não sejam texto** —
+esta última é a hipótese viva, porque o resíduo pode simplesmente não codificar linguagem.
+Sua **primeira instância concreta** já foi testada e descartada: o resíduo como **seleção por saltos**
+sobre `faed`. O teto é próprio — a soma dos saltos (341 em L84, 336 em L83) cabe nos 570 de `faed` sem
+dar a volta, o que limita o offset inicial a 230 e 235 valores. Varridas as 3.712 seleções (4 resíduos ×
+2 âncoras × 2 direções × todos os offsets): melhor escore de texto −6,516 contra −3,679 do inglês,
+0 hits de chave e 0 candidatos em 44.544 AES (z de padding −0,58).
+Outras instâncias de seleção seguiram: saltos sobre `dbbi` com wrap (1.456, exaustivo) e
+pares `(linha, coluna)` em `faed` e na matriz (exaustivo) — 1.480 materiais, melhor escore −6,328,
+0 chaves e 0 candidatos em 17.760 AES; `dbbi` como grade de pares é **impossível por teto** (o resíduo
+tem valor 9 nas duas paridades e `dbbi` só tem 7 linhas); e saltos com bijeção arbitrária ficam em
+**amostra** (199.951 materiais, melhor −6,014), porque a soma varia de 233 a 377 e sempre cabe em 570,
+de modo que nenhuma bijeção é eliminada por comprimento.
+[Relatório](_work/residuo_saltos_2026-09-18/RELATORIO.md).
+[Relatório](_work/residuo_como_somas_2026-09-18/RELATORIO.md).
+O terceiro item, **o que "zeroed out" zera, está fechado** como espaço enumerável: os 2^9 =
+512 subconjuntos de símbolos zerados (não só os de 1 e 2 do histórico), em L84 e L83, na ordem
+publicada e invertida — 2.044 leituras, 6.132 escalares — não dão chave de nenhum dos dois alvos nem
+um único texto com ≥ 85 % de imprimíveis (melhor de todo o espaço: 0,72, zerando `a` e `g`). Também
+ficam fechadas as duas leituras que o criador ensinou ou apontou para esse tipo de segmento: a1z26 com
+segmentação ambígua (a dica "21 ou 1812" rende só 16 leituras em L84 e 8 em L83, a melhor sendo a
+identidade, escore limpo −6,9 contra −3,7 do inglês) e o método literal da página
+(`Substitute`/`To_Base(16)`/`From_Hex`, com controle que reproduz `lastwordsbeforearchichoice` e
+`thispassword`), que sobre o resíduo dá 31 %/44 % de imprimíveis.
+[Relatório](_work/half_betterhalf_2026-09-18/RELATORIO.md). Compatibilidade estatística com i.i.d. em
+60/61 símbolos não exclui informação codificada. Os negativos sustentam apenas as operações
+enumeradas; não demonstram necessidade de informação externa. A auditoria de 18/09 encontrou
+lacunas reais (§3.13), e o autor afirmou em 06/08/2023 (#9607) que os participantes já tinham
+a informação. A versão exportada de 28/04/2025 (#39237) situa yin-yang na fase seguinte à
+abertura de AES; não confirma esse token como parte literal da senha atual.
+
+## 7. Como trabalhar
+
+Ver `AGENTS.md`, que prevalece. Em resumo: oráculo duro (privkey de um dos dois alvos, ou
+abertura AES certificada); KDF SHA256; hipótese em prosa, finita, com controle positivo e nulo
+casado (≥ 100 embaralhamentos); scorer limpo para texto; plaintexts em hex; conferir esta tabela
+antes de codar; relatório em `_work/`, script em `solver/`, linha no índice; entrada aqui só se
+mudar o mapa. **Campanhas novas seguem convidadas** — insumo do criador, lacuna reproduzida
+ou família ausente da §4 são motivos fortes; hipóteses criativas e métodos não testados
+também. A parada de cada campanha está no seu `spec.json`. "Cinco famílias negativas seguidas"
+é heurística de gestão, não conclusão científica.
+
+## 8. Scripts reproduzíveis (principais)
+
+| Script | O que prova |
+|---|---|
+| `solver/experiments/claude_endgame_2026_09_02/gsmg_common.py` | kit: dados, oráculos, decoders com self-test |
+| `solver/verify_community_claims_2026_09.py` | issues #108/#111/#110/#99 |
+| `solver/final_chain.py` | reprodução da cadeia-miragem (para auditoria, não solução) |
+| `solver/ct_montage_attack.py`, `ct_blockscan_oracle.py`, `ct_montage_corpus_collect.py` | montagem do ciphertext × corpus; oráculo por bloco |
+| `solver/mitm16_dbbi_hex/` (Go) + `make_config.py` | 16! bijeções de `dbbi` como privkey |
+| `solver/gpu_aes16_dbbi_hex/` (OpenCL) | 16! bijeções como senha (pronto, não rodado) |
+| `solver/premissas_2026_09_17/` | cifras/modos, `-kfile`, espectro, Unicode, forense, retro-EBCDIC |
+| `solver/primos_2026_09_17/`, `solver/prime_host_*.cjs` | segmentação por primos, resíduo, `faed`, `matrixsumlist`, marcadores; scorer limpo |
+| `solver/zero_free_*.cjs`, `solver/diagonal_sum_*.cjs`, demais `*.cjs` | famílias de codificação/somas fechadas com verificação independente |
+| `solver/prize_nonce_bsgs/`, `solver/prize_*.cjs`, `solver/gsmg_sig_recover.py` | superfície ECC do prêmio |
+| `solver/operador_ensinado_2026_09_17/` | operador RAB, últimas palavras, sete entrelaçadas, codecs, dualidade, referência pessoal; oráculo de dois alvos e re-varreduras (`retro_dois_alvos.py`, `v4_rodada_dois_alvos.py`) |
+
+Taxonomia completa em `solver/README.md`; histórico cronológico em
+`docs/historico/ENDGAME_cronologico_2026.md`.

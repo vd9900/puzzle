@@ -1,0 +1,962 @@
+{
+  "Bifid_object_reused": {
+    "all570_dependencies_already_mapped": true,
+    "complete_output_consumer_authored": false,
+    "full_output_length": 570,
+    "no_Bifid_transform_or_statistical_control_repeated": true,
+    "prefix_input_indices": [
+      0,
+      1,
+      2,
+      3,
+      285,
+      286,
+      287,
+      288
+    ],
+    "recognized_prefix_is_not_full_output_or_instruction": true,
+    "recognized_prefix_length": 7,
+    "remaining_body_length": 563,
+    "source": {
+      "path": "research/artifacts/cycle10/instruction-graphs-v3.json",
+      "sha256": "31a20ee0b58c1289d16de425c76f4521ca228a01c6ca12122d074056a8e81132"
+    }
+  },
+  "assumptions": [
+    "Ten source regions plus three delimiters are a frozen partition",
+    "Analyst graph aliases do not create primary input assignments",
+    "Fragments cannot be used to claim a complete graph"
+  ],
+  "confidence": "HIGH source/graph/dependency counts; UNKNOWN intended roles and consumer",
+  "contradictions": [
+    "No graph currently supplies complete source-bound input/output ownership",
+    "Recognition of a seven-letter prefix leaves full-object role unknown",
+    "A whole-object design expectation is not itself an authored extraction instruction"
+  ],
+  "date": "2026-10-01",
+  "frozen_primary_partition": {
+    "delimiter_characters": 3,
+    "delimiters": [
+      {
+        "character_span_zero_based_half_open": [
+          1986,
+          1987
+        ],
+        "column_one_based": 1576,
+        "line_one_based": 17,
+        "normalized_span_zero_based_half_open": [
+          765,
+          766
+        ],
+        "utf8_byte_span_zero_based_half_open": [
+          1986,
+          1987
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          2114,
+          2115
+        ],
+        "column_one_based": 1704,
+        "line_one_based": 17,
+        "normalized_span_zero_based_half_open": [
+          829,
+          830
+        ],
+        "utf8_byte_span_zero_based_half_open": [
+          2114,
+          2115
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          2174,
+          2175
+        ],
+        "column_one_based": 1764,
+        "line_one_based": 17,
+        "normalized_span_zero_based_half_open": [
+          859,
+          860
+        ],
+        "utf8_byte_span_zero_based_half_open": [
+          2174,
+          2175
+        ]
+      }
+    ],
+    "no_partition_or_codec_recomputed": true,
+    "region_characters": 1072,
+    "regions": [
+      {
+        "character_span_zero_based_half_open": [
+          456,
+          637
+        ],
+        "column_one_based": 46,
+        "encoded_sha256": "71fe46259e270c113529dfaded4b59c59a9dffd826a7202ab07fc498b6a2c5ca",
+        "grammar_type": "UNRESOLVED_SOURCE_DATA",
+        "length": 91,
+        "line_one_based": 17,
+        "name": "dbbi91",
+        "normalized_span_zero_based_half_open": [
+          0,
+          91
+        ],
+        "source": {
+          "path": "research/sources/salphaseion.html",
+          "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+        },
+        "type_does_not_identify_input_output_or_consumer": true,
+        "utf8_byte_span_zero_based_half_open": [
+          456,
+          637
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          638,
+          845
+        ],
+        "column_one_based": 228,
+        "decoded": "matrixsumlist",
+        "encoded_sha256": "29b59b580d592d009d10d3513e92b4466c79934cbf1a8b7d5710e23b924626a5",
+        "grammar_type": "BINARY_ENCODED_TEXT_LABEL",
+        "length": 104,
+        "line_one_based": 17,
+        "name": "matrixsumlist",
+        "normalized_span_zero_based_half_open": [
+          91,
+          195
+        ],
+        "source": {
+          "path": "research/sources/salphaseion.html",
+          "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+        },
+        "transform": "a=0,b=1; MSB-first ASCII octets",
+        "type_does_not_identify_input_output_or_consumer": true,
+        "utf8_byte_span_zero_based_half_open": [
+          638,
+          845
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          846,
+          1985
+        ],
+        "column_one_based": 436,
+        "encoded_sha256": "066191b4aafc114fbca7f0d168382f40129c4ff18490375b689741081d5ef3c2",
+        "grammar_type": "UNRESOLVED_SOURCE_DATA",
+        "length": 570,
+        "line_one_based": 17,
+        "name": "faed570",
+        "normalized_span_zero_based_half_open": [
+          195,
+          765
+        ],
+        "source": {
+          "path": "research/sources/salphaseion.html",
+          "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+        },
+        "type_does_not_identify_input_output_or_consumer": true,
+        "utf8_byte_span_zero_based_half_open": [
+          846,
+          1985
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          1988,
+          2113
+        ],
+        "column_one_based": 1578,
+        "decoded": "lastwordsbeforearchichoice",
+        "encoded_sha256": "5d013695c4b410387ca881e93cb77295fb4a38b17077d518a28a6954b1fe80f3",
+        "grammar_type": "DECIMAL_INTEGER_ENCODED_TEXT_LABEL",
+        "length": 63,
+        "line_one_based": 17,
+        "name": "lastwordsbeforearchichoice",
+        "normalized_span_zero_based_half_open": [
+          766,
+          829
+        ],
+        "source": {
+          "path": "research/sources/salphaseion.html",
+          "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+        },
+        "transform": "a..i=1..9,o=0; decimal integer to minimal big-endian ASCII",
+        "type_does_not_identify_input_output_or_consumer": true,
+        "utf8_byte_span_zero_based_half_open": [
+          1988,
+          2113
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          2116,
+          2173
+        ],
+        "column_one_based": 1706,
+        "decoded": "thispassword",
+        "encoded_sha256": "4447f552c0f76528be4df75028a3ecdb3878bccd46acb4b3fabe6442304fd9c4",
+        "grammar_type": "DECIMAL_INTEGER_ENCODED_TEXT_LABEL",
+        "length": 29,
+        "line_one_based": 17,
+        "name": "thispassword",
+        "normalized_span_zero_based_half_open": [
+          830,
+          859
+        ],
+        "source": {
+          "path": "research/sources/salphaseion.html",
+          "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+        },
+        "transform": "a..i=1..9,o=0; decimal integer to minimal big-endian ASCII",
+        "type_does_not_identify_input_output_or_consumer": true,
+        "utf8_byte_span_zero_based_half_open": [
+          2116,
+          2173
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          2176,
+          2245
+        ],
+        "column_one_based": 1766,
+        "encoded_sha256": "d3dcdb2f2b66c1b95733b6944051eb4cc5d6143b4666fb1580928a262418cac1",
+        "grammar_type": "MIXED_LITERAL_SHA_WORDING",
+        "length": 35,
+        "line_one_based": 17,
+        "literal": "shabefourfirsthintisyourlastcommand",
+        "name": "first-command",
+        "normalized_span_zero_based_half_open": [
+          860,
+          895
+        ],
+        "source": {
+          "path": "research/sources/salphaseion.html",
+          "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+        },
+        "type_does_not_identify_input_output_or_consumer": true,
+        "utf8_byte_span_zero_based_half_open": [
+          2176,
+          2245
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          2246,
+          2373
+        ],
+        "column_one_based": 1836,
+        "encoded_sha256": "6d4e51e06278649828373d4d01ffb5cf46173a7ec66661768c53c032ad43d0e9",
+        "grammar_type": "ENCODED_CONTAINER_DATA",
+        "length": 64,
+        "line_one_based": 17,
+        "name": "small-container-first-part",
+        "normalized_span_zero_based_half_open": [
+          895,
+          959
+        ],
+        "source": {
+          "path": "research/sources/salphaseion.html",
+          "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+        },
+        "type_does_not_identify_input_output_or_consumer": true,
+        "utf8_byte_span_zero_based_half_open": [
+          2246,
+          2373
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          2374,
+          2453
+        ],
+        "column_one_based": 1964,
+        "decoded": "enter",
+        "encoded_sha256": "9b26e15d82b0f97dc8cb2ae413f440a3a03848a3f1c5029bec6dcd8f3c0f95d7",
+        "grammar_type": "BINARY_ENCODED_TEXT_LABEL",
+        "length": 40,
+        "line_one_based": 17,
+        "name": "enter",
+        "normalized_span_zero_based_half_open": [
+          959,
+          999
+        ],
+        "source": {
+          "path": "research/sources/salphaseion.html",
+          "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+        },
+        "transform": "a=0,b=1; MSB-first ASCII octets",
+        "type_does_not_identify_input_output_or_consumer": true,
+        "utf8_byte_span_zero_based_half_open": [
+          2374,
+          2453
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          2454,
+          2581
+        ],
+        "column_one_based": 2044,
+        "encoded_sha256": "c6dac12b9935e1f2e294bfdf963526d21009c029254f5d5b799a809769fa1b57",
+        "grammar_type": "ENCODED_CONTAINER_DATA",
+        "length": 64,
+        "line_one_based": 17,
+        "name": "small-container-second-part",
+        "normalized_span_zero_based_half_open": [
+          999,
+          1063
+        ],
+        "source": {
+          "path": "research/sources/salphaseion.html",
+          "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+        },
+        "type_does_not_identify_input_output_or_consumer": true,
+        "utf8_byte_span_zero_based_half_open": [
+          2454,
+          2581
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          2582,
+          2605
+        ],
+        "column_one_based": 2172,
+        "encoded_sha256": "e6190c95f277454dd5953a49d0b34dd176685cba336fa4b54277c8e4edc067cb",
+        "grammar_type": "MIXED_LITERAL_SHA_WORDING",
+        "length": 12,
+        "line_one_based": 17,
+        "literal": "shabefanstoo",
+        "name": "answer-command",
+        "normalized_span_zero_based_half_open": [
+          1063,
+          1075
+        ],
+        "source": {
+          "path": "research/sources/salphaseion.html",
+          "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+        },
+        "type_does_not_identify_input_output_or_consumer": true,
+        "utf8_byte_span_zero_based_half_open": [
+          2582,
+          2605
+        ]
+      }
+    ],
+    "source": {
+      "path": "research/artifacts/cycle15/label-boundary-audit.json",
+      "sha256": "3d965046baecf2372ffcf7d79537c537019583f9def802e8fe0faefcdc70e94f"
+    },
+    "total_characters": 1075
+  },
+  "graph_accountability": [
+    {
+      "absent_regions_do_not_by_themselves_reject_partial_graph": true,
+      "complete_source_bound_execution": false,
+      "graph_id": "C17-LOCAL-BACKWARD",
+      "graph_is_a_partial_symbolic_fragment_not_a_complete_claim": true,
+      "region_role_rows": [
+        {
+          "length": 91,
+          "mapped_symbolic_nodes": [],
+          "mapping_is_analyst_role_alias_not_authored_assignment": true,
+          "region_represented_in_this_fragment": false,
+          "source_bound_end_to_end_consumer": false,
+          "source_region": "dbbi91"
+        },
+        {
+          "length": 104,
+          "mapped_symbolic_nodes": [],
+          "mapping_is_analyst_role_alias_not_authored_assignment": true,
+          "region_represented_in_this_fragment": false,
+          "source_bound_end_to_end_consumer": false,
+          "source_region": "matrixsumlist"
+        },
+        {
+          "length": 570,
+          "mapped_symbolic_nodes": [],
+          "mapping_is_analyst_role_alias_not_authored_assignment": true,
+          "region_represented_in_this_fragment": false,
+          "source_bound_end_to_end_consumer": false,
+          "source_region": "faed570"
+        },
+        {
+          "length": 63,
+          "mapped_symbolic_nodes": [
+            "Architect-selection"
+          ],
+          "mapping_is_analyst_role_alias_not_authored_assignment": true,
+          "region_represented_in_this_fragment": true,
+          "source_bound_end_to_end_consumer": false,
+          "source_region": "lastwordsbeforearchichoice"
+        },
+        {
+          "length": 29,
+          "mapped_symbolic_nodes": [
+            "thispassword"
+          ],
+          "mapping_is_analyst_role_alias_not_authored_assignment": true,
+          "region_represented_in_this_fragment": true,
+          "source_bound_end_to_end_consumer": false,
+          "source_region": "thispassword"
+        },
+        {
+          "length": 35,
+          "mapped_symbolic_nodes": [
+            "first-shabef"
+          ],
+          "mapping_is_analyst_role_alias_not_authored_assignment": true,
+          "region_represented_in_this_fragment": true,
+          "source_bound_end_to_end_consumer": false,
+          "source_region": "first-command"
+        },
+        {
+          "length": 64,
+          "mapped_symbolic_nodes": [
+            "embedded-container"
+          ],
+          "mapping_is_analyst_role_alias_not_authored_assignment": true,
+          "region_represented_in_this_fragment": true,
+          "source_bound_end_to_end_consumer": false,
+          "source_region": "small-container-first-part"
+        },
+        {
+          "length": 40,
+          "mapped_symbolic_nodes": [],
+          "mapping_is_analyst_role_alias_not_authored_assignment": true,
+          "region_represented_in_this_fragment": false,
+          "source_bound_end_to_end_consumer": false,
+          "source_region": "enter"
+        },
+        {
+          "length": 64,
+          "mapped_symbolic_nodes": [
+            "embedded-container"
+          ],
+          "mapping_is_analyst_role_alias_not_authored_assignment": true,
+          "region_represented_in_this_fragment": true,
+          "source_bound_end_to_end_consumer": false,
+          "source_region": "small-container-second-part"
+        },
+        {
+          "length": 12,
+          "mapped_symbolic_nodes": [
+            "second-shabef"
+          ],
+          "mapping_is_analyst_role_alias_not_authored_assignment": true,
+          "region_represented_in_this_fragment": true,
+          "source_bound_end_to_end_consumer": false,
+          "source_region": "answer-command"
+        }
+      ]
+    },
+    {
+      "absent_regions_do_not_by_themselves_reject_partial_graph": true,
+      "complete_source_bound_execution": false,
+      "graph_id": "C17-SUMLIST-SELECTOR",
+      "graph_is_a_partial_symbolic_fragment_not_a_complete_claim": true,
+      "region_role_rows": [
+        {
+          "length": 91,
+          "mapped_symbolic_nodes": [],
+          "mapping_is_analyst_role_alias_not_authored_assignment": true,
+          "region_represented_in_this_fragment": false,
+          "source_bound_end_to_end_consumer": false,
+          "source_region": "dbbi91"
+        },
+        {
+          "length": 104,
+          "mapped_symbolic_nodes": [
+            "matrixsumlist"
+          ],
+          "mapping_is_analyst_role_alias_not_authored_assignment": true,
+          "region_represented_in_this_fragment": true,
+          "source_bound_end_to_end_consumer": false,
+          "source_region": "matrixsumlist"
+        },
+        {
+          "length": 570,
+          "mapped_symbolic_nodes": [],
+          "mapping_is_analyst_role_alias_not_authored_assignment": true,
+          "region_represented_in_this_fragment": false,
+          "source_bound_end_to_end_consumer": false,
+          "source_region": "faed570"
+        },
+        {
+          "length": 63,
+          "mapped_symbolic_nodes": [
+            "Architect-selection"
+          ],
+          "mapping_is_analyst_role_alias_not_authored_assignment": true,
+          "region_represented_in_this_fragment": true,
+          "source_bound_end_to_end_consumer": false,
+          "source_region": "lastwordsbeforearchichoice"
+        },
+        {
+          "length": 29,
+          "mapped_symbolic_nodes": [
+            "thispassword"
+          ],
+          "mapping_is_analyst_role_alias_not_authored_assignment": true,
+          "region_represented_in_this_fragment": true,
+          "source_bound_end_to_end_consumer": false,
+          "source_region": "thispassword"
+        },
+        {
+          "length": 35,
+          "mapped_symbolic_nodes": [
+            "first-shabef"
+          ],
+          "mapping_is_analyst_role_alias_not_authored_assignment": true,
+          "region_represented_in_this_fragment": true,
+          "source_bound_end_to_end_consumer": false,
+          "source_region": "first-command"
+        },
+        {
+          "length": 64,
+          "mapped_symbolic_nodes": [],
+          "mapping_is_analyst_role_alias_not_authored_assignment": true,
+          "region_represented_in_this_fragment": false,
+          "source_bound_end_to_end_consumer": false,
+          "source_region": "small-container-first-part"
+        },
+        {
+          "length": 40,
+          "mapped_symbolic_nodes": [],
+          "mapping_is_analyst_role_alias_not_authored_assignment": true,
+          "region_represented_in_this_fragment": false,
+          "source_bound_end_to_end_consumer": false,
+          "source_region": "enter"
+        },
+        {
+          "length": 64,
+          "mapped_symbolic_nodes": [],
+          "mapping_is_analyst_role_alias_not_authored_assignment": true,
+          "region_represented_in_this_fragment": false,
+          "source_bound_end_to_end_consumer": false,
+          "source_region": "small-container-second-part"
+        },
+        {
+          "length": 12,
+          "mapped_symbolic_nodes": [],
+          "mapping_is_analyst_role_alias_not_authored_assignment": true,
+          "region_represented_in_this_fragment": false,
+          "source_bound_end_to_end_consumer": false,
+          "source_region": "answer-command"
+        }
+      ]
+    },
+    {
+      "absent_regions_do_not_by_themselves_reject_partial_graph": true,
+      "complete_source_bound_execution": false,
+      "graph_id": "C17-PARALLEL-OWNERSHIP",
+      "graph_is_a_partial_symbolic_fragment_not_a_complete_claim": true,
+      "region_role_rows": [
+        {
+          "length": 91,
+          "mapped_symbolic_nodes": [
+            "dbbi91",
+            "residual-object",
+            "source-square"
+          ],
+          "mapping_is_analyst_role_alias_not_authored_assignment": true,
+          "region_represented_in_this_fragment": true,
+          "source_bound_end_to_end_consumer": false,
+          "source_region": "dbbi91"
+        },
+        {
+          "length": 104,
+          "mapped_symbolic_nodes": [
+            "matrixsumlist"
+          ],
+          "mapping_is_analyst_role_alias_not_authored_assignment": true,
+          "region_represented_in_this_fragment": true,
+          "source_bound_end_to_end_consumer": false,
+          "source_region": "matrixsumlist"
+        },
+        {
+          "length": 570,
+          "mapped_symbolic_nodes": [
+            "Bifid-object",
+            "faed570"
+          ],
+          "mapping_is_analyst_role_alias_not_authored_assignment": true,
+          "region_represented_in_this_fragment": true,
+          "source_bound_end_to_end_consumer": false,
+          "source_region": "faed570"
+        },
+        {
+          "length": 63,
+          "mapped_symbolic_nodes": [
+            "Architect-selection"
+          ],
+          "mapping_is_analyst_role_alias_not_authored_assignment": true,
+          "region_represented_in_this_fragment": true,
+          "source_bound_end_to_end_consumer": false,
+          "source_region": "lastwordsbeforearchichoice"
+        },
+        {
+          "length": 29,
+          "mapped_symbolic_nodes": [],
+          "mapping_is_analyst_role_alias_not_authored_assignment": true,
+          "region_represented_in_this_fragment": false,
+          "source_bound_end_to_end_consumer": false,
+          "source_region": "thispassword"
+        },
+        {
+          "length": 35,
+          "mapped_symbolic_nodes": [],
+          "mapping_is_analyst_role_alias_not_authored_assignment": true,
+          "region_represented_in_this_fragment": false,
+          "source_bound_end_to_end_consumer": false,
+          "source_region": "first-command"
+        },
+        {
+          "length": 64,
+          "mapped_symbolic_nodes": [],
+          "mapping_is_analyst_role_alias_not_authored_assignment": true,
+          "region_represented_in_this_fragment": false,
+          "source_bound_end_to_end_consumer": false,
+          "source_region": "small-container-first-part"
+        },
+        {
+          "length": 40,
+          "mapped_symbolic_nodes": [],
+          "mapping_is_analyst_role_alias_not_authored_assignment": true,
+          "region_represented_in_this_fragment": false,
+          "source_bound_end_to_end_consumer": false,
+          "source_region": "enter"
+        },
+        {
+          "length": 64,
+          "mapped_symbolic_nodes": [],
+          "mapping_is_analyst_role_alias_not_authored_assignment": true,
+          "region_represented_in_this_fragment": false,
+          "source_bound_end_to_end_consumer": false,
+          "source_region": "small-container-second-part"
+        },
+        {
+          "length": 12,
+          "mapped_symbolic_nodes": [],
+          "mapping_is_analyst_role_alias_not_authored_assignment": true,
+          "region_represented_in_this_fragment": false,
+          "source_bound_end_to_end_consumer": false,
+          "source_region": "answer-command"
+        }
+      ]
+    },
+    {
+      "absent_regions_do_not_by_themselves_reject_partial_graph": true,
+      "complete_source_bound_execution": false,
+      "graph_id": "C17-COMMAND-ROLE",
+      "graph_is_a_partial_symbolic_fragment_not_a_complete_claim": true,
+      "region_role_rows": [
+        {
+          "length": 91,
+          "mapped_symbolic_nodes": [],
+          "mapping_is_analyst_role_alias_not_authored_assignment": true,
+          "region_represented_in_this_fragment": false,
+          "source_bound_end_to_end_consumer": false,
+          "source_region": "dbbi91"
+        },
+        {
+          "length": 104,
+          "mapped_symbolic_nodes": [],
+          "mapping_is_analyst_role_alias_not_authored_assignment": true,
+          "region_represented_in_this_fragment": false,
+          "source_bound_end_to_end_consumer": false,
+          "source_region": "matrixsumlist"
+        },
+        {
+          "length": 570,
+          "mapped_symbolic_nodes": [],
+          "mapping_is_analyst_role_alias_not_authored_assignment": true,
+          "region_represented_in_this_fragment": false,
+          "source_bound_end_to_end_consumer": false,
+          "source_region": "faed570"
+        },
+        {
+          "length": 63,
+          "mapped_symbolic_nodes": [
+            "Architect-selection"
+          ],
+          "mapping_is_analyst_role_alias_not_authored_assignment": true,
+          "region_represented_in_this_fragment": true,
+          "source_bound_end_to_end_consumer": false,
+          "source_region": "lastwordsbeforearchichoice"
+        },
+        {
+          "length": 29,
+          "mapped_symbolic_nodes": [
+            "thispassword"
+          ],
+          "mapping_is_analyst_role_alias_not_authored_assignment": true,
+          "region_represented_in_this_fragment": true,
+          "source_bound_end_to_end_consumer": false,
+          "source_region": "thispassword"
+        },
+        {
+          "length": 35,
+          "mapped_symbolic_nodes": [
+            "first-hint-reference",
+            "first-shabef"
+          ],
+          "mapping_is_analyst_role_alias_not_authored_assignment": true,
+          "region_represented_in_this_fragment": true,
+          "source_bound_end_to_end_consumer": false,
+          "source_region": "first-command"
+        },
+        {
+          "length": 64,
+          "mapped_symbolic_nodes": [],
+          "mapping_is_analyst_role_alias_not_authored_assignment": true,
+          "region_represented_in_this_fragment": false,
+          "source_bound_end_to_end_consumer": false,
+          "source_region": "small-container-first-part"
+        },
+        {
+          "length": 40,
+          "mapped_symbolic_nodes": [],
+          "mapping_is_analyst_role_alias_not_authored_assignment": true,
+          "region_represented_in_this_fragment": false,
+          "source_bound_end_to_end_consumer": false,
+          "source_region": "enter"
+        },
+        {
+          "length": 64,
+          "mapped_symbolic_nodes": [],
+          "mapping_is_analyst_role_alias_not_authored_assignment": true,
+          "region_represented_in_this_fragment": false,
+          "source_bound_end_to_end_consumer": false,
+          "source_region": "small-container-second-part"
+        },
+        {
+          "length": 12,
+          "mapped_symbolic_nodes": [
+            "second-shabef"
+          ],
+          "mapping_is_analyst_role_alias_not_authored_assignment": true,
+          "region_represented_in_this_fragment": true,
+          "source_bound_end_to_end_consumer": false,
+          "source_region": "answer-command"
+        }
+      ]
+    }
+  ],
+  "hypotheses": [
+    {
+      "assumptions": [
+        "Apparent data regions are purposeful unless source evidence supports decoration",
+        "Mechanical decoding and a downstream consumer are different requirements"
+      ],
+      "confidence": "MEDIUM puzzle-design constraint; HIGH current missing-consumer accounting",
+      "contradictions": [
+        "No explicit instruction says every symbol is independently operative",
+        "Some region roles may be formatting or deliberate redundancy",
+        "Partial graphs are not themselves invalid for being incomplete"
+      ],
+      "hypothesis": "The intended construction ultimately assigns roles to the full source objects rather than validating only recognized fragments",
+      "id": "C21-ACCOUNT-FULL-CONSTRUCTION",
+      "input": "Frozen public primary-region, symbolic-graph and Bifid dependency maps",
+      "next_test": "Examine only frozen source-keyed Bifid output structure and full dependency map as a public text object: exact length/alphabet/repetitions, boundary at the recognized seven-letter prefix, and any independently sourced instruction that specifies the remaining563-letter body's role. Reuse the existing full output without alternate squares, periods, routes, normalization, trial inputs or cryptographic searches. Distinguish complete-object structure from prefix recognition and preserve previous statistical controls.",
+      "operation_order": [
+        "reuse exact source partition",
+        "account for ten regions across four partial graphs",
+        "separate mechanical coverage from whole-output consumer binding"
+      ],
+      "output": "A bounded whole-object role interpretation without discarding or transforming source data",
+      "source_evidence": [
+        {
+          "path": "research/artifacts/cycle21/source-name-association.json",
+          "sha256": "e8a5dfeebe3404a19943bafadf1157008735c149698350a4421003545b57aa70"
+        },
+        {
+          "path": "research/artifacts/cycle15/label-boundary-audit.json",
+          "sha256": "3d965046baecf2372ffcf7d79537c537019583f9def802e8fe0faefcdc70e94f"
+        },
+        {
+          "path": "research/artifacts/cycle17/operand-ownership.json",
+          "sha256": "f66dfde3395b9edf008bc06d71be6d611413be8833e6da798f03fba90e958926"
+        },
+        {
+          "path": "research/artifacts/cycle10/instruction-graphs-v3.json",
+          "sha256": "31a20ee0b58c1289d16de425c76f4521ca228a01c6ca12122d074056a8e81132"
+        },
+        {
+          "path": "research/sources/salphaseion.html",
+          "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+        }
+      ],
+      "source_locations": [
+        "research/sources/salphaseion.html:17",
+        "research/artifacts/cycle15/label-boundary-audit.json",
+        "research/artifacts/cycle17/operand-ownership.json",
+        "research/artifacts/cycle10/instruction-graphs-v3.json"
+      ],
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "assumptions": [
+        "Frozen continued marker use is intentional",
+        "Decoded label does not license discarding its original104 encoded symbols"
+      ],
+      "confidence": "HIGH frozen dual-use positions; UNKNOWN intended remaining-data consumer",
+      "contradictions": [
+        "Historical marker convention is not an authored operation",
+        "Dual use does not specify a join or output role",
+        "No new reinsertion or routing follows from retained data"
+      ],
+      "hypothesis": "The encoded matrixsumlist region retains a data role in addition to its decoded label, supporting a later full-object construction",
+      "id": "C21-ACCOUNT-DUAL-ROLE",
+      "input": "Frozen public primary-region, symbolic-graph and Bifid dependency maps",
+      "next_test": "Examine only frozen source-keyed Bifid output structure and full dependency map as a public text object: exact length/alphabet/repetitions, boundary at the recognized seven-letter prefix, and any independently sourced instruction that specifies the remaining563-letter body's role. Reuse the existing full output without alternate squares, periods, routes, normalization, trial inputs or cryptographic searches. Distinguish complete-object structure from prefix recognition and preserve previous statistical controls.",
+      "operation_order": [
+        "reuse exact source partition",
+        "account for ten regions across four partial graphs",
+        "separate mechanical coverage from whole-output consumer binding"
+      ],
+      "output": "A bounded whole-object role interpretation without discarding or transforming source data",
+      "source_evidence": [
+        {
+          "path": "research/artifacts/cycle21/source-name-association.json",
+          "sha256": "e8a5dfeebe3404a19943bafadf1157008735c149698350a4421003545b57aa70"
+        },
+        {
+          "path": "research/artifacts/cycle15/label-boundary-audit.json",
+          "sha256": "3d965046baecf2372ffcf7d79537c537019583f9def802e8fe0faefcdc70e94f"
+        },
+        {
+          "path": "research/artifacts/cycle17/operand-ownership.json",
+          "sha256": "f66dfde3395b9edf008bc06d71be6d611413be8833e6da798f03fba90e958926"
+        },
+        {
+          "path": "research/artifacts/cycle10/instruction-graphs-v3.json",
+          "sha256": "31a20ee0b58c1289d16de425c76f4521ca228a01c6ca12122d074056a8e81132"
+        },
+        {
+          "path": "research/sources/salphaseion.html",
+          "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+        }
+      ],
+      "source_locations": [
+        "research/sources/salphaseion.html:17",
+        "research/artifacts/cycle15/label-boundary-audit.json",
+        "research/artifacts/cycle17/operand-ownership.json",
+        "research/artifacts/cycle10/instruction-graphs-v3.json"
+      ],
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "assumptions": [
+        "A source instruction licenses retaining only seven output letters",
+        "The remaining563-letter object has no downstream role"
+      ],
+      "confidence": "LOW; no source-authorized discard or prefix consumer",
+      "contradictions": [
+        "Full output is570 letters and eight input coordinates determine the prefix",
+        "No discard rule or complete-output consumer is authored",
+        "Prior conditional statistical controls do not prove full construction"
+      ],
+      "hypothesis": "Recognizing the Bifid prefix is sufficient to identify the intended output while its remaining body can be ignored",
+      "id": "C21-ACCOUNT-PREFIX-ONLY",
+      "input": "Frozen public primary-region, symbolic-graph and Bifid dependency maps",
+      "next_test": "Examine only frozen source-keyed Bifid output structure and full dependency map as a public text object: exact length/alphabet/repetitions, boundary at the recognized seven-letter prefix, and any independently sourced instruction that specifies the remaining563-letter body's role. Reuse the existing full output without alternate squares, periods, routes, normalization, trial inputs or cryptographic searches. Distinguish complete-object structure from prefix recognition and preserve previous statistical controls.",
+      "operation_order": [
+        "reuse exact source partition",
+        "account for ten regions across four partial graphs",
+        "separate mechanical coverage from whole-output consumer binding"
+      ],
+      "output": "A bounded whole-object role interpretation without discarding or transforming source data",
+      "source_evidence": [
+        {
+          "path": "research/artifacts/cycle21/source-name-association.json",
+          "sha256": "e8a5dfeebe3404a19943bafadf1157008735c149698350a4421003545b57aa70"
+        },
+        {
+          "path": "research/artifacts/cycle15/label-boundary-audit.json",
+          "sha256": "3d965046baecf2372ffcf7d79537c537019583f9def802e8fe0faefcdc70e94f"
+        },
+        {
+          "path": "research/artifacts/cycle17/operand-ownership.json",
+          "sha256": "f66dfde3395b9edf008bc06d71be6d611413be8833e6da798f03fba90e958926"
+        },
+        {
+          "path": "research/artifacts/cycle10/instruction-graphs-v3.json",
+          "sha256": "31a20ee0b58c1289d16de425c76f4521ca228a01c6ca12122d074056a8e81132"
+        },
+        {
+          "path": "research/sources/salphaseion.html",
+          "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+        }
+      ],
+      "source_locations": [
+        "research/sources/salphaseion.html:17",
+        "research/artifacts/cycle15/label-boundary-audit.json",
+        "research/artifacts/cycle17/operand-ownership.json",
+        "research/artifacts/cycle10/instruction-graphs-v3.json"
+      ],
+      "status": "INCONCLUSIVE"
+    }
+  ],
+  "hypothesis": "Existing instruction graph fragments account for all original source material and full derived outputs in an intended construction",
+  "id": "C21-WHOLE-OBJECT-ACCOUNTABILITY",
+  "input": "Original source partition and four existing symbolic graph fragments",
+  "new_cryptographic_trials": 0,
+  "new_source_transformations": 0,
+  "new_trial_inputs": 0,
+  "next_test": "Examine only frozen source-keyed Bifid output structure and full dependency map as a public text object: exact length/alphabet/repetitions, boundary at the recognized seven-letter prefix, and any independently sourced instruction that specifies the remaining563-letter body's role. Reuse the existing full output without alternate squares, periods, routes, normalization, trial inputs or cryptographic searches. Distinguish complete-object structure from prefix recognition and preserve previous statistical controls.",
+  "operation_order": [
+    "validate frozen task",
+    "reuse source regions and delimiter coverage",
+    "compare forty region/graph symbolic roles",
+    "reuse full Bifid/prefix dependency accounting",
+    "distinguish partial graph and complete construction requirements",
+    "retain three finite accountability readings"
+  ],
+  "output": "Full region coverage ledger and whole-output completeness constraints",
+  "result": "Frozen ten regions1072 characters plus three delimiters cover1075 exactly. Forty symbolic region/graph comparisons show partial fragments with unresolved consumers, not complete constructions; missing fragment regions alone are not rejection. Full Bifid output570 and its563-letter body remain distinct from recognized prefix determined by eight source coordinates. Mechanical full mapping and partial recognition do not authenticate a whole-output consumer or license source discard.",
+  "search_space": {
+    "declared_accountability_readings": 3,
+    "existing_graph_fragments": 4,
+    "frozen_delimiters": 3,
+    "frozen_full_Bifid_output_length": 570,
+    "frozen_primary_regions": 10,
+    "symbolic_region_graph_comparisons": 40
+  },
+  "source_evidence": [
+    {
+      "path": "research/artifacts/cycle21/source-name-association.json",
+      "sha256": "e8a5dfeebe3404a19943bafadf1157008735c149698350a4421003545b57aa70"
+    },
+    {
+      "path": "research/artifacts/cycle15/label-boundary-audit.json",
+      "sha256": "3d965046baecf2372ffcf7d79537c537019583f9def802e8fe0faefcdc70e94f"
+    },
+    {
+      "path": "research/artifacts/cycle17/operand-ownership.json",
+      "sha256": "f66dfde3395b9edf008bc06d71be6d611413be8833e6da798f03fba90e958926"
+    },
+    {
+      "path": "research/artifacts/cycle10/instruction-graphs-v3.json",
+      "sha256": "31a20ee0b58c1289d16de425c76f4521ca228a01c6ca12122d074056a8e81132"
+    },
+    {
+      "path": "research/sources/salphaseion.html",
+      "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+    }
+  ],
+  "source_locations": [
+    "research/sources/salphaseion.html:17",
+    "research/artifacts/cycle15/label-boundary-audit.json",
+    "research/artifacts/cycle17/operand-ownership.json",
+    "research/artifacts/cycle10/instruction-graphs-v3.json"
+  ],
+  "status": "INCONCLUSIVE"
+}

@@ -1,0 +1,47 @@
+{
+  "_work__joint_attack.py": {
+    "bytes": 5145,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/halbgott29a/gsmgio-5btc-puzzle/2c97f4472bda49f983f3b2fb3da454e665d57e6e/_work/joint_attack.py",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T07:33:01.265815+00:00",
+    "sha256": "d7d5e7f699d15a93c6c8fc6cbde065b7b5c70bf4c2c192c146c6787de085af21",
+    "url": "https://raw.githubusercontent.com/halbgott29a/gsmgio-5btc-puzzle/2c97f4472bda49f983f3b2fb3da454e665d57e6e/_work/joint_attack.py"
+  },
+  "_work__prime2.py": {
+    "bytes": 2263,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/halbgott29a/gsmgio-5btc-puzzle/2c97f4472bda49f983f3b2fb3da454e665d57e6e/_work/prime2.py",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T07:32:58.402479+00:00",
+    "sha256": "de846c31eccd07ee1be56731b743ca10c39ac820517f3ffb710f7ad8f6628bc5",
+    "url": "https://raw.githubusercontent.com/halbgott29a/gsmgio-5btc-puzzle/2c97f4472bda49f983f3b2fb3da454e665d57e6e/_work/prime2.py"
+  },
+  "_work__prime2_out.txt": {
+    "bytes": 1693,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/halbgott29a/gsmgio-5btc-puzzle/2c97f4472bda49f983f3b2fb3da454e665d57e6e/_work/prime2_out.txt",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T07:33:00.649453+00:00",
+    "sha256": "4704fa9134b1bbd0f14568d7bd2914b638c9d2753aa8a8aa283e7a5fe998fc92",
+    "url": "https://raw.githubusercontent.com/halbgott29a/gsmgio-5btc-puzzle/2c97f4472bda49f983f3b2fb3da454e665d57e6e/_work/prime2_out.txt"
+  },
+  "_work__prime_out.txt": {
+    "bytes": 1194,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/halbgott29a/gsmgio-5btc-puzzle/2c97f4472bda49f983f3b2fb3da454e665d57e6e/_work/prime_out.txt",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T07:32:59.216777+00:00",
+    "sha256": "1e09d481f2973bf4dd29bd07f8a34217d0a1bd13e5f71926d0000c4f056fc689",
+    "url": "https://raw.githubusercontent.com/halbgott29a/gsmgio-5btc-puzzle/2c97f4472bda49f983f3b2fb3da454e665d57e6e/_work/prime_out.txt"
+  },
+  "_work__prime_theory.py": {
+    "bytes": 1712,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/halbgott29a/gsmgio-5btc-puzzle/2c97f4472bda49f983f3b2fb3da454e665d57e6e/_work/prime_theory.py",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T07:32:57.529569+00:00",
+    "sha256": "267fba933e90e32ffa7a7912123642a7186cb726e9fd3ef60bfaf45a1f06f583",
+    "url": "https://raw.githubusercontent.com/halbgott29a/gsmgio-5btc-puzzle/2c97f4472bda49f983f3b2fb3da454e665d57e6e/_work/prime_theory.py"
+  }
+}

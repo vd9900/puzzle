@@ -1,0 +1,17 @@
+{
+  "aes_trials": 6984,
+  "candidate_set_sha256": "4f73005aae002aba98920c5827d309ecd2990433fdbb2dec5a865626c27f925b",
+  "decoded_forms": 388,
+  "estimated_crypto_seconds": 0.1397,
+  "id": "C02-RESIDUAL-COORDINATES",
+  "justification": "Nine-symbol alphabet can label a 3x3 coordinate square; two ternary digits per input regroup into cube triples; exact 60 length supplies 120 coordinates/40 outputs. Only alphabet/observed first-occurrence order and clue-keyed cubes tested; no free 9! or 27! search.",
+  "limitations": "Custom coordinate regrouping, not a proven Trifid cipher; cube key, square orientation and planar/interleaved convention remain hypotheses",
+  "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea",
+  "residual_length": 60,
+  "source": {
+    "locator": "unchanged mask1017 nonprime residual; partial-frame hypothesis",
+    "path": "research/sources/salphaseion.html",
+    "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+  },
+  "unique_passwords": 1164
+}

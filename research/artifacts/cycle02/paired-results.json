@@ -1,0 +1,13 @@
+{
+  "aes_trials": 53136,
+  "decode_trials": 3456,
+  "elapsed_seconds": 2.042,
+  "id": "C02-PAIRED-SUMSTREAM",
+  "max_printable_ratio": 0.518987,
+  "padding_hits": 235,
+  "result": "No demonstrated solution from the fixed paired-matrix sum-stream family",
+  "status": "INCONCLUSIVE",
+  "structure_hits": 0,
+  "target_matches": 0,
+  "unique_passwords": 8856
+}

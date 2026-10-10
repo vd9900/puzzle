@@ -1,0 +1,2861 @@
+
+===== PAGE 0 =====
+THE GAME
+OF
+LOGIC
+BY
+LEWIS CARROLL
+PRICE THREE SHILLINGS
+LONDON
+MACMILLAN AND CO.
+AND NEW YORK
+1886
+[AU Rights reserved]
+
+===== PAGE 1 =====
+9 10
+—— & —
+,
+—__ y ——__ m —____y ——__—_
+| 3 Y i |
+15 16
+COLOURS FOR f |
+COUNTERS.
+— L
+See, the Sun is overhead,
+Shining on us, FuLL and lg?
+RED! | ,
+Now the Sun is gone away, | ;
+And the empty sky is wf
+GREY! |
+——— 7 8
+
+===== PAGE 2 =====
+Go mp Child- Friend.
+@ charm in bain: for neber again,
+All keenly as mp glance g bend,
+GHill Memory, goddess cop,
+Gmbodp for mp joy
+Departed dups, nor let me guze
+On thee, mp Gampy Friend |
+et could thy face, im mystic grace,
+aA moment smile ow me, thould send
+ffar-darting raps of light
+Grom Heunben athtoart the night,
+Bp fobich to read in herp deed
+Thy spirit, shoeetest Friend |
+So map the stream of Hife’s long dream
+Flot gently onboard to its end,
+Gith many a foheret guy,
+Adoton its Hilloby foxp :
+Tap no sigh bex, no cure perplex,
+My lobing little Friend |
+
+===== PAGE 3 =====
+
+===== PAGE 4 =====
+PREFACE.
+“There foam’d rebellious Logic, gagg’d and bound.”
+[THIS Game requires nine Counters — four of one
+colour and five of another: say four red and five
+grey. :
+
+Besides the nine Counters, it also requires one Player,
+at least. I am not aware of any Game that can be played
+with less than this number: while there are several that
+require more: take Cricket, for instance, which requires
+twenty-two. How much easier it is, when you want to play
+a Game, to find one Player than twenty-two! At the
+same time, though one Player is enough, a good deal
+more amusement may be got by two working at it together,
+and correcting each other’s mistakes.
+
+A second advantage, possessed by this Game, is that,
+besides being an endless scurce of amusement (the number
+of arguments, that may be worked by it, being infinite), it
+will give the Players a little instruction as well. But is
+there any great harm in that, so long as you get plenty of
+amusement ?
+
+===== PAGE 5 =====
+
+===== PAGE 6 =====
+CONTENTS.
+CHAPTER Pac
+I. NEW LAMPS FOR OLD.
+§ 1. Propositions . . ; . , 1
+§ 2. Syllogisms ; - 8 . 20
+§ 3. Fallacies - 8 ele «BR
+II. CROSS QUESTIONS.
+
+§ l. Elementary. . . . . oF
+
+§ 2. Half of Smaller Diagram.  Propo-
+. sitions to be represented R ‘ 40
+§ 3. Do. Symbols to be interpreted . , 42
+
+§ 4. Smaller Diagram. Propositions to be
+represented. : : : ‘ 44
+§ 5. Do. Symbols to be interpreted . ' 46
+
+§ 6. Larger Diagram. Propositions to be
+represented . ° . . ‘ 48
+§ 7. Both Diagrams to be employed . : O1
+
+III. CROOKED ANSWERS.
+
+§ 1. Elementary. . . . . 59
+
+§ 2. Half of Smaller Diagram. Propo-
+sitions represented ‘ ‘ 59
+§ 3. Do. Symbols interpreted . . . 61
+
+§ 4. Smaller Diagram. Propositions re-
+presented. R . , . 62
+§ 5. Do. Symbols interpreted - . . 65
+
+§ 6. Larger Diagram. Propositions re-
+presented . ‘ , : 67
+§ 7. Both Diagrams employed . ° : 72
+IV. HIT OR MISS. . . . . «~~ 85
+
+===== PAGE 7 =====
+NOTA BENE.
+
+With each copy of this Book is
+given an Envelope, containing a
+diagram (similar to the frontis-
+piece) on card, and nine Counters,
+four red and five grey.
+
+The Envelope, &c. can be had
+separately, at 3d. each.
+
+===== PAGE 8 =====
+CHAPTER I.
+NEW LAMPS FOR OLD.
+‘“‘ Light come, light go.”
+§ 1. Propositions.
+** Some red Apples are ripe.”
+‘* No red Apples are ripe.”
+‘* All red Apples are ripe.”
+
+There are three ‘ Propositions’ for you-——the only
+three kinds we are going to use in this Game: and the
+first thing to be done is to learn how to express them
+on the Board.
+
+Let us begin with
+
+‘* Some red Apples are ripe.”
+
+But, before doing so, a remark has to be made——
+one that is rather important, and by no means easy
+to understand all in a moment: so please to read
+this very carefully.
+
+B
+
+===== PAGE 9 =====
+2 NEW LAMPS FOR OLD. (Cu. I.
+
+The world contains many Things (such as * Buns”,
+‘* Babies’, ** Beetles”, ‘* Battledores”’, &c.); and these
+Things possess many Attributes (such as ‘* baked”,
+‘beautiful ”, black”, ‘‘ broken”, &c.: in fact, what-
+ever can be ‘attributed to”, that is ‘‘said to belong
+to”, any Thing, is an Attribute). Whenever we wish
+to mention a Thing, we use a Substantive: when we
+wish to mention an Attribute, we use an Adjective.
+People have asked the question ‘‘Can a Thing exist
+without any Attributes belonging to it?” It is a very
+puzzling question, and I’m not going to try to answer
+it: let us turn up our noses, and treat it with con-
+temptuous silence, as if it really wasn’t worth noticing.
+But, if they put it the other way, and ask ‘*Can an
+Attribute exist without any Thing for it to belong
+to?”, we may say at once * No: no more than a Baby
+could go a railway-journey with no one to take care
+of it!” You never saw “beautiful” floating about in
+the air, or littered about on the floor, without any
+Thing to be beautiful, now did you?
+
+And now what am I driving at, in all this long
+rigmarole? It is this. You may put “is” or “are”
+between the names of two Things (for example, *‘ some
+Pigs are fat Animals”), or between the names of two
+Attributes (for example, *‘ pink is light-red”’), and in
+each case it will make good sense. But, if you put
+“is” or are” between the name of a Thing and the
+name of an Attribute (for example, ‘‘some Pigs are
+
+===== PAGE 10 =====
+§ 1.] PROPOSITIONS. 3
+pink ”), you do not make good sense (for how can a
+Thing 6e an Attribute?) unless you have an under-
+standing with the person to whom you are speaking.
+And the simplest understanding would, I think, be
+this——that the Substantive shall be supposed to be
+repeated at the end of the sentence, so that the sen-
+tence, if written out in full, would be “some Pigs
+are pink (Pigs)”. And now the word “are” makes
+quite good sense.
+
+Thus, in order to make good sense of the Proposition
+‘some red Apples are ripe”, we must suppose it to
+be written out in full, in the form “some red Apples
+are ripe (Apples)”. Now this contains two § Zerms’>——
+“red Apples” being one of them, and “ripe (Apples) ”
+the other. “Red Apples,” being the one we are talking
+about, is called the ‘ Subject’ of the Proposition, and
+‘ripe (Apples)” the ‘ Predicate’. Also this Proposition
+is said to be a ‘ Particular’ one, since it does not speak
+of the whole of its Subject, but only of a part of it.
+The other two kinds are said to be ‘ Universal’, because
+they speak of the whole of their Subjects——the one
+denying ripeness, and the other asserting it, of the
+whole class of “fred Apples”. Lastly, 1f you would
+like to have a definition of the word ‘ Proposition’
+itself, you may take this:—‘‘a sentence stating that
+some, or none, or all, of the Things belonging to a
+certain class, called its ‘Subject’, are also Things be-
+longing to a certain other class, called its ‘ Predicate ’.”
+
+BR
+
+===== PAGE 11 =====
+4 NEW LAMPS FOR OLD. (Cu. 1.
+
+You will find these seven words —— Proposition,
+Attribute, Term, Subject, Predicate, Particular, Universal
+——charmingly useful, if any friend should happen to
+ask if you have ever studied Logic. Mind you bring
+all seven words into your answer, and your friend will
+go away deeply impressed ——‘a sadder and a wiser
+man’.
+
+Now please to look at the smaller Diagram on the
+Board, and suppose it to be a cupboard, intended for
+all the Apples in the world (it would have to be a
+good large one, of course). And let us suppose all the
+red ones to be put into the upper half (marked ‘z’),
+and all the rest (that is, the mo¢-red ones) into the
+lower half (marked ‘a’’). ‘Thus the lower half would
+contain yellow Apples, blue Apples, mauve-coloured
+Apples——if there are any: I haven’t seen many, my-
+self——and so on. Let us also suppose all the ripe
+Apples to be put into the left-hand half (marked ‘y’),
+and all the rest (that is, the unripe ones) into the
+right-hand half (marked ‘y’’). At present, then, we
+must understand x to mean “red”, 2 ‘not-red”,
+y “ripe”, and y’ ‘ unripe”.
+
+And now what kind of Apples would you expect
+to find in compartment No. 5?
+
+It is part of the upper half, you see; so that, if it
+has any Apples in it, they must be red: and it 1s part
+
+===== PAGE 12 =====
+§ 1.) PROPOSITIONS. o
+of the left-hand half; so that they must be ripe.
+Hence, if there are any Apples in this compartment,
+they must have the double ‘détribute’ “‘red and ripe”:
+or, if we use letters, they must be “ay”.
+
+Observe that the letters xz, y are written on two of
+the edges of this compartment. This you will find a
+very convenient rule for knowing what Attributes
+belong to the Things in any compartment. Take
+No. 7, for instance. If there are any Apples there,
+they must be ‘‘a’y”, that is, they must be “ not-red
+and ripe”’.
+
+Now let us make another agreement——that a red
+counter in a compartment shall mean that it is ‘oc-
+cupied’, that is, that there are some Apples in it.
+(The word ‘some,’ in Logic, means ‘one or more’:
+so that a single Apple in a compartment would be
+quite enough reason for saying ‘‘ there are some Apples
+here”). Also let us agree that a grey counter in a
+compartment shall mean that it is ‘empty’, that is,
+that there are no Apples in it. In the following
+Diagrams, I shall put ‘1’ (meaning ‘one or more’)
+where you are to put a red counter, and ‘Q’ (meaning
+‘none’) where you are to put a grey one.
+
+As the Subject of our Proposition is to be “red
+Apples”, we are only concerned, at present, with the
+upper half of the cupboard, where all the Apples have
+the attribute «x, that is, “* red.”
+
+===== PAGE 13 =====
+6 NEW LAMPS FOR OLD. [Cu. I.
+
+Now, fixing our attention on this upper half, sup-
+pose we found it marked like this,
+
+ty
+that is, with a red counter in No. 5. What would
+this tell us, with regard to the class of “red Apples” ?
+
+Would it not tell us that there are some of them in
+the xy-compartment? That is, that some of them
+(besides having the Attribute «, which belongs to both
+compartments) have the Attribute y (that is, ‘ ripe’’).
+This we might express by saying “‘some ax-Apples are
+y-(Apples)”, or, putting words instead of letters,
+
+‘‘Some red Apples are ripe (Apples) ”,
+or, in a shorter form,
+‘‘Some red Apples are ripe”.
+
+At last we have found out how to represent the
+first Proposition of this Section. If you have not
+clearly understood all I have said, go no further, but
+read it over and over again, till you do understand it.
+After that is once mastered, you will find all the rest
+quite easy.
+
+It will save a little trouble, in doing the other
+Propositions, if we agree to leave out the word
+Apples” altogether. I find it convenient to call the
+whole class of Things, for which the cupboard is in-
+tended, the ‘ Universe’ Thus we might have begun
+this business by saying “‘ Let us take a Universe of
+Apples.” (Sounds nice, doesn’t it ?)
+
+===== PAGE 14 =====
+§ 1.] PROPOSITIONS. 7
+Of course any other Things would have done just
+as well as Apples. We might make Propositions
+about **a Universe of Lizards’, or even ‘‘a Universe
+of Hornets”. (Wouldn’t that be a charming Universe
+to live in 2)
+So far, then, we have learned that
+ey
+means “some «x are ¥,’ 1. e. ‘some red are ripe.”
+I think you will see, without further explanation, that
+| |
+means ‘some & are y’,”’ i. e. ‘‘some red are unripe.”
+Now let us put a grey counter into No. 5, and ask
+ourselves the meaning of
+jo] |
+This tells us that the xy-compartment is empty,
+which we may express by ‘‘noz are y”, or, “no red
+are ripe”. ‘This is the second of the three Propositions
+at the head of this Section.
+In the same way,
+| le
+would mean “no # are y’,” or, no red are unripe.”
+
+===== PAGE 15 =====
+8 NEW LAMPS FOR OLD. [Cu. I.
+
+What would you make of this, I wonder ?
+
+pt] |
+
+I hope you will not have much trouble in making
+out that this represents a double Proposition: namely,
+‘some «# are y, and some are y’,” i.e. “some red are
+ripe, and some are unripe.”
+
+The following is a little harder, perhaps :—
+
+jo} o|
+
+This means ** no & are y, and none are y’,” i.e. “no
+red are ripe, and none are unripe”: which leads to the
+rather curious result that “no red exist at all.” This
+follows from the fact that “ripe” and “not ripe”
+make what we call an ‘ exhaustive’ division of the class
+‘red Apples”: i.e., between them, they exhaust the
+whole class, so that all the red Apples, that exist, must
+be found in one or the other of them.
+
+And now suppose I were to ask you to represent,
+with counters, the contradictory to “‘no red exist at
+all”, that is, ‘some red exist”, or, putting letters
+for words, “some &# exist”, how would you do it?
+
+This will puzzle you a little, 1 expect. Evidently
+you must put a red counter somewhere in the a-half
+of the cupboard, since you know there are some red
+Apples. But you must not put it into the left-hand
+compartment, since you do not know them to be ripe:
+nor may you put into the right-hand one, since you
+do not know them to be wnripe.
+
+===== PAGE 16 =====
+§ 1.] PROPOSITIONS. 9
+
+What, then, are you to do? I think the best way
+out of the difficulty is to place the red counter on
+the division-line between the xy-compartment and the
+xy’-compartment. This I shall represent (as I always
+put ‘1’ where you are to put a red counter) by the
+diagram
+
+a
+
+Our ingenious American cousins have invented a
+phrase to express the position of a man who wants to
+join one or other of two parties——such as their two
+parties ‘Democrats’ and ‘ Republicans’——but ca’n’t
+make up his mind which. Such a man is said to be
+‘‘ sitting on the fence.” Now that is exactly the position
+of the red counter you have just placed on the division-
+line. He likes the look of No. 5, and he likes the
+look of No. 6, and he doesn’t know which to jump
+down into. So there he sits astride, silly fellow,
+dangling his legs, one on each side of the fence!
+
+Now I am going to give you a much harder one to
+make out. What does this mean ?
+
+nan
+
+This is clearly a double Proposition. It tells us,
+not only that ‘‘some & are y,” but also that “no «
+are not y.’ Hence the result is ‘all a are y,” i.e.
+‘all red are ripe”, which is the last of the three
+Propositions at the head of this Section.
+
+===== PAGE 17 =====
+10 NEW LAMPS FOR OLD. [Cu. I.
+
+We see, then, that the Universal Proposition
+
+** All red Apples are ripe ”’
+consists of ¢wo Propositions taken together, namely,
+*‘ Some red Apples are ripe,”
+and ‘* No red Apples are unripe.”
+In the same way
+fot
+would mean ‘all 2 are y’”, that is,
+** All red Apples are unripe.”
+
+Now what would you make of such a Proposition
+as **The Apple you have given me is ripe”? Is it
+Particular, or Universal ?
+
+‘Particular, of course,’ you readily reply. ‘One
+single Apple is hardly worth calling ‘some,’ even.”
+
+No, my dear impulsive Reader, it is ‘ Universal’.
+Remember that, few as they are (and I grant you they
+couldn’t well be fewer), they are (or rather ‘it is’)
+all that you have given me! Thus, if (leaving ‘red’
+out of the question) I divide my Universe of Apples
+into two classes——the Apples you have given me (to
+which I assign the upper half of the cupboard), and
+those you haven’t given me (which are to go below)——
+I find the lower half fairly full, and the upper one
+as nearly as possible empty. And then, when I am
+told to put an upright division into each half, keeping
+the ripe Apples to the left, and the wnripe ones to
+
+===== PAGE 18 =====
+§ 1.] PROPOSITIONS. Il
+the right, I begin by carefully collecting al/ the Apples
+you have given me (saying to myself, from time to
+time, “‘Generous creature! How shall I ever repay
+such kindness?”), and piling them up in the left-hand
+compartment. And it doesn’t take long to do it J
+
+Here is another Universal Proposition for you. ‘* Bar-
+zillai Beckalegg is an honest man.” ‘That means §‘ 4i/
+the Barzillai Beckaleggs, that I am now considering,
+are honest men.” (You think [ invented that name,
+now don’t you? But I didn’t. It’s on a carrier’s
+cart, somewhere down in Cornwall.)
+
+This kind of Universal Proposition (where the Subject
+is one single thing) is sometimes called an ‘* Individual”
+Proposition.
+
+Now let us take ‘ripe Apples” as the Subject of
+our Proposition: that is, let us fix our thoughts on
+the left-hand half of the cupboard, where all the
+Apples have the attribute y, that is, “‘ripe”.
+
+Suppose we find it marked like this :—
+
+What would that tell us ?
+
+I hope that it is not necessary, after explaining the
+horizontal oblong so fully, to spend much time over
+the upright one. I hope you will see, for yourself,
+that this means *‘some y are x”, that is,
+
+*‘Some ripe Apples are red.”
+
+===== PAGE 19 =====
+12 NEW LAMPS FOR OLD. [Cu. I.
+
+But,” you will say, ‘we have had this case before.
+You puta red counter into No. 5, and you told us it meant
+‘some red Apples are ripe’; and now you tell us that it
+means ‘some ripe Apples are red’! Can it mean both 2?”
+
+The question is a very thoughtful one, and does you
+great credit, dear Reader! It does mean both. If you
+choose to take a (that 1s, ‘‘red Apples’’) as your Subject,
+and to regard No. 5 as part of a horizontal oblong, you
+may read it ‘‘some & are y”’, that is, ‘some red Apples
+are ripe’: but, if you choose to take y (that is, ‘ripe
+Apples’’) as your Subject, and to regard No. 5 as part of
+an upright oblong, then you may read it ‘‘some y are 2”,
+that is, ‘some ripe Apples are red”. They are merely
+two different ways of expressing the very same truth.
+
+Without more words, I will simply set down the other
+ways in which this upright oblong might be marked,
+adding the meaning in each case. By comparing them
+with the various cases of the horizontal oblong, you
+will, I hope, be able to understand them clearly.
+
+===== PAGE 20 =====
+§ 1.] PROPOSITIONS. 13
+Symbols. Meanings.
+Some y are x’;
+a i.e. Some ripe are not-red.
+1
+| No y are x;
+0 . ;
+1.e. No ripe are red.
+[Observe that this is merely another way of
+| expressing ‘* No red are ripe.”’]
+No y are x ;
+i.e. No ripe are not-red.
+O
+Some y are x, and some are @ ;
+1 , :
+1.@€. Some ripe are red, and some are
+1 not-red.
+, No y are «x, and none are #; 1.e. No y
+eXist $
+0 i.e. No ripe exist.
+1 All y are x;
+i,e, All ripe are red.
+0
+0 All y are x’;
+1.e. All ripe are not-red.
+1
+
+===== PAGE 21 =====
+14. NEW LAMPS FOR OLD. [Cu. I.
+You will find it a good plan to examine yourself on
+
+this table, by covering up first one column and then
+
+the other, and ‘ dodging about’, as the children say.
+
+Also you will do well to write out for yourself two
+other tables——one for the lower half of the cupboard,
+and the other for its right-hand half.
+
+And now I think we have said all we need to say
+about the smaller Diagram, and may go on to the
+larger one.
+
+This may be taken to be a cupboard divided in the
+same way as the last, but a/so divided into two portions,
+for the Attribute m. Let us give to m the meaning
+‘¢ wholesome”: and let us suppose that all wholesome
+Apples are placed inside the central Square, and all
+the wnwholesome ones outside it, that is, in one or other
+of the four queer-shaped outer compartments.
+
+We see that, just as, in the smaller Diagram, the
+Apples in each compartment had two Attributes, so,
+here, the Apples in each compartment have ¢hree Attri-
+butes: and, just as the letters, representing the two
+Attributes, were written on the edges of the compart-
+ment, so, here, they are written at the corners. (Observe
+that m’ is supposed to be written at each of the four
+outer corners.) So that we can tell in a moment, by
+looking at a compartment, what three Attributes belong
+to the Things in it. For imstance, take No. 12.
+
+===== PAGE 22 =====
+§ 1.] PROPOSITIONS. 15
+Here we find 2, y’, m, at the corners: so we know
+that the Apples in it, if there are any, have the triple
+Attribute ‘ xy’m’, that is, ‘red, unripe, and wholesome.”
+Again, take No. 16. Here we find, at the corners,
+x’, y’, m’: so the Apples in it are ‘not-red, unripe,
+and unwholesome.” (Remarkably untempting Apples !)
+
+It would take far too long to go through all the
+Propositions, containing x and y, x and m, and y and m,
+which can be represented on this diagram (there are
+ninety-six altogether, so I am sure you will excuse
+me!), and I must content myself with doing two or
+three, as specimens, You will do well to work out
+a lot more for yourself.
+
+Taking the upper half by itself, so that our Subject
+is “red Apples”, how are we to represent “no red
+Apples are wholesome ” ?
+
+This is, writing letters for words, ‘no # are m.” Now
+this tells us that none of the Apples, belonging to the upper
+half of the cupboard, are to be found znside the central
+Square: that is, the two compartments, No. 11 and No. 12,
+are empty. And this, of course, is represented by
+
+foo
+
+===== PAGE 23 =====
+16 NEW LAMPS FOR OLD. [Cu. I.
+And now how are we to represent the contradictory
+Proposition “some x are m"”? This is a difficulty I
+have already considered. I think the best way is to
+place a red counter on the division-line between No. 11
+and No. 12, and to understand this to mean that one of
+the two compartments 1s ‘ occupied,’ but that we do not
+at present know which. This I shall represent thus :—
+|r|
+
+Now let us express “all 2 are m.”
+
+This consists, we know, of two Propositions,
+
+‘Some zx are m,’’
+and ** No x are m’.”
+
+Let us express the negative part first. This tells
+us that none of the Apples, belonging to the upper
+half of the cupboard, are to be found outside the central
+Square: that is, the two compartments, No. 9 and
+No. 10, are empty. ‘This, of course, is represented by
+
+| |
+
+But we have yet to represent ‘Some x are m.” This
+tells us that there are some Apples in the oblong con-
+sisting of No. 11 and No. 12: so we place our red
+
+===== PAGE 24 =====
+§ 1.] PROPOSITIONS. 17
+counter, as in the previous example, on the division-line
+between No. 11 and No. 12, and the result is
+| |
+a
+Now let us try one or two interpretations.
+What are we to make of this, with regard to # and y ?
+0
+tLe
+
+This tells us, with regard to the xy’-Square, that
+it is wholly ‘empty’, since both compartments are so
+marked. With regard to the xy-Square, it tells us
+that it is occupied’. ‘True, it is only one compartment
+of it that is so marked; but that is quite enough,
+whether the other compartment be ‘ occupied’ or
+‘empty’, to settle the fact that there is something in
+the Square.
+
+If, then, we transfer our marks to the smaller Diagram,
+so as to get rid of the m-subdivisions, we have a right
+to mark it
+
+nana
+which means, you know, “all x are y.”
+C
+
+===== PAGE 25 =====
+18 NEW LAMPS FOR OLD. [Cu. I.
+
+The result would have been exactly the same, if the
+given oblong had been marked thus :—
+
+] 0
+ie
+
+Once more: how shall we interpret this, with regard
+
+to x and y?
+| |
+
+This tells us, as to the xwy-Square, that one of its
+compartments is ‘empty’. But this information is
+quite useless, as there is no mark in the other com-
+partment. If the other compartment happened to be
+‘empty’ too, the Square would be ‘ empty’: and, if it
+happened to be ‘ occupied’, the Square would be
+‘occupied’, So, as we do not know which is the case,
+we can say nothing about thts Square.
+
+The other Square, the xy’-Square, we know (as in
+the previous example) to be ‘ occupied’.
+
+If, then, we transfer our marks to the smaller Diagram,
+we get merely this :—
+
+Pe
+
+which means, you know, ‘‘ some 2 are y’.”
+
+===== PAGE 26 =====
+§ 1.] PROPOSITIONS. 19
+
+These principles may be applied to all the other
+oblongs. For instance, to represent
+“all y’ are m” we should mark the —y
+right-hand upright oblong (the one that v | |
+has the attribute y’) thus :— Q |
+and, if we were told to interpret the lower half of the
+cupboard, marked as follows, with regard to «x and y,
+
+| |e
+1 0
+we should transfer it to the smaller Diagram thus,
+||
+and read it “all a are y”.
+
+One more remark about Propositions should be made.
+When they begin with “some” or “no”, and contain
+more than two Attributes, these Attributes may be
+re-arranged, and shifted from one Term to the other,
+ad libitum. For example, ‘‘some abe are def” may be
+re-arranged as “‘some Of are acde,” each being equi-
+valent to ‘some abcdef exist”. Again, ‘* No wise old
+men are rash and reckless gamblers” may be re-arranged
+as ** No rash old gamblers are wise and reckless.”
+
+Cz
+
+===== PAGE 27 =====
+20
+§ 2. Syllogisms.
+
+Now suppose we divide our Universe of Things in
+three ways, with regard to three different Attributes.
+Out of these three Attributes, we may make up three
+different couples (for instance, if they were a, b, c, we
+might make up the three couples ab, ac, bc). Also
+suppose we have two Propositions given us, containing
+two of these three couples, and that from them we
+can prove a third Proposition containing the third
+couple. (For example, if we divide our Universe for
+m, x, and y; and if we have the two Propositions
+given us, ‘*no m are x” and ‘all m are y”, con-
+taining the two couples mx and my, it might be possible
+to prove from them a third Proposition, containing
+x and ¥.)
+
+In such a case we call the given Propositions ‘ the
+Premisses’, the third one ‘the Conclusion’, and the
+whole set ‘a Syllogism’.
+
+Evidently, one of the Attributes must occur in both
+Premisses; or else one must occur in one Premiss, and
+its contradictory in the other.
+
+===== PAGE 28 =====
+Cu. I.] NEW LAMPS FOR OLD. 21
+
+In the first case (when, for example, the Premisses
+are “some m are x” and ‘no m are y’’’) the Term,
+which occurs twice, is called ‘‘ the Middle Term”,
+because it serves as a sort of link between the other
+two Terms.
+
+In the second case (when, for example, the Premisses
+are ‘*no mare x ” and “‘all m’ are y’’) the two Terms,
+which contain these contradictory Attributes, may be
+called * the Middle Terms”.
+
+Thus, in the first case, the class of ‘‘ m-Things” is
+the Middle Term; and, in the second case, the two
+classes of ‘‘ m-Things ” and *‘ m’-Things ” are the Middle
+Terms.
+
+The Attribute, which occurs in the Middle Term
+or Terms, disappears in the Conclusion, and is said to
+be “eliminated”, which literally means “turned out
+of doors”.
+
+Now let us try to draw a Conclusion from the two
+Premisses—
+
+‘Some red Apples are unwholesome ;
+No ripe Apples are unwholesome.”
+
+In order to express them with Counters, we need to
+divide Apples in three different ways, with regard to
+redness, to ripeness, and to wholesomeness. For this
+we must use the larger Diagram, making 2 mean
+“red”, y “ripe”, and m “wholesome”. (Everything
+
+===== PAGE 29 =====
+22 NEW LAMPS FOR OLD. (Cu. I.
+inside the central Square is supposed to have the at-
+tribute m, and everything outside it the attribute m’,
+i.e. ** not-m”’.)
+
+You had better adopt the rule of making m mean
+the Attribute which occurs in the Middle Term or
+Terms. (I have chosen m as the symbol, because
+‘middle’ begins with ‘m’.)
+
+Now, in representing the two Premisses, I prefer
+to begin with the mnegatwe one (the one beginning
+with ‘*no’’), because grey Counters can always be
+placed with certainty, and will then help to fix the
+position of the red Counters, which are sometimes a
+little uncertain where they will be most welcome.
+
+Let us express, then, ‘no ripe Apples are unwhole-
+some (Apples)”, i.e. “no y-Apples are m’-(Apples)”.
+This tells us that none of the Apples belonging to the
+y-half of the cupboard are in its m’-compartments (i.e.
+the ones outside the central Square). Hence the two
+compartments, No. 9 and No. 15, are both ‘empty’;
+and we must place a grey Counter in each of them,
+thus :—
+
+i
+
+===== PAGE 30 =====
+§ 2.] SYLLOGISMS. 23
+We have now to express the other Premiss, namely,
+
+‘some red Apples are unwholesome (Apples)”, i. e.
+“some x-Apples are m’-(Apples)”. This tells us that
+some of the Apples in the a-half of the cupboard are
+in its m’-compartments. Hence one of the two compart-
+ments, No. 9 and No. 10, is ‘occupied’: and, as we are
+not told in which of these two Compartments to place
+the red Counter, the usual rule would be to lay it on
+the division-line between them: but, in this case, the
+other Premiss has settled the matter for us, by de-
+claring No. 9 to be empty. Hence the red Counter has
+no choice, and must go into No. 10, thus :—
+
+0
+
+—
+
+And now what Counters will all this information
+enable us to place in the smaller Diagram, so as to
+get some Proposition involving x and y only, leaving
+out m? Let us take its four compartments, one by one.
+
+First, No. 5. All we know about this is that its
+outer portion is empty: but we know nothing about
+its ¢nmner portion. Thus the Square may be empty,
+or it may have something in it. Who can tell? So
+we dare not place any Counter in this Square.
+
+===== PAGE 31 =====
+24: NEW LAMPS FOR OLD. (Cu. I.
+
+Secondly, what of No. 6? Here we are a little
+better off. We know that there is something in it,
+for there is a red Counter in its outer portion. It is
+true we do not know whether its inner portion is
+empty or occupied: but what does that matter? One
+solitary Apple, in one corner of the Square, is quite
+sufficient excuse for saying ‘‘ this Square is occupied”,
+and for marking it with a red Counter.
+
+As to No. 7, we are in the same condition as with
+No. 5——we find it partly ‘empty’, but we do not
+know whether the other part is empty or occupied:
+so we dare not mark this Square.
+
+And as to No. 8, we have simply no information aé all.
+
+The result is ee
+
+or
+
+Our ‘ Conclusion’, then, must be got out of the rather
+meagre piece of information that there is a red Counter
+in the xy’-Square. Hence our Conclusion is ‘some
+x are y’”, i.e. “some red Apples are unripe (Apples) ”:
+or, if you prefer to take y’ as your Subject, “some unripe
+Apples are red (Apples)”; but the other is neatest,
+I think.
+
+We will now write out the whole Syllogism, putting
+the symbol .*. for ‘‘ therefore”, and omitting ‘* Apples”,
+for the sake of brevity, at the end of each Proposition.
+
+===== PAGE 32 =====
+§ 2.] SYLLOGISMS. 25
+‘© Some red Apples are unwholesome ;
+No ripe Apples are unwholesome.
+... Some red Apples are unripe.”
+
+And you have now worked out, successfully, your
+first ‘ Syllogism’. Permit me to congratulate you, and
+to express the hope that it is but the beginning of a
+long and glorious series of similar victories!
+
+We will work out one other Syllogism ——a rather
+harder one than the last——and then, I think, you may
+be safely left to play the Game by yourself, or (better)
+with any friend whom you can find, that is able and
+willing to take a share in the sport.
+
+Let us see what we can make of the two Premisses—
+
+*‘ All Dragons are uncanny ;
+
+| All Scotchmen are canny.”}
+
+Remember, I don’t guarantee the Premisses to be
+facts. In the first place, I never even saw a Dragon:
+and, in the second place, it isn’t of the slightest con-
+sequence to us, as Logicians, whether our Premisses are
+true or false: all we have to do is to make out
+whether they lead logically to the Conclusion, so that,
+if they were true, 2¢ would be true also.
+
+You see, we must give up the “Apples” now, or
+our cupboards will be of no use to us. We must
+take, as our ‘ Universe ’, some class of things which
+will include Dragons and Scotchmen: shall we say
+‘Animals’? And, as “canny” is evidently the At-
+
+===== PAGE 33 =====
+26 NEW LAMPS FOR OLD. (Cu. L.
+tribute belonging to the ‘Middle’ Terms, we will let
+m stand for “canny”, # for ‘“‘Dragons”, and y for
+‘‘Scotchmen”. So that our two Premisses are, in full,
+‘¢ All Dragon-Animals are uncanny (Animals);
+All Scotchman-Animals are canny (Animals).”
+And these may be expressed, using letters for words,
+thus :—
+‘¢ All 2 are m’;
+All y are m.” J)”
+The first Premiss consists, as you already know, of
+two parts :—
+‘© Some x are m’,”
+and ** No a are m.”
+And the second also consists of two parts :—
+‘Some y are m,”
+and “No y are m’.”
+
+Let us take the negative portions first.
+
+We have, then, to mark, on the larger Diagram, first,
+‘Sno w@ are m”, and secondly, “no y are m’”, I think
+you will see, without further explanation, that the
+two results, separately, are
+
+0
+jojo | | |
+
+===== PAGE 34 =====
+§ 2.] SYLLOGISMS. 27
+and that these two, when combined, give us
+O
+poo |
+’
+
+We have now to mark the two positive portions,
+‘some « are m” and “some y are m”.
+
+The only two compartments, available for Things
+which are 2m’, are No.9 and No. 10. Of these, No. 9
+is already marked as ‘empty’; so our red counter
+must go into No. 10.
+
+Similarly, the only two, available for ym, are No. 11
+and No. 13. Of these, No. 11 is already marked as
+‘empty’; so our red counter must go into No. 13.
+
+The final result is
+
+0 l
+
+U 0
+
+I ‘
+0
+
+===== PAGE 35 =====
+28 NEW LAMPS FOR OLD. [Cu. I.
+And now how much of this information can usefully
+be transferred to the smaller Diagram ?
+Let us take its four compartments, one by one.
+As to No. 52 This, we see, is wholly ‘empty’.
+(So mark it with a grey counter.)
+As to No. 6? This, we see, is ‘ occupied’. (So
+mark it with a red counter.)
+As to No. 7? Ditto, ditto.
+As to No. 8? No information.
+The smaller Diagram is now pretty liberally marked :—
+0 | 1
+|
+And now what Conclusion can we read off from this ?
+Well, it is impossible to pack such abundant information
+into one Proposition: we shall have to indulge in two,
+this time.
+First, by taking x as Subject, we get ‘‘all x are y’”,
+that is,
+
+‘All Dragons are not-Scotchmen”:
+secondly, by taking y as Subject, we get “all y are a”,
+that 1s,
+
+‘* All Scotchmen are not-Dragons”’.
+
+Let us now write out, all together, our two Premisses
+and our brace of Conclusions.
+
+===== PAGE 36 =====
+§ 2. ] SYLLOGISMS. 29
+“ All Dragons are uncanny;
+All Scotchmen are canny.
+_ {All Dragons are not-Scotchmen ;
+- tan Scotchmen are not-Dragons.”’
+
+Let me mention, in conclusion, that you may perhaps
+meet with logical treatises in which it is not assumed
+that any Thing exists at all, but ‘‘some # are y” is
+understood to mean ‘‘ the Attributes x, y are compatible,
+so that a Thing can have both at once”, and “no x
+are y”’ to mean “the Attributes x, y are incompatible,
+so that nothing can have both at once”,
+
+In such treatises, Propositions have quite different
+meanings from what they have in our ‘Game of
+Logic’, and it will be well to understand exactly what
+the difference is.
+
+First take ‘‘some x are y”. Here we understand
+“are” to mean ‘fare, as an actual fact ” —— which
+of course implies that some a-Things exist. But they
+(the writers of these other treatises) only understand
+“are” to mean “can be’’, which does not at all
+imply that any exzst. So they mean Jess than we do:
+our meaning includes theirs (for of course ‘‘some x are
+y” includes “some x can be y”), but theirs does not
+include ours. For example, ‘‘some Welsh hippopotami
+are heavy’ would be érue, according to these writers (since
+
+===== PAGE 37 =====
+30 NEW LAMPS FOR OLD. [Cu. I.
+the Attributes ‘‘ Welsh” and “heavy” are quite com-
+patible in a hippopotamus), but it would be false in our
+Game (since there are no Welsh hippopotami to be heavy).
+
+Secondly, take ‘‘no w are y”. Here we only under-
+stand ‘‘are” to mean ‘fare, as an actual fact” ——
+which does not at all imply that they cannot be y.
+But they understand the Proposition to mean, not
+only that none are y, but that none can possibly be
+y. So they mean more than we do: their meaning
+includes ours (for of course “no x can be y” includes
+“no x are y’’), but ours does noé include theirs, For
+example, ‘‘no Policemen are eight feet high” would
+be érue in our Game (since, as an actual fact, no such
+splendid specimens can be found), but it would be
+false, according to these writers (since the Attributes
+“belonging to the Police Force” and “eight feet
+high” are quite compatible: there is nothing to pre-
+vent a Policeman from growing to that height, if
+sufficiently rubbed with Rowland’s Macassar Oil ——
+which is said to make hair grow, when rubbed on
+hair, and so of course will make a Policeman grow,
+when rubbed on a Policeman).
+
+Thirdly, take “fall x are y”, which consists of the
+two partial Propositions ‘‘some a are y” and ‘“‘no
+x are y’”. Here, of course, the treatises mean less
+than we do in the first part, and more than we do
+in the second. But the two operations don’t balance
+
+===== PAGE 38 =====
+§ 2.] SYLLOGISMS. bl
+each other——any more than you can console a man,
+for having knocked down one of his chimneys, by
+giving him an extra door-step.
+
+If you meet with Syllogisms of this kind, you may
+work them, quite easily, by the system I have given
+you: you have only to make ‘are’ mean ‘are capable
+of being’, and all will go smoothly. For ‘‘some «
+are y” will become ‘‘some a#-Things are capable of
+being y-(Things)”, that is, “the Attributes a, y are
+compatible’, And ‘*‘no « are y” will become “no
+x-Things are capable of being y-(Things)”, that is,
+‘the Attributes x, y are incompatible”. And, of
+course, “all x are y” will become ‘‘some «x-Things
+are capable of being y-(Things), and none are capable
+of being y'-(Things)”, that is, “the Attributes 2, y
+are compatible, and x, y’ are incompatible.” In using
+the Diagrams for this system, you must understand a
+red counter to mean “there may possibly be something
+in this compartment,” and a grey one to mean “ there
+cannot possibly be anything in this compartment.”
+
+===== PAGE 39 =====
+o2
+§ 3. Fallacies.
+
+And so you think, do you, that the chief use of Logic,
+in real life, 1s to deduce Conclusions from workable
+Premisses, and to satisfy yourself that the Conclusions,
+deduced by other people, are correct? I only wish it
+were! Society would be much less liable to panics
+and other delusions, and poldtical life, especially, would
+be a totally different thing, if even a majority of the
+arguments, that are scattered broadcast over the world,
+were correct! But it is all the other way, I fear. For
+one workable Pair of Premisses (I mean a Pair that lead
+to a logical Conclusion) that you meet with in reading
+your newspaper or magazine, .you will probably find
+five that lead to no Conclusion at all: and, even when
+the Premisses are workable, for one instance, where
+the writer draws a correct Conclusion, there are probably
+ten where he draws an incorrect one.
+
+In the first case, you may say ‘*the Premisses are
+fallacious’: in the second, ‘* the Conclusion is fallacious.”’
+
+===== PAGE 40 =====
+Cu. I.] NEW LAMPS FOR OLD. oo
+
+The chief use you will find, in such Logical skill
+as this Game may teach you, will be in detecting
+‘ Fallacies’ of these two kinds.
+
+The first kind of Fallacy -——‘ Fallacious Premisses’-——
+you will detect when, after marking them on the larger
+Diagram, you try to transfer the marks to the smaller.
+You will take its four compartments, one by one, and
+ask, for each in turn, ‘‘ What mark can I place here?”;
+and in every one the answer will be “ No information! ”,
+showing that there is no Conclusion at all. Yor instance,
+
+‘¢ All soldiers are brave ;
+Some Englishmen are brave, f
+. some Englishmen are soldiers.”
+
+looks uncommonly ike a Syllogism, and might easily
+take in a less experienced Logician. But you are
+not to be caught by such a trick! You would simply
+set out the Premisses, and would then calmly remark
+‘ Fallacious Premisses!”: you wouldn’t condescend to
+ask what Conclusion the writer professed to draw——
+knowing that, whatever it is, it must be wrong. You
+would be just as safe as that wise mother was, who
+said ‘* Mary, just go up to the nursery, and see what
+Baby’s doing, and tell him not to do it!”
+
+The other kind of Fallacy-———‘ Fallacious Conclusion ’
+—you will not detect till you have marked both
+Diagrams, and have read off the correct Conclusion,
+and have compared it with the Conclusion which the
+writer has drawn.
+
+D
+
+===== PAGE 41 =====
+o4 NEW LAMPS FOR OLD. [Cu. 1.
+
+But mind, you mustn't say “ Fallacious Conclusion,”
+simply because it is not identical with the correct
+one: it may be a part of the correct Conclusion, and
+so be quite correct, as far as it goes. In this case you
+would merely remark, with a pitying smile, ‘‘ Defective
+Conclusion!” Suppose, for example, you were to meet
+with this Syllogism :—
+
+** All unselfish people are generous ;
+No misers are generous.
+.*. No misers are unselfish,”
+the Premisses of which might be thus expressed in
+letters :—
+“* All aw are m;
+No y are mt
+
+Here the correct Conclusion would be ‘ All 2’ are y'”
+(that is, ** All unselfish people are not misers’’), while
+the Conclusion, drawn by the writer, is *‘ No y are x,”
+(which is the same as ‘‘ No «& are y,” and so is part of
+“ All « are y’.”) Here you would simply say ‘“‘ Defective
+Conclusion!” ‘The same thing would happen, if you were
+in a confectioner’s shop, and if a little boy were to come
+in, put down twopence, and march off triumphantly with
+a single penny-bun. You would shake your head mourn-
+fully, and would remark “ Defective Conclusion! Poor
+little chap!” And perhaps you would ask the young
+lady behind the counter whether she would let you eat
+the bun, which the little boy had paid for and left
+behind him: and perhaps she would reply ‘‘ Sha’n’t!”’
+
+===== PAGE 42 =====
+§ 3.] FALLACIES. Oo
+
+But if, in the above example, the writer had drawn
+the Conclusion ‘* All misers are selfish” (that is, “ All
+y are x”), this would be going beyond his legitimate
+rights (since it would assert the eaxistence of y, which
+is not contained in the Premisses), and you would
+very properly say “‘ Fallacious Conclusion!”
+
+Now, when you read other treatises on Logic, you
+will meet with various kinds of (so-called) § Fallacies’,
+which are by no means always so. For example, if
+you were to put before one of these Logicians the
+Pair of Premisses
+
+‘* No honest men cheat ;
+No dishonest men are trustworthy.” }
+
+and were to ask him what Conclusion followed, he would
+probably say ‘‘ None at all! Your Premisses offend
+against two distinct Rules, and are as fallacious as
+they can well be!” Then suppose you were bold
+enough to say ** The Conclusion is ‘No men who cheat
+are trustworthy’,” I fear your Logical friend would
+turn away hastily———perhaps angry, perhaps only scorn-
+ful: in any case, the result would be unpleasant.
+I advise you not to try the experiment !
+
+‘‘But why is this?” you will say. ‘Do you mean
+to tell us that all these Logicians are wrong?” Far
+from it, dear Reader! From their point of view, they
+are perfectly right. But they do not include, in their
+system, anything like a// the possible forms of Syllogism.
+
+D2
+
+===== PAGE 43 =====
+36 FALLACIES. [Cu. I. § 3.
+They have a sort of nervous dread of Attributes
+beginning with a negative particle. For example,
+such Propositions as *‘ All not-x are y,” “No @ are
+not-y,” are quite outside their system. And thus,
+having (from sheer nervousness) excluded a quantity
+of very useful forms, they have made rules which, though
+quite applicable to the few forms which they allow of,
+are no use at all when you consider all possible forms.
+Let us not quarrel with them, dear Reader! There
+is room enough in the world for both of us. Let us
+quietly take our broader system: and, if they choose
+to shut their eyes to all these useful forms, and to
+say “They are not Syllogisms at all!”’ we can but
+stand aside, and let them Rush upon their Fate! There
+is scarcely anything of yours, upon. which it is so
+dangerous to Rush, as your Fate. You may Rush upon
+your Potato-beds, or your Strawberry-beds, without
+doing much harm: you may even Rush upon your
+Balcony (unless it is a new house, built by contract,
+and with no clerk of the works) and may survive
+the foolhardy enterprise: but if you once Rush upon
+your Fate—why, you must take the consequences!
+
+===== PAGE 44 =====
+CHAPTER II.
+CROSS QUESTIONS.
+“The Man in the Wilderness asked of me
+‘How many strawberries grow in the sea?’”’
+§ 1. Elementary.
+
+1. What is an ‘Attribute’? Give examples.
+
+2. When is it good sense to put “is” or “are” between
+two names? Give examples.
+
+3. When is it not good sense? Give examples.
+
+4, When it is not good sense, what is the simplest agree-
+ment to make, in order to make good sense?
+
+5. Explain ‘Proposition’, ‘Term’, ‘Subject’, and ‘ Pre-
+dicate’. Give examples.
+
+6. What are ‘Particular’ and ‘ Universal’ Propositions ?
+Give examples.
+
+7. Give a rule for knowing, when we look at the smaller
+Diagram, what Attributes belong to the things in each
+compartment.
+
+8. What does “some” mean in Logic?
+
+===== PAGE 45 =====
+38 CROSS QUESTIONS. [Cu. II.
+
+9. In what sense do we use the word ‘ Universe’ in this
+Game ?
+
+10. What is a ‘Double’ Proposition? Give examples.
+
+11. When is a class of Things said to be ‘ exhaustively’
+divided? Give examples.
+
+12. Explain the phrase “sitting on the fence.”
+
+18. What two partial Propositions make up, when taken
+together, “all x are y"?
+
+14. What are ‘Individual’ Propositions? Give examples.
+
+15. What kinds of Propositions imply, in this Game,
+the existence of their Subjects ?
+
+16. When a Proposition contains more than two Attri-
+butes, these Attributes may in some cases be re-arranged,
+and shifted from one Term to the other. In what cases
+may this be done? Give examples.
+
+Break up each of the following into two partial
+Propositions :
+
+17. All tigers are fierce.
+
+18. All hard-boiled eggs are unwholesome.
+
+19. I am happy.
+
+20. John is not at home.
+
+===== PAGE 46 =====
+§ 1.] ELEMENTARY. 39
+
+21, Give a rule for knowing, when we look at the larger
+Diagram, what Attributes belong to the Things contained
+in each compartment.
+
+22. Explain ‘ Premisses’, ‘Conclusion’, and ‘ Syllogism ’.
+Give examples.
+
+23. Explain the phrases “ Middle Term” and “ Middle
+Terms”.
+
+24, In marking a pair of Premisses on the larger Diagram,
+why is it best to mark negative Propositions before affirmative
+ones ?
+
+25. Why is it of no consequence to us, as Logicians,
+whether the Premisses are true or false ?
+
+26. How can we work Syllogisms in which we are told
+that ‘“‘some zx are y” 1s to be understood to mean “the
+Attributes x, y are compatible”, and “no & are y” to mean
+“the Attributes z, y are incompatible” ?
+
+27. What are the two kinds of ‘ Fallacies’?
+
+28. How may we detect ‘ Fallacious Premisses ’?
+
+29. How may we detect a ‘ Fallacious Conclusion ’?
+
+30. Sometimes the Conclusion, offered to us, is not
+identical with the correct Conclusion, and yet cannot be
+fairly called ‘Fallacious’, When does this happen? And
+what name may we give to such a Conclusion ?
+
+===== PAGE 47 =====
+4()
+9 2. Half of Smaller Diagram.
+Propositions to be represented.
+1. Some zx are not-y.
+2. All x are not-y.
+&. Some x are y, and some are not-y.
+4. No x exist.
+Taking « = “judges”; y= “just”;
+6. No judges are just.
+6. Some judges are unjust.
+7. All judges are just.
+Taking «= “cakes”; y=“ wholesome ”;
+8. Some cakes are wholesome.
+9. There are no wholesome cakes.
+10. Cakes are some of them wholesome, and some not.
+11. All cakes are unwholesome.
+
+===== PAGE 48 =====
+Cu. II.] CROSS QUESTIONS. 4.1
+x
+—»—
+r
+Taking y = “ diligent students”; x = “successful ” ;
+12. No diligent students are unsuccessful.
+13. All diligent students are successful.
+14. No students are diligent.
+15. There are some diligent, but unsuccessful, students.
+16. Some students are diligent.
+Taking y=: “old men”; «==“ strong and active”;
+17. All old men are strong and active.
+18. Some old men are weak or lazy.
+19. No old men are strong.
+20. All old men are lazy.
+
+===== PAGE 49 =====
+492
+§ 3. Half of Smaller Diagram.
+Symbols to be interpreted.
+i
+L
+1. | Lo | 2. | 0 | 0 |
+3. | ~ | 4. | 0 1 |
+Taking 2 =“ good riddles”; y= ‘“‘hard”;
+5 | 1 | 6. | 1 | 0 |
+7 | 0 | 0 | 8. | 0 |
+
+===== PAGE 50 =====
+Cu. II. ] CROSS QUESTIONS. 43
+Taking «= “ lobsters”; y=“ selfish and unforgiving”;
+9. | 1 | 10. | 0 | |
+uu. | 0 | 2 | 1 | 1 | 2 |
+
+x
+—y
+a
+Taking y = “healthy people”; a2 =“ happy”;
+0 ] 0
+13. |-— 14, |-l- 15. |-—— 16. |——
+1 ] 0
+
+===== PAGE 51 =====
+44
+9 4. Smaller Diagram.
+Propositions to be represented.
+H
+a
+|
+1. All y are a.
+2. Some y are not-a.
+3. No not-x are not-y.
+4. Some 2 are not-y.
+56. Some not-y are x.
+6. No not-x are y.
+7~ Some not-x are not-y.
+8. All not-2 are not-y.
+9. Some not-y exist.
+10. No not-x exist.
+11. Some y are x, and some are not-zx.
+12. All a are y, and all not-y are not-z.
+
+===== PAGE 52 =====
+Cu. II. | CROSS QUESTIONS. 45
+Taking “nations” as Universe; x= “civilised”; and
+y == “ warlike” ;
+
+18. No uncivilised nation is warlike.
+14. All unwarlike nations are uncivilised.
+15. Some nations are unwarlike.
+16. All warlike nations are civilised, and all civilised nations
+are warlike.
+17. No nation is uncivilised.
+Taking “crocodiles” as Universe; x =“ hungry”;
+and y= “amiable ”;
+18. All hungry crocodiles are unamiable.
+19. No crocodiles are amiable when hungry.
+20. Some crocodiles, when not hungry, are amiable; but
+some are not.
+21. No crocodiles are amiable, and some are hungry.
+22. All crocodiles, when not hungry, are amiable; and all
+unamiable crocodiles are hungry.
+23. Some hungry crocodiles are amiable, and some that
+are not hungry are unamiable.
+
+===== PAGE 53 =====
+46
+§ 5. Smaller Diagram.
+Symbols to be interpreted.
+|
+x
+~y-Ly-
+r
+|
+1, |——_|—— x. |——|—
+] 0
+1
+3, |——_|_— 4, |——|_—
+0 0 | O
+Taking “houses” as Universe; x = “ built of brick”;
+and y == “ two-storied ”; interpret
+0
+5. | ——|-———- 6 |}
+0 —
+ee ne
+0
+ee a on
+0 ]
+
+===== PAGE 54 =====
+Cu. II. ] CROSS QUESTIONS. 47
+Taking “‘ boys” as Universe; x = ‘ fat”;
+and y == “active”; interpret
+
+1} 1 0
+9, {;——|—— 10. j;—_|——_
+1
+Oo; 1 1
+1]. }__|___ 12. {——-|——
+0 OO; 1
+Taking “cats” as Universe; 2 = “ green-eyed ”;
+and y = ‘“ good-tempered ”; interpret
+0; 0 1
+138, j|—__|___ 14, j|___|__
+0 1
+1 0; 1
+a 14. |—|——
+0 1 | 0
+
+===== PAGE 55 =====
+48
+§ 6. Larger Diagram.
+Propositions to be represented.
+P|
+Sg
+1, No x are m.
+2. Some y are m’.
+3. All m are 2.
+4. No m’ are y.
+5. No m are ™
+All y are m.
+6. Some @ are m,
+No y are m. ;
+7. All m are 2,
+No m are y. ;
+8. No 2 are m,
+No y' are wt
+
+===== PAGE 56 =====
+Cu. II. ] CROSS QUESTIONS. 49
+Taking “rabbits” as Universe; m = ‘‘ greedy”;
+c==‘‘old’’; and y = “black”; represent
+9. No old rabbits are greedy.
+10. Some not-greedy rabbits are black.
+-11, All white rabbits are free from greediness.
+12. All greedy rabbits are young.
+13. No old rabbits are greedy, !
+All black rabbits are greedy.
+14, All rabbits, that are not greedy, are mak}
+No old rabbits are free from greediness.
+Taking “birds” as Universe; m = “that sing loud ”;
+2 == “well-fed”; and y = “happy”; represent
+15. All well-fed birds sing loud,
+No birds, that sing loud, are anhappy.}
+16. All birds, that do not sing loud, are mnheeP?s |
+No well-fed birds fail to sing loud.
+
+Taking “ persons” as Universe; m = “in the house”;
+x= “John”; and y = “having a tooth-ache ”; represent
+17. John is in the house,
+
+Every body in the house is suffering from tooth-ache.
+18. There is no one in the house but John,
+Nobody, out of the house, has a tooth-ache.
+E
+
+===== PAGE 57 =====
+5V CROSS QUESTIONS. (Cu. If.
+Taking “ persons” as Universe; m = ‘I”;
+g =: “that has taken a walk”; y = “ that feels better”;
+represent
+19. I have been out for a ven
+I feel much better.
+Choosing your own ‘ Universe’ &c., represent
+20. I sent him to bring me a kitten,
+He brought me a kettle by mistake.
+
+===== PAGE 58 =====
+ol
+§ 7. Both Diagrams to be employed.
+— |
+| || .
+i rT -y-by-
+7
+|
+N.B. In each Question, a small Diagram should be
+drawn, for x and y only, and marked in accordance with
+the given large Diagram: and then as many Propositions
+as possible, for x and y, should be read off from this small
+Diagram.
+0 ee
+0 | 0 0 1
+1, |——|-———_|—__|—_ 2.0 | —|——_| —_—_ |
+I 0
+9 | ____|___!
+E2 |
+
+===== PAGE 59 =====
+52 CROSS QUESTIONS. [Cu. II.
+ee 0
+0 0
+gs, |__}|—_|_—__|_-—_ 4, jj |
+1 0 0 0
+a ae 0
+
+Mark, on a large Diagram, the following pairs of Pro-
+positions from the preceding Section: then mark a small
+Diagram in accordance with it, &c.
+
+5. No. 13. 9. No. 17.
+6. No. 14. 10. No. 18.
+7. No. 15. 11. No. 19.
+8. No. 16. 12. No. 20.
+Mark, on a large Diagram, the following Pairs of Pro-
+positions: then mark a small Diagram, &c. These are,
+in fact, Pairs of Premisses for Syllogisms: and the results,
+read off from the small Diagram, are the Conclusions.
+13. No exciting books suit feverish patients ;
+Unexciting books make one drowsy.
+
+14. Some, who deserve the fair, get their deserts ;
+None but the brave deserve the fair.
+
+15. No children are patient;
+No impatient person can sit still.
+
+===== PAGE 60 =====
+§ 7.] BOTH DIAGRAMS TO BE EMPLOYED. 53
+16. All pigs are fat;
+No skeletons are fat.
+17. No monkeys are soldiers ;
+All monkeys are mischievous.
+18. None of my cousins are just;
+No judges are unjust.
+19. Some days are rainy ;
+Rainy days are tiresome.
+20. All medicine is nasty ;
+Senna is a medicine.
+21. Some Jews are rich;
+All Kamschatgans are Gentiles.
+22. All teetotalers like sugar ;
+No nightingale drinks wine.
+23. No mufiins are wholesome;
+All buns are unwholesome.
+24. No fat creatures run well;
+Some greyhounds run well.
+25. All soldiers march;
+Some youths are not soldiers.
+26. Sugar is sweet;
+Salt is not sweet.
+27. Some eggs are hard-boiled ;
+No eggs are uncrackable.
+28. There are no Jews in the house ;
+There are no Gentiles in the garden.
+
+===== PAGE 61 =====
+54: CROSS QUESTIONS. [Cu. II.
+29. All battles are noisy;
+What makes no noise may escape notice.
+80. No Jews are mad;
+All Rabbis are Jews.
+31. There are no fish that cannot swim ;
+Some skates are fish.
+32. All passionate people are unreasonable;
+Some orators are passionate.
+
+===== PAGE 62 =====
+CHAPTER III.
+CROOKED ANSWERS.
+: pean rea herringer gro fa the wood ’,”
+
+§ 1. Elementary.
+
+1. Whatever can be “attributed to”, that is “said to
+belong to”, a Thing, is called an ‘Attribute’. For example,
+“baked”, which can (frequently) be attributed to “Buns”,
+and “beautiful”, which can (seldom) be attributed to
+‘ Babies ”.
+
+2. When they are the Names of two Things (for example,
+“these Pigs are fat Animals”), or of two Attributes (for
+example, ‘‘pink is light red”).
+
+3. When one is the Name of a Thing, and the other
+the Name of an Attribute (for example, “these Pigs are
+pink ”), since a Thing cannot actually be an Attribute.
+
+4. That the Substantive shall be supposed to be repeated
+at the end of the sentence (for example, ‘these Pigs are
+pink (Pigs) ”).
+
+===== PAGE 63 =====
+56 CROOKED ANSWERS. [Cu. III.
+
+5. A ‘Proposition’ is a sentence stating that some, or
+none, or all, of the Things belonging to a certain class,
+called the ‘Subject’, are also Things belonging to a certain
+other class, called the ‘Predicate’. For example, “some
+red Apples are not ripe”, that is (written in full) “some red
+Apples are not ripe Apples”; where the class “red Apples ”
+is the Subject, and the class ‘not-ripe Apples” is the
+Predicate.
+
+6. A Proposition, stating that some of the Things belonging
+to its Subject are so-and-so, is called ‘Particular’. For
+example, “some red Apples are ripe”, “some red Apples
+are not ripe.”
+
+A Proposition, stating that none of the Things belonging
+to its Subject, or that all of them, are so-and-so, is called
+‘Universal’. For example, “no red Apples are ripe”, “ all
+red Apples are ripe ”.
+
+7. The Things in each compartment possess two Attributes,
+whose symbols will be found written on two of the edges of
+that compartment.
+
+8. “‘One or more.”
+
+9. Asa name of the class of Things to which the whole
+Diagram is assigned.
+
+10. A Proposition containing two statements. For example,
+‘some red Apples are ripe and some are unripe.”
+
+11. When the whole class, thus divided, is ‘ exhausted ”
+among the sets into which it is divided, there being no
+member of it which does not belong to some one of them.
+Kor example, the class “red Apples” is ‘ exhaustively ”
+
+===== PAGE 64 =====
+§ 1.] ELEMENTARY. 57
+divided into “ripe” and “not ripe”, since every red Apple
+must be one or the other.
+
+12. When a man cannot make up his mind which of two
+parties he will join, he is said to be “sitting on the fence ”
+——not being able to decide on which side he will jump
+down.
+
+13. “Some a are y” and “no & are y’”.
+
+14. A Proposition, whose Subject is one single Thing, is
+called ‘Individual’. For example, “I am happy”, “John is
+not at home”. These are Universal Propositions, being the
+same as “all the I’s that exist are happy”, “all the Johns,
+that I am now considering, are not at home”.
+
+15. ‘ Particular’ and ‘ Universal’ Propositions.
+
+16. When they begin with “some” or‘‘no”. For example,
+“some abc are def” may be re-arranged as ‘“‘some Uf are acde”,
+each being equivalent to ‘‘some abcdef exist”.
+
+17. Some tigers are fierce,
+
+No tigers are not-fierce.
+18. Some hard-boiled eggs are unwholesome,
+No hard-boiled eggs are wholesome.
+19. Some I's are happy,
+No I[’s are unhappy.
+20. Some Johns are not at home,
+No Johns are at home.
+
+21. The Things, in each compartment of the larger
+Diagram, possess three Attributes, whose symbols will be
+found written at three of the corners of the compartment
+
+===== PAGE 65 =====
+58 CROOKED ANSWERS. [Cu. III.
+(except in the case of m’, which is not actually inserted
+in the Diagram, but is supposed to stand at each of its four
+outer corners).
+
+22. If the Universe of Things be divided with regard
+to three different Attributes; and if two Propositions be
+given, containing two different couples of these Attributes ;
+and if from these we can prove a third Proposition, contain-
+ing the two Attributes that have not yet occurred together;
+the given Propositions are called ‘the Premisses’, the third
+one ‘the Conclusion’, and the whole set ‘a Syllogism’. For
+example, the Premisses might be “no m are x” and “all m’
+are y"; and it might be possible to prove from them a
+Conclusion containing x and y.
+
+28. If an Attribute occurs in both Premisses, the Term
+containing it is called ‘the Middle Term’. For example,
+if the Premisses are ‘“‘some m are x” and “no m are y’”, the
+class of “m-Things ” is the Middle Term.
+
+If an Attribute occurs in one Premiss, and its contradictory
+in the other, the Terms containing them may be called ‘ the
+Middle Terms’. For example, if the Premisses are “no m
+are vz” and “all m’ are y”, the two classes of ‘ m-Things ”
+and ‘‘m'-Things ” may be called ‘the Middle Terms’.
+
+24. Because they can be marked with certainty: whereas
+affirmative Propositions (that is, those that begin with
+“some” or “all”) sometimes require us to place a red
+counter ‘sitting on a fence’.
+
+25. Because the only question we are concerned with is
+whether the Conclusion follows logically from the Premisses,
+so that, if they were true, zt also would be true.
+
+===== PAGE 66 =====
+§ 1.] ELEMENTARY. 59
+
+26. By understanding a red counter to mean “this com-
+partment can be occupied”, and a grey one to mean “ this
+compartment cannot be occupied” or “this compartment
+must be empty”.
+
+27. ‘Fallacious Premisses’ and ‘ Fallacious Conclusion ’.
+
+28. By finding, when we try to transfer marks from
+the larger Diagram to the smaller, that there is ‘no in-
+formation’ for any of its four compartments.
+
+29. By finding the correct Conclusion, and then observing
+that the Conclusion, offered to us, is neither identical with it
+nor a part of it.
+
+380. When the offered Conclusion is part of the correct
+Conclusion. In this case, we may call it a ‘ Defective
+Conclusion ’.
+
+§ 2. Half of Smaller Diagram.
+Propositions represented.
+1. [a 2 Jo] a |
+| a | | 4 [ol o|
+56. Noxwarey. 1.6 | 0 | |
+6. Some warez’. 1. | | ]
+
+===== PAGE 67 =====
+60 CROOKED ANSWERS. [Cu. III.
+7. Allwarey. 1.€. | 1 | 0 |
+8. Some wx are y. 1. 1 | |
+9. Nowarey. 1 ¢. 0 |
+10. Some z are y, and some are y’. i.e. | I | 1 |
+ll. Allwarey’. ice. | 0 i
+12. Noyare a. i.e. |——
+0
+1
+13. Ally arex. i.e. |——
+0
+0
+14, No y exist. 1.€. {——
+0
+15. Some y are 2. 1.e. |——
+i
+16. Some y exist. 1.e. .
+
+===== PAGE 68 =====
+§ 2. | PROPOSITIONS REPRESENTED. 61
+1
+17. Ally area i.e. j——
+0
+18. Some y are 2’. i.e. |——
+]
+0
+19. Noy arexz. i.e |——
+0
+20. Ally area’. 1.e. |——
+J
+9 3. Half of Smaller Diagram.
+Symbols interpreted.
+1. No x are y/.
+2. No x exist.
+3. Some & exist.
+4. All x are 7.
+56. Some x are y. i.e. Some good riddles are hard.
+6. All aware y. i.e. All good riddles are hard.
+7. No x exist. i.e. No riddles are good.
+
+===== PAGE 69 =====
+62 CROOKED ANSWERS. [Cu. ITT,
+8. No ware y. i.e. No good riddles are hard.
+9. Some z are y’. i.e. Some lobsters are unselfish or
+forgiving.
+
+10. No zare y. i.e. No lobsters are selfish and unforgiving.
+
+11. All w are ¥. ite. All lobsters are unselfish or for-
+giving.
+
+12. Some z are y, and some arey’. i.e. Some lobsters are
+selfish and unforgiving, and some are unselfish or
+forgiving.
+
+18. Ally are x’. i.e. All invalids are unhappy.
+
+14, Some y exist. i.e. Some people are unhealthy.
+
+15. Some y/ are z, and some are 2. i.e. Some invalids are
+happy, and some are unhappy.
+
+16. No y' exist. i.e. Nobody is unhealthy.
+
+§ 4. Smaller Diagram.
+Propostitons represented.
+1
+——— 2 }—}—
+0 1
+1
+oe  |———|—— 4, |——|——
+0
+
+===== PAGE 70 =====
+§ 4. | PROPOSITIONS REPRESENTED. 63
+i
+5. |——|— ij j——.}___
+0
+7. ee 8. —— |
+l O | 1
+9. |——j|-1- 10. j——/|——
+0 | 0
+] 1 | 0
+Li, }—/|—— 12, |—_|___
+i ]
+13. Now arey. i.e. |——|——
+0
+0
+14, All y’ are wv’. ice. |——j/——
+]
+15. Some y’ exist. i.e. -} ]
+
+===== PAGE 71 =====
+64: CROOKED ANSWERS. (Cu. III.
+l 0
+16. All y are 2, and allz arey. 1.e. |——-|——
+0
+17. No 2x’ exist. i.e. |——-|——
+0 | 0
+0 1
+18. All x arey’. i.e. |——|——
+0
+19. Nowarey. i.e, |——|——
+20. Some ~’ are y, but some are x. i.e. |——|——
+] ]
+0 {1
+21. No y exist, and some x exist. i.e. |——-|——
+0
+| 1
+22, All 2’ are y, and all y are xr i.e. |——-|——
+1 | 0
+1
+23. Some a are y, and some 2’ are y’. i.e. |——|——
+]
+
+===== PAGE 72 =====
+65
+9 5. Smaller Diagram.
+Symbols interpreted.
+|. Some y are not-a,
+or, Some not-zx are y.
+2. No not-x are not-y,
+or, No not-y are not-z.
+3. All not-y are x.
+4. No not-a exist. (i.e. There are no not-z.)
+9. No y exist. i.e. No two-storied houses exist. (i.e. No
+houses are two-storied.)
+6. Some a exist. 1.e. Some houses, not built of brick,
+exist. (i. e. Some houses are not built of brick.)
+7. Nowarey’. Or, noy' arex. te. No houses, built of
+brick, are other than two-storied. Or, no houses,
+that are not two-storied, are built of brick.
+8. All 2’ are y’. i.e. All houses, that are not built of
+brick, are not two-storied.
+9. Some 2 are y, and some are y’._ 1.e. Some fat boys
+are active, and some are not.
+10. Ally’ are wv. 1.¢e. All lazy boys are thin.
+11. All aw are y’, and all y’ are w. i.e. All fat boys are lazy,
+and all lazy ones are fat.
+F
+
+===== PAGE 73 =====
+66 CROOKED ANSWERS. [Cu. III.
+
+12. Ally are z, and all x are y. i.e. All active boys are
+fat, and all thin ones are lazy.
+
+13. No @ exist, and no y' exist. i.e. No cats have green
+eyes, and none have bad tempers.
+
+14. Some z are y’/, and some a are y. Or, some y are x,
+and some y’ are zx. 1.e. Some green-eyed cats are
+bad-tempered, and some, that have not green eyes,
+are good-tempered. Or, some good-tempered cats
+have not green eyes, and some bad-tempered ones
+have green eyes.
+
+15. Some 2 are y, and no # are yz’. Or, some y are 2, and
+no y’ arew’. i.e. Some green-eyed cats are good-
+tempered, and none, that are not green-eyed, are
+bad-tempered. Or, some good-tempered cats have
+green eyes, and none, that are bad-tempered, have
+not green eyes.
+
+16. All a are y’, and all 2’ are y. Or, all y are 2’, and all y
+are x. i.e. All green-eyed cats are bad-tempered,
+and all, that have not green eyes, are good-tem-
+pered. Or, all good-tempered ones have eyes that
+are not green, and all bad-tempered ones have
+green eyes.
+
+===== PAGE 74 =====
+67
+§ 6. Larger Diagram.
+Propositions represented.
+t
+a a Q, |-y-|—_]|__|_ _
+a ——J4J
+ol o. of
+—I") ‘ --+
+| ——
+a oe
+oflo ola
+5. |——|——|—__|—— 6. {—_|—_]_ __]|_
+|} oo
+ee F2 ee
+
+===== PAGE 75 =====
+68 CROOKED ANSWERS. (Cu. ITI.
+|
+0 0
+7 | —|_—_—|—- 8.0 | ———|—_-| —__|
+0}; 1 0 | O
+0
+0} 0
+9, Noware m 1.e€.  |——|——/——|——
+10. Some m’ are y. 1.6. ] r
+0
+11, Ally arem’. i.e. |——/——-/——-|-1-
+0
+
+===== PAGE 76 =====
+§ 6. ] PROPOSITIONS REPRESENTED. 69
+0 0
+12. All m are 2. 1. @. rs es ee
+ot
+0
+13. No @ are ™ bi 0 0 0
+All y are m. 1
+0
+0 0
+14. All m’ are y, hi 0
+No x are nv. es es es
+1 0
+0 0
+15. All x are m, -_ I | 0
+No m are y, — “1. ——_
+
+===== PAGE 77 =====
+70 CROOKED ANSWEBS. [Cu. II.
+0 0
+16. All m’ are y, 7
+No zw are m.
+0 1
+!
+0 0
+17. All w are ™ -_ 1 | 0
+All m are y. 0
+0
+18. Noa are m, }  o.
+No m’ are y.J o | 0
+0
+19. AM mare 2} 5 :
+All m are y. 0 0
+
+===== PAGE 78 =====
+§ 6.] PROPOSITIONS REPRESENTED. 71
+20. We had better take “ persons” as Universe. We
+may choose “myself” as ‘middle Term’, in which case
+the Premisses will take the form
+I am a-person-who-sent-him-to-bring-a-kitten.
+I am a-person-to-whom-he-brought-a-kettle-by-mistake.
+
+Or we may choose “he” as ‘middle Term’, in which
+
+case the Premisses will take the form
+He is a-person-whom-I-sent-to-bring-me-a-kitten.
+He is s-person-who-brought-me-a-kettle-by-mistake.[
+
+The latter form seems best, as the interest of the anecdote
+clearly depends on his stupidity——not on what happened
+to me. Let us then make m=‘“he”; x = “persons whom
+I sent, &c.”; and y = “ persons who brought, &c.”
+
+All m are z, . . :
+
+Hence, and the required Diagram is
+
+All m are y,
+1 | 0
+0 |} 0
+
+===== PAGE 79 =====
+72
+§ 7. Both Diagrams employed.
+0
+1. | ——|——|_ 1.e. All y are 2’.
+|
+I
+9. |_—|_—_|_ Le. Some 2 are 7’; or, Some y’ are =.
+3. |——|——| 1.e. Some y are x’; or, Some 2’ are y.
+1
+4, |——|——-| 1.e. No a2’ are y’; or, No y' are 2’.
+O
+5 a | i.e. All y are x’. i.e. All black rabbits
+] are young.
+i.e. Some y are 2. i.e. Some black
+a : rabbits are young.
+
+===== PAGE 80 =====
+Cu. III.] Bored DIAGRAMS EMPLOYED. 73
+1} O |} je. Alla arey. i.e. All well-fed birds
+fi are happy.
+r | | ie€. Some x’ are 7. i.e. Some birds,
+g that are not well-fed, are unhappy ;
+1 or, Some unhappy birds are not
+ee well-fed.
+1] 0 | j.e. All w are y. i.e. John has got a
+9. tooth-ache.
+_ i.e. No x are y. 1.e. No one, but John,
+A has got a tooth-ache.
+I i.e. Some x are y. i.e. Some one, who
+il. has taken a walk, feels better.
+fy {| i.e. Some aw are y. ie. Some one,
+12. |——|——_ whom I sent to bring me a kitten,
+brought me a kettle by mistake.
+
+===== PAGE 81 =====
+74 CROOKED ANSWERS. [Cu. IIT.
+0
+O | 0
+13. |- 1 -——|——__|—_—_- ———
+0
+Let ‘books " be Universe; m = “ exciting”;
+x = “that suit feverish patients”; y = “that make
+one drowsy ”.
+No m are @, No a! are
+o’e wv.
+All m’ are y. 4
+i.e. No books suit feverish patients, except such as make
+one drowsy.
+} 1] 0
+14, |——|——_|——_|— ——
+Let “ persons” be Universe; m = ‘that deserve the fair”;
+v= ‘that get their deserts”; y = ‘“ brave”.
+Some m are &,
+“. Some y are a.
+No y/ are m.
+i.e. Some brave persons get their deserts.
+
+===== PAGE 82 =====
+§ 7.] BOTH DIAGRAMS EMPLOYED. 75
+0
+0 | 0
+16. |——|—|—__|—_ ——_—
+0
+0
+Let “persons ” be Universe; m = “ patient”;
+e = “children”; y = “that can sit still ”.
+No x are m,
+. No x are y.
+No m are y.
+1.e. No children can sit still.
+0 0
+OO} 1
+16, |——|——-|—__|—_—_ —__———
+0 0 l
+Let “things” be Universe; m = “fat”; x« = “pigs”;
+y = “skeletons ”.
+All @ are ™ . All a are y/.
+No y are m.
+i.c. All pigs are not-skelctons.
+
+===== PAGE 83 =====
+76 CROOKED ANSWERS. [Cu. ILI.
+0 | 0
+17. |——|_ |__| —
+1 | O
+l
+Let “creatures " be Universe; m = “ monkeys ” ;
+xe == “soldiers”; y = “ mischievous”.
+No m are *| Some .
+All mareyJ °" yun
+1.e. Some mischievous creatures are not soldiers.
+0
+O | 0
+18. |——|——_| | a
+0
+0
+Let “ persons” be Universe; m = “just ”;
+© = “my cousins”; y = “judges ”.
+No a are m,
+“. Now are y.
+No y are m’.
+i.e. None of my cousins are judges.
+
+===== PAGE 84 =====
+§ 7. j BOTH DIAGRAMS EMPLOYED. C7
+1 | 0
+19, |——}——_|——_|_ ——_——
+Let “ things” be Universe ; m= “days”;
+
+c= ‘rainy’; y = “tiresome”.
+
+Some m are &,
+
+.. Some « are y.
+
+All xm are y.
+
+i.e. Some rainy things are tiresome. |
+
+N.B. These are not legitimate Premisses, since x and y
+both enter into the second Premiss; so that the Conclusion
+is really part of the second Premiss, and the first Premiss is
+superfluous. This may be shown, in letters, thus :—
+
+‘All am are y” contains ‘‘Some am are y”, which contains
+“Some wz are y” Or, in words, “All rainy days are tire-
+some” contains ‘Some rainy days are tiresome”, which
+contains “Some rainy things are tiresome ”.
+
+Moreover, the first Premiss, besides being superfluous, is
+actually contained in the second; since it is equivalent to
+“Some rainy days exist”, which, as we know, is implied in
+the Proposition ‘‘ All rainy days are tiresome ”.
+
+Altogether, a most unsatisfactory Pair of Premisses!
+
+===== PAGE 85 =====
+78 CROOKED ANSWERS. [Cu. III.
+0
+]
+20. ee el ee, a
+0} 0 l
+0 0
+Let “things ” be Universe; m = “ medicine”;
+== ‘‘nasty”; y = “senna”.
+All m are *}
+All y are m. ily are «
+i.e. Senna is nasty.
+0} 1
+21. |- 1 -|——|——_|_- ——_—__——
+Let “persons” be Universe, m= “Jews”;
+x= “rich”; y = “Kamschatgans ”.
+Some m are 2, ,
+.. Some & are yy.
+All y are m’.
+i.e. Some rich persons are not Kamschatgans.
+
+===== PAGE 86 =====
+§ 7.] BOTH DIAGRAMS EMPLOYED. 79
+22. |——| |__| ——____—.
+O07} 0
+0 | 0
+Let “ creatures” be Universe; i = “ teetotalers ”;
+2 = ‘that like sugar”; y = “nightingales ”.
+All m are zx,
+tw. Noy are a’.
+No y are nt}
+i.e. No nightingales dislike sugar.
+O | O
+23. |~ 2 -|——_|—___]___- a
+Let “food” be Universe; m= “wholesome ”’;
+c= ‘‘ muffins”; y=“ buns”.
+No z are m,
+All y are m’.
+There is ‘no information’ for the smaller Diagram; so
+no Conclusion can be drawn.
+
+===== PAGE 87 =====
+80 CROOKED ANSWERS. (Cu. ITI.
+0 | 0
+24, |——|——-|——_|—— —_______—
+l |
+l
+Let “ creatures” be Universe; m = “ that run well”:
+2 = “fat”; y = “greyhounds”.
+No x are m,
+». Some y are 2’.
+Some y are m.
+i.e. Some greyhounds are not fat.
+Let “persons” be Universe; m = “soldiers ” ;
+7 = “that march”; y = “ youths”.
+All m are z,
+Some y are m’.
+There is ‘no information’ for the smaller Diagram; s0
+no Conclusion can be drawn.
+
+===== PAGE 88 =====
+§ 7.] BOTH DIAGRAMS EMPLOYED. §1
+0 0
+Oj}; 1
+26. |——|-——_|—_| _——- ———_—_—_——.
+0 O | 1
+l l
+Let “food” be Universe; m = “sweet”;
+eo ‘“‘sugar”; y= “salt”.
+All xarem,) | fin x are y’.
+All y are mn} ~ (Ally are 2’.
+og Sugar is not salt.
+'~ (Salt is not sugar.
+1 | 0
+27, |——|——_|-—_| ——____
+Let “things” be Universe; m = “eggs”;
+¢ == “hard-boiled”; y= “ crackable ”.
+Some m are ia
+.. Some & are y.
+No m are y.
+i.e. Some hard-boiled things can be cracked.
+G
+
+===== PAGE 89 =====
+82 CROOKED ANSWERS. [Cu. IIT.
+
+0
+
+0 | 0
+
+28. |——|——-|——__| —_—- ——__—_——
+0
+0
+Let “ persons ” be Universe; m =“ Jews”; a2 = “ that
+are in the house”; y = “that are in the garden ”.
+No m are x,
+; *. No x are y.
+No m are y.
+i.e. No persons, that are in the house, are also in
+the garden.
+0 0
+] 0 ]
+Let “ things” be Universe; m= “noisy”;
+== ‘battles”; y = “that may escape notice ”.
+All x are m,
+.“. Some 2’ are y.
+All m’ are if
+i.e. Some things, that are not battles, may escape notice.
+
+===== PAGE 90 =====
+§ 7.] BOTH DIAGRAMS EMPLOYED. 83
+0
+0; 0
+30. |——|——-|—_|_—— —_———_
+] 0
+0 l
+Let “‘ persons” be Universe; m = “Jews”;
+x==“mad”; y=“ Rabbis”.
+No m are x
+ee ] .
+All y are n.t Ally are x
+1.¢. All Rabbis are sane.
+l
+$1. |——|__|_|—_ —_——
+i: |
+Let “things ” be Universe; m = “fish”;
+2 = “that can swim”; y = “skates”.
+No mare x,
+| . Some y are z.
+Some y are m.
+i.e. Some skates can swim.
+G2
+
+===== PAGE 91 =====
+84, CROOKED ANSWERS. [Cu. III.
+0 | 0
+32. |—|——_|——__|—_ ——_——
+1
+]
+Let “‘ people” be Universe; m = “ passionate ”;
+2 = ‘reasonable’; y = “ orators”.
+All m are 2’, ,
+.. Some y are x’.
+Some y are m.
+1.e. Some orators are unreasonable.
+
+===== PAGE 92 =====
+CHAPTER IV.
+HIT OR MISS.
+‘¢ Thou canst not hit it, hit it, hit it,
+Thou canst not hit it, my good man.”
+1. Pain is wearisome;
+No pain is eagerly wished for.
+2. No bald person needs a hair-brush ;
+No lizards have hair.
+3. All thoughtless people do mischief;
+No thoughtful person forgets a promise.
+4, I do not like John;
+' Some of my friends like John.
+5. No potatoes are pine-apples ;
+All pine-apples are nice.
+6. No pins are ambitious;
+No needles are pins.
+7. All my friends have colds ;
+No one can sing who has a cold.
+8. All these dishes are well-cooked ;
+Some dishes are unwholesome if not well-cooked.
+
+===== PAGE 93 =====
+86 HIT OR MISS. [Cu. IV.
+9. No medicine is nice;
+Senna is a medicine.
+10. Some oysters are silent;
+No silent creatures are amusing.
+11. All wise men walk on their feet:
+All unwise men walk on their hands.
+12. ‘Mind your own business;
+This quarrel 1s no business of yours.”
+18. No bridges are made of sugar;
+Some bridges are picturesque.
+14. No riddles interest me that can be solved;
+All these riddles are insoluble.
+15. Jobn is industrious ;
+All industrious people are happy.
+16. No frogs write books ;
+Some people use ink in writing books.
+17. No pokers are soft ;
+All pillows are soft.
+18. No antelope is ungraceful ;
+Graceful animals delight the eye.
+19. Some uncles are ungenerous ;
+All merchants are generous.
+20. No unhappy people chuckle ;
+No happy people groan.
+91. Audible music causes vibration in the air;
+Inaudible music is not worth paying for.
+
+===== PAGE 94 =====
+Cu. IV.] HIT OR MISS. 87
+
+22. He gave me five pounds;
+
+I was delighted.
+23. No old Jews are fat millers ;
+
+All my friends are old millers.
+24. Flour is good for food ;
+
+Oatmeal is a kind of flour.
+25. Some dreams are terrible ;
+
+No lambs are terrible.
+26. No rich man begs in the street ;
+
+All who are not rich should keep accounts.
+27. No thieves are honest;
+
+Some dishonest people are found out.
+28. All wasps are unfriendly ;
+
+All puppies are friendly.
+29. All improbable stories are doubted ;
+
+None of these stories are probable.
+380. ‘‘ He told me you had gone away.”
+
+‘“ He never says one word of truth.”
+31. Huis songs never last an hour ;
+
+A song, that lasts an hour, is tedious.
+32. No bride-cakes are wholesome;
+
+Unwholesome food should be avoided.
+33. No old misers are cheerful ;
+
+Some old misers are thin.
+84. All ducks waddle;
+
+Nothing that waddles is graceful.
+
+===== PAGE 95 =====
+88 HIT OR MISS. [Cu. IV.
+35. No Professors are ignorant ;
+Some ignorant people are conceited.
+86. Toothache is never pleasant;
+Warmth is never unpleasant.
+387. Bores are terrible;
+You are a bore.
+88. Some mountains are insurmountable;
+All stiles can be surmounted.
+89. No Frenchmen like plumpudding;
+All Englishmen like plumpudding.
+40. No idlers win fame;
+Some painters are not idle.
+41. No lobsters are unreasonable;
+No reasonable creatures expect impossibilities.
+42. No kind deed is unlawful ;
+What is lawful may be done without fear.
+43. No fossils can be crossed in love;
+An oyster may be crossed in love.
+44. “This is beyond endurance! ”
+“Well, nothing beyond endurance has ever happened
+to me.”
+45. All uneducated men are shallow ;
+All these students are educated.
+46. All my cousins are unjust;
+No judges are unjust.
+
+===== PAGE 96 =====
+Cu. IV.] HIT OR MISS. 89
+47. No country, that has been explored, is infested by
+dragons ;
+Unexplored countries are fascinating.
+48. No misers are generous ;
+Some old men are not generous.
+49. A prudent man shuns hyenas ;
+No banker is imprudent.
+50. Some poetry is original ;
+No original work is producible at will.
+51. No misers are unselfish ;
+None but misers save egg-shells.
+02. All pale people are phlegmatic ;
+No one, who is not pale, looks poetical.
+53. All spiders spin webs;
+Some creatures, that do not spin webs, are savage.
+04. None of my cousins are just ;
+All judges are just.
+55. John is industrious ;
+No industrious people are unhappy.
+56. Umbrellas are useful on a journey ;
+What is useless on a journey should be left behind.
+57. Some pillows are soft;
+No pokers are soft.
+58. I am old and lame;
+No old merchant is a lame gambler.
+
+===== PAGE 97 =====
+2) HIT OR MISS. [Cu. IV.
+59. No eventful journey is ever forgotten ;
+Uneventful journeys are not worth writing a book
+about.
+60. Sugar is sweet;
+Some sweet things are liked by children.
+61. Richard is out of temper;
+No one but Richard can ride that horse.
+62. All jokes are meant to amuse;
+No Act of Parliament is a joke.
+63. ‘I saw it in a newspaper.”
+‘«¢ All newspapers tell lies.”
+64. No nightmare is pleasant ;
+Unpleasant experiences are not anxiously desired.
+65. Prudent travellers carry plenty of small change ;
+Imprudent travellers lose their luggage.
+66. All wasps are unfriendly ;
+No puppies are unfriendly.
+67. He called here yesterday ;
+He is no friend of mine.
+68. No quadrupeds can whistle ;
+Some cats are quadrupeds.
+69. No cooked meat is sold by butchers ;
+No uncooked meat is served at dinner.
+70. Gold is heavy ;
+Nothing but gold will silence him.
+71. Some pigs are wild;
+There are no pigs that are not fat.
+
+===== PAGE 98 =====
+Cu. [V.] HIT OR MISS. 9]
+72. No emperors are dentists ;
+All dentists are dreaded by children.
+73. All, who are not old, like walking;
+Neither you nor I are old.
+74. All blades are sharp;
+Some grasses are blades.
+75. No dictatorial person is popular ;
+She is dictatorial.
+76. Some sweet things are unwholesome ;
+No muffins are sweet.
+77. No military men write poetry ;
+No generals are civilians.
+78. Bores are dreaded;
+A bore is never begged to prolong his visit.
+79. All owls are satisfactory ;
+Some excuses are unsatisfactory.
+80. All my cousins are unjust;
+All judges are just.
+81. Some buns are rich;
+All buns are nice.
+82. No medicine is nice;
+No pills are unmedicinal.
+83. Some lessons are difficult ;
+What is difficult needs attention.
+84. No unexpected pleasure annoys me ;
+Your visit is an unexpected pleasure.
+
+===== PAGE 99 =====
+92 HIT OR MISS. [Cu. LV.
+
+85. Some bald people wear wigs;
+
+All your children have hair.
+
+86. All wasps are unfriendly ;
+
+Unfriendly creatures are always unwelcome.
+
+87. No bankrupts are rich;
+
+Some merchants are not bankrupts.
+88. Ill-managed concerns are unprofitable ;
+Railways are never ill-managed.
+89. Everybody has seen a pig;
+Nobody admires a pig.
+
+Extract a Pair of Premisses out of each of the following:
+
+and deduce the Conclusion, if there is one :—
+
+90. “The Lion, as any one can tell you who has been
+chased by them as often as I have, is a very savage animal:
+and there are certainly individuals among them, though
+I will not guarantee it as a general law, who do not drink
+coffee.”
+
+91. “Good morning, dear Mrs. Jones! I’ve just seen
+the most extraordinary people you ever met! You never
+saw such bonnets! ”
+
+“Oh, I know who you mean. They lodge just opposite.”
+
+“Do they? Well, I do wonder who they are!”
+
+“So do L”
+
+92. “It was most absurd of you to offer it! You might
+have known, if you had had any sense, that no old sailors
+ever like gruel!”
+
+“But I thought, as he was an uncle of yours ——"
+
+===== PAGE 100 =====
+Cu. IV.] HIT OR MISS. 93
+
+«An uncle of mine, indeed! Stuff!”
+
+“Well, you may call it stuff, if you like. All I know is,
+my uncles are all old men: and they like gruel like anything! ”
+
+‘“ Well, then your uncles are ——”
+
+93. “Do come away! I can’t stand this squeezing any
+more. No crowded shops are comfortable, you know very
+well.”
+
+“ Well, who expects to be comfortable, out shopping ?”
+
+‘Why, J do, of course! And I’m sure there are some
+shops, further down the street, that are not crowded.
+So ——”
+
+94, “They say doctors are never enthusiastic organists :
+and that lets me into a little fact about you, you know.”
+
+“Why, how do you make that out? You never heard me
+play the organ.”
+
+“No, but I’ve heard you talk about Browning’s poetry :
+and that showed me that you're enthusiastic, at any rate.
+So ——”
+
+Extract a Syllogism out of each of the following: and
+test its correctness :—
+
+95. “Don’t talk to me! I’ve known more rich merchants
+than you have: and I can tell you not one of them was ever
+an old miser since the world began!”
+
+‘And what has that got to do with old Mr. Brown ?”
+
+‘Why, isn’t he very rich?”
+
+‘¢Yes, of course he is. And what then?”
+
+‘Why, don’t you see that it’s absurd to call him a miserly
+merchant? Either he’s not a merchant, or he’s not a miser! ”
+
+===== PAGE 101 =====
+D4: HIT OR MISS. [Cu. IV.
+
+96. “It zs so kind of you to enquire! I’m really feeling
+a great deal better to-day.”
+
+‘¢ And is it Nature, or Art, that’s to have the credit of this
+happy change ?”
+
+“Art, I think. The Doctor has given me some of that
+patent medicine of his.”
+
+‘Well, I'll never call him a humbug again. There’s
+somebody, at any rate, that feels better after taking his
+medicine! ”
+
+97. “No, I don’t like you one bit. And I'll go and play
+with my doll. Dolls are never unkind.”
+
+“So you like a doll better than a cousin? Oh you little
+silly!”
+
+“Of course I do! Cousins are never kind——at least no
+cousins I've ever seen.” |
+
+“Well, and what does that prove, I’d like to know! Hf
+you mean that cousins aren’t dolls, who ever said they
+were?”
+
+98. “What are you talking about geraniums for? You
+can't tell one flower from another, at this distance! I grant
+you they're all red flowers: it doesn’t need a telescope to
+know that.”
+
+“Well, some geraniums are red, aren’t they?”
+
+“1 don’t deny it. And what then? I suppose you'll be
+telling me some of those flowers are geraniums!”
+
+‘Of course that’s what I should tell you, if you'd the sense
+to follow an argument! But what's the good of proving
+anything to you, I should like to know?”
+
+===== PAGE 102 =====
+Cu. [V.] HIT OR MISS. 95
+
+99. * You're as greedy as a pig!”
+
+‘That doesn’t prove much, unless you mean to say that
+every pig, as ever is, is greedy.”
+
+“Then that’s just what I do mean to say.”
+
+“Well, [’ll tell you another interesting fact about pigs.
+Not one of them can fly!”
+
+“T knew that before, Mister Impertinence! So something,
+that’s greedy, can't fly: and I think its you!”
+
+100. ‘‘ Boys, you've passed a fairly good examination, all
+things considered. Now let me give you a word of advice
+before I go. Remember that all, who are really anxious
+to learn, work hard.’’
+
+“YT thank you, Sir, in the name of my scholars! And
+proud am I to thmk there are some of them, at least, that
+belong to that category ! ”
+
+“What category, might I ask ?”
+
+“The category, Sir, of them as——-I mean of boys that
+are really anxious to learn.”
+
+“Very glad to hear it: and how do you make it out
+to be so?”
+
+‘Why, Sir, J know how hard they work——-some of them,
+that is. Who should know better?”
+
+Iixtract from the following speech a series of Syllogisms,
+or arguments having the form of Syllogisms: and test their
+correctness.
+
+It is supposed to be spoken by a fond mother, in answer
+to a friend’s cautious suggestion that she is perhaps a little
+overdoing it, in the way of lessons, with her children.
+
+===== PAGE 103 =====
+96 HIT OR MISS. [Cu. LV.
+
+101. “ Well, they've got their own way to make in the
+world. We can’t leave them a fortune apiece! And money’s
+not to be had, as you know, without money’s worth: they
+must work if they want to live. And how are they to
+work, if they don’t know anything? Take my word for
+it, there’s no place for ignorance in these times! And all
+authorities agree that the time to learn is when you're young.
+One’s got no memory afterwards, worth speaking of. A child
+will learn more in an hour than a grown man in five. So
+those, that have’to learn, must learn when they’re young,
+if ever they’re to learn at all. Of course that doesn’t do
+unless children are healthy: I quite allow that. Well,
+the doctor tells me no children are healthy unless they’ve got
+a good colour in their cheeks. And only just look at my
+darlings! Why, their cheeks bloom like peonies! Well,
+now, they tell me that, to keep children in health, you
+should never give them more than six hours altogether at
+lessons in the day, and at least two half-holidays in the week.
+And that’s exactly our plan, I can assure you! We never go
+beyond six hours, and every Wednesday and Saturday, as
+ever is, not one syllable of lessons do they do after their one-
+o’clock dinner! So how you can imagine I’m running any
+risk in the education of my precious pets is more than J can
+understand, I promise you!”’
+
+THE END.
+BAXTER, PRINTER, OXFORD.
+
+===== PAGE 104 =====
+.
+
+===== PAGE 105 =====
+PUBLISHED BY
+MACMILLAN AND CO., LONDON,
+
+ALICH’S ADVENTURES IN WONDERLAND.
+With Forty-two Illustrations by Tennre,. (First published in
+1865.) Crown 8vo, cloth, gilt edges, price 6s. Seventy-ninth
+Thousand.
+
+AVENTURES D’ALICE AU PAYS DES MER-
+VEILLES. Traduit de lAnglais par Henn Bué. Ouvrage
+illustré de 42 Vignettes par JoHN TENNIEL. (First published in
+1869.) Crown 8vo, cloth, gilt edges, price 6s.
+
+Alice’s Abenteuer im, Wunderland. Aus dem Cnglifden,
+bon Antonie Zimmermann. Mit 42 Glluftrationen
+von Sohn Venniel. (First published in 1869.) Crown 8vo,
+cloth, gilt edges, price 6s.
+
+LE AVVENTURE D’ALICE NEL PAESE DELLE
+MERAVIGLIE. ‘Tradotte dall’ Inglese da T. PIEtRocoLa-
+Rossett1. Con 42 Vignette di Griovannr TENNIEL. (First
+published in 1872.) Crown 8vo, cloth, gilt edges, price 6s.
+
+THROUGH THE LOOKING-GLASS, AND WHAT
+ALICE FOUND THERE, With Fifty Illustrations by TENNIEL.
+(First published in 1871.) Crown 8vo, cloth, gilt edges, price 6s.
+Fifty-seventh Thousand.
+
+RHYME? AND REASON? With Sixty-five Illus-
+trations by ARTHUR B,. Frost, and Nine by Henry Houmay.
+(This book, first published in 1883, is a reprint, with a few
+additions, of the comic portion of ‘* Phantasmagoria and other
+Poems,” and of “The Hunting of the Snark.” Mr. Frost’s
+pictures are new.) Crown 8vo, cloth, coloured edges, price 6s.
+Fifth Thousand.
+
+A TANGLED TALE. Reprinted from The Monthly
+Packet. With Six Illustrations by ArtHur B. Frost. (First
+published in 1885,) Crown 8vo, cloth, gilt edges, 4s. 6d. Third
+Thousand.
+
+===== PAGE 106 =====
+PUBLISHED BY
+MACMILLAN AND (CO., LONDON.
+THE GAME OF LOGIC. (With an Envelope con-
+taining a card diagram and nine counters—four red and five grey.)
+Crown 8vo, cloth, price 3s.
+
+N.B.—The Envelope, etc., may be had separately at 3d. each.
+
+ALICH’S ADVENTURES UNDER GROUND.
+Being a Facsimile of the original MS. Book, afterwards developed
+into “ Alice’s Adventures in Wonderland.” With Thirty-seven
+Illustrations by the Author. Crown 8vo, cloth, gilt edges, 4s.
+
+THE NURSERY ALICE. A selection of twenty of
+the pictures in “ Alice’s Adventures in Wonderland,” enlarged,
+and coloured under the Artist’s superintendence, with expla-
+nations. [In preparation.
+
+N.B. In selling the above-mentioned books to the Trade, Messrs.
+Macmillan and Co. will abate 2d. in the shilling (no odd copies), and
+allow 5 per cent. discount for payment within six months, and 10 per
+cent. for cash. In selling them to the Public (for cash only) they will
+allow 10 per cent. discount.
+
+Mr. Lewis CARROL, having been requested to allow “AN EASTER
+GREETING” (a leaflet, addressed to children, and frequently given
+with his books) to be sold separately, has arranged with Messrs.
+Harrison, of 59, Pall Mall, who will supply a single copy for 1d., or
+12 for 9d¢., or 100 for 5s.

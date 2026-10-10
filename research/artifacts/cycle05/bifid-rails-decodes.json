@@ -1,0 +1,938 @@
+[
+  {
+    "decoded_base64": "MDExMDExMDAxMTExMTAxMTAwMDExMDAwMDExMDAwMDAwMTEwMTAxMDEwMDAxMDAxMTEwMTAwMTAwMDAxMTAwMDEwMDAxMDEwMTExMDAwMTAxMTAxMTAwMDEwMTAxMDExMDAxMTEwMTEwMDExMDAwMDEwMDExMDAxMDExMTAxMDExMTExMTEwMDAxMTAwMTAxMTAxMTAxMTExMTAxMDExMTAwMDAwMDExMTAxMDExMTAxMDEwMTAxMDAxMDAxMDEwMTAwMTExMTExMDExMTExMDEwMDEwMTExMTExMTAwMTEwMDAxMTAwMDAxMDAxMTEwMDExMTAxMDExMTAwMTAwMTEwMTEwMTExMDEwMTEwMTExMDEwMTAxMTAwMTEwMDAwMDAxMDEwMTExMTAxMTExMDEwMTAwMDAxMDAwMDAwMTExMDEwMDAxMDAxMTAxMDEwMDAwMTAxMTExMDExMTExMTExMDAwMDAwMTExMDAxMTAwMDAwMDExMTEwMTAxMTExMDAxMDExMDAxMDAwMTExMTAwMTEwMDExMDExMDExMDExMTEwMTAwMDExMTAxMDEwMTAwMDEwMTAwMDAwMDExMDAxMDEwMDAxMDAwMTAwMTExMTEwMTEwMTExMDExMDAxMTAxMDExMDAxMDAxMTAxMDAwMTAxMTAwMDEwMDExMDEwMTEwMTAxMDAwMDAwMDAwMTAxMDAwMDAwMDExMDAxMTAwMDEwMDEwMTAwMDExMDAwMDAwMDAxMDEx",
+    "digits": "011011001111101100011000011000000110101010001001110100100001100010001010111000101101100010101011001110110011000010011001011101011111110001100101101101111101011100000011101011101010101001001010100111111011111010010111111100110001100001001110011101011100100110110111010110111010101100110000001010111101111010100001000000111010001001101010000101111011111111000000111001100000011110101111001011001000111100110011011011011110100011101010100010100000011001010001000100111110110111011001101011001001101000101100010011010110101000000000101000000011001100010010100011000000001011",
+    "downstream_validity": {
+      "candidate_checks": [],
+      "structures": [],
+      "target_match": false
+    },
+    "error": null,
+    "parameters": {
+      "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+      "coordinate_order": "row-column",
+      "digit_count": 570,
+      "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+      "radix": 2,
+      "rail": "binary-row",
+      "reverse_digits": false,
+      "serialization": "ascii-digits"
+    },
+    "score": {
+      "alphabetic_ratio": 0.0,
+      "bytes": 570,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 570,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "AAEBAAEBAAABAQEBAQABAQAAAAEBAAAAAAEBAAAAAAAAAQEAAQABAAEAAAABAAABAQEAAQAAAQAAAAABAQAAAAEAAAABAAEAAQEBAAAAAQABAQABAQAAAAEAAQABAAEBAAABAQEAAQEAAAEBAAAAAAEAAAEBAAABAAEBAQABAAEBAQEBAQEAAAABAQAAAQABAQABAQABAQEBAQABAAEBAQAAAAAAAAEBAQABAAEBAQABAAEAAQABAAABAAABAAEAAQAAAQEBAQEBAAEBAQEBAAEAAAEAAQEBAQEBAQAAAQEAAAABAQAAAAABAAABAQEAAAEBAQABAAEBAQAAAQAAAQEAAQEAAQEBAAEAAQEAAQEBAAEAAQABAQAAAQEAAAAAAAABAAEAAQEBAQABAQEBAAEAAQAAAAABAAAAAAAAAQEBAAEAAAABAAABAQABAAEAAAAAAQABAQEBAAEBAQEBAQEBAAAAAAAAAQEBAAABAQAAAAAAAAEBAQEAAQABAQEBAAABAAEBAAABAAAAAQEBAQAAAQEAAAEBAAEBAAEBAAEBAQEAAQAAAAEBAQABAAEAAQAAAAEAAQAAAAAAAAEBAAABAAEAAAABAAAAAQAAAQEBAQEAAQEAAQEBAAEBAAABAQABAAEBAAABAAABAQABAAAAAQABAQAAAAEAAAEBAAEAAQEAAQABAAAAAAAAAAAAAQABAAAAAAAAAAEBAAABAQAAAAEAAAEAAQAAAAEBAAAAAAAAAAABAAEB",
+    "digits": "011011001111101100011000011000000110101010001001110100100001100010001010111000101101100010101011001110110011000010011001011101011111110001100101101101111101011100000011101011101010101001001010100111111011111010010111111100110001100001001110011101011100100110110111010110111010101100110000001010111101111010100001000000111010001001101010000101111011111111000000111001100000011110101111001011001000111100110011011011011110100011101010100010100000011001010001000100111110110111011001101011001001101000101100010011010110101000000000101000000011001100010010100011000000001011",
+    "downstream_validity": {
+      "candidate_checks": [],
+      "structures": [],
+      "target_match": false
+    },
+    "error": null,
+    "parameters": {
+      "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+      "coordinate_order": "row-column",
+      "digit_count": 570,
+      "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+      "radix": 2,
+      "rail": "binary-row",
+      "reverse_digits": false,
+      "serialization": "raw-digit-bytes"
+    },
+    "score": {
+      "alphabetic_ratio": 0.0,
+      "bytes": 570,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 0,
+      "printable_ratio": 0.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "AbPsYYGqJ0hiK4tirOzCZdfxlt9cDrqpKn76X8xhOdcm3W6swK96hA6JqF7/A5gevLI8zbejqigZRE+3ZrJosTWoAoDMSjAL",
+    "digits": "011011001111101100011000011000000110101010001001110100100001100010001010111000101101100010101011001110110011000010011001011101011111110001100101101101111101011100000011101011101010101001001010100111111011111010010111111100110001100001001110011101011100100110110111010110111010101100110000001010111101111010100001000000111010001001101010000101111011111111000000111001100000011110101111001011001000111100110011011011011110100011101010100010100000011001010001000100111110110111011001101011001001101000101100010011010110101000000000101000000011001100010010100011000000001011",
+    "downstream_validity": {
+      "candidate_checks": [],
+      "structures": [],
+      "target_match": false
+    },
+    "error": null,
+    "parameters": {
+      "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+      "coordinate_order": "row-column",
+      "digit_count": 570,
+      "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+      "radix": 2,
+      "rail": "binary-row",
+      "reverse_digits": false,
+      "serialization": "minimal-integer-big-endian"
+    },
+    "score": {
+      "alphabetic_ratio": 0.180556,
+      "bytes": 72,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 4,
+      "printable_ratio": 0.361111,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": null,
+    "digits": "011011001111101100011000011000000110101010001001110100100001100010001010111000101101100010101011001110110011000010011001011101011111110001100101101101111101011100000011101011101010101001001010100111111011111010010111111100110001100001001110011101011100100110110111010110111010101100110000001010111101111010100001000000111010001001101010000101111011111111000000111001100000011110101111001011001000111100110011011011011110100011101010100010100000011001010001000100111110110111011001101011001001101000101100010011010110101000000000101000000011001100010010100011000000001011",
+    "downstream_validity": null,
+    "error": "Incomplete byte chunk; no tail dropping or invented padding",
+    "parameters": {
+      "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+      "coordinate_order": "row-column",
+      "digit_count": 570,
+      "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+      "radix": 2,
+      "rail": "binary-row",
+      "reverse_digits": false,
+      "serialization": "strict-byte-chunks"
+    },
+    "score": null
+  },
+  {
+    "decoded_base64": "MTEwMTAwMDAwMDAwMTEwMDAxMDEwMDEwMDAxMTAwMTEwMDAwMDAwMTAxMDAwMDAwMDAwMTAxMDExMDEwMTEwMDEwMDAxMTAxMDAwMTAxMTAwMTAwMTEwMTAxMTAwMTEwMTExMDExMDExMTExMDAxMDAwMTAwMDEwMTAwMTEwMDAwMDAxMDEwMDAxMDEwMTAxMTEwMDAxMDExMTEwMTEwMTEwMTEwMDExMDAxMTExMDAwMTAwMTEwMTAwMTExMTAxMDExMTEwMDAwMDAxMTAwMTExMDAwMDAwMTExMTExMTEwMTExMTAxMDAwMDEwMTAxMTAwMTAwMDEwMTExMDAwMDAwMTAwMDAxMDEwMTExMTAxMTExMDEwMTAwMDAwMDExMDAxMTAxMDEwMTExMDExMDEwMTExMDExMDExMDAxMDAxMTEwMTAxMTEwMDExMTAwMTAwMDAxMTAwMDExMDAxMTExMTExMDEwMDEwMTExMTEwMTExMTExMDAxMDEwMTAwMTAwMTAxMDEwMTAxMTEwMTAxMTEwMDAwMDAxMTEwMTAxMTExMTAxMTAxMTAxMDAxMTAwMDExMTExMTEwMTAxMTEwMTAwMTEwMDEwMDAwMTEwMDExMDExMTAwMTEwMTAxMDEwMDAxMTAxMTAxMDAwMTExMDEwMTAwMDEwMDAxMTAwMDAxMDAxMDExMTAwMTAwMDEwMTAxMDExMDAwMDAwMTEwMDAwMTEwMDAxMTAxMTExMTAwMTEwMTEw",
+    "digits": "110100000000110001010010001100110000000101000000000101011010110010001101000101100100110101100110111011011111001000100010100110000001010001010101110001011110110110110011001111000100110100111101011110000001100111000000111111110111101000010101100100010111000000100001010111101111010100000011001101010111011010111011011001001110101110011100100001100011001111111010010111110111111001010100100101010101110101110000001110101111101101101001100011111110101110100110010000110011011100110101010001101101000111010100010001100001001011100100010101011000000110000110001101111100110110",
+    "downstream_validity": {
+      "candidate_checks": [],
+      "structures": [],
+      "target_match": false
+    },
+    "error": null,
+    "parameters": {
+      "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+      "coordinate_order": "row-column",
+      "digit_count": 570,
+      "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+      "radix": 2,
+      "rail": "binary-row",
+      "reverse_digits": true,
+      "serialization": "ascii-digits"
+    },
+    "score": {
+      "alphabetic_ratio": 0.0,
+      "bytes": 570,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 570,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "AQEAAQAAAAAAAAAAAQEAAAABAAEAAAEAAAABAQAAAQEAAAAAAAAAAQABAAAAAAAAAAAAAQABAAEBAAEAAQEAAAEAAAABAQABAAAAAQABAQAAAQAAAQEAAQABAQAAAQEAAQEBAAEBAAEBAQEBAAABAAAAAQAAAAEAAQAAAQEAAAAAAAABAAEAAAABAAEAAQABAQEAAAABAAEBAQEAAQEAAQEAAQEAAAEBAAABAQEBAAAAAQAAAQEAAQAAAQEBAQABAAEBAQEAAAAAAAABAQAAAQEBAAAAAAAAAQEBAQEBAQEAAQEBAQABAAAAAAEAAQABAQAAAQAAAAEAAQEBAAAAAAAAAQAAAAABAAEAAQEBAQABAQEBAAEAAQAAAAAAAAEBAAABAQABAAEAAQEBAAEBAAEAAQEBAAEBAAEBAAABAAABAQEAAQABAQEAAAEBAQAAAQAAAAABAQAAAAEBAAABAQEBAQEBAAEAAAEAAQEBAQEAAQEBAQEBAAABAAEAAQAAAQAAAQABAAEAAQABAQEAAQABAQEAAAAAAAABAQEAAQABAQEBAQABAQABAQABAAABAQAAAAEBAQEBAQEAAQABAQEAAQAAAQEAAAEAAAAAAQEAAAEBAAEBAQAAAQEAAQABAAEAAAABAQABAQABAAAAAQEBAAEAAQAAAAEAAAABAQAAAAABAAABAAEBAQAAAQAAAAEAAQABAAEBAAAAAAAAAQEAAAAAAQEAAAABAQABAQEBAQAAAQEAAQEA",
+    "digits": "110100000000110001010010001100110000000101000000000101011010110010001101000101100100110101100110111011011111001000100010100110000001010001010101110001011110110110110011001111000100110100111101011110000001100111000000111111110111101000010101100100010111000000100001010111101111010100000011001101010111011010111011011001001110101110011100100001100011001111111010010111110111111001010100100101010101110101110000001110101111101101101001100011111110101110100110010000110011011100110101010001101101000111010100010001100001001011100100010101011000000110000110001101111100110110",
+    "downstream_validity": {
+      "candidate_checks": [],
+      "structures": [],
+      "target_match": false
+    },
+    "error": null,
+    "parameters": {
+      "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+      "coordinate_order": "row-column",
+      "digit_count": 570,
+      "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+      "radix": 2,
+      "rail": "binary-row",
+      "reverse_digits": true,
+      "serialization": "raw-digit-bytes"
+    },
+    "score": {
+      "alphabetic_ratio": 0.0,
+      "bytes": 570,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 0,
+      "printable_ratio": 0.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "A0AxSMwFAFayNFk1m7fIimBRVxe2zPE09eBnA/3oVkXAhXvUDNXa7ZOuchjP6X35UlV1wOvtpj+umQzc1RtHURhLkVYGGN82",
+    "digits": "110100000000110001010010001100110000000101000000000101011010110010001101000101100100110101100110111011011111001000100010100110000001010001010101110001011110110110110011001111000100110100111101011110000001100111000000111111110111101000010101100100010111000000100001010111101111010100000011001101010111011010111011011001001110101110011100100001100011001111111010010111110111111001010100100101010101110101110000001110101111101101101001100011111110101110100110010000110011011100110101010001101101000111010100010001100001001011100100010101011000000110000110001101111100110110",
+    "downstream_validity": {
+      "candidate_checks": [],
+      "structures": [],
+      "target_match": false
+    },
+    "error": null,
+    "parameters": {
+      "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+      "coordinate_order": "row-column",
+      "digit_count": 570,
+      "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+      "radix": 2,
+      "rail": "binary-row",
+      "reverse_digits": true,
+      "serialization": "minimal-integer-big-endian"
+    },
+    "score": {
+      "alphabetic_ratio": 0.222222,
+      "bytes": 72,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 3,
+      "printable_ratio": 0.361111,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": null,
+    "digits": "110100000000110001010010001100110000000101000000000101011010110010001101000101100100110101100110111011011111001000100010100110000001010001010101110001011110110110110011001111000100110100111101011110000001100111000000111111110111101000010101100100010111000000100001010111101111010100000011001101010111011010111011011001001110101110011100100001100011001111111010010111110111111001010100100101010101110101110000001110101111101101101001100011111110101110100110010000110011011100110101010001101101000111010100010001100001001011100100010101011000000110000110001101111100110110",
+    "downstream_validity": null,
+    "error": "Incomplete byte chunk; no tail dropping or invented padding",
+    "parameters": {
+      "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+      "coordinate_order": "row-column",
+      "digit_count": 570,
+      "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+      "radix": 2,
+      "rail": "binary-row",
+      "reverse_digits": true,
+      "serialization": "strict-byte-chunks"
+    },
+    "score": null
+  },
+  {
+    "decoded_base64": "MTAwMTExMDAxMTExMDExMTAwMTAwMTAwMTAwMTAwMDAxMDAxMDEwMTAxMDAwMTEwMTExMDAwMDEwMDEwMDEwMDAxMDAwMTAxMTEwMTAwMDExMTEwMDEwMDAxMDEwMTExMDAxMTAxMTEwMDExMDAwMDAxMTAwMTEwMTAxMTEwMTAxMTExMTEwMDEwMDExMDEwMDExMTEwMTExMTEwMTAxMTAwMDAwMDExMDEwMTExMDEwMTAxMDEwMTEwMDAwMTAxMDExMDExMTEwMTExMTEwMTAxMTAxMDExMTExMTAwMTEwMDEwMDEwMDEwMDAxMTAxMTAxMTEwMTAxMTAwMDExMDAxMTExMDExMTAxMDAxMTEwMTAxMDExMTAwMTEwMDAwMDAwMTAxMTExMTEwMTEwMTAxMDEwMDEwMDAwMDAwMTEwMTAxMDAwMTEwMDEwMTAxMDAxMDEwMTEwMTExMTExMTExMDAwMDAwMTEwMTEwMDEwMDAwMTAxMTAxMDExMTExMDAwMTExMDAwMTAwMTExMTAwMTEwMDExMTAwMTExMTAxMTAxMDEwMDExMDEwMTAxMDEwMDAxMDEwMDAwMTAwMTEwMTAwMDEwMDAxMDAwMTExMTAxMTExMDExMTAwMTEwMDEwMTExMDAwMTEwMDEwMTAwMDExMTAwMTAwMDExMTAxMDAxMDEwMTAwMDAwMDAwMDEwMTAwMDAwMDExMDAxMTAwMTAwMDAxMDEwMDExMDAwMDAwMDAwMTEx",
+    "digits": "100111001111011100100100100100001001010101000110111000010010010001000101110100011110010001010111001101110011000001100110101110101111110010011010011110111110101100000011010111010101010110000101011011110111110101101011111100110010010010001101101110101100011001111011101001110101011100110000000101111110110101010010000000110101000110010101001010110111111111000000110110010000101101011111000111000100111100110011100111101101010011010101010001010000100110100010001000111101111011100110010111000110010100011100100011101001010100000000010100000011001100100001010011000000000111",
+    "downstream_validity": {
+      "candidate_checks": [],
+      "structures": [],
+      "target_match": false
+    },
+    "error": null,
+    "parameters": {
+      "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+      "coordinate_order": "column-row",
+      "digit_count": 570,
+      "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+      "radix": 2,
+      "rail": "binary-row",
+      "reverse_digits": false,
+      "serialization": "ascii-digits"
+    },
+    "score": {
+      "alphabetic_ratio": 0.0,
+      "bytes": 570,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 570,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "AQAAAQEBAAABAQEBAAEBAQAAAQAAAQAAAQAAAQAAAAABAAABAAEAAQABAAAAAQEAAQEBAAAAAAEAAAEAAAEAAAABAAAAAQABAQEAAQAAAAEBAQEAAAEAAAABAAEAAQEBAAABAQABAQEAAAEBAAAAAAABAQAAAQEAAQABAQEAAQABAQEBAQEAAAEAAAEBAAEAAAEBAQEAAQEBAQEAAQABAQAAAAAAAAEBAAEAAQEBAAEAAQABAAEAAQEAAAAAAQABAAEBAAEBAQEAAQEBAQEAAQABAQABAAEBAQEBAQAAAQEAAAEAAAEAAAEAAAABAQABAQABAQEAAQABAQAAAAEBAAABAQEBAAEBAQABAAABAQEAAQABAAEBAQAAAQEAAAAAAAAAAQABAQEBAQEAAQEAAQABAAEAAAEAAAAAAAAAAQEAAQABAAAAAQEAAAEAAQABAAABAAEAAQEAAQEBAQEBAQEBAAAAAAAAAQEAAQEAAAEAAAAAAQABAQABAAEBAQEBAAAAAQEBAAAAAQAAAQEBAQAAAQEAAAEBAQAAAQEBAQABAQABAAEAAAEBAAEAAQABAAEAAAABAAEAAAAAAQAAAQEAAQAAAAEAAAABAAAAAQEBAQABAQEBAAEBAQAAAQEAAAEAAQEBAAAAAQEAAAEAAQAAAAEBAQAAAQAAAAEBAQABAAABAAEAAQAAAAAAAAAAAAEAAQAAAAAAAAEBAAABAQAAAQAAAAABAAEAAAEBAAAAAAAAAAAAAQEB",
+    "digits": "100111001111011100100100100100001001010101000110111000010010010001000101110100011110010001010111001101110011000001100110101110101111110010011010011110111110101100000011010111010101010110000101011011110111110101101011111100110010010010001101101110101100011001111011101001110101011100110000000101111110110101010010000000110101000110010101001010110111111111000000110110010000101101011111000111000100111100110011100111101101010011010101010001010000100110100010001000111101111011100110010111000110010100011100100011101001010100000000010100000011001100100001010011000000000111",
+    "downstream_validity": {
+      "candidate_checks": [],
+      "structures": [],
+      "target_match": false
+    },
+    "error": null,
+    "parameters": {
+      "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+      "coordinate_order": "column-row",
+      "digit_count": 570,
+      "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+      "radix": 2,
+      "rail": "binary-row",
+      "reverse_digits": false,
+      "serialization": "raw-digit-bytes"
+    },
+    "score": {
+      "alphabetic_ratio": 0.0,
+      "bytes": 570,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 0,
+      "printable_ratio": 0.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "AnPckkJVG4SRF0eRXNzBmuvyae+sDXVWFb31r8ySNusZ7p1cwF+1SA1GVK3/A2QtfHE8zntTVRQmiI97mXGUcjpUAUDMhTAH",
+    "digits": "100111001111011100100100100100001001010101000110111000010010010001000101110100011110010001010111001101110011000001100110101110101111110010011010011110111110101100000011010111010101010110000101011011110111110101101011111100110010010010001101101110101100011001111011101001110101011100110000000101111110110101010010000000110101000110010101001010110111111111000000110110010000101101011111000111000100111100110011100111101101010011010101010001010000100110100010001000111101111011100110010111000110010100011100100011101001010100000000010100000011001100100001010011000000000111",
+    "downstream_validity": {
+      "candidate_checks": [],
+      "structures": [],
+      "target_match": false
+    },
+    "error": null,
+    "parameters": {
+      "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+      "coordinate_order": "column-row",
+      "digit_count": 570,
+      "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+      "radix": 2,
+      "rail": "binary-row",
+      "reverse_digits": false,
+      "serialization": "minimal-integer-big-endian"
+    },
+    "score": {
+      "alphabetic_ratio": 0.236111,
+      "bytes": 72,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 5,
+      "printable_ratio": 0.444444,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": null,
+    "digits": "100111001111011100100100100100001001010101000110111000010010010001000101110100011110010001010111001101110011000001100110101110101111110010011010011110111110101100000011010111010101010110000101011011110111110101101011111100110010010010001101101110101100011001111011101001110101011100110000000101111110110101010010000000110101000110010101001010110111111111000000110110010000101101011111000111000100111100110011100111101101010011010101010001010000100110100010001000111101111011100110010111000110010100011100100011101001010100000000010100000011001100100001010011000000000111",
+    "downstream_validity": null,
+    "error": "Incomplete byte chunk; no tail dropping or invented padding",
+    "parameters": {
+      "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+      "coordinate_order": "column-row",
+      "digit_count": 570,
+      "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+      "radix": 2,
+      "rail": "binary-row",
+      "reverse_digits": false,
+      "serialization": "strict-byte-chunks"
+    },
+    "score": null
+  },
+  {
+    "decoded_base64": "MTExMDAwMDAwMDAwMTEwMDEwMTAwMDAxMDAxMTAwMTEwMDAwMDAxMDEwMDAwMDAwMDAxMDEwMTAwMTAxMTEwMDAxMDAxMTEwMDAxMDEwMDExMDAwMTExMDEwMDExMDAxMTEwMTExMTAxMTExMDAwMTAwMDEwMDAxMDExMDAxMDAwMDEwMTAwMDEwMTAxMDEwMTEwMDEwMTAxMTAxMTExMDAxMTEwMDExMDAxMTExMDAxMDAwMTExMDAwMTExMTEwMTAxMTAxMDAwMDEwMDExMDExMDAwMDAwMTExMTExMTExMDExMDEwMTAwMTAxMDEwMDExMDAwMTAxMDExMDAwMDAwMDEwMDEwMTAxMDExMDExMTExMTAxMDAwMDAwMDExMDAxMTEwMTAxMDExMTAwMTAxMTEwMTExMTAwMTEwMDAxMTAxMDExMTAxMTAxMTAwMDEwMDEwMDEwMDExMDAxMTExMTEwMTAxMTAxMDExMTExMDExMTEwMTEwMTAxMDAwMDExMDEwMTAxMDEwMTExMDEwMTEwMDAwMDAxMTAxMDExMTExMDExMTEwMDEwMTEwMDEwMDExMTExMTAxMDExMTAxMDExMDAxMTAwMDAwMTEwMDExMTAxMTAwMTExMDEwMTAwMDEwMDExMTEwMDAxMDExMTAxMDAwMTAwMDEwMDEwMDEwMDAwMTExMDExMDAwMTAxMDEwMTAwMTAwMDAxMDAxMDAxMDAxMDAxMTEwMTExMTAwMTExMDAx",
+    "digits": "111000000000110010100001001100110000001010000000001010100101110001001110001010011000111010011001110111101111000100010001011001000010100010101010110010101101111001110011001111001000111000111110101101000010011011000000111111111011010100101010011000101011000000010010101011011111101000000011001110101011100101110111100110001101011101101100010010010011001111110101101011111011110110101000011010101010111010110000001101011111011110010110010011111101011101011001100000110011101100111010100010011110001011101000100010010010000111011000101010100100001001001001001110111100111001",
+    "downstream_validity": {
+      "candidate_checks": [],
+      "structures": [],
+      "target_match": false
+    },
+    "error": null,
+    "parameters": {
+      "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+      "coordinate_order": "column-row",
+      "digit_count": 570,
+      "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+      "radix": 2,
+      "rail": "binary-row",
+      "reverse_digits": true,
+      "serialization": "ascii-digits"
+    },
+    "score": {
+      "alphabetic_ratio": 0.0,
+      "bytes": 570,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 570,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "AQEBAAAAAAAAAAAAAQEAAAEAAQAAAAABAAABAQAAAQEAAAAAAAABAAEAAAAAAAAAAAABAAEAAQAAAQABAQEAAAABAAABAQEAAAABAAEAAAEBAAAAAQEBAAEAAAEBAAABAQEAAQEBAQABAQEBAAAAAQAAAAEAAAABAAEBAAABAAAAAAEAAQAAAAEAAQABAAEAAQEAAAEAAQABAQABAQEBAAABAQEAAAEBAAABAQEBAAABAAAAAQEBAAAAAQEBAQEAAQABAQABAAAAAAEAAAEBAAEBAAAAAAAAAQEBAQEBAQEBAAEBAAEAAQAAAQABAAEAAAEBAAAAAQABAAEBAAAAAAAAAAEAAAEAAQABAAEBAAEBAQEBAQABAAAAAAAAAAEBAAABAQEAAQABAAEBAQAAAQABAQEAAQEBAQAAAQEAAAABAQABAAEBAQABAQABAQAAAAEAAAEAAAEAAAEBAAABAQEBAQEAAQABAQABAAEBAQEBAAEBAQEAAQEAAQABAAAAAAEBAAEAAQABAAEAAQEBAAEAAQEAAAAAAAABAQABAAEBAQEBAAEBAQEAAAEAAQEAAAEAAAEBAQEBAQABAAEBAQABAAEBAAABAQAAAAAAAQEAAAEBAQABAQAAAQEBAAEAAQAAAAEAAAEBAQEAAAABAAEBAQABAAAAAQAAAAEAAAEAAAEAAAAAAQEBAAEBAAAAAQABAAEAAQAAAQAAAAABAAABAAABAAABAAABAQEAAQEBAQAAAQEBAAAB",
+    "digits": "111000000000110010100001001100110000001010000000001010100101110001001110001010011000111010011001110111101111000100010001011001000010100010101010110010101101111001110011001111001000111000111110101101000010011011000000111111111011010100101010011000101011000000010010101011011111101000000011001110101011100101110111100110001101011101101100010010010011001111110101101011111011110110101000011010101010111010110000001101011111011110010110010011111101011101011001100000110011101100111010100010011110001011101000100010010010000111011000101010100100001001001001001110111100111001",
+    "downstream_validity": {
+      "candidate_checks": [],
+      "structures": [],
+      "target_match": false
+    },
+    "error": null,
+    "parameters": {
+      "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+      "coordinate_order": "column-row",
+      "digit_count": 570,
+      "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+      "radix": 2,
+      "rail": "binary-row",
+      "reverse_digits": true,
+      "serialization": "raw-digit-bytes"
+    },
+    "score": {
+      "alphabetic_ratio": 0.0,
+      "bytes": 570,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 0,
+      "printable_ratio": 0.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "A4AyhMwKAKlxOKY6Z3vERZCiqyt5zPI4+tCbA/7UqYrASrfoDOrl3mNdsSTP1r72oaq6wNfeWT9dZgzs6ieLoiSHYqkJJO85",
+    "digits": "111000000000110010100001001100110000001010000000001010100101110001001110001010011000111010011001110111101111000100010001011001000010100010101010110010101101111001110011001111001000111000111110101101000010011011000000111111111011010100101010011000101011000000010010101011011111101000000011001110101011100101110111100110001101011101101100010010010011001111110101101011111011110110101000011010101010111010110000001101011111011110010110010011111101011101011001100000110011101100111010100010011110001011101000100010010010000111011000101010100100001001001001001110111100111001",
+    "downstream_validity": {
+      "candidate_checks": [],
+      "structures": [],
+      "target_match": false
+    },
+    "error": null,
+    "parameters": {
+      "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+      "coordinate_order": "column-row",
+      "digit_count": 570,
+      "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+      "radix": 2,
+      "rail": "binary-row",
+      "reverse_digits": true,
+      "serialization": "minimal-integer-big-endian"
+    },
+    "score": {
+      "alphabetic_ratio": 0.125,
+      "bytes": 72,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 4,
+      "printable_ratio": 0.347222,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": null,
+    "digits": "111000000000110010100001001100110000001010000000001010100101110001001110001010011000111010011001110111101111000100010001011001000010100010101010110010101101111001110011001111001000111000111110101101000010011011000000111111111011010100101010011000101011000000010010101011011111101000000011001110101011100101110111100110001101011101101100010010010011001111110101101011111011110110101000011010101010111010110000001101011111011110010110010011111101011101011001100000110011101100111010100010011110001011101000100010010010000111011000101010100100001001001001001110111100111001",
+    "downstream_validity": null,
+    "error": "Incomplete byte chunk; no tail dropping or invented padding",
+    "parameters": {
+      "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+      "coordinate_order": "column-row",
+      "digit_count": 570,
+      "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+      "radix": 2,
+      "rail": "binary-row",
+      "reverse_digits": true,
+      "serialization": "strict-byte-chunks"
+    },
+    "score": null
+  },
+  {
+    "decoded_base64": "MzMzMjExMDAyMzIxMTQxMzA0MzIwNDE0MDAzMjE0NDA0MjI0MjMwNDMxMDIwMjMwMTEwMDAxMjIzMjAwMjQxMjI0MjIyMjMyMzIxMjAwMjAyMjIxMzQzNDMwMTMwMDIwNDQyMDIxMDMwMzMyMjM0MTE0NDMzNDQxMTMzMjQxMjIyMTAwMTMyMzMxMjQxMjMwMjMxMjMyMjIzMjIwMzMzMjEzMjQzNDMyMjQzMTEzMjIxNDMyMDAyMjExMTQxNDMzMjAzMTIyMjIxMDEyMjAyMjM0MzIxMjMyMDIyMjM0MDMwMDEzMTQyMjMyMzIzMjMxMzIwMTIwMDIzMTQwMjMwMDEwMTIzMjIzNDA0MDAwMjEyNDMyMTIyMDAyMTIxMzQxNDMxMzI0MTIyMjQzMDExMjIwMzEwMTMxMTIwMTIxMzEyMjEyMzMwMDIyMDMyMDI0MjIzMTAxMDEyMjMxMzEyMTIwMzIxMzIwMjIzMDIzMDQzMDEyNDIxMjAzMzQxMTAyMTMwMjEzMjMzMzIyMDIxMjExMjAxMTIwMjExNDAwMDExMzIxMjMzMTIxMTAyMTMyMTIwMTIzMjEzMzIwMjEwMDIxMjEyNDMyMjIzMjQzMjMyMzAyMjIzMjIzMDIwMTAxMjIyMjEwMzQwMjExMTAxMjIzMjExMTM0MjIxMTIwMjAxMzI0MjQyMTQyNDIzMTEyMDEyMTIyMzEwMDEwNDExMzA0MzMwMjMwMjQyMzAzMDQxMjQyMjQwMjIw",
+    "digits": "333211002321141304320414003214404224230431020230110001223200241224222232321200202221343430130020442021030332234114433441133241222100132331241230231232223220333213243432243113221432002211141433203122221012202234321232022234030013142232323231320120023140230010123223404000212432122002121341431324122243011220310131120121312212330022032024223101012231312120321320223023043012421203341102130213233322021211201120211400011321233121102132120123213320210021212432223243232302223223020101222210340211101223211134221120201324242142423112012122310010411304330230242303041242240220",
+    "downstream_validity": {
+      "candidate_checks": [],
+      "structures": [],
+      "target_match": false
+    },
+    "error": null,
+    "parameters": {
+      "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+      "coordinate_order": "row-column",
+      "digit_count": 570,
+      "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+      "radix": 5,
+      "rail": "quinary-column",
+      "reverse_digits": false,
+      "serialization": "ascii-digits"
+    },
+    "score": {
+      "alphabetic_ratio": 0.0,
+      "bytes": 570,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 570,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "AwMDAgEBAAACAwIBAQQBAwAEAwIABAEEAAADAgEEBAAEAgIEAgMABAMBAAIAAgMAAQEAAAABAgIDAgAAAgQBAgIEAgICAgMCAwIBAgAAAgACAgIBAwQDBAMAAQMAAAIABAQCAAIBAAMAAwMCAgMEAQEEBAMDBAQBAQMDAgQBAgICAQAAAQMCAwMBAgQBAgMAAgMBAgMCAgIDAgIAAwMDAgEDAgQDBAMCAgQDAQEDAgIBBAMCAAACAgEBAQQBBAMDAgADAQICAgIBAAECAgACAgMEAwIBAgMCAAICAgMEAAMAAAEDAQQCAgMCAwIDAgMBAwIAAQIAAAIDAQQAAgMAAAEAAQIDAgIDBAAEAAAAAgECBAMCAQICAAACAQIBAwQBBAMBAwIEAQICAgQDAAEBAgIAAwEAAQMBAQIAAQIBAwECAgECAwMAAAICAAMCAAIEAgIDAQABAAECAgMBAwECAQIAAwIBAwIAAgIDAAIDAAQDAAECBAIBAgADAwQBAQACAQMAAgEDAgMDAwICAAIBAgEBAgABAQIAAgEBBAAAAAEBAwIBAgMDAQIBAQACAQMCAQIAAQIDAgEDAwIAAgEAAAIBAgECBAMCAgIDAgQDAgMCAwACAgIDAgIDAAIAAQABAgICAgEAAwQAAgEBAQABAgIDAgEBAQMEAgIBAQIAAgABAwIEAgQCAQQCBAIDAQECAAECAQICAwEAAAEABAEBAwAEAwMAAgMAAgQCAwADAAQBAgQCAgQAAgIA",
+    "digits": "333211002321141304320414003214404224230431020230110001223200241224222232321200202221343430130020442021030332234114433441133241222100132331241230231232223220333213243432243113221432002211141433203122221012202234321232022234030013142232323231320120023140230010123223404000212432122002121341431324122243011220310131120121312212330022032024223101012231312120321320223023043012421203341102130213233322021211201120211400011321233121102132120123213320210021212432223243232302223223020101222210340211101223211134221120201324242142423112012122310010411304330230242303041242240220",
+    "downstream_validity": {
+      "candidate_checks": [],
+      "structures": [],
+      "target_match": false
+    },
+    "error": null,
+    "parameters": {
+      "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+      "coordinate_order": "row-column",
+      "digit_count": 570,
+      "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+      "radix": 5,
+      "rail": "quinary-column",
+      "reverse_digits": false,
+      "serialization": "raw-digit-bytes"
+    },
+    "score": {
+      "alphabetic_ratio": 0.0,
+      "bytes": 570,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 0,
+      "printable_ratio": 0.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "CHPCZSK9Pw9vjgP+R8xmhOvADM6J/i6M3BDU2+zxQ+sdZGdNSGR9pTL/FmftmCKOLyHFdHw+73U/uaWKqb1GrbcgjgdzdJ7LNPcIdB2VdEfcwTmiMFiESM4nbeFDYLJs7g44i3FJJv4O4vCnLYE67cNgExEqP6RDXycusCttJxWuXej1tTHRjEPbGj7walr1otZYvk127B1yFN+DtE5eRTqRRbtOpw==",
+    "digits": "333211002321141304320414003214404224230431020230110001223200241224222232321200202221343430130020442021030332234114433441133241222100132331241230231232223220333213243432243113221432002211141433203122221012202234321232022234030013142232323231320120023140230010123223404000212432122002121341431324122243011220310131120121312212330022032024223101012231312120321320223023043012421203341102130213233322021211201120211400011321233121102132120123213320210021212432223243232302223223020101222210340211101223211134221120201324242142423112012122310010411304330230242303041242240220",
+    "downstream_validity": {
+      "candidate_checks": [],
+      "structures": [],
+      "target_match": false
+    },
+    "error": null,
+    "parameters": {
+      "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+      "coordinate_order": "row-column",
+      "digit_count": 570,
+      "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+      "radix": 5,
+      "rail": "quinary-column",
+      "reverse_digits": false,
+      "serialization": "minimal-integer-big-endian"
+    },
+    "score": {
+      "alphabetic_ratio": 0.240964,
+      "bytes": 166,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 6,
+      "printable_ratio": 0.445783,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "XTgCVi5PVW0DO2hAQXQKQR4BPzJHQD5DVjI0PWJzKAp6Cw9cRSJ2eStHPhkqW0dBQkM/PF06SXVJIT11AjgudjUlPQc0RVZDDEUPCC9DWEJVIw0tQQUmP2gAOXUlAiRgdFklSQY8UCkjJFI5WgwRDj8aB0JSI1ZVPw0XB281YBsoOkRXCzgzIzhkBlZEJBsqIyY6VTcLOXU/SUNNPz8KGj43XzgaPzgsPSMzWUgvcSAHJVAFak9aQUhOFUhGPA==",
+    "digits": "333211002321141304320414003214404224230431020230110001223200241224222232321200202221343430130020442021030332234114433441133241222100132331241230231232223220333213243432243113221432002211141433203122221012202234321232022234030013142232323231320120023140230010123223404000212432122002121341431324122243011220310131120121312212330022032024223101012231312120321320223023043012421203341102130213233322021211201120211400011321233121102132120123213320210021212432223243232302223223020101222210340211101223211134221120201324242142423112012122310010411304330230242303041242240220",
+    "downstream_validity": {
+      "candidate_checks": [],
+      "structures": [],
+      "target_match": false
+    },
+    "error": null,
+    "parameters": {
+      "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+      "coordinate_order": "row-column",
+      "digit_count": 570,
+      "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+      "radix": 5,
+      "rail": "quinary-column",
+      "reverse_digits": false,
+      "serialization": "strict-byte-chunks"
+    },
+    "score": {
+      "alphabetic_ratio": 0.373684,
+      "bytes": 190,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.014493,
+      "longest_printable_run": 16,
+      "printable_ratio": 0.826316,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "MDIyMDQyMjQyMTQwMzAzMjQyMDMyMDMzNDAzMTE0MDEwMDEzMjIxMjEwMjExMzI0MjQxMjQyNDIzMTAyMDIxMTIyNDMxMTEyMzIyMTAxMTEyMDQzMDEyMjIyMTAxMDIwMzIyMzIyMjAzMjMyMzQyMzIyMjM0MjEyMTIwMDEyMDIzMzEyMzIxMDIxMjMxMjAxMTIxMzMyMTIzMTEwMDA0MTEyMDIxMTAyMTEyMTIwMjIzMzMyMzEyMDMxMjAxMTQzMzAyMTI0MjEwMzQwMzIwMzIyMDIzMTIzMDIxMjEzMTMyMjEwMTAxMzIyNDIwMjMwMjIwMDMzMjEyMjEzMTIxMDIxMTMxMDEzMDIyMTEwMzQyMjIxNDIzMTM0MTQzMTIxMjAwMjIxMjM0MjEyMDAwNDA0MzIyMzIxMDEwMDMyMDQxMzIwMDIxMDIzMTMyMzIzMjMyMjQxMzEwMDMwNDMyMjIwMjMyMTIzNDMyMjAyMjEwMTIyMjIxMzAyMzM0MTQxMTEyMjAwMjM0MTIyMzExMzQyMjM0MzQyMzEyMzMzMDIyMzIyMjMyMTMyMDMyMTQyMTMzMjMxMDAxMjIyMTQyMzMxMTQ0MzM0NDExNDMyMjMzMDMwMTIwMjQ0MDIwMDMxMDM0MzQzMTIyMjAyMDAyMTIzMjMyMjIyNDIyMTQyMDAyMzIyMTAwMDExMDMyMDIwMTM0MDMyNDIyNDA0NDEyMzAwNDE0MDIzNDAzMTQxMTIzMjAwMTEyMzMz",
+    "digits": "022042242140303242032033403114010013221210211324241242423102021122431112322101112043012222101020322322203232342322234212120012023312321021231201121332123110004112021102112120223332312031201143302124210340320322023123021213132210101322420230220033212213121021131013022110342221423134143121200221234212000404322321010032041320021023132323232241310030432220232123432202210122221302334141112200234122311342234342312333022322232132032142133231001222142331144334411432233030120244020031034343122202002123232222422142002322100011032020134032422404412300414023403141123200112333",
+    "downstream_validity": {
+      "candidate_checks": [],
+      "structures": [],
+      "target_match": false
+    },
+    "error": null,
+    "parameters": {
+      "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+      "coordinate_order": "row-column",
+      "digit_count": 570,
+      "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+      "radix": 5,
+      "rail": "quinary-column",
+      "reverse_digits": true,
+      "serialization": "ascii-digits"
+    },
+    "score": {
+      "alphabetic_ratio": 0.0,
+      "bytes": 570,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 570,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "AAICAAQCAgQCAQQAAwADAgQCAAMCAAMDBAADAQEEAAEAAAEDAgIBAgEAAgEBAwIEAgQBAgQCBAIDAQACAAIBAQICBAMBAQECAwICAQABAQECAAQDAAECAgICAQABAAIAAwICAwICAgADAgMCAwQCAwICAgMEAgECAQIAAAECAAIDAwECAwIBAAIBAgMBAgABAQIBAwMCAQIDAQEAAAAEAQECAAIBAQACAQECAQIAAgIDAwMCAwECAAMBAgABAQQDAwACAQIEAgEAAwQAAwIAAwICAAIDAQIDAAIBAgEDAQMCAgEAAQABAwICBAIAAgMAAgIAAAMDAgECAgEDAQIBAAIBAQMBAAEDAAICAQEAAwQCAgIBBAIDAQMEAQQDAQIBAgAAAgIBAgMEAgECAAAABAAEAwICAwIBAAEAAAMCAAQBAwIAAAIBAAIDAQMCAwIDAgMCAgQBAwEAAAMABAMCAgIAAgMCAQIDBAMCAgACAgEAAQICAgIBAwACAwMEAQQBAQECAgAAAgMEAQICAwEBAwQCAgMEAwQCAwECAwMDAAICAwICAgMCAQMCAAMCAQQCAQMDAgMBAAABAgICAQQCAwMBAQQEAwMEBAEBBAMCAgMDAAMAAQIAAgQEAAIAAAMBAAMEAwQDAQICAgACAAACAQIDAgMCAgICBAICAQQCAAACAwICAQAAAAEBAAMCAAIAAQMEAAMCBAICBAAEBAECAwAABAEEAAIDBAADAQQBAQIDAgAAAQECAwMD",
+    "digits": "022042242140303242032033403114010013221210211324241242423102021122431112322101112043012222101020322322203232342322234212120012023312321021231201121332123110004112021102112120223332312031201143302124210340320322023123021213132210101322420230220033212213121021131013022110342221423134143121200221234212000404322321010032041320021023132323232241310030432220232123432202210122221302334141112200234122311342234342312333022322232132032142133231001222142331144334411432233030120244020031034343122202002123232222422142002322100011032020134032422404412300414023403141123200112333",
+    "downstream_validity": {
+      "candidate_checks": [],
+      "structures": [],
+      "target_match": false
+    },
+    "error": null,
+    "parameters": {
+      "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+      "coordinate_order": "row-column",
+      "digit_count": 570,
+      "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+      "radix": 5,
+      "rail": "quinary-column",
+      "reverse_digits": true,
+      "serialization": "raw-digit-bytes"
+    },
+    "score": {
+      "alphabetic_ratio": 0.0,
+      "bytes": 570,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 0,
+      "printable_ratio": 0.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "ARoJyAXKX+CSXELtp92z8OjFSY68LmeVPFihsOFzsgjjMgy/qbZBD5BcoCFdxxIixki+5XSpU0oPww/bGZlajg4vddUToI3JUUTmsMm3Vdju+FTA3rxVsWagftS0R7E7Q/wT0lv+xlMDeq5So9ZAuzrxdy2SBn5LpLE2hMnwa/NqAjs4z2ZCrUq9qgnr2jDGr5c/hTxovj9jQXzIsy+sO7JJSefyww==",
+    "digits": "022042242140303242032033403114010013221210211324241242423102021122431112322101112043012222101020322322203232342322234212120012023312321021231201121332123110004112021102112120223332312031201143302124210340320322023123021213132210101322420230220033212213121021131013022110342221423134143121200221234212000404322321010032041320021023132323232241310030432220232123432202210122221302334141112200234122311342234342312333022322232132032142133231001222142331144334411432233030120244020031034343122202002123232222422142002322100011032020134032422404412300414023403141123200112333",
+    "downstream_validity": {
+      "candidate_checks": [],
+      "structures": [],
+      "target_match": false
+    },
+    "error": null,
+    "parameters": {
+      "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+      "coordinate_order": "row-column",
+      "digit_count": 570,
+      "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+      "radix": 5,
+      "rail": "quinary-column",
+      "reverse_digits": true,
+      "serialization": "minimal-integer-big-endian"
+    },
+    "score": {
+      "alphabetic_ratio": 0.210843,
+      "bytes": 166,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 4,
+      "printable_ratio": 0.385542,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "DBZILU5IERJnIgUIPTc4WUdIcRsLJXQgVxogFwc+GgpXVzVDYVdFOSMHDVJWC0IzJFwmHgQgCxsgIz9cUhAzME0nN19VVw0mCzoqNxpXbkE8Ejk6JAspCAweYT1xLDAkMj1FOQBoV1YFERVVCw0qWENHUA91PEMmdTQ3JT1NXi4gMkUlUWFFYVJdDFdDKhEvK0IBPi9bMV5qdUQPI0oKEBNiJTQCJkM+cC8CVxkGEQosEXBoa0ttDWcuJjIgXQ==",
+    "digits": "022042242140303242032033403114010013221210211324241242423102021122431112322101112043012222101020322322203232342322234212120012023312321021231201121332123110004112021102112120223332312031201143302124210340320322023123021213132210101322420230220033212213121021131013022110342221423134143121200221234212000404322321010032041320021023132323232241310030432220232123432202210122221302334141112200234122311342234342312333022322232132032142133231001222142331144334411432233030120244020031034343122202002123232222422142002322100011032020134032422404412300414023403141123200112333",
+    "downstream_validity": {
+      "candidate_checks": [],
+      "structures": [],
+      "target_match": false
+    },
+    "error": null,
+    "parameters": {
+      "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+      "coordinate_order": "row-column",
+      "digit_count": 570,
+      "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+      "radix": 5,
+      "rail": "quinary-column",
+      "reverse_digits": true,
+      "serialization": "strict-byte-chunks"
+    },
+    "score": {
+      "alphabetic_ratio": 0.336842,
+      "bytes": 190,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 22,
+      "printable_ratio": 0.768421,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "MzMyMzExMDAzMjEyNDEzMTQwMjM0MDQxMDAyMzQxMDQyNDQyMzI0MDEzMjAyMDAzMTEwMDEwMjIyMzAwNDIyMTQyMjIyMjIzMjMyMTAwMDIyMjEyNDM0MzAzMzEwMDAyNDQwMjEyMzAzMDIzMzIxNDQxMzQ0MzE0MzEyMzE0MjIxMjAwMzEzMjEzNDIyMTAzMzIyMTIzMjIyMzAyMzMyMzMxNDI0MzIzNDIxMzMxMjI0MTIzMDAyMjExNDE0MTMzMDIxMzIyMjIwMTIxMDIyMjQzMjMyMTIzMjAyMjQzMzAwMDMxNDEyMjIzMjMyMzEzMjMxMDAyMjAxMzA0MzIwMDAxMjEyMzMyMDQwNDAwMTI0MjIzMjEwMjIwMjEzMTE0MzQzMTQyMjEyMjM0MTAyMTAyMTMxMDEzMjExMDEyMTMyMjIxMzMwMDIyMzAwMjQyMjIxMzEwMTAyMjEzMTMxMjAyMjMzMTAyMjIwMzMyNDAwMzIxMjQyMTMwNDMxMTIwMzEyMDMxMzIzMzIyMjAyMTExMDIxMTAyMTI0MTAwMTAzMTEyMzIxMzEyMDExMjIzMjExMDMyMTIzMzAyMTIwMDEyMTI0MjIzMjIyMzM0MzIzMjIwMjIyMzMyMjAxMDEwMjIyMjAxNDMyMDExMDEyMTMyMTIxMTQzMjIxMTAyMDIzMTQyNDIxMjI0MjQxMzIxMTAxMjIyMTMwMDAxMTQzMTQwMzMyMDAzNDIzMjMwNDAyMTI0NDIyMDAy",
+    "digits": "332311003212413140234041002341042442324013202003110010222300422142222223232100022212434303310002440212303023321441344314312314221200313213422103322123222302332331424323421331224123002211414133021322220121022243232123202243300031412223232313231002201304320001212332040400124223210220213114343142212234102102131013211012132221330022300242221310102213131202233102220332400321242130431120312031323322202111021102124100103112321312011223211032123302120012124223222334323220222332201010222201432011012132121143221102023142421224241321101222130001143140332003423230402124422002",
+    "downstream_validity": {
+      "candidate_checks": [],
+      "structures": [],
+      "target_match": false
+    },
+    "error": null,
+    "parameters": {
+      "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+      "coordinate_order": "column-row",
+      "digit_count": 570,
+      "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+      "radix": 5,
+      "rail": "quinary-column",
+      "reverse_digits": false,
+      "serialization": "ascii-digits"
+    },
+    "score": {
+      "alphabetic_ratio": 0.0,
+      "bytes": 570,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 570,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "AwMCAwEBAAADAgECBAEDAQQAAgMEAAQBAAACAwQBAAQCBAQCAwIEAAEDAgACAAADAQEAAAEAAgICAwAABAICAQQCAgICAgIDAgMCAQAAAAICAgECBAMEAwADAwEAAAACBAQAAgECAwADAAIDAwIBBAQBAwQEAwEEAwECAwEEAgIBAgAAAwEDAgEDBAICAQADAwICAQIDAgICAwACAwMCAwMBBAIEAwIDBAIBAwMBAgIEAQIDAAACAgEBBAEEAQMDAAIBAwICAgIAAQIBAAICAgQDAgMCAQIDAgACAgQDAwAAAAMBBAECAgIDAgMCAwEDAgMBAAACAgABAwAEAwIAAAABAgECAwMCAAQABAAAAQIEAgIDAgEAAgIAAgEDAQEEAwQDAQQCAgECAgMEAQACAQACAQMBAAEDAgEBAAECAQMCAgIBAwMAAAICAwAAAgQCAgIBAwEAAQACAgEDAQMBAgACAgMDAQACAgIAAwMCBAAAAwIBAgQCAQMABAMBAQIAAwECAAMBAwIDAwICAgACAQEBAAIBAQACAQIEAQAAAQADAQECAwIBAwECAAEBAgIDAgEBAAMCAQIDAwACAQIAAAECAQIEAgIDAgICAwMEAwIDAgIAAgICAwMCAgABAAEAAgICAgABBAMCAAEBAAECAQMCAQIBAQQDAgIBAQACAAIDAQQCBAIBAgIEAgQBAwIBAQABAgICAQMAAAABAQQDAQQAAwMCAAADBAIDAgMABAACAQIEBAICAAAC",
+    "digits": "332311003212413140234041002341042442324013202003110010222300422142222223232100022212434303310002440212303023321441344314312314221200313213422103322123222302332331424323421331224123002211414133021322220121022243232123202243300031412223232313231002201304320001212332040400124223210220213114343142212234102102131013211012132221330022300242221310102213131202233102220332400321242130431120312031323322202111021102124100103112321312011223211032123302120012124223222334323220222332201010222201432011012132121143221102023142421224241321101222130001143140332003423230402124422002",
+    "downstream_validity": {
+      "candidate_checks": [],
+      "structures": [],
+      "target_match": false
+    },
+    "error": null,
+    "parameters": {
+      "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+      "coordinate_order": "column-row",
+      "digit_count": 570,
+      "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+      "radix": 5,
+      "rail": "quinary-column",
+      "reverse_digits": false,
+      "serialization": "raw-digit-bytes"
+    },
+    "score": {
+      "alphabetic_ratio": 0.0,
+      "bytes": 570,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 0,
+      "printable_ratio": 0.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "CGE8ncv0+/+TF/9j//ySaCY3EgSbVxxYx1E+Oi1ZkQ+QEM9V/CYDRKPbGYBi1NoURyJVlLamP52Ekb/WzxDWqxHQUJsC7y6eu14ojz45RqfGplpp4fkiel/IOObKis0h/gYtuJrIwi1kjo442tlU7eLSgQcqnm+fMrdj+2Awt8QvS9OMnrrSeISc51JyXSodpoecnsIFr5yOeAyu36+kEzm8EO5Cow==",
+    "digits": "332311003212413140234041002341042442324013202003110010222300422142222223232100022212434303310002440212303023321441344314312314221200313213422103322123222302332331424323421331224123002211414133021322220121022243232123202243300031412223232313231002201304320001212332040400124223210220213114343142212234102102131013211012132221330022300242221310102213131202233102220332400321242130431120312031323322202111021102124100103112321312011223211032123302120012124223222334323220222332201010222201432011012132121143221102023142421224241321101222130001143140332003423230402124422002",
+    "downstream_validity": {
+      "candidate_checks": [],
+      "structures": [],
+      "target_match": false
+    },
+    "error": null,
+    "parameters": {
+      "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+      "coordinate_order": "column-row",
+      "digit_count": 570,
+      "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+      "radix": 5,
+      "rail": "quinary-column",
+      "reverse_digits": false,
+      "serialization": "minimal-integer-big-endian"
+    },
+    "score": {
+      "alphabetic_ratio": 0.162651,
+      "bytes": 166,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 5,
+      "printable_ratio": 0.337349,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "XFEDOWwtRRUCYBZ6WQg0Ax4FPktwLz4/QxkMOXdOUAJ4OU4NVnljVFJUPTJTOnAcVyY+TVxbclhvW0AmAjhtKwtXPCQMSUMmNElLEGs/Q1NCAjNPVQE5XBRkJz83PDoiYi85RRsbKQg4Byo9WgxLSD1QGzopNEQbPFxkVkgodCNSEFhXNB8LGycZHCBWUgY/OBEmTSMHJz8+Xlg8PlwzBT4zdQYHKiQwPRsNL29AR1YaPigBMC1cA3FBZidwAg==",
+    "digits": "332311003212413140234041002341042442324013202003110010222300422142222223232100022212434303310002440212303023321441344314312314221200313213422103322123222302332331424323421331224123002211414133021322220121022243232123202243300031412223232313231002201304320001212332040400124223210220213114343142212234102102131013211012132221330022300242221310102213131202233102220332400321242130431120312031323322202111021102124100103112321312011223211032123302120012124223222334323220222332201010222201432011012132121143221102023142421224241321101222130001143140332003423230402124422002",
+    "downstream_validity": {
+      "candidate_checks": [],
+      "structures": [],
+      "target_match": false
+    },
+    "error": null,
+    "parameters": {
+      "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+      "coordinate_order": "column-row",
+      "digit_count": 570,
+      "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+      "radix": 5,
+      "rail": "quinary-column",
+      "reverse_digits": false,
+      "serialization": "strict-byte-chunks"
+    },
+    "score": {
+      "alphabetic_ratio": 0.342105,
+      "bytes": 190,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 12,
+      "printable_ratio": 0.773684,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "MjAwMjI0NDIxMjA0MDMyMzI0MzAwMjMzMDQxMzQxMTAwMDMxMjIyMTAxMTIzMTQyNDIyMTI0MjQxMzIwMjAxMTIyMzQxMTIxMjMxMjEwMTEwMjM0MTAyMjIyMDEwMTAyMjMzMjIyMDIyMzIzNDMzMjIyMzIyNDIxMjEwMDIxMjAzMzIxMjMwMTEyMzIyMTEwMjEzMTIzMjExMzAxMDAxNDIxMjAxMTIwMTExMjAyMjIzMzIzMTMwMjEzMDIxMTM0MDMxMjQyMTIzMDA0MjMzMDIyMjAxMzMyMjAyMTMxMzEyMjAxMDEzMTIyMjQyMDAzMjIwMDMzMTIyMjMxMjEwMTEyMzEwMTMxMjAxMjAxNDMyMjEyMjQxMzQzNDExMzEyMDIyMDEyMzIyNDIxMDA0MDQwMjMzMjEyMTAwMDIzNDAzMTAyMjAwMTMyMzEzMjMyMzIyMjE0MTMwMDAzMzQyMjAyMzIxMjMyMzQyMjIwMTIxMDIyMjIzMTIwMzMxNDE0MTEyMjAwMzIxNDIyMTMzMTI0MzIzNDI0MTMzMjMzMjAzMjIyMzIxMjIzMzAxMjI0MzEyMzEzMDAyMTIyNDEzMjEzNDEzNDQzMTQ0MTIzMzIwMzAzMjEyMDQ0MjAwMDEzMzAzNDM0MjEyMjIwMDAxMjMyMzIyMjIyMjQxMjI0MDAzMjIyMDEwMDExMzAwMjAyMzEwNDIzMjQ0MjQwMTQzMjAwMTQwNDMyMDQxMzE0MjEyMzAwMTEzMjMz",
+    "digits": "200224421204032324300233041341100031222101123142422124241320201122341121231210110234102222010102233222022323433222322421210021203321230112322110213123211301001421201120111202223323130213021134031242123004233022201332202131312201013122242003220033122231210112310131201201432212241343411312022012322421004040233212100023403102200132313232322214130003342202321232342220121022223120331414112200321422133124323424133233203222321223301224312313002122413213413443144123320303212044200013303434212220001232322222241224003222010011300202310423244240143200140432041314212300113233",
+    "downstream_validity": {
+      "candidate_checks": [],
+      "structures": [],
+      "target_match": false
+    },
+    "error": null,
+    "parameters": {
+      "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+      "coordinate_order": "column-row",
+      "digit_count": 570,
+      "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+      "radix": 5,
+      "rail": "quinary-column",
+      "reverse_digits": true,
+      "serialization": "ascii-digits"
+    },
+    "score": {
+      "alphabetic_ratio": 0.0,
+      "bytes": 570,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 570,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "AgAAAgIEBAIBAgAEAAMCAwIEAwAAAgMDAAQBAwQBAQAAAAMBAgICAQABAQIDAQQCBAICAQIEAgQBAwIAAgABAQICAwQBAQIBAgMBAgEAAQEAAgMEAQACAgICAAEAAQACAgMDAgICAAICAwIDBAMDAgICAwICBAIBAgEAAAIBAgADAwIBAgMAAQECAwICAQEAAgEDAQIDAgEBAwABAAABBAIBAgABAQIAAQEBAgACAgIDAwIDAQMAAgEDAAIBAQMEAAMBAgQCAQIDAAAEAgMDAAICAgABAwMCAgACAQMBAwECAgABAAEDAQICAgQCAAADAgIAAAMDAQICAgMBAgEAAQECAwEAAQMBAgABAgABBAMCAgECAgQBAwQDBAEBAwECAAICAAECAwICBAIBAAAEAAQAAgMDAgECAQAAAAIDBAADAQACAgAAAQMCAwEDAgMCAwICAgEEAQMAAAADAwQCAgACAwIBAgMCAwQCAgIAAQIBAAICAgIDAQIAAwMBBAEEAQECAgAAAwIBBAICAQMDAQIEAwIDBAIEAQMDAgMDAgADAgICAwIBAgIDAwABAgIEAwECAwEDAAACAQICBAEDAgEDBAEDBAQDAQQEAQIDAwIAAwADAgECAAQEAgAAAAEDAwADBAMEAgECAgIAAAABAgMCAwICAgICAgQBAgIEAAADAgICAAEAAAEBAwAAAgACAwEABAIDAgQEAgQAAQQDAgAAAQQABAMCAAQBAwEEAgECAwAAAQEDAgMD",
+    "digits": "200224421204032324300233041341100031222101123142422124241320201122341121231210110234102222010102233222022323433222322421210021203321230112322110213123211301001421201120111202223323130213021134031242123004233022201332202131312201013122242003220033122231210112310131201201432212241343411312022012322421004040233212100023403102200132313232322214130003342202321232342220121022223120331414112200321422133124323424133233203222321223301224312313002122413213413443144123320303212044200013303434212220001232322222241224003222010011300202310423244240143200140432041314212300113233",
+    "downstream_validity": {
+      "candidate_checks": [],
+      "structures": [],
+      "target_match": false
+    },
+    "error": null,
+    "parameters": {
+      "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+      "coordinate_order": "column-row",
+      "digit_count": 570,
+      "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+      "radix": 5,
+      "rail": "quinary-column",
+      "reverse_digits": true,
+      "serialization": "raw-digit-bytes"
+    },
+    "score": {
+      "alphabetic_ratio": 0.0,
+      "bytes": 570,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 0,
+      "printable_ratio": 0.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "BJHAq25ifanhqJDBF11v9x5Ezzsp4kmVy6qJLtGEyYAfT/66RqY+3b8joTtWYhHc4W3XDOdBQzXwzCztswKP58ilrOIJAtMYNm8g4THuiDQg447xqFMn+Rie/gbX8dqsLLFWa2hopbbhUGG8qNv4Y+DxCUHKFQq4qO8FJAve4Dv7pzANyjSZKZ2KKcRwxHmJm3hcLK9T07tBi1IbRhZUzaUgpiaORw==",
+    "digits": "200224421204032324300233041341100031222101123142422124241320201122341121231210110234102222010102233222022323433222322421210021203321230112322110213123211301001421201120111202223323130213021134031242123004233022201332202131312201013122242003220033122231210112310131201201432212241343411312022012322421004040233212100023403102200132313232322214130003342202321232342220121022223120331414112200321422133124323424133233203222321223301224312313002122413213413443144123320303212044200013303434212220001232322222241224003222010011300202310423244240143200140432041314212300113233",
+    "downstream_validity": {
+      "candidate_checks": [],
+      "structures": [],
+      "target_match": false
+    },
+    "error": null,
+    "parameters": {
+      "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+      "coordinate_order": "column-row",
+      "digit_count": 570,
+      "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+      "radix": 5,
+      "rail": "quinary-column",
+      "reverse_digits": true,
+      "serialization": "minimal-integer-big-endian"
+    },
+    "score": {
+      "alphabetic_ratio": 0.186747,
+      "bytes": 166,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 4,
+      "printable_ratio": 0.373494,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded_base64": "MkBvNhFZS0QVYBkQPhomL3AnR1UzJWAkQjceRRs+BRtEPgxYdj5XbzcLNVZBIFceOiY4TAFvMyMfND9YKDoLLBBIJgREDDNcNClSMwglSAM8EiVCNyBQKTMzdTlHYmpSDAdXbwQURDkZDWcbMipTQ1c7KANhNFZDYTwkDD8jW20gMlZwKydYcitENT5WP0xAUlMCJWw6bHsxJlVOORgyCE53OTwBQ1c+R0ADPgUGSzRQcUpGMDItdRVUOUshRA==",
+    "digits": "200224421204032324300233041341100031222101123142422124241320201122341121231210110234102222010102233222022323433222322421210021203321230112322110213123211301001421201120111202223323130213021134031242123004233022201332202131312201013122242003220033122231210112310131201201432212241343411312022012322421004040233212100023403102200132313232322214130003342202321232342220121022223120331414112200321422133124323424133233203222321223301224312313002122413213413443144123320303212044200013303434212220001232322222241224003222010011300202310423244240143200140432041314212300113233",
+    "downstream_validity": {
+      "candidate_checks": [],
+      "structures": [],
+      "target_match": false
+    },
+    "error": null,
+    "parameters": {
+      "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+      "coordinate_order": "column-row",
+      "digit_count": 570,
+      "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+      "radix": 5,
+      "rail": "quinary-column",
+      "reverse_digits": true,
+      "serialization": "strict-byte-chunks"
+    },
+    "score": {
+      "alphabetic_ratio": 0.368421,
+      "bytes": 190,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 22,
+      "printable_ratio": 0.805263,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  }
+]

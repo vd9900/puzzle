@@ -1,0 +1,39 @@
+{
+  "id": "C28-BTCSEED-FORMAT-CONTRACT",
+  "date": "2026-10-02",
+  "status": "REJECTED",
+  "hypothesis": "The literal btcseed prefix, body563, or complete Bifid570 is already a directly serialized BIP39 mnemonic or BIP32 seed.",
+  "official_contracts": {
+    "BIP39": {"entropy_bits": [128, 160, 192, 224, 256], "mnemonic_word_counts": [12, 15, 18, 21, 24], "derived_seed_bits": 512, "upstream_sha256": "afcbcbed36fe9eb734bd607398a8c124683ded2a75c3830e1b16c47b043a9134"},
+    "BIP32": {"seed_bits_inclusive": [128, 512], "seed_bytes_inclusive": [16, 64], "upstream_sha256": "e5e00a8289db2f681052cf24a745320afc225e66b25d1e489a7c884d2fc7f11f"}
+  },
+  "observed": {
+    "prefix7": {"ascii_bytes": 7, "tokens": 1, "direct_bip39": false, "direct_bip32": false},
+    "body563": {"ascii_bytes": 563, "tokens": 1, "alphabet_symbols": 25, "binary": false, "hex": false, "direct_bip39": false, "direct_bip32": false, "sha256_identifier": "37762314c4ca52c695d738d3e08a58fcdd775f0dc30d2996a86db685775aafa8"},
+    "full570": {"ascii_bytes": 570, "tokens": 1, "alphabet_symbols": 25, "binary": false, "hex": false, "direct_bip39": false, "direct_bip32": false, "sha256_identifier": "15d62c8228c1a30f3f6280fcdce2251fe616135e9de291b0c7b8a792dd8d0507"}
+  },
+  "classification": {
+    "btcseed_as_recognized_literal_prefix": "VERIFIED",
+    "prefix_body_or_full_as_direct_standard_seed": "REJECTED",
+    "btcseed_as_type_or_operation_hint": "UNKNOWN",
+    "encoded_or_extracted_seed_interface": "UNKNOWN and requires an authored codec or selection rule"
+  },
+  "graph_effect": "Delete direct Bifid-string-to-BIP39/BIP32 edges. Retain an unknown transform from complete Bifid570 to an unspecified downstream type.",
+  "source_evidence": [
+    {"path": "research/sources/bip39-structural-excerpt.txt", "sha256": "8802ae9c242a6d8c54cce7f5850104a7b3871e5867b28a969c0dfebda50fff16"},
+    {"path": "research/sources/bip32-structural-excerpt.txt", "sha256": "d88ab705a041b3e998f581065fdd4a97512ede8ee4c30a2de19bb65d3db5f09d"}
+  ],
+  "reproduction": {
+    "command": "python3 -m tools.btcseed_format_contract",
+    "test_command": "python3 -m unittest tests.test_btcseed_format_contract -v",
+    "tool_sha256": "a9ccd026727a35b8887d0d215da2378d8a52b88d5ad23f587f968f8342e11b48",
+    "test_sha256": "2a63afef7b81155b571c1e89330885e9da640bbb84d62f2a70f4ed47ead7baac",
+    "tests_passed": 6
+  },
+  "exact_remaining_unknown": "A codec, segmentation rule, or receiving format for complete Bifid570.",
+  "new_cryptographic_trials": 0,
+  "new_trial_inputs": 0,
+  "private_key_operations": 0,
+  "seed_derivations": 0,
+  "aes_operations": 0
+}

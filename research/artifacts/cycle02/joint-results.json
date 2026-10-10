@@ -1,0 +1,781 @@
+{
+  "aes_trials": 86760,
+  "decode_forms": 3240,
+  "elapsed_seconds": 3.151,
+  "id": "C02-JOINT-MOD9",
+  "max_printable_ratio": 0.531646,
+  "padding_hits": 370,
+  "padding_hits_by_target": {
+    "cosmic-duality": 125,
+    "phase32-inner": 124,
+    "salphaseion-small": 121
+  },
+  "result": "No demonstrated target solution from this fixed joint family; high-entropy outputs are not proven failures of every intermediate interpretation.",
+  "status": "INCONCLUSIVE",
+  "structure_hits": 0,
+  "target_matches": 0,
+  "top_hits": [
+    {
+      "cipher": "AES-256-CBC",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "iterations": 1,
+      "iv": "79ee4b813ab88d6716d16d2aa5cd69f9",
+      "kdf_digest": "md5",
+      "key": "5ab67510695474d5ae11c48b3936f4647604225529137b60fe65b96dc94a02b4",
+      "padding_valid": true,
+      "password_sha256": "d542bf108eaaa16a44f9f069a3f2761084e08436dd277b2b85a7f8d232ffecd7",
+      "plaintext_base64": "VqgOSKI4diTwVgFHl5wlJTSraX6ZF/k2EWJPJCRA7A1NVBBMzYWL7Pym5Ili1H1lH0ejW+Pf3EhiXd0gBAa0lW1AZ8Z8IS+mTZB35VBQZw==",
+      "plaintext_sha256": "e3c7aa81d5baadb905a9b5138dcd85e7a49deee284a07262427cf6b18fb853c7",
+      "provenance": [
+        {
+          "alphabet": "matrixsulbcdefghknopqvwyz",
+          "alphabet_name": "matrixsumlist",
+          "decoder": "nine-column-checkerboard",
+          "digit_mapping": "a1mod9",
+          "keystream": "image-row-sums-mod9",
+          "operation_mod9": "subtract",
+          "password_representation": "uppercase",
+          "prefixes": [
+            2,
+            5
+          ],
+          "root": "prime-remainder-60",
+          "route": {
+            "route": "reverse"
+          }
+        }
+      ],
+      "salt": "b45a5e3d827593ca",
+      "score": {
+        "alphabetic_ratio": 0.291139,
+        "bytes": 79,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 5,
+        "printable_ratio": 0.531646,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "structural_validity": [],
+      "target": "phase32-inner"
+    },
+    {
+      "cipher": "AES-256-CBC",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "iterations": 1,
+      "iv": "2997d631d3ea7df69bdfc9a86f2fed5a",
+      "kdf_digest": "md5",
+      "key": "c083b7ce90a1dc5ceea4d5b3a1a6c89a4e0453aa8eced89339bd31894a0368b0",
+      "padding_valid": true,
+      "password_sha256": "22f04069a0d77b25698170441c1374c1ad839e59b635b05d4cb311be1e01a5d3",
+      "plaintext_base64": "fhz4Ukgjy0bR7zRUgXcL/MdvRCIUUveCkPLjSlFMLm9UliRCQ9uDdTPcZelBPEubk+jS3iwBILCt8ZtUJI8xSrFG5mv7fFGV76Q8MoJaCg==",
+      "plaintext_sha256": "515731f57ce02e9549dace748fd05f990e220cc3b908163385874076808b9706",
+      "provenance": [
+        {
+          "alphabet": "matrixsulbcdefghknopqvwyz",
+          "alphabet_name": "matrixsumlist",
+          "decoder": "nine-column-checkerboard",
+          "digit_mapping": "a0",
+          "keystream": "image-row-sums-mod9",
+          "operation_mod9": "subtract",
+          "password_representation": "raw",
+          "prefixes": [
+            1,
+            4
+          ],
+          "root": "dbbi",
+          "route": {
+            "route": "identity"
+          }
+        }
+      ],
+      "salt": "3ab585348552415d",
+      "score": {
+        "alphabetic_ratio": 0.316456,
+        "bytes": 79,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 6,
+        "printable_ratio": 0.518987,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "structural_validity": [],
+      "target": "salphaseion-small"
+    },
+    {
+      "cipher": "AES-256-CBC",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "iterations": 1,
+      "iv": "03b7be169e6cf2fa35019297c0e6ad69",
+      "kdf_digest": "sha256",
+      "key": "55c8b6d9163cbe8c2847093ed586309f73da6ce22f382e738b371fc9bdc936b7",
+      "padding_valid": true,
+      "password_sha256": "850868b982a3c05eeca9fd1153f3fb38b947c15ac6504baf0fa7f3094305b018",
+      "plaintext_base64": "ok1jc0E6uePfqYXr4vdYh6dxIoPTYqROQ3gK/aJ8NLWhUJdTWOpLisSYBll1t5mKjJ9JS2uomu50JnFIeYlO2D3+2XNuKisiWIZLM2F/cQ==",
+      "plaintext_sha256": "b6651adc902bd391ce491ae6b69a31e17da826a7d7029448f6eb0f8619b5de3d",
+      "provenance": [
+        {
+          "alphabet": "entrabcdfghiklmopqsuvwxyz",
+          "alphabet_name": "enter",
+          "decoder": "nine-column-checkerboard",
+          "digit_mapping": "a1mod9",
+          "keystream": "image-column-sums-mod9",
+          "operation_mod9": "subtract",
+          "password_representation": "uppercase-sha256-raw",
+          "prefixes": [
+            2,
+            5
+          ],
+          "root": "dbbi",
+          "route": {
+            "decrypt": false,
+            "duplicate_key_order": "stable alphabetical sort then original column index",
+            "key": "matrixsumlist",
+            "reverse": false,
+            "route": "keyed-columnar"
+          }
+        }
+      ],
+      "salt": "b45a5e3d827593ca",
+      "score": {
+        "alphabetic_ratio": 0.379747,
+        "bytes": 79,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 6,
+        "printable_ratio": 0.518987,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "structural_validity": [],
+      "target": "phase32-inner"
+    },
+    {
+      "cipher": "AES-256-CBC",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "iterations": 1,
+      "iv": "f0acb14ce5dded69917d4278cc4d53fc",
+      "kdf_digest": "md5",
+      "key": "f36f82f6144782c7051dc0a9bd719e9709fcd4bf39ffd6d3ed28f4e6e5e4c517",
+      "padding_valid": true,
+      "password_sha256": "d9429692c7fcb6faaac9dfea267843ab2b0ae0b9126b61fe1e54ceb7ddd6fb2d",
+      "plaintext_base64": "X91CzEdniSvDtJXE2JPNS+v1OBagOUN9ZOqEkTdA8ylSdzEmFYf/ajlk6zlt+9Q+dIzGxM8vw8gILGc7XK8uCFIh4lSXxtBHPScEvDRsUg==",
+      "plaintext_sha256": "a74e6f872260a317fb60056c8a67bb1feec111fa958c3f9fe6f9c9e7cf0c5058",
+      "provenance": [
+        {
+          "alphabet": "fubcdoralethingkymvpsqwxz",
+          "alphabet_name": "known-checkerboard-IJ-merge",
+          "decoder": "nine-column-checkerboard",
+          "digit_mapping": "a0",
+          "keystream": "image-row-sums-mod9",
+          "operation_mod9": "add",
+          "password_representation": "uppercase-sha256-raw",
+          "prefixes": [
+            1,
+            4
+          ],
+          "root": "faed",
+          "route": {
+            "decrypt": true,
+            "duplicate_key_order": "stable alphabetical sort then original column index",
+            "key": "lastwordsbeforearchichoicethispassword",
+            "reverse": false,
+            "route": "keyed-columnar"
+          }
+        }
+      ],
+      "salt": "b45a5e3d827593ca",
+      "score": {
+        "alphabetic_ratio": 0.227848,
+        "bytes": 79,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 5,
+        "printable_ratio": 0.506329,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "structural_validity": [],
+      "target": "phase32-inner"
+    },
+    {
+      "cipher": "AES-256-CBC",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "iterations": 1,
+      "iv": "5282ea53c3ada393af674b34dee42cc1",
+      "kdf_digest": "sha256",
+      "key": "4ee1c8bfd13c37d5864cabde41fd6f466fb958773c1cd5bf291b6fa9992a1891",
+      "padding_valid": true,
+      "password_sha256": "072b8bacdde69464ce0caf07d9f58da4ae007f69a3f011333c7709858ecca972",
+      "plaintext_base64": "viL+Ci2FUDsI5DoP76UzZn/wemQJHNcs8iam+3HmCUwdSCppmaMoaFOwVvF9KMC6bxDw4RNYXt5TSI4dGOkODml+82iPoZt+315EdVejRg==",
+      "plaintext_sha256": "f66e4304cb5b68fc7a7e3ef1be006357556129466e3f532c74ec6b1b6049802b",
+      "provenance": [
+        {
+          "alphabet": "fubcdoralethingkymvpsqwxz",
+          "alphabet_name": "known-checkerboard-IJ-merge",
+          "decoder": "nine-column-checkerboard",
+          "digit_mapping": "a1mod9",
+          "keystream": "image-row-sums-reversed-mod9",
+          "operation_mod9": "add",
+          "password_representation": "sha256-raw",
+          "prefixes": [
+            2,
+            5
+          ],
+          "root": "dbbi",
+          "route": {
+            "decrypt": false,
+            "duplicate_key_order": "stable alphabetical sort then original column index",
+            "key": "matrixsumlist",
+            "reverse": true,
+            "route": "keyed-columnar"
+          }
+        }
+      ],
+      "salt": "3ab585348552415d",
+      "score": {
+        "alphabetic_ratio": 0.265823,
+        "bytes": 79,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 4,
+        "printable_ratio": 0.493671,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "structural_validity": [],
+      "target": "salphaseion-small"
+    },
+    {
+      "cipher": "AES-256-CBC",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "iterations": 1,
+      "iv": "6bc8c556507e0cc64f3faaaf8cff3eeb",
+      "kdf_digest": "sha256",
+      "key": "d409917f1a9be2244aa63733effb7ad1eedb9ce1051a0212b87f21144957f7de",
+      "padding_valid": true,
+      "password_sha256": "36d18d9aa3d905ce8581ce9dc4fca31614d1089e0c0e29584ccea7bb721a1847",
+      "plaintext_base64": "3arueWjguPl9a3hrPqoot1h6/I2WnS9S8AZeLWFQaztLKjJsj2+H6EnGLRXZrzaFEEWOnyRrDPGN6xdve2onubQ/ksH7I6WfX+V81K9uQw==",
+      "plaintext_sha256": "68545087887e992919f95916b59e8b17a882bddf620dffe2b397dd8600caea8e",
+      "provenance": [
+        {
+          "alphabet": "matrixsulbcdefghknopqvwyz",
+          "alphabet_name": "matrixsumlist",
+          "decoder": "nine-column-checkerboard",
+          "digit_mapping": "a0",
+          "keystream": "image-column-sums-mod9",
+          "operation_mod9": "add",
+          "password_representation": "sha256-hex",
+          "prefixes": [
+            1,
+            4
+          ],
+          "root": "dbbi",
+          "route": {
+            "decrypt": true,
+            "duplicate_key_order": "stable alphabetical sort then original column index",
+            "key": "matrixsumlist",
+            "reverse": true,
+            "route": "keyed-columnar"
+          }
+        }
+      ],
+      "salt": "b45a5e3d827593ca",
+      "score": {
+        "alphabetic_ratio": 0.265823,
+        "bytes": 79,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 10,
+        "printable_ratio": 0.493671,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "structural_validity": [],
+      "target": "phase32-inner"
+    },
+    {
+      "cipher": "AES-256-CBC",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "iterations": 1,
+      "iv": "dc52752f3b608a49d5c0fd0da3c69b33",
+      "kdf_digest": "sha256",
+      "key": "956267fcd352225c2283f68f5ee9cab1d7efd43d89691adb98bcf0acd7f8c947",
+      "padding_valid": true,
+      "password_sha256": "51ca20059d02e898526504caef1aeb8ee1711a6c4c63976d8cde51b9b58db8d1",
+      "plaintext_base64": "erPzNB9MHiZHJrunE3dV+3hwtjZI7DHuvtKa8mNaLZwKsMxlqzF3cQcYZBmrM2N/ay1zWVk8GYoC0hwcM7ApIKAi485eou2PC/lydM8yUQ==",
+      "plaintext_sha256": "fb642b3d461c02e5bc0c04361b1216b886cee3ce94be966b038c8b545ec46b59",
+      "provenance": [
+        {
+          "alphabet": "lastwordbefchipgkmnquvxyz",
+          "alphabet_name": "lastwordsbeforearchichoicethispassword",
+          "decoder": "nine-column-checkerboard",
+          "digit_mapping": "a0",
+          "keystream": "image-column-sums-mod9",
+          "operation_mod9": "subtract",
+          "password_representation": "sha256-raw",
+          "prefixes": [
+            1,
+            4
+          ],
+          "root": "faed",
+          "route": {
+            "decrypt": true,
+            "duplicate_key_order": "stable alphabetical sort then original column index",
+            "key": "theseedisplanted",
+            "reverse": true,
+            "route": "keyed-columnar"
+          }
+        }
+      ],
+      "salt": "b45a5e3d827593ca",
+      "score": {
+        "alphabetic_ratio": 0.278481,
+        "bytes": 79,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 6,
+        "printable_ratio": 0.493671,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "structural_validity": [],
+      "target": "phase32-inner"
+    },
+    {
+      "cipher": "AES-256-CBC",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "iterations": 1,
+      "iv": "d0d6c126d69dd15f17fdc3b62c16e096",
+      "kdf_digest": "md5",
+      "key": "6c0a1df1c72c26e7f2a4e8de1dfe87808cecc9eb0c9440939d13200c6e90a822",
+      "padding_valid": true,
+      "password_sha256": "529efb5a3c188b113ddcd7e7473f28952b818a82e9e0744bff04d870892fec7b",
+      "plaintext_base64": "X92GzL07b3UVuXTulxv8en8tCy9UrKaB8pN+1H5+Kdx68n9+NKM3CgsgdKhD22kVNPNnTTnIIMP63taSQjVAqNYFL34Fflg17HFRGSDdKg==",
+      "plaintext_sha256": "0f36344365b1dce07c788ca160d2d12c6a848e400eb9784640f430886c3af807",
+      "provenance": [
+        {
+          "alphabet": "lastwordbefchipgkmnquvxyz",
+          "alphabet_name": "lastwordsbeforearchichoicethispassword",
+          "decoder": "nine-column-checkerboard",
+          "digit_mapping": "first-occurrence0",
+          "keystream": "image-row-sums-reversed-mod9",
+          "operation_mod9": "add",
+          "password_representation": "sha256-raw",
+          "prefixes": [
+            1,
+            6
+          ],
+          "root": "dbbi",
+          "route": {
+            "decrypt": true,
+            "duplicate_key_order": "stable alphabetical sort then original column index",
+            "key": "matrixsumlist",
+            "reverse": true,
+            "route": "keyed-columnar"
+          }
+        }
+      ],
+      "salt": "b45a5e3d827593ca",
+      "score": {
+        "alphabetic_ratio": 0.189873,
+        "bytes": 79,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 3,
+        "printable_ratio": 0.493671,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "structural_validity": [],
+      "target": "phase32-inner"
+    },
+    {
+      "cipher": "AES-256-CBC",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "iterations": 1,
+      "iv": "42ba8843adcd2f3b156399d87a8a1e30",
+      "kdf_digest": "sha256",
+      "key": "b5273d3a680cb9e9b16efe4d51bcc2a55867e9cef741d4906cf7317424261f5e",
+      "padding_valid": true,
+      "password_sha256": "a5129538e73f82c57de94825759ea3595f17d8c5711c27b88ed4eaaf68fcb70c",
+      "plaintext_base64": "+dEZLlU5pmdIVt0XWFWgKLelDGSpE1GOaHSBVZ+FJl9iJsk3iQ41t3vbUTj8Wt3uI5NyPbpARvLiGdtNTSFqwyk0EAOTlbRB0Vm2RhwruA==",
+      "plaintext_sha256": "a199fb69367643f81db3257416d8b2dca0e1999ed76ca0d78434ec76bbfd1445",
+      "provenance": [
+        {
+          "decoder": "whole-base9-big-endian-bytes",
+          "digit_mapping": "a1mod9",
+          "keystream": "image-row-sums-reversed-mod9",
+          "operation_mod9": "subtract",
+          "password_representation": "sha256-hex",
+          "root": "faed",
+          "route": {
+            "decrypt": false,
+            "duplicate_key_order": "stable alphabetical sort then original column index",
+            "key": "lastwordsbeforearchichoicethispassword",
+            "reverse": false,
+            "route": "keyed-columnar"
+          }
+        }
+      ],
+      "salt": "b45a5e3d827593ca",
+      "score": {
+        "alphabetic_ratio": 0.278481,
+        "bytes": 79,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 4,
+        "printable_ratio": 0.493671,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "structural_validity": [],
+      "target": "phase32-inner"
+    },
+    {
+      "cipher": "AES-256-CBC",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "iterations": 1,
+      "iv": "c6261b57627f0660660b7caa755d4439",
+      "kdf_digest": "md5",
+      "key": "c8e74143711e7a889ee15a5a61798d03dd4b91ce623750ea43ce4b444ec846c8",
+      "padding_valid": true,
+      "password_sha256": "fc127e427c27c107cebcc781c44939d115d459ec9f9845c22ad45944ac3de51d",
+      "plaintext_base64": "F8Ka7pHq6SoD9/AFZogvY6R6VzZipypIhl1fOGjERm37MbotBHswUMXgjLdJchHSHbQ8VXDZYlzcltUb1nQxPERx3TQK2LiAScIeNt1EeQ==",
+      "plaintext_sha256": "ae87eaf18eab4b8251d075b9d909ea4d9e4ce0823fecdde3c6a885efd8c5eee1",
+      "provenance": [
+        {
+          "alphabet": "fubcdoralethingkymvpsqwxz",
+          "alphabet_name": "known-checkerboard-IJ-merge",
+          "decoder": "nine-column-checkerboard",
+          "digit_mapping": "a0",
+          "keystream": "image-column-sums-reversed-mod9",
+          "operation_mod9": "subtract",
+          "password_representation": "uppercase-sha256-hex",
+          "prefixes": [
+            1,
+            4
+          ],
+          "root": "faed",
+          "route": {
+            "decrypt": false,
+            "duplicate_key_order": "stable alphabetical sort then original column index",
+            "key": "theseedisplanted",
+            "reverse": true,
+            "route": "keyed-columnar"
+          }
+        }
+      ],
+      "salt": "3ab585348552415d",
+      "score": {
+        "alphabetic_ratio": 0.265823,
+        "bytes": 79,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 5,
+        "printable_ratio": 0.493671,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "structural_validity": [],
+      "target": "salphaseion-small"
+    },
+    {
+      "cipher": "AES-256-CBC",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "iterations": 1,
+      "iv": "79946018aacf63da4010b1e41297f813",
+      "kdf_digest": "sha256",
+      "key": "7dae77b5ac609b33e89f886f301a1b782c835ffae6efa318281789a79dddcf73",
+      "padding_valid": true,
+      "password_sha256": "5ceda05777dd6f7c9d3454f457a2870b200df578f8ca7de4a9d5b6c6747b73bd",
+      "plaintext_base64": "s7a1l0vZzoz7Xl2zlx4oLst6aYPm3pJXJ4VO6/DHUVBqaKp8AuY/V5yFjH0IOMJaOEiHQWcBADdVFOZmQib6wbxSX1hcBy91ub8hOoUbbA==",
+      "plaintext_sha256": "e61314886ebd67ea720b1e0378a7772fccb6b8d77cc4c7d9c363c939c8c1ee71",
+      "provenance": [
+        {
+          "decoder": "whole-base9-big-endian-bytes",
+          "digit_mapping": "a0",
+          "keystream": "none",
+          "operation_mod9": "none",
+          "password_representation": "raw",
+          "root": "prime-remainder-60",
+          "route": {
+            "route": "reverse"
+          }
+        }
+      ],
+      "salt": "3ab585348552415d",
+      "score": {
+        "alphabetic_ratio": 0.265823,
+        "bytes": 79,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 4,
+        "printable_ratio": 0.481013,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "structural_validity": [],
+      "target": "salphaseion-small"
+    },
+    {
+      "cipher": "AES-256-CBC",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "iterations": 1,
+      "iv": "3915a83435d0d478a461ca432427b21c",
+      "kdf_digest": "sha256",
+      "key": "c343cddb2ae4ed932eada6abf7b1011bf6127360c46eafd7a757562a7b08b28b",
+      "padding_valid": true,
+      "password_sha256": "a44bd0c32dbfd60d7fa09ced4064330833d68262ac16940151fc313280f1416e",
+      "plaintext_base64": "ZvjFAo4J/cXISA5Ak/I9LyVlchMa/cquSzTfiC/Gmp3y0VvuYhwrLxBycL+tfCVvY6DzfC+pCFmdH451t4FobiDiZzFP0yztoTpDbUQNvw==",
+      "plaintext_sha256": "d2999b73998bf9fd6b949255bf14c32a9e8023f2e1e58f3e6658a26dd35b1bae",
+      "provenance": [
+        {
+          "alphabet": "entrabcdfghiklmopqsuvwxyz",
+          "alphabet_name": "enter",
+          "decoder": "nine-column-checkerboard",
+          "digit_mapping": "a1mod9",
+          "keystream": "image-column-sums-reversed-mod9",
+          "operation_mod9": "subtract",
+          "password_representation": "raw",
+          "prefixes": [
+            2,
+            5
+          ],
+          "root": "dbbi",
+          "route": {
+            "decrypt": true,
+            "duplicate_key_order": "stable alphabetical sort then original column index",
+            "key": "matrixsumlist",
+            "reverse": true,
+            "route": "keyed-columnar"
+          }
+        }
+      ],
+      "salt": "3ab585348552415d",
+      "score": {
+        "alphabetic_ratio": 0.240506,
+        "bytes": 79,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.058824,
+        "longest_printable_run": 5,
+        "printable_ratio": 0.481013,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "structural_validity": [],
+      "target": "salphaseion-small"
+    },
+    {
+      "cipher": "AES-256-CBC",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "iterations": 1,
+      "iv": "43deeba3733c0da5703e0e9dd564af8f",
+      "kdf_digest": "sha256",
+      "key": "5c4861b757fe5a63a7892e5adc61aca8a3ccabec434a16846461235b69875d55",
+      "padding_valid": true,
+      "password_sha256": "d95628593c0015f0f48ccd3401c27e7052404d6183294eeb4f5c6d30d9995cf7",
+      "plaintext_base64": "wjWB2a/9TK5+AUpuULdCl9B21znKPCWEUWBn3V5ONVD8JTCHJlOEjtZYOzEH2fvSAXTFZJW3CYuvWQSmYm1fxkkXkuAvXkHg8nOBcK4bpA==",
+      "plaintext_sha256": "ac2bf2e432b6cf695c403c0e906dd96ef5f588dbc7c4fddf56c75e47330e5d91",
+      "provenance": [
+        {
+          "decoder": "whole-base9-big-endian-bytes",
+          "digit_mapping": "a0",
+          "keystream": "image-column-sums-reversed-mod9",
+          "operation_mod9": "add",
+          "password_representation": "sha256-raw",
+          "root": "faed",
+          "route": {
+            "route": "identity"
+          }
+        }
+      ],
+      "salt": "b45a5e3d827593ca",
+      "score": {
+        "alphabetic_ratio": 0.265823,
+        "bytes": 79,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 4,
+        "printable_ratio": 0.481013,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "structural_validity": [],
+      "target": "phase32-inner"
+    },
+    {
+      "cipher": "AES-256-CBC",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "iterations": 1,
+      "iv": "7e6e1319143895bc176110173120f59c",
+      "kdf_digest": "sha256",
+      "key": "65e93da35842b9b9c9f36d4244e0a1f720cd3e2809e808f57ee8d2a174579933",
+      "padding_valid": true,
+      "password_sha256": "818c77826835100d166e90860404d38b972f30e69767e9cd263655daa9f161d1",
+      "plaintext_base64": "Uinpl/FFPRFGANFNSGZOATqiw89HZupcgukpVgl1du/2hH581GaOXlxrbSUvkRe8r5jocFYggQCpeXKMVO0xxtXq+PyS9JaUsWxuHQZaqw==",
+      "plaintext_sha256": "3a21cec5debaca5f0d161d8771e07e599772866e1dfd7df0479e4d65dda8a71d",
+      "provenance": [
+        {
+          "alphabet": "salpheionbcdfgkmqrtuvwxyz",
+          "alphabet_name": "salphaseion",
+          "decoder": "nine-column-checkerboard",
+          "digit_mapping": "first-occurrence0",
+          "keystream": "none",
+          "operation_mod9": "none",
+          "password_representation": "raw",
+          "prefixes": [
+            1,
+            6
+          ],
+          "root": "dbbi",
+          "route": {
+            "decrypt": false,
+            "duplicate_key_order": "stable alphabetical sort then original column index",
+            "key": "matrixsumlist",
+            "reverse": false,
+            "route": "keyed-columnar"
+          }
+        }
+      ],
+      "salt": "3ab585348552415d",
+      "score": {
+        "alphabetic_ratio": 0.291139,
+        "bytes": 79,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 6,
+        "printable_ratio": 0.468354,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "structural_validity": [],
+      "target": "salphaseion-small"
+    },
+    {
+      "cipher": "AES-256-CBC",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "iterations": 1,
+      "iv": "3f1ae34b62ec41b4ed3e7e8b57b5f4db",
+      "kdf_digest": "md5",
+      "key": "c48889b1773ef3e1d27bab97e5770a6a0445149d7489df19e3de1e32bae0414a",
+      "padding_valid": true,
+      "password_sha256": "855f2e05d070edb9b3935f4b50e8e6714ca172730cbc0306d6b0c3a5dfd2ed9c",
+      "plaintext_base64": "jrIkn/H0tQ1MrjdXbfYioYZ2SWrUkTskv6LJ44wBneufa9Frey8yUqxlZydAUY9OZ2hsv0I5hc/rdfnMU87cAsv4JUGu4urVT7pE/uhKbA==",
+      "plaintext_sha256": "2caa0fe492075c15a282c52a5d98f1dbc5fc7bf494e5eeb5b25e9bc0bd411132",
+      "provenance": [
+        {
+          "alphabet": "matrixsulbcdefghknopqvwyz",
+          "alphabet_name": "matrixsumlist",
+          "decoder": "nine-column-checkerboard",
+          "digit_mapping": "first-occurrence0",
+          "keystream": "image-row-sums-reversed-mod9",
+          "operation_mod9": "subtract",
+          "password_representation": "sha256-hex",
+          "prefixes": [
+            1,
+            6
+          ],
+          "root": "faed",
+          "route": {
+            "decrypt": true,
+            "duplicate_key_order": "stable alphabetical sort then original column index",
+            "key": "lastwordsbeforearchichoicethispassword",
+            "reverse": true,
+            "route": "keyed-columnar"
+          }
+        }
+      ],
+      "salt": "3ab585348552415d",
+      "score": {
+        "alphabetic_ratio": 0.303797,
+        "bytes": 79,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 5,
+        "printable_ratio": 0.468354,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "structural_validity": [],
+      "target": "salphaseion-small"
+    }
+  ],
+  "unique_passwords": 14460
+}

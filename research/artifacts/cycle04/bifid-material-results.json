@@ -1,0 +1,15 @@
+{
+  "aes_trials": 324,
+  "candidate_set_sha256": "b39bb3e3730062f9ffa6e359fcf08d443a4ff64ca383ff24f277b37ca73a7239",
+  "elapsed_seconds": 0.02,
+  "id": "C04-BIFID-MATERIAL",
+  "ledger_sha256": "22edad32812b26375713fa84494de0c9adf2a47ef21d8c47da4806db9ba3dda7",
+  "max_hit_printable_ratio": 0.35443,
+  "padding_hits": 3,
+  "plan": "research/artifacts/cycle04/bifid-material-plan.json",
+  "result": "Exact Bifid output/suffix/parity rails and bounded passphrase representations supplies no recognized structure or scoped target match; finite negative only",
+  "status": "INCONCLUSIVE",
+  "structure_hits": 0,
+  "target_matches": 0,
+  "unique_passwords": 54
+}

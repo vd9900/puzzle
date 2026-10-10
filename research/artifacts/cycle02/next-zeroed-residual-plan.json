@@ -1,0 +1,5815 @@
+{
+  "candidate_set_sha256": "a2f10199f966e1f31f411299db3271a26334563b79066556e8e7bf5e4fa47e23",
+  "cipher_parameters": {
+    "cipher": "AES-256-CBC",
+    "iterations": 1,
+    "kdf": "EVP_BytesToKey",
+    "padding": "PKCS7",
+    "salt_and_ciphertext": "exact saved blobs; these unresolved cipher/KDF choices remain hypotheses"
+  },
+  "estimated_crypto_seconds": 0.0216,
+  "forms": [
+    {
+      "decoded": ".drbboarfccaroococuocrrcrrdfdxddbpdbbbodcoocbsadddoaoccfc",
+      "digits": "4968337980559877575275885886064866342633376577534396667975505",
+      "error": null,
+      "parameters": {
+        "alphabet": "known-checkerboard",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "a"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": "/isttxusmrrusxxrxraxrssrssimi.iitpitttxirxxrtquiiixuxrrmr",
+      "digits": "4968337980559877575275885886064866342633376577534396667975505",
+      "error": null,
+      "parameters": {
+        "alphabet": "matrixsumlist-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "a"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": "/egccfhgaddhgffdfdbfdggdggeae.eecuecccfedffdcvheeefhfddad",
+      "digits": "4968337980559877575275885886064866342633376577534396667975505",
+      "error": null,
+      "parameters": {
+        "alphabet": "plain-alphabet",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "a"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": "/hilleoisppoieepepaepiipiihsh.hhluhlllehpeeplvohhheoeppsp",
+      "digits": "4968337980559877575275885886064866342633376577534396667975505",
+      "error": null,
+      "parameters": {
+        "alphabet": "salphaseion-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "a"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": "/aieerxitmmxirrmrmhrmiimiiata.aaenaeeeramrrmepxaaarxrmmtm",
+      "digits": "4968337980559877575275885886064866342633376577534396667975505",
+      "error": null,
+      "parameters": {
+        "alphabet": "thematrixhasyou-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "a"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": null,
+      "digits": "5055797666934357756733362436684606885885725757789550897338694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "known-checkerboard",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "a"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": null,
+      "digits": "5055797666934357756733362436684606885885725757789550897338694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "matrixsumlist-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "a"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": null,
+      "digits": "5055797666934357756733362436684606885885725757789550897338694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "plain-alphabet",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "a"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": null,
+      "digits": "5055797666934357756733362436684606885885725757789550897338694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "salphaseion-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "a"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": null,
+      "digits": "5055797666934357756733362436684606885885725757789550897338694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "thematrixhasyou-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "a"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": ".drbboaricaroococfocrrcrrdnxddbmdbbbodcoocbsadddoaocci",
+      "digits": "4968337981559877575075885886164866340633376577534396667975515",
+      "error": null,
+      "parameters": {
+        "alphabet": "known-checkerboard",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "b"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": "/isttxusfrusxxrxrmxrssrssig.iitnitttxirxxrtquiiixuxrrf",
+      "digits": "4968337981559877575075885886164866340633376577534396667975515",
+      "error": null,
+      "parameters": {
+        "alphabet": "matrixsumlist-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "b"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": "/egccfhgndhgffdfdafdggdggeo.eecsecccfedffdcvheeefhfddn",
+      "digits": "4968337981559877575075885886164866340633376577534396667975515",
+      "error": null,
+      "parameters": {
+        "alphabet": "plain-alphabet",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "b"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": "/hilleoigpoieepepsepiipiihj.hhlrhlllehpeeplvohhheoeppg",
+      "digits": "4968337981559877575075885886164866340633376577534396667975515",
+      "error": null,
+      "parameters": {
+        "alphabet": "salphaseion-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "b"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": "/aieerxicmxirrmrmtrmiimiiad.aaekaeeeramrrmepxaaarxrmmc",
+      "digits": "4968337981559877575075885886164866340633376577534396667975515",
+      "error": null,
+      "parameters": {
+        "alphabet": "thematrixhasyou-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "b"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": null,
+      "digits": "5155797666934357756733360436684616885885705757789551897338694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "known-checkerboard",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "b"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": null,
+      "digits": "5155797666934357756733360436684616885885705757789551897338694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "matrixsumlist-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "b"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": null,
+      "digits": "5155797666934357756733360436684616885885705757789551897338694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "plain-alphabet",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "b"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": null,
+      "digits": "5155797666934357756733360436684616885885705757789551897338694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "salphaseion-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "b"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": null,
+      "digits": "5155797666934357756733360436684616885885705757789551897338694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "thematrixhasyou-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "b"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": ".drffoaricaroococuocrrcrrdnxddfpdfffodcoocfmadddoaocci",
+      "digits": "4968007981559877575275885886164866042600076577504096667975515",
+      "error": null,
+      "parameters": {
+        "alphabet": "known-checkerboard",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "c"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": "/ismmxusfrusxxrxraxrssrssig.iimpimmmxirxxrmnuiiixuxrrf",
+      "digits": "4968007981559877575275885886164866042600076577504096667975515",
+      "error": null,
+      "parameters": {
+        "alphabet": "matrixsumlist-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "c"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": "/egaafhgndhgffdfdbfdggdggeo.eeaueaaafedffdasheeefhfddn",
+      "digits": "4968007981559877575275885886164866042600076577504096667975515",
+      "error": null,
+      "parameters": {
+        "alphabet": "plain-alphabet",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "c"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": "/hisseoigpoieepepaepiipiihj.hhsuhsssehpeepsrohhheoeppg",
+      "digits": "4968007981559877575275885886164866042600076577504096667975515",
+      "error": null,
+      "parameters": {
+        "alphabet": "salphaseion-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "c"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": "/aittrxicmxirrmrmhrmiimiiad.aatnatttramrrmtkxaaarxrmmc",
+      "digits": "4968007981559877575275885886164866042600076577504096667975515",
+      "error": null,
+      "parameters": {
+        "alphabet": "thematrixhasyou-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "c"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": null,
+      "digits": "5155797666904057756700062406684616885885725757789551897008694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "known-checkerboard",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "c"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": null,
+      "digits": "5155797666904057756700062406684616885885725757789551897008694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "matrixsumlist-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "c"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": null,
+      "digits": "5155797666904057756700062406684616885885725757789551897008694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "plain-alphabet",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "c"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": null,
+      "digits": "5155797666904057756700062406684616885885725757789551897008694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "salphaseion-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "c"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": null,
+      "digits": "5155797666904057756700062406684616885885725757789551897008694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "thematrixhasyou-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "c"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": "fadrbboaricaroococuocrrcrrdnfrddbfudbbbodcoocbfbadddoaocci",
+      "digits": "0968337981559877575275885886160866302633376577530396667975515",
+      "error": null,
+      "parameters": {
+        "alphabet": "known-checkerboard",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "d"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": "muisttxusfrusxxrxraxrssrssigmsiitmaitttxirxxrtmtuiiixuxrrf",
+      "digits": "0968337981559877575275885886160866302633376577530396667975515",
+      "error": null,
+      "parameters": {
+        "alphabet": "matrixsumlist-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "d"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": "ahegccfhgndhgffdfdbfdggdggeoageecabecccfedffdcacheeefhfddn",
+      "digits": "0968337981559877575275885886160866302633376577530396667975515",
+      "error": null,
+      "parameters": {
+        "alphabet": "plain-alphabet",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "d"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": "sohilleoigpoieepepaepiipiihjsihhlsahlllehpeeplslohhheoeppg",
+      "digits": "0968337981559877575275885886160866302633376577530396667975515",
+      "error": null,
+      "parameters": {
+        "alphabet": "salphaseion-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "d"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": "txaieerxicmxirrmrmhrmiimiiadtiaaethaeeeramrrmetexaaarxrmmc",
+      "digits": "0968337981559877575275885886160866302633376577530396667975515",
+      "error": null,
+      "parameters": {
+        "alphabet": "thematrixhasyou-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "d"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": "cicoaodddabfbcoocdobbbdufbddrfdnrrcrrcoucocooracckaobbrdaf",
+      "digits": "5155797666930357756733362036680616885885725757789551897338690",
+      "error": null,
+      "parameters": {
+        "alphabet": "known-checkerboard",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "d"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": "rfrxuxiiiutmtrxxrixtttiamtiismigssrssrxarxrxxsurrjuxttsium",
+      "digits": "5155797666930357756733362036680616885885725757789551897338690",
+      "error": null,
+      "parameters": {
+        "alphabet": "matrixsumlist-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "d"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": "dndfhfeeehcacdffdefcccebaceegaeoggdggdfbdfdffghddqhfccgeha",
+      "digits": "5155797666930357756733362036680616885885725757789551897338690",
+      "error": null,
+      "parameters": {
+        "alphabet": "plain-alphabet",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "d"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": "pgpeoehhholslpeephelllhaslhhishjiipiipeapepeeioppmoellihos",
+      "digits": "5155797666930357756733362036680616885885725757789551897338690",
+      "error": null,
+      "parameters": {
+        "alphabet": "salphaseion-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "d"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": "mcmrxraaaxetemrrmareeeahteaaitadiimiimrhmrmrrixmmgxreeiaxt",
+      "digits": "5155797666930357756733362036680616885885725757789551897338690",
+      "error": null,
+      "parameters": {
+        "alphabet": "thematrixhasyou-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "d"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": ".drbboar/faroofofuofrrfrrdnxddbpdbbbodfoofbsadddoaoff/",
+      "digits": "4968337981009877070270880886164866342633376077034396667970010",
+      "error": null,
+      "parameters": {
+        "alphabet": "known-checkerboard",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "e"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": "/isttxuslmusxxmxmaxmssmssig.iitpitttximxxmtquiiixuxmml",
+      "digits": "4968337981009877070270880886164866342633376077034396667970010",
+      "error": null,
+      "parameters": {
+        "alphabet": "matrixsumlist-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "e"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": "/egccfhgiahgffafabfaggaggeo.eecuecccfeaffacvheeefhfaai",
+      "digits": "4968337981009877070270880886164866342633376077034396667970010",
+      "error": null,
+      "parameters": {
+        "alphabet": "plain-alphabet",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "e"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": "/hilleoinsoieesesaesiisiihj.hhluhlllehseeslvohhheoessn",
+      "digits": "4968337981009877070270880886164866342633376077034396667970010",
+      "error": null,
+      "parameters": {
+        "alphabet": "salphaseion-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "e"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": "/aieerxistxirrtrthrtiitiiad.aaenaeeeratrrtepxaaarxrtts",
+      "digits": "4968337981009877070270880886164866342633376077034396667970010",
+      "error": null,
+      "parameters": {
+        "alphabet": "thematrixhasyou-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "e"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": null,
+      "digits": "0100797666934307706733362436684616880880720707789001897338694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "known-checkerboard",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "e"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": null,
+      "digits": "0100797666934307706733362436684616880880720707789001897338694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "matrixsumlist-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "e"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": null,
+      "digits": "0100797666934307706733362436684616880880720707789001897338694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "plain-alphabet",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "e"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": null,
+      "digits": "0100797666934307706733362436684616880880720707789001897338694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "salphaseion-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "e"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": null,
+      "digits": "0100797666934307706733362436684616880880720707789001897338694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "thematrixhasyou-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "e"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": ".frbboaricaroococuocrrcrrf/xffbpfbbbofcoocbsafffoaocci",
+      "digits": "4908337981559877575275885880104800342033370577534390007975515",
+      "error": null,
+      "parameters": {
+        "alphabet": "known-checkerboard",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "f"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": "/msttxusfrusxxrxraxrssrssml.mmtpmtttxmrxxrtqummmxuxrrf",
+      "digits": "4908337981559877575275885880104800342033370577534390007975515",
+      "error": null,
+      "parameters": {
+        "alphabet": "matrixsumlist-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "f"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": "/agccfhgndhgffdfdbfdggdggai.aacuacccfadffdcvhaaafhfddn",
+      "digits": "4908337981559877575275885880104800342033370577534390007975515",
+      "error": null,
+      "parameters": {
+        "alphabet": "plain-alphabet",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "f"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": "/silleoigpoieepepaepiipiisn.ssluslllespeeplvossseoeppg",
+      "digits": "4908337981559877575275885880104800342033370577534390007975515",
+      "error": null,
+      "parameters": {
+        "alphabet": "salphaseion-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "f"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": "/tieerxicmxirrmrmhrmiimiits.ttenteeertmrrmepxtttrxrmmc",
+      "digits": "4908337981559877575275885880104800342033370577534390007975515",
+      "error": null,
+      "parameters": {
+        "alphabet": "thematrixhasyou-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "f"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": null,
+      "digits": "5155797000934357750733302430084010885885725757789551897338094",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "known-checkerboard",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "f"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": null,
+      "digits": "5155797000934357750733302430084010885885725757789551897338094",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "matrixsumlist-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "f"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": null,
+      "digits": "5155797000934357750733302430084010885885725757789551897338094",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "plain-alphabet",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "f"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": null,
+      "digits": "5155797000934357750733302430084010885885725757789551897338094",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "salphaseion-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "f"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": null,
+      "digits": "5155797000934357750733302430084010885885725757789551897338094",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "thematrixhasyou-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "f"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": ".drbbfaricarffcfcufcrrcrrdnxddbpdbbbfdcffcbsadddfafcci",
+      "digits": "4968330981559800505205885886164866342633306500534396660905515",
+      "error": null,
+      "parameters": {
+        "alphabet": "known-checkerboard",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "g"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": "/isttmusfrusmmrmramrssrssig.iitpitttmirmmrtquiiimumrrf",
+      "digits": "4968330981559800505205885886164866342633306500534396660905515",
+      "error": null,
+      "parameters": {
+        "alphabet": "matrixsumlist-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "g"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": "/egccahgndhgaadadbadggdggeo.eecuecccaedaadcvheeeahaddn",
+      "digits": "4968330981559800505205885886164866342633306500534396660905515",
+      "error": null,
+      "parameters": {
+        "alphabet": "plain-alphabet",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "g"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": "/hillsoigpoisspspaspiipiihj.hhluhlllshpssplvohhhsosppg",
+      "digits": "4968330981559800505205885886164866342633306500534396660905515",
+      "error": null,
+      "parameters": {
+        "alphabet": "salphaseion-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "g"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": "/aieetxicmxittmtmhtmiimiiad.aaenaeeetamttmepxaaatxtmmc",
+      "digits": "4968330981559800505205885886164866342633306500534396660905515",
+      "error": null,
+      "parameters": {
+        "alphabet": "thematrixhasyou-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "g"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": null,
+      "digits": "5155090666934350056033362436684616885885025050089551890338694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "known-checkerboard",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "g"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": null,
+      "digits": "5155090666934350056033362436684616885885025050089551890338694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "matrixsumlist-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "g"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": null,
+      "digits": "5155090666934350056033362436684616885885025050089551890338694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "plain-alphabet",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "g"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": null,
+      "digits": "5155090666934350056033362436684616885885025050089551890338694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "salphaseion-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "g"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": null,
+      "digits": "5155090666934350056033362436684616885885025050089551890338694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "thematrixhasyou-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "g"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": ".dfbboaficafoococuocffcffdnmddbpdbbbodcoocbsadddoaocci",
+      "digits": "4960337901559077575275005006164066342633376577534396667975515",
+      "error": null,
+      "parameters": {
+        "alphabet": "known-checkerboard",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "h"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": "/imttxumfrumxxrxraxrmmrmmigniitpitttxirxxrtquiiixuxrrf",
+      "digits": "4960337901559077575275005006164066342633376577534396667975515",
+      "error": null,
+      "parameters": {
+        "alphabet": "matrixsumlist-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "h"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": "/eaccfhandhaffdfdbfdaadaaeoseecuecccfedffdcvheeefhfddn",
+      "digits": "4960337901559077575275005006164066342633376577534396667975515",
+      "error": null,
+      "parameters": {
+        "alphabet": "plain-alphabet",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "h"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": "/hslleosgposeepepaepsspsshjrhhluhlllehpeeplvohhheoeppg",
+      "digits": "4960337901559077575275005006164066342633376577534396667975515",
+      "error": null,
+      "parameters": {
+        "alphabet": "salphaseion-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "h"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": "/ateerxtcmxtrrmrmhrmttmttadkaaenaeeeramrrmepxaaarxrmmc",
+      "digits": "4960337901559077575275005006164066342633376577534396667975515",
+      "error": null,
+      "parameters": {
+        "alphabet": "thematrixhasyou-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "h"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": null,
+      "digits": "5155797666934357756733362436604616005005725757709551097330694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "known-checkerboard",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "h"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": null,
+      "digits": "5155797666934357756733362436604616005005725757709551097330694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "matrixsumlist-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "h"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": null,
+      "digits": "5155797666934357756733362436604616005005725757709551097330694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "plain-alphabet",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "h"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": null,
+      "digits": "5155797666934357756733362436604616005005725757709551097330694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "salphaseion-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "h"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": null,
+      "digits": "5155797666934357756733362436604616005005725757709551097330694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "thematrixhasyou-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "h"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": "mdrbbofricfroococuocrrcrrdnxddbpdbbbodcoocbsfdddofocci",
+      "digits": "4068337081550877575275885886164866342633376577534306667075515",
+      "error": null,
+      "parameters": {
+        "alphabet": "known-checkerboard",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "i"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": "nisttxmsfrmsxxrxraxrssrssig.iitpitttxirxxrtqmiiixmxrrf",
+      "digits": "4068337081550877575275885886164866342633376577534306667075515",
+      "error": null,
+      "parameters": {
+        "alphabet": "matrixsumlist-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "i"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": "segccfagndagffdfdbfdggdggeo.eecuecccfedffdcvaeeefafddn",
+      "digits": "4068337081550877575275885886164866342633376577534306667075515",
+      "error": null,
+      "parameters": {
+        "alphabet": "plain-alphabet",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "i"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": "rhillesigpsieepepaepiipiihj.hhluhlllehpeeplvshhheseppg",
+      "digits": "4068337081550877575275885886164866342633376577534306667075515",
+      "error": null,
+      "parameters": {
+        "alphabet": "salphaseion-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "i"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": "kaieerticmtirrmrmhrmiimiiad.aaenaeeeramrrmeptaaartrmmc",
+      "digits": "4068337081550877575275885886164866342633376577534306667075515",
+      "error": null,
+      "parameters": {
+        "alphabet": "thematrixhasyou-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "i"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": null,
+      "digits": "5155707666034357756733362436684616885885725757780551807338604",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "known-checkerboard",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "i"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": null,
+      "digits": "5155707666034357756733362436684616885885725757780551807338604",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "matrixsumlist-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "i"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": null,
+      "digits": "5155707666034357756733362436684616885885725757780551807338604",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "plain-alphabet",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "i"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": null,
+      "digits": "5155707666034357756733362436684616885885725757780551807338604",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "salphaseion-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "i"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": null,
+      "digits": "5155707666034357756733362436684616885885725757780551807338604",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "thematrixhasyou-keyed",
+        "mask": 505,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "i"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeeae"
+    },
+    {
+      "decoded": ".drbboarfccaroococuocrrcrrdfdxddbpdbbbodcoocbsadddoaoccf",
+      "digits": "496833798055987757527588588606486634263337657753439666797550",
+      "error": null,
+      "parameters": {
+        "alphabet": "known-checkerboard",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "a"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": "/isttxusmrrusxxrxraxrssrssimi.iitpitttxirxxrtquiiixuxrrm",
+      "digits": "496833798055987757527588588606486634263337657753439666797550",
+      "error": null,
+      "parameters": {
+        "alphabet": "matrixsumlist-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "a"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": "/egccfhgaddhgffdfdbfdggdggeae.eecuecccfedffdcvheeefhfdda",
+      "digits": "496833798055987757527588588606486634263337657753439666797550",
+      "error": null,
+      "parameters": {
+        "alphabet": "plain-alphabet",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "a"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": "/hilleoisppoieepepaepiipiihsh.hhluhlllehpeeplvohhheoepps",
+      "digits": "496833798055987757527588588606486634263337657753439666797550",
+      "error": null,
+      "parameters": {
+        "alphabet": "salphaseion-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "a"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": "/aieerxitmmxirrmrmhrmiimiiata.aaenaeeeramrrmepxaaarxrmmt",
+      "digits": "496833798055987757527588588606486634263337657753439666797550",
+      "error": null,
+      "parameters": {
+        "alphabet": "thematrixhasyou-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "a"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "055797666934357756733362436684606885885725757789550897338694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "known-checkerboard",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "a"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "055797666934357756733362436684606885885725757789550897338694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "matrixsumlist-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "a"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "055797666934357756733362436684606885885725757789550897338694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "plain-alphabet",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "a"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "055797666934357756733362436684606885885725757789550897338694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "salphaseion-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "a"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "055797666934357756733362436684606885885725757789550897338694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "thematrixhasyou-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "a"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "496833798155987757507588588616486634063337657753439666797551",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "known-checkerboard",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "b"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "496833798155987757507588588616486634063337657753439666797551",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "matrixsumlist-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "b"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "496833798155987757507588588616486634063337657753439666797551",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "plain-alphabet",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "b"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "496833798155987757507588588616486634063337657753439666797551",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "salphaseion-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "b"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "496833798155987757507588588616486634063337657753439666797551",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "thematrixhasyou-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "b"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "155797666934357756733360436684616885885705757789551897338694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "known-checkerboard",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "b"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "155797666934357756733360436684616885885705757789551897338694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "matrixsumlist-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "b"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "155797666934357756733360436684616885885705757789551897338694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "plain-alphabet",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "b"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "155797666934357756733360436684616885885705757789551897338694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "salphaseion-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "b"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "155797666934357756733360436684616885885705757789551897338694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "thematrixhasyou-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "b"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "496800798155987757527588588616486604260007657750409666797551",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "known-checkerboard",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "c"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "496800798155987757527588588616486604260007657750409666797551",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "matrixsumlist-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "c"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "496800798155987757527588588616486604260007657750409666797551",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "plain-alphabet",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "c"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "496800798155987757527588588616486604260007657750409666797551",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "salphaseion-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "c"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "496800798155987757527588588616486604260007657750409666797551",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "thematrixhasyou-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "c"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "155797666904057756700062406684616885885725757789551897008694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "known-checkerboard",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "c"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "155797666904057756700062406684616885885725757789551897008694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "matrixsumlist-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "c"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "155797666904057756700062406684616885885725757789551897008694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "plain-alphabet",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "c"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "155797666904057756700062406684616885885725757789551897008694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "salphaseion-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "c"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "155797666904057756700062406684616885885725757789551897008694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "thematrixhasyou-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "c"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "096833798155987757527588588616086630263337657753039666797551",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "known-checkerboard",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "d"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "096833798155987757527588588616086630263337657753039666797551",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "matrixsumlist-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "d"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "096833798155987757527588588616086630263337657753039666797551",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "plain-alphabet",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "d"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "096833798155987757527588588616086630263337657753039666797551",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "salphaseion-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "d"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "096833798155987757527588588616086630263337657753039666797551",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "thematrixhasyou-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "d"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": "icoaodddabfbcoocdobbbdufbddrfdnrrcrrcoucocooracckaobbrdaf",
+      "digits": "155797666930357756733362036680616885885725757789551897338690",
+      "error": null,
+      "parameters": {
+        "alphabet": "known-checkerboard",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "d"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": "frxuxiiiutmtrxxrixtttiamtiismigssrssrxarxrxxsurrjuxttsium",
+      "digits": "155797666930357756733362036680616885885725757789551897338690",
+      "error": null,
+      "parameters": {
+        "alphabet": "matrixsumlist-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "d"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": "ndfhfeeehcacdffdefcccebaceegaeoggdggdfbdfdffghddqhfccgeha",
+      "digits": "155797666930357756733362036680616885885725757789551897338690",
+      "error": null,
+      "parameters": {
+        "alphabet": "plain-alphabet",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "d"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": "gpeoehhholslpeephelllhaslhhishjiipiipeapepeeioppmoellihos",
+      "digits": "155797666930357756733362036680616885885725757789551897338690",
+      "error": null,
+      "parameters": {
+        "alphabet": "salphaseion-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "d"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": "cmrxraaaxetemrrmareeeahteaaitadiimiimrhmrmrrixmmgxreeiaxt",
+      "digits": "155797666930357756733362036680616885885725757789551897338690",
+      "error": null,
+      "parameters": {
+        "alphabet": "thematrixhasyou-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "d"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "496833798100987707027088088616486634263337607703439666797001",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "known-checkerboard",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "e"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "496833798100987707027088088616486634263337607703439666797001",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "matrixsumlist-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "e"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "496833798100987707027088088616486634263337607703439666797001",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "plain-alphabet",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "e"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "496833798100987707027088088616486634263337607703439666797001",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "salphaseion-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "e"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "496833798100987707027088088616486634263337607703439666797001",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "thematrixhasyou-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "e"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "100797666934307706733362436684616880880720707789001897338694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "known-checkerboard",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "e"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "100797666934307706733362436684616880880720707789001897338694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "matrixsumlist-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "e"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "100797666934307706733362436684616880880720707789001897338694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "plain-alphabet",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "e"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "100797666934307706733362436684616880880720707789001897338694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "salphaseion-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "e"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "100797666934307706733362436684616880880720707789001897338694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "thematrixhasyou-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "e"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "490833798155987757527588588010480034203337057753439000797551",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "known-checkerboard",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "f"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "490833798155987757527588588010480034203337057753439000797551",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "matrixsumlist-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "f"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "490833798155987757527588588010480034203337057753439000797551",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "plain-alphabet",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "f"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "490833798155987757527588588010480034203337057753439000797551",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "salphaseion-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "f"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "490833798155987757527588588010480034203337057753439000797551",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "thematrixhasyou-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "f"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "155797000934357750733302430084010885885725757789551897338094",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "known-checkerboard",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "f"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "155797000934357750733302430084010885885725757789551897338094",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "matrixsumlist-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "f"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "155797000934357750733302430084010885885725757789551897338094",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "plain-alphabet",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "f"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "155797000934357750733302430084010885885725757789551897338094",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "salphaseion-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "f"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "155797000934357750733302430084010885885725757789551897338094",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "thematrixhasyou-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "f"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "496833098155980050520588588616486634263330650053439666090551",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "known-checkerboard",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "g"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "496833098155980050520588588616486634263330650053439666090551",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "matrixsumlist-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "g"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "496833098155980050520588588616486634263330650053439666090551",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "plain-alphabet",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "g"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "496833098155980050520588588616486634263330650053439666090551",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "salphaseion-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "g"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "496833098155980050520588588616486634263330650053439666090551",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "thematrixhasyou-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "g"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "155090666934350056033362436684616885885025050089551890338694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "known-checkerboard",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "g"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "155090666934350056033362436684616885885025050089551890338694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "matrixsumlist-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "g"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "155090666934350056033362436684616885885025050089551890338694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "plain-alphabet",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "g"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "155090666934350056033362436684616885885025050089551890338694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "salphaseion-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "g"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "155090666934350056033362436684616885885025050089551890338694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "thematrixhasyou-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "g"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "496033790155907757527500500616406634263337657753439666797551",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "known-checkerboard",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "h"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "496033790155907757527500500616406634263337657753439666797551",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "matrixsumlist-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "h"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "496033790155907757527500500616406634263337657753439666797551",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "plain-alphabet",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "h"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "496033790155907757527500500616406634263337657753439666797551",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "salphaseion-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "h"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "496033790155907757527500500616406634263337657753439666797551",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "thematrixhasyou-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "h"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "155797666934357756733362436604616005005725757709551097330694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "known-checkerboard",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "h"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "155797666934357756733362436604616005005725757709551097330694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "matrixsumlist-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "h"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "155797666934357756733362436604616005005725757709551097330694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "plain-alphabet",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "h"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "155797666934357756733362436604616005005725757709551097330694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "salphaseion-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "h"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "155797666934357756733362436604616005005725757709551097330694",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "thematrixhasyou-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "h"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "406833708155087757527588588616486634263337657753430666707551",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "known-checkerboard",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "i"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "406833708155087757527588588616486634263337657753430666707551",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "matrixsumlist-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "i"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "406833708155087757527588588616486634263337657753430666707551",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "plain-alphabet",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "i"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "406833708155087757527588588616486634263337657753430666707551",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "salphaseion-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "i"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "406833708155087757527588588616486634263337657753430666707551",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "thematrixhasyou-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": false,
+        "zeroed_symbol": "i"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "155707666034357756733362436684616885885725757780551807338604",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "known-checkerboard",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "i"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "155707666034357756733362436684616885885725757780551807338604",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "matrixsumlist-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "i"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "155707666034357756733362436684616885885725757780551807338604",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "plain-alphabet",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "i"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "155707666034357756733362436684616885885725757780551807338604",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "salphaseion-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "i"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    },
+    {
+      "decoded": null,
+      "digits": "155707666034357756733362436684616885885725757780551807338604",
+      "error": "Truncated row prefix",
+      "parameters": {
+        "alphabet": "thematrixhasyou-keyed",
+        "mask": 1017,
+        "prefixes": [
+          1,
+          4
+        ],
+        "reverse": true,
+        "zeroed_symbol": "i"
+      },
+      "residual": "difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea"
+    }
+  ],
+  "hypothesis": "Zeroing means replacing one residual symbol with digit zero, not deleting it; decode using the already reproduced checkerboard prefix pair",
+  "id": "C02-NEXT-ZEROED-RESIDUAL",
+  "justification": "Prime b/be markers explain part of the first block; creator-attributed zeroed-out hint and the independently reproduced downstream checkerboard motivate a finite comparison of nine zero assignments",
+  "limits": "Plan generation and strict checkerboard parsing only; no AES trials executed in this plan. The duplicate-symbol hint-phrase alphabet is invalid and excluded, not silently repaired. No symbol insertion/deletion, tail repair, prefix sweep or arbitrary alphabet permutation. Zeroing rule and parsed creator identity remain unverified.",
+  "passwords": {
+    "0167bda58caea13bf5a41deece5b88acf6e94f099b97b59674ae8580edc09f7a": {
+      "password_hex": "38f6764d3dbfe5afdc75caf0efdaaa92c335d792905342c162242a71b02a6a9a",
+      "provenance": [
+        {
+          "alphabet": "plain-alphabet",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": false,
+          "zeroed_symbol": "g"
+        }
+      ]
+    },
+    "01b4704efe1a2db7a79ef3669c1eb340722f82fe3570a448c1fae0dfd6439489": {
+      "password_hex": "2f68736c6c656f7367706f7365657065706165707373707373686a7268686c75686c6c6c6568706565706c766f686868656f65707067",
+      "provenance": [
+        {
+          "alphabet": "salphaseion-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": false,
+          "zeroed_symbol": "h"
+        }
+      ]
+    },
+    "05fe9b89ca5c6b0f7e0b89a4879e23a221b254c6e9d596fdf3f658db616ce2a0": {
+      "password_hex": "463305e2f7bf53f1734f4ca1f90a20f68dcefb9c6f07a65c1bf7da815937a033",
+      "provenance": [
+        {
+          "alphabet": "salphaseion-keyed",
+          "mask": 1017,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": false,
+          "zeroed_symbol": "a"
+        }
+      ]
+    },
+    "065829daa9dfee903457104b089e47655545055dafe9906076d0a790e357857e": {
+      "password_hex": "72667278757869696975746d7472787872697874747469616d746969736d696773737273737278617278727878737572726a757874747369756d",
+      "provenance": [
+        {
+          "alphabet": "matrixsumlist-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": true,
+          "zeroed_symbol": "d"
+        }
+      ]
+    },
+    "079c0d35b74f220e41d10b3455f28ee316576ca040053b5b20ee38949646101d": {
+      "password_hex": "2f656763636668676961686766666166616266616767616767656f2e6565637565636363666561666661637668656565666866616169",
+      "provenance": [
+        {
+          "alphabet": "plain-alphabet",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": false,
+          "zeroed_symbol": "e"
+        }
+      ]
+    },
+    "08912ff07ad893f67eafc5ded3b04b11c5b467cba957bee5330ffcebf52e1c2a": {
+      "password_hex": "5ef0d927ba4c3ff1d24d4e2a0bdb7e645d999efc0eda2670f7f0bef347eb602d",
+      "provenance": [
+        {
+          "alphabet": "salphaseion-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": false,
+          "zeroed_symbol": "a"
+        }
+      ]
+    },
+    "0ab319cb7b230f4237f78fb5e010ca0d292645bb278c6a2d4e2b7cee9f4f21c1": {
+      "password_hex": "2f697374747875736c6d757378786d786d61786d73736d737369672e696974706974747478696d78786d7471756969697875786d6d6c",
+      "provenance": [
+        {
+          "alphabet": "matrixsumlist-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": false,
+          "zeroed_symbol": "e"
+        }
+      ]
+    },
+    "0bc17453ab90306fd02605f8e91da9ecc8fb6d29cec23eeaa713bb2e4f0fde5d": {
+      "password_hex": "6e4d51458a244ccaa7504e339508bd39428b1cae127a108ea7f80cf8e2ab5371",
+      "provenance": [
+        {
+          "alphabet": "salphaseion-keyed",
+          "mask": 1017,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": true,
+          "zeroed_symbol": "d"
+        }
+      ]
+    },
+    "0c938ad998cfa711c56fdc95ef7f1cc4ee83791d942e707d2643b5dc3b1ca513": {
+      "password_hex": "d9b2b9ac1615caa107930708bd48b66fb4eb117bfc8f1ed9da26a37ca6053f1a",
+      "provenance": [
+        {
+          "alphabet": "thematrixhasyou-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": false,
+          "zeroed_symbol": "c"
+        }
+      ]
+    },
+    "0eceed3eba8bd2e7047900cecc8efdff8ed7ccaab4e88c03c003641b9f59c64b": {
+      "password_hex": "434c058e2df3d2a488483ec6c00768beb19f8c7fc7a036095cc3a8ae570711d4",
+      "provenance": [
+        {
+          "alphabet": "salphaseion-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": true,
+          "zeroed_symbol": "d"
+        }
+      ]
+    },
+    "12f4c1dfc8ad84e54f6fe3cf818cfa5e4140eb9fcb9c7420c67b80ea60982968": {
+      "password_hex": "fc7484e5e2f2ee9c909e04da88da05a59d11f6e7ea1e00aa875227ad8ab89f9a",
+      "provenance": [
+        {
+          "alphabet": "known-checkerboard",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": false,
+          "zeroed_symbol": "d"
+        }
+      ]
+    },
+    "179800ade433fdb56dcea09b9566934fa8863da0e500060024b5cac183a4577c": {
+      "password_hex": "32313036393862326439346535633733613564363766333432363434613637303666323039656536303666643366646135636239616330656364643339663839",
+      "provenance": [
+        {
+          "alphabet": "thematrixhasyou-keyed",
+          "mask": 1017,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": true,
+          "zeroed_symbol": "d"
+        }
+      ]
+    },
+    "1c115b8cabc5b33d92cd7a6627c2387b99c895174ae8fd1d5880063280c6d6ad": {
+      "password_hex": "659181886ceebf39d86efedcaf113f3cab56aca901a2deefa2414495b7106750",
+      "provenance": [
+        {
+          "alphabet": "matrixsumlist-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": false,
+          "zeroed_symbol": "c"
+        }
+      ]
+    },
+    "210698b2d94e5c73a5d67f342644a6706f209ee606fd3fda5cb9ac0ecdd39f89": {
+      "password_hex": "636d727872616161786574656d72726d61726565656168746561616974616469696d69696d72686d726d727269786d6d677872656569617874",
+      "provenance": [
+        {
+          "alphabet": "thematrixhasyou-keyed",
+          "mask": 1017,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": true,
+          "zeroed_symbol": "d"
+        }
+      ]
+    },
+    "236e898411fa7d7fe0f82df561533570e8869ee5f9d8ef7bed9ecc4cdc57e517": {
+      "password_hex": "2f68697373656f6967706f6965657065706165706969706969686a2e686873756873737365687065657073726f686868656f65707067",
+      "provenance": [
+        {
+          "alphabet": "salphaseion-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": false,
+          "zeroed_symbol": "c"
+        }
+      ]
+    },
+    "23e5fd4ad7848e78574f99afc84c8f66cfe41d7d27a860fce68d61f49ef47d30": {
+      "password_hex": "37383761366336346630313161616534353833653737613733346465656335383437396162343966613034653939323762616662623332376536646462623730",
+      "provenance": [
+        {
+          "alphabet": "plain-alphabet",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": true,
+          "zeroed_symbol": "d"
+        }
+      ]
+    },
+    "26110654538afedcae4346050ec541a7bde2d0bb2915663272aaa98ec6536bcf": {
+      "password_hex": "33de828d22cf7fbf856470e7f70d4b821d73c07aa9224981d505a3ddf11bb840",
+      "provenance": [
+        {
+          "alphabet": "thematrixhasyou-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": false,
+          "zeroed_symbol": "i"
+        }
+      ]
+    },
+    "273c6f7725c8db7309bec8593689a452dbfc8b97c07fc1adcb5cc66a55419d7d": {
+      "password_hex": "2e647262626f617266636361726f6f636f63756f6372726372726466647864646270646262626f64636f6f636273616464646f616f636366",
+      "provenance": [
+        {
+          "alphabet": "known-checkerboard",
+          "mask": 1017,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": false,
+          "zeroed_symbol": "a"
+        }
+      ]
+    },
+    "27a4a5c558ee0f61bb158802c5c25a55d74e08fcc2fdc02ee2722736e7d10ffe": {
+      "password_hex": "6168656763636668676e64686766666466646266646767646767656f61676565636162656363636665646666646361636865656566686664646e",
+      "provenance": [
+        {
+          "alphabet": "plain-alphabet",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": false,
+          "zeroed_symbol": "d"
+        }
+      ]
+    },
+    "2a74f752ab2b06356c1c9e69c1c20fec47377060cf0077bbf318b00da4cd66ac": {
+      "password_hex": "2e647262626f617266636361726f6f636f63756f6372726372726466647864646270646262626f64636f6f636273616464646f616f63636663",
+      "provenance": [
+        {
+          "alphabet": "known-checkerboard",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": false,
+          "zeroed_symbol": "a"
+        }
+      ]
+    },
+    "2c83bd90e0889ec937f66bd781f573595db36d27899fe97792f059cf45f319b9": {
+      "password_hex": "a7cf2c2904720278e65d0bb6b968f65e2406e39c378d42f84be5e41afe49942a",
+      "provenance": [
+        {
+          "alphabet": "plain-alphabet",
+          "mask": 1017,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": false,
+          "zeroed_symbol": "a"
+        }
+      ]
+    },
+    "2d46dc9aa1441f8e55f770c7379d26642c09fbf2bd73f2d95f6b46bc99adfdf2": {
+      "password_hex": "32333665383938343131666137643766653066383264663536313533333537306538383639656535663964386566376265643965636334636463353765353137",
+      "provenance": [
+        {
+          "alphabet": "salphaseion-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": false,
+          "zeroed_symbol": "c"
+        }
+      ]
+    },
+    "3216cd61fded438ecddb35b1e837b38f495eed9e5e45a06a74ab086081c915b2": {
+      "password_hex": "747861696565727869636d786972726d726d68726d69696d69696164746961616574686165656572616d72726d657465786161617278726d6d63",
+      "provenance": [
+        {
+          "alphabet": "thematrixhasyou-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": false,
+          "zeroed_symbol": "d"
+        }
+      ]
+    },
+    "32c47df636b7f0a3dc8fa1fa5b4ff75469a09942b0f08dd8757edb3cde0c8e44": {
+      "password_hex": "db39225b3c8737d1bf07680e5701625bdbc0e090f2150d3c74703cdb426aee00",
+      "provenance": [
+        {
+          "alphabet": "matrixsumlist-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": false,
+          "zeroed_symbol": "d"
+        }
+      ]
+    },
+    "32c4e30f61729c738dc4b72c96c54d26dc29c5d3f9ae3a985c8b2cf53d1342fb": {
+      "password_hex": "2f61746565727874636d787472726d726d68726d74746d747461646b6161656e6165656572616d72726d6570786161617278726d6d63",
+      "provenance": [
+        {
+          "alphabet": "thematrixhasyou-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": false,
+          "zeroed_symbol": "h"
+        }
+      ]
+    },
+    "33de828d22cf7fbf856470e7f70d4b821d73c07aa9224981d505a3ddf11bb840": {
+      "password_hex": "6b61696565727469636d746972726d726d68726d69696d696961642e6161656e6165656572616d72726d6570746161617274726d6d63",
+      "provenance": [
+        {
+          "alphabet": "thematrixhasyou-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": false,
+          "zeroed_symbol": "i"
+        }
+      ]
+    },
+    "34e014bfb0cf3bf9454e2e170324fb8ac6d5873d6c0544b116da8ea221549963": {
+      "password_hex": "30363538323964616139646665653930333435373130346230383965343736353535343530353564616665393930363037366430613739306533353738353765",
+      "provenance": [
+        {
+          "alphabet": "matrixsumlist-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": true,
+          "zeroed_symbol": "d"
+        }
+      ]
+    },
+    "350da1bf91c5bcecc4890c7595c738216cf50e4f33867d15d835e89721b9325f": {
+      "password_hex": "66633734383465356532663265653963393039653034646138386461303561353964313166366537656131653030616138373532323761643861623839663961",
+      "provenance": [
+        {
+          "alphabet": "known-checkerboard",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": false,
+          "zeroed_symbol": "d"
+        }
+      ]
+    },
+    "38d1e1ea38932125c1b8a98f784eaf518f01971d12d1bc8e08f089a3f4322c78": {
+      "password_hex": "2f68696c6c656f6967706f6965657065707365706969706969686a2e68686c72686c6c6c6568706565706c766f686868656f65707067",
+      "provenance": [
+        {
+          "alphabet": "salphaseion-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": false,
+          "zeroed_symbol": "b"
+        }
+      ]
+    },
+    "38f6764d3dbfe5afdc75caf0efdaaa92c335d792905342c162242a71b02a6a9a": {
+      "password_hex": "2f656763636168676e64686761616461646261646767646767656f2e656563756563636361656461616463766865656561686164646e",
+      "provenance": [
+        {
+          "alphabet": "plain-alphabet",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": false,
+          "zeroed_symbol": "g"
+        }
+      ]
+    },
+    "3ae6a91474dcfce0cb4f40407d0e56c761d1e503ef6a2e974e33068dfdf98f88": {
+      "password_hex": "bfe3e5444e7c277640052b4ab8f2339dbcda24933a5a9a69671f39089fffbf86",
+      "provenance": [
+        {
+          "alphabet": "known-checkerboard",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": false,
+          "zeroed_symbol": "e"
+        }
+      ]
+    },
+    "3cf18ca4eac5821f1d63cca2a463ec7ee4ab7923cff9f145ba6a5c30007a2b64": {
+      "password_hex": "34333463303538653264663364326134383834383365633663303037363862656231396638633766633761303336303935636333613861653537303731316434",
+      "provenance": [
+        {
+          "alphabet": "salphaseion-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": true,
+          "zeroed_symbol": "d"
+        }
+      ]
+    },
+    "3dad0462854d1609a96538f027db903fd5d9203c6d3773f5789941e5a4fbd78a": {
+      "password_hex": "33386636373634643364626665356166646337356361663065666461616139326333333564373932393035333432633136323234326137316230326136613961",
+      "provenance": [
+        {
+          "alphabet": "plain-alphabet",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": false,
+          "zeroed_symbol": "g"
+        }
+      ]
+    },
+    "3f2f1184ce24628c4bfbf40729b4e1379834348bb7a734cf1567f8858274879a": {
+      "password_hex": "2f61696565727869746d6d786972726d726d68726d69696d69696174612e6161656e6165656572616d72726d6570786161617278726d6d74",
+      "provenance": [
+        {
+          "alphabet": "thematrixhasyou-keyed",
+          "mask": 1017,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": false,
+          "zeroed_symbol": "a"
+        }
+      ]
+    },
+    "40b11529a120405df4740febc60a506f5539ce6315ebe1b7131bc04d476b3c97": {
+      "password_hex": "66366662616639386530643765343438303066323461363665306661333338653361656331323363636363393761323164383038323861643061616331303538",
+      "provenance": [
+        {
+          "alphabet": "known-checkerboard",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": false,
+          "zeroed_symbol": "b"
+        }
+      ]
+    },
+    "41dcb197e17affb96fcf90f22bc2947b6242dbce6f257320314c6e9bbd9f3f57": {
+      "password_hex": "32373363366637373235633864623733303962656338353933363839613435326462666338623937633037666331616463623563633636613535343139643764",
+      "provenance": [
+        {
+          "alphabet": "known-checkerboard",
+          "mask": 1017,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": false,
+          "zeroed_symbol": "a"
+        }
+      ]
+    },
+    "434c058e2df3d2a488483ec6c00768beb19f8c7fc7a036095cc3a8ae570711d4": {
+      "password_hex": "706770656f656868686f6c736c7065657068656c6c6c6861736c68686973686a69697069697065617065706565696f70706d6f656c6c69686f73",
+      "provenance": [
+        {
+          "alphabet": "salphaseion-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": true,
+          "zeroed_symbol": "d"
+        }
+      ]
+    },
+    "44676fb44d439aa805c4d56368227afcca81bbd5d430fdeef6c52532c9cafe31": {
+      "password_hex": "9c08716a4b89686cf1d102ce154132ec6f6a66b14ac26ceb11820fe98a1239ed",
+      "provenance": [
+        {
+          "alphabet": "plain-alphabet",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": false,
+          "zeroed_symbol": "i"
+        }
+      ]
+    },
+    "45c87173f1eb5925b08c69e14346d9f7a585fc90ff3bcf15e40ac2ea4077d221": {
+      "password_hex": "66336136383938633965303963353365353963343866346532386562306138373762316237663163366666393633353337366430323734326163636166613939",
+      "provenance": [
+        {
+          "alphabet": "salphaseion-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": false,
+          "zeroed_symbol": "d"
+        }
+      ]
+    },
+    "463305e2f7bf53f1734f4ca1f90a20f68dcefb9c6f07a65c1bf7da815937a033": {
+      "password_hex": "2f68696c6c656f697370706f69656570657061657069697069696873682e68686c75686c6c6c6568706565706c766f686868656f65707073",
+      "provenance": [
+        {
+          "alphabet": "salphaseion-keyed",
+          "mask": 1017,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": false,
+          "zeroed_symbol": "a"
+        }
+      ]
+    },
+    "465df8b86d68b2a18b8e22b324541ba57d82a6780238b4eebc3d5f51f5777fa2": {
+      "password_hex": "2e667262626f6172696361726f6f636f63756f637272637272662f7866666270666262626f66636f6f636273616666666f616f636369",
+      "provenance": [
+        {
+          "alphabet": "known-checkerboard",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": false,
+          "zeroed_symbol": "f"
+        }
+      ]
+    },
+    "4aa9c2953d8d1877e107ef3f92bb0e987a058f68094b1f4d7a45f624d79da025": {
+      "password_hex": "de9e5e2b3d6474056f3e6a4522960c6461d9e3337740a02770b1a4fe25f067d1",
+      "provenance": [
+        {
+          "alphabet": "plain-alphabet",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": false,
+          "zeroed_symbol": "f"
+        }
+      ]
+    },
+    "4b5e4e037befb6a76939edbf7ea6b407a9fa203365b91a68fdd8c27ce5e0ecce": {
+      "password_hex": "38d1e1ea38932125c1b8a98f784eaf518f01971d12d1bc8e08f089a3f4322c78",
+      "provenance": [
+        {
+          "alphabet": "salphaseion-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": false,
+          "zeroed_symbol": "b"
+        }
+      ]
+    },
+    "4ee27a82ef998cc0765e26be13e6345c7b871a25b473822c7bc7097f75902d8d": {
+      "password_hex": "35656630643932376261346333666631643234643465326130626462376536343564393939656663306564613236373066376630626566333437656236303264",
+      "provenance": [
+        {
+          "alphabet": "salphaseion-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": false,
+          "zeroed_symbol": "a"
+        }
+      ]
+    },
+    "4efab4771a9ae5d8db214ab191f5f2a25f1fa5c9a24e9d0cfcc1f17e04a05227": {
+      "password_hex": "e992727ee5db8a41f387a42b503d8708e6341a76ca7db82e7ff94b5305edc589",
+      "provenance": [
+        {
+          "alphabet": "known-checkerboard",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": false,
+          "zeroed_symbol": "i"
+        }
+      ]
+    },
+    "50e463ca15a235eecfffee5bef0429b3cc2a49e92a547c2d5654e191328f6793": {
+      "password_hex": "bdbb2e92d4be03c36171308efd7e86b397144cd39f8ee870d731523c4da45547",
+      "provenance": [
+        {
+          "alphabet": "matrixsumlist-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": false,
+          "zeroed_symbol": "b"
+        }
+      ]
+    },
+    "51fd701f655516f173cf386de6fc022aa8c15b2ec32db323d05addcc18acfb3c": {
+      "password_hex": "35373236636231346333663736653230323833313937393665666564353266356566633138343636346432656631343937303839343739333063323931323736",
+      "provenance": [
+        {
+          "alphabet": "salphaseion-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": false,
+          "zeroed_symbol": "f"
+        }
+      ]
+    },
+    "525147d56bc8087c7011f5025b643f50824bf35d735b07b1c599fc5ba6c52434": {
+      "password_hex": "2f697374746d7573667275736d6d726d72616d72737372737369672e69697470697474746d69726d6d727471756969696d756d727266",
+      "provenance": [
+        {
+          "alphabet": "matrixsumlist-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": false,
+          "zeroed_symbol": "g"
+        }
+      ]
+    },
+    "53bd7d6414cd75e19f06c579f6a2432a69b0524ec62e1551aff4516771f6bf33": {
+      "password_hex": "63613132323965373566386132323030353930333565333261306530613363623864323562356338663234353433373031623832393830633138666661326435",
+      "provenance": [
+        {
+          "alphabet": "plain-alphabet",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": false,
+          "zeroed_symbol": "a"
+        }
+      ]
+    },
+    "5726cb14c3f76e2028319796efed52f5efc184664d2ef149708947930c291276": {
+      "password_hex": "2f73696c6c656f6967706f6965657065706165706969706969736e2e73736c75736c6c6c6573706565706c766f737373656f65707067",
+      "provenance": [
+        {
+          "alphabet": "salphaseion-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": false,
+          "zeroed_symbol": "f"
+        }
+      ]
+    },
+    "5729cdc6a19c00ff9b1d34beb6a3247cd3d031f1a6cce7354ae8901a61598404": {
+      "password_hex": "079c0d35b74f220e41d10b3455f28ee316576ca040053b5b20ee38949646101d",
+      "provenance": [
+        {
+          "alphabet": "plain-alphabet",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": false,
+          "zeroed_symbol": "e"
+        }
+      ]
+    },
+    "58081d53f4831c28df1b070c2ec39cabc9bd7d44d9f421601aa712d44aea45f9": {
+      "password_hex": "65313361613830323938353565666633613238643932353235353662666636393130356635396465656532323837613765666664653836393063323139626262",
+      "provenance": [
+        {
+          "alphabet": "matrixsumlist-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": false,
+          "zeroed_symbol": "h"
+        }
+      ]
+    },
+    "586c6243517d2b13b2bd28faac1c63c23dcd9f215f462d683294c77a037b99e7": {
+      "password_hex": "d6e8492162e04ffd7d37b7c3f4adf32b0bbed5ad96e3da256a76ce84e8f371bf",
+      "provenance": [
+        {
+          "alphabet": "thematrixhasyou-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": false,
+          "zeroed_symbol": "g"
+        }
+      ]
+    },
+    "587bd7deea25ddf5f9700cd35918f010302488d70ba1ba117dcd3d96ca6cc5e3": {
+      "password_hex": "2f68696c6c736f6967706f6973737073706173706969706969686a2e68686c75686c6c6c7368707373706c766f686868736f73707067",
+      "provenance": [
+        {
+          "alphabet": "salphaseion-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": false,
+          "zeroed_symbol": "g"
+        }
+      ]
+    },
+    "594eadaa688732345c132dc7921395d3d5ee9e8e9a8b2c2b3440d960b5b3e69e": {
+      "password_hex": "61663230633866343835353964356465393637373361373339626230663437353162636663333864396161386266666166303166646334396238383066323965",
+      "provenance": [
+        {
+          "alphabet": "thematrixhasyou-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": true,
+          "zeroed_symbol": "d"
+        }
+      ]
+    },
+    "5af8e5eb742627f0bf99053dd3aa57684a45d3d74fba8c772ef2d56f743f279e": {
+      "password_hex": "63306133613332383332303864343731346338656530316435656338333166363163383538643561393465356339646332613639353533653839303237363238",
+      "provenance": [
+        {
+          "alphabet": "thematrixhasyou-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": false,
+          "zeroed_symbol": "a"
+        }
+      ]
+    },
+    "5baeb0304461402d99992c69a3bd96693d81040973616b27f8ae2fe58ce3e1c7": {
+      "password_hex": "61646239356464613830363435363063373030616165303563343635393662373066376465326133613031336166396236643032396637643664646335323862",
+      "provenance": [
+        {
+          "alphabet": "known-checkerboard",
+          "mask": 1017,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": true,
+          "zeroed_symbol": "d"
+        }
+      ]
+    },
+    "5c7f8bd8cf44ec463df1fb3f700a6a381c8ccb572fd738a2e78e8a7a38908eee": {
+      "password_hex": "2e647262626661726963617266666366637566637272637272646e786464627064626262666463666663627361646464666166636369",
+      "provenance": [
+        {
+          "alphabet": "known-checkerboard",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": false,
+          "zeroed_symbol": "g"
+        }
+      ]
+    },
+    "5cd0e0d408538a3bb7ff7fc48a0bc42c0c455dc8e1e5f3198493de8961f45ade": {
+      "password_hex": "2f656163636668616e64686166666466646266646161646161656f73656563756563636366656466666463766865656566686664646e",
+      "provenance": [
+        {
+          "alphabet": "plain-alphabet",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": false,
+          "zeroed_symbol": "h"
+        }
+      ]
+    },
+    "5dbd75042cf58c8ba78b351c0c07b6cbcbec39e461b0b4d7975f9ad0cc3945fd": {
+      "password_hex": "5726cb14c3f76e2028319796efed52f5efc184664d2ef149708947930c291276",
+      "provenance": [
+        {
+          "alphabet": "salphaseion-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": false,
+          "zeroed_symbol": "f"
+        }
+      ]
+    },
+    "5ef0d927ba4c3ff1d24d4e2a0bdb7e645d999efc0eda2670f7f0bef347eb602d": {
+      "password_hex": "2f68696c6c656f697370706f69656570657061657069697069696873682e68686c75686c6c6c6568706565706c766f686868656f6570707370",
+      "provenance": [
+        {
+          "alphabet": "salphaseion-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": false,
+          "zeroed_symbol": "a"
+        }
+      ]
+    },
+    "6167509edfb472c1c3434c69d940815602c50a3b0e6afa2968373e06b470b9c0": {
+      "password_hex": "210698b2d94e5c73a5d67f342644a6706f209ee606fd3fda5cb9ac0ecdd39f89",
+      "provenance": [
+        {
+          "alphabet": "thematrixhasyou-keyed",
+          "mask": 1017,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": true,
+          "zeroed_symbol": "d"
+        }
+      ]
+    },
+    "6348b79f9ad616ae6e94d3d71ef0ca7c9aa77ef280b19fa2dff8976f44b51b17": {
+      "password_hex": "2f6d73747478757366727573787872787261787273737273736d6c2e6d6d74706d747474786d727878727471756d6d6d787578727266",
+      "provenance": [
+        {
+          "alphabet": "matrixsumlist-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": false,
+          "zeroed_symbol": "f"
+        }
+      ]
+    },
+    "649ab6f45b0db568f9fe090899e2cc0975074385c604297b1c523064afdf1228": {
+      "password_hex": "0ab319cb7b230f4237f78fb5e010ca0d292645bb278c6a2d4e2b7cee9f4f21c1",
+      "provenance": [
+        {
+          "alphabet": "matrixsumlist-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": false,
+          "zeroed_symbol": "e"
+        }
+      ]
+    },
+    "659181886ceebf39d86efedcaf113f3cab56aca901a2deefa2414495b7106750": {
+      "password_hex": "2f69736d6d787573667275737878727872617872737372737369672e69696d70696d6d6d7869727878726d6e75696969787578727266",
+      "provenance": [
+        {
+          "alphabet": "matrixsumlist-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": false,
+          "zeroed_symbol": "c"
+        }
+      ]
+    },
+    "6606a94a05877e7858bbfeddb94c04e0ac2a9a66146f27097442b843809746e9": {
+      "password_hex": "33386431653165613338393332313235633162386139386637383465616635313866303139373164313264316263386530386630383961336634333232633738",
+      "provenance": [
+        {
+          "alphabet": "salphaseion-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": false,
+          "zeroed_symbol": "b"
+        }
+      ]
+    },
+    "66403e25e50b79385bbe9bb1c320786bff427adb1522459fa4bd363acb4b7efd": {
+      "password_hex": "33663266313138346365323436323863346266626634303732396234653133373938333433343862623761373334636631353637663838353832373438373961",
+      "provenance": [
+        {
+          "alphabet": "thematrixhasyou-keyed",
+          "mask": 1017,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": false,
+          "zeroed_symbol": "a"
+        }
+      ]
+    },
+    "688f8721b186ee3b2b4858a9f73b0843c1a93b5ab54de18bacffdf206441f2b9": {
+      "password_hex": "2f697374747875736d7272757378787278726178727373727373696d692e696974706974747478697278787274717569696978757872726d",
+      "provenance": [
+        {
+          "alphabet": "matrixsumlist-keyed",
+          "mask": 1017,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": false,
+          "zeroed_symbol": "a"
+        }
+      ]
+    },
+    "68ddb9dab491fce2b25e59d6d4542e686dabb8aa288e58b344eb2fb55ca42faa": {
+      "password_hex": "2e646662626f6166696361666f6f636f63756f636666636666646e6d64646270646262626f64636f6f636273616464646f616f636369",
+      "provenance": [
+        {
+          "alphabet": "known-checkerboard",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": false,
+          "zeroed_symbol": "h"
+        }
+      ]
+    },
+    "697c58ad37951a30f373a1cdea1e9f440c9c865afe847f4f566032f5ed39c433": {
+      "password_hex": "61343030633963323663303761393639643030346337326666383662656163356333366639373338316462353137366430356161613730613364306134393966",
+      "provenance": [
+        {
+          "alphabet": "matrixsumlist-keyed",
+          "mask": 1017,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": true,
+          "zeroed_symbol": "d"
+        }
+      ]
+    },
+    "69a8f77001071b4d718c4a02f65a34cf7b692725e8a17d3a08ad319478929c77": {
+      "password_hex": "273c6f7725c8db7309bec8593689a452dbfc8b97c07fc1adcb5cc66a55419d7d",
+      "provenance": [
+        {
+          "alphabet": "known-checkerboard",
+          "mask": 1017,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": false,
+          "zeroed_symbol": "a"
+        }
+      ]
+    },
+    "6a1e2e8acac5ab764ccb9217c7ae6b531c695e315d0962e29f75d005d112a841": {
+      "password_hex": "465df8b86d68b2a18b8e22b324541ba57d82a6780238b4eebc3d5f51f5777fa2",
+      "provenance": [
+        {
+          "alphabet": "known-checkerboard",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": false,
+          "zeroed_symbol": "f"
+        }
+      ]
+    },
+    "6d17e30a55210c74bdee0e4416cbd92c47e69a70c52c9fbee59d8040200dad19": {
+      "password_hex": "36333438623739663961643631366165366539346433643731656630636137633961613737656632383062313966613264666638393736663434623531623137",
+      "provenance": [
+        {
+          "alphabet": "matrixsumlist-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": false,
+          "zeroed_symbol": "f"
+        }
+      ]
+    },
+    "6e4d51458a244ccaa7504e339508bd39428b1cae127a108ea7f80cf8e2ab5371": {
+      "password_hex": "6770656f656868686f6c736c7065657068656c6c6c6861736c68686973686a69697069697065617065706565696f70706d6f656c6c69686f73",
+      "provenance": [
+        {
+          "alphabet": "salphaseion-keyed",
+          "mask": 1017,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": true,
+          "zeroed_symbol": "d"
+        }
+      ]
+    },
+    "71177188e64e3c02a96847ed6d3cc07c76cab6134bce932c58c1afef4363eff9": {
+      "password_hex": "34363333303565326637626635336631373334663463613166393061323066363864636566623963366630376136356331626637646138313539333761303333",
+      "provenance": [
+        {
+          "alphabet": "salphaseion-keyed",
+          "mask": 1017,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": false,
+          "zeroed_symbol": "a"
+        }
+      ]
+    },
+    "729583076d3912fa1f6daca5de8190b839a355c9fcfaaa16f8e3a77326cccf63": {
+      "password_hex": "5c7f8bd8cf44ec463df1fb3f700a6a381c8ccb572fd738a2e78e8a7a38908eee",
+      "provenance": [
+        {
+          "alphabet": "known-checkerboard",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": false,
+          "zeroed_symbol": "g"
+        }
+      ]
+    },
+    "77f4b8a542d8f067d96fac81d355a0167254aac5f8edf9ffb7bc6b8ed0a41e3e": {
+      "password_hex": "62666533653534343465376332373736343030353262346162386632333339646263646132343933336135613961363936373166333930383966666662663836",
+      "provenance": [
+        {
+          "alphabet": "known-checkerboard",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": false,
+          "zeroed_symbol": "e"
+        }
+      ]
+    },
+    "787a4e17c3f116ccc549a8166ccc70967f2dc94719af4bbde01ad29eaec54d91": {
+      "password_hex": "65303339373637343334323663643630333866356638643764303265336337623731633934633766366637373037343233313961626365653330356266343766",
+      "provenance": [
+        {
+          "alphabet": "thematrixhasyou-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": false,
+          "zeroed_symbol": "f"
+        }
+      ]
+    },
+    "787a6c64f011aae4583e77a734deec58479ab49fa04e9927bafbb327e6ddbb70": {
+      "password_hex": "646e64666866656565686361636466666465666363636562616365656761656f6767646767646662646664666667686464716866636367656861",
+      "provenance": [
+        {
+          "alphabet": "plain-alphabet",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": true,
+          "zeroed_symbol": "d"
+        }
+      ]
+    },
+    "7bc188d2dfbd471f712d23e8d6942a5912f77f492ee0b6981e9698cf4e9138e9": {
+      "password_hex": "38313133396531636332313339343563336333643433666532373932303031303165626165396166656534663339666333643130313035626264316339613162",
+      "provenance": [
+        {
+          "alphabet": "known-checkerboard",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": true,
+          "zeroed_symbol": "d"
+        }
+      ]
+    },
+    "7cc2deda93777d2d334dfdb9bcc63fcb33c8caffd1ab1238be5200cf26ddc5b8": {
+      "password_hex": "62646262326539326434626530336333363137313330386566643765383662333937313434636433396638656538373064373331353233633464613435353437",
+      "provenance": [
+        {
+          "alphabet": "matrixsumlist-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": false,
+          "zeroed_symbol": "b"
+        }
+      ]
+    },
+    "7d2f1bb86a7bce8e8c9f163c095499de0be936591bec98096296792c41415d3e": {
+      "password_hex": "812d87fa7721602a75f6e5051efdc01dc5adaca42bb87dc32235b2f3c7380f8c",
+      "provenance": [
+        {
+          "alphabet": "known-checkerboard",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": false,
+          "zeroed_symbol": "c"
+        }
+      ]
+    },
+    "7f38c45a1bcc43b9ad78cba92887cd7885cfb5761335782f4fe26591100b9d13": {
+      "password_hex": "6e69737474786d7366726d737878727872617872737372737369672e696974706974747478697278787274716d696969786d78727266",
+      "provenance": [
+        {
+          "alphabet": "matrixsumlist-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": false,
+          "zeroed_symbol": "i"
+        }
+      ]
+    },
+    "7f52d2d7621b239345c27fc570e135f0d8966d9f3d4a479e829e0d7219deaba6": {
+      "password_hex": "64366538343932313632653034666664376433376237633366346164663332623062626564356164393665336461323536613736636538346538663337316266",
+      "provenance": [
+        {
+          "alphabet": "thematrixhasyou-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": false,
+          "zeroed_symbol": "g"
+        }
+      ]
+    },
+    "81139e1cc213945c3c3d43fe279200101ebae9afee4f39fc3d10105bbd1c9a1b": {
+      "password_hex": "6369636f616f64646461626662636f6f63646f6262626475666264647266646e7272637272636f75636f636f6f726163636b616f626272646166",
+      "provenance": [
+        {
+          "alphabet": "known-checkerboard",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": true,
+          "zeroed_symbol": "d"
+        }
+      ]
+    },
+    "812d87fa7721602a75f6e5051efdc01dc5adaca42bb87dc32235b2f3c7380f8c": {
+      "password_hex": "2e647266666f6172696361726f6f636f63756f637272637272646e7864646670646666666f64636f6f63666d616464646f616f636369",
+      "provenance": [
+        {
+          "alphabet": "known-checkerboard",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": false,
+          "zeroed_symbol": "c"
+        }
+      ]
+    },
+    "83309b82de67a7fc2c0399011b856ce80892c42e0551bd240e59bc7ff42befc7": {
+      "password_hex": "36353931383138383663656562663339643836656665646361663131336633636162353661636139303161326465656661323431343439356237313036373530",
+      "provenance": [
+        {
+          "alphabet": "matrixsumlist-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": false,
+          "zeroed_symbol": "c"
+        }
+      ]
+    },
+    "8356e3fb3e2e44fb0fa74f3631395799cb13628e6ef24c033427327427abcb49": {
+      "password_hex": "61376366326332393034373230323738653635643062623662393638663635653234303665333963333738643432663834626535653431616665343939343261",
+      "provenance": [
+        {
+          "alphabet": "plain-alphabet",
+          "mask": 1017,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": false,
+          "zeroed_symbol": "a"
+        }
+      ]
+    },
+    "86441fd9398729afe73b4c2ea82b12bfa5c1a8eb3ccdf83f352105d576d1fee4": {
+      "password_hex": "e03976743426cd6038f5f8d7d02e3c7b71c94c7f6f770742319abcee305bf47f",
+      "provenance": [
+        {
+          "alphabet": "thematrixhasyou-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": false,
+          "zeroed_symbol": "f"
+        }
+      ]
+    },
+    "89323fdc184d32c1d6a0eeb5cf0410cc69db70f8f489c59c13d04e863a889ab9": {
+      "password_hex": "63656538346565386164353834356664383434613938643261313431356634346536643432636539306231343034343862616333636338666430393034616433",
+      "provenance": [
+        {
+          "alphabet": "plain-alphabet",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": false,
+          "zeroed_symbol": "c"
+        }
+      ]
+    },
+    "8cd99578517c58a25add92905be290464952bfbc1ca10f1f2a513d83d02b4297": {
+      "password_hex": "065829daa9dfee903457104b089e47655545055dafe9906076d0a790e357857e",
+      "provenance": [
+        {
+          "alphabet": "matrixsumlist-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": true,
+          "zeroed_symbol": "d"
+        }
+      ]
+    },
+    "8e0e564bf7e6527747b42d93c26047caa000dc6a86aeb7a17b40b51dfcb7e7d8": {
+      "password_hex": "525147d56bc8087c7011f5025b643f50824bf35d735b07b1c599fc5ba6c52434",
+      "provenance": [
+        {
+          "alphabet": "matrixsumlist-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": false,
+          "zeroed_symbol": "g"
+        }
+      ]
+    },
+    "90d41fa5a9eed1df4b8676f692bf15d159f2a9bc7bd90537baba03e195986c07": {
+      "password_hex": "36653464353134353861323434636361613735303465333339353038626433393432386231636165313237613130386561376638306366386532616235333731",
+      "provenance": [
+        {
+          "alphabet": "salphaseion-keyed",
+          "mask": 1017,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": true,
+          "zeroed_symbol": "d"
+        }
+      ]
+    },
+    "91b1455958456f50ba62fb7b17126b19436efbf4a7239eaa93467027061554a6": {
+      "password_hex": "64396232623961633136313563616131303739333037303862643438623636666234656231313762666338663165643964613236613337636136303533663161",
+      "provenance": [
+        {
+          "alphabet": "thematrixhasyou-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": false,
+          "zeroed_symbol": "c"
+        }
+      ]
+    },
+    "922e0fd1edd8d50499b693aa5125644e06848fc45af4cc4ac327214b9805f853": {
+      "password_hex": "64636632386630343236343330306131623038366166306538626539303735653335336164333437346366356165623764333262633939656239373361376631",
+      "provenance": [
+        {
+          "alphabet": "salphaseion-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": false,
+          "zeroed_symbol": "e"
+        }
+      ]
+    },
+    "937d499a603750f1d18bd2d80b1a63af7d111025f750a7254e85a43c6ac06e96": {
+      "password_hex": "2f61696565727869737478697272747274687274696974696961642e6161656e61656565726174727274657078616161727872747473",
+      "provenance": [
+        {
+          "alphabet": "thematrixhasyou-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": false,
+          "zeroed_symbol": "e"
+        }
+      ]
+    },
+    "9428dfcdc42a3f19cc927c8f8720fb879c950de1036272766932c8b9529594e3": {
+      "password_hex": "937d499a603750f1d18bd2d80b1a63af7d111025f750a7254e85a43c6ac06e96",
+      "provenance": [
+        {
+          "alphabet": "thematrixhasyou-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": false,
+          "zeroed_symbol": "e"
+        }
+      ]
+    },
+    "94c9d1d9f2036d2f80360e627435b52eff233fa6e103b15691bd8b473e73794f": {
+      "password_hex": "35383762643764656561323564646635663937303063643335393138663031303330323438386437306261316261313137646364336439366361366363356533",
+      "provenance": [
+        {
+          "alphabet": "salphaseion-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": false,
+          "zeroed_symbol": "g"
+        }
+      ]
+    },
+    "94f0f825c4b9ae22ce6efb9bfbfd272c0a990ae8182370d84efff20a7b062d16": {
+      "password_hex": "236e898411fa7d7fe0f82df561533570e8869ee5f9d8ef7bed9ecc4cdc57e517",
+      "provenance": [
+        {
+          "alphabet": "salphaseion-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": false,
+          "zeroed_symbol": "c"
+        }
+      ]
+    },
+    "9a1e4dcfedd780fba98dfdf35a1a64b32cd9f6a20323bac9ff405bfe07adb063": {
+      "password_hex": "35633766386264386366343465633436336466316662336637303061366133383163386363623537326664373338613265373865386137613338393038656565",
+      "provenance": [
+        {
+          "alphabet": "known-checkerboard",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": false,
+          "zeroed_symbol": "g"
+        }
+      ]
+    },
+    "9a52376504bcd25e6f15f379eb9de843f0d3c63320cef4375dcbff6d25262b54": {
+      "password_hex": "2f61696565727869636d786972726d726d74726d69696d696961642e6161656b6165656572616d72726d6570786161617278726d6d63",
+      "provenance": [
+        {
+          "alphabet": "thematrixhasyou-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": false,
+          "zeroed_symbol": "b"
+        }
+      ]
+    },
+    "9c08716a4b89686cf1d102ce154132ec6f6a66b14ac26ceb11820fe98a1239ed": {
+      "password_hex": "73656763636661676e64616766666466646266646767646767656f2e656563756563636366656466666463766165656566616664646e",
+      "provenance": [
+        {
+          "alphabet": "plain-alphabet",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": false,
+          "zeroed_symbol": "i"
+        }
+      ]
+    },
+    "9d54387406b3933a67919e4ddd053bd73bc9787371bb148f26d92e360cf2347f": {
+      "password_hex": "64623339323235623363383733376431626630373638306535373031363235626462633065303930663231353064336337343730336364623432366165653030",
+      "provenance": [
+        {
+          "alphabet": "matrixsumlist-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": false,
+          "zeroed_symbol": "d"
+        }
+      ]
+    },
+    "9eeec4a9ebb7eec96f241beb7fc7b8a123e6653f85712619fe8c0563b658d1ed": {
+      "password_hex": "62333434346561663032373732393439656266333138323561336161383432343138666564313136376234386662306136333033326634383838626538623165",
+      "provenance": [
+        {
+          "alphabet": "salphaseion-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": false,
+          "zeroed_symbol": "i"
+        }
+      ]
+    },
+    "9ff7a1612dd07538a810042c57e7e467ef58573b9235eb5fcbc20fdd2df813ef": {
+      "password_hex": "a400c9c26c07a969d004c72ff86beac5c36f97381db5176d05aaa70a3d0a499f",
+      "provenance": [
+        {
+          "alphabet": "matrixsumlist-keyed",
+          "mask": 1017,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": true,
+          "zeroed_symbol": "d"
+        }
+      ]
+    },
+    "a1d31a5daa23e735f8ee53b10a6de4ce68a92fe134df8c59764020c1cd91cfbf": {
+      "password_hex": "81139e1cc213945c3c3d43fe279200101ebae9afee4f39fc3d10105bbd1c9a1b",
+      "provenance": [
+        {
+          "alphabet": "known-checkerboard",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": true,
+          "zeroed_symbol": "d"
+        }
+      ]
+    },
+    "a3b6688cb0e8913a29aca347726d5bdb1a912bf403911574b823ecf46e1eb0c3": {
+      "password_hex": "cee84ee8ad5845fd844a98d2a1415f44e6d42ce90b140448bac3cc8fd0904ad3",
+      "provenance": [
+        {
+          "alphabet": "plain-alphabet",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": false,
+          "zeroed_symbol": "c"
+        }
+      ]
+    },
+    "a400c9c26c07a969d004c72ff86beac5c36f97381db5176d05aaa70a3d0a499f": {
+      "password_hex": "667278757869696975746d7472787872697874747469616d746969736d696773737273737278617278727878737572726a757874747369756d",
+      "provenance": [
+        {
+          "alphabet": "matrixsumlist-keyed",
+          "mask": 1017,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": true,
+          "zeroed_symbol": "d"
+        }
+      ]
+    },
+    "a4a628e2750f32475e40a833dda15c685d4d9b1be6852b7346648229db812148": {
+      "password_hex": "38313264383766613737323136303261373566366535303531656664633031646335616461636134326262383764633332323335623266336337333830663863",
+      "provenance": [
+        {
+          "alphabet": "known-checkerboard",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": false,
+          "zeroed_symbol": "c"
+        }
+      ]
+    },
+    "a4c96686964b8257eb50ae9feabc37b09d339b87a3ab5c25a98d5aece350aa8d": {
+      "password_hex": "dcf28f04264300a1b086af0e8be9075e353ad3474cf5aeb7d32bc99eb973a7f1",
+      "provenance": [
+        {
+          "alphabet": "salphaseion-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": false,
+          "zeroed_symbol": "e"
+        }
+      ]
+    },
+    "a5114da9311f7ca088993a25d92db54ab7123b2163d8d81742244371a8aefb08": {
+      "password_hex": "fb327301446dfa9588e0fe9461eff592d4265f5c98d1b8b1e1dda5233a3b3a1c",
+      "provenance": [
+        {
+          "alphabet": "plain-alphabet",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": false,
+          "zeroed_symbol": "b"
+        }
+      ]
+    },
+    "a559dc0d9ee1354aeb797b53577c511b039e1a936b2c28539009a90c6cb8e5a2": {
+      "password_hex": "f3a6898c9e09c53e59c48f4e28eb0a877b1b7f1c6ff9635376d02742accafa99",
+      "provenance": [
+        {
+          "alphabet": "salphaseion-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": false,
+          "zeroed_symbol": "d"
+        }
+      ]
+    },
+    "a7cf2c2904720278e65d0bb6b968f65e2406e39c378d42f84be5e41afe49942a": {
+      "password_hex": "2f656763636668676164646867666664666462666467676467676561652e6565637565636363666564666664637668656565666866646461",
+      "provenance": [
+        {
+          "alphabet": "plain-alphabet",
+          "mask": 1017,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": false,
+          "zeroed_symbol": "a"
+        }
+      ]
+    },
+    "a84bcb749d313c71894ec0f10330817a6ce1ae397e48ce58c427d91ac30194fb": {
+      "password_hex": "68ddb9dab491fce2b25e59d6d4542e686dabb8aa288e58b344eb2fb55ca42faa",
+      "provenance": [
+        {
+          "alphabet": "known-checkerboard",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": false,
+          "zeroed_symbol": "h"
+        }
+      ]
+    },
+    "a8a5e5f1652f0553bea588ea689152a705efe6525c46913a42af11292a567e1f": {
+      "password_hex": "39633038373136613462383936383663663164313032636531353431333265633666366136366231346163323663656231313832306665393861313233396564",
+      "provenance": [
+        {
+          "alphabet": "plain-alphabet",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": false,
+          "zeroed_symbol": "i"
+        }
+      ]
+    },
+    "a9576460da20f161ae84dfb4af2729ca9d92ff6033c540d52c5729993d0fa41d": {
+      "password_hex": "bff89902aa5b9d554dac56c280183822d756af4e8d241f57cc866aa93f849a64",
+      "provenance": [
+        {
+          "alphabet": "plain-alphabet",
+          "mask": 1017,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": true,
+          "zeroed_symbol": "d"
+        }
+      ]
+    },
+    "a9927cd70230e4b9daf3ad42cc80f695fccf574f7d0055719be685807c2e8a52": {
+      "password_hex": "9a52376504bcd25e6f15f379eb9de843f0d3c63320cef4375dcbff6d25262b54",
+      "provenance": [
+        {
+          "alphabet": "thematrixhasyou-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": false,
+          "zeroed_symbol": "b"
+        }
+      ]
+    },
+    "ab499219d922fa81bdce35d453c41e1403a48eaafb1e71e0ccba7080283f6435": {
+      "password_hex": "33323136636436316664656434333865636464623335623165383337623338663439356565643965356534356130366137346162303836303831633931356232",
+      "provenance": [
+        {
+          "alphabet": "thematrixhasyou-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": false,
+          "zeroed_symbol": "d"
+        }
+      ]
+    },
+    "abcdbb6549d51fab47122e4914e2893dddd49e5ddcfa010f510465e726ee764c": {
+      "password_hex": "36386464623964616234393166636532623235653539643664343534326536383664616262386161323838653538623334346562326662353563613432666161",
+      "provenance": [
+        {
+          "alphabet": "known-checkerboard",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": false,
+          "zeroed_symbol": "h"
+        }
+      ]
+    },
+    "ad07cbc4fb0e4479c19f1f9a848184f67f5ef8a108467471a536a03764b34893": {
+      "password_hex": "37663338633435613162636334336239616437386362613932383837636437383835636662353736313333353738326634666532363539313130306239643133",
+      "provenance": [
+        {
+          "alphabet": "matrixsumlist-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": false,
+          "zeroed_symbol": "i"
+        }
+      ]
+    },
+    "adb95dda8064560c700aae05c46596b70f7de2a3a013af9b6d029f7d6ddc528b": {
+      "password_hex": "69636f616f64646461626662636f6f63646f6262626475666264647266646e7272637272636f75636f636f6f726163636b616f626272646166",
+      "provenance": [
+        {
+          "alphabet": "known-checkerboard",
+          "mask": 1017,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": true,
+          "zeroed_symbol": "d"
+        }
+      ]
+    },
+    "af20c8f48559d5de96773a739bb0f4751bcfc38d9aa8bffaf01fdc49b880f29e": {
+      "password_hex": "6d636d727872616161786574656d72726d61726565656168746561616974616469696d69696d72686d726d727269786d6d677872656569617874",
+      "provenance": [
+        {
+          "alphabet": "thematrixhasyou-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": true,
+          "zeroed_symbol": "d"
+        }
+      ]
+    },
+    "b18dcb99c2648eaf30db664a5b27bb7832fb994dc4ad229d01e5dedb83c5cb7d": {
+      "password_hex": "7f38c45a1bcc43b9ad78cba92887cd7885cfb5761335782f4fe26591100b9d13",
+      "provenance": [
+        {
+          "alphabet": "matrixsumlist-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": false,
+          "zeroed_symbol": "i"
+        }
+      ]
+    },
+    "b3444eaf02772949ebf31825a3aa842418fed1167b48fb0a63032f4888be8b1e": {
+      "password_hex": "7268696c6c6573696770736965657065706165706969706969686a2e68686c75686c6c6c6568706565706c7673686868657365707067",
+      "provenance": [
+        {
+          "alphabet": "salphaseion-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": false,
+          "zeroed_symbol": "i"
+        }
+      ]
+    },
+    "b40290cdf779bf1ef4d18c0cc904c4fc4eea04d9fef4f998df4693a8ca7a0985": {
+      "password_hex": "27a4a5c558ee0f61bb158802c5c25a55d74e08fcc2fdc02ee2722736e7d10ffe",
+      "provenance": [
+        {
+          "alphabet": "plain-alphabet",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": false,
+          "zeroed_symbol": "d"
+        }
+      ]
+    },
+    "b4359f109f9f78cba54f75d6c4c9cf57ca5b8870c17a645ab4a43350c09e60a4": {
+      "password_hex": "30373963306433356237346632323065343164313062333435356632386565333136353736636130343030353362356232306565333839343936343631303164",
+      "provenance": [
+        {
+          "alphabet": "plain-alphabet",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": false,
+          "zeroed_symbol": "e"
+        }
+      ]
+    },
+    "b90c74a7a81d4376a1ba7e46a57b433820122047081f2c14832e4ac364ddc53d": {
+      "password_hex": "30316234373034656665316132646237613739656633363639633165623334303732326638326665333537306134343863316661653064666436343339343839",
+      "provenance": [
+        {
+          "alphabet": "salphaseion-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": false,
+          "zeroed_symbol": "h"
+        }
+      ]
+    },
+    "b947efbd8206e506208fb06877f76c1d7bc297183a2ba04d521069fbe493a684": {
+      "password_hex": "65393932373237656535646238613431663338376134326235303364383730386536333431613736636137646238326537666639346235333035656463353839",
+      "provenance": [
+        {
+          "alphabet": "known-checkerboard",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": false,
+          "zeroed_symbol": "i"
+        }
+      ]
+    },
+    "b9e6d84933daed367a59f195b5ef11b6b187c4e855793ef76cedfa6c0a5cfc4d": {
+      "password_hex": "32613734663735326162326230363335366331633965363963316332306665633437333737303630636630303737626266333138623030646134636436366163",
+      "provenance": [
+        {
+          "alphabet": "known-checkerboard",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": false,
+          "zeroed_symbol": "a"
+        }
+      ]
+    },
+    "baec13cb8ecf3ffd4446617ea9c8f570b3b33721847760bd8f1d618e3a59200f": {
+      "password_hex": "ca1229e75f8a220059035e32a0e0a3cb8d25b5c8f24543701b82980c18ffa2d5",
+      "provenance": [
+        {
+          "alphabet": "plain-alphabet",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": false,
+          "zeroed_symbol": "a"
+        }
+      ]
+    },
+    "bdbb2e92d4be03c36171308efd7e86b397144cd39f8ee870d731523c4da45547": {
+      "password_hex": "2f697374747875736672757378787278726d7872737372737369672e6969746e69747474786972787872747175696969787578727266",
+      "provenance": [
+        {
+          "alphabet": "matrixsumlist-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": false,
+          "zeroed_symbol": "b"
+        }
+      ]
+    },
+    "bf7ddfa50e93b6db22fba6840953fa387065819a1555d1ecc44966bb3ab29ffe": {
+      "password_hex": "33326334653330663631373239633733386463346237326339366335346432366463323963356433663961653361393835633862326366353364313334326662",
+      "provenance": [
+        {
+          "alphabet": "thematrixhasyou-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": false,
+          "zeroed_symbol": "h"
+        }
+      ]
+    },
+    "bfe3e5444e7c277640052b4ab8f2339dbcda24933a5a9a69671f39089fffbf86": {
+      "password_hex": "2e647262626f61722f6661726f6f666f66756f667272667272646e7864646270646262626f64666f6f666273616464646f616f66662f",
+      "provenance": [
+        {
+          "alphabet": "known-checkerboard",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": false,
+          "zeroed_symbol": "e"
+        }
+      ]
+    },
+    "bff89902aa5b9d554dac56c280183822d756af4e8d241f57cc866aa93f849a64": {
+      "password_hex": "6e64666866656565686361636466666465666363636562616365656761656f6767646767646662646664666667686464716866636367656861",
+      "provenance": [
+        {
+          "alphabet": "plain-alphabet",
+          "mask": 1017,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": true,
+          "zeroed_symbol": "d"
+        }
+      ]
+    },
+    "c04998e6265eb8ec9caf6f3d3b6b876b79269f6a6b3525267296016fac085871": {
+      "password_hex": "30616233313963623762323330663432333766373866623565303130636130643239323634356262323738633661326434653262376365653966346632316331",
+      "provenance": [
+        {
+          "alphabet": "matrixsumlist-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": false,
+          "zeroed_symbol": "e"
+        }
+      ]
+    },
+    "c0a3a3283208d4714c8ee01d5ec831f61c858d5a94e5c9dc2a69553e89027628": {
+      "password_hex": "2f61696565727869746d6d786972726d726d68726d69696d69696174612e6161656e6165656572616d72726d6570786161617278726d6d746d",
+      "provenance": [
+        {
+          "alphabet": "thematrixhasyou-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": false,
+          "zeroed_symbol": "a"
+        }
+      ]
+    },
+    "c548d20f603d3df54d427c84b6898db51589108d25d75dba76496b8918fafec5": {
+      "password_hex": "b3444eaf02772949ebf31825a3aa842418fed1167b48fb0a63032f4888be8b1e",
+      "provenance": [
+        {
+          "alphabet": "salphaseion-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": false,
+          "zeroed_symbol": "i"
+        }
+      ]
+    },
+    "c9141e8af588d2f07c722cf74fa9f6fe4327dbed0dced857a10e68824e7038e7": {
+      "password_hex": "62666638393930326161356239643535346461633536633238303138333832326437353661663465386432343166353763633836366161393366383439613634",
+      "provenance": [
+        {
+          "alphabet": "plain-alphabet",
+          "mask": 1017,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": true,
+          "zeroed_symbol": "d"
+        }
+      ]
+    },
+    "ca1229e75f8a220059035e32a0e0a3cb8d25b5c8f24543701b82980c18ffa2d5": {
+      "password_hex": "2f656763636668676164646867666664666462666467676467676561652e656563756563636366656466666463766865656566686664646164",
+      "provenance": [
+        {
+          "alphabet": "plain-alphabet",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": false,
+          "zeroed_symbol": "a"
+        }
+      ]
+    },
+    "ccb43813e56bd7f14827b6382493f2c6c3a41734c8daf98a4bbd632f249dc17c": {
+      "password_hex": "32c4e30f61729c738dc4b72c96c54d26dc29c5d3f9ae3a985c8b2cf53d1342fb",
+      "provenance": [
+        {
+          "alphabet": "thematrixhasyou-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": false,
+          "zeroed_symbol": "h"
+        }
+      ]
+    },
+    "ccfb25044e0fab921b9a8f50156c46bb9d5694eec25ba5dce9250db9a26649c1": {
+      "password_hex": "3f2f1184ce24628c4bfbf40729b4e1379834348bb7a734cf1567f8858274879a",
+      "provenance": [
+        {
+          "alphabet": "thematrixhasyou-keyed",
+          "mask": 1017,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": false,
+          "zeroed_symbol": "a"
+        }
+      ]
+    },
+    "ce8a810fb76f924d7413cbbf38bf889125546c84c73e65b0a3918488306f6264": {
+      "password_hex": "35636430653064343038353338613362623766663766633438613062633432633063343535646338653165356633313938343933646538393631663435616465",
+      "provenance": [
+        {
+          "alphabet": "plain-alphabet",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": false,
+          "zeroed_symbol": "h"
+        }
+      ]
+    },
+    "ce96f8eb8166719ae722adb906f3fc8cc167461d23a0034eb7cfb9006229be05": {
+      "password_hex": "2f697374747875736d7272757378787278726178727373727373696d692e696974706974747478697278787274717569696978757872726d72",
+      "provenance": [
+        {
+          "alphabet": "matrixsumlist-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": false,
+          "zeroed_symbol": "a"
+        }
+      ]
+    },
+    "cee84ee8ad5845fd844a98d2a1415f44e6d42ce90b140448bac3cc8fd0904ad3": {
+      "password_hex": "2f656761616668676e64686766666466646266646767646767656f2e656561756561616166656466666461736865656566686664646e",
+      "provenance": [
+        {
+          "alphabet": "plain-alphabet",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": false,
+          "zeroed_symbol": "c"
+        }
+      ]
+    },
+    "d4710ff41f894a2702aab5bc1659dfcb06eb4571b2e679dbd2741eb93d904aa1": {
+      "password_hex": "6348b79f9ad616ae6e94d3d71ef0ca7c9aa77ef280b19fa2dff8976f44b51b17",
+      "provenance": [
+        {
+          "alphabet": "matrixsumlist-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": false,
+          "zeroed_symbol": "f"
+        }
+      ]
+    },
+    "d47ec6932e625f7d64550faff945926d4354cf3c2a193c46941206b7b966c696": {
+      "password_hex": "787a6c64f011aae4583e77a734deec58479ab49fa04e9927bafbb327e6ddbb70",
+      "provenance": [
+        {
+          "alphabet": "plain-alphabet",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": true,
+          "zeroed_symbol": "d"
+        }
+      ]
+    },
+    "d6e8492162e04ffd7d37b7c3f4adf32b0bbed5ad96e3da256a76ce84e8f371bf": {
+      "password_hex": "2f61696565747869636d786974746d746d68746d69696d696961642e6161656e6165656574616d74746d6570786161617478746d6d63",
+      "provenance": [
+        {
+          "alphabet": "thematrixhasyou-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": false,
+          "zeroed_symbol": "g"
+        }
+      ]
+    },
+    "d8b00640083c8109952e54bd00615415f3e98219a790132f406d484faf8262b5": {
+      "password_hex": "e13aa8029855eff3a28d9252556bff69105f59deee2287a7effde8690c219bbb",
+      "provenance": [
+        {
+          "alphabet": "matrixsumlist-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": false,
+          "zeroed_symbol": "h"
+        }
+      ]
+    },
+    "d9b2b9ac1615caa107930708bd48b66fb4eb117bfc8f1ed9da26a37ca6053f1a": {
+      "password_hex": "2f61697474727869636d786972726d726d68726d69696d696961642e6161746e6174747472616d72726d746b786161617278726d6d63",
+      "provenance": [
+        {
+          "alphabet": "thematrixhasyou-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": false,
+          "zeroed_symbol": "c"
+        }
+      ]
+    },
+    "db39225b3c8737d1bf07680e5701625bdbc0e090f2150d3c74703cdb426aee00": {
+      "password_hex": "6d7569737474787573667275737878727872617872737372737369676d736969746d6169747474786972787872746d7475696969787578727266",
+      "provenance": [
+        {
+          "alphabet": "matrixsumlist-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": false,
+          "zeroed_symbol": "d"
+        }
+      ]
+    },
+    "dc914da9b3d640b48f550df1e9f46b85177df721b729db0f7d443578627f4440": {
+      "password_hex": "af20c8f48559d5de96773a739bb0f4751bcfc38d9aa8bffaf01fdc49b880f29e",
+      "provenance": [
+        {
+          "alphabet": "thematrixhasyou-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": true,
+          "zeroed_symbol": "d"
+        }
+      ]
+    },
+    "dcf28f04264300a1b086af0e8be9075e353ad3474cf5aeb7d32bc99eb973a7f1": {
+      "password_hex": "2f68696c6c656f696e736f6965657365736165736969736969686a2e68686c75686c6c6c6568736565736c766f686868656f6573736e",
+      "provenance": [
+        {
+          "alphabet": "salphaseion-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": false,
+          "zeroed_symbol": "e"
+        }
+      ]
+    },
+    "de806c86d462e736015326db6318c081d0bd398d54ec51e8093a3b7eb10e3505": {
+      "password_hex": "01b4704efe1a2db7a79ef3669c1eb340722f82fe3570a448c1fae0dfd6439489",
+      "provenance": [
+        {
+          "alphabet": "salphaseion-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": false,
+          "zeroed_symbol": "h"
+        }
+      ]
+    },
+    "de9e5e2b3d6474056f3e6a4522960c6461d9e3337740a02770b1a4fe25f067d1": {
+      "password_hex": "2f616763636668676e6468676666646664626664676764676761692e616163756163636366616466666463766861616166686664646e",
+      "provenance": [
+        {
+          "alphabet": "plain-alphabet",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": false,
+          "zeroed_symbol": "f"
+        }
+      ]
+    },
+    "e03976743426cd6038f5f8d7d02e3c7b71c94c7f6f770742319abcee305bf47f": {
+      "password_hex": "2f74696565727869636d786972726d726d68726d69696d696974732e7474656e7465656572746d72726d6570787474747278726d6d63",
+      "provenance": [
+        {
+          "alphabet": "thematrixhasyou-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": false,
+          "zeroed_symbol": "f"
+        }
+      ]
+    },
+    "e0de938b0c6f9dda3b23a818840d97e0eb7c3e9413732abe292dc4c8ff9a99dd": {
+      "password_hex": "c0a3a3283208d4714c8ee01d5ec831f61c858d5a94e5c9dc2a69553e89027628",
+      "provenance": [
+        {
+          "alphabet": "thematrixhasyou-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": false,
+          "zeroed_symbol": "a"
+        }
+      ]
+    },
+    "e13aa8029855eff3a28d9252556bff69105f59deee2287a7effde8690c219bbb": {
+      "password_hex": "2f696d747478756d6672756d78787278726178726d6d726d6d69676e6969747069747474786972787872747175696969787578727266",
+      "provenance": [
+        {
+          "alphabet": "matrixsumlist-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": false,
+          "zeroed_symbol": "h"
+        }
+      ]
+    },
+    "e18d157c692fd6120880fe27c4ac269da7a5efe4137333ae5e43d6e85f315d50": {
+      "password_hex": "35323531343764353662633830383763373031316635303235623634336635303832346266333564373335623037623163353939666335626136633532343334",
+      "provenance": [
+        {
+          "alphabet": "matrixsumlist-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": false,
+          "zeroed_symbol": "g"
+        }
+      ]
+    },
+    "e234a4dc452d0f17211a186cb7a407379f56ade82954d0963122144b09a36594": {
+      "password_hex": "ce96f8eb8166719ae722adb906f3fc8cc167461d23a0034eb7cfb9006229be05",
+      "provenance": [
+        {
+          "alphabet": "matrixsumlist-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": false,
+          "zeroed_symbol": "a"
+        }
+      ]
+    },
+    "e2ab942ec4c930b0a01929954735bdbe0c181a48e9300ebc6d4b2a01a85fbd29": {
+      "password_hex": "36383866383732316231383665653362326234383538613966373362303834336331613933623561623534646531386261636666646632303634343166326239",
+      "provenance": [
+        {
+          "alphabet": "matrixsumlist-keyed",
+          "mask": 1017,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": false,
+          "zeroed_symbol": "a"
+        }
+      ]
+    },
+    "e7eb1847f9996d39998dd7add596ab0694fdcfa93f4f7f08ce251d5ba73ac887": {
+      "password_hex": "f6fbaf98e0d7e44800f24a66e0fa338e3aec123cccc97a21d80828ad0aac1058",
+      "provenance": [
+        {
+          "alphabet": "known-checkerboard",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": false,
+          "zeroed_symbol": "b"
+        }
+      ]
+    },
+    "e992727ee5db8a41f387a42b503d8708e6341a76ca7db82e7ff94b5305edc589": {
+      "password_hex": "6d647262626f6672696366726f6f636f63756f637272637272646e7864646270646262626f64636f6f636273666464646f666f636369",
+      "provenance": [
+        {
+          "alphabet": "known-checkerboard",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": false,
+          "zeroed_symbol": "i"
+        }
+      ]
+    },
+    "ebead2238e242f9293d98ed703a72734fe246cf4539f52af8edc1baed6341882": {
+      "password_hex": "5cd0e0d408538a3bb7ff7fc48a0bc42c0c455dc8e1e5f3198493de8961f45ade",
+      "provenance": [
+        {
+          "alphabet": "plain-alphabet",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": false,
+          "zeroed_symbol": "h"
+        }
+      ]
+    },
+    "ec5f677e056e593d72e9e16d7cfedd564f817a9a79b14a37238d9f7617eca1cc": {
+      "password_hex": "32376134613563353538656530663631626231353838303263356332356135356437346530386663633266646330326565323732323733366537643130666665",
+      "provenance": [
+        {
+          "alphabet": "plain-alphabet",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": false,
+          "zeroed_symbol": "d"
+        }
+      ]
+    },
+    "ed09e39958823cb80b45ee19d19f99fe5e3123597c20f95bab759f5ee1b8a3d3": {
+      "password_hex": "63653936663865623831363637313961653732326164623930366633666338636331363734363164323361303033346562376366623930303632323962653035",
+      "provenance": [
+        {
+          "alphabet": "matrixsumlist-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": false,
+          "zeroed_symbol": "a"
+        }
+      ]
+    },
+    "ed184973848877bf3d2dbdd2f462e3a6f0e597ddc4425fb09c9fcd15cdb00270": {
+      "password_hex": "688f8721b186ee3b2b4858a9f73b0843c1a93b5ab54de18bacffdf206441f2b9",
+      "provenance": [
+        {
+          "alphabet": "matrixsumlist-keyed",
+          "mask": 1017,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": false,
+          "zeroed_symbol": "a"
+        }
+      ]
+    },
+    "eef8a4f0dcbbbf84e8668c164857e9a1933d71c387639ec2947451c147109c8f": {
+      "password_hex": "66623332373330313434366466613935383865306665393436316566663539326434323635663563393864316238623165316464613532333361336233613163",
+      "provenance": [
+        {
+          "alphabet": "plain-alphabet",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": false,
+          "zeroed_symbol": "b"
+        }
+      ]
+    },
+    "ef2891739af94ccc2a2f6cb9e2be56dd339b011aab43ed20e4d9ffd6b35d89e5": {
+      "password_hex": "33336465383238643232636637666266383536343730653766373064346238323164373363303761613932323439383164353035613364646631316262383430",
+      "provenance": [
+        {
+          "alphabet": "thematrixhasyou-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": false,
+          "zeroed_symbol": "i"
+        }
+      ]
+    },
+    "f2ab28da57484ba523adcd2d475bbe88cd7744efe15ccd1641eb52b85f4eeb5a": {
+      "password_hex": "39333764343939613630333735306631643138626432643830623161363361663764313131303235663735306137323534653835613433633661633036653936",
+      "provenance": [
+        {
+          "alphabet": "thematrixhasyou-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": false,
+          "zeroed_symbol": "e"
+        }
+      ]
+    },
+    "f2bc983cc72eaa93c651da798799607f304ec14cc87690ce5786d3fad60a1441": {
+      "password_hex": "39613532333736353034626364323565366631356633373965623964653834336630643363363333323063656634333735646362666636643235323632623534",
+      "provenance": [
+        {
+          "alphabet": "thematrixhasyou-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": false,
+          "zeroed_symbol": "b"
+        }
+      ]
+    },
+    "f2d8abf0809f3913e3bbe472cbd4ddb35bb5b98950247ec7de726a82828b8b86": {
+      "password_hex": "34363564663862383664363862326131386238653232623332343534316261353764383261363738303233386234656562633364356635316635373737666132",
+      "provenance": [
+        {
+          "alphabet": "known-checkerboard",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": false,
+          "zeroed_symbol": "f"
+        }
+      ]
+    },
+    "f2dcbae28b81c5f3feffca49ee215f36eb13ca9afc99a9dadc2390033ac345d1": {
+      "password_hex": "587bd7deea25ddf5f9700cd35918f010302488d70ba1ba117dcd3d96ca6cc5e3",
+      "provenance": [
+        {
+          "alphabet": "salphaseion-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": false,
+          "zeroed_symbol": "g"
+        }
+      ]
+    },
+    "f3a6898c9e09c53e59c48f4e28eb0a877b1b7f1c6ff9635376d02742accafa99": {
+      "password_hex": "736f68696c6c656f6967706f6965657065706165706969706969686a736968686c7361686c6c6c6568706565706c736c6f686868656f65707067",
+      "provenance": [
+        {
+          "alphabet": "salphaseion-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": false,
+          "zeroed_symbol": "d"
+        }
+      ]
+    },
+    "f597f118b4d96c87761553862f47b93573fa3fbe5026b9bbe0c56726bc376810": {
+      "password_hex": "3216cd61fded438ecddb35b1e837b38f495eed9e5e45a06a74ab086081c915b2",
+      "provenance": [
+        {
+          "alphabet": "thematrixhasyou-keyed",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": false,
+          "zeroed_symbol": "d"
+        }
+      ]
+    },
+    "f6fbaf98e0d7e44800f24a66e0fa338e3aec123cccc97a21d80828ad0aac1058": {
+      "password_hex": "2e647262626f6172696361726f6f636f63666f637272637272646e786464626d646262626f64636f6f636273616464646f616f636369",
+      "provenance": [
+        {
+          "alphabet": "known-checkerboard",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": false,
+          "zeroed_symbol": "b"
+        }
+      ]
+    },
+    "f7ae2ae1ebb7142b0612cebdab59f02839741f8cdbb1c1ab7db3a37b94fdea47": {
+      "password_hex": "64653965356532623364363437343035366633653661343532323936306336343631643965333333373734306130323737306231613466653235663036376431",
+      "provenance": [
+        {
+          "alphabet": "plain-alphabet",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-lowerhex",
+          "reverse": false,
+          "zeroed_symbol": "f"
+        }
+      ]
+    },
+    "faa1b42c9aa6ea25a179a1a125b5cb9eb3e9145dc0df419353a9388cb5f0fba6": {
+      "password_hex": "adb95dda8064560c700aae05c46596b70f7de2a3a013af9b6d029f7d6ddc528b",
+      "provenance": [
+        {
+          "alphabet": "known-checkerboard",
+          "mask": 1017,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": true,
+          "zeroed_symbol": "d"
+        }
+      ]
+    },
+    "fb327301446dfa9588e0fe9461eff592d4265f5c98d1b8b1e1dda5233a3b3a1c": {
+      "password_hex": "2f656763636668676e64686766666466646166646767646767656f2e656563736563636366656466666463766865656566686664646e",
+      "provenance": [
+        {
+          "alphabet": "plain-alphabet",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": false,
+          "zeroed_symbol": "b"
+        }
+      ]
+    },
+    "fc7484e5e2f2ee9c909e04da88da05a59d11f6e7ea1e00aa875227ad8ab89f9a": {
+      "password_hex": "6661647262626f6172696361726f6f636f63756f637272637272646e66726464626675646262626f64636f6f63626662616464646f616f636369",
+      "provenance": [
+        {
+          "alphabet": "known-checkerboard",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "raw",
+          "reverse": false,
+          "zeroed_symbol": "d"
+        }
+      ]
+    },
+    "ff820be18413e508f3d86f875b686ec783263cb576b28f99b298ff93c68f0e10": {
+      "password_hex": "2a74f752ab2b06356c1c9e69c1c20fec47377060cf0077bbf318b00da4cd66ac",
+      "provenance": [
+        {
+          "alphabet": "known-checkerboard",
+          "mask": 505,
+          "prefixes": [
+            1,
+            4
+          ],
+          "representation": "sha256-raw",
+          "reverse": false,
+          "zeroed_symbol": "a"
+        }
+      ]
+    }
+  },
+  "search_space": {
+    "decode_errors": 120,
+    "decode_forms": 180,
+    "directions": 2,
+    "fixed_clue_alphabets": 5,
+    "kdf_digests": [
+      "md5",
+      "sha256"
+    ],
+    "planned_aes_trials": 1080,
+    "residual_branches": 2,
+    "successful_forms_by_branch": {
+      "1017": 10,
+      "505": 50
+    },
+    "targets": [
+      "phase32-inner",
+      "salphaseion-small",
+      "cosmic-duality"
+    ],
+    "unique_passwords": 180,
+    "zero_assignments": 9
+  },
+  "source": {
+    "locator": "unchanged prime-token residuals, masks 505 and 1017",
+    "path": "research/sources/salphaseion.html",
+    "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+  },
+  "status": "UNTESTED",
+  "supporting_evidence": [
+    "research/artifacts/cycle02/prime-markers.json",
+    "research/evidence/cycle02/_work__creator_jrk.txt:627",
+    "research/artifacts/reproduction.json"
+  ],
+  "throughput_basis": "conservative 50000 trials/second from measured cycle02 inner-search benchmark; excludes I/O and candidate scoring",
+  "verification_gate": "Exact scoped-address match by both implementations or independently supported next-stage structure; padding/English fragments are not sufficient"
+}

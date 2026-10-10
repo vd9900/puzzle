@@ -1,0 +1,3302 @@
+[
+  {
+    "decoded": ".drbboarfccaroococuocrrcrrdfdxddbpdbbbodcoocbsadddoaoccfc",
+    "error": null,
+    "parameters": {
+      "alphabet": "known-checkerboard",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "a"
+    },
+    "score": {
+      "alphabetic_ratio": 0.982456,
+      "bytes": 57,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 57,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": "/isttxusmrrusxxrxraxrssrssimi.iitpitttxirxxrtquiiixuxrrmr",
+    "error": null,
+    "parameters": {
+      "alphabet": "matrixsumlist-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "a"
+    },
+    "score": {
+      "alphabetic_ratio": 0.964912,
+      "bytes": 57,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 57,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": "/egccfhgaddhgffdfdbfdggdggeae.eecuecccfedffdcvheeefhfddad",
+    "error": null,
+    "parameters": {
+      "alphabet": "plain-alphabet",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "a"
+    },
+    "score": {
+      "alphabetic_ratio": 0.964912,
+      "bytes": 57,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 57,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": "/hilleoisppoieepepaepiipiihsh.hhluhlllehpeeplvohhheoeppsp",
+    "error": null,
+    "parameters": {
+      "alphabet": "salphaseion-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "a"
+    },
+    "score": {
+      "alphabetic_ratio": 0.964912,
+      "bytes": 57,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 57,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": "/aieerxitmmxirrmrmhrmiimiiata.aaenaeeeramrrmepxaaarxrmmtm",
+    "error": null,
+    "parameters": {
+      "alphabet": "thematrixhasyou-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "a"
+    },
+    "score": {
+      "alphabetic_ratio": 0.964912,
+      "bytes": 57,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 57,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "known-checkerboard",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "a"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "matrixsumlist-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "a"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "plain-alphabet",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "a"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "salphaseion-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "a"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "thematrixhasyou-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "a"
+    },
+    "score": null
+  },
+  {
+    "decoded": ".drbboaricaroococfocrrcrrdnxddbmdbbbodcoocbsadddoaocci",
+    "error": null,
+    "parameters": {
+      "alphabet": "known-checkerboard",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "b"
+    },
+    "score": {
+      "alphabetic_ratio": 0.981481,
+      "bytes": 54,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 54,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": "/isttxusfrusxxrxrmxrssrssig.iitnitttxirxxrtquiiixuxrrf",
+    "error": null,
+    "parameters": {
+      "alphabet": "matrixsumlist-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "b"
+    },
+    "score": {
+      "alphabetic_ratio": 0.962963,
+      "bytes": 54,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 54,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": "/egccfhgndhgffdfdafdggdggeo.eecsecccfedffdcvheeefhfddn",
+    "error": null,
+    "parameters": {
+      "alphabet": "plain-alphabet",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "b"
+    },
+    "score": {
+      "alphabetic_ratio": 0.962963,
+      "bytes": 54,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 54,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": "/hilleoigpoieepepsepiipiihj.hhlrhlllehpeeplvohhheoeppg",
+    "error": null,
+    "parameters": {
+      "alphabet": "salphaseion-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "b"
+    },
+    "score": {
+      "alphabetic_ratio": 0.962963,
+      "bytes": 54,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 54,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": "/aieerxicmxirrmrmtrmiimiiad.aaekaeeeramrrmepxaaarxrmmc",
+    "error": null,
+    "parameters": {
+      "alphabet": "thematrixhasyou-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "b"
+    },
+    "score": {
+      "alphabetic_ratio": 0.962963,
+      "bytes": 54,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 54,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "known-checkerboard",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "b"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "matrixsumlist-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "b"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "plain-alphabet",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "b"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "salphaseion-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "b"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "thematrixhasyou-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "b"
+    },
+    "score": null
+  },
+  {
+    "decoded": ".drffoaricaroococuocrrcrrdnxddfpdfffodcoocfmadddoaocci",
+    "error": null,
+    "parameters": {
+      "alphabet": "known-checkerboard",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "c"
+    },
+    "score": {
+      "alphabetic_ratio": 0.981481,
+      "bytes": 54,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 54,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": "/ismmxusfrusxxrxraxrssrssig.iimpimmmxirxxrmnuiiixuxrrf",
+    "error": null,
+    "parameters": {
+      "alphabet": "matrixsumlist-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "c"
+    },
+    "score": {
+      "alphabetic_ratio": 0.962963,
+      "bytes": 54,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 54,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": "/egaafhgndhgffdfdbfdggdggeo.eeaueaaafedffdasheeefhfddn",
+    "error": null,
+    "parameters": {
+      "alphabet": "plain-alphabet",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "c"
+    },
+    "score": {
+      "alphabetic_ratio": 0.962963,
+      "bytes": 54,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 54,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": "/hisseoigpoieepepaepiipiihj.hhsuhsssehpeepsrohhheoeppg",
+    "error": null,
+    "parameters": {
+      "alphabet": "salphaseion-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "c"
+    },
+    "score": {
+      "alphabetic_ratio": 0.962963,
+      "bytes": 54,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.02,
+      "longest_printable_run": 54,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": "/aittrxicmxirrmrmhrmiimiiad.aatnatttramrrmtkxaaarxrmmc",
+    "error": null,
+    "parameters": {
+      "alphabet": "thematrixhasyou-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "c"
+    },
+    "score": {
+      "alphabetic_ratio": 0.962963,
+      "bytes": 54,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 54,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "known-checkerboard",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "c"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "matrixsumlist-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "c"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "plain-alphabet",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "c"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "salphaseion-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "c"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "thematrixhasyou-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "c"
+    },
+    "score": null
+  },
+  {
+    "decoded": "fadrbboaricaroococuocrrcrrdnfrddbfudbbbodcoocbfbadddoaocci",
+    "error": null,
+    "parameters": {
+      "alphabet": "known-checkerboard",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "d"
+    },
+    "score": {
+      "alphabetic_ratio": 1.0,
+      "bytes": 58,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 58,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": "muisttxusfrusxxrxraxrssrssigmsiitmaitttxirxxrtmtuiiixuxrrf",
+    "error": null,
+    "parameters": {
+      "alphabet": "matrixsumlist-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "d"
+    },
+    "score": {
+      "alphabetic_ratio": 1.0,
+      "bytes": 58,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 58,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": "ahegccfhgndhgffdfdbfdggdggeoageecabecccfedffdcacheeefhfddn",
+    "error": null,
+    "parameters": {
+      "alphabet": "plain-alphabet",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "d"
+    },
+    "score": {
+      "alphabetic_ratio": 1.0,
+      "bytes": 58,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 58,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": "sohilleoigpoieepepaepiipiihjsihhlsahlllehpeeplslohhheoeppg",
+    "error": null,
+    "parameters": {
+      "alphabet": "salphaseion-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "d"
+    },
+    "score": {
+      "alphabetic_ratio": 1.0,
+      "bytes": 58,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 58,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": "txaieerxicmxirrmrmhrmiimiiadtiaaethaeeeramrrmetexaaarxrmmc",
+    "error": null,
+    "parameters": {
+      "alphabet": "thematrixhasyou-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "d"
+    },
+    "score": {
+      "alphabetic_ratio": 1.0,
+      "bytes": 58,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.035714,
+      "longest_printable_run": 58,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": "cicoaodddabfbcoocdobbbdufbddrfdnrrcrrcoucocooracckaobbrdaf",
+    "error": null,
+    "parameters": {
+      "alphabet": "known-checkerboard",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "d"
+    },
+    "score": {
+      "alphabetic_ratio": 1.0,
+      "bytes": 58,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 58,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": "rfrxuxiiiutmtrxxrixtttiamtiismigssrssrxarxrxxsurrjuxttsium",
+    "error": null,
+    "parameters": {
+      "alphabet": "matrixsumlist-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "d"
+    },
+    "score": {
+      "alphabetic_ratio": 1.0,
+      "bytes": 58,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 58,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": "dndfhfeeehcacdffdefcccebaceegaeoggdggdfbdfdffghddqhfccgeha",
+    "error": null,
+    "parameters": {
+      "alphabet": "plain-alphabet",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "d"
+    },
+    "score": {
+      "alphabetic_ratio": 1.0,
+      "bytes": 58,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 58,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": "pgpeoehhholslpeephelllhaslhhishjiipiipeapepeeioppmoellihos",
+    "error": null,
+    "parameters": {
+      "alphabet": "salphaseion-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "d"
+    },
+    "score": {
+      "alphabetic_ratio": 1.0,
+      "bytes": 58,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.017857,
+      "longest_printable_run": 58,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": "mcmrxraaaxetemrrmareeeahteaaitadiimiimrhmrmrrixmmgxreeiaxt",
+    "error": null,
+    "parameters": {
+      "alphabet": "thematrixhasyou-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "d"
+    },
+    "score": {
+      "alphabetic_ratio": 1.0,
+      "bytes": 58,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 58,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": ".drbboar/faroofofuofrrfrrdnxddbpdbbbodfoofbsadddoaoff/",
+    "error": null,
+    "parameters": {
+      "alphabet": "known-checkerboard",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "e"
+    },
+    "score": {
+      "alphabetic_ratio": 0.944444,
+      "bytes": 54,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 54,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": "/isttxuslmusxxmxmaxmssmssig.iitpitttximxxmtquiiixuxmml",
+    "error": null,
+    "parameters": {
+      "alphabet": "matrixsumlist-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "e"
+    },
+    "score": {
+      "alphabetic_ratio": 0.962963,
+      "bytes": 54,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 54,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": "/egccfhgiahgffafabfaggaggeo.eecuecccfeaffacvheeefhfaai",
+    "error": null,
+    "parameters": {
+      "alphabet": "plain-alphabet",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "e"
+    },
+    "score": {
+      "alphabetic_ratio": 0.962963,
+      "bytes": 54,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 54,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": "/hilleoinsoieesesaesiisiihj.hhluhlllehseeslvohhheoessn",
+    "error": null,
+    "parameters": {
+      "alphabet": "salphaseion-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "e"
+    },
+    "score": {
+      "alphabetic_ratio": 0.962963,
+      "bytes": 54,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 54,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": "/aieerxistxirrtrthrtiitiiad.aaenaeeeratrrtepxaaarxrtts",
+    "error": null,
+    "parameters": {
+      "alphabet": "thematrixhasyou-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "e"
+    },
+    "score": {
+      "alphabetic_ratio": 0.962963,
+      "bytes": 54,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 54,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "known-checkerboard",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "e"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "matrixsumlist-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "e"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "plain-alphabet",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "e"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "salphaseion-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "e"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "thematrixhasyou-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "e"
+    },
+    "score": null
+  },
+  {
+    "decoded": ".frbboaricaroococuocrrcrrf/xffbpfbbbofcoocbsafffoaocci",
+    "error": null,
+    "parameters": {
+      "alphabet": "known-checkerboard",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "f"
+    },
+    "score": {
+      "alphabetic_ratio": 0.962963,
+      "bytes": 54,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 54,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": "/msttxusfrusxxrxraxrssrssml.mmtpmtttxmrxxrtqummmxuxrrf",
+    "error": null,
+    "parameters": {
+      "alphabet": "matrixsumlist-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "f"
+    },
+    "score": {
+      "alphabetic_ratio": 0.962963,
+      "bytes": 54,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 54,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": "/agccfhgndhgffdfdbfdggdggai.aacuacccfadffdcvhaaafhfddn",
+    "error": null,
+    "parameters": {
+      "alphabet": "plain-alphabet",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "f"
+    },
+    "score": {
+      "alphabetic_ratio": 0.962963,
+      "bytes": 54,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 54,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": "/silleoigpoieepepaepiipiisn.ssluslllespeeplvossseoeppg",
+    "error": null,
+    "parameters": {
+      "alphabet": "salphaseion-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "f"
+    },
+    "score": {
+      "alphabetic_ratio": 0.962963,
+      "bytes": 54,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 54,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": "/tieerxicmxirrmrmhrmiimiits.ttenteeertmrrmepxtttrxrmmc",
+    "error": null,
+    "parameters": {
+      "alphabet": "thematrixhasyou-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "f"
+    },
+    "score": {
+      "alphabetic_ratio": 0.962963,
+      "bytes": 54,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.02,
+      "longest_printable_run": 54,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "known-checkerboard",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "f"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "matrixsumlist-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "f"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "plain-alphabet",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "f"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "salphaseion-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "f"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "thematrixhasyou-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "f"
+    },
+    "score": null
+  },
+  {
+    "decoded": ".drbbfaricarffcfcufcrrcrrdnxddbpdbbbfdcffcbsadddfafcci",
+    "error": null,
+    "parameters": {
+      "alphabet": "known-checkerboard",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "g"
+    },
+    "score": {
+      "alphabetic_ratio": 0.981481,
+      "bytes": 54,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 54,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": "/isttmusfrusmmrmramrssrssig.iitpitttmirmmrtquiiimumrrf",
+    "error": null,
+    "parameters": {
+      "alphabet": "matrixsumlist-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "g"
+    },
+    "score": {
+      "alphabetic_ratio": 0.962963,
+      "bytes": 54,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 54,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": "/egccahgndhgaadadbadggdggeo.eecuecccaedaadcvheeeahaddn",
+    "error": null,
+    "parameters": {
+      "alphabet": "plain-alphabet",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "g"
+    },
+    "score": {
+      "alphabetic_ratio": 0.962963,
+      "bytes": 54,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 54,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": "/hillsoigpoisspspaspiipiihj.hhluhlllshpssplvohhhsosppg",
+    "error": null,
+    "parameters": {
+      "alphabet": "salphaseion-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "g"
+    },
+    "score": {
+      "alphabetic_ratio": 0.962963,
+      "bytes": 54,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 54,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": "/aieetxicmxittmtmhtmiimiiad.aaenaeeetamttmepxaaatxtmmc",
+    "error": null,
+    "parameters": {
+      "alphabet": "thematrixhasyou-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "g"
+    },
+    "score": {
+      "alphabetic_ratio": 0.962963,
+      "bytes": 54,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 54,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "known-checkerboard",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "g"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "matrixsumlist-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "g"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "plain-alphabet",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "g"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "salphaseion-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "g"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "thematrixhasyou-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "g"
+    },
+    "score": null
+  },
+  {
+    "decoded": ".dfbboaficafoococuocffcffdnmddbpdbbbodcoocbsadddoaocci",
+    "error": null,
+    "parameters": {
+      "alphabet": "known-checkerboard",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "h"
+    },
+    "score": {
+      "alphabetic_ratio": 0.981481,
+      "bytes": 54,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 54,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": "/imttxumfrumxxrxraxrmmrmmigniitpitttxirxxrtquiiixuxrrf",
+    "error": null,
+    "parameters": {
+      "alphabet": "matrixsumlist-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "h"
+    },
+    "score": {
+      "alphabetic_ratio": 0.981481,
+      "bytes": 54,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 54,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": "/eaccfhandhaffdfdbfdaadaaeoseecuecccfedffdcvheeefhfddn",
+    "error": null,
+    "parameters": {
+      "alphabet": "plain-alphabet",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "h"
+    },
+    "score": {
+      "alphabetic_ratio": 0.981481,
+      "bytes": 54,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.019608,
+      "longest_printable_run": 54,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": "/hslleosgposeepepaepsspsshjrhhluhlllehpeeplvohhheoeppg",
+    "error": null,
+    "parameters": {
+      "alphabet": "salphaseion-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "h"
+    },
+    "score": {
+      "alphabetic_ratio": 0.981481,
+      "bytes": 54,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 54,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": "/ateerxtcmxtrrmrmhrmttmttadkaaenaeeeramrrmepxaaarxrmmc",
+    "error": null,
+    "parameters": {
+      "alphabet": "thematrixhasyou-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "h"
+    },
+    "score": {
+      "alphabetic_ratio": 0.981481,
+      "bytes": 54,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 54,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "known-checkerboard",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "h"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "matrixsumlist-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "h"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "plain-alphabet",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "h"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "salphaseion-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "h"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "thematrixhasyou-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "h"
+    },
+    "score": null
+  },
+  {
+    "decoded": "mdrbbofricfroococuocrrcrrdnxddbpdbbbodcoocbsfdddofocci",
+    "error": null,
+    "parameters": {
+      "alphabet": "known-checkerboard",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "i"
+    },
+    "score": {
+      "alphabetic_ratio": 1.0,
+      "bytes": 54,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 54,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": "nisttxmsfrmsxxrxraxrssrssig.iitpitttxirxxrtqmiiixmxrrf",
+    "error": null,
+    "parameters": {
+      "alphabet": "matrixsumlist-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "i"
+    },
+    "score": {
+      "alphabetic_ratio": 0.981481,
+      "bytes": 54,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 54,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": "segccfagndagffdfdbfdggdggeo.eecuecccfedffdcvaeeefafddn",
+    "error": null,
+    "parameters": {
+      "alphabet": "plain-alphabet",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "i"
+    },
+    "score": {
+      "alphabetic_ratio": 0.981481,
+      "bytes": 54,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 54,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": "rhillesigpsieepepaepiipiihj.hhluhlllehpeeplvshhheseppg",
+    "error": null,
+    "parameters": {
+      "alphabet": "salphaseion-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "i"
+    },
+    "score": {
+      "alphabetic_ratio": 0.981481,
+      "bytes": 54,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 54,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": "kaieerticmtirrmrmhrmiimiiad.aaenaeeeramrrmeptaaartrmmc",
+    "error": null,
+    "parameters": {
+      "alphabet": "thematrixhasyou-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "i"
+    },
+    "score": {
+      "alphabetic_ratio": 0.981481,
+      "bytes": 54,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 54,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "known-checkerboard",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "i"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "matrixsumlist-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "i"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "plain-alphabet",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "i"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "salphaseion-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "i"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "thematrixhasyou-keyed",
+      "mask": 505,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "i"
+    },
+    "score": null
+  },
+  {
+    "decoded": ".drbboarfccaroococuocrrcrrdfdxddbpdbbbodcoocbsadddoaoccf",
+    "error": null,
+    "parameters": {
+      "alphabet": "known-checkerboard",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "a"
+    },
+    "score": {
+      "alphabetic_ratio": 0.982143,
+      "bytes": 56,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 56,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": "/isttxusmrrusxxrxraxrssrssimi.iitpitttxirxxrtquiiixuxrrm",
+    "error": null,
+    "parameters": {
+      "alphabet": "matrixsumlist-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "a"
+    },
+    "score": {
+      "alphabetic_ratio": 0.964286,
+      "bytes": 56,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 56,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": "/egccfhgaddhgffdfdbfdggdggeae.eecuecccfedffdcvheeefhfdda",
+    "error": null,
+    "parameters": {
+      "alphabet": "plain-alphabet",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "a"
+    },
+    "score": {
+      "alphabetic_ratio": 0.964286,
+      "bytes": 56,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 56,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": "/hilleoisppoieepepaepiipiihsh.hhluhlllehpeeplvohhheoepps",
+    "error": null,
+    "parameters": {
+      "alphabet": "salphaseion-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "a"
+    },
+    "score": {
+      "alphabetic_ratio": 0.964286,
+      "bytes": 56,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 56,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": "/aieerxitmmxirrmrmhrmiimiiata.aaenaeeeramrrmepxaaarxrmmt",
+    "error": null,
+    "parameters": {
+      "alphabet": "thematrixhasyou-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "a"
+    },
+    "score": {
+      "alphabetic_ratio": 0.964286,
+      "bytes": 56,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 56,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "known-checkerboard",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "a"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "matrixsumlist-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "a"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "plain-alphabet",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "a"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "salphaseion-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "a"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "thematrixhasyou-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "a"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "known-checkerboard",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "b"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "matrixsumlist-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "b"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "plain-alphabet",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "b"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "salphaseion-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "b"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "thematrixhasyou-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "b"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "known-checkerboard",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "b"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "matrixsumlist-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "b"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "plain-alphabet",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "b"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "salphaseion-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "b"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "thematrixhasyou-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "b"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "known-checkerboard",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "c"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "matrixsumlist-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "c"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "plain-alphabet",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "c"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "salphaseion-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "c"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "thematrixhasyou-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "c"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "known-checkerboard",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "c"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "matrixsumlist-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "c"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "plain-alphabet",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "c"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "salphaseion-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "c"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "thematrixhasyou-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "c"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "known-checkerboard",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "d"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "matrixsumlist-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "d"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "plain-alphabet",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "d"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "salphaseion-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "d"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "thematrixhasyou-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "d"
+    },
+    "score": null
+  },
+  {
+    "decoded": "icoaodddabfbcoocdobbbdufbddrfdnrrcrrcoucocooracckaobbrdaf",
+    "error": null,
+    "parameters": {
+      "alphabet": "known-checkerboard",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "d"
+    },
+    "score": {
+      "alphabetic_ratio": 1.0,
+      "bytes": 57,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 57,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": "frxuxiiiutmtrxxrixtttiamtiismigssrssrxarxrxxsurrjuxttsium",
+    "error": null,
+    "parameters": {
+      "alphabet": "matrixsumlist-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "d"
+    },
+    "score": {
+      "alphabetic_ratio": 1.0,
+      "bytes": 57,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 57,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": "ndfhfeeehcacdffdefcccebaceegaeoggdggdfbdfdffghddqhfccgeha",
+    "error": null,
+    "parameters": {
+      "alphabet": "plain-alphabet",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "d"
+    },
+    "score": {
+      "alphabetic_ratio": 1.0,
+      "bytes": 57,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 57,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": "gpeoehhholslpeephelllhaslhhishjiipiipeapepeeioppmoellihos",
+    "error": null,
+    "parameters": {
+      "alphabet": "salphaseion-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "d"
+    },
+    "score": {
+      "alphabetic_ratio": 1.0,
+      "bytes": 57,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.018182,
+      "longest_printable_run": 57,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": "cmrxraaaxetemrrmareeeahteaaitadiimiimrhmrmrrixmmgxreeiaxt",
+    "error": null,
+    "parameters": {
+      "alphabet": "thematrixhasyou-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "d"
+    },
+    "score": {
+      "alphabetic_ratio": 1.0,
+      "bytes": 57,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.0,
+      "longest_printable_run": 57,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    }
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "known-checkerboard",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "e"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "matrixsumlist-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "e"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "plain-alphabet",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "e"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "salphaseion-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "e"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "thematrixhasyou-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "e"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "known-checkerboard",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "e"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "matrixsumlist-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "e"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "plain-alphabet",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "e"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "salphaseion-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "e"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "thematrixhasyou-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "e"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "known-checkerboard",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "f"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "matrixsumlist-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "f"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "plain-alphabet",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "f"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "salphaseion-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "f"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "thematrixhasyou-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "f"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "known-checkerboard",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "f"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "matrixsumlist-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "f"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "plain-alphabet",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "f"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "salphaseion-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "f"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "thematrixhasyou-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "f"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "known-checkerboard",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "g"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "matrixsumlist-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "g"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "plain-alphabet",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "g"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "salphaseion-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "g"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "thematrixhasyou-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "g"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "known-checkerboard",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "g"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "matrixsumlist-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "g"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "plain-alphabet",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "g"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "salphaseion-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "g"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "thematrixhasyou-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "g"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "known-checkerboard",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "h"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "matrixsumlist-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "h"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "plain-alphabet",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "h"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "salphaseion-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "h"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "thematrixhasyou-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "h"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "known-checkerboard",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "h"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "matrixsumlist-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "h"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "plain-alphabet",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "h"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "salphaseion-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "h"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "thematrixhasyou-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "h"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "known-checkerboard",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "i"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "matrixsumlist-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "i"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "plain-alphabet",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "i"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "salphaseion-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "i"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "thematrixhasyou-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": false,
+      "zeroed_symbol": "i"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "known-checkerboard",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "i"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "matrixsumlist-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "i"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "plain-alphabet",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "i"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "salphaseion-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "i"
+    },
+    "score": null
+  },
+  {
+    "decoded": null,
+    "error": "Truncated row prefix",
+    "parameters": {
+      "alphabet": "thematrixhasyou-keyed",
+      "mask": 1017,
+      "prefixes": [
+        1,
+        4
+      ],
+      "reverse": true,
+      "zeroed_symbol": "i"
+    },
+    "score": null
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "candidate_set_sha256": "4b197c3b8276853b1cb4bef76038d4f6b028c35aa17c672bbdfaab5c26f4b829",
+  "estimated_crypto_seconds": 0.724,
+  "gate": "Recognized independently supported downstream stage or exact scoped key, not a padding/language hit",
+  "id": "C03-IMAGE-SUMSTREAM",
+  "justification": "matrixsumlist explicitly references a matrix; primary image supplies 14x14 grid, near-white anomaly deletion gives 13x13/26 axis sums, fitting 13/26 clue lengths. Test as a mod9 over-encryption stream, with independent downstream AES gate, not a confirmed VIC/key structure.",
+  "search_space": {
+    "aes_trials": 36180,
+    "decode_errors": 294,
+    "decode_forms": 2304,
+    "decoders": 4,
+    "digit_mappings": 3,
+    "matrix_variants": 3,
+    "operations": 2,
+    "segment_routes": 4,
+    "unique_passwords": 6030,
+    "unique_sum_streams": 24
+  },
+  "source_constraints": {
+    "limits": "89 is not a unique deletion total: 23 of 196 row/column deletions produce it. Near-white=1 and deleting its axes are explicit alternatives, not overwritten original bits.",
+    "other_row_column_deletions_also_total_89": 22,
+    "reduced_image_axis_sums": 26,
+    "reduced_image_ones": 89,
+    "unchanged_image_ones": 101
+  },
+  "source_evidence": [
+    {
+      "locator": null,
+      "path": "research/sources/gsmg-puzzle.png",
+      "sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830"
+    },
+    {
+      "locator": null,
+      "path": "research/sources/salphaseion.html",
+      "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+    },
+    {
+      "locator": null,
+      "path": "research/artifacts/cycle03/prime-boundary.json",
+      "sha256": "7a267b998cb9353cabba47bb4005abee0cbec18c7f878eb52c223bdf14fc9727"
+    }
+  ],
+  "status": "UNTESTED"
+}

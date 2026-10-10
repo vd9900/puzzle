@@ -1,0 +1,599 @@
+{
+  "alternative_attribution": {
+    "assertion_source_location": {
+      "character_span_zero_based_half_open": [
+        1308906,
+        1308966
+      ],
+      "column_one_based": 1,
+      "line_one_based": 34520,
+      "utf8_byte_span_zero_based_half_open": [
+        1318049,
+        1318109
+      ]
+    },
+    "claimed_value140_link_is_not_tested_or_adopted": true,
+    "classification": "COMMUNITY_SPECULATION_NOT_CREATOR_AUTHENTICATION",
+    "no_external_source_or_numeric_extraction": true,
+    "record": {
+      "archived_utc_timestamp": "2023-09-07T05:32:26+00:00",
+      "character_span_zero_based_half_open": [
+        1308906,
+        1309117
+      ],
+      "column_one_based": 1,
+      "header": "=== [07.09.2023 00:32:26 UTC-05:00] Deleted Account",
+      "line_one_based": 34520,
+      "source": {
+        "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+        "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+      },
+      "utf8_byte_span_zero_based_half_open": [
+        1318049,
+        1318260
+      ]
+    },
+    "short_public_assertion": "wiseman above hinted at - Mr Satoshi himself is that wiseman"
+  },
+  "antecedents": {
+    "above_is_not_a_unique_document_or_paragraph_selector": true,
+    "earlier_phase3_fixture_matches_preserved_archive": true,
+    "earlier_primary_source_maps": [
+      {
+        "character_span_zero_based_half_open": [
+          127,
+          146
+        ],
+        "column_one_based": 128,
+        "line_one_based": 1,
+        "literal": "The thinker's 1name",
+        "source": {
+          "path": "research/artifacts/phase3.txt",
+          "sha256": "c4ad94559a44a927c1032cc0e024515f9510a0806a2d14458dbf4a360af9865f"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          127,
+          146
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          206,
+          219
+        ],
+        "column_one_based": 207,
+        "line_one_based": 1,
+        "literal": "(of humanity)",
+        "source": {
+          "path": "research/artifacts/phase3.txt",
+          "sha256": "c4ad94559a44a927c1032cc0e024515f9510a0806a2d14458dbf4a360af9865f"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          206,
+          219
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          221,
+          272
+        ],
+        "column_one_based": 222,
+        "line_one_based": 1,
+        "literal": "Definitely look into his works might you have time.",
+        "source": {
+          "path": "research/artifacts/phase3.txt",
+          "sha256": "c4ad94559a44a927c1032cc0e024515f9510a0806a2d14458dbf4a360af9865f"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          221,
+          272
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          296,
+          324
+        ],
+        "column_one_based": 1,
+        "line_one_based": 3,
+        "literal": "I just passed a cheshire cat",
+        "source": {
+          "path": "research/artifacts/phase3.txt",
+          "sha256": "c4ad94559a44a927c1032cc0e024515f9510a0806a2d14458dbf4a360af9865f"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          296,
+          324
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          529,
+          567
+        ],
+        "column_one_based": 3,
+        "line_one_based": 5,
+        "literal": "The fundamental limit to the precision",
+        "source": {
+          "path": "research/artifacts/phase3.txt",
+          "sha256": "c4ad94559a44a927c1032cc0e024515f9510a0806a2d14458dbf4a360af9865f"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          529,
+          567
+        ]
+      }
+    ],
+    "nearby_phase32_public_source_maps": [
+      {
+        "character_span_zero_based_half_open": [
+          0,
+          26
+        ],
+        "column_one_based": 1,
+        "line_one_based": 1,
+        "literal": "I've been waiting for you.",
+        "source": {
+          "path": "research/artifacts/phase32.txt",
+          "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          0,
+          26
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          336,
+          366
+        ],
+        "column_one_based": 1,
+        "line_one_based": 3,
+        "literal": "... am I here? Wake up, you...",
+        "source": {
+          "path": "research/artifacts/phase32.txt",
+          "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          336,
+          366
+        ]
+      }
+    ],
+    "no_new_decoding_or_trial_input": true,
+    "phase32_intro_does_not_name_a_wiseman": true,
+    "phase3_does_not_name_the_thinker_explicitly": true,
+    "secondary_thinker_identifications": [
+      {
+        "character_span_zero_based_half_open": [
+          12604,
+          12624
+        ],
+        "column_one_based": 4,
+        "line_one_based": 262,
+        "literal": "Jacque Fresco quote:",
+        "source": {
+          "path": "research/sources/community-README.md",
+          "sha256": "442270a145641d6f75337bf0e12338889d22f029dc613d13f0a4d651875dae6a"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          12606,
+          12626
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          12742,
+          12771
+        ],
+        "column_one_based": 142,
+        "line_one_based": 262,
+        "literal": "The future is ours to direct.",
+        "source": {
+          "path": "research/sources/community-README.md",
+          "sha256": "442270a145641d6f75337bf0e12338889d22f029dc613d13f0a4d651875dae6a"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          12744,
+          12773
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          12846,
+          12881
+        ],
+        "column_one_based": 1,
+        "line_one_based": 264,
+        "literal": "3. Heisenberg uncertainty principle",
+        "source": {
+          "path": "research/sources/community-README.md",
+          "sha256": "442270a145641d6f75337bf0e12338889d22f029dc613d13f0a4d651875dae6a"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          12848,
+          12883
+        ]
+      }
+    ]
+  },
+  "assumptions": [
+    "Stage order is known, but above-reference scope is not",
+    "Community names and alternative interpretations are secondary",
+    "Creator-labeled transcript records are not signed author authentication"
+  ],
+  "confidence": "HIGH for exact source/chronology; MEDIUM for thematic Jacque referent; UNKNOWN for construction",
+  "contradictions": [
+    "Above is not a unique paragraph/stage selector",
+    "Thematic endorsement is not an extraction instruction",
+    "Value140 clause supplies no defined operand or format",
+    "Community alternative is not creator authentication"
+  ],
+  "creator_attribution": {
+    "both_preserved_bodies_match": true,
+    "classification": "CREATOR_ATTRIBUTED_THEMATIC_PREFERENCE_NOT_EXPLICIT_PUZZLE_INSTRUCTION",
+    "creator_record": {
+      "archived_utc_timestamp": "2024-09-19T07:20:23+00:00",
+      "character_span_zero_based_half_open": [
+        36023,
+        36258
+      ],
+      "column_one_based": 1,
+      "header": "=== [19.09.2024 02:20:23 UTC-05:00] Jrk Bgrt",
+      "line_one_based": 1027,
+      "source": {
+        "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+        "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+      },
+      "utf8_byte_span_zero_based_half_open": [
+        36317,
+        36552
+      ]
+    },
+    "does_not_confirm_wiseman_antecedent_or_value140": true,
+    "does_not_supply_Architect_word_count_or_consumer": true,
+    "elapsed_since_prior_community_speech_seconds": 39060,
+    "exact_public_body": "I simply liked Jacque's ideas a lot. I have techy friends building communities around that idea today; I haven't invested much time into it as I should myself. But in the coming years I move to a place where that becomes a possibility.",
+    "original_chat_record": {
+      "archived_utc_timestamp": "2024-09-19T07:20:23+00:00",
+      "character_span_zero_based_half_open": [
+        2892337,
+        2892572
+      ],
+      "column_one_based": 1,
+      "header": "=== [19.09.2024 02:20:23 UTC-05:00] Jrk Bgrt",
+      "line_one_based": 73142,
+      "source": {
+        "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+        "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+      },
+      "utf8_byte_span_zero_based_half_open": [
+        2911570,
+        2911805
+      ]
+    },
+    "prior_community_speech_record": {
+      "archived_utc_timestamp": "2024-09-18T20:29:23+00:00",
+      "character_span_zero_based_half_open": [
+        2891922,
+        2892290
+      ],
+      "column_one_based": 1,
+      "header": "=== [18.09.2024 15:29:23 UTC-05:00] Szymon Szczawi\u0144ski",
+      "line_one_based": 73135,
+      "source": {
+        "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+        "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+      },
+      "utf8_byte_span_zero_based_half_open": [
+        2911155,
+        2911523
+      ]
+    },
+    "reply_target_metadata_preserved": false
+  },
+  "date": "2026-10-01",
+  "hypotheses": [
+    {
+      "assumptions": [
+        "Above means an earlier puzzle stage",
+        "Community thinker identification is correct",
+        "Creator thematic preference is related, not a direct reply confirmation"
+      ],
+      "confidence": "MEDIUM as a thematic referent; LOW as executable construction",
+      "contradictions": [
+        "The primary riddle does not name Jacque",
+        "Creator comment does not identify the wiseman or140",
+        "No exact operation, word count or matrixsumlist consumer"
+      ],
+      "hypothesis": "Wiseman-above most plausibly recalls the earlier thinker/work/humanity riddle and Jacque-themed project aspiration",
+      "id": "C16-DEICTIC-JACQUE",
+      "input": "Existing public speech reference and preserved earlier puzzle paragraphs/messages",
+      "next_test": "Reuse the existing first-hint attribution and primary boundary maps in a finite symbolic operand-ownership preflight; compare label/data roles and require a source-authored graph edge before binding any hash consumer",
+      "operation_order": [
+        "map above-reference in verified speech",
+        "map earlier source positions and secondary names",
+        "compare creator attribution and chronology",
+        "retain only thematic referents without constructing a trial"
+      ],
+      "output": "An attributed semantic referent hypothesis, not a new numerical operation",
+      "source_evidence": [
+        {
+          "path": "research/artifacts/phase3.txt",
+          "sha256": "c4ad94559a44a927c1032cc0e024515f9510a0806a2d14458dbf4a360af9865f"
+        },
+        {
+          "path": "research/sources/maintained-phase2-assets__phase3.txt",
+          "sha256": "c4ad94559a44a927c1032cc0e024515f9510a0806a2d14458dbf4a360af9865f"
+        },
+        {
+          "path": "research/artifacts/phase32.txt",
+          "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+        },
+        {
+          "path": "research/artifacts/phase32-beaufort.txt",
+          "sha256": "b08a3151c88cdeb3b2e730a9d9445e1a349498d89bc94ba1d0837f9e04cc3bcd"
+        },
+        {
+          "path": "research/sources/community-README.md",
+          "sha256": "442270a145641d6f75337bf0e12338889d22f029dc613d13f0a4d651875dae6a"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+          "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+        },
+        {
+          "path": "research/artifacts/cycle16/speech-operand-audit.json",
+          "sha256": "173f751681b9f07872c0985cf9bed548c528c17f56bd9d72bc5af23a4b17e763"
+        }
+      ],
+      "source_locations": [
+        "research/artifacts/phase3.txt:1",
+        "research/artifacts/phase3.txt:5",
+        "research/artifacts/phase32.txt:1",
+        "research/artifacts/phase32.txt:3",
+        "research/sources/community-README.md:262",
+        "research/evidence/cycle02/_work__creator_jrk.txt:1027",
+        "research/evidence/cycle02/_work__chat_transcript.txt:73142",
+        "research/evidence/cycle02/_work__chat_transcript.txt:34520"
+      ],
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "assumptions": [
+        "Above is spatial/local rather than stage-relative",
+        "Nearby dialogue role supplies an unnamed speaker referent"
+      ],
+      "confidence": "LOW without an explicit named nearby person",
+      "contradictions": [
+        "Neither nearby introductory paragraph names a wiseman",
+        "Primary decoding yields no source identity binding",
+        "No literal instruction joins this referent to last-word selection"
+      ],
+      "hypothesis": "Above instead refers locally to the Architect or another nearby speaker rather than the earlier thinker",
+      "id": "C16-DEICTIC-NEARBY",
+      "input": "Existing public speech reference and preserved earlier puzzle paragraphs/messages",
+      "next_test": "Reuse the existing first-hint attribution and primary boundary maps in a finite symbolic operand-ownership preflight; compare label/data roles and require a source-authored graph edge before binding any hash consumer",
+      "operation_order": [
+        "map above-reference in verified speech",
+        "map earlier source positions and secondary names",
+        "compare creator attribution and chronology",
+        "retain only thematic referents without constructing a trial"
+      ],
+      "output": "An attributed semantic referent hypothesis, not a new numerical operation",
+      "source_evidence": [
+        {
+          "path": "research/artifacts/phase3.txt",
+          "sha256": "c4ad94559a44a927c1032cc0e024515f9510a0806a2d14458dbf4a360af9865f"
+        },
+        {
+          "path": "research/sources/maintained-phase2-assets__phase3.txt",
+          "sha256": "c4ad94559a44a927c1032cc0e024515f9510a0806a2d14458dbf4a360af9865f"
+        },
+        {
+          "path": "research/artifacts/phase32.txt",
+          "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+        },
+        {
+          "path": "research/artifacts/phase32-beaufort.txt",
+          "sha256": "b08a3151c88cdeb3b2e730a9d9445e1a349498d89bc94ba1d0837f9e04cc3bcd"
+        },
+        {
+          "path": "research/sources/community-README.md",
+          "sha256": "442270a145641d6f75337bf0e12338889d22f029dc613d13f0a4d651875dae6a"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+          "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+        },
+        {
+          "path": "research/artifacts/cycle16/speech-operand-audit.json",
+          "sha256": "173f751681b9f07872c0985cf9bed548c528c17f56bd9d72bc5af23a4b17e763"
+        }
+      ],
+      "source_locations": [
+        "research/artifacts/phase3.txt:1",
+        "research/artifacts/phase3.txt:5",
+        "research/artifacts/phase32.txt:1",
+        "research/artifacts/phase32.txt:3",
+        "research/sources/community-README.md:262",
+        "research/evidence/cycle02/_work__creator_jrk.txt:1027",
+        "research/evidence/cycle02/_work__chat_transcript.txt:73142",
+        "research/evidence/cycle02/_work__chat_transcript.txt:34520"
+      ],
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "assumptions": [
+        "A community assertion remains secondary unless independently source-bound",
+        "Numerical resemblance is not sufficient author evidence"
+      ],
+      "confidence": "HIGH for attribution distinction; UNKNOWN for intended referent",
+      "contradictions": [
+        "No creator-attributed confirmation of this exact antecedent",
+        "The claim supplies its own numerical/source interpretation",
+        "No independently authored link to matrixsumlist,60-letter residual or faed570"
+      ],
+      "hypothesis": "The preserved Satoshi interpretation is a competing community antecedent, not an authorized construction rule",
+      "id": "C16-DEICTIC-COMMUNITY-ALTERNATIVE",
+      "input": "Existing public speech reference and preserved earlier puzzle paragraphs/messages",
+      "next_test": "Reuse the existing first-hint attribution and primary boundary maps in a finite symbolic operand-ownership preflight; compare label/data roles and require a source-authored graph edge before binding any hash consumer",
+      "operation_order": [
+        "map above-reference in verified speech",
+        "map earlier source positions and secondary names",
+        "compare creator attribution and chronology",
+        "retain only thematic referents without constructing a trial"
+      ],
+      "output": "An attributed semantic referent hypothesis, not a new numerical operation",
+      "source_evidence": [
+        {
+          "path": "research/artifacts/phase3.txt",
+          "sha256": "c4ad94559a44a927c1032cc0e024515f9510a0806a2d14458dbf4a360af9865f"
+        },
+        {
+          "path": "research/sources/maintained-phase2-assets__phase3.txt",
+          "sha256": "c4ad94559a44a927c1032cc0e024515f9510a0806a2d14458dbf4a360af9865f"
+        },
+        {
+          "path": "research/artifacts/phase32.txt",
+          "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+        },
+        {
+          "path": "research/artifacts/phase32-beaufort.txt",
+          "sha256": "b08a3151c88cdeb3b2e730a9d9445e1a349498d89bc94ba1d0837f9e04cc3bcd"
+        },
+        {
+          "path": "research/sources/community-README.md",
+          "sha256": "442270a145641d6f75337bf0e12338889d22f029dc613d13f0a4d651875dae6a"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+          "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+        },
+        {
+          "path": "research/artifacts/cycle16/speech-operand-audit.json",
+          "sha256": "173f751681b9f07872c0985cf9bed548c528c17f56bd9d72bc5af23a4b17e763"
+        }
+      ],
+      "source_locations": [
+        "research/artifacts/phase3.txt:1",
+        "research/artifacts/phase3.txt:5",
+        "research/artifacts/phase32.txt:1",
+        "research/artifacts/phase32.txt:3",
+        "research/sources/community-README.md:262",
+        "research/evidence/cycle02/_work__creator_jrk.txt:1027",
+        "research/evidence/cycle02/_work__chat_transcript.txt:73142",
+        "research/evidence/cycle02/_work__chat_transcript.txt:34520"
+      ],
+      "status": "INCONCLUSIVE"
+    }
+  ],
+  "hypothesis": "The wiseman-above speech reference fixes an earlier source object for the unresolved instruction graph",
+  "id": "C16-DEICTIC-SOURCE-AUDIT",
+  "input": "Existing public phase3/phase3.2 source text, decoded speech and preserved chat",
+  "new_cryptographic_trials": 0,
+  "new_trial_inputs": 0,
+  "next_test": "Use the existing public source/dependency maps for a finite symbolic operand-ownership preflight across matrixsumlist, lastwordsbeforearchichoice, thispassword and hash instructions. Compare object labels versus operations without executing any new transform; retain unknown source/count/consumer edges. Reuse, do not repeat, the completed first-hint/last-command attribution audit; its January2021 echo is Deleted Account, not creator-authenticated.",
+  "operation_order": [
+    "validate frozen source-reference task",
+    "map eight exact earlier/secondary anchors and two nearby anchors",
+    "cross-check one creator body in two exports",
+    "record one competing community claim",
+    "compare three finite referents without extraction"
+  ],
+  "output": "Source-position, attribution and scope audit of a deictic reference",
+  "result": "Earlier phase3 explicitly names a thinker/work/humanity role, with Jacque identified only in secondary exposition. Creator-attributed September19 2024 preference for Jacque's ideas supports a thematic reading but does not identify wiseman/140 or an operation; it is39060 seconds after a prior community speech quote without reply metadata. Local Architect and community Satoshi alternatives remain unbound. No source/count/consumer, matrixsumlist/residual/faed join or new numerical operation is established.",
+  "review_correction": "First snapshot's prospective next-task wording incorrectly called the January2021 echo creator-attributed and overlapped existing first-hint scope work. The snapshot is preserved; current v2 next task reuses those results rather than repeating the audit.",
+  "search_space": {
+    "community_alternative_records": 1,
+    "creator_records_cross_checked": 1,
+    "earlier_primary_anchors": 5,
+    "finite_semantic_hypotheses": 3,
+    "nearby_primary_anchors": 2,
+    "prior_context_records": 1,
+    "secondary_name_anchors": 3
+  },
+  "source_evidence": [
+    {
+      "path": "research/artifacts/phase3.txt",
+      "sha256": "c4ad94559a44a927c1032cc0e024515f9510a0806a2d14458dbf4a360af9865f"
+    },
+    {
+      "path": "research/sources/maintained-phase2-assets__phase3.txt",
+      "sha256": "c4ad94559a44a927c1032cc0e024515f9510a0806a2d14458dbf4a360af9865f"
+    },
+    {
+      "path": "research/artifacts/phase32.txt",
+      "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+    },
+    {
+      "path": "research/artifacts/phase32-beaufort.txt",
+      "sha256": "b08a3151c88cdeb3b2e730a9d9445e1a349498d89bc94ba1d0837f9e04cc3bcd"
+    },
+    {
+      "path": "research/sources/community-README.md",
+      "sha256": "442270a145641d6f75337bf0e12338889d22f029dc613d13f0a4d651875dae6a"
+    },
+    {
+      "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+      "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+    },
+    {
+      "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+      "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+    },
+    {
+      "path": "research/artifacts/cycle16/speech-operand-audit.json",
+      "sha256": "173f751681b9f07872c0985cf9bed548c528c17f56bd9d72bc5af23a4b17e763"
+    }
+  ],
+  "source_locations": [
+    "research/artifacts/phase3.txt:1",
+    "research/artifacts/phase3.txt:5",
+    "research/artifacts/phase32.txt:1",
+    "research/artifacts/phase32.txt:3",
+    "research/sources/community-README.md:262",
+    "research/evidence/cycle02/_work__creator_jrk.txt:1027",
+    "research/evidence/cycle02/_work__chat_transcript.txt:73142",
+    "research/evidence/cycle02/_work__chat_transcript.txt:34520"
+  ],
+  "speech_reference": {
+    "phrase": "wisemanabovehintedat",
+    "puzzle_decoded_span_zero_based_half_open": [
+      535,
+      555
+    ],
+    "puzzle_encoded_fixture_span_zero_based_half_open": [
+      982,
+      1002
+    ],
+    "secondary_spaced_source_location": {
+      "character_span_zero_based_half_open": [
+        18568,
+        18591
+      ],
+      "column_one_based": 27,
+      "line_one_based": 308,
+      "utf8_byte_span_zero_based_half_open": [
+        20393,
+        20416
+      ]
+    },
+    "secondary_spacing": "WISEMAN ABOVE HINTED AT",
+    "word_boundaries_are_secondary": true
+  },
+  "status": "INCONCLUSIVE"
+}

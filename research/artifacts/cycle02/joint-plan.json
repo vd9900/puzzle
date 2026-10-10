@@ -1,0 +1,14 @@
+{
+  "aes_trials": 86760,
+  "candidate_set_sha256": "1841b2a533e446ff287492c0451c6c96dd16d353e8ad4b280e76d678717504c9",
+  "cipher_parameters": "AES-256-CBC, EVP_BytesToKey MD5/SHA256 count=1, observed salts, PKCS#7",
+  "decode_forms": 3240,
+  "decoders": 6,
+  "digit_mappings": 3,
+  "id": "C02-JOINT-MOD9",
+  "justification": "Preserved primary colors/primes, matrixsumlist 13-char key matching 91=7*13, 38-char adjacent clue matching 570=15*38, nine-symbol coordinate family and known checkerboard precedent. Mod9 stream mechanism is a secondary interpretation; no claim of intended cipher.",
+  "keystream_variants": 9,
+  "limits": "Tests this specific joint family only; no free alphabet, unknown transposition key, autokey or variable arithmetic search",
+  "roots_and_routes": 20,
+  "unique_passwords": 14460
+}

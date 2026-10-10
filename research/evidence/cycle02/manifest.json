@@ -1,0 +1,110 @@
+{
+  "FINDINGS.md": {
+    "bytes": 8567,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/halbgott29a/gsmgio-5btc-puzzle/2c97f4472bda49f983f3b2fb3da454e665d57e6e/FINDINGS.md",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:44:41.246457+00:00",
+    "sha256": "2812f15c31fa05d2dbed03c192fd5fe651016291b72b9c8997bd606c5f15c70c",
+    "url": "https://raw.githubusercontent.com/halbgott29a/gsmgio-5btc-puzzle/2c97f4472bda49f983f3b2fb3da454e665d57e6e/FINDINGS.md"
+  },
+  "_work__cb9.py": {
+    "bytes": 3235,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/halbgott29a/gsmgio-5btc-puzzle/2c97f4472bda49f983f3b2fb3da454e665d57e6e/_work/cb9.py",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:44:46.087370+00:00",
+    "sha256": "335ee9daef7a669dfd7e508b840a6103b71bf95a90e26d95df33e579367676dc",
+    "url": "https://raw.githubusercontent.com/halbgott29a/gsmgio-5btc-puzzle/2c97f4472bda49f983f3b2fb3da454e665d57e6e/_work/cb9.py"
+  },
+  "_work__chat_transcript.txt": {
+    "bytes": 7182658,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/halbgott29a/gsmgio-5btc-puzzle/2c97f4472bda49f983f3b2fb3da454e665d57e6e/_work/chat_transcript.txt",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:44:45.271220+00:00",
+    "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78",
+    "url": "https://raw.githubusercontent.com/halbgott29a/gsmgio-5btc-puzzle/2c97f4472bda49f983f3b2fb3da454e665d57e6e/_work/chat_transcript.txt"
+  },
+  "_work__creator_jrk.txt": {
+    "bytes": 46527,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/halbgott29a/gsmgio-5btc-puzzle/2c97f4472bda49f983f3b2fb3da454e665d57e6e/_work/creator_jrk.txt",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:44:41.675791+00:00",
+    "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312",
+    "url": "https://raw.githubusercontent.com/halbgott29a/gsmgio-5btc-puzzle/2c97f4472bda49f983f3b2fb3da454e665d57e6e/_work/creator_jrk.txt"
+  },
+  "_work__dbbi_internal.py": {
+    "bytes": 5046,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/halbgott29a/gsmgio-5btc-puzzle/2c97f4472bda49f983f3b2fb3da454e665d57e6e/_work/dbbi_internal.py",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:44:46.541564+00:00",
+    "sha256": "6834cdfea2880e80397158a21e2c6f0e0634e3428b77c1223619f392cabb1d07",
+    "url": "https://raw.githubusercontent.com/halbgott29a/gsmgio-5btc-puzzle/2c97f4472bda49f983f3b2fb3da454e665d57e6e/_work/dbbi_internal.py"
+  },
+  "_work__faed_base9.py": {
+    "bytes": 3131,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/halbgott29a/gsmgio-5btc-puzzle/2c97f4472bda49f983f3b2fb3da454e665d57e6e/_work/faed_base9.py",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:44:48.174237+00:00",
+    "sha256": "33332e65d00c1bfec16302798892c60cbde739c9a9cec64ea40d2235f32a5116",
+    "url": "https://raw.githubusercontent.com/halbgott29a/gsmgio-5btc-puzzle/2c97f4472bda49f983f3b2fb3da454e665d57e6e/_work/faed_base9.py"
+  },
+  "_work__gameoflogic_ocr.txt": {
+    "bytes": 90139,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/halbgott29a/gsmgio-5btc-puzzle/2c97f4472bda49f983f3b2fb3da454e665d57e6e/_work/gameoflogic_ocr.txt",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:44:45.671487+00:00",
+    "sha256": "e269153ec9d502dc25986e54169a1c211841a4f7256b460e4a017bae3242a002",
+    "url": "https://raw.githubusercontent.com/halbgott29a/gsmgio-5btc-puzzle/2c97f4472bda49f983f3b2fb3da454e665d57e6e/_work/gameoflogic_ocr.txt"
+  },
+  "_work__matrixsum.py": {
+    "bytes": 4263,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/halbgott29a/gsmgio-5btc-puzzle/2c97f4472bda49f983f3b2fb3da454e665d57e6e/_work/matrixsum.py",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:44:46.922271+00:00",
+    "sha256": "0d0358278ccea8e458204b23de9901287920ff8c441cd83d5cd473a92fa4ce5d",
+    "url": "https://raw.githubusercontent.com/halbgott29a/gsmgio-5btc-puzzle/2c97f4472bda49f983f3b2fb3da454e665d57e6e/_work/matrixsum.py"
+  },
+  "_work__matrixtri.py": {
+    "bytes": 3502,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/halbgott29a/gsmgio-5btc-puzzle/2c97f4472bda49f983f3b2fb3da454e665d57e6e/_work/matrixtri.py",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:44:47.352477+00:00",
+    "sha256": "96f69ee449fe893638cbfe886503671074187668d498db7c79b7a2f16febf3d3",
+    "url": "https://raw.githubusercontent.com/halbgott29a/gsmgio-5btc-puzzle/2c97f4472bda49f983f3b2fb3da454e665d57e6e/_work/matrixtri.py"
+  },
+  "_work__triangle_zero.py": {
+    "bytes": 4170,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/halbgott29a/gsmgio-5btc-puzzle/2c97f4472bda49f983f3b2fb3da454e665d57e6e/_work/triangle_zero.py",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:44:47.749001+00:00",
+    "sha256": "0e8c2c761562b8fd96cab770d31ae4a12c264fcdb4bdf74cfaa2626a52cb5c12",
+    "url": "https://raw.githubusercontent.com/halbgott29a/gsmgio-5btc-puzzle/2c97f4472bda49f983f3b2fb3da454e665d57e6e/_work/triangle_zero.py"
+  },
+  "github-pr93-files.json": {
+    "bytes": 297621,
+    "content_type": "application/json; charset=utf-8",
+    "final_url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/pulls/93/files?per_page=100",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:44:49.546481+00:00",
+    "sha256": "655ac1c736d791ab8cdbfaa3686a20a2a4dffc3170e0113e28915a5ca666ee63",
+    "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/pulls/93/files?per_page=100"
+  },
+  "github-pr93.json": {
+    "bytes": 17114,
+    "content_type": "application/json; charset=utf-8",
+    "final_url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/pulls/93",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T06:44:48.757891+00:00",
+    "sha256": "9a25ad59f3c5fccad77949d1518c32380f3cfe5fff608d3c318c74a9c737bc25",
+    "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/pulls/93"
+  }
+}

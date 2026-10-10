@@ -1,0 +1,27 @@
+{
+  "benchmark_prefixes": 512,
+  "benchmark_prefixes_per_second": 115414.9,
+  "estimated_seconds": 3.144,
+  "id": "C04-BIFID-SQUARE-CONTROL",
+  "purpose": "Measure prefix selectivity and validate the public eight-key claim; no AES trials or wallet-key enumeration",
+  "search_space": {
+    "first_nine_symbol_permutations": 362880,
+    "fixed_appended_alphabet": "klmnopqrstuvwxyz",
+    "prefix": "btcseed",
+    "source_positions": [
+      0,
+      1,
+      2,
+      3,
+      285,
+      286,
+      287,
+      288
+    ]
+  },
+  "source": {
+    "locator": null,
+    "path": "research/sources/salphaseion.html",
+    "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+  }
+}

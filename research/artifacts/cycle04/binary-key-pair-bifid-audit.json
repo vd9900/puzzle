@@ -1,0 +1,7 @@
+{
+  "group": "bifid",
+  "ledger_sha256": "221336b098b9589a5e6cb923aef94fe63ca04bfbf50d19cabec2985e586c275b",
+  "meaning": "Every recorded key-slot offset, source plaintext hash, scalar fingerprint, both addresses and target gate reproduce; does not solve the puzzle",
+  "slot_checks": 96,
+  "status": "CONFIRMED"
+}

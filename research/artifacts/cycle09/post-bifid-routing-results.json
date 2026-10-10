@@ -1,0 +1,16 @@
+{
+  "TARGET_MATCH": false,
+  "aes_trials": 276,
+  "bounded_raw_key_slots": 64,
+  "elapsed_seconds": 0.117,
+  "id": "C09-POST-BIFID-ROUTING",
+  "ledger_sha256": "9cd46c72b49c62ba1a1aca41534c870ee06bfcd471b4ab54f5263c7240b115f8",
+  "max_hit_printable_ratio": 0.481013,
+  "padding_hits": 3,
+  "qualifying_small_blob_hits": 2,
+  "result": "The frozen source-derived construction has no exact scoped target; padding and structure filters are not a creator-intent proof",
+  "secret_logging": "No password, AES key/IV, scalar, plaintext byte sequence or candidate address is stored; all source material regenerates locally",
+  "status": "INCONCLUSIVE",
+  "structure_hits": 0,
+  "unique_passwords": 46
+}

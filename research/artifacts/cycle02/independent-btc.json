@@ -1,0 +1,38 @@
+{
+  "id": "C02-INDEPENDENT-BTC",
+  "result": "Neither direct candidate derives either scoped address under either public-key serialization, verified by two separate EC/address implementations",
+  "results": [
+    {
+      "candidate_sha256": "a7ce17669edc664a07d2a1aaec9d310f657d0b7651512de5c37fa13b9b6143de",
+      "implementation_note": "Primary cryptography/OpenSSL EC implementation versus independent Python affine secp256k1 arithmetic and Base58 encoder; hashlib SHA/Ripemd shared",
+      "implementations_agree": true,
+      "independent": {
+        "compressed": "14zJ3RHPxiRJAmYHUNTvPoCTxhFB6gACgf",
+        "uncompressed": "1GKJzHQkgTBwwEGeXetsTMDoUzvwzs9yb4"
+      },
+      "main_target_match": false,
+      "primary": {
+        "compressed": "14zJ3RHPxiRJAmYHUNTvPoCTxhFB6gACgf",
+        "uncompressed": "1GKJzHQkgTBwwEGeXetsTMDoUzvwzs9yb4"
+      },
+      "secondary_target_match": false
+    },
+    {
+      "candidate_sha256": "0695c2d68a5690d5143beb075c900e12701d4b06f55f72a38d04c8798c2e760b",
+      "implementation_note": "Primary cryptography/OpenSSL EC implementation versus independent Python affine secp256k1 arithmetic and Base58 encoder; hashlib SHA/Ripemd shared",
+      "implementations_agree": true,
+      "independent": {
+        "compressed": "12ZdDsYJBFJY5jCNmvRm5LeQuDmdXMGTon",
+        "uncompressed": "135Cf6ASyU2PDHuxA1Edc3mHYtxEsZNPCa"
+      },
+      "main_target_match": false,
+      "primary": {
+        "compressed": "12ZdDsYJBFJY5jCNmvRm5LeQuDmdXMGTon",
+        "uncompressed": "135Cf6ASyU2PDHuxA1Edc3mHYtxEsZNPCa"
+      },
+      "secondary_target_match": false
+    }
+  ],
+  "source": "Already-public issue108 binary candidates; not arbitrary keyspace search",
+  "status": "REJECTED"
+}

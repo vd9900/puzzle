@@ -1,0 +1,1291 @@
+{
+  "candidate_set_sha256": "bef2940d741e7f7c9cdad7a13f4ce05f3e37a3837e00fd773d022256fe2a7d9b",
+  "elapsed_seconds_this_run": 1.568,
+  "id": "C02-INNER-TEXT-bef2940d741e7f7c",
+  "ledger": "research/artifacts/cycle02/C02-INNER-TEXT-bef2940d741e7f7c.jsonl",
+  "new_trials_this_run": 29484,
+  "padding_hits": 113,
+  "result": "No solution claimed. Inspect high-ranked hits; readable scores/magic bytes are filters, not creator-intent evidence.",
+  "status": "INCONCLUSIVE",
+  "structural_hits": 0,
+  "target_matches": 0,
+  "top_hits": [
+    {
+      "cipher": "AES-256-CBC",
+      "derived_key_hex": "369614cb681ea7d7a494f9589404a51448d1691c128c261ae015b6152275da49",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "iterations": 1,
+      "iv_hex": "039fbd8e1d936e3d61ff66fb1b73f8ae",
+      "kdf": "EVP_BytesToKey",
+      "kdf_digest": "md5",
+      "padding": "PKCS#7",
+      "padding_valid": true,
+      "password_sha256": "20de9f93a1d27f48dd8c66ca653aaaee4188584ba43bb0b8497b13d078b81f10",
+      "plaintext": {
+        "artifact": "inner-hit-salphaseion-small-md5-20de9f93a1d27f48.bin",
+        "base64": "7Wseuk2KFG5T9uTx9cmQPNqIqM8chHWaWsk4zq2/hFJIz2a5AHuTHm4Qs3Re25EBNsqwGQ7FOKNIko9QH466RWGj4oUK+vs6s1xIPYlyeA==",
+        "sha256": "42b7d132cc11143fe35201cfbcdba243a59d0a153000417f4069dd3cd3444939"
+      },
+      "provenance": [
+        {
+          "extraction": "exact artifact bytes",
+          "representation": "sha1-digest-raw",
+          "source": {
+            "locator": null,
+            "path": "research/artifacts/phase32.txt",
+            "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+          },
+          "source_name": "phase32",
+          "transformation": "lf-normalization"
+        }
+      ],
+      "salt_hex": "3ab585348552415d",
+      "score": {
+        "alphabetic_ratio": 0.227848,
+        "bytes": 79,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0625,
+        "longest_printable_run": 3,
+        "printable_ratio": 0.35443,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "status": "INCONCLUSIVE",
+      "structural_validity": [],
+      "target": "salphaseion-small"
+    },
+    {
+      "cipher": "AES-256-CBC",
+      "derived_key_hex": "f43d26baa8100d15a6ccd59ceac3bacd685f62aa417c469a79d56118ab789b33",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "iterations": 1,
+      "iv_hex": "1947dbf6060cb4280fcd187162e53c6f",
+      "kdf": "EVP_BytesToKey",
+      "kdf_digest": "sha256",
+      "padding": "PKCS#7",
+      "padding_valid": true,
+      "password_sha256": "ff36605c488597766fffa9a02ed9866abd1208fc1321a7710c6e9f0f7dccfcb0",
+      "plaintext": {
+        "artifact": "inner-hit-cosmic-duality-sha256-ff36605c48859776.bin",
+        "base64": "FKDzy9cWzQlFO558y/JNApUdDNrMALqK4++qjGMMmvLfUF6Frm5pdRln8l8ucOIhofWo7XbXuebf4X2j/yK0dNQt3/mgelTyMQLx3djXEU84ZkYrq8iT8ff1glaMRaLa8lSnf0j7hoygnAyCY8EW6UvaxO0WGsczcg+iCGln6vFr0jkRMOwLz2Tj6dApyHi5EAN1Rk0L+NtyPf9PWyk6a0VE3cmnhJzvu00FXvXWfO3y2PMD3mVD1rkpAj/zEjZk6hZcVXq/Ys6HmpXdAKYVIEUo7XiG94Oik5J8JU0gyzYbYSBc74XB8TKbSCu+BE3BFsrAzgTF0ixFFdD3DJ+cSMwTXsXA0j+weZZQj5kGjMQudl8dQueDaQNmrMr9/3S7CQLPGQawL6nIusrlSqW242/pOvAYJ+idOGiiQLxJ1gjrXNvwx85zfsDXKpLKNtgOnKTpdFpyj+YqGAbvjt2sWyBCPxi+dc0XvQptmjx096II6KqHFkI08vFIQv+7yGEmXolEPXQm897mROseTdUQbEBAKi/seE6+6iGDg1RP6cdsFZeQczp6z7dZipU9tvohm+naUVXVFCnIc7sv0VAPWdm6I8KrWyzM4/dKmfVnxbUi9ksivxEYQ+7MNawB2sydsGn0GeKoH6dQv/0Wa1hlFbAgFwpiXvLwcto4irOcENxW+8k1CSLDzzZ4qSc6lWwn0n2Abv2HBFMsyQJR69vNdieeWSpmIO5KFmAZqgkfuY7UXelbcpS21bu9zjA/NXJTCnFq139I363nO+05B4ueSmaYgLe8lDx9c9DiCFpEI9rZ3JpWxNzdj62f9gGSorIB8cfA3s+ljzLBVVIdK1UIfdRyRDYrdbV687zIej+KfyqIarnHqX+Q5bTGCl/tkfrtJdFFHlQM+hB4aHmTV7++PxRDdibEWFW9eFKaaphyY5yB+X0X/ZGI5exsd/NWukxxVZVR1qcLCQ+imnIvm4U7A1rxE7GxUAsaGXnUPp1jdAXLhS0VQV44jOHgE7CkZebm3zVrj+9XJW3wD80Ed5kcCvjy93k5cjsJP/F86pjkG7Cv6YDdH1GaqaMCQa/0xYyQoLQtNVWpXYfDfFmLhGmDGIY6o2ZkbeM3fJXyaMfDrBLb1a9DpepRxX3tIDoi38iGAgb0gs9Lz2XU8hQBQt2DjM2KDARjKhHPIDMj+uv9NMA0GNgrv14s37HcUALbmVrRah9evWfred6pULSE76I828xOT8HFGeywzpovLjylbiBVzAywRnTNnwkdvxjgMeK78rq42XgpQBEhNIkDGYCNVuNa3iQSKN6/AvYwpQppqObCunL7UhdWpxuhBOtrsJ1gQWn6wCRbAJWg8pFSNn/Q2clSOOG3XORbCszQmBjLhJPiu9mDVLR16qGJaQIGhBMtSPo1l8/ytgyfLSFlBQU2wUmgEGd94A6kWDmLtj3GQpeiiTBeHifwzC5J6y8MzlavFwVZ4ALDtCo6ZT/Zi61uVLmk5+q3HGX/rhw+dqF17p9JEqnsY54kZWp5tIaks8KD+d0p8k8jxhz4Oh4XRCB6aGjhpOcNozs1J14ix01hf262pgiR8gxwfO8vnvizq+O2rYA7cgrH8Lij4+0yn3DIvlqt9XC4IavKCMptp6ixbcj76jxEGvdQ0h5lUXQdxAqbk0oVFN9HC2Qra+F88L32XjpYBKmCIdEAeEwD1SFILPMMykGmfJUQkN1Us9qMNJ0LkNpqlRu3fiihQd98x/x+nbFcATMeiFpOY28JLpaXFA==",
+        "sha256": "da683af44b99038ff82d1f7ad34a5369eee3ce8e16227339ca1358bc35ec65ae"
+      },
+      "provenance": [
+        {
+          "extraction": "exact artifact bytes",
+          "representation": "sha224-digest-raw",
+          "source": {
+            "locator": null,
+            "path": "research/artifacts/phase2.txt",
+            "sha256": "e2f9dd65604a3231f8b3301724e8d713a88fffc4b6c7c4aeeb20f58a582b593a"
+          },
+          "source_name": "phase2",
+          "transformation": "lowercase"
+        }
+      ],
+      "salt_hex": "2d3f6fe06dc950e6",
+      "score": {
+        "alphabetic_ratio": 0.201959,
+        "bytes": 1327,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.015038,
+        "longest_printable_run": 7,
+        "printable_ratio": 0.377543,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "status": "INCONCLUSIVE",
+      "structural_validity": [],
+      "target": "cosmic-duality"
+    },
+    {
+      "cipher": "AES-256-CBC",
+      "derived_key_hex": "8f1c509c4c4f9d6d68c89360abe1f02e0d8fbff28e818e266933e6deaf8b30c0",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "iterations": 1,
+      "iv_hex": "5d9c52d7aaee397e9c35853c18fb1bb8",
+      "kdf": "EVP_BytesToKey",
+      "kdf_digest": "md5",
+      "padding": "PKCS#7",
+      "padding_valid": true,
+      "password_sha256": "4dde4fba7852b331b08564e159afd6f4c0435a974cc342122f3b45aba44e7ad6",
+      "plaintext": {
+        "artifact": "inner-hit-cosmic-duality-md5-4dde4fba7852b331.bin",
+        "base64": "Qjr6s2EeyEgcgycs6mWemkack+0DNS+lsubPkSmodSvetki1GH56DT+DG7hpiNDOKZp46WaDi1/hlnpL0kI3LoaxupbQaeV0LzMxp98ocW1ryyS39UXSPYbLD535KR8uRLNAZQlN2kMO7spKw8ydjUi8Oe+1OZ/9H4R/fPQJX6jC7ha1aTtjA52t/Zf9dtP7DX5qxX0u3G228/2TKGbKQgW7Kr8U57DY0bc7l/9W1ggG0JWx7C7e0VBSutN69J9vLGj01o8kMTiWtDhmHDE2iGtmbrf+ROM15WW7i2y+zcIBG0Xut1fG3Iwo0dmuxncWInbwPU+GYJv6LQrngqmBG46YJlNIENE6lMesRGwM+NicAPpVXwxyveGHkMi0bpz9aAQCGD2Qrl60hwVePCCwnXURbJYr68e77z7N4mOAPeCUexG0J/sM0n0Ji5WmTxmwEy2ePJOMFsKqSMLckIEWxHCvLRduvd23o0MOlBKRlb1lvy0dMU6gDk0TeC7uVKjUYSgXMVq8iTAoWEnEYoB8FlWI3+99Ixv+SYUYGAZXh1T0e0M9OVc2gokVZXo7yp0MmZE3MaI25Yfz+j04CfY6ssYS845ufNaJFL63rmdRPh7msTJOXlCOyzNNNs20nb0PCXlYvHyZSBJGYvsnKjlxMxqeRYyODhKvUsVGiubT4rUhmV5RWNz0XJsyy6LmRcrT1hGDro7t+EEjfN9DB+N7t8THmu9YhJKFK7I0pmBCsKDpm2vuf3ynM4WZv/ArVOZ3I4ddB+HWGvZcVaI4p9QbyoS7MNnIQNUmTVupMAeIx/8n2UlxQPwTamJ7e/QvbA7S3/hbEEr13vqVpFwgmSoXA3QgmcsMNBOhbjVvJhJiyD2ZrZ2m/6a8LQSJQVkSbXHrKNzYnYo/tOsFQFVhPiG7tcMFQZLtxcumQGdDNrD4AeKjR/UKvX3JNlKnennP0Dh/WKvkxTXE96r92xx6j398e2GkOr2rNTbJi0i9FujhQiKRes2MKhOkWylJszhgQLA2/xrzhFmhNyVOMlC10eN9xe8w+3JykIgnjFx0Qo9k8gQv52DOIxmW9jaRmopHXvZIwScX7VvXfdna3jzLP4t26MrGznixr8aw0H2dsxizMrDzEO0LwIOVC4KZTvMj7/kqYxasag8bpt0XVCF1bXgIo3QQ/1oeqH+f5ap4P+97eyhzyXtU3Yby5e6DmeAjfjTid7fuWLtC2NTj+1kpplWzrPL2TfjZOwvk38T+sv8THvwG8bI3OmEVIc9zuRRcoPsZK7eCgFaRDuylI76f3giwrimqeUQroW+ucmEyUNKJFFZWWZC8G0MF1LEoyDB6Wz5e17rJv5OjWU5w1et6P+JJcPlHslv4tY3CyL8daOUca3fjqsXSsx7cuhHo3r0hFhPIELZIVo2FK/ia+b9ssV9WfMBUdPDg30j/QVyxWjrFNIAjcM4SlOhJU0Tgg0JFLEnEhS3LIOr4v9/H46S6lTI0mU9y4BC5wh7dNxBdhPr3uiwJCk+md5R9aqrRFEcLtM4bI5hsQbq7cGsLhbnllcfA3FlgXfnjyKogPNLZK+uoC8cl9rjHYZz6EkX29SseawZpHpXWvIy4PtOP93ZxVkmqiVxYeRziYz16NV7OazChraJx+lBPHB//mhoZexHZ9/Y7Wx48f3KLMza2aCu48b6QUeQBH84MrdMPmVYcKEsc3Y+4w9cKXZuE6MGT4d8vIoVSLxG/Zd+jYLzZ/M+vbT2buYGSTNaIUH+TJYs9OIFzrA==",
+        "sha256": "6e9e875e46ed4377c10d72dd8d6cbefc54c22c46190b4a3b37a61e69cdb6d14c"
+      },
+      "provenance": [
+        {
+          "extraction": "explicit speech wording/1141 clue boundary",
+          "representation": "sha384-digest-raw",
+          "source": {
+            "locator": null,
+            "path": "research/artifacts/phase32-beaufort.txt",
+            "sha256": "b08a3151c88cdeb3b2e730a9d9445e1a349498d89bc94ba1d0837f9e04cc3bcd"
+          },
+          "source_name": "speech-post-choice",
+          "transformation": "uppercase"
+        },
+        {
+          "extraction": "explicit speech wording/1141 clue boundary",
+          "representation": "sha384-digest-raw",
+          "source": {
+            "locator": null,
+            "path": "research/artifacts/phase32-beaufort.txt",
+            "sha256": "b08a3151c88cdeb3b2e730a9d9445e1a349498d89bc94ba1d0837f9e04cc3bcd"
+          },
+          "source_name": "speech-post-choice",
+          "transformation": "letters-only-uppercase"
+        }
+      ],
+      "salt_hex": "2d3f6fe06dc950e6",
+      "score": {
+        "alphabetic_ratio": 0.188395,
+        "bytes": 1327,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.004032,
+        "longest_printable_run": 6,
+        "printable_ratio": 0.388093,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "status": "INCONCLUSIVE",
+      "structural_validity": [],
+      "target": "cosmic-duality"
+    },
+    {
+      "cipher": "AES-256-CBC",
+      "derived_key_hex": "f11642d3d9015e15198523dbbffdfd146a56ad52544e7eb60e6a56c4d363624f",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "iterations": 1,
+      "iv_hex": "e4254ef247ccd76545d62187a78527a5",
+      "kdf": "EVP_BytesToKey",
+      "kdf_digest": "sha256",
+      "padding": "PKCS#7",
+      "padding_valid": true,
+      "password_sha256": "39b9c0dea9d05ad78d17715ded0026cb57bef5121ccfd9f1900ff643b33747b5",
+      "plaintext": {
+        "artifact": "inner-hit-cosmic-duality-sha256-39b9c0dea9d05ad7.bin",
+        "base64": "5MaQYbB7ePrLA3euJfnOXNgCEz47CTMfL2+kPFbe/U9UFmTQ3mw6BbyrTy0baiRBpqQ+4fP9bSeYywP6ei4ih7Uoq/dxshgyIkLlxwwaDNpu6WeWWFa+zFPKsjKrEHqd57Ps7KYYXLyWzmALFKOHyN70Gkyy7wlvBvpihTsZeA/hvaxQBumSHwjPgs1glTb7kBkwdYT3NMyv0ciDryX6RPdVAYnsftM6bLdUMw9A4IcKf0eHzYPfRLJQLHDpaYQq7dAyLq4leypTz1Z5YDRsGILI6dbBEp0Ghs3ibNiqh1w6upMCq4lD+LLMIkKAg8z7uzYNPFb25e4YCQS/TaF/gylacnGPH26KShqmUNWC+STHAPFJhOz+KVJABxNOVG1dFKyrWlXiZOLgWe72UFTXzF3dZpDyAbUHwnOZ838PC7qQ7Qp8KdSWWxkwsrr0iq7elwpWNat58TGE5bAj+XvzUO6nD1bj/oP3+lH9aufECiXOPBiaHej+e7rbNzK7088h4r7TjsYEN6bnqssIVRu4H9pmGX5AQZirLrROL09BUGZQ+ydUWmAd5tOt9x0AE/6hlGup4ulYd6XqVDPz8joJMC0YrDymAxxVdjVeLebz+uiU3RSlT+Y1e/vBd1ZvbGFsPJtJFM4hLdMhOqN04yHHPX3iAcjevE6JYIAtrV3C6mBTeS2mHF+L/dsbffNnUozol/Wxv4fU4SZ8/tKCSIfPr9zdBW3TndeYfvhp4XexIL3A5lcLz64quB2FAihh3QchPlz+U7kvang+8caqNibo4pn3ze2T+89CwT3P+z+P38LKeXBdmzb0ddxXOqd04WptT2kmHmpyv7rWzvdSNAtl79ACoVAF/IugPD+Gq//BpurF6ANqT8ctX2ZaVBQ+AH++1BVhvhvLEM6IKlLA9UWtJtjuTrAEQEZgVQaEYRkgevmL8xaVJW/rIxZx2kMAknA11bf3tYQvVfVEcCfqia7NoDJm8yyKcWskcSJ6C9WVtgFDKDt70N/5teNL9y14PI8IA8Qsapuylh7GdFQfit7ljBUVX1q7gXyp/WlxF6s8uzhbuvSBEXHn8aPM/mHTrRbJX0frXiWoQ9LzAzT5V+/SJDfhmKFFEZ2wrvC6uWxd8GYSwhzT83AIU+dItFig/UhDy9TF2wvN9Im97BHVZcZjFB+hv3SLskYb2/CtXwx7hWB8Y2HBJj8lUU52z354OLwlkS8r7UEKvFAPP52NN6Caf3WSqCk8+McXVz9J1cjsg1G9zIMPl6rznXiSkhgmI9Y9Wj2wXigDfO3Pf8oikrTNIKALblcTo+7TgYjkpNS/QmXFch3Xywb1O4SQOj/Y/gTNtunNHfbftJVByG/71kusvzBqBoZNxyJQSBdVCulmD2xdwNn0lNEb3uWqKkE8F/pJ1vx5ve+xFTd0F7zi99zsuorWh95voxJqEw/A4fq2RpZqBhqbO5kKImcsdUoSH09u+20GywrrP7nFMxO2f9YmTqQd9vTosbaFXi/hJEyIfMxyPrS9GVXtYQVxKPvjbgfNGxukEjaziUnLaNCU+8erp16El5iynbAGKBpjvflJOAVb27F29+JjVzdVbTxA8SFD0yCfsijH57hkAsojn5frrmNdkmbsQMAXa9Dqi2gCPPgMB9Mv40G/3k0iJZBUUJdxNh6EmKa80NahPonUY3IYvan4YAOkYk+18MhH1zNIUUk4PJtUPCMuS/wbMa//FTkDKjLUUQQq6uy81WUVevNWsU/8B5rXGlwZJknjoevhbQ==",
+        "sha256": "cf6c966a571437d0046fb9db0c7f44cf1ef4a98e57988af83449a008f59d21ad"
+      },
+      "provenance": [
+        {
+          "extraction": "literal clue tokens, not established passphrase",
+          "representation": "sha224-digest-base64",
+          "source": {
+            "locator": null,
+            "path": "research/sources/salphaseion.html",
+            "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+          },
+          "source_name": "token-concat",
+          "transformation": "reverse-bytes"
+        },
+        {
+          "extraction": "literal clue tokens, not established passphrase",
+          "representation": "sha224-digest-base64",
+          "source": {
+            "locator": null,
+            "path": "research/sources/salphaseion.html",
+            "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+          },
+          "source_name": "token-concat",
+          "transformation": "remove-whitespace-reverse"
+        },
+        {
+          "extraction": "literal clue tokens, not established passphrase",
+          "representation": "sha224-digest-base64",
+          "source": {
+            "locator": null,
+            "path": "research/sources/salphaseion.html",
+            "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+          },
+          "source_name": "token-concat",
+          "transformation": "letters-only-reversed"
+        }
+      ],
+      "salt_hex": "2d3f6fe06dc950e6",
+      "score": {
+        "alphabetic_ratio": 0.199699,
+        "bytes": 1327,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.003802,
+        "longest_printable_run": 7,
+        "printable_ratio": 0.386586,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "status": "INCONCLUSIVE",
+      "structural_validity": [],
+      "target": "cosmic-duality"
+    },
+    {
+      "cipher": "AES-256-CBC",
+      "derived_key_hex": "34dee8364b0b48498cf55f717414b7f8a3a8c8dfbc914bb5b45abaf8e48b0f62",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "iterations": 1,
+      "iv_hex": "b1901aeeee5c73ade6cd004d09dd3241",
+      "kdf": "EVP_BytesToKey",
+      "kdf_digest": "sha256",
+      "padding": "PKCS#7",
+      "padding_valid": true,
+      "password_sha256": "571be6c19c4df8b7a3a346fc0c1e6a6f592cedecd1f2130870b9b9330c03d09b",
+      "plaintext": {
+        "artifact": "inner-hit-cosmic-duality-sha256-571be6c19c4df8b7.bin",
+        "base64": "K0mRyypCuDla9DQBUBZclM60v2nD2GfczX6L8OftBWfYw5SNqJjVXT/VIuzvsDhH0I8Jdfg0V5FNU/lo3n8BR1py4SrNseuXJTMJJc7uEri8y15+fL0I0r9vEEfmswHvRmPFQtG/wf8KljPUETWkNoCBylBDtsSFFcpTKq/tvpi07LdY5dKZOFTUCWr14y4j5le+NQYRGYzkvjklh+OVY5WbFYihAbM1IEsLhMw/HXxPKORc/aAe6t1rU3n+eHVTSHEhgnn8De2rc2l/zZkC0vriD2MK+amtmQ4fDq8f+T8CilfQad+dA+4ELssQbdPqlzEtq0DD9ef1WZW/0luDgUfoQnmEKqcCE2PjA1yk8pyuHoWm0bsb5PJuSatENjLOnzzYYFDEO/x+X2DePjYAe/Sl4t/q7eFrR/AUo6WAkpbe4mDju/a1KxqKBpggdYqPONskZbTmksSGyysgQVT+QMaLXRJxY3xbJ7mbTwNgrgbVnCIiEU6iSox7ereBXHA81zdVxhDqChrEvvp+NzRqCnfmpmw0TwoqnJ4gywRmWfX7TyBYwN6QZrgpzwP42E9SnwRxeiNm7MGxDPaRvfd4tlOqG9GbIggC8GqbJNjnRrm6/KEunP8vM0Mrng/ExCnA6WpIYc4jjaKrnj95HByuwm8cHtkSIAclHdcZjnbXFrPbXbQ/jUAMLFtHC4Yha+v5PNFHkovMyKWS8DbnM0bJrPAiLZQSqfl8rpcLmGNCWBqFYgsMC2J7kTGIKIX5NzIywVcCTWNtroSq9dWcqFyqiLR6COjcjXyBDLVwJq7yt8wzVhuyd7SglkMEmwsMh3ZNytWmcvMvE0T/yp6sS52ScGeCZ5ah/SQOV1aTeRuV2qQlnQ2xyxQA+k9rc/ioNdxZdz7GwXNULl1EUtxcA0jbttRENcStKHmVLkEuZ19XYqgEYEKFRgQ8PjMbFGgxXdi30Vr4L21UKk7hU/Q+WjijhoYc059FbkHpcNGjIgRr29PKgRreW8RCmL/42Yrfc8+2tYo/5pbLwe1USzRzh9s5DV2pxEdy5OhEl8hJHkOCMpPF9IZbU2P2kj03H0ohxaBr33MtFpMLbVfcDXlReXZZT364FiU/Fxecv01wg6iosfJkhnA57qGbWCLrfEIbogzd6cHCdM4n309qQsAS16LnYBzeXZ5gbIybK+6T3JFVz7SwrxixUAljvHgU/15KYEkfXVcM3fNTTiQkGtHgFq8Mwg9j20k8/MQo3UA7Mo3rdgWEbx6uMHX8w74qhlSqufMywWSl8fuYpo/Nv03sZSTGZerV6TSV6fu/lPWELpNjCDOAcPGqy0l/OvyQ0+BmxFAL5pnmNLEXUmGau09pCpDRWI6E+L7sBGQSZdcHGNNV6Lc295sLOfmzwFiYhWGOGS6NYksJz6yYTds1gBBhHxO2erCoJ4B+gh+CwUXn/5QKnB7NTmP4M2yP36lnhT6jIdUvQuVSj4haojOrfUM0Mi62Ztp95/sIQPZWQ/Y5mBvj+fHIY2temBNHRwQeINsxDno2F3I2IbkrWFNldG8Xn3va+56S9IirOQ4RgsP+QbVTadUhwiojYRGyKofwsn6L/t72k7H6KK8j1JWFjcd9ofSaPUaVnYnKSRLWp2FyPk/lctRzLbhfhkrkTwLT1zKH/kQgLvNvXKemc9LeLLNkJe0xLpNVqH+LrgzAw99Tk3kcQI6c7zR5Q/h0vKM3Lvhbz8OKL2/dszlAOsJ/uD1WJbfeiir8FzfeRHt1zcpOAHGa2w==",
+        "sha256": "47c8ea6e0fa0b0bca7282b22d57b79ef9ce7d3d5f85dbee58ee5b8d3314223ed"
+      },
+      "provenance": [
+        {
+          "extraction": "structurally bounded segment",
+          "representation": "sha1-digest-hex-lowercase",
+          "source": {
+            "locator": "joined",
+            "path": "research/sources/salphaseion.html",
+            "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+          },
+          "source_name": "salphaseion-joined",
+          "transformation": "uppercase"
+        },
+        {
+          "extraction": "structurally bounded segment",
+          "representation": "sha1-digest-hex-lowercase",
+          "source": {
+            "locator": "joined",
+            "path": "research/sources/salphaseion.html",
+            "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+          },
+          "source_name": "salphaseion-joined",
+          "transformation": "letters-only-uppercase"
+        }
+      ],
+      "salt_hex": "2d3f6fe06dc950e6",
+      "score": {
+        "alphabetic_ratio": 0.209495,
+        "bytes": 1327,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.003623,
+        "longest_printable_run": 7,
+        "printable_ratio": 0.403165,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "status": "INCONCLUSIVE",
+      "structural_validity": [],
+      "target": "cosmic-duality"
+    },
+    {
+      "cipher": "AES-256-CBC",
+      "derived_key_hex": "44dba75db97c7426f6393a6d281e5e1e459f90c632d9def9f8f8806a368045aa",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "iterations": 1,
+      "iv_hex": "3bded9473ded4620daa9f948bb15ea11",
+      "kdf": "EVP_BytesToKey",
+      "kdf_digest": "sha256",
+      "padding": "PKCS#7",
+      "padding_valid": true,
+      "password_sha256": "f7c21385d548f99eeb884b2709c8511d019a4670114602272a42817e38feaa5e",
+      "plaintext": {
+        "artifact": "inner-hit-cosmic-duality-sha256-f7c21385d548f99e.bin",
+        "base64": "ZRzzAFQDmgK+e5Ybww8scrgw9uYIl2Z6IqDLsdbtWAO/JgxToSlNug2ocwyFdTbaNzTovT8fNG1j3rdIAJ3jduk5YkFiKsPJEpOlCOoPj99s8JMOH55qSV04Oivwf4DhEWSI/oAgmfwIKyXAzeuhZXmtfUenpCF9Co4Tca1OBXlj83vaQ11Le1BMX5X3EItli4bgvGYTb5tyEauTHqpjMsKDZUwBhLNCzvm/5FOgtIWtsfniMtWlMz9tEsk81kHD3/Z99U46rM0uLALw1CRcrRl+EZTzEo+n1nqXCmjhVkNQZ58eS8//rECDO5SE3f94UE6GQvioRxB2W0SL2p9RRpKrIKMZ1Yg54ySYOyCgkiUe2zUvZP8U/tshZCUhLyvVCPoTdMGMrYU/lOxWPYKYWb+9drh9fOJoD0/ee28t0L/E8Mht9cN6wnDiLrQh8Itpy+RmT3Q78LL5SS3Jco2QiYbsRGPgoVsRpb3ruBoVqSAevkQrbI+RtvA4jJ4X/gVfbmRIW35x5lbobpWnSnsftFFMrrHowqbUoOsGRwLPKoWdvuCiKeQXo2S4Pv8x+sBwiqUyqMV1BK0m2AiIFGT166/tTlhRrUiRoZJ3zsKAjDOMYQyZHaCrZ88AkgqforpTAhIQ6Vh96GEsqHxe5j72ovN3/AhwAXc0uM5FfuMpuEmqjS03qxCEzgzjWg1JNTJB07xy6e86YZo4z9ZFVEqwqdNX9GnnMWrY+1fO919NR3xp/E3uWMEH1ugqmc4/OjJPGPXv+9a3Auq3OVe2xNs0OlfezvVw40/V6/NYgbGfVLZ+FegjKUy1KWRD06Wa2bP0yGWHvEzkerVvZH5XtIhh/JET+w373UREO3DMtj3bIi3M8nZ6A7fIGqV3S5sU6bK+Vnc6FQoQB/NfGm0W5tlUw4m9s5J7AMFCkHad4O4KpqUZYz5CHidfnRdM3K/13DCrIUyqG6FE5N/LWwN5AXtFI1WGWOmXEckwAfkqNj7J2+wViLO93NsZl0OT3glPs2IKzQtEe0aJVNR1q/FguRZKM2dQNwuiYGHoYJLTGrTJ5L75ats8/XjsSu+VL9Z+x1rGwIIiCrbq82Aspyo0j/1C20ewuj2MOzTWPufv7SozwGQpT90vXqlz1WS45MqY5GXYH+RjYqw1zvFnyIh9kYPjVuDnNKtDVW4sC1dWa2iI4c0qJaR9ahs+KqzWdlNd8CVqc7f9kFOjuIF9cBoYHIMo3oFAkrLPKiaRI80JbtV17L4mVwJO4e2JBKeN4Rhmx8Y7l9v1DNdIC+hb3uNVJLw6gReQad6FWZHZwOAJB5dQfTYZeyaXoGHo4VpCVTiq8a3vSm3owklP6pDjZc4aefTJTbA/469UqsibjHJXy4HNWxZ7oZT0vty1tO6h1ZRjLuEORyjD75A/Np2xD4sMNHLZBGeslgtydFoIjl34BCSsnmbG312KNaiH/lXg0JFrNg4Oc+cbBjt8WnbMpluPRzb45GsMes9vt388fCPwwna0JmorQVYWZSyxEsw8Gr935qPWBR6PyPBKquY2q370hW9wE+CMZNOZz3cHTq0lcbr1gDXWrZduqXYOLBy+VQKhF4JcIUx5xqo6uV9ETWQcSbonQZKsDlxkQvfG9QwSj34ZpELN8p2Z+AgB8CXiJLTfPZhAXQJIu+VhRedrFGiZ29/zkc/gyj+haOtgmwxH/kGI6rlZhok2rZ+kVltCUDDQEs/PjM8MtbC+DSKz3oHmew29o36yGEyoRv8zaGcnHCctLQ==",
+        "sha256": "c9d685fba71d162e8344642ca1b2eb92ba747cb87db638e3914ab83aee1bc81c"
+      },
+      "provenance": [
+        {
+          "extraction": "exact artifact bytes",
+          "representation": "sha256-digest-hex-lowercase",
+          "source": {
+            "locator": null,
+            "path": "research/artifacts/phase32-beaufort.txt",
+            "sha256": "b08a3151c88cdeb3b2e730a9d9445e1a349498d89bc94ba1d0837f9e04cc3bcd"
+          },
+          "source_name": "phase32-beaufort",
+          "transformation": "strip-terminal-whitespace"
+        },
+        {
+          "extraction": "exact artifact bytes",
+          "representation": "sha256-digest-hex-lowercase",
+          "source": {
+            "locator": null,
+            "path": "research/artifacts/phase32-beaufort.txt",
+            "sha256": "b08a3151c88cdeb3b2e730a9d9445e1a349498d89bc94ba1d0837f9e04cc3bcd"
+          },
+          "source_name": "phase32-beaufort",
+          "transformation": "collapse-whitespace"
+        },
+        {
+          "extraction": "exact artifact bytes",
+          "representation": "sha256-digest-hex-lowercase",
+          "source": {
+            "locator": null,
+            "path": "research/artifacts/phase32-beaufort.txt",
+            "sha256": "b08a3151c88cdeb3b2e730a9d9445e1a349498d89bc94ba1d0837f9e04cc3bcd"
+          },
+          "source_name": "phase32-beaufort",
+          "transformation": "remove-whitespace"
+        },
+        {
+          "extraction": "exact artifact bytes",
+          "representation": "sha256-digest-hex-lowercase",
+          "source": {
+            "locator": null,
+            "path": "research/artifacts/phase32-beaufort.txt",
+            "sha256": "b08a3151c88cdeb3b2e730a9d9445e1a349498d89bc94ba1d0837f9e04cc3bcd"
+          },
+          "source_name": "phase32-beaufort",
+          "transformation": "ascii-alphanumeric-only"
+        },
+        {
+          "extraction": "exact artifact bytes",
+          "representation": "sha256-digest-hex-lowercase",
+          "source": {
+            "locator": null,
+            "path": "research/artifacts/phase32-beaufort.txt",
+            "sha256": "b08a3151c88cdeb3b2e730a9d9445e1a349498d89bc94ba1d0837f9e04cc3bcd"
+          },
+          "source_name": "phase32-beaufort",
+          "transformation": "ascii-letters-only"
+        },
+        {
+          "extraction": "exact artifact bytes",
+          "representation": "sha256-digest-hex-lowercase",
+          "source": {
+            "locator": null,
+            "path": "research/artifacts/phase32-beaufort.txt",
+            "sha256": "b08a3151c88cdeb3b2e730a9d9445e1a349498d89bc94ba1d0837f9e04cc3bcd"
+          },
+          "source_name": "phase32-beaufort",
+          "transformation": "reverse-whitespace-words"
+        },
+        {
+          "extraction": "exact artifact bytes",
+          "representation": "sha256-digest-hex-lowercase",
+          "source": {
+            "locator": null,
+            "path": "research/artifacts/phase32-beaufort.txt",
+            "sha256": "b08a3151c88cdeb3b2e730a9d9445e1a349498d89bc94ba1d0837f9e04cc3bcd"
+          },
+          "source_name": "phase32-beaufort",
+          "transformation": "letters-only-lowercase"
+        }
+      ],
+      "salt_hex": "2d3f6fe06dc950e6",
+      "score": {
+        "alphabetic_ratio": 0.218538,
+        "bytes": 1327,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.003472,
+        "longest_printable_run": 7,
+        "printable_ratio": 0.404672,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "status": "INCONCLUSIVE",
+      "structural_validity": [],
+      "target": "cosmic-duality"
+    },
+    {
+      "cipher": "AES-256-CBC",
+      "derived_key_hex": "ab8e3ba0ea2768b6da678b4757713c9a6ac130b813a8701c32bd5d93acdef570",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "iterations": 1,
+      "iv_hex": "73b2b2ed7837cc0b00bde0a6bfe1860e",
+      "kdf": "EVP_BytesToKey",
+      "kdf_digest": "md5",
+      "padding": "PKCS#7",
+      "padding_valid": true,
+      "password_sha256": "8b018e09a7463ffa963e43c055d5ecf705dd5b3c73f229855902a8781324c4a4",
+      "plaintext": {
+        "artifact": "inner-hit-cosmic-duality-md5-8b018e09a7463ffa.bin",
+        "base64": "4Wa2QlejzdKS0craqUe/UGWYaigHjvOsJt2C+awJ6XK2tBz6ZXq7O5N3KOwMZ2BokdSFcSIGpHEOINoDctk5XW17gA2IcGKAYcKKnyABJ7LZNGcKIy09d7WgXV0C0ZDTUJGa7hHFa9OnzWLGYNen7hjbu9ZRz49fjJRwONjntaFv6+2Tzrxvj/nlnfADk4AW+M1DPJuwYZ/NjcRJys82lDd8GeV7hUGMVftq6H7QTi0g3l0Kr5VQ4iLL7dUMqkGp1L8z/CrjRmC6SBUZdeCckS1MffHjYZPQT0RYir52X5OmA/34sYjN2YN27AlnlLkT7iv0v58GOCDmH0dq5ThaVCpmHeUFYBbKNc9ngw0d+zr5m40A3MwNeZpZcweDWxZlUSRjwLnATkREgxF9SwpBDjUD5EGtTjkZ4x+/gjtaAIKcuU2CNOFxWd5LL/hGuLiNFU7cA3QSp0hY1SufnQlxXbVKnzuQ/BQLG9GQsWWBqIcK2kO07+zqkynzxx2nHRkf8809JaS64N22jX1aDcuFE18NlwF+uBNPcU/FyXey/M7IvCKHkazMpcUFgCLgSCJ4cqxePFZNIWrBWE5PIb4siGDaYGgh+XvIxSVBp3yb1SWj/PTToi/mS2r9QRlZPKI2uOR8fLp1ZQ0xSYLgPqRZOEmv1x8asUoTH1VBQhut6nPkaEawuBQG70JNIf4IwQgNmHhIygla0urmxzR3uYpQvGwIqyIyzvFFw+kMFQPriRNU4D6TtK0Mg0JYcocJdBW65soZO0TSqvNvhfFkRx5sJFenw2gTwDD+UXfSNfnlpIiUC8CSEhe29YkbDmLueRxjAzfRuXmWtP8cE38kLc5OFCqX26vT6MpW71a77jkLF7LjIV3Q8BGrJGgPFAoENfVWY923yaU9galLG8Xq9+uIXzHuGousIID/UbcPKgcyH5LGaUQG6DOsyG7hLoUHVxW3PPqBB2sHcnpXX6hvsjvNhaK9Ct10TlTVQpetFFIGhEsdxI51oHzG9KKu3qHpo2ZxaCsFQ2wxTXwHgAPV2EOVN2CDNEFUonQjZrxNkjVfMPuja/+Q03WGC/Anf4RXQeTYCBzaVzBYynaxI64JWrQLklriYWO8w/J00woKK0zeTe0AeivxmcrfSwnXL+46wrNTcHgBBycmBJsqgAJYkE9ixd9NWvaXX2BUR76a79r1IonvWKzT/oQS88vwCp9G3WZPp/MxhySSs+UPSGkdbXQdOx7kbzJCBrFiWgaXPhVIDPbRdbPDVu0i0t5UUvsd3ymbv85/8dYSSafl0J34+21FzZQO2K0PMKp0veOKyeg7JG0fjBPoHfmR7DgESDpuLTlwj51lDZpQJ2dIWVTkdAQJX6B2evMk36IkyQd6Z4NLLzEJMB1gQbVUP9jNmWziJRfsyYnXciQMdQ2lGB3Xi9hvHpmRBkWtLSdQu4NaTLqtpYbLMqVAIpafS/RZwjdx+JSPqFXwqb51gqMdlbhbHFVyCoUr3llm5MTpeFDFYzJjldUu+NdiwmRkcwx8/GUGDbGYpDRGaMBMppZgndJQBl91OCLaN/3fbJpjOUKNpQgyxPgVWBVzNs/W45wcHyMzdjk0xq4gyuF9xInnnQPhwFj6ZvWAGieU0qnbh3oR/jqdf6GsBrxLIXGazX7fs28OAd3KfpvwOpx5AWQvlZnYGXv+piv0sSUk2Z9/eB3HJSdKOUMXRTuy7ck+R5m0600Srwyk5he+1babtUXXja2fPnmNb1/EmzW2b9EMv/6fk/S3+A==",
+        "sha256": "930c148123f742aa979071a662d5eea89d66263f15e9f3066542855ee4cadc59"
+      },
+      "provenance": [
+        {
+          "extraction": "paragraph boundary extraction",
+          "representation": "sha384-digest-hex-uppercase",
+          "source": {
+            "locator": "CRLF paragraph 4",
+            "path": "research/artifacts/phase32.txt",
+            "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+          },
+          "source_name": "phase32-section-4",
+          "transformation": "reverse-whitespace-words"
+        }
+      ],
+      "salt_hex": "2d3f6fe06dc950e6",
+      "score": {
+        "alphabetic_ratio": 0.223813,
+        "bytes": 1327,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.00339,
+        "longest_printable_run": 6,
+        "printable_ratio": 0.402411,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "status": "INCONCLUSIVE",
+      "structural_validity": [],
+      "target": "cosmic-duality"
+    },
+    {
+      "cipher": "AES-256-CBC",
+      "derived_key_hex": "fa63f4f66a4a3a5b139b174c197a5da61763b82f563a0c5c6313bddf16a22662",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "iterations": 1,
+      "iv_hex": "f1780252fb8967d04275c03d8fbe16c6",
+      "kdf": "EVP_BytesToKey",
+      "kdf_digest": "sha256",
+      "padding": "PKCS#7",
+      "padding_valid": true,
+      "password_sha256": "660dcaeec834a523eec101b3d79255ff5595f6d4a8bf891784a7ec5c51d20535",
+      "plaintext": {
+        "artifact": "inner-hit-cosmic-duality-sha256-660dcaeec834a523.bin",
+        "base64": "OdUYei5q6mT50n5v2TpjifiuPqq4JpP/yst+KgVwNgpve2iFSqkjx9RIKyeK7ACDTWC1ZLXamUP31IDKQyvV5xyacrKTTKb6g3og7dXgdQcfrlk2GtQfDt5YJgX0mzX6Yf5BVLc94s1jpVKY5tkH5xBRUs2sZWxOu74Kx1Px7b3ZIico96CPo0Zg2C3I+ImwpBorxdB/Zq/c9us7MzyPNc5Wrf2rV6Hac8rl8uwonB/eoTQdHeh7PjBQxCqpsu6QBF+eOor1JUfggKRUkwRYVxK6Vq5f4Pcu0u5AHNLGXL4r6wht/zRiTKwRvPMa/X7/kxDYXdYW2Iu+bzQJ6XxV46TUg+TIKqlrmoiJWqHsUlkdbewOEvpdZX+Xj2j2c8qI2gS6tZXZVk7fL8YH2wAqH8ODO3LbxXP1VMaryFSOCKCRl+1k5UjJzIouVQU91bbsNq/yZ4BTtzRKS8MSSYfG2Ed7xmHXQ3+/YgnipIHvvS23xQJWnbB79WR5T3eLAT75vmgmGUFdR7smtIj+dA8MX4x/Pv8FAu5ly8OPrIQLbdX+AOttfBCFHERc4QATVgyvqlDSJ6REzJsCxZguLn7Ank8BgCY2VlDK8co+XB+7H89gvhmBJKIn8F+oKAzQ4qZ+4sTU7JrBVrHGI4/UmYmKsf79yBhiad5h2JNeF+5ltpM9Fs1rxviYcASaJ+GKWEI7AX9LVby9LSiqb+Kek45zjQIRLXSDvHpZhR7y6cmD4e2GbhFoBe084o4S2vKAHeE63HdaWn6mWenCDHAcEHe+GcJAzQ4OhCZCoumRh9/xvpofbtOo6Yn/HWywZxRc7MQm5ypF5WK3KhYRGqvZ+USjJyM7/7WTUnvlJ+niIkftCP5aECszD8j6Wb6Nv+N3a1ut84HRC7IMMvUZYomY0fPVvFspH06Mk/zK/h1P4stW7qf3kPNTdSkcJFxYSy7O2PyLW3EaZWavZwNpsdmo6DHVX27Jgb1fRQ1plAEBxFGcbIA1t3IfIveFQlNxXlb6dlPbErJpca5JQjItmO0znKJVTzlWd21kRe8/uQebuXULzrY2fE73roe38xKPTCiLZSaoVKKNhd3KK09UXoALT2vNsliPYafyHIDyRcevrypAZFMqWDd0In5peiSpvZlBXLH0EdpldQmQodUJsEjdDDAojC5NpirYz2OZ7btQZZxCjLCEF9EoQm8ZbTP2NXoj3RuPJiMFUA4oYUPmVoxst6UzUmZ0oDOC5SSF/JYTYwrBlc0xrUsmAXW4eNMTKkMe6ubYGQLalnLaoTgzFtM95BGoEZu7etf4Mz2p9h4AgdFMf3uLcgEk9aN5KEvv+eUzZ8jDMu45lytZVqYT0oW3CbJt7vNbrcA7ebWQzMRgCxZu18aVXxEoZFieyYOVw7xII/jEa92/VmBGL0Vc/SDHbRckqqXKU/o1dAlZzsi8be9usBP08wr47Bk89PNOgmlZusfCS1gVxWPYWCIEFZl6bNqYn/ZVXntuuaBSDhiki4QC2gpkPtxNG/AK/bUm0NQ6UW/LiCCKyJrvk6CMMTu4NfazEJpaGP5QTxGYIPuX274tzznnP+R21Ki8/ErCmBvuPi9LlNn9hE80HrMyivR7NXlwVmM1u5WTNj/UPXPb+4ZHiyNyBEaYOcg6HQm0mxcH8yroklVKVKfB9pxvIgMAF4ffgY64O+jJoJ9Tx2/EU+dEb0zt7M3Vs/Y6NPr/1wpxFMCj8YrYVMLBcB9SWYX2+QLJQSSZg7emEklRrOGkKNYGKQ==",
+        "sha256": "42b164b857d06cd252c9c3e6cb4c4c941289574e7ae7bfb7e6fbdc1eacbd8e87"
+      },
+      "provenance": [
+        {
+          "extraction": "baseline verified preimage/clue",
+          "representation": "sha256-digest-hex-uppercase",
+          "source": {
+            "locator": "phase3-preimage",
+            "path": "tools/gsmg.py"
+          },
+          "source_name": "phase3-preimage",
+          "transformation": "remove-whitespace-reverse"
+        }
+      ],
+      "salt_hex": "2d3f6fe06dc950e6",
+      "score": {
+        "alphabetic_ratio": 0.213263,
+        "bytes": 1327,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 13,
+        "printable_ratio": 0.389601,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "status": "INCONCLUSIVE",
+      "structural_validity": [],
+      "target": "cosmic-duality"
+    },
+    {
+      "cipher": "AES-256-CBC",
+      "derived_key_hex": "a10516ca4681f42828d8501c54e6bd08d185bf801ba3301dc5928d4723f909c9",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "iterations": 1,
+      "iv_hex": "af9c46e961f5f0136088aa9d8467191a",
+      "kdf": "EVP_BytesToKey",
+      "kdf_digest": "md5",
+      "padding": "PKCS#7",
+      "padding_valid": true,
+      "password_sha256": "4dcd4720db73535953b28fbd1d2bebb11aefc3757a136f447fccb3f06a123690",
+      "plaintext": {
+        "artifact": "inner-hit-cosmic-duality-md5-4dcd4720db735359.bin",
+        "base64": "PITB+HtTCPZYd4wJeJjMzEzqusWYrf5pF9ZxqX5jIVFRAIm2uq4Yn3eorptZ4OSmaHjMtZG1TLMR7P7wIvp9GUYSji/d04Cb91sVtwLGpZ6hGljry7Dyj4OWI+0PzocYIhBFKnb/M2PZSonEH5FqbY669KbyW7tJ+/uQeTmxedCE86NEsGnIT/CeWEY49i/+pO3DR+LxAMBiMunzF4aYJ4ZKpya4ebg2TRECkFGogZY4/LsxBXEq59nwjvcxw/JI8KVAuYN++dUivuT/sHpn3jeSh07DOuoy0Qc2JdKLxBrIxgwzaApcSuVIsvl5+pFPR/o3i2ksEbBEDNa81doODcDuN3GYrecL59bwLZzujrigbA+JyX0cuXyLtu6e2SqsUUoo7Rm1lYdV25F0aBs13G9gMzVb/5YNmkCVkzzCS2DsFut94tb4bQpAGsR++BcsigS0SPgr2zcXtdMXwD6owumLBtCs0x9B2M3AiwAJN5DbpgeOgth3e/DiJq7cK3nja9WdBTYbpN0dBgVqqhPwDTrzOwgYfNZ4MP05OIiV1AQb31jhybVqPjgMJaMFYPT6Mya5zV5dBOv1T+Ux5ufnK5wVJn2NvojGEfSjJkZOYzBkXof/3J/NFGOHPOWJbkXJQGoCcKjqQDMDCA1Bmsp80XX8ER3EGPE8BkL+svV2JKtbWBzr8zwxDfkZFs8ZAjw1Lx33qFQLWhYxvDHkYGUvhdoJ+39JEDO3jB/gSL0X9I1+avtEUs+RHrMsbxLSd3EdRKZtrCS7lP9Y8G/kqw2MOyppO80yMfO8dgluJ3WgMujwRG6sfeVrJHVxseOjUNcsJ4S4sProUJHMQOh1AKr9jH9jILBZnfm5af1rKet8YnovUdSc9W5Lxtfgm4iAwuYdDsJEnfN2zih2xvv2ZL2ZVT2bdQguvcnZhygrSiOIpXJKro846syohBqWzLzqxJIom4L8hV3KECNmKCXN6mGP2M9jdN3mWI5MTLxbq1zxq/t6n1kRJlNBlKe9J2mXBShOUmdrfQMv/sL4O+ml1POMWoyXw1jhVEdR3wNUBE6Du5I31jnjA2c9m/+h9RwkyK1dxATRECd8aH961EhmFFvzKqPE+RVJG1uyrI3A1RBgn0W4tMqRUHwcVvT+FrYOp40UMYdTeyphnPuTACYsSoBuKq4oSdqvg+/fb3Y/IbEAiNaB6l3I8eZ4suRaW3z7YhT1vyOPplAC0uXFxCD1cGlvq1VT5ViYnlNGe7bsLrO2BS5+09jgTuyX51iWra1R73Lq+p7i5SGABAfB1tpdQVQLCdTZ4d/vgJglNhiKSyEzGPmt4eJKIaFV17r43rie1rlgn+mXs2YDaU2+JmZbJb0cJ5sf8UiMYuN34x4C0DiRMm8joYLcoU7lo/dw/ixvTQCViHwpexAZp7U/6UUPzd5Erm1N8BOgCSiofVAEFCfzi+BiuBpG9UVro8RQyy6QZdTS7DUBOT80O0dmYVxNWjMIxaCxzq4lFTpZusC5wVJLXcd8baCuwUQuCUnqqap50n/D28MIa/qt/in3ZxjDbl4heHeYr/t2JxGYAJ55ExaVwOAouu8UnER7qin0PugrXRLvu6NRIOZVeXkPcrpe5dtqkva2dEZK32O4F4rIx3TaWLW81oTevyEgLybSXK7OLlThnj+aIrE+yT7xCIdr5ziH2p46jZSTuZozBdcIKftkR/sV50YmsJUdep0pV92iNdf0+Qs49NZskIbjYnoG608sEkLK3Pjv8CE88c5b+UAEUQ==",
+        "sha256": "9e786661ef68a531771a3518b149c1bbc61e7b8fec7e1177c054d05f2e825f1d"
+      },
+      "provenance": [
+        {
+          "extraction": "paragraph boundary extraction",
+          "representation": "sha384-digest-raw",
+          "source": {
+            "locator": "CRLF paragraph 1",
+            "path": "research/artifacts/phase32.txt",
+            "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+          },
+          "source_name": "phase32-section-1",
+          "transformation": "letters-only-lowercase"
+        }
+      ],
+      "salt_hex": "2d3f6fe06dc950e6",
+      "score": {
+        "alphabetic_ratio": 0.19367,
+        "bytes": 1327,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 11,
+        "printable_ratio": 0.386586,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "status": "INCONCLUSIVE",
+      "structural_validity": [],
+      "target": "cosmic-duality"
+    },
+    {
+      "cipher": "AES-256-CBC",
+      "derived_key_hex": "b5177ddac75e80e2b7d0465ad48bd3f2f021dc579e6cb12e4cbd6061190168d3",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "iterations": 1,
+      "iv_hex": "16995a2a19afcbe4414b9a233b02b803",
+      "kdf": "EVP_BytesToKey",
+      "kdf_digest": "md5",
+      "padding": "PKCS#7",
+      "padding_valid": true,
+      "password_sha256": "621da822bd048277c87d0c570fc22c0b4d3b5ad25ca47721bfdc283b8c528632",
+      "plaintext": {
+        "artifact": "inner-hit-cosmic-duality-md5-621da822bd048277.bin",
+        "base64": "bOu6UIfZ3YQvfDBvbt9PNH+bkK8LIsZdTBy6XLq06g2lcYQEf06+0wc8+yGfpBonrYHJWlBN4jdF8F07UZ3Z957ceUXvYwRVHDEoWHFKT42JacriYTQFyWCByZeYbzLzyn/SEbRRqfe8xVnlid1pvIXrxoMBoXdjuij+FzJn4sZD7BPBU745G1LN4vYd9Q3PCuUw+AKP7Y3DF8+zWZpy2jB71wvdE2A+tw+H/MRTZdBhwo/VAm/QWiczcLA3Z04HML86PQ1cFK/EEI48fL00Joga2+QlRNHm0ITk/GWMpPgkWodpBAC1HIImISCU2UQ4/CI00BNtDSyLoH9EGzN45IHu4Qdj1p2HsTDWGvmp7PBEzRHtR7cSMCGHijBV3eR97e47q5at5ZSB+ZI2D76TYZsXv3IwmrabVPMwMpcA1iRD2wVpUHwq7bi7WMuvpp7jvm+V8MO06O/TY8dXp+GQximmYrlbpSvGJOrWfEYVXP8OAc0fLGZqqwVZliYkPLl1JKb20btbQuP/mYMx2XWhGJ49W32oaidBrZa63MSU9BMxNRbC9JY0sRQw19WzlHUzFLYpcuplatlqLgcFOwUMtxBAZzKkUPt4hM2+5pH2q9xiIM1GeKZZWVrKB687zyIZO39YvNTgphF3uy0uGBD7J9RGTGdz8mBMgh0HtfvDIG61hjCp0JgO2Va6puLmjikyalJ9ULRgrTC8HN0rX5k5GSpR6ErN2tY3Jzxy0V2tDXe/2AltUMuGbnZdmtX4nxq/hyCIIBILrJ0kUPlTc5V5sOxP9SCOyO0GSK/W680tp9yeGpStJfuPcUQoU4WBBwtBzqWlGyEajsUFNsUqtxq8n8YuNrROYetK5EM2iypAmubrUi9krhyICwPlPEjAIxvB/nv6H/DfgQQK936C3e5dtWJsXqN6/3CgIkK2c7MDxPpNPzFhZ2bLO0FF73RuBMAfluJdGxeSQvP1JWAJ9FaWx5VDhLhIrjb75Ns5Pb6ZYFbLzsaplH9TIZ5YcBO1U8JndKtQNR13ObPiuxlQEDD94CKCTYttTU110t13zCOXyIvmfhOYOqm+jPp9p9/PTmbqkMCF5UpLd01vdTZ2fkUKTy6kPk8Urjk1irSGLIdOLVAS+hrSczD26QCEK56VUxadE6DrChdjsp1W0Farigw5wLirGNoye+BJ7/zunwF/sDgh6mdFIcCmGZrGHV8COIZLqMbMNOnxHCBXkLRPiEGWhmyjK3udzLjbzdl1ViEcxaDr136XkE3A3RnCksSuqFZsNoNAgjnxn4Mh7pqoYqacLGJ8t7CdW86gvadPkf0OAWmXmB6Qh5gk1CKoiw7yLWFrj1CNwYeYN71evKcLYj7ZeTFaCncwXmyQy0HnnZe9bSmunVnKYTII5S/WyyHZ6fzXEbPQpuoMjehw6L9UOuY1+qPnMsUhjy7m4WOEYBOry61QZA1iRszIsszQ90G9VgfGPapEYumjWZffJxMRjI2pzkyTBogfiTjcrIi5zJAxx6B5pjkqdm9DmHLvoJEeC74WZrI3g4upui+noxPw0XoUta6gKtgijwPWovtJ/DJYXXRqQe0z7ktHKKBXNpMVmtuEh4WTttbih4ldXt8RfUT4XfUtv+NPM7q00lkTgbVGDP9Gu2JqD5qQevC0A0BKy3HcZdniI//ypKWv3MxiM7/yaQo4Q9wk0mSY3P6EHQisIK81n208rBVVLmH9eEx8XXOe3cz6TJWx+VR0vIBE8I5kYNhNw+HYQ0Yb8wDWB72pQg==",
+        "sha256": "3cfd3f6885baf047c3251caabede678d5ab74aac2bab8bb557160b8812f5b3eb"
+      },
+      "provenance": [
+        {
+          "extraction": "paragraph boundary extraction",
+          "representation": "sha256-digest-base64",
+          "source": {
+            "locator": "CRLF paragraph 0",
+            "path": "research/artifacts/phase32.txt",
+            "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+          },
+          "source_name": "phase32-section-0",
+          "transformation": "ascii-alphanumeric-only"
+        },
+        {
+          "extraction": "paragraph boundary extraction",
+          "representation": "sha256-digest-base64",
+          "source": {
+            "locator": "CRLF paragraph 0",
+            "path": "research/artifacts/phase32.txt",
+            "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+          },
+          "source_name": "phase32-section-0",
+          "transformation": "ascii-letters-only"
+        }
+      ],
+      "salt_hex": "2d3f6fe06dc950e6",
+      "score": {
+        "alphabetic_ratio": 0.200452,
+        "bytes": 1327,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 10,
+        "printable_ratio": 0.388847,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "status": "INCONCLUSIVE",
+      "structural_validity": [],
+      "target": "cosmic-duality"
+    },
+    {
+      "cipher": "AES-256-CBC",
+      "derived_key_hex": "36d298047650cbfe0dedcfe17e761b9a68cad58eec0fea7d117d97b224789f1f",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "iterations": 1,
+      "iv_hex": "e492471de481c744fdd5649334055615",
+      "kdf": "EVP_BytesToKey",
+      "kdf_digest": "sha256",
+      "padding": "PKCS#7",
+      "padding_valid": true,
+      "password_sha256": "90829b510c3697569da47d2817f545f1e2a1cddd78e45f821dafcdab3dc0c281",
+      "plaintext": {
+        "artifact": "inner-hit-cosmic-duality-sha256-90829b510c369756.bin",
+        "base64": "CChCmDrm54DnYobQcK+s56HgSt/iwPUF4yfdNmNniSBdo//CSsZrtWvUACRPc9JrJvdnZzDxut+A35g1Sy0TuKIRFn7Ax3l369JclS4LBNCggyP3qROBslABx4h+UkoVcVhvXoJHg22RK5bOT+BEcblyE+7wDvkwY/RBtCyGNs00i7AAfwsxJ6Onu15OEvb4EdG2d3/wUtF68zOqtd55mVxl2hWGK725VlhUc+MqwM6ZhaxYtU6nBJPyXxGmEWGqC6K6mM3RQNC8A2nYHTrtHQVFIM6qfNvrP50HJrBFivWqPloUHqtT+Pl2Hxls9Yhw50TW5t3Zb/wGBidydmpuYvSs7eM6jkV1gZ6q6UICdkLGIKnY081hbqL14OQZBhQ9on0VC9SovMtKbiU2LWwH9FY6Kk+jlsR29HYyBjhj9lRgmK2mi5+cu/cHlWh4o81RvHdHuQoZZf9zo8CfjE0Wsa5sU92JxheSzDkQsUJoOWMeT9lFzzmcTX1V6yTY1yN2qO5xJnL1QSzTLHeLTYwPf87pai/RHaPhXOzrCvTc1iqVNMckV4ZDYT4qzGRYBZVAeeWhP1I+hIGp+3c1QOlmPUCfG1ZDrbqE3AkqOmtIGXNO5cyfzmSVCAk/iEtjkqEzCouLmhYpLllx983CM5qeQfs3dDJ6FdiU/ZNugdM3IgbdeEiyl9hCEGbQArNjnlSOrfSzUM/gdLmnFf05BulpkXcGq/MeYvJr5E1X6FeY9SQTtnRqSE4mu+V/qGdcA4Y4pM5GJIv5rCWpmnIJ21M0qpACaodaqnbhQ9u7pGcZRzbpBFTgGOE6IpVvFfFML6bL0MDjMju1GeRmGT9zJR09VamDYEYCcbilmFMmr91gOUdNrJD+zMTrgCQXuexFhzaKUODN6/HStro3bELXCCsUqZsW1B7txEm9FmzxwfMAnGbdOssOYjZeDkzUxnrPUsJpj8eWvZSoe/1xp2amO+rCOX1Wd2JjQ24nqTe5F3WaLxBtyhh/6sCAFGzk3jbFF9Ii8sfaQjsK0HTSz1duIY1DLFRBdrtIQTxZfQte3A4Krc0mr7DbfT49hfKkbBKxjVNVXismqqoVKEzuJCWkRYz8vjacTDfSDYZVqRswxRG1uxlEXXwSthk+Bid71mR+sp8LJdf4OkEx1+I+dM7Y+MuUAXIjxGfegattK8O8OlKm66f9l6GoyyFG7OF9Timmf95zOoHo64FqLRNvovQm1dG7n7de7gaW0iNQe7cfAw9otWg0y4kgROV7FjMVfUEEVnqEXCnx2DfbmTw3chivEFFCW5ERlwb6l5eGkOvcn35w4kEObJFSyaNzOdVH5R6hzmziWBctLckk9qZ61PNC1Dtu6CammKk6f9MA7X0770bvE2DL7dW/ZWq4Bpv3ini7je+rRohIlIfHkQhVvZvIvse9aq8PTdWAcP4jR9npZ413oEZuf61X6KoM1Y2Gm7b8Pg8ChLTWwz+JX4TsaB+77UtUxmHMwAdS14/AYGd8C14ZHN3Q6BpXwf0l/MM1up2dPukh7ZKjBc2ovndcI9BKwEmG0UXZc/br7Tx/GaPyGFbS2BcHSH+AzclBa9JqGL/1jG9tA3bQZsvdg1wQdBB1pESmmrUK+umPsYafDZ/OpwYeE+XT6E8nOxB9lnwBoUhVpxXYrfjYzBKW+sl8zZ2qJT3vHisd+WY8sj6PpQJtk8YwQDyO2ocNYaU9iv+BLHZchq/586TChg9QqHsbFkLD6ODYUeBpVAJObMb/KAZ73nHpgQ==",
+        "sha256": "a794fc84d5cac8bfac2e8ed651b7ecfecdffdccb996f0a2f1ef367e8f0ad1684"
+      },
+      "provenance": [
+        {
+          "extraction": "exact artifact bytes",
+          "representation": "raw",
+          "source": {
+            "locator": null,
+            "path": "research/artifacts/phase32-beaufort.txt",
+            "sha256": "b08a3151c88cdeb3b2e730a9d9445e1a349498d89bc94ba1d0837f9e04cc3bcd"
+          },
+          "source_name": "phase32-beaufort",
+          "transformation": "strip-terminal-whitespace"
+        },
+        {
+          "extraction": "exact artifact bytes",
+          "representation": "raw",
+          "source": {
+            "locator": null,
+            "path": "research/artifacts/phase32-beaufort.txt",
+            "sha256": "b08a3151c88cdeb3b2e730a9d9445e1a349498d89bc94ba1d0837f9e04cc3bcd"
+          },
+          "source_name": "phase32-beaufort",
+          "transformation": "collapse-whitespace"
+        },
+        {
+          "extraction": "exact artifact bytes",
+          "representation": "raw",
+          "source": {
+            "locator": null,
+            "path": "research/artifacts/phase32-beaufort.txt",
+            "sha256": "b08a3151c88cdeb3b2e730a9d9445e1a349498d89bc94ba1d0837f9e04cc3bcd"
+          },
+          "source_name": "phase32-beaufort",
+          "transformation": "remove-whitespace"
+        },
+        {
+          "extraction": "exact artifact bytes",
+          "representation": "raw",
+          "source": {
+            "locator": null,
+            "path": "research/artifacts/phase32-beaufort.txt",
+            "sha256": "b08a3151c88cdeb3b2e730a9d9445e1a349498d89bc94ba1d0837f9e04cc3bcd"
+          },
+          "source_name": "phase32-beaufort",
+          "transformation": "ascii-alphanumeric-only"
+        },
+        {
+          "extraction": "exact artifact bytes",
+          "representation": "raw",
+          "source": {
+            "locator": null,
+            "path": "research/artifacts/phase32-beaufort.txt",
+            "sha256": "b08a3151c88cdeb3b2e730a9d9445e1a349498d89bc94ba1d0837f9e04cc3bcd"
+          },
+          "source_name": "phase32-beaufort",
+          "transformation": "ascii-letters-only"
+        },
+        {
+          "extraction": "exact artifact bytes",
+          "representation": "raw",
+          "source": {
+            "locator": null,
+            "path": "research/artifacts/phase32-beaufort.txt",
+            "sha256": "b08a3151c88cdeb3b2e730a9d9445e1a349498d89bc94ba1d0837f9e04cc3bcd"
+          },
+          "source_name": "phase32-beaufort",
+          "transformation": "reverse-whitespace-words"
+        },
+        {
+          "extraction": "exact artifact bytes",
+          "representation": "raw",
+          "source": {
+            "locator": null,
+            "path": "research/artifacts/phase32-beaufort.txt",
+            "sha256": "b08a3151c88cdeb3b2e730a9d9445e1a349498d89bc94ba1d0837f9e04cc3bcd"
+          },
+          "source_name": "phase32-beaufort",
+          "transformation": "letters-only-lowercase"
+        }
+      ],
+      "salt_hex": "2d3f6fe06dc950e6",
+      "score": {
+        "alphabetic_ratio": 0.220799,
+        "bytes": 1327,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 9,
+        "printable_ratio": 0.394122,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": [
+          "it"
+        ]
+      },
+      "status": "INCONCLUSIVE",
+      "structural_validity": [],
+      "target": "cosmic-duality"
+    },
+    {
+      "cipher": "AES-256-CBC",
+      "derived_key_hex": "7b518cc79fd1291b93790686a08f1a5e5d8af519d4100826a71b4d68d6bd855c",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "iterations": 1,
+      "iv_hex": "225120e2da4d6ede74cd8560ebe3bedf",
+      "kdf": "EVP_BytesToKey",
+      "kdf_digest": "sha256",
+      "padding": "PKCS#7",
+      "padding_valid": true,
+      "password_sha256": "92ccf95216ae66e653795e71b08f3e11b8cf5442cccb491934c2550026f585b3",
+      "plaintext": {
+        "artifact": "inner-hit-cosmic-duality-sha256-92ccf95216ae66e6.bin",
+        "base64": "654erwNITs/Nq+/xziTOfc7wfckH/Hujss4LWfmBURg5yjJPzCzdLsgTISWR9j73OPVMxDJkLZpeyUC+dOI67RyxBdxOAM3/IBSAkuBctmAcI67o1VVwphJFHbLQ4Yl5QN1C9u68czHziyJhfWwUlsTeiPrmcez1xHh7sK0ZqZGAitPzpr2aoLsGvhYfSiM6LK3K8WlOvVSE47BdCA+mbzRoMDTUWlP3JGDYyKWapjVaYllQqjxxE5i6tUkZPxIjKiG6DGK0X3Khw/RsHsz8xWoiSkM02lisI8E2Q9wtaDVBC/NkTIQo2UZvUPXZruyTqKjbH1uXd+Bwd1WnWlGxJlx9hEc2/jXLvYP0170IUUg2GhKrWcU8KDgXbErSwO8RIJJfm6a3J8GO6hC/zeH0aNKJkZNgDbgN8vv5kOfKRcUyoV7BFIAxD98wjUQN0dVd8JN3YnQq79eaoo0i4Xeo2duUyjgcwRcBt3GT0ba9h1KpRbHATH14LxzKsajq5APpqhPjKQExSgqLqMkhTzg/eWm9r+i0dO8iSTp+DrUh4XLb0VnD3T3Fe/RQviG3rSHt6mfZcuiIp3BJq+GN2rzTsBwZuBae7w08fLLTKxEMIKJTyUxplV14ojt9uiqfATBcpyPY+XvpT0lLknkZ/AmUGthakxRAf/pDhu5zYOwMEbbEVznRZfvCBTi+ZEbNFCinbW6fHBwdjveLZiHPG+YiwUWt5NTQGnI4GwOgUJaLJZk2z6vRkiENDU/HFIAN3edPPzg9WrJKg68vY7hK2AaOH0e0M6cOrpXvcPSxC/Qevu2DAaXvBIXHjD92KpOy3pkj5KYIiP8hLk7omNB1iYbic2F9UuGcph1/zsXgQ/m96qXIBaZwMn687kLrD/9dlt2tMrN2I/Qzf+CPdD+Rkh2tuP9SQWsZ1XKH1JYXfMwLZVAAJeSGBeoLDwQwqxRKDnF96bZAnPKxX3zwiGnC3EM7sPADLl5l/jj3CbxOVa14EIFredrrFIGSpQoa0xgnCb8cLxxlHCW25wH/M4RJ+e17ZHyjz+AHbhWLtWfeOcry+/fmyPaX8gy15l3XNcP85oSSu49aHLLrBNOOW7ISGZAwUe+MWquOr3mbFewUGLy6ERXM8IYBRKJrJuOoqxPb2eLORExIwFa7zlEy5g5IiwuDXDZAtBhZpQul7x8VtgLT8hD2mPfBkQC4yq4XMpfOhm2XLkrnznXyy6cEF0ewiAjnNtHsHIkBpAOfbuouNV6fJWh4PXtkKjx9Ea9ZMihboVIC4cEOLk1arweFrU1WJB+Z7f20eHqNCr/JiolwX5tlhUVbCQl08dkovM0xb+a7/TxBeBXt6DN6jJJO1QJyHT4z6onUfFOnKaIijg6iIZfxl0rNjoISv6BBG1S5BSekSLIyXiNaxpOvmDf3+VwzRuYn2hvh708gibVhE/kUbM5M4vRcYjPUeZAvqDaJrVV2lUylu+fjbHingL9dFVxWypAcGOe6t+puAi3UDv3wfbtTk87g0F4ebl5u2krHFxkN0AkgYHlviMKKJRoVxsLDNmPwh1dKUNdsgINPMeGgLT+K1BQ90uS03kIPHMRcO4HRdrUVQ2D0CT0g96mNh2npuPGDZbGWmXMy8LJcKPSDVk5FZL7q1IE7jcUVd+nqChpqdcD5SamWFXp4KfKZce6GG8vd/PGEr88XcB04l6E4B4F8D24BAcgudTXL0L4DzsKr0ohsiIDhZuc/d+SjbAgWXgwQOV95GpLnRh/D6fcb0VEQGw==",
+        "sha256": "fa331a22a6f6691654a9376287a55e76de7a2f775e0754e82f81eb7905f3d602"
+      },
+      "provenance": [
+        {
+          "extraction": "paragraph boundary extraction",
+          "representation": "md5-digest-hex-lowercase",
+          "source": {
+            "locator": "CRLF paragraph 2",
+            "path": "research/artifacts/phase32.txt",
+            "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+          },
+          "source_name": "phase32-section-2",
+          "transformation": "exact"
+        },
+        {
+          "extraction": "paragraph boundary extraction",
+          "representation": "md5-digest-hex-lowercase",
+          "source": {
+            "locator": "CRLF paragraph 2",
+            "path": "research/artifacts/phase32.txt",
+            "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+          },
+          "source_name": "phase32-section-2",
+          "transformation": "strip-terminal-whitespace"
+        },
+        {
+          "extraction": "paragraph boundary extraction",
+          "representation": "md5-digest-hex-lowercase",
+          "source": {
+            "locator": "CRLF paragraph 2",
+            "path": "research/artifacts/phase32.txt",
+            "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+          },
+          "source_name": "phase32-section-2",
+          "transformation": "lowercase"
+        },
+        {
+          "extraction": "paragraph boundary extraction",
+          "representation": "md5-digest-hex-lowercase",
+          "source": {
+            "locator": "CRLF paragraph 2",
+            "path": "research/artifacts/phase32.txt",
+            "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+          },
+          "source_name": "phase32-section-2",
+          "transformation": "uppercase"
+        },
+        {
+          "extraction": "paragraph boundary extraction",
+          "representation": "md5-digest-hex-lowercase",
+          "source": {
+            "locator": "CRLF paragraph 2",
+            "path": "research/artifacts/phase32.txt",
+            "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+          },
+          "source_name": "phase32-section-2",
+          "transformation": "lf-normalization"
+        },
+        {
+          "extraction": "paragraph boundary extraction",
+          "representation": "md5-digest-hex-lowercase",
+          "source": {
+            "locator": "CRLF paragraph 2",
+            "path": "research/artifacts/phase32.txt",
+            "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+          },
+          "source_name": "phase32-section-2",
+          "transformation": "collapse-whitespace"
+        },
+        {
+          "extraction": "paragraph boundary extraction",
+          "representation": "md5-digest-hex-lowercase",
+          "source": {
+            "locator": "CRLF paragraph 2",
+            "path": "research/artifacts/phase32.txt",
+            "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+          },
+          "source_name": "phase32-section-2",
+          "transformation": "remove-whitespace"
+        },
+        {
+          "extraction": "paragraph boundary extraction",
+          "representation": "md5-digest-hex-lowercase",
+          "source": {
+            "locator": "CRLF paragraph 2",
+            "path": "research/artifacts/phase32.txt",
+            "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+          },
+          "source_name": "phase32-section-2",
+          "transformation": "reverse-whitespace-words"
+        }
+      ],
+      "salt_hex": "2d3f6fe06dc950e6",
+      "score": {
+        "alphabetic_ratio": 0.183873,
+        "bytes": 1327,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 9,
+        "printable_ratio": 0.370761,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "status": "INCONCLUSIVE",
+      "structural_validity": [],
+      "target": "cosmic-duality"
+    },
+    {
+      "cipher": "AES-256-CBC",
+      "derived_key_hex": "b02bb578c349e686dab27220c97bcfd286582a0e593b2e1d33b494664aa15842",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "iterations": 1,
+      "iv_hex": "387682343a3cdd0b3f0957ad046ccf5a",
+      "kdf": "EVP_BytesToKey",
+      "kdf_digest": "md5",
+      "padding": "PKCS#7",
+      "padding_valid": true,
+      "password_sha256": "127adea3302e894e7e996a1757443404ecdefbeb89db0ba40bf20eef5357095e",
+      "plaintext": {
+        "artifact": "inner-hit-salphaseion-small-md5-127adea3302e894e.bin",
+        "base64": "bCR1khJ+Jw+VjnagDchD+KhDVipoQVM2NI5ONowzLuv9CLP237BuEfzzxxHH7/cpnzbemSm6A6tTxExc94GiEk+C2sZk2KHg40+JyjUTtg==",
+        "sha256": "c95292345ba6470d8c7673a2629fa9c8c53e00d0d1b7326a3c0240f96b3e1dce"
+      },
+      "provenance": [
+        {
+          "extraction": "baseline verified preimage/clue",
+          "representation": "sha1-digest-hex-uppercase",
+          "source": {
+            "locator": "image-route-preimage",
+            "path": "tools/gsmg.py"
+          },
+          "source_name": "image-route-preimage",
+          "transformation": "letters-only-lowercase"
+        }
+      ],
+      "salt_hex": "3ab585348552415d",
+      "score": {
+        "alphabetic_ratio": 0.202532,
+        "bytes": 79,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 8,
+        "printable_ratio": 0.392405,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "status": "INCONCLUSIVE",
+      "structural_validity": [],
+      "target": "salphaseion-small"
+    },
+    {
+      "cipher": "AES-256-CBC",
+      "derived_key_hex": "4799324f1af49d123c4965caafb8e419e3a5d905aca6b875764f43922a59fd42",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "iterations": 1,
+      "iv_hex": "eab1f2a077c7c921628f09554cffcc82",
+      "kdf": "EVP_BytesToKey",
+      "kdf_digest": "md5",
+      "padding": "PKCS#7",
+      "padding_valid": true,
+      "password_sha256": "57113746376a7517edd1516af3853d20bd1092e7978daee242404d9380920b41",
+      "plaintext": {
+        "artifact": "inner-hit-cosmic-duality-md5-57113746376a7517.bin",
+        "base64": "9hwncIpZwaOK4nWqlmLDQD5UvLMrop9PFC8ZdO6BwbO+6/jWQawKjplr6iq3BkNYhAt6kJQGYrGTEKhelAko6uhcYA8oJgYUihJwhCJ+byPpNc7yXCO5RRA1DlSMfHsRjxNZhee6TWXO/zY2P8dTsL5pPTNrkWmUuH6+1U8Yc+4809yj0fhaChGf7zZdk65Kofy1dTMYVxv4wWT2v0mJisRtpjZgc1KgdyI3dMWsxWeVSNFXjYl4UDikz9uNq0TTERu90cqrfcYMKhFhITWhB9H8wcR0zUNVrCXbMcoMAMIZAHyq7RxKvf4VPlRViH+4bcCziYx9FpG+7FmndJ6sqxYFsMCYT455AMqMsK1zUkC/CAsCHk64IMZ3pTDj+HYMUJFu8N2N/hnJJ2mncWdyPUBNLM8DuMRIXI4Bpc+ibcdG9AvD4hzlglnw979+IgrNcIerbSSeFJ8grpw66R+hjAaOkaLFBBd/8IpWx9faywQgqn4Zmmr/gTtB+QZYxP8vVCs71SQFCTdlmoh/Ui/Fh+yCBW/V9omRSs6/EibGRQ6ZfUqa5OtkCwAvR19ibEisH7Yhac8VFiqqO+rKVG7mQnA5NijAhdVizRBISCOCC5VxVDa2ZWlZoWK/Ck7jHx8Oj1xnbDqj8jgs+grkHrT2F36GdZ5KE5vRtjroeonu994Lhq3IB7lOInGcNTtESG/YvNf+06EAM7OaWZgrXwX8OCpfloFnTcSnGa/AORPv6DzDeoknnDofrgWK+v4xkR68v5TpW6EMlhiRcDjjVVQdF/p1Xe0qILxp3Fj8iPV3WmACiY+HK9HsngTNIWSATvvc3t8CQI946HNI8OH+2iwubmoSGY5IOG0+UHdULc9T67BrhD2TbCvjfL0kwVZzhvkZJ+jD3ARCiAeYay9cN9vVZTFJRZjENNtNO6ZR4sKzbsKdulZ7+1q7ecUbAaLNDM24ZC9TixrRtga4luFMYtfWxxPH4MX+WoBKDOI0OtCzBSrXgsB1D/TvAWB3NhHfI4n9rDOS2FRmruk4cElqEwncpLSxii542CSB8nLGQO5WnohqZ55iM/4pQXsdxEu0vSeIjrZR4LH1SjeQ2OcDB1r7FcrHkAulVIfu05jNDNF/aXGn6Vmf/TmOqC/Okbkph/OAPvox+zqTr/7Sy2pmYPhivBFQmyi4nYw/wptqULsiI3P+hkKor+wMIXVk5V7UdeaeVkxemzndpxD2P6/fZORntKdgfItUkfa5eYIaOf/QNQXXfFasOowt7Tesu63g/K8+0uQxBs6t6+WUAkc6ISczl8GwoRrAlzM5CPAyvwNLyediWBAOKjunVOVBLuJcQ7xB1yILEh9jYqdn460mektRpFDcLVc6A7F+xK7JJBAhJtCV7ND2tA3ywE6wx6Z5IzKDaQu35cRT0gK4YbI/Q8wYNPzPmiLtMME+w6fJXDI8id7zzHas4sN1PKj1dNYh/o60eQze+oWxFIfxJ07dUgT7q5pWc8pOMWlqXCs+wEhedE0N+QxZIfo+FLHnUt1sWxMXOfFwxVdw93eoDoHi6BGMfeYNR9l+Dt76aDhmNM5UwSW9vNNW3U/K6hOy5GcCWKf2+Gm2rcTtiE3ya0yTtY0ETYZFsTgC/wCbrHbLqMtzf8gdMmzEA/Tgg86vm40hn7LQtmVar3zr0Ha4g5g1SpTJG7Nt8Al+HUYwlEkbg2cODsYYyI9FrzLwqsgDkDdfkSJ35U7W3S6IxS9WrwueB94i52B6Dm+2ugYoqPVnrVpivw==",
+        "sha256": "45cf15b57e8ecca59edd950b03f41a3b5f0851d391ce551cb444506930e0675d"
+      },
+      "provenance": [
+        {
+          "extraction": "baseline verified preimage/clue",
+          "representation": "sha384-digest-base64",
+          "source": {
+            "locator": "phase3-preimage",
+            "path": "tools/gsmg.py"
+          },
+          "source_name": "phase3-preimage",
+          "transformation": "letters-only-lowercase"
+        }
+      ],
+      "salt_hex": "2d3f6fe06dc950e6",
+      "score": {
+        "alphabetic_ratio": 0.208742,
+        "bytes": 1327,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 8,
+        "printable_ratio": 0.391108,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "status": "INCONCLUSIVE",
+      "structural_validity": [],
+      "target": "cosmic-duality"
+    },
+    {
+      "cipher": "AES-256-CBC",
+      "derived_key_hex": "43257044912d56cf7782fcb82d4c71f84c21724dcd456970cb2e2fd8639d787e",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "iterations": 1,
+      "iv_hex": "aeedb69b3e843168d0d9cf90f0d3de2a",
+      "kdf": "EVP_BytesToKey",
+      "kdf_digest": "md5",
+      "padding": "PKCS#7",
+      "padding_valid": true,
+      "password_sha256": "6168a2d496ab65114f9db8432e6cbef5e761f1fbae627ec7323cfcf0070b2869",
+      "plaintext": {
+        "artifact": "inner-hit-phase32-inner-md5-6168a2d496ab6511.bin",
+        "base64": "2UXz8WnBYRf1HeuPlB5lsTDRIZqpTB8uenJlTyRofumzSy8nkUOY96yljw4wcOaG91WWHgBltsaWMR8I+CuA2ytqmnPcDyHRyM37ysIgTA==",
+        "sha256": "11672e02d583f79684e431798dc42221ec641bede85aa38469b1c522fedc8105"
+      },
+      "provenance": [
+        {
+          "extraction": "structurally bounded segment",
+          "representation": "sha384-digest-hex-lowercase",
+          "source": {
+            "locator": "faed",
+            "path": "research/sources/salphaseion.html",
+            "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+          },
+          "source_name": "salphaseion-faed",
+          "transformation": "reverse-bytes"
+        },
+        {
+          "extraction": "structurally bounded segment",
+          "representation": "sha384-digest-hex-lowercase",
+          "source": {
+            "locator": "faed",
+            "path": "research/sources/salphaseion.html",
+            "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+          },
+          "source_name": "salphaseion-faed",
+          "transformation": "remove-whitespace-reverse"
+        },
+        {
+          "extraction": "structurally bounded segment",
+          "representation": "sha384-digest-hex-lowercase",
+          "source": {
+            "locator": "faed",
+            "path": "research/sources/salphaseion.html",
+            "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+          },
+          "source_name": "salphaseion-faed",
+          "transformation": "letters-only-reversed"
+        }
+      ],
+      "salt_hex": "b45a5e3d827593ca",
+      "score": {
+        "alphabetic_ratio": 0.227848,
+        "bytes": 79,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 8,
+        "printable_ratio": 0.392405,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "status": "INCONCLUSIVE",
+      "structural_validity": [],
+      "target": "phase32-inner"
+    },
+    {
+      "cipher": "AES-256-CBC",
+      "derived_key_hex": "8d28b49c49fcb4bd8b5186095f50d94ecc9f2abe5e8580dcf16d05fcf0455b21",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "iterations": 1,
+      "iv_hex": "2a055ee090515cbe1177bf4723a63d24",
+      "kdf": "EVP_BytesToKey",
+      "kdf_digest": "sha256",
+      "padding": "PKCS#7",
+      "padding_valid": true,
+      "password_sha256": "98806b05ff67d7575f91d7fe1fbd587debfd7eedf73a6e80641c9422250bc388",
+      "plaintext": {
+        "artifact": "inner-hit-phase32-inner-sha256-98806b05ff67d757.bin",
+        "base64": "RDE4QHFFazgF+QGSasvzFYhruJ0NdC7ZttSXmRHtxQER3c1p8nN7IwN6BN9lzCTXEd/ZzNr5nxPy58It25dllzeT2QIXfn1/ZtqyEIHgMw==",
+        "sha256": "a5f26ac17555a89433d4cac1883075e6605d81cfd12897b88fc8b70a17dfafb7"
+      },
+      "provenance": [
+        {
+          "extraction": "baseline verified preimage/clue",
+          "representation": "sha256-digest-base64",
+          "source": {
+            "locator": "image-route-preimage",
+            "path": "tools/gsmg.py"
+          },
+          "source_name": "image-route-preimage",
+          "transformation": "uppercase"
+        }
+      ],
+      "salt_hex": "b45a5e3d827593ca",
+      "score": {
+        "alphabetic_ratio": 0.164557,
+        "bytes": 79,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 8,
+        "printable_ratio": 0.341772,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "status": "INCONCLUSIVE",
+      "structural_validity": [],
+      "target": "phase32-inner"
+    },
+    {
+      "cipher": "AES-256-CBC",
+      "derived_key_hex": "06dcd8abfac3385a76b191dbecae973315a1745b4769700e988c6e8afa84ca91",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "iterations": 1,
+      "iv_hex": "2ded87d88f561f7a5b31c33a3f117acc",
+      "kdf": "EVP_BytesToKey",
+      "kdf_digest": "sha256",
+      "padding": "PKCS#7",
+      "padding_valid": true,
+      "password_sha256": "fb1542869a1289aef9dc5875cca694144364fc04122fb5d9b4371bc6a06744b3",
+      "plaintext": {
+        "artifact": "inner-hit-cosmic-duality-sha256-fb1542869a1289ae.bin",
+        "base64": "2v3pT4xaVNAKyDTJ1g7aFFYmUGC7D7J55TZMsW5kz2E/E0dsBSi3DYH0xf3WrTWeoe1beiyw52+unhC9W2ReL4N5l+ohhO8QHkxTG6W46Pr3TD7RcvcyQy/aqSe1q+R1ylLNCJfZIcfX396ml39x6dM3lhEa/Dayr8DwjPqTKwMw+78MA3xQAyKVLZZDY0qycK460w7FMap1b6joI5SzQ60uIBAL/fPDHV4PadIhLAxcwsxcxUHyo59/NBq24kP1wV3GLWLbYoBQ5eBnhjyawNQcSGTxH2loHSRAVhZrwKBgirLgDe5Yg5jk9CBdbVt+Pwd9SfHOPw7h48TYHxjq+M+CdN/FMRf9cT0KZ7l9klVSRgL5v6MwDcRERjZuBbJT8y09uY/QF+XlrCrNi+EaJBaQV4t0HNilJ/hKOKfconNq0s0jIynZssrviEyrm/wcLmucC6fcdDOGM3laB6p7f/whl/BJQKKXK0gw3H4rZ2yvgQx+dHAfHuz7bmTq2AEJYXuZZ3LwL8rFOybU+08HDjUF+GmH1xTcUNUdYZYxGwrlhPocoE1VlIQDOSWlGD/PQ7loU74KxUoFmrHJOqhsEOm82Dg2M0tPQip6xZ4MFSKgYDlfA3acE0uUnc4qlVGOPx6woWBSXIsMPHFa0U87IcvYGNx1Vn7GkoTLOOcZxE91J4JMbGZRuwqZYEunllJF6n+JISKTdqODdal0qfqjzndjPJQBb5/mIiovNIQvM8AYXChSza6wpFdF7tjGtcQ/8MfuQf/GN9SOlDTwa3uqi6L6ow2nntrHVhsViuM8wuyjZ71XzQ/l6SzEIYC/rmfh7L7FDZWxC9MaxFfVlD9U8S3GunNafXe0m5MgMyGf4dJTyrfLJY9UWWu+GXzatcNI/Zcsz4i0ePTNY6Qr8mMScN0Irfo/lIGPRRpMtfYMqwxDdS79q6pgGPJz1+7qMmnGFMpdo0dFOfhh73VAz8obEHqp+H0Fi+Xb51puxXxlWKRvaAh4Xrm6qX3WypD19si4WikuEKF67g8JVgAeYNumsbmZfddt2WUfkJp5+PAXI65H53+A/4+FsSbN+i2oV7I+1nz/e0ettqK3h4eixFVKICXhptr2rLrJTSsw7oa11NrAB5R5LVy4J2vfrUrbJkz5EMyB6BvRDHD8KrNZsLk5M9ZReuPWmmr/8KuTPA/7vPIO1fdWQULxjJ4XmJfwc2WY3g1SJrYCm/COoBgJc+jTFD6sh2s7qkLmovJu3iZ5EckKcGQ3ztP491vB09i4zS+w/bxAqBdpH36/xSZp2hwB9jF5LSwI1Y07n4e5H/X/Ws+j5eS5HLrmKowpKyznkQruO0fVUxlJGeXnM4x4j0lFCaHdcED0yhG8n0ZB40PHmZf05pYpHTXQgh8Rp8lR+9jO+BahSDPn5j/DpivX9sPn5XsO1BQokzm+iMEzDxlMkmUueggbZ+z/AzzWIVOwY8Wy8MXq2cJUlx/ET4xQTe//dH//5sk5xF9YYPflwvLA/Q+Fd03lqXNLMqvnr3nwGn/ZcakJHDRJNvBXOVMB+tfBDxiTrDvF1Hjf41mv6t8xO+K28/q0RVj29Z94FM2q9g30+Rh0MQgtOk1MqLe+nDMaZfk1ORbzPrlvtME22lAYNAvcMgspTeq14xGa0zfC4IzIq37oYai5nVmqB2BdtVL/HYIdGft0UgiHGstp28XDngRIu926339eUoZ39AtT5NSYONTxBUnbDg1uQNzeB5m5f4vg4caYlFOfev5Z3l2j1g==",
+        "sha256": "3cde303b926a5e8f96467d08a810af9fec06c2b34da2121ae5a3162b9834a75c"
+      },
+      "provenance": [
+        {
+          "extraction": "explicit speech wording/1141 clue boundary",
+          "representation": "bytes-hex-lowercase",
+          "source": {
+            "locator": null,
+            "path": "research/artifacts/phase32-beaufort.txt",
+            "sha256": "b08a3151c88cdeb3b2e730a9d9445e1a349498d89bc94ba1d0837f9e04cc3bcd"
+          },
+          "source_name": "speech-first-sentence-anchor",
+          "transformation": "uppercase"
+        },
+        {
+          "extraction": "explicit speech wording/1141 clue boundary",
+          "representation": "bytes-hex-lowercase",
+          "source": {
+            "locator": null,
+            "path": "research/artifacts/phase32-beaufort.txt",
+            "sha256": "b08a3151c88cdeb3b2e730a9d9445e1a349498d89bc94ba1d0837f9e04cc3bcd"
+          },
+          "source_name": "speech-first-sentence-anchor",
+          "transformation": "letters-only-uppercase"
+        }
+      ],
+      "salt_hex": "2d3f6fe06dc950e6",
+      "score": {
+        "alphabetic_ratio": 0.19367,
+        "bytes": 1327,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 8,
+        "printable_ratio": 0.37905,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "status": "INCONCLUSIVE",
+      "structural_validity": [],
+      "target": "cosmic-duality"
+    },
+    {
+      "cipher": "AES-256-CBC",
+      "derived_key_hex": "ab62ae079d08459caa3d415b278376a68ba2bd7b7b8aeb533de6f329bf372ce3",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "iterations": 1,
+      "iv_hex": "6813c91ecda16a43470f0e0dc46ea15c",
+      "kdf": "EVP_BytesToKey",
+      "kdf_digest": "sha256",
+      "padding": "PKCS#7",
+      "padding_valid": true,
+      "password_sha256": "12e46d66b7958cb890c5486ee266ed6e7b30eaa9e3d6bd3b96f3d5c778e52899",
+      "plaintext": {
+        "artifact": "inner-hit-cosmic-duality-sha256-12e46d66b7958cb8.bin",
+        "base64": "PNfnMqJt5QnZY1dTPSuuzRdakNNlSbhjeritKXMBwJaEOAP+dbw/FGjAJqEHkM1THldO3DqBOKs9DEJ54t2vF+NFPDwg1ZYGoTxVpr7NQIewy2QheW1eUe+0oFG9tC+YZJTXsxAYtt3IG0qHAHX1TQ0V54jFdSa83L9LOFBfG33KkW8uVDtpIkWXqeLIRkX9itsZeF2XLVb1lP2Qzvco1PU4Ulb/8LhRWFqluhgl0zPxisImMbBk6PVgEivxICw5hcOuXZEIgK8a74A9DkIXzHUXtaSbS2c0OVEaZBLpVXErVZnAm1eGRnERKBZ4ONKkVV7rsnGMNrnI9LhkHu4I7K0bIZTiozqy6IkOODeW9AoG3YAHZJu8xfWlxL5mBkyVGg0Q7iIJuvIFgqEu0dv7nqyOZW1a8ff1EkYmfoS0wirybNnlKMkjlqTON7l4ARxSL9sEiJZw2v6nkAHMLMWIlCMJOOLuIKiLprAaJRB22Pm/AFWfk1FBO3PqeP0cAuJI0eCnw/zcsluTuehZfGnC0KxBKO9zgFyDuo/lJTvx8eSYaIOQ+VGwOLQQPbWQNzWDkoAl2BQDoVnBccxUY8yNxbJ1uuEO1lB12wXhkVqFi91thIf6jqFEvBvTweWArtdlhRPyZTeSJOwmaslvR4LkL2hLalOXMkMQkpQtZ2wLneFFk/TKcK+pDDoB5s6ETiTA/yCY7uig2l6AzYaAtKRbgAFJ3KIS5SG8udILULkYUK8voQ7QmFIrOT36cQ5NyPsT+4RV0akT2x3UYpswEmo4NJGu5f9GUCxhPX/GE9OMzRPPi5sDjcawtTNcBtTr+b68DOk1nfIjYZkK/nlzU0nqN8SxGpikjT5mz+aL0bC6YDnoeomGHi9xH55RjtlcIW6SjtfkiXqg3i5Vf/d0BZ/Yk92naRXgFgFgJ6uc1BqE5KDQRqPF3vdN427v1UsQd1nhTyvf7QLzq529rKimPWQH8/XTMAvhwschzG9JzTT21+2SCPRu1s0DJ9dBnictNfZyPK4zit5Bt41wFXDKauybq9n43Q4s9I/7yWIRzM9mO8/a81ZG0Q7M5bzTZBdql0eJILGcKzpm30Qr5NJ+kwe7AfuaI6bbQKOLgRiSkskKE3MVRP+Prqyxl1CnfsSBYvtLDP449MWLIp2/OCIx+cLoNBekk86Ko8Uc0CxuKcRMWye2DM0r7O2+cLY0Hfpp/I0KmQHLgDvc8B55L5SsXGOjgdepYlexUbaJz8skuxtQHzks0u1ZpF4Eb0cHyHAeQSaOzjrom19ZByv+a7cjnK0ZGSLEOGgEY9GUHZqm8FF6rxL25SOhaG0o+uFB3gtJp/xWhTMrqnc95zXn5Ln1QlKTxJZ34TJ1QFB3Hi2CP81wO7JXNcMlxhpd1IYaUArEff1lP0RXcvSqIArD9cQjawg1uVWpS1G23PyjUZUqk8+o0WvKy+nMTRHW5OJXxas4+ZHiCPG2hZy2pdTyErTG+fr/UVB9umD60yThNdNiy92s7DC3/6kdf1e54yIH99DTb/Ekb3ZSntprM+HMIEflqfrJi3dBfeJB3E0NsWaKnWhIi14of72fKOPhNgDVxv3ZRXWaeePtwlLL8shRvMNp2Mfv9q40Urqb3K+fFHr8DfS3vfYW/Xsd2+nPl8ueTHYc5HNfv/aMtEu9TjgV10rRnl3k7HK2iB8PVFiF7WOFexEZwCvZ2hfVmzQUyZOltluCP3P2Wf+aHj/DtOzdGyjb0g6lt5/GY8XvI98ZMQbDXhvVTg==",
+        "sha256": "59ddb45fb85c09d3c4f871e06e7848b7ef5ea0076099ac5e1c0c654944b14d66"
+      },
+      "provenance": [
+        {
+          "extraction": "exact artifact bytes",
+          "representation": "bytes-base64",
+          "source": {
+            "locator": null,
+            "path": "research/artifacts/phase3.txt",
+            "sha256": "c4ad94559a44a927c1032cc0e024515f9510a0806a2d14458dbf4a360af9865f"
+          },
+          "source_name": "phase3",
+          "transformation": "ascii-letters-only"
+        }
+      ],
+      "salt_hex": "2d3f6fe06dc950e6",
+      "score": {
+        "alphabetic_ratio": 0.191409,
+        "bytes": 1327,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 7,
+        "printable_ratio": 0.359457,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "status": "INCONCLUSIVE",
+      "structural_validity": [],
+      "target": "cosmic-duality"
+    },
+    {
+      "cipher": "AES-256-CBC",
+      "derived_key_hex": "53c98188cb3f6cc32ea6842bc47a07736fcdda820ea13c4ff5cdfb56bda98517",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "iterations": 1,
+      "iv_hex": "8b8ed732bf73748ad9270f3c4b5e2d7d",
+      "kdf": "EVP_BytesToKey",
+      "kdf_digest": "md5",
+      "padding": "PKCS#7",
+      "padding_valid": true,
+      "password_sha256": "13dd64bcde18dc1a4c0efe91fc6bc280c55b5db1eda59a63d2160ab3d4241ada",
+      "plaintext": {
+        "artifact": "inner-hit-salphaseion-small-md5-13dd64bcde18dc1a.bin",
+        "base64": "49uJzjH9avC7D+MFR0WMted+zP+Fbn47QCQvPRznrgGyRxfvmIN935cSIpbCq8y8fuvdbH9P2RD3iVDYtBQx2IAFaFpXOs2SpeBEiiHn3Q==",
+        "sha256": "3d4a5823ebaa97f0fd2cdcfb867ea08f45a4bf047f95faa31794462a2d25c6e1"
+      },
+      "provenance": [
+        {
+          "extraction": "exact artifact bytes",
+          "representation": "bytes-base64",
+          "source": {
+            "locator": null,
+            "path": "research/artifacts/phase3.txt",
+            "sha256": "c4ad94559a44a927c1032cc0e024515f9510a0806a2d14458dbf4a360af9865f"
+          },
+          "source_name": "phase3",
+          "transformation": "ascii-alphanumeric-only"
+        }
+      ],
+      "salt_hex": "3ab585348552415d",
+      "score": {
+        "alphabetic_ratio": 0.151899,
+        "bytes": 79,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 7,
+        "printable_ratio": 0.329114,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "status": "INCONCLUSIVE",
+      "structural_validity": [],
+      "target": "salphaseion-small"
+    },
+    {
+      "cipher": "AES-256-CBC",
+      "derived_key_hex": "090ee85549192d24f00f45b926deb3fd00f7ff87c3ddc1ff9f3651f42310ef38",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "iterations": 1,
+      "iv_hex": "bb92e9bf52fae4e2ca881b889ff1eb31",
+      "kdf": "EVP_BytesToKey",
+      "kdf_digest": "sha256",
+      "padding": "PKCS#7",
+      "padding_valid": true,
+      "password_sha256": "30c031050638bff088bef0e6e3ec688061ff723d37bb13ac0936ed7b8c39e907",
+      "plaintext": {
+        "artifact": "inner-hit-cosmic-duality-sha256-30c031050638bff0.bin",
+        "base64": "T1Q8g8dTBr+rZMMa2/gbWdo2IZan3gwClUS246GaBCZh2QD6Ebbm3hCCzMjQtQUecemXDcKFha04ozZCx/hean+JCe0C7QMRALyRAO/CZvoYnvHh6pgDV53pUCPTfCzjHuZfBQBYIeeXC8K25RqMKlScQ1ri5KCVqANNxUuN65pB0hwFldQz5Dto2CxT1UD7VLttm7fOfo0gkMdL2Yp4bcGLKfguODGWuwONaxgRQO5Egr27TphPt1KMEai0lFvIPkE5AqnPqxMufuHEPSjcRTqq54HY/fMoz4h8wYsRozGi55wTV7D1rrGnpvmmRcGaJSXvnTO7zxXzkOCixnrwTOlslBRlKyyzzMVgfORNhPTh4e2tT1PIaJpsOAVzKbd53NBGSdAvbk4ygzLsD2lz2yhAkwUmtnlEZZZdkRFRvWoMZdyNPQjSY7XaIROgzxen4/fX+lWHj4Vk2mcZoNATifOyqmShHOeRlB2E9Aazk3Ec1VrIV3kxAz4BLX+VPuMkU4U5MjJ6gag1rEM/kgrTf7VX9heCmbRKWACRvOxzK/Wc3I+dQ8eFhkEav3fhs7bab4FZZfYCI1xGhqJhMLAXKjMd1S5QMRTkVon8wQ2R1KaCCigb+EfTm39/KH4LJcIEl/M1mHgBvSMnQq0OMYOCLum+XOxZ6a9XYtkdDmrZeeAMY5cIGvkYBCvymYETHRYw110vLUsoxofYjy478X7CAV8OIHWIBm1GSN8proEvQyOg9HiIZCDWdpoy4Q/EE/SfRv7ePhZmsmLMHGIJ/n5WrexjGeGsaQ6kOa4u3TJvj9CtfRA18JXXyEwsngXPIMkzMhwCcQtCUKn5ADjJDljj2UeO5K8NTV8UOhRwQdrdv6C/ZS8o1U4RrPplB8ZGIfns59NoiQV1raKylvEh4NUXylfXyedV/BW397gNf1IjsMIXen4Wjo8nLGFOHBLF+QyGuBE5W2O7BaSVXjsn/D8Clj0A7PmeTxxsGSWnn3fJ0WJYq7XQfBUZpD93gI0MVBNUGFp4hwXCRBCcWE4slcUoGykPpFYC8Ptq9CnhVS5xreBjflvqcnVAr0xk+cgMFD5ggxgf2WCLpD4EYLzfYOxuozxe5i7nChWNtlgsOWEwvvYIgSUCib59Cad2bSCWauW78b2LKJn1nQGTl/WbEwdRkbzRWm4qGD+6un6JVzUpsjxXfaEWJ20ovNTEJ6s9U8Q38EOMK9RyScIpsXs0fQmHZX21uK6Fl4yBe8dRdR9jpnest8n4uUCc6owQWd3XN8bVehBfrWR4imZdYCEnZ3n+pifyLu4M9RbopuL5+fzvhTq83hK2utbzH6sUhCWKadXqfO+WNImC1pIjjFaUVLGN5IkNcS8JZYYytXP7N2U6puFUNKR9atF2dWnscA5MV/RPBcJM75gxkaIvvrFISoxTqr2zPaf/TwoVAJHvg/WF1f6s70dRTfqJT4hxc7QokhCYO0k0JqTCJaP2DiN2mugPUFteWtp8ALG9VvokbGp35EyulJyjYn+1pczgcZzRF9sPmjbtzyKU9x65ULBQL3kYOPLNyN2veSR8NZEhfdYpTcN7arWOCZFlViVuw9+aKE5GK+4A5dDeL99Z97QK3IV33Q7+r3S2WBbWgzoyqtbC65odB7PfebT+Hyx8VAYgGlf4wJoKHBA94ePqKLwtkSUaaj/s4dy2+/Rhv+Pftj706l7kl1MrvxLMDUBsJqDHEdY5hSTTP2z0ZVugtaJtFsETxbQLqzxaxwVZHuG9dUtrYg==",
+        "sha256": "77b19e33c0099c6a6faeddd85cc3e5e80bcd8723d076836400729ec08db6ed6a"
+      },
+      "provenance": [
+        {
+          "extraction": "paragraph boundary extraction",
+          "representation": "bytes-hex-lowercase",
+          "source": {
+            "locator": "CRLF paragraph 0",
+            "path": "research/artifacts/phase32.txt",
+            "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+          },
+          "source_name": "phase32-section-0",
+          "transformation": "lowercase"
+        }
+      ],
+      "salt_hex": "2d3f6fe06dc950e6",
+      "score": {
+        "alphabetic_ratio": 0.189902,
+        "bytes": 1327,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 7,
+        "printable_ratio": 0.384326,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      },
+      "status": "INCONCLUSIVE",
+      "structural_validity": [],
+      "target": "cosmic-duality"
+    }
+  ],
+  "total_trials": 29484,
+  "unique_passwords": 4914
+}

@@ -1,0 +1,2248 @@
+{
+  "summary": {
+    "source_files": 93,
+    "source_bytes": 13797362,
+    "classification_counts": {
+      "ORIGINAL": 9,
+      "SECONDARY_RESEARCH": 28,
+      "UNVERIFIED_CLAIM": 14,
+      "ARCHIVED_PRIMARY": 35,
+      "SPECULATION": 7
+    },
+    "evidence_hits": 2765,
+    "category_hits": {
+      "password": 395,
+      "aes": 506,
+      "hash": 299,
+      "target_stage": 442,
+      "ordering": 297,
+      "uncertainty": 63,
+      "normalization": 281,
+      "numeric_constraint": 482
+    },
+    "coverage_limits": "Images are inventoried/visually reviewed, not fully OCRed. Author labels and filenames are not authenticated creator provenance. Forum claims remain unverified."
+  },
+  "inventory": [
+    {
+      "file": "blockstream-address.json",
+      "classification": "ORIGINAL",
+      "sha256": "2db662c5efde5ca91ddca63101b5ec27023dca62b9cea7468adf347084199b8e",
+      "url": "https://blockstream.info/api/address/1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe",
+      "bytes": 284,
+      "coverage": "Structured text records scanned; notebook attachments indexed but not OCRed or executed",
+      "text_records": 1,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "blockstream-secondary-address.json",
+      "classification": "ORIGINAL",
+      "sha256": "57bc3b6749ae511b5ff79dfc48f0e1ff52f739097654fd7639f1b61508c07ace",
+      "url": "https://blockstream.info/api/address/17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa",
+      "bytes": 274,
+      "coverage": "Structured text records scanned; notebook attachments indexed but not OCRed or executed",
+      "text_records": 1,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "blockstream-utxos.json",
+      "classification": "ORIGINAL",
+      "sha256": "fb00e27910f3ad7377f03278060ea29587a07b3d1d470725913c089fbb233678",
+      "url": "https://blockstream.info/api/address/1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe/utxo",
+      "bytes": 30409,
+      "coverage": "Structured text records scanned; notebook attachments indexed but not OCRed or executed",
+      "text_records": 121,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "community-README.md",
+      "classification": "SECONDARY_RESEARCH",
+      "sha256": "442270a145641d6f75337bf0e12338889d22f029dc613d13f0a4d651875dae6a",
+      "url": "https://raw.githubusercontent.com/puzzlehunt/gsmgio-5btc-puzzle/fb92dd15487c6e2d275adb8c923698b7166c328e/README.md",
+      "bytes": 28936,
+      "coverage": "Structured text records scanned; notebook attachments indexed but not OCRed or executed",
+      "text_records": 1,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {
+          "THE": 23,
+          "YOU": 12,
+          "THIS": 7,
+          "AND": 7,
+          "BTC": 5,
+          "THAT": 5,
+          "WILL": 5,
+          "YOUR": 4,
+          "WHICH": 4,
+          "GSMG": 3,
+          "AES": 3,
+          "USA": 3,
+          "JFK": 3,
+          "HAVE": 3,
+          "WHAT": 3,
+          "NOT": 3,
+          "PLEASE": 3,
+          "LAST": 3,
+          "PRIVATE": 3,
+          "BUT": 3,
+          "PUZZLE": 2,
+          "ARE": 2,
+          "FROM": 2,
+          "FIND": 2,
+          "TAKE": 2,
+          "YOUVE": 2,
+          "JUST": 2,
+          "REQUIRED": 2,
+          "ALSO": 2,
+          "WITH": 2
+        },
+        "normalization_markers": {
+          "...": 1,
+          "# X": 1,
+          "(aa": 1
+        }
+      }
+    },
+    {
+      "file": "community-SalPhaselonCosmicDuality.png",
+      "classification": "SECONDARY_RESEARCH",
+      "sha256": "a3810ba24250c5a04908e1281c2202e73f7487f9d19f41bfd2c3e55fa9be57ed",
+      "url": "https://raw.githubusercontent.com/puzzlehunt/gsmgio-5btc-puzzle/fb92dd15487c6e2d275adb8c923698b7166c328e/SalPhaselonCosmicDuality.png",
+      "bytes": 49970,
+      "coverage": "Decoded image metadata; hint montage available for visual inspection",
+      "image": {
+        "width": 668,
+        "height": 619,
+        "mode": "RGB",
+        "metadata_keys": [
+          "dpi",
+          "gamma",
+          "srgb"
+        ]
+      },
+      "text_records": 0,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "community-phase2.png",
+      "classification": "SECONDARY_RESEARCH",
+      "sha256": "c5526b205cac47c5a79162296abfd0a6c46ea5f4f9249aa7e770c6014baf4964",
+      "url": "https://raw.githubusercontent.com/puzzlehunt/gsmgio-5btc-puzzle/fb92dd15487c6e2d275adb8c923698b7166c328e/phase2.png",
+      "bytes": 56258,
+      "coverage": "Decoded image metadata; hint montage available for visual inspection",
+      "image": {
+        "width": 812,
+        "height": 415,
+        "mode": "RGB",
+        "metadata_keys": [
+          "dpi",
+          "gamma",
+          "srgb"
+        ]
+      },
+      "text_records": 0,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "community-phase3.png",
+      "classification": "SECONDARY_RESEARCH",
+      "sha256": "c8637fc3ff532dcdefb5f3a3e50e4d4457ddcd725d8a157c3eed5d44de789ddb",
+      "url": "https://raw.githubusercontent.com/puzzlehunt/gsmgio-5btc-puzzle/fb92dd15487c6e2d275adb8c923698b7166c328e/phase3.png",
+      "bytes": 127044,
+      "coverage": "Decoded image metadata; hint montage available for visual inspection",
+      "image": {
+        "width": 812,
+        "height": 893,
+        "mode": "RGB",
+        "metadata_keys": [
+          "dpi",
+          "gamma",
+          "srgb"
+        ]
+      },
+      "text_records": 0,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "community-photo_2020-04-26_09-24-30.jpg",
+      "classification": "SECONDARY_RESEARCH",
+      "sha256": "312dfc1898cb0a453ad093d7febb21c1d799717b2c089a5ea1d204aa96df9a35",
+      "url": "https://raw.githubusercontent.com/puzzlehunt/gsmgio-5btc-puzzle/fb92dd15487c6e2d275adb8c923698b7166c328e/photo_2020-04-26_09-24-30.jpg",
+      "bytes": 90957,
+      "coverage": "Decoded image metadata; hint montage available for visual inspection",
+      "image": {
+        "width": 1280,
+        "height": 749,
+        "mode": "RGB",
+        "metadata_keys": [
+          "dpi",
+          "jfif",
+          "jfif_density",
+          "jfif_unit",
+          "jfif_version"
+        ]
+      },
+      "text_records": 0,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "community-puzzle.png",
+      "classification": "SECONDARY_RESEARCH",
+      "sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830",
+      "url": "https://raw.githubusercontent.com/puzzlehunt/gsmgio-5btc-puzzle/fb92dd15487c6e2d275adb8c923698b7166c328e/puzzle.png",
+      "bytes": 29931,
+      "coverage": "Decoded image metadata; hint montage available for visual inspection",
+      "image": {
+        "width": 1048,
+        "height": 1556,
+        "mode": "RGBA",
+        "metadata_keys": [
+          "dpi",
+          "gamma",
+          "srgb"
+        ]
+      },
+      "text_records": 0,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "community-theseedisplanted.png",
+      "classification": "SECONDARY_RESEARCH",
+      "sha256": "6230f079b0127877aaa19988316d0338a7a8b72280417b3afd6d5fe632ea2993",
+      "url": "https://raw.githubusercontent.com/puzzlehunt/gsmgio-5btc-puzzle/fb92dd15487c6e2d275adb8c923698b7166c328e/theseedisplanted.png",
+      "bytes": 8619,
+      "coverage": "Decoded image metadata; hint montage available for visual inspection",
+      "image": {
+        "width": 688,
+        "height": 135,
+        "mode": "RGB",
+        "metadata_keys": [
+          "dpi",
+          "gamma",
+          "srgb"
+        ]
+      },
+      "text_records": 0,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "github-commit.json",
+      "classification": "SECONDARY_RESEARCH",
+      "sha256": "c660fca0b63967cf14be0124dc82597fc3c65f975ff4878cc3c3238a3a038d58",
+      "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/commits/master",
+      "bytes": 11011,
+      "coverage": "Structured text records scanned; notebook attachments indexed but not OCRed or executed",
+      "text_records": 1,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {
+          "README": 6,
+          "PGP": 2,
+          "SIGNATURE": 2,
+          "AES": 2,
+          "BEGIN": 1,
+          "END": 1
+        },
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "github-issue-104-comments.json",
+      "classification": "UNVERIFIED_CLAIM",
+      "sha256": "9c10d577719fd79e2cfdc903465aa407d5037627ac150932702beef0ffbb78bd",
+      "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/issues/104/comments?per_page=100",
+      "bytes": 7421,
+      "coverage": "Structured text records scanned; notebook attachments indexed but not OCRed or executed",
+      "text_records": 3,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {
+          "XOR": 3,
+          "JRK": 1,
+          "VIC": 1,
+          "EVP-": 1,
+          "SMALL": 1,
+          "AES": 1,
+          "KDF": 1,
+          "AES-": 1,
+          "SHORT": 1
+        },
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "github-issue-105-comments.json",
+      "classification": "UNVERIFIED_CLAIM",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/issues/105/comments?per_page=100",
+      "bytes": 2,
+      "coverage": "Structured text records scanned; notebook attachments indexed but not OCRed or executed",
+      "text_records": 0,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "github-issue-108-comments.json",
+      "classification": "UNVERIFIED_CLAIM",
+      "sha256": "5780c05d822b1eaf269a3621716ab6c332297cf8a1b7c5bca186efc7365440f3",
+      "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/issues/108/comments?per_page=100",
+      "bytes": 13370,
+      "coverage": "Structured text records scanned; notebook attachments indexed but not OCRed or executed",
+      "text_records": 5,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {
+          "CADEIA": 6,
+          "WIF": 1,
+          "E_C": 1,
+          "LLM": 1
+        },
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "github-issue-108.json",
+      "classification": "UNVERIFIED_CLAIM",
+      "sha256": "f96f4eb76e1a9fbd800d81242501897758a04722d04055c4dbf7073fe7eb98ad",
+      "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/issues/108",
+      "bytes": 4214,
+      "coverage": "Structured text records scanned; notebook attachments indexed but not OCRed or executed",
+      "text_records": 1,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {
+          "CADEIA": 4,
+          "E_C": 4,
+          "WIF": 3,
+          "AES": 3,
+          "SHA-": 2,
+          "E_S": 2,
+          "SOLVED": 1,
+          "TWO": 1,
+          "EVP-": 1,
+          "AES-": 1,
+          "CBC": 1,
+          "E_B": 1,
+          "XOR": 1
+        },
+        "normalization_markers": {
+          "...": 1
+        }
+      }
+    },
+    {
+      "file": "github-issue-109-comments.json",
+      "classification": "UNVERIFIED_CLAIM",
+      "sha256": "6e71b468352913786326251eff4d6c3e62814fca08ea20e70581b2691c29bd95",
+      "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/issues/109/comments?per_page=100",
+      "bytes": 12666,
+      "coverage": "Structured text records scanned; notebook attachments indexed but not OCRed or executed",
+      "text_records": 5,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {
+          "LLM": 2,
+          "SHA-": 2,
+          "BTC": 1,
+          "GSMG": 1,
+          "XOR": 1
+        },
+        "normalization_markers": {
+          "...": 1
+        }
+      }
+    },
+    {
+      "file": "github-issue-110-comments.json",
+      "classification": "UNVERIFIED_CLAIM",
+      "sha256": "945cf3b21598849cbcae921c2e4870d99c8ae7aa01f0d5793531d33374021aab",
+      "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/issues/110/comments?per_page=100",
+      "bytes": 3654,
+      "coverage": "Structured text records scanned; notebook attachments indexed but not OCRed or executed",
+      "text_records": 2,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "github-issue-111-comments.json",
+      "classification": "UNVERIFIED_CLAIM",
+      "sha256": "b179cdae5f70467fe0ecc5cd3aacaed3921ad1c0ebb6765bab94ca9d98571069",
+      "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/issues/111/comments?per_page=100",
+      "bytes": 17272,
+      "coverage": "Structured text records scanned; notebook attachments indexed but not OCRed or executed",
+      "text_records": 4,
+      "text_diagnostics": {
+        "dates": {
+          "2023-02-23": 1
+        },
+        "uppercase_words": {
+          "XOR": 7,
+          "VIC": 4,
+          "ASCII": 3,
+          "EVP-": 2,
+          "SHA": 2,
+          "README": 2,
+          "GSMG": 1,
+          "BTC": 1,
+          "LLM": 1,
+          "FEN": 1,
+          "THEMATRIXHASYOU": 1,
+          "CB-": 1,
+          "XOR-": 1,
+          "SHA-": 1,
+          "RGB": 1,
+          "LSB-": 1,
+          "CW-": 1,
+          "LSB": 1,
+          "URL": 1
+        },
+        "normalization_markers": {
+          "...": 2
+        }
+      }
+    },
+    {
+      "file": "github-issue-15-comments-page2.json",
+      "classification": "UNVERIFIED_CLAIM",
+      "sha256": "2a9afa0f7aa825c862b55c5c53548332f06f66e2d059a01e6665aa9230c5e20a",
+      "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/issues/15/comments?per_page=100&page=2",
+      "bytes": 62430,
+      "coverage": "Structured text records scanned; notebook attachments indexed but not OCRed or executed",
+      "text_records": 27,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {
+          "WIF": 10,
+          "MATCH": 4,
+          "FOUND": 4,
+          "IBM": 1,
+          "EBCDIC": 1
+        },
+        "normalization_markers": {
+          "...": 10
+        }
+      }
+    },
+    {
+      "file": "github-issue-15-comments.json",
+      "classification": "UNVERIFIED_CLAIM",
+      "sha256": "c4467a1df32a49fe18278feae5c02bbbbef765ea6aa361f83839dd5f07caa2de",
+      "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/issues/15/comments?per_page=100",
+      "bytes": 249846,
+      "coverage": "Structured text records scanned; notebook attachments indexed but not OCRed or executed",
+      "text_records": 100,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {
+          "THE": 29,
+          "THIS": 15,
+          "YOU": 15,
+          "AND": 11,
+          "LAST": 9,
+          "HAVE": 9,
+          "THAT": 8,
+          "BUT": 8,
+          "WARNING": 8,
+          "WILL": 7,
+          "PLEASE": 6,
+          "PRIVATE": 5,
+          "YOUVE": 5,
+          "NOT": 5,
+          "UTF-": 5,
+          "YOUR": 4,
+          "TAKE": 4,
+          "WHAT": 4,
+          "JUST": 4,
+          "REST": 4,
+          "ASSURED": 4,
+          "TIME": 4,
+          "DESTROYED": 4,
+          "RESTLESS": 4,
+          "SOUL": 4,
+          "BECOME": 4,
+          "EXCEEDINGLY": 4,
+          "EFFICIENT": 4,
+          "HALF": 4,
+          "AES": 4
+        },
+        "normalization_markers": {
+          "\r\n": 74,
+          "...": 19
+        }
+      }
+    },
+    {
+      "file": "github-issue-55-comments.json",
+      "classification": "UNVERIFIED_CLAIM",
+      "sha256": "0bff107d7f0cee883b47ba4568bc6f18cb6be79b40b8803660bd648748e8a333",
+      "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/issues/55/comments?per_page=100",
+      "bytes": 54364,
+      "coverage": "Structured text records scanned; notebook attachments indexed but not OCRed or executed",
+      "text_records": 15,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {
+          "KEY": 23,
+          "KDF": 17,
+          "AES": 6,
+          "SHA-": 5,
+          "XOR": 4,
+          "SHA": 4,
+          "TEXT": 3,
+          "AES-": 3,
+          "ASCII": 3,
+          "AES-CBC": 3,
+          "ENCRYPT": 3,
+          "NOT": 2,
+          "BINARY": 2,
+          "CLI": 2,
+          "PKCS": 2,
+          "CBC": 2,
+          "PASSED": 2,
+          "DECRYPT": 2,
+          "WARNING": 1,
+          "ESB": 1,
+          "BYPASS": 1,
+          "NEL": 1,
+          "INPUT": 1,
+          "EXIT": 1,
+          "RANDOM": 1,
+          "DECIMAL": 1,
+          "HEXADECIMAL": 1,
+          "DESCRIPTION": 1,
+          "LLM": 1,
+          "GPT": 1
+        },
+        "normalization_markers": {
+          "...": 4
+        }
+      }
+    },
+    {
+      "file": "github-issue-68-comments.json",
+      "classification": "UNVERIFIED_CLAIM",
+      "sha256": "11427b172435a2ca54c1474bb3877ad99b31036eddf0a3e3008127fddd54642a",
+      "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/issues/68/comments?per_page=100",
+      "bytes": 95738,
+      "coverage": "Structured text records scanned; notebook attachments indexed but not OCRed or executed",
+      "text_records": 10,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {
+          "XOR": 40,
+          "PHASE": 33,
+          "THE": 31,
+          "TAHAP": 24,
+          "YELLOW": 21,
+          "WORKSPACE": 19,
+          "RED": 16,
+          "GREEN": 16,
+          "EOF": 14,
+          "YOU": 13,
+          "ASCII": 12,
+          "BLUE": 12,
+          "HASHTHETEXT": 11,
+          "AES": 11,
+          "ROSE": 11,
+          "PUZZLE": 10,
+          "VIC": 9,
+          "PASSWORD": 9,
+          "AND": 9,
+          "SALPHASEION": 9,
+          "VALID": 9,
+          "CHAIN": 8,
+          "THIS": 8,
+          "URL": 7,
+          "RESULT": 7,
+          "E_C": 7,
+          "E_S": 7,
+          "E_B": 7,
+          "GSMG": 7,
+          "TIDAK": 7
+        },
+        "normalization_markers": {
+          "...": 7,
+          "\r\n": 4,
+          "# X": 1
+        }
+      }
+    },
+    {
+      "file": "github-issue-68.json",
+      "classification": "UNVERIFIED_CLAIM",
+      "sha256": "00d0a56f313500b6b0396c8f361995ded6fe96d83e33afaf94c12284e9322449",
+      "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/issues/68",
+      "bytes": 3329,
+      "coverage": "Structured text records scanned; notebook attachments indexed but not OCRed or executed",
+      "text_records": 1,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {
+          "GSMG": 1,
+          "BTC": 1
+        },
+        "normalization_markers": {
+          "\r\n": 1
+        }
+      }
+    },
+    {
+      "file": "github-issues-page1.json",
+      "classification": "UNVERIFIED_CLAIM",
+      "sha256": "6ae4b1da7c9d6da984aa5a50ac6b8420b46fa85e3cd6eb8586490e49010f59b8",
+      "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/issues?state=all&per_page=100&page=1",
+      "bytes": 509095,
+      "coverage": "Structured text records scanned; notebook attachments indexed but not OCRed or executed",
+      "text_records": 100,
+      "text_diagnostics": {
+        "dates": {
+          "2023-02-23": 2,
+          "2021-02-12": 2,
+          "2023-08-06": 1,
+          "2023-01-09": 1,
+          "2021-12-25": 1,
+          "2020-05-11": 1,
+          "2026-06-02": 1,
+          "2026-07-08": 1,
+          "2025-08-24": 1,
+          "2026-08-18": 1,
+          "2026-07-02": 1,
+          "2026-01-29": 1
+        },
+        "uppercase_words": {
+          "THE": 92,
+          "XOR": 86,
+          "GSMG": 56,
+          "TAHAP": 48,
+          "BTC": 47,
+          "AES": 38,
+          "YOU": 38,
+          "PHASE": 35,
+          "AND": 34,
+          "HALF": 32,
+          "VIC": 29,
+          "SHA-": 24,
+          "THIS": 24,
+          "AES-": 21,
+          "ASCII": 21,
+          "TIDAK": 21,
+          "CBC": 20,
+          "PRIVATE": 18,
+          "PUZZLE": 18,
+          "BETTER": 16,
+          "URL": 15,
+          "FINAL": 15,
+          "DATA_BLOCK_START": 15,
+          "DATA_BLOCK_END": 15,
+          "LIVE": 14,
+          "THAT": 14,
+          "DITEMUKAN": 13,
+          "KEYS": 12,
+          "ALSO": 12,
+          "NEED": 12
+        },
+        "normalization_markers": {
+          "...": 35,
+          "\r\n": 10,
+          "# X": 2
+        }
+      }
+    },
+    {
+      "file": "github-issues-page2.json",
+      "classification": "UNVERIFIED_CLAIM",
+      "sha256": "a6b71308c39750e10309cbf0d8ebd30699086f93e3b1506f1d1541f529152eac",
+      "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/issues?state=all&per_page=100&page=2",
+      "bytes": 25235,
+      "coverage": "Structured text records scanned; notebook attachments indexed but not OCRed or executed",
+      "text_records": 7,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {
+          "README": 1,
+          "ASCII": 1
+        },
+        "normalization_markers": {
+          "\r\n": 4,
+          "...": 2
+        }
+      }
+    },
+    {
+      "file": "github-repository.json",
+      "classification": "SECONDARY_RESEARCH",
+      "sha256": "0f446adc3974b24e382020442d4a735a4faf888b959842e911b5255a17536411",
+      "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle",
+      "bytes": 5595,
+      "coverage": "Structured text records scanned; notebook attachments indexed but not OCRed or executed",
+      "text_records": 1,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {
+          "GSMG": 1,
+          "BTC": 1
+        },
+        "normalization_markers": {
+          "...": 1
+        }
+      }
+    },
+    {
+      "file": "github-tree.json",
+      "classification": "SECONDARY_RESEARCH",
+      "sha256": "537aa0f7e0ed1d22e19f5f110543dc97b5ae3afe650ef2cef13751dff9f72bd5",
+      "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/git/trees/fb92dd15487c6e2d275adb8c923698b7166c328e?recursive=1",
+      "bytes": 1865,
+      "coverage": "Structured text records scanned; notebook attachments indexed but not OCRed or executed",
+      "text_records": 1,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {
+          "README": 1
+        },
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "gsmg-puzzle.png",
+      "classification": "ORIGINAL",
+      "sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830",
+      "url": "https://gsmg.io/puzzle",
+      "bytes": 29931,
+      "coverage": "Decoded image metadata; hint montage available for visual inspection",
+      "image": {
+        "width": 1048,
+        "height": 1556,
+        "mode": "RGBA",
+        "metadata_keys": [
+          "dpi",
+          "gamma",
+          "srgb"
+        ]
+      },
+      "text_records": 0,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "maintained-README.md",
+      "classification": "SECONDARY_RESEARCH",
+      "sha256": "8d4ee414a4839e51e9c79ed387e1ea327835ea98039eef2633d0d8885bcdd015",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/README.md",
+      "bytes": 17440,
+      "coverage": "Structured text records scanned; notebook attachments indexed but not OCRed or executed",
+      "text_records": 1,
+      "text_diagnostics": {
+        "dates": {
+          "2026-07-12": 8,
+          "2023-08-06": 7,
+          "2020-01-14": 6,
+          "2021-03-01": 5,
+          "2023-08-03": 5,
+          "2024-04-19": 5,
+          "2020-04-08": 4,
+          "2020-05-11": 4,
+          "2020-06-07": 4,
+          "2020-08-02": 4,
+          "2021-01-21": 4,
+          "2021-02-12": 4,
+          "2021-03-14": 4,
+          "2021-04-01": 4,
+          "2021-05-06": 4,
+          "2021-12-02": 4,
+          "2022-12-10": 4,
+          "2023-01-09": 4,
+          "2023-01-12": 4,
+          "2023-02-23": 4,
+          "2026-01-01": 4,
+          "2020-02-20": 3,
+          "2021-12-26": 3,
+          "2021-04-16": 2,
+          "2024-04-10": 2,
+          "2021-12-25": 1
+        },
+        "uppercase_words": {
+          "BTC": 7,
+          "AES": 4,
+          "GSMG": 2,
+          "URL": 1,
+          "HSM": 1,
+          "IBM": 1,
+          "EBCDIC": 1,
+          "VIC": 1,
+          "HASHTHETEXT": 1,
+          "NOTE": 1
+        },
+        "normalization_markers": {
+          "...": 1
+        }
+      }
+    },
+    {
+      "file": "maintained-commit.json",
+      "classification": "SECONDARY_RESEARCH",
+      "sha256": "e70f7d6ba3e80ea6fe74d95dc48059f05133f5f2cb697e08c51ce887914c2fa4",
+      "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/master",
+      "bytes": 4522,
+      "coverage": "Structured text records scanned; notebook attachments indexed but not OCRed or executed",
+      "text_records": 1,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {
+          "README": 2,
+          "URL": 1
+        },
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "maintained-decentraland-assets__puzzlepiece.mp3",
+      "classification": "ARCHIVED_PRIMARY",
+      "sha256": "ef17a96dce37b4dd7cbf79f210c5cbaf37fcae60e5faf8004de4e0832bd0dfee",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/decentraland-assets/puzzlepiece.mp3",
+      "bytes": 212031,
+      "coverage": "Preserved audio; baseline FFmpeg spectral transform reproduced",
+      "text_records": 0,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "maintained-decentraland.ipynb",
+      "classification": "SECONDARY_RESEARCH",
+      "sha256": "62f981b8be64d50d5833c12e81bb16e4320b2d2e3210bde91c645c85d6759443",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/decentraland.ipynb",
+      "bytes": 1152695,
+      "coverage": "Structured text records scanned; notebook attachments indexed but not OCRed or executed",
+      "text_records": 16,
+      "text_diagnostics": {
+        "dates": {
+          "2020-02-20": 1
+        },
+        "uppercase_words": {
+          "API": 1,
+          "HASHTHETEXT": 1
+        },
+        "normalization_markers": {
+          "...": 3
+        }
+      }
+    },
+    {
+      "file": "maintained-hints__2020-01-14-roses-are-red.png",
+      "classification": "ARCHIVED_PRIMARY",
+      "sha256": "7f4886a829a682012d9120f2fce923394accade39046e7283d41a3986fea3410",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2020-01-14-roses-are-red.png",
+      "bytes": 90192,
+      "coverage": "Decoded image metadata; hint montage available for visual inspection",
+      "image": {
+        "width": 574,
+        "height": 262,
+        "mode": "RGBA",
+        "metadata_keys": [
+          "Creation Time",
+          "Software"
+        ]
+      },
+      "text_records": 0,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "maintained-hints__2020-02-20-decentraland.jpg",
+      "classification": "ARCHIVED_PRIMARY",
+      "sha256": "312dfc1898cb0a453ad093d7febb21c1d799717b2c089a5ea1d204aa96df9a35",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2020-02-20-decentraland.jpg",
+      "bytes": 90957,
+      "coverage": "Decoded image metadata; hint montage available for visual inspection",
+      "image": {
+        "width": 1280,
+        "height": 749,
+        "mode": "RGB",
+        "metadata_keys": [
+          "dpi",
+          "jfif",
+          "jfif_density",
+          "jfif_unit",
+          "jfif_version"
+        ]
+      },
+      "text_records": 0,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "maintained-hints__2020-04-08.png",
+      "classification": "ARCHIVED_PRIMARY",
+      "sha256": "64db0a372d006dc9b6d7900e8de028eb5f8a9a6e50866565a2e530f69f4f9cfc",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2020-04-08.png",
+      "bytes": 57827,
+      "coverage": "Decoded image metadata; hint montage available for visual inspection",
+      "image": {
+        "width": 580,
+        "height": 145,
+        "mode": "RGBA",
+        "metadata_keys": [
+          "Creation Time",
+          "Software"
+        ]
+      },
+      "text_records": 0,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "maintained-hints__2020-05-11.png",
+      "classification": "ARCHIVED_PRIMARY",
+      "sha256": "ac8e1d9bbc1e7891eff5282e39dbc57ca0f8ef90e827b4fde4aef7f944ecdfc2",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2020-05-11.png",
+      "bytes": 47397,
+      "coverage": "Decoded image metadata; hint montage available for visual inspection",
+      "image": {
+        "width": 583,
+        "height": 115,
+        "mode": "RGBA",
+        "metadata_keys": [
+          "Creation Time",
+          "Software"
+        ]
+      },
+      "text_records": 0,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "maintained-hints__2020-06-07-salph-discord.png",
+      "classification": "ARCHIVED_PRIMARY",
+      "sha256": "349aca1ff8271272674bfffa99fed92e2393881b7acb19eb76042687ce3a90dc",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2020-06-07-salph-discord.png",
+      "bytes": 20515,
+      "coverage": "Decoded image metadata; hint montage available for visual inspection",
+      "image": {
+        "width": 694,
+        "height": 136,
+        "mode": "RGBA",
+        "metadata_keys": [
+          "Creation Time",
+          "Software"
+        ]
+      },
+      "text_records": 0,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "maintained-hints__2020-08-02.png",
+      "classification": "ARCHIVED_PRIMARY",
+      "sha256": "de4186928bb3bacd78724a8b1036245561728224fb73efec66a647084ba991dc",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2020-08-02.png",
+      "bytes": 82591,
+      "coverage": "Decoded image metadata; hint montage available for visual inspection",
+      "image": {
+        "width": 571,
+        "height": 206,
+        "mode": "RGBA",
+        "metadata_keys": [
+          "Creation Time",
+          "Software"
+        ]
+      },
+      "text_records": 0,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "maintained-hints__2021-01-21.png",
+      "classification": "ARCHIVED_PRIMARY",
+      "sha256": "3acd19edd58a678249b669670cc61b66bd3ade6ad40b8f521eb57dfff1aad523",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2021-01-21.png",
+      "bytes": 62794,
+      "coverage": "Decoded image metadata; hint montage available for visual inspection",
+      "image": {
+        "width": 604,
+        "height": 140,
+        "mode": "RGBA",
+        "metadata_keys": [
+          "Creation Time",
+          "Software"
+        ]
+      },
+      "text_records": 0,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "maintained-hints__2021-02-12-salph-mention.png",
+      "classification": "ARCHIVED_PRIMARY",
+      "sha256": "b6c7e76159a1df675b9d09ea4a02982533b6fd62604b754f97f61dc38e5a1d55",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2021-02-12-salph-mention.png",
+      "bytes": 78406,
+      "coverage": "Decoded image metadata; hint montage available for visual inspection",
+      "image": {
+        "width": 586,
+        "height": 237,
+        "mode": "RGBA",
+        "metadata_keys": [
+          "Creation Time",
+          "Software"
+        ]
+      },
+      "text_records": 0,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "maintained-hints__2021-03-01-primes.png",
+      "classification": "ARCHIVED_PRIMARY",
+      "sha256": "233f67719bbec6be109a56b60c18a6d3ae705aefbe0ea8371eac57a72d96dede",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2021-03-01-primes.png",
+      "bytes": 189488,
+      "coverage": "Decoded image metadata; hint montage available for visual inspection",
+      "image": {
+        "width": 534,
+        "height": 460,
+        "mode": "RGBA",
+        "metadata_keys": [
+          "Creation Time",
+          "Software"
+        ]
+      },
+      "text_records": 0,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "maintained-hints__2021-03-01-spelling-hint.png",
+      "classification": "ARCHIVED_PRIMARY",
+      "sha256": "c0f1747aa365636f244214f3e895f8bcf9b02040f57d19f18885ce63f39367ef",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2021-03-01-spelling-hint.png",
+      "bytes": 134859,
+      "coverage": "Decoded image metadata; hint montage available for visual inspection",
+      "image": {
+        "width": 522,
+        "height": 390,
+        "mode": "RGBA",
+        "metadata_keys": [
+          "Comment",
+          "dpi",
+          "icc_profile"
+        ]
+      },
+      "text_records": 0,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "maintained-hints__2021-03-14.png",
+      "classification": "ARCHIVED_PRIMARY",
+      "sha256": "4e3dc1a4c1306be5efaccec6f47f95c1652a21cc33d23991927a33dd8975ebf4",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2021-03-14.png",
+      "bytes": 131249,
+      "coverage": "Decoded image metadata; hint montage available for visual inspection",
+      "image": {
+        "width": 552,
+        "height": 349,
+        "mode": "RGBA",
+        "metadata_keys": [
+          "Creation Time",
+          "Software"
+        ]
+      },
+      "text_records": 0,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "maintained-hints__2021-04-01-april_fool.png",
+      "classification": "ARCHIVED_PRIMARY",
+      "sha256": "e7ff51ad5e00646d9fb785602090db93da36d249365326e46e8ca1ec959ac33c",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2021-04-01-april%20fool.png",
+      "bytes": 33218,
+      "coverage": "Decoded image metadata; hint montage available for visual inspection",
+      "image": {
+        "width": 516,
+        "height": 164,
+        "mode": "RGBA",
+        "metadata_keys": [
+          "Creation Time",
+          "Software"
+        ]
+      },
+      "text_records": 0,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "maintained-hints__2021-04-16-salph.png",
+      "classification": "ARCHIVED_PRIMARY",
+      "sha256": "6d0038e5f7988e3d8f6bf46892f445680b2f8c3194d30b438687e6b73cdb5812",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2021-04-16-salph.png",
+      "bytes": 211370,
+      "coverage": "Decoded image metadata; hint montage available for visual inspection",
+      "image": {
+        "width": 499,
+        "height": 773,
+        "mode": "RGBA",
+        "metadata_keys": [
+          "Creation Time",
+          "Software"
+        ]
+      },
+      "text_records": 0,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "maintained-hints__2021-05-06-salph_instructions.png",
+      "classification": "ARCHIVED_PRIMARY",
+      "sha256": "21b3f2eaa7bdf8db60d2ab8d579087f2499ce8f864974f803d722692a19ff596",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2021-05-06-salph%20instructions.png",
+      "bytes": 32128,
+      "coverage": "Decoded image metadata; hint montage available for visual inspection",
+      "image": {
+        "width": 513,
+        "height": 93,
+        "mode": "RGBA",
+        "metadata_keys": [
+          "Creation Time",
+          "Software"
+        ]
+      },
+      "text_records": 0,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "maintained-hints__2021-12-02-another-door-hint.png",
+      "classification": "ARCHIVED_PRIMARY",
+      "sha256": "6fbd2939e02d0f48fa2f83cd82d83052f751033262e52f0eeb5eba7926a87ebb",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2021-12-02-another-door-hint.png",
+      "bytes": 43838,
+      "coverage": "Decoded image metadata; hint montage available for visual inspection",
+      "image": {
+        "width": 478,
+        "height": 252,
+        "mode": "RGBA",
+        "metadata_keys": [
+          "Creation Time",
+          "Software"
+        ]
+      },
+      "text_records": 0,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "maintained-hints__2021-12-25-hint.png",
+      "classification": "ARCHIVED_PRIMARY",
+      "sha256": "63096303fc9fc83292bc33e3819746c99f87495ca618bb19afa65645e7409083",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2021-12-25-hint.png",
+      "bytes": 65612,
+      "coverage": "Decoded image metadata; hint montage available for visual inspection",
+      "image": {
+        "width": 531,
+        "height": 175,
+        "mode": "RGBA",
+        "metadata_keys": [
+          "Creation Time",
+          "Software"
+        ]
+      },
+      "text_records": 0,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "maintained-hints__2022-12-10-cosmic.png",
+      "classification": "ARCHIVED_PRIMARY",
+      "sha256": "6c61b0d2245d9627f10ed6e82a5f76aa2e0701bf6a8f977c4772ceabcffdfc5d",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2022-12-10-cosmic.png",
+      "bytes": 243495,
+      "coverage": "Decoded image metadata; hint montage available for visual inspection",
+      "image": {
+        "width": 543,
+        "height": 576,
+        "mode": "RGBA",
+        "metadata_keys": [
+          "Creation Time",
+          "Software"
+        ]
+      },
+      "text_records": 0,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "maintained-hints__2023-01-09-prime-number.png",
+      "classification": "ARCHIVED_PRIMARY",
+      "sha256": "fa043633c30163a7c8ffe162a137e20eac44993cb44b65b35ed8f741f3348fb5",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2023-01-09-prime-number.png",
+      "bytes": 50943,
+      "coverage": "Decoded image metadata; hint montage available for visual inspection",
+      "image": {
+        "width": 557,
+        "height": 130,
+        "mode": "RGBA",
+        "metadata_keys": [
+          "Creation Time",
+          "Software"
+        ]
+      },
+      "text_records": 0,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "maintained-hints__2023-01-12-theory_of_everything.png",
+      "classification": "ARCHIVED_PRIMARY",
+      "sha256": "d94f05e7a955244aa2ae10261a7217097747d7f52ea49da2d254c015ff41fee6",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2023-01-12-theory%20of%20everything.png",
+      "bytes": 30798,
+      "coverage": "Decoded image metadata; hint montage available for visual inspection",
+      "image": {
+        "width": 552,
+        "height": 76,
+        "mode": "RGBA",
+        "metadata_keys": [
+          "Creation Time",
+          "Software"
+        ]
+      },
+      "text_records": 0,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "maintained-hints__2023-02-23.png",
+      "classification": "ARCHIVED_PRIMARY",
+      "sha256": "5dddf73995c45497facb034e3d38d2bbbe3642603b15fce22e118d34209c0197",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2023-02-23.png",
+      "bytes": 155098,
+      "coverage": "Decoded image metadata; hint montage available for visual inspection",
+      "image": {
+        "width": 551,
+        "height": 760,
+        "mode": "RGBA",
+        "metadata_keys": [
+          "Creation Time",
+          "Software"
+        ]
+      },
+      "text_records": 0,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "maintained-hints__2023-08-03-1.png",
+      "classification": "ARCHIVED_PRIMARY",
+      "sha256": "3e955954b5b8f687a8615ab409f1481556c448145980cdbe11dd0b0de0e8c216",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2023-08-03-1.png",
+      "bytes": 77053,
+      "coverage": "Decoded image metadata; hint montage available for visual inspection",
+      "image": {
+        "width": 526,
+        "height": 202,
+        "mode": "RGBA",
+        "metadata_keys": [
+          "Creation Time",
+          "Software"
+        ]
+      },
+      "text_records": 0,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "maintained-hints__2023-08-03-2.png",
+      "classification": "ARCHIVED_PRIMARY",
+      "sha256": "6564f5a9be9e4f43c1fced18775cf117992c8884742cf7f14ffa23f1a51e3395",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2023-08-03-2.png",
+      "bytes": 50112,
+      "coverage": "Decoded image metadata; hint montage available for visual inspection",
+      "image": {
+        "width": 519,
+        "height": 157,
+        "mode": "RGBA",
+        "metadata_keys": [
+          "Creation Time",
+          "Software"
+        ]
+      },
+      "text_records": 0,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "maintained-hints__2023-08-06-1.png",
+      "classification": "ARCHIVED_PRIMARY",
+      "sha256": "2696ea0469ed91d4f03a6b06f038d3c62837015caef4a450eb3eaf3794bc4f7d",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2023-08-06-1.png",
+      "bytes": 169022,
+      "coverage": "Decoded image metadata; hint montage available for visual inspection",
+      "image": {
+        "width": 518,
+        "height": 410,
+        "mode": "RGBA",
+        "metadata_keys": [
+          "Creation Time",
+          "Software"
+        ]
+      },
+      "text_records": 0,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "maintained-hints__2023-08-06-2.png",
+      "classification": "ARCHIVED_PRIMARY",
+      "sha256": "692add262a52302458069e7172c74b2b13aeee1e734685ce201fcb1ab5f42743",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2023-08-06-2.png",
+      "bytes": 80485,
+      "coverage": "Decoded image metadata; hint montage available for visual inspection",
+      "image": {
+        "width": 536,
+        "height": 246,
+        "mode": "RGBA",
+        "metadata_keys": [
+          "Creation Time",
+          "Software"
+        ]
+      },
+      "text_records": 0,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "maintained-hints__2023-08-06-3.png",
+      "classification": "ARCHIVED_PRIMARY",
+      "sha256": "75e756cec140a234f146e30b42be4155cbb332bbe5241d54c35b33f35ddb2a26",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2023-08-06-3.png",
+      "bytes": 32782,
+      "coverage": "Decoded image metadata; hint montage available for visual inspection",
+      "image": {
+        "width": 533,
+        "height": 131,
+        "mode": "RGBA",
+        "metadata_keys": [
+          "Creation Time",
+          "Software"
+        ]
+      },
+      "text_records": 0,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "maintained-hints__2023-08-06-4.png",
+      "classification": "ARCHIVED_PRIMARY",
+      "sha256": "5b4b92a99af75af85150293ab89b5a2d9a8b2682e7bc1d5a049ad7a0804f0c23",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2023-08-06-4.png",
+      "bytes": 200644,
+      "coverage": "Decoded image metadata; hint montage available for visual inspection",
+      "image": {
+        "width": 554,
+        "height": 537,
+        "mode": "RGBA",
+        "metadata_keys": [
+          "Creation Time",
+          "Software"
+        ]
+      },
+      "text_records": 0,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "maintained-hints__2024-04-10.png",
+      "classification": "ARCHIVED_PRIMARY",
+      "sha256": "f6d874a357ad45287c8bb30638e525b42a3f1ee1a84c5b32922764b73c887b0e",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2024-04-10.png",
+      "bytes": 31810,
+      "coverage": "Decoded image metadata; hint montage available for visual inspection",
+      "image": {
+        "width": 310,
+        "height": 122,
+        "mode": "RGBA",
+        "metadata_keys": [
+          "Creation Time",
+          "Software"
+        ]
+      },
+      "text_records": 0,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "maintained-hints__2024-04-19-1.png",
+      "classification": "ARCHIVED_PRIMARY",
+      "sha256": "ff7ee78ab3805a2f5d9f4b16e6418e132ddfa963338d067a781efabeef90eab8",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2024-04-19-1.png",
+      "bytes": 101090,
+      "coverage": "Decoded image metadata; hint montage available for visual inspection",
+      "image": {
+        "width": 541,
+        "height": 268,
+        "mode": "RGBA",
+        "metadata_keys": [
+          "Creation Time",
+          "Software"
+        ]
+      },
+      "text_records": 0,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "maintained-hints__2024-04-19-2.png",
+      "classification": "ARCHIVED_PRIMARY",
+      "sha256": "85dcbbd1c2dc00ef0e566c1caa2b485ef2c53650fba211acb66ab0350cfd2af8",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2024-04-19-2.png",
+      "bytes": 99806,
+      "coverage": "Decoded image metadata; hint montage available for visual inspection",
+      "image": {
+        "width": 541,
+        "height": 268,
+        "mode": "RGBA",
+        "metadata_keys": [
+          "Creation Time",
+          "Software"
+        ]
+      },
+      "text_records": 0,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "maintained-hints__2026-01-01-new-year-hint.png",
+      "classification": "ARCHIVED_PRIMARY",
+      "sha256": "028419db3ee983bd38e44acf2b1ed642f329b3624081ab789622580dca78e26f",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2026-01-01-new-year-hint.png",
+      "bytes": 170312,
+      "coverage": "Decoded image metadata; hint montage available for visual inspection",
+      "image": {
+        "width": 521,
+        "height": 605,
+        "mode": "RGBA",
+        "metadata_keys": [
+          "Creation Time",
+          "Software"
+        ]
+      },
+      "text_records": 0,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "maintained-hints__2026-07-12-official-hint.png",
+      "classification": "ARCHIVED_PRIMARY",
+      "sha256": "d7f2c4c7fa3d608be892428984bc7488c017b68dd5c493bf0e7f4ba440c501e0",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2026-07-12-official-hint.png",
+      "bytes": 34745,
+      "coverage": "Decoded image metadata; hint montage available for visual inspection",
+      "image": {
+        "width": 525,
+        "height": 128,
+        "mode": "RGB",
+        "metadata_keys": []
+      },
+      "text_records": 0,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "maintained-hints__2026-07-12-other-msg.png",
+      "classification": "ARCHIVED_PRIMARY",
+      "sha256": "357b3ce1f1108a7203554b6c0fd7c21f8359fad0de4dc767bf5c0771603d7c42",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/2026-07-12-other-msg.png",
+      "bytes": 68341,
+      "coverage": "Decoded image metadata; hint montage available for visual inspection",
+      "image": {
+        "width": 562,
+        "height": 313,
+        "mode": "RGB",
+        "metadata_keys": []
+      },
+      "text_records": 0,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "maintained-hints__cosmic-duality-book.png",
+      "classification": "ARCHIVED_PRIMARY",
+      "sha256": "edde7220c751583a7f9a884b64ee72a28e8d5c2e53c29a74d7a1c7cdc4221504",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/cosmic-duality-book.png",
+      "bytes": 687085,
+      "coverage": "Decoded image metadata; hint montage available for visual inspection",
+      "image": {
+        "width": 553,
+        "height": 651,
+        "mode": "RGBA",
+        "metadata_keys": [
+          "Creation Time",
+          "Software"
+        ]
+      },
+      "text_records": 0,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "maintained-hints__decentraland-tg.png",
+      "classification": "ARCHIVED_PRIMARY",
+      "sha256": "e0e9d0ea66a1e867032a54217fc57833a4b1bfcb114fd3d67a029776a19f60f6",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/hints/decentraland-tg.png",
+      "bytes": 247119,
+      "coverage": "Decoded image metadata; hint montage available for visual inspection",
+      "image": {
+        "width": 613,
+        "height": 362,
+        "mode": "RGBA",
+        "metadata_keys": [
+          "Creation Time",
+          "Software"
+        ]
+      },
+      "text_records": 0,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "maintained-phase0.ipynb",
+      "classification": "SECONDARY_RESEARCH",
+      "sha256": "a9b5d6071a2b9618e7fcc40355761ccc2a31481c3a514408b101c8b2283e9bbc",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/phase0.ipynb",
+      "bytes": 7592,
+      "coverage": "Structured text records scanned; notebook attachments indexed but not OCRed or executed",
+      "text_records": 11,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "maintained-phase1.ipynb",
+      "classification": "SECONDARY_RESEARCH",
+      "sha256": "60f424df150dc3c133328226275d50c00217764d816af355519822563f95e9bc",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/phase1.ipynb",
+      "bytes": 174985,
+      "coverage": "Structured text records scanned; notebook attachments indexed but not OCRed or executed",
+      "text_records": 4,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {
+          "FOUND": 2,
+          "REDIRECT": 2,
+          "IDEAS": 2
+        },
+        "normalization_markers": {
+          "...": 1
+        }
+      }
+    },
+    {
+      "file": "maintained-phase2-assets__phase2.1.txt",
+      "classification": "SECONDARY_RESEARCH",
+      "sha256": "e2f9dd65604a3231f8b3301724e8d713a88fffc4b6c7c4aeeb20f58a582b593a",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/phase2-assets/phase2.1.txt",
+      "bytes": 648,
+      "coverage": "Structured text records scanned; notebook attachments indexed but not OCRed or executed",
+      "text_records": 1,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {
+          "# X": 1,
+          "\r\n": 1
+        }
+      }
+    },
+    {
+      "file": "maintained-phase2-assets__phase3.txt",
+      "classification": "SECONDARY_RESEARCH",
+      "sha256": "c4ad94559a44a927c1032cc0e024515f9510a0806a2d14458dbf4a360af9865f",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/phase2-assets/phase3.txt",
+      "bytes": 4090,
+      "coverage": "Structured text records scanned; notebook attachments indexed but not OCRed or executed",
+      "text_records": 1,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {
+          "...": 1,
+          "(aa": 1,
+          "\r\n": 1
+        }
+      }
+    },
+    {
+      "file": "maintained-phase2.ipynb",
+      "classification": "SECONDARY_RESEARCH",
+      "sha256": "fa884a087430deaeef17234c82c82d9e83e9bffd806dd2853b8680a7d9a1f1de",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/phase2.ipynb",
+      "bytes": 3739609,
+      "coverage": "Structured text records scanned; notebook attachments indexed but not OCRed or executed",
+      "text_records": 16,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {
+          "HSM": 9,
+          "PHASE": 2,
+          "DEVNULL": 2,
+          "GUESSES": 2,
+          "USA": 2,
+          "JFK": 2,
+          "CEO": 1,
+          "FBI": 1,
+          "VERY": 1
+        },
+        "normalization_markers": {
+          "...": 5,
+          "(aa": 2,
+          "(aaa": 2,
+          "# X": 2
+        }
+      }
+    },
+    {
+      "file": "maintained-phase3-assets__phase3.2.txt",
+      "classification": "SECONDARY_RESEARCH",
+      "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/phase3-assets/phase3.2.txt",
+      "bytes": 2422,
+      "coverage": "Structured text records scanned; notebook attachments indexed but not OCRed or executed",
+      "text_records": 1,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {
+          "...": 1,
+          "\r\n": 1
+        }
+      }
+    },
+    {
+      "file": "maintained-phase3.2.ipynb",
+      "classification": "SECONDARY_RESEARCH",
+      "sha256": "f8f6d01a87d47f754a0ed68b5daebf57f6f5b049281c445b97d7ea1cd38274ef",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/phase3.2.ipynb",
+      "bytes": 1754587,
+      "coverage": "Structured text records scanned; notebook attachments indexed but not OCRed or executed",
+      "text_records": 27,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {
+          "IBM": 3,
+          "EBCDIC": 2,
+          "HALF": 2,
+          "AND": 2,
+          "AES": 2,
+          "THEMAT": 1,
+          "THEMATRI": 1,
+          "CASE": 1,
+          "YOU": 1,
+          "MANAGE": 1,
+          "CRACK": 1,
+          "THIS": 1,
+          "THE": 1,
+          "PRIVATE": 1,
+          "KEYS": 1,
+          "BELONG": 1,
+          "BETTER": 1,
+          "THEY": 1,
+          "ALSO": 1,
+          "NEED": 1,
+          "FUNDS": 1,
+          "LIVE": 1
+        },
+        "normalization_markers": {
+          "...": 2,
+          "\\x": 2
+        }
+      }
+    },
+    {
+      "file": "maintained-phase3.ipynb",
+      "classification": "SECONDARY_RESEARCH",
+      "sha256": "17f72c9538bd158a5462c39261a3dc00c6bd07e33ae955827d0958e1e998a603",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/phase3.ipynb",
+      "bytes": 1020572,
+      "coverage": "Structured text records scanned; notebook attachments indexed but not OCRed or executed",
+      "text_records": 9,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {
+          "DEVNULL": 1
+        },
+        "normalization_markers": {
+          "(aa": 2,
+          "...": 1
+        }
+      }
+    },
+    {
+      "file": "maintained-repository.json",
+      "classification": "SECONDARY_RESEARCH",
+      "sha256": "d86377ad8d2f16197d3f57b23fe449cbe919b81da16406c1b8e23ae5626ef679",
+      "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle",
+      "bytes": 16569,
+      "coverage": "Structured text records scanned; notebook attachments indexed but not OCRed or executed",
+      "text_records": 1,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {
+          "GSMG": 3,
+          "BTC": 3
+        },
+        "normalization_markers": {
+          "...": 1
+        }
+      }
+    },
+    {
+      "file": "maintained-salphaseion.ipynb",
+      "classification": "SECONDARY_RESEARCH",
+      "sha256": "2c4b2e6aa4aa3d8d3f5b5ee49ffc6a2c03e894efccdffc6dc30bc2536c384b14",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/salphaseion.ipynb",
+      "bytes": 85624,
+      "coverage": "Structured text records scanned; notebook attachments indexed but not OCRed or executed",
+      "text_records": 21,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {
+          "AES": 2
+        },
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "maintained-tree.json",
+      "classification": "SECONDARY_RESEARCH",
+      "sha256": "e2bce557f9a46456159b564a9cf22ddbe41d73753d76da5f07130e55990bd04a",
+      "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/trees/9e61693404ef74e8e681598116d371924f399ffa?recursive=1",
+      "bytes": 24229,
+      "coverage": "Structured text records scanned; notebook attachments indexed but not OCRed or executed",
+      "text_records": 1,
+      "text_diagnostics": {
+        "dates": {
+          "2023-08-06": 4,
+          "2021-03-01": 2,
+          "2023-08-03": 2,
+          "2024-04-19": 2,
+          "2026-07-12": 2,
+          "2020-01-14": 1,
+          "2020-02-20": 1,
+          "2020-04-08": 1,
+          "2020-05-11": 1,
+          "2020-06-07": 1,
+          "2020-08-02": 1,
+          "2021-01-21": 1,
+          "2021-02-12": 1,
+          "2021-03-14": 1,
+          "2021-04-01": 1,
+          "2021-04-16": 1,
+          "2021-05-06": 1,
+          "2021-12-02": 1,
+          "2021-12-25": 1,
+          "2022-12-10": 1,
+          "2023-01-09": 1,
+          "2023-01-12": 1,
+          "2023-02-23": 1,
+          "2024-04-10": 1,
+          "2026-01-01": 1
+        },
+        "uppercase_words": {
+          "README": 2
+        },
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "maintained-unverified__.gitkeep",
+      "classification": "SPECULATION",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/unverified/.gitkeep",
+      "bytes": 0,
+      "coverage": "Structured text records scanned; notebook attachments indexed but not OCRed or executed",
+      "text_records": 0,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "maintained-unverified__11110.md",
+      "classification": "SPECULATION",
+      "sha256": "0ddb48cef75fbe83f6693672ab83a529209973b804b8134d1c4f79fc7132b0f6",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/unverified/11110.md",
+      "bytes": 1833,
+      "coverage": "Structured text records scanned; notebook attachments indexed but not OCRed or executed",
+      "text_records": 1,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {
+          "LSB": 3,
+          "JFK": 1
+        },
+        "normalization_markers": {
+          "...": 1
+        }
+      }
+    },
+    {
+      "file": "maintained-unverified__README.md",
+      "classification": "SPECULATION",
+      "sha256": "ded25c0a5c309ab7668404cf35cc7f154ed9b6ec67eaf2dcd554bc344dc16fca",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/unverified/README.md",
+      "bytes": 1081,
+      "coverage": "Structured text records scanned; notebook attachments indexed but not OCRed or executed",
+      "text_records": 1,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {
+          "AES": 2,
+          "FAKE": 1,
+          "ATTEMPT": 1,
+          "URL": 1
+        },
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "maintained-unverified__phase0_fefefe_parity.md",
+      "classification": "SPECULATION",
+      "sha256": "9655b52b41cdbb047afd69552d137caafa9b41d4844b5a83f2a8c19458e32a00",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/unverified/phase0_fefefe_parity.md",
+      "bytes": 865,
+      "coverage": "Structured text records scanned; notebook attachments indexed but not OCRed or executed",
+      "text_records": 1,
+      "text_diagnostics": {
+        "dates": {
+          "2021-03-01": 1
+        },
+        "uppercase_words": {
+          "FEFEFE": 2,
+          "FOUR": 1
+        },
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "maintained-unverified__phase0_yellow_blue_counts.md",
+      "classification": "SPECULATION",
+      "sha256": "46eb4da6b0c9d0161d4c0ce639013584668155ad3c1b016f39795bc58a44d431",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/unverified/phase0_yellow_blue_counts.md",
+      "bytes": 1187,
+      "coverage": "Structured text records scanned; notebook attachments indexed but not OCRed or executed",
+      "text_records": 1,
+      "text_diagnostics": {
+        "dates": {
+          "2020-01-14": 1
+        },
+        "uppercase_words": {
+          "URL": 2
+        },
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "maintained-unverified__phase3.2_1141.md",
+      "classification": "SPECULATION",
+      "sha256": "05b428be66f073f3e61ed49824275dd42c9ecd2edb343f81e97effdb622cb5cb",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/unverified/phase3.2_1141.md",
+      "bytes": 2293,
+      "coverage": "Structured text records scanned; notebook attachments indexed but not OCRed or executed",
+      "text_records": 1,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "maintained-unverified__sample_3.2_attempt_1.md",
+      "classification": "SPECULATION",
+      "sha256": "2a3f010d77dfe9c64bac81bd0494eb68ea4cab525c1bec235c2571722bd85bd1",
+      "url": "https://raw.githubusercontent.com/Naddiseo/gsmgio-5btc-puzzle/9e61693404ef74e8e681598116d371924f399ffa/unverified/sample_3.2_attempt_1.md",
+      "bytes": 138,
+      "coverage": "Structured text records scanned; notebook attachments indexed but not OCRed or executed",
+      "text_records": 1,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {
+          "AES": 1
+        },
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "mempool-address.json",
+      "classification": "ORIGINAL",
+      "sha256": "2db662c5efde5ca91ddca63101b5ec27023dca62b9cea7468adf347084199b8e",
+      "url": "https://mempool.space/api/address/1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe",
+      "bytes": 284,
+      "coverage": "Structured text records scanned; notebook attachments indexed but not OCRed or executed",
+      "text_records": 1,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "mempool-secondary-address.json",
+      "classification": "ORIGINAL",
+      "sha256": "57bc3b6749ae511b5ff79dfc48f0e1ff52f739097654fd7639f1b61508c07ace",
+      "url": "https://mempool.space/api/address/17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa",
+      "bytes": 274,
+      "coverage": "Structured text records scanned; notebook attachments indexed but not OCRed or executed",
+      "text_records": 1,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "openssl-enc-documentation.html",
+      "classification": "SECONDARY_RESEARCH",
+      "sha256": "b16115bd6a46b32753a67d0a49dd544069240efd08ae00bdc86564c9c54c8948",
+      "url": "https://docs.openssl.org/3.0/man1/openssl-enc/",
+      "bytes": 53742,
+      "coverage": "Structured text records scanned; notebook attachments indexed but not OCRed or executed",
+      "text_records": 1,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {
+          "CFB": 20,
+          "CBC": 17,
+          "ECB": 13,
+          "OFB": 13,
+          "DES": 12,
+          "AES": 8,
+          "EDE": 8,
+          "ARIA": 7,
+          "CTR": 5,
+          "IDEA": 4,
+          "SEED": 4,
+          "NAME": 3,
+          "SYNOPSIS": 3,
+          "DESCRIPTION": 3,
+          "OPTIONS": 3,
+          "NOTES": 3,
+          "SUPPORTED": 3,
+          "CIPHERS": 3,
+          "EXAMPLES": 3,
+          "BUGS": 3,
+          "HISTORY": 3,
+          "COPYRIGHT": 3,
+          "JSON": 2,
+          "FIPS-": 2,
+          "AEAD": 2,
+          "GOST": 2,
+          "AES-": 2,
+          "URL": 1,
+          "SHOULD": 1,
+          "NOT": 1
+        },
+        "normalization_markers": {
+          "...": 1
+        }
+      }
+    },
+    {
+      "file": "phase2.html",
+      "classification": "ORIGINAL",
+      "sha256": "06fbd4461ab20d45c54a7053c7c0cfa256ba82a5ad4c73a47fac67f3f1cdf7d9",
+      "url": "https://gsmg.io/choiceisanillusioncreatedbetweenthosewithpowerandthosewithoutaveryspecialdessertiwroteitmyself",
+      "bytes": 9207,
+      "coverage": "Structured text records scanned; notebook attachments indexed but not OCRed or executed",
+      "text_records": 1,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {
+          "PHASE": 2,
+          "GSMG": 1,
+          "ZIC": 1
+        },
+        "normalization_markers": {
+          "...": 1,
+          "(aa": 1,
+          "(aaa": 1
+        }
+      }
+    },
+    {
+      "file": "privatekeys-gsmg.html",
+      "classification": "SECONDARY_RESEARCH",
+      "sha256": "9c1b7669e79be76903eb447f7ea8173508b467b76096a3cb33a81c228241d5d6",
+      "url": "https://privatekeys.pw/puzzles/gsmg-puzzle",
+      "bytes": 14640,
+      "coverage": "Structured text records scanned; notebook attachments indexed but not OCRed or executed",
+      "text_records": 1,
+      "text_diagnostics": {
+        "dates": {
+          "2019-04-13": 1
+        },
+        "uppercase_words": {
+          "BTC": 5,
+          "GSMG": 3,
+          "FAQ": 1,
+          "UNSOLVED": 1
+        },
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "privatekeys-puzzle.png",
+      "classification": "SECONDARY_RESEARCH",
+      "sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830",
+      "url": "https://privatekeys.pw/images/puzzles/gsmg-puzzle.png",
+      "bytes": 29931,
+      "coverage": "Decoded image metadata; hint montage available for visual inspection",
+      "image": {
+        "width": 1048,
+        "height": 1556,
+        "mode": "RGBA",
+        "metadata_keys": [
+          "dpi",
+          "gamma",
+          "srgb"
+        ]
+      },
+      "text_records": 0,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {},
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "pycryptodome-aes-documentation.html",
+      "classification": "SECONDARY_RESEARCH",
+      "sha256": "6b3a2e09de1974a740940211c33cd799b8b2677fae15cb784a8680478cbf9412",
+      "url": "https://www.pycryptodome.org/src/cipher/aes",
+      "bytes": 26003,
+      "coverage": "Structured text records scanned; notebook attachments indexed but not OCRed or executed",
+      "text_records": 1,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {
+          "AES": 28,
+          "MODE_EAX": 7,
+          "MODE_SIV": 7,
+          "MODE_CCM": 6,
+          "MODE_CTR": 5,
+          "MODE_CFB": 4,
+          "MODE_GCM": 4,
+          "MODE_OCB": 4,
+          "MODE_CBC": 3,
+          "MODE_OFB": 3,
+          "MODE_OPENPGP": 3,
+          "AES-": 3,
+          "CCM": 2,
+          "API": 1,
+          "NIST": 1,
+          "MODE_ECB": 1,
+          "ECB": 1,
+          "CBC": 1,
+          "CFB": 1,
+          "OFB": 1,
+          "CTR": 1,
+          "CBC-MAC": 1,
+          "EAX": 1,
+          "SIV": 1,
+          "GCM": 1,
+          "OCB": 1,
+          "MODE_KW": 1,
+          "MODE_KWP": 1,
+          "KWP": 1,
+          "MODE_": 1
+        },
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "salphaseion.html",
+      "classification": "ORIGINAL",
+      "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77",
+      "url": "https://gsmg.io/89727c598b9cd1cf8873f27cb7057f050645ddb6a7a157a110239ac0152f6a32",
+      "bytes": 4536,
+      "coverage": "Structured text records scanned; notebook attachments indexed but not OCRed or executed",
+      "text_records": 1,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {
+          "GSMG": 1,
+          "FEH": 1
+        },
+        "normalization_markers": {}
+      }
+    },
+    {
+      "file": "theseedisplanted.html",
+      "classification": "ORIGINAL",
+      "sha256": "7cb766d406008a397f8ae32b3a38ca68b42724bb07b3481deb84baad5c725183",
+      "url": "https://gsmg.io/theseedisplanted",
+      "bytes": 832,
+      "coverage": "Structured text records scanned; notebook attachments indexed but not OCRed or executed",
+      "text_records": 1,
+      "text_diagnostics": {
+        "dates": {},
+        "uppercase_words": {
+          "GSMG": 1
+        },
+        "normalization_markers": {}
+      }
+    }
+  ]
+}

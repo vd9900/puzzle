@@ -1,0 +1,871 @@
+{
+  "assumptions": [
+    "Use existing primary normalization/decoders only",
+    "No extra delimiter or consumer may be invented",
+    "Semantic label and encoded representation are distinct typed objects"
+  ],
+  "binary_label": {
+    "decoded_length": 13,
+    "decoded_public_label": "matrixsumlist",
+    "encoded_length": 104,
+    "exact_round_trip": true,
+    "source_octets": [
+      {
+        "character_span_zero_based_half_open": [
+          638,
+          653
+        ],
+        "column_one_based": 228,
+        "decoded_character": "m",
+        "decoded_index_zero_based": 0,
+        "line_one_based": 17,
+        "normalized_span_zero_based_half_open": [
+          91,
+          99
+        ],
+        "original_binary_octet": "01101101",
+        "utf8_byte_span_zero_based_half_open": [
+          638,
+          653
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          654,
+          669
+        ],
+        "column_one_based": 244,
+        "decoded_character": "a",
+        "decoded_index_zero_based": 1,
+        "line_one_based": 17,
+        "normalized_span_zero_based_half_open": [
+          99,
+          107
+        ],
+        "original_binary_octet": "01100001",
+        "utf8_byte_span_zero_based_half_open": [
+          654,
+          669
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          670,
+          685
+        ],
+        "column_one_based": 260,
+        "decoded_character": "t",
+        "decoded_index_zero_based": 2,
+        "line_one_based": 17,
+        "normalized_span_zero_based_half_open": [
+          107,
+          115
+        ],
+        "original_binary_octet": "01110100",
+        "utf8_byte_span_zero_based_half_open": [
+          670,
+          685
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          686,
+          701
+        ],
+        "column_one_based": 276,
+        "decoded_character": "r",
+        "decoded_index_zero_based": 3,
+        "line_one_based": 17,
+        "normalized_span_zero_based_half_open": [
+          115,
+          123
+        ],
+        "original_binary_octet": "01110010",
+        "utf8_byte_span_zero_based_half_open": [
+          686,
+          701
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          702,
+          717
+        ],
+        "column_one_based": 292,
+        "decoded_character": "i",
+        "decoded_index_zero_based": 4,
+        "line_one_based": 17,
+        "normalized_span_zero_based_half_open": [
+          123,
+          131
+        ],
+        "original_binary_octet": "01101001",
+        "utf8_byte_span_zero_based_half_open": [
+          702,
+          717
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          718,
+          733
+        ],
+        "column_one_based": 308,
+        "decoded_character": "x",
+        "decoded_index_zero_based": 5,
+        "line_one_based": 17,
+        "normalized_span_zero_based_half_open": [
+          131,
+          139
+        ],
+        "original_binary_octet": "01111000",
+        "utf8_byte_span_zero_based_half_open": [
+          718,
+          733
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          734,
+          749
+        ],
+        "column_one_based": 324,
+        "decoded_character": "s",
+        "decoded_index_zero_based": 6,
+        "line_one_based": 17,
+        "normalized_span_zero_based_half_open": [
+          139,
+          147
+        ],
+        "original_binary_octet": "01110011",
+        "utf8_byte_span_zero_based_half_open": [
+          734,
+          749
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          750,
+          765
+        ],
+        "column_one_based": 340,
+        "decoded_character": "u",
+        "decoded_index_zero_based": 7,
+        "line_one_based": 17,
+        "normalized_span_zero_based_half_open": [
+          147,
+          155
+        ],
+        "original_binary_octet": "01110101",
+        "utf8_byte_span_zero_based_half_open": [
+          750,
+          765
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          766,
+          781
+        ],
+        "column_one_based": 356,
+        "decoded_character": "m",
+        "decoded_index_zero_based": 8,
+        "line_one_based": 17,
+        "normalized_span_zero_based_half_open": [
+          155,
+          163
+        ],
+        "original_binary_octet": "01101101",
+        "utf8_byte_span_zero_based_half_open": [
+          766,
+          781
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          782,
+          797
+        ],
+        "column_one_based": 372,
+        "decoded_character": "l",
+        "decoded_index_zero_based": 9,
+        "line_one_based": 17,
+        "normalized_span_zero_based_half_open": [
+          163,
+          171
+        ],
+        "original_binary_octet": "01101100",
+        "utf8_byte_span_zero_based_half_open": [
+          782,
+          797
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          798,
+          813
+        ],
+        "column_one_based": 388,
+        "decoded_character": "i",
+        "decoded_index_zero_based": 10,
+        "line_one_based": 17,
+        "normalized_span_zero_based_half_open": [
+          171,
+          179
+        ],
+        "original_binary_octet": "01101001",
+        "utf8_byte_span_zero_based_half_open": [
+          798,
+          813
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          814,
+          829
+        ],
+        "column_one_based": 404,
+        "decoded_character": "s",
+        "decoded_index_zero_based": 11,
+        "line_one_based": 17,
+        "normalized_span_zero_based_half_open": [
+          179,
+          187
+        ],
+        "original_binary_octet": "01110011",
+        "utf8_byte_span_zero_based_half_open": [
+          814,
+          829
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          830,
+          845
+        ],
+        "column_one_based": 420,
+        "decoded_character": "t",
+        "decoded_index_zero_based": 12,
+        "line_one_based": 17,
+        "normalized_span_zero_based_half_open": [
+          187,
+          195
+        ],
+        "original_binary_octet": "01110100",
+        "utf8_byte_span_zero_based_half_open": [
+          830,
+          845
+        ]
+      }
+    ]
+  },
+  "borrowed_marker_witnesses": [
+    {
+      "decoded_label_character": "m",
+      "decoded_label_character_index_zero_based": 0,
+      "logical_position_one_based": 89,
+      "mask": 505,
+      "not_an_instruction_to_remove_label_bits": true,
+      "original_marker_source": {
+        "binary_offset_zero_based": 4,
+        "character_span_zero_based_half_open": [
+          646,
+          647
+        ],
+        "encoded_label_bit_offset_zero_based": 4,
+        "normalized_span_zero_based_half_open": [
+          95,
+          96
+        ],
+        "semantic_label_bit": 1,
+        "token": "b",
+        "utf8_byte_span_zero_based_half_open": [
+          646,
+          647
+        ]
+      },
+      "role": "SAME_ENCODED_SOURCE_BYTE_USED_AS_LABEL_ENCODING_AND_HYPOTHESIZED_MARKER_DATA"
+    },
+    {
+      "decoded_label_character": "a",
+      "decoded_label_character_index_zero_based": 1,
+      "logical_position_one_based": 97,
+      "mask": 505,
+      "not_an_instruction_to_remove_label_bits": true,
+      "original_marker_source": {
+        "binary_offset_zero_based": 12,
+        "character_span_zero_based_half_open": [
+          662,
+          663
+        ],
+        "encoded_label_bit_offset_zero_based": 4,
+        "normalized_span_zero_based_half_open": [
+          103,
+          104
+        ],
+        "semantic_label_bit": 0,
+        "token": "a",
+        "utf8_byte_span_zero_based_half_open": [
+          662,
+          663
+        ]
+      },
+      "role": "SAME_ENCODED_SOURCE_BYTE_USED_AS_LABEL_ENCODING_AND_HYPOTHESIZED_MARKER_DATA"
+    },
+    {
+      "decoded_label_character": "m",
+      "decoded_label_character_index_zero_based": 0,
+      "logical_position_one_based": 89,
+      "mask": 1017,
+      "not_an_instruction_to_remove_label_bits": true,
+      "original_marker_source": {
+        "binary_offset_zero_based": 5,
+        "character_span_zero_based_half_open": [
+          648,
+          649
+        ],
+        "encoded_label_bit_offset_zero_based": 5,
+        "normalized_span_zero_based_half_open": [
+          96,
+          97
+        ],
+        "semantic_label_bit": 1,
+        "token": "b",
+        "utf8_byte_span_zero_based_half_open": [
+          648,
+          649
+        ]
+      },
+      "role": "SAME_ENCODED_SOURCE_BYTE_USED_AS_LABEL_ENCODING_AND_HYPOTHESIZED_MARKER_DATA"
+    },
+    {
+      "decoded_label_character": "a",
+      "decoded_label_character_index_zero_based": 1,
+      "logical_position_one_based": 97,
+      "mask": 1017,
+      "not_an_instruction_to_remove_label_bits": true,
+      "original_marker_source": {
+        "binary_offset_zero_based": 13,
+        "character_span_zero_based_half_open": [
+          664,
+          665
+        ],
+        "encoded_label_bit_offset_zero_based": 5,
+        "normalized_span_zero_based_half_open": [
+          104,
+          105
+        ],
+        "semantic_label_bit": 0,
+        "token": "a",
+        "utf8_byte_span_zero_based_half_open": [
+          664,
+          665
+        ]
+      },
+      "role": "SAME_ENCODED_SOURCE_BYTE_USED_AS_LABEL_ENCODING_AND_HYPOTHESIZED_MARKER_DATA"
+    }
+  ],
+  "confidence": "HIGH for boundaries/source identity; UNKNOWN for complete object/operation binding",
+  "contradictions": [
+    "No explicit delimiter assigns matrixsumlist to the preceding or following object",
+    "No verb or argument syntax binds a consumer",
+    "Dual encoded-label/data role is not a new cryptographic construction",
+    "No evidence says discard borrowed bits or replace encoded data with decoded label in another stage"
+  ],
+  "date": "2026-10-01",
+  "dbbi_to_binary_and_binary_to_faed_have_no_explicit_separator": true,
+  "encoded_container_internal_z_is_not_delimiter": [
+    {
+      "character_span_zero_based_half_open": [
+        2372,
+        2373
+      ],
+      "column_one_based": 1962,
+      "line_one_based": 17,
+      "normalized_span_zero_based_half_open": [
+        958,
+        959
+      ],
+      "utf8_byte_span_zero_based_half_open": [
+        2372,
+        2373
+      ]
+    }
+  ],
+  "hypotheses": [
+    {
+      "assumptions": [
+        "Physical source boundaries are not executable dependency arrows",
+        "One encoded artifact can have separate text and data roles"
+      ],
+      "confidence": "MEDIUM compatibility; exact object UNKNOWN",
+      "contradictions": [
+        "No primary delimiter marks the label as postfix or prefix",
+        "Borrowed-bit convention is historical hypothesis",
+        "No source statement equates the label to dbbi, faed or modified speech"
+      ],
+      "hypothesis": "matrixsumlist is an object/type label whose encoded bytes can simultaneously support prime-marker data",
+      "id": "C15-BOUNDARY-OBJECT",
+      "input": "Unchanged encoded label and unresolved adjacent source objects",
+      "next_test": "Inspect exact source-defined sum/remainder wording in the modified speech and its preserved baseline, looking for a named referent that explains both matrixsumlist and prime-residual structure without arithmetic fitting",
+      "operation_order": [
+        "read encoded primary label",
+        "retain original encoded bytes",
+        "identify an explicitly bound object",
+        "apply an independently specified consumer"
+      ],
+      "output": "An unresolved object/command binding, not generated trial text",
+      "source_evidence": [
+        {
+          "path": "research/sources/salphaseion.html",
+          "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+        },
+        {
+          "path": "research/artifacts/cycle15/frame-object-audit.json",
+          "sha256": "56897976b72da60096261c7b1b5ea76ce1e5497dc0f04996bf75c8770e298d2e"
+        },
+        {
+          "path": "research/artifacts/cycle11/hint-instruction-order.json",
+          "sha256": "05a3ad4ec7ed7572f1223fb90c97612caa4fde6ffc199baeebdcd1794d74150d"
+        },
+        {
+          "path": "research/artifacts/cycle10/instruction-graphs-v3.json",
+          "sha256": "31a20ee0b58c1289d16de425c76f4521ca228a01c6ca12122d074056a8e81132"
+        }
+      ],
+      "source_locations": [
+        "research/sources/salphaseion.html:17",
+        "research/artifacts/cycle15/frame-object-audit.json:1",
+        "research/artifacts/cycle11/hint-instruction-order.json:1"
+      ],
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "assumptions": [
+        "Physical source boundaries are not executable dependency arrows",
+        "One encoded artifact can have separate text and data roles"
+      ],
+      "confidence": "MEDIUM compatibility; operation details UNKNOWN",
+      "contradictions": [
+        "No verb, axis, weights or representation supplied",
+        "All previously tested literal sums/routes remain negative",
+        "Encoding a command does not imply its source bits cease to be data"
+      ],
+      "hypothesis": "matrixsumlist names an operation but its operand and accepted representation are elsewhere in the construction",
+      "id": "C15-BOUNDARY-COMMAND",
+      "input": "Unchanged encoded label and unresolved adjacent source objects",
+      "next_test": "Inspect exact source-defined sum/remainder wording in the modified speech and its preserved baseline, looking for a named referent that explains both matrixsumlist and prime-residual structure without arithmetic fitting",
+      "operation_order": [
+        "decode the command label",
+        "locate an explicit operand/representation",
+        "derive that object only under a source rule",
+        "bind downstream Architect-related consumer"
+      ],
+      "output": "An unresolved object/command binding, not generated trial text",
+      "source_evidence": [
+        {
+          "path": "research/sources/salphaseion.html",
+          "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+        },
+        {
+          "path": "research/artifacts/cycle15/frame-object-audit.json",
+          "sha256": "56897976b72da60096261c7b1b5ea76ce1e5497dc0f04996bf75c8770e298d2e"
+        },
+        {
+          "path": "research/artifacts/cycle11/hint-instruction-order.json",
+          "sha256": "05a3ad4ec7ed7572f1223fb90c97612caa4fde6ffc199baeebdcd1794d74150d"
+        },
+        {
+          "path": "research/artifacts/cycle10/instruction-graphs-v3.json",
+          "sha256": "31a20ee0b58c1289d16de425c76f4521ca228a01c6ca12122d074056a8e81132"
+        }
+      ],
+      "source_locations": [
+        "research/sources/salphaseion.html:17",
+        "research/artifacts/cycle15/frame-object-audit.json:1",
+        "research/artifacts/cycle11/hint-instruction-order.json:1"
+      ],
+      "status": "INCONCLUSIVE"
+    }
+  ],
+  "hypothesis": "Exact primary boundaries distinguish encoded label/data coexistence from an assumed single execution grammar",
+  "id": "C15-LABEL-BOUNDARY-AUDIT",
+  "input": "Exact primary encoded string and two existing borrowed-marker maps",
+  "known_operator_mapping_is_local_not_uniform": {
+    "decoded_operator": "sha256",
+    "encoded_suffix": [
+      {
+        "decimal_digit": "2",
+        "symbol": "b"
+      },
+      {
+        "decimal_digit": "5",
+        "symbol": "e"
+      },
+      {
+        "decimal_digit": "6",
+        "symbol": "f"
+      }
+    ],
+    "literal_prefix": "sha",
+    "not_a_global_substitution": true
+  },
+  "new_cryptographic_trials": 0,
+  "new_trial_inputs": 0,
+  "next_test": "Audit the exact sum/remainder opening of the modified speech against preserved baseline wording. Determine whether it supplies a referent/object definition for matrixsumlist that explains the prime residual without new numerical fits, cipher trials or selector variants.",
+  "operation_order": [
+    "map ten existing primary regions plus three delimiters",
+    "map13 original matrixsumlist octets",
+    "locate four already documented borrowed marker positions",
+    "record type coexistence without removing or transforming data",
+    "retain object-versus-command hypotheses"
+  ],
+  "output": "Typed region coverage, per-character label source maps and dual-use marker witnesses",
+  "primary_compact_length": 1075,
+  "primary_sequence_has_no_operator_argument_syntax": true,
+  "regions": [
+    {
+      "character_span_zero_based_half_open": [
+        456,
+        637
+      ],
+      "column_one_based": 46,
+      "encoded_sha256": "71fe46259e270c113529dfaded4b59c59a9dffd826a7202ab07fc498b6a2c5ca",
+      "grammar_type": "UNRESOLVED_SOURCE_DATA",
+      "length": 91,
+      "line_one_based": 17,
+      "name": "dbbi91",
+      "normalized_span_zero_based_half_open": [
+        0,
+        91
+      ],
+      "source": {
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "type_does_not_identify_input_output_or_consumer": true,
+      "utf8_byte_span_zero_based_half_open": [
+        456,
+        637
+      ]
+    },
+    {
+      "character_span_zero_based_half_open": [
+        638,
+        845
+      ],
+      "column_one_based": 228,
+      "decoded": "matrixsumlist",
+      "encoded_sha256": "29b59b580d592d009d10d3513e92b4466c79934cbf1a8b7d5710e23b924626a5",
+      "grammar_type": "BINARY_ENCODED_TEXT_LABEL",
+      "length": 104,
+      "line_one_based": 17,
+      "name": "matrixsumlist",
+      "normalized_span_zero_based_half_open": [
+        91,
+        195
+      ],
+      "source": {
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "transform": "a=0,b=1; MSB-first ASCII octets",
+      "type_does_not_identify_input_output_or_consumer": true,
+      "utf8_byte_span_zero_based_half_open": [
+        638,
+        845
+      ]
+    },
+    {
+      "character_span_zero_based_half_open": [
+        846,
+        1985
+      ],
+      "column_one_based": 436,
+      "encoded_sha256": "066191b4aafc114fbca7f0d168382f40129c4ff18490375b689741081d5ef3c2",
+      "grammar_type": "UNRESOLVED_SOURCE_DATA",
+      "length": 570,
+      "line_one_based": 17,
+      "name": "faed570",
+      "normalized_span_zero_based_half_open": [
+        195,
+        765
+      ],
+      "source": {
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "type_does_not_identify_input_output_or_consumer": true,
+      "utf8_byte_span_zero_based_half_open": [
+        846,
+        1985
+      ]
+    },
+    {
+      "character_span_zero_based_half_open": [
+        1988,
+        2113
+      ],
+      "column_one_based": 1578,
+      "decoded": "lastwordsbeforearchichoice",
+      "encoded_sha256": "5d013695c4b410387ca881e93cb77295fb4a38b17077d518a28a6954b1fe80f3",
+      "grammar_type": "DECIMAL_INTEGER_ENCODED_TEXT_LABEL",
+      "length": 63,
+      "line_one_based": 17,
+      "name": "lastwordsbeforearchichoice",
+      "normalized_span_zero_based_half_open": [
+        766,
+        829
+      ],
+      "source": {
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "transform": "a..i=1..9,o=0; decimal integer to minimal big-endian ASCII",
+      "type_does_not_identify_input_output_or_consumer": true,
+      "utf8_byte_span_zero_based_half_open": [
+        1988,
+        2113
+      ]
+    },
+    {
+      "character_span_zero_based_half_open": [
+        2116,
+        2173
+      ],
+      "column_one_based": 1706,
+      "decoded": "thispassword",
+      "encoded_sha256": "4447f552c0f76528be4df75028a3ecdb3878bccd46acb4b3fabe6442304fd9c4",
+      "grammar_type": "DECIMAL_INTEGER_ENCODED_TEXT_LABEL",
+      "length": 29,
+      "line_one_based": 17,
+      "name": "thispassword",
+      "normalized_span_zero_based_half_open": [
+        830,
+        859
+      ],
+      "source": {
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "transform": "a..i=1..9,o=0; decimal integer to minimal big-endian ASCII",
+      "type_does_not_identify_input_output_or_consumer": true,
+      "utf8_byte_span_zero_based_half_open": [
+        2116,
+        2173
+      ]
+    },
+    {
+      "character_span_zero_based_half_open": [
+        2176,
+        2245
+      ],
+      "column_one_based": 1766,
+      "encoded_sha256": "d3dcdb2f2b66c1b95733b6944051eb4cc5d6143b4666fb1580928a262418cac1",
+      "grammar_type": "MIXED_LITERAL_SHA_WORDING",
+      "length": 35,
+      "line_one_based": 17,
+      "literal": "shabefourfirsthintisyourlastcommand",
+      "name": "first-command",
+      "normalized_span_zero_based_half_open": [
+        860,
+        895
+      ],
+      "source": {
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "type_does_not_identify_input_output_or_consumer": true,
+      "utf8_byte_span_zero_based_half_open": [
+        2176,
+        2245
+      ]
+    },
+    {
+      "character_span_zero_based_half_open": [
+        2246,
+        2373
+      ],
+      "column_one_based": 1836,
+      "encoded_sha256": "6d4e51e06278649828373d4d01ffb5cf46173a7ec66661768c53c032ad43d0e9",
+      "grammar_type": "ENCODED_CONTAINER_DATA",
+      "length": 64,
+      "line_one_based": 17,
+      "name": "small-container-first-part",
+      "normalized_span_zero_based_half_open": [
+        895,
+        959
+      ],
+      "source": {
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "type_does_not_identify_input_output_or_consumer": true,
+      "utf8_byte_span_zero_based_half_open": [
+        2246,
+        2373
+      ]
+    },
+    {
+      "character_span_zero_based_half_open": [
+        2374,
+        2453
+      ],
+      "column_one_based": 1964,
+      "decoded": "enter",
+      "encoded_sha256": "9b26e15d82b0f97dc8cb2ae413f440a3a03848a3f1c5029bec6dcd8f3c0f95d7",
+      "grammar_type": "BINARY_ENCODED_TEXT_LABEL",
+      "length": 40,
+      "line_one_based": 17,
+      "name": "enter",
+      "normalized_span_zero_based_half_open": [
+        959,
+        999
+      ],
+      "source": {
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "transform": "a=0,b=1; MSB-first ASCII octets",
+      "type_does_not_identify_input_output_or_consumer": true,
+      "utf8_byte_span_zero_based_half_open": [
+        2374,
+        2453
+      ]
+    },
+    {
+      "character_span_zero_based_half_open": [
+        2454,
+        2581
+      ],
+      "column_one_based": 2044,
+      "encoded_sha256": "c6dac12b9935e1f2e294bfdf963526d21009c029254f5d5b799a809769fa1b57",
+      "grammar_type": "ENCODED_CONTAINER_DATA",
+      "length": 64,
+      "line_one_based": 17,
+      "name": "small-container-second-part",
+      "normalized_span_zero_based_half_open": [
+        999,
+        1063
+      ],
+      "source": {
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "type_does_not_identify_input_output_or_consumer": true,
+      "utf8_byte_span_zero_based_half_open": [
+        2454,
+        2581
+      ]
+    },
+    {
+      "character_span_zero_based_half_open": [
+        2582,
+        2605
+      ],
+      "column_one_based": 2172,
+      "encoded_sha256": "e6190c95f277454dd5953a49d0b34dd176685cba336fa4b54277c8e4edc067cb",
+      "grammar_type": "MIXED_LITERAL_SHA_WORDING",
+      "length": 12,
+      "line_one_based": 17,
+      "literal": "shabefanstoo",
+      "name": "answer-command",
+      "normalized_span_zero_based_half_open": [
+        1063,
+        1075
+      ],
+      "source": {
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "type_does_not_identify_input_output_or_consumer": true,
+      "utf8_byte_span_zero_based_half_open": [
+        2582,
+        2605
+      ]
+    }
+  ],
+  "result": "The13 decoded matrixsumlist letters and historical marker89/97 consume the same untouched104 encoded characters in distinct roles. Primary adjacency without z at either binary boundary does not identify postfix/prefix operand or execution order. Local binary/decimal/SHA mappings cannot be promoted to one uniform stream grammar or a new consuming transformation.",
+  "search_space": {
+    "delimiters": 3,
+    "existing_borrowed_markers": 4,
+    "finite_type_hypotheses": 2,
+    "label_source_octets": 13,
+    "primary_regions": 10
+  },
+  "source_evidence": [
+    {
+      "path": "research/sources/salphaseion.html",
+      "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+    },
+    {
+      "path": "research/artifacts/cycle15/frame-object-audit.json",
+      "sha256": "56897976b72da60096261c7b1b5ea76ce1e5497dc0f04996bf75c8770e298d2e"
+    },
+    {
+      "path": "research/artifacts/cycle11/hint-instruction-order.json",
+      "sha256": "05a3ad4ec7ed7572f1223fb90c97612caa4fde6ffc199baeebdcd1794d74150d"
+    },
+    {
+      "path": "research/artifacts/cycle10/instruction-graphs-v3.json",
+      "sha256": "31a20ee0b58c1289d16de425c76f4521ca228a01c6ca12122d074056a8e81132"
+    }
+  ],
+  "source_locations": [
+    "research/sources/salphaseion.html:17",
+    "research/artifacts/cycle15/frame-object-audit.json:1",
+    "research/artifacts/cycle11/hint-instruction-order.json:1"
+  ],
+  "status": "INCONCLUSIVE",
+  "typed_regions_reconstruct_primary_exactly": true,
+  "z_delimiters": [
+    {
+      "character_span_zero_based_half_open": [
+        1986,
+        1987
+      ],
+      "column_one_based": 1576,
+      "line_one_based": 17,
+      "normalized_span_zero_based_half_open": [
+        765,
+        766
+      ],
+      "utf8_byte_span_zero_based_half_open": [
+        1986,
+        1987
+      ]
+    },
+    {
+      "character_span_zero_based_half_open": [
+        2114,
+        2115
+      ],
+      "column_one_based": 1704,
+      "line_one_based": 17,
+      "normalized_span_zero_based_half_open": [
+        829,
+        830
+      ],
+      "utf8_byte_span_zero_based_half_open": [
+        2114,
+        2115
+      ]
+    },
+    {
+      "character_span_zero_based_half_open": [
+        2174,
+        2175
+      ],
+      "column_one_based": 1764,
+      "line_one_based": 17,
+      "normalized_span_zero_based_half_open": [
+        859,
+        860
+      ],
+      "utf8_byte_span_zero_based_half_open": [
+        2174,
+        2175
+      ]
+    }
+  ]
+}

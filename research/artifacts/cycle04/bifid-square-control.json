@@ -1,0 +1,59 @@
+{
+  "elapsed_seconds": 2.745,
+  "id": "C04-BIFID-SQUARE-CONTROL",
+  "matches": [
+    {
+      "is_exact_source_key": false,
+      "output_prefix": "btcseeddbybwehea",
+      "output_sha256": "98b296a2b48321c0760acb6e133782e40bd07e5879eb832fd3257d129ecc5642",
+      "square": "dbifgcehaklmnopqrstuvwxyz"
+    },
+    {
+      "is_exact_source_key": true,
+      "output_prefix": "btcseeddeoemckea",
+      "output_sha256": "15d62c8228c1a30f3f6280fcdce2251fe616135e9de291b0c7b8a792dd8d0507",
+      "square": "dbifhcegaklmnopqrstuvwxyz"
+    },
+    {
+      "is_exact_source_key": false,
+      "output_prefix": "btcseedddocmbkbf",
+      "output_sha256": "fd1571167c56934a2aeff6e694e543f9a2fcd4c6423ebf25ebcc47a555e3103a",
+      "square": "dcgahbeifklmnopqrstuvwxyz"
+    },
+    {
+      "is_exact_source_key": false,
+      "output_prefix": "btcseedddycwbibf",
+      "output_sha256": "f3f5069db983ff159f624f97194057f4f1ec5d7c2d9f28cdb7277cea469d3fc5",
+      "square": "dchagbeifklmnopqrstuvwxyz"
+    },
+    {
+      "is_exact_source_key": false,
+      "output_prefix": "btcseeddbyevbibf",
+      "output_sha256": "7216cf150cecd2cc24ecb46c7298bd320c7624f796d3f862051e0ebceac16c23",
+      "square": "ebifgcdhaklmnopqrstuvwxyz"
+    },
+    {
+      "is_exact_source_key": false,
+      "output_prefix": "btcseedddoclehbf",
+      "output_sha256": "6e232c7d45e854041edf877f69150b28604655c362544b07d21c08a7142706ec",
+      "square": "ebifhcdgaklmnopqrstuvwxyz"
+    },
+    {
+      "is_exact_source_key": false,
+      "output_prefix": "btcseeddeoelehea",
+      "output_sha256": "3e913d41b9b3e2b3ba278764e3246d62fa9efc844ef9bafcc7cb616f9af13e84",
+      "square": "ecgahbdifklmnopqrstuvwxyz"
+    },
+    {
+      "is_exact_source_key": false,
+      "output_prefix": "btcseeddeyevehea",
+      "output_sha256": "6c468432a9f67900f192e27ee26c541bc98ce6d63c6ea7eeb9df9ae98b0f41e4",
+      "square": "echagbdifklmnopqrstuvwxyz"
+    }
+  ],
+  "meaning": "Confirms count/derivation under this constrained square family only; not proof of intended cipher or final key. Square-selection frequency and shuffled-data null probabilities measure different conditional questions.",
+  "prefix_matches": 8,
+  "source_key_matches": 1,
+  "square_prefixes_tested": 362880,
+  "status": "CONFIRMED"
+}

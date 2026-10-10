@@ -1,0 +1,15 @@
+{
+  "aes_trials": 5184,
+  "candidate_set_sha256": "d7b03e1da765226abe04fa66f2c6191114556a7dd9a10b7a8ce869afc87564e3",
+  "elapsed_seconds": 0.232,
+  "id": "C05-LITERAL-SUMLIST",
+  "ledger_sha256": "8f2235e32c0733ac3bbb91a3e16b8407757cbe78ec78a5ba0a3b034d192385da",
+  "max_hit_printable_ratio": 0.493671,
+  "padding_hits": 17,
+  "plan": "research/artifacts/cycle04/next-literal-sumlist-plan.json",
+  "result": "Literal image-axis sums and exact words before choice as passphrase material supplies no recognized structure or scoped target match; finite negative only",
+  "status": "INCONCLUSIVE",
+  "structure_hits": 0,
+  "target_matches": 0,
+  "unique_passwords": 864
+}

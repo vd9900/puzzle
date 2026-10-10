@@ -1,0 +1,720 @@
+{
+  "assumptions": [
+    "Compare fixed public notation only, without solving earlier riddles again",
+    "Local source roles and secondary exegesis remain distinct",
+    "Explicit local domains are stronger evidence than numeral coincidence"
+  ],
+  "confidence": "HIGH exact local syntax/source identity; UNKNOWN complete intended construction",
+  "contradictions": [
+    "Same numbers and braces do not supply one semantic namespace",
+    "The earlier local seven-part domain does not define21",
+    "Secondary list numbering cannot be promoted to primary index instructions",
+    "Current source lacks the earlier explicit arrows/domain/consumer syntax"
+  ],
+  "date": "2026-10-01",
+  "door_reference_reused_not_retested": {
+    "date_correspondence_does_not_bind_consumer": true,
+    "groups": [
+      {
+        "character_span_zero_based_half_open": [
+          18470,
+          18474
+        ],
+        "column_one_based": 39,
+        "interior": "1 ",
+        "line_one_based": 534,
+        "literal": "{1 }",
+        "numeric_value": 1,
+        "utf8_byte_span_zero_based_half_open": [
+          18619,
+          18623
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          18475,
+          18478
+        ],
+        "column_one_based": 44,
+        "interior": "4",
+        "line_one_based": 534,
+        "literal": "{4}",
+        "numeric_value": 4,
+        "utf8_byte_span_zero_based_half_open": [
+          18624,
+          18627
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          18480,
+          18484
+        ],
+        "column_one_based": 49,
+        "interior": "21",
+        "line_one_based": 534,
+        "literal": "{21}",
+        "numeric_value": 21,
+        "utf8_byte_span_zero_based_half_open": [
+          18629,
+          18633
+        ]
+      }
+    ],
+    "source": {
+      "path": "research/artifacts/cycle17/door-reference-audit.json",
+      "sha256": "d3fc3ac04aa188e537095bf02691ce9fa30dbe2e44dc6635e42aa6c801031c9f"
+    }
+  },
+  "hypotheses": [
+    {
+      "assumptions": [
+        "Explicit parts1..7 consumer defines the local domain",
+        "Reused1 in Phase3 starts a separate context"
+      ],
+      "confidence": "HIGH local phase2 domain; MEDIUM phase3 lexical role",
+      "contradictions": [
+        "Implicit cross-stage references may exist without explicit namespace",
+        "Secondary riddle numbering is not primary syntax",
+        "Local slots do not define the door's three brace roles"
+      ],
+      "hypothesis": "Earlier numeric prefixes denote local riddle/answer parts rather than one global object-index namespace",
+      "id": "C18-NUMBER-LOCAL-SLOTS",
+      "input": "Preserved public earlier riddle text and frozen door-hint source maps",
+      "next_test": "Map the exact local arrows and normalization tags in earlier source templates, then compare what operands/consumers those templates explicitly specify versus the unresolved current instruction fragments; no normalization enumeration",
+      "operation_order": [
+        "map fixed earlier ordinal/brace syntax",
+        "identify explicit local domain and consumer",
+        "compare only declared namespace interpretation",
+        "require authored bridge before assigning door numbers"
+      ],
+      "output": "A grammatical namespace constraint, not selected object values or new trial text",
+      "source_evidence": [
+        {
+          "path": "research/sources/phase2.html",
+          "sha256": "06fbd4461ab20d45c54a7053c7c0cfa256ba82a5ad4c73a47fac67f3f1cdf7d9"
+        },
+        {
+          "path": "research/artifacts/phase2.txt",
+          "sha256": "e2f9dd65604a3231f8b3301724e8d713a88fffc4b6c7c4aeeb20f58a582b593a"
+        },
+        {
+          "path": "research/artifacts/phase3.txt",
+          "sha256": "c4ad94559a44a927c1032cc0e024515f9510a0806a2d14458dbf4a360af9865f"
+        },
+        {
+          "path": "research/sources/maintained-phase2-assets__phase2.1.txt",
+          "sha256": "e2f9dd65604a3231f8b3301724e8d713a88fffc4b6c7c4aeeb20f58a582b593a"
+        },
+        {
+          "path": "research/sources/maintained-phase2-assets__phase3.txt",
+          "sha256": "c4ad94559a44a927c1032cc0e024515f9510a0806a2d14458dbf4a360af9865f"
+        },
+        {
+          "path": "research/sources/community-README.md",
+          "sha256": "442270a145641d6f75337bf0e12338889d22f029dc613d13f0a4d651875dae6a"
+        },
+        {
+          "path": "research/artifacts/cycle17/door-reference-audit.json",
+          "sha256": "d3fc3ac04aa188e537095bf02691ce9fa30dbe2e44dc6635e42aa6c801031c9f"
+        }
+      ],
+      "source_locations": [
+        "research/sources/phase2.html:18",
+        "research/sources/phase2.html:42",
+        "research/artifacts/phase2.txt:1",
+        "research/artifacts/phase2.txt:2",
+        "research/artifacts/phase3.txt:1",
+        "research/artifacts/phase3.txt:5",
+        "research/sources/community-README.md:123",
+        "research/sources/community-README.md:262"
+      ],
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "assumptions": [
+        "Original media-reference braces are a valid notation counterexample",
+        "Shared delimiters do not force shared semantic types"
+      ],
+      "confidence": "HIGH exact syntax distinction; UNKNOWN intended door role",
+      "contradictions": [
+        "The numeric door braces may still imply a distinct selector grammar",
+        "No source-owned type conversion between media reference and numeric groups",
+        "No grammatical rule equates braces to coordinates or dates"
+      ],
+      "hypothesis": "Brace punctuation groups heterogeneous references and does not alone specify coordinate/index operations",
+      "id": "C18-BRACES-REFERENCE-TYPE",
+      "input": "Preserved public earlier riddle text and frozen door-hint source maps",
+      "next_test": "Map the exact local arrows and normalization tags in earlier source templates, then compare what operands/consumers those templates explicitly specify versus the unresolved current instruction fragments; no normalization enumeration",
+      "operation_order": [
+        "map fixed earlier ordinal/brace syntax",
+        "identify explicit local domain and consumer",
+        "compare only declared namespace interpretation",
+        "require authored bridge before assigning door numbers"
+      ],
+      "output": "A grammatical namespace constraint, not selected object values or new trial text",
+      "source_evidence": [
+        {
+          "path": "research/sources/phase2.html",
+          "sha256": "06fbd4461ab20d45c54a7053c7c0cfa256ba82a5ad4c73a47fac67f3f1cdf7d9"
+        },
+        {
+          "path": "research/artifacts/phase2.txt",
+          "sha256": "e2f9dd65604a3231f8b3301724e8d713a88fffc4b6c7c4aeeb20f58a582b593a"
+        },
+        {
+          "path": "research/artifacts/phase3.txt",
+          "sha256": "c4ad94559a44a927c1032cc0e024515f9510a0806a2d14458dbf4a360af9865f"
+        },
+        {
+          "path": "research/sources/maintained-phase2-assets__phase2.1.txt",
+          "sha256": "e2f9dd65604a3231f8b3301724e8d713a88fffc4b6c7c4aeeb20f58a582b593a"
+        },
+        {
+          "path": "research/sources/maintained-phase2-assets__phase3.txt",
+          "sha256": "c4ad94559a44a927c1032cc0e024515f9510a0806a2d14458dbf4a360af9865f"
+        },
+        {
+          "path": "research/sources/community-README.md",
+          "sha256": "442270a145641d6f75337bf0e12338889d22f029dc613d13f0a4d651875dae6a"
+        },
+        {
+          "path": "research/artifacts/cycle17/door-reference-audit.json",
+          "sha256": "d3fc3ac04aa188e537095bf02691ce9fa30dbe2e44dc6635e42aa6c801031c9f"
+        }
+      ],
+      "source_locations": [
+        "research/sources/phase2.html:18",
+        "research/sources/phase2.html:42",
+        "research/artifacts/phase2.txt:1",
+        "research/artifacts/phase2.txt:2",
+        "research/artifacts/phase3.txt:1",
+        "research/artifacts/phase3.txt:5",
+        "research/sources/community-README.md:123",
+        "research/sources/community-README.md:262"
+      ],
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "assumptions": [
+        "Creator expects earlier numeric labels to be remembered",
+        "A separate instruction defines how three brace components select objects"
+      ],
+      "confidence": "LOW without explicit namespace",
+      "contradictions": [
+        "Phase2 explicitly has seven local parts, not21",
+        "Phase3 reuses1 and has a separate numbered/un-numbered riddle layout",
+        "No arrow or shared namespace links prior ordinal slots to door braces"
+      ],
+      "hypothesis": "Door1/4/21 may reuse an implicit stage/object namespace only if another source fixes the domain and components",
+      "id": "C18-NUMBER-CROSS-STAGE",
+      "input": "Preserved public earlier riddle text and frozen door-hint source maps",
+      "next_test": "Map the exact local arrows and normalization tags in earlier source templates, then compare what operands/consumers those templates explicitly specify versus the unresolved current instruction fragments; no normalization enumeration",
+      "operation_order": [
+        "map fixed earlier ordinal/brace syntax",
+        "identify explicit local domain and consumer",
+        "compare only declared namespace interpretation",
+        "require authored bridge before assigning door numbers"
+      ],
+      "output": "A grammatical namespace constraint, not selected object values or new trial text",
+      "source_evidence": [
+        {
+          "path": "research/sources/phase2.html",
+          "sha256": "06fbd4461ab20d45c54a7053c7c0cfa256ba82a5ad4c73a47fac67f3f1cdf7d9"
+        },
+        {
+          "path": "research/artifacts/phase2.txt",
+          "sha256": "e2f9dd65604a3231f8b3301724e8d713a88fffc4b6c7c4aeeb20f58a582b593a"
+        },
+        {
+          "path": "research/artifacts/phase3.txt",
+          "sha256": "c4ad94559a44a927c1032cc0e024515f9510a0806a2d14458dbf4a360af9865f"
+        },
+        {
+          "path": "research/sources/maintained-phase2-assets__phase2.1.txt",
+          "sha256": "e2f9dd65604a3231f8b3301724e8d713a88fffc4b6c7c4aeeb20f58a582b593a"
+        },
+        {
+          "path": "research/sources/maintained-phase2-assets__phase3.txt",
+          "sha256": "c4ad94559a44a927c1032cc0e024515f9510a0806a2d14458dbf4a360af9865f"
+        },
+        {
+          "path": "research/sources/community-README.md",
+          "sha256": "442270a145641d6f75337bf0e12338889d22f029dc613d13f0a4d651875dae6a"
+        },
+        {
+          "path": "research/artifacts/cycle17/door-reference-audit.json",
+          "sha256": "d3fc3ac04aa188e537095bf02691ce9fa30dbe2e44dc6635e42aa6c801031c9f"
+        }
+      ],
+      "source_locations": [
+        "research/sources/phase2.html:18",
+        "research/sources/phase2.html:42",
+        "research/artifacts/phase2.txt:1",
+        "research/artifacts/phase2.txt:2",
+        "research/artifacts/phase3.txt:1",
+        "research/artifacts/phase3.txt:5",
+        "research/sources/community-README.md:123",
+        "research/sources/community-README.md:262"
+      ],
+      "status": "INCONCLUSIVE"
+    }
+  ],
+  "hypothesis": "Earlier numeric-name and brace notation supplies a shared authored namespace for the door groups1/4/21",
+  "id": "C18-NOTATION-NAMESPACE",
+  "input": "Earlier public source/plaintext notation and preserved door text",
+  "namespaces": {
+    "braces_are_used_for_media_reference_not_only_numeric_indices": true,
+    "earlier_symbol_numeral_sequence_has_distinct_syntax": true,
+    "no_existing_historical_riddle_answer_recomputed": true,
+    "phase2_explicit_domain": "parts1..7 local to the Phase3-entry construction",
+    "phase3_middle_riddle_is_not_literally_numbered2": true,
+    "phase3_reuses_ordinal1_in_a_new_riddle_context": true,
+    "primary_source_maps": [
+      {
+        "character_span_zero_based_half_open": [
+          615,
+          642
+        ],
+        "column_one_based": 139,
+        "line_one_based": 18,
+        "literal": "It'll grant the first part.",
+        "role": "LOCAL_ANSWER_PART",
+        "source": {
+          "path": "research/sources/phase2.html",
+          "sha256": "06fbd4461ab20d45c54a7053c7c0cfa256ba82a5ad4c73a47fac67f3f1cdf7d9"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          615,
+          642
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          3419,
+          3487
+        ],
+        "column_one_based": 4,
+        "line_one_based": 42,
+        "literal": "--> parts 1..7 --> sha-256 -> dgst is the password to enter Phase 3.",
+        "role": "EXPLICIT_LOCAL_ORDER_AND_CONSUMER",
+        "source": {
+          "path": "research/sources/phase2.html",
+          "sha256": "06fbd4461ab20d45c54a7053c7c0cfa256ba82a5ad4c73a47fac67f3f1cdf7d9"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          3421,
+          3489
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          11,
+          16
+        ],
+        "column_one_based": 12,
+        "line_one_based": 1,
+        "literal": "2name",
+        "role": "LOCAL_NUMBERED_RIDDLE",
+        "source": {
+          "path": "research/artifacts/phase2.txt",
+          "sha256": "e2f9dd65604a3231f8b3301724e8d713a88fffc4b6c7c4aeeb20f58a582b593a"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          11,
+          16
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          340,
+          345
+        ],
+        "column_one_based": 341,
+        "line_one_based": 1,
+        "literal": "3Moon",
+        "role": "LOCAL_NUMBERED_RIDDLE",
+        "source": {
+          "path": "research/artifacts/phase2.txt",
+          "sha256": "e2f9dd65604a3231f8b3301724e8d713a88fffc4b6c7c4aeeb20f58a582b593a"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          340,
+          345
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          356,
+          360
+        ],
+        "column_one_based": 357,
+        "line_one_based": 1,
+        "literal": "4How",
+        "role": "LOCAL_NUMBERED_RIDDLE",
+        "source": {
+          "path": "research/artifacts/phase2.txt",
+          "sha256": "e2f9dd65604a3231f8b3301724e8d713a88fffc4b6c7c4aeeb20f58a582b593a"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          356,
+          360
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          371,
+          395
+        ],
+        "column_one_based": 1,
+        "line_one_based": 2,
+        "literal": "# X 2 S H 4 Y 0 Q B 15 #",
+        "role": "DISTINCT_SYMBOL_NUMERAL_SEQUENCE",
+        "source": {
+          "path": "research/artifacts/phase2.txt",
+          "sha256": "e2f9dd65604a3231f8b3301724e8d713a88fffc4b6c7c4aeeb20f58a582b593a"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          371,
+          395
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          197,
+          293
+        ],
+        "column_one_based": 198,
+        "line_one_based": 1,
+        "literal": "{eps3.4_[in one of the valleys of Phillip]runtime-error.r00., where daughters hit magic keypads}",
+        "role": "BRACED_MEDIA_REFERENCE",
+        "source": {
+          "path": "research/artifacts/phase2.txt",
+          "sha256": "e2f9dd65604a3231f8b3301724e8d713a88fffc4b6c7c4aeeb20f58a582b593a"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          197,
+          293
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          141,
+          146
+        ],
+        "column_one_based": 142,
+        "line_one_based": 1,
+        "literal": "1name",
+        "role": "LOCAL_NUMBERED_RIDDLE",
+        "source": {
+          "path": "research/artifacts/phase3.txt",
+          "sha256": "c4ad94559a44a927c1032cc0e024515f9510a0806a2d14458dbf4a360af9865f"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          141,
+          146
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          527,
+          532
+        ],
+        "column_one_based": 1,
+        "line_one_based": 5,
+        "literal": "3.The",
+        "role": "LOCAL_NUMBERED_RIDDLE",
+        "source": {
+          "path": "research/artifacts/phase3.txt",
+          "sha256": "c4ad94559a44a927c1032cc0e024515f9510a0806a2d14458dbf4a360af9865f"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          527,
+          532
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          296,
+          324
+        ],
+        "column_one_based": 1,
+        "line_one_based": 3,
+        "literal": "I just passed a cheshire cat",
+        "role": "UNNUMBERED_INTERVENING_RIDDLE",
+        "source": {
+          "path": "research/artifacts/phase3.txt",
+          "sha256": "c4ad94559a44a927c1032cc0e024515f9510a0806a2d14458dbf4a360af9865f"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          296,
+          324
+        ]
+      }
+    ],
+    "secondary_interpretation_maps": [
+      {
+        "character_span_zero_based_half_open": [
+          4703,
+          4753
+        ],
+        "column_one_based": 1,
+        "line_one_based": 123,
+        "literal": "Using the other hints (2name, 3Moon, 4How so mate)",
+        "role": "SECONDARY_LOCAL_PART_INTERPRETATION",
+        "source": {
+          "path": "research/sources/community-README.md",
+          "sha256": "442270a145641d6f75337bf0e12338889d22f029dc613d13f0a4d651875dae6a"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          4703,
+          4753
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          4962,
+          5034
+        ],
+        "column_one_based": 260,
+        "line_one_based": 123,
+        "literal": "The password is a concatenation of 7 parts. The first part is causality.",
+        "role": "SECONDARY_LOCAL_PART_INTERPRETATION",
+        "source": {
+          "path": "research/sources/community-README.md",
+          "sha256": "442270a145641d6f75337bf0e12338889d22f029dc613d13f0a4d651875dae6a"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          4962,
+          5034
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          12601,
+          12624
+        ],
+        "column_one_based": 1,
+        "line_one_based": 262,
+        "literal": "1. Jacque Fresco quote:",
+        "role": "SECONDARY_LOCAL_PART_INTERPRETATION",
+        "source": {
+          "path": "research/sources/community-README.md",
+          "sha256": "442270a145641d6f75337bf0e12338889d22f029dc613d13f0a4d651875dae6a"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          12603,
+          12626
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          12773,
+          12803
+        ],
+        "column_one_based": 1,
+        "line_one_based": 263,
+        "literal": "2. Alice: How long is forever?",
+        "role": "SECONDARY_LOCAL_PART_INTERPRETATION",
+        "source": {
+          "path": "research/sources/community-README.md",
+          "sha256": "442270a145641d6f75337bf0e12338889d22f029dc613d13f0a4d651875dae6a"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          12775,
+          12805
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          12846,
+          12881
+        ],
+        "column_one_based": 1,
+        "line_one_based": 264,
+        "literal": "3. Heisenberg uncertainty principle",
+        "role": "SECONDARY_LOCAL_PART_INTERPRETATION",
+        "source": {
+          "path": "research/sources/community-README.md",
+          "sha256": "442270a145641d6f75337bf0e12338889d22f029dc613d13f0a4d651875dae6a"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          12848,
+          12883
+        ]
+      }
+    ],
+    "shared_global_object_numbering_not_authored": true
+  },
+  "new_cryptographic_trials": 0,
+  "new_trial_inputs": 0,
+  "next_test": "Perform one fixed instruction-template comparison of explicit earlier part arrows and casing/connection tags against the current matrixsumlist/lastwords/thispassword/SHA fragments. Separate preserved source spelling, local decoder normalization and final input formatting; require an authored argument/consumer bridge rather than generating variants.",
+  "normalization_notation": {
+    "aa_and_aaa_literal_lengths_do_not_define_character_selection_counts": true,
+    "connected_not_enf_is_explicitly_distinct_from_connected_enf": true,
+    "no_new_normalized_trial_text_generated": true,
+    "same_tag_family_allows_different_local_formats": true,
+    "source_maps": [
+      {
+        "character_span_zero_based_half_open": [
+          643,
+          664
+        ],
+        "column_one_based": 167,
+        "line_one_based": 18,
+        "literal": "/(aaa, connected enf)",
+        "source": {
+          "path": "research/sources/phase2.html",
+          "sha256": "06fbd4461ab20d45c54a7053c7c0cfa256ba82a5ad4c73a47fac67f3f1cdf7d9"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          643,
+          664
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          3212,
+          3233
+        ],
+        "column_one_based": 4,
+        "line_one_based": 38,
+        "literal": "/(aBa, connected enf)",
+        "source": {
+          "path": "research/sources/phase2.html",
+          "sha256": "06fbd4461ab20d45c54a7053c7c0cfa256ba82a5ad4c73a47fac67f3f1cdf7d9"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          3214,
+          3235
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          3386,
+          3411
+        ],
+        "column_one_based": 4,
+        "line_one_based": 41,
+        "literal": "/(aBa, connected not enf)",
+        "source": {
+          "path": "research/sources/phase2.html",
+          "sha256": "06fbd4461ab20d45c54a7053c7c0cfa256ba82a5ad4c73a47fac67f3f1cdf7d9"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          3388,
+          3413
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          273,
+          292
+        ],
+        "column_one_based": 274,
+        "line_one_based": 1,
+        "literal": "/(aa,connected enf)",
+        "source": {
+          "path": "research/artifacts/phase3.txt",
+          "sha256": "c4ad94559a44a927c1032cc0e024515f9510a0806a2d14458dbf4a360af9865f"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          273,
+          292
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          504,
+          523
+        ],
+        "column_one_based": 209,
+        "line_one_based": 3,
+        "literal": "/(aa,connected enf)",
+        "source": {
+          "path": "research/artifacts/phase3.txt",
+          "sha256": "c4ad94559a44a927c1032cc0e024515f9510a0806a2d14458dbf4a360af9865f"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          504,
+          523
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          626,
+          645
+        ],
+        "column_one_based": 100,
+        "line_one_based": 5,
+        "literal": "/(aa,connected enf)",
+        "source": {
+          "path": "research/artifacts/phase3.txt",
+          "sha256": "c4ad94559a44a927c1032cc0e024515f9510a0806a2d14458dbf4a360af9865f"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          626,
+          645
+        ]
+      }
+    ]
+  },
+  "operation_order": [
+    "validate frozen namespace task",
+    "verify two plaintext/archive byte identities",
+    "map ten primary and five secondary anchors",
+    "map six formatting tag occurrences",
+    "compare three namespace hypotheses without extraction"
+  ],
+  "output": "Exact source maps, local namespace and heterogeneous brace counterexamples",
+  "result": "Explicit Phase2 parts1..7 arrows bind a local answer-domain and named Phase3-entry consumer. Phase3 reuses ordinal1 in a different riddle context; its middle riddle is unnumbered in primary text. Earlier braces enclose a media-reference expression, not just numeric indices. These fixed examples do not define a global object numbering or bridge to door1/4/21. Formatting tag variations are local, not extraction counts. No object/route/normalization trial generated.",
+  "search_space": {
+    "finite_namespace_hypotheses": 3,
+    "format_tag_occurrences": 6,
+    "new_object_index_trials": 0,
+    "primary_fixed_anchors": 10,
+    "secondary_exact_anchors": 5,
+    "verified_archive_fixture_pairs": 2
+  },
+  "source_evidence": [
+    {
+      "path": "research/sources/phase2.html",
+      "sha256": "06fbd4461ab20d45c54a7053c7c0cfa256ba82a5ad4c73a47fac67f3f1cdf7d9"
+    },
+    {
+      "path": "research/artifacts/phase2.txt",
+      "sha256": "e2f9dd65604a3231f8b3301724e8d713a88fffc4b6c7c4aeeb20f58a582b593a"
+    },
+    {
+      "path": "research/artifacts/phase3.txt",
+      "sha256": "c4ad94559a44a927c1032cc0e024515f9510a0806a2d14458dbf4a360af9865f"
+    },
+    {
+      "path": "research/sources/maintained-phase2-assets__phase2.1.txt",
+      "sha256": "e2f9dd65604a3231f8b3301724e8d713a88fffc4b6c7c4aeeb20f58a582b593a"
+    },
+    {
+      "path": "research/sources/maintained-phase2-assets__phase3.txt",
+      "sha256": "c4ad94559a44a927c1032cc0e024515f9510a0806a2d14458dbf4a360af9865f"
+    },
+    {
+      "path": "research/sources/community-README.md",
+      "sha256": "442270a145641d6f75337bf0e12338889d22f029dc613d13f0a4d651875dae6a"
+    },
+    {
+      "path": "research/artifacts/cycle17/door-reference-audit.json",
+      "sha256": "d3fc3ac04aa188e537095bf02691ce9fa30dbe2e44dc6635e42aa6c801031c9f"
+    }
+  ],
+  "source_locations": [
+    "research/sources/phase2.html:18",
+    "research/sources/phase2.html:42",
+    "research/artifacts/phase2.txt:1",
+    "research/artifacts/phase2.txt:2",
+    "research/artifacts/phase3.txt:1",
+    "research/artifacts/phase3.txt:5",
+    "research/sources/community-README.md:123",
+    "research/sources/community-README.md:262"
+  ],
+  "status": "INCONCLUSIVE"
+}

@@ -1,0 +1,16 @@
+{
+  "TARGET_MATCH": false,
+  "aes_trials": 3456,
+  "bounded_raw_key_slots": 352,
+  "elapsed_seconds": 0.589,
+  "id": "C06-MISSING-CELL",
+  "ledger_sha256": "76092dfc8cfaa885ce8c76a11cc48c38054a6a14ee6fcf5208f5430b1f9645d2",
+  "max_hit_printable_ratio": 0.468354,
+  "padding_hits": 13,
+  "qualifying_small_blob_hits": 11,
+  "result": "The anomaly-hole/axis-sum password family has no exact scoped target; padding and structure filters are not a creator-intent proof",
+  "secret_logging": "No password, AES key/IV, scalar, plaintext byte sequence or candidate address is stored; all source material regenerates locally",
+  "status": "INCONCLUSIVE",
+  "structure_hits": 0,
+  "unique_passwords": 576
+}

@@ -1,0 +1,52 @@
+{
+  "candidate_fingerprints": [
+    "164ec8b041ccb0687981d466c18e1c67bb6b31a7d831a4a5418e76a4e8399129",
+    "5836776e074b009bdb8d7d4a8990f645becfa7f2ca8b5e726bdf9111bdc51b61",
+    "b7f9ef7896b6901f39906409af3cfadf383caddad764e207232a6aae0788f893"
+  ],
+  "estimated_crypto_seconds": 0.0004,
+  "estimated_raw_key_slots_upper_bound": 384,
+  "hypothesis": "Prime marker removal is a Bifid keyword preparation step, rather than treating unmodified dbbi as the keyword",
+  "id": "C08-RESIDUAL-BIFID",
+  "invariant": "Both documented prime branches yield the same source-derived square; full-period decryption re-encodes to unchanged faed; exact local target or independently justified next-stage structure is required",
+  "justification": "The original dbbi keyword yielded a nonverified btcseed prefix, while its independently structured prime extraction yields a60-letter residual. Testing only that residual as the same existing Bifid keyword connects these clues without free alphabets or new ciphers. This does not establish that the residual is an AES answer; loss of the prefix is recorded rather than optimized away",
+  "limits": "Exact frozen source-derived family only; no network, production transactions, repeated prior candidate trials, new cipher families or free permutations",
+  "raw_key_slots_estimate_note": "Worst case if all four small-blob/KDF trials pass padding; actual qualifying slots measured after decryption",
+  "search_space": {
+    "bifid_periods": [
+      570
+    ],
+    "distinct_source_keyed_squares": 1,
+    "forms": 1,
+    "kdf_digests": [
+      "md5",
+      "sha256"
+    ],
+    "new_aes_trials": 18,
+    "new_unique_passwords": 3,
+    "password_transforms": 3,
+    "planned_aes_trials": 18,
+    "previously_tested_passwords_skipped": 0,
+    "prime_branches": 2,
+    "targets": [
+      "phase32-inner",
+      "salphaseion-small",
+      "cosmic-duality"
+    ],
+    "unique_passwords": 3
+  },
+  "source_evidence": [
+    {
+      "locator": null,
+      "path": "research/artifacts/cycle08/residual-bifid-frozen-plan.json",
+      "sha256": "bec95f9e1272ba219e1c62d02793999be36e0da6af4445016c4da58fb3d14d7c"
+    },
+    {
+      "locator": null,
+      "path": "research/artifacts/cycle07/cumulative-aes-audit.json",
+      "sha256": "b006deca91efa7b79f08d76d063d8f07ae2b21f5f186002b0525314314f64727"
+    }
+  ],
+  "status": "UNTESTED",
+  "verification_policy": "Only local Boolean target results; a positive target gate is independently verified before any result is saved. No key/password/IV/plaintext bytes or candidate addresses are written by this runner."
+}

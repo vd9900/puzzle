@@ -1,0 +1,183 @@
+#!/usr/bin/env python3
+# Generates cands_chunk02.txt / cands_chunk02_doors.txt from Telegram chunk02 (2023-08-06 .. 2023-09-04).
+import hashlib, sys
+sys.path.insert(0, '/home/vin/bitcoin_puzzle/scratch')
+from common import DBBI, FAED
+
+def sha(s): return hashlib.sha256(s.encode()).hexdigest()
+A = 'abcdefghijklmnopqrstuvwxyz'
+def beaufort(p, k):  # C = K - P
+    return ''.join(A[(A.index(k[i % len(k)]) - A.index(c)) % 26] for i, c in enumerate(p))
+def beaufort_var(p, k):  # C = P - K
+    return ''.join(A[(A.index(c) - A.index(k[i % len(k)])) % 26] for i, c in enumerate(p))
+def vig(p, k):
+    return ''.join(A[(A.index(c) + A.index(k[i % len(k)])) % 26] for i, c in enumerate(p))
+
+HINT = 'yellowblueprimesmatrixsumlistlastwordsbeforearchichoiceyinyangwewontgiveawaythepassworditsinfrontofyoureyesbutyourenotseeingitverylaststepisatruegiveawaypromised'
+HINT_SP = 'yellow blue prime s matrix sum list last words before archi choice yin yang we wont give away the password its in front of your eyes but youre not seeing it very last step is a true give away promised'
+
+C = []
+def add(*xs):
+    for x in xs:
+        x = x.rstrip('\n')
+        if x and x not in C: C.append(x)
+
+# --- creator statements (chunk02) used verbatim / as tokens
+add('ying yang', 'yingyang', 'yin yang', 'yinyang', 'yinandyang', 'yingandyang', 'yin-yang', 'ying-yang', 'yinyangyingyang', 'yingyangyinyang',
+    'Once you hit a "ying yang", you\'ll be able to solve it the same day.', 'onceyouhitayingyang', 'youllbeabletosolveitthesameday', 'thesameday', 'sameday',
+    'be careful of what you get yourselves into', 'becarefulofwhatyougetyourselvesinto', 'Oh, and be careful of what you get yourselves into.',
+    'The puzzle talks for me.', 'thepuzzletalksforme', "I'll not explain why.", 'illnotexplainwhy', 'You know if you know.', 'youknowifyouknow',
+    'Yes and No.', 'yesandno', 'No hints', 'nohints', 'no hints', 'Not at all.', 'notatall', 'Both?', 'both', 'No need. You have all the info.', 'youhavealltheinfo',
+    'My hat off to you, and you know why', 'myhatofftoyou', 'Only fair ones. And to everyone.', 'onlyfairones', 'Something was solved rather... remarkable.',
+    'somethingwassolvedratherremarkable', 'remarkable', 'Partly.', 'partly', "I won't!", 'iwont', 'I have no clue.', 'ihavenoclue', 'In the eye of the beholder, for sure',
+    'intheeyeofthebeholder', "It wasn't cryptic enough before?", 'Ciao!', 'Ciao', 'ciao', '24h Killswitch', 'killswitch', '24hkillswitch',
+    'you\'ll need the internet to claim the prize in the end', 'the last scene of mr. Robot', 'thelastsceneofmrrobot', 'mrrobot', 'Technically my friends and family can get to all my data if they\'d work together.',
+    'friendsandfamily', 'halvingoftheprice', 'itwasniceknowingyouall', 'it was nice knowing you all', 'obstacle parc', 'France')
+# --- Aug-5 creator hint (quoted throughout chunk02) and decompositions proposed in chat
+add(HINT, HINT_SP, HINT[::-1], HINT_SP[::-1], 'yellow blue primes', 'yellowblueprimes', 'yellowblueprime', 'yellow blue prime', 'yellow blue prime s', 'yellowblueprimess',
+    'yellow prime', 'blue prime', 'yellowprime', 'blueprime', 'yellowprimeblueprime', 'blueprimeyellowprime', 'Yellow prime and Blue prime', 'yellowandblueprimes', 'yellowbluegreenprime', 'yellowbluegreenredprime',
+    'yellowblueprimesmatrixsumlist', 'matrixsumlistlastwordsbeforearchichoice', 'lastwordsbeforearchichoiceyinyang', 'yellowblueprimesmatrixsumlistlastwordsbeforearchichoice',
+    'yellowblueprimesmatrixsumlistlastwordsbeforearchichoiceyinyang', 'matrixsumlistlastwordsbeforearchichoiceyinyang',
+    'wewontgiveawaythepassworditsinfrontofyoureyesbutyourenotseeingitverylaststepisatruegiveawaypromised',
+    'wewontgiveawaythepassword', 'itsinfrontofyoureyesbutyourenotseeingit', 'its in front of your eyes but youre not seeing it', 'infrontofyoureyes', 'verylaststepisatruegiveawaypromised',
+    'atruegiveaway', 'truegiveaway', 'giveaway', 'give away', 'promised', 'yourenotseeingit', 'wewontgiveawaythepassworditsinfrontofyoureyes',
+    'yellowbluematrixbeforegiveawayfrontverysteptruegiveaway', 'yellow blue matrix before give away front very step true give away',
+    'yellow blue matrix before give away front very step true', 'yellowbluematrixbeforegiveawayfrontverysteptrue')
+# --- the Phase-3.2 speech / Architect lines explicitly proposed in chunk02 as lastwords/anstoo
+add('Which brings us at last to the moment of truth, wherein the fundamental flaw is ultimately expressed, and the anomaly revealed as both beginning, and end.',
+    'whichbringsusatlasttothemomentoftruthwhereinthefundamentalflawisultimatelyexpressedandtheanomalyrevealedasbothbeginningandend',
+    'the anomaly revealed as both beginning, and end', 'bothbeginningandend', 'beginningandend', 'themomentoftruth',
+    'There are two doors.', 'therearetwodoors', 'twodoors', 'The door to your right leads to the source, and the salvation of Zion.',
+    'thedoortoyourrightleadstothesourceandthesalvationofzion', 'The door to the left leads back to the matrix, to her, and to the end of your species.',
+    'thedoortotheleftleadsbacktothematrixtoherandtotheendofyourspecies', 'door to the left', 'doortotheleft', 'thedoortotheleft', 'the door to your left', 'thedoortoyourleft', 'leftdoor', 'theleftdoor',
+    'door to the right', 'doortotheright', 'thedoortoyourright', 'rightdoor', 'therightdoor', 'salvation of zion', 'salvationofzion', 'thesalvationofzion', 'salvation', 'zion', 'the source', 'thesource', 'source',
+    'to her', 'toher', 'her', 'theendofyourspecies', 'As you adequately put, the problem is choice.', 'theproblemischoice', 'the problem is choice', 'choice',
+    'she is going to die, and there is nothing that you can do to stop it', 'sheisgoingtodieandthereisnothingthatyoucandotostopit', 'sheisgoingtodie',
+    'Neo walks to the door on his left', 'neowalkstothedooronhisleft', 'Hope, it is the quintessential human delusion, simultaneously the source of your greatest strength, and your greatest weakness.',
+    'hopeitisthequintessentialhumandelusion', 'hope', 'Hope', 'quintessentialhumandelusion', 'thequintessentialhumandelusion',
+    "If I were you, I would hope that we don't meet again", 'ifiwereyouiwouldhopethatwedontmeetagain', "If I were you, I would hope that we don’t meet again",
+    'Apropos, she entered the matrix to save your life at the cost of her own.', 'sheenteredthematrixtosaveyourlifeatthecostofherown', 'enteredthematrix', 'apropos',
+    'Already I can see the chain reaction, the chemical precursors that signal the onset of emotion, designed specifically to overwhelm logic, and reason.',
+    'thechainreaction', 'Vis-a-vis, love.', 'visavislove', 'love', 'Quite right. Interesting. That was quicker than the others.', 'quiteright', 'quiterightinteresting',
+    'I have since come to understand that the answer eluded me because it required a lesser mind, or perhaps a mind less bound by the parameters of perfection.',
+    'alessermind', 'lessermind', 'amindlessboundbytheparametersofperfection', 'theparametersofperfection',
+    'The function of the One is now to return to the source, allowing a temporary dissemination of the code you carry, reinserting the prime program.',
+    'returntothesource', 'return to the source', 'returntothesourcecodes', 'thesourcecodes', 'sourcecodes', 'sourcecode', 'thecodeyoucarry', 'thecodeyouhopefullycarry', 'reinsertingtheprimeprogram',
+    'reinsertingtheprimebasics', 'theprimeprogram', 'primeprogram', 'Prime Program', 'theprimebasics', 'primebasics', 'prime basics', 'twentythreeciphers', 'sixteenencryptions', 'sevenintertwinedpasswords',
+    '23 individuals, 16 female, 7 male', '23167', '23 16 7', 'twentythreesixteenseven', 'rebuildzion', 'rebuild Zion', 'your life is the sum', 'yourlifeisthesum', 'thesumofaremainder', 'sumofaremainderofanunbalancedequation',
+    'remainder', 'unbalancedequation', 'sum', 'sumlist', 'sum list', 'matrix sum list', 'matrixsum', 'thesum', 'yoursumis', 'your sum is', 'anomaly', 'theanomaly', 'eventualityofananomaly',
+    'hundred fourty', 'hundredfourty', 'hundredforty', '140', 'worthhundredfourtyoftheinvestment', 'helpusbuildit', 'justhelpusbuildit', 'wiseman', 'thewiseman', 'whatawisemanabovehintedat',
+    'I EXPECT YOU TO SAY BULLSHIT', 'bullshit', 'denial', 'denialisthemostpredictableofallhumanresponses', 'Ciao Bella O', 'ciaobellao', 'ciao bella o', 'CiaoBellaO', 'bella ciao', 'bellaciao', 'o bella ciao', 'obellaciao',
+    'ciaobella', 'o bella ciao bella ciao bella ciao ciao ciao', 'obellaciaobellaciaobellaciaociaociao', 'adio', 'addio', 'una mattina mi son svegliato', 'unamattinamisonsvegliato', 'una mattina mi sono svegliato', 'unamattinamisonosvegliato',
+    'stamattina mi sono alzato', 'stamattinamisonoalzato', 'one morning I woke up', 'onemorningiwokeup', 'one morning I awakened', 'onemorningiawakened', 'one morning i awoke', 'onemorningiawoke', 'Bellaso', 'bellaso', 'bellasocipher',
+    'Giovan Battista Bellaso', 'giovanbattistabellaso', 'chaocipher', 'Chaocipher', 'in the worst gear', 'worstgear', 'reverse', 'reversed', 'backwards')
+# --- other community proposals (passwords / keys) in chunk02
+add('THEMATRIXHASYOU', 'thematrixhasyou', 'TheMatrixHasYou', 'THemaTriXhasYOU', 'The Matrix Has You', 'MATRIXHASYOU', 'matrixhasyou', 'THEMATRIXHASYOU.',
+    'TRINITY', 'trinity', 'Trinity', '7R1N17Y', 'Tr1n1ty', 'TR1N1TY', 'tr1n1ty', 'savetrinity', 'save trinity', 'savingtrinity', 'neoandtrinity', 'neo and trinity', 'neotrinity', 'trinityneo', 'trinityandneo', 'NeoTrinity', 'TrinityNeo',
+    'halfandbetterhalf', 'half and better half', 'betterhalf', 'better half', 'thebetterhalf', 'half', 'halfandbetterhalfandtheyalsoneedfundstolive', 'theyalsoneedfundstolive', 'they also need funds to live', 'fundstolive', 'wife', 'girlfriend', 'mywife', 'jrkswife',
+    'theoracle', 'oracle', 'Oracle', 'oraclequeen', 'fubcdking', 'fubcd-king', 'fubdking', 'thingkymvps', 'oracleyinyang', 'yinyangearrings', 'theoracleyinyang',
+    'Cheshire cat', 'cheshirecat', 'CheshireCat', 'cat', 'follow neo', 'followneo', 'neo', 'Neo', 'morpheus', 'Morpheus', 'samemove', 'same move', 'neoandmorpheus', 'neomorpheus', 'morpheusneo', 'neomorpheussamemove',
+    'computer matrix', 'computermatrix', 'cosmic duality', 'cosmicduality', 'CosmicDuality', 'cosmicduatili', 'cosmic dualism', 'cosmicdualism', 'duality', 'dualism', 'cosmic', 'O-0 i-1 69', '69', 'sixtynine',
+    'havefun', 'have fun', 'HaveFun', 'fun', 'absvolt', 'ABSVOLT', 'abs volt', 'absvolts', 'AbsVolt', 'Norton', 'norton', 'nortontheorem', "Norton's theorem", 'nortonstheorem', 'Thevenin', 'thevenin', 'thevenintheorem', "Thevenin's Theorem", 'theveninstheorem',
+    'Helmholtz', 'helmholtz', 'Hemholtz', 'nortonthevenin', 'theveninnorton', 'nortoncompetition', 'duality theorem', 'dualitytheorem', 'WhoAmI', 'whoami', 'who am i', 'Who am I', 'IAmNeo', 'iamneo',
+    '101', 'door101', 'room101', 'apartment101', 'onehundredone', 'oneohone', 'e', 'E', 'followthewhiterabbit', 'follow the white rabbit', 'Follow the White rabbit', 'FollowTheWhiteRabbit', 'whiterabbit', 'white rabbit', 'thewhiterabbit',
+    'rabbitsnest', 'rabbits nest', 'therabbitsnest', 'the rabbits nest', 'rabbit nest', 'the rabbits nest may contain a whole lot more', 'therabbitsnestmaycontainawholelotmore', 'awholelotmore', 'beware',
+    'our first hint is your last command', 'ourfirsthintisyourlastcommand', 'four first hint is your last command', 'fourfirsthintisyourlastcommand', 'shabefourfirsthintisyourlastcommand', 'shabef our first hint is your last command',
+    'your first hint is your last command', 'yourfirsthintisyourlastcommand', 'firsthint', 'first hint', 'lastcommand', 'last command', 'thefirsthint', 'shabef', 'shabefanstoo', 'shaBeFansToo', 'sha be fans too', 'befanstoo', 'be fans too', 'BeFansToo', 'fans', 'fanstoo',
+    'anstoo', 'AnsToo', 'ans too', 'answertoo', 'answer too', 'answer', 'theanswer', 'answers', 'enter', 'ENTER', 'Enter', 'entered', 'matrixsumlist', 'MatrixSumlist', 'MatrixSumList', 'matrix sumlist', 'MatrixSumlistAnsToo', 'MatrixSumlist AnsToo', 'matrixsumlistanstoo',
+    'MatrixSumlist\\nAnsToo', '26770c535632f626daefc0736dd4f85fd6126f647e6a160a2b58c51c0693d40f', 'lastwordsbeforearchichoice', 'LastWordsBeforeArchitectChoice', 'lastwordsbeforearchitectchoice', 'last words before architect choice',
+    'lastwordsbeforearchichoiceanstoo', 'lastwordsbeforearchichoicethispassword', 'thispassword', 'ThisPassword', 'this password', 'lastwordsbeforearchichoicethispasswordmatrixsumlistenter', 'matrixsumlistenterlastwordsbeforearchichoicethispassword',
+    'matrixsumlistenter', 'matrixsumlist enter', 'matrixsumlistanstoolastwordsbeforearchichoice',
+    'thejudgement', 'the judgement', 'TheJudgement', 'judgement', 'crypto', 'Crypto', 'givetit', 'giveit', 'get tit', 'gettit',
+    'X2SH4Y0QB15', 'x2sh4y0qb15', '#X2SH4Y0QB15#', '# X 2 S H 4 Y 0 Q B 15 #', 'X 2 S H 4 Y 0 Q B 15', '51BQ0Y4HS2X', '51B0Y4HS2X', 'X2SH', 'x2sh', 'X2SH4', 'doublesha', 'double sha', 'sha256sha256', 'X232H42Y0Q82B25', 'X232H42Y0Q82B-16', 'x2sh4y0qb15x2sh4y0qb15',
+    '51°52\'28.0"N 4°24\'23.2"E', '51 52 28.0 N 4 24 23.2 E', '515228042423', '51.8744444,4.4064444', '51.8744444 4.4064444', 'Columbusstraat 25', 'columbusstraat25', '3165 AC Rotterdam', 'Rotterdam', 'rotterdam', 'Albrandswaard', 'Safenet', 'safenet', 'SafeNet', 'Thales', 'thales', 'SafenetLunaHSM', 'safenetlunahsm',
+    'Executive Order 11110', 'executiveorder11110', '11110', 'eo11110', '0x11110', 'BV80605001911AP', 'bv80605001911ap',
+    'fefefe', 'FEFEFE', '#FEFEFE', '#fefefe', 'fefe', 'FEFE', '5,8', '5 8', '58', '85', 'x5y8', 'X5Y8', '(5,8)', 'row7col4', '7,4', '74', 'magicpixel', 'magic pixel', 'magicpix', 'themagicpixel', 'fffffe', 'FFFFFE', '16711422', 'nearwhite', 'offwhite',
+    'Simulacra and Simulation', 'simulacraandsimulation', 'simulacra', 'Simulacra', 'baudrillard', 'Baudrillard', 'Polybius', 'polybius', 'polybiussquare', 'Morbit', 'morbit', 'musicnote', 'music note cipher', 'patristocrat', 'foursquare', 'four square',
+    '3Blue1Brown', '3blue1brown', 'Belikin', 'belikin', 'Belikin Beer', 'belikinbeer', 'glamping', 'Glamping', 'redroses', 'red roses', '-41,-17', '-41 -17', '4117', '-41-17', 'magicpuzzlepiece', 'gsmg.io magic puzzle piece',
+    'The Times 03/Jan/2009 Chancellor on brink of second bailout for banks', 'sknab rof tuoliab dnoces fo knirb no rollecnahC 9002/naJ/30 semiT ehT', 'sknabroftuoliabdnocesfoknirbnorollecnahC9002naJ30semiTehT',
+    '0x736B6E616220726F662074756F6C69616220646E6F63657320666F206B6E697262206E6F20726F6C6C65636E61684320393030322F6E614A2F33302073656D695420656854',
+    '736B6E616220726F662074756F6C69616220646E6F63657320666F206B6E697262206E6F20726F6C6C65636E61684320393030322F6E614A2F33302073656D695420656854',
+    'line 1616', 'line1616', '1616', 'genesis', 'genesisblock', 'btcsrc', 'bitcoinsourcecode', 'bitcoin source code', 'thesourcecodeisbitcoin',
+    '1229', '661', '91', '570', '7x13', '13x7', '15x38', '38x15', '7 13', '13 7', '91570', '57091', '2*3*5*19', '23519', 'Dbbib..faed', 'dbbibfaed', 'dbbifaed', 'faeddbbi', 'dbbi faed', 'faed dbbi', '1792',
+    '9 Yellow 15 Blue', 'nineyellowfifteenblue', 'fifteenbluenineyellow', '9 15', '915', '159', '15 9', '24', '23', '9+15=24-1=23', '1 fefefe 9 yellow 18 blue 4 red', '19184', '32', 'thirtytwo', '25', 'twentyfive', '24 coloured squares', '25 coloured squares',
+    '111101110011110110010010', '010010011011110011101111', '111101110011110110010010'[::-1], str(int('111101110011110110010010', 2)), '101', 'onehundredandone', 'sumofonesis101', '0110101000101000101000100000101000001000101000100000100000101000001000101000001000100010100',
+    'blk red blu red blu red blu red', 'blackredblueredblueredbluered', 'black red blue red blue red blue red', 'black blue blue blue red red red red', 'blackbluebluebluered redredred', 'blackblueblueblueredredredred', 'back red blue red blue red blue red',
+    '204 0 72 242 63 255', '20407224263255', '204 204 204', '72 72 72', '63 63 63', '242 242 242', 'think of it as a side quest', 'sidequest', 'side quest', 'thinkofitasasidequest',
+    'Are you really looking for just the btc...?', 'areyoureallylookingforjustthebtc', 'areyoureallylookingforjustthebtckey', 'btckey', 'btc key', 'thebtckey', 'justthebtc', 'key', 'thekey', 'privatekey', 'private key', 'theprivatekey', 'lookingforthekey', 'keymaker', 'thekeymaker', 'privatekeymaker', 'areyoulookingforprivatekeymaker',
+    "I'm not looking for him, I'm looking for an answer", 'imnotlookingforhimimlookingforananswer', 'lookingforananswer', 'iamlookingforananswer', 'lookingforanswer',
+    'onedayiwillberemembered', 'one day i will be remembered', 'fambtaoid', 'hebdbdnhowareyodb', 'howareyou', 'THEQUIMKBROWNFOXJUMPSOVERTHELAZYDOG', 'thequickbrownfoxjumpsoverthelazydog', 'UOUEOOOCEOETEOEQTOEMEOEEM', 'I cannot live without you my love', 'icannotlivewithoutyoumylove',
+    'hint', 'hinthinthinthinthinthinthint', 'maxprice', 'max price', 'hi y', 'hiy', 'jrk bgrt', 'jrkbgrt', 'JrkBgrt', 'Jrk Bgrt', 'sowut', 'SoWut', 'saber', 'Saber', 'FML', 'fml', 'ezzfe', '23323', 'spiral prime', 'spiralprime', 'primespiral', 'ulam', 'ulamspiral', 'endianness', 'littleendian', 'little endian', 'leastsignificantbitfirst', 'lsbfirst', 'bigendian',
+    'nullcipher', 'null cipher', 'unreliablenarrator', 'unreliable narrator', 'readyplayerone', 'Ready Player One', 'twofish', 'Twofish', 'doubletwofish', 'yinyangtwofish', '3des', 'tripledes', 'zsteg', 'alpha', 'alphalayer', 'matlab', 'Matlab', 'bitplane', 'bitplane0',
+    'prime', 'primes', 'primenumber', 'primenumbers', 'prime numbers', 'theprime', 'yellowblue', 'yellow blue', 'blueyellow', 'blue yellow', 'yellowhasanumberandsodoesblue', 'roses are white', 'rosesarewhite',
+    'afternoon', 'nightfall', 'morning', 'night', 'morningnightafternoon', 'morningafternoonnight', 'theagentsmithduality', 'agentsmith', 'smith', 'thetrainman', 'trainman', 'merovingian', 'keymaker', 'architect', 'thearchitect', 'archi', 'archichoice',
+    'theory of everything', 'theoryofeverything', 'thetheoryofeverything', 'toe', 'TOE', 'everything', 'thelawofeverything', 'lawofeverything', 'yingyanging', 'law of ying yang', 'lawofyingyang', 'taijitu', 'Taijitu', 'taiji', 'tao', 'Tao', 'daoism', 'taoism',
+    'hashthetext', 'HASHTHETEXT', 'hash the text', 'hashallsalvationtexts', 'salvationtexts', 'salph', 'salphaseion', 'SalPhaseIon', 'Salphaseion', 'salphasion', 'salvationphase', 'sal phase ion', 'phase4', 'phase 4', 'phase3.2.2', '3.2.2',
+    'puzzle', 'Puzzle', 'PUZZLE', 'gsmg.io/Puzzle', 'gsmg.io/puzzle', 'gsmg.io/PUZZLE', 'follow_the_white_rabbit.png', 'follow_the_white_rabbit', 'https://gsmg.io/img/follow_the_white_rabbit.png', 'gsmg.io/img/follow_the_white_rabbit.png', 'meganigma', 'MEGANIGMA', 'Meganigma',
+    'theseedisplanted', 'theseedwasplanted', 'seedisplanted', 'white rabbits everywhere', 'whiterabbitseverywhere', 'rabbit hole', 'rabbithole', 'therabbithole', 'wrongrabbithole', 'the wrong rabbit hole',
+    'Jacque Fresco', 'jacquefresco', 'The shape and solutions of this puzzle rely totally on the collective effort of people working together. We are all an integral part of the matrix.',
+    'weareallanintegralpartofthematrix', 'collectiveeffort', 'victimsofcausality', 'victims of causality', 'weareallvictimsofcausality', 'causality', 'Causality', 'rightthisiscausality', 'areyousure', 'are you sure?')
+# --- Jerry's idea: re-encode known passwords with Beaufort/Vigenere key THEMATRIXHASYOU, then sha256 (oracle does the sha)
+K = 'thematrixhasyou'
+for pw in ('causality', 'theflowerblossomsthroughwhatseemstobeaconcretesurface', 'jacquefrescogiveitjustonesecondheisenbergsuncertaintyprinciple', 'giveit', 'givetit', 'theseedisplanted', 'matrixsumlist', 'lastwordsbeforearchichoice', 'thispassword', 'enter', 'yinyang', 'yingyang', 'yellowblueprimes', 'thematrixhasyou'):
+    add(beaufort(pw, K), beaufort(pw, K).upper(), beaufort_var(pw, K), vig(pw, K))
+# Beaufort of dbbi / faed with THEMATRIXHASYOU and with yinyang/yellow/blue (ArchOptic: "decode dbbib with keywords yellow and blue", "yin yang for faed")
+for kw in ('thematrixhasyou', 'yellow', 'blue', 'yellowblue', 'yinyang', 'yingyang', 'matrixsumlist', 'yellowblueprimes', 'faed', 'dbbi'):
+    add(beaufort(DBBI, kw), vig(DBBI, kw), beaufort_var(DBBI, kw))
+for kw in ('thematrixhasyou', 'yinyang', 'yingyang', 'yellow', 'blue', 'matrixsumlist', 'dbbi'):
+    add(beaufort(FAED, kw), vig(FAED, kw), beaufort_var(FAED, kw))
+# --- intermediate / derived strings posted verbatim in chunk02
+add('ebaeeebgigffbfbicdebceggeebfbgcccfbbdcffebhdfbabfhhbehhegbbebegeggebhiebebahibgebcchbfbibbd',  # dbbi reversed (posted)
+    DBBI[::-1], FAED[::-1],
+    'geewemesccekqewsbekekwsekqqkqkekeeqksskessmebemgsekmmcgeemcccqemekkqqkcekgcwememmqwqekkkbek',
+    'rbirtijnqrtmnpiojthjkwwtmnuennthjhutzplphootdjlrwtmmtckktikiqvtnisenpwfjkrrajmpfmpajjkstsjl',
+    'kbzqlxzzqcjwqbqssttjbodkzmodcqxexdlbbzwffjbkbzdxmvzjkbdmzibowbobfdvdwzykxfmdbdkbedcbdbbfvbdxqmvbxszdfzxxbcgbjxwbmyvdwmbbkbbqbmxqzfcdomdffbvxwzymmfzblmjzxbkqwqjbfvujjbtxdsojlbbxxcgddbjbiyszdbvjebzdbdjzelgddzdmvttkjztbzmzdcddjdddqdkoffdtkjodqxvzqjezzdlfqdejbittxomuejvbqkzmzqckbdddmisjjjbjzqbzobmxmmjdoqxoisyjddzdedbbodmdddldqqxbsseuqdmdebszqgmbmzblbdzdbivsxdmtxxvbblkmmxigbdmjmbvsmwovxxmzjdmxxxllobqbsbtjxqzvjxfoqjqxxbjjqbmjbbjtkqmumxvbbdqeezdgwbdjimtuqobvzzbzbfjdkqlkboqjffuszjmjbksbdlejejfijbbqiiveejbykesobkzzmxdlqbbjffbtebbjjmbzqdkezmlgjjbosijjejmydembwbmbdqicbodjsbd',
+    'jgcdfeipfgkkhklecdbejpjfrkmenejiefhecfghhngdnfhjlmdomignjiebneedkjkmbnfkkqlkicghiofjphjgmobioijneiikleijjikjkiiiegjgeafiaihndkmkmmeionjokifo`jfjnnibrmbhhckhgmkpjkpilidnhdiichpflfookmebeokoiidkdnbprcolgialgqjmnflkifpikndfkimhejnogjiibgkilikqcgdbmcaioemhhlppjqojhfpmoeijbq',
+    'jgcdfeipfgkkhklecdbejpjf`rkmenejiefhecfghhngdnfhjlmdomignjiebneedk`jkmbnfkkqlkicghiofjphjgmobioijneiikleijjikjkiiiegjgeafiaihndkmkmmeionjokifo`jfjnnibrmbhhckhgmkpjkpilidnhdiichpflfookmebeokoiidkdnbprcolgialgqjmnflkifpikndfkimhejnogjiibgkilikqcgdbmcaioemhhlppjqojhfpmoeijbq',
+    'eglhhcchmhcggihgnfdinedhmhcokgaohlkfjkheiefjdhbdklhleahgdlj`gkgihknhfjghkjmffhdhjgjlmeffkifjfkbfclhfgglejkjfglmjpmmmhkielichniinglnfhmgkhcnehjflckgmioilhpfcpiopnkikjhicekhgdjjbimgllbknmaoklnhjihollmcgnngfjhelbekpjkflldkblblmihohlhfmicjnkkkhjngcfidfedpffggknk`nfgljogmemcbniiiidcghjeooj',
+    'fimil`lecdihkhijhaijmhejaoghjikdfbjacbeigjnklkehfflplkkimbonhhoihfegmkdhfkchjioing`qkoiefinpclegbrkjlffbjkplhdchmiglelchdgigdekdffligdijikphhdjrgfrihonmjhkkpfcelbnjimoom`pfrldinkigokfjkckhjhickkqgaheldihjogeeoaehlgmclhlklfhmfmlicileknmekhdbkbire`epginmlinjeqklmgkmhmaqkhgqlgjjjeejhmkgcakgdkiiikgpibbdomilffmfdmhdkkpbgnjjolkqoefkkprddmmclhnminjaqdklbfohrgnefgoclmhjjdlmlcbdehgllfpihfhhbeikgdjmhglkoocjjqglihhpgekoegmkrjlelneilmqkjlfijrhheqlr`mgcepiihjjbefpikfkhmbdohiejbiedifhkgmijogkohdhjlbgiikijdilghmekrhfgifqknoqnhiqlonejjmo`pmdjolficidifhpk',
+    'iohkcgijkhhmekmhjimejghmhlmnjimfehghdghfgnokkgekcakioelgkbohbkhfeghlicbjbhickegdq`iopifhldpgjijofqpdojddrokiggfojomlenegjdphihhdjglhcdlgdjikbehpgflckhkjkkpghdeaihikeejrfinkligoim`nlpnnjheknfkkofnfdklijohjqidklhfmodmgmhkgliehefocdgjekhghdeacngejcbammdoiddqcnopfjjqhjdhnppkpqamnhgmncjjjfhhmjkikkjmmpcgglmmmfeifgjccdnjceljjifnjlbgnpljbfijigijedqcjoieieljjinkjnknhfplhllphibeglemrlfrkgleocjlhghkmgclnljbcmkhjghhjahdlbhppnbjghkkdmiifmeogolekklnigjlkioncknhdmjkfjinojhjohkgihfleniekkniikgnlccamfcegikcdgbidipjgjfhcfllljglqaroqikhpeofgmrlnnq`lggfqjcmj',
+    'eoimaljccljdhdgjegcigimgljlgjoknegrdlhmqmil5', 'kqpreqmakgigejglknhfkiijgcfejinkfljficilfgf5',
+    'mfkjhinqfjlmiolkficfeqibcnhijjjjhhkcceiiqaoidhcjdokhrrlififhcphflnigjpgnirlhrjlgmjjkohjclcnobkjnglgedjmbkkipmgqggmajfme`mib`pnfmkhnmfdpgqnphfncldhnfrarfchbghlcomjmiijkggmiimgekkkjfonokjhgfongc`hehkok`ogdjdcdiijleinjnnffk`hhokkkjlnnagf`ipdijklgbheq`ejnjlgcijpfpmiefohkccbcn',
+    'difhdegoaelhjjjebjnenfahhigdfdhfejjcgjffkneha4', '3118151722146187014148714664641411647741775101537145523115222615144664214328151556861444014',
+    '4229262833257298125259825775752522758852886212648256634226333726255775325439262667972555125',
+    '0110101000101000101000100000101000001000101000100000100000101000001000101000001000100010100',
+    '4009060833050298020259025775050522750852080212048256034226030726250775020439260667072505025',
+    '0220202000207000105000800000702000008000806000600000600000303000005000305000002000900050100',
+    '238790940193641221578213171361733270213643546743663748259169748641529940570885896709395',
+    '4652303133055488604356470865484130311123379764150099839441951473450542081430247080088643317733171984854096946307684645052095325031830064389402596092478993927230526245696073972664076769205496726495054536298423813791907464832736811434556132016009100971684083588385851418786891698345159600461582685990119967206217214780259465799156979048634095083181270371975166606978837641114169659654180465315920889903695707270139168991857751489245607936295904334763498041919587611972270252832748548389211640208503016378329462269397881989693726607949690527281189',
+    '1335534031203642063054245423523063303416201254661342041652452314252661566003335424330232415515016654206',
+    '40380B0C5CBA2BAB09A49273A6682283CAA26755C34A44C0B287320A5B635BAA290160503CCA99', '40380b0c5cba2bab09a49273a6682283caa26755c34a44c0b287320a5b635baa290160503cca99',
+    '13 35 53 40 31 20 36 42 06 30 54 24 54 23 52 30 63 30 34 16 20 12 54 66 13 42 04 16 52 45 23 14 25 26 61 56 60 03 33 54 24 33 02 32 41 55 15 01 66 54 20 6',
+    '7 3 3 23 3 13 3 19 5 5 3 11 17 3 23 19 2 3 11 3 11 23 19 3 11 17 17 11 17 11 3 11 3 3 17 11 19 19 11 3 19 19 13 3 2 3 13 7 19 3 11 13 13 5 7 3 3 13 5 5 5 17 3 13 3 11 11 17 17 11 5 3 11 7 5 23 3 13 3 13 13 17 23 17 3 11 11 11 2 3 11',
+    '733233133195531173231923113112319311171711171131133171119191131919133231371931113135733135551731331111171711531175233133131317231731111112311',
+    '4 2 2 9 2 6 2 8 3 3 2 5 7 2 9 8 1 2 5 2 5 9 8 2 5 7 7 5 7 5 2 5 2 2 7 5 8 8 5 2 8 8 6 2 1 2 6 4 8 2 5 6 6 3 4 2 2 6 3 3 3 7 2 6 2 5 5 7 7 5 3 2 5 4 3 9 2 6 2 6 6 7 9 7 2 5 5 5 1 2 5',
+    'HRCCJZDNBDPBAUZXYKZCBZDCBSBMUDBYCKZDZDAZDX', 'AQKBCGJHCPCCZTZBGZCACGZDZCADBQDZFDDQDWDDQYBGZGZQBDWDBYFDCDFQCGDCZACGZCEDGBEYC',
+    'HCCQDYZAFBAGZABDZDQDZGAZAZDQDCDZCABZFGZKAYZAFGDJAEBCZGEDGHDAZCFZDEHGCADHADQDK', 'BCZAABCGBGAFAJIAEGFGJIFJZJZGJCEAAAJBEJAEGCGGCGIGZHZCGICGGCGIGAEIBGCGEAGJCHBB',
+    'fbebdadhaafadcdgiiaddfadhadaighaaggcagadcdgiagbgdgbfbefdghhdafagcgfddfaaceadchadhgfhadcdgiiaddfadhgadcgcafdhaceaeeaiciaaiaagbcaiadh',
+    'ihieadcaaigdcdacdabagbfgfeahidgcfiggacgbiehecgcdigdcdaehffacbaicfgbiehecgcddiggfgfeahidgdacfiiddeacffgaabdhddachgfacbaicfgddaifgaaadgbgaigdcdahfghfife0hggaahgiaagbgbfiaabdecagdgahcffga',
+    'agdafaoaheiecggchgicbbhcgbehcfcoabicfdhhcdbbcagbdaiobbgbeadedde', 'a g d a f a o a h e i e c g g c h g i c b b h c g b e h c f c o a b i c f d h h c d b b c a g b d a i o b b g b e a d e d d e',
+    'd b b i b f b h c c b e g b i h a b e b e i h b e g g e g e b e b b g e h h e b h h f b a b f d h b e f f c d b b f c c c g b f b e e g g e c b e d c i b f b f f g i g b e e e a b e',
+    'U2FsdGVkX1+0Wl49gnWTyiimluu7V3+vl7st0gUt9sWDzNLxDmlPMsDSiuW2a46zgKlIi8aaqY5gpJPPEzW1n9n3/26qs4zstWtPKF8Zs/BTNN4IiEh4qu18mdC0NAv4',
+    'U2FsdGVkX186tYU0hVJBXXUnBUO7C0+X4KUWnWkCvoZSxbRD3wNsGWVHefvdrd9zQvX0t8v3jPB4okpspxebRi6sE1BMl5HI8Rku+KejUqTvdWOX6nQjSpepXwGuN/jJ',
+    'B5KR/1r5B/2R5/2b1p1p1/2P1k1P1/1p2P2p/1P2P2P/3N1N2 b - - 0 1', 'dCode Prime Numbers', 'D C O D E P R I M E N U M B E R S', 'DCODEPRIMENUMBERS',
+    'yellow', 'blue', 'Yellow', 'Blue', 'green', 'red', 'black', 'white', 'yellowbluegreenred', 'yellowbluegreen', 'bluegreenyellow',
+    'be', 'b', 'bebe', 'y', 'Y', '25', 'be=25', 'beis25', 'yellowis25', 'b=2', 'blueis2', '2', 'twentiethprime', '71', 'seventyone', '20thprime', 'thetwentiethprimeisfefefe',
+    '1NULY7DhzuNvSDtPkFzNo6oRTZQWBqXNE9', '17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa', '1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe', '1Jqq37KkZEt4F3Dt6qXdtyiMEFBBdawbkJ', '47534d472e', '47534D472E', 'GSMG.', 'GSMG.io', 'gsmg.io', 'GSMG.io:',
+    '.00000666', '.00000700', '666', '700', '666700', '700666', '0.00000666', '0.00000700', 'sixsixsix', 'sevenhundred')
+# --- verification of claimed hash
+h1 = sha('MatrixSumlist\nAnsToo'); h2 = sha('MatrixSumlist\r\nAnsToo'); h3 = sha('MatrixSumlistAnsToo'); h4 = sha('MatrixSumlist AnsToo')
+print('claimed 26770c53...; sha(MatrixSumlist\\nAnsToo)=', h1[:16], 'crlf=', h2[:16], 'nosep=', h3[:16], 'space=', h4[:16], file=sys.stderr)
+add(h1, h2)
+
+C = C[:3000]
+open('/home/vin/bitcoin_puzzle/scratch/wf/cands_chunk02.txt', 'w').write('# chunk02 (2023-08-06..2023-09-04) solver-proposed strings, creator tokens and claimed intermediate results\n' + '\n'.join(C) + '\n')
+print('cands:', len(C), file=sys.stderr)
+
+DOORS = ['yingyang', 'yinyang', 'ying yang', 'yellowblueprimes', 'yellowblueprime', 'yellow blue primes', 'doortotheleft', 'thedoortotheleft', 'leftdoor', 'doortotheright',
+         'salvationofzion', 'salvation', 'zion', 'trinity', 'savetrinity', 'neoandtrinity', 'halfandbetterhalf', 'betterhalf', 'followthewhiterabbit', 'rabbitsnest',
+         'matrixsumlist', 'lastwordsbeforearchichoice', 'thispassword', 'anstoo', 'enter', 'havefun', 'absvolt', 'ciaobellao', 'onemorningiawakened', 'cosmicduality',
+         'primeprogram', 'returntothesource', 'thesource', 'whoami', '101', 'hundredfourty', 'X2SH4Y0QB15', 'fefefe', 'samemove', 'becarefulofwhatyougetyourselvesinto']
+DOORS = DOORS[:40]
+open('/home/vin/bitcoin_puzzle/scratch/wf/cands_chunk02_doors.txt', 'w').write('# chunk02 door-type candidates (sha256hex(C) probed as gsmg.io/<hex>)\n' + '\n'.join(DOORS) + '\n')
+print('doors:', len(DOORS), file=sys.stderr)

@@ -1,0 +1,164 @@
+{
+  "fork-ENDGAME.md": {
+    "bytes": 42956,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/devjotaduo/gsmgio-5btc-puzzle/94024e11107c295b12de106c636e5616bffa5d3b/ENDGAME.md",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T08:09:32.712103+00:00",
+    "sha256": "1076a190e57f8d2a0dabc480036af95deaffea46d0d2ed3bac375b020bbb1e07",
+    "url": "https://raw.githubusercontent.com/devjotaduo/gsmgio-5btc-puzzle/94024e11107c295b12de106c636e5616bffa5d3b/ENDGAME.md"
+  },
+  "fork-README.md": {
+    "bytes": 51412,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/devjotaduo/gsmgio-5btc-puzzle/94024e11107c295b12de106c636e5616bffa5d3b/README.md",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T08:09:05.852789+00:00",
+    "sha256": "e5eff7fdba62896356f05a446af03f2d900cfeed68ce6d18406477c0a05b33f0",
+    "url": "https://raw.githubusercontent.com/devjotaduo/gsmgio-5btc-puzzle/94024e11107c295b12de106c636e5616bffa5d3b/README.md"
+  },
+  "fork-_work__binary_partition_2026-09-15__RELATORIO.md": {
+    "bytes": 1022,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/devjotaduo/gsmgio-5btc-puzzle/94024e11107c295b12de106c636e5616bffa5d3b/_work/binary_partition_2026-09-15/RELATORIO.md",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T08:09:33.502649+00:00",
+    "sha256": "6cebcb8a214288ab429834493beb728c8b76d4ba27c21e901fa367e98e5e747e",
+    "url": "https://raw.githubusercontent.com/devjotaduo/gsmgio-5btc-puzzle/94024e11107c295b12de106c636e5616bffa5d3b/_work/binary_partition_2026-09-15/RELATORIO.md"
+  },
+  "fork-_work__binary_partition_2026-09-15__summary.json": {
+    "bytes": 1937,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/devjotaduo/gsmgio-5btc-puzzle/94024e11107c295b12de106c636e5616bffa5d3b/_work/binary_partition_2026-09-15/summary.json",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T08:09:33.873830+00:00",
+    "sha256": "106017c0ac77663822210809f899d373b551fb759a5b25769ec5feb96290ac69",
+    "url": "https://raw.githubusercontent.com/devjotaduo/gsmgio-5btc-puzzle/94024e11107c295b12de106c636e5616bffa5d3b/_work/binary_partition_2026-09-15/summary.json"
+  },
+  "fork-_work__multiagente_2026-09-18__reinsert_primes_v2__RELATORIO.md": {
+    "bytes": 5892,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/devjotaduo/gsmgio-5btc-puzzle/94024e11107c295b12de106c636e5616bffa5d3b/_work/multiagente_2026-09-18/reinsert_primes_v2/RELATORIO.md",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T08:09:08.994065+00:00",
+    "sha256": "f226fc26a3c7a93a6d2a0a0ad60a3403c214d1b5acf48281942f8a8500fb98c8",
+    "url": "https://raw.githubusercontent.com/devjotaduo/gsmgio-5btc-puzzle/94024e11107c295b12de106c636e5616bffa5d3b/_work/multiagente_2026-09-18/reinsert_primes_v2/RELATORIO.md"
+  },
+  "fork-_work__prime_host_delta_2026-09-17__RELATORIO.md": {
+    "bytes": 10440,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/devjotaduo/gsmgio-5btc-puzzle/94024e11107c295b12de106c636e5616bffa5d3b/_work/prime_host_delta_2026-09-17/RELATORIO.md",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T08:09:08.614440+00:00",
+    "sha256": "954ca740eaf9fc4f52754d57361e9d5445d48a5518154e502340beea9897217d",
+    "url": "https://raw.githubusercontent.com/devjotaduo/gsmgio-5btc-puzzle/94024e11107c295b12de106c636e5616bffa5d3b/_work/prime_host_delta_2026-09-17/RELATORIO.md"
+  },
+  "fork-commit.json": {
+    "bytes": 10042,
+    "content_type": "application/json; charset=utf-8",
+    "final_url": "https://api.github.com/repos/devjotaduo/gsmgio-5btc-puzzle/commits/master",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T08:08:52.342218+00:00",
+    "sha256": "12847a1377bb414772bc9fa4aed047b98aaaf4eb55123ee65abbd58eb0ccf0fe",
+    "url": "https://api.github.com/repos/devjotaduo/gsmgio-5btc-puzzle/commits/master"
+  },
+  "fork-solver__README.md": {
+    "bytes": 8586,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/devjotaduo/gsmgio-5btc-puzzle/94024e11107c295b12de106c636e5616bffa5d3b/solver/README.md",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T08:09:06.233616+00:00",
+    "sha256": "03b8ec290e366decc974d3f2038552a9d1f28d3730f1fc3c25fbdbeb3f2a1147",
+    "url": "https://raw.githubusercontent.com/devjotaduo/gsmgio-5btc-puzzle/94024e11107c295b12de106c636e5616bffa5d3b/solver/README.md"
+  },
+  "fork-solver__btcseed_duality_attack.py": {
+    "bytes": 10513,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/devjotaduo/gsmgio-5btc-puzzle/94024e11107c295b12de106c636e5616bffa5d3b/solver/btcseed_duality_attack.py",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T08:09:07.805512+00:00",
+    "sha256": "99e7932aa41e38e9051a9cfe497b2829a9aaa6409b1e81ad485fafabe03663cb",
+    "url": "https://raw.githubusercontent.com/devjotaduo/gsmgio-5btc-puzzle/94024e11107c295b12de106c636e5616bffa5d3b/solver/btcseed_duality_attack.py"
+  },
+  "fork-solver__btcseed_intertwine_attack.py": {
+    "bytes": 2585,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/devjotaduo/gsmgio-5btc-puzzle/94024e11107c295b12de106c636e5616bffa5d3b/solver/btcseed_intertwine_attack.py",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T08:09:08.226165+00:00",
+    "sha256": "3c57d2aff394582da23194b56c14ec8f0734a7bf43cf1083388bfda631066656",
+    "url": "https://raw.githubusercontent.com/devjotaduo/gsmgio-5btc-puzzle/94024e11107c295b12de106c636e5616bffa5d3b/solver/btcseed_intertwine_attack.py"
+  },
+  "fork-solver__btcseed_payload_attack.py": {
+    "bytes": 9140,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/devjotaduo/gsmgio-5btc-puzzle/94024e11107c295b12de106c636e5616bffa5d3b/solver/btcseed_payload_attack.py",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T08:09:07.421915+00:00",
+    "sha256": "545d0a1db9cc2f134a71cb87020b3bd1ac78255f6dc78d59dd273fb99c9373af",
+    "url": "https://raw.githubusercontent.com/devjotaduo/gsmgio-5btc-puzzle/94024e11107c295b12de106c636e5616bffa5d3b/solver/btcseed_payload_attack.py"
+  },
+  "fork-solver__experiments__claude_endgame_2026_09_02__BRIEFING.md": {
+    "bytes": 24071,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/devjotaduo/gsmgio-5btc-puzzle/94024e11107c295b12de106c636e5616bffa5d3b/solver/experiments/claude_endgame_2026_09_02/BRIEFING.md",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T08:09:33.135777+00:00",
+    "sha256": "d162547c1fd91b481ae481101096da7d104bd6d6c02cfdc5613d9ad460bc537f",
+    "url": "https://raw.githubusercontent.com/devjotaduo/gsmgio-5btc-puzzle/94024e11107c295b12de106c636e5616bffa5d3b/solver/experiments/claude_endgame_2026_09_02/BRIEFING.md"
+  },
+  "fork-solver__experiments__claude_endgame_2026_09_02__README.md": {
+    "bytes": 2480,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/devjotaduo/gsmgio-5btc-puzzle/94024e11107c295b12de106c636e5616bffa5d3b/solver/experiments/claude_endgame_2026_09_02/README.md",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T08:09:06.613461+00:00",
+    "sha256": "a55768783acb9a654c723ee16c2c7f624d38c716ef42269f1a1078e421bf17f3",
+    "url": "https://raw.githubusercontent.com/devjotaduo/gsmgio-5btc-puzzle/94024e11107c295b12de106c636e5616bffa5d3b/solver/experiments/claude_endgame_2026_09_02/README.md"
+  },
+  "fork-solver__experiments__claude_endgame_2026_09_02__matrix_prime_bits.py": {
+    "bytes": 21007,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/devjotaduo/gsmgio-5btc-puzzle/94024e11107c295b12de106c636e5616bffa5d3b/solver/experiments/claude_endgame_2026_09_02/matrix_prime_bits.py",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T08:16:36.733804+00:00",
+    "sha256": "2f15085a93163877335128c9c445311593188d2c79c9dba6a7a5370bdc5c3161",
+    "url": "https://raw.githubusercontent.com/devjotaduo/gsmgio-5btc-puzzle/94024e11107c295b12de106c636e5616bffa5d3b/solver/experiments/claude_endgame_2026_09_02/matrix_prime_bits.py"
+  },
+  "fork-solver__multiagente_2026_09_18__reinsert_primes.py": {
+    "bytes": 21652,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/devjotaduo/gsmgio-5btc-puzzle/94024e11107c295b12de106c636e5616bffa5d3b/solver/multiagente_2026_09_18/reinsert_primes.py",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T08:16:36.262648+00:00",
+    "sha256": "c335e1aea6df75b8efbf9e3ce5e11831760075c4175c38057bdc69eab4b4aa9b",
+    "url": "https://raw.githubusercontent.com/devjotaduo/gsmgio-5btc-puzzle/94024e11107c295b12de106c636e5616bffa5d3b/solver/multiagente_2026_09_18/reinsert_primes.py"
+  },
+  "fork-solver__prime_host_delta.cjs": {
+    "bytes": 15566,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/devjotaduo/gsmgio-5btc-puzzle/94024e11107c295b12de106c636e5616bffa5d3b/solver/prime_host_delta.cjs",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T08:16:35.815877+00:00",
+    "sha256": "012b8b1aeb7f3f1141a4faf4342813d054f1564a35bef78457777bb798b346bc",
+    "url": "https://raw.githubusercontent.com/devjotaduo/gsmgio-5btc-puzzle/94024e11107c295b12de106c636e5616bffa5d3b/solver/prime_host_delta.cjs"
+  },
+  "fork-solver__skeptic_btcseed_null.py": {
+    "bytes": 2111,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/devjotaduo/gsmgio-5btc-puzzle/94024e11107c295b12de106c636e5616bffa5d3b/solver/skeptic_btcseed_null.py",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T08:09:07.052809+00:00",
+    "sha256": "9f259a6b9a740013c1ba4b7213eafbecb64289928986170f0d88105e1424bf58",
+    "url": "https://raw.githubusercontent.com/devjotaduo/gsmgio-5btc-puzzle/94024e11107c295b12de106c636e5616bffa5d3b/solver/skeptic_btcseed_null.py"
+  },
+  "fork-tree.json": {
+    "bytes": 335738,
+    "content_type": "application/json; charset=utf-8",
+    "final_url": "https://api.github.com/repos/devjotaduo/gsmgio-5btc-puzzle/git/trees/94024e11107c295b12de106c636e5616bffa5d3b?recursive=1",
+    "http_status": 200,
+    "retrieved_at_utc": "2026-09-30T08:08:53.098986+00:00",
+    "sha256": "7fded54759678b1598e100f40b54c924f5b49b5b1c59901e4bffe4713059ac69",
+    "url": "https://api.github.com/repos/devjotaduo/gsmgio-5btc-puzzle/git/trees/94024e11107c295b12de106c636e5616bffa5d3b?recursive=1"
+  }
+}

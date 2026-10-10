@@ -1,0 +1,72 @@
+{
+  "id": "C24-MATRIX-WIDTH-INTERFACE",
+  "date": "2026-10-02",
+  "status": "PROMISING",
+  "hypothesis": "The public dbbi, raw matrixsumlist encoding, faed, and full-period Bifid objects share a 15-cell matrix width; btcseed is the first 7-cell field rather than an isolated linear object.",
+  "source_evidence": [
+    {"path": "research/sources/salphaseion.html", "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"},
+    {"path": "research/artifacts/cycle23/residual-frame-join.json", "sha256": "907645e849823e215cff57fca4a74dba5cbf68f6468a3f58a1306f3b0c758d19"},
+    {"path": "research/artifacts/cycle04/bifid-evidence.json", "sha256": "b3e75c099064c8a32fa07ab165e16865a41760f099abe2d104c549a80971d6b1"}
+  ],
+  "verified_equalities": {
+    "dbbi": "91 = 13 * 7",
+    "raw_label": "104 = 13 * 8",
+    "joined_panel": "195 = 13 * (7 + 8) = 13 * 15",
+    "faed": "570 = 38 * 15 = 2 * 19 * 15",
+    "bifid_coordinate_planes": "285 = 19 * 15 for each of the even and odd output rails",
+    "remaining_body": "563 = 8 + 37 * 15"
+  },
+  "observed": {
+    "decoded_label": "matrixsumlist",
+    "joined_source_panel_shape": [13, 15],
+    "faed_shape": [38, 15],
+    "faed_half_panel_shape": [19, 15],
+    "bifid_coordinate_plane_shapes": [[19, 15], [19, 15]],
+    "bifid_cellwise_pairs_checked": 285,
+    "bifid_cellwise_pairs_matching": 285,
+    "first_output_row": "btcseeddeoemcke",
+    "first_row_field_widths": [7, 8],
+    "remaining_body_length": 563,
+    "body_decomposition": "8 + 37 * 15",
+    "joined_panel_sha256": "bee9a0879a2395cedbdfb2bfdf83298e28be4259c5e75d7d448f34c069c9265e",
+    "bifid_output_sha256": "15d62c8228c1a30f3f6280fcdce2251fe616135e9de291b0c7b8a792dd8d0507"
+  },
+  "requested_edge_classification": [
+    {"edge": "dbbi91 -> matrixsumlist", "classification": "UNKNOWN", "reason": "The source boundary and the new 13-row 7|8 interface are exact, but neither object is shown to produce the other and no operator is specified."},
+    {"edge": "matrixsumlist -> 25-event prime/color structure", "classification": "WEAK", "reason": "Two continued prime markers occupy the raw label region, but the creator-attributed mention order runs yellowblueprimes before matrixsumlist and supplies no forward transform in this direction."},
+    {"edge": "25-event prime/color structure -> residual60", "classification": "STRONGLY SUPPORTED", "reason": "Under the frozen mask1017 and near-white=1 convention, the first23 ordered event labels select the prime markers and their exact complement is the60-token residual; creator intent remains unverified."},
+    {"edge": "residual60 -> faed570", "classification": "UNKNOWN", "reason": "No lossless transform, operand binding, or source-authored consumer connects these objects."},
+    {"edge": "faed570 -> source-keyed Bifid570", "classification": "STRONGLY SUPPORTED", "reason": "The fixed square and period570 transform is exact and reversible and yields the recognized prefix, but the Bifid instruction is community-derived rather than primary-authored."},
+    {"edge": "source-keyed Bifid570 -> btcseed prefix", "classification": "VERIFIED", "reason": "The deterministic output begins with the exact seven letters btcseed."},
+    {"edge": "btcseed prefix -> remaining Bifid body", "classification": "UNKNOWN", "reason": "The prefix does not define an operation on the remainder. The new geometry makes them fields of one 38x15 object rather than proving a header-driven transform."},
+    {"edge": "remaining Bifid body -> downstream interface", "classification": "UNKNOWN", "reason": "No authored axis, value mapping, aggregation rule, or receiving object is known."}
+  ],
+  "architecture_discriminator": {
+    "linear_header_body": "WEAK: the seven-letter cut has no source separator, cuts a natural Bifid digraph, and treats the other563 symbols as opaque.",
+    "matrix_field": "STRONGLY SUPPORTED structurally: thirteen 7|8 source rows derive width15 independently, faed and both Bifid coordinate planes tile exactly at that width, and btcseed fills the first seven-cell field.",
+    "intended_sum_or_list_operation": "UNKNOWN: geometry fixes data types and boundaries but supplies no value map, axis, aggregation rule, or downstream consumer."
+  },
+  "coverage_comparison": {
+    "previously_recorded": "Prior campaigns reshaped dbbi91 and faed570 separately, tried width15/38 FAED grids, and padded the combined195-symbol dbbi-plus-label source to14x14 with one added cell.",
+    "new_here": "The exact native label-byte join dbbi13x7 plus label13x8, its derived width15, the two19x15 FAED halves, and the resulting 8+37x15 body accounting were not found in preserved reports or scripts.",
+    "not_repeated": "No sum list, route, text score, password transform, encrypted-container test, or key test was run."
+  },
+  "result": "The exact width15 interface distinguishes an opaque linear-body architecture from a matrix-field architecture. It replaces body563 with an 8-cell first-row remainder plus37 complete rows and represents Bifid as a cellwise fold of two19x15 FAED panels. It does not identify the intended matrixsumlist operation.",
+  "reproduction": {
+    "command": "python3 -m tools.matrix_width_interface",
+    "test_command": "python3 -m unittest tests.test_matrix_width_interface -v",
+    "tool_sha256": "f30defe2888172bc015d379358bbcc6e31c51f021b3205183e2a1464f90928f3",
+    "test_sha256": "b7c31c7eb947ebf6fd6c69218db604b72e4256165e0d9a46b0f5889de9c3f854",
+    "tests_passed": 5
+  },
+  "limits": [
+    "Exact dimensional closure and reversible cell mapping do not prove creator intent.",
+    "Joining the adjacent dbbi and raw-label blocks row by row is an inferred matrix layout; no primary instruction explicitly chooses this orientation.",
+    "No sums, routes, numeric symbol maps, selectors, passwords, encrypted-container operations, or key interpretations were executed.",
+    "The receiving object for the fixed 19x15 planes remains unknown."
+  ],
+  "new_cryptographic_trials": 0,
+  "new_trial_inputs": 0,
+  "private_key_operations": 0,
+  "aes_operations": 0
+}

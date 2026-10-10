@@ -1,0 +1,19 @@
+{
+  "assumptions": "Adjacent fixed-length big-endian scalars, shared start, no arbitrary XOR/split/endian or wide payload scan; format unknown, finite interpretation only",
+  "cipher_parameters": "No new AES password trials; inputs are already recorded and audited padding-valid plaintexts",
+  "estimate_basis": "Planning estimate 10000 derivations/sec; actual runtime measured in result, not a benchmark claim",
+  "estimated_primary_ec_seconds": 0.0,
+  "gate": "Exact target address, then independent pure-Python EC/address verification; halt before publishing matching scalar",
+  "id": "C03-BINARY-KEY-PAIRS",
+  "reasoning": "The independently decoded checkerboard refers to two private keys; each 80-byte AES ciphertext admits 64..79 unpadded bytes, enough for two adjacent 32-byte scalars plus at most 15 bytes of metadata",
+  "search_space": {
+    "output_address_count_upper_bound": 0,
+    "public_key_encodings": 2,
+    "saved_padding_hits": 0,
+    "scoped_target_addresses": 2,
+    "slot_checks": 0
+  },
+  "source_evidence": [],
+  "status": "UNTESTED",
+  "transformation": "For every saved padding hit in the two 80-byte ciphertexts, test all 0..15 prefix lengths admitting two contiguous 32-byte big-endian keys; remainder treated as metadata, not manually removed"
+}

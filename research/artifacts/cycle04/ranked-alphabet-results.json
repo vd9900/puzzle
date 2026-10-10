@@ -1,0 +1,15 @@
+{
+  "aes_trials": 14976,
+  "candidate_set_sha256": "b5e97ab094cf3a9f604f1d1e1ed54774d80d9cc57b58a78d113a118cb9de26c9",
+  "elapsed_seconds": 17.171,
+  "id": "C04-RANKED-ALPHABET",
+  "ledger_sha256": "173aaff3f3d66991bd42031206c089b6c29b9ce5d93f7cd3a4824a0013ba71f9",
+  "max_hit_printable_ratio": 0.493671,
+  "padding_hits": 67,
+  "plan": "research/artifacts/cycle03/next-ranked-alphabet-plan.json",
+  "result": "Stable-ranked original-image axis sums as a checkerboard alphabet supplies no recognized structure or scoped target match; finite negative only",
+  "status": "INCONCLUSIVE",
+  "structure_hits": 0,
+  "target_matches": 0,
+  "unique_passwords": 2496
+}

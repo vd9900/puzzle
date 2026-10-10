@@ -1,0 +1,10 @@
+{
+  "elapsed_seconds": 11.984,
+  "id": "C05-DIRECT-SOURCE-KEYS",
+  "invalid_scalars": 0,
+  "ledger_sha256": "f504f5b8347041c07f85a0df60201fb8a76d9b944ce0f8d06d5ddca78434d24a",
+  "result": "No exact32-byte/hex64 material from the audited source-password ledgers derives either scoped target in compressed or uncompressed P2PKH form. This rejects only the stated direct-key family.",
+  "scalar_checks": 12475,
+  "status": "REJECTED",
+  "target_matches": 0
+}

@@ -1,0 +1,917 @@
+{
+  "assumptions": [
+    "Speaker labels are preserved attribution, not authentication",
+    "Ordinary stage language does not by itself define a bit/index operation",
+    "Prime and zeroing wording must not be strengthened beyond the source"
+  ],
+  "confidence": "HIGH for words/source spans; MEDIUM-HIGH for local piece reference; UNKNOWN for complete intended construction",
+  "contexts": {
+    "first_or_zero": {
+      "best_supported_referent": "first/zero puzzle-piece numbering",
+      "no_reply_identifier_preserved": true,
+      "not_a_defined_array_origin_or_bit_operator": true,
+      "public_question": "Do you mean the answer to another door from the 1st piece?",
+      "question_location": {
+        "archived_utc_timestamp": "2020-05-21T05:18:29+00:00",
+        "character_span_zero_based_half_open": [
+          294440,
+          294498
+        ],
+        "column_one_based": 1,
+        "header": "=== [21.05.2020 00:18:29 UTC-05:00] Detective Froz",
+        "line_one_based": 9802,
+        "source": {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          297456,
+          297514
+        ]
+      },
+      "question_to_response_seconds": 3270,
+      "window": [
+        {
+          "body_not_republished": true,
+          "location": {
+            "archived_utc_timestamp": "2020-05-21T02:36:25+00:00",
+            "character_span_zero_based_half_open": [
+              294111,
+              294325
+            ],
+            "column_one_based": 1,
+            "header": "=== [20.05.2020 21:36:25 UTC-05:00] Deleted Account",
+            "line_one_based": 9796,
+            "source": {
+              "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+              "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+            },
+            "utf8_byte_span_zero_based_half_open": [
+              297127,
+              297341
+            ]
+          },
+          "relative_message_index": -3
+        },
+        {
+          "body_not_republished": true,
+          "location": {
+            "archived_utc_timestamp": "2020-05-21T02:40:46+00:00",
+            "character_span_zero_based_half_open": [
+              294372,
+              294387
+            ],
+            "column_one_based": 1,
+            "header": "=== [20.05.2020 21:40:46 UTC-05:00] Jrk Bgrt",
+            "line_one_based": 9799,
+            "source": {
+              "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+              "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+            },
+            "utf8_byte_span_zero_based_half_open": [
+              297388,
+              297403
+            ]
+          },
+          "relative_message_index": -2
+        },
+        {
+          "body_not_republished": true,
+          "location": {
+            "archived_utc_timestamp": "2020-05-21T05:18:29+00:00",
+            "character_span_zero_based_half_open": [
+              294440,
+              294498
+            ],
+            "column_one_based": 1,
+            "header": "=== [21.05.2020 00:18:29 UTC-05:00] Detective Froz",
+            "line_one_based": 9802,
+            "source": {
+              "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+              "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+            },
+            "utf8_byte_span_zero_based_half_open": [
+              297456,
+              297514
+            ]
+          },
+          "relative_message_index": -1
+        },
+        {
+          "body_not_republished": true,
+          "location": {
+            "archived_utc_timestamp": "2020-05-21T06:12:59+00:00",
+            "character_span_zero_based_half_open": [
+              294545,
+              294558
+            ],
+            "column_one_based": 1,
+            "header": "=== [21.05.2020 01:12:59 UTC-05:00] Jrk Bgrt",
+            "line_one_based": 9805,
+            "source": {
+              "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+              "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+            },
+            "utf8_byte_span_zero_based_half_open": [
+              297561,
+              297574
+            ]
+          },
+          "relative_message_index": 0
+        }
+      ]
+    },
+    "prime_part": {
+      "confirms_prime_relevance_not_the_community_prime_values": true,
+      "no_source_mask_axis_or_operand_specified": true,
+      "public_community_question": "just say which primes 2,3,5,7 we need use",
+      "question_to_prime_response_seconds": 20,
+      "window": [
+        {
+          "body_not_republished": true,
+          "location": {
+            "archived_utc_timestamp": "2021-03-01T11:34:22+00:00",
+            "character_span_zero_based_half_open": [
+              451313,
+              451354
+            ],
+            "column_one_based": 1,
+            "header": "=== [01.03.2021 06:34:22 UTC-05:00] Janusz Baran",
+            "line_one_based": 14023,
+            "source": {
+              "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+              "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+            },
+            "utf8_byte_span_zero_based_half_open": [
+              456227,
+              456268
+            ]
+          },
+          "relative_message_index": -3
+        },
+        {
+          "body_not_republished": true,
+          "location": {
+            "archived_utc_timestamp": "2021-03-01T11:34:23+00:00",
+            "character_span_zero_based_half_open": [
+              451405,
+              451407
+            ],
+            "column_one_based": 1,
+            "header": "=== [01.03.2021 06:34:23 UTC-05:00] Janusz Baran",
+            "line_one_based": 14026,
+            "source": {
+              "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+              "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+            },
+            "utf8_byte_span_zero_based_half_open": [
+              456319,
+              456321
+            ]
+          },
+          "relative_message_index": -2
+        },
+        {
+          "body_not_republished": true,
+          "location": {
+            "archived_utc_timestamp": "2021-03-01T11:34:29+00:00",
+            "character_span_zero_based_half_open": [
+              451458,
+              451477
+            ],
+            "column_one_based": 1,
+            "header": "=== [01.03.2021 06:34:29 UTC-05:00] Janusz Baran",
+            "line_one_based": 14029,
+            "source": {
+              "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+              "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+            },
+            "utf8_byte_span_zero_based_half_open": [
+              456372,
+              456391
+            ]
+          },
+          "relative_message_index": -1
+        },
+        {
+          "body_not_republished": true,
+          "location": {
+            "archived_utc_timestamp": "2021-03-01T11:34:42+00:00",
+            "character_span_zero_based_half_open": [
+              451524,
+              451560
+            ],
+            "column_one_based": 1,
+            "header": "=== [01.03.2021 06:34:42 UTC-05:00] Jrk Bgrt",
+            "line_one_based": 14032,
+            "source": {
+              "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+              "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+            },
+            "utf8_byte_span_zero_based_half_open": [
+              456438,
+              456474
+            ]
+          },
+          "relative_message_index": 0
+        },
+        {
+          "body_not_republished": true,
+          "location": {
+            "archived_utc_timestamp": "2021-03-01T11:34:42+00:00",
+            "character_span_zero_based_half_open": [
+              451611,
+              451645
+            ],
+            "column_one_based": 1,
+            "header": "=== [01.03.2021 06:34:42 UTC-05:00] Janusz Baran",
+            "line_one_based": 14035,
+            "source": {
+              "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+              "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+            },
+            "utf8_byte_span_zero_based_half_open": [
+              456525,
+              456559
+            ]
+          },
+          "relative_message_index": 1
+        },
+        {
+          "body_not_republished": true,
+          "location": {
+            "archived_utc_timestamp": "2021-03-01T11:35:02+00:00",
+            "character_span_zero_based_half_open": [
+              451696,
+              451699
+            ],
+            "column_one_based": 1,
+            "header": "=== [01.03.2021 06:35:02 UTC-05:00] Janusz Baran",
+            "line_one_based": 14038,
+            "source": {
+              "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+              "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+            },
+            "utf8_byte_span_zero_based_half_open": [
+              456610,
+              456613
+            ]
+          },
+          "relative_message_index": 2
+        },
+        {
+          "body_not_republished": true,
+          "location": {
+            "archived_utc_timestamp": "2021-03-01T11:35:15+00:00",
+            "character_span_zero_based_half_open": [
+              451746,
+              451811
+            ],
+            "column_one_based": 1,
+            "header": "=== [01.03.2021 06:35:15 UTC-05:00] Jrk Bgrt",
+            "line_one_based": 14041,
+            "source": {
+              "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+              "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+            },
+            "utf8_byte_span_zero_based_half_open": [
+              456660,
+              456728
+            ]
+          },
+          "relative_message_index": 3
+        }
+      ]
+    },
+    "sumlist_response": {
+      "generic_prime_importance_not_a_yes_to_prime_valued_sumlist": true,
+      "no_reply_identifier_preserved": true,
+      "public_community_question": "sumlist matrix -contains prime numbers ? xD",
+      "question_to_response_seconds": 15223,
+      "window": [
+        {
+          "body_not_republished": true,
+          "location": {
+            "archived_utc_timestamp": "2023-01-09T05:57:03+00:00",
+            "character_span_zero_based_half_open": [
+              702331,
+              702374
+            ],
+            "column_one_based": 1,
+            "header": "=== [09.01.2023 00:57:03 UTC-05:00] Janusz Baran",
+            "line_one_based": 20073,
+            "source": {
+              "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+              "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+            },
+            "utf8_byte_span_zero_based_half_open": [
+              709930,
+              709973
+            ]
+          },
+          "relative_message_index": -1
+        },
+        {
+          "body_not_republished": true,
+          "location": {
+            "archived_utc_timestamp": "2023-01-09T10:10:46+00:00",
+            "character_span_zero_based_half_open": [
+              702421,
+              702480
+            ],
+            "column_one_based": 1,
+            "header": "=== [09.01.2023 05:10:46 UTC-05:00] Jrk Bgrt",
+            "line_one_based": 20076,
+            "source": {
+              "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+              "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+            },
+            "utf8_byte_span_zero_based_half_open": [
+              710020,
+              710079
+            ]
+          },
+          "relative_message_index": 0
+        }
+      ]
+    }
+  },
+  "contradictions": [
+    "No exact operand/site supplied",
+    "Generic importance is not confirmation of a community construction",
+    "Co-occurrence of prime and zeroing does not specify a shared mask or inverse operation",
+    "Inherited dialogue scaffolding must be separated from puzzle-specific edits"
+  ],
+  "date": "2026-10-01",
+  "hypotheses": [
+    {
+      "assumptions": [
+        "Chronology and labels are faithfully preserved",
+        "No unpreserved reply metadata may be inferred"
+      ],
+      "confidence": "MEDIUM-HIGH for local piece-numbering interpretation; UNKNOWN for data operation",
+      "contradictions": [
+        "No reply ID proves the antecedent",
+        "A stage reference does not specify source pixels, text or reinsertion"
+      ],
+      "hypothesis": "First/zero points back to the original puzzle piece rather than prescribing zero-based array indexing",
+      "id": "C14-FIRST-PIECE",
+      "input": "The fixed original dated wording and its bounded context",
+      "next_test": "Compare preserved baseline dialogue with puzzle-specific speech edits before counting these constraints as independent creator choices",
+      "operation_order": [
+        "identify original piece",
+        "return to its information",
+        "retain unspecified consuming operation"
+      ],
+      "output": "A typed constraint, not a generated construction or trial string",
+      "source_evidence": [
+        {
+          "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+          "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        {
+          "path": "research/artifacts/cycle13/relational-directives.json",
+          "sha256": "83df4133dc681862e5a7f9d9909584cb4ac207b385c546b0accec0b69bea9a72"
+        },
+        {
+          "path": "research/sources/maintained-hints__2021-03-01-primes.png",
+          "sha256": "233f67719bbec6be109a56b60c18a6d3ae705aefbe0ea8371eac57a72d96dede"
+        }
+      ],
+      "source_locations": [
+        "research/evidence/cycle02/_work__creator_jrk.txt:195",
+        "research/evidence/cycle02/_work__creator_jrk.txt:375",
+        "research/evidence/cycle02/_work__creator_jrk.txt:486",
+        "research/evidence/cycle02/_work__creator_jrk.txt:489",
+        "research/evidence/cycle02/_work__creator_jrk.txt:627",
+        "research/evidence/cycle02/_work__creator_jrk.txt:672",
+        "research/evidence/cycle02/_work__chat_transcript.txt:9802",
+        "research/evidence/cycle02/_work__chat_transcript.txt:20073"
+      ],
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "assumptions": [
+        "Chronology and labels are faithfully preserved",
+        "No unpreserved reply metadata may be inferred"
+      ],
+      "confidence": "HIGH for missing binding; UNKNOWN for intended relation",
+      "contradictions": [
+        "No creator wording binds zeroed characters to prime positions",
+        "No wording equates zeroing with deletion or says reinsertion reverses it",
+        "Separate operations may eventually share a construction, but this is not established"
+      ],
+      "hypothesis": "Zeroing and prime reinsertion are separately constrained operations until a common operand/site is established",
+      "id": "C14-ZEROING-SEPARATE",
+      "input": "The fixed original dated wording and its bounded context",
+      "next_test": "Compare preserved baseline dialogue with puzzle-specific speech edits before counting these constraints as independent creator choices",
+      "operation_order": [
+        "retain required prime relevance",
+        "retain some-character zeroing at an unspecified point",
+        "retain speech reinsertion-before-selection only conditionally"
+      ],
+      "output": "A typed constraint, not a generated construction or trial string",
+      "source_evidence": [
+        {
+          "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+          "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        {
+          "path": "research/artifacts/cycle13/relational-directives.json",
+          "sha256": "83df4133dc681862e5a7f9d9909584cb4ac207b385c546b0accec0b69bea9a72"
+        },
+        {
+          "path": "research/sources/maintained-hints__2021-03-01-primes.png",
+          "sha256": "233f67719bbec6be109a56b60c18a6d3ae705aefbe0ea8371eac57a72d96dede"
+        }
+      ],
+      "source_locations": [
+        "research/evidence/cycle02/_work__creator_jrk.txt:195",
+        "research/evidence/cycle02/_work__creator_jrk.txt:375",
+        "research/evidence/cycle02/_work__creator_jrk.txt:486",
+        "research/evidence/cycle02/_work__creator_jrk.txt:489",
+        "research/evidence/cycle02/_work__creator_jrk.txt:627",
+        "research/evidence/cycle02/_work__creator_jrk.txt:672",
+        "research/evidence/cycle02/_work__chat_transcript.txt:9802",
+        "research/evidence/cycle02/_work__chat_transcript.txt:20073"
+      ],
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "assumptions": [
+        "Chronology and labels are faithfully preserved",
+        "No unpreserved reply metadata may be inferred"
+      ],
+      "confidence": "HIGH for wording distinction; UNKNOWN for sumlist content",
+      "contradictions": [
+        "Community question and creator response have different assertion strength",
+        "No yes/no, sums, list entries, axis or container supplied"
+      ],
+      "hypothesis": "The January2023 response establishes prime importance but does not establish that a sumlist contains prime-valued entries",
+      "id": "C14-SUMLIST-PRIMES",
+      "input": "The fixed original dated wording and its bounded context",
+      "next_test": "Compare preserved baseline dialogue with puzzle-specific speech edits before counting these constraints as independent creator choices",
+      "operation_order": [
+        "map community sumlist question",
+        "map generic creator-attributed response",
+        "retain operand/type uncertainty"
+      ],
+      "output": "A typed constraint, not a generated construction or trial string",
+      "source_evidence": [
+        {
+          "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+          "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        {
+          "path": "research/artifacts/cycle13/relational-directives.json",
+          "sha256": "83df4133dc681862e5a7f9d9909584cb4ac207b385c546b0accec0b69bea9a72"
+        },
+        {
+          "path": "research/sources/maintained-hints__2021-03-01-primes.png",
+          "sha256": "233f67719bbec6be109a56b60c18a6d3ae705aefbe0ea8371eac57a72d96dede"
+        }
+      ],
+      "source_locations": [
+        "research/evidence/cycle02/_work__creator_jrk.txt:195",
+        "research/evidence/cycle02/_work__creator_jrk.txt:375",
+        "research/evidence/cycle02/_work__creator_jrk.txt:486",
+        "research/evidence/cycle02/_work__creator_jrk.txt:489",
+        "research/evidence/cycle02/_work__creator_jrk.txt:627",
+        "research/evidence/cycle02/_work__creator_jrk.txt:672",
+        "research/evidence/cycle02/_work__chat_transcript.txt:9802",
+        "research/evidence/cycle02/_work__chat_transcript.txt:20073"
+      ],
+      "status": "INCONCLUSIVE"
+    }
+  ],
+  "hypothesis": "Original-piece/prime/zeroing chronology supplies a source, operand or insertion site for the speech's local dependency",
+  "id": "C14-SOURCE-BINDING-AUDIT",
+  "input": "Six dated public records, three bounded source windows and the frozen speech audit",
+  "new_cryptographic_trials": 0,
+  "new_trial_inputs": 0,
+  "next_test": "Source-map preserved movie-dialogue quotations against verified modified speech, distinguish inherited prime/order/numeric scaffolding from puzzle-specific edits, and retain baseline attribution limits.",
+  "operation_constraints": {
+    "carried_code_object": "NOT_SPECIFIED",
+    "original_piece_return_supported": true,
+    "prime_mask_values_axis_and_order": "NOT_SPECIFIED",
+    "prime_relevance_explicit": true,
+    "reinsertion_site": "NOT_SPECIFIED",
+    "same_operand_or_site": "NOT_SPECIFIED",
+    "some_character_zeroing_explicit": true,
+    "zeroing_equals_inverse_of_reinsertion": "NOT_SPECIFIED",
+    "zeroing_means_deletion": "NOT_SPECIFIED"
+  },
+  "operation_order": [
+    "bind six exact dated creator-labeled records",
+    "verify corresponding full-chat locations",
+    "map three fixed antecedent windows",
+    "separate constraints on stages from constraints on operands/operations"
+  ],
+  "output": "Source-mapped chronology, three finite assertion-strength hypotheses and missing binding fields",
+  "records": [
+    {
+      "creator_labeled_export": {
+        "archived_utc_timestamp": "2020-01-14T10:38:06+00:00",
+        "character_span_zero_based_half_open": [
+          7395,
+          7629
+        ],
+        "column_one_based": 1,
+        "header": "=== [14.01.2020 05:38:06 UTC-05:00] Jrk Bgrt",
+        "line_one_based": 195,
+        "source": {
+          "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+          "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          7431,
+          7665
+        ]
+      },
+      "full_transcript": {
+        "archived_utc_timestamp": "2020-01-14T10:38:06+00:00",
+        "character_span_zero_based_half_open": [
+          112144,
+          112378
+        ],
+        "column_one_based": 1,
+        "header": "=== [14.01.2020 05:38:06 UTC-05:00] Jrk Bgrt",
+        "line_one_based": 3941,
+        "source": {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          113598,
+          113832
+        ]
+      },
+      "matching_exports_are_not_independent_authentication": true,
+      "name": "first-piece",
+      "phrases": [
+        {
+          "character_span_zero_based_half_open": [
+            7426,
+            7463
+          ],
+          "column_one_based": 1,
+          "line_one_based": 196,
+          "literal": "Yellow has a number and so does Blue.",
+          "utf8_byte_span_zero_based_half_open": [
+            7462,
+            7499
+          ]
+        },
+        {
+          "character_span_zero_based_half_open": [
+            7464,
+            7518
+          ],
+          "column_one_based": 1,
+          "line_one_based": 197,
+          "literal": "Go back to the first puzzle piece without further ado.",
+          "utf8_byte_span_zero_based_half_open": [
+            7500,
+            7554
+          ]
+        }
+      ]
+    },
+    {
+      "creator_labeled_export": {
+        "archived_utc_timestamp": "2020-05-21T06:12:59+00:00",
+        "character_span_zero_based_half_open": [
+          12973,
+          12986
+        ],
+        "column_one_based": 1,
+        "header": "=== [21.05.2020 01:12:59 UTC-05:00] Jrk Bgrt",
+        "line_one_based": 375,
+        "source": {
+          "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+          "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          13077,
+          13090
+        ]
+      },
+      "full_transcript": {
+        "archived_utc_timestamp": "2020-05-21T06:12:59+00:00",
+        "character_span_zero_based_half_open": [
+          294545,
+          294558
+        ],
+        "column_one_based": 1,
+        "header": "=== [21.05.2020 01:12:59 UTC-05:00] Jrk Bgrt",
+        "line_one_based": 9805,
+        "source": {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          297561,
+          297574
+        ]
+      },
+      "matching_exports_are_not_independent_authentication": true,
+      "name": "first-or-zero",
+      "phrases": [
+        {
+          "character_span_zero_based_half_open": [
+            12973,
+            12986
+          ],
+          "column_one_based": 1,
+          "line_one_based": 375,
+          "literal": "First or zero",
+          "utf8_byte_span_zero_based_half_open": [
+            13077,
+            13090
+          ]
+        }
+      ]
+    },
+    {
+      "creator_labeled_export": {
+        "archived_utc_timestamp": "2021-03-01T11:34:42+00:00",
+        "character_span_zero_based_half_open": [
+          16490,
+          16526
+        ],
+        "column_one_based": 1,
+        "header": "=== [01.03.2021 06:34:42 UTC-05:00] Jrk Bgrt",
+        "line_one_based": 486,
+        "source": {
+          "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+          "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          16617,
+          16653
+        ]
+      },
+      "full_transcript": {
+        "archived_utc_timestamp": "2021-03-01T11:34:42+00:00",
+        "character_span_zero_based_half_open": [
+          451524,
+          451560
+        ],
+        "column_one_based": 1,
+        "header": "=== [01.03.2021 06:34:42 UTC-05:00] Jrk Bgrt",
+        "line_one_based": 14032,
+        "source": {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          456438,
+          456474
+        ]
+      },
+      "matching_exports_are_not_independent_authentication": true,
+      "name": "prime-part",
+      "phrases": [
+        {
+          "character_span_zero_based_half_open": [
+            16490,
+            16526
+          ],
+          "column_one_based": 1,
+          "line_one_based": 486,
+          "literal": "You are at the prime part already???",
+          "utf8_byte_span_zero_based_half_open": [
+            16617,
+            16653
+          ]
+        }
+      ]
+    },
+    {
+      "creator_labeled_export": {
+        "archived_utc_timestamp": "2021-03-01T11:35:15+00:00",
+        "character_span_zero_based_half_open": [
+          16573,
+          16638
+        ],
+        "column_one_based": 1,
+        "header": "=== [01.03.2021 06:35:15 UTC-05:00] Jrk Bgrt",
+        "line_one_based": 489,
+        "source": {
+          "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+          "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          16700,
+          16768
+        ]
+      },
+      "full_transcript": {
+        "archived_utc_timestamp": "2021-03-01T11:35:15+00:00",
+        "character_span_zero_based_half_open": [
+          451746,
+          451811
+        ],
+        "column_one_based": 1,
+        "header": "=== [01.03.2021 06:35:15 UTC-05:00] Jrk Bgrt",
+        "line_one_based": 14041,
+        "source": {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          456660,
+          456728
+        ]
+      },
+      "matching_exports_are_not_independent_authentication": true,
+      "name": "prime-aside",
+      "phrases": [
+        {
+          "character_span_zero_based_half_open": [
+            16573,
+            16635
+          ],
+          "column_one_based": 1,
+          "line_one_based": 489,
+          "literal": "Oh wait, shouldn't have said that. That might have been a hint",
+          "utf8_byte_span_zero_based_half_open": [
+            16700,
+            16762
+          ]
+        }
+      ]
+    },
+    {
+      "creator_labeled_export": {
+        "archived_utc_timestamp": "2021-12-26T20:18:32+00:00",
+        "character_span_zero_based_half_open": [
+          21000,
+          21354
+        ],
+        "column_one_based": 1,
+        "header": "=== [26.12.2021 15:18:32 UTC-05:00] Jrk Bgrt",
+        "line_one_based": 627,
+        "source": {
+          "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+          "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          21172,
+          21529
+        ]
+      },
+      "full_transcript": {
+        "archived_utc_timestamp": "2021-12-26T20:18:32+00:00",
+        "character_span_zero_based_half_open": [
+          670786,
+          671140
+        ],
+        "column_one_based": 1,
+        "header": "=== [26.12.2021 15:18:32 UTC-05:00] Jrk Bgrt",
+        "line_one_based": 19305,
+        "source": {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          678066,
+          678423
+        ]
+      },
+      "matching_exports_are_not_independent_authentication": true,
+      "name": "prime-and-zeroing",
+      "phrases": [
+        {
+          "character_span_zero_based_half_open": [
+            21154,
+            21183
+          ],
+          "column_one_based": 155,
+          "line_one_based": 627,
+          "literal": "prime numbers being mentioned",
+          "utf8_byte_span_zero_based_half_open": [
+            21326,
+            21355
+          ]
+        },
+        {
+          "character_span_zero_based_half_open": [
+            21278,
+            21317
+          ],
+          "column_one_based": 279,
+          "line_one_based": 627,
+          "literal": "some characters need to be 'zeroed out'",
+          "utf8_byte_span_zero_based_half_open": [
+            21450,
+            21489
+          ]
+        }
+      ]
+    },
+    {
+      "creator_labeled_export": {
+        "archived_utc_timestamp": "2023-01-09T10:10:46+00:00",
+        "character_span_zero_based_half_open": [
+          22647,
+          22706
+        ],
+        "column_one_based": 1,
+        "header": "=== [09.01.2023 05:10:46 UTC-05:00] Jrk Bgrt",
+        "line_one_based": 672,
+        "source": {
+          "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+          "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          22834,
+          22893
+        ]
+      },
+      "full_transcript": {
+        "archived_utc_timestamp": "2023-01-09T10:10:46+00:00",
+        "character_span_zero_based_half_open": [
+          702421,
+          702480
+        ],
+        "column_one_based": 1,
+        "header": "=== [09.01.2023 05:10:46 UTC-05:00] Jrk Bgrt",
+        "line_one_based": 20076,
+        "source": {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          710020,
+          710079
+        ]
+      },
+      "matching_exports_are_not_independent_authentication": true,
+      "name": "prime-importance",
+      "phrases": [
+        {
+          "character_span_zero_based_half_open": [
+            22647,
+            22706
+          ],
+          "column_one_based": 1,
+          "line_one_based": 672,
+          "literal": "At least prime number is very important to get any further.",
+          "utf8_byte_span_zero_based_half_open": [
+            22834,
+            22893
+          ]
+        }
+      ]
+    }
+  ],
+  "result": "First/zero has direct puzzle-piece numbering context; prime relevance is explicit, but neither the March2021 question nor January2023 sumlist question is a creator-specified prime selection. Prime zeroing/reinsertion remains unbound; no new transformation is justified.",
+  "search_space": {
+    "context_messages": 13,
+    "dated_creator_records": 6,
+    "finite_assertion_hypotheses": 3,
+    "fixed_context_windows": 3
+  },
+  "source_evidence": [
+    {
+      "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+      "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+    },
+    {
+      "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+      "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+    },
+    {
+      "path": "research/artifacts/cycle13/relational-directives.json",
+      "sha256": "83df4133dc681862e5a7f9d9909584cb4ac207b385c546b0accec0b69bea9a72"
+    },
+    {
+      "path": "research/sources/maintained-hints__2021-03-01-primes.png",
+      "sha256": "233f67719bbec6be109a56b60c18a6d3ae705aefbe0ea8371eac57a72d96dede"
+    }
+  ],
+  "source_locations": [
+    "research/evidence/cycle02/_work__creator_jrk.txt:195",
+    "research/evidence/cycle02/_work__creator_jrk.txt:375",
+    "research/evidence/cycle02/_work__creator_jrk.txt:486",
+    "research/evidence/cycle02/_work__creator_jrk.txt:489",
+    "research/evidence/cycle02/_work__creator_jrk.txt:627",
+    "research/evidence/cycle02/_work__creator_jrk.txt:672",
+    "research/evidence/cycle02/_work__chat_transcript.txt:9802",
+    "research/evidence/cycle02/_work__chat_transcript.txt:20073"
+  ],
+  "status": "INCONCLUSIVE"
+}

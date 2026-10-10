@@ -1,0 +1,2327 @@
+{
+  "candidate_set_sha256": "8066302b98f30b6358c6f4aca284b06366690af4e58c81251b70b9fc3c5a562a",
+  "estimated_crypto_seconds": 0.0101,
+  "forms": [
+    {
+      "decoded_base64": "MDExMDExMDAxMTExMTAxMTAwMDExMDAwMDExMDAwMDAwMTEwMTAxMDEwMDAxMDAxMTEwMTAwMTAwMDAxMTAwMDEwMDAxMDEwMTExMDAwMTAxMTAxMTAwMDEwMTAxMDExMDAxMTEwMTEwMDExMDAwMDEwMDExMDAxMDExMTAxMDExMTExMTEwMDAxMTAwMTAxMTAxMTAxMTExMTAxMDExMTAwMDAwMDExMTAxMDExMTAxMDEwMTAxMDAxMDAxMDEwMTAwMTExMTExMDExMTExMDEwMDEwMTExMTExMTAwMTEwMDAxMTAwMDAxMDAxMTEwMDExMTAxMDExMTAwMTAwMTEwMTEwMTExMDEwMTEwMTExMDEwMTAxMTAwMTEwMDAwMDAxMDEwMTExMTAxMTExMDEwMTAwMDAxMDAwMDAwMTExMDEwMDAxMDAxMTAxMDEwMDAwMTAxMTExMDExMTExMTExMDAwMDAwMTExMDAxMTAwMDAwMDExMTEwMTAxMTExMDAxMDExMDAxMDAwMTExMTAwMTEwMDExMDExMDExMDExMTEwMTAwMDExMTAxMDEwMTAwMDEwMTAwMDAwMDExMDAxMDEwMDAxMDAwMTAwMTExMTEwMTEwMTExMDExMDAxMTAxMDExMDAxMDAxMTAxMDAwMTAxMTAwMDEwMDExMDEwMTEwMTAxMDAwMDAwMDAwMTAxMDAwMDAwMDExMDAxMTAwMDEwMDEwMTAwMDExMDAwMDAwMDAxMDEx",
+      "digits": "011011001111101100011000011000000110101010001001110100100001100010001010111000101101100010101011001110110011000010011001011101011111110001100101101101111101011100000011101011101010101001001010100111111011111010010111111100110001100001001110011101011100100110110111010110111010101100110000001010111101111010100001000000111010001001101010000101111011111111000000111001100000011110101111001011001000111100110011011011011110100011101010100010100000011001010001000100111110110111011001101011001001101000101100010011010110101000000000101000000011001100010010100011000000001011",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "parameters": {
+        "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+        "coordinate_order": "row-column",
+        "digit_count": 570,
+        "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+        "radix": 2,
+        "rail": "binary-row",
+        "reverse_digits": false,
+        "serialization": "ascii-digits"
+      },
+      "score": {
+        "alphabetic_ratio": 0.0,
+        "bytes": 570,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 570,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded_base64": "AAEBAAEBAAABAQEBAQABAQAAAAEBAAAAAAEBAAAAAAAAAQEAAQABAAEAAAABAAABAQEAAQAAAQAAAAABAQAAAAEAAAABAAEAAQEBAAAAAQABAQABAQAAAAEAAQABAAEBAAABAQEAAQEAAAEBAAAAAAEAAAEBAAABAAEBAQABAAEBAQEBAQEAAAABAQAAAQABAQABAQABAQEBAQABAAEBAQAAAAAAAAEBAQABAAEBAQABAAEAAQABAAABAAABAAEAAQAAAQEBAQEBAAEBAQEBAAEAAAEAAQEBAQEBAQAAAQEAAAABAQAAAAABAAABAQEAAAEBAQABAAEBAQAAAQAAAQEAAQEAAQEBAAEAAQEAAQEBAAEAAQABAQAAAQEAAAAAAAABAAEAAQEBAQABAQEBAAEAAQAAAAABAAAAAAAAAQEBAAEAAAABAAABAQABAAEAAAAAAQABAQEBAAEBAQEBAQEBAAAAAAAAAQEBAAABAQAAAAAAAAEBAQEAAQABAQEBAAABAAEBAAABAAAAAQEBAQAAAQEAAAEBAAEBAAEBAAEBAQEAAQAAAAEBAQABAAEAAQAAAAEAAQAAAAAAAAEBAAABAAEAAAABAAAAAQAAAQEBAQEAAQEAAQEBAAEBAAABAQABAAEBAAABAAABAQABAAAAAQABAQAAAAEAAAEBAAEAAQEAAQABAAAAAAAAAAAAAQABAAAAAAAAAAEBAAABAQAAAAEAAAEAAQAAAAEBAAAAAAAAAAABAAEB",
+      "digits": "011011001111101100011000011000000110101010001001110100100001100010001010111000101101100010101011001110110011000010011001011101011111110001100101101101111101011100000011101011101010101001001010100111111011111010010111111100110001100001001110011101011100100110110111010110111010101100110000001010111101111010100001000000111010001001101010000101111011111111000000111001100000011110101111001011001000111100110011011011011110100011101010100010100000011001010001000100111110110111011001101011001001101000101100010011010110101000000000101000000011001100010010100011000000001011",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "parameters": {
+        "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+        "coordinate_order": "row-column",
+        "digit_count": 570,
+        "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+        "radix": 2,
+        "rail": "binary-row",
+        "reverse_digits": false,
+        "serialization": "raw-digit-bytes"
+      },
+      "score": {
+        "alphabetic_ratio": 0.0,
+        "bytes": 570,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 0,
+        "printable_ratio": 0.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded_base64": "AbPsYYGqJ0hiK4tirOzCZdfxlt9cDrqpKn76X8xhOdcm3W6swK96hA6JqF7/A5gevLI8zbejqigZRE+3ZrJosTWoAoDMSjAL",
+      "digits": "011011001111101100011000011000000110101010001001110100100001100010001010111000101101100010101011001110110011000010011001011101011111110001100101101101111101011100000011101011101010101001001010100111111011111010010111111100110001100001001110011101011100100110110111010110111010101100110000001010111101111010100001000000111010001001101010000101111011111111000000111001100000011110101111001011001000111100110011011011011110100011101010100010100000011001010001000100111110110111011001101011001001101000101100010011010110101000000000101000000011001100010010100011000000001011",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "parameters": {
+        "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+        "coordinate_order": "row-column",
+        "digit_count": 570,
+        "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+        "radix": 2,
+        "rail": "binary-row",
+        "reverse_digits": false,
+        "serialization": "minimal-integer-big-endian"
+      },
+      "score": {
+        "alphabetic_ratio": 0.180556,
+        "bytes": 72,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 4,
+        "printable_ratio": 0.361111,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded_base64": null,
+      "digits": "011011001111101100011000011000000110101010001001110100100001100010001010111000101101100010101011001110110011000010011001011101011111110001100101101101111101011100000011101011101010101001001010100111111011111010010111111100110001100001001110011101011100100110110111010110111010101100110000001010111101111010100001000000111010001001101010000101111011111111000000111001100000011110101111001011001000111100110011011011011110100011101010100010100000011001010001000100111110110111011001101011001001101000101100010011010110101000000000101000000011001100010010100011000000001011",
+      "downstream_validity": null,
+      "error": "Incomplete byte chunk; no tail dropping or invented padding",
+      "parameters": {
+        "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+        "coordinate_order": "row-column",
+        "digit_count": 570,
+        "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+        "radix": 2,
+        "rail": "binary-row",
+        "reverse_digits": false,
+        "serialization": "strict-byte-chunks"
+      },
+      "score": null
+    },
+    {
+      "decoded_base64": "MTEwMTAwMDAwMDAwMTEwMDAxMDEwMDEwMDAxMTAwMTEwMDAwMDAwMTAxMDAwMDAwMDAwMTAxMDExMDEwMTEwMDEwMDAxMTAxMDAwMTAxMTAwMTAwMTEwMTAxMTAwMTEwMTExMDExMDExMTExMDAxMDAwMTAwMDEwMTAwMTEwMDAwMDAxMDEwMDAxMDEwMTAxMTEwMDAxMDExMTEwMTEwMTEwMTEwMDExMDAxMTExMDAwMTAwMTEwMTAwMTExMTAxMDExMTEwMDAwMDAxMTAwMTExMDAwMDAwMTExMTExMTEwMTExMTAxMDAwMDEwMTAxMTAwMTAwMDEwMTExMDAwMDAwMTAwMDAxMDEwMTExMTAxMTExMDEwMTAwMDAwMDExMDAxMTAxMDEwMTExMDExMDEwMTExMDExMDExMDAxMDAxMTEwMTAxMTEwMDExMTAwMTAwMDAxMTAwMDExMDAxMTExMTExMDEwMDEwMTExMTEwMTExMTExMDAxMDEwMTAwMTAwMTAxMDEwMTAxMTEwMTAxMTEwMDAwMDAxMTEwMTAxMTExMTAxMTAxMTAxMDAxMTAwMDExMTExMTEwMTAxMTEwMTAwMTEwMDEwMDAwMTEwMDExMDExMTAwMTEwMTAxMDEwMDAxMTAxMTAxMDAwMTExMDEwMTAwMDEwMDAxMTAwMDAxMDAxMDExMTAwMTAwMDEwMTAxMDExMDAwMDAwMTEwMDAwMTEwMDAxMTAxMTExMTAwMTEwMTEw",
+      "digits": "110100000000110001010010001100110000000101000000000101011010110010001101000101100100110101100110111011011111001000100010100110000001010001010101110001011110110110110011001111000100110100111101011110000001100111000000111111110111101000010101100100010111000000100001010111101111010100000011001101010111011010111011011001001110101110011100100001100011001111111010010111110111111001010100100101010101110101110000001110101111101101101001100011111110101110100110010000110011011100110101010001101101000111010100010001100001001011100100010101011000000110000110001101111100110110",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "parameters": {
+        "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+        "coordinate_order": "row-column",
+        "digit_count": 570,
+        "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+        "radix": 2,
+        "rail": "binary-row",
+        "reverse_digits": true,
+        "serialization": "ascii-digits"
+      },
+      "score": {
+        "alphabetic_ratio": 0.0,
+        "bytes": 570,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 570,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded_base64": "AQEAAQAAAAAAAAAAAQEAAAABAAEAAAEAAAABAQAAAQEAAAAAAAAAAQABAAAAAAAAAAAAAQABAAEBAAEAAQEAAAEAAAABAQABAAAAAQABAQAAAQAAAQEAAQABAQAAAQEAAQEBAAEBAAEBAQEBAAABAAAAAQAAAAEAAQAAAQEAAAAAAAABAAEAAAABAAEAAQABAQEAAAABAAEBAQEAAQEAAQEAAQEAAAEBAAABAQEBAAAAAQAAAQEAAQAAAQEBAQABAAEBAQEAAAAAAAABAQAAAQEBAAAAAAAAAQEBAQEBAQEAAQEBAQABAAAAAAEAAQABAQAAAQAAAAEAAQEBAAAAAAAAAQAAAAABAAEAAQEBAQABAQEBAAEAAQAAAAAAAAEBAAABAQABAAEAAQEBAAEBAAEAAQEBAAEBAAEBAAABAAABAQEAAQABAQEAAAEBAQAAAQAAAAABAQAAAAEBAAABAQEBAQEBAAEAAAEAAQEBAQEAAQEBAQEBAAABAAEAAQAAAQAAAQABAAEAAQABAQEAAQABAQEAAAAAAAABAQEAAQABAQEBAQABAQABAQABAAABAQAAAAEBAQEBAQEAAQABAQEAAQAAAQEAAAEAAAAAAQEAAAEBAAEBAQAAAQEAAQABAAEAAAABAQABAQABAAAAAQEBAAEAAQAAAAEAAAABAQAAAAABAAABAAEBAQAAAQAAAAEAAQABAAEBAAAAAAAAAQEAAAAAAQEAAAABAQABAQEBAQAAAQEAAQEA",
+      "digits": "110100000000110001010010001100110000000101000000000101011010110010001101000101100100110101100110111011011111001000100010100110000001010001010101110001011110110110110011001111000100110100111101011110000001100111000000111111110111101000010101100100010111000000100001010111101111010100000011001101010111011010111011011001001110101110011100100001100011001111111010010111110111111001010100100101010101110101110000001110101111101101101001100011111110101110100110010000110011011100110101010001101101000111010100010001100001001011100100010101011000000110000110001101111100110110",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "parameters": {
+        "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+        "coordinate_order": "row-column",
+        "digit_count": 570,
+        "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+        "radix": 2,
+        "rail": "binary-row",
+        "reverse_digits": true,
+        "serialization": "raw-digit-bytes"
+      },
+      "score": {
+        "alphabetic_ratio": 0.0,
+        "bytes": 570,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 0,
+        "printable_ratio": 0.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded_base64": "A0AxSMwFAFayNFk1m7fIimBRVxe2zPE09eBnA/3oVkXAhXvUDNXa7ZOuchjP6X35UlV1wOvtpj+umQzc1RtHURhLkVYGGN82",
+      "digits": "110100000000110001010010001100110000000101000000000101011010110010001101000101100100110101100110111011011111001000100010100110000001010001010101110001011110110110110011001111000100110100111101011110000001100111000000111111110111101000010101100100010111000000100001010111101111010100000011001101010111011010111011011001001110101110011100100001100011001111111010010111110111111001010100100101010101110101110000001110101111101101101001100011111110101110100110010000110011011100110101010001101101000111010100010001100001001011100100010101011000000110000110001101111100110110",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "parameters": {
+        "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+        "coordinate_order": "row-column",
+        "digit_count": 570,
+        "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+        "radix": 2,
+        "rail": "binary-row",
+        "reverse_digits": true,
+        "serialization": "minimal-integer-big-endian"
+      },
+      "score": {
+        "alphabetic_ratio": 0.222222,
+        "bytes": 72,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 3,
+        "printable_ratio": 0.361111,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded_base64": null,
+      "digits": "110100000000110001010010001100110000000101000000000101011010110010001101000101100100110101100110111011011111001000100010100110000001010001010101110001011110110110110011001111000100110100111101011110000001100111000000111111110111101000010101100100010111000000100001010111101111010100000011001101010111011010111011011001001110101110011100100001100011001111111010010111110111111001010100100101010101110101110000001110101111101101101001100011111110101110100110010000110011011100110101010001101101000111010100010001100001001011100100010101011000000110000110001101111100110110",
+      "downstream_validity": null,
+      "error": "Incomplete byte chunk; no tail dropping or invented padding",
+      "parameters": {
+        "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+        "coordinate_order": "row-column",
+        "digit_count": 570,
+        "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+        "radix": 2,
+        "rail": "binary-row",
+        "reverse_digits": true,
+        "serialization": "strict-byte-chunks"
+      },
+      "score": null
+    },
+    {
+      "decoded_base64": "MTAwMTExMDAxMTExMDExMTAwMTAwMTAwMTAwMTAwMDAxMDAxMDEwMTAxMDAwMTEwMTExMDAwMDEwMDEwMDEwMDAxMDAwMTAxMTEwMTAwMDExMTEwMDEwMDAxMDEwMTExMDAxMTAxMTEwMDExMDAwMDAxMTAwMTEwMTAxMTEwMTAxMTExMTEwMDEwMDExMDEwMDExMTEwMTExMTEwMTAxMTAwMDAwMDExMDEwMTExMDEwMTAxMDEwMTEwMDAwMTAxMDExMDExMTEwMTExMTEwMTAxMTAxMDExMTExMTAwMTEwMDEwMDEwMDEwMDAxMTAxMTAxMTEwMTAxMTAwMDExMDAxMTExMDExMTAxMDAxMTEwMTAxMDExMTAwMTEwMDAwMDAwMTAxMTExMTEwMTEwMTAxMDEwMDEwMDAwMDAwMTEwMTAxMDAwMTEwMDEwMTAxMDAxMDEwMTEwMTExMTExMTExMDAwMDAwMTEwMTEwMDEwMDAwMTAxMTAxMDExMTExMDAwMTExMDAwMTAwMTExMTAwMTEwMDExMTAwMTExMTAxMTAxMDEwMDExMDEwMTAxMDEwMDAxMDEwMDAwMTAwMTEwMTAwMDEwMDAxMDAwMTExMTAxMTExMDExMTAwMTEwMDEwMTExMDAwMTEwMDEwMTAwMDExMTAwMTAwMDExMTAxMDAxMDEwMTAwMDAwMDAwMDEwMTAwMDAwMDExMDAxMTAwMTAwMDAxMDEwMDExMDAwMDAwMDAwMTEx",
+      "digits": "100111001111011100100100100100001001010101000110111000010010010001000101110100011110010001010111001101110011000001100110101110101111110010011010011110111110101100000011010111010101010110000101011011110111110101101011111100110010010010001101101110101100011001111011101001110101011100110000000101111110110101010010000000110101000110010101001010110111111111000000110110010000101101011111000111000100111100110011100111101101010011010101010001010000100110100010001000111101111011100110010111000110010100011100100011101001010100000000010100000011001100100001010011000000000111",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "parameters": {
+        "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+        "coordinate_order": "column-row",
+        "digit_count": 570,
+        "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+        "radix": 2,
+        "rail": "binary-row",
+        "reverse_digits": false,
+        "serialization": "ascii-digits"
+      },
+      "score": {
+        "alphabetic_ratio": 0.0,
+        "bytes": 570,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 570,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded_base64": "AQAAAQEBAAABAQEBAAEBAQAAAQAAAQAAAQAAAQAAAAABAAABAAEAAQABAAAAAQEAAQEBAAAAAAEAAAEAAAEAAAABAAAAAQABAQEAAQAAAAEBAQEAAAEAAAABAAEAAQEBAAABAQABAQEAAAEBAAAAAAABAQAAAQEAAQABAQEAAQABAQEBAQEAAAEAAAEBAAEAAAEBAQEAAQEBAQEAAQABAQAAAAAAAAEBAAEAAQEBAAEAAQABAAEAAQEAAAAAAQABAAEBAAEBAQEAAQEBAQEAAQABAQABAAEBAQEBAQAAAQEAAAEAAAEAAAEAAAABAQABAQABAQEAAQABAQAAAAEBAAABAQEBAAEBAQABAAABAQEAAQABAAEBAQAAAQEAAAAAAAAAAQABAQEBAQEAAQEAAQABAAEAAAEAAAAAAAAAAQEAAQABAAAAAQEAAAEAAQABAAABAAEAAQEAAQEBAQEBAQEBAAAAAAAAAQEAAQEAAAEAAAAAAQABAQABAAEBAQEBAAAAAQEBAAAAAQAAAQEBAQAAAQEAAAEBAQAAAQEBAQABAQABAAEAAAEBAAEAAQABAAEAAAABAAEAAAAAAQAAAQEAAQAAAAEAAAABAAAAAQEBAQABAQEBAAEBAQAAAQEAAAEAAQEBAAAAAQEAAAEAAQAAAAEBAQAAAQAAAAEBAQABAAABAAEAAQAAAAAAAAAAAAEAAQAAAAAAAAEBAAABAQAAAQAAAAABAAEAAAEBAAAAAAAAAAAAAQEB",
+      "digits": "100111001111011100100100100100001001010101000110111000010010010001000101110100011110010001010111001101110011000001100110101110101111110010011010011110111110101100000011010111010101010110000101011011110111110101101011111100110010010010001101101110101100011001111011101001110101011100110000000101111110110101010010000000110101000110010101001010110111111111000000110110010000101101011111000111000100111100110011100111101101010011010101010001010000100110100010001000111101111011100110010111000110010100011100100011101001010100000000010100000011001100100001010011000000000111",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "parameters": {
+        "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+        "coordinate_order": "column-row",
+        "digit_count": 570,
+        "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+        "radix": 2,
+        "rail": "binary-row",
+        "reverse_digits": false,
+        "serialization": "raw-digit-bytes"
+      },
+      "score": {
+        "alphabetic_ratio": 0.0,
+        "bytes": 570,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 0,
+        "printable_ratio": 0.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded_base64": "AnPckkJVG4SRF0eRXNzBmuvyae+sDXVWFb31r8ySNusZ7p1cwF+1SA1GVK3/A2QtfHE8zntTVRQmiI97mXGUcjpUAUDMhTAH",
+      "digits": "100111001111011100100100100100001001010101000110111000010010010001000101110100011110010001010111001101110011000001100110101110101111110010011010011110111110101100000011010111010101010110000101011011110111110101101011111100110010010010001101101110101100011001111011101001110101011100110000000101111110110101010010000000110101000110010101001010110111111111000000110110010000101101011111000111000100111100110011100111101101010011010101010001010000100110100010001000111101111011100110010111000110010100011100100011101001010100000000010100000011001100100001010011000000000111",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "parameters": {
+        "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+        "coordinate_order": "column-row",
+        "digit_count": 570,
+        "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+        "radix": 2,
+        "rail": "binary-row",
+        "reverse_digits": false,
+        "serialization": "minimal-integer-big-endian"
+      },
+      "score": {
+        "alphabetic_ratio": 0.236111,
+        "bytes": 72,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 5,
+        "printable_ratio": 0.444444,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded_base64": null,
+      "digits": "100111001111011100100100100100001001010101000110111000010010010001000101110100011110010001010111001101110011000001100110101110101111110010011010011110111110101100000011010111010101010110000101011011110111110101101011111100110010010010001101101110101100011001111011101001110101011100110000000101111110110101010010000000110101000110010101001010110111111111000000110110010000101101011111000111000100111100110011100111101101010011010101010001010000100110100010001000111101111011100110010111000110010100011100100011101001010100000000010100000011001100100001010011000000000111",
+      "downstream_validity": null,
+      "error": "Incomplete byte chunk; no tail dropping or invented padding",
+      "parameters": {
+        "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+        "coordinate_order": "column-row",
+        "digit_count": 570,
+        "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+        "radix": 2,
+        "rail": "binary-row",
+        "reverse_digits": false,
+        "serialization": "strict-byte-chunks"
+      },
+      "score": null
+    },
+    {
+      "decoded_base64": "MTExMDAwMDAwMDAwMTEwMDEwMTAwMDAxMDAxMTAwMTEwMDAwMDAxMDEwMDAwMDAwMDAxMDEwMTAwMTAxMTEwMDAxMDAxMTEwMDAxMDEwMDExMDAwMTExMDEwMDExMDAxMTEwMTExMTAxMTExMDAwMTAwMDEwMDAxMDExMDAxMDAwMDEwMTAwMDEwMTAxMDEwMTEwMDEwMTAxMTAxMTExMDAxMTEwMDExMDAxMTExMDAxMDAwMTExMDAwMTExMTEwMTAxMTAxMDAwMDEwMDExMDExMDAwMDAwMTExMTExMTExMDExMDEwMTAwMTAxMDEwMDExMDAwMTAxMDExMDAwMDAwMDEwMDEwMTAxMDExMDExMTExMTAxMDAwMDAwMDExMDAxMTEwMTAxMDExMTAwMTAxMTEwMTExMTAwMTEwMDAxMTAxMDExMTAxMTAxMTAwMDEwMDEwMDEwMDExMDAxMTExMTEwMTAxMTAxMDExMTExMDExMTEwMTEwMTAxMDAwMDExMDEwMTAxMDEwMTExMDEwMTEwMDAwMDAxMTAxMDExMTExMDExMTEwMDEwMTEwMDEwMDExMTExMTAxMDExMTAxMDExMDAxMTAwMDAwMTEwMDExMTAxMTAwMTExMDEwMTAwMDEwMDExMTEwMDAxMDExMTAxMDAwMTAwMDEwMDEwMDEwMDAwMTExMDExMDAwMTAxMDEwMTAwMTAwMDAxMDAxMDAxMDAxMDAxMTEwMTExMTAwMTExMDAx",
+      "digits": "111000000000110010100001001100110000001010000000001010100101110001001110001010011000111010011001110111101111000100010001011001000010100010101010110010101101111001110011001111001000111000111110101101000010011011000000111111111011010100101010011000101011000000010010101011011111101000000011001110101011100101110111100110001101011101101100010010010011001111110101101011111011110110101000011010101010111010110000001101011111011110010110010011111101011101011001100000110011101100111010100010011110001011101000100010010010000111011000101010100100001001001001001110111100111001",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "parameters": {
+        "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+        "coordinate_order": "column-row",
+        "digit_count": 570,
+        "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+        "radix": 2,
+        "rail": "binary-row",
+        "reverse_digits": true,
+        "serialization": "ascii-digits"
+      },
+      "score": {
+        "alphabetic_ratio": 0.0,
+        "bytes": 570,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 570,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded_base64": "AQEBAAAAAAAAAAAAAQEAAAEAAQAAAAABAAABAQAAAQEAAAAAAAABAAEAAAAAAAAAAAABAAEAAQAAAQABAQEAAAABAAABAQEAAAABAAEAAAEBAAAAAQEBAAEAAAEBAAABAQEAAQEBAQABAQEBAAAAAQAAAAEAAAABAAEBAAABAAAAAAEAAQAAAAEAAQABAAEAAQEAAAEAAQABAQABAQEBAAABAQEAAAEBAAABAQEBAAABAAAAAQEBAAAAAQEBAQEAAQABAQABAAAAAAEAAAEBAAEBAAAAAAAAAQEBAQEBAQEBAAEBAAEAAQAAAQABAAEAAAEBAAAAAQABAAEBAAAAAAAAAAEAAAEAAQABAAEBAAEBAQEBAQABAAAAAAAAAAEBAAABAQEAAQABAAEBAQAAAQABAQEAAQEBAQAAAQEAAAABAQABAAEBAQABAQABAQAAAAEAAAEAAAEAAAEBAAABAQEBAQEAAQABAQABAAEBAQEBAAEBAQEAAQEAAQABAAAAAAEBAAEAAQABAAEAAQEBAAEAAQEAAAAAAAABAQABAAEBAQEBAAEBAQEAAAEAAQEAAAEAAAEBAQEBAQABAAEBAQABAAEBAAABAQAAAAAAAQEAAAEBAQABAQAAAQEBAAEAAQAAAAEAAAEBAQEAAAABAAEBAQABAAAAAQAAAAEAAAEAAAEAAAAAAQEBAAEBAAAAAQABAAEAAQAAAQAAAAABAAABAAABAAABAAABAQEAAQEBAQAAAQEBAAAB",
+      "digits": "111000000000110010100001001100110000001010000000001010100101110001001110001010011000111010011001110111101111000100010001011001000010100010101010110010101101111001110011001111001000111000111110101101000010011011000000111111111011010100101010011000101011000000010010101011011111101000000011001110101011100101110111100110001101011101101100010010010011001111110101101011111011110110101000011010101010111010110000001101011111011110010110010011111101011101011001100000110011101100111010100010011110001011101000100010010010000111011000101010100100001001001001001110111100111001",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "parameters": {
+        "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+        "coordinate_order": "column-row",
+        "digit_count": 570,
+        "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+        "radix": 2,
+        "rail": "binary-row",
+        "reverse_digits": true,
+        "serialization": "raw-digit-bytes"
+      },
+      "score": {
+        "alphabetic_ratio": 0.0,
+        "bytes": 570,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 0,
+        "printable_ratio": 0.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded_base64": "A4AyhMwKAKlxOKY6Z3vERZCiqyt5zPI4+tCbA/7UqYrASrfoDOrl3mNdsSTP1r72oaq6wNfeWT9dZgzs6ieLoiSHYqkJJO85",
+      "digits": "111000000000110010100001001100110000001010000000001010100101110001001110001010011000111010011001110111101111000100010001011001000010100010101010110010101101111001110011001111001000111000111110101101000010011011000000111111111011010100101010011000101011000000010010101011011111101000000011001110101011100101110111100110001101011101101100010010010011001111110101101011111011110110101000011010101010111010110000001101011111011110010110010011111101011101011001100000110011101100111010100010011110001011101000100010010010000111011000101010100100001001001001001110111100111001",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "parameters": {
+        "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+        "coordinate_order": "column-row",
+        "digit_count": 570,
+        "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+        "radix": 2,
+        "rail": "binary-row",
+        "reverse_digits": true,
+        "serialization": "minimal-integer-big-endian"
+      },
+      "score": {
+        "alphabetic_ratio": 0.125,
+        "bytes": 72,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 4,
+        "printable_ratio": 0.347222,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded_base64": null,
+      "digits": "111000000000110010100001001100110000001010000000001010100101110001001110001010011000111010011001110111101111000100010001011001000010100010101010110010101101111001110011001111001000111000111110101101000010011011000000111111111011010100101010011000101011000000010010101011011111101000000011001110101011100101110111100110001101011101101100010010010011001111110101101011111011110110101000011010101010111010110000001101011111011110010110010011111101011101011001100000110011101100111010100010011110001011101000100010010010000111011000101010100100001001001001001110111100111001",
+      "downstream_validity": null,
+      "error": "Incomplete byte chunk; no tail dropping or invented padding",
+      "parameters": {
+        "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+        "coordinate_order": "column-row",
+        "digit_count": 570,
+        "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+        "radix": 2,
+        "rail": "binary-row",
+        "reverse_digits": true,
+        "serialization": "strict-byte-chunks"
+      },
+      "score": null
+    },
+    {
+      "decoded_base64": "MzMzMjExMDAyMzIxMTQxMzA0MzIwNDE0MDAzMjE0NDA0MjI0MjMwNDMxMDIwMjMwMTEwMDAxMjIzMjAwMjQxMjI0MjIyMjMyMzIxMjAwMjAyMjIxMzQzNDMwMTMwMDIwNDQyMDIxMDMwMzMyMjM0MTE0NDMzNDQxMTMzMjQxMjIyMTAwMTMyMzMxMjQxMjMwMjMxMjMyMjIzMjIwMzMzMjEzMjQzNDMyMjQzMTEzMjIxNDMyMDAyMjExMTQxNDMzMjAzMTIyMjIxMDEyMjAyMjM0MzIxMjMyMDIyMjM0MDMwMDEzMTQyMjMyMzIzMjMxMzIwMTIwMDIzMTQwMjMwMDEwMTIzMjIzNDA0MDAwMjEyNDMyMTIyMDAyMTIxMzQxNDMxMzI0MTIyMjQzMDExMjIwMzEwMTMxMTIwMTIxMzEyMjEyMzMwMDIyMDMyMDI0MjIzMTAxMDEyMjMxMzEyMTIwMzIxMzIwMjIzMDIzMDQzMDEyNDIxMjAzMzQxMTAyMTMwMjEzMjMzMzIyMDIxMjExMjAxMTIwMjExNDAwMDExMzIxMjMzMTIxMTAyMTMyMTIwMTIzMjEzMzIwMjEwMDIxMjEyNDMyMjIzMjQzMjMyMzAyMjIzMjIzMDIwMTAxMjIyMjEwMzQwMjExMTAxMjIzMjExMTM0MjIxMTIwMjAxMzI0MjQyMTQyNDIzMTEyMDEyMTIyMzEwMDEwNDExMzA0MzMwMjMwMjQyMzAzMDQxMjQyMjQwMjIw",
+      "digits": "333211002321141304320414003214404224230431020230110001223200241224222232321200202221343430130020442021030332234114433441133241222100132331241230231232223220333213243432243113221432002211141433203122221012202234321232022234030013142232323231320120023140230010123223404000212432122002121341431324122243011220310131120121312212330022032024223101012231312120321320223023043012421203341102130213233322021211201120211400011321233121102132120123213320210021212432223243232302223223020101222210340211101223211134221120201324242142423112012122310010411304330230242303041242240220",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "parameters": {
+        "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+        "coordinate_order": "row-column",
+        "digit_count": 570,
+        "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+        "radix": 5,
+        "rail": "quinary-column",
+        "reverse_digits": false,
+        "serialization": "ascii-digits"
+      },
+      "score": {
+        "alphabetic_ratio": 0.0,
+        "bytes": 570,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 570,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded_base64": "AwMDAgEBAAACAwIBAQQBAwAEAwIABAEEAAADAgEEBAAEAgIEAgMABAMBAAIAAgMAAQEAAAABAgIDAgAAAgQBAgIEAgICAgMCAwIBAgAAAgACAgIBAwQDBAMAAQMAAAIABAQCAAIBAAMAAwMCAgMEAQEEBAMDBAQBAQMDAgQBAgICAQAAAQMCAwMBAgQBAgMAAgMBAgMCAgIDAgIAAwMDAgEDAgQDBAMCAgQDAQEDAgIBBAMCAAACAgEBAQQBBAMDAgADAQICAgIBAAECAgACAgMEAwIBAgMCAAICAgMEAAMAAAEDAQQCAgMCAwIDAgMBAwIAAQIAAAIDAQQAAgMAAAEAAQIDAgIDBAAEAAAAAgECBAMCAQICAAACAQIBAwQBBAMBAwIEAQICAgQDAAEBAgIAAwEAAQMBAQIAAQIBAwECAgECAwMAAAICAAMCAAIEAgIDAQABAAECAgMBAwECAQIAAwIBAwIAAgIDAAIDAAQDAAECBAIBAgADAwQBAQACAQMAAgEDAgMDAwICAAIBAgEBAgABAQIAAgEBBAAAAAEBAwIBAgMDAQIBAQACAQMCAQIAAQIDAgEDAwIAAgEAAAIBAgECBAMCAgIDAgQDAgMCAwACAgIDAgIDAAIAAQABAgICAgEAAwQAAgEBAQABAgIDAgEBAQMEAgIBAQIAAgABAwIEAgQCAQQCBAIDAQECAAECAQICAwEAAAEABAEBAwAEAwMAAgMAAgQCAwADAAQBAgQCAgQAAgIA",
+      "digits": "333211002321141304320414003214404224230431020230110001223200241224222232321200202221343430130020442021030332234114433441133241222100132331241230231232223220333213243432243113221432002211141433203122221012202234321232022234030013142232323231320120023140230010123223404000212432122002121341431324122243011220310131120121312212330022032024223101012231312120321320223023043012421203341102130213233322021211201120211400011321233121102132120123213320210021212432223243232302223223020101222210340211101223211134221120201324242142423112012122310010411304330230242303041242240220",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "parameters": {
+        "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+        "coordinate_order": "row-column",
+        "digit_count": 570,
+        "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+        "radix": 5,
+        "rail": "quinary-column",
+        "reverse_digits": false,
+        "serialization": "raw-digit-bytes"
+      },
+      "score": {
+        "alphabetic_ratio": 0.0,
+        "bytes": 570,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 0,
+        "printable_ratio": 0.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded_base64": "CHPCZSK9Pw9vjgP+R8xmhOvADM6J/i6M3BDU2+zxQ+sdZGdNSGR9pTL/FmftmCKOLyHFdHw+73U/uaWKqb1GrbcgjgdzdJ7LNPcIdB2VdEfcwTmiMFiESM4nbeFDYLJs7g44i3FJJv4O4vCnLYE67cNgExEqP6RDXycusCttJxWuXej1tTHRjEPbGj7walr1otZYvk127B1yFN+DtE5eRTqRRbtOpw==",
+      "digits": "333211002321141304320414003214404224230431020230110001223200241224222232321200202221343430130020442021030332234114433441133241222100132331241230231232223220333213243432243113221432002211141433203122221012202234321232022234030013142232323231320120023140230010123223404000212432122002121341431324122243011220310131120121312212330022032024223101012231312120321320223023043012421203341102130213233322021211201120211400011321233121102132120123213320210021212432223243232302223223020101222210340211101223211134221120201324242142423112012122310010411304330230242303041242240220",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "parameters": {
+        "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+        "coordinate_order": "row-column",
+        "digit_count": 570,
+        "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+        "radix": 5,
+        "rail": "quinary-column",
+        "reverse_digits": false,
+        "serialization": "minimal-integer-big-endian"
+      },
+      "score": {
+        "alphabetic_ratio": 0.240964,
+        "bytes": 166,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 6,
+        "printable_ratio": 0.445783,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded_base64": "XTgCVi5PVW0DO2hAQXQKQR4BPzJHQD5DVjI0PWJzKAp6Cw9cRSJ2eStHPhkqW0dBQkM/PF06SXVJIT11AjgudjUlPQc0RVZDDEUPCC9DWEJVIw0tQQUmP2gAOXUlAiRgdFklSQY8UCkjJFI5WgwRDj8aB0JSI1ZVPw0XB281YBsoOkRXCzgzIzhkBlZEJBsqIyY6VTcLOXU/SUNNPz8KGj43XzgaPzgsPSMzWUgvcSAHJVAFak9aQUhOFUhGPA==",
+      "digits": "333211002321141304320414003214404224230431020230110001223200241224222232321200202221343430130020442021030332234114433441133241222100132331241230231232223220333213243432243113221432002211141433203122221012202234321232022234030013142232323231320120023140230010123223404000212432122002121341431324122243011220310131120121312212330022032024223101012231312120321320223023043012421203341102130213233322021211201120211400011321233121102132120123213320210021212432223243232302223223020101222210340211101223211134221120201324242142423112012122310010411304330230242303041242240220",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "parameters": {
+        "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+        "coordinate_order": "row-column",
+        "digit_count": 570,
+        "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+        "radix": 5,
+        "rail": "quinary-column",
+        "reverse_digits": false,
+        "serialization": "strict-byte-chunks"
+      },
+      "score": {
+        "alphabetic_ratio": 0.373684,
+        "bytes": 190,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.014493,
+        "longest_printable_run": 16,
+        "printable_ratio": 0.826316,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded_base64": "MDIyMDQyMjQyMTQwMzAzMjQyMDMyMDMzNDAzMTE0MDEwMDEzMjIxMjEwMjExMzI0MjQxMjQyNDIzMTAyMDIxMTIyNDMxMTEyMzIyMTAxMTEyMDQzMDEyMjIyMTAxMDIwMzIyMzIyMjAzMjMyMzQyMzIyMjM0MjEyMTIwMDEyMDIzMzEyMzIxMDIxMjMxMjAxMTIxMzMyMTIzMTEwMDA0MTEyMDIxMTAyMTEyMTIwMjIzMzMyMzEyMDMxMjAxMTQzMzAyMTI0MjEwMzQwMzIwMzIyMDIzMTIzMDIxMjEzMTMyMjEwMTAxMzIyNDIwMjMwMjIwMDMzMjEyMjEzMTIxMDIxMTMxMDEzMDIyMTEwMzQyMjIxNDIzMTM0MTQzMTIxMjAwMjIxMjM0MjEyMDAwNDA0MzIyMzIxMDEwMDMyMDQxMzIwMDIxMDIzMTMyMzIzMjMyMjQxMzEwMDMwNDMyMjIwMjMyMTIzNDMyMjAyMjEwMTIyMjIxMzAyMzM0MTQxMTEyMjAwMjM0MTIyMzExMzQyMjM0MzQyMzEyMzMzMDIyMzIyMjMyMTMyMDMyMTQyMTMzMjMxMDAxMjIyMTQyMzMxMTQ0MzM0NDExNDMyMjMzMDMwMTIwMjQ0MDIwMDMxMDM0MzQzMTIyMjAyMDAyMTIzMjMyMjIyNDIyMTQyMDAyMzIyMTAwMDExMDMyMDIwMTM0MDMyNDIyNDA0NDEyMzAwNDE0MDIzNDAzMTQxMTIzMjAwMTEyMzMz",
+      "digits": "022042242140303242032033403114010013221210211324241242423102021122431112322101112043012222101020322322203232342322234212120012023312321021231201121332123110004112021102112120223332312031201143302124210340320322023123021213132210101322420230220033212213121021131013022110342221423134143121200221234212000404322321010032041320021023132323232241310030432220232123432202210122221302334141112200234122311342234342312333022322232132032142133231001222142331144334411432233030120244020031034343122202002123232222422142002322100011032020134032422404412300414023403141123200112333",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "parameters": {
+        "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+        "coordinate_order": "row-column",
+        "digit_count": 570,
+        "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+        "radix": 5,
+        "rail": "quinary-column",
+        "reverse_digits": true,
+        "serialization": "ascii-digits"
+      },
+      "score": {
+        "alphabetic_ratio": 0.0,
+        "bytes": 570,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 570,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded_base64": "AAICAAQCAgQCAQQAAwADAgQCAAMCAAMDBAADAQEEAAEAAAEDAgIBAgEAAgEBAwIEAgQBAgQCBAIDAQACAAIBAQICBAMBAQECAwICAQABAQECAAQDAAECAgICAQABAAIAAwICAwICAgADAgMCAwQCAwICAgMEAgECAQIAAAECAAIDAwECAwIBAAIBAgMBAgABAQIBAwMCAQIDAQEAAAAEAQECAAIBAQACAQECAQIAAgIDAwMCAwECAAMBAgABAQQDAwACAQIEAgEAAwQAAwIAAwICAAIDAQIDAAIBAgEDAQMCAgEAAQABAwICBAIAAgMAAgIAAAMDAgECAgEDAQIBAAIBAQMBAAEDAAICAQEAAwQCAgIBBAIDAQMEAQQDAQIBAgAAAgIBAgMEAgECAAAABAAEAwICAwIBAAEAAAMCAAQBAwIAAAIBAAIDAQMCAwIDAgMCAgQBAwEAAAMABAMCAgIAAgMCAQIDBAMCAgACAgEAAQICAgIBAwACAwMEAQQBAQECAgAAAgMEAQICAwEBAwQCAgMEAwQCAwECAwMDAAICAwICAgMCAQMCAAMCAQQCAQMDAgMBAAABAgICAQQCAwMBAQQEAwMEBAEBBAMCAgMDAAMAAQIAAgQEAAIAAAMBAAMEAwQDAQICAgACAAACAQIDAgMCAgICBAICAQQCAAACAwICAQAAAAEBAAMCAAIAAQMEAAMCBAICBAAEBAECAwAABAEEAAIDBAADAQQBAQIDAgAAAQECAwMD",
+      "digits": "022042242140303242032033403114010013221210211324241242423102021122431112322101112043012222101020322322203232342322234212120012023312321021231201121332123110004112021102112120223332312031201143302124210340320322023123021213132210101322420230220033212213121021131013022110342221423134143121200221234212000404322321010032041320021023132323232241310030432220232123432202210122221302334141112200234122311342234342312333022322232132032142133231001222142331144334411432233030120244020031034343122202002123232222422142002322100011032020134032422404412300414023403141123200112333",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "parameters": {
+        "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+        "coordinate_order": "row-column",
+        "digit_count": 570,
+        "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+        "radix": 5,
+        "rail": "quinary-column",
+        "reverse_digits": true,
+        "serialization": "raw-digit-bytes"
+      },
+      "score": {
+        "alphabetic_ratio": 0.0,
+        "bytes": 570,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 0,
+        "printable_ratio": 0.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded_base64": "ARoJyAXKX+CSXELtp92z8OjFSY68LmeVPFihsOFzsgjjMgy/qbZBD5BcoCFdxxIixki+5XSpU0oPww/bGZlajg4vddUToI3JUUTmsMm3Vdju+FTA3rxVsWagftS0R7E7Q/wT0lv+xlMDeq5So9ZAuzrxdy2SBn5LpLE2hMnwa/NqAjs4z2ZCrUq9qgnr2jDGr5c/hTxovj9jQXzIsy+sO7JJSefyww==",
+      "digits": "022042242140303242032033403114010013221210211324241242423102021122431112322101112043012222101020322322203232342322234212120012023312321021231201121332123110004112021102112120223332312031201143302124210340320322023123021213132210101322420230220033212213121021131013022110342221423134143121200221234212000404322321010032041320021023132323232241310030432220232123432202210122221302334141112200234122311342234342312333022322232132032142133231001222142331144334411432233030120244020031034343122202002123232222422142002322100011032020134032422404412300414023403141123200112333",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "parameters": {
+        "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+        "coordinate_order": "row-column",
+        "digit_count": 570,
+        "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+        "radix": 5,
+        "rail": "quinary-column",
+        "reverse_digits": true,
+        "serialization": "minimal-integer-big-endian"
+      },
+      "score": {
+        "alphabetic_ratio": 0.210843,
+        "bytes": 166,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 4,
+        "printable_ratio": 0.385542,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded_base64": "DBZILU5IERJnIgUIPTc4WUdIcRsLJXQgVxogFwc+GgpXVzVDYVdFOSMHDVJWC0IzJFwmHgQgCxsgIz9cUhAzME0nN19VVw0mCzoqNxpXbkE8Ejk6JAspCAweYT1xLDAkMj1FOQBoV1YFERVVCw0qWENHUA91PEMmdTQ3JT1NXi4gMkUlUWFFYVJdDFdDKhEvK0IBPi9bMV5qdUQPI0oKEBNiJTQCJkM+cC8CVxkGEQosEXBoa0ttDWcuJjIgXQ==",
+      "digits": "022042242140303242032033403114010013221210211324241242423102021122431112322101112043012222101020322322203232342322234212120012023312321021231201121332123110004112021102112120223332312031201143302124210340320322023123021213132210101322420230220033212213121021131013022110342221423134143121200221234212000404322321010032041320021023132323232241310030432220232123432202210122221302334141112200234122311342234342312333022322232132032142133231001222142331144334411432233030120244020031034343122202002123232222422142002322100011032020134032422404412300414023403141123200112333",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "parameters": {
+        "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+        "coordinate_order": "row-column",
+        "digit_count": 570,
+        "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+        "radix": 5,
+        "rail": "quinary-column",
+        "reverse_digits": true,
+        "serialization": "strict-byte-chunks"
+      },
+      "score": {
+        "alphabetic_ratio": 0.336842,
+        "bytes": 190,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 22,
+        "printable_ratio": 0.768421,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded_base64": "MzMyMzExMDAzMjEyNDEzMTQwMjM0MDQxMDAyMzQxMDQyNDQyMzI0MDEzMjAyMDAzMTEwMDEwMjIyMzAwNDIyMTQyMjIyMjIzMjMyMTAwMDIyMjEyNDM0MzAzMzEwMDAyNDQwMjEyMzAzMDIzMzIxNDQxMzQ0MzE0MzEyMzE0MjIxMjAwMzEzMjEzNDIyMTAzMzIyMTIzMjIyMzAyMzMyMzMxNDI0MzIzNDIxMzMxMjI0MTIzMDAyMjExNDE0MTMzMDIxMzIyMjIwMTIxMDIyMjQzMjMyMTIzMjAyMjQzMzAwMDMxNDEyMjIzMjMyMzEzMjMxMDAyMjAxMzA0MzIwMDAxMjEyMzMyMDQwNDAwMTI0MjIzMjEwMjIwMjEzMTE0MzQzMTQyMjEyMjM0MTAyMTAyMTMxMDEzMjExMDEyMTMyMjIxMzMwMDIyMzAwMjQyMjIxMzEwMTAyMjEzMTMxMjAyMjMzMTAyMjIwMzMyNDAwMzIxMjQyMTMwNDMxMTIwMzEyMDMxMzIzMzIyMjAyMTExMDIxMTAyMTI0MTAwMTAzMTEyMzIxMzEyMDExMjIzMjExMDMyMTIzMzAyMTIwMDEyMTI0MjIzMjIyMzM0MzIzMjIwMjIyMzMyMjAxMDEwMjIyMjAxNDMyMDExMDEyMTMyMTIxMTQzMjIxMTAyMDIzMTQyNDIxMjI0MjQxMzIxMTAxMjIyMTMwMDAxMTQzMTQwMzMyMDAzNDIzMjMwNDAyMTI0NDIyMDAy",
+      "digits": "332311003212413140234041002341042442324013202003110010222300422142222223232100022212434303310002440212303023321441344314312314221200313213422103322123222302332331424323421331224123002211414133021322220121022243232123202243300031412223232313231002201304320001212332040400124223210220213114343142212234102102131013211012132221330022300242221310102213131202233102220332400321242130431120312031323322202111021102124100103112321312011223211032123302120012124223222334323220222332201010222201432011012132121143221102023142421224241321101222130001143140332003423230402124422002",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "parameters": {
+        "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+        "coordinate_order": "column-row",
+        "digit_count": 570,
+        "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+        "radix": 5,
+        "rail": "quinary-column",
+        "reverse_digits": false,
+        "serialization": "ascii-digits"
+      },
+      "score": {
+        "alphabetic_ratio": 0.0,
+        "bytes": 570,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 570,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded_base64": "AwMCAwEBAAADAgECBAEDAQQAAgMEAAQBAAACAwQBAAQCBAQCAwIEAAEDAgACAAADAQEAAAEAAgICAwAABAICAQQCAgICAgIDAgMCAQAAAAICAgECBAMEAwADAwEAAAACBAQAAgECAwADAAIDAwIBBAQBAwQEAwEEAwECAwEEAgIBAgAAAwEDAgEDBAICAQADAwICAQIDAgICAwACAwMCAwMBBAIEAwIDBAIBAwMBAgIEAQIDAAACAgEBBAEEAQMDAAIBAwICAgIAAQIBAAICAgQDAgMCAQIDAgACAgQDAwAAAAMBBAECAgIDAgMCAwEDAgMBAAACAgABAwAEAwIAAAABAgECAwMCAAQABAAAAQIEAgIDAgEAAgIAAgEDAQEEAwQDAQQCAgECAgMEAQACAQACAQMBAAEDAgEBAAECAQMCAgIBAwMAAAICAwAAAgQCAgIBAwEAAQACAgEDAQMBAgACAgMDAQACAgIAAwMCBAAAAwIBAgQCAQMABAMBAQIAAwECAAMBAwIDAwICAgACAQEBAAIBAQACAQIEAQAAAQADAQECAwIBAwECAAEBAgIDAgEBAAMCAQIDAwACAQIAAAECAQIEAgIDAgICAwMEAwIDAgIAAgICAwMCAgABAAEAAgICAgABBAMCAAEBAAECAQMCAQIBAQQDAgIBAQACAAIDAQQCBAIBAgIEAgQBAwIBAQABAgICAQMAAAABAQQDAQQAAwMCAAADBAIDAgMABAACAQIEBAICAAAC",
+      "digits": "332311003212413140234041002341042442324013202003110010222300422142222223232100022212434303310002440212303023321441344314312314221200313213422103322123222302332331424323421331224123002211414133021322220121022243232123202243300031412223232313231002201304320001212332040400124223210220213114343142212234102102131013211012132221330022300242221310102213131202233102220332400321242130431120312031323322202111021102124100103112321312011223211032123302120012124223222334323220222332201010222201432011012132121143221102023142421224241321101222130001143140332003423230402124422002",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "parameters": {
+        "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+        "coordinate_order": "column-row",
+        "digit_count": 570,
+        "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+        "radix": 5,
+        "rail": "quinary-column",
+        "reverse_digits": false,
+        "serialization": "raw-digit-bytes"
+      },
+      "score": {
+        "alphabetic_ratio": 0.0,
+        "bytes": 570,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 0,
+        "printable_ratio": 0.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded_base64": "CGE8ncv0+/+TF/9j//ySaCY3EgSbVxxYx1E+Oi1ZkQ+QEM9V/CYDRKPbGYBi1NoURyJVlLamP52Ekb/WzxDWqxHQUJsC7y6eu14ojz45RqfGplpp4fkiel/IOObKis0h/gYtuJrIwi1kjo442tlU7eLSgQcqnm+fMrdj+2Awt8QvS9OMnrrSeISc51JyXSodpoecnsIFr5yOeAyu36+kEzm8EO5Cow==",
+      "digits": "332311003212413140234041002341042442324013202003110010222300422142222223232100022212434303310002440212303023321441344314312314221200313213422103322123222302332331424323421331224123002211414133021322220121022243232123202243300031412223232313231002201304320001212332040400124223210220213114343142212234102102131013211012132221330022300242221310102213131202233102220332400321242130431120312031323322202111021102124100103112321312011223211032123302120012124223222334323220222332201010222201432011012132121143221102023142421224241321101222130001143140332003423230402124422002",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "parameters": {
+        "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+        "coordinate_order": "column-row",
+        "digit_count": 570,
+        "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+        "radix": 5,
+        "rail": "quinary-column",
+        "reverse_digits": false,
+        "serialization": "minimal-integer-big-endian"
+      },
+      "score": {
+        "alphabetic_ratio": 0.162651,
+        "bytes": 166,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 5,
+        "printable_ratio": 0.337349,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded_base64": "XFEDOWwtRRUCYBZ6WQg0Ax4FPktwLz4/QxkMOXdOUAJ4OU4NVnljVFJUPTJTOnAcVyY+TVxbclhvW0AmAjhtKwtXPCQMSUMmNElLEGs/Q1NCAjNPVQE5XBRkJz83PDoiYi85RRsbKQg4Byo9WgxLSD1QGzopNEQbPFxkVkgodCNSEFhXNB8LGycZHCBWUgY/OBEmTSMHJz8+Xlg8PlwzBT4zdQYHKiQwPRsNL29AR1YaPigBMC1cA3FBZidwAg==",
+      "digits": "332311003212413140234041002341042442324013202003110010222300422142222223232100022212434303310002440212303023321441344314312314221200313213422103322123222302332331424323421331224123002211414133021322220121022243232123202243300031412223232313231002201304320001212332040400124223210220213114343142212234102102131013211012132221330022300242221310102213131202233102220332400321242130431120312031323322202111021102124100103112321312011223211032123302120012124223222334323220222332201010222201432011012132121143221102023142421224241321101222130001143140332003423230402124422002",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "parameters": {
+        "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+        "coordinate_order": "column-row",
+        "digit_count": 570,
+        "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+        "radix": 5,
+        "rail": "quinary-column",
+        "reverse_digits": false,
+        "serialization": "strict-byte-chunks"
+      },
+      "score": {
+        "alphabetic_ratio": 0.342105,
+        "bytes": 190,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 12,
+        "printable_ratio": 0.773684,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded_base64": "MjAwMjI0NDIxMjA0MDMyMzI0MzAwMjMzMDQxMzQxMTAwMDMxMjIyMTAxMTIzMTQyNDIyMTI0MjQxMzIwMjAxMTIyMzQxMTIxMjMxMjEwMTEwMjM0MTAyMjIyMDEwMTAyMjMzMjIyMDIyMzIzNDMzMjIyMzIyNDIxMjEwMDIxMjAzMzIxMjMwMTEyMzIyMTEwMjEzMTIzMjExMzAxMDAxNDIxMjAxMTIwMTExMjAyMjIzMzIzMTMwMjEzMDIxMTM0MDMxMjQyMTIzMDA0MjMzMDIyMjAxMzMyMjAyMTMxMzEyMjAxMDEzMTIyMjQyMDAzMjIwMDMzMTIyMjMxMjEwMTEyMzEwMTMxMjAxMjAxNDMyMjEyMjQxMzQzNDExMzEyMDIyMDEyMzIyNDIxMDA0MDQwMjMzMjEyMTAwMDIzNDAzMTAyMjAwMTMyMzEzMjMyMzIyMjE0MTMwMDAzMzQyMjAyMzIxMjMyMzQyMjIwMTIxMDIyMjIzMTIwMzMxNDE0MTEyMjAwMzIxNDIyMTMzMTI0MzIzNDI0MTMzMjMzMjAzMjIyMzIxMjIzMzAxMjI0MzEyMzEzMDAyMTIyNDEzMjEzNDEzNDQzMTQ0MTIzMzIwMzAzMjEyMDQ0MjAwMDEzMzAzNDM0MjEyMjIwMDAxMjMyMzIyMjIyMjQxMjI0MDAzMjIyMDEwMDExMzAwMjAyMzEwNDIzMjQ0MjQwMTQzMjAwMTQwNDMyMDQxMzE0MjEyMzAwMTEzMjMz",
+      "digits": "200224421204032324300233041341100031222101123142422124241320201122341121231210110234102222010102233222022323433222322421210021203321230112322110213123211301001421201120111202223323130213021134031242123004233022201332202131312201013122242003220033122231210112310131201201432212241343411312022012322421004040233212100023403102200132313232322214130003342202321232342220121022223120331414112200321422133124323424133233203222321223301224312313002122413213413443144123320303212044200013303434212220001232322222241224003222010011300202310423244240143200140432041314212300113233",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "parameters": {
+        "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+        "coordinate_order": "column-row",
+        "digit_count": 570,
+        "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+        "radix": 5,
+        "rail": "quinary-column",
+        "reverse_digits": true,
+        "serialization": "ascii-digits"
+      },
+      "score": {
+        "alphabetic_ratio": 0.0,
+        "bytes": 570,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 570,
+        "printable_ratio": 1.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded_base64": "AgAAAgIEBAIBAgAEAAMCAwIEAwAAAgMDAAQBAwQBAQAAAAMBAgICAQABAQIDAQQCBAICAQIEAgQBAwIAAgABAQICAwQBAQIBAgMBAgEAAQEAAgMEAQACAgICAAEAAQACAgMDAgICAAICAwIDBAMDAgICAwICBAIBAgEAAAIBAgADAwIBAgMAAQECAwICAQEAAgEDAQIDAgEBAwABAAABBAIBAgABAQIAAQEBAgACAgIDAwIDAQMAAgEDAAIBAQMEAAMBAgQCAQIDAAAEAgMDAAICAgABAwMCAgACAQMBAwECAgABAAEDAQICAgQCAAADAgIAAAMDAQICAgMBAgEAAQECAwEAAQMBAgABAgABBAMCAgECAgQBAwQDBAEBAwECAAICAAECAwICBAIBAAAEAAQAAgMDAgECAQAAAAIDBAADAQACAgAAAQMCAwEDAgMCAwICAgEEAQMAAAADAwQCAgACAwIBAgMCAwQCAgIAAQIBAAICAgIDAQIAAwMBBAEEAQECAgAAAwIBBAICAQMDAQIEAwIDBAIEAQMDAgMDAgADAgICAwIBAgIDAwABAgIEAwECAwEDAAACAQICBAEDAgEDBAEDBAQDAQQEAQIDAwIAAwADAgECAAQEAgAAAAEDAwADBAMEAgECAgIAAAABAgMCAwICAgICAgQBAgIEAAADAgICAAEAAAEBAwAAAgACAwEABAIDAgQEAgQAAQQDAgAAAQQABAMCAAQBAwEEAgECAwAAAQEDAgMD",
+      "digits": "200224421204032324300233041341100031222101123142422124241320201122341121231210110234102222010102233222022323433222322421210021203321230112322110213123211301001421201120111202223323130213021134031242123004233022201332202131312201013122242003220033122231210112310131201201432212241343411312022012322421004040233212100023403102200132313232322214130003342202321232342220121022223120331414112200321422133124323424133233203222321223301224312313002122413213413443144123320303212044200013303434212220001232322222241224003222010011300202310423244240143200140432041314212300113233",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "parameters": {
+        "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+        "coordinate_order": "column-row",
+        "digit_count": 570,
+        "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+        "radix": 5,
+        "rail": "quinary-column",
+        "reverse_digits": true,
+        "serialization": "raw-digit-bytes"
+      },
+      "score": {
+        "alphabetic_ratio": 0.0,
+        "bytes": 570,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 0,
+        "printable_ratio": 0.0,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded_base64": "BJHAq25ifanhqJDBF11v9x5Ezzsp4kmVy6qJLtGEyYAfT/66RqY+3b8joTtWYhHc4W3XDOdBQzXwzCztswKP58ilrOIJAtMYNm8g4THuiDQg447xqFMn+Rie/gbX8dqsLLFWa2hopbbhUGG8qNv4Y+DxCUHKFQq4qO8FJAve4Dv7pzANyjSZKZ2KKcRwxHmJm3hcLK9T07tBi1IbRhZUzaUgpiaORw==",
+      "digits": "200224421204032324300233041341100031222101123142422124241320201122341121231210110234102222010102233222022323433222322421210021203321230112322110213123211301001421201120111202223323130213021134031242123004233022201332202131312201013122242003220033122231210112310131201201432212241343411312022012322421004040233212100023403102200132313232322214130003342202321232342220121022223120331414112200321422133124323424133233203222321223301224312313002122413213413443144123320303212044200013303434212220001232322222241224003222010011300202310423244240143200140432041314212300113233",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "parameters": {
+        "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+        "coordinate_order": "column-row",
+        "digit_count": 570,
+        "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+        "radix": 5,
+        "rail": "quinary-column",
+        "reverse_digits": true,
+        "serialization": "minimal-integer-big-endian"
+      },
+      "score": {
+        "alphabetic_ratio": 0.186747,
+        "bytes": 166,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 4,
+        "printable_ratio": 0.373494,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    },
+    {
+      "decoded_base64": "MkBvNhFZS0QVYBkQPhomL3AnR1UzJWAkQjceRRs+BRtEPgxYdj5XbzcLNVZBIFceOiY4TAFvMyMfND9YKDoLLBBIJgREDDNcNClSMwglSAM8EiVCNyBQKTMzdTlHYmpSDAdXbwQURDkZDWcbMipTQ1c7KANhNFZDYTwkDD8jW20gMlZwKydYcitENT5WP0xAUlMCJWw6bHsxJlVOORgyCE53OTwBQ1c+R0ADPgUGSzRQcUpGMDItdRVUOUshRA==",
+      "digits": "200224421204032324300233041341100031222101123142422124241320201122341121231210110234102222010102233222022323433222322421210021203321230112322110213123211301001421201120111202223323130213021134031242123004233022201332202131312201013122242003220033122231210112310131201201432212241343411312022012322421004040233212100023403102200132313232322214130003342202321232342220121022223120331414112200321422133124323424133233203222321223301224312313002122413213413443144123320303212044200013303434212220001232322222241224003222010011300202310423244240143200140432041314212300113233",
+      "downstream_validity": {
+        "candidate_checks": [],
+        "structures": [],
+        "target_match": false
+      },
+      "error": null,
+      "parameters": {
+        "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+        "coordinate_order": "column-row",
+        "digit_count": 570,
+        "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+        "radix": 5,
+        "rail": "quinary-column",
+        "reverse_digits": true,
+        "serialization": "strict-byte-chunks"
+      },
+      "score": {
+        "alphabetic_ratio": 0.368421,
+        "bytes": 190,
+        "dictionary_coverage": 0.0,
+        "language_score": 0.0,
+        "longest_printable_run": 22,
+        "printable_ratio": 0.805263,
+        "puzzle_vocabulary_hits": {},
+        "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+        "whole_word_hits": []
+      }
+    }
+  ],
+  "gate": "Recognized independently justified next-stage structure or exact scoped Bitcoin target; adjacent raw-key pairs checked separately",
+  "hypothesis": "Source-keyed Bifid separates binary row coordinates from quinary column coordinates, which may encode bytes rather than direct English",
+  "id": "C05-BIFID-RAILS",
+  "invariant": "All coordinates are retained; each rail independently reconstructs its exact source-coordinate halves. No truncation, bit offset sweep, square permutations or guessed tail padding.",
+  "justification": "Bifid inversion proves even plaintext coordinates are paired source-row halves and odd coordinates paired source-column halves. The first nine square positions restrict rows to0/1. Minimal big-endian integer decoding already works on neighboring z-segments; strict packing and ASCII/raw digits are explicit alternative serializations, not proven instructions.",
+  "limits": "Rail factorization is mathematically forced and is not itself evidence of another intended layer. Big-integer leading zeros are a stated interpretation. No private-key keyspace search or production network access.",
+  "passwords": {
+    "009f584e4389b4433acd52fbbfaaab7e8f1bbf8ae61954e622d6b6482cb1ced2": {
+      "password_hex": "5d3802562e4f556d033b684041740a411e013f3247403e435632343d6273280a7a0b0f5c452276792b473e192a5b474142433f3c5d3a497549213d7502382e7635253d07344556430c450f082f43584255230d2d4105263f680039752502246074592549063c5029232452395a0c110e3f1a0742522356553f0d17076f35601b283a44570b3833233864065644241b2a23263a55370b39753f49434d3f3f0a1a3e375f381a3f382c3d233359482f7120072550056a4f5a41484e1548463c",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "row-column",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "raw",
+          "radix": 5,
+          "rail": "quinary-column",
+          "reverse_digits": false,
+          "serialization": "strict-byte-chunks"
+        }
+      ]
+    },
+    "0313f87cc3c731e4b976a285a47c4066083e19451bb57b7d8e66cf9264312cc4": {
+      "password_hex": "000101000101000001010101010001010000000101000000000101000000000000010100010001000100000001000001010100010000010000000001010000000100000001000100010101000000010001010001010000000100010001000101000001010100010100000101000000000100000101000001000101010001000101010101010100000001010000010001010001010001010101010001000101010000000000000101010001000101010001000100010001000001000001000100010000010101010101000101010101000100000100010101010101010000010100000001010000000001000001010100000101010001000101010000010000010100010100010101000100010100010101000100010001010000010100000000000001000100010101010001010101000100010000000001000000000000010101000100000001000001010001000100000000010001010101000101010101010101000000000000010101000001010000000000000101010100010001010101000001000101000001000000010101010000010100000101000101000101000101010100010000000101010001000100010000000100010000000000000101000001000100000001000000010000010101010100010100010101000101000001010001000101000001000001010001000000010001010000000100000101000100010100010001000000000000000000010001000000000000000101000001010000000100000100010000000101000000000000000001000101",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "row-column",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "raw",
+          "radix": 2,
+          "rail": "binary-row",
+          "reverse_digits": false,
+          "serialization": "raw-digit-bytes"
+        }
+      ]
+    },
+    "09117f3d24234a9441f5c23c4188cb8aadfdad7ba684b44a4b08bb0eef5a2733": {
+      "password_hex": "08613c9dcbf4fbff9317ff63fffc9268263712049b571c58c7513e3a2d59910f9010cf55fc260344a3db198062d4da1447225594b6a63f9d8491bfd6cf10d6ab11d0509b02ef2e9ebb5e288f3e3946a7c6a65a69e1f9227a5fc838e6ca8acd21fe062db89ac8c22d648e8e38dad954ede2d281072a9e6f9f32b763fb6030b7c42f4bd38c9ebad278849ce752725d2a1da6879c9ec205af9c8e780caedfafa41339bc10ee42a3",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "column-row",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "raw",
+          "radix": 5,
+          "rail": "quinary-column",
+          "reverse_digits": false,
+          "serialization": "minimal-integer-big-endian"
+        }
+      ]
+    },
+    "0dba85795f54b099c47f9e3544193a7400592528686cbd8dcb9eaf428bb59b08": {
+      "password_hex": "7b325ef9d49bbb6ab351d6b71e1cefb141721589925b473745119ed6c22d7504",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "row-column",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-raw",
+          "radix": 5,
+          "rail": "quinary-column",
+          "reverse_digits": true,
+          "serialization": "raw-digit-bytes"
+        }
+      ]
+    },
+    "108b85d8933d0988d8289e7bcabcd04e829072996b6dc2be963f0f4e746f8760": {
+      "password_hex": "66656336626531356531386234613833363735643663323330383637613635623361386133326165653832303538613339353566636130373763653562366662",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "column-row",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-lowerhex",
+          "radix": 2,
+          "rail": "binary-row",
+          "reverse_digits": false,
+          "serialization": "raw-digit-bytes"
+        }
+      ]
+    },
+    "140798a1fc3ab2af10b1bfa175bd86b013e88f2a82bc3660d33a309d89110037": {
+      "password_hex": "011a09c805ca5fe0925c42eda7ddb3f0e8c5498ebc2e67953c58a1b0e173b208e3320cbfa9b6410f905ca0215dc71222c648bee574a9534a0fc30fdb19995a8e0e2f75d513a08dc95144e6b0c9b755d8eef854c0debc55b166a07ed4b447b13b43fc13d25bfec653037aae52a3d640bb3af1772d92067e4ba4b13684c9f06bf36a023b38cf6642ad4abdaa09ebda30c6af973f853c68be3f63417cc8b32fac3bb24949e7f2c3",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "row-column",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "raw",
+          "radix": 5,
+          "rail": "quinary-column",
+          "reverse_digits": true,
+          "serialization": "minimal-integer-big-endian"
+        }
+      ]
+    },
+    "14775f5bb63d9e4203e74a7f3ca569991d982b9b224d42197b9354826518e50d": {
+      "password_hex": "7fc03d63e9eb59891169a8a1aecbd63abc726b125617935dc1ce2f4f6b44caa7",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "column-row",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-raw",
+          "radix": 2,
+          "rail": "binary-row",
+          "reverse_digits": true,
+          "serialization": "raw-digit-bytes"
+        }
+      ]
+    },
+    "18237f2ce989f3dc1e095a6ab80c9ce4712b17cb531dc4b477169e3c22cab42c": {
+      "password_hex": "5c5103396c2d45150260167a590834031e053e4b702f3e3f43190c39774e500278394e0d5679635452543d32533a701c57263e4d5c5b72586f5b402602386d2b0b573c240c49432634494b106b3f43534202334f5501395c1464273f373c3a22622f39451b1b290838072a3d5a0c4b483d501b3a2934441b3c5c64564828742352105857341f0b1b27191c205652063f3811264d2307273f3e5e583c3e5c33053e337506072a24303d1b0d2f6f4047561a3e2801302d5c03714166277002",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "column-row",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "raw",
+          "radix": 5,
+          "rail": "quinary-column",
+          "reverse_digits": false,
+          "serialization": "strict-byte-chunks"
+        }
+      ]
+    },
+    "19ff9cee3c4559cba87fd317cccd38f9cadc901309b34438b3681d662a0cb73b": {
+      "password_hex": "cff1c8a71bfc7ba191a4e0d6c3333cf77552be2214c24955a1a8e08eab70d420",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "column-row",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-raw",
+          "radix": 2,
+          "rail": "binary-row",
+          "reverse_digits": false,
+          "serialization": "minimal-integer-big-endian"
+        }
+      ]
+    },
+    "1b184ffc2ec9e5ecc73ae25e3ce7bc285987fb9ea269077ca2a014f1ec771cf3": {
+      "password_hex": "0873c26522bd3f0f6f8e03fe47cc6684ebc00cce89fe2e8cdc10d4dbecf143eb1d64674d48647da532ff1667ed98228e2f21c5747c3eef753fb9a58aa9bd46adb7208e0773749ecb34f708741d957447dcc139a230588448ce276de14360b26cee0e388b714926fe0ee2f0a72d813aedc36013112a3fa4435f272eb02b6d2715ae5de8f5b531d18c43db1a3ef06a5af5a2d658be4d76ec1d7214df83b44e5e453a9145bb4ea7",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "row-column",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "raw",
+          "radix": 5,
+          "rail": "quinary-column",
+          "reverse_digits": false,
+          "serialization": "minimal-integer-big-endian"
+        }
+      ]
+    },
+    "1e0fd3ea92d5998c0f2dae68066a579c507c28cce833a6554f005f9946b95142": {
+      "password_hex": "36366339613431313034616137386137643637373832346330383466636333306232336132666664383461333437666361613866623734376336376136613666",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "column-row",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-lowerhex",
+          "radix": 5,
+          "rail": "quinary-column",
+          "reverse_digits": true,
+          "serialization": "raw-digit-bytes"
+        }
+      ]
+    },
+    "2331e0bc77769cd88805dd00ccafd255612421f35e62a5ea1451b6c3ab484b1f": {
+      "password_hex": "313030313131303031313131303131313030313030313030313030313030303031303031303130313031303030313130313131303030303130303130303130303031303030313031313130313030303131313130303130303031303130313131303031313031313130303131303030303031313030313130313031313130313031313131313130303130303131303130303131313130313131313130313031313030303030303131303130313131303130313031303130313130303030313031303131303131313130313131313130313031313031303131313131313030313130303130303130303130303031313031313031313130313031313030303131303031313131303131313031303031313130313031303131313030313130303030303030313031313131313130313130313031303130303130303030303030313130313031303030313130303130313031303031303130313130313131313131313131303030303030313130313130303130303030313031313031303131313131303030313131303030313030313131313030313130303131313030313131313031313031303130303131303130313031303130303031303130303030313030313130313030303130303031303030313131313031313131303131313030313130303130313131303030313130303130313030303131313030313030303131313031303031303130313030303030303030303130313030303030303131303031313030313030303031303130303131303030303030303030313131",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "column-row",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "raw",
+          "radix": 2,
+          "rail": "binary-row",
+          "reverse_digits": false,
+          "serialization": "ascii-digits"
+        }
+      ]
+    },
+    "237fd33e86b789c3c65b5bbc69de54f17ef9f2cad330f57975b051900fc8f64f": {
+      "password_hex": "63bf397f90dbf7d2b80f952ad24cc9044908311f5ef41a105f21daedec2a0f53",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "row-column",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-raw",
+          "radix": 2,
+          "rail": "binary-row",
+          "reverse_digits": true,
+          "serialization": "ascii-digits"
+        }
+      ]
+    },
+    "239401b0d39b7bfab329f24207aa66ccb607a5f15600a1cf56b387dcfb99db49": {
+      "password_hex": "6914a12585b6624c6dd33c682f7c1a15b8ff0b1f871c7c9f9b9aad87fb20175f",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "row-column",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-raw",
+          "radix": 2,
+          "rail": "binary-row",
+          "reverse_digits": false,
+          "serialization": "minimal-integer-big-endian"
+        }
+      ]
+    },
+    "269488d5ef6609bfa0dfe883cfb289a6889687a0bcb793aa5675264499d4f581": {
+      "password_hex": "30333133663837636333633733316534623937366132383561343763343036363038336531393435316262353762376438653636636639323634333132636334",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "row-column",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-lowerhex",
+          "radix": 2,
+          "rail": "binary-row",
+          "reverse_digits": false,
+          "serialization": "raw-digit-bytes"
+        }
+      ]
+    },
+    "2af3448db592d2b94f458f54c87ca9b49ea3d9f54e6e7debab6cc52a83c166fb": {
+      "password_hex": "313131303030303030303030313130303130313030303031303031313030313130303030303031303130303030303030303031303130313030313031313130303031303031313130303031303130303131303030313131303130303131303031313130313131313031313131303030313030303130303031303131303031303030303130313030303130313031303130313130303130313031313031313131303031313130303131303031313131303031303030313131303030313131313130313031313031303030303130303131303131303030303030313131313131313131303131303130313030313031303130303131303030313031303131303030303030303130303130313031303131303131313131313031303030303030303131303031313130313031303131313030313031313130313131313030313130303031313031303131313031313031313030303130303130303130303131303031313131313130313031313031303131313131303131313130313130313031303030303131303130313031303130313131303130313130303030303031313031303131313131303131313130303130313130303130303131313131313031303131313031303131303031313030303030313130303131313031313030313131303130313030303130303131313130303031303131313031303030313030303130303130303130303030313131303131303030313031303130313030313030303031303031303031303031303031313130313131313030313131303031",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "column-row",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "raw",
+          "radix": 2,
+          "rail": "binary-row",
+          "reverse_digits": true,
+          "serialization": "ascii-digits"
+        }
+      ]
+    },
+    "2df42dad46348d6a9245f52d67a5d2f5620f7cd352a5bbefca386257d3b90237": {
+      "password_hex": "30393131376633643234323334613934343166356332336334313838636238616164666461643762613638346234346134623038626230656566356132373333",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "column-row",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-lowerhex",
+          "radix": 5,
+          "rail": "quinary-column",
+          "reverse_digits": false,
+          "serialization": "minimal-integer-big-endian"
+        }
+      ]
+    },
+    "2f2ad884c844cfe299776d1b24a0405f968fca1d7febd51bce44e5c70371d228": {
+      "password_hex": "37336130646539393030376265666365636164656462363837653433306562663830633863616466363361323163376333306632356363303765393132303231",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "column-row",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-lowerhex",
+          "radix": 5,
+          "rail": "quinary-column",
+          "reverse_digits": true,
+          "serialization": "ascii-digits"
+        }
+      ]
+    },
+    "30a0080bc9b3aa4bf087a306cc23dca89057fb257d6da0feb5cad1aa241c0a2b": {
+      "password_hex": "303131303131303031313131313031313030303131303030303131303030303030313130313031303130303031303031313130313030313030303031313030303130303031303130313131303030313031313031313030303130313031303131303031313130313130303131303030303130303131303031303131313031303131313131313130303031313030313031313031313031313131313031303131313030303030303131313031303131313031303130313031303031303031303130313030313131313131303131313131303130303130313131313131313030313130303031313030303031303031313130303131313031303131313030313030313130313130313131303130313130313131303130313031313030313130303030303031303130313131313031313131303130313030303031303030303030313131303130303031303031313031303130303030313031313131303131313131313131303030303030313131303031313030303030303131313130313031313131303031303131303031303030313131313030313130303131303131303131303131313130313030303131313031303130313030303130313030303030303131303031303130303031303030313030313131313130313130313131303131303031313031303131303031303031313031303030313031313030303130303131303130313130313031303030303030303030313031303030303030303131303031313030303130303130313030303131303030303030303031303131",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "row-column",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "raw",
+          "radix": 2,
+          "rail": "binary-row",
+          "reverse_digits": false,
+          "serialization": "ascii-digits"
+        }
+      ]
+    },
+    "329e411d25eace5fbef15dc95b8aee133138c8648d0157703924f06cc9e1f592": {
+      "password_hex": "490eab17c90422ea2ec723fb6e2ac5e1c752a87e068a27cc83b88aca05b0b875",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "column-row",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-raw",
+          "radix": 2,
+          "rail": "binary-row",
+          "reverse_digits": true,
+          "serialization": "minimal-integer-big-endian"
+        }
+      ]
+    },
+    "37122f29ac8891d6e6c385b003d32f1fff2973c2d88176130b616caeeb567faa": {
+      "password_hex": "34393065616231376339303432326561326563373233666236653261633565316337353261383765303638613237636338336238386163613035623062383735",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "column-row",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-lowerhex",
+          "radix": 2,
+          "rail": "binary-row",
+          "reverse_digits": true,
+          "serialization": "minimal-integer-big-endian"
+        }
+      ]
+    },
+    "3a2db738f2981523263f20646642f2ba0a6b0f8e5180d4b5bba9451513f6de84": {
+      "password_hex": "0491c0ab6e627da9e1a890c1175d6ff71e44cf3b29e24995cbaa892ed184c9801f4ffeba46a63eddbf23a13b566211dce16dd70ce7414335f0cc2cedb3028fe7c8a5ace20902d318366f20e131ee883420e38ef1a85327f9189efe06d7f1daac2cb1566b6868a5b6e15061bca8dbf863e0f10941ca150ab8a8ef05240bdee03bfba7300dca3499299d8a29c470c479899b785c2caf53d3bb418b521b461654cda520a6268e47",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "column-row",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "raw",
+          "radix": 5,
+          "rail": "quinary-column",
+          "reverse_digits": true,
+          "serialization": "minimal-integer-big-endian"
+        }
+      ]
+    },
+    "3aa29b14b6ac55c08b86690626c5e5cc583b54fba0dd678935b88d210e8ef9aa": {
+      "password_hex": "39383563326531663139633634343632636539313765316466353332356533353439633338316431613864633934363234373166376138663566373662666139",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "column-row",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-lowerhex",
+          "radix": 5,
+          "rail": "quinary-column",
+          "reverse_digits": false,
+          "serialization": "ascii-digits"
+        }
+      ]
+    },
+    "3cf1190cb29bcd5d0ffc05ca24de1f314e716eece7184654c41db9a27e87c9ff": {
+      "password_hex": "33306130303830626339623361613462663038376133303663633233646361383930353766623235376436646130666562356361643161613234316330613262",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "row-column",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-lowerhex",
+          "radix": 2,
+          "rail": "binary-row",
+          "reverse_digits": false,
+          "serialization": "ascii-digits"
+        }
+      ]
+    },
+    "3d437cab4d8e95b8d15ebd423417cdabcc0209b38e81817602ba66d9f1ac79f6": {
+      "password_hex": "30a0080bc9b3aa4bf087a306cc23dca89057fb257d6da0feb5cad1aa241c0a2b",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "row-column",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-raw",
+          "radix": 2,
+          "rail": "binary-row",
+          "reverse_digits": false,
+          "serialization": "ascii-digits"
+        }
+      ]
+    },
+    "48cda6634f77ce4d423c7c304db24406447de415bfc64ef275e7f3639864cf5a": {
+      "password_hex": "2331e0bc77769cd88805dd00ccafd255612421f35e62a5ea1451b6c3ab484b1f",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "column-row",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-raw",
+          "radix": 2,
+          "rail": "binary-row",
+          "reverse_digits": false,
+          "serialization": "ascii-digits"
+        }
+      ]
+    },
+    "490eab17c90422ea2ec723fb6e2ac5e1c752a87e068a27cc83b88aca05b0b875": {
+      "password_hex": "03803284cc0a00a97138a63a677bc44590a2ab2b79ccf238fad09b03fed4a98ac04ab7e80ceae5de635db124cfd6bef6a1aabac0d7de593f5d660cecea278ba2248762a90924ef39",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "column-row",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "raw",
+          "radix": 2,
+          "rail": "binary-row",
+          "reverse_digits": true,
+          "serialization": "minimal-integer-big-endian"
+        }
+      ]
+    },
+    "4a12d783f340b9e7e8cd6f01ecbdb5bc4e337cd3e2d8f6ed43bcec75a14165b8": {
+      "password_hex": "31343037393861316663336162326166313062316266613137356264383662303133653838663261383262633336363064333361333039643839313130303337",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "row-column",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-lowerhex",
+          "radix": 5,
+          "rail": "quinary-column",
+          "reverse_digits": true,
+          "serialization": "minimal-integer-big-endian"
+        }
+      ]
+    },
+    "534f9e88ee637222fc94f95c4328c0f2df78804d010623467f19f2c309e68df3": {
+      "password_hex": "33613264623733386632393831353233323633663230363436363432663262613061366230663865353138306434623562626139343531353133663664653834",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "column-row",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-lowerhex",
+          "radix": 5,
+          "rail": "quinary-column",
+          "reverse_digits": true,
+          "serialization": "minimal-integer-big-endian"
+        }
+      ]
+    },
+    "552097aee6f2b4b77d1da6b09b86fefce653adb194bf3808883bf43ba9ac28cc": {
+      "password_hex": "39616632303936376563333935306532316339653036323666663334643439653666336565306433366664336462373531653032363062313731333136336331",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "row-column",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-lowerhex",
+          "radix": 2,
+          "rail": "binary-row",
+          "reverse_digits": true,
+          "serialization": "minimal-integer-big-endian"
+        }
+      ]
+    },
+    "55bc05828c4ef8597fbdb8b19037c4f8e2c613ef73304db98b8a79cdb4f81f6c": {
+      "password_hex": "36373964363061613366616165353234346137346461306438333336646561616330666530323937633032363666353562303561646335376366613864656565",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "row-column",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-lowerhex",
+          "radix": 5,
+          "rail": "quinary-column",
+          "reverse_digits": true,
+          "serialization": "strict-byte-chunks"
+        }
+      ]
+    },
+    "566683ba4c7ca5da566cab1de2e488feefdbe9ad726370006b3a0c0fbcb6891e": {
+      "password_hex": "35396338616630616361353938656233303030326136613165646436653864333564326464336437396234653530633439643838623338373462636162613035",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "row-column",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-lowerhex",
+          "radix": 5,
+          "rail": "quinary-column",
+          "reverse_digits": true,
+          "serialization": "ascii-digits"
+        }
+      ]
+    },
+    "59c8af0aca598eb30002a6a1edd6e8d35d2dd3d79b4e50c49d88b3874bcaba05": {
+      "password_hex": "303232303432323432313430333033323432303332303333343033313134303130303133323231323130323131333234323431323432343233313032303231313232343331313132333232313031313132303433303132323232313031303230333232333232323033323332333432333232323334323132313230303132303233333132333231303231323331323031313231333332313233313130303034313132303231313032313132313230323233333332333132303331323031313433333032313234323130333430333230333232303233313233303231323133313332323130313031333232343230323330323230303333323132323133313231303231313331303133303232313130333432323231343233313334313433313231323030323231323334323132303030343034333232333231303130303332303431333230303231303233313332333233323332323431333130303330343332323230323332313233343332323032323130313232323231333032333334313431313132323030323334313232333131333432323334333432333132333333303232333232323332313332303332313432313333323331303031323232313432333331313434333334343131343332323333303330313230323434303230303331303334333433313232323032303032313233323332323232343232313432303032333232313030303131303332303230313334303332343232343034343132333030343134303233343033313431313233323030313132333333",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "row-column",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "raw",
+          "radix": 5,
+          "rail": "quinary-column",
+          "reverse_digits": true,
+          "serialization": "ascii-digits"
+        }
+      ]
+    },
+    "5b08ee58b0e2d8d8bcff2f50d036aa19bf5b9695ffa92d9ffefde549e20320a7": {
+      "password_hex": "32616633343438646235393264326239346634353866353463383763613962343965613364396635346536653764656261623663633532613833633136366662",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "column-row",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-lowerhex",
+          "radix": 2,
+          "rail": "binary-row",
+          "reverse_digits": true,
+          "serialization": "ascii-digits"
+        }
+      ]
+    },
+    "5bbf2db09cc058c5f306fc056b650952fb487302b67bfd5f05895dd7fb751dd4": {
+      "password_hex": "32406f3611594b44156019103e1a262f702747553325602442371e451b3e051b443e0c58763e576f370b35564120571e3a26384c016f33231f343f58283a0b2c10482604440c335c34295233082548033c122542372050293333753947626a520c07576f04144439190d671b322a5343573b280361345643613c240c3f235b6d203256702b2758722b44353e563f4c40525302256c3a6c7b3126554e391832084e77393c0143573e4740033e05064b3450714a4630322d751554394b2144",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "column-row",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "raw",
+          "radix": 5,
+          "rail": "quinary-column",
+          "reverse_digits": true,
+          "serialization": "strict-byte-chunks"
+        }
+      ]
+    },
+    "5daa5f70264c2960dd66f2e7ba3fbd6c223e69f813068182a0f9c70e7cf2b7f0": {
+      "password_hex": "65333139333539396235656333326363346232313965363163636138383838353936353633306161363332613238353965643334666437666233653265343933",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "row-column",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-lowerhex",
+          "radix": 5,
+          "rail": "quinary-column",
+          "reverse_digits": false,
+          "serialization": "raw-digit-bytes"
+        }
+      ]
+    },
+    "63bf397f90dbf7d2b80f952ad24cc9044908311f5ef41a105f21daedec2a0f53": {
+      "password_hex": "313130313030303030303030313130303031303130303130303031313030313130303030303030313031303030303030303030313031303131303130313130303130303031313031303030313031313030313030313130313031313030313130313131303131303131313131303031303030313030303130313030313130303030303031303130303031303130313031313130303031303131313130313130313130313130303131303031313131303030313030313130313030313131313031303131313130303030303031313030313131303030303030313131313131313130313131313031303030303130313031313030313030303130313131303030303030313030303031303130313131313031313131303130313030303030303131303031313031303130313131303131303130313131303131303131303031303031313130313031313130303131313030313030303031313030303131303031313131313131303130303130313131313130313131313131303031303130313030313030313031303130313031313130313031313130303030303031313130313031313131313031313031313031303031313030303131313131313130313031313130313030313130303130303030313130303131303131313030313130313031303130303031313031313031303030313131303130313030303130303031313030303031303031303131313030313030303130313031303131303030303030313130303030313130303031313031313131313030313130313130",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "row-column",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "raw",
+          "radix": 2,
+          "rail": "binary-row",
+          "reverse_digits": true,
+          "serialization": "ascii-digits"
+        }
+      ]
+    },
+    "66c9a41104aa78a7d677824c084fcc30b23a2ffd84a347fcaa8fb747c67a6a6f": {
+      "password_hex": "020000020204040201020004000302030204030000020303000401030401010000000301020202010001010203010402040202010204020401030200020001010202030401010201020301020100010100020304010002020202000100010002020303020202000202030203040303020202030202040201020100000201020003030201020300010102030202010100020103010203020101030001000001040201020001010200010101020002020203030203010300020103000201010304000301020402010203000004020303000202020001030302020002010301030102020001000103010202020402000003020200000303010202020301020100010102030100010301020001020001040302020102020401030403040101030102000202000102030202040201000004000400020303020102010000000203040003010002020000010302030103020302030202020104010300000003030402020002030201020302030402020200010201000202020203010200030301040104010102020000030201040202010303010204030203040204010303020303020003020202030201020203030001020204030102030103000002010202040103020103040103040403010404010203030200030003020102000404020000000103030003040304020102020200000001020302030202020202020401020204000003020202000100000101030000020002030100040203020404020400010403020000010400040302000401030104020102030000010103020303",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "column-row",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "raw",
+          "radix": 5,
+          "rail": "quinary-column",
+          "reverse_digits": true,
+          "serialization": "raw-digit-bytes"
+        }
+      ]
+    },
+    "679d60aa3faae5244a74da0d8336deaac0fe0297c0266f55b05adc57cfa8deee": {
+      "password_hex": "0c16482d4e481112672205083d3738594748711b0b257420571a2017073e1a0a575735436157453923070d52560b4233245c261e04200b1b20233f5c521033304d27375f55570d260b3a2a371a576e413c12393a240b29080c1e613d712c3024323d453900685756051115550b0d2a584347500f753c4326753437253d4d5e2e2032452551614561525d0c57432a112f2b42013e2f5b315e6a75440f234a0a10136225340226433e702f02571906110a2c1170686b4b6d0d672e2632205d",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "row-column",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "raw",
+          "radix": 5,
+          "rail": "quinary-column",
+          "reverse_digits": true,
+          "serialization": "strict-byte-chunks"
+        }
+      ]
+    },
+    "68f46a216cacd8006b6c56e42ac5dcaa5cbcd24e596f5df32e032304d8f9dbed": {
+      "password_hex": "bb36fe22a4558d298424f6cd1bbbdbb53ce1b90f15226f3de4c24f42ac9fb0ca",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "row-column",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-raw",
+          "radix": 5,
+          "rail": "quinary-column",
+          "reverse_digits": false,
+          "serialization": "ascii-digits"
+        }
+      ]
+    },
+    "6914a12585b6624c6dd33c682f7c1a15b8ff0b1f871c7c9f9b9aad87fb20175f": {
+      "password_hex": "01b3ec6181aa2748622b8b62acecc265d7f196df5c0ebaa92a7efa5fcc6139d726dd6eacc0af7a840e89a85eff03981ebcb23ccdb7a3aa2819444fb766b268b135a80280cc4a300b",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "row-column",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "raw",
+          "radix": 2,
+          "rail": "binary-row",
+          "reverse_digits": false,
+          "serialization": "minimal-integer-big-endian"
+        }
+      ]
+    },
+    "6f406d0a68e370cf1dbde5129432ee4bd063d3e51197b2ef9698a9f7eae65764": {
+      "password_hex": "010100010000000000000000010100000001000100000100000001010000010100000000000000010001000000000000000000010001000101000100010100000100000001010001000000010001010000010000010100010001010000010100010101000101000101010101000001000000010000000100010000010100000000000001000100000001000100010001010100000001000101010100010100010100010100000101000001010101000000010000010100010000010101010001000101010100000000000001010000010101000000000000010101010101010100010101010001000000000100010001010000010000000100010101000000000000010000000001000100010101010001010101000100010000000000000101000001010001000100010101000101000100010101000101000101000001000001010100010001010100000101010000010000000001010000000101000001010101010101000100000100010101010100010101010101000001000100010000010000010001000100010001010100010001010100000000000001010100010001010101010001010001010001000001010000000101010101010100010001010100010000010100000100000000010100000101000101010000010100010001000100000001010001010001000000010101000100010000000100000001010000000001000001000101010000010000000100010001000101000000000000010100000000010100000001010001010101010000010100010100",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "row-column",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "raw",
+          "radix": 2,
+          "rail": "binary-row",
+          "reverse_digits": true,
+          "serialization": "raw-digit-bytes"
+        }
+      ]
+    },
+    "73a0de99007befcecadedb687e430ebf80c8cadf63a21c7c30f25cc07e912021": {
+      "password_hex": "323030323234343231323034303332333234333030323333303431333431313030303331323232313031313233313432343232313234323431333230323031313232333431313231323331323130313130323334313032323232303130313032323333323232303232333233343333323232333232343231323130303231323033333231323330313132333232313130323133313233323131333031303031343231323031313230313131323032323233333233313330323133303231313334303331323432313233303034323333303232323031333332323032313331333132323031303133313232323432303033323230303333313232323331323130313132333130313331323031323031343332323132323431333433343131333132303232303132333232343231303034303430323333323132313030303233343033313032323030313332333133323332333232323134313330303033333432323032333231323332333432323230313231303232323233313230333331343134313132323030333231343232313333313234333233343234313333323333323033323232333231323233333031323234333132333133303032313232343133323133343133343433313434313233333230333033323132303434323030303133333033343334323132323230303031323332333232323232323431323234303033323232303130303131333030323032333130343233323434323430313433323030313430343332303431333134323132333030313133323333",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "column-row",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "raw",
+          "radix": 5,
+          "rail": "quinary-column",
+          "reverse_digits": true,
+          "serialization": "ascii-digits"
+        }
+      ]
+    },
+    "76c459e944b06167d4ad0b1a7ec5ac43016247d6c8b02f063ec773ae3c10fe7f": {
+      "password_hex": "18237f2ce989f3dc1e095a6ab80c9ce4712b17cb531dc4b477169e3c22cab42c",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "column-row",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-raw",
+          "radix": 5,
+          "rail": "quinary-column",
+          "reverse_digits": false,
+          "serialization": "strict-byte-chunks"
+        }
+      ]
+    },
+    "770ffbeb988fa387a6c365a5b007be9420c1d676889ffe4f3e6e91ae68ab2867": {
+      "password_hex": "6f406d0a68e370cf1dbde5129432ee4bd063d3e51197b2ef9698a9f7eae65764",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "row-column",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-raw",
+          "radix": 2,
+          "rail": "binary-row",
+          "reverse_digits": true,
+          "serialization": "raw-digit-bytes"
+        }
+      ]
+    },
+    "792ad71c16ea7c0068f8e7453fe00a5ff5188d54719b8a4d3992ab3375def0cb": {
+      "password_hex": "36663430366430613638653337306366316462646535313239343332656534626430363364336535313139376232656639363938613966376561653635373634",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "row-column",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-lowerhex",
+          "radix": 2,
+          "rail": "binary-row",
+          "reverse_digits": true,
+          "serialization": "raw-digit-bytes"
+        }
+      ]
+    },
+    "7ad7306e66ee32c6095eb0c060257569c171c292b204134d2913c8074133b174": {
+      "password_hex": "9af20967ec3950e21c9e0626ff34d49e6f3ee0d36fd3db751e0260b1713163c1",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "row-column",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-raw",
+          "radix": 2,
+          "rail": "binary-row",
+          "reverse_digits": true,
+          "serialization": "minimal-integer-big-endian"
+        }
+      ]
+    },
+    "7b325ef9d49bbb6ab351d6b71e1cefb141721589925b473745119ed6c22d7504": {
+      "password_hex": "000202000402020402010400030003020402000302000303040003010104000100000103020201020100020101030204020401020402040203010002000201010202040301010102030202010001010102000403000102020202010001000200030202030202020003020302030402030202020304020102010200000102000203030102030201000201020301020001010201030302010203010100000004010102000201010002010102010200020203030302030102000301020001010403030002010204020100030400030200030202000203010203000201020103010302020100010001030202040200020300020200000303020102020103010201000201010301000103000202010100030402020201040203010304010403010201020000020201020304020102000000040004030202030201000100000302000401030200000201000203010302030203020302020401030100000300040302020200020302010203040302020002020100010202020201030002030304010401010102020000020304010202030101030402020304030402030102030303000202030202020302010302000302010402010303020301000001020202010402030301010404030304040101040302020303000300010200020404000200000301000304030403010202020002000002010203020302020202040202010402000002030202010000000101000302000200010304000302040202040004040102030000040104000203040003010401010203020000010102030303",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "row-column",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "raw",
+          "radix": 5,
+          "rail": "quinary-column",
+          "reverse_digits": true,
+          "serialization": "raw-digit-bytes"
+        }
+      ]
+    },
+    "7d64c799895d33a03b96313822305ce24648deebf5aa0b4459a30c254a90602d": {
+      "password_hex": "1b184ffc2ec9e5ecc73ae25e3ce7bc285987fb9ea269077ca2a014f1ec771cf3",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "row-column",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-raw",
+          "radix": 5,
+          "rail": "quinary-column",
+          "reverse_digits": false,
+          "serialization": "minimal-integer-big-endian"
+        }
+      ]
+    },
+    "7fc03d63e9eb59891169a8a1aecbd63abc726b125617935dc1ce2f4f6b44caa7": {
+      "password_hex": "010101000000000000000000010100000100010000000001000001010000010100000000000001000100000000000000000001000100010000010001010100000001000001010100000001000100000101000000010101000100000101000001010100010101010001010101000000010000000100000001000101000001000000000100010000000100010001000100010100000100010001010001010101000001010100000101000001010101000001000000010101000000010101010100010001010001000000000100000101000101000000000000010101010101010101000101000100010000010001000100000101000000010001000101000000000000000100000100010001000101000101010101010001000000000000000101000001010100010001000101010000010001010100010101010000010100000001010001000101010001010001010000000100000100000100000101000001010101010100010001010001000101010101000101010100010100010001000000000101000100010001000100010101000100010100000000000001010001000101010101000101010100000100010100000100000101010101010001000101010001000101000001010000000000010100000101010001010000010101000100010000000100000101010100000001000101010001000000010000000100000100000100000000010101000101000000010001000100010000010000000001000001000001000001000001010100010101010000010101000001",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "column-row",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "raw",
+          "radix": 2,
+          "rail": "binary-row",
+          "reverse_digits": true,
+          "serialization": "raw-digit-bytes"
+        }
+      ]
+    },
+    "8fe5e409ed6f2f2b1ddb7cf9bf5e1b9386dfc80d9e5b6f1ae996959674584c26": {
+      "password_hex": "0313f87cc3c731e4b976a285a47c4066083e19451bb57b7d8e66cf9264312cc4",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "row-column",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-raw",
+          "radix": 2,
+          "rail": "binary-row",
+          "reverse_digits": false,
+          "serialization": "raw-digit-bytes"
+        }
+      ]
+    },
+    "91b9efa6a8d8bbb8d5ab82cb281d0a92f7153790e8e9d7214767e0cf75401e89": {
+      "password_hex": "36336266333937663930646266376432623830663935326164323463633930343439303833313166356566343161313035663231646165646563326130663533",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "row-column",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-lowerhex",
+          "radix": 2,
+          "rail": "binary-row",
+          "reverse_digits": true,
+          "serialization": "ascii-digits"
+        }
+      ]
+    },
+    "97c743a794492e8aded9f0424094ba1c8108a2a63ba0e493136e950fa7a5539c": {
+      "password_hex": "62623336666532326134353538643239383432346636636431626262646262353363653162393066313532323666336465346332346634326163396662306361",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "row-column",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-lowerhex",
+          "radix": 5,
+          "rail": "quinary-column",
+          "reverse_digits": false,
+          "serialization": "ascii-digits"
+        }
+      ]
+    },
+    "985c2e1f19c64462ce917e1df5325e3549c381d1a8dc9462471f7a8f5f76bfa9": {
+      "password_hex": "333332333131303033323132343133313430323334303431303032333431303432343432333234303133323032303033313130303130323232333030343232313432323232323233323332313030303232323132343334333033333130303032343430323132333033303233333231343431333434333134333132333134323231323030333133323133343232313033333232313233323232333032333332333331343234333233343231333331323234313233303032323131343134313333303231333232323230313231303232323433323332313233323032323433333030303331343132323233323332333133323331303032323031333034333230303031323132333332303430343030313234323233323130323230323133313134333433313432323132323334313032313032313331303133323131303132313332323231333330303232333030323432323231333130313032323133313331323032323333313032323230333332343030333231323432313330343331313230333132303331333233333232323032313131303231313032313234313030313033313132333231333132303131323233323131303332313233333032313230303132313234323233323232333334333233323230323232333332323031303130323232323031343332303131303132313332313231313433323231313032303233313432343231323234323431333231313031323232313330303031313433313430333332303033343233323330343032313234343232303032",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "column-row",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "raw",
+          "radix": 5,
+          "rail": "quinary-column",
+          "reverse_digits": false,
+          "serialization": "ascii-digits"
+        }
+      ]
+    },
+    "997265311f6d20cd3d07d104c0b8ae02d4c6d2af96f2a07a88b790aace4209e6": {
+      "password_hex": "63666631633861373162666337626131393161346530643663333333336366373735353262653232313463323439353561316138653038656162373064343230",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "column-row",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-lowerhex",
+          "radix": 2,
+          "rail": "binary-row",
+          "reverse_digits": false,
+          "serialization": "minimal-integer-big-endian"
+        }
+      ]
+    },
+    "9aadb9413bd160c8eab6d1000e1d7b5732689051b2a0dda4986e250e99ea7bf0": {
+      "password_hex": "73a0de99007befcecadedb687e430ebf80c8cadf63a21c7c30f25cc07e912021",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "column-row",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-raw",
+          "radix": 5,
+          "rail": "quinary-column",
+          "reverse_digits": true,
+          "serialization": "ascii-digits"
+        }
+      ]
+    },
+    "9af20967ec3950e21c9e0626ff34d49e6f3ee0d36fd3db751e0260b1713163c1": {
+      "password_hex": "03403148cc050056b23459359bb7c88a60515717b6ccf134f5e06703fde85645c0857bd40cd5daed93ae7218cfe97df9525575c0ebeda63fae990cdcd51b4751184b91560618df36",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "row-column",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "raw",
+          "radix": 2,
+          "rail": "binary-row",
+          "reverse_digits": true,
+          "serialization": "minimal-integer-big-endian"
+        }
+      ]
+    },
+    "a4d85452c818a5024ff62b561e7a59f38369680f44cd5cc2fa1d3a9096dd7920": {
+      "password_hex": "31623138346666633265633965356563633733616532356533636537626332383539383766623965613236393037376361326130313466316563373731636633",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "row-column",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-lowerhex",
+          "radix": 5,
+          "rail": "quinary-column",
+          "reverse_digits": false,
+          "serialization": "minimal-integer-big-endian"
+        }
+      ]
+    },
+    "aab7daa1fe5f3703ff8cdae99ccdb06899fba7d911f9e368ff9261fb9956f894": {
+      "password_hex": "009f584e4389b4433acd52fbbfaaab7e8f1bbf8ae61954e622d6b6482cb1ced2",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "row-column",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-raw",
+          "radix": 5,
+          "rail": "quinary-column",
+          "reverse_digits": false,
+          "serialization": "strict-byte-chunks"
+        }
+      ]
+    },
+    "b00312d38b45d93d83f6e8309f4e0195c89d3dcb4e5cb74eea63259fd24d7360": {
+      "password_hex": "37666330336436336539656235393839313136396138613161656362643633616263373236623132353631373933356463316365326634663662343463616137",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "column-row",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-lowerhex",
+          "radix": 2,
+          "rail": "binary-row",
+          "reverse_digits": true,
+          "serialization": "raw-digit-bytes"
+        }
+      ]
+    },
+    "b4be6d797dccfe2db2fdc348726e1a41e6f18582a3f10b85dad09620b89a776a": {
+      "password_hex": "63323362636462623039663465643766316361313137633561363730336162303063306637346130653534373362336431656564393364303734643031323738",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "column-row",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-lowerhex",
+          "radix": 5,
+          "rail": "quinary-column",
+          "reverse_digits": false,
+          "serialization": "raw-digit-bytes"
+        }
+      ]
+    },
+    "b60b18679968a7d90e939e3c02fa775724162acbadda4f0c0c1eb2d1251fe2f2": {
+      "password_hex": "679d60aa3faae5244a74da0d8336deaac0fe0297c0266f55b05adc57cfa8deee",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "row-column",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-raw",
+          "radix": 5,
+          "rail": "quinary-column",
+          "reverse_digits": true,
+          "serialization": "strict-byte-chunks"
+        }
+      ]
+    },
+    "b768249bf0e1662c49c5c20ebfdd97d1e8e7a216274c05fd71641453f3be5a34": {
+      "password_hex": "30303966353834653433383962343433336163643532666262666161616237653866316262663861653631393534653632326436623634383263623163656432",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "row-column",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-lowerhex",
+          "radix": 5,
+          "rail": "quinary-column",
+          "reverse_digits": false,
+          "serialization": "strict-byte-chunks"
+        }
+      ]
+    },
+    "b904bdf7156bc338f7dc5465d311102ce31629969370af83c08f681614fff787": {
+      "password_hex": "37623332356566396434396262623661623335316436623731653163656662313431373231353839393235623437333734353131396564366332326437353034",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "row-column",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-lowerhex",
+          "radix": 5,
+          "rail": "quinary-column",
+          "reverse_digits": true,
+          "serialization": "raw-digit-bytes"
+        }
+      ]
+    },
+    "bb36fe22a4558d298424f6cd1bbbdbb53ce1b90f15226f3de4c24f42ac9fb0ca": {
+      "password_hex": "333333323131303032333231313431333034333230343134303033323134343034323234323330343331303230323330313130303031323233323030323431323234323232323332333231323030323032323231333433343330313330303230343432303231303330333332323334313134343333343431313333323431323232313030313332333331323431323330323331323332323233323230333333323133323433343332323433313133323231343332303032323131313431343333323033313232323231303132323032323334333231323332303232323334303330303133313432323332333233323331333230313230303233313430323330303130313233323233343034303030323132343332313232303032313231333431343331333234313232323433303131323230333130313331313230313231333132323132333330303232303332303234323233313031303132323331333132313230333231333230323233303233303433303132343231323033333431313032313330323133323333333232303231323131323031313230323131343030303131333231323333313231313032313332313230313233323133333230323130303231323132343332323233323433323332333032323233323233303230313031323232323130333430323131313031323233323131313334323231313230323031333234323432313432343233313132303132313232333130303130343131333034333330323330323432333033303431323432323430323230",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "row-column",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "raw",
+          "radix": 5,
+          "rail": "quinary-column",
+          "reverse_digits": false,
+          "serialization": "ascii-digits"
+        }
+      ]
+    },
+    "c23bcdbb09f4ed7f1ca117c5a6703ab00c0f74a0e5473b3d1eed93d074d01278": {
+      "password_hex": "030302030101000003020102040103010400020304000401000002030401000402040402030204000103020002000003010100000100020202030000040202010402020202020203020302010000000202020102040304030003030100000002040400020102030003000203030201040401030404030104030102030104020201020000030103020103040202010003030202010203020202030002030302030301040204030203040201030301020204010203000002020101040104010303000201030202020200010201000202020403020302010203020002020403030000000301040102020203020302030103020301000002020001030004030200000001020102030302000400040000010204020203020100020200020103010104030403010402020102020304010002010002010301000103020101000102010302020201030300000202030000020402020201030100010002020103010301020002020303010002020200030302040000030201020402010300040301010200030102000301030203030202020002010101000201010002010204010000010003010102030201030102000101020203020101000302010203030002010200000102010204020203020202030304030203020200020202030302020001000100020202020001040302000101000102010302010201010403020201010002000203010402040201020204020401030201010001020202010300000001010403010400030302000003040203020300040002010204040202000002",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "column-row",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "raw",
+          "radix": 5,
+          "rail": "quinary-column",
+          "reverse_digits": false,
+          "serialization": "raw-digit-bytes"
+        }
+      ]
+    },
+    "c515b79ff0ea211e35ea3493e31ef6e83f6dec23a2ca6e664d200494d346bad2": {
+      "password_hex": "59c8af0aca598eb30002a6a1edd6e8d35d2dd3d79b4e50c49d88b3874bcaba05",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "row-column",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-raw",
+          "radix": 5,
+          "rail": "quinary-column",
+          "reverse_digits": true,
+          "serialization": "ascii-digits"
+        }
+      ]
+    },
+    "c51c0369026e4420b8c3c2e289c1bb0123f781b34bdfb74f0ca569278424e102": {
+      "password_hex": "c23bcdbb09f4ed7f1ca117c5a6703ab00c0f74a0e5473b3d1eed93d074d01278",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "column-row",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-raw",
+          "radix": 5,
+          "rail": "quinary-column",
+          "reverse_digits": false,
+          "serialization": "raw-digit-bytes"
+        }
+      ]
+    },
+    "c9d09175f87a41e13a87663134c8ebe8b0b556bf2e8ff8ae8bf957ffda66678f": {
+      "password_hex": "fec6be15e18b4a83675d6c230867a65b3a8a32aee82058a3955fca077ce5b6fb",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "column-row",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-raw",
+          "radix": 2,
+          "rail": "binary-row",
+          "reverse_digits": false,
+          "serialization": "raw-digit-bytes"
+        }
+      ]
+    },
+    "cbeeaf2a86af3be0e6bcc7535f6df31c144ab506d8e5ed5358926266ea8598e4": {
+      "password_hex": "140798a1fc3ab2af10b1bfa175bd86b013e88f2a82bc3660d33a309d89110037",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "row-column",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-raw",
+          "radix": 5,
+          "rail": "quinary-column",
+          "reverse_digits": true,
+          "serialization": "minimal-integer-big-endian"
+        }
+      ]
+    },
+    "cdb4159c1cac2117e46de0a7603bfedcfbe49582e05fe644055afa31a5dc33ad": {
+      "password_hex": "36393134613132353835623636323463366464333363363832663763316131356238666630623166383731633763396639623961616438376662323031373566",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "row-column",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-lowerhex",
+          "radix": 2,
+          "rail": "binary-row",
+          "reverse_digits": false,
+          "serialization": "minimal-integer-big-endian"
+        }
+      ]
+    },
+    "cff1c8a71bfc7ba191a4e0d6c3333cf77552be2214c24955a1a8e08eab70d420": {
+      "password_hex": "0273dc9242551b84911747915cdcc19aebf269efac0d755615bdf5afcc9236eb19ee9d5cc05fb5480d4654adff03642d7c713cce7b53551426888f7b997194723a540140cc853007",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "column-row",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "raw",
+          "radix": 2,
+          "rail": "binary-row",
+          "reverse_digits": false,
+          "serialization": "minimal-integer-big-endian"
+        }
+      ]
+    },
+    "d2a8516edba98b022ba1a2da73fa911a068b33d0f2585179073f12214400ada9": {
+      "password_hex": "31383233376632636539383966336463316530393561366162383063396365343731326231376362353331646334623437373136396533633232636162343263",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "column-row",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-lowerhex",
+          "radix": 5,
+          "rail": "quinary-column",
+          "reverse_digits": false,
+          "serialization": "strict-byte-chunks"
+        }
+      ]
+    },
+    "de4a0262a787853af529caecc218f6ea9fcc3a684e250c3cf77502c1fe56a0f0": {
+      "password_hex": "3a2db738f2981523263f20646642f2ba0a6b0f8e5180d4b5bba9451513f6de84",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "column-row",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-raw",
+          "radix": 5,
+          "rail": "quinary-column",
+          "reverse_digits": true,
+          "serialization": "minimal-integer-big-endian"
+        }
+      ]
+    },
+    "e2866b38dd7409db090e1f46f59c8a938040aea63a170055a4937d153fe2cd72": {
+      "password_hex": "32333331653062633737373639636438383830356464303063636166643235353631323432316633356536326135656131343531623663336162343834623166",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "column-row",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-lowerhex",
+          "radix": 2,
+          "rail": "binary-row",
+          "reverse_digits": false,
+          "serialization": "ascii-digits"
+        }
+      ]
+    },
+    "e3193599b5ec32cc4b219e61cca88885965630aa632a2859ed34fd7fb3e2e493": {
+      "password_hex": "030303020101000002030201010401030004030200040104000003020104040004020204020300040301000200020300010100000001020203020000020401020204020202020302030201020000020002020201030403040300010300000200040402000201000300030302020304010104040303040401010303020401020202010000010302030301020401020300020301020302020203020200030303020103020403040302020403010103020201040302000002020101010401040303020003010202020201000102020002020304030201020302000202020304000300000103010402020302030203020301030200010200000203010400020300000100010203020203040004000000020102040302010202000002010201030401040301030204010202020403000101020200030100010301010200010201030102020102030300000202000302000204020203010001000102020301030102010200030201030200020203000203000403000102040201020003030401010002010300020103020303030202000201020101020001010200020101040000000101030201020303010201010002010302010200010203020103030200020100000201020102040302020203020403020302030002020203020203000200010001020202020100030400020101010001020203020101010304020201010200020001030204020402010402040203010102000102010202030100000100040101030004030300020300020402030003000401020402020400020200",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "row-column",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "raw",
+          "radix": 5,
+          "rail": "quinary-column",
+          "reverse_digits": false,
+          "serialization": "raw-digit-bytes"
+        }
+      ]
+    },
+    "e40a3e72fa385148efe0e6b90c9f91515c397ec201b1a0064eb1b6aab8b0c6be": {
+      "password_hex": "5bbf2db09cc058c5f306fc056b650952fb487302b67bfd5f05895dd7fb751dd4",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "column-row",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-raw",
+          "radix": 5,
+          "rail": "quinary-column",
+          "reverse_digits": true,
+          "serialization": "strict-byte-chunks"
+        }
+      ]
+    },
+    "eba5d6ca1d6757b3124ba12e39a6a555dad2eed25844ae591d4235ea735a7978": {
+      "password_hex": "985c2e1f19c64462ce917e1df5325e3549c381d1a8dc9462471f7a8f5f76bfa9",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "column-row",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-raw",
+          "radix": 5,
+          "rail": "quinary-column",
+          "reverse_digits": false,
+          "serialization": "ascii-digits"
+        }
+      ]
+    },
+    "f7a5f90b712715ced2792e216fd9bea69091bc902823cd7c9c14faed14140ca4": {
+      "password_hex": "35626266326462303963633035386335663330366663303536623635303935326662343837333032623637626664356630353839356464376662373531646434",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "column-row",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-lowerhex",
+          "radix": 5,
+          "rail": "quinary-column",
+          "reverse_digits": true,
+          "serialization": "strict-byte-chunks"
+        }
+      ]
+    },
+    "f81286f1ddcb07362d8940998e6080616032b283627061d761d17f40224f6327": {
+      "password_hex": "09117f3d24234a9441f5c23c4188cb8aadfdad7ba684b44a4b08bb0eef5a2733",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "column-row",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-raw",
+          "radix": 5,
+          "rail": "quinary-column",
+          "reverse_digits": false,
+          "serialization": "minimal-integer-big-endian"
+        }
+      ]
+    },
+    "f96866492d2067e0409d30cbe4097d189e521cbfaa48db412a29c4e8c4db5477": {
+      "password_hex": "2af3448db592d2b94f458f54c87ca9b49ea3d9f54e6e7debab6cc52a83c166fb",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "column-row",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-raw",
+          "radix": 2,
+          "rail": "binary-row",
+          "reverse_digits": true,
+          "serialization": "ascii-digits"
+        }
+      ]
+    },
+    "fad71448729fdbdf32c547b4e44e6f9e2f7532378d98077534eae7cf7b81ddd7": {
+      "password_hex": "66c9a41104aa78a7d677824c084fcc30b23a2ffd84a347fcaa8fb747c67a6a6f",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "column-row",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-raw",
+          "radix": 5,
+          "rail": "quinary-column",
+          "reverse_digits": true,
+          "serialization": "raw-digit-bytes"
+        }
+      ]
+    },
+    "fec6be15e18b4a83675d6c230867a65b3a8a32aee82058a3955fca077ce5b6fb": {
+      "password_hex": "010000010101000001010101000101010000010000010000010000010000000001000001000100010001000000010100010101000000000100000100000100000001000000010001010100010000000101010100000100000001000100010101000001010001010100000101000000000001010000010100010001010100010001010101010100000100000101000100000101010100010101010100010001010000000000000101000100010101000100010001000100010100000000010001000101000101010100010101010100010001010001000101010101010000010100000100000100000100000001010001010001010100010001010000000101000001010101000101010001000001010100010001000101010000010100000000000000010001010101010100010100010001000100000100000000000000010100010001000000010100000100010001000001000100010100010101010101010101000000000000010100010100000100000000010001010001000101010101000000010101000000010000010101010000010100000101010000010101010001010001000100000101000100010001000100000001000100000000010000010100010000000100000001000000010101010001010101000101010000010100000100010101000000010100000100010000000101010000010000000101010001000001000100010000000000000000000100010000000000000101000001010000010000000001000100000101000000000000000000010101",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "column-row",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "raw",
+          "radix": 2,
+          "rail": "binary-row",
+          "reverse_digits": false,
+          "serialization": "raw-digit-bytes"
+        }
+      ]
+    },
+    "ffb18fc9c282da4354419cd52e2bab3cd99d6a7ea273048f1b9daec9fe6667df": {
+      "password_hex": "e3193599b5ec32cc4b219e61cca88885965630aa632a2859ed34fd7fb3e2e493",
+      "provenance": [
+        {
+          "chunk_policy": "Binary8/quinary3 digits per byte, exact divisibility required",
+          "coordinate_order": "row-column",
+          "digit_count": 570,
+          "integer_leading_zero_policy": "Minimal integer bytes only; no invented leading zeros",
+          "password_transform": "sha256-raw",
+          "radix": 5,
+          "rail": "quinary-column",
+          "reverse_digits": false,
+          "serialization": "raw-digit-bytes"
+        }
+      ]
+    }
+  },
+  "search_space": {
+    "coordinate_orders": 2,
+    "decode_errors": 4,
+    "decode_forms": 32,
+    "directions": 2,
+    "kdf_digests": [
+      "md5",
+      "sha256"
+    ],
+    "password_transforms": 3,
+    "planned_aes_trials": 504,
+    "rails": 2,
+    "serializations": 4,
+    "targets": [
+      "phase32-inner",
+      "salphaseion-small",
+      "cosmic-duality"
+    ],
+    "unique_passwords": 84
+  },
+  "source_evidence": [
+    {
+      "locator": "Exact dbbi91 keyword/faed570; no source edits",
+      "path": "research/sources/salphaseion.html",
+      "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+    },
+    {
+      "locator": "Forced even-parity alphabet bcde",
+      "path": "research/artifacts/cycle04/bifid-evidence.json",
+      "sha256": "b3e75c099064c8a32fa07ab165e16865a41760f099abe2d104c549a80971d6b1"
+    }
+  ],
+  "status": "UNTESTED"
+}

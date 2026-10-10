@@ -1,0 +1,56 @@
+{
+  "retrieved_at_utc": "2026-10-01T19:20:32+00:00",
+  "local_date": "2026-10-02",
+  "status": "CONFIRMED",
+  "listing": {
+    "url": "https://privatekeys.pw/puzzles/gsmg-puzzle",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 14278,
+    "sha256": "8e09d669e10f749b811d423b5598e44899f56117b9ab49f29d3f9669c5d1e99f",
+    "advertised_status": "UNSOLVED",
+    "advertised_prize": "1.5 BTC",
+    "target_address": "1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe"
+  },
+  "target_chain_state": {
+    "url": "https://blockstream.info/api/address/1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe",
+    "http_status": 200,
+    "response_bytes": 284,
+    "response_sha256": "2db662c5efde5ca91ddca63101b5ec27023dca62b9cea7468adf347084199b8e",
+    "chain_funded_txo_sum_sat": 875990465,
+    "chain_spent_txo_sum_sat": 750353498,
+    "chain_balance_sat": 125636967,
+    "chain_tx_count": 127,
+    "mempool_balance_sat": 0,
+    "mempool_tx_count": 0
+  },
+  "original_source": {
+    "url": "https://gsmg.io/puzzle",
+    "http_status": 200,
+    "content_type": "image/png",
+    "last_modified": "Sat, 15 Aug 2026 23:16:52 GMT",
+    "bytes": 29931,
+    "sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830",
+    "matches_preserved_source": true
+  },
+  "salphase_source": {
+    "url": "https://gsmg.io/89727c598b9cd1cf8873f27cb7057f050645ddb6a7a157a110239ac0152f6a32",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "last_modified": "Sat, 15 Aug 2026 23:16:42 GMT",
+    "bytes": 4536,
+    "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77",
+    "matches_preserved_source": true
+  },
+  "maintained_community_repository": {
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits?per_page=1",
+    "http_status": 200,
+    "response_bytes": 3319,
+    "response_sha256": "602dc0ee5d46a23cab6766b39460783303a4c5684df4c1592d0b4dbc184c0c6b",
+    "latest_commit": "9e61693404ef74e8e681598116d371924f399ffa",
+    "latest_commit_date": "2026-09-29T18:26:50Z",
+    "latest_commit_message": "Update README.md",
+    "matches_preserved_head": true
+  },
+  "limits": "Public HTTPS GETs only. No wallet, private RPC, transaction construction, signing or broadcast. Dynamic response hashes prove the exact retrieved representations, not permanent server state."
+}

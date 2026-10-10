@@ -1,0 +1,3430 @@
+{
+  "interpretation": {
+    "HYPOTHESIS": "A nine-symbol coordinate/digit encoding or source-derived matrix/index instruction is more plausible than direct 26-letter monoalphabetic English.",
+    "LIKELY": "Different marginal frequencies justify treating the two sides separately before assuming one cipher.",
+    "UNKNOWN": "Cipher, key, intended word boundaries, whether the two segments are independent encrypted units.",
+    "VERIFIED": "The 661 joined letters comprise 91 letters before and 570 letters after the matrixsumlist clue. All use exactly a-i."
+  },
+  "segments": {
+    "dbbi": {
+      "alphabet": "abcdefghi",
+      "boundary_information": "No spaces inside this segment; the live page inserts an independently decoded matrixsumlist binary run between dbbi and faed",
+      "conditional_transition_entropy": 2.1986985495105946,
+      "counts": {
+        "a": 3,
+        "b": 25,
+        "c": 8,
+        "d": 4,
+        "e": 18,
+        "f": 10,
+        "g": 10,
+        "h": 8,
+        "i": 5
+      },
+      "entropy_bits_per_symbol": 2.8818809627846607,
+      "exact_rectangle_widths": [
+        7,
+        13
+      ],
+      "first_occurrence_alphabet": "dbifhcega",
+      "index_of_coincidence": 0.1509157509157509,
+      "length": 91,
+      "pair_alphabets": [
+        {
+          "distinct": 27,
+          "offset": 0,
+          "pairs": {
+            "ab": 3,
+            "bb": 1,
+            "be": 4,
+            "bf": 5,
+            "bh": 1,
+            "bi": 1,
+            "cb": 1,
+            "cc": 2,
+            "cg": 1,
+            "ci": 1,
+            "db": 2,
+            "eb": 2,
+            "ed": 1,
+            "ee": 1,
+            "ef": 1,
+            "eg": 2,
+            "ei": 1,
+            "fb": 1,
+            "fc": 1,
+            "fd": 1,
+            "fg": 1,
+            "gb": 1,
+            "ge": 4,
+            "hb": 2,
+            "hh": 2,
+            "ig": 1,
+            "ih": 1
+          }
+        },
+        {
+          "distinct": 30,
+          "offset": 1,
+          "pairs": {
+            "ba": 1,
+            "bb": 2,
+            "be": 6,
+            "bf": 1,
+            "bg": 1,
+            "bh": 1,
+            "bi": 1,
+            "cb": 1,
+            "cc": 1,
+            "cd": 1,
+            "dc": 1,
+            "dh": 1,
+            "ea": 1,
+            "eb": 2,
+            "ec": 1,
+            "ee": 2,
+            "eg": 2,
+            "eh": 1,
+            "fb": 3,
+            "fc": 1,
+            "ff": 2,
+            "gb": 2,
+            "gg": 2,
+            "gi": 1,
+            "ha": 1,
+            "hc": 1,
+            "he": 1,
+            "hf": 1,
+            "ib": 2,
+            "ih": 1
+          }
+        }
+      ],
+      "periodicity": [
+        {
+          "autocoincidence": 0.166667,
+          "mean_column_ic": 0.150916,
+          "min_column_length": 91,
+          "period": 1
+        },
+        {
+          "autocoincidence": 0.168539,
+          "mean_column_ic": 0.143917,
+          "min_column_length": 45,
+          "period": 2
+        },
+        {
+          "autocoincidence": 0.125,
+          "mean_column_ic": 0.149326,
+          "min_column_length": 30,
+          "period": 3
+        },
+        {
+          "autocoincidence": 0.172414,
+          "mean_column_ic": 0.132364,
+          "min_column_length": 22,
+          "period": 4
+        },
+        {
+          "autocoincidence": 0.104651,
+          "mean_column_ic": 0.137874,
+          "min_column_length": 18,
+          "period": 5
+        },
+        {
+          "autocoincidence": 0.211765,
+          "mean_column_ic": 0.137698,
+          "min_column_length": 15,
+          "period": 6
+        },
+        {
+          "autocoincidence": 0.238095,
+          "mean_column_ic": 0.155678,
+          "min_column_length": 13,
+          "period": 7
+        },
+        {
+          "autocoincidence": 0.084337,
+          "mean_column_ic": 0.124242,
+          "min_column_length": 11,
+          "period": 8
+        },
+        {
+          "autocoincidence": 0.158537,
+          "mean_column_ic": 0.154882,
+          "min_column_length": 10,
+          "period": 9
+        },
+        {
+          "autocoincidence": 0.08642,
+          "mean_column_ic": 0.116667,
+          "min_column_length": 9,
+          "period": 10
+        },
+        {
+          "autocoincidence": 0.1875,
+          "mean_column_ic": 0.174603,
+          "min_column_length": 8,
+          "period": 11
+        },
+        {
+          "autocoincidence": 0.101266,
+          "mean_column_ic": 0.109127,
+          "min_column_length": 7,
+          "period": 12
+        },
+        {
+          "autocoincidence": 0.205128,
+          "mean_column_ic": 0.201465,
+          "min_column_length": 7,
+          "period": 13
+        },
+        {
+          "autocoincidence": 0.12987,
+          "mean_column_ic": 0.140816,
+          "min_column_length": 6,
+          "period": 14
+        },
+        {
+          "autocoincidence": 0.197368,
+          "mean_column_ic": 0.167619,
+          "min_column_length": 6,
+          "period": 15
+        },
+        {
+          "autocoincidence": 0.186667,
+          "mean_column_ic": 0.135417,
+          "min_column_length": 5,
+          "period": 16
+        },
+        {
+          "autocoincidence": 0.148649,
+          "mean_column_ic": 0.14902,
+          "min_column_length": 5,
+          "period": 17
+        },
+        {
+          "autocoincidence": 0.109589,
+          "mean_column_ic": 0.159259,
+          "min_column_length": 5,
+          "period": 18
+        },
+        {
+          "autocoincidence": 0.138889,
+          "mean_column_ic": 0.12807,
+          "min_column_length": 4,
+          "period": 19
+        },
+        {
+          "autocoincidence": 0.169014,
+          "mean_column_ic": 0.12,
+          "min_column_length": 4,
+          "period": 20
+        },
+        {
+          "autocoincidence": 0.142857,
+          "mean_column_ic": 0.114286,
+          "min_column_length": 4,
+          "period": 21
+        },
+        {
+          "autocoincidence": 0.202899,
+          "mean_column_ic": 0.165152,
+          "min_column_length": 4,
+          "period": 22
+        },
+        {
+          "autocoincidence": 0.102941,
+          "mean_column_ic": 0.115942,
+          "min_column_length": 3,
+          "period": 23
+        },
+        {
+          "autocoincidence": 0.074627,
+          "mean_column_ic": 0.138889,
+          "min_column_length": 3,
+          "period": 24
+        },
+        {
+          "autocoincidence": 0.090909,
+          "mean_column_ic": 0.093333,
+          "min_column_length": 3,
+          "period": 25
+        },
+        {
+          "autocoincidence": 0.2,
+          "mean_column_ic": 0.224359,
+          "min_column_length": 3,
+          "period": 26
+        },
+        {
+          "autocoincidence": 0.109375,
+          "mean_column_ic": 0.160494,
+          "min_column_length": 3,
+          "period": 27
+        },
+        {
+          "autocoincidence": 0.142857,
+          "mean_column_ic": 0.136905,
+          "min_column_length": 3,
+          "period": 28
+        },
+        {
+          "autocoincidence": 0.129032,
+          "mean_column_ic": 0.178161,
+          "min_column_length": 3,
+          "period": 29
+        },
+        {
+          "autocoincidence": 0.114754,
+          "mean_column_ic": 0.111111,
+          "min_column_length": 3,
+          "period": 30
+        },
+        {
+          "autocoincidence": 0.116667,
+          "mean_column_ic": 0.107527,
+          "min_column_length": 2,
+          "period": 31
+        },
+        {
+          "autocoincidence": 0.135593,
+          "mean_column_ic": 0.104167,
+          "min_column_length": 2,
+          "period": 32
+        },
+        {
+          "autocoincidence": 0.189655,
+          "mean_column_ic": 0.181818,
+          "min_column_length": 2,
+          "period": 33
+        },
+        {
+          "autocoincidence": 0.140351,
+          "mean_column_ic": 0.147059,
+          "min_column_length": 2,
+          "period": 34
+        },
+        {
+          "autocoincidence": 0.142857,
+          "mean_column_ic": 0.152381,
+          "min_column_length": 2,
+          "period": 35
+        },
+        {
+          "autocoincidence": 0.090909,
+          "mean_column_ic": 0.166667,
+          "min_column_length": 2,
+          "period": 36
+        },
+        {
+          "autocoincidence": 0.166667,
+          "mean_column_ic": 0.18018,
+          "min_column_length": 2,
+          "period": 37
+        },
+        {
+          "autocoincidence": 0.113208,
+          "mean_column_ic": 0.149123,
+          "min_column_length": 2,
+          "period": 38
+        },
+        {
+          "autocoincidence": 0.211538,
+          "mean_column_ic": 0.188034,
+          "min_column_length": 2,
+          "period": 39
+        },
+        {
+          "autocoincidence": 0.078431,
+          "mean_column_ic": 0.075,
+          "min_column_length": 2,
+          "period": 40
+        },
+        {
+          "autocoincidence": 0.2,
+          "mean_column_ic": 0.170732,
+          "min_column_length": 2,
+          "period": 41
+        },
+        {
+          "autocoincidence": 0.122449,
+          "mean_column_ic": 0.126984,
+          "min_column_length": 2,
+          "period": 42
+        },
+        {
+          "autocoincidence": 0.145833,
+          "mean_column_ic": 0.147287,
+          "min_column_length": 2,
+          "period": 43
+        },
+        {
+          "autocoincidence": 0.106383,
+          "mean_column_ic": 0.075758,
+          "min_column_length": 2,
+          "period": 44
+        },
+        {
+          "autocoincidence": 0.217391,
+          "mean_column_ic": 0.222222,
+          "min_column_length": 2,
+          "period": 45
+        },
+        {
+          "autocoincidence": 0.133333,
+          "mean_column_ic": 0.130435,
+          "min_column_length": 1,
+          "period": 46
+        },
+        {
+          "autocoincidence": 0.159091,
+          "mean_column_ic": 0.148936,
+          "min_column_length": 1,
+          "period": 47
+        },
+        {
+          "autocoincidence": 0.139535,
+          "mean_column_ic": 0.125,
+          "min_column_length": 1,
+          "period": 48
+        },
+        {
+          "autocoincidence": 0.166667,
+          "mean_column_ic": 0.142857,
+          "min_column_length": 1,
+          "period": 49
+        },
+        {
+          "autocoincidence": 0.121951,
+          "mean_column_ic": 0.1,
+          "min_column_length": 1,
+          "period": 50
+        },
+        {
+          "autocoincidence": 0.175,
+          "mean_column_ic": 0.137255,
+          "min_column_length": 1,
+          "period": 51
+        },
+        {
+          "autocoincidence": 0.230769,
+          "mean_column_ic": 0.173077,
+          "min_column_length": 1,
+          "period": 52
+        },
+        {
+          "autocoincidence": 0.078947,
+          "mean_column_ic": 0.056604,
+          "min_column_length": 1,
+          "period": 53
+        },
+        {
+          "autocoincidence": 0.27027,
+          "mean_column_ic": 0.185185,
+          "min_column_length": 1,
+          "period": 54
+        },
+        {
+          "autocoincidence": 0.222222,
+          "mean_column_ic": 0.145455,
+          "min_column_length": 1,
+          "period": 55
+        },
+        {
+          "autocoincidence": 0.171429,
+          "mean_column_ic": 0.107143,
+          "min_column_length": 1,
+          "period": 56
+        },
+        {
+          "autocoincidence": 0.117647,
+          "mean_column_ic": 0.070175,
+          "min_column_length": 1,
+          "period": 57
+        },
+        {
+          "autocoincidence": 0.242424,
+          "mean_column_ic": 0.137931,
+          "min_column_length": 1,
+          "period": 58
+        },
+        {
+          "autocoincidence": 0.15625,
+          "mean_column_ic": 0.084746,
+          "min_column_length": 1,
+          "period": 59
+        },
+        {
+          "autocoincidence": 0.096774,
+          "mean_column_ic": 0.05,
+          "min_column_length": 1,
+          "period": 60
+        }
+      ],
+      "repeated_substrings": [
+        {
+          "distances": [
+            42
+          ],
+          "offsets_zero_based": [
+            24,
+            66
+          ],
+          "substring": "egge"
+        },
+        {
+          "distances": [
+            72
+          ],
+          "offsets_zero_based": [
+            3,
+            75
+          ],
+          "substring": "ibfb"
+        },
+        {
+          "distances": [
+            58,
+            14
+          ],
+          "offsets_zero_based": [
+            4,
+            62,
+            76
+          ],
+          "substring": "bfb"
+        },
+        {
+          "distances": [
+            72
+          ],
+          "offsets_zero_based": [
+            16,
+            88
+          ],
+          "substring": "abe"
+        },
+        {
+          "distances": [
+            13
+          ],
+          "offsets_zero_based": [
+            17,
+            30
+          ],
+          "substring": "beb"
+        },
+        {
+          "distances": [
+            20
+          ],
+          "offsets_zero_based": [
+            64,
+            84
+          ],
+          "substring": "bee"
+        },
+        {
+          "distances": [
+            13
+          ],
+          "offsets_zero_based": [
+            10,
+            23
+          ],
+          "substring": "beg"
+        },
+        {
+          "distances": [
+            61
+          ],
+          "offsets_zero_based": [
+            9,
+            70
+          ],
+          "substring": "cbe"
+        },
+        {
+          "distances": [
+            54
+          ],
+          "offsets_zero_based": [
+            0,
+            54
+          ],
+          "substring": "dbb"
+        },
+        {
+          "distances": [
+            11
+          ],
+          "offsets_zero_based": [
+            18,
+            29
+          ],
+          "substring": "ebe"
+        },
+        {
+          "distances": [
+            42
+          ],
+          "offsets_zero_based": [
+            24,
+            66
+          ],
+          "substring": "egg"
+        },
+        {
+          "distances": [
+            42
+          ],
+          "offsets_zero_based": [
+            25,
+            67
+          ],
+          "substring": "gge"
+        },
+        {
+          "distances": [
+            26
+          ],
+          "offsets_zero_based": [
+            22,
+            48
+          ],
+          "substring": "hbe"
+        },
+        {
+          "distances": [
+            72
+          ],
+          "offsets_zero_based": [
+            3,
+            75
+          ],
+          "substring": "ibf"
+        }
+      ],
+      "sha256": "71fe46259e270c113529dfaded4b59c59a9dffd826a7202ab07fc498b6a2c5ca",
+      "transition_counts": {
+        "a": {
+          "a": 0,
+          "b": 3,
+          "c": 0,
+          "d": 0,
+          "e": 0,
+          "f": 0,
+          "g": 0,
+          "h": 0,
+          "i": 0
+        },
+        "b": {
+          "a": 1,
+          "b": 3,
+          "c": 0,
+          "d": 0,
+          "e": 10,
+          "f": 6,
+          "g": 1,
+          "h": 2,
+          "i": 2
+        },
+        "c": {
+          "a": 0,
+          "b": 2,
+          "c": 3,
+          "d": 1,
+          "e": 0,
+          "f": 0,
+          "g": 1,
+          "h": 0,
+          "i": 1
+        },
+        "d": {
+          "a": 0,
+          "b": 2,
+          "c": 1,
+          "d": 0,
+          "e": 0,
+          "f": 0,
+          "g": 0,
+          "h": 1,
+          "i": 0
+        },
+        "e": {
+          "a": 1,
+          "b": 4,
+          "c": 1,
+          "d": 1,
+          "e": 3,
+          "f": 1,
+          "g": 4,
+          "h": 1,
+          "i": 1
+        },
+        "f": {
+          "a": 0,
+          "b": 4,
+          "c": 2,
+          "d": 1,
+          "e": 0,
+          "f": 2,
+          "g": 1,
+          "h": 0,
+          "i": 0
+        },
+        "g": {
+          "a": 0,
+          "b": 3,
+          "c": 0,
+          "d": 0,
+          "e": 4,
+          "f": 0,
+          "g": 2,
+          "h": 0,
+          "i": 1
+        },
+        "h": {
+          "a": 1,
+          "b": 2,
+          "c": 1,
+          "d": 0,
+          "e": 1,
+          "f": 1,
+          "g": 0,
+          "h": 2,
+          "i": 0
+        },
+        "i": {
+          "a": 0,
+          "b": 2,
+          "c": 0,
+          "d": 0,
+          "e": 0,
+          "f": 0,
+          "g": 1,
+          "h": 2,
+          "i": 0
+        }
+      },
+      "uniform_entropy": 3.169925001442312,
+      "uniform_nine_symbol_ic": 0.1111111111111111
+    },
+    "faed": {
+      "alphabet": "abcdefghi",
+      "boundary_information": "No spaces inside this segment; the live page inserts an independently decoded matrixsumlist binary run between dbbi and faed",
+      "conditional_transition_entropy": 3.026241774028543,
+      "counts": {
+        "a": 54,
+        "b": 49,
+        "c": 52,
+        "d": 49,
+        "e": 69,
+        "f": 57,
+        "g": 107,
+        "h": 58,
+        "i": 75
+      },
+      "entropy_bits_per_symbol": 3.120339967722189,
+      "exact_rectangle_widths": [
+        2,
+        3,
+        5,
+        6,
+        10,
+        15,
+        19,
+        30,
+        38,
+        57,
+        95,
+        114,
+        190,
+        285
+      ],
+      "first_occurrence_alphabet": "faedgcbhi",
+      "index_of_coincidence": 0.11808960009866494,
+      "length": 570,
+      "pair_alphabets": [
+        {
+          "distinct": 75,
+          "offset": 0,
+          "pairs": {
+            "aa": 2,
+            "ac": 1,
+            "ad": 2,
+            "ae": 3,
+            "af": 3,
+            "ag": 1,
+            "ah": 6,
+            "ai": 3,
+            "ba": 3,
+            "bb": 3,
+            "bc": 2,
+            "bd": 2,
+            "be": 2,
+            "bf": 5,
+            "bg": 4,
+            "bh": 4,
+            "bi": 4,
+            "ca": 4,
+            "cb": 6,
+            "cd": 5,
+            "ce": 4,
+            "cf": 2,
+            "cg": 5,
+            "ch": 2,
+            "ci": 1,
+            "da": 5,
+            "db": 2,
+            "dc": 1,
+            "de": 4,
+            "df": 4,
+            "dg": 6,
+            "dh": 1,
+            "ea": 4,
+            "ec": 3,
+            "ed": 4,
+            "ee": 6,
+            "ef": 2,
+            "eg": 4,
+            "eh": 5,
+            "ei": 7,
+            "fa": 4,
+            "fb": 2,
+            "fc": 3,
+            "fd": 4,
+            "fe": 1,
+            "ff": 2,
+            "fg": 3,
+            "fh": 1,
+            "fi": 1,
+            "ga": 9,
+            "gb": 3,
+            "gc": 5,
+            "gd": 3,
+            "ge": 7,
+            "gf": 10,
+            "gg": 13,
+            "gh": 4,
+            "gi": 5,
+            "hb": 1,
+            "hc": 2,
+            "hd": 2,
+            "he": 4,
+            "hf": 1,
+            "hg": 5,
+            "hh": 5,
+            "hi": 4,
+            "ia": 2,
+            "ib": 3,
+            "ic": 6,
+            "id": 4,
+            "ie": 3,
+            "if": 7,
+            "ig": 7,
+            "ih": 6,
+            "ii": 6
+          }
+        },
+        {
+          "distinct": 78,
+          "offset": 1,
+          "pairs": {
+            "aa": 2,
+            "ab": 3,
+            "ac": 2,
+            "ad": 1,
+            "ae": 6,
+            "af": 3,
+            "ag": 7,
+            "ah": 4,
+            "ai": 5,
+            "ba": 2,
+            "bb": 1,
+            "bc": 3,
+            "bd": 1,
+            "be": 6,
+            "bg": 2,
+            "bh": 1,
+            "bi": 4,
+            "ca": 1,
+            "cb": 1,
+            "cc": 2,
+            "cd": 2,
+            "ce": 3,
+            "cf": 1,
+            "cg": 5,
+            "ch": 1,
+            "ci": 6,
+            "da": 2,
+            "db": 2,
+            "dc": 4,
+            "dd": 2,
+            "de": 4,
+            "df": 1,
+            "dg": 6,
+            "dh": 1,
+            "di": 4,
+            "eb": 2,
+            "ec": 5,
+            "ed": 7,
+            "ee": 3,
+            "ef": 3,
+            "eg": 7,
+            "eh": 5,
+            "ei": 2,
+            "fa": 3,
+            "fb": 8,
+            "fc": 3,
+            "fd": 6,
+            "fe": 1,
+            "ff": 1,
+            "fg": 6,
+            "fh": 4,
+            "fi": 4,
+            "ga": 4,
+            "gb": 5,
+            "gc": 2,
+            "gd": 2,
+            "ge": 7,
+            "gf": 4,
+            "gg": 15,
+            "gh": 4,
+            "gi": 5,
+            "ha": 5,
+            "hb": 3,
+            "hc": 3,
+            "hd": 1,
+            "he": 2,
+            "hf": 3,
+            "hg": 6,
+            "hh": 4,
+            "hi": 7,
+            "ia": 2,
+            "ib": 4,
+            "ic": 5,
+            "id": 1,
+            "ie": 3,
+            "if": 4,
+            "ig": 5,
+            "ii": 7
+          }
+        }
+      ],
+      "periodicity": [
+        {
+          "autocoincidence": 0.130053,
+          "mean_column_ic": 0.11809,
+          "min_column_length": 570,
+          "period": 1
+        },
+        {
+          "autocoincidence": 0.132042,
+          "mean_column_ic": 0.119274,
+          "min_column_length": 285,
+          "period": 2
+        },
+        {
+          "autocoincidence": 0.144621,
+          "mean_column_ic": 0.117832,
+          "min_column_length": 190,
+          "period": 3
+        },
+        {
+          "autocoincidence": 0.130742,
+          "mean_column_ic": 0.118576,
+          "min_column_length": 142,
+          "period": 4
+        },
+        {
+          "autocoincidence": 0.134513,
+          "mean_column_ic": 0.11787,
+          "min_column_length": 114,
+          "period": 5
+        },
+        {
+          "autocoincidence": 0.132979,
+          "mean_column_ic": 0.118365,
+          "min_column_length": 95,
+          "period": 6
+        },
+        {
+          "autocoincidence": 0.129663,
+          "mean_column_ic": 0.118379,
+          "min_column_length": 81,
+          "period": 7
+        },
+        {
+          "autocoincidence": 0.122776,
+          "mean_column_ic": 0.120188,
+          "min_column_length": 71,
+          "period": 8
+        },
+        {
+          "autocoincidence": 0.114082,
+          "mean_column_ic": 0.118342,
+          "min_column_length": 63,
+          "period": 9
+        },
+        {
+          "autocoincidence": 0.117857,
+          "mean_column_ic": 0.118045,
+          "min_column_length": 57,
+          "period": 10
+        },
+        {
+          "autocoincidence": 0.110912,
+          "mean_column_ic": 0.121355,
+          "min_column_length": 51,
+          "period": 11
+        },
+        {
+          "autocoincidence": 0.107527,
+          "mean_column_ic": 0.117253,
+          "min_column_length": 47,
+          "period": 12
+        },
+        {
+          "autocoincidence": 0.129264,
+          "mean_column_ic": 0.117994,
+          "min_column_length": 43,
+          "period": 13
+        },
+        {
+          "autocoincidence": 0.124101,
+          "mean_column_ic": 0.121482,
+          "min_column_length": 40,
+          "period": 14
+        },
+        {
+          "autocoincidence": 0.12973,
+          "mean_column_ic": 0.11541,
+          "min_column_length": 38,
+          "period": 15
+        },
+        {
+          "autocoincidence": 0.108303,
+          "mean_column_ic": 0.120121,
+          "min_column_length": 35,
+          "period": 16
+        },
+        {
+          "autocoincidence": 0.117541,
+          "mean_column_ic": 0.112948,
+          "min_column_length": 33,
+          "period": 17
+        },
+        {
+          "autocoincidence": 0.134058,
+          "mean_column_ic": 0.12093,
+          "min_column_length": 31,
+          "period": 18
+        },
+        {
+          "autocoincidence": 0.090744,
+          "mean_column_ic": 0.116273,
+          "min_column_length": 30,
+          "period": 19
+        },
+        {
+          "autocoincidence": 0.118182,
+          "mean_column_ic": 0.119216,
+          "min_column_length": 28,
+          "period": 20
+        },
+        {
+          "autocoincidence": 0.116576,
+          "mean_column_ic": 0.117323,
+          "min_column_length": 27,
+          "period": 21
+        },
+        {
+          "autocoincidence": 0.15146,
+          "mean_column_ic": 0.122984,
+          "min_column_length": 25,
+          "period": 22
+        },
+        {
+          "autocoincidence": 0.126143,
+          "mean_column_ic": 0.11787,
+          "min_column_length": 24,
+          "period": 23
+        },
+        {
+          "autocoincidence": 0.120879,
+          "mean_column_ic": 0.118605,
+          "min_column_length": 23,
+          "period": 24
+        },
+        {
+          "autocoincidence": 0.115596,
+          "mean_column_ic": 0.116996,
+          "min_column_length": 22,
+          "period": 25
+        },
+        {
+          "autocoincidence": 0.117647,
+          "mean_column_ic": 0.118132,
+          "min_column_length": 21,
+          "period": 26
+        },
+        {
+          "autocoincidence": 0.116022,
+          "mean_column_ic": 0.115103,
+          "min_column_length": 21,
+          "period": 27
+        },
+        {
+          "autocoincidence": 0.103321,
+          "mean_column_ic": 0.120122,
+          "min_column_length": 20,
+          "period": 28
+        },
+        {
+          "autocoincidence": 0.125693,
+          "mean_column_ic": 0.117867,
+          "min_column_length": 19,
+          "period": 29
+        },
+        {
+          "autocoincidence": 0.127778,
+          "mean_column_ic": 0.119688,
+          "min_column_length": 19,
+          "period": 30
+        },
+        {
+          "autocoincidence": 0.116883,
+          "mean_column_ic": 0.117392,
+          "min_column_length": 18,
+          "period": 31
+        },
+        {
+          "autocoincidence": 0.1171,
+          "mean_column_ic": 0.124643,
+          "min_column_length": 17,
+          "period": 32
+        },
+        {
+          "autocoincidence": 0.10987,
+          "mean_column_ic": 0.118761,
+          "min_column_length": 17,
+          "period": 33
+        },
+        {
+          "autocoincidence": 0.134328,
+          "mean_column_ic": 0.114648,
+          "min_column_length": 16,
+          "period": 34
+        },
+        {
+          "autocoincidence": 0.147664,
+          "mean_column_ic": 0.123459,
+          "min_column_length": 16,
+          "period": 35
+        },
+        {
+          "autocoincidence": 0.123596,
+          "mean_column_ic": 0.118452,
+          "min_column_length": 15,
+          "period": 36
+        },
+        {
+          "autocoincidence": 0.116323,
+          "mean_column_ic": 0.127445,
+          "min_column_length": 15,
+          "period": 37
+        },
+        {
+          "autocoincidence": 0.118421,
+          "mean_column_ic": 0.11203,
+          "min_column_length": 15,
+          "period": 38
+        },
+        {
+          "autocoincidence": 0.116761,
+          "mean_column_ic": 0.113328,
+          "min_column_length": 14,
+          "period": 39
+        },
+        {
+          "autocoincidence": 0.132075,
+          "mean_column_ic": 0.120018,
+          "min_column_length": 14,
+          "period": 40
+        },
+        {
+          "autocoincidence": 0.10397,
+          "mean_column_ic": 0.119182,
+          "min_column_length": 13,
+          "period": 41
+        },
+        {
+          "autocoincidence": 0.128788,
+          "mean_column_ic": 0.123278,
+          "min_column_length": 13,
+          "period": 42
+        },
+        {
+          "autocoincidence": 0.142315,
+          "mean_column_ic": 0.111381,
+          "min_column_length": 13,
+          "period": 43
+        },
+        {
+          "autocoincidence": 0.114068,
+          "mean_column_ic": 0.118908,
+          "min_column_length": 12,
+          "period": 44
+        },
+        {
+          "autocoincidence": 0.133333,
+          "mean_column_ic": 0.11137,
+          "min_column_length": 12,
+          "period": 45
+        },
+        {
+          "autocoincidence": 0.124046,
+          "mean_column_ic": 0.112243,
+          "min_column_length": 12,
+          "period": 46
+        },
+        {
+          "autocoincidence": 0.116635,
+          "mean_column_ic": 0.110648,
+          "min_column_length": 12,
+          "period": 47
+        },
+        {
+          "autocoincidence": 0.118774,
+          "mean_column_ic": 0.124242,
+          "min_column_length": 11,
+          "period": 48
+        },
+        {
+          "autocoincidence": 0.117083,
+          "mean_column_ic": 0.124552,
+          "min_column_length": 11,
+          "period": 49
+        },
+        {
+          "autocoincidence": 0.126923,
+          "mean_column_ic": 0.122182,
+          "min_column_length": 11,
+          "period": 50
+        },
+        {
+          "autocoincidence": 0.127168,
+          "mean_column_ic": 0.115686,
+          "min_column_length": 11,
+          "period": 51
+        },
+        {
+          "autocoincidence": 0.135135,
+          "mean_column_ic": 0.126146,
+          "min_column_length": 10,
+          "period": 52
+        },
+        {
+          "autocoincidence": 0.135397,
+          "mean_column_ic": 0.1251,
+          "min_column_length": 10,
+          "period": 53
+        },
+        {
+          "autocoincidence": 0.127907,
+          "mean_column_ic": 0.116162,
+          "min_column_length": 10,
+          "period": 54
+        },
+        {
+          "autocoincidence": 0.120388,
+          "mean_column_ic": 0.118053,
+          "min_column_length": 10,
+          "period": 55
+        },
+        {
+          "autocoincidence": 0.136187,
+          "mean_column_ic": 0.124711,
+          "min_column_length": 10,
+          "period": 56
+        },
+        {
+          "autocoincidence": 0.134503,
+          "mean_column_ic": 0.121637,
+          "min_column_length": 10,
+          "period": 57
+        },
+        {
+          "autocoincidence": 0.111328,
+          "mean_column_ic": 0.115134,
+          "min_column_length": 9,
+          "period": 58
+        },
+        {
+          "autocoincidence": 0.109589,
+          "mean_column_ic": 0.120245,
+          "min_column_length": 9,
+          "period": 59
+        },
+        {
+          "autocoincidence": 0.129412,
+          "mean_column_ic": 0.120093,
+          "min_column_length": 9,
+          "period": 60
+        }
+      ],
+      "repeated_substrings": [
+        {
+          "distances": [
+            35,
+            179
+          ],
+          "offsets_zero_based": [
+            1,
+            36,
+            215
+          ],
+          "substring": "aedgg"
+        },
+        {
+          "distances": [
+            213
+          ],
+          "offsets_zero_based": [
+            312,
+            525
+          ],
+          "substring": "iichi"
+        },
+        {
+          "distances": [
+            35,
+            179
+          ],
+          "offsets_zero_based": [
+            1,
+            36,
+            215
+          ],
+          "substring": "aedg"
+        },
+        {
+          "distances": [
+            35,
+            179
+          ],
+          "offsets_zero_based": [
+            2,
+            37,
+            216
+          ],
+          "substring": "edgg"
+        },
+        {
+          "distances": [
+            32,
+            1
+          ],
+          "offsets_zero_based": [
+            358,
+            390,
+            391
+          ],
+          "substring": "gggg"
+        },
+        {
+          "distances": [
+            32,
+            182
+          ],
+          "offsets_zero_based": [
+            16,
+            48,
+            230
+          ],
+          "substring": "hggc"
+        },
+        {
+          "distances": [
+            337
+          ],
+          "offsets_zero_based": [
+            61,
+            398
+          ],
+          "substring": "ahig"
+        },
+        {
+          "distances": [
+            4
+          ],
+          "offsets_zero_based": [
+            438,
+            442
+          ],
+          "substring": "bbei"
+        },
+        {
+          "distances": [
+            80
+          ],
+          "offsets_zero_based": [
+            443,
+            523
+          ],
+          "substring": "beii"
+        },
+        {
+          "distances": [
+            45
+          ],
+          "offsets_zero_based": [
+            499,
+            544
+          ],
+          "substring": "biib"
+        },
+        {
+          "distances": [
+            6
+          ],
+          "offsets_zero_based": [
+            305,
+            311
+          ],
+          "substring": "biic"
+        },
+        {
+          "distances": [
+            295
+          ],
+          "offsets_zero_based": [
+            191,
+            486
+          ],
+          "substring": "cbce"
+        },
+        {
+          "distances": [
+            174
+          ],
+          "offsets_zero_based": [
+            238,
+            412
+          ],
+          "substring": "cdgg"
+        },
+        {
+          "distances": [
+            174
+          ],
+          "offsets_zero_based": [
+            207,
+            381
+          ],
+          "substring": "degg"
+        },
+        {
+          "distances": [
+            422
+          ],
+          "offsets_zero_based": [
+            26,
+            448
+          ],
+          "substring": "dgfd"
+        },
+        {
+          "distances": [
+            236
+          ],
+          "offsets_zero_based": [
+            3,
+            239
+          ],
+          "substring": "dgge"
+        },
+        {
+          "distances": [
+            402
+          ],
+          "offsets_zero_based": [
+            7,
+            409
+          ],
+          "substring": "edfc"
+        },
+        {
+          "distances": [
+            234
+          ],
+          "offsets_zero_based": [
+            56,
+            290
+          ],
+          "substring": "ehah"
+        },
+        {
+          "distances": [
+            201
+          ],
+          "offsets_zero_based": [
+            229,
+            430
+          ],
+          "substring": "fhgg"
+        },
+        {
+          "distances": [
+            52
+          ],
+          "offsets_zero_based": [
+            84,
+            136
+          ],
+          "substring": "gaeg"
+        },
+        {
+          "distances": [
+            171
+          ],
+          "offsets_zero_based": [
+            30,
+            201
+          ],
+          "substring": "gbgi"
+        },
+        {
+          "distances": [
+            81
+          ],
+          "offsets_zero_based": [
+            160,
+            241
+          ],
+          "substring": "gefc"
+        },
+        {
+          "distances": [
+            297
+          ],
+          "offsets_zero_based": [
+            135,
+            432
+          ],
+          "substring": "ggae"
+        },
+        {
+          "distances": [
+            343
+          ],
+          "offsets_zero_based": [
+            17,
+            360
+          ],
+          "substring": "ggca"
+        },
+        {
+          "distances": [
+            94
+          ],
+          "offsets_zero_based": [
+            4,
+            98
+          ],
+          "substring": "ggee"
+        },
+        {
+          "distances": [
+            135
+          ],
+          "offsets_zero_based": [
+            257,
+            392
+          ],
+          "substring": "gggh"
+        },
+        {
+          "distances": [
+            163
+          ],
+          "offsets_zero_based": [
+            131,
+            294
+          ],
+          "substring": "ghhc"
+        },
+        {
+          "distances": [
+            98
+          ],
+          "offsets_zero_based": [
+            167,
+            265
+          ],
+          "substring": "gifd"
+        },
+        {
+          "distances": [
+            239
+          ],
+          "offsets_zero_based": [
+            304,
+            543
+          ],
+          "substring": "hbii"
+        },
+        {
+          "distances": [
+            213
+          ],
+          "offsets_zero_based": [
+            313,
+            526
+          ],
+          "substring": "ichi"
+        },
+        {
+          "distances": [
+            4
+          ],
+          "offsets_zero_based": [
+            453,
+            457
+          ],
+          "substring": "ieee"
+        },
+        {
+          "distances": [
+            16
+          ],
+          "offsets_zero_based": [
+            446,
+            462
+          ],
+          "substring": "ifdg"
+        },
+        {
+          "distances": [
+            213
+          ],
+          "offsets_zero_based": [
+            312,
+            525
+          ],
+          "substring": "iich"
+        },
+        {
+          "distances": [
+            201
+          ],
+          "offsets_zero_based": [
+            221,
+            422
+          ],
+          "substring": "iici"
+        },
+        {
+          "distances": [
+            101,
+            1,
+            31,
+            1,
+            1
+          ],
+          "offsets_zero_based": [
+            257,
+            358,
+            359,
+            390,
+            391,
+            392
+          ],
+          "substring": "ggg"
+        },
+        {
+          "distances": [
+            35,
+            179,
+            22,
+            174
+          ],
+          "offsets_zero_based": [
+            3,
+            38,
+            217,
+            239,
+            413
+          ],
+          "substring": "dgg"
+        },
+        {
+          "distances": [
+            33,
+            279,
+            18,
+            87
+          ],
+          "offsets_zero_based": [
+            102,
+            135,
+            414,
+            432,
+            519
+          ],
+          "substring": "gga"
+        },
+        {
+          "distances": [
+            32,
+            182,
+            159,
+            42
+          ],
+          "offsets_zero_based": [
+            16,
+            48,
+            230,
+            389,
+            431
+          ],
+          "substring": "hgg"
+        },
+        {
+          "distances": [
+            85,
+            6,
+            110,
+            103
+          ],
+          "offsets_zero_based": [
+            221,
+            306,
+            312,
+            422,
+            525
+          ],
+          "substring": "iic"
+        },
+        {
+          "distances": [
+            326,
+            4,
+            80
+          ],
+          "offsets_zero_based": [
+            113,
+            439,
+            443,
+            523
+          ],
+          "substring": "bei"
+        },
+        {
+          "distances": [
+            6,
+            188,
+            45
+          ],
+          "offsets_zero_based": [
+            305,
+            311,
+            499,
+            544
+          ],
+          "substring": "bii"
+        },
+        {
+          "distances": [
+            52,
+            78,
+            219
+          ],
+          "offsets_zero_based": [
+            84,
+            136,
+            214,
+            433
+          ],
+          "substring": "gae"
+        },
+        {
+          "distances": [
+            88,
+            81,
+            8
+          ],
+          "offsets_zero_based": [
+            72,
+            160,
+            241,
+            249
+          ],
+          "substring": "gef"
+        },
+        {
+          "distances": [
+            32,
+            182,
+            129
+          ],
+          "offsets_zero_based": [
+            17,
+            49,
+            231,
+            360
+          ],
+          "substring": "ggc"
+        },
+        {
+          "distances": [
+            34,
+            9,
+            253
+          ],
+          "offsets_zero_based": [
+            175,
+            209,
+            218,
+            471
+          ],
+          "substring": "ggf"
+        },
+        {
+          "distances": [
+            98,
+            180,
+            16
+          ],
+          "offsets_zero_based": [
+            168,
+            266,
+            446,
+            462
+          ],
+          "substring": "ifd"
+        },
+        {
+          "distances": [
+            35,
+            179
+          ],
+          "offsets_zero_based": [
+            1,
+            36,
+            215
+          ],
+          "substring": "aed"
+        },
+        {
+          "distances": [
+            337,
+            165
+          ],
+          "offsets_zero_based": [
+            61,
+            398,
+            563
+          ],
+          "substring": "ahi"
+        },
+        {
+          "distances": [
+            346,
+            4
+          ],
+          "offsets_zero_based": [
+            92,
+            438,
+            442
+          ],
+          "substring": "bbe"
+        },
+        {
+          "distances": [
+            171,
+            51
+          ],
+          "offsets_zero_based": [
+            31,
+            202,
+            253
+          ],
+          "substring": "bgi"
+        },
+        {
+          "distances": [
+            274,
+            69
+          ],
+          "offsets_zero_based": [
+            123,
+            397,
+            466
+          ],
+          "substring": "dah"
+        },
+        {
+          "distances": [
+            264,
+            138
+          ],
+          "offsets_zero_based": [
+            7,
+            271,
+            409
+          ],
+          "substring": "edf"
+        },
+        {
+          "distances": [
+            35,
+            179
+          ],
+          "offsets_zero_based": [
+            2,
+            37,
+            216
+          ],
+          "substring": "edg"
+        },
+        {
+          "distances": [
+            59,
+            202
+          ],
+          "offsets_zero_based": [
+            86,
+            145,
+            347
+          ],
+          "substring": "ege"
+        },
+        {
+          "distances": [
+            107,
+            174
+          ],
+          "offsets_zero_based": [
+            101,
+            208,
+            382
+          ],
+          "substring": "egg"
+        },
+        {
+          "distances": [
+            157,
+            25
+          ],
+          "offsets_zero_based": [
+            353,
+            510,
+            535
+          ],
+          "substring": "ehg"
+        },
+        {
+          "distances": [
+            113,
+            125
+          ],
+          "offsets_zero_based": [
+            267,
+            380,
+            505
+          ],
+          "substring": "fde"
+        },
+        {
+          "distances": [
+            419,
+            16
+          ],
+          "offsets_zero_based": [
+            28,
+            447,
+            463
+          ],
+          "substring": "fdg"
+        },
+        {
+          "distances": [
+            105,
+            104
+          ],
+          "offsets_zero_based": [
+            75,
+            180,
+            284
+          ],
+          "substring": "gai"
+        },
+        {
+          "distances": [
+            171,
+            202
+          ],
+          "offsets_zero_based": [
+            30,
+            201,
+            403
+          ],
+          "substring": "gbg"
+        }
+      ],
+      "sha256": "066191b4aafc114fbca7f0d168382f40129c4ff18490375b689741081d5ef3c2",
+      "transition_counts": {
+        "a": {
+          "a": 4,
+          "b": 3,
+          "c": 3,
+          "d": 3,
+          "e": 9,
+          "f": 6,
+          "g": 8,
+          "h": 10,
+          "i": 8
+        },
+        "b": {
+          "a": 5,
+          "b": 4,
+          "c": 5,
+          "d": 3,
+          "e": 8,
+          "f": 5,
+          "g": 6,
+          "h": 5,
+          "i": 8
+        },
+        "c": {
+          "a": 5,
+          "b": 7,
+          "c": 2,
+          "d": 7,
+          "e": 7,
+          "f": 3,
+          "g": 10,
+          "h": 3,
+          "i": 7
+        },
+        "d": {
+          "a": 7,
+          "b": 4,
+          "c": 5,
+          "d": 2,
+          "e": 8,
+          "f": 5,
+          "g": 12,
+          "h": 2,
+          "i": 4
+        },
+        "e": {
+          "a": 4,
+          "b": 2,
+          "c": 8,
+          "d": 11,
+          "e": 9,
+          "f": 5,
+          "g": 11,
+          "h": 10,
+          "i": 9
+        },
+        "f": {
+          "a": 7,
+          "b": 10,
+          "c": 6,
+          "d": 10,
+          "e": 2,
+          "f": 3,
+          "g": 9,
+          "h": 5,
+          "i": 5
+        },
+        "g": {
+          "a": 13,
+          "b": 8,
+          "c": 7,
+          "d": 5,
+          "e": 14,
+          "f": 14,
+          "g": 28,
+          "h": 8,
+          "i": 10
+        },
+        "h": {
+          "a": 5,
+          "b": 4,
+          "c": 5,
+          "d": 3,
+          "e": 6,
+          "f": 4,
+          "g": 11,
+          "h": 9,
+          "i": 11
+        },
+        "i": {
+          "a": 4,
+          "b": 7,
+          "c": 11,
+          "d": 5,
+          "e": 6,
+          "f": 11,
+          "g": 12,
+          "h": 6,
+          "i": 13
+        }
+      },
+      "uniform_entropy": 3.169925001442312,
+      "uniform_nine_symbol_ic": 0.1111111111111111
+    },
+    "joined": {
+      "alphabet": "abcdefghi",
+      "boundary_information": "No spaces inside this segment; the live page inserts an independently decoded matrixsumlist binary run between dbbi and faed",
+      "conditional_transition_entropy": 3.0358558547769454,
+      "counts": {
+        "a": 57,
+        "b": 74,
+        "c": 60,
+        "d": 53,
+        "e": 87,
+        "f": 67,
+        "g": 117,
+        "h": 66,
+        "i": 80
+      },
+      "entropy_bits_per_symbol": 3.1272833279952734,
+      "exact_rectangle_widths": [],
+      "first_occurrence_alphabet": "dbifhcega",
+      "index_of_coincidence": 0.11684775134094347,
+      "length": 661,
+      "pair_alphabets": [
+        {
+          "distinct": 80,
+          "offset": 0,
+          "pairs": {
+            "aa": 2,
+            "ab": 6,
+            "ac": 2,
+            "ad": 1,
+            "ae": 6,
+            "af": 3,
+            "ag": 7,
+            "ah": 4,
+            "ai": 5,
+            "ba": 2,
+            "bb": 2,
+            "bc": 3,
+            "bd": 1,
+            "be": 10,
+            "bf": 5,
+            "bg": 2,
+            "bh": 2,
+            "bi": 5,
+            "ca": 1,
+            "cb": 2,
+            "cc": 4,
+            "cd": 2,
+            "ce": 3,
+            "cf": 1,
+            "cg": 6,
+            "ch": 1,
+            "ci": 7,
+            "da": 2,
+            "db": 4,
+            "dc": 4,
+            "dd": 2,
+            "de": 4,
+            "df": 1,
+            "dg": 6,
+            "dh": 1,
+            "di": 4,
+            "eb": 4,
+            "ec": 5,
+            "ed": 8,
+            "ee": 4,
+            "ef": 5,
+            "eg": 9,
+            "eh": 5,
+            "ei": 3,
+            "fa": 3,
+            "fb": 9,
+            "fc": 4,
+            "fd": 7,
+            "fe": 1,
+            "ff": 1,
+            "fg": 7,
+            "fh": 4,
+            "fi": 4,
+            "ga": 4,
+            "gb": 6,
+            "gc": 2,
+            "gd": 2,
+            "ge": 11,
+            "gf": 4,
+            "gg": 15,
+            "gh": 4,
+            "gi": 5,
+            "ha": 5,
+            "hb": 5,
+            "hc": 3,
+            "hd": 1,
+            "he": 2,
+            "hf": 3,
+            "hg": 6,
+            "hh": 6,
+            "hi": 7,
+            "ia": 2,
+            "ib": 4,
+            "ic": 5,
+            "id": 1,
+            "ie": 3,
+            "if": 4,
+            "ig": 6,
+            "ih": 1,
+            "ii": 7
+          }
+        },
+        {
+          "distinct": 78,
+          "offset": 1,
+          "pairs": {
+            "aa": 2,
+            "ac": 1,
+            "ad": 2,
+            "ae": 3,
+            "af": 3,
+            "ag": 1,
+            "ah": 6,
+            "ai": 3,
+            "ba": 4,
+            "bb": 5,
+            "bc": 2,
+            "bd": 2,
+            "be": 8,
+            "bf": 6,
+            "bg": 5,
+            "bh": 5,
+            "bi": 5,
+            "ca": 4,
+            "cb": 7,
+            "cc": 1,
+            "cd": 6,
+            "ce": 4,
+            "cf": 2,
+            "cg": 5,
+            "ch": 2,
+            "ci": 1,
+            "da": 5,
+            "db": 2,
+            "dc": 2,
+            "de": 4,
+            "df": 4,
+            "dg": 6,
+            "dh": 2,
+            "ea": 5,
+            "eb": 2,
+            "ec": 4,
+            "ed": 4,
+            "ee": 8,
+            "ef": 2,
+            "eg": 6,
+            "eh": 6,
+            "ei": 7,
+            "fa": 4,
+            "fb": 5,
+            "fc": 4,
+            "fd": 4,
+            "fe": 1,
+            "ff": 4,
+            "fg": 3,
+            "fh": 1,
+            "fi": 1,
+            "ga": 9,
+            "gb": 5,
+            "gc": 5,
+            "gd": 3,
+            "ge": 7,
+            "gf": 10,
+            "gg": 15,
+            "gh": 4,
+            "gi": 6,
+            "ha": 1,
+            "hb": 1,
+            "hc": 3,
+            "hd": 2,
+            "he": 5,
+            "hf": 2,
+            "hg": 5,
+            "hh": 5,
+            "hi": 4,
+            "ia": 2,
+            "ib": 5,
+            "ic": 6,
+            "id": 4,
+            "ie": 3,
+            "if": 7,
+            "ig": 7,
+            "ih": 7,
+            "ii": 6
+          }
+        }
+      ],
+      "periodicity": [
+        {
+          "autocoincidence": 0.134848,
+          "mean_column_ic": 0.116848,
+          "min_column_length": 661,
+          "period": 1
+        },
+        {
+          "autocoincidence": 0.136571,
+          "mean_column_ic": 0.117672,
+          "min_column_length": 330,
+          "period": 2
+        },
+        {
+          "autocoincidence": 0.142857,
+          "mean_column_ic": 0.116849,
+          "min_column_length": 220,
+          "period": 3
+        },
+        {
+          "autocoincidence": 0.136986,
+          "mean_column_ic": 0.116605,
+          "min_column_length": 165,
+          "period": 4
+        },
+        {
+          "autocoincidence": 0.129573,
+          "mean_column_ic": 0.116343,
+          "min_column_length": 132,
+          "period": 5
+        },
+        {
+          "autocoincidence": 0.143511,
+          "mean_column_ic": 0.117321,
+          "min_column_length": 110,
+          "period": 6
+        },
+        {
+          "autocoincidence": 0.14526,
+          "mean_column_ic": 0.118019,
+          "min_column_length": 94,
+          "period": 7
+        },
+        {
+          "autocoincidence": 0.119449,
+          "mean_column_ic": 0.118212,
+          "min_column_length": 82,
+          "period": 8
+        },
+        {
+          "autocoincidence": 0.118098,
+          "mean_column_ic": 0.11723,
+          "min_column_length": 73,
+          "period": 9
+        },
+        {
+          "autocoincidence": 0.113671,
+          "mean_column_ic": 0.116149,
+          "min_column_length": 66,
+          "period": 10
+        },
+        {
+          "autocoincidence": 0.123077,
+          "mean_column_ic": 0.120885,
+          "min_column_length": 60,
+          "period": 11
+        },
+        {
+          "autocoincidence": 0.11094,
+          "mean_column_ic": 0.116448,
+          "min_column_length": 55,
+          "period": 12
+        },
+        {
+          "autocoincidence": 0.140432,
+          "mean_column_ic": 0.115991,
+          "min_column_length": 50,
+          "period": 13
+        },
+        {
+          "autocoincidence": 0.125193,
+          "mean_column_ic": 0.120421,
+          "min_column_length": 47,
+          "period": 14
+        },
+        {
+          "autocoincidence": 0.136223,
+          "mean_column_ic": 0.115261,
+          "min_column_length": 44,
+          "period": 15
+        },
+        {
+          "autocoincidence": 0.117829,
+          "mean_column_ic": 0.11928,
+          "min_column_length": 41,
+          "period": 16
+        },
+        {
+          "autocoincidence": 0.118012,
+          "mean_column_ic": 0.112573,
+          "min_column_length": 38,
+          "period": 17
+        },
+        {
+          "autocoincidence": 0.129082,
+          "mean_column_ic": 0.119636,
+          "min_column_length": 36,
+          "period": 18
+        },
+        {
+          "autocoincidence": 0.093458,
+          "mean_column_ic": 0.113945,
+          "min_column_length": 34,
+          "period": 19
+        },
+        {
+          "autocoincidence": 0.121685,
+          "mean_column_ic": 0.11685,
+          "min_column_length": 33,
+          "period": 20
+        },
+        {
+          "autocoincidence": 0.121875,
+          "mean_column_ic": 0.115303,
+          "min_column_length": 31,
+          "period": 21
+        },
+        {
+          "autocoincidence": 0.1518,
+          "mean_column_ic": 0.121947,
+          "min_column_length": 30,
+          "period": 22
+        },
+        {
+          "autocoincidence": 0.122257,
+          "mean_column_ic": 0.115637,
+          "min_column_length": 28,
+          "period": 23
+        },
+        {
+          "autocoincidence": 0.1146,
+          "mean_column_ic": 0.117114,
+          "min_column_length": 27,
+          "period": 24
+        },
+        {
+          "autocoincidence": 0.113208,
+          "mean_column_ic": 0.116458,
+          "min_column_length": 26,
+          "period": 25
+        },
+        {
+          "autocoincidence": 0.127559,
+          "mean_column_ic": 0.11359,
+          "min_column_length": 25,
+          "period": 26
+        },
+        {
+          "autocoincidence": 0.118297,
+          "mean_column_ic": 0.111734,
+          "min_column_length": 24,
+          "period": 27
+        },
+        {
+          "autocoincidence": 0.113744,
+          "mean_column_ic": 0.117342,
+          "min_column_length": 23,
+          "period": 28
+        },
+        {
+          "autocoincidence": 0.126582,
+          "mean_column_ic": 0.115838,
+          "min_column_length": 22,
+          "period": 29
+        },
+        {
+          "autocoincidence": 0.123613,
+          "mean_column_ic": 0.117109,
+          "min_column_length": 22,
+          "period": 30
+        },
+        {
+          "autocoincidence": 0.115873,
+          "mean_column_ic": 0.113336,
+          "min_column_length": 21,
+          "period": 31
+        },
+        {
+          "autocoincidence": 0.116057,
+          "mean_column_ic": 0.122658,
+          "min_column_length": 20,
+          "period": 32
+        },
+        {
+          "autocoincidence": 0.11465,
+          "mean_column_ic": 0.122761,
+          "min_column_length": 20,
+          "period": 33
+        },
+        {
+          "autocoincidence": 0.133971,
+          "mean_column_ic": 0.113313,
+          "min_column_length": 19,
+          "period": 34
+        },
+        {
+          "autocoincidence": 0.14377,
+          "mean_column_ic": 0.122483,
+          "min_column_length": 18,
+          "period": 35
+        },
+        {
+          "autocoincidence": 0.1152,
+          "mean_column_ic": 0.115373,
+          "min_column_length": 18,
+          "period": 36
+        },
+        {
+          "autocoincidence": 0.11859,
+          "mean_column_ic": 0.120937,
+          "min_column_length": 17,
+          "period": 37
+        },
+        {
+          "autocoincidence": 0.11878,
+          "mean_column_ic": 0.110853,
+          "min_column_length": 17,
+          "period": 38
+        },
+        {
+          "autocoincidence": 0.125402,
+          "mean_column_ic": 0.113474,
+          "min_column_length": 16,
+          "period": 39
+        },
+        {
+          "autocoincidence": 0.132045,
+          "mean_column_ic": 0.117733,
+          "min_column_length": 16,
+          "period": 40
+        },
+        {
+          "autocoincidence": 0.112903,
+          "mean_column_ic": 0.119955,
+          "min_column_length": 16,
+          "period": 41
+        },
+        {
+          "autocoincidence": 0.130856,
+          "mean_column_ic": 0.118651,
+          "min_column_length": 15,
+          "period": 42
+        },
+        {
+          "autocoincidence": 0.145631,
+          "mean_column_ic": 0.112182,
+          "min_column_length": 15,
+          "period": 43
+        },
+        {
+          "autocoincidence": 0.110211,
+          "mean_column_ic": 0.116802,
+          "min_column_length": 15,
+          "period": 44
+        },
+        {
+          "autocoincidence": 0.13474,
+          "mean_column_ic": 0.113569,
+          "min_column_length": 14,
+          "period": 45
+        },
+        {
+          "autocoincidence": 0.121951,
+          "mean_column_ic": 0.115018,
+          "min_column_length": 14,
+          "period": 46
+        },
+        {
+          "autocoincidence": 0.12215,
+          "mean_column_ic": 0.111277,
+          "min_column_length": 14,
+          "period": 47
+        },
+        {
+          "autocoincidence": 0.120718,
+          "mean_column_ic": 0.123054,
+          "min_column_length": 13,
+          "period": 48
+        },
+        {
+          "autocoincidence": 0.124183,
+          "mean_column_ic": 0.120767,
+          "min_column_length": 13,
+          "period": 49
+        },
+        {
+          "autocoincidence": 0.12766,
+          "mean_column_ic": 0.121795,
+          "min_column_length": 13,
+          "period": 50
+        },
+        {
+          "autocoincidence": 0.127869,
+          "mean_column_ic": 0.115567,
+          "min_column_length": 12,
+          "period": 51
+        },
+        {
+          "autocoincidence": 0.133005,
+          "mean_column_ic": 0.120428,
+          "min_column_length": 12,
+          "period": 52
+        },
+        {
+          "autocoincidence": 0.125,
+          "mean_column_ic": 0.123785,
+          "min_column_length": 12,
+          "period": 53
+        },
+        {
+          "autocoincidence": 0.131796,
+          "mean_column_ic": 0.113917,
+          "min_column_length": 12,
+          "period": 54
+        },
+        {
+          "autocoincidence": 0.123762,
+          "mean_column_ic": 0.120598,
+          "min_column_length": 12,
+          "period": 55
+        },
+        {
+          "autocoincidence": 0.13719,
+          "mean_column_ic": 0.12197,
+          "min_column_length": 11,
+          "period": 56
+        },
+        {
+          "autocoincidence": 0.137417,
+          "mean_column_ic": 0.12084,
+          "min_column_length": 11,
+          "period": 57
+        },
+        {
+          "autocoincidence": 0.119403,
+          "mean_column_ic": 0.117398,
+          "min_column_length": 11,
+          "period": 58
+        },
+        {
+          "autocoincidence": 0.109635,
+          "mean_column_ic": 0.116333,
+          "min_column_length": 11,
+          "period": 59
+        },
+        {
+          "autocoincidence": 0.12812,
+          "mean_column_ic": 0.115404,
+          "min_column_length": 11,
+          "period": 60
+        }
+      ],
+      "repeated_substrings": [
+        {
+          "distances": [
+            35,
+            179
+          ],
+          "offsets_zero_based": [
+            92,
+            127,
+            306
+          ],
+          "substring": "aedgg"
+        },
+        {
+          "distances": [
+            517
+          ],
+          "offsets_zero_based": [
+            75,
+            592
+          ],
+          "substring": "ibfbf"
+        },
+        {
+          "distances": [
+            213
+          ],
+          "offsets_zero_based": [
+            403,
+            616
+          ],
+          "substring": "iichi"
+        },
+        {
+          "distances": [
+            35,
+            179
+          ],
+          "offsets_zero_based": [
+            92,
+            127,
+            306
+          ],
+          "substring": "aedg"
+        },
+        {
+          "distances": [
+            35,
+            179
+          ],
+          "offsets_zero_based": [
+            93,
+            128,
+            307
+          ],
+          "substring": "edgg"
+        },
+        {
+          "distances": [
+            32,
+            1
+          ],
+          "offsets_zero_based": [
+            449,
+            481,
+            482
+          ],
+          "substring": "gggg"
+        },
+        {
+          "distances": [
+            32,
+            182
+          ],
+          "offsets_zero_based": [
+            107,
+            139,
+            321
+          ],
+          "substring": "hggc"
+        },
+        {
+          "distances": [
+            72,
+            517
+          ],
+          "offsets_zero_based": [
+            3,
+            75,
+            592
+          ],
+          "substring": "ibfb"
+        },
+        {
+          "distances": [
+            337
+          ],
+          "offsets_zero_based": [
+            152,
+            489
+          ],
+          "substring": "ahig"
+        },
+        {
+          "distances": [
+            4
+          ],
+          "offsets_zero_based": [
+            529,
+            533
+          ],
+          "substring": "bbei"
+        },
+        {
+          "distances": [
+            639
+          ],
+          "offsets_zero_based": [
+            1,
+            640
+          ],
+          "substring": "bbib"
+        },
+        {
+          "distances": [
+            80
+          ],
+          "offsets_zero_based": [
+            534,
+            614
+          ],
+          "substring": "beii"
+        },
+        {
+          "distances": [
+            523
+          ],
+          "offsets_zero_based": [
+            62,
+            585
+          ],
+          "substring": "bfbe"
+        },
+        {
+          "distances": [
+            517
+          ],
+          "offsets_zero_based": [
+            76,
+            593
+          ],
+          "substring": "bfbf"
+        },
+        {
+          "distances": [
+            45
+          ],
+          "offsets_zero_based": [
+            590,
+            635
+          ],
+          "substring": "biib"
+        },
+        {
+          "distances": [
+            6
+          ],
+          "offsets_zero_based": [
+            396,
+            402
+          ],
+          "substring": "biic"
+        },
+        {
+          "distances": [
+            295
+          ],
+          "offsets_zero_based": [
+            282,
+            577
+          ],
+          "substring": "cbce"
+        },
+        {
+          "distances": [
+            174
+          ],
+          "offsets_zero_based": [
+            329,
+            503
+          ],
+          "substring": "cdgg"
+        },
+        {
+          "distances": [
+            174
+          ],
+          "offsets_zero_based": [
+            298,
+            472
+          ],
+          "substring": "degg"
+        },
+        {
+          "distances": [
+            422
+          ],
+          "offsets_zero_based": [
+            117,
+            539
+          ],
+          "substring": "dgfd"
+        },
+        {
+          "distances": [
+            236
+          ],
+          "offsets_zero_based": [
+            94,
+            330
+          ],
+          "substring": "dgge"
+        },
+        {
+          "distances": [
+            194
+          ],
+          "offsets_zero_based": [
+            38,
+            232
+          ],
+          "substring": "ebhh"
+        },
+        {
+          "distances": [
+            402
+          ],
+          "offsets_zero_based": [
+            98,
+            500
+          ],
+          "substring": "edfc"
+        },
+        {
+          "distances": [
+            126
+          ],
+          "offsets_zero_based": [
+            65,
+            191
+          ],
+          "substring": "eegg"
+        },
+        {
+          "distances": [
+            42
+          ],
+          "offsets_zero_based": [
+            24,
+            66
+          ],
+          "substring": "egge"
+        },
+        {
+          "distances": [
+            234
+          ],
+          "offsets_zero_based": [
+            147,
+            381
+          ],
+          "substring": "ehah"
+        },
+        {
+          "distances": [
+            441
+          ],
+          "offsets_zero_based": [
+            77,
+            518
+          ],
+          "substring": "fbff"
+        },
+        {
+          "distances": [
+            149
+          ],
+          "offsets_zero_based": [
+            52,
+            201
+          ],
+          "substring": "fcdb"
+        },
+        {
+          "distances": [
+            201
+          ],
+          "offsets_zero_based": [
+            320,
+            521
+          ],
+          "substring": "fhgg"
+        },
+        {
+          "distances": [
+            52
+          ],
+          "offsets_zero_based": [
+            175,
+            227
+          ],
+          "substring": "gaeg"
+        },
+        {
+          "distances": [
+            171
+          ],
+          "offsets_zero_based": [
+            121,
+            292
+          ],
+          "substring": "gbgi"
+        },
+        {
+          "distances": [
+            81
+          ],
+          "offsets_zero_based": [
+            251,
+            332
+          ],
+          "substring": "gefc"
+        },
+        {
+          "distances": [
+            411
+          ],
+          "offsets_zero_based": [
+            26,
+            437
+          ],
+          "substring": "gege"
+        },
+        {
+          "distances": [
+            382
+          ],
+          "offsets_zero_based": [
+            34,
+            416
+          ],
+          "substring": "gehh"
+        },
+        {
+          "distances": [
+            297
+          ],
+          "offsets_zero_based": [
+            226,
+            523
+          ],
+          "substring": "ggae"
+        },
+        {
+          "distances": [
+            343
+          ],
+          "offsets_zero_based": [
+            108,
+            451
+          ],
+          "substring": "ggca"
+        },
+        {
+          "distances": [
+            94
+          ],
+          "offsets_zero_based": [
+            95,
+            189
+          ],
+          "substring": "ggee"
+        },
+        {
+          "distances": [
+            135
+          ],
+          "offsets_zero_based": [
+            348,
+            483
+          ],
+          "substring": "gggh"
+        },
+        {
+          "distances": [
+            163
+          ],
+          "offsets_zero_based": [
+            222,
+            385
+          ],
+          "substring": "ghhc"
+        },
+        {
+          "distances": [
+            98
+          ],
+          "offsets_zero_based": [
+            258,
+            356
+          ],
+          "substring": "gifd"
+        },
+        {
+          "distances": [
+            411
+          ],
+          "offsets_zero_based": [
+            81,
+            492
+          ],
+          "substring": "gigb"
+        },
+        {
+          "distances": [
+            239
+          ],
+          "offsets_zero_based": [
+            395,
+            634
+          ],
+          "substring": "hbii"
+        },
+        {
+          "distances": [
+            311
+          ],
+          "offsets_zero_based": [
+            40,
+            351
+          ],
+          "substring": "hhfb"
+        },
+        {
+          "distances": [
+            213
+          ],
+          "offsets_zero_based": [
+            404,
+            617
+          ],
+          "substring": "ichi"
+        },
+        {
+          "distances": [
+            4
+          ],
+          "offsets_zero_based": [
+            544,
+            548
+          ],
+          "substring": "ieee"
+        },
+        {
+          "distances": [
+            16
+          ],
+          "offsets_zero_based": [
+            537,
+            553
+          ],
+          "substring": "ifdg"
+        },
+        {
+          "distances": [
+            213
+          ],
+          "offsets_zero_based": [
+            403,
+            616
+          ],
+          "substring": "iich"
+        },
+        {
+          "distances": [
+            201
+          ],
+          "offsets_zero_based": [
+            312,
+            513
+          ],
+          "substring": "iici"
+        },
+        {
+          "distances": [
+            101,
+            1,
+            31,
+            1,
+            1
+          ],
+          "offsets_zero_based": [
+            348,
+            449,
+            450,
+            481,
+            482,
+            483
+          ],
+          "substring": "ggg"
+        },
+        {
+          "distances": [
+            185,
+            326,
+            4,
+            80
+          ],
+          "offsets_zero_based": [
+            19,
+            204,
+            530,
+            534,
+            614
+          ],
+          "substring": "bei"
+        },
+        {
+          "distances": [
+            58,
+            14,
+            509,
+            8
+          ],
+          "offsets_zero_based": [
+            4,
+            62,
+            76,
+            585,
+            593
+          ],
+          "substring": "bfb"
+        },
+        {
+          "distances": [
+            35,
+            179,
+            22,
+            174
+          ],
+          "offsets_zero_based": [
+            94,
+            129,
+            308,
+            330,
+            504
+          ],
+          "substring": "dgg"
+        },
+        {
+          "distances": [
+            42,
+            126,
+            107,
+            174
+          ],
+          "offsets_zero_based": [
+            24,
+            66,
+            192,
+            299,
+            473
+          ],
+          "substring": "egg"
+        },
+        {
+          "distances": [
+            33,
+            279,
+            18,
+            87
+          ],
+          "offsets_zero_based": [
+            193,
+            226,
+            505,
+            523,
+            610
+          ],
+          "substring": "gga"
+        },
+        {
+          "distances": [
+            42,
+            28,
+            94,
+            142
+          ],
+          "offsets_zero_based": [
+            25,
+            67,
+            95,
+            189,
+            331
+          ],
+          "substring": "gge"
+        },
+        {
+          "distances": [
+            32,
+            182,
+            159,
+            42
+          ],
+          "offsets_zero_based": [
+            107,
+            139,
+            321,
+            480,
+            522
+          ],
+          "substring": "hgg"
+        },
+        {
+          "distances": [
+            85,
+            6,
+            110,
+            103
+          ],
+          "offsets_zero_based": [
+            312,
+            397,
+            403,
+            513,
+            616
+          ],
+          "substring": "iic"
+        },
+        {
+          "distances": [
+            6,
+            188,
+            45
+          ],
+          "offsets_zero_based": [
+            396,
+            402,
+            590,
+            635
+          ],
+          "substring": "bii"
+        },
+        {
+          "distances": [
+            150,
+            59,
+            202
+          ],
+          "offsets_zero_based": [
+            27,
+            177,
+            236,
+            438
+          ],
+          "substring": "ege"
+        },
+        {
+          "distances": [
+            52,
+            78,
+            219
+          ],
+          "offsets_zero_based": [
+            175,
+            227,
+            305,
+            524
+          ],
+          "substring": "gae"
+        }
+      ],
+      "sha256": "e66ce0a2a7a78cea73d53f9f24894a17ae9bcd3ca007cda19b67c78af26105dc",
+      "transition_counts": {
+        "a": {
+          "a": 4,
+          "b": 6,
+          "c": 3,
+          "d": 3,
+          "e": 9,
+          "f": 6,
+          "g": 8,
+          "h": 10,
+          "i": 8
+        },
+        "b": {
+          "a": 6,
+          "b": 7,
+          "c": 5,
+          "d": 3,
+          "e": 18,
+          "f": 11,
+          "g": 7,
+          "h": 7,
+          "i": 10
+        },
+        "c": {
+          "a": 5,
+          "b": 9,
+          "c": 5,
+          "d": 8,
+          "e": 7,
+          "f": 3,
+          "g": 11,
+          "h": 3,
+          "i": 8
+        },
+        "d": {
+          "a": 7,
+          "b": 6,
+          "c": 6,
+          "d": 2,
+          "e": 8,
+          "f": 5,
+          "g": 12,
+          "h": 3,
+          "i": 4
+        },
+        "e": {
+          "a": 5,
+          "b": 6,
+          "c": 9,
+          "d": 12,
+          "e": 12,
+          "f": 7,
+          "g": 15,
+          "h": 11,
+          "i": 10
+        },
+        "f": {
+          "a": 7,
+          "b": 14,
+          "c": 8,
+          "d": 11,
+          "e": 2,
+          "f": 5,
+          "g": 10,
+          "h": 5,
+          "i": 5
+        },
+        "g": {
+          "a": 13,
+          "b": 11,
+          "c": 7,
+          "d": 5,
+          "e": 18,
+          "f": 14,
+          "g": 30,
+          "h": 8,
+          "i": 11
+        },
+        "h": {
+          "a": 6,
+          "b": 6,
+          "c": 6,
+          "d": 3,
+          "e": 7,
+          "f": 5,
+          "g": 11,
+          "h": 11,
+          "i": 11
+        },
+        "i": {
+          "a": 4,
+          "b": 9,
+          "c": 11,
+          "d": 5,
+          "e": 6,
+          "f": 11,
+          "g": 13,
+          "h": 8,
+          "i": 13
+        }
+      },
+      "uniform_entropy": 3.169925001442312,
+      "uniform_nine_symbol_ic": 0.1111111111111111
+    }
+  },
+  "source": {
+    "locator": "textarea:0, whitespace-normalized",
+    "path": "research/sources/salphaseion.html",
+    "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+  }
+}

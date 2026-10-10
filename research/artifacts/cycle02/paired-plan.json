@@ -1,0 +1,27 @@
+{
+  "aes_trials": 53136,
+  "candidate_set_sha256": "8bfe05fb2e87157bcbe579b3610e2e57bcae42dab95cf079aedf973e5e1725d7",
+  "dbbi_sum_streams": 24,
+  "decode_trials": 3456,
+  "decoders": 4,
+  "estimated_crypto_seconds": 1.063,
+  "faed_mappings": 3,
+  "faed_routes": 6,
+  "hypothesis": "The clue matrixsumlist instructs summing the 7x13/13x7 dbbi digit matrix; resulting row/column sums repeated modulo nine remove faed over-encryption before byte/checkerboard decoding.",
+  "id": "C02-PAIRED-SUMSTREAM",
+  "operations_mod9": 2,
+  "source_evidence": [
+    {
+      "locator": "dbbi 91 letters / matrixsumlist / faed 570 letters",
+      "path": "research/sources/salphaseion.html",
+      "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+    },
+    {
+      "classification": "SECONDARY_RESEARCH",
+      "path": "research/evidence/cycle02/FINDINGS.md",
+      "warning": "Key/payload role and modulo-nine cipher are interpretations, not hard facts"
+    }
+  ],
+  "throughput_basis": "Earlier measured benchmark, not a runtime guarantee",
+  "unique_passwords": 8856
+}

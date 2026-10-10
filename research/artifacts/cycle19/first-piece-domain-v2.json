@@ -1,0 +1,1084 @@
+{
+  "assumptions": [
+    "Recorded response metadata is supported by exact preserved bytes",
+    "The2026 capture cannot establish all earlier response variants",
+    "Only three declared source-domain readings are compared"
+  ],
+  "capture_domain": {
+    "a_browser_image_document_is_not_preserved_creator_HTML": true,
+    "capture": {
+      "bytes": 29931,
+      "content_type": "image/png",
+      "final_url": "https://gsmg.io/puzzle",
+      "http_status": 200,
+      "retrieved_at_utc": "2026-09-30T06:13:00.383161+00:00",
+      "sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830",
+      "source": {
+        "path": "research/sources/gsmg-puzzle.png",
+        "sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830"
+      },
+      "url": "https://gsmg.io/puzzle"
+    },
+    "capture_is_not_proof_of_2019_or_2020_HTTP_response_type": true,
+    "copies": [
+      {
+        "byte_identical": true,
+        "dimensions": [
+          1048,
+          1556
+        ],
+        "source": {
+          "path": "research/sources/gsmg-puzzle.png",
+          "sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830"
+        }
+      },
+      {
+        "byte_identical": true,
+        "dimensions": [
+          1048,
+          1556
+        ],
+        "source": {
+          "path": "research/sources/privatekeys-puzzle.png",
+          "sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830"
+        }
+      },
+      {
+        "byte_identical": true,
+        "dimensions": [
+          1048,
+          1556
+        ],
+        "source": {
+          "path": "research/sources/community-puzzle.png",
+          "sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830"
+        }
+      }
+    ],
+    "initial_html_response_preserved": false,
+    "initial_url_capture_names": [
+      "gsmg-puzzle.png"
+    ],
+    "manifest_entries_considered": 93,
+    "manifest_source": {
+      "path": "research/sources/manifest.json",
+      "sha256": "a0d09faa73cc3977c4b2447a8bebac24042a233633449e409b97170ce24f3b91"
+    },
+    "no_external_state_snapshot_opened": true,
+    "png_signature_verified": true
+  },
+  "confidence": "HIGH captured object/page distinction; UNKNOWN unique intended region and graph edge",
+  "contradictions": [
+    "PNG response type in2026 does not exclude earlier HTML",
+    "Primary warning supplies no URL or region selector",
+    "Community page/image aliases cannot authenticate an HTML container or final argument"
+  ],
+  "creator_pointer": {
+    "January_warning_does_not_explicitly_repeat_this_URL": true,
+    "a_resource_pointer_does_not_select_an_image_region": true,
+    "creator_record": {
+      "archived_utc_timestamp": "2019-10-13T18:38:53+00:00",
+      "character_span_zero_based_half_open": [
+        6381,
+        6395
+      ],
+      "column_one_based": 1,
+      "header": "=== [13.10.2019 13:38:53 UTC-05:00] Jrk Bgrt",
+      "line_one_based": 165,
+      "source": {
+        "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+        "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+      },
+      "utf8_byte_span_zero_based_half_open": [
+        6411,
+        6425
+      ]
+    },
+    "literal": "Gsmg.io/puzzle",
+    "matching_exports_are_not_independent_identity_authentication": true,
+    "original_chat_record": {
+      "archived_utc_timestamp": "2019-10-13T18:38:53+00:00",
+      "character_span_zero_based_half_open": [
+        101787,
+        101801
+      ],
+      "column_one_based": 1,
+      "header": "=== [13.10.2019 13:38:53 UTC-05:00] Jrk Bgrt",
+      "line_one_based": 3572,
+      "source": {
+        "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+        "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+      },
+      "utf8_byte_span_zero_based_half_open": [
+        103147,
+        103161
+      ]
+    }
+  },
+  "date": "2026-10-01",
+  "hypotheses": [
+    {
+      "assumptions": [
+        "First-piece warning recalls the initial published resource",
+        "A source object may have several regions without each being a separate stage"
+      ],
+      "confidence": "HIGH captured source identity; MEDIUM intended referent; UNKNOWN region or operation",
+      "contradictions": [
+        "January warning does not name a URL or region",
+        "A creator resource pointer is not an explicit antecedent assignment",
+        "The later hint's intended 2020 HTTP representation is not preserved"
+      ],
+      "hypothesis": "First puzzle piece refers to the complete original PNG, whose grid, rabbit and footer share one source domain",
+      "id": "C19-FIRST-WHOLE-IMAGE",
+      "input": "Preserved initial PNG, source manifest, fixed page markup and first-piece warning",
+      "next_test": "Inspect only the preserved original PNG container structure: chunk types, validated CRCs, any textual-chunk presence and terminal-byte coverage. Determine whether a metadata-text source actually exists before treating HASHTHETEXT as a PNG metadata instruction. Do not decode pixels, QR symbols or new trial text.",
+      "operation_order": [
+        "identify captured response type",
+        "bind complete image ownership",
+        "compare original wording with secondary labels",
+        "retain unresolved region selection"
+      ],
+      "output": "One finite source-domain interpretation, not an alternate route or selected text",
+      "source_evidence": [
+        {
+          "path": "research/artifacts/cycle18/door-topology.json",
+          "sha256": "3671b6c96e55b7615574b3715a3095c5451f2de4258c64b0cc55a50d41234e02"
+        },
+        {
+          "path": "research/sources/manifest.json",
+          "sha256": "a0d09faa73cc3977c4b2447a8bebac24042a233633449e409b97170ce24f3b91"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+          "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+        },
+        {
+          "path": "research/artifacts/cycle18/final-reference-audit-v2.json",
+          "sha256": "bb154ce439a9e2aa92629a68c57486ef88aac81625b77d46a5b6d8552aaee533"
+        },
+        {
+          "path": "research/sources/gsmg-puzzle.png",
+          "sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830"
+        },
+        {
+          "path": "research/sources/privatekeys-puzzle.png",
+          "sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830"
+        },
+        {
+          "path": "research/sources/community-puzzle.png",
+          "sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830"
+        },
+        {
+          "path": "research/sources/theseedisplanted.html",
+          "sha256": "7cb766d406008a397f8ae32b3a38ca68b42724bb07b3481deb84baad5c725183"
+        },
+        {
+          "path": "research/sources/phase2.html",
+          "sha256": "06fbd4461ab20d45c54a7053c7c0cfa256ba82a5ad4c73a47fac67f3f1cdf7d9"
+        },
+        {
+          "path": "research/sources/salphaseion.html",
+          "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+        },
+        {
+          "path": "research/sources/community-README.md",
+          "sha256": "442270a145641d6f75337bf0e12338889d22f029dc613d13f0a4d651875dae6a"
+        },
+        {
+          "path": "research/sources/maintained-README.md",
+          "sha256": "8d4ee414a4839e51e9c79ed387e1ea327835ea98039eef2633d0d8885bcdd015"
+        },
+        {
+          "path": "research/sources/privatekeys-gsmg.html",
+          "sha256": "9c1b7669e79be76903eb447f7ea8173508b467b76096a3cb33a81c228241d5d6"
+        }
+      ],
+      "source_locations": [
+        "research/evidence/cycle02/_work__creator_jrk.txt:165",
+        "research/evidence/cycle02/_work__chat_transcript.txt:3572",
+        "research/evidence/cycle02/_work__creator_jrk.txt:197",
+        "research/evidence/cycle02/_work__creator_jrk.txt:199",
+        "research/sources/manifest.json",
+        "research/sources/theseedisplanted.html:15",
+        "research/sources/phase2.html:17",
+        "research/sources/salphaseion.html:16",
+        "research/sources/salphaseion.html:19",
+        "research/sources/gsmg-puzzle.png",
+        "research/sources/community-README.md:13",
+        "research/sources/community-README.md:34",
+        "research/sources/community-README.md:83",
+        "research/sources/community-README.md:85",
+        "research/sources/community-README.md:359",
+        "research/sources/maintained-README.md:58",
+        "research/sources/maintained-README.md:83",
+        "research/sources/maintained-README.md:158",
+        "research/sources/privatekeys-gsmg.html:234",
+        "research/sources/privatekeys-gsmg.html:243"
+      ],
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "assumptions": [
+        "White/red/yellow/blue wording supplies a visual localization cue",
+        "Matrixsumlist may recall the known grid without uniquely defining an operator"
+      ],
+      "confidence": "MEDIUM color localization; LOW exclusive grid-only source ownership",
+      "contradictions": [
+        "Full PNG also contains red separator and footer",
+        "No exact sentence restricts first piece to the matrix",
+        "Completed grid routes and sums remain closed negatives"
+      ],
+      "hypothesis": "First puzzle piece refers specifically to the grid/rabbit subobject inside the original image",
+      "id": "C19-FIRST-GRID-SUBOBJECT",
+      "input": "Preserved initial PNG, source manifest, fixed page markup and first-piece warning",
+      "next_test": "Inspect only the preserved original PNG container structure: chunk types, validated CRCs, any textual-chunk presence and terminal-byte coverage. Determine whether a metadata-text source actually exists before treating HASHTHETEXT as a PNG metadata instruction. Do not decode pixels, QR symbols or new trial text.",
+      "operation_order": [
+        "identify captured response type",
+        "bind complete image ownership",
+        "compare original wording with secondary labels",
+        "retain unresolved region selection"
+      ],
+      "output": "One finite source-domain interpretation, not an alternate route or selected text",
+      "source_evidence": [
+        {
+          "path": "research/artifacts/cycle18/door-topology.json",
+          "sha256": "3671b6c96e55b7615574b3715a3095c5451f2de4258c64b0cc55a50d41234e02"
+        },
+        {
+          "path": "research/sources/manifest.json",
+          "sha256": "a0d09faa73cc3977c4b2447a8bebac24042a233633449e409b97170ce24f3b91"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+          "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+        },
+        {
+          "path": "research/artifacts/cycle18/final-reference-audit-v2.json",
+          "sha256": "bb154ce439a9e2aa92629a68c57486ef88aac81625b77d46a5b6d8552aaee533"
+        },
+        {
+          "path": "research/sources/gsmg-puzzle.png",
+          "sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830"
+        },
+        {
+          "path": "research/sources/privatekeys-puzzle.png",
+          "sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830"
+        },
+        {
+          "path": "research/sources/community-puzzle.png",
+          "sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830"
+        },
+        {
+          "path": "research/sources/theseedisplanted.html",
+          "sha256": "7cb766d406008a397f8ae32b3a38ca68b42724bb07b3481deb84baad5c725183"
+        },
+        {
+          "path": "research/sources/phase2.html",
+          "sha256": "06fbd4461ab20d45c54a7053c7c0cfa256ba82a5ad4c73a47fac67f3f1cdf7d9"
+        },
+        {
+          "path": "research/sources/salphaseion.html",
+          "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+        },
+        {
+          "path": "research/sources/community-README.md",
+          "sha256": "442270a145641d6f75337bf0e12338889d22f029dc613d13f0a4d651875dae6a"
+        },
+        {
+          "path": "research/sources/maintained-README.md",
+          "sha256": "8d4ee414a4839e51e9c79ed387e1ea327835ea98039eef2633d0d8885bcdd015"
+        },
+        {
+          "path": "research/sources/privatekeys-gsmg.html",
+          "sha256": "9c1b7669e79be76903eb447f7ea8173508b467b76096a3cb33a81c228241d5d6"
+        }
+      ],
+      "source_locations": [
+        "research/evidence/cycle02/_work__creator_jrk.txt:165",
+        "research/evidence/cycle02/_work__chat_transcript.txt:3572",
+        "research/evidence/cycle02/_work__creator_jrk.txt:197",
+        "research/evidence/cycle02/_work__creator_jrk.txt:199",
+        "research/sources/manifest.json",
+        "research/sources/theseedisplanted.html:15",
+        "research/sources/phase2.html:17",
+        "research/sources/salphaseion.html:16",
+        "research/sources/salphaseion.html:19",
+        "research/sources/gsmg-puzzle.png",
+        "research/sources/community-README.md:13",
+        "research/sources/community-README.md:34",
+        "research/sources/community-README.md:83",
+        "research/sources/community-README.md:85",
+        "research/sources/community-README.md:359",
+        "research/sources/maintained-README.md:58",
+        "research/sources/maintained-README.md:83",
+        "research/sources/maintained-README.md:158",
+        "research/sources/privatekeys-gsmg.html:234",
+        "research/sources/privatekeys-gsmg.html:243"
+      ],
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "assumptions": [
+        "An earlier representation existed but was not captured",
+        "Browser-generated image wrappers are excluded as creator evidence"
+      ],
+      "confidence": "LOW; unsupported by the preserved initial response",
+      "contradictions": [
+        "Only captured original /puzzle response is image/png with PNG signature",
+        "Eight image tags belong to a separately named later page",
+        "Secondary Original page label does not establish content type"
+      ],
+      "hypothesis": "First puzzle piece refers to an authored HTML container with additional markup or image references outside the PNG",
+      "id": "C19-FIRST-HTML-CONTAINER",
+      "input": "Preserved initial PNG, source manifest, fixed page markup and first-piece warning",
+      "next_test": "Inspect only the preserved original PNG container structure: chunk types, validated CRCs, any textual-chunk presence and terminal-byte coverage. Determine whether a metadata-text source actually exists before treating HASHTHETEXT as a PNG metadata instruction. Do not decode pixels, QR symbols or new trial text.",
+      "operation_order": [
+        "identify captured response type",
+        "bind complete image ownership",
+        "compare original wording with secondary labels",
+        "retain unresolved region selection"
+      ],
+      "output": "One finite source-domain interpretation, not an alternate route or selected text",
+      "source_evidence": [
+        {
+          "path": "research/artifacts/cycle18/door-topology.json",
+          "sha256": "3671b6c96e55b7615574b3715a3095c5451f2de4258c64b0cc55a50d41234e02"
+        },
+        {
+          "path": "research/sources/manifest.json",
+          "sha256": "a0d09faa73cc3977c4b2447a8bebac24042a233633449e409b97170ce24f3b91"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+          "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+        },
+        {
+          "path": "research/artifacts/cycle18/final-reference-audit-v2.json",
+          "sha256": "bb154ce439a9e2aa92629a68c57486ef88aac81625b77d46a5b6d8552aaee533"
+        },
+        {
+          "path": "research/sources/gsmg-puzzle.png",
+          "sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830"
+        },
+        {
+          "path": "research/sources/privatekeys-puzzle.png",
+          "sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830"
+        },
+        {
+          "path": "research/sources/community-puzzle.png",
+          "sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830"
+        },
+        {
+          "path": "research/sources/theseedisplanted.html",
+          "sha256": "7cb766d406008a397f8ae32b3a38ca68b42724bb07b3481deb84baad5c725183"
+        },
+        {
+          "path": "research/sources/phase2.html",
+          "sha256": "06fbd4461ab20d45c54a7053c7c0cfa256ba82a5ad4c73a47fac67f3f1cdf7d9"
+        },
+        {
+          "path": "research/sources/salphaseion.html",
+          "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+        },
+        {
+          "path": "research/sources/community-README.md",
+          "sha256": "442270a145641d6f75337bf0e12338889d22f029dc613d13f0a4d651875dae6a"
+        },
+        {
+          "path": "research/sources/maintained-README.md",
+          "sha256": "8d4ee414a4839e51e9c79ed387e1ea327835ea98039eef2633d0d8885bcdd015"
+        },
+        {
+          "path": "research/sources/privatekeys-gsmg.html",
+          "sha256": "9c1b7669e79be76903eb447f7ea8173508b467b76096a3cb33a81c228241d5d6"
+        }
+      ],
+      "source_locations": [
+        "research/evidence/cycle02/_work__creator_jrk.txt:165",
+        "research/evidence/cycle02/_work__chat_transcript.txt:3572",
+        "research/evidence/cycle02/_work__creator_jrk.txt:197",
+        "research/evidence/cycle02/_work__creator_jrk.txt:199",
+        "research/sources/manifest.json",
+        "research/sources/theseedisplanted.html:15",
+        "research/sources/phase2.html:17",
+        "research/sources/salphaseion.html:16",
+        "research/sources/salphaseion.html:19",
+        "research/sources/gsmg-puzzle.png",
+        "research/sources/community-README.md:13",
+        "research/sources/community-README.md:34",
+        "research/sources/community-README.md:83",
+        "research/sources/community-README.md:85",
+        "research/sources/community-README.md:359",
+        "research/sources/maintained-README.md:58",
+        "research/sources/maintained-README.md:83",
+        "research/sources/maintained-README.md:158",
+        "research/sources/privatekeys-gsmg.html:234",
+        "research/sources/privatekeys-gsmg.html:243"
+      ],
+      "status": "INCONCLUSIVE"
+    }
+  ],
+  "hypothesis": "Preserved source ownership identifies the domain named by first-puzzle-piece and rabbits-nest without assuming an initial HTML page",
+  "id": "C19-FIRST-PIECE-DOMAIN",
+  "image_ownership": {
+    "all_three_regions_belong_to_one_response": true,
+    "frozen_source": {
+      "path": "research/artifacts/cycle18/final-reference-audit-v2.json",
+      "sha256": "bb154ce439a9e2aa92629a68c57486ef88aac81625b77d46a5b6d8552aaee533"
+    },
+    "grid_is_a_subobject_not_the_whole_original_response": true,
+    "no_identifier_or_QR_decoding_or_use": true,
+    "rectangles_are_approximate_human_locators_not_extraction_masks": true,
+    "regions": [
+      {
+        "approximate_pixel_rectangle_xyxy": [
+          0,
+          0,
+          1048,
+          1048
+        ],
+        "authored_region_selection": false,
+        "description": "Original14x14 colored/achromatic grid with central rabbit",
+        "owner": {
+          "path": "research/sources/gsmg-puzzle.png",
+          "sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830"
+        },
+        "region": "GRID_AND_RABBIT"
+      },
+      {
+        "approximate_pixel_rectangle_xyxy": [
+          0,
+          1065,
+          1048,
+          1275
+        ],
+        "authored_region_selection": false,
+        "description": "Visible challenge title and logo beneath the grid",
+        "owner": {
+          "path": "research/sources/gsmg-puzzle.png",
+          "sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830"
+        },
+        "region": "CHALLENGE_TITLE_AND_LOGO"
+      },
+      {
+        "approximate_pixel_rectangle_xyxy": [
+          0,
+          1275,
+          1048,
+          1556
+        ],
+        "authored_region_selection": false,
+        "description": "Visible QR symbol and public identifier, not decoded or used for matching",
+        "owner": {
+          "path": "research/sources/gsmg-puzzle.png",
+          "sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830"
+        },
+        "region": "QR_AND_PUBLIC_IDENTIFIER"
+      }
+    ],
+    "source": {
+      "path": "research/sources/gsmg-puzzle.png",
+      "sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830"
+    }
+  },
+  "input": "Original source manifest/PNG, fixed later primary pages, original warning/pointer and secondary source labels",
+  "new_cryptographic_trials": 0,
+  "new_routes": 0,
+  "new_trial_inputs": 0,
+  "next_test": "Inspect only the preserved original PNG container structure: chunk types, validated CRCs, any textual-chunk presence and terminal-byte coverage. Determine whether a metadata-text source actually exists before treating HASHTHETEXT as a PNG metadata instruction. Do not decode pixels, QR symbols or new trial text.",
+  "operation_order": [
+    "validate frozen task",
+    "filter manifest locators without opening excluded snapshots",
+    "verify initial PNG and two identical copies",
+    "map one original creator resource pointer",
+    "map ten fixed secondary anchors",
+    "inventory three separate primary pages",
+    "reuse frozen image regions with explicit ownership",
+    "compare three domain readings"
+  ],
+  "output": "Exact response/page/region ownership and three bounded referent hypotheses",
+  "page_inventory": {
+    "asset_reference_order_not_rearranged_or_executed": true,
+    "distinct_headings_do_not_define_hidden_navigation_edges": true,
+    "eight_asset_references_belong_to_later_theseedisplanted_page": true,
+    "pages": [
+      {
+        "body_image_references": [
+          {
+            "character_span_zero_based_half_open": [
+              395,
+              435
+            ],
+            "column_one_based": 1,
+            "line_one_based": 15,
+            "markup": "<img src=\"/img/black_banking - war.png\">",
+            "utf8_byte_span_zero_based_half_open": [
+              395,
+              435
+            ]
+          },
+          {
+            "character_span_zero_based_half_open": [
+              436,
+              464
+            ],
+            "column_one_based": 1,
+            "line_one_based": 16,
+            "markup": "<img src=\"/img/blue_ca.png\">",
+            "utf8_byte_span_zero_based_half_open": [
+              436,
+              464
+            ]
+          },
+          {
+            "character_span_zero_based_half_open": [
+              465,
+              496
+            ],
+            "column_one_based": 1,
+            "line_one_based": 17,
+            "markup": "<img src=\"/img/blue_dig_i.png\">",
+            "utf8_byte_span_zero_based_half_open": [
+              465,
+              496
+            ]
+          },
+          {
+            "character_span_zero_based_half_open": [
+              497,
+              530
+            ],
+            "column_one_based": 1,
+            "line_one_based": 18,
+            "markup": "<img src=\"/img/blue_lock_lo.png\">",
+            "utf8_byte_span_zero_based_half_open": [
+              497,
+              530
+            ]
+          },
+          {
+            "character_span_zero_based_half_open": [
+              531,
+              566
+            ],
+            "column_one_based": 1,
+            "line_one_based": 19,
+            "markup": "<img src=\"/img/red_crypto_gic.png\">",
+            "utf8_byte_span_zero_based_half_open": [
+              531,
+              566
+            ]
+          },
+          {
+            "character_span_zero_based_half_open": [
+              567,
+              597
+            ],
+            "column_one_based": 1,
+            "line_one_based": 20,
+            "markup": "<img src=\"/img/red_n_you.png\">",
+            "utf8_byte_span_zero_based_half_open": [
+              567,
+              597
+            ]
+          },
+          {
+            "character_span_zero_based_half_open": [
+              598,
+              638
+            ],
+            "column_one_based": 1,
+            "line_one_based": 21,
+            "markup": "<img src=\"/img/red_open_lock_n_ing.png\">",
+            "utf8_byte_span_zero_based_half_open": [
+              598,
+              638
+            ]
+          },
+          {
+            "character_span_zero_based_half_open": [
+              639,
+              665
+            ],
+            "column_one_based": 1,
+            "line_one_based": 22,
+            "markup": "<img src=\"/img/red_t.png\">",
+            "utf8_byte_span_zero_based_half_open": [
+              639,
+              665
+            ]
+          }
+        ],
+        "comments": [
+          {
+            "character_span_zero_based_half_open": [
+              321,
+              386
+            ],
+            "column_one_based": 1,
+            "line_one_based": 12,
+            "markup": "<!-- Nice to see you around! Good luck little bunny hunter ;) -->",
+            "utf8_byte_span_zero_based_half_open": [
+              321,
+              386
+            ]
+          }
+        ],
+        "headings": [],
+        "is_initial_puzzle_response": false,
+        "source": {
+          "path": "research/sources/theseedisplanted.html",
+          "sha256": "7cb766d406008a397f8ae32b3a38ca68b42724bb07b3481deb84baad5c725183"
+        },
+        "textarea_count": 0
+      },
+      {
+        "body_image_references": [],
+        "comments": [
+          {
+            "character_span_zero_based_half_open": [
+              380,
+              451
+            ],
+            "column_one_based": 1,
+            "line_one_based": 14,
+            "markup": "<!-- You made it to the next step! Good luck little bunny hunter ;) -->",
+            "utf8_byte_span_zero_based_half_open": [
+              380,
+              451
+            ]
+          }
+        ],
+        "headings": [
+          {
+            "character_span_zero_based_half_open": [
+              464,
+              471
+            ],
+            "column_one_based": 5,
+            "line_one_based": 17,
+            "text": "PHASE 2",
+            "utf8_byte_span_zero_based_half_open": [
+              464,
+              471
+            ]
+          },
+          {
+            "character_span_zero_based_half_open": [
+              3550,
+              3557
+            ],
+            "column_one_based": 5,
+            "line_one_based": 44,
+            "text": "PHASE 3",
+            "utf8_byte_span_zero_based_half_open": [
+              3552,
+              3559
+            ]
+          }
+        ],
+        "is_initial_puzzle_response": false,
+        "source": {
+          "path": "research/sources/phase2.html",
+          "sha256": "06fbd4461ab20d45c54a7053c7c0cfa256ba82a5ad4c73a47fac67f3f1cdf7d9"
+        },
+        "textarea_count": 2
+      },
+      {
+        "body_image_references": [],
+        "comments": [],
+        "headings": [
+          {
+            "character_span_zero_based_half_open": [
+              392,
+              405
+            ],
+            "column_one_based": 5,
+            "line_one_based": 16,
+            "text": "SalPhaseIon",
+            "utf8_byte_span_zero_based_half_open": [
+              392,
+              405
+            ]
+          },
+          {
+            "character_span_zero_based_half_open": [
+              2622,
+              2638
+            ],
+            "column_one_based": 5,
+            "line_one_based": 19,
+            "text": "Cosmic Duality",
+            "utf8_byte_span_zero_based_half_open": [
+              2622,
+              2638
+            ]
+          }
+        ],
+        "is_initial_puzzle_response": false,
+        "source": {
+          "path": "research/sources/salphaseion.html",
+          "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+        },
+        "textarea_count": 2
+      }
+    ],
+    "shared_bunny_comment_is_theme_not_a_unique_source_binding": true
+  },
+  "result": "Captured /puzzle is the complete PNG, not preserved HTML. Grid/rabbit and footer belong to the same byte-identical source in three copies. Eight image tags belong only to later theseedisplanted; PHASE2 and SalPhaseIon/Cosmic headings belong to separate sources. A creator-attributed2019 URL pointer supports initial-resource identity but does not bind January warning to a region. Whole-image is the strongest domain reading; grid-only remains possible, initial-HTML reading requires missing historical evidence. No operand, entrance or consumer is derived.",
+  "review_correction": "Initial report's declared heading count and test expectation omitted the PHASE3 heading on phase2.html. Exhaustive heading mapping already contained it. First snapshot retained; current count is four headings across three distinct later pages.",
+  "search_space": {
+    "creator_resource_pointers_cross_checked": 1,
+    "declared_domain_readings": 3,
+    "fixed_secondary_anchors": 10,
+    "frozen_image_regions": 3,
+    "identical_image_copies": 3,
+    "initial_response_captures": 1,
+    "later_body_image_tags": 8,
+    "later_headings": 4,
+    "manifest_locator_entries": 93,
+    "primary_later_pages": 3
+  },
+  "secondary_anchors": [
+    {
+      "character_span_zero_based_half_open": [
+        403,
+        432
+      ],
+      "column_one_based": 1,
+      "line_one_based": 13,
+      "literal": "![puzzle image](./puzzle.png)",
+      "source": {
+        "path": "research/sources/community-README.md",
+        "sha256": "442270a145641d6f75337bf0e12338889d22f029dc613d13f0a4d651875dae6a"
+      },
+      "utf8_byte_span_zero_based_half_open": [
+        403,
+        432
+      ]
+    },
+    {
+      "character_span_zero_based_half_open": [
+        1419,
+        1447
+      ],
+      "column_one_based": 1,
+      "line_one_based": 34,
+      "literal": "## 1. https://gsmg.io/puzzle",
+      "source": {
+        "path": "research/sources/community-README.md",
+        "sha256": "442270a145641d6f75337bf0e12338889d22f029dc613d13f0a4d651875dae6a"
+      },
+      "utf8_byte_span_zero_based_half_open": [
+        1419,
+        1447
+      ]
+    },
+    {
+      "character_span_zero_based_half_open": [
+        2491,
+        2529
+      ],
+      "column_one_based": 1,
+      "line_one_based": 83,
+      "literal": "## 2. https://gsmg.io/theseedisplanted",
+      "source": {
+        "path": "research/sources/community-README.md",
+        "sha256": "442270a145641d6f75337bf0e12338889d22f029dc613d13f0a4d651875dae6a"
+      },
+      "utf8_byte_span_zero_based_half_open": [
+        2491,
+        2529
+      ]
+    },
+    {
+      "character_span_zero_based_half_open": [
+        2531,
+        2578
+      ],
+      "column_one_based": 1,
+      "line_one_based": 85,
+      "literal": "![theseedisplanted.png](./theseedisplanted.png)",
+      "source": {
+        "path": "research/sources/community-README.md",
+        "sha256": "442270a145641d6f75337bf0e12338889d22f029dc613d13f0a4d651875dae6a"
+      },
+      "utf8_byte_span_zero_based_half_open": [
+        2531,
+        2578
+      ]
+    },
+    {
+      "character_span_zero_based_half_open": [
+        21167,
+        21245
+      ],
+      "column_one_based": 1,
+      "line_one_based": 359,
+      "literal": "Go to the first puzzle piece (https://gsmg.io/puzzle) and hash the text there.",
+      "source": {
+        "path": "research/sources/community-README.md",
+        "sha256": "442270a145641d6f75337bf0e12338889d22f029dc613d13f0a4d651875dae6a"
+      },
+      "utf8_byte_span_zero_based_half_open": [
+        22992,
+        23070
+      ]
+    },
+    {
+      "character_span_zero_based_half_open": [
+        3476,
+        3505
+      ],
+      "column_one_based": 1,
+      "line_one_based": 58,
+      "literal": "![puzzle image](./puzzle.png)",
+      "source": {
+        "path": "research/sources/maintained-README.md",
+        "sha256": "8d4ee414a4839e51e9c79ed387e1ea327835ea98039eef2633d0d8885bcdd015"
+      },
+      "utf8_byte_span_zero_based_half_open": [
+        3476,
+        3505
+      ]
+    },
+    {
+      "character_span_zero_based_half_open": [
+        4915,
+        4943
+      ],
+      "column_one_based": 1,
+      "line_one_based": 83,
+      "literal": "## Phase 0 - The Bunny Image",
+      "source": {
+        "path": "research/sources/maintained-README.md",
+        "sha256": "8d4ee414a4839e51e9c79ed387e1ea327835ea98039eef2633d0d8885bcdd015"
+      },
+      "utf8_byte_span_zero_based_half_open": [
+        4915,
+        4943
+      ]
+    },
+    {
+      "character_span_zero_based_half_open": [
+        8887,
+        9032
+      ],
+      "column_one_based": 1,
+      "line_one_based": 158,
+      "literal": "Using everything we have so far, it points us back to the original image to hash the text on the image, which then\nleads us to SalPhaseIon using:",
+      "source": {
+        "path": "research/sources/maintained-README.md",
+        "sha256": "8d4ee414a4839e51e9c79ed387e1ea327835ea98039eef2633d0d8885bcdd015"
+      },
+      "utf8_byte_span_zero_based_half_open": [
+        8887,
+        9032
+      ]
+    },
+    {
+      "character_span_zero_based_half_open": [
+        11022,
+        11125
+      ],
+      "column_one_based": 5,
+      "line_one_based": 234,
+      "literal": "<p><img src=\"https://privatekeys.pw/images/puzzles/gsmg-puzzle.png\" class=\"w-50\" alt=\"GSMG Puzzle\"></p>",
+      "source": {
+        "path": "research/sources/privatekeys-gsmg.html",
+        "sha256": "9c1b7669e79be76903eb447f7ea8173508b467b76096a3cb33a81c228241d5d6"
+      },
+      "utf8_byte_span_zero_based_half_open": [
+        11022,
+        11125
+      ]
+    },
+    {
+      "character_span_zero_based_half_open": [
+        11303,
+        11362
+      ],
+      "column_one_based": 9,
+      "line_one_based": 243,
+      "literal": "<li><a href=\"https://gsmg.io/puzzle\">Original page</a></li>",
+      "source": {
+        "path": "research/sources/privatekeys-gsmg.html",
+        "sha256": "9c1b7669e79be76903eb447f7ea8173508b467b76096a3cb33a81c228241d5d6"
+      },
+      "utf8_byte_span_zero_based_half_open": [
+        11303,
+        11362
+      ]
+    }
+  ],
+  "secondary_page_image_alias_is_not_creator_instruction": true,
+  "source_evidence": [
+    {
+      "path": "research/artifacts/cycle18/door-topology.json",
+      "sha256": "3671b6c96e55b7615574b3715a3095c5451f2de4258c64b0cc55a50d41234e02"
+    },
+    {
+      "path": "research/sources/manifest.json",
+      "sha256": "a0d09faa73cc3977c4b2447a8bebac24042a233633449e409b97170ce24f3b91"
+    },
+    {
+      "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+      "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+    },
+    {
+      "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+      "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+    },
+    {
+      "path": "research/artifacts/cycle18/final-reference-audit-v2.json",
+      "sha256": "bb154ce439a9e2aa92629a68c57486ef88aac81625b77d46a5b6d8552aaee533"
+    },
+    {
+      "path": "research/sources/gsmg-puzzle.png",
+      "sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830"
+    },
+    {
+      "path": "research/sources/privatekeys-puzzle.png",
+      "sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830"
+    },
+    {
+      "path": "research/sources/community-puzzle.png",
+      "sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830"
+    },
+    {
+      "path": "research/sources/theseedisplanted.html",
+      "sha256": "7cb766d406008a397f8ae32b3a38ca68b42724bb07b3481deb84baad5c725183"
+    },
+    {
+      "path": "research/sources/phase2.html",
+      "sha256": "06fbd4461ab20d45c54a7053c7c0cfa256ba82a5ad4c73a47fac67f3f1cdf7d9"
+    },
+    {
+      "path": "research/sources/salphaseion.html",
+      "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+    },
+    {
+      "path": "research/sources/community-README.md",
+      "sha256": "442270a145641d6f75337bf0e12338889d22f029dc613d13f0a4d651875dae6a"
+    },
+    {
+      "path": "research/sources/maintained-README.md",
+      "sha256": "8d4ee414a4839e51e9c79ed387e1ea327835ea98039eef2633d0d8885bcdd015"
+    },
+    {
+      "path": "research/sources/privatekeys-gsmg.html",
+      "sha256": "9c1b7669e79be76903eb447f7ea8173508b467b76096a3cb33a81c228241d5d6"
+    }
+  ],
+  "source_locations": [
+    "research/evidence/cycle02/_work__creator_jrk.txt:165",
+    "research/evidence/cycle02/_work__chat_transcript.txt:3572",
+    "research/evidence/cycle02/_work__creator_jrk.txt:197",
+    "research/evidence/cycle02/_work__creator_jrk.txt:199",
+    "research/sources/manifest.json",
+    "research/sources/theseedisplanted.html:15",
+    "research/sources/phase2.html:17",
+    "research/sources/salphaseion.html:16",
+    "research/sources/salphaseion.html:19",
+    "research/sources/gsmg-puzzle.png",
+    "research/sources/community-README.md:13",
+    "research/sources/community-README.md:34",
+    "research/sources/community-README.md:83",
+    "research/sources/community-README.md:85",
+    "research/sources/community-README.md:359",
+    "research/sources/maintained-README.md:58",
+    "research/sources/maintained-README.md:83",
+    "research/sources/maintained-README.md:158",
+    "research/sources/privatekeys-gsmg.html:234",
+    "research/sources/privatekeys-gsmg.html:243"
+  ],
+  "status": "INCONCLUSIVE",
+  "warning_reused": {
+    "no_warning_chronology_or_topology_test_repeated": true,
+    "record": {
+      "creator_record": {
+        "archived_utc_timestamp": "2020-01-14T10:38:06+00:00",
+        "character_span_zero_based_half_open": [
+          7395,
+          7629
+        ],
+        "column_one_based": 1,
+        "header": "=== [14.01.2020 05:38:06 UTC-05:00] Jrk Bgrt",
+        "line_one_based": 195,
+        "source": {
+          "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+          "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          7431,
+          7665
+        ]
+      },
+      "matching_exports_are_not_independent_authentication": true,
+      "name": "FIRST_PIECE_MULTIPLE_DOOR_WARNING",
+      "no_explicit_source_url_container_or_branch_count": true,
+      "original_chat_record": {
+        "archived_utc_timestamp": "2020-01-14T10:38:06+00:00",
+        "character_span_zero_based_half_open": [
+          112144,
+          112378
+        ],
+        "column_one_based": 1,
+        "header": "=== [14.01.2020 05:38:06 UTC-05:00] Jrk Bgrt",
+        "line_one_based": 3941,
+        "source": {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          113598,
+          113832
+        ]
+      },
+      "phrase_maps": [
+        {
+          "character_span_zero_based_half_open": [
+            7464,
+            7518
+          ],
+          "column_one_based": 1,
+          "line_one_based": 197,
+          "literal": "Go back to the first puzzle piece without further ado.",
+          "utf8_byte_span_zero_based_half_open": [
+            7500,
+            7554
+          ]
+        },
+        {
+          "character_span_zero_based_half_open": [
+            7520,
+            7617
+          ],
+          "column_one_based": 1,
+          "line_one_based": 199,
+          "literal": "It might have shown you only one door, beware that the rabbits nest may contain a whole lot more.",
+          "utf8_byte_span_zero_based_half_open": [
+            7556,
+            7653
+          ]
+        }
+      ]
+    },
+    "source": {
+      "path": "research/artifacts/cycle18/door-topology.json",
+      "sha256": "3671b6c96e55b7615574b3715a3095c5451f2de4258c64b0cc55a50d41234e02"
+    }
+  }
+}

@@ -1,0 +1,546 @@
+{
+  "commands": [
+    {
+      "decoded_operator": "sha256",
+      "input": "UNKNOWN",
+      "literal": "shabefourfirsthintisyourlastcommand",
+      "location": "before SMALL",
+      "remaining_literal": "ourfirsthintisyourlastcommand"
+    },
+    {
+      "decoded_operator": "sha256",
+      "input": "UNKNOWN; possibly SMALL answer",
+      "literal": "shabefanstoo",
+      "location": "after SMALL",
+      "remaining_literal": "anstoo"
+    }
+  ],
+  "direct_material_coverage": [
+    {
+      "group": "first-hint",
+      "in_15_ledger_union": false,
+      "in_baseline": true,
+      "material": "first-form-flower-answer",
+      "password_fingerprint": "5ac407837447fba24ba2802e4d1e9aecb4580aa29fef1088cc387c180b746f75",
+      "previously_tested": true,
+      "transform": "raw"
+    },
+    {
+      "group": "first-hint",
+      "in_15_ledger_union": false,
+      "in_baseline": true,
+      "material": "first-form-flower-answer",
+      "password_fingerprint": "d2a21abb1d6edd04fe83fa69405d4b8d7cc5fd61d11fb4e10ea6149cea5603d5",
+      "previously_tested": true,
+      "transform": "sha256-lowerhex"
+    },
+    {
+      "group": "first-hint",
+      "in_15_ledger_union": false,
+      "in_baseline": false,
+      "material": "first-form-flower-answer",
+      "password_fingerprint": "4b57b538fce4ef0311e93f535f99e2bd2d531180ac21354672e45b01c9057f04",
+      "previously_tested": false,
+      "transform": "sha256-raw"
+    },
+    {
+      "group": "first-hint",
+      "in_15_ledger_union": false,
+      "in_baseline": false,
+      "material": "first-instruction-white-rabbit",
+      "password_fingerprint": "4e05db2644afbd36d74595ba7f435df3516f8bbb2d2376bfbc3b0936dfe9226b",
+      "previously_tested": false,
+      "transform": "raw"
+    },
+    {
+      "group": "first-hint",
+      "in_15_ledger_union": false,
+      "in_baseline": false,
+      "material": "first-instruction-white-rabbit",
+      "password_fingerprint": "41b9dc4bd6eafbe0273da4fbd2645085381965bd89903c32e89f453ded247e76",
+      "previously_tested": false,
+      "transform": "sha256-lowerhex"
+    },
+    {
+      "group": "first-hint",
+      "in_15_ledger_union": false,
+      "in_baseline": false,
+      "material": "first-instruction-white-rabbit",
+      "password_fingerprint": "9c347116629ac19fb86d35face6ba43e262fc7895197272dbb516075d81cb776",
+      "previously_tested": false,
+      "transform": "sha256-raw"
+    },
+    {
+      "group": "first-hint",
+      "in_15_ledger_union": false,
+      "in_baseline": false,
+      "material": "first-image-decoded-route",
+      "password_fingerprint": "3a3f0e245360d51ea41f55c7db8a13f270fbf3dcef3b4f94ac1c4b3cee8db2e9",
+      "previously_tested": false,
+      "transform": "raw"
+    },
+    {
+      "group": "first-hint",
+      "in_15_ledger_union": false,
+      "in_baseline": false,
+      "material": "first-image-decoded-route",
+      "password_fingerprint": "04d4156c4de5d6cadce723f1c438c69d8b0df7baf5bd45c716e58f0387088360",
+      "previously_tested": false,
+      "transform": "sha256-lowerhex"
+    },
+    {
+      "group": "first-hint",
+      "in_15_ledger_union": false,
+      "in_baseline": false,
+      "material": "first-image-decoded-route",
+      "password_fingerprint": "9ab1a0af124552e706ad77fc1b8bcbf1fcfecce7836351d4208d41d3f98873bd",
+      "previously_tested": false,
+      "transform": "sha256-raw"
+    },
+    {
+      "group": "first-hint",
+      "in_15_ledger_union": true,
+      "in_baseline": false,
+      "material": "first-image-printed-text",
+      "password_fingerprint": "89727c598b9cd1cf8873f27cb7057f050645ddb6a7a157a110239ac0152f6a32",
+      "previously_tested": true,
+      "transform": "raw"
+    },
+    {
+      "group": "first-hint",
+      "in_15_ledger_union": true,
+      "in_baseline": false,
+      "material": "first-image-printed-text",
+      "password_fingerprint": "db14474e9c8fe5e600da3061264597c105794f215399c9694e9da26ef54c1d19",
+      "previously_tested": true,
+      "transform": "sha256-lowerhex"
+    },
+    {
+      "group": "first-hint",
+      "in_15_ledger_union": true,
+      "in_baseline": false,
+      "material": "first-image-printed-text",
+      "password_fingerprint": "f9719d6d531e6c3b5129644cd05da57bc6fdd075c9a61267c41d4b9627936096",
+      "previously_tested": true,
+      "transform": "sha256-raw"
+    },
+    {
+      "group": "first-hint",
+      "in_15_ledger_union": true,
+      "in_baseline": true,
+      "material": "audio-instruction",
+      "password_fingerprint": "5968dc5e02cbdf8181d135f143372e7062504cc06268e094ceae25b56c5a72ae",
+      "previously_tested": true,
+      "transform": "raw"
+    },
+    {
+      "group": "first-hint",
+      "in_15_ledger_union": true,
+      "in_baseline": true,
+      "material": "audio-instruction",
+      "password_fingerprint": "da13a7777a11a077d0c2d8ea3d1129091d314d6c0603f75073044af186064cb8",
+      "previously_tested": true,
+      "transform": "sha256-lowerhex"
+    },
+    {
+      "group": "first-hint",
+      "in_15_ledger_union": true,
+      "in_baseline": false,
+      "material": "audio-instruction",
+      "password_fingerprint": "f995834cea976303a895b15bb30f6bcc627a4a1aab5db774f9ad9023f64456ce",
+      "previously_tested": true,
+      "transform": "sha256-raw"
+    },
+    {
+      "group": "unverified-answer",
+      "in_15_ledger_union": true,
+      "in_baseline": false,
+      "material": "source-bifid-full570",
+      "password_fingerprint": "15d62c8228c1a30f3f6280fcdce2251fe616135e9de291b0c7b8a792dd8d0507",
+      "previously_tested": true,
+      "transform": "raw"
+    },
+    {
+      "group": "unverified-answer",
+      "in_15_ledger_union": true,
+      "in_baseline": false,
+      "material": "source-bifid-full570",
+      "password_fingerprint": "7028988a1de0bdfcd6547bbb5427f72832cde142a9e9cfeba7ffb9ab94dd36c8",
+      "previously_tested": true,
+      "transform": "sha256-lowerhex"
+    },
+    {
+      "group": "unverified-answer",
+      "in_15_ledger_union": true,
+      "in_baseline": false,
+      "material": "source-bifid-full570",
+      "password_fingerprint": "cec3d22144aeb9d67b625555b83cf8ca5af9455fed14f52d1f1a84e6498ca3de",
+      "previously_tested": true,
+      "transform": "sha256-raw"
+    },
+    {
+      "group": "unverified-answer",
+      "in_15_ledger_union": true,
+      "in_baseline": false,
+      "material": "source-bifid-suffix563",
+      "password_fingerprint": "37762314c4ca52c695d738d3e08a58fcdd775f0dc30d2996a86db685775aafa8",
+      "previously_tested": true,
+      "transform": "raw"
+    },
+    {
+      "group": "unverified-answer",
+      "in_15_ledger_union": true,
+      "in_baseline": false,
+      "material": "source-bifid-suffix563",
+      "password_fingerprint": "cffa1b9429573b5c62847af4410cf3f475e2cfe4b9147c332b4da2d2279e6df8",
+      "previously_tested": true,
+      "transform": "sha256-lowerhex"
+    },
+    {
+      "group": "unverified-answer",
+      "in_15_ledger_union": true,
+      "in_baseline": false,
+      "material": "source-bifid-suffix563",
+      "password_fingerprint": "354a32ac8b78a150432c66d4bd1b0c2a79f51810bbca92c18093a618077fcbd8",
+      "previously_tested": true,
+      "transform": "sha256-raw"
+    },
+    {
+      "group": "unverified-answer",
+      "in_15_ledger_union": false,
+      "in_baseline": false,
+      "material": "frame-selected-residual60",
+      "password_fingerprint": "21cbfa185f92492652ec5c40ba29b2f29f65804f8bd285c0de7685a2aad53109",
+      "previously_tested": false,
+      "transform": "raw"
+    },
+    {
+      "group": "unverified-answer",
+      "in_15_ledger_union": false,
+      "in_baseline": false,
+      "material": "frame-selected-residual60",
+      "password_fingerprint": "186486cccdeb06ca92209c4c4c3180114b7421c07c8cefc542e0b91c889d7727",
+      "previously_tested": false,
+      "transform": "sha256-lowerhex"
+    },
+    {
+      "group": "unverified-answer",
+      "in_15_ledger_union": false,
+      "in_baseline": false,
+      "material": "frame-selected-residual60",
+      "password_fingerprint": "eabe5de9b8d75ed7012fe431402ac029557f45e848624e4cfa02a49c6ac45d2d",
+      "previously_tested": false,
+      "transform": "sha256-raw"
+    },
+    {
+      "group": "unverified-answer",
+      "in_15_ledger_union": true,
+      "in_baseline": false,
+      "material": "unchanged-faed570",
+      "password_fingerprint": "066191b4aafc114fbca7f0d168382f40129c4ff18490375b689741081d5ef3c2",
+      "previously_tested": true,
+      "transform": "raw"
+    },
+    {
+      "group": "unverified-answer",
+      "in_15_ledger_union": true,
+      "in_baseline": false,
+      "material": "unchanged-faed570",
+      "password_fingerprint": "8f3d08046d28878c929d21e4d0b8b90eafd0cbcfd83850234cca8c655ea8b941",
+      "previously_tested": true,
+      "transform": "sha256-lowerhex"
+    },
+    {
+      "group": "unverified-answer",
+      "in_15_ledger_union": true,
+      "in_baseline": false,
+      "material": "unchanged-faed570",
+      "password_fingerprint": "a46781b3628bf4e31b50e0bf9cd2eca9d15edd002db7341e7fff315b648c9ac1",
+      "previously_tested": true,
+      "transform": "sha256-raw"
+    }
+  ],
+  "evidence_corrections": [
+    "The April22 2019 hash is a first-stage answer-validation digest, not an unambiguous instruction identifying the endgame first hint",
+    "January8 2021 last-command remark is labeled Deleted Account, not independently authenticated creator speech",
+    "August4/5 2023 sequential-AES interpretations are community proposals, not successful decryptions",
+    "August6 2023 and April28 2025 yin-yang remarks do not themselves place that stage after SMALL",
+    "The secondary FINDINGS.md edge directly into Cosmic Duality omits the intervening SMALL cipher; the creator's execution order remains unverified",
+    "Completed source Bifid full/suffix hash passwords already failed their AES gates; running them again as sequential answers would repeat trials",
+    "The historical15-ledger union excluded the separate122-password baseline; no-repeat filtering must use both sets"
+  ],
+  "id": "C08-INSTRUCTION-ORDER",
+  "new_aes_trials": 0,
+  "next_bounded_construction": "Use the independently derived prime residual as the existing full-period Bifid keyword, not an arbitrary alphabet. Both83/84 logical branches produce the same keyword square because their only residual difference is an already occurring terminal e. The resulting source-preserving candidate is unverified and must pass the unchanged downstream gates",
+  "normalized_length": 1075,
+  "order_invariant": true,
+  "previous_unique_passwords_excluding_baseline": 41619,
+  "regions": [
+    {
+      "fingerprint": "71fe46259e270c113529dfaded4b59c59a9dffd826a7202ab07fc498b6a2c5ca",
+      "name": "dbbi",
+      "normalized_length": 91,
+      "normalized_span_zero_based_half_open": [
+        0,
+        91
+      ],
+      "source_line_one_based": 17,
+      "source_utf8_byte_span_zero_based_half_open": [
+        456,
+        637
+      ]
+    },
+    {
+      "fingerprint": "29b59b580d592d009d10d3513e92b4466c79934cbf1a8b7d5710e23b924626a5",
+      "name": "matrixsumlist-label",
+      "normalized_length": 104,
+      "normalized_span_zero_based_half_open": [
+        91,
+        195
+      ],
+      "source_line_one_based": 17,
+      "source_utf8_byte_span_zero_based_half_open": [
+        638,
+        845
+      ]
+    },
+    {
+      "fingerprint": "066191b4aafc114fbca7f0d168382f40129c4ff18490375b689741081d5ef3c2",
+      "name": "faed",
+      "normalized_length": 570,
+      "normalized_span_zero_based_half_open": [
+        195,
+        765
+      ],
+      "source_line_one_based": 17,
+      "source_utf8_byte_span_zero_based_half_open": [
+        846,
+        1985
+      ]
+    },
+    {
+      "fingerprint": "5d013695c4b410387ca881e93cb77295fb4a38b17077d518a28a6954b1fe80f3",
+      "name": "lastwordsbeforearchichoice-label",
+      "normalized_length": 63,
+      "normalized_span_zero_based_half_open": [
+        766,
+        829
+      ],
+      "source_line_one_based": 17,
+      "source_utf8_byte_span_zero_based_half_open": [
+        1988,
+        2113
+      ]
+    },
+    {
+      "fingerprint": "4447f552c0f76528be4df75028a3ecdb3878bccd46acb4b3fabe6442304fd9c4",
+      "name": "thispassword-label",
+      "normalized_length": 29,
+      "normalized_span_zero_based_half_open": [
+        830,
+        859
+      ],
+      "source_line_one_based": 17,
+      "source_utf8_byte_span_zero_based_half_open": [
+        2116,
+        2173
+      ]
+    },
+    {
+      "fingerprint": "d3dcdb2f2b66c1b95733b6944051eb4cc5d6143b4666fb1580928a262418cac1",
+      "name": "first-sha-command",
+      "normalized_length": 35,
+      "normalized_span_zero_based_half_open": [
+        860,
+        895
+      ],
+      "source_line_one_based": 17,
+      "source_utf8_byte_span_zero_based_half_open": [
+        2176,
+        2245
+      ]
+    },
+    {
+      "fingerprint": "6d4e51e06278649828373d4d01ffb5cf46173a7ec66661768c53c032ad43d0e9",
+      "name": "small-base64-before-enter",
+      "normalized_length": 64,
+      "normalized_span_zero_based_half_open": [
+        895,
+        959
+      ],
+      "source_line_one_based": 17,
+      "source_utf8_byte_span_zero_based_half_open": [
+        2246,
+        2373
+      ]
+    },
+    {
+      "fingerprint": "9b26e15d82b0f97dc8cb2ae413f440a3a03848a3f1c5029bec6dcd8f3c0f95d7",
+      "name": "inline-enter-label",
+      "normalized_length": 40,
+      "normalized_span_zero_based_half_open": [
+        959,
+        999
+      ],
+      "source_line_one_based": 17,
+      "source_utf8_byte_span_zero_based_half_open": [
+        2374,
+        2453
+      ]
+    },
+    {
+      "fingerprint": "c6dac12b9935e1f2e294bfdf963526d21009c029254f5d5b799a809769fa1b57",
+      "name": "small-base64-after-enter",
+      "normalized_length": 64,
+      "normalized_span_zero_based_half_open": [
+        999,
+        1063
+      ],
+      "source_line_one_based": 17,
+      "source_utf8_byte_span_zero_based_half_open": [
+        2454,
+        2581
+      ]
+    },
+    {
+      "fingerprint": "e6190c95f277454dd5953a49d0b34dd176685cba336fa4b54277c8e4edc067cb",
+      "name": "answer-sha-command",
+      "normalized_length": 12,
+      "normalized_span_zero_based_half_open": [
+        1063,
+        1075
+      ],
+      "source_line_one_based": 17,
+      "source_utf8_byte_span_zero_based_half_open": [
+        2582,
+        2605
+      ]
+    }
+  ],
+  "result": "Primary layout supports, but does not prove, SHA(input) -> SMALL -> SHA(answer) -> unresolved next cipher. No independently derived SMALL answer exists; sequential answer hashing is gated, not a license to hash arbitrary intermediate outputs",
+  "separator_policy": "Only the three z characters before the first Base64 marker delimit plaintext clue regions; the later z belongs to the exact Base64 cipher",
+  "small_cipher": {
+    "base64_fingerprint": "f8b89da595f868906e14d254d8079d70033153f1dfaa603821dcc641987836d0",
+    "ciphertext_bytes": 80,
+    "salt": "3ab585348552415d"
+  },
+  "source_evidence": [
+    {
+      "locator": "first textarea; whitespace normalization mapped back to UTF-8 byte offsets",
+      "path": "research/sources/salphaseion.html",
+      "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+    },
+    {
+      "locator": null,
+      "path": "research/artifacts/cycle08/baseline-identity-audit.json",
+      "sha256": "0f0af6b4839289202d7baf44010b83e918622f1ed05ac0f29c49ccb98c9731a0"
+    },
+    {
+      "locator": null,
+      "path": "research/artifacts/cycle04/hash-composition-plan.json",
+      "sha256": "393ca120d2f3b68e9aaa2aec761df4cdd6378b7c12d4740c8ca9360418e8d55c"
+    },
+    {
+      "locator": "line40 secondary proposed pipeline",
+      "path": "research/evidence/cycle02/FINDINGS.md",
+      "sha256": "2812f15c31fa05d2dbed03c192fd5fe651016291b72b9c8997bd606c5f15c70c"
+    },
+    {
+      "locator": "visually inspected: numbered colors, first puzzle piece, rabbit nest",
+      "path": "research/sources/maintained-hints__2020-01-14-roses-are-red.png",
+      "sha256": "7f4886a829a682012d9120f2fce923394accade39046e7283d41a3986fea3410"
+    },
+    {
+      "locator": "visually inspected: salvation partly passed; not an AES success report",
+      "path": "research/sources/maintained-hints__2023-08-06-4.png",
+      "sha256": "5b4b92a99af75af85150293ab89b5a2d9a8b2682e7bc1d5a049ad7a0804f0c23"
+    }
+  ],
+  "status": "INCONCLUSIVE",
+  "transcript_references": [
+    {
+      "matches": [
+        {
+          "archived_header": "=== [22.04.2019 14:48:52 UTC-05:00] Jrk Bgrt",
+          "classification": "UNAUTHENTICATED_TRANSCRIPT_LABEL",
+          "line_one_based": 23
+        }
+      ],
+      "source": {
+        "locator": "5ac407837447fba24ba2802e4d1e9aecb4580aa29fef1088cc387c180b746f75",
+        "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+        "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+      }
+    },
+    {
+      "matches": [
+        {
+          "archived_header": "=== [08.01.2021 19:34:03 UTC-05:00] Deleted Account",
+          "classification": "UNAUTHENTICATED_TRANSCRIPT_LABEL",
+          "line_one_based": 12406
+        }
+      ],
+      "source": {
+        "locator": "my first hint might be your last command",
+        "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+        "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+      }
+    },
+    {
+      "matches": [
+        {
+          "archived_header": "=== [04.08.2023 16:54:25 UTC-05:00] Deleted Account",
+          "classification": "UNAUTHENTICATED_TRANSCRIPT_LABEL",
+          "line_one_based": 21537
+        }
+      ],
+      "source": {
+        "locator": "if shabef is indeed sha256, we need to hash \"Follow the white rabbit\"",
+        "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+        "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+      }
+    },
+    {
+      "matches": [
+        {
+          "archived_header": "=== [05.08.2023 19:02:57 UTC-05:00] Deleted Account",
+          "classification": "UNAUTHENTICATED_TRANSCRIPT_LABEL",
+          "line_one_based": 22488
+        }
+      ],
+      "source": {
+        "locator": "the part after AES is shabef ans too",
+        "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+        "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+      }
+    },
+    {
+      "matches": [
+        {
+          "archived_header": "=== [06.08.2023 07:12:13 UTC-05:00] Jrk Bgrt",
+          "classification": "UNAUTHENTICATED_TRANSCRIPT_LABEL",
+          "line_one_based": 804
+        }
+      ],
+      "source": {
+        "locator": "Once you hit a \"ying yang\"",
+        "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+        "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+      }
+    },
+    {
+      "matches": [
+        {
+          "archived_header": "=== [28.04.2025 11:57:17 UTC-05:00] Jrk Bgrt",
+          "classification": "UNAUTHENTICATED_TRANSCRIPT_LABEL",
+          "line_one_based": 1186
+        }
+      ],
+      "source": {
+        "locator": "when yingyang is reached, 2 hours max",
+        "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+        "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+      }
+    }
+  ]
+}

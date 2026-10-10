@@ -1,0 +1,301 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AES &mdash; PyCryptodome 3.240b0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=03e43079" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../_static/theme_overrides.css?v=0c24fe83" />
+
+  
+      <script src="../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../_static/documentation_options.js?v=e81c42b1"></script>
+      <script src="../../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            PyCryptodome
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../introduction.html">PyCryptodome</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../features.html">Features</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vs_pycrypto.html">Compatibility with PyCrypto</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../api.html">API documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../examples.html">Examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq.html">Frequently Asked Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../contribute_support.html">Contribute and support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../changelog.html">Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../license.html">License</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">PyCryptodome</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">AES</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/src/cipher/aes.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="aes">
+<h1>AES<a class="headerlink" href="#aes" title="Link to this heading"></a></h1>
+<p>AES <a class="reference external" href="http://en.wikipedia.org/wiki/Advanced_Encryption_Standard">(Advanced Encryption Standard)</a> is a symmetric block cipher standardized
+by <a class="reference external" href="http://csrc.nist.gov/publications/fips/fips197/fips-197.pdf">NIST</a> . It has a fixed data block size of 16 bytes.
+Its keys can be 128, 192, or 256 bits long.</p>
+<p>AES is very fast and secure, and it is the de facto standard for symmetric
+encryption.</p>
+<p>As an example, encryption can be done as follows:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">Crypto.Cipher</span><span class="w"> </span><span class="kn">import</span> <span class="n">AES</span>
+<span class="gp">&gt;&gt;&gt;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">key</span> <span class="o">=</span> <span class="sa">b</span><span class="s1">&#39;Sixteen byte key&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">cipher</span> <span class="o">=</span> <span class="n">AES</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="n">key</span><span class="p">,</span> <span class="n">AES</span><span class="o">.</span><span class="n">MODE_EAX</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">nonce</span> <span class="o">=</span> <span class="n">cipher</span><span class="o">.</span><span class="n">nonce</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ciphertext</span><span class="p">,</span> <span class="n">tag</span> <span class="o">=</span> <span class="n">cipher</span><span class="o">.</span><span class="n">encrypt_and_digest</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>The recipient can obtain the original message using the same key
+and the incoming triple <code class="docutils literal notranslate"><span class="pre">(nonce,</span> <span class="pre">ciphertext,</span> <span class="pre">tag)</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">Crypto.Cipher</span><span class="w"> </span><span class="kn">import</span> <span class="n">AES</span>
+<span class="gp">&gt;&gt;&gt;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">key</span> <span class="o">=</span> <span class="sa">b</span><span class="s1">&#39;Sixteen byte key&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">cipher</span> <span class="o">=</span> <span class="n">AES</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="n">key</span><span class="p">,</span> <span class="n">AES</span><span class="o">.</span><span class="n">MODE_EAX</span><span class="p">,</span> <span class="n">nonce</span><span class="o">=</span><span class="n">nonce</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">plaintext</span> <span class="o">=</span> <span class="n">cipher</span><span class="o">.</span><span class="n">decrypt</span><span class="p">(</span><span class="n">ciphertext</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">try</span><span class="p">:</span>
+<span class="gp">&gt;&gt;&gt; </span>    <span class="n">cipher</span><span class="o">.</span><span class="n">verify</span><span class="p">(</span><span class="n">tag</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span>    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;The message is authentic:&quot;</span><span class="p">,</span> <span class="n">plaintext</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">except</span> <span class="ne">ValueError</span><span class="p">:</span>
+<span class="gp">&gt;&gt;&gt; </span>    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Key incorrect or message corrupted&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Constants for the modes of operation supported with AES (<code class="docutils literal notranslate"><span class="pre">mode</span></code> parameter):</p>
+<dl class="py data" id="module-Crypto.Cipher.AES">
+<dt class="sig sig-object py" id="Crypto.Cipher.AES.MODE_ECB">
+<span class="sig-prename descclassname"><span class="pre">Crypto.Cipher.AES.</span></span><span class="sig-name descname"><span class="pre">MODE_ECB</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">1</span></em><a class="headerlink" href="#Crypto.Cipher.AES.MODE_ECB" title="Link to this definition"></a></dt>
+<dd><p>Electronic Code Book (<a class="reference internal" href="classic.html#ecb-mode"><span class="std std-ref">ECB mode</span></a>)</p>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="Crypto.Cipher.AES.MODE_CBC">
+<span class="sig-prename descclassname"><span class="pre">Crypto.Cipher.AES.</span></span><span class="sig-name descname"><span class="pre">MODE_CBC</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">2</span></em><a class="headerlink" href="#Crypto.Cipher.AES.MODE_CBC" title="Link to this definition"></a></dt>
+<dd><p>Cipher-Block Chaining (<a class="reference internal" href="classic.html#cbc-mode"><span class="std std-ref">CBC mode</span></a>)</p>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="Crypto.Cipher.AES.MODE_CFB">
+<span class="sig-prename descclassname"><span class="pre">Crypto.Cipher.AES.</span></span><span class="sig-name descname"><span class="pre">MODE_CFB</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">3</span></em><a class="headerlink" href="#Crypto.Cipher.AES.MODE_CFB" title="Link to this definition"></a></dt>
+<dd><p>Cipher Feedback (<a class="reference internal" href="classic.html#cfb-mode"><span class="std std-ref">CFB mode</span></a>)</p>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="Crypto.Cipher.AES.MODE_OFB">
+<span class="sig-prename descclassname"><span class="pre">Crypto.Cipher.AES.</span></span><span class="sig-name descname"><span class="pre">MODE_OFB</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">5</span></em><a class="headerlink" href="#Crypto.Cipher.AES.MODE_OFB" title="Link to this definition"></a></dt>
+<dd><p>Output Feedback (<a class="reference internal" href="classic.html#ofb-mode"><span class="std std-ref">OFB mode</span></a>)</p>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="Crypto.Cipher.AES.MODE_CTR">
+<span class="sig-prename descclassname"><span class="pre">Crypto.Cipher.AES.</span></span><span class="sig-name descname"><span class="pre">MODE_CTR</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">6</span></em><a class="headerlink" href="#Crypto.Cipher.AES.MODE_CTR" title="Link to this definition"></a></dt>
+<dd><p>Counter mode (<a class="reference internal" href="classic.html#ctr-mode"><span class="std std-ref">CTR mode</span></a>)</p>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="Crypto.Cipher.AES.MODE_OPENPGP">
+<span class="sig-prename descclassname"><span class="pre">Crypto.Cipher.AES.</span></span><span class="sig-name descname"><span class="pre">MODE_OPENPGP</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">7</span></em><a class="headerlink" href="#Crypto.Cipher.AES.MODE_OPENPGP" title="Link to this definition"></a></dt>
+<dd><p>OpenPGP mode (<a class="reference internal" href="classic.html#openpgp-mode"><span class="std std-ref">OpenPGP mode</span></a>)</p>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="Crypto.Cipher.AES.MODE_CCM">
+<span class="sig-prename descclassname"><span class="pre">Crypto.Cipher.AES.</span></span><span class="sig-name descname"><span class="pre">MODE_CCM</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">8</span></em><a class="headerlink" href="#Crypto.Cipher.AES.MODE_CCM" title="Link to this definition"></a></dt>
+<dd><p>Counter with CBC-MAC (<a class="reference internal" href="modern.html#ccm-mode"><span class="std std-ref">CCM mode</span></a>)</p>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="Crypto.Cipher.AES.MODE_EAX">
+<span class="sig-prename descclassname"><span class="pre">Crypto.Cipher.AES.</span></span><span class="sig-name descname"><span class="pre">MODE_EAX</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">9</span></em><a class="headerlink" href="#Crypto.Cipher.AES.MODE_EAX" title="Link to this definition"></a></dt>
+<dd><p><a class="reference internal" href="modern.html#eax-mode"><span class="std std-ref">EAX mode</span></a></p>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="Crypto.Cipher.AES.MODE_SIV">
+<span class="sig-prename descclassname"><span class="pre">Crypto.Cipher.AES.</span></span><span class="sig-name descname"><span class="pre">MODE_SIV</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">10</span></em><a class="headerlink" href="#Crypto.Cipher.AES.MODE_SIV" title="Link to this definition"></a></dt>
+<dd><p>Synthetic Initialization Vector (<a class="reference internal" href="modern.html#siv-mode"><span class="std std-ref">SIV mode</span></a>)</p>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="Crypto.Cipher.AES.MODE_GCM">
+<span class="sig-prename descclassname"><span class="pre">Crypto.Cipher.AES.</span></span><span class="sig-name descname"><span class="pre">MODE_GCM</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">11</span></em><a class="headerlink" href="#Crypto.Cipher.AES.MODE_GCM" title="Link to this definition"></a></dt>
+<dd><p>Galois Counter Mode (<a class="reference internal" href="modern.html#gcm-mode"><span class="std std-ref">GCM mode</span></a>)</p>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="Crypto.Cipher.AES.MODE_OCB">
+<span class="sig-prename descclassname"><span class="pre">Crypto.Cipher.AES.</span></span><span class="sig-name descname"><span class="pre">MODE_OCB</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">12</span></em><a class="headerlink" href="#Crypto.Cipher.AES.MODE_OCB" title="Link to this definition"></a></dt>
+<dd><p>Offset Code Book (<a class="reference internal" href="modern.html#ocb-mode"><span class="std std-ref">OCB mode</span></a>)</p>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="Crypto.Cipher.AES.MODE_KW">
+<span class="sig-prename descclassname"><span class="pre">Crypto.Cipher.AES.</span></span><span class="sig-name descname"><span class="pre">MODE_KW</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">13</span></em><a class="headerlink" href="#Crypto.Cipher.AES.MODE_KW" title="Link to this definition"></a></dt>
+<dd><p>Key Wrap (<a class="reference internal" href="modern.html#kw-mode"><span class="std std-ref">KW mode</span></a>)</p>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="Crypto.Cipher.AES.MODE_KWP">
+<span class="sig-prename descclassname"><span class="pre">Crypto.Cipher.AES.</span></span><span class="sig-name descname"><span class="pre">MODE_KWP</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">14</span></em><a class="headerlink" href="#Crypto.Cipher.AES.MODE_KWP" title="Link to this definition"></a></dt>
+<dd><p>Key Wrap with Padding (<a class="reference internal" href="modern.html#kwp-mode"><span class="std std-ref">KWP mode</span></a>)</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="Crypto.Cipher.AES.new">
+<span class="sig-prename descclassname"><span class="pre">Crypto.Cipher.AES.</span></span><span class="sig-name descname"><span class="pre">new</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">key</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mode</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#Crypto.Cipher.AES.new" title="Link to this definition"></a></dt>
+<dd><p>Create a new AES cipher.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>key</strong> (<em>bytes/bytearray/memoryview</em>) – <p>The secret key to use in the symmetric cipher.</p>
+<p>It must be 16 (<em>AES-128)</em>, 24 (<em>AES-192</em>) or 32 (<em>AES-256</em>) bytes long.</p>
+<p>For <code class="docutils literal notranslate"><span class="pre">MODE_SIV</span></code> only, it doubles to 32, 48, or 64 bytes.</p>
+</p></li>
+<li><p><strong>mode</strong> (a <code class="docutils literal notranslate"><span class="pre">MODE_*</span></code> constant) – The chaining mode to use for encryption or decryption.
+If in doubt, use <code class="docutils literal notranslate"><span class="pre">MODE_EAX</span></code>.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Keyword Arguments<span class="colon">:</span></dt>
+<dd class="field-even"><ul class="simple">
+<li><p><strong>iv</strong> (<em>bytes/bytearray/memoryview</em>) – <p>(Only applicable for <code class="docutils literal notranslate"><span class="pre">MODE_CBC</span></code>, <code class="docutils literal notranslate"><span class="pre">MODE_CFB</span></code>, <code class="docutils literal notranslate"><span class="pre">MODE_OFB</span></code>,
+and <code class="docutils literal notranslate"><span class="pre">MODE_OPENPGP</span></code> modes).</p>
+<p>The initialization vector to use for encryption or decryption.</p>
+<p>For <code class="docutils literal notranslate"><span class="pre">MODE_CBC</span></code>, <code class="docutils literal notranslate"><span class="pre">MODE_CFB</span></code>, and <code class="docutils literal notranslate"><span class="pre">MODE_OFB</span></code> it must be 16 bytes long.</p>
+<p>For <code class="docutils literal notranslate"><span class="pre">MODE_OPENPGP</span></code> mode only,
+it must be 16 bytes long for encryption
+and 18 bytes for decryption (in the latter case, it is
+actually the <em>encrypted</em> IV which was prefixed to the ciphertext).</p>
+<p>If not provided, a random byte string is generated (you must then
+read its value with the <code class="xref py py-attr docutils literal notranslate"><span class="pre">iv</span></code> attribute).</p>
+</p></li>
+<li><p><strong>nonce</strong> (<em>bytes/bytearray/memoryview</em>) – <p>(Only applicable for <code class="docutils literal notranslate"><span class="pre">MODE_CCM</span></code>, <code class="docutils literal notranslate"><span class="pre">MODE_EAX</span></code>, <code class="docutils literal notranslate"><span class="pre">MODE_GCM</span></code>,
+<code class="docutils literal notranslate"><span class="pre">MODE_SIV</span></code>, <code class="docutils literal notranslate"><span class="pre">MODE_OCB</span></code>, and <code class="docutils literal notranslate"><span class="pre">MODE_CTR</span></code>).</p>
+<p>A value that must never be reused for any other encryption done
+with this key (except possibly for <code class="docutils literal notranslate"><span class="pre">MODE_SIV</span></code>, see below).</p>
+<p>For <code class="docutils literal notranslate"><span class="pre">MODE_EAX</span></code>, <code class="docutils literal notranslate"><span class="pre">MODE_GCM</span></code> and <code class="docutils literal notranslate"><span class="pre">MODE_SIV</span></code> there are no
+restrictions on its length (recommended: <strong>16</strong> bytes).</p>
+<p>For <code class="docutils literal notranslate"><span class="pre">MODE_CCM</span></code>, its length must be in the range <strong>[7..13]</strong>.
+Bear in mind that with CCM there is a trade-off between nonce
+length and maximum message size. Recommendation: <strong>11</strong> bytes.</p>
+<p>For <code class="docutils literal notranslate"><span class="pre">MODE_OCB</span></code>, its length must be in the range <strong>[1..15]</strong>
+(recommended: <strong>15</strong>).</p>
+<p>For <code class="docutils literal notranslate"><span class="pre">MODE_CTR</span></code>, its length must be in the range <strong>[0..15]</strong>
+(recommended: <strong>8</strong>).</p>
+<p>For <code class="docutils literal notranslate"><span class="pre">MODE_SIV</span></code>, the nonce is optional, if it is not specified,
+then no nonce is being used, which renders the encryption
+deterministic.</p>
+<p>If not provided, for modes other than <code class="docutils literal notranslate"><span class="pre">MODE_SIV</span></code>, a random
+byte string of the recommended length is used (you must then
+read its value with the <code class="xref py py-attr docutils literal notranslate"><span class="pre">nonce</span></code> attribute).</p>
+</p></li>
+<li><p><strong>segment_size</strong> (<em>integer</em>) – (Only <code class="docutils literal notranslate"><span class="pre">MODE_CFB</span></code>).The number of <strong>bits</strong> the plaintext and ciphertext
+are segmented in. It must be a multiple of 8.
+If not specified, it will be assumed to be 8.</p></li>
+<li><p><strong>mac_len</strong> (<em>integer</em>) – <p>(Only <code class="docutils literal notranslate"><span class="pre">MODE_EAX</span></code>, <code class="docutils literal notranslate"><span class="pre">MODE_GCM</span></code>, <code class="docutils literal notranslate"><span class="pre">MODE_OCB</span></code>, <code class="docutils literal notranslate"><span class="pre">MODE_CCM</span></code>)
+Length of the authentication tag, in bytes.</p>
+<p>It must be even and in the range <strong>[4..16]</strong>.
+The recommended value (and the default, if not specified) is <strong>16</strong>.</p>
+</p></li>
+<li><p><strong>msg_len</strong> (<em>integer</em>) – (Only <code class="docutils literal notranslate"><span class="pre">MODE_CCM</span></code>). Length of the message to (de)cipher.
+If not specified, <code class="docutils literal notranslate"><span class="pre">encrypt</span></code> must be called with the entire message.
+Similarly, <code class="docutils literal notranslate"><span class="pre">decrypt</span></code> can only be called once.</p></li>
+<li><p><strong>assoc_len</strong> (<em>integer</em>) – (Only <code class="docutils literal notranslate"><span class="pre">MODE_CCM</span></code>). Length of the associated data.
+If not specified, all associated data is buffered internally,
+which may represent a problem for very large messages.</p></li>
+<li><p><strong>initial_value</strong> (<em>integer</em><em> or </em><em>bytes/bytearray/memoryview</em>) – (Only <code class="docutils literal notranslate"><span class="pre">MODE_CTR</span></code>).
+The initial value for the counter. If not present, the cipher will
+start counting from 0. The value is incremented by one for each block.
+The counter number is encoded in big endian mode.</p></li>
+<li><p><strong>counter</strong> (<em>object</em>) – (Only <code class="docutils literal notranslate"><span class="pre">MODE_CTR</span></code>).
+Instance of <code class="docutils literal notranslate"><span class="pre">Crypto.Util.Counter</span></code>, which allows full customization
+of the counter block. This parameter is incompatible to both <code class="docutils literal notranslate"><span class="pre">nonce</span></code>
+and <code class="docutils literal notranslate"><span class="pre">initial_value</span></code>.</p></li>
+<li><p><strong>use_aesni</strong> – (boolean):
+Use Intel AES-NI hardware extensions (default: use if available).</p></li>
+</ul>
+</dd>
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>an AES object, of the applicable mode.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p></p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+<!-- Cloudflare Pages Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "0173dfa951bb43b4933cd4989732816b"}'></script><!-- Cloudflare Pages Analytics --></body>
+</html>

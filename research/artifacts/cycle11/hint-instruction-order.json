@@ -1,0 +1,3238 @@
+{
+  "assumptions": [
+    "Order of clue mentions may correspond to construction order",
+    "yinyang names a later recognition checkpoint, not necessarily a cipher",
+    "Archived creator labels are attributed evidence, not signed authentication"
+  ],
+  "best_supported_data_flow": {
+    "Bifid_branch_not_named_by_hint": true,
+    "edges": [
+      [
+        "yellow-blue-prime object",
+        "sumlist object or operation",
+        "ORDERED_MENTIONS_NOT_VERIFIED_DATAFLOW"
+      ],
+      [
+        "sumlist object or operation",
+        "Architect-words object",
+        "ORDERED_MENTIONS_NOT_VERIFIED_DATAFLOW"
+      ],
+      [
+        "Architect-words object",
+        "yin-yang checkpoint",
+        "ORDERED_MENTIONS_NOT_VERIFIED_DATAFLOW"
+      ]
+    ],
+    "nodes": [
+      "yellow-blue-prime object",
+      "sumlist object or operation",
+      "Architect-words object",
+      "yin-yang checkpoint"
+    ],
+    "separate_local_SHA_container_SHA_graph_unchanged": true
+  },
+  "binary_hint": {
+    "bit_count": 1288,
+    "classification": "CREATOR_ATTRIBUTED_ARCHIVED_HINT_CORROBORATED_BY_SCREENSHOT; NOT_SIGNED_AUTHENTICATION",
+    "controls": {
+      "full_reversal_matches": true,
+      "identity_matches": false,
+      "reverse_bits_within_octets_only_matches": false,
+      "reverse_octet_order_only_matches": false
+    },
+    "decoded_public_text": "yellowblueprimesmatrixsumlistlastwordsbeforearchichoiceyinyangwewontgiveawaythepassworditsinfrontofyoureyesbutyourenotseeingitverylaststepisatruegiveawaypromised",
+    "equivalent_transform": "Reverse octet order AND reverse bits within each octet",
+    "full_transcript_correspondence": {
+      "character_span_zero_based_half_open": [
+        712447,
+        713895
+      ],
+      "column_one_based": 1,
+      "exports_are_not_independent_creator_authentication": true,
+      "header": "=== [23.02.2023 18:20:03 UTC-05:00] Jrk Bgrt",
+      "later_binary_reposts": [
+        {
+          "header": "=== [07.10.2023 20:34:37 UTC-05:00] Deleted Account",
+          "line_one_based": 42166,
+          "not_independent_creator_evidence": true,
+          "same_octets": true
+        },
+        {
+          "header": "=== [03.11.2024 13:52:12 UTC-05:00] Tobi",
+          "line_one_based": 78259,
+          "not_independent_creator_evidence": true,
+          "same_octets": true
+        },
+        {
+          "header": "=== [12.12.2024 16:07:47 UTC-05:00] nieods",
+          "line_one_based": 94625,
+          "not_independent_creator_evidence": true,
+          "same_octets": true
+        },
+        {
+          "header": "=== [23.08.2025 09:48:56 UTC-05:00] R B",
+          "line_one_based": 133999,
+          "not_independent_creator_evidence": true,
+          "same_octets": true
+        }
+      ],
+      "line_one_based": 20386,
+      "same_octets": true,
+      "source": {
+        "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+        "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+      },
+      "utf8_byte_span_zero_based_half_open": [
+        720116,
+        721564
+      ]
+    },
+    "octet_count": 161,
+    "phrase_regions": [
+      {
+        "character_span_zero_based_half_open": [
+          25391,
+          25534
+        ],
+        "column_one_based": 1306,
+        "decoded_span_zero_based_half_open": [
+          0,
+          16
+        ],
+        "line_one_based": 711,
+        "original_octet_span_zero_based_half_open": [
+          145,
+          161
+        ],
+        "phrase": "yellowblueprimes",
+        "source_order": "descending octet indices and reversed bits",
+        "utf8_byte_span_zero_based_half_open": [
+          25584,
+          25727
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          25274,
+          25390
+        ],
+        "column_one_based": 1189,
+        "decoded_span_zero_based_half_open": [
+          16,
+          29
+        ],
+        "line_one_based": 711,
+        "original_octet_span_zero_based_half_open": [
+          132,
+          145
+        ],
+        "phrase": "matrixsumlist",
+        "source_order": "descending octet indices and reversed bits",
+        "utf8_byte_span_zero_based_half_open": [
+          25467,
+          25583
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          25040,
+          25273
+        ],
+        "column_one_based": 955,
+        "decoded_span_zero_based_half_open": [
+          29,
+          55
+        ],
+        "line_one_based": 711,
+        "original_octet_span_zero_based_half_open": [
+          106,
+          132
+        ],
+        "phrase": "lastwordsbeforearchichoice",
+        "source_order": "descending octet indices and reversed bits",
+        "utf8_byte_span_zero_based_half_open": [
+          25233,
+          25466
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          24977,
+          25039
+        ],
+        "column_one_based": 892,
+        "decoded_span_zero_based_half_open": [
+          55,
+          62
+        ],
+        "line_one_based": 711,
+        "original_octet_span_zero_based_half_open": [
+          99,
+          106
+        ],
+        "phrase": "yinyang",
+        "source_order": "descending octet indices and reversed bits",
+        "utf8_byte_span_zero_based_half_open": [
+          25170,
+          25232
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          24752,
+          24976
+        ],
+        "column_one_based": 667,
+        "decoded_span_zero_based_half_open": [
+          62,
+          87
+        ],
+        "line_one_based": 711,
+        "original_octet_span_zero_based_half_open": [
+          74,
+          99
+        ],
+        "phrase": "wewontgiveawaythepassword",
+        "source_order": "descending octet indices and reversed bits",
+        "utf8_byte_span_zero_based_half_open": [
+          24945,
+          25169
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          24401,
+          24751
+        ],
+        "column_one_based": 316,
+        "decoded_span_zero_based_half_open": [
+          87,
+          126
+        ],
+        "line_one_based": 711,
+        "original_octet_span_zero_based_half_open": [
+          35,
+          74
+        ],
+        "phrase": "itsinfrontofyoureyesbutyourenotseeingit",
+        "source_order": "descending octet indices and reversed bits",
+        "utf8_byte_span_zero_based_half_open": [
+          24594,
+          24944
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          24086,
+          24400
+        ],
+        "column_one_based": 1,
+        "decoded_span_zero_based_half_open": [
+          126,
+          161
+        ],
+        "line_one_based": 711,
+        "original_octet_span_zero_based_half_open": [
+          0,
+          35
+        ],
+        "phrase": "verylaststepisatruegiveawaypromised",
+        "source_order": "descending octet indices and reversed bits",
+        "utf8_byte_span_zero_based_half_open": [
+          24279,
+          24593
+        ]
+      }
+    ],
+    "raw_binary_source": {
+      "character_span_zero_based_half_open": [
+        24086,
+        25534
+      ],
+      "column_one_based": 1,
+      "line_one_based": 711,
+      "utf8_byte_span_zero_based_half_open": [
+        24279,
+        25727
+      ]
+    },
+    "round_trip": true,
+    "screenshot": {
+      "binary_body_pixel_rectangle_xyxy": [
+        64,
+        60,
+        507,
+        750
+      ],
+      "not_an_independent_OCR_verification_of_all_octets": true,
+      "source": {
+        "path": "research/sources/maintained-hints__2023-02-23.png",
+        "sha256": "5dddf73995c45497facb034e3d38d2bbbe3642603b15fce22e118d34209c0197"
+      },
+      "speaker_label": "Jrk Bgrt/admin",
+      "visible_month_day": "February23",
+      "visual_label_and_prefix_suffix_reviewed": true,
+      "year_from_transcript_and_archive": "2023"
+    },
+    "secondary_readme": {
+      "character_span_zero_based_half_open": [
+        14097,
+        14295
+      ],
+      "column_one_based": 1,
+      "displayed_spaces_not_in_original_decoded_bytes": true,
+      "line_one_based": 347,
+      "normalized_transcription_matches": true,
+      "source": {
+        "path": "research/sources/maintained-README.md",
+        "sha256": "8d4ee414a4839e51e9c79ed387e1ea327835ea98039eef2633d0d8885bcdd015"
+      },
+      "utf8_byte_span_zero_based_half_open": [
+        14097,
+        14295
+      ]
+    },
+    "source": {
+      "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+      "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+    },
+    "source_header": "=== [23.02.2023 18:20:03 UTC-05:00] Jrk Bgrt",
+    "source_map": [
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25526,
+          25534
+        ],
+        "column_one_based": 1441,
+        "line_one_based": 711,
+        "output_index_zero_based": 0,
+        "source_octet_index_zero_based": 160,
+        "symbol": "y",
+        "utf8_byte_span_zero_based_half_open": [
+          25719,
+          25727
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25517,
+          25525
+        ],
+        "column_one_based": 1432,
+        "line_one_based": 711,
+        "output_index_zero_based": 1,
+        "source_octet_index_zero_based": 159,
+        "symbol": "e",
+        "utf8_byte_span_zero_based_half_open": [
+          25710,
+          25718
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25508,
+          25516
+        ],
+        "column_one_based": 1423,
+        "line_one_based": 711,
+        "output_index_zero_based": 2,
+        "source_octet_index_zero_based": 158,
+        "symbol": "l",
+        "utf8_byte_span_zero_based_half_open": [
+          25701,
+          25709
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25499,
+          25507
+        ],
+        "column_one_based": 1414,
+        "line_one_based": 711,
+        "output_index_zero_based": 3,
+        "source_octet_index_zero_based": 157,
+        "symbol": "l",
+        "utf8_byte_span_zero_based_half_open": [
+          25692,
+          25700
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25490,
+          25498
+        ],
+        "column_one_based": 1405,
+        "line_one_based": 711,
+        "output_index_zero_based": 4,
+        "source_octet_index_zero_based": 156,
+        "symbol": "o",
+        "utf8_byte_span_zero_based_half_open": [
+          25683,
+          25691
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25481,
+          25489
+        ],
+        "column_one_based": 1396,
+        "line_one_based": 711,
+        "output_index_zero_based": 5,
+        "source_octet_index_zero_based": 155,
+        "symbol": "w",
+        "utf8_byte_span_zero_based_half_open": [
+          25674,
+          25682
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25472,
+          25480
+        ],
+        "column_one_based": 1387,
+        "line_one_based": 711,
+        "output_index_zero_based": 6,
+        "source_octet_index_zero_based": 154,
+        "symbol": "b",
+        "utf8_byte_span_zero_based_half_open": [
+          25665,
+          25673
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25463,
+          25471
+        ],
+        "column_one_based": 1378,
+        "line_one_based": 711,
+        "output_index_zero_based": 7,
+        "source_octet_index_zero_based": 153,
+        "symbol": "l",
+        "utf8_byte_span_zero_based_half_open": [
+          25656,
+          25664
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25454,
+          25462
+        ],
+        "column_one_based": 1369,
+        "line_one_based": 711,
+        "output_index_zero_based": 8,
+        "source_octet_index_zero_based": 152,
+        "symbol": "u",
+        "utf8_byte_span_zero_based_half_open": [
+          25647,
+          25655
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25445,
+          25453
+        ],
+        "column_one_based": 1360,
+        "line_one_based": 711,
+        "output_index_zero_based": 9,
+        "source_octet_index_zero_based": 151,
+        "symbol": "e",
+        "utf8_byte_span_zero_based_half_open": [
+          25638,
+          25646
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25436,
+          25444
+        ],
+        "column_one_based": 1351,
+        "line_one_based": 711,
+        "output_index_zero_based": 10,
+        "source_octet_index_zero_based": 150,
+        "symbol": "p",
+        "utf8_byte_span_zero_based_half_open": [
+          25629,
+          25637
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25427,
+          25435
+        ],
+        "column_one_based": 1342,
+        "line_one_based": 711,
+        "output_index_zero_based": 11,
+        "source_octet_index_zero_based": 149,
+        "symbol": "r",
+        "utf8_byte_span_zero_based_half_open": [
+          25620,
+          25628
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25418,
+          25426
+        ],
+        "column_one_based": 1333,
+        "line_one_based": 711,
+        "output_index_zero_based": 12,
+        "source_octet_index_zero_based": 148,
+        "symbol": "i",
+        "utf8_byte_span_zero_based_half_open": [
+          25611,
+          25619
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25409,
+          25417
+        ],
+        "column_one_based": 1324,
+        "line_one_based": 711,
+        "output_index_zero_based": 13,
+        "source_octet_index_zero_based": 147,
+        "symbol": "m",
+        "utf8_byte_span_zero_based_half_open": [
+          25602,
+          25610
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25400,
+          25408
+        ],
+        "column_one_based": 1315,
+        "line_one_based": 711,
+        "output_index_zero_based": 14,
+        "source_octet_index_zero_based": 146,
+        "symbol": "e",
+        "utf8_byte_span_zero_based_half_open": [
+          25593,
+          25601
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25391,
+          25399
+        ],
+        "column_one_based": 1306,
+        "line_one_based": 711,
+        "output_index_zero_based": 15,
+        "source_octet_index_zero_based": 145,
+        "symbol": "s",
+        "utf8_byte_span_zero_based_half_open": [
+          25584,
+          25592
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25382,
+          25390
+        ],
+        "column_one_based": 1297,
+        "line_one_based": 711,
+        "output_index_zero_based": 16,
+        "source_octet_index_zero_based": 144,
+        "symbol": "m",
+        "utf8_byte_span_zero_based_half_open": [
+          25575,
+          25583
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25373,
+          25381
+        ],
+        "column_one_based": 1288,
+        "line_one_based": 711,
+        "output_index_zero_based": 17,
+        "source_octet_index_zero_based": 143,
+        "symbol": "a",
+        "utf8_byte_span_zero_based_half_open": [
+          25566,
+          25574
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25364,
+          25372
+        ],
+        "column_one_based": 1279,
+        "line_one_based": 711,
+        "output_index_zero_based": 18,
+        "source_octet_index_zero_based": 142,
+        "symbol": "t",
+        "utf8_byte_span_zero_based_half_open": [
+          25557,
+          25565
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25355,
+          25363
+        ],
+        "column_one_based": 1270,
+        "line_one_based": 711,
+        "output_index_zero_based": 19,
+        "source_octet_index_zero_based": 141,
+        "symbol": "r",
+        "utf8_byte_span_zero_based_half_open": [
+          25548,
+          25556
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25346,
+          25354
+        ],
+        "column_one_based": 1261,
+        "line_one_based": 711,
+        "output_index_zero_based": 20,
+        "source_octet_index_zero_based": 140,
+        "symbol": "i",
+        "utf8_byte_span_zero_based_half_open": [
+          25539,
+          25547
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25337,
+          25345
+        ],
+        "column_one_based": 1252,
+        "line_one_based": 711,
+        "output_index_zero_based": 21,
+        "source_octet_index_zero_based": 139,
+        "symbol": "x",
+        "utf8_byte_span_zero_based_half_open": [
+          25530,
+          25538
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25328,
+          25336
+        ],
+        "column_one_based": 1243,
+        "line_one_based": 711,
+        "output_index_zero_based": 22,
+        "source_octet_index_zero_based": 138,
+        "symbol": "s",
+        "utf8_byte_span_zero_based_half_open": [
+          25521,
+          25529
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25319,
+          25327
+        ],
+        "column_one_based": 1234,
+        "line_one_based": 711,
+        "output_index_zero_based": 23,
+        "source_octet_index_zero_based": 137,
+        "symbol": "u",
+        "utf8_byte_span_zero_based_half_open": [
+          25512,
+          25520
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25310,
+          25318
+        ],
+        "column_one_based": 1225,
+        "line_one_based": 711,
+        "output_index_zero_based": 24,
+        "source_octet_index_zero_based": 136,
+        "symbol": "m",
+        "utf8_byte_span_zero_based_half_open": [
+          25503,
+          25511
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25301,
+          25309
+        ],
+        "column_one_based": 1216,
+        "line_one_based": 711,
+        "output_index_zero_based": 25,
+        "source_octet_index_zero_based": 135,
+        "symbol": "l",
+        "utf8_byte_span_zero_based_half_open": [
+          25494,
+          25502
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25292,
+          25300
+        ],
+        "column_one_based": 1207,
+        "line_one_based": 711,
+        "output_index_zero_based": 26,
+        "source_octet_index_zero_based": 134,
+        "symbol": "i",
+        "utf8_byte_span_zero_based_half_open": [
+          25485,
+          25493
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25283,
+          25291
+        ],
+        "column_one_based": 1198,
+        "line_one_based": 711,
+        "output_index_zero_based": 27,
+        "source_octet_index_zero_based": 133,
+        "symbol": "s",
+        "utf8_byte_span_zero_based_half_open": [
+          25476,
+          25484
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25274,
+          25282
+        ],
+        "column_one_based": 1189,
+        "line_one_based": 711,
+        "output_index_zero_based": 28,
+        "source_octet_index_zero_based": 132,
+        "symbol": "t",
+        "utf8_byte_span_zero_based_half_open": [
+          25467,
+          25475
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25265,
+          25273
+        ],
+        "column_one_based": 1180,
+        "line_one_based": 711,
+        "output_index_zero_based": 29,
+        "source_octet_index_zero_based": 131,
+        "symbol": "l",
+        "utf8_byte_span_zero_based_half_open": [
+          25458,
+          25466
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25256,
+          25264
+        ],
+        "column_one_based": 1171,
+        "line_one_based": 711,
+        "output_index_zero_based": 30,
+        "source_octet_index_zero_based": 130,
+        "symbol": "a",
+        "utf8_byte_span_zero_based_half_open": [
+          25449,
+          25457
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25247,
+          25255
+        ],
+        "column_one_based": 1162,
+        "line_one_based": 711,
+        "output_index_zero_based": 31,
+        "source_octet_index_zero_based": 129,
+        "symbol": "s",
+        "utf8_byte_span_zero_based_half_open": [
+          25440,
+          25448
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25238,
+          25246
+        ],
+        "column_one_based": 1153,
+        "line_one_based": 711,
+        "output_index_zero_based": 32,
+        "source_octet_index_zero_based": 128,
+        "symbol": "t",
+        "utf8_byte_span_zero_based_half_open": [
+          25431,
+          25439
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25229,
+          25237
+        ],
+        "column_one_based": 1144,
+        "line_one_based": 711,
+        "output_index_zero_based": 33,
+        "source_octet_index_zero_based": 127,
+        "symbol": "w",
+        "utf8_byte_span_zero_based_half_open": [
+          25422,
+          25430
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25220,
+          25228
+        ],
+        "column_one_based": 1135,
+        "line_one_based": 711,
+        "output_index_zero_based": 34,
+        "source_octet_index_zero_based": 126,
+        "symbol": "o",
+        "utf8_byte_span_zero_based_half_open": [
+          25413,
+          25421
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25211,
+          25219
+        ],
+        "column_one_based": 1126,
+        "line_one_based": 711,
+        "output_index_zero_based": 35,
+        "source_octet_index_zero_based": 125,
+        "symbol": "r",
+        "utf8_byte_span_zero_based_half_open": [
+          25404,
+          25412
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25202,
+          25210
+        ],
+        "column_one_based": 1117,
+        "line_one_based": 711,
+        "output_index_zero_based": 36,
+        "source_octet_index_zero_based": 124,
+        "symbol": "d",
+        "utf8_byte_span_zero_based_half_open": [
+          25395,
+          25403
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25193,
+          25201
+        ],
+        "column_one_based": 1108,
+        "line_one_based": 711,
+        "output_index_zero_based": 37,
+        "source_octet_index_zero_based": 123,
+        "symbol": "s",
+        "utf8_byte_span_zero_based_half_open": [
+          25386,
+          25394
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25184,
+          25192
+        ],
+        "column_one_based": 1099,
+        "line_one_based": 711,
+        "output_index_zero_based": 38,
+        "source_octet_index_zero_based": 122,
+        "symbol": "b",
+        "utf8_byte_span_zero_based_half_open": [
+          25377,
+          25385
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25175,
+          25183
+        ],
+        "column_one_based": 1090,
+        "line_one_based": 711,
+        "output_index_zero_based": 39,
+        "source_octet_index_zero_based": 121,
+        "symbol": "e",
+        "utf8_byte_span_zero_based_half_open": [
+          25368,
+          25376
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25166,
+          25174
+        ],
+        "column_one_based": 1081,
+        "line_one_based": 711,
+        "output_index_zero_based": 40,
+        "source_octet_index_zero_based": 120,
+        "symbol": "f",
+        "utf8_byte_span_zero_based_half_open": [
+          25359,
+          25367
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25157,
+          25165
+        ],
+        "column_one_based": 1072,
+        "line_one_based": 711,
+        "output_index_zero_based": 41,
+        "source_octet_index_zero_based": 119,
+        "symbol": "o",
+        "utf8_byte_span_zero_based_half_open": [
+          25350,
+          25358
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25148,
+          25156
+        ],
+        "column_one_based": 1063,
+        "line_one_based": 711,
+        "output_index_zero_based": 42,
+        "source_octet_index_zero_based": 118,
+        "symbol": "r",
+        "utf8_byte_span_zero_based_half_open": [
+          25341,
+          25349
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25139,
+          25147
+        ],
+        "column_one_based": 1054,
+        "line_one_based": 711,
+        "output_index_zero_based": 43,
+        "source_octet_index_zero_based": 117,
+        "symbol": "e",
+        "utf8_byte_span_zero_based_half_open": [
+          25332,
+          25340
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25130,
+          25138
+        ],
+        "column_one_based": 1045,
+        "line_one_based": 711,
+        "output_index_zero_based": 44,
+        "source_octet_index_zero_based": 116,
+        "symbol": "a",
+        "utf8_byte_span_zero_based_half_open": [
+          25323,
+          25331
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25121,
+          25129
+        ],
+        "column_one_based": 1036,
+        "line_one_based": 711,
+        "output_index_zero_based": 45,
+        "source_octet_index_zero_based": 115,
+        "symbol": "r",
+        "utf8_byte_span_zero_based_half_open": [
+          25314,
+          25322
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25112,
+          25120
+        ],
+        "column_one_based": 1027,
+        "line_one_based": 711,
+        "output_index_zero_based": 46,
+        "source_octet_index_zero_based": 114,
+        "symbol": "c",
+        "utf8_byte_span_zero_based_half_open": [
+          25305,
+          25313
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25103,
+          25111
+        ],
+        "column_one_based": 1018,
+        "line_one_based": 711,
+        "output_index_zero_based": 47,
+        "source_octet_index_zero_based": 113,
+        "symbol": "h",
+        "utf8_byte_span_zero_based_half_open": [
+          25296,
+          25304
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25094,
+          25102
+        ],
+        "column_one_based": 1009,
+        "line_one_based": 711,
+        "output_index_zero_based": 48,
+        "source_octet_index_zero_based": 112,
+        "symbol": "i",
+        "utf8_byte_span_zero_based_half_open": [
+          25287,
+          25295
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25085,
+          25093
+        ],
+        "column_one_based": 1000,
+        "line_one_based": 711,
+        "output_index_zero_based": 49,
+        "source_octet_index_zero_based": 111,
+        "symbol": "c",
+        "utf8_byte_span_zero_based_half_open": [
+          25278,
+          25286
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25076,
+          25084
+        ],
+        "column_one_based": 991,
+        "line_one_based": 711,
+        "output_index_zero_based": 50,
+        "source_octet_index_zero_based": 110,
+        "symbol": "h",
+        "utf8_byte_span_zero_based_half_open": [
+          25269,
+          25277
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25067,
+          25075
+        ],
+        "column_one_based": 982,
+        "line_one_based": 711,
+        "output_index_zero_based": 51,
+        "source_octet_index_zero_based": 109,
+        "symbol": "o",
+        "utf8_byte_span_zero_based_half_open": [
+          25260,
+          25268
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25058,
+          25066
+        ],
+        "column_one_based": 973,
+        "line_one_based": 711,
+        "output_index_zero_based": 52,
+        "source_octet_index_zero_based": 108,
+        "symbol": "i",
+        "utf8_byte_span_zero_based_half_open": [
+          25251,
+          25259
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25049,
+          25057
+        ],
+        "column_one_based": 964,
+        "line_one_based": 711,
+        "output_index_zero_based": 53,
+        "source_octet_index_zero_based": 107,
+        "symbol": "c",
+        "utf8_byte_span_zero_based_half_open": [
+          25242,
+          25250
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25040,
+          25048
+        ],
+        "column_one_based": 955,
+        "line_one_based": 711,
+        "output_index_zero_based": 54,
+        "source_octet_index_zero_based": 106,
+        "symbol": "e",
+        "utf8_byte_span_zero_based_half_open": [
+          25233,
+          25241
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25031,
+          25039
+        ],
+        "column_one_based": 946,
+        "line_one_based": 711,
+        "output_index_zero_based": 55,
+        "source_octet_index_zero_based": 105,
+        "symbol": "y",
+        "utf8_byte_span_zero_based_half_open": [
+          25224,
+          25232
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25022,
+          25030
+        ],
+        "column_one_based": 937,
+        "line_one_based": 711,
+        "output_index_zero_based": 56,
+        "source_octet_index_zero_based": 104,
+        "symbol": "i",
+        "utf8_byte_span_zero_based_half_open": [
+          25215,
+          25223
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25013,
+          25021
+        ],
+        "column_one_based": 928,
+        "line_one_based": 711,
+        "output_index_zero_based": 57,
+        "source_octet_index_zero_based": 103,
+        "symbol": "n",
+        "utf8_byte_span_zero_based_half_open": [
+          25206,
+          25214
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          25004,
+          25012
+        ],
+        "column_one_based": 919,
+        "line_one_based": 711,
+        "output_index_zero_based": 58,
+        "source_octet_index_zero_based": 102,
+        "symbol": "y",
+        "utf8_byte_span_zero_based_half_open": [
+          25197,
+          25205
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24995,
+          25003
+        ],
+        "column_one_based": 910,
+        "line_one_based": 711,
+        "output_index_zero_based": 59,
+        "source_octet_index_zero_based": 101,
+        "symbol": "a",
+        "utf8_byte_span_zero_based_half_open": [
+          25188,
+          25196
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24986,
+          24994
+        ],
+        "column_one_based": 901,
+        "line_one_based": 711,
+        "output_index_zero_based": 60,
+        "source_octet_index_zero_based": 100,
+        "symbol": "n",
+        "utf8_byte_span_zero_based_half_open": [
+          25179,
+          25187
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24977,
+          24985
+        ],
+        "column_one_based": 892,
+        "line_one_based": 711,
+        "output_index_zero_based": 61,
+        "source_octet_index_zero_based": 99,
+        "symbol": "g",
+        "utf8_byte_span_zero_based_half_open": [
+          25170,
+          25178
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24968,
+          24976
+        ],
+        "column_one_based": 883,
+        "line_one_based": 711,
+        "output_index_zero_based": 62,
+        "source_octet_index_zero_based": 98,
+        "symbol": "w",
+        "utf8_byte_span_zero_based_half_open": [
+          25161,
+          25169
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24959,
+          24967
+        ],
+        "column_one_based": 874,
+        "line_one_based": 711,
+        "output_index_zero_based": 63,
+        "source_octet_index_zero_based": 97,
+        "symbol": "e",
+        "utf8_byte_span_zero_based_half_open": [
+          25152,
+          25160
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24950,
+          24958
+        ],
+        "column_one_based": 865,
+        "line_one_based": 711,
+        "output_index_zero_based": 64,
+        "source_octet_index_zero_based": 96,
+        "symbol": "w",
+        "utf8_byte_span_zero_based_half_open": [
+          25143,
+          25151
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24941,
+          24949
+        ],
+        "column_one_based": 856,
+        "line_one_based": 711,
+        "output_index_zero_based": 65,
+        "source_octet_index_zero_based": 95,
+        "symbol": "o",
+        "utf8_byte_span_zero_based_half_open": [
+          25134,
+          25142
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24932,
+          24940
+        ],
+        "column_one_based": 847,
+        "line_one_based": 711,
+        "output_index_zero_based": 66,
+        "source_octet_index_zero_based": 94,
+        "symbol": "n",
+        "utf8_byte_span_zero_based_half_open": [
+          25125,
+          25133
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24923,
+          24931
+        ],
+        "column_one_based": 838,
+        "line_one_based": 711,
+        "output_index_zero_based": 67,
+        "source_octet_index_zero_based": 93,
+        "symbol": "t",
+        "utf8_byte_span_zero_based_half_open": [
+          25116,
+          25124
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24914,
+          24922
+        ],
+        "column_one_based": 829,
+        "line_one_based": 711,
+        "output_index_zero_based": 68,
+        "source_octet_index_zero_based": 92,
+        "symbol": "g",
+        "utf8_byte_span_zero_based_half_open": [
+          25107,
+          25115
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24905,
+          24913
+        ],
+        "column_one_based": 820,
+        "line_one_based": 711,
+        "output_index_zero_based": 69,
+        "source_octet_index_zero_based": 91,
+        "symbol": "i",
+        "utf8_byte_span_zero_based_half_open": [
+          25098,
+          25106
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24896,
+          24904
+        ],
+        "column_one_based": 811,
+        "line_one_based": 711,
+        "output_index_zero_based": 70,
+        "source_octet_index_zero_based": 90,
+        "symbol": "v",
+        "utf8_byte_span_zero_based_half_open": [
+          25089,
+          25097
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24887,
+          24895
+        ],
+        "column_one_based": 802,
+        "line_one_based": 711,
+        "output_index_zero_based": 71,
+        "source_octet_index_zero_based": 89,
+        "symbol": "e",
+        "utf8_byte_span_zero_based_half_open": [
+          25080,
+          25088
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24878,
+          24886
+        ],
+        "column_one_based": 793,
+        "line_one_based": 711,
+        "output_index_zero_based": 72,
+        "source_octet_index_zero_based": 88,
+        "symbol": "a",
+        "utf8_byte_span_zero_based_half_open": [
+          25071,
+          25079
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24869,
+          24877
+        ],
+        "column_one_based": 784,
+        "line_one_based": 711,
+        "output_index_zero_based": 73,
+        "source_octet_index_zero_based": 87,
+        "symbol": "w",
+        "utf8_byte_span_zero_based_half_open": [
+          25062,
+          25070
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24860,
+          24868
+        ],
+        "column_one_based": 775,
+        "line_one_based": 711,
+        "output_index_zero_based": 74,
+        "source_octet_index_zero_based": 86,
+        "symbol": "a",
+        "utf8_byte_span_zero_based_half_open": [
+          25053,
+          25061
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24851,
+          24859
+        ],
+        "column_one_based": 766,
+        "line_one_based": 711,
+        "output_index_zero_based": 75,
+        "source_octet_index_zero_based": 85,
+        "symbol": "y",
+        "utf8_byte_span_zero_based_half_open": [
+          25044,
+          25052
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24842,
+          24850
+        ],
+        "column_one_based": 757,
+        "line_one_based": 711,
+        "output_index_zero_based": 76,
+        "source_octet_index_zero_based": 84,
+        "symbol": "t",
+        "utf8_byte_span_zero_based_half_open": [
+          25035,
+          25043
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24833,
+          24841
+        ],
+        "column_one_based": 748,
+        "line_one_based": 711,
+        "output_index_zero_based": 77,
+        "source_octet_index_zero_based": 83,
+        "symbol": "h",
+        "utf8_byte_span_zero_based_half_open": [
+          25026,
+          25034
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24824,
+          24832
+        ],
+        "column_one_based": 739,
+        "line_one_based": 711,
+        "output_index_zero_based": 78,
+        "source_octet_index_zero_based": 82,
+        "symbol": "e",
+        "utf8_byte_span_zero_based_half_open": [
+          25017,
+          25025
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24815,
+          24823
+        ],
+        "column_one_based": 730,
+        "line_one_based": 711,
+        "output_index_zero_based": 79,
+        "source_octet_index_zero_based": 81,
+        "symbol": "p",
+        "utf8_byte_span_zero_based_half_open": [
+          25008,
+          25016
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24806,
+          24814
+        ],
+        "column_one_based": 721,
+        "line_one_based": 711,
+        "output_index_zero_based": 80,
+        "source_octet_index_zero_based": 80,
+        "symbol": "a",
+        "utf8_byte_span_zero_based_half_open": [
+          24999,
+          25007
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24797,
+          24805
+        ],
+        "column_one_based": 712,
+        "line_one_based": 711,
+        "output_index_zero_based": 81,
+        "source_octet_index_zero_based": 79,
+        "symbol": "s",
+        "utf8_byte_span_zero_based_half_open": [
+          24990,
+          24998
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24788,
+          24796
+        ],
+        "column_one_based": 703,
+        "line_one_based": 711,
+        "output_index_zero_based": 82,
+        "source_octet_index_zero_based": 78,
+        "symbol": "s",
+        "utf8_byte_span_zero_based_half_open": [
+          24981,
+          24989
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24779,
+          24787
+        ],
+        "column_one_based": 694,
+        "line_one_based": 711,
+        "output_index_zero_based": 83,
+        "source_octet_index_zero_based": 77,
+        "symbol": "w",
+        "utf8_byte_span_zero_based_half_open": [
+          24972,
+          24980
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24770,
+          24778
+        ],
+        "column_one_based": 685,
+        "line_one_based": 711,
+        "output_index_zero_based": 84,
+        "source_octet_index_zero_based": 76,
+        "symbol": "o",
+        "utf8_byte_span_zero_based_half_open": [
+          24963,
+          24971
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24761,
+          24769
+        ],
+        "column_one_based": 676,
+        "line_one_based": 711,
+        "output_index_zero_based": 85,
+        "source_octet_index_zero_based": 75,
+        "symbol": "r",
+        "utf8_byte_span_zero_based_half_open": [
+          24954,
+          24962
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24752,
+          24760
+        ],
+        "column_one_based": 667,
+        "line_one_based": 711,
+        "output_index_zero_based": 86,
+        "source_octet_index_zero_based": 74,
+        "symbol": "d",
+        "utf8_byte_span_zero_based_half_open": [
+          24945,
+          24953
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24743,
+          24751
+        ],
+        "column_one_based": 658,
+        "line_one_based": 711,
+        "output_index_zero_based": 87,
+        "source_octet_index_zero_based": 73,
+        "symbol": "i",
+        "utf8_byte_span_zero_based_half_open": [
+          24936,
+          24944
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24734,
+          24742
+        ],
+        "column_one_based": 649,
+        "line_one_based": 711,
+        "output_index_zero_based": 88,
+        "source_octet_index_zero_based": 72,
+        "symbol": "t",
+        "utf8_byte_span_zero_based_half_open": [
+          24927,
+          24935
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24725,
+          24733
+        ],
+        "column_one_based": 640,
+        "line_one_based": 711,
+        "output_index_zero_based": 89,
+        "source_octet_index_zero_based": 71,
+        "symbol": "s",
+        "utf8_byte_span_zero_based_half_open": [
+          24918,
+          24926
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24716,
+          24724
+        ],
+        "column_one_based": 631,
+        "line_one_based": 711,
+        "output_index_zero_based": 90,
+        "source_octet_index_zero_based": 70,
+        "symbol": "i",
+        "utf8_byte_span_zero_based_half_open": [
+          24909,
+          24917
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24707,
+          24715
+        ],
+        "column_one_based": 622,
+        "line_one_based": 711,
+        "output_index_zero_based": 91,
+        "source_octet_index_zero_based": 69,
+        "symbol": "n",
+        "utf8_byte_span_zero_based_half_open": [
+          24900,
+          24908
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24698,
+          24706
+        ],
+        "column_one_based": 613,
+        "line_one_based": 711,
+        "output_index_zero_based": 92,
+        "source_octet_index_zero_based": 68,
+        "symbol": "f",
+        "utf8_byte_span_zero_based_half_open": [
+          24891,
+          24899
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24689,
+          24697
+        ],
+        "column_one_based": 604,
+        "line_one_based": 711,
+        "output_index_zero_based": 93,
+        "source_octet_index_zero_based": 67,
+        "symbol": "r",
+        "utf8_byte_span_zero_based_half_open": [
+          24882,
+          24890
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24680,
+          24688
+        ],
+        "column_one_based": 595,
+        "line_one_based": 711,
+        "output_index_zero_based": 94,
+        "source_octet_index_zero_based": 66,
+        "symbol": "o",
+        "utf8_byte_span_zero_based_half_open": [
+          24873,
+          24881
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24671,
+          24679
+        ],
+        "column_one_based": 586,
+        "line_one_based": 711,
+        "output_index_zero_based": 95,
+        "source_octet_index_zero_based": 65,
+        "symbol": "n",
+        "utf8_byte_span_zero_based_half_open": [
+          24864,
+          24872
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24662,
+          24670
+        ],
+        "column_one_based": 577,
+        "line_one_based": 711,
+        "output_index_zero_based": 96,
+        "source_octet_index_zero_based": 64,
+        "symbol": "t",
+        "utf8_byte_span_zero_based_half_open": [
+          24855,
+          24863
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24653,
+          24661
+        ],
+        "column_one_based": 568,
+        "line_one_based": 711,
+        "output_index_zero_based": 97,
+        "source_octet_index_zero_based": 63,
+        "symbol": "o",
+        "utf8_byte_span_zero_based_half_open": [
+          24846,
+          24854
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24644,
+          24652
+        ],
+        "column_one_based": 559,
+        "line_one_based": 711,
+        "output_index_zero_based": 98,
+        "source_octet_index_zero_based": 62,
+        "symbol": "f",
+        "utf8_byte_span_zero_based_half_open": [
+          24837,
+          24845
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24635,
+          24643
+        ],
+        "column_one_based": 550,
+        "line_one_based": 711,
+        "output_index_zero_based": 99,
+        "source_octet_index_zero_based": 61,
+        "symbol": "y",
+        "utf8_byte_span_zero_based_half_open": [
+          24828,
+          24836
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24626,
+          24634
+        ],
+        "column_one_based": 541,
+        "line_one_based": 711,
+        "output_index_zero_based": 100,
+        "source_octet_index_zero_based": 60,
+        "symbol": "o",
+        "utf8_byte_span_zero_based_half_open": [
+          24819,
+          24827
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24617,
+          24625
+        ],
+        "column_one_based": 532,
+        "line_one_based": 711,
+        "output_index_zero_based": 101,
+        "source_octet_index_zero_based": 59,
+        "symbol": "u",
+        "utf8_byte_span_zero_based_half_open": [
+          24810,
+          24818
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24608,
+          24616
+        ],
+        "column_one_based": 523,
+        "line_one_based": 711,
+        "output_index_zero_based": 102,
+        "source_octet_index_zero_based": 58,
+        "symbol": "r",
+        "utf8_byte_span_zero_based_half_open": [
+          24801,
+          24809
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24599,
+          24607
+        ],
+        "column_one_based": 514,
+        "line_one_based": 711,
+        "output_index_zero_based": 103,
+        "source_octet_index_zero_based": 57,
+        "symbol": "e",
+        "utf8_byte_span_zero_based_half_open": [
+          24792,
+          24800
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24590,
+          24598
+        ],
+        "column_one_based": 505,
+        "line_one_based": 711,
+        "output_index_zero_based": 104,
+        "source_octet_index_zero_based": 56,
+        "symbol": "y",
+        "utf8_byte_span_zero_based_half_open": [
+          24783,
+          24791
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24581,
+          24589
+        ],
+        "column_one_based": 496,
+        "line_one_based": 711,
+        "output_index_zero_based": 105,
+        "source_octet_index_zero_based": 55,
+        "symbol": "e",
+        "utf8_byte_span_zero_based_half_open": [
+          24774,
+          24782
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24572,
+          24580
+        ],
+        "column_one_based": 487,
+        "line_one_based": 711,
+        "output_index_zero_based": 106,
+        "source_octet_index_zero_based": 54,
+        "symbol": "s",
+        "utf8_byte_span_zero_based_half_open": [
+          24765,
+          24773
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24563,
+          24571
+        ],
+        "column_one_based": 478,
+        "line_one_based": 711,
+        "output_index_zero_based": 107,
+        "source_octet_index_zero_based": 53,
+        "symbol": "b",
+        "utf8_byte_span_zero_based_half_open": [
+          24756,
+          24764
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24554,
+          24562
+        ],
+        "column_one_based": 469,
+        "line_one_based": 711,
+        "output_index_zero_based": 108,
+        "source_octet_index_zero_based": 52,
+        "symbol": "u",
+        "utf8_byte_span_zero_based_half_open": [
+          24747,
+          24755
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24545,
+          24553
+        ],
+        "column_one_based": 460,
+        "line_one_based": 711,
+        "output_index_zero_based": 109,
+        "source_octet_index_zero_based": 51,
+        "symbol": "t",
+        "utf8_byte_span_zero_based_half_open": [
+          24738,
+          24746
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24536,
+          24544
+        ],
+        "column_one_based": 451,
+        "line_one_based": 711,
+        "output_index_zero_based": 110,
+        "source_octet_index_zero_based": 50,
+        "symbol": "y",
+        "utf8_byte_span_zero_based_half_open": [
+          24729,
+          24737
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24527,
+          24535
+        ],
+        "column_one_based": 442,
+        "line_one_based": 711,
+        "output_index_zero_based": 111,
+        "source_octet_index_zero_based": 49,
+        "symbol": "o",
+        "utf8_byte_span_zero_based_half_open": [
+          24720,
+          24728
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24518,
+          24526
+        ],
+        "column_one_based": 433,
+        "line_one_based": 711,
+        "output_index_zero_based": 112,
+        "source_octet_index_zero_based": 48,
+        "symbol": "u",
+        "utf8_byte_span_zero_based_half_open": [
+          24711,
+          24719
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24509,
+          24517
+        ],
+        "column_one_based": 424,
+        "line_one_based": 711,
+        "output_index_zero_based": 113,
+        "source_octet_index_zero_based": 47,
+        "symbol": "r",
+        "utf8_byte_span_zero_based_half_open": [
+          24702,
+          24710
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24500,
+          24508
+        ],
+        "column_one_based": 415,
+        "line_one_based": 711,
+        "output_index_zero_based": 114,
+        "source_octet_index_zero_based": 46,
+        "symbol": "e",
+        "utf8_byte_span_zero_based_half_open": [
+          24693,
+          24701
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24491,
+          24499
+        ],
+        "column_one_based": 406,
+        "line_one_based": 711,
+        "output_index_zero_based": 115,
+        "source_octet_index_zero_based": 45,
+        "symbol": "n",
+        "utf8_byte_span_zero_based_half_open": [
+          24684,
+          24692
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24482,
+          24490
+        ],
+        "column_one_based": 397,
+        "line_one_based": 711,
+        "output_index_zero_based": 116,
+        "source_octet_index_zero_based": 44,
+        "symbol": "o",
+        "utf8_byte_span_zero_based_half_open": [
+          24675,
+          24683
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24473,
+          24481
+        ],
+        "column_one_based": 388,
+        "line_one_based": 711,
+        "output_index_zero_based": 117,
+        "source_octet_index_zero_based": 43,
+        "symbol": "t",
+        "utf8_byte_span_zero_based_half_open": [
+          24666,
+          24674
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24464,
+          24472
+        ],
+        "column_one_based": 379,
+        "line_one_based": 711,
+        "output_index_zero_based": 118,
+        "source_octet_index_zero_based": 42,
+        "symbol": "s",
+        "utf8_byte_span_zero_based_half_open": [
+          24657,
+          24665
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24455,
+          24463
+        ],
+        "column_one_based": 370,
+        "line_one_based": 711,
+        "output_index_zero_based": 119,
+        "source_octet_index_zero_based": 41,
+        "symbol": "e",
+        "utf8_byte_span_zero_based_half_open": [
+          24648,
+          24656
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24446,
+          24454
+        ],
+        "column_one_based": 361,
+        "line_one_based": 711,
+        "output_index_zero_based": 120,
+        "source_octet_index_zero_based": 40,
+        "symbol": "e",
+        "utf8_byte_span_zero_based_half_open": [
+          24639,
+          24647
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24437,
+          24445
+        ],
+        "column_one_based": 352,
+        "line_one_based": 711,
+        "output_index_zero_based": 121,
+        "source_octet_index_zero_based": 39,
+        "symbol": "i",
+        "utf8_byte_span_zero_based_half_open": [
+          24630,
+          24638
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24428,
+          24436
+        ],
+        "column_one_based": 343,
+        "line_one_based": 711,
+        "output_index_zero_based": 122,
+        "source_octet_index_zero_based": 38,
+        "symbol": "n",
+        "utf8_byte_span_zero_based_half_open": [
+          24621,
+          24629
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24419,
+          24427
+        ],
+        "column_one_based": 334,
+        "line_one_based": 711,
+        "output_index_zero_based": 123,
+        "source_octet_index_zero_based": 37,
+        "symbol": "g",
+        "utf8_byte_span_zero_based_half_open": [
+          24612,
+          24620
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24410,
+          24418
+        ],
+        "column_one_based": 325,
+        "line_one_based": 711,
+        "output_index_zero_based": 124,
+        "source_octet_index_zero_based": 36,
+        "symbol": "i",
+        "utf8_byte_span_zero_based_half_open": [
+          24603,
+          24611
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24401,
+          24409
+        ],
+        "column_one_based": 316,
+        "line_one_based": 711,
+        "output_index_zero_based": 125,
+        "source_octet_index_zero_based": 35,
+        "symbol": "t",
+        "utf8_byte_span_zero_based_half_open": [
+          24594,
+          24602
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24392,
+          24400
+        ],
+        "column_one_based": 307,
+        "line_one_based": 711,
+        "output_index_zero_based": 126,
+        "source_octet_index_zero_based": 34,
+        "symbol": "v",
+        "utf8_byte_span_zero_based_half_open": [
+          24585,
+          24593
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24383,
+          24391
+        ],
+        "column_one_based": 298,
+        "line_one_based": 711,
+        "output_index_zero_based": 127,
+        "source_octet_index_zero_based": 33,
+        "symbol": "e",
+        "utf8_byte_span_zero_based_half_open": [
+          24576,
+          24584
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24374,
+          24382
+        ],
+        "column_one_based": 289,
+        "line_one_based": 711,
+        "output_index_zero_based": 128,
+        "source_octet_index_zero_based": 32,
+        "symbol": "r",
+        "utf8_byte_span_zero_based_half_open": [
+          24567,
+          24575
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24365,
+          24373
+        ],
+        "column_one_based": 280,
+        "line_one_based": 711,
+        "output_index_zero_based": 129,
+        "source_octet_index_zero_based": 31,
+        "symbol": "y",
+        "utf8_byte_span_zero_based_half_open": [
+          24558,
+          24566
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24356,
+          24364
+        ],
+        "column_one_based": 271,
+        "line_one_based": 711,
+        "output_index_zero_based": 130,
+        "source_octet_index_zero_based": 30,
+        "symbol": "l",
+        "utf8_byte_span_zero_based_half_open": [
+          24549,
+          24557
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24347,
+          24355
+        ],
+        "column_one_based": 262,
+        "line_one_based": 711,
+        "output_index_zero_based": 131,
+        "source_octet_index_zero_based": 29,
+        "symbol": "a",
+        "utf8_byte_span_zero_based_half_open": [
+          24540,
+          24548
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24338,
+          24346
+        ],
+        "column_one_based": 253,
+        "line_one_based": 711,
+        "output_index_zero_based": 132,
+        "source_octet_index_zero_based": 28,
+        "symbol": "s",
+        "utf8_byte_span_zero_based_half_open": [
+          24531,
+          24539
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24329,
+          24337
+        ],
+        "column_one_based": 244,
+        "line_one_based": 711,
+        "output_index_zero_based": 133,
+        "source_octet_index_zero_based": 27,
+        "symbol": "t",
+        "utf8_byte_span_zero_based_half_open": [
+          24522,
+          24530
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24320,
+          24328
+        ],
+        "column_one_based": 235,
+        "line_one_based": 711,
+        "output_index_zero_based": 134,
+        "source_octet_index_zero_based": 26,
+        "symbol": "s",
+        "utf8_byte_span_zero_based_half_open": [
+          24513,
+          24521
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24311,
+          24319
+        ],
+        "column_one_based": 226,
+        "line_one_based": 711,
+        "output_index_zero_based": 135,
+        "source_octet_index_zero_based": 25,
+        "symbol": "t",
+        "utf8_byte_span_zero_based_half_open": [
+          24504,
+          24512
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24302,
+          24310
+        ],
+        "column_one_based": 217,
+        "line_one_based": 711,
+        "output_index_zero_based": 136,
+        "source_octet_index_zero_based": 24,
+        "symbol": "e",
+        "utf8_byte_span_zero_based_half_open": [
+          24495,
+          24503
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24293,
+          24301
+        ],
+        "column_one_based": 208,
+        "line_one_based": 711,
+        "output_index_zero_based": 137,
+        "source_octet_index_zero_based": 23,
+        "symbol": "p",
+        "utf8_byte_span_zero_based_half_open": [
+          24486,
+          24494
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24284,
+          24292
+        ],
+        "column_one_based": 199,
+        "line_one_based": 711,
+        "output_index_zero_based": 138,
+        "source_octet_index_zero_based": 22,
+        "symbol": "i",
+        "utf8_byte_span_zero_based_half_open": [
+          24477,
+          24485
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24275,
+          24283
+        ],
+        "column_one_based": 190,
+        "line_one_based": 711,
+        "output_index_zero_based": 139,
+        "source_octet_index_zero_based": 21,
+        "symbol": "s",
+        "utf8_byte_span_zero_based_half_open": [
+          24468,
+          24476
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24266,
+          24274
+        ],
+        "column_one_based": 181,
+        "line_one_based": 711,
+        "output_index_zero_based": 140,
+        "source_octet_index_zero_based": 20,
+        "symbol": "a",
+        "utf8_byte_span_zero_based_half_open": [
+          24459,
+          24467
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24257,
+          24265
+        ],
+        "column_one_based": 172,
+        "line_one_based": 711,
+        "output_index_zero_based": 141,
+        "source_octet_index_zero_based": 19,
+        "symbol": "t",
+        "utf8_byte_span_zero_based_half_open": [
+          24450,
+          24458
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24248,
+          24256
+        ],
+        "column_one_based": 163,
+        "line_one_based": 711,
+        "output_index_zero_based": 142,
+        "source_octet_index_zero_based": 18,
+        "symbol": "r",
+        "utf8_byte_span_zero_based_half_open": [
+          24441,
+          24449
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24239,
+          24247
+        ],
+        "column_one_based": 154,
+        "line_one_based": 711,
+        "output_index_zero_based": 143,
+        "source_octet_index_zero_based": 17,
+        "symbol": "u",
+        "utf8_byte_span_zero_based_half_open": [
+          24432,
+          24440
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24230,
+          24238
+        ],
+        "column_one_based": 145,
+        "line_one_based": 711,
+        "output_index_zero_based": 144,
+        "source_octet_index_zero_based": 16,
+        "symbol": "e",
+        "utf8_byte_span_zero_based_half_open": [
+          24423,
+          24431
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24221,
+          24229
+        ],
+        "column_one_based": 136,
+        "line_one_based": 711,
+        "output_index_zero_based": 145,
+        "source_octet_index_zero_based": 15,
+        "symbol": "g",
+        "utf8_byte_span_zero_based_half_open": [
+          24414,
+          24422
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24212,
+          24220
+        ],
+        "column_one_based": 127,
+        "line_one_based": 711,
+        "output_index_zero_based": 146,
+        "source_octet_index_zero_based": 14,
+        "symbol": "i",
+        "utf8_byte_span_zero_based_half_open": [
+          24405,
+          24413
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24203,
+          24211
+        ],
+        "column_one_based": 118,
+        "line_one_based": 711,
+        "output_index_zero_based": 147,
+        "source_octet_index_zero_based": 13,
+        "symbol": "v",
+        "utf8_byte_span_zero_based_half_open": [
+          24396,
+          24404
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24194,
+          24202
+        ],
+        "column_one_based": 109,
+        "line_one_based": 711,
+        "output_index_zero_based": 148,
+        "source_octet_index_zero_based": 12,
+        "symbol": "e",
+        "utf8_byte_span_zero_based_half_open": [
+          24387,
+          24395
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24185,
+          24193
+        ],
+        "column_one_based": 100,
+        "line_one_based": 711,
+        "output_index_zero_based": 149,
+        "source_octet_index_zero_based": 11,
+        "symbol": "a",
+        "utf8_byte_span_zero_based_half_open": [
+          24378,
+          24386
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24176,
+          24184
+        ],
+        "column_one_based": 91,
+        "line_one_based": 711,
+        "output_index_zero_based": 150,
+        "source_octet_index_zero_based": 10,
+        "symbol": "w",
+        "utf8_byte_span_zero_based_half_open": [
+          24369,
+          24377
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24167,
+          24175
+        ],
+        "column_one_based": 82,
+        "line_one_based": 711,
+        "output_index_zero_based": 151,
+        "source_octet_index_zero_based": 9,
+        "symbol": "a",
+        "utf8_byte_span_zero_based_half_open": [
+          24360,
+          24368
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24158,
+          24166
+        ],
+        "column_one_based": 73,
+        "line_one_based": 711,
+        "output_index_zero_based": 152,
+        "source_octet_index_zero_based": 8,
+        "symbol": "y",
+        "utf8_byte_span_zero_based_half_open": [
+          24351,
+          24359
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24149,
+          24157
+        ],
+        "column_one_based": 64,
+        "line_one_based": 711,
+        "output_index_zero_based": 153,
+        "source_octet_index_zero_based": 7,
+        "symbol": "p",
+        "utf8_byte_span_zero_based_half_open": [
+          24342,
+          24350
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24140,
+          24148
+        ],
+        "column_one_based": 55,
+        "line_one_based": 711,
+        "output_index_zero_based": 154,
+        "source_octet_index_zero_based": 6,
+        "symbol": "r",
+        "utf8_byte_span_zero_based_half_open": [
+          24333,
+          24341
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24131,
+          24139
+        ],
+        "column_one_based": 46,
+        "line_one_based": 711,
+        "output_index_zero_based": 155,
+        "source_octet_index_zero_based": 5,
+        "symbol": "o",
+        "utf8_byte_span_zero_based_half_open": [
+          24324,
+          24332
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24122,
+          24130
+        ],
+        "column_one_based": 37,
+        "line_one_based": 711,
+        "output_index_zero_based": 156,
+        "source_octet_index_zero_based": 4,
+        "symbol": "m",
+        "utf8_byte_span_zero_based_half_open": [
+          24315,
+          24323
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24113,
+          24121
+        ],
+        "column_one_based": 28,
+        "line_one_based": 711,
+        "output_index_zero_based": 157,
+        "source_octet_index_zero_based": 3,
+        "symbol": "i",
+        "utf8_byte_span_zero_based_half_open": [
+          24306,
+          24314
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24104,
+          24112
+        ],
+        "column_one_based": 19,
+        "line_one_based": 711,
+        "output_index_zero_based": 158,
+        "source_octet_index_zero_based": 2,
+        "symbol": "s",
+        "utf8_byte_span_zero_based_half_open": [
+          24297,
+          24305
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24095,
+          24103
+        ],
+        "column_one_based": 10,
+        "line_one_based": 711,
+        "output_index_zero_based": 159,
+        "source_octet_index_zero_based": 1,
+        "symbol": "e",
+        "utf8_byte_span_zero_based_half_open": [
+          24288,
+          24296
+        ]
+      },
+      {
+        "bit_order": "source octet bits7..0 become decoded bits0..7",
+        "character_span_zero_based_half_open": [
+          24086,
+          24094
+        ],
+        "column_one_based": 1,
+        "line_one_based": 711,
+        "output_index_zero_based": 160,
+        "source_octet_index_zero_based": 0,
+        "symbol": "d",
+        "utf8_byte_span_zero_based_half_open": [
+          24279,
+          24287
+        ]
+      }
+    ],
+    "transform": "Reverse the complete1288-bit stream, then decode MSB-first ASCII octets"
+  },
+  "confidence": "HIGH for exact hint order/formatting; MEDIUM for execution dependency; UNKNOWN for operands",
+  "contradictions": [
+    "Hint contains concatenated tokens, no explicit verbs/arrows/axis/index convention",
+    "Bifid, faed, SMALL, thispassword and HASHTHETEXT are not named in this hint",
+    "No authenticated command binds the sumlist to Architect words or yin-yang to a particular container"
+  ],
+  "correction_to_cycle10": "Cycle10 omitted a preserved creator-attributed binary hint that mentions several independent objects in order. The later ying-yang clue is not the only archived evidence connecting them. This does not fix an operand, list axis or container destination.",
+  "date": "2026-09-30",
+  "enter_formatting": {
+    "content_bytes_unchanged_by_whitespace": true,
+    "decoded_container_header_is_Salted": true,
+    "decoded_public_container_bytes": 96,
+    "embedded_fragment_lengths": [
+      64,
+      64
+    ],
+    "formatting_interpretation": "enter denotes the conventional64-character Base64 line break",
+    "inline_enter": {
+      "character_span_zero_based_half_open": [
+        2374,
+        2453
+      ],
+      "column_one_based": 1964,
+      "decoded": "enter",
+      "encoded_sha256": "9b26e15d82b0f97dc8cb2ae413f440a3a03848a3f1c5029bec6dcd8f3c0f95d7",
+      "length": 40,
+      "line_one_based": 17,
+      "name": "enter",
+      "normalized_span_zero_based_half_open": [
+        959,
+        999
+      ],
+      "source": {
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "transform": "a=0,b=1; MSB-first ASCII octets",
+      "utf8_byte_span_zero_based_half_open": [
+        2374,
+        2453
+      ]
+    },
+    "matches_published_formatting": true,
+    "not_a_container_processing_or_answer_instruction": "Formatting is directly supported. This does not prove no secondary role or identify any plaintext answer.",
+    "precedent_blocks": [
+      {
+        "character_span_zero_based_half_open": [
+          775,
+          1686
+        ],
+        "column_one_based": 46,
+        "line_lengths": [
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64
+        ],
+        "line_one_based": 20,
+        "nonfinal_lines_are64": true,
+        "object": "textarea-0",
+        "source": {
+          "path": "research/sources/phase2.html",
+          "sha256": "06fbd4461ab20d45c54a7053c7c0cfa256ba82a5ad4c73a47fac67f3f1cdf7d9"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          775,
+          1686
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          3608,
+          9178
+        ],
+        "column_one_based": 46,
+        "line_lengths": [
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          44
+        ],
+        "line_one_based": 45,
+        "nonfinal_lines_are64": true,
+        "object": "textarea-1",
+        "source": {
+          "path": "research/sources/phase2.html",
+          "sha256": "06fbd4461ab20d45c54a7053c7c0cfa256ba82a5ad4c73a47fac67f3f1cdf7d9"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          3610,
+          9180
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          2689,
+          4509
+        ],
+        "column_one_based": 46,
+        "line_lengths": [
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64
+        ],
+        "line_one_based": 20,
+        "nonfinal_lines_are64": true,
+        "object": "Cosmic textarea",
+        "source": {
+          "path": "research/sources/salphaseion.html",
+          "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          2689,
+          4509
+        ]
+      },
+      {
+        "line_lengths": [
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64,
+          64
+        ],
+        "nonfinal_lines_are64": true,
+        "object": "published embedded Base64 block",
+        "source": {
+          "path": "research/artifacts/phase3.txt",
+          "sha256": "c4ad94559a44a927c1032cc0e024515f9510a0806a2d14458dbf4a360af9865f"
+        },
+        "source_byte_span_zero_based_half_open": [
+          726,
+          4090
+        ],
+        "source_line_one_based": 9
+      },
+      {
+        "line_lengths": [
+          64,
+          64
+        ],
+        "nonfinal_lines_are64": true,
+        "object": "published embedded Base64 block",
+        "source": {
+          "path": "research/artifacts/phase32.txt",
+          "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+        },
+        "source_byte_span_zero_based_half_open": [
+          2292,
+          2422
+        ],
+        "source_line_one_based": 11
+      }
+    ]
+  },
+  "hypothesis": "The preserved February23 2023 hint directly supplies a clue sequence that constrains the original trailer construction",
+  "id": "C11-HINT-INSTRUCTION-ORDER",
+  "input": "Preserved161-octet public hint and existing page text",
+  "new_cryptographic_trials": 0,
+  "new_trial_inputs": 0,
+  "next_test": "A fixed source-coordinate join audit: can existing prime/color event positions and numeric objects refer to exact Architect words before a source-supported choice boundary? Identify the boundary and mapping before extraction; no source-window or route enumeration.",
+  "operation_order": [
+    "reverse complete preserved bitstream",
+    "map decoded phrase order to original positions",
+    "separate clue enumeration from executable data-flow",
+    "test enter formatting against original published blocks"
+  ],
+  "output": "Exact decoded clue sequence plus stronger inline-enter referent",
+  "source_evidence": [
+    {
+      "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+      "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+    },
+    {
+      "path": "research/sources/maintained-hints__2023-02-23.png",
+      "sha256": "5dddf73995c45497facb034e3d38d2bbbe3642603b15fce22e118d34209c0197"
+    },
+    {
+      "path": "research/sources/maintained-README.md",
+      "sha256": "8d4ee414a4839e51e9c79ed387e1ea327835ea98039eef2633d0d8885bcdd015"
+    }
+  ],
+  "source_locations": [
+    "research/evidence/cycle02/_work__creator_jrk.txt:711",
+    "research/evidence/cycle02/_work__chat_transcript.txt:20386",
+    "research/sources/maintained-README.md:343",
+    "research/sources/salphaseion.html:18"
+  ],
+  "status": "PROMISING",
+  "strongest_supported_clue_sequence": [
+    "yellowblueprimes",
+    "matrixsumlist",
+    "lastwordsbeforearchichoice",
+    "yinyang"
+  ]
+}

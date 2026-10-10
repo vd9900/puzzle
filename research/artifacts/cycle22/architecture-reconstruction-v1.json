@@ -1,0 +1,2166 @@
+{
+  "Bifid_boundary": {
+    "all1140_source_coordinates_preserved": true,
+    "body_coordinate_count": 1126,
+    "body_length": 563,
+    "boundary_claim_is_community_recognition_not_author_instruction": true,
+    "no_primary_separator_or_Bifid_block_boundary_at_output7": true,
+    "prefix_coordinate_count": 14,
+    "recognized_prefix_length": 7,
+    "seven_letter_cut_is_not_an_entire_source_symbol_boundary": true,
+    "source_symbols_shared_across_cut": [
+      3,
+      288
+    ]
+  },
+  "Bifid_claims": {
+    "C04_description_names_repost_date_C10_already_maps_earlier_discovery": true,
+    "all_eight_exact_references": [
+      {
+        "character_span_zero_based_half_open": [
+          4733231,
+          4733801
+        ],
+        "column_one_based": 2,
+        "creator_instruction": false,
+        "header": "=== [11.06.2025 19:30:31 UTC-05:00] Sycorax",
+        "line_one_based": 122253,
+        "source": {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          4788876,
+          4789446
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          4758278,
+          4758848
+        ],
+        "column_one_based": 1,
+        "creator_instruction": false,
+        "header": "=== [15.06.2025 10:47:26 UTC-05:00] X",
+        "line_one_based": 122735,
+        "source": {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          4814110,
+          4814680
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          4783435,
+          4784005
+        ],
+        "column_one_based": 2,
+        "creator_instruction": false,
+        "header": "=== [16.06.2025 13:00:56 UTC-05:00] X",
+        "line_one_based": 123315,
+        "source": {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          4839812,
+          4840382
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          4788927,
+          4789497
+        ],
+        "column_one_based": 44,
+        "creator_instruction": false,
+        "header": "=== [16.06.2025 13:23:34 UTC-05:00] X",
+        "line_one_based": 123433,
+        "source": {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          4845304,
+          4845874
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          4842741,
+          4843311
+        ],
+        "column_one_based": 2,
+        "creator_instruction": false,
+        "header": "=== [25.06.2025 07:49:43 UTC-05:00] Sycorax",
+        "line_one_based": 124642,
+        "source": {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          4899372,
+          4899942
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          6013381,
+          6013951
+        ],
+        "column_one_based": 2,
+        "creator_instruction": false,
+        "header": "=== [07.01.2026 21:42:01 UTC-05:00] Dasharo",
+        "line_one_based": 153632,
+        "source": {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          6084000,
+          6084570
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          6281699,
+          6282269
+        ],
+        "column_one_based": 1,
+        "creator_instruction": false,
+        "header": "=== [18.01.2026 10:42:04 UTC-05:00] X",
+        "line_one_based": 161666,
+        "source": {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          6353462,
+          6354032
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          7016566,
+          7017136
+        ],
+        "column_one_based": 1,
+        "creator_instruction": false,
+        "header": "=== [07.06.2026 15:09:38 UTC-05:00] gnosis",
+        "line_one_based": 179165,
+        "source": {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          7098936,
+          7099506
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "body_consumer_algorithm_supplied": false,
+        "body_sha256": "7c10a5edf1d3549db270ab4b12f3f1ae7b27d5c59f0d18377da8df0d293e88a1",
+        "exact_role_phrases": [
+          {
+            "absolute_character_span_zero_based_half_open": [
+              4733114,
+              4733162
+            ],
+            "character_span_zero_based_half_open": [
+              426,
+              474
+            ],
+            "column_one_based": 1,
+            "line_one_based": 11,
+            "text": "Bifid Ciphertext (All the characters of \"faed\"):",
+            "utf8_byte_span_zero_based_half_open": [
+              426,
+              474
+            ]
+          },
+          {
+            "absolute_character_span_zero_based_half_open": [
+              4733180,
+              4733220
+            ],
+            "character_span_zero_based_half_open": [
+              492,
+              532
+            ],
+            "column_one_based": 1,
+            "line_one_based": 14,
+            "text": "Bifid Period: 570 (Length of ciphertext)",
+            "utf8_byte_span_zero_based_half_open": [
+              492,
+              532
+            ]
+          },
+          {
+            "absolute_character_span_zero_based_half_open": [
+              4733804,
+              4733874
+            ],
+            "character_span_zero_based_half_open": [
+              1116,
+              1186
+            ],
+            "column_one_based": 1,
+            "line_one_based": 19,
+            "text": "A potential find in first seven characters. Can't make this shit up!!:",
+            "utf8_byte_span_zero_based_half_open": [
+              1116,
+              1186
+            ]
+          },
+          {
+            "absolute_character_span_zero_based_half_open": [
+              4733886,
+              4733926
+            ],
+            "character_span_zero_based_half_open": [
+              1198,
+              1238
+            ],
+            "column_one_based": 1,
+            "line_one_based": 22,
+            "text": "And then you have the rest to be solved:",
+            "utf8_byte_span_zero_based_half_open": [
+              1198,
+              1238
+            ]
+          },
+          {
+            "absolute_character_span_zero_based_half_open": [
+              4733952,
+              4733993
+            ],
+            "character_span_zero_based_half_open": [
+              1264,
+              1305
+            ],
+            "column_one_based": 1,
+            "line_one_based": 25,
+            "text": "I have not gotten much farther then this.",
+            "utf8_byte_span_zero_based_half_open": [
+              1264,
+              1305
+            ]
+          }
+        ],
+        "full_result_location": {
+          "character_span_zero_based_half_open": [
+            4733231,
+            4733801
+          ],
+          "column_one_based": 2,
+          "line_one_based": 122253,
+          "utf8_byte_span_zero_based_half_open": [
+            4788876,
+            4789446
+          ]
+        },
+        "recognized_prefix_location": {
+          "character_span_zero_based_half_open": [
+            4733231,
+            4733238
+          ],
+          "column_one_based": 2,
+          "line_one_based": 122253,
+          "utf8_byte_span_zero_based_half_open": [
+            4788876,
+            4788883
+          ]
+        },
+        "record": {
+          "archived_utc_timestamp": "2025-06-12T00:30:31+00:00",
+          "character_span_zero_based_half_open": [
+            4732688,
+            4733993
+          ],
+          "column_one_based": 1,
+          "header": "=== [11.06.2025 19:30:31 UTC-05:00] Sycorax",
+          "line_one_based": 122237,
+          "source": {
+            "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+            "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+          },
+          "utf8_byte_span_zero_based_half_open": [
+            4788333,
+            4789638
+          ]
+        },
+        "remaining_body_location": {
+          "character_span_zero_based_half_open": [
+            4733238,
+            4733801
+          ],
+          "column_one_based": 9,
+          "line_one_based": 122253,
+          "utf8_byte_span_zero_based_half_open": [
+            4788883,
+            4789446
+          ]
+        },
+        "result_matches_frozen_full_output": true,
+        "speaker_role": "COMMUNITY_CLAIM_NOT_CREATOR_INSTRUCTION"
+      },
+      {
+        "body_consumer_algorithm_supplied": false,
+        "body_sha256": "7c10a5edf1d3549db270ab4b12f3f1ae7b27d5c59f0d18377da8df0d293e88a1",
+        "exact_role_phrases": [
+          {
+            "absolute_character_span_zero_based_half_open": [
+              4842624,
+              4842672
+            ],
+            "character_span_zero_based_half_open": [
+              426,
+              474
+            ],
+            "column_one_based": 1,
+            "line_one_based": 11,
+            "text": "Bifid Ciphertext (All the characters of \"faed\"):",
+            "utf8_byte_span_zero_based_half_open": [
+              426,
+              474
+            ]
+          },
+          {
+            "absolute_character_span_zero_based_half_open": [
+              4842690,
+              4842730
+            ],
+            "character_span_zero_based_half_open": [
+              492,
+              532
+            ],
+            "column_one_based": 1,
+            "line_one_based": 14,
+            "text": "Bifid Period: 570 (Length of ciphertext)",
+            "utf8_byte_span_zero_based_half_open": [
+              492,
+              532
+            ]
+          },
+          {
+            "absolute_character_span_zero_based_half_open": [
+              4843314,
+              4843384
+            ],
+            "character_span_zero_based_half_open": [
+              1116,
+              1186
+            ],
+            "column_one_based": 1,
+            "line_one_based": 19,
+            "text": "A potential find in first seven characters. Can't make this shit up!!:",
+            "utf8_byte_span_zero_based_half_open": [
+              1116,
+              1186
+            ]
+          },
+          {
+            "absolute_character_span_zero_based_half_open": [
+              4843396,
+              4843436
+            ],
+            "character_span_zero_based_half_open": [
+              1198,
+              1238
+            ],
+            "column_one_based": 1,
+            "line_one_based": 22,
+            "text": "And then you have the rest to be solved:",
+            "utf8_byte_span_zero_based_half_open": [
+              1198,
+              1238
+            ]
+          },
+          {
+            "absolute_character_span_zero_based_half_open": [
+              4843462,
+              4843503
+            ],
+            "character_span_zero_based_half_open": [
+              1264,
+              1305
+            ],
+            "column_one_based": 1,
+            "line_one_based": 25,
+            "text": "I have not gotten much farther then this.",
+            "utf8_byte_span_zero_based_half_open": [
+              1264,
+              1305
+            ]
+          }
+        ],
+        "full_result_location": {
+          "character_span_zero_based_half_open": [
+            4842741,
+            4843311
+          ],
+          "column_one_based": 2,
+          "line_one_based": 124642,
+          "utf8_byte_span_zero_based_half_open": [
+            4899372,
+            4899942
+          ]
+        },
+        "recognized_prefix_location": {
+          "character_span_zero_based_half_open": [
+            4842741,
+            4842748
+          ],
+          "column_one_based": 2,
+          "line_one_based": 124642,
+          "utf8_byte_span_zero_based_half_open": [
+            4899372,
+            4899379
+          ]
+        },
+        "record": {
+          "archived_utc_timestamp": "2025-06-25T12:49:43+00:00",
+          "character_span_zero_based_half_open": [
+            4842198,
+            4843503
+          ],
+          "column_one_based": 1,
+          "header": "=== [25.06.2025 07:49:43 UTC-05:00] Sycorax",
+          "line_one_based": 124626,
+          "source": {
+            "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+            "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+          },
+          "utf8_byte_span_zero_based_half_open": [
+            4898829,
+            4900134
+          ]
+        },
+        "remaining_body_location": {
+          "character_span_zero_based_half_open": [
+            4842748,
+            4843311
+          ],
+          "column_one_based": 9,
+          "line_one_based": 124642,
+          "utf8_byte_span_zero_based_half_open": [
+            4899379,
+            4899942
+          ]
+        },
+        "result_matches_frozen_full_output": true,
+        "speaker_role": "COMMUNITY_CLAIM_NOT_CREATOR_INSTRUCTION"
+      }
+    ],
+    "explicit_discovery_caveat": {
+      "absolute_character_span_zero_based_half_open": [
+        4734944,
+        4735040
+      ],
+      "character_span_zero_based_half_open": [
+        12,
+        108
+      ],
+      "column_one_based": 13,
+      "line_one_based": 1,
+      "record": {
+        "archived_utc_timestamp": "2025-06-12T01:15:17+00:00",
+        "character_span_zero_based_half_open": [
+          4734932,
+          4735197
+        ],
+        "column_one_based": 1,
+        "header": "=== [11.06.2025 20:15:17 UTC-05:00] Sycorax",
+        "line_one_based": 122269,
+        "source": {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          4790577,
+          4790842
+        ]
+      },
+      "text": "this could entirely be a coincidence of course and have absolutely nothing to do with the puzzle",
+      "utf8_byte_span_zero_based_half_open": [
+        12,
+        108
+      ]
+    },
+    "full_output_occurrences": 8,
+    "identical_body_repost": true,
+    "no_new_statistical_test_or_body_cipher": true,
+    "repost_delay_seconds": 1167552,
+    "reposts_are_not_independent_discoveries": true,
+    "secondary_layout_replacement": {
+      "full_output_line": 122735,
+      "header": "=== [15.06.2025 10:47:26 UTC-05:00] X",
+      "matrixsumlist_label_omitted_in_this_community_presentation": true,
+      "not_an_authorized_source_edit_or_execution_order": true,
+      "replaces_primary_dbbi91_matrix104_faed570_with_Bifid570": true
+    }
+  },
+  "Bifid_score_and_parity_reused": {
+    "no_statistical_or_period_search": true,
+    "parity": {
+      "even_offsets_zero_based_alphabet": "bcde",
+      "explanation": "All input symbols occupy square positions0..8. With even period570, even plaintext positions combine two row coordinates limited0/1; therefore exactly square indices0,1,5,6 are possible. This restriction is forced by input/square, not evidence of a second cipher or null instruction.",
+      "odd_offsets_zero_based_alphabet": "abcdefghiklmnopqrstuvwxyz",
+      "predicted_even_alphabet": "dbce"
+    },
+    "score": {
+      "alphabetic_ratio": 1.0,
+      "bytes": 570,
+      "dictionary_coverage": 0.0,
+      "language_score": 0.001761,
+      "longest_printable_run": 570,
+      "printable_ratio": 1.0,
+      "puzzle_vocabulary_hits": {},
+      "score_limit": "Heuristic based on fixed common trigrams/puzzle vocabulary; not proof of English or a correct transformation",
+      "whole_word_hits": []
+    },
+    "source": {
+      "path": "research/artifacts/cycle04/bifid-evidence.json",
+      "sha256": "b3e75c099064c8a32fa07ab165e16865a41760f099abe2d104c549a80971d6b1"
+    }
+  },
+  "assumptions": [
+    "Frozen transformations are implementation evidence, not intended-construction proof",
+    "Variable-length hash/password inputs cannot be inferred from dimensions",
+    "Terminal material remains UNKNOWN and outside current analysis"
+  ],
+  "confidence": "HIGH exact source/size/type distinctions; UNKNOWN missing operand-to-consumer edges",
+  "contradictions": [
+    "No finite architecture has a verified missing operand/consumer edge",
+    "Factorization and variable-input compatibility do not establish a construction",
+    "Full-object accountability does not require immediate next-stage consumption"
+  ],
+  "date": "2026-10-01",
+  "dimension_accounting": {
+    "Bifid_half": 285,
+    "binary_label_symbols": 104,
+    "dbbi_logical_tokens": 83,
+    "dbbi_raw": 91,
+    "full_output": 570,
+    "label_ascii_octets": 13,
+    "markers_from_binary_label": 2,
+    "markers_from_dbbi": 23,
+    "prefix_plus_body": [
+      7,
+      563
+    ],
+    "prime_tokens_removed": 23,
+    "raw_characters_removed": 31,
+    "residual": 60,
+    "shared_speech_Bifid_factor": 19,
+    "speech_Bifid_ratio_reduced": [
+      27,
+      10
+    ],
+    "two_character_be_tokens": 8
+  },
+  "dimensions": [
+    {
+      "factor_pairs": [
+        [
+          7,
+          13
+        ]
+      ],
+      "factorization_is_not_a_transform_license": true,
+      "object": "dbbi91",
+      "size": 91,
+      "unit": "ASCII characters"
+    },
+    {
+      "factor_pairs": [
+        [
+          2,
+          52
+        ],
+        [
+          4,
+          26
+        ],
+        [
+          8,
+          13
+        ]
+      ],
+      "factorization_is_not_a_transform_license": true,
+      "object": "matrix104",
+      "size": 104,
+      "unit": "bits"
+    },
+    {
+      "factor_pairs": [],
+      "factorization_is_not_a_transform_license": true,
+      "object": "matrixsumlist",
+      "size": 13,
+      "unit": "ASCII characters"
+    },
+    {
+      "factor_pairs": [
+        [
+          5,
+          5
+        ]
+      ],
+      "factorization_is_not_a_transform_license": true,
+      "object": "frame25",
+      "size": 25,
+      "unit": "bits"
+    },
+    {
+      "factor_pairs": [
+        [
+          2,
+          30
+        ],
+        [
+          3,
+          20
+        ],
+        [
+          4,
+          15
+        ],
+        [
+          5,
+          12
+        ],
+        [
+          6,
+          10
+        ]
+      ],
+      "factorization_is_not_a_transform_license": true,
+      "object": "residual60",
+      "size": 60,
+      "unit": "ASCII characters"
+    },
+    {
+      "factor_pairs": [
+        [
+          2,
+          285
+        ],
+        [
+          3,
+          190
+        ],
+        [
+          5,
+          114
+        ],
+        [
+          6,
+          95
+        ],
+        [
+          10,
+          57
+        ],
+        [
+          15,
+          38
+        ],
+        [
+          19,
+          30
+        ]
+      ],
+      "factorization_is_not_a_transform_license": true,
+      "object": "faed570",
+      "size": 570,
+      "unit": "ASCII characters"
+    },
+    {
+      "factor_pairs": [
+        [
+          2,
+          285
+        ],
+        [
+          3,
+          190
+        ],
+        [
+          5,
+          114
+        ],
+        [
+          6,
+          95
+        ],
+        [
+          10,
+          57
+        ],
+        [
+          15,
+          38
+        ],
+        [
+          19,
+          30
+        ]
+      ],
+      "factorization_is_not_a_transform_license": true,
+      "object": "Bifid570",
+      "size": 570,
+      "unit": "ASCII characters"
+    },
+    {
+      "factor_pairs": [],
+      "factorization_is_not_a_transform_license": true,
+      "object": "btcseed",
+      "size": 7,
+      "unit": "ASCII characters"
+    },
+    {
+      "factor_pairs": [],
+      "factorization_is_not_a_transform_license": true,
+      "object": "Bifid-body563",
+      "size": 563,
+      "unit": "ASCII characters"
+    },
+    {
+      "factor_pairs": [
+        [
+          3,
+          513
+        ],
+        [
+          9,
+          171
+        ],
+        [
+          19,
+          81
+        ],
+        [
+          27,
+          57
+        ]
+      ],
+      "factorization_is_not_a_transform_license": true,
+      "object": "speech1539",
+      "size": 1539,
+      "unit": "ASCII characters"
+    },
+    {
+      "factor_pairs": [],
+      "factorization_is_not_a_transform_license": true,
+      "object": "checker149",
+      "size": 149,
+      "unit": "ASCII characters"
+    },
+    {
+      "factor_pairs": [
+        [
+          7,
+          13
+        ]
+      ],
+      "factorization_is_not_a_transform_license": true,
+      "object": "checkertext91",
+      "size": 91,
+      "unit": "ASCII characters"
+    },
+    {
+      "factor_pairs": [
+        [
+          2,
+          64
+        ],
+        [
+          4,
+          32
+        ],
+        [
+          8,
+          16
+        ]
+      ],
+      "factorization_is_not_a_transform_license": true,
+      "object": "SMALL",
+      "size": 128,
+      "unit": "ASCII characters"
+    },
+    {
+      "factor_pairs": [
+        [
+          2,
+          64
+        ],
+        [
+          4,
+          32
+        ],
+        [
+          8,
+          16
+        ]
+      ],
+      "factorization_is_not_a_transform_license": true,
+      "object": "inner-envelope",
+      "size": 128,
+      "unit": "ASCII characters"
+    }
+  ],
+  "envelope_metadata": {
+    "cosmic": {
+      "base64_characters": 1792,
+      "blob_bytes": 1344,
+      "blob_sha256": "b18950551a4dd0cb8a9378f0906ba18c03a15f0ee83eb98c6bc90165c5f79805",
+      "ciphertext_bytes": 1328,
+      "ciphertext_sha256": "43cb531c22272449eeec4b9bf761dbaae33e34edbf1122938fcd6f10ce0d1953",
+      "header_bytes": 8,
+      "if_CBC_PKCS7_plaintext_length_range": [
+        1312,
+        1327
+      ],
+      "mode_and_KDF_not_identified_by_header": true,
+      "salt_bytes": 8,
+      "salt_hex": "2d3f6fe06dc950e6",
+      "sixteen_byte_blocks": 83
+    },
+    "inner": {
+      "base64_characters": 128,
+      "blob_bytes": 96,
+      "blob_sha256": "291dfd6f3e759ec2e272b35a00c24907da70c3e7a9291b4c13605c7b0b4f3de9",
+      "ciphertext_bytes": 80,
+      "ciphertext_sha256": "cbbf945223b0c7a60e31b6ba7f5dfbc17f68f545bec059e937c11e7465d0117b",
+      "header_bytes": 8,
+      "if_CBC_PKCS7_plaintext_length_range": [
+        64,
+        79
+      ],
+      "mode_and_KDF_not_identified_by_header": true,
+      "salt_bytes": 8,
+      "salt_hex": "b45a5e3d827593ca",
+      "sixteen_byte_blocks": 5
+    },
+    "small": {
+      "base64_characters": 128,
+      "blob_bytes": 96,
+      "blob_sha256": "9e2831e1b34b5f34796df47ccaf6530d48d371c61a6bff84d60db1064fa7a258",
+      "ciphertext_bytes": 80,
+      "ciphertext_sha256": "772a637792734babebbfd69f5c88b79ce48a6dee0f09b837b056812ec2bc357b",
+      "header_bytes": 8,
+      "if_CBC_PKCS7_plaintext_length_range": [
+        64,
+        79
+      ],
+      "mode_and_KDF_not_identified_by_header": true,
+      "salt_bytes": 8,
+      "salt_hex": "3ab585348552415d",
+      "sixteen_byte_blocks": 5
+    }
+  },
+  "exact_object_tiling": {
+    "body": {
+      "exact_repeating_tile_lengths": [],
+      "failure_only_rejects_exact_repeated_blocks_not_interleavings_or_cipher_periods": true,
+      "length": 563,
+      "proper_divisor_tile_lengths_checked": [
+        1
+      ],
+      "statistical_periodicity_not_estimated": true
+    },
+    "full_Bifid": {
+      "exact_repeating_tile_lengths": [],
+      "failure_only_rejects_exact_repeated_blocks_not_interleavings_or_cipher_periods": true,
+      "length": 570,
+      "proper_divisor_tile_lengths_checked": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        10,
+        15,
+        19,
+        30,
+        38,
+        57,
+        95,
+        114,
+        190,
+        285
+      ],
+      "statistical_periodicity_not_estimated": true
+    }
+  },
+  "experiments": [
+    {
+      "expected_observable": "Matching normalized fingerprints",
+      "falsification_condition": "Any distinct normalized byte",
+      "graph_effect": "Remove identity edges; do not exclude equal plaintexts or later cross-stage relationships",
+      "hypothesis": "The equal96-byte envelopes or equal91-letter objects are literally the same recovered object",
+      "id": "C22-EQUAL-SIZE-IDENTITY",
+      "input": "Exact published fragments and frozen fixtures",
+      "result": "REJECTED: inner/SMALL salt, blob and ciphertext differ; dbbi/checkertext differ"
+    },
+    {
+      "expected_observable": "Authored boundary or disjoint complete source symbols",
+      "falsification_condition": "Cut shares source-symbol coordinates and only community recognition supplies boundary",
+      "graph_effect": "Retain full570 object; prefix recognition/body interface remains unbound, not an authored split",
+      "hypothesis": "The seven-letter cut is a primary-authored or complete source-symbol boundary",
+      "id": "C22-PREFIX-BOUNDARY",
+      "input": "570 frozen coordinate dependencies and two dated exact full-output records",
+      "result": "REJECTED narrow promotion: source symbols3/288 straddle the cut; both posts are one identical community repost"
+    },
+    {
+      "expected_observable": "Complete same-domain binding or a supplied reversible conversion",
+      "falsification_condition": "Different type/size or missing coordinate-domain conversion",
+      "graph_effect": "Keep variable-length inputs possible but not evidence; isolate coordinate interface as the next discriminator",
+      "hypothesis": "Exact dimensions directly identify matrix, lookup, raw key or ciphertext consumers",
+      "id": "C22-DIRECT-CONSUMER-TYPES",
+      "input": "14 frozen objects and10 finite typed comparisons",
+      "result": "Direct104-to196 grid and570/563-to32/80 byte identities fail;25-to25 lookup remains missing conversion"
+    },
+    {
+      "expected_observable": "A proper-divisor prefix tiles every symbol exactly",
+      "falsification_condition": "No proper-divisor prefix tiles the whole object",
+      "graph_effect": "No repeated-tile edge supplies an exact smaller consumer; no statistical or cipher-period search",
+      "hypothesis": "The complete Bifid output or its body is an exact repetition of a shorter whole block",
+      "id": "C22-EXACT-REPEATED-BLOCK",
+      "input": "Frozen570-letter object and its recognized563-letter body",
+      "result": "REJECTED only exact repeated-block construction; statistical periodicity and forced parity remain separate"
+    }
+  ],
+  "external_requests": 0,
+  "hypotheses": [
+    {
+      "assumptions": [
+        "Bifid is intended data, not only recognition",
+        "Missing matrix transform and input ownership have exact future definitions"
+      ],
+      "confidence": "MEDIUM full-object reversibility; LOW downstream ordering",
+      "contradictions": [
+        "Full/suffix/parity/password and numeric-route realizations already failed",
+        "No source places inner AES immediately after Bifid",
+        "Seven-letter boundary is not a primary or complete-coordinate boundary"
+      ],
+      "hypothesis": "Full Bifid data feeds a specified matrix-derived transform, then a local hash/container/answer-hash chain",
+      "id": "C22-ARCH-SERIAL",
+      "input": "Frozen public source objects, dependency maps and envelope metadata",
+      "next_test": "Perform one static coordinate-interface test on the frozen 25-event/25-prime-marker correspondence: compare the actual original-image row/column domain and symbol multiplicities with the source-keyed 5x5 square domain, preserving all event identities and duplicate positions. Accept a direct lookup-table architecture only if a source-defined, complete, single-valued bijection exists without rescaling, modular reduction, ranking, guessed alphabets or discarded events. Reuse original coordinates and square; do not generate trial text or run a cipher. If no direct bijection exists, close that direct edge and retain only an explicitly missing coordinate-conversion interface.",
+      "operation_order": [
+        "raw dbbi -> frozen square",
+        "faed570 -> Bifid570",
+        "Bifid570 -> UNKNOWN metadata transform",
+        "UNKNOWN selected object -> first hash -> SMALL",
+        "UNKNOWN SMALL answer -> answer hash -> UNKNOWN destination"
+      ],
+      "output": "A typed partial architecture, with unknown edges retained rather than executed",
+      "source_evidence": [
+        {
+          "path": "research/artifacts/cycle21/whole-object-accountability.json",
+          "sha256": "a3997eb57094b0eb4396c92407819662f824ce1e0cdacc471a06c2fab5bd73d2"
+        },
+        {
+          "path": "research/artifacts/cycle10/instruction-graphs-v3.json",
+          "sha256": "31a20ee0b58c1289d16de425c76f4521ca228a01c6ca12122d074056a8e81132"
+        },
+        {
+          "path": "research/artifacts/cycle15/label-boundary-audit.json",
+          "sha256": "3d965046baecf2372ffcf7d79537c537019583f9def802e8fe0faefcdc70e94f"
+        },
+        {
+          "path": "research/artifacts/cycle15/frame-object-audit.json",
+          "sha256": "56897976b72da60096261c7b1b5ea76ce1e5497dc0f04996bf75c8770e298d2e"
+        },
+        {
+          "path": "research/artifacts/cycle04/bifid-evidence.json",
+          "sha256": "b3e75c099064c8a32fa07ab165e16865a41760f099abe2d104c549a80971d6b1"
+        },
+        {
+          "path": "research/artifacts/cycle02/pipeline.json",
+          "sha256": "1907eb75f68c738bfac05feab72eee612b1855375aad55d7362c0177ad3254c4"
+        },
+        {
+          "path": "research/artifacts/cycle10/instruction-occurrences-v3.jsonl",
+          "sha256": "43aee9e9af066426e685e907c3be0f359978d55ce1116461352d2d03a4c7313b"
+        },
+        {
+          "path": "research/sources/salphaseion.html",
+          "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+        },
+        {
+          "path": "research/artifacts/phase32.txt",
+          "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+        },
+        {
+          "path": "research/artifacts/phase32-beaufort.txt",
+          "sha256": "b08a3151c88cdeb3b2e730a9d9445e1a349498d89bc94ba1d0837f9e04cc3bcd"
+        },
+        {
+          "path": "research/artifacts/phase32-checkerboard.txt",
+          "sha256": "0ae71cc3976813fe632cef80f945c4a28ad84874056009b33b4022c71e1ffd1a"
+        },
+        {
+          "path": "research/artifacts/phase32-inner.b64",
+          "sha256": "a31de4756889a4778ed76c19a4a5007e55dbfc6c65f2f4e865761b115e9a36cb"
+        },
+        {
+          "path": "research/artifacts/salphaseion-small.b64",
+          "sha256": "21f198a9324514f3f06468931cbbc1db6fbec98a64a72567f83bafd2367b52be"
+        },
+        {
+          "path": "research/artifacts/cosmic-duality.b64",
+          "sha256": "08cb582371bb035a033de9949b745c1e0071b4b234ae6e47b8ddc9f30a7de31c"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        }
+      ],
+      "source_locations": [
+        "research/sources/salphaseion.html:17",
+        "research/artifacts/phase32.txt:1",
+        "research/evidence/cycle02/_work__chat_transcript.txt:122237",
+        "research/evidence/cycle02/_work__chat_transcript.txt:124626",
+        "research/artifacts/cycle10/instruction-graphs-v3.json"
+      ],
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "assumptions": [
+        "Metadata has an exact original domain and destination",
+        "Recognition and data channels need not be serial"
+      ],
+      "confidence": "MEDIUM parallel structural dependency; LOW direct coordinate conversion",
+      "contradictions": [
+        "25 binary event labels do not automatically define a 25-symbol permutation",
+        "14x14 image and 5x5 square have different coordinate domains",
+        "Existing mask/routing/sum realizations are closed negatives"
+      ],
+      "hypothesis": "Prime/color and matrixsumlist define coordinate metadata for a reversible lookup or permutation; Bifid is a parallel recognition/control channel",
+      "id": "C22-ARCH-COORDINATE",
+      "input": "Frozen public source objects, dependency maps and envelope metadata",
+      "next_test": "Perform one static coordinate-interface test on the frozen 25-event/25-prime-marker correspondence: compare the actual original-image row/column domain and symbol multiplicities with the source-keyed 5x5 square domain, preserving all event identities and duplicate positions. Accept a direct lookup-table architecture only if a source-defined, complete, single-valued bijection exists without rescaling, modular reduction, ranking, guessed alphabets or discarded events. Reuse original coordinates and square; do not generate trial text or run a cipher. If no direct bijection exists, close that direct edge and retain only an explicitly missing coordinate-conversion interface.",
+      "operation_order": [
+        "original image <-> 25 event identities",
+        "dbbi plus binary104 -> 25 aligned prime markers and residual60",
+        "matrixsumlist -> UNKNOWN coordinate metadata",
+        "metadata plus preserved data -> UNKNOWN consumer",
+        "raw dbbi plus faed570 -> parallel Bifid object"
+      ],
+      "output": "A typed partial architecture, with unknown edges retained rather than executed",
+      "source_evidence": [
+        {
+          "path": "research/artifacts/cycle21/whole-object-accountability.json",
+          "sha256": "a3997eb57094b0eb4396c92407819662f824ce1e0cdacc471a06c2fab5bd73d2"
+        },
+        {
+          "path": "research/artifacts/cycle10/instruction-graphs-v3.json",
+          "sha256": "31a20ee0b58c1289d16de425c76f4521ca228a01c6ca12122d074056a8e81132"
+        },
+        {
+          "path": "research/artifacts/cycle15/label-boundary-audit.json",
+          "sha256": "3d965046baecf2372ffcf7d79537c537019583f9def802e8fe0faefcdc70e94f"
+        },
+        {
+          "path": "research/artifacts/cycle15/frame-object-audit.json",
+          "sha256": "56897976b72da60096261c7b1b5ea76ce1e5497dc0f04996bf75c8770e298d2e"
+        },
+        {
+          "path": "research/artifacts/cycle04/bifid-evidence.json",
+          "sha256": "b3e75c099064c8a32fa07ab165e16865a41760f099abe2d104c549a80971d6b1"
+        },
+        {
+          "path": "research/artifacts/cycle02/pipeline.json",
+          "sha256": "1907eb75f68c738bfac05feab72eee612b1855375aad55d7362c0177ad3254c4"
+        },
+        {
+          "path": "research/artifacts/cycle10/instruction-occurrences-v3.jsonl",
+          "sha256": "43aee9e9af066426e685e907c3be0f359978d55ce1116461352d2d03a4c7313b"
+        },
+        {
+          "path": "research/sources/salphaseion.html",
+          "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+        },
+        {
+          "path": "research/artifacts/phase32.txt",
+          "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+        },
+        {
+          "path": "research/artifacts/phase32-beaufort.txt",
+          "sha256": "b08a3151c88cdeb3b2e730a9d9445e1a349498d89bc94ba1d0837f9e04cc3bcd"
+        },
+        {
+          "path": "research/artifacts/phase32-checkerboard.txt",
+          "sha256": "0ae71cc3976813fe632cef80f945c4a28ad84874056009b33b4022c71e1ffd1a"
+        },
+        {
+          "path": "research/artifacts/phase32-inner.b64",
+          "sha256": "a31de4756889a4778ed76c19a4a5007e55dbfc6c65f2f4e865761b115e9a36cb"
+        },
+        {
+          "path": "research/artifacts/salphaseion-small.b64",
+          "sha256": "21f198a9324514f3f06468931cbbc1db6fbec98a64a72567f83bafd2367b52be"
+        },
+        {
+          "path": "research/artifacts/cosmic-duality.b64",
+          "sha256": "08cb582371bb035a033de9949b745c1e0071b4b234ae6e47b8ddc9f30a7de31c"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        }
+      ],
+      "source_locations": [
+        "research/sources/salphaseion.html:17",
+        "research/artifacts/phase32.txt:1",
+        "research/evidence/cycle02/_work__chat_transcript.txt:122237",
+        "research/evidence/cycle02/_work__chat_transcript.txt:124626",
+        "research/artifacts/cycle10/instruction-graphs-v3.json"
+      ],
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "assumptions": [
+        "The speech is operational as well as thematic",
+        "A source-bound selector and Architect boundary exist but are not yet identified"
+      ],
+      "confidence": "MEDIUM local grammar and named speech relationship; UNKNOWN selector",
+      "contradictions": [
+        "No literal choice or word-count binding",
+        "Semantic mention order is not execution order",
+        "Does not yet explain full faed/Bifid as required input"
+      ],
+      "hypothesis": "Matrix-related metadata selects an exact object from the edited speech; lastwords/thispassword bind the local container, while Bifid is a separate branch",
+      "id": "C22-ARCH-SPEECH-SELECTOR",
+      "input": "Frozen public source objects, dependency maps and envelope metadata",
+      "next_test": "Perform one static coordinate-interface test on the frozen 25-event/25-prime-marker correspondence: compare the actual original-image row/column domain and symbol multiplicities with the source-keyed 5x5 square domain, preserving all event identities and duplicate positions. Accept a direct lookup-table architecture only if a source-defined, complete, single-valued bijection exists without rescaling, modular reduction, ranking, guessed alphabets or discarded events. Reuse original coordinates and square; do not generate trial text or run a cipher. If no direct bijection exists, close that direct edge and retain only an explicitly missing coordinate-conversion interface.",
+      "operation_order": [
+        "outer envelope -> speech and numeric siblings",
+        "image/primes -> UNKNOWN selection metadata",
+        "metadata plus speech -> UNKNOWN last-word object",
+        "lastwords -> thispassword -> first hash -> SMALL",
+        "SMALL answer -> answer hash -> UNKNOWN destination"
+      ],
+      "output": "A typed partial architecture, with unknown edges retained rather than executed",
+      "source_evidence": [
+        {
+          "path": "research/artifacts/cycle21/whole-object-accountability.json",
+          "sha256": "a3997eb57094b0eb4396c92407819662f824ce1e0cdacc471a06c2fab5bd73d2"
+        },
+        {
+          "path": "research/artifacts/cycle10/instruction-graphs-v3.json",
+          "sha256": "31a20ee0b58c1289d16de425c76f4521ca228a01c6ca12122d074056a8e81132"
+        },
+        {
+          "path": "research/artifacts/cycle15/label-boundary-audit.json",
+          "sha256": "3d965046baecf2372ffcf7d79537c537019583f9def802e8fe0faefcdc70e94f"
+        },
+        {
+          "path": "research/artifacts/cycle15/frame-object-audit.json",
+          "sha256": "56897976b72da60096261c7b1b5ea76ce1e5497dc0f04996bf75c8770e298d2e"
+        },
+        {
+          "path": "research/artifacts/cycle04/bifid-evidence.json",
+          "sha256": "b3e75c099064c8a32fa07ab165e16865a41760f099abe2d104c549a80971d6b1"
+        },
+        {
+          "path": "research/artifacts/cycle02/pipeline.json",
+          "sha256": "1907eb75f68c738bfac05feab72eee612b1855375aad55d7362c0177ad3254c4"
+        },
+        {
+          "path": "research/artifacts/cycle10/instruction-occurrences-v3.jsonl",
+          "sha256": "43aee9e9af066426e685e907c3be0f359978d55ce1116461352d2d03a4c7313b"
+        },
+        {
+          "path": "research/sources/salphaseion.html",
+          "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+        },
+        {
+          "path": "research/artifacts/phase32.txt",
+          "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+        },
+        {
+          "path": "research/artifacts/phase32-beaufort.txt",
+          "sha256": "b08a3151c88cdeb3b2e730a9d9445e1a349498d89bc94ba1d0837f9e04cc3bcd"
+        },
+        {
+          "path": "research/artifacts/phase32-checkerboard.txt",
+          "sha256": "0ae71cc3976813fe632cef80f945c4a28ad84874056009b33b4022c71e1ffd1a"
+        },
+        {
+          "path": "research/artifacts/phase32-inner.b64",
+          "sha256": "a31de4756889a4778ed76c19a4a5007e55dbfc6c65f2f4e865761b115e9a36cb"
+        },
+        {
+          "path": "research/artifacts/salphaseion-small.b64",
+          "sha256": "21f198a9324514f3f06468931cbbc1db6fbec98a64a72567f83bafd2367b52be"
+        },
+        {
+          "path": "research/artifacts/cosmic-duality.b64",
+          "sha256": "08cb582371bb035a033de9949b745c1e0071b4b234ae6e47b8ddc9f30a7de31c"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        }
+      ],
+      "source_locations": [
+        "research/sources/salphaseion.html:17",
+        "research/artifacts/phase32.txt:1",
+        "research/evidence/cycle02/_work__chat_transcript.txt:122237",
+        "research/evidence/cycle02/_work__chat_transcript.txt:124626",
+        "research/artifacts/cycle10/instruction-graphs-v3.json"
+      ],
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "assumptions": [
+        "Repeated-door wording permits multiple entrances",
+        "A later convergence exists without a supplied input join"
+      ],
+      "confidence": "HIGH distinct containers; MEDIUM alternative-door architecture",
+      "contradictions": [
+        "Distinct salts do not prove independent plaintexts",
+        "No verified join, output equality or convergence operator",
+        "A strict main-path serialization could still visit both containers"
+      ],
+      "hypothesis": "Inner and SMALL are distinct stage objects reached through separate doors and may converge only at a later object",
+      "id": "C22-ARCH-MULTIDOOR",
+      "input": "Frozen public source objects, dependency maps and envelope metadata",
+      "next_test": "Perform one static coordinate-interface test on the frozen 25-event/25-prime-marker correspondence: compare the actual original-image row/column domain and symbol multiplicities with the source-keyed 5x5 square domain, preserving all event identities and duplicate positions. Accept a direct lookup-table architecture only if a source-defined, complete, single-valued bijection exists without rescaling, modular reduction, ranking, guessed alphabets or discarded events. Reuse original coordinates and square; do not generate trial text or run a cipher. If no direct bijection exists, close that direct edge and retain only an explicitly missing coordinate-conversion interface.",
+      "operation_order": [
+        "main recovered path -> inner envelope",
+        "audio/source-return path -> SalPhaseIon -> SMALL",
+        "two unresolved outputs -> UNKNOWN join or independent continuation",
+        "Cosmic separate heading -> UNKNOWN destination"
+      ],
+      "output": "A typed partial architecture, with unknown edges retained rather than executed",
+      "source_evidence": [
+        {
+          "path": "research/artifacts/cycle21/whole-object-accountability.json",
+          "sha256": "a3997eb57094b0eb4396c92407819662f824ce1e0cdacc471a06c2fab5bd73d2"
+        },
+        {
+          "path": "research/artifacts/cycle10/instruction-graphs-v3.json",
+          "sha256": "31a20ee0b58c1289d16de425c76f4521ca228a01c6ca12122d074056a8e81132"
+        },
+        {
+          "path": "research/artifacts/cycle15/label-boundary-audit.json",
+          "sha256": "3d965046baecf2372ffcf7d79537c537019583f9def802e8fe0faefcdc70e94f"
+        },
+        {
+          "path": "research/artifacts/cycle15/frame-object-audit.json",
+          "sha256": "56897976b72da60096261c7b1b5ea76ce1e5497dc0f04996bf75c8770e298d2e"
+        },
+        {
+          "path": "research/artifacts/cycle04/bifid-evidence.json",
+          "sha256": "b3e75c099064c8a32fa07ab165e16865a41760f099abe2d104c549a80971d6b1"
+        },
+        {
+          "path": "research/artifacts/cycle02/pipeline.json",
+          "sha256": "1907eb75f68c738bfac05feab72eee612b1855375aad55d7362c0177ad3254c4"
+        },
+        {
+          "path": "research/artifacts/cycle10/instruction-occurrences-v3.jsonl",
+          "sha256": "43aee9e9af066426e685e907c3be0f359978d55ce1116461352d2d03a4c7313b"
+        },
+        {
+          "path": "research/sources/salphaseion.html",
+          "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+        },
+        {
+          "path": "research/artifacts/phase32.txt",
+          "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+        },
+        {
+          "path": "research/artifacts/phase32-beaufort.txt",
+          "sha256": "b08a3151c88cdeb3b2e730a9d9445e1a349498d89bc94ba1d0837f9e04cc3bcd"
+        },
+        {
+          "path": "research/artifacts/phase32-checkerboard.txt",
+          "sha256": "0ae71cc3976813fe632cef80f945c4a28ad84874056009b33b4022c71e1ffd1a"
+        },
+        {
+          "path": "research/artifacts/phase32-inner.b64",
+          "sha256": "a31de4756889a4778ed76c19a4a5007e55dbfc6c65f2f4e865761b115e9a36cb"
+        },
+        {
+          "path": "research/artifacts/salphaseion-small.b64",
+          "sha256": "21f198a9324514f3f06468931cbbc1db6fbec98a64a72567f83bafd2367b52be"
+        },
+        {
+          "path": "research/artifacts/cosmic-duality.b64",
+          "sha256": "08cb582371bb035a033de9949b745c1e0071b4b234ae6e47b8ddc9f30a7de31c"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        }
+      ],
+      "source_locations": [
+        "research/sources/salphaseion.html:17",
+        "research/artifacts/phase32.txt:1",
+        "research/evidence/cycle02/_work__chat_transcript.txt:122237",
+        "research/evidence/cycle02/_work__chat_transcript.txt:124626",
+        "research/artifacts/cycle10/instruction-graphs-v3.json"
+      ],
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "assumptions": [
+        "Some intermediate data has a recognition rather than next-input role",
+        "Body563 need not be immediately consumed by an AES stage"
+      ],
+      "confidence": "MEDIUM conservative separation of verified and unknown edges; LOW intended recognition-only role",
+      "contradictions": [
+        "Creator does not authorize discarding body563",
+        "A deliberate 570-letter object could remain operative data",
+        "Recognition-only model under-explains residual60 and matrixsumlist unless they receive other roles"
+      ],
+      "hypothesis": "Prime/color and Bifid are source-recognition or construction checks; the remaining executable path is earlier-source recall plus the local hash/container skeleton",
+      "id": "C22-ARCH-RECOGNITION",
+      "input": "Frozen public source objects, dependency maps and envelope metadata",
+      "next_test": "Perform one static coordinate-interface test on the frozen 25-event/25-prime-marker correspondence: compare the actual original-image row/column domain and symbol multiplicities with the source-keyed 5x5 square domain, preserving all event identities and duplicate positions. Accept a direct lookup-table architecture only if a source-defined, complete, single-valued bijection exists without rescaling, modular reduction, ranking, guessed alphabets or discarded events. Reuse original coordinates and square; do not generate trial text or run a cipher. If no direct bijection exists, close that direct edge and retain only an explicitly missing coordinate-conversion interface.",
+      "operation_order": [
+        "image/primes -> structural recognition",
+        "raw dbbi plus faed570 -> full reversible Bifid recognition object",
+        "firsthint/lastcommand -> UNKNOWN earlier operand",
+        "selected earlier object -> first hash -> SMALL -> answer hash -> UNKNOWN destination"
+      ],
+      "output": "A typed partial architecture, with unknown edges retained rather than executed",
+      "source_evidence": [
+        {
+          "path": "research/artifacts/cycle21/whole-object-accountability.json",
+          "sha256": "a3997eb57094b0eb4396c92407819662f824ce1e0cdacc471a06c2fab5bd73d2"
+        },
+        {
+          "path": "research/artifacts/cycle10/instruction-graphs-v3.json",
+          "sha256": "31a20ee0b58c1289d16de425c76f4521ca228a01c6ca12122d074056a8e81132"
+        },
+        {
+          "path": "research/artifacts/cycle15/label-boundary-audit.json",
+          "sha256": "3d965046baecf2372ffcf7d79537c537019583f9def802e8fe0faefcdc70e94f"
+        },
+        {
+          "path": "research/artifacts/cycle15/frame-object-audit.json",
+          "sha256": "56897976b72da60096261c7b1b5ea76ce1e5497dc0f04996bf75c8770e298d2e"
+        },
+        {
+          "path": "research/artifacts/cycle04/bifid-evidence.json",
+          "sha256": "b3e75c099064c8a32fa07ab165e16865a41760f099abe2d104c549a80971d6b1"
+        },
+        {
+          "path": "research/artifacts/cycle02/pipeline.json",
+          "sha256": "1907eb75f68c738bfac05feab72eee612b1855375aad55d7362c0177ad3254c4"
+        },
+        {
+          "path": "research/artifacts/cycle10/instruction-occurrences-v3.jsonl",
+          "sha256": "43aee9e9af066426e685e907c3be0f359978d55ce1116461352d2d03a4c7313b"
+        },
+        {
+          "path": "research/sources/salphaseion.html",
+          "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+        },
+        {
+          "path": "research/artifacts/phase32.txt",
+          "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+        },
+        {
+          "path": "research/artifacts/phase32-beaufort.txt",
+          "sha256": "b08a3151c88cdeb3b2e730a9d9445e1a349498d89bc94ba1d0837f9e04cc3bcd"
+        },
+        {
+          "path": "research/artifacts/phase32-checkerboard.txt",
+          "sha256": "0ae71cc3976813fe632cef80f945c4a28ad84874056009b33b4022c71e1ffd1a"
+        },
+        {
+          "path": "research/artifacts/phase32-inner.b64",
+          "sha256": "a31de4756889a4778ed76c19a4a5007e55dbfc6c65f2f4e865761b115e9a36cb"
+        },
+        {
+          "path": "research/artifacts/salphaseion-small.b64",
+          "sha256": "21f198a9324514f3f06468931cbbc1db6fbec98a64a72567f83bafd2367b52be"
+        },
+        {
+          "path": "research/artifacts/cosmic-duality.b64",
+          "sha256": "08cb582371bb035a033de9949b745c1e0071b4b234ae6e47b8ddc9f30a7de31c"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        }
+      ],
+      "source_locations": [
+        "research/sources/salphaseion.html:17",
+        "research/artifacts/phase32.txt:1",
+        "research/evidence/cycle02/_work__chat_transcript.txt:122237",
+        "research/evidence/cycle02/_work__chat_transcript.txt:124626",
+        "research/artifacts/cycle10/instruction-graphs-v3.json"
+      ],
+      "status": "INCONCLUSIVE"
+    }
+  ],
+  "hypothesis": "A typed dependency architecture, not adjacency or size coincidence, connects existing public intermediate objects",
+  "id": "C22-ARCHITECTURAL-RECONSTRUCTION",
+  "input": "Existing public source bytes, frozen maps, stage metadata and two dated community output posts",
+  "new_Bifid_decodes": 0,
+  "new_cryptographic_trials": 0,
+  "new_trial_inputs": 0,
+  "next_test": "Perform one static coordinate-interface test on the frozen 25-event/25-prime-marker correspondence: compare the actual original-image row/column domain and symbol multiplicities with the source-keyed 5x5 square domain, preserving all event identities and duplicate positions. Accept a direct lookup-table architecture only if a source-defined, complete, single-valued bijection exists without rescaling, modular reduction, ranking, guessed alphabets or discarded events. Reuse original coordinates and square; do not generate trial text or run a cipher. If no direct bijection exists, close that direct edge and retain only an explicitly missing coordinate-conversion interface.",
+  "object_inventory": [
+    {
+      "contains": "Order and repeated letters beyond square's first occurrences",
+      "creator_authenticated": false,
+      "currently_unexplained_information": "Order and repeated letters beyond square's first occurrences",
+      "derivation": "Exact primary source slice",
+      "destroys_or_omits": "None until a tokenizer or first-occurrence projection is applied",
+      "encoding": "ASCII",
+      "exact_object": {
+        "alphabet": "abcdefghi",
+        "length": 91,
+        "sha256": "71fe46259e270c113529dfaded4b59c59a9dffd826a7202ab07fc498b6a2c5ca",
+        "unit": "ASCII characters"
+      },
+      "id": "dbbi91",
+      "independently_reproducible": true,
+      "known_downstream_consumers": [
+        "frozen prime parse",
+        "source-derived Bifid square"
+      ],
+      "preserves": "Exact object fingerprint and source-position dependencies retained",
+      "primary_authored_source": true,
+      "source_locations": [
+        {
+          "character_span_zero_based_half_open": [
+            456,
+            637
+          ],
+          "column_one_based": 46,
+          "encoded_sha256": "71fe46259e270c113529dfaded4b59c59a9dffd826a7202ab07fc498b6a2c5ca",
+          "grammar_type": "UNRESOLVED_SOURCE_DATA",
+          "length": 91,
+          "line_one_based": 17,
+          "name": "dbbi91",
+          "normalized_span_zero_based_half_open": [
+            0,
+            91
+          ],
+          "source": {
+            "path": "research/sources/salphaseion.html",
+            "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+          },
+          "type_does_not_identify_input_output_or_consumer": true,
+          "utf8_byte_span_zero_based_half_open": [
+            456,
+            637
+          ]
+        }
+      ],
+      "type": "source-letter-stream",
+      "upstream_dependencies": []
+    },
+    {
+      "contains": "Which matrix, sum operation, list type and consumer",
+      "creator_authenticated": false,
+      "currently_unexplained_information": "Which matrix, sum operation, list type and consumer",
+      "derivation": "a=0,b=1; existing 13-octet decoding retained",
+      "destroys_or_omits": "Label-only use omits continued-marker role",
+      "encoding": "symbolic bits in frozen order",
+      "exact_object": {
+        "alphabet": "01",
+        "length": 104,
+        "sha256": "3a2b21ac87cf826eda9106f9289212c5fbc818b20b7c3c0c5ecb7ffcb3e7b684",
+        "unit": "bits"
+      },
+      "id": "matrix104",
+      "independently_reproducible": true,
+      "known_downstream_consumers": [
+        "matrixsumlist label",
+        "continued prime-marker positions89/97"
+      ],
+      "preserves": "Exact object fingerprint and source-position dependencies retained",
+      "primary_authored_source": true,
+      "source_locations": [
+        {
+          "character_span_zero_based_half_open": [
+            638,
+            845
+          ],
+          "column_one_based": 228,
+          "decoded": "matrixsumlist",
+          "encoded_sha256": "29b59b580d592d009d10d3513e92b4466c79934cbf1a8b7d5710e23b924626a5",
+          "grammar_type": "BINARY_ENCODED_TEXT_LABEL",
+          "length": 104,
+          "line_one_based": 17,
+          "name": "matrixsumlist",
+          "normalized_span_zero_based_half_open": [
+            91,
+            195
+          ],
+          "source": {
+            "path": "research/sources/salphaseion.html",
+            "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+          },
+          "transform": "a=0,b=1; MSB-first ASCII octets",
+          "type_does_not_identify_input_output_or_consumer": true,
+          "utf8_byte_span_zero_based_half_open": [
+            638,
+            845
+          ]
+        }
+      ],
+      "type": "binary",
+      "upstream_dependencies": []
+    },
+    {
+      "contains": "Metadata, operand label or operation remains unbound",
+      "creator_authenticated": false,
+      "currently_unexplained_information": "Metadata, operand label or operation remains unbound",
+      "derivation": "Frozen direct ASCII octets",
+      "destroys_or_omits": "Does not instantiate a matrix or numeric list",
+      "encoding": "ASCII",
+      "exact_object": {
+        "alphabet": "ailmrstux",
+        "length": 13,
+        "sha256": "e7546e3076294907ed2a0ecaa9c33062f6e602b7c74c5aa5cc865df0ff345507",
+        "unit": "ASCII characters"
+      },
+      "id": "matrixsumlist",
+      "independently_reproducible": true,
+      "known_downstream_consumers": [],
+      "preserves": "Exact object fingerprint and source-position dependencies retained",
+      "primary_authored_source": false,
+      "source_locations": [
+        {
+          "character_span_zero_based_half_open": [
+            638,
+            845
+          ],
+          "column_one_based": 228,
+          "decoded": "matrixsumlist",
+          "encoded_sha256": "29b59b580d592d009d10d3513e92b4466c79934cbf1a8b7d5710e23b924626a5",
+          "grammar_type": "BINARY_ENCODED_TEXT_LABEL",
+          "length": 104,
+          "line_one_based": 17,
+          "name": "matrixsumlist",
+          "normalized_span_zero_based_half_open": [
+            91,
+            195
+          ],
+          "source": {
+            "path": "research/sources/salphaseion.html",
+            "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+          },
+          "transform": "a=0,b=1; MSB-first ASCII octets",
+          "type_does_not_identify_input_output_or_consumer": true,
+          "utf8_byte_span_zero_based_half_open": [
+            638,
+            845
+          ]
+        }
+      ],
+      "type": "instruction-or-object-label",
+      "upstream_dependencies": [
+        "matrix104"
+      ]
+    },
+    {
+      "contains": "25 identities are not a 25-letter permutation",
+      "creator_authenticated": false,
+      "currently_unexplained_information": "25 identities are not a 25-letter permutation",
+      "derivation": "Frozen event/prime correspondence; near-white semantic1 is assumed",
+      "destroys_or_omits": "Binary labels alone omit row/column, color identity and octet identity",
+      "encoding": "symbolic bits in frozen order",
+      "exact_object": {
+        "alphabet": "01",
+        "length": 25,
+        "sha256": "6c4465f95f0785b7ac1e77f8f26e06b4e84142b17a509ee5c0e741de4479718a",
+        "unit": "bits"
+      },
+      "id": "frame25",
+      "independently_reproducible": true,
+      "known_downstream_consumers": [
+        "conditional alignment control"
+      ],
+      "preserves": "Exact object fingerprint and source-position dependencies retained",
+      "primary_authored_source": false,
+      "source_locations": [
+        {
+          "path": "research/artifacts/cycle15/frame-object-audit.json",
+          "sha256": "56897976b72da60096261c7b1b5ea76ce1e5497dc0f04996bf75c8770e298d2e"
+        }
+      ],
+      "type": "binary",
+      "upstream_dependencies": [
+        "original image",
+        "dbbi91",
+        "matrix104"
+      ]
+    },
+    {
+      "contains": "No verified selector, numeric list or next-input role",
+      "creator_authenticated": false,
+      "currently_unexplained_information": "No verified selector, numeric list or next-input role",
+      "derivation": "Frozen mask1017 nonprime source-position projection",
+      "destroys_or_omits": "Drops31 raw characters unless complementary marker/token map is retained",
+      "encoding": "ASCII",
+      "exact_object": {
+        "alphabet": "abcdefghi",
+        "length": 60,
+        "sha256": "21cbfa185f92492652ec5c40ba29b2f29f65804f8bd285c0de7685a2aad53109",
+        "unit": "ASCII characters"
+      },
+      "id": "residual60",
+      "independently_reproducible": true,
+      "known_downstream_consumers": [],
+      "preserves": "Exact object fingerprint and source-position dependencies retained",
+      "primary_authored_source": false,
+      "source_locations": [
+        {
+          "path": "research/artifacts/cycle10/instruction-graphs-v3.json",
+          "sha256": "31a20ee0b58c1289d16de425c76f4521ca228a01c6ca12122d074056a8e81132"
+        }
+      ],
+      "type": "source-letter-stream",
+      "upstream_dependencies": [
+        "dbbi91",
+        "prime parse"
+      ]
+    },
+    {
+      "contains": "Whether Bifid is intended and whether other roles exist",
+      "creator_authenticated": false,
+      "currently_unexplained_information": "Whether Bifid is intended and whether other roles exist",
+      "derivation": "Exact primary source slice",
+      "destroys_or_omits": "None",
+      "encoding": "ASCII",
+      "exact_object": {
+        "alphabet": "abcdefghi",
+        "length": 570,
+        "sha256": "066191b4aafc114fbca7f0d168382f40129c4ff18490375b689741081d5ef3c2",
+        "unit": "ASCII characters"
+      },
+      "id": "faed570",
+      "independently_reproducible": true,
+      "known_downstream_consumers": [
+        "frozen Bifid transformation"
+      ],
+      "preserves": "Exact object fingerprint and source-position dependencies retained",
+      "primary_authored_source": true,
+      "source_locations": [
+        {
+          "character_span_zero_based_half_open": [
+            846,
+            1985
+          ],
+          "column_one_based": 436,
+          "encoded_sha256": "066191b4aafc114fbca7f0d168382f40129c4ff18490375b689741081d5ef3c2",
+          "grammar_type": "UNRESOLVED_SOURCE_DATA",
+          "length": 570,
+          "line_one_based": 17,
+          "name": "faed570",
+          "normalized_span_zero_based_half_open": [
+            195,
+            765
+          ],
+          "source": {
+            "path": "research/sources/salphaseion.html",
+            "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+          },
+          "type_does_not_identify_input_output_or_consumer": true,
+          "utf8_byte_span_zero_based_half_open": [
+            846,
+            1985
+          ]
+        }
+      ],
+      "type": "source-letter-stream",
+      "upstream_dependencies": []
+    },
+    {
+      "contains": "Complete body consumer unknown",
+      "creator_authenticated": false,
+      "currently_unexplained_information": "Complete body consumer unknown",
+      "derivation": "Reuse source-keyed square and full period570; no new decoding",
+      "destroys_or_omits": "None with frozen square/period: exact inverse already verified",
+      "encoding": "ASCII",
+      "exact_object": {
+        "alphabet": "abcdefghiklmnopqrstuvwxyz",
+        "length": 570,
+        "sha256": "15d62c8228c1a30f3f6280fcdce2251fe616135e9de291b0c7b8a792dd8d0507",
+        "unit": "ASCII characters"
+      },
+      "id": "Bifid570",
+      "independently_reproducible": true,
+      "known_downstream_consumers": [],
+      "preserves": "Exact object fingerprint and source-position dependencies retained",
+      "primary_authored_source": false,
+      "source_locations": [
+        {
+          "path": "research/artifacts/cycle04/bifid-evidence.json",
+          "sha256": "b3e75c099064c8a32fa07ab165e16865a41760f099abe2d104c549a80971d6b1"
+        },
+        {
+          "path": "research/artifacts/cycle10/instruction-graphs-v3.json",
+          "sha256": "31a20ee0b58c1289d16de425c76f4521ca228a01c6ca12122d074056a8e81132"
+        }
+      ],
+      "type": "derived-letter-stream",
+      "upstream_dependencies": [
+        "dbbi91",
+        "faed570"
+      ]
+    },
+    {
+      "contains": "Recognition is not a downstream object assignment",
+      "creator_authenticated": false,
+      "currently_unexplained_information": "Recognition is not a downstream object assignment",
+      "derivation": "Community-recognized first7 letters",
+      "destroys_or_omits": "Projection omits563 output letters; no authored discard",
+      "encoding": "ASCII",
+      "exact_object": {
+        "alphabet": "bcdest",
+        "length": 7,
+        "sha256": "398bd35f14b5b4ccaffc430549672e3ae623dbc6db3ac02eacf1d7e7a496db08",
+        "unit": "ASCII characters"
+      },
+      "id": "btcseed",
+      "independently_reproducible": true,
+      "known_downstream_consumers": [],
+      "preserves": "Exact object fingerprint and source-position dependencies retained",
+      "primary_authored_source": false,
+      "source_locations": [
+        {
+          "path": "research/artifacts/cycle04/bifid-evidence.json",
+          "sha256": "b3e75c099064c8a32fa07ab165e16865a41760f099abe2d104c549a80971d6b1"
+        }
+      ],
+      "type": "recognized-prefix",
+      "upstream_dependencies": [
+        "Bifid570"
+      ]
+    },
+    {
+      "contains": "No exact same-size known consumer",
+      "creator_authenticated": false,
+      "currently_unexplained_information": "No exact same-size known consumer",
+      "derivation": "Community recognition cut, not a primary delimiter",
+      "destroys_or_omits": "Projection omits7 letters; preserved full object remains authoritative",
+      "encoding": "ASCII",
+      "exact_object": {
+        "alphabet": "abcdefghiklmnopqrstuvwxyz",
+        "length": 563,
+        "sha256": "37762314c4ca52c695d738d3e08a58fcdd775f0dc30d2996a86db685775aafa8",
+        "unit": "ASCII characters"
+      },
+      "id": "Bifid-body563",
+      "independently_reproducible": true,
+      "known_downstream_consumers": [],
+      "preserves": "Exact object fingerprint and source-position dependencies retained",
+      "primary_authored_source": false,
+      "source_locations": [
+        {
+          "path": "research/artifacts/cycle04/bifid-evidence.json",
+          "sha256": "b3e75c099064c8a32fa07ab165e16865a41760f099abe2d104c549a80971d6b1"
+        }
+      ],
+      "type": "derived-letter-stream",
+      "upstream_dependencies": [
+        "Bifid570"
+      ]
+    },
+    {
+      "contains": "Selection, count, input ownership",
+      "creator_authenticated": false,
+      "currently_unexplained_information": "Selection, count, input ownership",
+      "derivation": "Frozen CP273/Beaufort transformation",
+      "destroys_or_omits": "None with observed substitution alphabet and repeating key",
+      "encoding": "ASCII",
+      "exact_object": {
+        "alphabet": "abcdefghijklmnopqrstuvwxyz",
+        "length": 1539,
+        "sha256": "90829b510c3697569da47d2817f545f1e2a1cddd78e45f821dafcdab3dc0c281",
+        "unit": "ASCII characters"
+      },
+      "id": "speech1539",
+      "independently_reproducible": true,
+      "known_downstream_consumers": [
+        "mapped words/references; selector unknown"
+      ],
+      "preserves": "Exact object fingerprint and source-position dependencies retained",
+      "primary_authored_source": false,
+      "source_locations": [
+        {
+          "path": "research/artifacts/phase32-beaufort.txt",
+          "sha256": "b08a3151c88cdeb3b2e730a9d9445e1a349498d89bc94ba1d0837f9e04cc3bcd"
+        }
+      ],
+      "type": "edited-narrative-text",
+      "upstream_dependencies": [
+        "outer plaintext paragraph2"
+      ]
+    },
+    {
+      "contains": "Codebook ancestry and wider instruction role",
+      "creator_authenticated": false,
+      "currently_unexplained_information": "Codebook ancestry and wider instruction role",
+      "derivation": "Exact raw paragraph3",
+      "destroys_or_omits": "None under fixed observed codebook",
+      "encoding": "ASCII",
+      "exact_object": {
+        "alphabet": "0123456789",
+        "length": 149,
+        "sha256": "71e3af174d533ad2c1c79fce64308f5fdf200f3cc50f059b2f1485a2c5f1765d",
+        "unit": "ASCII characters"
+      },
+      "id": "checker149",
+      "independently_reproducible": true,
+      "known_downstream_consumers": [
+        "frozen straddling checkerboard"
+      ],
+      "preserves": "Exact object fingerprint and source-position dependencies retained",
+      "primary_authored_source": true,
+      "source_locations": [
+        {
+          "byte_span_zero_based_half_open": [
+            1990,
+            2139
+          ],
+          "source": {
+            "path": "research/artifacts/phase32.txt",
+            "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+          }
+        }
+      ],
+      "type": "decimal-prefix-code",
+      "upstream_dependencies": [
+        "outer plaintext"
+      ]
+    },
+    {
+      "contains": "Same91 length as dbbi is not an identity",
+      "creator_authenticated": false,
+      "currently_unexplained_information": "Same91 length as dbbi is not an identity",
+      "derivation": "Frozen checkerboard inverse already verified; text not reproduced here",
+      "destroys_or_omits": "None with frozen codebook",
+      "encoding": "ASCII",
+      "exact_object": {
+        "alphabet": "abcdefghiklmnoprstuvy",
+        "length": 91,
+        "sha256": "2fbfbef7442558f17ecc866a0b89ed491c41abc042df4d41452835adff09e9d3",
+        "unit": "ASCII characters"
+      },
+      "id": "checkertext91",
+      "independently_reproducible": true,
+      "known_downstream_consumers": [],
+      "preserves": "Exact object fingerprint and source-position dependencies retained",
+      "primary_authored_source": false,
+      "source_locations": [
+        {
+          "path": "research/artifacts/phase32-checkerboard.txt",
+          "sha256": "0ae71cc3976813fe632cef80f945c4a28ad84874056009b33b4022c71e1ffd1a"
+        }
+      ],
+      "type": "decoded-public-text",
+      "upstream_dependencies": [
+        "checker149"
+      ]
+    },
+    {
+      "contains": "Secondary label; local input, plaintext and destination unknown",
+      "creator_authenticated": false,
+      "currently_unexplained_information": "Secondary label; local input, plaintext and destination unknown",
+      "derivation": "Join64+64 source characters; exclude separately decoded enter40",
+      "destroys_or_omits": "Formatting-only whitespace removed; clue enter retained separately",
+      "encoding": "ASCII",
+      "exact_object": {
+        "alphabet": "+/0123456789BCDEFGHIJKMNOPQRSTUVWXYZbdefhijklnopqrstuvwxz",
+        "length": 128,
+        "sha256": "f8b89da595f868906e14d254d8079d70033153f1dfaa603821dcc641987836d0",
+        "unit": "ASCII characters"
+      },
+      "id": "SMALL",
+      "independently_reproducible": true,
+      "known_downstream_consumers": [],
+      "preserves": "Exact object fingerprint and source-position dependencies retained",
+      "primary_authored_source": true,
+      "source_locations": [
+        {
+          "character_span_zero_based_half_open": [
+            2246,
+            2373
+          ],
+          "column_one_based": 1836,
+          "encoded_sha256": "6d4e51e06278649828373d4d01ffb5cf46173a7ec66661768c53c032ad43d0e9",
+          "grammar_type": "ENCODED_CONTAINER_DATA",
+          "length": 64,
+          "line_one_based": 17,
+          "name": "small-container-first-part",
+          "normalized_span_zero_based_half_open": [
+            895,
+            959
+          ],
+          "source": {
+            "path": "research/sources/salphaseion.html",
+            "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+          },
+          "type_does_not_identify_input_output_or_consumer": true,
+          "utf8_byte_span_zero_based_half_open": [
+            2246,
+            2373
+          ]
+        },
+        {
+          "character_span_zero_based_half_open": [
+            2454,
+            2581
+          ],
+          "column_one_based": 2044,
+          "encoded_sha256": "c6dac12b9935e1f2e294bfdf963526d21009c029254f5d5b799a809769fa1b57",
+          "grammar_type": "ENCODED_CONTAINER_DATA",
+          "length": 64,
+          "line_one_based": 17,
+          "name": "small-container-second-part",
+          "normalized_span_zero_based_half_open": [
+            999,
+            1063
+          ],
+          "source": {
+            "path": "research/sources/salphaseion.html",
+            "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+          },
+          "type_does_not_identify_input_output_or_consumer": true,
+          "utf8_byte_span_zero_based_half_open": [
+            2454,
+            2581
+          ]
+        }
+      ],
+      "type": "salted-envelope-base64",
+      "upstream_dependencies": [
+        "SalPhaseIon primary source"
+      ]
+    },
+    {
+      "contains": "Password bytes, KDF, mode, IV and plaintext unknown",
+      "creator_authenticated": false,
+      "currently_unexplained_information": "Password bytes, KDF, mode, IV and plaintext unknown",
+      "derivation": "Exact outer plaintext paragraph5, whitespace-only canonicalization",
+      "destroys_or_omits": "Only CRLF wrapping removed",
+      "encoding": "ASCII",
+      "exact_object": {
+        "alphabet": "+/0123456789ABCDEFGIJKLMNPSTUVWXYZadghiklmnpqstuvxyz",
+        "length": 128,
+        "sha256": "b2e3f02fd7b79b9a0a85b9286d2b1f4e0e749171b3107d34ffc6b0b6fc2bdf5e",
+        "unit": "ASCII characters"
+      },
+      "id": "inner-envelope",
+      "independently_reproducible": true,
+      "known_downstream_consumers": [],
+      "preserves": "Exact object fingerprint and source-position dependencies retained",
+      "primary_authored_source": true,
+      "source_locations": [
+        {
+          "byte_span_zero_based_half_open": [
+            2292,
+            2422
+          ],
+          "source": {
+            "path": "research/artifacts/phase32.txt",
+            "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+          }
+        }
+      ],
+      "type": "salted-envelope-base64",
+      "upstream_dependencies": [
+        "outer plaintext"
+      ]
+    }
+  ],
+  "operation_order": [
+    "inventory exact frozen objects",
+    "compare information-preserving versus lossy edges",
+    "verify exact source-envelope ownership",
+    "distinguish equal-size objects",
+    "map full community output claims and recognized cut",
+    "compare five finite partial architectures"
+  ],
+  "output": "14 fingerprinted public objects,10 typed interfaces,4 discriminating experiments and5 partial architectures",
+  "primary_or_creator_exact_Bifid_term_hits_reused": [],
+  "result": "Known paths branch rather than establish a single serial graph. Same-size containers and91-letter objects are distinct. Full Bifid570 preserves all1140 source coordinates, but seven-letter recognition splits symbols3/288 and supplies no authored body consumer. A ten-interface type analysis separates identities, variable-length compatibility and missing conversions. Five finite architectures remain; no new cipher, password, normalization or statistical search.",
+  "search_space": {
+    "detailed_discovery_reposts": 2,
+    "discriminating_experiments": 4,
+    "exact_full_output_references": 8,
+    "finite_architectures": 5,
+    "frozen_coordinate_dependencies": 570,
+    "public_envelopes": 3,
+    "public_object_records": 14,
+    "typed_interfaces": 10
+  },
+  "source_evidence": [
+    {
+      "path": "research/artifacts/cycle21/whole-object-accountability.json",
+      "sha256": "a3997eb57094b0eb4396c92407819662f824ce1e0cdacc471a06c2fab5bd73d2"
+    },
+    {
+      "path": "research/artifacts/cycle10/instruction-graphs-v3.json",
+      "sha256": "31a20ee0b58c1289d16de425c76f4521ca228a01c6ca12122d074056a8e81132"
+    },
+    {
+      "path": "research/artifacts/cycle15/label-boundary-audit.json",
+      "sha256": "3d965046baecf2372ffcf7d79537c537019583f9def802e8fe0faefcdc70e94f"
+    },
+    {
+      "path": "research/artifacts/cycle15/frame-object-audit.json",
+      "sha256": "56897976b72da60096261c7b1b5ea76ce1e5497dc0f04996bf75c8770e298d2e"
+    },
+    {
+      "path": "research/artifacts/cycle04/bifid-evidence.json",
+      "sha256": "b3e75c099064c8a32fa07ab165e16865a41760f099abe2d104c549a80971d6b1"
+    },
+    {
+      "path": "research/artifacts/cycle02/pipeline.json",
+      "sha256": "1907eb75f68c738bfac05feab72eee612b1855375aad55d7362c0177ad3254c4"
+    },
+    {
+      "path": "research/artifacts/cycle10/instruction-occurrences-v3.jsonl",
+      "sha256": "43aee9e9af066426e685e907c3be0f359978d55ce1116461352d2d03a4c7313b"
+    },
+    {
+      "path": "research/sources/salphaseion.html",
+      "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+    },
+    {
+      "path": "research/artifacts/phase32.txt",
+      "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+    },
+    {
+      "path": "research/artifacts/phase32-beaufort.txt",
+      "sha256": "b08a3151c88cdeb3b2e730a9d9445e1a349498d89bc94ba1d0837f9e04cc3bcd"
+    },
+    {
+      "path": "research/artifacts/phase32-checkerboard.txt",
+      "sha256": "0ae71cc3976813fe632cef80f945c4a28ad84874056009b33b4022c71e1ffd1a"
+    },
+    {
+      "path": "research/artifacts/phase32-inner.b64",
+      "sha256": "a31de4756889a4778ed76c19a4a5007e55dbfc6c65f2f4e865761b115e9a36cb"
+    },
+    {
+      "path": "research/artifacts/salphaseion-small.b64",
+      "sha256": "21f198a9324514f3f06468931cbbc1db6fbec98a64a72567f83bafd2367b52be"
+    },
+    {
+      "path": "research/artifacts/cosmic-duality.b64",
+      "sha256": "08cb582371bb035a033de9949b745c1e0071b4b234ae6e47b8ddc9f30a7de31c"
+    },
+    {
+      "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+      "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+    }
+  ],
+  "source_locations": [
+    "research/sources/salphaseion.html:17",
+    "research/artifacts/phase32.txt:1",
+    "research/evidence/cycle02/_work__chat_transcript.txt:122237",
+    "research/evidence/cycle02/_work__chat_transcript.txt:124626",
+    "research/artifacts/cycle10/instruction-graphs-v3.json"
+  ],
+  "status": "INCONCLUSIVE",
+  "typed_compatibility": [
+    {
+      "consumer": "Bifid570",
+      "producer": "faed570",
+      "reason": "570 -> 570, exact frozen reversible coordinate map; square/period supplied",
+      "status": "VERIFIED_TRANSFORM"
+    },
+    {
+      "consumer": "checkertext91",
+      "producer": "dbbi91",
+      "reason": "Equal length but different exact fingerprints, alphabet and source provenance",
+      "status": "REJECTED_IDENTITY"
+    },
+    {
+      "consumer": "original 14x14 grid",
+      "producer": "matrix104",
+      "reason": "104 bits are13 ASCII octets, not196 source cells; no authored matrix reshape",
+      "status": "REJECTED_IDENTITY"
+    },
+    {
+      "consumer": "5x5 keyed square",
+      "producer": "frame25",
+      "reason": "Equal cardinality; binary labels/14x14 coordinates are not25 distinct square symbols",
+      "status": "UNKNOWN_CONVERSION"
+    },
+    {
+      "consumer": "faed570 or Bifid570",
+      "producer": "residual60",
+      "reason": "570=9*60+30, not a complete rectangular placement with60 intact symbols per side",
+      "status": "UNKNOWN_CONVERSION"
+    },
+    {
+      "consumer": "known fixed-size public object",
+      "producer": "Bifid-body563",
+      "reason": "563 is prime; no listed object has that length, but variable-length consumers remain possible",
+      "status": "NO_EXACT_LENGTH_PEER"
+    },
+    {
+      "consumer": "raw32-byte AES key or80-byte ciphertext",
+      "producer": "Bifid570 or Bifid-body563",
+      "reason": "570/563 ASCII bytes differ from32/80 bytes; conversion would be a separate unknown edge",
+      "status": "REJECTED_DIRECT_IDENTITY"
+    },
+    {
+      "consumer": "password API or hash input",
+      "producer": "any public text",
+      "reason": "Variable-length byte input accepts all sizes; compatibility provides no input-selection evidence",
+      "status": "TYPE_COMPATIBLE_NOT_BOUND"
+    },
+    {
+      "consumer": "raw AES256 key",
+      "producer": "SHA256 digest",
+      "reason": "32 bytes fits; preceding verified stages instead use64-character hex as KDF password",
+      "status": "TYPE_COMPATIBLE_NOT_BOUND"
+    },
+    {
+      "consumer": "SMALL",
+      "producer": "inner-envelope",
+      "reason": "Both128 base64/96 blob/80 ciphertext, but distinct salt/blob/ciphertext fingerprints",
+      "status": "REJECTED_IDENTICAL_CONTAINER"
+    }
+  ],
+  "uninstantiated_nodes": [
+    {
+      "id": "first-SHA-input",
+      "length": null,
+      "source": "first shabef/firsthint relation",
+      "type": "UNKNOWN selected text/bytes"
+    },
+    {
+      "id": "answer-SHA-input",
+      "length": null,
+      "source": "shabefanstoo",
+      "type": "UNKNOWN answer/representation"
+    },
+    {
+      "id": "hash-digest",
+      "length": null,
+      "source": "SHA256 operator inferred from preserved mapping",
+      "type": "32-byte digest or64-hex password are distinct"
+    },
+    {
+      "id": "terminal-object",
+      "length": null,
+      "source": "No recovered object",
+      "type": "UNKNOWN; outside current public text analysis"
+    }
+  ]
+}

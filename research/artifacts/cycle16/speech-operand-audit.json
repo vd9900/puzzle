@@ -1,0 +1,1541 @@
+{
+  "assumptions": [
+    "Preserved community quotes are partial baselines, not authenticated originals",
+    "Fixed anchor gaps are comparisons, not automatic creator-intent proofs",
+    "Spacing is secondary, while the1539 decoded letters are verified"
+  ],
+  "confidence": "HIGH for exact source/coverage comparisons; UNKNOWN for intended complete construction",
+  "contradictions": [
+    "No authenticated complete movie baseline",
+    "A duplicated community question cannot be promoted to a creator repetition rule",
+    "No named encoded object or extraction count is supplied by consequence nouns",
+    "Wiseman-above antecedent remains unknown"
+  ],
+  "coverage": {
+    "intervals": [
+      {
+        "classification": "ALREADY_MAPPED_OPENING_NOT_RETESTED",
+        "span_zero_based_half_open": [
+          0,
+          86
+        ]
+      },
+      {
+        "classification": "NEW_FIXED_BASELINE_REGION",
+        "span_zero_based_half_open": [
+          86,
+          421
+        ]
+      },
+      {
+        "classification": "BASELINE_NOT_PRESERVED_BY_SELECTED_QUOTATIONS",
+        "span_zero_based_half_open": [
+          421,
+          832
+        ]
+      },
+      {
+        "classification": "NEW_FIXED_BASELINE_REGION",
+        "span_zero_based_half_open": [
+          832,
+          984
+        ]
+      },
+      {
+        "classification": "ALREADY_MAPPED_REINSERTION_NOT_RETESTED",
+        "span_zero_based_half_open": [
+          984,
+          1223
+        ]
+      },
+      {
+        "classification": "NEW_FIXED_BASELINE_REGION",
+        "span_zero_based_half_open": [
+          1223,
+          1487
+        ]
+      },
+      {
+        "classification": "BASELINE_NOT_PRESERVED_BY_SELECTED_QUOTATIONS",
+        "span_zero_based_half_open": [
+          1487,
+          1539
+        ]
+      }
+    ],
+    "no_claim_of_complete_original_movie_baseline": true,
+    "selected_baseline_coverage_letters": 1076,
+    "uncovered_letters": 463,
+    "uncovered_text_not_automatically_creator_insertion": true
+  },
+  "date": "2026-10-01",
+  "dialogue_roles": {
+    "double_you_not_independently_an_extraction_command": true,
+    "duplicate_neo_question_count_in_baseline_record": 2,
+    "roles": [
+      {
+        "baseline_literal": "Neo: You haven\u2019t answered my question.",
+        "baseline_source_location": {
+          "character_span_zero_based_half_open": [
+            1238301,
+            1238339
+          ],
+          "column_one_based": 1,
+          "line_one_based": 32776,
+          "utf8_byte_span_zero_based_half_open": [
+            1247398,
+            1247438
+          ]
+        },
+        "mapped_puzzle_anchor": {
+          "phrase": "youyouhaventansweredmyquestion",
+          "puzzle_decoded_span_zero_based_half_open": [
+            341,
+            371
+          ],
+          "puzzle_encoded_fixture_span_zero_based_half_open": [
+            788,
+            818
+          ],
+          "secondary_spaced_source_location": {
+            "character_span_zero_based_half_open": [
+              18324,
+              18361
+            ],
+            "column_one_based": 97,
+            "line_one_based": 305,
+            "utf8_byte_span_zero_based_half_open": [
+              20149,
+              20186
+            ]
+          },
+          "secondary_spacing": "YOU \nYOU HAVEN'T ANSWERED MY QUESTION",
+          "word_boundaries_are_secondary": true
+        }
+      },
+      {
+        "baseline_literal": "The Architect: Quite right.",
+        "baseline_source_location": {
+          "character_span_zero_based_half_open": [
+            1238381,
+            1238408
+          ],
+          "column_one_based": 1,
+          "line_one_based": 32780,
+          "utf8_byte_span_zero_based_half_open": [
+            1247482,
+            1247509
+          ]
+        },
+        "mapped_puzzle_anchor": {
+          "phrase": "mequiteright",
+          "puzzle_decoded_span_zero_based_half_open": [
+            371,
+            383
+          ],
+          "puzzle_encoded_fixture_span_zero_based_half_open": [
+            818,
+            830
+          ],
+          "secondary_spaced_source_location": {
+            "character_span_zero_based_half_open": [
+              18362,
+              18376
+            ],
+            "column_one_based": 34,
+            "line_one_based": 306,
+            "utf8_byte_span_zero_based_half_open": [
+              20187,
+              20201
+            ]
+          },
+          "secondary_spacing": "ME QUITE RIGHT",
+          "word_boundaries_are_secondary": true
+        }
+      }
+    ],
+    "secondary_baseline_duplication_is_not_a_creator_instruction": true,
+    "verified_question_count_in_puzzle": 1,
+    "you_me_as_dialogue_roles_supported_not_authenticated": true
+  },
+  "hypotheses": [
+    {
+      "assumptions": [
+        "The selected community quote is a useful dialogue baseline",
+        "Secondary spacing represents dialogue breaks only provisionally"
+      ],
+      "confidence": "MEDIUM-HIGH for local preserved comparison; UNKNOWN for creator intent",
+      "contradictions": [
+        "Baseline duplicates the Neo question and is not an authenticated script",
+        "Decoded speech has no authored speaker punctuation",
+        "Role replacement alone does not bind Architect choice or a word count"
+      ],
+      "hypothesis": "you/me replace dialogue speaker roles rather than define repeated-letter extraction",
+      "id": "C16-DIALOGUE-ROLES",
+      "input": "Verified public speech and three selected community baseline records",
+      "next_test": "Source-map wiseman-above against preserved earlier public text and exact chronology; require a unique authored antecedent, not a numeric or phrase sweep",
+      "operation_order": [
+        "map fixed preserved dialogue anchors",
+        "separate exact gaps from proven creator edits",
+        "require a named source and consumer before extracting any words"
+      ],
+      "output": "A typed semantic construction hypothesis, not extracted trial material",
+      "source_evidence": [
+        {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        {
+          "path": "research/artifacts/phase32-beaufort.txt",
+          "sha256": "b08a3151c88cdeb3b2e730a9d9445e1a349498d89bc94ba1d0837f9e04cc3bcd"
+        },
+        {
+          "path": "research/artifacts/phase32.txt",
+          "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+        },
+        {
+          "path": "research/sources/community-README.md",
+          "sha256": "442270a145641d6f75337bf0e12338889d22f029dc613d13f0a4d651875dae6a"
+        },
+        {
+          "path": "research/artifacts/cycle15/sum-remainder-audit.json",
+          "sha256": "5cbdb788bfd367ca37d7534f2fbc3053dbcadb28fe3a12547d4883fcc870a8c7"
+        },
+        {
+          "path": "research/artifacts/cycle14/speech-delta.json",
+          "sha256": "a2fbb4e5dcc526143c9740500849c46c4439ac4622a1340ef764c3ee728962e0"
+        },
+        {
+          "path": "research/artifacts/cycle11/trailer-referents.json",
+          "sha256": "5e1d264db6b11b611d7c334830154d2fd4160357e2f4bb1561aebf1fa7c4a1a6"
+        }
+      ],
+      "source_locations": [
+        "research/evidence/cycle02/_work__chat_transcript.txt:32774",
+        "research/evidence/cycle02/_work__chat_transcript.txt:117457",
+        "research/evidence/cycle02/_work__chat_transcript.txt:33097",
+        "research/evidence/cycle02/_work__chat_transcript.txt:84036",
+        "research/evidence/cycle02/_work__chat_transcript.txt:95714",
+        "research/artifacts/phase32-beaufort.txt:1",
+        "research/artifacts/phase32.txt:5"
+      ],
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "assumptions": [
+        "Ordinary object grammar is the least additional assumption",
+        "A data operand requires an explicit cross-reference"
+      ],
+      "confidence": "MEDIUM for narrative compatibility; UNKNOWN for hidden operation",
+      "contradictions": [
+        "A puzzle-specific narrative object could still carry a hidden instruction",
+        "No creator-attributed explanation settles operational versus narrative use",
+        "No mapped edit specifies coordinates, encoded input or consumer"
+      ],
+      "hypothesis": "Edited crash/destruction objects are narrative consequences rather than typed operands for matrixsumlist",
+      "id": "C16-CONSEQUENCE-OBJECTS",
+      "input": "Verified public speech and three selected community baseline records",
+      "next_test": "Source-map wiseman-above against preserved earlier public text and exact chronology; require a unique authored antecedent, not a numeric or phrase sweep",
+      "operation_order": [
+        "map fixed preserved dialogue anchors",
+        "separate exact gaps from proven creator edits",
+        "require a named source and consumer before extracting any words"
+      ],
+      "output": "A typed semantic construction hypothesis, not extracted trial material",
+      "source_evidence": [
+        {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        {
+          "path": "research/artifacts/phase32-beaufort.txt",
+          "sha256": "b08a3151c88cdeb3b2e730a9d9445e1a349498d89bc94ba1d0837f9e04cc3bcd"
+        },
+        {
+          "path": "research/artifacts/phase32.txt",
+          "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+        },
+        {
+          "path": "research/sources/community-README.md",
+          "sha256": "442270a145641d6f75337bf0e12338889d22f029dc613d13f0a4d651875dae6a"
+        },
+        {
+          "path": "research/artifacts/cycle15/sum-remainder-audit.json",
+          "sha256": "5cbdb788bfd367ca37d7534f2fbc3053dbcadb28fe3a12547d4883fcc870a8c7"
+        },
+        {
+          "path": "research/artifacts/cycle14/speech-delta.json",
+          "sha256": "a2fbb4e5dcc526143c9740500849c46c4439ac4622a1340ef764c3ee728962e0"
+        },
+        {
+          "path": "research/artifacts/cycle11/trailer-referents.json",
+          "sha256": "5e1d264db6b11b611d7c334830154d2fd4160357e2f4bb1561aebf1fa7c4a1a6"
+        }
+      ],
+      "source_locations": [
+        "research/evidence/cycle02/_work__chat_transcript.txt:32774",
+        "research/evidence/cycle02/_work__chat_transcript.txt:117457",
+        "research/evidence/cycle02/_work__chat_transcript.txt:33097",
+        "research/evidence/cycle02/_work__chat_transcript.txt:84036",
+        "research/evidence/cycle02/_work__chat_transcript.txt:95714",
+        "research/artifacts/phase32-beaufort.txt:1",
+        "research/artifacts/phase32.txt:5"
+      ],
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "assumptions": [
+        "Above refers to a preserved prior textual or spatial source",
+        "A source-authored referent exists rather than a generic thematic remark"
+      ],
+      "confidence": "LOW for exact referent; HIGH that a deictic reference is present",
+      "contradictions": [
+        "Selected baselines do not cover this clause",
+        "No named person, unique prior hint, exact count or consumer is stated",
+        "Mention order alone does not join it to matrixsumlist or the residual"
+      ],
+      "hypothesis": "The unbound wiseman-above reference may identify a source hint before Architect-word selection",
+      "id": "C16-SPEECH-DEICTIC-SOURCE",
+      "input": "Verified public speech and three selected community baseline records",
+      "next_test": "Source-map wiseman-above against preserved earlier public text and exact chronology; require a unique authored antecedent, not a numeric or phrase sweep",
+      "operation_order": [
+        "map fixed preserved dialogue anchors",
+        "separate exact gaps from proven creator edits",
+        "require a named source and consumer before extracting any words"
+      ],
+      "output": "A typed semantic construction hypothesis, not extracted trial material",
+      "source_evidence": [
+        {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        {
+          "path": "research/artifacts/phase32-beaufort.txt",
+          "sha256": "b08a3151c88cdeb3b2e730a9d9445e1a349498d89bc94ba1d0837f9e04cc3bcd"
+        },
+        {
+          "path": "research/artifacts/phase32.txt",
+          "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+        },
+        {
+          "path": "research/sources/community-README.md",
+          "sha256": "442270a145641d6f75337bf0e12338889d22f029dc613d13f0a4d651875dae6a"
+        },
+        {
+          "path": "research/artifacts/cycle15/sum-remainder-audit.json",
+          "sha256": "5cbdb788bfd367ca37d7534f2fbc3053dbcadb28fe3a12547d4883fcc870a8c7"
+        },
+        {
+          "path": "research/artifacts/cycle14/speech-delta.json",
+          "sha256": "a2fbb4e5dcc526143c9740500849c46c4439ac4622a1340ef764c3ee728962e0"
+        },
+        {
+          "path": "research/artifacts/cycle11/trailer-referents.json",
+          "sha256": "5e1d264db6b11b611d7c334830154d2fd4160357e2f4bb1561aebf1fa7c4a1a6"
+        }
+      ],
+      "source_locations": [
+        "research/evidence/cycle02/_work__chat_transcript.txt:32774",
+        "research/evidence/cycle02/_work__chat_transcript.txt:117457",
+        "research/evidence/cycle02/_work__chat_transcript.txt:33097",
+        "research/evidence/cycle02/_work__chat_transcript.txt:84036",
+        "research/evidence/cycle02/_work__chat_transcript.txt:95714",
+        "research/artifacts/phase32-beaufort.txt:1",
+        "research/artifacts/phase32.txt:5"
+      ],
+      "status": "INCONCLUSIVE"
+    }
+  ],
+  "hypothesis": "Unexamined edited speech objects supply a source or consumer binding for Architect last-word selection",
+  "id": "C16-SPEECH-OPERAND-AUDIT",
+  "inherited_choice_limits_not_retested": {
+    "literal_choice_in_verified_speech": false,
+    "new_Architect_word_extractions": 0,
+    "selected_word_count_is_not_specified": true,
+    "source": {
+      "path": "research/artifacts/cycle11/trailer-referents.json",
+      "sha256": "5e1d264db6b11b611d7c334830154d2fd4160357e2f4bb1561aebf1fa7c4a1a6"
+    }
+  },
+  "input": "Existing1539-letter verified speech, frozen earlier span maps and preserved baseline records",
+  "new_cryptographic_trials": 0,
+  "new_trial_inputs": 0,
+  "next_test": "Audit the exact wiseman-above clause against preserved earlier public puzzle text and chronology. Map possible antecedents without decrypting new material or scanning numeric/phrase combinations; retain unresolved reference if none is source-authored and unique.",
+  "object_references": [
+    {
+      "defined_input_count_or_consumer": false,
+      "explicit_binding_to_matrixsumlist_residual_or_faed": false,
+      "phrase": "wisemanabovehintedat",
+      "possible_referent": "An above-positioned person/hint, not identified by this clause",
+      "puzzle_decoded_span_zero_based_half_open": [
+        535,
+        555
+      ],
+      "puzzle_encoded_fixture_span_zero_based_half_open": [
+        982,
+        1002
+      ],
+      "secondary_spaced_source_location": {
+        "character_span_zero_based_half_open": [
+          18568,
+          18591
+        ],
+        "column_one_based": 27,
+        "line_one_based": 308,
+        "utf8_byte_span_zero_based_half_open": [
+          20393,
+          20416
+        ]
+      },
+      "secondary_spacing": "WISEMAN ABOVE HINTED AT",
+      "type": "DEICTIC_REFERENCE",
+      "within_new_selected_baseline_region": false,
+      "word_boundaries_are_secondary": true
+    },
+    {
+      "defined_input_count_or_consumer": false,
+      "explicit_binding_to_matrixsumlist_residual_or_faed": false,
+      "phrase": "worthhundredfourtyoftheinvestment",
+      "possible_referent": "A value/ratio assertion without a defined arithmetic input",
+      "puzzle_decoded_span_zero_based_half_open": [
+        557,
+        590
+      ],
+      "puzzle_encoded_fixture_span_zero_based_half_open": [
+        1004,
+        1037
+      ],
+      "secondary_spaced_source_location": {
+        "character_span_zero_based_half_open": [
+          18595,
+          18633
+        ],
+        "column_one_based": 54,
+        "line_one_based": 308,
+        "utf8_byte_span_zero_based_half_open": [
+          20420,
+          20458
+        ]
+      },
+      "secondary_spacing": "WORTH HUNDRED FOURTY OF THE INVESTMENT",
+      "type": "VALUE_CLAIM",
+      "within_new_selected_baseline_region": false,
+      "word_boundaries_are_secondary": true
+    },
+    {
+      "defined_input_count_or_consumer": false,
+      "explicit_binding_to_matrixsumlist_residual_or_faed": false,
+      "phrase": "arestlesssoul",
+      "possible_referent": "Object of destruction in the adapted dialogue",
+      "puzzle_decoded_span_zero_based_half_open": [
+        933,
+        946
+      ],
+      "puzzle_encoded_fixture_span_zero_based_half_open": [
+        1380,
+        1393
+      ],
+      "secondary_spaced_source_location": {
+        "character_span_zero_based_half_open": [
+          19065,
+          19080
+        ],
+        "column_one_based": 18,
+        "line_one_based": 313,
+        "utf8_byte_span_zero_based_half_open": [
+          20890,
+          20905
+        ]
+      },
+      "secondary_spacing": "A RESTLESS SOUL",
+      "type": "NARRATIVE_OBJECT",
+      "within_new_selected_baseline_region": true,
+      "word_boundaries_are_secondary": true
+    },
+    {
+      "defined_input_count_or_consumer": false,
+      "explicit_binding_to_matrixsumlist_residual_or_faed": false,
+      "phrase": "yourwillpower",
+      "possible_referent": "Object of the crash consequence, no indexed data type",
+      "puzzle_decoded_span_zero_based_half_open": [
+        1359,
+        1372
+      ],
+      "puzzle_encoded_fixture_span_zero_based_half_open": [
+        1806,
+        1819
+      ],
+      "secondary_spaced_source_location": {
+        "character_span_zero_based_half_open": [
+          19581,
+          19595
+        ],
+        "column_one_based": 22,
+        "line_one_based": 318,
+        "utf8_byte_span_zero_based_half_open": [
+          21406,
+          21420
+        ]
+      },
+      "secondary_spacing": "YOUR WILLPOWER",
+      "type": "NARRATIVE_OBJECT",
+      "within_new_selected_baseline_region": true,
+      "word_boundaries_are_secondary": true
+    },
+    {
+      "defined_input_count_or_consumer": false,
+      "explicit_binding_to_matrixsumlist_residual_or_faed": false,
+      "phrase": "yourwilltolive",
+      "possible_referent": "Object of extermination, no encoded-stream binding",
+      "puzzle_decoded_span_zero_based_half_open": [
+        1406,
+        1420
+      ],
+      "puzzle_encoded_fixture_span_zero_based_half_open": [
+        1853,
+        1867
+      ],
+      "secondary_spaced_source_location": {
+        "character_span_zero_based_half_open": [
+          19636,
+          19653
+        ],
+        "column_one_based": 77,
+        "line_one_based": 318,
+        "utf8_byte_span_zero_based_half_open": [
+          21461,
+          21478
+        ]
+      },
+      "secondary_spacing": "YOUR WILL TO LIVE",
+      "type": "NARRATIVE_OBJECT",
+      "within_new_selected_baseline_region": true,
+      "word_boundaries_are_secondary": true
+    },
+    {
+      "defined_input_count_or_consumer": false,
+      "explicit_binding_to_matrixsumlist_residual_or_faed": false,
+      "phrase": "yourselfself",
+      "possible_referent": "Repeated self source letters; role boundary versus emphasis not specified",
+      "puzzle_decoded_span_zero_based_half_open": [
+        1475,
+        1487
+      ],
+      "puzzle_encoded_fixture_span_zero_based_half_open": [
+        1922,
+        1934
+      ],
+      "secondary_spaced_source_location": {
+        "character_span_zero_based_half_open": [
+          19721,
+          19734
+        ],
+        "column_one_based": 58,
+        "line_one_based": 319,
+        "utf8_byte_span_zero_based_half_open": [
+          21546,
+          21559
+        ]
+      },
+      "secondary_spacing": "YOURSELF SELF",
+      "type": "AMBIGUOUS_TERMINAL_WORDING",
+      "within_new_selected_baseline_region": true,
+      "word_boundaries_are_secondary": true
+    },
+    {
+      "defined_input_count_or_consumer": false,
+      "explicit_binding_to_matrixsumlist_residual_or_faed": false,
+      "phrase": "ciaobellao",
+      "possible_referent": "Terminal wording; no choice anchor or extraction count supplied",
+      "puzzle_decoded_span_zero_based_half_open": [
+        1529,
+        1539
+      ],
+      "puzzle_encoded_fixture_span_zero_based_half_open": [
+        1976,
+        1986
+      ],
+      "secondary_spaced_source_location": {
+        "character_span_zero_based_half_open": [
+          19786,
+          19798
+        ],
+        "column_one_based": 20,
+        "line_one_based": 320,
+        "utf8_byte_span_zero_based_half_open": [
+          21611,
+          21623
+        ]
+      },
+      "secondary_spacing": "CIAO BELLA O",
+      "type": "TERMINAL_GREETING",
+      "within_new_selected_baseline_region": false,
+      "word_boundaries_are_secondary": true
+    }
+  ],
+  "operation_order": [
+    "validate frozen next task",
+    "map three unexamined fixed dialogue regions",
+    "round-trip12 inherited anchors and12 gaps",
+    "account for partial baseline coverage",
+    "classify seven object references without extraction"
+  ],
+  "output": "Three exact source alignments, partial coverage map, dialogue-role and object-reference audits",
+  "regions": [
+    {
+      "baseline_record": {
+        "archived_utc_timestamp": "2023-09-02T04:38:24+00:00",
+        "character_span_zero_based_half_open": [
+          1237811,
+          1238455
+        ],
+        "column_one_based": 1,
+        "header": "=== [01.09.2023 23:38:24 UTC-05:00] Deleted Account",
+        "line_one_based": 32768,
+        "source": {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          1246908,
+          1247556
+        ]
+      },
+      "baseline_selected_source_location": {
+        "character_span_zero_based_half_open": [
+          1237986,
+          1238455
+        ],
+        "column_one_based": 121,
+        "line_one_based": 32774,
+        "utf8_byte_span_zero_based_half_open": [
+          1247083,
+          1247556
+        ]
+      },
+      "both_sources_round_trip": true,
+      "classification": "COMMUNITY_MOVIE_QUOTATION_NOT_AUTHENTICATED_ORIGINAL_SCRIPT",
+      "duplicate_question_in_preserved_baseline": true,
+      "fixed_anchor_count": 4,
+      "name": "opening_dialogue",
+      "puzzle_span_zero_based_half_open": [
+        86,
+        421
+      ],
+      "segments": [
+        {
+          "baseline_normalized_span_zero_based_half_open": [
+            0,
+            158
+          ],
+          "baseline_normalized_text": "youaretheeventualityofananomalywhichdespitemysinceresteffortsihavebeenunabletoeliminatefromwhatisotherwiseaharmonyofmathematicalprecisionwhileitremainsaburden",
+          "baseline_source_location": {
+            "character_span_zero_based_half_open": [
+              1237986,
+              1238177
+            ],
+            "column_one_based": 121,
+            "line_one_based": 32774,
+            "utf8_byte_span_zero_based_half_open": [
+              1247083,
+              1247274
+            ]
+          },
+          "kind": "EXACT_INHERITED_ANCHOR",
+          "puzzle_decoded_span_zero_based_half_open": [
+            86,
+            244
+          ],
+          "puzzle_encoded_fixture_span_zero_based_half_open": [
+            533,
+            691
+          ],
+          "puzzle_normalized_text": "youaretheeventualityofananomalywhichdespitemysinceresteffortsihavebeenunabletoeliminatefromwhatisotherwiseaharmonyofmathematicalprecisionwhileitremainsaburden"
+        },
+        {
+          "baseline_normalized_span_zero_based_half_open": [
+            158,
+            176
+          ],
+          "baseline_normalized_text": "assiduouslyavoided",
+          "baseline_source_location": {
+            "character_span_zero_based_half_open": [
+              1238178,
+              1238197
+            ],
+            "column_one_based": 313,
+            "line_one_based": 32774,
+            "utf8_byte_span_zero_based_half_open": [
+              1247275,
+              1247294
+            ]
+          },
+          "kind": "UNMATCHED_GAP_NOT_INTENT_PROOF",
+          "puzzle_decoded_span_zero_based_half_open": [
+            244,
+            263
+          ],
+          "puzzle_encoded_fixture_span_zero_based_half_open": [
+            691,
+            710
+          ],
+          "puzzle_normalized_text": "tosedulouslyavoidit"
+        },
+        {
+          "baseline_normalized_span_zero_based_half_open": [
+            176,
+            254
+          ],
+          "baseline_normalized_text": "itisnotunexpectedandthusnotbeyondameasureofcontrolwhichhasledyouinexorablyhere",
+          "baseline_source_location": {
+            "character_span_zero_based_half_open": [
+              1238199,
+              1238298
+            ],
+            "column_one_based": 334,
+            "line_one_based": 32774,
+            "utf8_byte_span_zero_based_half_open": [
+              1247296,
+              1247395
+            ]
+          },
+          "kind": "EXACT_INHERITED_ANCHOR",
+          "puzzle_decoded_span_zero_based_half_open": [
+            263,
+            341
+          ],
+          "puzzle_encoded_fixture_span_zero_based_half_open": [
+            710,
+            788
+          ],
+          "puzzle_normalized_text": "itisnotunexpectedandthusnotbeyondameasureofcontrolwhichhasledyouinexorablyhere"
+        },
+        {
+          "baseline_normalized_span_zero_based_half_open": [
+            254,
+            257
+          ],
+          "baseline_normalized_text": "neo",
+          "baseline_source_location": {
+            "character_span_zero_based_half_open": [
+              1238301,
+              1238304
+            ],
+            "column_one_based": 1,
+            "line_one_based": 32776,
+            "utf8_byte_span_zero_based_half_open": [
+              1247398,
+              1247401
+            ]
+          },
+          "kind": "UNMATCHED_GAP_NOT_INTENT_PROOF",
+          "puzzle_decoded_span_zero_based_half_open": [
+            341,
+            344
+          ],
+          "puzzle_encoded_fixture_span_zero_based_half_open": [
+            788,
+            791
+          ],
+          "puzzle_normalized_text": "you"
+        },
+        {
+          "baseline_normalized_span_zero_based_half_open": [
+            257,
+            284
+          ],
+          "baseline_normalized_text": "youhaventansweredmyquestion",
+          "baseline_source_location": {
+            "character_span_zero_based_half_open": [
+              1238306,
+              1238338
+            ],
+            "column_one_based": 6,
+            "line_one_based": 32776,
+            "utf8_byte_span_zero_based_half_open": [
+              1247403,
+              1247437
+            ]
+          },
+          "kind": "EXACT_INHERITED_ANCHOR",
+          "puzzle_decoded_span_zero_based_half_open": [
+            344,
+            371
+          ],
+          "puzzle_encoded_fixture_span_zero_based_half_open": [
+            791,
+            818
+          ],
+          "puzzle_normalized_text": "youhaventansweredmyquestion"
+        },
+        {
+          "baseline_normalized_span_zero_based_half_open": [
+            284,
+            326
+          ],
+          "baseline_normalized_text": "neoyouhaventansweredmyquestionthearchitect",
+          "baseline_source_location": {
+            "character_span_zero_based_half_open": [
+              1238341,
+              1238394
+            ],
+            "column_one_based": 1,
+            "line_one_based": 32778,
+            "utf8_byte_span_zero_based_half_open": [
+              1247440,
+              1247495
+            ]
+          },
+          "kind": "UNMATCHED_GAP_NOT_INTENT_PROOF",
+          "puzzle_decoded_span_zero_based_half_open": [
+            371,
+            373
+          ],
+          "puzzle_encoded_fixture_span_zero_based_half_open": [
+            818,
+            820
+          ],
+          "puzzle_normalized_text": "me"
+        },
+        {
+          "baseline_normalized_span_zero_based_half_open": [
+            326,
+            374
+          ],
+          "baseline_normalized_text": "quiterightinterestingthatwasquickerthantheothers",
+          "baseline_source_location": {
+            "character_span_zero_based_half_open": [
+              1238396,
+              1238454
+            ],
+            "column_one_based": 16,
+            "line_one_based": 32780,
+            "utf8_byte_span_zero_based_half_open": [
+              1247497,
+              1247555
+            ]
+          },
+          "kind": "EXACT_INHERITED_ANCHOR",
+          "puzzle_decoded_span_zero_based_half_open": [
+            373,
+            421
+          ],
+          "puzzle_encoded_fixture_span_zero_based_half_open": [
+            820,
+            868
+          ],
+          "puzzle_normalized_text": "quiterightinterestingthatwasquickerthantheothers"
+        }
+      ],
+      "unmatched_gap_is_not_automatically_creator_authored_edit": true
+    },
+    {
+      "baseline_record": {
+        "archived_utc_timestamp": "2025-05-27T21:02:02+00:00",
+        "character_span_zero_based_half_open": [
+          4535515,
+          4535923
+        ],
+        "column_one_based": 1,
+        "header": "=== [27.05.2025 16:02:02 UTC-05:00] k1ng \ud83d\ude0e",
+        "line_one_based": 117451,
+        "source": {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          4583399,
+          4583811
+        ]
+      },
+      "baseline_selected_source_location": {
+        "character_span_zero_based_half_open": [
+          4535752,
+          4535923
+        ],
+        "column_one_based": 16,
+        "line_one_based": 117457,
+        "utf8_byte_span_zero_based_half_open": [
+          4583640,
+          4583811
+        ]
+      },
+      "both_sources_round_trip": true,
+      "classification": "COMMUNITY_MOVIE_QUOTATION_NOT_AUTHENTICATED_ORIGINAL_SCRIPT",
+      "duplicate_question_in_preserved_baseline": false,
+      "fixed_anchor_count": 5,
+      "name": "denial_dialogue",
+      "puzzle_span_zero_based_half_open": [
+        832,
+        984
+      ],
+      "segments": [
+        {
+          "baseline_normalized_span_zero_based_half_open": [
+            0,
+            0
+          ],
+          "baseline_normalized_text": "",
+          "baseline_source_location": {
+            "character_span_zero_based_half_open": [
+              4535752,
+              4535752
+            ],
+            "column_one_based": 16,
+            "line_one_based": 117457,
+            "utf8_byte_span_zero_based_half_open": [
+              4583640,
+              4583640
+            ]
+          },
+          "kind": "UNMATCHED_GAP_NOT_INTENT_PROOF",
+          "puzzle_decoded_span_zero_based_half_open": [
+            832,
+            836
+          ],
+          "puzzle_encoded_fixture_span_zero_based_half_open": [
+            1279,
+            1283
+          ],
+          "puzzle_normalized_text": "well"
+        },
+        {
+          "baseline_normalized_span_zero_based_half_open": [
+            0,
+            67
+          ],
+          "baseline_normalized_text": "denialisthemostpredictableofallhumanresponsesbutrestassuredthiswill",
+          "baseline_source_location": {
+            "character_span_zero_based_half_open": [
+              4535752,
+              4535835
+            ],
+            "column_one_based": 16,
+            "line_one_based": 117457,
+            "utf8_byte_span_zero_based_half_open": [
+              4583640,
+              4583723
+            ]
+          },
+          "kind": "EXACT_INHERITED_ANCHOR",
+          "puzzle_decoded_span_zero_based_half_open": [
+            836,
+            903
+          ],
+          "puzzle_encoded_fixture_span_zero_based_half_open": [
+            1283,
+            1350
+          ],
+          "puzzle_normalized_text": "denialisthemostpredictableofallhumanresponsesbutrestassuredthiswill"
+        },
+        {
+          "baseline_normalized_span_zero_based_half_open": [
+            67,
+            77
+          ],
+          "baseline_normalized_text": "bethesixth",
+          "baseline_source_location": {
+            "character_span_zero_based_half_open": [
+              4535836,
+              4535848
+            ],
+            "column_one_based": 100,
+            "line_one_based": 117457,
+            "utf8_byte_span_zero_based_half_open": [
+              4583724,
+              4583736
+            ]
+          },
+          "kind": "UNMATCHED_GAP_NOT_INTENT_PROOF",
+          "puzzle_decoded_span_zero_based_half_open": [
+            903,
+            915
+          ],
+          "puzzle_encoded_fixture_span_zero_based_half_open": [
+            1350,
+            1362
+          ],
+          "puzzle_normalized_text": "notbethelast"
+        },
+        {
+          "baseline_normalized_span_zero_based_half_open": [
+            77,
+            81
+          ],
+          "baseline_normalized_text": "time",
+          "baseline_source_location": {
+            "character_span_zero_based_half_open": [
+              4535849,
+              4535853
+            ],
+            "column_one_based": 113,
+            "line_one_based": 117457,
+            "utf8_byte_span_zero_based_half_open": [
+              4583737,
+              4583741
+            ]
+          },
+          "kind": "EXACT_INHERITED_ANCHOR",
+          "puzzle_decoded_span_zero_based_half_open": [
+            915,
+            919
+          ],
+          "puzzle_encoded_fixture_span_zero_based_half_open": [
+            1362,
+            1366
+          ],
+          "puzzle_normalized_text": "time"
+        },
+        {
+          "baseline_normalized_span_zero_based_half_open": [
+            81,
+            83
+          ],
+          "baseline_normalized_text": "we",
+          "baseline_source_location": {
+            "character_span_zero_based_half_open": [
+              4535854,
+              4535856
+            ],
+            "column_one_based": 118,
+            "line_one_based": 117457,
+            "utf8_byte_span_zero_based_half_open": [
+              4583742,
+              4583744
+            ]
+          },
+          "kind": "UNMATCHED_GAP_NOT_INTENT_PROOF",
+          "puzzle_decoded_span_zero_based_half_open": [
+            919,
+            920
+          ],
+          "puzzle_encoded_fixture_span_zero_based_half_open": [
+            1366,
+            1367
+          ],
+          "puzzle_normalized_text": "i"
+        },
+        {
+          "baseline_normalized_span_zero_based_half_open": [
+            83,
+            96
+          ],
+          "baseline_normalized_text": "havedestroyed",
+          "baseline_source_location": {
+            "character_span_zero_based_half_open": [
+              4535857,
+              4535871
+            ],
+            "column_one_based": 121,
+            "line_one_based": 117457,
+            "utf8_byte_span_zero_based_half_open": [
+              4583745,
+              4583759
+            ]
+          },
+          "kind": "EXACT_INHERITED_ANCHOR",
+          "puzzle_decoded_span_zero_based_half_open": [
+            920,
+            933
+          ],
+          "puzzle_encoded_fixture_span_zero_based_half_open": [
+            1367,
+            1380
+          ],
+          "puzzle_normalized_text": "havedestroyed"
+        },
+        {
+          "baseline_normalized_span_zero_based_half_open": [
+            96,
+            98
+          ],
+          "baseline_normalized_text": "it",
+          "baseline_source_location": {
+            "character_span_zero_based_half_open": [
+              4535872,
+              4535874
+            ],
+            "column_one_based": 136,
+            "line_one_based": 117457,
+            "utf8_byte_span_zero_based_half_open": [
+              4583760,
+              4583762
+            ]
+          },
+          "kind": "UNMATCHED_GAP_NOT_INTENT_PROOF",
+          "puzzle_decoded_span_zero_based_half_open": [
+            933,
+            946
+          ],
+          "puzzle_encoded_fixture_span_zero_based_half_open": [
+            1380,
+            1393
+          ],
+          "puzzle_normalized_text": "arestlesssoul"
+        },
+        {
+          "baseline_normalized_span_zero_based_half_open": [
+            98,
+            101
+          ],
+          "baseline_normalized_text": "and",
+          "baseline_source_location": {
+            "character_span_zero_based_half_open": [
+              4535876,
+              4535879
+            ],
+            "column_one_based": 140,
+            "line_one_based": 117457,
+            "utf8_byte_span_zero_based_half_open": [
+              4583764,
+              4583767
+            ]
+          },
+          "kind": "EXACT_INHERITED_ANCHOR",
+          "puzzle_decoded_span_zero_based_half_open": [
+            946,
+            949
+          ],
+          "puzzle_encoded_fixture_span_zero_based_half_open": [
+            1393,
+            1396
+          ],
+          "puzzle_normalized_text": "and"
+        },
+        {
+          "baseline_normalized_span_zero_based_half_open": [
+            101,
+            103
+          ],
+          "baseline_normalized_text": "we",
+          "baseline_source_location": {
+            "character_span_zero_based_half_open": [
+              4535880,
+              4535882
+            ],
+            "column_one_based": 144,
+            "line_one_based": 117457,
+            "utf8_byte_span_zero_based_half_open": [
+              4583768,
+              4583770
+            ]
+          },
+          "kind": "UNMATCHED_GAP_NOT_INTENT_PROOF",
+          "puzzle_decoded_span_zero_based_half_open": [
+            949,
+            950
+          ],
+          "puzzle_encoded_fixture_span_zero_based_half_open": [
+            1396,
+            1397
+          ],
+          "puzzle_normalized_text": "i"
+        },
+        {
+          "baseline_normalized_span_zero_based_half_open": [
+            103,
+            137
+          ],
+          "baseline_normalized_text": "havebecomeexceedinglyefficientatit",
+          "baseline_source_location": {
+            "character_span_zero_based_half_open": [
+              4535883,
+              4535922
+            ],
+            "column_one_based": 147,
+            "line_one_based": 117457,
+            "utf8_byte_span_zero_based_half_open": [
+              4583771,
+              4583810
+            ]
+          },
+          "kind": "EXACT_INHERITED_ANCHOR",
+          "puzzle_decoded_span_zero_based_half_open": [
+            950,
+            984
+          ],
+          "puzzle_encoded_fixture_span_zero_based_half_open": [
+            1397,
+            1431
+          ],
+          "puzzle_normalized_text": "havebecomeexceedinglyefficientatit"
+        }
+      ],
+      "unmatched_gap_is_not_automatically_creator_authored_edit": true
+    },
+    {
+      "baseline_record": {
+        "archived_utc_timestamp": "2023-09-02T08:41:03+00:00",
+        "character_span_zero_based_half_open": [
+          1249386,
+          1249888
+        ],
+        "column_one_based": 1,
+        "header": "=== [02.09.2023 03:41:03 UTC-05:00] Deleted Account",
+        "line_one_based": 33097,
+        "source": {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          1258510,
+          1259012
+        ]
+      },
+      "baseline_selected_source_location": {
+        "character_span_zero_based_half_open": [
+          1249640,
+          1249888
+        ],
+        "column_one_based": 255,
+        "line_one_based": 33097,
+        "utf8_byte_span_zero_based_half_open": [
+          1258764,
+          1259012
+        ]
+      },
+      "both_sources_round_trip": true,
+      "classification": "COMMUNITY_MOVIE_QUOTATION_NOT_AUTHENTICATED_ORIGINAL_SCRIPT",
+      "duplicate_question_in_preserved_baseline": false,
+      "fixed_anchor_count": 3,
+      "name": "consequence_dialogue",
+      "puzzle_span_zero_based_half_open": [
+        1223,
+        1487
+      ],
+      "segments": [
+        {
+          "baseline_normalized_span_zero_based_half_open": [
+            0,
+            13
+          ],
+          "baseline_normalized_text": "torebuildzion",
+          "baseline_source_location": {
+            "character_span_zero_based_half_open": [
+              1249640,
+              1249655
+            ],
+            "column_one_based": 255,
+            "line_one_based": 33097,
+            "utf8_byte_span_zero_based_half_open": [
+              1258764,
+              1258779
+            ]
+          },
+          "kind": "UNMATCHED_GAP_NOT_INTENT_PROOF",
+          "puzzle_decoded_span_zero_based_half_open": [
+            1223,
+            1287
+          ],
+          "puzzle_encoded_fixture_span_zero_based_half_open": [
+            1670,
+            1734
+          ],
+          "puzzle_normalized_text": "tofindtheactualprivatekeynotethatalsobruteforcingmightberequired"
+        },
+        {
+          "baseline_normalized_span_zero_based_half_open": [
+            13,
+            85
+          ],
+          "baseline_normalized_text": "failuretocomplywiththisprocesswillresultinacataclysmicsystemcrashkilling",
+          "baseline_source_location": {
+            "character_span_zero_based_half_open": [
+              1249657,
+              1249742
+            ],
+            "column_one_based": 272,
+            "line_one_based": 33097,
+            "utf8_byte_span_zero_based_half_open": [
+              1258781,
+              1258866
+            ]
+          },
+          "kind": "EXACT_INHERITED_ANCHOR",
+          "puzzle_decoded_span_zero_based_half_open": [
+            1287,
+            1359
+          ],
+          "puzzle_encoded_fixture_span_zero_based_half_open": [
+            1734,
+            1806
+          ],
+          "puzzle_normalized_text": "failuretocomplywiththisprocesswillresultinacataclysmicsystemcrashkilling"
+        },
+        {
+          "baseline_normalized_span_zero_based_half_open": [
+            85,
+            113
+          ],
+          "baseline_normalized_text": "everyoneconnectedtothematrix",
+          "baseline_source_location": {
+            "character_span_zero_based_half_open": [
+              1249743,
+              1249775
+            ],
+            "column_one_based": 358,
+            "line_one_based": 33097,
+            "utf8_byte_span_zero_based_half_open": [
+              1258867,
+              1258899
+            ]
+          },
+          "kind": "UNMATCHED_GAP_NOT_INTENT_PROOF",
+          "puzzle_decoded_span_zero_based_half_open": [
+            1359,
+            1372
+          ],
+          "puzzle_encoded_fixture_span_zero_based_half_open": [
+            1806,
+            1819
+          ],
+          "puzzle_normalized_text": "yourwillpower"
+        },
+        {
+          "baseline_normalized_span_zero_based_half_open": [
+            113,
+            147
+          ],
+          "baseline_normalized_text": "whichcoupledwiththeexterminationof",
+          "baseline_source_location": {
+            "character_span_zero_based_half_open": [
+              1249777,
+              1249816
+            ],
+            "column_one_based": 392,
+            "line_one_based": 33097,
+            "utf8_byte_span_zero_based_half_open": [
+              1258901,
+              1258940
+            ]
+          },
+          "kind": "EXACT_INHERITED_ANCHOR",
+          "puzzle_decoded_span_zero_based_half_open": [
+            1372,
+            1406
+          ],
+          "puzzle_encoded_fixture_span_zero_based_half_open": [
+            1819,
+            1853
+          ],
+          "puzzle_normalized_text": "whichcoupledwiththeexterminationof"
+        },
+        {
+          "baseline_normalized_span_zero_based_half_open": [
+            147,
+            151
+          ],
+          "baseline_normalized_text": "zion",
+          "baseline_source_location": {
+            "character_span_zero_based_half_open": [
+              1249817,
+              1249821
+            ],
+            "column_one_based": 432,
+            "line_one_based": 33097,
+            "utf8_byte_span_zero_based_half_open": [
+              1258941,
+              1258945
+            ]
+          },
+          "kind": "UNMATCHED_GAP_NOT_INTENT_PROOF",
+          "puzzle_decoded_span_zero_based_half_open": [
+            1406,
+            1423
+          ],
+          "puzzle_encoded_fixture_span_zero_based_half_open": [
+            1853,
+            1870
+          ],
+          "puzzle_normalized_text": "yourwilltoliveand"
+        },
+        {
+          "baseline_normalized_span_zero_based_half_open": [
+            151,
+            197
+          ],
+          "baseline_normalized_text": "willultimatelyresultintheextinctionoftheentire",
+          "baseline_source_location": {
+            "character_span_zero_based_half_open": [
+              1249822,
+              1249876
+            ],
+            "column_one_based": 437,
+            "line_one_based": 33097,
+            "utf8_byte_span_zero_based_half_open": [
+              1258946,
+              1259000
+            ]
+          },
+          "kind": "EXACT_INHERITED_ANCHOR",
+          "puzzle_decoded_span_zero_based_half_open": [
+            1423,
+            1469
+          ],
+          "puzzle_encoded_fixture_span_zero_based_half_open": [
+            1870,
+            1916
+          ],
+          "puzzle_normalized_text": "willultimatelyresultintheextinctionoftheentire"
+        },
+        {
+          "baseline_normalized_span_zero_based_half_open": [
+            197,
+            206
+          ],
+          "baseline_normalized_text": "humanrace",
+          "baseline_source_location": {
+            "character_span_zero_based_half_open": [
+              1249877,
+              1249887
+            ],
+            "column_one_based": 492,
+            "line_one_based": 33097,
+            "utf8_byte_span_zero_based_half_open": [
+              1259001,
+              1259011
+            ]
+          },
+          "kind": "UNMATCHED_GAP_NOT_INTENT_PROOF",
+          "puzzle_decoded_span_zero_based_half_open": [
+            1469,
+            1487
+          ],
+          "puzzle_encoded_fixture_span_zero_based_half_open": [
+            1916,
+            1934
+          ],
+          "puzzle_normalized_text": "nessofyourselfself"
+        }
+      ],
+      "unmatched_gap_is_not_automatically_creator_authored_edit": true
+    }
+  ],
+  "result": "Three new fixed regions round-trip24 segments:12 inherited anchors/12 unmatched gaps. Selected old/new baseline coverage is1076 of1539 letters;463 letters remain uncovered. you/me fit dialogue-role replacement, and the quote duplicates a question absent from the puzzle. Adapted consequence objects and seven mapped references supply no source/count/consumer for Architect last words or a residual/faed join. Sedulously wording has an unverified pre-puzzle-variant claim; exact quote differences are not intent proof.",
+  "search_space": {
+    "community_variant_claims": 2,
+    "finite_semantic_hypotheses": 3,
+    "fixed_alignment_segments": 24,
+    "fixed_baseline_records": 3,
+    "fixed_inherited_anchors": 12,
+    "mapped_object_references": 7,
+    "new_disjoint_speech_regions": 3
+  },
+  "source_evidence": [
+    {
+      "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+      "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+    },
+    {
+      "path": "research/artifacts/phase32-beaufort.txt",
+      "sha256": "b08a3151c88cdeb3b2e730a9d9445e1a349498d89bc94ba1d0837f9e04cc3bcd"
+    },
+    {
+      "path": "research/artifacts/phase32.txt",
+      "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+    },
+    {
+      "path": "research/sources/community-README.md",
+      "sha256": "442270a145641d6f75337bf0e12338889d22f029dc613d13f0a4d651875dae6a"
+    },
+    {
+      "path": "research/artifacts/cycle15/sum-remainder-audit.json",
+      "sha256": "5cbdb788bfd367ca37d7534f2fbc3053dbcadb28fe3a12547d4883fcc870a8c7"
+    },
+    {
+      "path": "research/artifacts/cycle14/speech-delta.json",
+      "sha256": "a2fbb4e5dcc526143c9740500849c46c4439ac4622a1340ef764c3ee728962e0"
+    },
+    {
+      "path": "research/artifacts/cycle11/trailer-referents.json",
+      "sha256": "5e1d264db6b11b611d7c334830154d2fd4160357e2f4bb1561aebf1fa7c4a1a6"
+    }
+  ],
+  "source_locations": [
+    "research/evidence/cycle02/_work__chat_transcript.txt:32774",
+    "research/evidence/cycle02/_work__chat_transcript.txt:117457",
+    "research/evidence/cycle02/_work__chat_transcript.txt:33097",
+    "research/evidence/cycle02/_work__chat_transcript.txt:84036",
+    "research/evidence/cycle02/_work__chat_transcript.txt:95714",
+    "research/artifacts/phase32-beaufort.txt:1",
+    "research/artifacts/phase32.txt:5"
+  ],
+  "status": "INCONCLUSIVE",
+  "variant_claims": {
+    "claims": [
+      {
+        "classification": "COMMUNITY_VARIANT_COMPARISON",
+        "literal": "assiduously avoided",
+        "pre_puzzle_original_source_preserved": false,
+        "record": {
+          "archived_utc_timestamp": "2024-11-19T19:25:30+00:00",
+          "character_span_zero_based_half_open": [
+            3303418,
+            3303769
+          ],
+          "column_one_based": 1,
+          "header": "=== [19.11.2024 14:25:30 UTC-05:00] Danny Tee",
+          "line_one_based": 84036,
+          "source": {
+            "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+            "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+          },
+          "utf8_byte_span_zero_based_half_open": [
+            3329192,
+            3329563
+          ]
+        },
+        "source_location": {
+          "character_span_zero_based_half_open": [
+            3303707,
+            3303726
+          ],
+          "column_one_based": 290,
+          "line_one_based": 84036,
+          "utf8_byte_span_zero_based_half_open": [
+            3329493,
+            3329512
+          ]
+        }
+      },
+      {
+        "classification": "COMMUNITY_UNVERIFIED_PREPUZZLE_BASELINE_CLAIM",
+        "literal": "These versions were published before the puzzle",
+        "pre_puzzle_original_source_preserved": false,
+        "record": {
+          "archived_utc_timestamp": "2024-12-24T08:37:13+00:00",
+          "character_span_zero_based_half_open": [
+            3716046,
+            3716289
+          ],
+          "column_one_based": 1,
+          "header": "=== [24.12.2024 03:37:13 UTC-05:00] ES",
+          "line_one_based": 95714,
+          "source": {
+            "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+            "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+          },
+          "utf8_byte_span_zero_based_half_open": [
+            3749499,
+            3749750
+          ]
+        },
+        "source_location": {
+          "character_span_zero_based_half_open": [
+            3716196,
+            3716243
+          ],
+          "column_one_based": 151,
+          "line_one_based": 95714,
+          "utf8_byte_span_zero_based_half_open": [
+            3749657,
+            3749704
+          ]
+        }
+      }
+    ],
+    "exact_gap_versus_selected_quote_is_verified": true,
+    "gap_intent_and_pre_puzzle_provenance_remain_unverified": true,
+    "no_external_lookup_performed": true
+  }
+}

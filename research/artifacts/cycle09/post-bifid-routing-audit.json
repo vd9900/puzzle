@@ -1,0 +1,14 @@
+{
+  "TARGET_MATCH": false,
+  "aes_trials": 276,
+  "bounded_raw_key_slots": 64,
+  "id": "C09-POST-BIFID-ROUTING-AUDIT",
+  "ledger_sha256": "9cd46c72b49c62ba1a1aca41534c870ee06bfcd471b4ab54f5263c7240b115f8",
+  "max_hit_printable_ratio": 0.481013,
+  "meaning": "Every exact candidate/transform, AES/KDF fingerprint, padding result, score, structure filter, raw-key slot and Boolean target gate reproduces without storing secret bytes",
+  "padding_hits": 3,
+  "qualifying_small_blob_hits": 2,
+  "status": "CONFIRMED",
+  "structure_hits": 0,
+  "unique_passwords": 46
+}

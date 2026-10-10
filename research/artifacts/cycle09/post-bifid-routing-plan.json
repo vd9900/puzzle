@@ -1,0 +1,95 @@
+{
+  "candidate_fingerprints": [
+    "07d2091b8686dee77408d6e4cb16b8049b3df33e2a5146f516965d8922488de0",
+    "0b18094559a255ee695ab9c8539c2171c60627a52ce08bd55af00c3c56142666",
+    "152179e12a4123506da534b2c685d56714995fbba85f44ade17b236144d47b25",
+    "1cda8451377a0ed6c6e4978ee7903cd86afcbbf3372946fc9a89afcf3e056817",
+    "312db1cac07ea93a7cc6c12d6f485e2c5ddbcc875ebdefae5e2e0fde44b9fec9",
+    "3181d2b8e1aae0beb102029397f4767778304bbd65d7146bd1973f375c533477",
+    "35bde83e1d1cc753f71e0ffae4b9a9cf03fab25e907602fb383e0013d4ec32b9",
+    "37089970d88e5cab2f41c9179e48ed1d8760f0c7aa61d66f3230d47e9ca9ca46",
+    "48ce0e064f3f045fd4cb7621e60353ac429909fdd768b98e4a2a188433b2a7b7",
+    "6045da991233a3adc1d8ed875cdfb239b92a0a3ea71af2c80db2480d1ead4de6",
+    "66987416060459ad5b3a19c338378dfc615f445fca77a09e736d3b33effa547f",
+    "66d6787aca59e47709a9e029c3953d3b21da78fdaf2256cc818eb880d61b6e89",
+    "6894c2497a3b7f6f45ca562286fe7454a88b9fd093e4f128c6db30325cba0aea",
+    "6a700571fdda9cfb53a9a2b5a004c955f32edf7937bd5edb1e409d902f5abec9",
+    "6f22a6862cc76697cc078548a2b13612ba68d728378280c9815fa1698213647f",
+    "751a86b4b82b28acd1638ed5595a533dc4d589b27db1c2c6462caa0cc3bce2a5",
+    "76b6eb6dc98e658062844c8b39bc608a01968982ba958ef798f7972a2c6e465a",
+    "77bec17dc0cd27bb6e4c17f377ff9b3346b4ad537b47f380153b48d9f3b1a4a5",
+    "8f8149987a20a5512d46dd62617bedc36aebaa8eccccdc1bac1e2a5de1a3cfad",
+    "91950ede81a9c44e006da988f2c526969994ad1609c49eeb2e352282adcd0111",
+    "9556126d1bc0fbec6acde1cb48d37497077a3ab8123fd2864fb08f9ea62838b5",
+    "986f6a6e32e3c10158bdff6908820ba7f05dadba999c7b9619a776c80e6dc8d6",
+    "9db3625aba38664fadfd7c5c3dce4f4cd5cef9d8bfddc22dbdf8925ca16326d9",
+    "a83f4b6ea11a0d643e6b795450e1e2059d642d4e84912c9c707565ef5f00dff4",
+    "a961236efc82d6715e7bb3f07e6bb8e2803856f35b10386a4ccc8813b83e8b25",
+    "b04828bcebbd9a52151505e0addd2497aba9b4e67496f909f01699352c9a6941",
+    "b05f093b3ec711fd1953821bb3292b4882d6a8f93b72331d57c7063e576f7bd5",
+    "b2af61ef6495c46d028f886987c53b4299da56c40dd7ef568ac6a73645e8d3d4",
+    "b451e7bc640a6c51e2c6c70b71ff0f97afc4dd2eadfaf15ad6b6af6de4d404b3",
+    "bd6273e7a4e0a6faa00b77caacf943ff04361635c516d4771b79efa6693c6997",
+    "bdcba4bf5bc8909c1f96a72bfb602d5574c2630d013a8c0fa15cfdac7db50717",
+    "c07c95a12906ece1bfe87ac8ba0692de420edb54aafc54c8c30d197da54e47dd",
+    "c52d32baad03b1ee7029a0bd2e120cdb38fb566bb633427a6d4f535c4beff92d",
+    "c587ea5ad52e397c32c791ab1fd82e35cea8f17a78d313946fe72cf2ceb33748",
+    "c87fccc8ffd7f31ccd0fd9a783281769f298cf1e4d59e37fadfac898fc5b91e1",
+    "ca35b055b2902e8db27491502d87c31f4c3cb4291f6125db4460d6447570c721",
+    "d1c60a7d2c94b4508ca2e0e183dd15b003b26b4633d90a0fbf668261e0324d6a",
+    "d6a7db682f59248b620c4af35260a190741452e3405d9506beae7dd955247cda",
+    "d88fc11001ebfff36e85f94c10659f3fde9a9c356b6af7d66e02d01347affd2f",
+    "da2b20a0b5b878a57ff95ca380f5d26f6f47a0d773689f49fc7c728c3792188c",
+    "dd1a3b2669748b8eea70c9a24988f193992567f1306e9826f3e46374ea5474ba",
+    "e9c620c04b92c73a4ea121474d762ee1be9d71fa3450cd3b66fdd52356e75a9c",
+    "f401078c5ccb431e21bd0efe383a17bb9cfdcf04b6b62cabb16cb8bcee282a3b",
+    "f41d4cf0b4529e76ea54956f344be5c465208ea823673fa525a6b80ae28671f9",
+    "f96e62699bb3f41e56f1da82aaf5f85552c587ff5e324b6b1a4987edee8a0099",
+    "ffe2d4f93471763c8bbe1ef611066d3c52d39b762c4db6ebbe1fbcf79404325b"
+  ],
+  "estimated_crypto_seconds": 0.0055,
+  "estimated_raw_key_slots_upper_bound": 5888,
+  "hypothesis": "The matrix sum-list routes the explicitly tagged Bifid body after fractionation, not the faed source before it; the exact btcseed header remains outside the routed payload",
+  "id": "C09-POST-BIFID-ROUTING",
+  "invariant": "Restore the unchanged header, inverse the exact stable numeric route and re-encode with the original Bifid square to reproduce faed570. The next AES must pass structural/downstream/local Boolean gates; a prefix is not the verifier",
+  "justification": "The primary matrix label, reproduced Bifid header/body and SHA command provide a bounded alternative operation order. Cycle07 routed faed before Bifid, and cycle04 tested the untransposed suffix; neither implements this edge. The prime-conditioned control weakens independence of btcseed, so the prefix is treated as a tentative header and never as proof of a seed/key. No new alphabet/cipher or candidate phrase is introduced",
+  "limits": "Exact frozen source-derived family only; no network, production transactions, repeated prior candidate trials, new cipher families or free permutations",
+  "raw_key_slots_estimate_note": "Worst case if all four small-blob/KDF trials pass padding; actual qualifying slots measured after decryption",
+  "search_space": {
+    "columnar_directions": 2,
+    "distinct_axis_lists": 24,
+    "forms": 48,
+    "header_variants": 1,
+    "kdf_digests": [
+      "md5",
+      "sha256"
+    ],
+    "new_aes_trials": 276,
+    "new_unique_passwords": 46,
+    "password_transforms": [
+      "sha256-lowerhex"
+    ],
+    "planned_aes_trials": 276,
+    "previously_tested_passwords_skipped": 0,
+    "targets": [
+      "phase32-inner",
+      "salphaseion-small",
+      "cosmic-duality"
+    ],
+    "unique_passwords": 46
+  },
+  "source_evidence": [
+    {
+      "locator": null,
+      "path": "research/artifacts/cycle08/next-post-bifid-routing-plan.json",
+      "sha256": "42ef6f5e2b13cde4fc1417f9382b8c1dbb51cddb21e158b9a26dc8834bbfe00e"
+    },
+    {
+      "locator": null,
+      "path": "research/artifacts/cycle08/cumulative-aes-audit.json",
+      "sha256": "6dbb448a8cfba6cd92360a9871302b2ba7827200abcaa53ec7c756f1a56c4a06"
+    }
+  ],
+  "status": "UNTESTED",
+  "verification_policy": "Only local Boolean target results; a positive target gate is independently verified before any result is saved. No key/password/IV/plaintext bytes or candidate addresses are written by this runner."
+}

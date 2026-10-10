@@ -1,0 +1,20 @@
+{
+  "benchmark_trials": 256,
+  "benchmark_trials_per_second": 50381.9,
+  "candidate_set_sha256": "bef2940d741e7f7c9cdad7a13f4ce05f3e37a3837e00fd773d022256fe2a7d9b",
+  "estimated_crypto_seconds": 0.59,
+  "experiment": "C02-INNER-TEXT",
+  "kdf_digests": [
+    "md5",
+    "sha256"
+  ],
+  "material_sources": 32,
+  "scope": "Only existing exact artifacts, explicit wording boundaries, case/whitespace/reversal/hash/representation transforms. No arbitrary dictionary or cipher/keyspace brute force.",
+  "targets": [
+    "phase32-inner",
+    "salphaseion-small",
+    "cosmic-duality"
+  ],
+  "trials": 29484,
+  "unique_passwords": 4914
+}

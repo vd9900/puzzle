@@ -1,0 +1,7 @@
+{
+  "group": "rails",
+  "ledger_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "meaning": "Every recorded key-slot offset, source plaintext hash, scalar fingerprint, both addresses and target gate reproduce; does not solve the puzzle",
+  "slot_checks": 0,
+  "status": "CONFIRMED"
+}

@@ -1,0 +1,14 @@
+{
+  "TARGET_MATCH": false,
+  "aes_trials": 432,
+  "bounded_raw_key_slots": 96,
+  "id": "C09-SPIRAL-RING-SUMS-AUDIT",
+  "ledger_sha256": "135334d8f253c0cfde59b4dc9415df8de9978190967dfbfbcaa95f499a5cdce8",
+  "max_hit_printable_ratio": 0.518987,
+  "meaning": "Every exact candidate/transform, AES/KDF fingerprint, padding result, score, structure filter, raw-key slot and Boolean target gate reproduces without storing secret bytes",
+  "padding_hits": 3,
+  "qualifying_small_blob_hits": 3,
+  "status": "CONFIRMED",
+  "structure_hits": 0,
+  "unique_passwords": 72
+}

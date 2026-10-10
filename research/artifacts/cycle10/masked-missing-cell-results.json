@@ -1,0 +1,16 @@
+{
+  "TARGET_MATCH": false,
+  "aes_trials": 1152,
+  "bounded_raw_key_slots": 64,
+  "elapsed_seconds": 0.176,
+  "id": "C10-MASKED-MISSING-CELL",
+  "ledger_sha256": "de23e6c8df80c0844be8179db1628dfacc9c3a2ec6f3a8ecf8de623504212b36",
+  "max_hit_printable_ratio": 0.386586,
+  "padding_hits": 3,
+  "qualifying_small_blob_hits": 2,
+  "result": "The frozen source-derived construction has no exact scoped target; padding and structure filters are not a creator-intent proof",
+  "secret_logging": "No password, AES key/IV, scalar, plaintext byte sequence or candidate address is stored; all source material regenerates locally",
+  "status": "INCONCLUSIVE",
+  "structure_hits": 0,
+  "unique_passwords": 192
+}

@@ -1,0 +1,225 @@
+{
+  "TARGET_MATCH": false,
+  "audited_ledgers": [
+    {
+      "ledger": "research/artifacts/cycle02/C02-INNER-TEXT-bef2940d741e7f7c.jsonl",
+      "ledger_sha256": "adea5af3e399150c43fab4420d677fe45b4bcf75f1377eca986b37c7b721b551",
+      "padding_hits": 113,
+      "recomputed": "Every password, KEY/IV/salt, padding status, hit plaintext, score and structural/target gate",
+      "records": 4914,
+      "targets": {
+        "cosmic-duality": 9828,
+        "phase32-inner": 9828,
+        "salphaseion-small": 9828
+      },
+      "trials": 29484
+    },
+    {
+      "ledger": "research/artifacts/cycle02/joint-aes.jsonl",
+      "ledger_sha256": "8a99dbb1a78e652a2a72a3207380271344f0f45351a388a162380db8ac74b374",
+      "padding_hits": 370,
+      "recomputed": "Every password, KEY/IV/salt, padding status, hit plaintext, score and structural/target gate",
+      "records": 14460,
+      "targets": {
+        "cosmic-duality": 28920,
+        "phase32-inner": 28920,
+        "salphaseion-small": 28920
+      },
+      "trials": 86760
+    },
+    {
+      "ledger": "research/artifacts/cycle02/prime-gap-aes.jsonl",
+      "ledger_sha256": "dec7388d5f7cf815c77a8036e73c1e8476f28ca4c53fc22cbd572474564b3e2c",
+      "padding_hits": 12,
+      "recomputed": "Every password, KEY/IV/salt, padding status, hit plaintext, score and structural/target gate",
+      "records": 567,
+      "targets": {
+        "cosmic-duality": 1134,
+        "phase32-inner": 1134,
+        "salphaseion-small": 1134
+      },
+      "trials": 3402
+    },
+    {
+      "ledger": "research/artifacts/cycle02/paired-aes.jsonl",
+      "ledger_sha256": "44dece8c871a1d1b247823adf249cbc27f93292dd9deccc456646ddbb4027f49",
+      "padding_hits": 235,
+      "recomputed": "Every password, KEY/IV/salt, padding status, hit plaintext, score and structural/target gate",
+      "records": 8856,
+      "targets": {
+        "cosmic-duality": 17712,
+        "phase32-inner": 17712,
+        "salphaseion-small": 17712
+      },
+      "trials": 53136
+    },
+    {
+      "ledger": "research/artifacts/cycle02/coordinate-aes.jsonl",
+      "ledger_sha256": "f97de65492400a8a09b57f587831484814d7984b0a856d5de56e7ac628916fa6",
+      "padding_hits": 25,
+      "recomputed": "Every password, KEY/IV/salt, padding status, hit plaintext, score and structural/target gate",
+      "records": 1164,
+      "targets": {
+        "cosmic-duality": 2328,
+        "phase32-inner": 2328,
+        "salphaseion-small": 2328
+      },
+      "trials": 6984
+    },
+    {
+      "ledger": "research/artifacts/cycle03/zeroed-residual-aes.jsonl",
+      "ledger_sha256": "1359e709178bc21255ffd5654841bf4c1f49243086db90bef28e596e51f3cd54",
+      "padding_hits": 3,
+      "recomputed": "Every password, KEY/IV/salt, padding status, hit plaintext, score and structural/target gate",
+      "records": 180,
+      "targets": {
+        "cosmic-duality": 360,
+        "phase32-inner": 360,
+        "salphaseion-small": 360
+      },
+      "trials": 1080
+    },
+    {
+      "ledger": "research/artifacts/cycle03/image-sum-aes.jsonl",
+      "ledger_sha256": "1f6065c49c5a49e9c0ee1905b54e9d9bb3dd2ce15934a0505a6c44957a8fe49b",
+      "padding_hits": 137,
+      "recomputed": "Every password, KEY/IV/salt, padding status, hit plaintext, score and structural/target gate",
+      "records": 6030,
+      "targets": {
+        "cosmic-duality": 12060,
+        "phase32-inner": 12060,
+        "salphaseion-small": 12060
+      },
+      "trials": 36180
+    },
+    {
+      "ledger": "research/artifacts/cycle03/decimal-residual-aes.jsonl",
+      "ledger_sha256": "3d6b0da9281159040a703e8fcc8a4ab74f40b9385992e8687f3392ae8e3a6ebe",
+      "padding_hits": 26,
+      "recomputed": "Every password, KEY/IV/salt, padding status, hit plaintext, score and structural/target gate",
+      "records": 1368,
+      "targets": {
+        "cosmic-duality": 2736,
+        "phase32-inner": 2736,
+        "salphaseion-small": 2736
+      },
+      "trials": 8208
+    },
+    {
+      "ledger": "research/artifacts/cycle04/ranked-alphabet-aes.jsonl",
+      "ledger_sha256": "173aaff3f3d66991bd42031206c089b6c29b9ce5d93f7cd3a4824a0013ba71f9",
+      "padding_hits": 67,
+      "recomputed": "Every password, KEY/IV/salt, padding status, hit plaintext, score and structural/target gate",
+      "records": 2496,
+      "targets": {
+        "cosmic-duality": 4992,
+        "phase32-inner": 4992,
+        "salphaseion-small": 4992
+      },
+      "trials": 14976
+    },
+    {
+      "ledger": "research/artifacts/cycle04/bifid-material-aes.jsonl",
+      "ledger_sha256": "22edad32812b26375713fa84494de0c9adf2a47ef21d8c47da4806db9ba3dda7",
+      "padding_hits": 3,
+      "recomputed": "Every password, KEY/IV/salt, padding status, hit plaintext, score and structural/target gate",
+      "records": 54,
+      "targets": {
+        "cosmic-duality": 108,
+        "phase32-inner": 108,
+        "salphaseion-small": 108
+      },
+      "trials": 324
+    },
+    {
+      "ledger": "research/artifacts/cycle04/hash-composition-aes.jsonl",
+      "ledger_sha256": "56621b13e8d7ca5af300cd686bc9180667f5b4a4b45178f77c0d668e7d109d76",
+      "padding_hits": 6,
+      "recomputed": "Every password, KEY/IV/salt, padding status, hit plaintext, score and structural/target gate",
+      "records": 360,
+      "targets": {
+        "cosmic-duality": 720,
+        "phase32-inner": 720,
+        "salphaseion-small": 720
+      },
+      "trials": 2160
+    },
+    {
+      "ledger": "research/artifacts/cycle05/literal-sumlist-aes.jsonl",
+      "ledger_sha256": "8f2235e32c0733ac3bbb91a3e16b8407757cbe78ec78a5ba0a3b034d192385da",
+      "padding_hits": 17,
+      "recomputed": "Every password, KEY/IV/salt, padding status, hit plaintext, score and structural/target gate",
+      "records": 864,
+      "targets": {
+        "cosmic-duality": 1728,
+        "phase32-inner": 1728,
+        "salphaseion-small": 1728
+      },
+      "trials": 5184
+    },
+    {
+      "ledger": "research/artifacts/cycle05/bifid-rails-aes.jsonl",
+      "ledger_sha256": "6d17993b1edd656b904f910bfec5c36301929fd5c2c0b78b80d215e8e438f954",
+      "padding_hits": 0,
+      "recomputed": "Every password, KEY/IV/salt, padding status, hit plaintext, score and structural/target gate",
+      "records": 84,
+      "targets": {
+        "cosmic-duality": 168,
+        "phase32-inner": 168,
+        "salphaseion-small": 168
+      },
+      "trials": 504
+    },
+    {
+      "candidate_identifier_field": "password_fingerprint",
+      "ledger": "research/artifacts/cycle06/missing-cell-aes.jsonl",
+      "ledger_sha256": "76092dfc8cfaa885ce8c76a11cc48c38054a6a14ee6fcf5208f5430b1f9645d2",
+      "padding_hits": 13,
+      "recomputed": "Every candidate/provenance, crypto fingerprint, padding, score/structure and Boolean direct/adjacent-key gate; no secret bytes stored",
+      "records": 576,
+      "trials": 3456
+    },
+    {
+      "candidate_identifier_field": "password_fingerprint",
+      "ledger": "research/artifacts/cycle07/numeric-routing-aes.jsonl",
+      "ledger_sha256": "604516fa7312e1b1777594fc20ab946bcfd744856c0bfd7ee994b73178bfd12f",
+      "padding_hits": 9,
+      "recomputed": "Every exact numeric route/provenance, AES/KDF fingerprint, padding, score/structure and local Boolean target/raw-key gate; no secret bytes stored",
+      "records": 414,
+      "trials": 2484
+    },
+    {
+      "candidate_identifier_field": "password_fingerprint",
+      "ledger": "research/artifacts/cycle08/residual-bifid-aes.jsonl",
+      "ledger_sha256": "fb94223f756170f829c81de4e22b9ad15e7c68bca9db11b9851a31e66a80f605",
+      "padding_hits": 0,
+      "recomputed": "Exact source-derived residual keyword, reversible full-period Bifid and all secret-safe AES/Boolean gates",
+      "records": 3,
+      "trials": 18
+    },
+    {
+      "candidate_identifier_field": "password_fingerprint",
+      "ledger": "research/artifacts/cycle09/post-bifid-routing-aes.jsonl",
+      "ledger_sha256": "9cd46c72b49c62ba1a1aca41534c870ee06bfcd471b4ab54f5263c7240b115f8",
+      "padding_hits": 3,
+      "recomputed": "Every frozen source transform, crypto fingerprint, padding/structure/score and local Boolean direct/adjacent-key gate",
+      "records": 46,
+      "trials": 276
+    }
+  ],
+  "baseline_only_passwords": 88,
+  "baseline_overlap_with_ledger_union": 34,
+  "baseline_passwords": 122,
+  "combined_distinct_target_kdf_trials_including_baseline": 250536,
+  "combined_unique_passwords_including_baseline": 41756,
+  "distinct_target_kdf_trials": 250008,
+  "id": "C09-CUMULATIVE-AES-AUDIT",
+  "meaning": "Exact detailed-ledger union with separately identity-audited baseline122 passwords/732 trials/34 overlaps; no baseline AES replay, secondary counts or solved-key claim",
+  "new_passwords": 46,
+  "padding_hit_records": 1039,
+  "previously_tested_passwords_skipped": 0,
+  "recorded_trial_count_including_baseline": 255348,
+  "status": "CONFIRMED",
+  "trial_records": 254616,
+  "unique_passwords": 41668
+}

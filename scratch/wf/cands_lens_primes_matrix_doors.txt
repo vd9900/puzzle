@@ -1,0 +1,61 @@
+# lens primes_matrix door preimages (gsmg.io/<sha256hex(line)>), priority order
+GS00I050TCP0Z0LEC0A0LEN0E1GSM010C9wtd0wfw0p0j2x0mJPAw07prBe
+GSI5TCPZLECALENE1GSM1C9wtdwfwpj2xmJPAw7prBe
+G00G0O0BTC0U0ZLE0H0LLE0GE1GS0G0JC9wt0Swf0A0gj20cmJPA0x7prB0
+GGOBTCUZLEHLLEGE1GSGJC9wtSwfAgj2cmJPAx7prB
+890070508b90d0cf8070f270b70570000645d0b6a0a057a0102390c015206032
+89758b9dcf87f27b705700645db6aa57a10239c0152632
+80020c098b0c01cf0803f20cb7050f0506450db60701570110230ac0150f0a32
+82c98bc1cf83f2cb705f50645db6715711023ac015fa32
+{1},{4},{21}
+{1 },{4} ,{21}
+1 4 21
+21bit
+rabbit21
+rabbit1812
+r18a1b2
+hundredfourty
+75777375
+7 5 7 7 7 3 7 5
+4 7 11 13 6 7 9 10
+338659
+659338
+yellow659blue338
+101
+104
+fefefe
+1G00G0J09wt0S0fwA0g02xc0JPAwx0p0Be
+1GGJ9wtSfwAg2xcJPAwxpBe
+ma00i0s0mli0t
+maismlit
+la00w0r0sbe0o0ear0h0cho0ce
+lawrsbeoearhchoce
+ye00o0b0uep0i0esm0t0ixs0mlist0a0tword0bef0r0arc0ichoi0eyiny0n0
+yeobuepiesmtixsmlistatwordbefrarcichoieyinyn
+y00l0w0lue0r0mes0a0rix0umlis0l0stwor0sbe0o0ear0hicho0ceyin0a0g
+ylwluermesarixumlislstworsbeoearhichoceyinag
+100M010C9w0d0wfw0p0j2x0mJPAw070rBe
+1M1C9wdwfwpj2xmJPAw7rBe
+m00r0x0uml0s0
+mrxumls
+l00t0o0dsb0f0rea0c0ich0ice
+ltodsbfreacichice
+gs00i050tcp0z0lec0a0len0e1gsm010c9wtd0wfw0p0j2x0mjpaw07prbe
+gsi5tcpzlecalene1gsm1c9wtdwfwpj2xmjpaw7prbe
+g00g0o0btc0u0zle0h0lle0ge1gs0g0jc9wt0swf0a0gj20cmjpa0x7prb0
+ggobtcuzlehllege1gsgjc9wtswfagj2cmjpax7prb
+1421
+1,4,21
+21 1812
+1812 21
+47111367910
+7577
+7375
+7577 7375
+75777375 47111367910
+43 44
+4344
+7 23 31 47 103 127 71 79 151 191
+72331471031277179151191
+yellowblueprimes21
+yellowblueprimes1812

@@ -1,0 +1,14 @@
+{
+  "TARGET_MATCH": false,
+  "aes_trials": 1152,
+  "bounded_raw_key_slots": 64,
+  "id": "C10-MASKED-MISSING-CELL-AUDIT",
+  "ledger_sha256": "de23e6c8df80c0844be8179db1628dfacc9c3a2ec6f3a8ecf8de623504212b36",
+  "max_hit_printable_ratio": 0.386586,
+  "meaning": "Every exact candidate/transform, AES/KDF fingerprint, padding result, score, structure filter, raw-key slot and Boolean target gate reproduces without storing secret bytes",
+  "padding_hits": 3,
+  "qualifying_small_blob_hits": 2,
+  "status": "CONFIRMED",
+  "structure_hits": 0,
+  "unique_passwords": 192
+}

@@ -1,0 +1,598 @@
+{
+  "assumptions": [
+    "Exact original wording is distinct from a later thematic interpretation",
+    "Human screenshot locator is not OCR/extraction geometry",
+    "Name spelling is recorded without generating transformations"
+  ],
+  "checkpoint_reused": {
+    "literal_format_not_a_universal_necessary_gate": true,
+    "no_checkpoint_or_cover_experiment_repeated": true,
+    "records": [
+      {
+        "creator_labeled_export": {
+          "archived_utc_timestamp": "2023-08-06T12:12:13+00:00",
+          "character_span_zero_based_half_open": [
+            28581,
+            28674
+          ],
+          "column_one_based": 1,
+          "header": "=== [06.08.2023 07:12:13 UTC-05:00] Jrk Bgrt",
+          "line_one_based": 802,
+          "source": {
+            "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+            "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+          },
+          "utf8_byte_span_zero_based_half_open": [
+            28809,
+            28902
+          ]
+        },
+        "exact_public_quote": "Once you hit a \"ying yang\", you'll be able to solve it the same day.",
+        "full_transcript": {
+          "archived_utc_timestamp": "2023-08-06T12:12:13+00:00",
+          "character_span_zero_based_half_open": [
+            829081,
+            829174
+          ],
+          "column_one_based": 1,
+          "header": "=== [06.08.2023 07:12:13 UTC-05:00] Jrk Bgrt",
+          "line_one_based": 22796,
+          "source": {
+            "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+            "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+          },
+          "utf8_byte_span_zero_based_half_open": [
+            837407,
+            837500
+          ]
+        },
+        "matching_exports_are_not_independent_authentication": true,
+        "quote_location": {
+          "character_span_zero_based_half_open": [
+            28606,
+            28674
+          ],
+          "column_one_based": 1,
+          "line_one_based": 804,
+          "utf8_byte_span_zero_based_half_open": [
+            28834,
+            28902
+          ]
+        },
+        "reply_target_metadata_preserved": false
+      },
+      {
+        "creator_labeled_export": {
+          "archived_utc_timestamp": "2025-04-28T16:57:17+00:00",
+          "character_span_zero_based_half_open": [
+            42661,
+            42767
+          ],
+          "column_one_based": 1,
+          "header": "=== [28.04.2025 11:57:17 UTC-05:00] Jrk Bgrt",
+          "line_one_based": 1186,
+          "source": {
+            "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+            "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+          },
+          "utf8_byte_span_zero_based_half_open": [
+            42988,
+            43094
+          ]
+        },
+        "exact_public_quote": "Did anyone found yingyang? I don't think so, you guys are so smart, when yingyang is reached, 2 hours max.",
+        "full_transcript": {
+          "archived_utc_timestamp": "2025-04-28T16:57:17+00:00",
+          "character_span_zero_based_half_open": [
+            4275547,
+            4275653
+          ],
+          "column_one_based": 1,
+          "header": "=== [28.04.2025 11:57:17 UTC-05:00] Jrk Bgrt",
+          "line_one_based": 110423,
+          "source": {
+            "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+            "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+          },
+          "utf8_byte_span_zero_based_half_open": [
+            4316869,
+            4316975
+          ]
+        },
+        "matching_exports_are_not_independent_authentication": true,
+        "quote_location": {
+          "character_span_zero_based_half_open": [
+            42661,
+            42767
+          ],
+          "column_one_based": 1,
+          "line_one_based": 1186,
+          "utf8_byte_span_zero_based_half_open": [
+            42988,
+            43094
+          ]
+        },
+        "reply_target_metadata_preserved": false
+      },
+      {
+        "creator_labeled_export": {
+          "archived_utc_timestamp": "2025-04-28T17:01:36+00:00",
+          "character_span_zero_based_half_open": [
+            43062,
+            43130
+          ],
+          "column_one_based": 1,
+          "header": "=== [28.04.2025 12:01:36 UTC-05:00] Jrk Bgrt",
+          "line_one_based": 1198,
+          "source": {
+            "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+            "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+          },
+          "utf8_byte_span_zero_based_half_open": [
+            43389,
+            43459
+          ]
+        },
+        "exact_public_quote": "It\u2019s the next phase, but I await the day someone finally gets there.",
+        "full_transcript": {
+          "archived_utc_timestamp": "2025-04-28T17:01:36+00:00",
+          "character_span_zero_based_half_open": [
+            4276709,
+            4276777
+          ],
+          "column_one_based": 1,
+          "header": "=== [28.04.2025 12:01:36 UTC-05:00] Jrk Bgrt",
+          "line_one_based": 110465,
+          "source": {
+            "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+            "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+          },
+          "utf8_byte_span_zero_based_half_open": [
+            4318040,
+            4318110
+          ]
+        },
+        "matching_exports_are_not_independent_authentication": true,
+        "quote_location": {
+          "character_span_zero_based_half_open": [
+            43062,
+            43130
+          ],
+          "column_one_based": 1,
+          "line_one_based": 1198,
+          "utf8_byte_span_zero_based_half_open": [
+            43389,
+            43459
+          ]
+        },
+        "reply_target_metadata_preserved": false
+      }
+    ],
+    "source": {
+      "path": "research/artifacts/cycle13/checkpoint-referents-v2.json",
+      "sha256": "cbae760d02cae34419174bfc7f5d5d36addbc83b57051a74aedec4c9211a2d09"
+    }
+  },
+  "confidence": "HIGH original wording/record/screenshot association; UNKNOWN intended hidden semantic role",
+  "contradictions": [
+    "Name association does not identify the carried object or final consumer",
+    "Secondary movie source is not creator-authenticated baseline",
+    "A name-derived spelling or literal output requirement would be an extra assumption"
+  ],
+  "creator_name_record": {
+    "clauses": [
+      {
+        "character_span_zero_based_half_open": [
+          17586,
+          17653
+        ],
+        "column_one_based": 449,
+        "line_one_based": 510,
+        "literal": "When people progress in salphation it might be cracked pretty soon.",
+        "utf8_byte_span_zero_based_half_open": [
+          17722,
+          17789
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          17654,
+          17724
+        ],
+        "column_one_based": 517,
+        "line_one_based": 510,
+        "literal": "Breaking salphation, should be giving the feeling of the phase's name.",
+        "utf8_byte_span_zero_based_half_open": [
+          17790,
+          17860
+        ]
+      },
+      {
+        "character_span_zero_based_half_open": [
+          17725,
+          17782
+        ],
+        "column_one_based": 588,
+        "line_one_based": 510,
+        "literal": "Won't be easy but I've noticed how clever most of you are",
+        "utf8_byte_span_zero_based_half_open": [
+          17861,
+          17918
+        ]
+      }
+    ],
+    "creator_record": {
+      "archived_utc_timestamp": "2021-03-14T09:45:01+00:00",
+      "character_span_zero_based_half_open": [
+        17138,
+        17858
+      ],
+      "column_one_based": 1,
+      "header": "=== [14.03.2021 04:45:01 UTC-05:00] Jrk Bgrt",
+      "line_one_based": 510,
+      "source": {
+        "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+        "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+      },
+      "utf8_byte_span_zero_based_half_open": [
+        17274,
+        17994
+      ]
+    },
+    "matching_exports_are_not_independent_identity_authentication": true,
+    "no_explicit_algorithm_source_argument_or_container": true,
+    "original_chat_record": {
+      "archived_utc_timestamp": "2021-03-14T09:45:01+00:00",
+      "character_span_zero_based_half_open": [
+        507508,
+        508228
+      ],
+      "column_one_based": 1,
+      "header": "=== [14.03.2021 04:45:01 UTC-05:00] Jrk Bgrt",
+      "line_one_based": 15661,
+      "source": {
+        "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+        "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+      },
+      "utf8_byte_span_zero_based_half_open": [
+        512745,
+        513465
+      ]
+    },
+    "phase_name_is_linked_to_feeling_not_an_explicit_output_string": true,
+    "salphation_spelling_occurrences_in_this_record": 2
+  },
+  "date": "2026-10-01",
+  "hypotheses": [
+    {
+      "assumptions": [
+        "Feeling is used in its ordinary affective sense",
+        "Salphation refers to the current phase, without requiring a spelling transformation"
+      ],
+      "confidence": "MEDIUM-HIGH exact feeling grammar; UNKNOWN intended concealed meaning",
+      "contradictions": [
+        "The phrase may be deliberately suggestive",
+        "Affective recognition alone cannot identify the construction's input or output"
+      ],
+      "hypothesis": "The phase-name remark describes the feeling or recognition associated with completing SalPhaseIon rather than a literal output format",
+      "id": "C20-NAME-AFFECTIVE",
+      "input": "One original phase-name statement, two exact headings and existing thematic/checkpoint evidence",
+      "next_test": "Audit one bounded original August3 2023 context window around creator-attributed you guys got really really far already and actually the hardest part is done. Determine the named prior community object and preserved reply metadata, distinguishing progress acknowledgement from confirmation of a transformation. Compare only frozen stage/name/checkpoint constraints; no broad phrase sweep, cryptographic trial or new input extraction.",
+      "operation_order": [
+        "map exact creator statement",
+        "compare authored headings and fixed secondary thematic word",
+        "reuse checkpoint-format uncertainty without new output trials"
+      ],
+      "output": "One bounded name-role interpretation, not a generated name, output gate or algorithm",
+      "source_evidence": [
+        {
+          "path": "research/artifacts/cycle20/board-width-reference.json",
+          "sha256": "ddcbaeab564fd17436747b381f9315e358209d72059c14aaf042b9205952b0e1"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+          "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        {
+          "path": "research/sources/salphaseion.html",
+          "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+        },
+        {
+          "path": "research/sources/maintained-hints__2021-03-14.png",
+          "sha256": "4e3dc1a4c1306be5efaccec6f47f95c1652a21cc33d23991927a33dd8975ebf4"
+        },
+        {
+          "path": "research/artifacts/cycle13/checkpoint-referents-v2.json",
+          "sha256": "cbae760d02cae34419174bfc7f5d5d36addbc83b57051a74aedec4c9211a2d09"
+        },
+        {
+          "path": "research/artifacts/cycle11/trailer-referents.json",
+          "sha256": "5e1d264db6b11b611d7c334830154d2fd4160357e2f4bb1561aebf1fa7c4a1a6"
+        }
+      ],
+      "source_locations": [
+        "research/evidence/cycle02/_work__creator_jrk.txt:510",
+        "research/evidence/cycle02/_work__chat_transcript.txt:15661",
+        "research/sources/salphaseion.html:16",
+        "research/sources/salphaseion.html:19",
+        "research/sources/maintained-hints__2021-03-14.png",
+        "research/evidence/cycle02/_work__chat_transcript.txt:26070",
+        "research/artifacts/cycle13/checkpoint-referents-v2.json"
+      ],
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "assumptions": [
+        "A semantic association is intended",
+        "The secondary movie passage supplies thematic context, not replacement puzzle text"
+      ],
+      "confidence": "MEDIUM thematic compatibility; LOW creator-authenticated interpretation",
+      "contradictions": [
+        "Creator statement uses salphation, not literal salvation",
+        "Primary heading says SalPhaseIon",
+        "Secondary salvation passage is absent from verified modified speech and cannot define a selector"
+      ],
+      "hypothesis": "The phase name evokes salvation/source-return themes present in secondary Architect dialogue",
+      "id": "C20-NAME-THEMATIC-SALVATION",
+      "input": "One original phase-name statement, two exact headings and existing thematic/checkpoint evidence",
+      "next_test": "Audit one bounded original August3 2023 context window around creator-attributed you guys got really really far already and actually the hardest part is done. Determine the named prior community object and preserved reply metadata, distinguishing progress acknowledgement from confirmation of a transformation. Compare only frozen stage/name/checkpoint constraints; no broad phrase sweep, cryptographic trial or new input extraction.",
+      "operation_order": [
+        "map exact creator statement",
+        "compare authored headings and fixed secondary thematic word",
+        "reuse checkpoint-format uncertainty without new output trials"
+      ],
+      "output": "One bounded name-role interpretation, not a generated name, output gate or algorithm",
+      "source_evidence": [
+        {
+          "path": "research/artifacts/cycle20/board-width-reference.json",
+          "sha256": "ddcbaeab564fd17436747b381f9315e358209d72059c14aaf042b9205952b0e1"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+          "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        {
+          "path": "research/sources/salphaseion.html",
+          "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+        },
+        {
+          "path": "research/sources/maintained-hints__2021-03-14.png",
+          "sha256": "4e3dc1a4c1306be5efaccec6f47f95c1652a21cc33d23991927a33dd8975ebf4"
+        },
+        {
+          "path": "research/artifacts/cycle13/checkpoint-referents-v2.json",
+          "sha256": "cbae760d02cae34419174bfc7f5d5d36addbc83b57051a74aedec4c9211a2d09"
+        },
+        {
+          "path": "research/artifacts/cycle11/trailer-referents.json",
+          "sha256": "5e1d264db6b11b611d7c334830154d2fd4160357e2f4bb1561aebf1fa7c4a1a6"
+        }
+      ],
+      "source_locations": [
+        "research/evidence/cycle02/_work__creator_jrk.txt:510",
+        "research/evidence/cycle02/_work__chat_transcript.txt:15661",
+        "research/sources/salphaseion.html:16",
+        "research/sources/salphaseion.html:19",
+        "research/sources/maintained-hints__2021-03-14.png",
+        "research/evidence/cycle02/_work__chat_transcript.txt:26070",
+        "research/artifacts/cycle13/checkpoint-referents-v2.json"
+      ],
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "assumptions": [
+        "Feeling of the name is an exact text-output requirement",
+        "A source-authored spelling/representation rule exists"
+      ],
+      "confidence": "LOW; literal gate not established",
+      "contradictions": [
+        "Primary statement names a feeling, not plaintext bytes",
+        "Heading and chat spelling are distinct observations, not a prescribed normalization",
+        "Frozen checkpoint wording does not establish a universal literal-output gate"
+      ],
+      "hypothesis": "The phase name or a name-derived string must occur literally in the correct output",
+      "id": "C20-NAME-LITERAL-GATE",
+      "input": "One original phase-name statement, two exact headings and existing thematic/checkpoint evidence",
+      "next_test": "Audit one bounded original August3 2023 context window around creator-attributed you guys got really really far already and actually the hardest part is done. Determine the named prior community object and preserved reply metadata, distinguishing progress acknowledgement from confirmation of a transformation. Compare only frozen stage/name/checkpoint constraints; no broad phrase sweep, cryptographic trial or new input extraction.",
+      "operation_order": [
+        "map exact creator statement",
+        "compare authored headings and fixed secondary thematic word",
+        "reuse checkpoint-format uncertainty without new output trials"
+      ],
+      "output": "One bounded name-role interpretation, not a generated name, output gate or algorithm",
+      "source_evidence": [
+        {
+          "path": "research/artifacts/cycle20/board-width-reference.json",
+          "sha256": "ddcbaeab564fd17436747b381f9315e358209d72059c14aaf042b9205952b0e1"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+          "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+        },
+        {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        {
+          "path": "research/sources/salphaseion.html",
+          "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+        },
+        {
+          "path": "research/sources/maintained-hints__2021-03-14.png",
+          "sha256": "4e3dc1a4c1306be5efaccec6f47f95c1652a21cc33d23991927a33dd8975ebf4"
+        },
+        {
+          "path": "research/artifacts/cycle13/checkpoint-referents-v2.json",
+          "sha256": "cbae760d02cae34419174bfc7f5d5d36addbc83b57051a74aedec4c9211a2d09"
+        },
+        {
+          "path": "research/artifacts/cycle11/trailer-referents.json",
+          "sha256": "5e1d264db6b11b611d7c334830154d2fd4160357e2f4bb1561aebf1fa7c4a1a6"
+        }
+      ],
+      "source_locations": [
+        "research/evidence/cycle02/_work__creator_jrk.txt:510",
+        "research/evidence/cycle02/_work__chat_transcript.txt:15661",
+        "research/sources/salphaseion.html:16",
+        "research/sources/salphaseion.html:19",
+        "research/sources/maintained-hints__2021-03-14.png",
+        "research/evidence/cycle02/_work__chat_transcript.txt:26070",
+        "research/artifacts/cycle13/checkpoint-referents-v2.json"
+      ],
+      "status": "INCONCLUSIVE"
+    }
+  ],
+  "hypothesis": "The creator-attributed phase-name remark constrains the intended construction's object role or output more tightly than arbitrary cipher trials",
+  "id": "C20-PHASE-NAME-SEMANTICS",
+  "input": "Original public name/feeling statement, heading markup, preserved screenshot and frozen checkpoint/movie maps",
+  "new_cryptographic_trials": 0,
+  "new_name_variants": 0,
+  "new_trial_inputs": 0,
+  "next_test": "Audit one bounded original August3 2023 context window around creator-attributed you guys got really really far already and actually the hardest part is done. Determine the named prior community object and preserved reply metadata, distinguishing progress acknowledgement from confirmation of a transformation. Compare only frozen stage/name/checkpoint constraints; no broad phrase sweep, cryptographic trial or new input extraction.",
+  "operation_order": [
+    "validate frozen task",
+    "cross-check one original body in two exports",
+    "map three fixed name/feeling clauses",
+    "map two exact primary headings",
+    "identify full statement screenshot",
+    "reuse frozen checkpoint records",
+    "map one thematic word in the fixed secondary passage",
+    "compare three finite name roles"
+  ],
+  "output": "Exact provenance and three unresolved phase-name role hypotheses",
+  "primary_headings": [
+    {
+      "character_span_zero_based_half_open": [
+        388,
+        410
+      ],
+      "column_one_based": 1,
+      "line_one_based": 16,
+      "literal": "<h1> SalPhaseIon </h1>",
+      "role": "EXACT_PRIMARY_HEADING_NOT_A_GENERATED_NAME_VARIANT",
+      "source": {
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "utf8_byte_span_zero_based_half_open": [
+        388,
+        410
+      ]
+    },
+    {
+      "character_span_zero_based_half_open": [
+        2618,
+        2643
+      ],
+      "column_one_based": 1,
+      "line_one_based": 19,
+      "literal": "<h1> Cosmic Duality </h1>",
+      "role": "EXACT_PRIMARY_HEADING_NOT_A_GENERATED_NAME_VARIANT",
+      "source": {
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "utf8_byte_span_zero_based_half_open": [
+        2618,
+        2643
+      ]
+    }
+  ],
+  "result": "Creator-attributed March2021 statement and full screenshot explicitly associate breaking salphation with a feeling of the phase's name. Primary heading is SalPhaseIon; Cosmic Duality is separately headed. Fixed secondary movie passage mentions salvation but is not primary puzzle text. Affective/name recognition and thematic source/salvation readings remain possible; no exact string, algorithm, input or universal output gate is prescribed.",
+  "screenshot": {
+    "dimensions": [
+      552,
+      349
+    ],
+    "displayed_0345AM_timezone_not_given": true,
+    "human_visual_locator_xyxy": [
+      67,
+      251,
+      516,
+      291
+    ],
+    "locator_not_OCR_or_text_selection_rule": true,
+    "source": {
+      "path": "research/sources/maintained-hints__2021-03-14.png",
+      "sha256": "4e3dc1a4c1306be5efaccec6f47f95c1652a21cc33d23991927a33dd8975ebf4"
+    },
+    "visible_clause": "Breaking salphation, should be giving the feeling of the phase's name.",
+    "visible_speaker_admin_label": "Jrk Bgrt/admin"
+  },
+  "search_space": {
+    "declared_name_role_readings": 3,
+    "fixed_name_clauses": 3,
+    "frozen_checkpoint_records": 3,
+    "original_creator_bodies_cross_checked": 1,
+    "primary_headings": 2,
+    "secondary_thematic_words": 1,
+    "statement_screenshots": 1
+  },
+  "secondary_passage_not_substituted_for_verified_speech": true,
+  "secondary_salvation": {
+    "character_span_zero_based_half_open": [
+      964181,
+      964190
+    ],
+    "classification": "COMMUNITY_MOVIE_QUOTATION_NOT_PRIMARY_PUZZLE_TEXT",
+    "column_one_based": 244,
+    "line_one_based": 26070,
+    "literal": "salvation",
+    "source": {
+      "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+      "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+    },
+    "utf8_byte_span_zero_based_half_open": [
+      972888,
+      972897
+    ]
+  },
+  "source_evidence": [
+    {
+      "path": "research/artifacts/cycle20/board-width-reference.json",
+      "sha256": "ddcbaeab564fd17436747b381f9315e358209d72059c14aaf042b9205952b0e1"
+    },
+    {
+      "path": "research/evidence/cycle02/_work__creator_jrk.txt",
+      "sha256": "9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312"
+    },
+    {
+      "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+      "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+    },
+    {
+      "path": "research/sources/salphaseion.html",
+      "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+    },
+    {
+      "path": "research/sources/maintained-hints__2021-03-14.png",
+      "sha256": "4e3dc1a4c1306be5efaccec6f47f95c1652a21cc33d23991927a33dd8975ebf4"
+    },
+    {
+      "path": "research/artifacts/cycle13/checkpoint-referents-v2.json",
+      "sha256": "cbae760d02cae34419174bfc7f5d5d36addbc83b57051a74aedec4c9211a2d09"
+    },
+    {
+      "path": "research/artifacts/cycle11/trailer-referents.json",
+      "sha256": "5e1d264db6b11b611d7c334830154d2fd4160357e2f4bb1561aebf1fa7c4a1a6"
+    }
+  ],
+  "source_locations": [
+    "research/evidence/cycle02/_work__creator_jrk.txt:510",
+    "research/evidence/cycle02/_work__chat_transcript.txt:15661",
+    "research/sources/salphaseion.html:16",
+    "research/sources/salphaseion.html:19",
+    "research/sources/maintained-hints__2021-03-14.png",
+    "research/evidence/cycle02/_work__chat_transcript.txt:26070",
+    "research/artifacts/cycle13/checkpoint-referents-v2.json"
+  ],
+  "status": "INCONCLUSIVE"
+}

@@ -1,0 +1,112 @@
+{
+  "assumptions": [
+    "Both original row and column sum vectors are available, stronger than a single axis",
+    "All25 special event values, colors, coordinates and ordered identities are fixed",
+    "Remaining black/white cells are binary and not fixed by an additional output constraint",
+    "No original image text decoding or alternate image is performed"
+  ],
+  "certificate": {
+    "ambiguity_certificates": 657,
+    "first_deterministic_certificate": {
+      "all25_event_values_coordinates_and_identities_unchanged": true,
+      "all_four_cells_are_non_event_black_white": true,
+      "both_row_and_column_totals_preserved": true,
+      "original_values": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "source_cells_row_column_zero_based": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          11
+        ]
+      ],
+      "symbolic_balance_deltas": [
+        1,
+        -1,
+        -1,
+        1
+      ]
+    },
+    "no_changed_matrix_or_image_constructed": true,
+    "no_witness_does_not_prove_uniqueness": true,
+    "rectangles_checked": 8281
+  },
+  "confidence": "HIGH narrow non-uniqueness proof; UNKNOWN intended operator role",
+  "contradictions": [
+    "Additional source text/ASCII constraints could distinguish the assignments but are not part of this claim",
+    "Non-uniqueness does not identify the intended consumer",
+    "Other weighted colors or matrix sources require separate source ownership; no variants tested"
+  ],
+  "date": "2026-10-01",
+  "expected_observable": "If uniquely encoded, no distinct binary assignment can preserve both sum vectors and all protected events",
+  "falsification_condition": "A non-event alternating2x2 rectangle supplies a distinct valid assignment with unchanged sums/frame",
+  "graph_effect": "Delete the direct axis-sums-plus-frame -> unique-original-matrix edge; retain lossy metadata and explicitly constrained reconstruction alternatives",
+  "hypotheses": [],
+  "hypothesis": "Both literal original-image axis-sum lists and the complete25-event frame uniquely encode the original matrix without any other object",
+  "id": "C22-SUMLIST-INFORMATION",
+  "input": "Untouched frozen14x14 matrix plus25 protected original event coordinates",
+  "new_cryptographic_trials": 0,
+  "new_image_variants": 0,
+  "new_trial_inputs": 0,
+  "next_test": "Perform one static coordinate-interface test on the frozen 25-event/25-prime-marker correspondence: compare the actual original-image row/column domain and symbol multiplicities with the source-keyed 5x5 square domain, preserving all event identities and duplicate positions. Accept a direct lookup-table architecture only if a source-defined, complete, single-valued bijection exists without rescaling, modular reduction, ranking, guessed alphabets or discarded events. Reuse original coordinates and square; do not generate trial text or run a cipher. If no direct bijection exists, close that direct edge and retain only an explicitly missing coordinate-conversion interface.",
+  "operation_order": [
+    "reuse frozen original matrix and event tuples",
+    "enumerate exactly8281 source-coordinate rectangles",
+    "exclude any protected event cell",
+    "recognize existing alternating binary rectangles",
+    "verify four symbolic row/column balance equations",
+    "record only a losslessness counterexample certificate"
+  ],
+  "output": "A deterministic four-cell ambiguity certificate; no transformed data or trial input",
+  "result": "REJECTED narrowly: a four-cell balance certificate preserves every row/column sum and all25 fixed events while allowing distinct non-event binary values. Literal sums plus the complete event frame are not a lossless original-matrix codec. This does not reject sums as metadata, selectors or constraints supplemented by another object.",
+  "search_space": {
+    "graph_edge_hypotheses": 1,
+    "original_matrices": 1,
+    "protected_event_cells": 25,
+    "source_coordinate_rectangles": 8281
+  },
+  "source_evidence": [
+    {
+      "path": "research/artifacts/cycle22/architecture-reconstruction-v3.json",
+      "sha256": "1f36ad3ac5046951766444071060aa2bc9033460e04196d8a2471fbf899dc46e"
+    },
+    {
+      "path": "research/artifacts/cycle11/weighted-conservation.json",
+      "sha256": "8ef877ef4c3e48f92a1b3ae9e4a5ebf80f67096be02640018e5d20f0238e5ecc"
+    },
+    {
+      "path": "research/artifacts/cycle15/frame-object-audit.json",
+      "sha256": "56897976b72da60096261c7b1b5ea76ce1e5497dc0f04996bf75c8770e298d2e"
+    },
+    {
+      "path": "research/sources/gsmg-puzzle.png",
+      "sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830"
+    },
+    {
+      "path": "research/sources/salphaseion.html",
+      "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+    }
+  ],
+  "source_locations": [
+    "research/artifacts/cycle11/weighted-conservation.json",
+    "research/artifacts/cycle15/frame-object-audit.json",
+    "research/sources/salphaseion.html:17",
+    "research/sources/gsmg-puzzle.png"
+  ],
+  "status": "REJECTED"
+}

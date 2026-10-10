@@ -1,0 +1,484 @@
+{
+  "assumptions": [
+    "After which has its ordinary local antecedent in the reinserting phrase",
+    "The relational language may be operative but creator intent is not established",
+    "Archived word spacing is only corroboration of the verified compact text"
+  ],
+  "conditional_operation_graph": {
+    "edges": [
+      [
+        "return-to-source",
+        "reinsert-prime-basics",
+        "LOCAL_GRAMMATICAL_ORDER_OPERATIVE_READING_UNPROVED"
+      ],
+      [
+        "carried-code",
+        "reinsert-prime-basics",
+        "POSSIBLE_ARGUMENT_BINDING_NOT_EXPLICIT"
+      ],
+      [
+        "reinsert-prime-basics",
+        "select-from-described-objects",
+        "EXPLICIT_AFTER_WHICH_LOCAL_ANTECEDENT"
+      ]
+    ],
+    "nodes": [
+      "return-to-source",
+      "carried-code",
+      "reinsert-prime-basics",
+      "select-from-described-objects"
+    ]
+  },
+  "confidence": "HIGH for positions/wording; MEDIUM-HIGH for conditional local order; UNKNOWN for operand/site/consumer",
+  "contradictions": [
+    "Narrative is not proof of executable protocol",
+    "Numeric nouns do not identify specific algorithm families or indexing",
+    "Source-keyed Bifid and prime residual are not explicitly named by these directives",
+    "No unique Architect choice anchor exists in the verified modified speech"
+  ],
+  "date": "2026-09-30",
+  "directives": {
+    "all1539_letters_match": true,
+    "existing_verified_decoding_not_a_new_trial": true,
+    "literal_choice_in_speech": false,
+    "mapped_anchors": [
+      {
+        "archived_spacing": "RETURN TO THE SOURCE CODES",
+        "encoded_fixture_byte_span_zero_based_half_open": [
+          1457,
+          1479
+        ],
+        "normalized_phrase": "returntothesourcecodes",
+        "secondary_spacing_location": {
+          "character_span_zero_based_half_open": [
+            19162,
+            19188
+          ],
+          "column_one_based": 8,
+          "line_one_based": 314,
+          "utf8_byte_span_zero_based_half_open": [
+            20987,
+            21013
+          ]
+        },
+        "verified_decoded_span_zero_based_half_open": [
+          1010,
+          1032
+        ]
+      },
+      {
+        "archived_spacing": "THE CODE YOU HOPEFULLY CARRY",
+        "encoded_fixture_byte_span_zero_based_half_open": [
+          1512,
+          1536
+        ],
+        "normalized_phrase": "thecodeyouhopefullycarry",
+        "secondary_spacing_location": {
+          "character_span_zero_based_half_open": [
+            19227,
+            19255
+          ],
+          "column_one_based": 73,
+          "line_one_based": 314,
+          "utf8_byte_span_zero_based_half_open": [
+            21052,
+            21080
+          ]
+        },
+        "verified_decoded_span_zero_based_half_open": [
+          1065,
+          1089
+        ]
+      },
+      {
+        "archived_spacing": "REINSERTING THE PRIME BASICS",
+        "encoded_fixture_byte_span_zero_based_half_open": [
+          1536,
+          1561
+        ],
+        "normalized_phrase": "reinsertingtheprimebasics",
+        "secondary_spacing_location": {
+          "character_span_zero_based_half_open": [
+            19257,
+            19285
+          ],
+          "column_one_based": 1,
+          "line_one_based": 315,
+          "utf8_byte_span_zero_based_half_open": [
+            21082,
+            21110
+          ]
+        },
+        "verified_decoded_span_zero_based_half_open": [
+          1089,
+          1114
+        ]
+      },
+      {
+        "archived_spacing": "AFTER WHICH",
+        "encoded_fixture_byte_span_zero_based_half_open": [
+          1561,
+          1571
+        ],
+        "normalized_phrase": "afterwhich",
+        "secondary_spacing_location": {
+          "character_span_zero_based_half_open": [
+            19286,
+            19297
+          ],
+          "column_one_based": 30,
+          "line_one_based": 315,
+          "utf8_byte_span_zero_based_half_open": [
+            21111,
+            21122
+          ]
+        },
+        "verified_decoded_span_zero_based_half_open": [
+          1114,
+          1124
+        ]
+      },
+      {
+        "archived_spacing": "SELECT FROM",
+        "encoded_fixture_byte_span_zero_based_half_open": [
+          1590,
+          1600
+        ],
+        "normalized_phrase": "selectfrom",
+        "secondary_spacing_location": {
+          "character_span_zero_based_half_open": [
+            19322,
+            19333
+          ],
+          "column_one_based": 66,
+          "line_one_based": 315,
+          "utf8_byte_span_zero_based_half_open": [
+            21147,
+            21158
+          ]
+        },
+        "verified_decoded_span_zero_based_half_open": [
+          1143,
+          1153
+        ]
+      },
+      {
+        "archived_spacing": "OVER TWENTY-THREE CIPHERS",
+        "encoded_fixture_byte_span_zero_based_half_open": [
+          1600,
+          1622
+        ],
+        "normalized_phrase": "overtwentythreeciphers",
+        "secondary_spacing_location": {
+          "character_span_zero_based_half_open": [
+            19334,
+            19359
+          ],
+          "column_one_based": 78,
+          "line_one_based": 315,
+          "utf8_byte_span_zero_based_half_open": [
+            21159,
+            21184
+          ]
+        },
+        "verified_decoded_span_zero_based_half_open": [
+          1153,
+          1175
+        ]
+      },
+      {
+        "archived_spacing": "SIXTEEN ENCRYPTIONS",
+        "encoded_fixture_byte_span_zero_based_half_open": [
+          1622,
+          1640
+        ],
+        "normalized_phrase": "sixteenencryptions",
+        "secondary_spacing_location": {
+          "character_span_zero_based_half_open": [
+            19361,
+            19380
+          ],
+          "column_one_based": 1,
+          "line_one_based": 316,
+          "utf8_byte_span_zero_based_half_open": [
+            21186,
+            21205
+          ]
+        },
+        "verified_decoded_span_zero_based_half_open": [
+          1175,
+          1193
+        ]
+      },
+      {
+        "archived_spacing": "AND OR SEVEN INTERTWINED PASSWORDS",
+        "encoded_fixture_byte_span_zero_based_half_open": [
+          1640,
+          1670
+        ],
+        "normalized_phrase": "andorsevenintertwinedpasswords",
+        "secondary_spacing_location": {
+          "character_span_zero_based_half_open": [
+            19381,
+            19415
+          ],
+          "column_one_based": 21,
+          "line_one_based": 316,
+          "utf8_byte_span_zero_based_half_open": [
+            21206,
+            21240
+          ]
+        },
+        "verified_decoded_span_zero_based_half_open": [
+          1193,
+          1223
+        ]
+      }
+    ],
+    "numbers_are_not_an_algorithm_list_or_position_selector": true,
+    "sources": [
+      {
+        "path": "research/artifacts/phase32-beaufort.txt",
+        "sha256": "b08a3151c88cdeb3b2e730a9d9445e1a349498d89bc94ba1d0837f9e04cc3bcd"
+      },
+      {
+        "path": "research/sources/community-README.md",
+        "sha256": "442270a145641d6f75337bf0e12338889d22f029dc613d13f0a4d651875dae6a"
+      },
+      {
+        "path": "research/artifacts/cycle10/instruction-graphs-v3.json",
+        "sha256": "31a20ee0b58c1289d16de425c76f4521ca228a01c6ca12122d074056a8e81132"
+      }
+    ],
+    "typed_numeric_phrases": [
+      {
+        "noun": "ciphers",
+        "qualifier": "over",
+        "value": 23
+      },
+      {
+        "noun": "encryptions",
+        "qualifier": null,
+        "value": 16
+      },
+      {
+        "noun": "intertwined passwords",
+        "qualifier": "and or",
+        "value": 7
+      }
+    ],
+    "word_boundaries_are_secondary": true
+  },
+  "hypotheses": [
+    {
+      "assumptions": [
+        "The speech's relational language is an operative instruction rather than narrative",
+        "The proposed source object is what the creator intended",
+        "A separate source rule specifies prime basics and the reinsertion site"
+      ],
+      "confidence": "LOW-MEDIUM for this referent; MEDIUM-HIGH for reinsertion-before-selection conditional on operative reading",
+      "contradictions": [
+        "No rule binds prime basics to a particular color value, source cell or textual operand",
+        "No unique choice anchor or selected-word count",
+        "No numerical cipher-family enumeration follows from the stated nouns"
+      ],
+      "hypothesis": "source codes refers to original image/color-coded information",
+      "id": "C13-DIRECTIVE-IMAGE",
+      "input": "original image/color-coded information plus an unspecified carried object",
+      "next_test": "Find an exact source-authored operand/site binding before applying any reinsertion, extraction or cryptographic operation",
+      "operation_order": [
+        "return to proposed source object",
+        "reinsert prime-related information",
+        "after which select from described objects"
+      ],
+      "output": "An unspecified reconstructed source object available for a later selection",
+      "source_evidence": [
+        {
+          "path": "research/artifacts/phase32-beaufort.txt",
+          "sha256": "b08a3151c88cdeb3b2e730a9d9445e1a349498d89bc94ba1d0837f9e04cc3bcd"
+        },
+        {
+          "path": "research/sources/community-README.md",
+          "sha256": "442270a145641d6f75337bf0e12338889d22f029dc613d13f0a4d651875dae6a"
+        },
+        {
+          "path": "research/artifacts/cycle10/instruction-graphs-v3.json",
+          "sha256": "31a20ee0b58c1289d16de425c76f4521ca228a01c6ca12122d074056a8e81132"
+        },
+        {
+          "path": "research/artifacts/cycle11/hint-instruction-order.json",
+          "sha256": "05a3ad4ec7ed7572f1223fb90c97612caa4fde6ffc199baeebdcd1794d74150d"
+        },
+        {
+          "path": "research/artifacts/cycle12/source-join-preflight-v2.json",
+          "sha256": "231b9748acccd054d0a43f7af2420faca8cade6523aace16e0803f370a3f3660"
+        }
+      ],
+      "source_locations": [
+        "research/artifacts/phase32-beaufort.txt:1",
+        "research/sources/community-README.md:314",
+        "research/sources/community-README.md:315",
+        "research/sources/community-README.md:316",
+        "research/artifacts/phase32.txt:5"
+      ],
+      "status": "INCONCLUSIVE",
+      "support": "Separate creator-attributed color hint explicitly returns to first puzzle piece"
+    },
+    {
+      "assumptions": [
+        "The speech's relational language is an operative instruction rather than narrative",
+        "The proposed source object is what the creator intended",
+        "A separate source rule specifies prime basics and the reinsertion site"
+      ],
+      "confidence": "LOW-MEDIUM for this referent; MEDIUM-HIGH for reinsertion-before-selection conditional on operative reading",
+      "contradictions": [
+        "No exact source file, byte boundary or reinsertion object is named",
+        "No unique choice anchor or selected-word count",
+        "No numerical cipher-family enumeration follows from the stated nouns"
+      ],
+      "hypothesis": "source codes refers to original puzzle source documents or encoded source strings",
+      "id": "C13-DIRECTIVE-HTML",
+      "input": "original puzzle source documents or encoded source strings plus an unspecified carried object",
+      "next_test": "Find an exact source-authored operand/site binding before applying any reinsertion, extraction or cryptographic operation",
+      "operation_order": [
+        "return to proposed source object",
+        "reinsert prime-related information",
+        "after which select from described objects"
+      ],
+      "output": "An unspecified reconstructed source object available for a later selection",
+      "source_evidence": [
+        {
+          "path": "research/artifacts/phase32-beaufort.txt",
+          "sha256": "b08a3151c88cdeb3b2e730a9d9445e1a349498d89bc94ba1d0837f9e04cc3bcd"
+        },
+        {
+          "path": "research/sources/community-README.md",
+          "sha256": "442270a145641d6f75337bf0e12338889d22f029dc613d13f0a4d651875dae6a"
+        },
+        {
+          "path": "research/artifacts/cycle10/instruction-graphs-v3.json",
+          "sha256": "31a20ee0b58c1289d16de425c76f4521ca228a01c6ca12122d074056a8e81132"
+        },
+        {
+          "path": "research/artifacts/cycle11/hint-instruction-order.json",
+          "sha256": "05a3ad4ec7ed7572f1223fb90c97612caa4fde6ffc199baeebdcd1794d74150d"
+        },
+        {
+          "path": "research/artifacts/cycle12/source-join-preflight-v2.json",
+          "sha256": "231b9748acccd054d0a43f7af2420faca8cade6523aace16e0803f370a3f3660"
+        }
+      ],
+      "source_locations": [
+        "research/artifacts/phase32-beaufort.txt:1",
+        "research/sources/community-README.md:314",
+        "research/sources/community-README.md:315",
+        "research/sources/community-README.md:316",
+        "research/artifacts/phase32.txt:5"
+      ],
+      "status": "INCONCLUSIVE",
+      "support": "Verified directive literally names source codes; primary page preserves encoded instruction objects"
+    },
+    {
+      "assumptions": [
+        "The speech's relational language is an operative instruction rather than narrative",
+        "The proposed source object is what the creator intended",
+        "A separate source rule specifies prime basics and the reinsertion site"
+      ],
+      "confidence": "LOW-MEDIUM for this referent; MEDIUM-HIGH for reinsertion-before-selection conditional on operative reading",
+      "contradictions": [
+        "No directive explicitly names dbbi, residual60, faed570, Bifid or an insertion coordinate",
+        "No unique choice anchor or selected-word count",
+        "No numerical cipher-family enumeration follows from the stated nouns"
+      ],
+      "hypothesis": "source codes refers to source symbol stream and its carried information",
+      "id": "C13-DIRECTIVE-SYMBOLS",
+      "input": "source symbol stream and its carried information plus an unspecified carried object",
+      "next_test": "Find an exact source-authored operand/site binding before applying any reinsertion, extraction or cryptographic operation",
+      "operation_order": [
+        "return to proposed source object",
+        "reinsert prime-related information",
+        "after which select from described objects"
+      ],
+      "output": "An unspecified reconstructed source object available for a later selection",
+      "source_evidence": [
+        {
+          "path": "research/artifacts/phase32-beaufort.txt",
+          "sha256": "b08a3151c88cdeb3b2e730a9d9445e1a349498d89bc94ba1d0837f9e04cc3bcd"
+        },
+        {
+          "path": "research/sources/community-README.md",
+          "sha256": "442270a145641d6f75337bf0e12338889d22f029dc613d13f0a4d651875dae6a"
+        },
+        {
+          "path": "research/artifacts/cycle10/instruction-graphs-v3.json",
+          "sha256": "31a20ee0b58c1289d16de425c76f4521ca228a01c6ca12122d074056a8e81132"
+        },
+        {
+          "path": "research/artifacts/cycle11/hint-instruction-order.json",
+          "sha256": "05a3ad4ec7ed7572f1223fb90c97612caa4fde6ffc199baeebdcd1794d74150d"
+        },
+        {
+          "path": "research/artifacts/cycle12/source-join-preflight-v2.json",
+          "sha256": "231b9748acccd054d0a43f7af2420faca8cade6523aace16e0803f370a3f3660"
+        }
+      ],
+      "source_locations": [
+        "research/artifacts/phase32-beaufort.txt:1",
+        "research/sources/community-README.md:314",
+        "research/sources/community-README.md:315",
+        "research/sources/community-README.md:316",
+        "research/artifacts/phase32.txt:5"
+      ],
+      "status": "INCONCLUSIVE",
+      "support": "Existing dbbi prime/nonprime partitions and source-keyed Bifid expose multiple source-derived objects"
+    }
+  ],
+  "hypothesis": "The modified speech constrains instruction order and operand types more strongly than a loose choice-quote interpretation",
+  "id": "C13-RELATIONAL-DIRECTIVES",
+  "input": "Verified1539-letter speech and preserved whole-speech secondary spacing",
+  "new_cryptographic_trials": 0,
+  "new_trial_inputs": 0,
+  "next_test": "Audit preserved original-puzzle and prime/zeroing hint chronology for an explicit binding of prime basics, carried code and source object. Use exact source spans and typed referents, not new selector variants or a cipher search.",
+  "operation_order": [
+    "use existing verified decoded fixture",
+    "map eight fixed relational anchors to encoded and spaced sources",
+    "parse only explicit local dependencies and typed numeric phrases",
+    "retain three finite source-object interpretations without executing them"
+  ],
+  "output": "Exact local dependency graph and three unresolved source-object bindings",
+  "result": "After which locally places selection after reinserting prime basics under an operative reading. The text says select from described objects, not take letters at23/16/7, and supplies no cipher-family list. Source object, carried data, insertion position and connection to matrixsumlist remain unbound.",
+  "search_space": {
+    "fixed_directive_anchors": 8,
+    "source_object_hypotheses": 3
+  },
+  "source_evidence": [
+    {
+      "path": "research/artifacts/phase32-beaufort.txt",
+      "sha256": "b08a3151c88cdeb3b2e730a9d9445e1a349498d89bc94ba1d0837f9e04cc3bcd"
+    },
+    {
+      "path": "research/sources/community-README.md",
+      "sha256": "442270a145641d6f75337bf0e12338889d22f029dc613d13f0a4d651875dae6a"
+    },
+    {
+      "path": "research/artifacts/cycle10/instruction-graphs-v3.json",
+      "sha256": "31a20ee0b58c1289d16de425c76f4521ca228a01c6ca12122d074056a8e81132"
+    },
+    {
+      "path": "research/artifacts/cycle11/hint-instruction-order.json",
+      "sha256": "05a3ad4ec7ed7572f1223fb90c97612caa4fde6ffc199baeebdcd1794d74150d"
+    },
+    {
+      "path": "research/artifacts/cycle12/source-join-preflight-v2.json",
+      "sha256": "231b9748acccd054d0a43f7af2420faca8cade6523aace16e0803f370a3f3660"
+    }
+  ],
+  "source_locations": [
+    "research/artifacts/phase32-beaufort.txt:1",
+    "research/sources/community-README.md:314",
+    "research/sources/community-README.md:315",
+    "research/sources/community-README.md:316",
+    "research/artifacts/phase32.txt:5"
+  ],
+  "status": "INCONCLUSIVE"
+}

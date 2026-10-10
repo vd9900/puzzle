@@ -1,0 +1,16 @@
+{
+  "TARGET_MATCH": false,
+  "aes_trials": 216,
+  "bounded_raw_key_slots": 32,
+  "elapsed_seconds": 0.084,
+  "id": "C23-LAST-WORDS-LITERAL",
+  "ledger_sha256": "d46e45b80b484214d4f90e528751671e2ed2f0edea0d9a6ca8552f0bb46c122f",
+  "max_hit_printable_ratio": 0.392405,
+  "padding_hits": 1,
+  "qualifying_small_blob_hits": 1,
+  "result": "No exact target or recognized downstream structure; this finite literal-sentence hypothesis does not survive",
+  "secret_logging": "Only local Boolean target results and structural scores are saved. Password, AES key/IV, plaintext bytes, scalars and candidate addresses are omitted.",
+  "status": "INCONCLUSIVE",
+  "structure_hits": 0,
+  "unique_passwords": 36
+}

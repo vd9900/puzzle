@@ -1,0 +1,69 @@
+dbbi matrixsumlist coldec                                    pr=0.47 b':\xa6\x05\xf7\x19R.\xc5\xb4\xd8lqQ\xd7\x96\xbe\x1eya\x85\xd3\x0b!\x8235\xd8_\xe8G\x8b\xe8n^F;\x97r'
+dbbi matrixsumlist coldec rev                                pr=0.42 b'\x11\xb8\x07`!f\xac\x90]G\x06\x0e,\x8f\xc4\xff\x8bU`\xa6w\xe0N\x99G\xf50\x12\xa2U\x85\x05\xe6NA\xb7\x8e7'
+dbbi matrixsumlist colenc                                    pr=0.37 b'\x17<\x8e\xe7\x04#\x81\xf4Q\xd8\xe8\xd8\x9d\xc2\\\xa1\xa3\xdb\xae\xbe\\3=\xea0\xda/2\xe4d\x80\x8a\xe9OG\x04c\xd5'
+dbbi matrixsumlist colenc rev                                pr=0.47 b'9\xd2[\xa1{\x8d\x0c\xf2\rG\xbe\xbch.0\xd0V\x82.\x8f\x8e\xb8/\x9ak\x1c\xf3$[\xb7\xf4\xd2\\dU\xfaP`'
+dbbi matrixsumlist rowdec                                    pr=0.32 b'Ar\xd7\xcf\xab\x15\x96 Q\xa4\xe4\xea\x93^\x85t\xa8dH\xe7V\x16H\xd8\xbc\xc2\xfe\x9a\xb7\xe7\xf5\xf7\xc7\xc4\t\x81th'
+dbbi matrixsumlist rowdec rev                                pr=0.37 b'ER\xc7A\xc9u\xeb\xc9\x18\x9e\xa2w\x1a\\%\t\xeaF\xcef\x93=\xd6\xf7*\xb4\xcc\x9bjN\x10\xb5\xf1\x8a.\x0b\x99\xd2'
+dbbi matrixsumlist rowenc                                    pr=0.32 b'Ar\xd7\xcf\xab\x15\x96 Q\xa4\xe4\xea\x93^\x85t\xa8dH\xe7V\x16H\xd8\xbc\xc2\xfe\x9a\xb7\xe7\xf5\xf7\xc7\xc4\t\x81th'
+dbbi matrixsumlist rowenc rev                                pr=0.37 b'ER\xc7A\xc9u\xeb\xc9\x18\x9e\xa2w\x1a\\%\t\xeaF\xcef\x93=\xd6\xf7*\xb4\xcc\x9bjN\x10\xb5\xf1\x8a.\x0b\x99\xd2'
+faed lw+tp coldec                                            pr=0.36 b'\x07|r,\xb6\x86q_\xbdS\xa0\xb9\xce\xdfx\xb8\x98\xfb\xab Ctr\x83p\xe7\xff\x9e\xcdM\xc0L\x1e^]\xae\xa6\xc8\x8fg'
+faed lw+tp coldec rev                                        pr=0.35 b'\x0eZ\x16\xbeknb\xda\xc4K\xbe}\x07&\xde=\x0e\xd7\xbe\xb3\xd1\xf6r)6EY_w5uH\xc1\x86\xf6\xd0\x94\x9fp\xaf'
+faed lw+tp colenc                                            pr=0.42 b'\x08"\xeb)\x0c2\xb2\xef\xe3\xdd\xc8&\xfc\x10K&\xfaZI\xe9\xa1G\xde\x07\xcd\\\x9e\x10\xcf\x0b\xc7\xa43\xd1e\x1b\xe2|\xde`'
+faed lw+tp colenc rev                                        pr=0.34 b',\xb8\x94\x8d\x81rJ\xcc\xae9S\xc8\xb6e\xfe\x1fH\rA\xf2U\n\xc10\xa2\x94cnpP\xba\xa0}\xa7y\x9b\xb7dB\x02'
+faed lw+tp rowdec                                            pr=0.37 b'(%\x8d\xb9\xf48\xbc\xca\xa6\xa2\x80\xef\x87).\xe3\x14\x88\rQ\x9a\x9b\x95\xce\xf7\x0c\xc4!h!R\xa6\xb5\x02\xf2t\xedM\x8d\x0c'
+faed lw+tp rowdec rev                                        pr=0.34 b'\x17\xd7O\x19\xb5\xeb\x05\xe6E\xe6\x9f\x89\rqz\x07\x89=(\xdd\x8a\xaee\x15%\xba\xfb\xb6t-\xf2n\x03\xe1\x7f\x95\xc6\xc9\x80N'
+faed lw+tp rowenc                                            pr=0.37 b'(%\x8d\xb9\xf48\xbc\xca\xa6\xa2\x80\xef\x87).\xe3\x14\x88\rQ\x9a\x9b\x95\xce\xf7\x0c\xc4!h!R\xa6\xb5\x02\xf2t\xedM\x8d\x0c'
+faed lw+tp rowenc rev                                        pr=0.34 b'\x17\xd7O\x19\xb5\xeb\x05\xe6E\xe6\x9f\x89\rqz\x07\x89=(\xdd\x8a\xaee\x15%\xba\xfb\xb6t-\xf2n\x03\xe1\x7f\x95\xc6\xc9\x80N'
+faed tp+lw coldec                                            pr=0.39 b'\x1b\x06V\x93\xd1\xd1\xfc\xc2,\xc0\x89\xe7\x17;>\xe4\x95O2\x18\x0c\xa3\xf1O\x04D\xbcYd9\x8b\xe9\x99f\xfd\x04\xf0\x03\xa5C'
+faed tp+lw coldec rev                                        pr=0.31 b')\x80\xfd\xad\xa2\xebf\xfe\xbc\x9a\x82\x194\x1f\xb2\x0f\x8ey\xb7@\xeeMX\xa4\xf7\x13\xa7\xdeKM\x84%\xfc\xde\x88f\xd1<\xcb\x10'
+faed tp+lw colenc                                            pr=0.41 b'"\xc8\xb0\xc8\x83\x10\r\xb1\xf0\xb0z\xf5\xe1\xd9\xb7g\xfb_\x11W=\x18u\x00\x88\xa3\xa4\xac\xb9\x1ec\x9c\x9c\xc9vx\x8e)H^'
+faed tp+lw colenc rev                                        pr=0.35 b'+H\xdd<^\x00>\xa3\xd7\xcc\xebH/\\"\xd4\xb7o\xbb\xbf\xa3\x03u\xcfh\xa1\x11e\xfbLOr\xb6rG\xbd_HMj'
+faed tp+lw rowdec                                            pr=0.40 b' \x8b1\x14\xee{\xd3Oo\x97\xe8~v\xa1\xec\x90/$\xb1\xb3C\xcc\xc6(!\x0261\xe2=\xe9\x85\x8c\xf9\x83\xdeYa\xf8Y'
+faed tp+lw rowdec rev                                        pr=0.41 b" \xff|a\\\x9d\x96\xcc\x9f`\xdf;\x8c\xf6'ru\xb0o)\r\xea\x82\xb8\xc6j\n\x87\x1c\x86\x01\x12\x00\x1dFg\xd59\x84\xc1"
+faed tp+lw rowenc                                            pr=0.40 b' \x8b1\x14\xee{\xd3Oo\x97\xe8~v\xa1\xec\x90/$\xb1\xb3C\xcc\xc6(!\x0261\xe2=\xe9\x85\x8c\xf9\x83\xdeYa\xf8Y'
+faed tp+lw rowenc rev                                        pr=0.41 b" \xff|a\\\x9d\x96\xcc\x9f`\xdf;\x8c\xf6'ru\xb0o)\r\xea\x82\xb8\xc6j\n\x87\x1c\x86\x01\x12\x00\x1dFg\xd59\x84\xc1"
+dbbi colread n=7                                             pr=0.34 b'&|A\xbc&\t\xc8\xef\xc1\x01\xde\xbe\xde\xf1\x03\xa1\xcf\x19c\x12lA+\xac\xa1\xd3Y~\xc3\xa9\xd01\xd5\xe9g]\xb2\xfb'
+dbbi colread n=13                                            pr=0.21 b'!\x8fL`\x10\xf3\xbej\x03\xdf\xe3Z\xe1\xfb\xf1\x1a\x8b\x80:\x9a\xc9\x86\xa8s\xbc\xc6\x90\xa3\x94\x14\x8a$\xaa\xf6\xa5\x17\xe8\xe9'
+faed colread n=2                                             pr=0.35 b'\x1d\xbc\x97\xba\x95;\nC\x1f\x0c\x19*;\xd2\xd2\x1d\xfa"a\xd1*;\x1f\x91\xba9\xc9\xfb\\VY\xaa\xf6\xc1wB\xd29\xd3b'
+faed colread n=3                                             pr=0.32 b'\x1d2\xe2T\xa2y\x16\xcc\xfa\x9bC9\xb55k\xa2\xe8Ij\xad=\xb7\x8a\x1aj\x82\xf0z(\x07{\xad\xdc7M\xb77(\xfa,'
+faed colread n=5                                             pr=0.32 b'\x1ex\xf8}\x10\x8f\x13\x81\x86\xe5\xfd\xe6\xb7E\x9eq\xc4\xecsW\x99\x89\xc5i=8\xac\xee\xb0\xeb\x00\xb9I\x0b\r\xf6|\xe8\xc0n'
+faed colread n=6                                             pr=0.37 b'\x1d\x9cU\xad\xbc\x96-W\x9d\x17=\xe0t\x8f\x90 m\xf0<JZ\x05\xd1\xce\xae\xd8h\xa4\xc5\xc4\x1f\x7f\x84\xd0\\\xfe\xf2AxF'
+faed colread n=10                                            pr=0.38 b'\x1c\x92I\xfb\xa6f\xd6G\xc1)T\xae\x1a&\x96\x1d\rZ\xf6\xc1\xc2\xac\xbb\x0cd\x9c[\xf8j<&Yo\xb34\x9fh\x01\x03\xdc'
+faed colread n=15                                            pr=0.37 b'\x1f\x17\xb9\xf7%\xc2\xe2\x01\xddm_$5\x1f\xd1\xf9\xb2\xba\x15\xb4\x1a\x8b\xab\xc3\t\x88\xe5\xd55A\x84\xff\xa0lV\xf3aSmz'
+faed colread n=19                                            pr=0.38 b'\x1c\xb5k7\xc9QJ\x81\xbe?\t\x91\xb47Xb\xb1m\x06\x0eX\x01\xbb\x92\x0ckE\xfa\xfc\x8b\x8f\xa3\x8dq\xe0V\x0b\xb5\x17\xcb'
+faed colread n=30                                            pr=0.38 b'\x1eh,3w\xe5\xf0\\\xf1y=\x93V\xb2\x90i\x16+N\xfe\xe6B\x97\xa5\xcf\xcd\x93l\xc4\x07\x8cF\xe5\x1a\xbf\xcd\xbc3j\x18'
+faed colread n=38                                            pr=0.39 b'\x1d\x03\xbb\x8a\xf5r4\xb2\x14\x19\xee\xd1\xf2\x99.\xc5\xa9\x01\x0c\x9a\xedT}oK\x9a\xe0\xb4\xe8\xee~\xc6kD>\xb1;\xa9\x90S'
+faed colread n=57                                            pr=0.32 b'\x1e\xfe\xfe\xc3\x96\xfc\xe0\x1c\xae\x81\xfe\x8ahd_\xc5\xe9\xef\x05P\xa2\xf1Q\x01\xe6\xb71\x9dS\xe1\x9c\xb2\x0b\xdf\x8b\xa5\x98\xae\x17\xec'
+faed colread n=95                                            pr=0.38 b'\x1b\xd1\xf7H/\xf7\x0eWF\xaf\x84\xe6s\xb3t\x03g\xb3wV\x80J\x87q\x85\xb0\x84\xb7\x964C\xb0\xb7}\xd8\x85`FW\x12'
+N candidates 627
+  -9.06  BIF letters                                        zmpr=-1.00  btcseeddeoemckeadhbschdkbdcsdkdvbxcpcoch
+  -3.59  colkey res60_c4 ncol19 s-1 m9                      zmpr=0.43  1471217289588445319746918612964612454781
+  -3.07  add dbbi_r7 s-1 m10 rev                            zmpr=0.36  6966942827183421125343516718903880958698
+  -2.98  transp num:res60_c6 dec rev                        zmpr=0.41  8157388323965529879878974232999614848353
+  -2.92  colkey res60_c4 ncol19 s-1 m10                     zmpr=0.41  9470007179587444109646998600963501344770
+  -2.85  add res60_c3 s-1 m10                               zmpr=0.33  9077698469247041790237288360560192634460
+  -2.79  add lwtp_a1z26 s-1 m10                             zmpr=0.35  4064427154869377049486872949751180463126
+  -2.78  add img_cols s-1 m9                                zmpr=0.45  7963892861357237968577515778738182443941
+  -2.78  colkey img_cols ncol14 s-1 m9                      zmpr=0.45  7963892861357237968577515778738182443941
+  -2.67  transp num:dbbi_c7 dec rev                         zmpr=0.41  6534226579431572892671797797999971447899
+  -2.58  transp num:res60_c12 enc                           zmpr=0.39  7867471554177776156732421898267999339457
+  -2.51  add res61 s-1 m10 rev                              zmpr=0.42  9021654703469356954054414402079412284312
+  -2.49  colkey res60_r15 ncol7 s-1 m10                     zmpr=0.41  4321592363006800545582532264464951493215
+  -2.45  add msl_a1z26 s1 m10 rev                           zmpr=0.32  6087820716808433213132488219112669845848
+  -2.43  colkey res60_c4 ncol19 s1 m10                      zmpr=0.35  3838443913161802545082732284321947188314
+  -2.40  colkey res60_c15 ncol19 s-1 m10                    zmpr=0.36  4431645690858216154142052452090688549220
+  -2.36  add dbbi s-1 m10 rev                               zmpr=0.37  9760729851761935304070474513481756878193
+  -2.36  halves add s1 m9                                   zmpr=0.34  7118834634217113664234391767676269718582
+  -2.35  transp num:res60_c12 enc rev                       zmpr=0.40  9419161649978544875679719727645316458376
+  -2.24  add img_cols s1 m10 rev                            zmpr=0.37  1969754259874903227955948846931255883431
+  -2.23  add res60_c3 s1 m10 rev                            zmpr=0.39  0066068761095200506306376365210355603022
+  -2.22  transp num:res60_c30 dec rev                       zmpr=0.34  5575413283975614871259585776785134551429
+  -2.14  colkey dbbi_r13 ncol19 s-1 m10                     zmpr=0.40  1674843098331973078866372292848954231692
+  -2.11  transp ph:tp+lw enc rev                            zmpr=0.32  8936391989673271962288597755858242763732
+  -2.02  add msl_a1z26 s1 m10                               zmpr=0.39  9252614678214438661227554478626660030440
+...
+   2.51  colkey dbbi_c13 ncol4 s-1 m9
+   2.51  add dbbi s1 m9 rev
+   2.53  add res60_r15 s-1 m9
+   2.53  colkey res60_r15 ncol4 s-1 m9
+   3.15  add dbbi_c7 s1 m9 rev

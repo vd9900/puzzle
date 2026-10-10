@@ -1,0 +1,646 @@
+{
+  "alignment": {
+    "baseline_classification": "COMMUNITY_MOVIE_QUOTATION_NOT_AUTHENTICATED_ORIGINAL_SCRIPT",
+    "baseline_normalized_span_zero_based_half_open": [
+      12,
+      203
+    ],
+    "baseline_records": [
+      {
+        "archived_utc_timestamp": "2023-09-02T08:41:03+00:00",
+        "character_span_zero_based_half_open": [
+          1249386,
+          1249888
+        ],
+        "column_one_based": 1,
+        "header": "=== [02.09.2023 03:41:03 UTC-05:00] Deleted Account",
+        "line_one_based": 33097,
+        "source": {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          1258510,
+          1259012
+        ]
+      },
+      {
+        "archived_utc_timestamp": "2023-11-26T07:52:19+00:00",
+        "character_span_zero_based_half_open": [
+          1735804,
+          1736306
+        ],
+        "column_one_based": 1,
+        "header": "=== [26.11.2023 02:52:19 UTC-05:00] Jerry",
+        "line_one_based": 45259,
+        "source": {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        "utf8_byte_span_zero_based_half_open": [
+          1745644,
+          1746146
+        ]
+      }
+    ],
+    "baseline_reposts_not_independent_corroboration": true,
+    "full_selected_span_round_trip": true,
+    "kind_counts": {
+      "INHERITED": 5,
+      "INSERTION": 2,
+      "REPLACEMENT": 6
+    },
+    "normalization": "ASCII alphanumeric characters only, lowercase; original23/16/7 digits retained, not silently converted",
+    "puzzle_decoded_span_zero_based_half_open": [
+      984,
+      1223
+    ],
+    "same_preserved_quote_in_two_messages": true,
+    "segments": [
+      {
+        "baseline_normalized_span_zero_based_half_open": [
+          12,
+          28
+        ],
+        "baseline_phrase": "The function of the",
+        "baseline_quote_source_location": {
+          "character_span_zero_based_half_open": [
+            1249401,
+            1249420
+          ],
+          "column_one_based": 16,
+          "line_one_based": 33097,
+          "utf8_byte_span_zero_based_half_open": [
+            1258525,
+            1258544
+          ]
+        },
+        "insertion_is_zero_width_in_baseline": false,
+        "kind": "INHERITED",
+        "puzzle_decoded_span_zero_based_half_open": [
+          984,
+          1000
+        ],
+        "puzzle_encoded_fixture_span_zero_based_half_open": [
+          1431,
+          1447
+        ],
+        "puzzle_phrase_normalized": "thefunctionofthe"
+      },
+      {
+        "baseline_normalized_span_zero_based_half_open": [
+          28,
+          31
+        ],
+        "baseline_phrase": "One",
+        "baseline_quote_source_location": {
+          "character_span_zero_based_half_open": [
+            1249421,
+            1249424
+          ],
+          "column_one_based": 36,
+          "line_one_based": 33097,
+          "utf8_byte_span_zero_based_half_open": [
+            1258545,
+            1258548
+          ]
+        },
+        "insertion_is_zero_width_in_baseline": false,
+        "kind": "REPLACEMENT",
+        "puzzle_decoded_span_zero_based_half_open": [
+          1000,
+          1003
+        ],
+        "puzzle_encoded_fixture_span_zero_based_half_open": [
+          1447,
+          1450
+        ],
+        "puzzle_phrase_normalized": "you"
+      },
+      {
+        "baseline_normalized_span_zero_based_half_open": [
+          31,
+          55
+        ],
+        "baseline_phrase": "is now to return to the source",
+        "baseline_quote_source_location": {
+          "character_span_zero_based_half_open": [
+            1249425,
+            1249455
+          ],
+          "column_one_based": 40,
+          "line_one_based": 33097,
+          "utf8_byte_span_zero_based_half_open": [
+            1258549,
+            1258579
+          ]
+        },
+        "insertion_is_zero_width_in_baseline": false,
+        "kind": "INHERITED",
+        "puzzle_decoded_span_zero_based_half_open": [
+          1003,
+          1027
+        ],
+        "puzzle_encoded_fixture_span_zero_based_half_open": [
+          1450,
+          1474
+        ],
+        "puzzle_phrase_normalized": "isnowtoreturntothesource"
+      },
+      {
+        "baseline_normalized_span_zero_based_half_open": [
+          55,
+          55
+        ],
+        "baseline_phrase": "",
+        "baseline_quote_source_location": {
+          "character_span_zero_based_half_open": [
+            1249457,
+            1249457
+          ],
+          "column_one_based": 72,
+          "line_one_based": 33097,
+          "utf8_byte_span_zero_based_half_open": [
+            1258581,
+            1258581
+          ]
+        },
+        "insertion_is_zero_width_in_baseline": true,
+        "kind": "INSERTION",
+        "puzzle_decoded_span_zero_based_half_open": [
+          1027,
+          1032
+        ],
+        "puzzle_encoded_fixture_span_zero_based_half_open": [
+          1474,
+          1479
+        ],
+        "puzzle_phrase_normalized": "codes"
+      },
+      {
+        "baseline_normalized_span_zero_based_half_open": [
+          55,
+          98
+        ],
+        "baseline_phrase": "allowing a temporary dissemination of the code you",
+        "baseline_quote_source_location": {
+          "character_span_zero_based_half_open": [
+            1249457,
+            1249507
+          ],
+          "column_one_based": 72,
+          "line_one_based": 33097,
+          "utf8_byte_span_zero_based_half_open": [
+            1258581,
+            1258631
+          ]
+        },
+        "insertion_is_zero_width_in_baseline": false,
+        "kind": "INHERITED",
+        "puzzle_decoded_span_zero_based_half_open": [
+          1032,
+          1075
+        ],
+        "puzzle_encoded_fixture_span_zero_based_half_open": [
+          1479,
+          1522
+        ],
+        "puzzle_phrase_normalized": "allowingatemporarydisseminationofthecodeyou"
+      },
+      {
+        "baseline_normalized_span_zero_based_half_open": [
+          98,
+          98
+        ],
+        "baseline_phrase": "",
+        "baseline_quote_source_location": {
+          "character_span_zero_based_half_open": [
+            1249508,
+            1249508
+          ],
+          "column_one_based": 123,
+          "line_one_based": 33097,
+          "utf8_byte_span_zero_based_half_open": [
+            1258632,
+            1258632
+          ]
+        },
+        "insertion_is_zero_width_in_baseline": true,
+        "kind": "INSERTION",
+        "puzzle_decoded_span_zero_based_half_open": [
+          1075,
+          1084
+        ],
+        "puzzle_encoded_fixture_span_zero_based_half_open": [
+          1522,
+          1531
+        ],
+        "puzzle_phrase_normalized": "hopefully"
+      },
+      {
+        "baseline_normalized_span_zero_based_half_open": [
+          98,
+          122
+        ],
+        "baseline_phrase": "carry, reinserting the prime",
+        "baseline_quote_source_location": {
+          "character_span_zero_based_half_open": [
+            1249508,
+            1249536
+          ],
+          "column_one_based": 123,
+          "line_one_based": 33097,
+          "utf8_byte_span_zero_based_half_open": [
+            1258632,
+            1258660
+          ]
+        },
+        "insertion_is_zero_width_in_baseline": false,
+        "kind": "INHERITED",
+        "puzzle_decoded_span_zero_based_half_open": [
+          1084,
+          1108
+        ],
+        "puzzle_encoded_fixture_span_zero_based_half_open": [
+          1531,
+          1555
+        ],
+        "puzzle_phrase_normalized": "carryreinsertingtheprime"
+      },
+      {
+        "baseline_normalized_span_zero_based_half_open": [
+          122,
+          129
+        ],
+        "baseline_phrase": "program",
+        "baseline_quote_source_location": {
+          "character_span_zero_based_half_open": [
+            1249537,
+            1249544
+          ],
+          "column_one_based": 152,
+          "line_one_based": 33097,
+          "utf8_byte_span_zero_based_half_open": [
+            1258661,
+            1258668
+          ]
+        },
+        "insertion_is_zero_width_in_baseline": false,
+        "kind": "REPLACEMENT",
+        "puzzle_decoded_span_zero_based_half_open": [
+          1108,
+          1114
+        ],
+        "puzzle_encoded_fixture_span_zero_based_half_open": [
+          1555,
+          1561
+        ],
+        "puzzle_phrase_normalized": "basics"
+      },
+      {
+        "baseline_normalized_span_zero_based_half_open": [
+          129,
+          168
+        ],
+        "baseline_phrase": "After which you will be required to select from",
+        "baseline_quote_source_location": {
+          "character_span_zero_based_half_open": [
+            1249546,
+            1249593
+          ],
+          "column_one_based": 161,
+          "line_one_based": 33097,
+          "utf8_byte_span_zero_based_half_open": [
+            1258670,
+            1258717
+          ]
+        },
+        "insertion_is_zero_width_in_baseline": false,
+        "kind": "INHERITED",
+        "puzzle_decoded_span_zero_based_half_open": [
+          1114,
+          1153
+        ],
+        "puzzle_encoded_fixture_span_zero_based_half_open": [
+          1561,
+          1600
+        ],
+        "puzzle_phrase_normalized": "afterwhichyouwillberequiredtoselectfrom"
+      },
+      {
+        "baseline_normalized_span_zero_based_half_open": [
+          168,
+          177
+        ],
+        "baseline_phrase": "the matrix",
+        "baseline_quote_source_location": {
+          "character_span_zero_based_half_open": [
+            1249594,
+            1249604
+          ],
+          "column_one_based": 209,
+          "line_one_based": 33097,
+          "utf8_byte_span_zero_based_half_open": [
+            1258718,
+            1258728
+          ]
+        },
+        "insertion_is_zero_width_in_baseline": false,
+        "kind": "REPLACEMENT",
+        "puzzle_decoded_span_zero_based_half_open": [
+          1153,
+          1157
+        ],
+        "puzzle_encoded_fixture_span_zero_based_half_open": [
+          1600,
+          1604
+        ],
+        "puzzle_phrase_normalized": "over"
+      },
+      {
+        "baseline_normalized_span_zero_based_half_open": [
+          177,
+          190
+        ],
+        "baseline_phrase": "23 individuals",
+        "baseline_quote_source_location": {
+          "character_span_zero_based_half_open": [
+            1249605,
+            1249619
+          ],
+          "column_one_based": 220,
+          "line_one_based": 33097,
+          "utf8_byte_span_zero_based_half_open": [
+            1258729,
+            1258743
+          ]
+        },
+        "insertion_is_zero_width_in_baseline": false,
+        "kind": "REPLACEMENT",
+        "puzzle_decoded_span_zero_based_half_open": [
+          1157,
+          1175
+        ],
+        "puzzle_encoded_fixture_span_zero_based_half_open": [
+          1604,
+          1622
+        ],
+        "puzzle_phrase_normalized": "twentythreeciphers"
+      },
+      {
+        "baseline_normalized_span_zero_based_half_open": [
+          190,
+          198
+        ],
+        "baseline_phrase": "16 female",
+        "baseline_quote_source_location": {
+          "character_span_zero_based_half_open": [
+            1249621,
+            1249630
+          ],
+          "column_one_based": 236,
+          "line_one_based": 33097,
+          "utf8_byte_span_zero_based_half_open": [
+            1258745,
+            1258754
+          ]
+        },
+        "insertion_is_zero_width_in_baseline": false,
+        "kind": "REPLACEMENT",
+        "puzzle_decoded_span_zero_based_half_open": [
+          1175,
+          1198
+        ],
+        "puzzle_encoded_fixture_span_zero_based_half_open": [
+          1622,
+          1645
+        ],
+        "puzzle_phrase_normalized": "sixteenencryptionsandor"
+      },
+      {
+        "baseline_normalized_span_zero_based_half_open": [
+          198,
+          203
+        ],
+        "baseline_phrase": "7 male",
+        "baseline_quote_source_location": {
+          "character_span_zero_based_half_open": [
+            1249632,
+            1249638
+          ],
+          "column_one_based": 247,
+          "line_one_based": 33097,
+          "utf8_byte_span_zero_based_half_open": [
+            1258756,
+            1258762
+          ]
+        },
+        "insertion_is_zero_width_in_baseline": false,
+        "kind": "REPLACEMENT",
+        "puzzle_decoded_span_zero_based_half_open": [
+          1198,
+          1223
+        ],
+        "puzzle_encoded_fixture_span_zero_based_half_open": [
+          1645,
+          1670
+        ],
+        "puzzle_phrase_normalized": "sevenintertwinedpasswords"
+      }
+    ],
+    "unaligned_remainder_not_extracted_or_interpreted": true
+  },
+  "assumptions": [
+    "The preserved baseline is secondary community quotation, not authenticated movie source",
+    "Fixed segments are a comparison protocol, not creator-provided word boundaries",
+    "Retained grammar may still be intentional but supplies less independent evidence"
+  ],
+  "confidence": "HIGH for exact preserved text differences; MEDIUM for instruction significance; UNKNOWN for complete intended construction",
+  "constraint_independence": [
+    {
+      "baseline_has_feature": true,
+      "feature": "prime noun and reinsertion-before-selection scaffold",
+      "inference_limit": "Creator retained this scaffolding; it is not independent evidence for a newly designed reinsertion algorithm",
+      "puzzle_specific_change": "program becomes basics"
+    },
+    {
+      "baseline_has_feature": true,
+      "feature": "23/16/7 numeric values",
+      "inference_limit": "Values are inherited; target nouns/modifiers change. Neither exact cipher counts nor letter positions are specified",
+      "puzzle_specific_change": "individuals/female/male become ciphers/encryptions/intertwined passwords; over and and/or added"
+    },
+    {
+      "baseline_has_feature": true,
+      "feature": "source referent",
+      "inference_limit": "This strengthens a code/source-object reading but does not select HTML, an encoded string or a specific operand",
+      "puzzle_specific_change": "codes is inserted after source"
+    },
+    {
+      "baseline_has_feature": true,
+      "feature": "carried object",
+      "inference_limit": "Object remains the code; no bytes, length or source name is supplied",
+      "puzzle_specific_change": "hopefully is inserted"
+    }
+  ],
+  "contradictions": [
+    "Baseline is not creator-authenticated or independently sourced",
+    "Shared scaffold is not a newly discovered algorithm",
+    "Codes/basics remain ambiguous object labels",
+    "No direct source-keyed Bifid or residual60 binding"
+  ],
+  "date": "2026-10-01",
+  "hypotheses": [
+    {
+      "assumptions": [
+        "The community quote faithfully represents a useful baseline",
+        "Identical reposts are not independent original-script authentication"
+      ],
+      "confidence": "MEDIUM for deliberate edits; LOW for any exact operation",
+      "contradictions": [
+        "No explicit source object or insertion site",
+        "The surrounding grammar and numeric values are inherited",
+        "Deliberate edits do not prove a particular numerical algorithm"
+      ],
+      "hypothesis": "Puzzle-specific codes/basics/noun edits redirect retained movie wording into an operative instruction graph",
+      "id": "C14-DELTA-OPERATIVE",
+      "input": "Exact mapped puzzle-specific edits and retained scaffold",
+      "next_test": "Prioritize exact cross-references for edited nouns source codes/prime basics; do not infer a reinsertion site or cipher list from inherited wording",
+      "operation_order": [
+        "identify inserted/replaced wording",
+        "bind edited nouns to exact existing objects",
+        "only then apply the retained relational order"
+      ],
+      "output": "A competing semantic graph, not newly extracted trial material",
+      "source_evidence": [
+        {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        {
+          "path": "research/artifacts/phase32-beaufort.txt",
+          "sha256": "b08a3151c88cdeb3b2e730a9d9445e1a349498d89bc94ba1d0837f9e04cc3bcd"
+        },
+        {
+          "path": "research/artifacts/phase32.txt",
+          "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+        },
+        {
+          "path": "research/artifacts/cycle14/source-binding-audit.json",
+          "sha256": "b26c94ccd5c52072ac1dc371ac92f62da16a7cabaf8ab002252d07d662489bb4"
+        },
+        {
+          "path": "research/artifacts/cycle13/relational-directives.json",
+          "sha256": "83df4133dc681862e5a7f9d9909584cb4ac207b385c546b0accec0b69bea9a72"
+        }
+      ],
+      "source_locations": [
+        "research/evidence/cycle02/_work__chat_transcript.txt:33097",
+        "research/evidence/cycle02/_work__chat_transcript.txt:45259",
+        "research/artifacts/phase32-beaufort.txt:1",
+        "research/artifacts/phase32.txt:5"
+      ],
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "assumptions": [
+        "The community quote faithfully represents a useful baseline",
+        "Identical reposts are not independent original-script authentication"
+      ],
+      "confidence": "MEDIUM for compatible narrative interpretation; UNKNOWN for exact placement",
+      "contradictions": [
+        "Edits may be operational despite narrative scaffolding",
+        "No creator-attributed record settles recap versus command",
+        "No verified join from speech to matrixsumlist"
+      ],
+      "hypothesis": "The modified speech recaps or foreshadows puzzle objects rather than providing a direct reinsertion algorithm",
+      "id": "C14-DELTA-RECAP",
+      "input": "Exact mapped puzzle-specific edits and retained scaffold",
+      "next_test": "Prioritize exact cross-references for edited nouns source codes/prime basics; do not infer a reinsertion site or cipher list from inherited wording",
+      "operation_order": [
+        "locate source/prime/numeric wording",
+        "compare with already known public objects",
+        "require separate explicit entrance/exit links"
+      ],
+      "output": "A competing semantic graph, not newly extracted trial material",
+      "source_evidence": [
+        {
+          "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+          "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+        },
+        {
+          "path": "research/artifacts/phase32-beaufort.txt",
+          "sha256": "b08a3151c88cdeb3b2e730a9d9445e1a349498d89bc94ba1d0837f9e04cc3bcd"
+        },
+        {
+          "path": "research/artifacts/phase32.txt",
+          "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+        },
+        {
+          "path": "research/artifacts/cycle14/source-binding-audit.json",
+          "sha256": "b26c94ccd5c52072ac1dc371ac92f62da16a7cabaf8ab002252d07d662489bb4"
+        },
+        {
+          "path": "research/artifacts/cycle13/relational-directives.json",
+          "sha256": "83df4133dc681862e5a7f9d9909584cb4ac207b385c546b0accec0b69bea9a72"
+        }
+      ],
+      "source_locations": [
+        "research/evidence/cycle02/_work__chat_transcript.txt:33097",
+        "research/evidence/cycle02/_work__chat_transcript.txt:45259",
+        "research/artifacts/phase32-beaufort.txt:1",
+        "research/artifacts/phase32.txt:5"
+      ],
+      "status": "INCONCLUSIVE"
+    }
+  ],
+  "hypothesis": "A source-mapped baseline comparison distinguishes puzzle-specific instruction edits from inherited movie scaffolding",
+  "id": "C14-SPEECH-DELTA",
+  "input": "One repeated community baseline quote and one existing verified public speech",
+  "new_cryptographic_trials": 0,
+  "new_trial_inputs": 0,
+  "next_test": "Audit the preserved original image/frame-to-prime-marker labeling as a typed object correspondence, especially the near-white event's role, without weighting cells, changing a route or performing new cryptographic trials. Determine whether the missing link is object identity rather than another sum algorithm.",
+  "operation_order": [
+    "bind two exact original dated baseline quotations",
+    "map13 fixed contiguous comparison segments",
+    "verify complete selected-span coverage",
+    "separate five inherited spans from eight edit spans",
+    "compare operative versus recap hypotheses"
+  ],
+  "output": "Exact comparison/source maps and adjusted independence/type constraints",
+  "result": "Prime reinsertion/order and23/16/7 values already occur in the preserved movie baseline. Puzzle-specific edits include codes, hopefully, basics, over and changed target nouns. These edits may redirect the speech, but no operand/site/cipher list is established; inherited numbers/order are not independent construction evidence.",
+  "search_space": {
+    "distinct_baseline_texts": 1,
+    "finite_semantic_hypotheses": 2,
+    "fixed_contiguous_segments": 13,
+    "preserved_quote_records": 2
+  },
+  "source_evidence": [
+    {
+      "path": "research/evidence/cycle02/_work__chat_transcript.txt",
+      "sha256": "63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78"
+    },
+    {
+      "path": "research/artifacts/phase32-beaufort.txt",
+      "sha256": "b08a3151c88cdeb3b2e730a9d9445e1a349498d89bc94ba1d0837f9e04cc3bcd"
+    },
+    {
+      "path": "research/artifacts/phase32.txt",
+      "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+    },
+    {
+      "path": "research/artifacts/cycle14/source-binding-audit.json",
+      "sha256": "b26c94ccd5c52072ac1dc371ac92f62da16a7cabaf8ab002252d07d662489bb4"
+    },
+    {
+      "path": "research/artifacts/cycle13/relational-directives.json",
+      "sha256": "83df4133dc681862e5a7f9d9909584cb4ac207b385c546b0accec0b69bea9a72"
+    }
+  ],
+  "source_locations": [
+    "research/evidence/cycle02/_work__chat_transcript.txt:33097",
+    "research/evidence/cycle02/_work__chat_transcript.txt:45259",
+    "research/artifacts/phase32-beaufort.txt:1",
+    "research/artifacts/phase32.txt:5"
+  ],
+  "status": "INCONCLUSIVE"
+}

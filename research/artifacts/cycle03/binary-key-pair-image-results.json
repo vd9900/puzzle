@@ -1,0 +1,14 @@
+{
+  "checks_by_target": {
+    "phase32-inner": 1472,
+    "salphaseion-small": 1440
+  },
+  "elapsed_seconds": 2.203,
+  "id": "C03-BINARY-KEY-PAIRS",
+  "invalid_scalars": 0,
+  "ledger_sha256": "01cd04e16c93c1b2307f9721ce93ae155e69ddd43d76be64e0042096ebe9caa3",
+  "result": "No saved padding-valid small-blob plaintext encodes either scoped key as two adjacent 32-byte big-endian scalars with at most 15 bytes prefix/suffix metadata. Other structured binary interpretations remain unknown.",
+  "slot_checks": 2912,
+  "status": "REJECTED",
+  "target_matches": 0
+}

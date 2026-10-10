@@ -1,0 +1,16 @@
+len=91
+b positions (1-idx): [2, 3, 5, 7, 11, 14, 18, 20, 24, 31, 33, 34, 40, 44, 46, 50, 56, 57, 63, 65, 72, 77, 79, 85, 90]
+b at prime pos:    [2, 3, 5, 7, 11, 31, 79]
+b at composite:    [14, 18, 20, 24, 33, 34, 40, 44, 46, 50, 56, 57, 63, 65, 72, 77, 85, 90]
+all primes<=91:    [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89]
+primes with b:     [2, 3, 5, 7, 11, 31, 79]
+primes without b:  [(13, 'g'), (17, 'a'), (19, 'e'), (23, 'h'), (29, 'g'), (37, 'h'), (41, 'h'), (43, 'f'), (47, 'f'), (53, 'f'), (59, 'c'), (61, 'c'), (67, 'e'), (71, 'c'), (73, 'e'), (83, 'i'), (89, 'a')]
+
+annotated (prime pos in []):
+d[b][b]i[b]f[b]hcc[b]e[g]bih[a]b[e]bei[h]begge[g]e[b]ebbge[h]heb[h]h[f]bab[f]dhbef[f]cdbbf[c]c[c]gbfbe[e]gge[c]b[e]dcibf[b]ffg[i]gbeee[a]be
+
+composite-pos chars: difhccebihbbeibeggeeebbgehebhbabdhbefcdbbfcgbfbeggebdcibfffggbeeebe
+  -> a..i=1..9:      4968335298225925775552275852821248256342263726257752439266677255525
+prime-pos chars:     bbbbbgaehgbhhfffccecebia
+region without b:    difhccegihaeeiheggegeegehhehhfafdheffcdfcccgfeeggecedcifffgigeeeae
+  -> a..i=1..9:      496833579815598577575575885886164856634633376557753543966679755515

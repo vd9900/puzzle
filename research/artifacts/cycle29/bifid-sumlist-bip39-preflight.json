@@ -1,0 +1,113 @@
+{
+  "aes_operations": 0,
+  "architecture_discriminator": {
+    "direct_literal_seed_serialization": "REJECTED by cycle28",
+    "intended_bip39_architecture": "WEAK/UNKNOWN: exact15 count and btcseed wording support it, but no authored word-index or checksum instruction exists",
+    "matrixsumlist_to15_item_seed_interface": "DIMENSIONALLY COMPATIBLE",
+    "unique_numeric_mapping": "REJECTED: nine canonical mappings all fit the index range by bounds alone"
+  },
+  "blocking_unknowns": [
+    "whether the matrix operand is raw FAED or recovered Bifid output",
+    "which symbol-to-number mapping is intended",
+    "coordinate origin and orientation",
+    "whether sums are direct indices or require normalization",
+    "whether BIP39 is intended rather than another fifteen-item receiver"
+  ],
+  "candidate_lists_generated": 0,
+  "checksum_tests": 0,
+  "coverage_comparison": {
+    "exact_input_stage_previously_covered_by_that_script": false,
+    "genuinely_new_difference": "post-Bifid rather than raw-FAED matrix input",
+    "prior_family": "raw FAED570 -> fifteen contiguous38-symbol row sums -> BIP39 candidate/checksum/wallet checks",
+    "prior_secondary_script": {
+      "candidate_material_preserved_here": false,
+      "classification": "SECONDARY_RESEARCH_CODE",
+      "commit": "94024e11107c295b12de106c636e5616bffa5d3b",
+      "declared_purpose": "Test the literal FAED 15x38 sum list against AES and the BTC target.",
+      "execution": "NOT EXECUTED in this research phase",
+      "git_blob_sha1": "ae4a6c0cdbfb1aede06ccc02ce69aa3bf77e86c0",
+      "path": "solver/faed_matrix_sum_attack.py",
+      "repository": "devjotaduo/gsmgio-5btc-puzzle",
+      "retrieved_sha256": "fd5e722b23b3f7d8852f00acdb3315fc680d732c323960677912da24540ee059",
+      "retrieved_utc": "2026-10-01T20:08:44Z",
+      "structural_coverage": {
+        "bip39_branch": "raw FAED split into fifteen contiguous rows of38, a=0 ordinal sums; then one valid checksum completion and wallet-path checks",
+        "input": "raw FAED570 from sources()['faed']",
+        "layout_orientations": [
+          "forward",
+          "reverse",
+          "rows-reversed",
+          "columns-reversed"
+        ],
+        "layout_widths": [
+          15,
+          38
+        ],
+        "mapping_names": [
+          "a0",
+          "a1",
+          "hint"
+        ],
+        "recovered_bifid570_used_as_sum_matrix_input": false,
+        "sum_axes": [
+          "rows",
+          "columns"
+        ]
+      }
+    },
+    "proposed_family": "recovered Bifid570 ->38x15 column sums -> possible fifteen-item BIP39 interface",
+    "same_family_at_high_level": true
+  },
+  "date": "2026-10-02",
+  "exact_dimension_chain": {
+    "bifid_matrix": [
+      38,
+      15
+    ],
+    "bip39_allows_word_count": 15,
+    "bip39_checksum_bits_for15_words": 5,
+    "bip39_entropy_bits_for15_words": 160,
+    "bip39_index_domain": [
+      0,
+      2047
+    ],
+    "sum_across_rows_produces_items": 15
+  },
+  "hypothesis": "matrixsumlist instructs reducing the recovered Bifid38x15 matrix to fifteen column sums, with btcseed identifying a fifteen-word BIP39 interface.",
+  "id": "C29-BIFID-SUMLIST-BIP39-PREFLIGHT",
+  "invariant": "Structural preflight may compare dimensions and theoretical ranges only. It must not calculate the fifteen values, map them to words, repair/test a checksum, derive a seed, or check a wallet.",
+  "mnemonic_words_generated": 0,
+  "next_test": "Do not execute this family. Require an authored numeric mapping or explicit BIP39/word-index instruction before any value generation or checksum test.",
+  "private_key_operations": 0,
+  "result": "A post-Bifid matrix-sum route has exact15-item/BIP39 dimensional compatibility and is distinct from the preserved raw-FAED BIP39 campaign. Range compatibility cannot select it because all nine canonical maps fit0..2047. The next discriminant would create/check concrete mnemonic indices, which is prohibited in this phase and unsupported by an authored mapping.",
+  "seed_derivations": 0,
+  "status": "INCONCLUSIVE",
+  "symbolic_map_bounds_only": {
+    "actual_sum_vectors_computed": 0,
+    "all_bounds_fit_bip39_index_domain": true,
+    "compatible_mapping_count": 9,
+    "per_symbol_domains": {
+      "alphabetic_ordinal": [1, 26],
+      "bifid_column_coordinate_one_based": [1, 5],
+      "bifid_column_coordinate_zero_based": [0, 4],
+      "bifid_coordinate_pair_total_one_based": [2, 10],
+      "bifid_coordinate_pair_total_zero_based": [0, 8],
+      "bifid_row_coordinate_one_based": [1, 5],
+      "bifid_row_coordinate_zero_based": [0, 4],
+      "source_keyed_square_rank_one_based": [1, 25],
+      "source_keyed_square_rank_zero_based": [0, 24]
+    },
+    "possible_column_sum_bounds": {
+      "alphabetic_ordinal": [38, 988],
+      "bifid_column_coordinate_one_based": [38, 190],
+      "bifid_column_coordinate_zero_based": [0, 152],
+      "bifid_coordinate_pair_total_one_based": [76, 380],
+      "bifid_coordinate_pair_total_zero_based": [0, 304],
+      "bifid_row_coordinate_one_based": [38, 190],
+      "bifid_row_coordinate_zero_based": [0, 152],
+      "source_keyed_square_rank_one_based": [38, 950],
+      "source_keyed_square_rank_zero_based": [0, 912]
+    },
+    "row_count": 38
+  }
+}

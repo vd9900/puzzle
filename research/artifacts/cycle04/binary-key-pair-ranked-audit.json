@@ -1,0 +1,7 @@
+{
+  "group": "ranked",
+  "ledger_sha256": "23f7994ea9c57423b71d803c40d8584735d256ed6a8a911864c6cd11b5f3d2f5",
+  "meaning": "Every recorded key-slot offset, source plaintext hash, scalar fingerprint, both addresses and target gate reproduce; does not solve the puzzle",
+  "slot_checks": 1436,
+  "status": "CONFIRMED"
+}

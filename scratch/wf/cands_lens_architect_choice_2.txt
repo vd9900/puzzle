@@ -1,0 +1,67 @@
+# lens architect_choice — supplementary pass: transcript variants, token concatenations, Dutch renderings
+there's nothing that you can do to stop it
+theresnothingthatyoucandotostopit
+and there is nothing you can do to stop it
+andthereisnothingyoucandotostopit
+she is going to die and there's nothing you can do to stop it
+sheisgoingtodieandtheresnothingyoucandotostopit
+she is going to die and there is nothing you can do to stop it
+sheisgoingtodieandthereisnothingyoucandotostopit
+nothing you can do to stop it
+nothingyoucandotostopit
+there is nothing that you can do
+thereisnothingthatyoucando
+nothing you can do
+nothingyoucando
+# concatenations with the adjacent SalPhaseIon tokens
+thereisnothingthatyoucandotostopitthispassword
+sheisgoingtodieandthereisnothingthatyoucandotostopitthispassword
+oneforonefourforonethispassword
+choicetheproblemischoicethispassword
+theproblemischoicethispassword
+thereisnothingthatyoucandotostopitanstoo
+sheisgoingtodieandthereisnothingthatyoucandotostopitanstoo
+oneforonefourforoneanstoo
+theproblemischoiceanstoo
+lastwordsbeforearchichoicethereisnothingthatyoucandotostopit
+lastwordsbeforearchichoicesheisgoingtodieandthereisnothingthatyoucandotostopit
+lastwordsbeforearchichoiceoneforonefourforone
+lastwordsbeforearchichoicetheproblemischoice
+matrixsumlistlastwordsbeforearchichoice
+yellowblueprimesmatrixsumlistlastwordsbeforearchichoice
+# Neo's response pairs ("ans too")
+sheisgoingtodieandthereisnothingthatyoucandotostopitifiwereyouiwouldhopethatwedontmeetagain
+ifiwereyouiwouldhopethatwedontmeetagainwewont
+hopeifiwereyouiwouldhopethatwedontmeetagain
+theproblemischoiceasyouadequatelyputtheproblemischoice
+choicetheproblemischoiceasyouadequatelyputtheproblemischoice
+# Dutch subtitle renderings (creator is Dutch)
+er is niets wat je kunt doen om het te stoppen
+erisnietswatjekuntdoenomhettestoppen
+ze gaat sterven en er is niets wat je kunt doen om het te stoppen
+zegaatstervenenerisnietswatjekuntdoenomhettestoppen
+het probleem is keuze
+hetprobleemiskeuze
+keuze
+keus
+de keuze
+dekeuze
+het probleem is de keuze
+hetprobleemisdekeuze
+laatste woorden
+laatstewoorden
+laatste woorden voor de keuze van de architect
+laatstewoordenvoordekeuzevandearchitect
+een voor een vier voor een
+eenvooreenviervooreen
+hoop
+wij niet
+wijniet
+# residual as-written forms with film punctuation/case
+Choice. The problem is choice.
+As you adequately put, the problem is choice.
+There are two doors.
+We won't.
+Humph.
+Hope.
+Trinity.

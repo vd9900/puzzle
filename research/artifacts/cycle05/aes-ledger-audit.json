@@ -1,0 +1,36 @@
+{
+  "audited_ledgers": [
+    {
+      "ledger": "research/artifacts/cycle05/literal-sumlist-aes.jsonl",
+      "ledger_sha256": "8f2235e32c0733ac3bbb91a3e16b8407757cbe78ec78a5ba0a3b034d192385da",
+      "padding_hits": 17,
+      "recomputed": "Every password, KEY/IV/salt, padding status, hit plaintext, score and structural/target gate",
+      "records": 864,
+      "targets": {
+        "cosmic-duality": 1728,
+        "phase32-inner": 1728,
+        "salphaseion-small": 1728
+      },
+      "trials": 5184
+    },
+    {
+      "ledger": "research/artifacts/cycle05/bifid-rails-aes.jsonl",
+      "ledger_sha256": "6d17993b1edd656b904f910bfec5c36301929fd5c2c0b78b80d215e8e438f954",
+      "padding_hits": 0,
+      "recomputed": "Every password, KEY/IV/salt, padding status, hit plaintext, score and structural/target gate",
+      "records": 84,
+      "targets": {
+        "cosmic-duality": 168,
+        "phase32-inner": 168,
+        "salphaseion-small": 168
+      },
+      "trials": 504
+    }
+  ],
+  "id": "C02-LEDGER-AUDIT",
+  "meaning": "Confirms reproducibility and ledger accounting, not a solution or exhaustive rejection of other hypotheses",
+  "padding_hits": 17,
+  "status": "CONFIRMED",
+  "total_trials": 5688,
+  "unique_passwords": 948
+}

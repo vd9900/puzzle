@@ -1,0 +1,170 @@
+{
+  "assumptions": [
+    "Uniform shuffle of the complete91-letter multiset",
+    "Published selector positions and literal yang fixed in advance for this conditional calculation",
+    "Unbordered word makes overlapping occurrences incompatible"
+  ],
+  "cases": [
+    {
+      "control": {
+        "at_least_one_decimal": 0.00017678584912782412,
+        "at_least_one_exact_probability": "6677547/37771954220",
+        "expected_occurrences": "9/50908",
+        "terms": [
+          {
+            "intersection_probability_sum": "9/50908",
+            "nonoverlapping_start_sets": 27,
+            "occurrences": 1,
+            "sign": 1
+          },
+          {
+            "intersection_probability_sum": "69/18885977110",
+            "nonoverlapping_start_sets": 276,
+            "occurrences": 2,
+            "sign": -1
+          }
+        ]
+      },
+      "mask": 505,
+      "observed_literal_count": 1,
+      "selected_length": 30,
+      "selected_positions": [
+        1,
+        2,
+        4,
+        6,
+        10,
+        11,
+        13,
+        17,
+        19,
+        23,
+        24,
+        30,
+        31,
+        33,
+        39,
+        43,
+        45,
+        49,
+        50,
+        56,
+        62,
+        64,
+        65,
+        71,
+        72,
+        76,
+        78,
+        84,
+        85,
+        89
+      ]
+    },
+    {
+      "control": {
+        "at_least_one_decimal": 0.00018333329078853964,
+        "at_least_one_exact_probability": "2077457/11331586266",
+        "expected_occurrences": "7/38181",
+        "terms": [
+          {
+            "intersection_probability_sum": "7/38181",
+            "nonoverlapping_start_sets": 28,
+            "occurrences": 1,
+            "sign": 1
+          },
+          {
+            "intersection_probability_sum": "15/3777195422",
+            "nonoverlapping_start_sets": 300,
+            "occurrences": 2,
+            "sign": -1
+          }
+        ]
+      },
+      "mask": 1017,
+      "observed_literal_count": 1,
+      "selected_length": 31,
+      "selected_positions": [
+        1,
+        2,
+        4,
+        6,
+        10,
+        11,
+        13,
+        17,
+        19,
+        23,
+        24,
+        30,
+        31,
+        33,
+        39,
+        43,
+        45,
+        49,
+        50,
+        56,
+        62,
+        64,
+        65,
+        71,
+        72,
+        76,
+        78,
+        84,
+        85,
+        89,
+        90
+      ]
+    }
+  ],
+  "confidence": "HIGH for stated arithmetic control; no global creator-intent confidence inferred",
+  "contradictions": [
+    "Literal and source selector were discovered through prior community investigation, not preregistered",
+    "Original English text is not a uniform shuffled multiset",
+    "Unknown upstream trials/anagram searches prevent a discovery-wide significance claim",
+    "Both branches share the exact same four source indices, so their evidence is dependent",
+    "No probability is multiplied with prime/Bifid clue controls"
+  ],
+  "date": "2026-09-30",
+  "formula": "P(any occurrence)=sum_k (-1)^(k+1) C(m-(w-1)k,k) * product_s (count_s)_(k*word_count_s) / (N)_(kw)",
+  "hypothesis": "Quantify the fixed yang occurrence under an exact uniform multiset-permutation control, without generating alternative puzzle text",
+  "id": "C12-PARTIAL-LITERAL-CONTROL",
+  "input": "Public91-letter multiset, documented30/31 selected positions and one literal",
+  "new_cryptographic_trials": 0,
+  "new_random_samples": 0,
+  "new_trial_inputs": 0,
+  "next_test": "Only source-evidenced operations explaining the missing literal and ordered matrixsumlist/Architect join may be pursued; the conditional control does not justify a search expansion.",
+  "operation_order": [
+    "read fixed source multiset",
+    "hold published selected indices fixed",
+    "count nonoverlapping literal-start events exactly",
+    "apply finite inclusion-exclusion"
+  ],
+  "output": "Exact rational probabilities and auditable inclusion-exclusion terms",
+  "population_length": 91,
+  "result": "Partial yang has probability about0.000176786/0.000183333 for fixed30/31-symbol projections under this artificial null. Neither result is a discovery-wide p-value, a complete yin-yang output, or proof of the intended source join.",
+  "source_evidence": [
+    {
+      "path": "research/artifacts/phase32-checkerboard.txt",
+      "sha256": "0ae71cc3976813fe632cef80f945c4a28ad84874056009b33b4022c71e1ffd1a"
+    },
+    {
+      "path": "research/artifacts/cycle12/source-join-preflight-v2.json",
+      "sha256": "231b9748acccd054d0a43f7af2420faca8cade6523aace16e0803f370a3f3660"
+    }
+  ],
+  "source_locations": [
+    "research/artifacts/phase32-checkerboard.txt:1",
+    "research/artifacts/cycle12/source-join-preflight-v2.json:1"
+  ],
+  "status": "CONFIRMED",
+  "word": "yang",
+  "word_symbol_counts": {
+    "a": 10,
+    "g": 2,
+    "n": 7,
+    "y": 3
+  }
+}

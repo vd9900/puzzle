@@ -1,0 +1,1273 @@
+{
+  "assumptions": [
+    "Only the four declared evidence-backed symbolic graph families are compared",
+    "Mention order, lexical labels and argument assignment are separate claims",
+    "Missing explicit bindings weaken executable interpretations without disproving implicit puzzle constructions"
+  ],
+  "confidence": "HIGH source-constraint accounting; UNKNOWN intended execution graph",
+  "contradictions": [
+    "Source adjacency cannot assign an operand by itself",
+    "Decoding a label does not create the object it names",
+    "A known operator and a repeated hash command do not identify an input or next consumer",
+    "Prefix structure and overlapping source evidence cannot replace a complete join"
+  ],
+  "date": "2026-10-01",
+  "enter_role": {
+    "formatting_not_processing": true,
+    "fragment_lengths": [
+      64,
+      64
+    ]
+  },
+  "graphs": [
+    {
+      "assumptions": [
+        "this refers backward to selected words",
+        "source reading order expresses local execution order",
+        "ans names the intervening output"
+      ],
+      "confidence": "MEDIUM local grammar; UNKNOWN executable construction",
+      "contradictions": [
+        "No fixed Architect source/choice anchor/count",
+        "thispassword has no explicit antecedent assignment",
+        "No independently identified answer object or next consumer"
+      ],
+      "edges": [
+        {
+          "evidence_type": "INFERRED_BACKWARD_REFERENCE",
+          "from": "Architect-selection",
+          "newly_executed": false,
+          "to": "thispassword"
+        },
+        {
+          "evidence_type": "INFERRED_OPERAND_OWNERSHIP",
+          "from": "thispassword",
+          "newly_executed": false,
+          "to": "first-shabef"
+        },
+        {
+          "evidence_type": "SOURCE_ADJACENCY_NOT_EXECUTION",
+          "from": "first-shabef",
+          "newly_executed": false,
+          "to": "embedded-container"
+        },
+        {
+          "evidence_type": "UNRESOLVED_PROCESSING",
+          "from": "embedded-container",
+          "newly_executed": false,
+          "to": "answer-object"
+        },
+        {
+          "evidence_type": "INFERRED_ANS_REFERENCE",
+          "from": "answer-object",
+          "newly_executed": false,
+          "to": "second-shabef"
+        },
+        {
+          "evidence_type": "UNKNOWN_DESTINATION",
+          "from": "second-shabef",
+          "newly_executed": false,
+          "to": "next-consumer"
+        }
+      ],
+      "hypothesis": "Architect last words are the backward antecedent of thispassword before a local hash/container/answer-hash sequence",
+      "id": "C17-LOCAL-BACKWARD",
+      "independent_constraints": [
+        "z-delimited lastwords/thispassword adjacency",
+        "two local shabef prefixes bracket the embedded container",
+        "adapted speech supplies conditional reinsertion-before-selection wording"
+      ],
+      "interfaces": [
+        "Architect-selection",
+        "this-binding",
+        "first-hash-input",
+        "container-answer",
+        "answer-hash-input"
+      ],
+      "new_cryptographic_trials": 0,
+      "new_extracted_texts": 0,
+      "prior_ids": [
+        "C10-G01",
+        "C10-G06",
+        "C11-T01"
+      ],
+      "source_bound_executable_construction": false,
+      "status": "INCONCLUSIVE",
+      "symbolic_only": true,
+      "unresolved_binding_count": 14,
+      "unresolved_interfaces": {
+        "Architect-selection": [
+          "source_identity",
+          "choice_anchor",
+          "word_count",
+          "word_boundaries"
+        ],
+        "answer-hash-input": [
+          "answer_identity",
+          "answer_representation",
+          "output_consumer"
+        ],
+        "container-answer": [
+          "processing_rule",
+          "output_identity"
+        ],
+        "first-hash-input": [
+          "input_identity",
+          "input_representation",
+          "output_consumer"
+        ],
+        "this-binding": [
+          "antecedent_identity",
+          "backward_or_forward_scope"
+        ]
+      }
+    },
+    {
+      "assumptions": [
+        "mention order implies dependence",
+        "sumlist object supplies a selector",
+        "a source-owned choice anchor and count exist"
+      ],
+      "confidence": "MEDIUM ordered clue association; LOW executable selector",
+      "contradictions": [
+        "No list definition, operand, order or positional rule",
+        "Completed image/numeric routing realizations remain negative",
+        "New dialogue roles and baseline gaps do not supply indices"
+      ],
+      "edges": [
+        {
+          "evidence_type": "ORDERED_MENTIONS_NOT_DATAFLOW",
+          "from": "prime-color-object",
+          "newly_executed": false,
+          "to": "matrixsumlist"
+        },
+        {
+          "evidence_type": "UNKNOWN_OUTPUT_TYPE",
+          "from": "matrixsumlist",
+          "newly_executed": false,
+          "to": "selection-rule"
+        },
+        {
+          "evidence_type": "UNKNOWN_SOURCE_AND_COUNT_BINDING",
+          "from": "selection-rule",
+          "newly_executed": false,
+          "to": "Architect-selection"
+        },
+        {
+          "evidence_type": "INFERRED_BACKWARD_REFERENCE",
+          "from": "Architect-selection",
+          "newly_executed": false,
+          "to": "thispassword"
+        },
+        {
+          "evidence_type": "INFERRED_OPERAND_OWNERSHIP",
+          "from": "thispassword",
+          "newly_executed": false,
+          "to": "first-shabef"
+        }
+      ],
+      "hypothesis": "matrixsumlist supplies ordering or selection information for an Architect-word object, rather than being literal selected text",
+      "id": "C17-SUMLIST-SELECTOR",
+      "independent_constraints": [
+        "one creator-attributed decoded hint mentions prime/color then matrixsumlist then lastwords",
+        "primary matrixsumlist encoding also carries historical marker data",
+        "lastwords and thispassword are neighboring decoded labels"
+      ],
+      "interfaces": [
+        "matrix-operand",
+        "Architect-selection",
+        "this-binding",
+        "first-hash-input"
+      ],
+      "new_cryptographic_trials": 0,
+      "new_extracted_texts": 0,
+      "prior_ids": [
+        "C10-G03",
+        "C11-T03"
+      ],
+      "source_bound_executable_construction": false,
+      "status": "INCONCLUSIVE",
+      "symbolic_only": true,
+      "unresolved_binding_count": 13,
+      "unresolved_interfaces": {
+        "Architect-selection": [
+          "source_identity",
+          "choice_anchor",
+          "word_count",
+          "word_boundaries"
+        ],
+        "first-hash-input": [
+          "input_identity",
+          "input_representation",
+          "output_consumer"
+        ],
+        "matrix-operand": [
+          "object_identity",
+          "operation_or_label_role",
+          "representation",
+          "order_rule"
+        ],
+        "this-binding": [
+          "antecedent_identity",
+          "backward_or_forward_scope"
+        ]
+      }
+    },
+    {
+      "assumptions": [
+        "parallel reproduced transforms are intentional",
+        "encoded label data may retain a role after label decoding",
+        "an authored join explains the complete outputs"
+      ],
+      "confidence": "HIGH preserved dependencies; UNKNOWN intended join",
+      "contradictions": [
+        "Bifid is absent from primary instructions and ordered hint",
+        "btcseed prefix depends on only eight source coordinates",
+        "No join type or operand ownership specified; source dependencies are not independent intent evidence"
+      ],
+      "edges": [
+        {
+          "evidence_type": "FROZEN_CONDITIONAL_TRANSFORM_NOT_INTENT",
+          "from": "dbbi91",
+          "newly_executed": false,
+          "to": "residual-object"
+        },
+        {
+          "evidence_type": "FROZEN_TRANSFORM_NOT_INTENT",
+          "from": "dbbi91",
+          "newly_executed": false,
+          "to": "source-square"
+        },
+        {
+          "evidence_type": "FROZEN_TRANSFORM_NOT_INTENT",
+          "from": "faed570",
+          "newly_executed": false,
+          "to": "Bifid-object"
+        },
+        {
+          "evidence_type": "FROZEN_TRANSFORM_NOT_INTENT",
+          "from": "source-square",
+          "newly_executed": false,
+          "to": "Bifid-object"
+        },
+        {
+          "evidence_type": "UNKNOWN_JOIN",
+          "from": "residual-object",
+          "newly_executed": false,
+          "to": "join-object"
+        },
+        {
+          "evidence_type": "UNKNOWN_JOIN",
+          "from": "Bifid-object",
+          "newly_executed": false,
+          "to": "join-object"
+        },
+        {
+          "evidence_type": "UNKNOWN_LABEL_OR_OPERATION_OWNERSHIP",
+          "from": "matrixsumlist",
+          "newly_executed": false,
+          "to": "join-object"
+        },
+        {
+          "evidence_type": "UNKNOWN_CONSUMER",
+          "from": "join-object",
+          "newly_executed": false,
+          "to": "Architect-selection"
+        }
+      ],
+      "hypothesis": "dbbi supports parallel marker/residual and source-keyed Bifid roles, while matrixsumlist labels or joins an object without discarding its encoded data",
+      "id": "C17-PARALLEL-OWNERSHIP",
+      "independent_constraints": [
+        "same dbbi source participates in two reproduced public transforms",
+        "matrixsumlist source symbols support decoded-label and marker-data roles",
+        "faed570 remains a distinct adjacent source object"
+      ],
+      "interfaces": [
+        "matrix-operand",
+        "parallel-join",
+        "Architect-selection"
+      ],
+      "new_cryptographic_trials": 0,
+      "new_extracted_texts": 0,
+      "prior_ids": [
+        "C10-G02",
+        "C10-G04",
+        "C15-BOUNDARY-OBJECT"
+      ],
+      "source_bound_executable_construction": false,
+      "status": "INCONCLUSIVE",
+      "symbolic_only": true,
+      "unresolved_binding_count": 12,
+      "unresolved_interfaces": {
+        "Architect-selection": [
+          "source_identity",
+          "choice_anchor",
+          "word_count",
+          "word_boundaries"
+        ],
+        "matrix-operand": [
+          "object_identity",
+          "operation_or_label_role",
+          "representation",
+          "order_rule"
+        ],
+        "parallel-join": [
+          "input_roles",
+          "join_operation",
+          "output_type",
+          "consumer"
+        ]
+      }
+    },
+    {
+      "assumptions": [
+        "first refers to an operative hint, not chronological earliest publication",
+        "last-command refers to a reused operation",
+        "a separate text object is the argument"
+      ],
+      "confidence": "MEDIUM-LOW command-role interpretation; UNKNOWN argument",
+      "contradictions": [
+        "Audio hint is not explicitly identified by ourfirsthint",
+        "January2021 echo is Deleted Account, not creator authentication",
+        "Operation recognition alone does not bind input representation or output consumer"
+      ],
+      "edges": [
+        {
+          "evidence_type": "INFERRED_COMMAND_RECALL",
+          "from": "HASHTHETEXT",
+          "newly_executed": false,
+          "to": "first-hint-reference"
+        },
+        {
+          "evidence_type": "OPERATION_ASSOCIATION_NOT_INPUT_BINDING",
+          "from": "first-hint-reference",
+          "newly_executed": false,
+          "to": "first-shabef"
+        },
+        {
+          "evidence_type": "INFERRED_BACKWARD_REFERENCE",
+          "from": "Architect-selection",
+          "newly_executed": false,
+          "to": "thispassword"
+        },
+        {
+          "evidence_type": "UNKNOWN_TEXT_ARGUMENT",
+          "from": "thispassword",
+          "newly_executed": false,
+          "to": "first-shabef"
+        },
+        {
+          "evidence_type": "INFERRED_ANS_REFERENCE",
+          "from": "answer-object",
+          "newly_executed": false,
+          "to": "second-shabef"
+        }
+      ],
+      "hypothesis": "first-hint/last-command recalls an operation on a newly selected object, not necessarily the literal text of the earlier hint",
+      "id": "C17-COMMAND-ROLE",
+      "independent_constraints": [
+        "primary shabef prefix maps locally to SHA256",
+        "ordinary remaining words say first hint/last command",
+        "preserved audio says HASHTHETEXT without an argument"
+      ],
+      "interfaces": [
+        "Architect-selection",
+        "this-binding",
+        "first-hash-input",
+        "answer-hash-input"
+      ],
+      "new_cryptographic_trials": 0,
+      "new_extracted_texts": 0,
+      "prior_ids": [
+        "C10-G05",
+        "C17-LOCAL-BACKWARD"
+      ],
+      "source_bound_executable_construction": false,
+      "status": "INCONCLUSIVE",
+      "symbolic_only": true,
+      "unresolved_binding_count": 12,
+      "unresolved_interfaces": {
+        "Architect-selection": [
+          "source_identity",
+          "choice_anchor",
+          "word_count",
+          "word_boundaries"
+        ],
+        "answer-hash-input": [
+          "answer_identity",
+          "answer_representation",
+          "output_consumer"
+        ],
+        "first-hash-input": [
+          "input_identity",
+          "input_representation",
+          "output_consumer"
+        ],
+        "this-binding": [
+          "antecedent_identity",
+          "backward_or_forward_scope"
+        ]
+      }
+    }
+  ],
+  "hypotheses": [
+    {
+      "assumptions": [
+        "this refers backward to selected words",
+        "source reading order expresses local execution order",
+        "ans names the intervening output"
+      ],
+      "confidence": "MEDIUM local grammar; UNKNOWN executable construction",
+      "contradictions": [
+        "No fixed Architect source/choice anchor/count",
+        "thispassword has no explicit antecedent assignment",
+        "No independently identified answer object or next consumer"
+      ],
+      "hypothesis": "Architect last words are the backward antecedent of thispassword before a local hash/container/answer-hash sequence",
+      "id": "C17-LOCAL-BACKWARD",
+      "input": "Frozen public object/source maps; no newly extracted material",
+      "next_test": "Compare the two surviving thispassword reference scopes against the original unspaced segment grammar and exact secondary walkthrough wording; predeclare backward-result versus forward-recipe boundaries, with no candidate text or cryptographic execution",
+      "operation_order": [
+        "Architect-selection -> thispassword (INFERRED_BACKWARD_REFERENCE)",
+        "thispassword -> first-shabef (INFERRED_OPERAND_OWNERSHIP)",
+        "first-shabef -> embedded-container (SOURCE_ADJACENCY_NOT_EXECUTION)",
+        "embedded-container -> answer-object (UNRESOLVED_PROCESSING)",
+        "answer-object -> second-shabef (INFERRED_ANS_REFERENCE)",
+        "second-shabef -> next-consumer (UNKNOWN_DESTINATION)"
+      ],
+      "output": "A symbolic graph with explicitly unresolved operand interfaces",
+      "source_evidence": [
+        {
+          "path": "research/artifacts/cycle10/instruction-graphs-v3.json",
+          "sha256": "31a20ee0b58c1289d16de425c76f4521ca228a01c6ca12122d074056a8e81132"
+        },
+        {
+          "path": "research/artifacts/cycle11/hint-instruction-order.json",
+          "sha256": "05a3ad4ec7ed7572f1223fb90c97612caa4fde6ffc199baeebdcd1794d74150d"
+        },
+        {
+          "path": "research/artifacts/cycle11/trailer-referents.json",
+          "sha256": "5e1d264db6b11b611d7c334830154d2fd4160357e2f4bb1561aebf1fa7c4a1a6"
+        },
+        {
+          "path": "research/artifacts/cycle15/label-boundary-audit.json",
+          "sha256": "3d965046baecf2372ffcf7d79537c537019583f9def802e8fe0faefcdc70e94f"
+        },
+        {
+          "path": "research/artifacts/cycle16/speech-operand-audit.json",
+          "sha256": "173f751681b9f07872c0985cf9bed548c528c17f56bd9d72bc5af23a4b17e763"
+        },
+        {
+          "path": "research/artifacts/cycle16/deictic-source-audit-v2.json",
+          "sha256": "6697f8fa11f988e2ab5e931772b26f25293d15bac42951dba9964cf41ad662ed"
+        }
+      ],
+      "source_locations": [
+        "research/sources/salphaseion.html:17",
+        "research/artifacts/cycle11/hint-instruction-order.json:1",
+        "research/artifacts/cycle11/trailer-referents.json:1",
+        "research/artifacts/cycle16/speech-operand-audit.json:1",
+        "research/artifacts/cycle16/deictic-source-audit-v2.json:1"
+      ],
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "assumptions": [
+        "mention order implies dependence",
+        "sumlist object supplies a selector",
+        "a source-owned choice anchor and count exist"
+      ],
+      "confidence": "MEDIUM ordered clue association; LOW executable selector",
+      "contradictions": [
+        "No list definition, operand, order or positional rule",
+        "Completed image/numeric routing realizations remain negative",
+        "New dialogue roles and baseline gaps do not supply indices"
+      ],
+      "hypothesis": "matrixsumlist supplies ordering or selection information for an Architect-word object, rather than being literal selected text",
+      "id": "C17-SUMLIST-SELECTOR",
+      "input": "Frozen public object/source maps; no newly extracted material",
+      "next_test": "Compare the two surviving thispassword reference scopes against the original unspaced segment grammar and exact secondary walkthrough wording; predeclare backward-result versus forward-recipe boundaries, with no candidate text or cryptographic execution",
+      "operation_order": [
+        "prime-color-object -> matrixsumlist (ORDERED_MENTIONS_NOT_DATAFLOW)",
+        "matrixsumlist -> selection-rule (UNKNOWN_OUTPUT_TYPE)",
+        "selection-rule -> Architect-selection (UNKNOWN_SOURCE_AND_COUNT_BINDING)",
+        "Architect-selection -> thispassword (INFERRED_BACKWARD_REFERENCE)",
+        "thispassword -> first-shabef (INFERRED_OPERAND_OWNERSHIP)"
+      ],
+      "output": "A symbolic graph with explicitly unresolved operand interfaces",
+      "source_evidence": [
+        {
+          "path": "research/artifacts/cycle10/instruction-graphs-v3.json",
+          "sha256": "31a20ee0b58c1289d16de425c76f4521ca228a01c6ca12122d074056a8e81132"
+        },
+        {
+          "path": "research/artifacts/cycle11/hint-instruction-order.json",
+          "sha256": "05a3ad4ec7ed7572f1223fb90c97612caa4fde6ffc199baeebdcd1794d74150d"
+        },
+        {
+          "path": "research/artifacts/cycle11/trailer-referents.json",
+          "sha256": "5e1d264db6b11b611d7c334830154d2fd4160357e2f4bb1561aebf1fa7c4a1a6"
+        },
+        {
+          "path": "research/artifacts/cycle15/label-boundary-audit.json",
+          "sha256": "3d965046baecf2372ffcf7d79537c537019583f9def802e8fe0faefcdc70e94f"
+        },
+        {
+          "path": "research/artifacts/cycle16/speech-operand-audit.json",
+          "sha256": "173f751681b9f07872c0985cf9bed548c528c17f56bd9d72bc5af23a4b17e763"
+        },
+        {
+          "path": "research/artifacts/cycle16/deictic-source-audit-v2.json",
+          "sha256": "6697f8fa11f988e2ab5e931772b26f25293d15bac42951dba9964cf41ad662ed"
+        }
+      ],
+      "source_locations": [
+        "research/sources/salphaseion.html:17",
+        "research/artifacts/cycle11/hint-instruction-order.json:1",
+        "research/artifacts/cycle11/trailer-referents.json:1",
+        "research/artifacts/cycle16/speech-operand-audit.json:1",
+        "research/artifacts/cycle16/deictic-source-audit-v2.json:1"
+      ],
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "assumptions": [
+        "parallel reproduced transforms are intentional",
+        "encoded label data may retain a role after label decoding",
+        "an authored join explains the complete outputs"
+      ],
+      "confidence": "HIGH preserved dependencies; UNKNOWN intended join",
+      "contradictions": [
+        "Bifid is absent from primary instructions and ordered hint",
+        "btcseed prefix depends on only eight source coordinates",
+        "No join type or operand ownership specified; source dependencies are not independent intent evidence"
+      ],
+      "hypothesis": "dbbi supports parallel marker/residual and source-keyed Bifid roles, while matrixsumlist labels or joins an object without discarding its encoded data",
+      "id": "C17-PARALLEL-OWNERSHIP",
+      "input": "Frozen public object/source maps; no newly extracted material",
+      "next_test": "Compare the two surviving thispassword reference scopes against the original unspaced segment grammar and exact secondary walkthrough wording; predeclare backward-result versus forward-recipe boundaries, with no candidate text or cryptographic execution",
+      "operation_order": [
+        "dbbi91 -> residual-object (FROZEN_CONDITIONAL_TRANSFORM_NOT_INTENT)",
+        "dbbi91 -> source-square (FROZEN_TRANSFORM_NOT_INTENT)",
+        "faed570 -> Bifid-object (FROZEN_TRANSFORM_NOT_INTENT)",
+        "source-square -> Bifid-object (FROZEN_TRANSFORM_NOT_INTENT)",
+        "residual-object -> join-object (UNKNOWN_JOIN)",
+        "Bifid-object -> join-object (UNKNOWN_JOIN)",
+        "matrixsumlist -> join-object (UNKNOWN_LABEL_OR_OPERATION_OWNERSHIP)",
+        "join-object -> Architect-selection (UNKNOWN_CONSUMER)"
+      ],
+      "output": "A symbolic graph with explicitly unresolved operand interfaces",
+      "source_evidence": [
+        {
+          "path": "research/artifacts/cycle10/instruction-graphs-v3.json",
+          "sha256": "31a20ee0b58c1289d16de425c76f4521ca228a01c6ca12122d074056a8e81132"
+        },
+        {
+          "path": "research/artifacts/cycle11/hint-instruction-order.json",
+          "sha256": "05a3ad4ec7ed7572f1223fb90c97612caa4fde6ffc199baeebdcd1794d74150d"
+        },
+        {
+          "path": "research/artifacts/cycle11/trailer-referents.json",
+          "sha256": "5e1d264db6b11b611d7c334830154d2fd4160357e2f4bb1561aebf1fa7c4a1a6"
+        },
+        {
+          "path": "research/artifacts/cycle15/label-boundary-audit.json",
+          "sha256": "3d965046baecf2372ffcf7d79537c537019583f9def802e8fe0faefcdc70e94f"
+        },
+        {
+          "path": "research/artifacts/cycle16/speech-operand-audit.json",
+          "sha256": "173f751681b9f07872c0985cf9bed548c528c17f56bd9d72bc5af23a4b17e763"
+        },
+        {
+          "path": "research/artifacts/cycle16/deictic-source-audit-v2.json",
+          "sha256": "6697f8fa11f988e2ab5e931772b26f25293d15bac42951dba9964cf41ad662ed"
+        }
+      ],
+      "source_locations": [
+        "research/sources/salphaseion.html:17",
+        "research/artifacts/cycle11/hint-instruction-order.json:1",
+        "research/artifacts/cycle11/trailer-referents.json:1",
+        "research/artifacts/cycle16/speech-operand-audit.json:1",
+        "research/artifacts/cycle16/deictic-source-audit-v2.json:1"
+      ],
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "assumptions": [
+        "first refers to an operative hint, not chronological earliest publication",
+        "last-command refers to a reused operation",
+        "a separate text object is the argument"
+      ],
+      "confidence": "MEDIUM-LOW command-role interpretation; UNKNOWN argument",
+      "contradictions": [
+        "Audio hint is not explicitly identified by ourfirsthint",
+        "January2021 echo is Deleted Account, not creator authentication",
+        "Operation recognition alone does not bind input representation or output consumer"
+      ],
+      "hypothesis": "first-hint/last-command recalls an operation on a newly selected object, not necessarily the literal text of the earlier hint",
+      "id": "C17-COMMAND-ROLE",
+      "input": "Frozen public object/source maps; no newly extracted material",
+      "next_test": "Compare the two surviving thispassword reference scopes against the original unspaced segment grammar and exact secondary walkthrough wording; predeclare backward-result versus forward-recipe boundaries, with no candidate text or cryptographic execution",
+      "operation_order": [
+        "HASHTHETEXT -> first-hint-reference (INFERRED_COMMAND_RECALL)",
+        "first-hint-reference -> first-shabef (OPERATION_ASSOCIATION_NOT_INPUT_BINDING)",
+        "Architect-selection -> thispassword (INFERRED_BACKWARD_REFERENCE)",
+        "thispassword -> first-shabef (UNKNOWN_TEXT_ARGUMENT)",
+        "answer-object -> second-shabef (INFERRED_ANS_REFERENCE)"
+      ],
+      "output": "A symbolic graph with explicitly unresolved operand interfaces",
+      "source_evidence": [
+        {
+          "path": "research/artifacts/cycle10/instruction-graphs-v3.json",
+          "sha256": "31a20ee0b58c1289d16de425c76f4521ca228a01c6ca12122d074056a8e81132"
+        },
+        {
+          "path": "research/artifacts/cycle11/hint-instruction-order.json",
+          "sha256": "05a3ad4ec7ed7572f1223fb90c97612caa4fde6ffc199baeebdcd1794d74150d"
+        },
+        {
+          "path": "research/artifacts/cycle11/trailer-referents.json",
+          "sha256": "5e1d264db6b11b611d7c334830154d2fd4160357e2f4bb1561aebf1fa7c4a1a6"
+        },
+        {
+          "path": "research/artifacts/cycle15/label-boundary-audit.json",
+          "sha256": "3d965046baecf2372ffcf7d79537c537019583f9def802e8fe0faefcdc70e94f"
+        },
+        {
+          "path": "research/artifacts/cycle16/speech-operand-audit.json",
+          "sha256": "173f751681b9f07872c0985cf9bed548c528c17f56bd9d72bc5af23a4b17e763"
+        },
+        {
+          "path": "research/artifacts/cycle16/deictic-source-audit-v2.json",
+          "sha256": "6697f8fa11f988e2ab5e931772b26f25293d15bac42951dba9964cf41ad662ed"
+        }
+      ],
+      "source_locations": [
+        "research/sources/salphaseion.html:17",
+        "research/artifacts/cycle11/hint-instruction-order.json:1",
+        "research/artifacts/cycle11/trailer-referents.json:1",
+        "research/artifacts/cycle16/speech-operand-audit.json:1",
+        "research/artifacts/cycle16/deictic-source-audit-v2.json:1"
+      ],
+      "status": "INCONCLUSIVE"
+    }
+  ],
+  "hypothesis": "Existing typed source constraints select an intended operand-ownership graph without new transformations",
+  "id": "C17-OPERAND-OWNERSHIP",
+  "input": "Frozen public source/layout/dependency and speech-reference reports",
+  "interfaces": [
+    {
+      "absence_of_explicit_binding_is_not_impossibility_proof": true,
+      "explicit_source_bindings": [],
+      "input_ready": false,
+      "instruction_or_object": "matrixsumlist",
+      "interface": "matrix-operand",
+      "required_bindings": [
+        "object_identity",
+        "operation_or_label_role",
+        "representation",
+        "order_rule"
+      ],
+      "unresolved_bindings": [
+        "object_identity",
+        "operation_or_label_role",
+        "representation",
+        "order_rule"
+      ]
+    },
+    {
+      "absence_of_explicit_binding_is_not_impossibility_proof": true,
+      "explicit_source_bindings": [],
+      "input_ready": false,
+      "instruction_or_object": "lastwordsbeforearchichoice",
+      "interface": "Architect-selection",
+      "required_bindings": [
+        "source_identity",
+        "choice_anchor",
+        "word_count",
+        "word_boundaries"
+      ],
+      "unresolved_bindings": [
+        "source_identity",
+        "choice_anchor",
+        "word_count",
+        "word_boundaries"
+      ]
+    },
+    {
+      "absence_of_explicit_binding_is_not_impossibility_proof": true,
+      "explicit_source_bindings": [],
+      "input_ready": false,
+      "instruction_or_object": "thispassword",
+      "interface": "this-binding",
+      "required_bindings": [
+        "antecedent_identity",
+        "backward_or_forward_scope"
+      ],
+      "unresolved_bindings": [
+        "antecedent_identity",
+        "backward_or_forward_scope"
+      ]
+    },
+    {
+      "absence_of_explicit_binding_is_not_impossibility_proof": true,
+      "explicit_source_bindings": [],
+      "input_ready": false,
+      "instruction_or_object": "first-shabef",
+      "interface": "first-hash-input",
+      "required_bindings": [
+        "input_identity",
+        "input_representation",
+        "output_consumer"
+      ],
+      "unresolved_bindings": [
+        "input_identity",
+        "input_representation",
+        "output_consumer"
+      ]
+    },
+    {
+      "absence_of_explicit_binding_is_not_impossibility_proof": true,
+      "explicit_source_bindings": [],
+      "input_ready": false,
+      "instruction_or_object": "embedded-container",
+      "interface": "container-answer",
+      "required_bindings": [
+        "processing_rule",
+        "output_identity"
+      ],
+      "unresolved_bindings": [
+        "processing_rule",
+        "output_identity"
+      ]
+    },
+    {
+      "absence_of_explicit_binding_is_not_impossibility_proof": true,
+      "explicit_source_bindings": [],
+      "input_ready": false,
+      "instruction_or_object": "second-shabef",
+      "interface": "answer-hash-input",
+      "required_bindings": [
+        "answer_identity",
+        "answer_representation",
+        "output_consumer"
+      ],
+      "unresolved_bindings": [
+        "answer_identity",
+        "answer_representation",
+        "output_consumer"
+      ]
+    },
+    {
+      "absence_of_explicit_binding_is_not_impossibility_proof": true,
+      "explicit_source_bindings": [],
+      "input_ready": false,
+      "instruction_or_object": "residual-and-Bifid",
+      "interface": "parallel-join",
+      "required_bindings": [
+        "input_roles",
+        "join_operation",
+        "output_type",
+        "consumer"
+      ],
+      "unresolved_bindings": [
+        "input_roles",
+        "join_operation",
+        "output_type",
+        "consumer"
+      ]
+    }
+  ],
+  "new_cryptographic_trials": 0,
+  "new_trial_inputs": 0,
+  "next_test": "Perform one exact grammatical-scope experiment on the original z-delimited lastwordsbeforearchichoice / thispassword / shabefourfirsthintisyourlastcommand sequence. Compare only backward-result and forward-recipe reference scopes against the preserved secondary walkthrough wording and source punctuation/spacing. Do not extract candidate words, generate trial strings or repeat broader first-hint/source searches.",
+  "operation_order": [
+    "load six frozen public-analysis reports",
+    "retain exact primary typed object maps",
+    "declare seven operand interfaces",
+    "propagate current speech/baseline/attribution limits",
+    "preflight four symbolic graphs without executing them"
+  ],
+  "ordered_mentions_not_execution": [
+    "yellowblueprimes",
+    "matrixsumlist",
+    "lastwordsbeforearchichoice",
+    "yinyang"
+  ],
+  "output": "Four symbolic construction graphs, seven unresolved interfaces and exact source ownership",
+  "result": "Four symbolic graphs remain INCONCLUSIVE. All seven source/operand/consumer interfaces retain missing bindings. Local lastwords/thispassword adjacency is the strongest lexical handoff but permits backward-result or forward-recipe scope. A SHA operator is identifiable without identifying its argument; first-hint command recall is not literal-text ownership. SMALL names a source container, not a known answer. Frozen residual/Bifid dependencies do not supply a join. No graph is executable or selected by the new evidence alone.",
+  "search_space": {
+    "declared_edges": 24,
+    "frozen_reports": 6,
+    "new_transformations": 0,
+    "operand_interfaces": 7,
+    "symbolic_graphs": 4,
+    "thispassword_reference_scopes": 2
+  },
+  "source_evidence": [
+    {
+      "path": "research/artifacts/cycle10/instruction-graphs-v3.json",
+      "sha256": "31a20ee0b58c1289d16de425c76f4521ca228a01c6ca12122d074056a8e81132"
+    },
+    {
+      "path": "research/artifacts/cycle11/hint-instruction-order.json",
+      "sha256": "05a3ad4ec7ed7572f1223fb90c97612caa4fde6ffc199baeebdcd1794d74150d"
+    },
+    {
+      "path": "research/artifacts/cycle11/trailer-referents.json",
+      "sha256": "5e1d264db6b11b611d7c334830154d2fd4160357e2f4bb1561aebf1fa7c4a1a6"
+    },
+    {
+      "path": "research/artifacts/cycle15/label-boundary-audit.json",
+      "sha256": "3d965046baecf2372ffcf7d79537c537019583f9def802e8fe0faefcdc70e94f"
+    },
+    {
+      "path": "research/artifacts/cycle16/speech-operand-audit.json",
+      "sha256": "173f751681b9f07872c0985cf9bed548c528c17f56bd9d72bc5af23a4b17e763"
+    },
+    {
+      "path": "research/artifacts/cycle16/deictic-source-audit-v2.json",
+      "sha256": "6697f8fa11f988e2ab5e931772b26f25293d15bac42951dba9964cf41ad662ed"
+    }
+  ],
+  "source_locations": [
+    "research/sources/salphaseion.html:17",
+    "research/artifacts/cycle11/hint-instruction-order.json:1",
+    "research/artifacts/cycle11/trailer-referents.json:1",
+    "research/artifacts/cycle16/speech-operand-audit.json:1",
+    "research/artifacts/cycle16/deictic-source-audit-v2.json:1"
+  ],
+  "source_objects": [
+    {
+      "decoded_label": null,
+      "object": "dbbi91",
+      "role": "UNRESOLVED_SOURCE_DATA",
+      "role_does_not_bind_an_argument": true,
+      "source": {
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "source_span": {
+        "character_span_zero_based_half_open": [
+          456,
+          637
+        ],
+        "column_one_based": 46,
+        "line_one_based": 17,
+        "normalized_span_zero_based_half_open": [
+          0,
+          91
+        ],
+        "utf8_byte_span_zero_based_half_open": [
+          456,
+          637
+        ]
+      }
+    },
+    {
+      "decoded_label": "matrixsumlist",
+      "object": "matrixsumlist",
+      "role": "BINARY_ENCODED_TEXT_LABEL",
+      "role_does_not_bind_an_argument": true,
+      "source": {
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "source_span": {
+        "character_span_zero_based_half_open": [
+          638,
+          845
+        ],
+        "column_one_based": 228,
+        "line_one_based": 17,
+        "normalized_span_zero_based_half_open": [
+          91,
+          195
+        ],
+        "utf8_byte_span_zero_based_half_open": [
+          638,
+          845
+        ]
+      }
+    },
+    {
+      "decoded_label": null,
+      "object": "faed570",
+      "role": "UNRESOLVED_SOURCE_DATA",
+      "role_does_not_bind_an_argument": true,
+      "source": {
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "source_span": {
+        "character_span_zero_based_half_open": [
+          846,
+          1985
+        ],
+        "column_one_based": 436,
+        "line_one_based": 17,
+        "normalized_span_zero_based_half_open": [
+          195,
+          765
+        ],
+        "utf8_byte_span_zero_based_half_open": [
+          846,
+          1985
+        ]
+      }
+    },
+    {
+      "decoded_label": "lastwordsbeforearchichoice",
+      "object": "lastwordsbeforearchichoice",
+      "role": "DECIMAL_INTEGER_ENCODED_TEXT_LABEL",
+      "role_does_not_bind_an_argument": true,
+      "source": {
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "source_span": {
+        "character_span_zero_based_half_open": [
+          1988,
+          2113
+        ],
+        "column_one_based": 1578,
+        "line_one_based": 17,
+        "normalized_span_zero_based_half_open": [
+          766,
+          829
+        ],
+        "utf8_byte_span_zero_based_half_open": [
+          1988,
+          2113
+        ]
+      }
+    },
+    {
+      "decoded_label": "thispassword",
+      "object": "thispassword",
+      "role": "DECIMAL_INTEGER_ENCODED_TEXT_LABEL",
+      "role_does_not_bind_an_argument": true,
+      "source": {
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "source_span": {
+        "character_span_zero_based_half_open": [
+          2116,
+          2173
+        ],
+        "column_one_based": 1706,
+        "line_one_based": 17,
+        "normalized_span_zero_based_half_open": [
+          830,
+          859
+        ],
+        "utf8_byte_span_zero_based_half_open": [
+          2116,
+          2173
+        ]
+      }
+    },
+    {
+      "decoded_label": null,
+      "object": "first-command",
+      "role": "MIXED_LITERAL_SHA_WORDING",
+      "role_does_not_bind_an_argument": true,
+      "source": {
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "source_span": {
+        "character_span_zero_based_half_open": [
+          2176,
+          2245
+        ],
+        "column_one_based": 1766,
+        "line_one_based": 17,
+        "normalized_span_zero_based_half_open": [
+          860,
+          895
+        ],
+        "utf8_byte_span_zero_based_half_open": [
+          2176,
+          2245
+        ]
+      }
+    },
+    {
+      "decoded_label": null,
+      "object": "small-container-first-part",
+      "role": "ENCODED_CONTAINER_DATA",
+      "role_does_not_bind_an_argument": true,
+      "source": {
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "source_span": {
+        "character_span_zero_based_half_open": [
+          2246,
+          2373
+        ],
+        "column_one_based": 1836,
+        "line_one_based": 17,
+        "normalized_span_zero_based_half_open": [
+          895,
+          959
+        ],
+        "utf8_byte_span_zero_based_half_open": [
+          2246,
+          2373
+        ]
+      }
+    },
+    {
+      "decoded_label": "enter",
+      "object": "enter",
+      "role": "BINARY_ENCODED_TEXT_LABEL",
+      "role_does_not_bind_an_argument": true,
+      "source": {
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "source_span": {
+        "character_span_zero_based_half_open": [
+          2374,
+          2453
+        ],
+        "column_one_based": 1964,
+        "line_one_based": 17,
+        "normalized_span_zero_based_half_open": [
+          959,
+          999
+        ],
+        "utf8_byte_span_zero_based_half_open": [
+          2374,
+          2453
+        ]
+      }
+    },
+    {
+      "decoded_label": null,
+      "object": "small-container-second-part",
+      "role": "ENCODED_CONTAINER_DATA",
+      "role_does_not_bind_an_argument": true,
+      "source": {
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "source_span": {
+        "character_span_zero_based_half_open": [
+          2454,
+          2581
+        ],
+        "column_one_based": 2044,
+        "line_one_based": 17,
+        "normalized_span_zero_based_half_open": [
+          999,
+          1063
+        ],
+        "utf8_byte_span_zero_based_half_open": [
+          2454,
+          2581
+        ]
+      }
+    },
+    {
+      "decoded_label": null,
+      "object": "answer-command",
+      "role": "MIXED_LITERAL_SHA_WORDING",
+      "role_does_not_bind_an_argument": true,
+      "source": {
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "source_span": {
+        "character_span_zero_based_half_open": [
+          2582,
+          2605
+        ],
+        "column_one_based": 2172,
+        "line_one_based": 17,
+        "normalized_span_zero_based_half_open": [
+          1063,
+          1075
+        ],
+        "utf8_byte_span_zero_based_half_open": [
+          2582,
+          2605
+        ]
+      }
+    },
+    {
+      "object": "first-shabef",
+      "role": "LOCAL_OPERATOR",
+      "role_does_not_bind_an_argument": true,
+      "source": {
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "source_span": {
+        "character_span_zero_based_half_open": [
+          2176,
+          2187
+        ],
+        "column_one_based": 1766,
+        "line_one_based": 17,
+        "literal": "shabef",
+        "name": "first-shabef",
+        "normalized_span_zero_based_half_open": [
+          860,
+          866
+        ],
+        "utf8_byte_span_zero_based_half_open": [
+          2176,
+          2187
+        ]
+      }
+    },
+    {
+      "object": "ourfirsthintisyourlastcommand",
+      "role": "ORDINARY_COMMAND_WORDING",
+      "role_does_not_bind_an_argument": true,
+      "source": {
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "source_span": {
+        "character_span_zero_based_half_open": [
+          2188,
+          2245
+        ],
+        "column_one_based": 1778,
+        "line_one_based": 17,
+        "literal": "ourfirsthintisyourlastcommand",
+        "name": "ourfirsthintisyourlastcommand",
+        "normalized_span_zero_based_half_open": [
+          866,
+          895
+        ],
+        "utf8_byte_span_zero_based_half_open": [
+          2188,
+          2245
+        ]
+      }
+    },
+    {
+      "object": "second-shabef",
+      "role": "LOCAL_OPERATOR",
+      "role_does_not_bind_an_argument": true,
+      "source": {
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "source_span": {
+        "character_span_zero_based_half_open": [
+          2582,
+          2593
+        ],
+        "column_one_based": 2172,
+        "line_one_based": 17,
+        "literal": "shabef",
+        "name": "second-shabef",
+        "normalized_span_zero_based_half_open": [
+          1063,
+          1069
+        ],
+        "utf8_byte_span_zero_based_half_open": [
+          2582,
+          2593
+        ]
+      }
+    },
+    {
+      "object": "anstoo",
+      "role": "ORDINARY_COMMAND_WORDING",
+      "role_does_not_bind_an_argument": true,
+      "source": {
+        "path": "research/sources/salphaseion.html",
+        "sha256": "a83d3de7810f26b19b4965339b76d403e44f6b6877e5d7de2555480ca1779d77"
+      },
+      "source_span": {
+        "character_span_zero_based_half_open": [
+          2594,
+          2605
+        ],
+        "column_one_based": 2184,
+        "line_one_based": 17,
+        "literal": "anstoo",
+        "name": "anstoo",
+        "normalized_span_zero_based_half_open": [
+          1069,
+          1075
+        ],
+        "utf8_byte_span_zero_based_half_open": [
+          2594,
+          2605
+        ]
+      }
+    },
+    {
+      "frozen_branch_lengths": [
+        61,
+        60
+      ],
+      "new_transformation": false,
+      "object": "residual-object",
+      "role": "CONDITIONAL_RESEARCH_DERIVED_OBJECT",
+      "source_owner": "dbbi91"
+    },
+    {
+      "frozen_length": 570,
+      "new_transformation": false,
+      "object": "Bifid-object",
+      "prefix_does_not_bind_output_consumer": true,
+      "prefix_input_indices": [
+        0,
+        1,
+        2,
+        3,
+        285,
+        286,
+        287,
+        288
+      ],
+      "role": "REPRODUCED_TRANSFORM_NOT_CREATOR_INTENT",
+      "source_owners": [
+        "dbbi91",
+        "faed570"
+      ]
+    },
+    {
+      "container_is_input_not_known_answer": true,
+      "object": "SMALL",
+      "primary_literal_present": false,
+      "role": "SECONDARY_CONTAINER_NAME",
+      "source_owner": [
+        "small-container-first-part",
+        "small-container-second-part"
+      ]
+    },
+    {
+      "argument_bound": false,
+      "object": "HASHTHETEXT",
+      "role": "PRESERVED_PUBLIC_AUDIO_COMMAND",
+      "source": {
+        "path": "research/artifacts/audio-reproduction.json",
+        "sha256": "9bdbc0f1b84a31630894d86768b801f953f09a9c1739bd311e2c3a81c52f932b"
+      }
+    }
+  ],
+  "speech_constraints_propagated": {
+    "baseline_covered_letters": 1076,
+    "baseline_uncovered_letters": 463,
+    "deictic_antecedent_not_uniquely_bound": true,
+    "literal_choice": false,
+    "question_repetition_not_a_selector": true,
+    "word_count_unspecified": true
+  },
+  "status": "INCONCLUSIVE",
+  "thispassword_scope_survivors": [
+    "BACKWARD_REFERENCE_TO_SELECTED_OBJECT",
+    "FORWARD_LABEL_FOR_FOLLOWING_RECIPE"
+  ]
+}
