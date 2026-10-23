@@ -1,0 +1,70 @@
+[
+{
+"test": "P1_gzip",
+"s": "FAED",
+"nodes": 268,
+"trunc": false,
+"n_prefix_solutions": 0,
+"sols": [],
+"secs": 0.0
+},
+{
+"test": "P1_ansi_text",
+"s": "FAED",
+"nodes": 225,
+"trunc": false,
+"deepest_top_bytes": 1,
+"n_full": 0,
+"secs": 0.0
+},
+{
+"test": "P1_gzip",
+"s": "FAED_rev",
+"nodes": 82,
+"trunc": false,
+"n_prefix_solutions": 0,
+"sols": [],
+"secs": 0.0
+},
+{
+"test": "P1_ansi_text",
+"s": "FAED_rev",
+"nodes": 74,
+"trunc": false,
+"deepest_top_bytes": 1,
+"n_full": 0,
+"secs": 0.0
+},
+{
+"test": "P2_gzip_anyzero",
+"s": "DBBI",
+"nodes": 11,
+"trunc": false,
+"n_prefix_solutions": 0,
+"sols": []
+},
+{
+"test": "P2_gzip_anyzero",
+"s": "DBBI_rev",
+"nodes": 5,
+"trunc": false,
+"n_prefix_solutions": 0,
+"sols": []
+},
+{
+"test": "P2_gzip_anyzero",
+"s": "FAED",
+"nodes": 3,
+"trunc": false,
+"n_prefix_solutions": 0,
+"sols": []
+},
+{
+"test": "P2_gzip_anyzero",
+"s": "FAED_rev",
+"nodes": 6,
+"trunc": false,
+"n_prefix_solutions": 0,
+"sols": []
+}
+]

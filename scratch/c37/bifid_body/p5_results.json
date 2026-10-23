@@ -1,0 +1,80 @@
+{
+ "10": {
+  "per_detector": {
+   "S1_odd_ioc": 1.0,
+   "S2_odd_entropy": 1.0,
+   "S3_even_entropy": 0.9333333333333333,
+   "S4_body_ioc": 0.9666666666666667,
+   "S5_distinct_digraphs": 1.0,
+   "S7_chi2_pair": 1.0,
+   "S8_rep3gram": 1.0,
+   "S9_rep4gram": 1.0
+  },
+  "any_bonferroni": 1.0
+ },
+ "16": {
+  "per_detector": {
+   "S1_odd_ioc": 1.0,
+   "S2_odd_entropy": 1.0,
+   "S3_even_entropy": 0.8666666666666667,
+   "S4_body_ioc": 0.9333333333333333,
+   "S5_distinct_digraphs": 1.0,
+   "S7_chi2_pair": 1.0,
+   "S8_rep3gram": 1.0,
+   "S9_rep4gram": 1.0
+  },
+  "any_bonferroni": 1.0
+ },
+ "32": {
+  "per_detector": {
+   "S1_odd_ioc": 0.9,
+   "S2_odd_entropy": 1.0,
+   "S3_even_entropy": 0.8333333333333334,
+   "S4_body_ioc": 0.9333333333333333,
+   "S5_distinct_digraphs": 1.0,
+   "S7_chi2_pair": 1.0,
+   "S8_rep3gram": 1.0,
+   "S9_rep4gram": 1.0
+  },
+  "any_bonferroni": 1.0
+ },
+ "58": {
+  "per_detector": {
+   "S1_odd_ioc": 0.26666666666666666,
+   "S2_odd_entropy": 0.5,
+   "S3_even_entropy": 0.43333333333333335,
+   "S4_body_ioc": 0.9,
+   "S5_distinct_digraphs": 1.0,
+   "S7_chi2_pair": 1.0,
+   "S8_rep3gram": 0.8666666666666667,
+   "S9_rep4gram": 0.0
+  },
+  "any_bonferroni": 1.0
+ },
+ "64": {
+  "per_detector": {
+   "S1_odd_ioc": 0.4666666666666667,
+   "S2_odd_entropy": 0.43333333333333335,
+   "S3_even_entropy": 0.5333333333333333,
+   "S4_body_ioc": 0.7333333333333333,
+   "S5_distinct_digraphs": 1.0,
+   "S7_chi2_pair": 1.0,
+   "S8_rep3gram": 0.3333333333333333,
+   "S9_rep4gram": 0.03333333333333333
+  },
+  "any_bonferroni": 1.0
+ },
+ "81": {
+  "per_detector": {
+   "S1_odd_ioc": 0.9333333333333333,
+   "S2_odd_entropy": 0.9,
+   "S3_even_entropy": 0.3333333333333333,
+   "S4_body_ioc": 0.7,
+   "S5_distinct_digraphs": 0.0,
+   "S7_chi2_pair": 0.0,
+   "S8_rep3gram": 0.06666666666666667,
+   "S9_rep4gram": 0.0
+  },
+  "any_bonferroni": 0.9
+ }
+}

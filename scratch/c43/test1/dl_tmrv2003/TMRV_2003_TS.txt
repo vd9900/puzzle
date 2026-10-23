@@ -1,0 +1,983 @@
+The Matrix Revolutions - Transcript 
+[Last Update: March 24, 2004 14:30 GMT]
+Italian version: http://www.zionmainframe.net/main/revolutions/archive/transcript_it.txt
+Thanks to ysis for the translation!
+######################################################################################
+# The Matrix Revolutions, The Matrix Reloaded, The Matrix, and all related media,    #
+# characters, and stories are copyright 1999-2003 AOL Time Warner and Village        #
+# Roadshow Pictures. The transcript below contains parts of a script written by the  #
+# Wachowski brothers.                                                                #
+# This transcript is provided for fans' enjoyment and reference and does not intend  #
+# copyright infringement. The entire content of this transcript is property of Larry #
+# and Andy Wachowski, AOL Time Warner, and Village Roadshow Pictures.                #
+# No claim is lain on the ownership of the words contained within this transcript.   #
+#                                                                                    #
+# GIVE CREDIT WHERE CREDIT IS DUE. RETAIN THIS COMMENT BLOCK.                        #
+#                                                                                    #
+# The transcript is intended for teaching /educational purposes only. It falls under #
+# the U.S. Code 17/Sec. 107 - Limitations on exclusive rights: 'Fair Use'.           #
+# Notwithstanding the provisions of sections 106 and 106A, the fair use of a         #
+# copyrighted work, including such use by reproduction in copies or phonorecords or  #
+# by any other means specified by that section, for purposes such as criticism,      #
+# comment, news reporting, teaching (including multiple copies for classroom use),   #
+# scholarship, or research, is not an infringement of copyright.                     #
+#                                                                                    #
+# [Thanks to http://www.screentalk.org/ for the above summary.]                      #
+######################################################################################
+*****************************************************************************
+* Brought to you by the Matrix Community: http://www.matrixcommunity.org/   *
+* Home of the Zion Mainframe. http://www.zionmainframe.net/                 *
+* This transcript was first put up on 11.06.2003                            *
+*                                                                           *
+* The most up-to-date version of this file can always be found here:        *
+* http://www.zionmainframe.net/main/revolutions/archive/transcript.txt      *
+*                                                                           *
+* Transcribed by: furiosity, pixel8or, CTM, and Ouroboros                   *
+*                                                                           *
+* Clockwork has been instrumental in providing missing character names.     *
+* Visit Matrix Character Database: http://matrix.thescarymonkeyshow.com/    *
+*                                                                           *
+* Huge thanks to peeps at the Matrix Community for further copy-edits,      *
+* particularly crazykat, Velouria75, Clockwork, Aether7744, iceblink,       *
+* Zionova, Rossaroni, ysis, and Torak.                                      *
+*                                                                           *
+* Shout out: Worrel aka Haggada for putting together transcriptions         *
+* from the trailers and TV spots way before this transcript. Worrel also    *
+* provided updates to the transcript once it was online. Please visit       *
+* http://home.arcor.de/diesernameistbestimmtnochnichtvergeben/m/matrix.htm  *
+*                                                                           *
+* We don't own the words of the transcript, but we did transcribe it.       *
+* RESPECT WORK DONE BY OTHERS. RETAIN THIS COMMENT BLOCK.                   *
+*****************************************************************************
+/* Note: Phrases or words in [square brackets] are unconfirmed and may be wrong.    */
+/* Curly braces denote longer action descriptions                                   */
+/* Square brackets around characters mean the character name is doubtful there.     */
+/* Square brackets with dots in them [...] mean missing words or phrases.           */
+/* If you can help with the missing bits, please visit this thread:                 */
+/* http://www.matrixcommunity.org/cgi-bin/ultimatebb.cgi?ubb=get_topic;f=8;t=000892 */
+(The Hammer: main deck)
+AK: I got nothing, sir. No sign of Niobe or Ghost. Nothin' but blue pills.
+Mauser: Should we jack in and try to contact them?
+Roland: It wouldn't matter. My gut says they're down.
+Mauser: Then we should start back.
+Roland: No. If that ship can still fly, then we need it.
+Mauser: I was afraid you were gonna say that.
+Roland: Search every pipe, every hole, every crack we know. Sweep as wide as possible, as fast as possible.
+AK: Captain, these lines are crawling with calamari.
+Roland: Then the sooner we find them the better.
+(The Hammer: infirmary)
+Maggie: Thought you could use something to eat.
+Trinity: Thank you.
+Maggie: Any change?
+Trinity: No. How's he?
+Maggie: He's going to be fine, at least until he wakes up.
+Trinity: What do you mean?
+Maggie: The Captain has some questions for him. He better have some good answers. You see these cuts? I think they're self-inflicted.
+Trinity: Why?
+Maggie: VDTs, maybe. I don't know. But like I said, the answer had better be good.
+(The Hammer: main deck)
+Morpheus: Roland. I'd like to run another search through the Matrix.
+Roland: For what?
+Morpheus: For Neo.
+AK: How can he be in the Matrix, sir? He's not plugged in.
+Morpheus: Please, for me.
+(The Hammer: infirmary)
+Maggie: This is what keeps bothering me.
+Trinity: What?
+Maggie: His neural patterns don't read like someone who's in a coma. The strange thing is, I see these patterns all the time.
+Trinity: Where?
+Maggie: On someone jacked in.
+(The Hammer: main deck)
+AK: The big bubkis. Nada. He's not in there.
+Colt:  Sir, we've got the projections!
+Roland: How long?
+Colt: Based on the point of entry and the [past] speed it looks like the machines will be inside of Zion in just under 20 hours.
+AK: Jesus H. Christ.
+Roland: All right, let's move with a purpose. AK, get upstairs, I want you on holographics. [Colt,] Mauser, I want forward and aft guns manned at all times. And make sure we are running on as few pads as possible.
+Colt: Yes, sir.
+Link: Hey. Hey! We got a call. Operator. It's Seraph.
+Seraph: I bring word from the Oracle. You must come at once.
+(Mobil Ave. train station)
+Sati: Good morning.
+Neo: Who are you?
+Sati: My name is Sati. Your name is Neo. My papa says you're not supposed to be here. He says you must be lost. Are you lost, Neo?
+Neo: Where am I?
+Sati: This is the train station.
+Neo: This isn't the Matrix?
+Sati: That's where the Train goes. That's where we're going. But you cannot go with us.
+Neo: Why not?
+Sati: He won't let you.
+Neo: Who won't let me?
+Sati: The Trainman. *whispers*  I don't like him, but my Papa says we have to do what the Trainman says or he will leave us here for ever and ever.
+(Oracle's apartment)
+Oracle: Morpheus, Trinity. Thank you for coming. One thing I've learned in all my years is that nothing ever works out just the way you want it to. 
+Trinity: Who are you?
+Oracle: I'm the Oracle.  I wish there was an easier way to get through this but there ain't. I'm sorry this had to happen. I'm sorry I couldn't be sitting here like you remember me. But it wasn't meant to be.
+Trinity: What happened?
+Oracle: I made a choice, and that choice cost me more than I wanted it to.
+Morpheus: What choice?
+Oracle: To help you to guide Neo. Now, since the real test for any choice is having to make the same choice again, knowing full well what it might cost - I guess I feel pretty good about that choice, 'cause here I am, at it again.
+Trinity: Do you know what happened to Neo?
+Oracle: Yes. He's trapped in a place between this world and the machine world. The link is controlled by a program called the Trainman. He uses it to smuggle programs in and out of the Matrix. If he finds out where Neo is before you get to him, then I'm afraid our choices are going to become difficult.
+Trinity: Why?
+Oracle: Because of who the Trainman works for.
+Morpheus: The Merovingian.
+Oracle: He has placed a bounty on your lives. You must be careful at all times. Seraph knows how to find the Trainman, he will go with you. For years, he has protected me. I hope he can do the same for you.
+Seraph: Please, follow me.
+Morpheus: Oracle.
+Oracle: I know, Morpheus. I can see you're filled with doubt, clouded by uncertainty.
+Morpheus: After everything that's happened, how can you expect me to believe you? 
+Oracle: I don't. I expect just what I've always expected. For you to make up your own damn mind. Believe me or don't. All I can really tell you is your friend's in trouble and he needs your help. He needs all our help.
+(Mobil Ave. train station)
+Sati: Are you from the Matrix?
+Neo: Yes. No. I mean, I was.
+Sati: Why did you leave?
+Neo: I had to.
+Sati: I had to leave my home too.
+Rama-Kandra: Sati! Come here, darling. Leave the poor man in peace.
+Sati: Yes, papa.
+Rama-Kandra: I'm sorry, she is still very curious. 
+Neo: I know you.
+Rama-Kandra: Yes, in the restaurant of the Frenchman. I am Rama-Kandra. This is my wife Kamala, my daughter Sati. We are most honoured to meet you.
+Neo: You're programs.
+Rama-Kandra: Oh, yes. I'm the power plant systems manager for recycling operations. My wife is an interactive software programmer, she is highly creative.
+Kamala: What are you doing here? You do not belong here.
+Rama-Kandra: Kamala! Goodness, I apologize. My wife can be very direct.
+Neo: It's okay. I don't have an answer. I don't even know where 'here' is.
+Rama-Kandra: This place is nowhere. It is between your world and our world. 
+Neo: Who's the Trainman?
+Rama-Kandra: He works for the Frenchman.
+Neo: Why'd I know you were going to say that?
+Rama-Kandra: The Frenchman does not forget and he does not forgive. 
+Neo: You know him?
+Rama-Kandra: I know only what I need to know. I know that if you want to take something from our world into your world that does not belong there, you must go to the Frenchman. 
+Neo: Is that what you're doing here?
+Kamala: Rama, please!
+Rama-Kandra: I do not want to be cruel, Kamala. He may never see another face for the rest of his life.
+Neo: I'm sorry. You don't have to answer that question.
+Rama-Kandra: No. I don't mind. The answer is simple. I love my daughter very much. I find her to be the most beautiful thing I've ever seen. But where we are from, that is not enough. Every program that is created must have a purpose; if it does not, it is deleted. I went to the Frenchman to save my daughter. You do not understand.
+Neo: I just have never... 
+Rama-Kandra: ...heard a program speak of love?
+Neo: It's a... human emotion.
+Rama-Kandra: No, it is a word. What matters is the connection the word implies. I see that you are in love. Can you tell me what you would give to hold on to that connection?
+Neo: Anything.
+Rama-Kandra: Then perhaps the reason you're here is not so different from the reason I'm here.
+(Matrix: inside a subway train)
+Seraph: That's him.
+Trainman: Get away! Get away from me!
+Seraph: We don't want trouble.
+Trainman: Get the hell away from me!
+Seraph: We need your help.
+Trainman: I can't help you. No one can help you!
+(Matrix: Stellma subway stop)
+{the Trainman prepares to jump across the tracks in the path of the LOOP train}
+Seraph: Oh, no.
+{the train passes, the Trainman is gone}
+Seraph: Damn it.
+(Mobil Ave. train station)
+Neo: When is the train due?
+Rama-Kandra: It's already late. It's not like the Trainman to be late.
+Neo: You think it has something to do with me?
+Rama-Kandra: I cannot say. Who knows such things? Only the Oracle.
+Neo: You know the Oracle?
+Rama-Kandra: Everyone knows the Oracle. I consulted with her before I met with the Frenchman. She promised she would look after Sati after we said goodbye.
+Neo: Goodbye? You're not staying with her?
+Rama-Kandra: It is not possible. Our arrangement with the Frenchman was for our daughter only. My wife and I must return to our world.
+Neo: Why?
+Rama-Kandra: That is our karma.
+Neo: You believe in karma?
+Rama-Kandra: Karma's a word. Like 'love.' A way of saying 'what I am here to do.' I do not resent my karma - I'm grateful for it. Grateful for my wonderful wife, for my beautiful daughter. They are gifts. And so I do what I must do to honour them.
+Sati: Papa, the train!
+Rama-Kandra: Yes! Find your bag, quickly!
+Neo: Can I carry that for you?
+Rama-Kandra: All right.
+Trainman: Hurry it up, I'm late!
+{Kamala and Sati pass, Trainman stops Neo}
+Trainman: Who are you?
+Rama-Kandra: He's a friend.
+Kamala: Rama!
+Trainman: I know you. So that's what they wanted.
+Neo: I need to get back. I'll pay you anything you want. 
+Trainman: Oh?
+Neo: One way or another I'm getting on this train
+Trainman:  Oh, no, no, no. You're gonna stay right here until the Merovingian says different. If I know him, you're gonna be here for a long, long time.
+Neo: I don't want to hurt you.
+Trainman: You don't get it. I built this place. Down here I make the rules. Down here I make the threats. Down here, I'm God. *to Rama-Kandra* Get on the train, or you'll stay here with him.
+(Matrix: inside a car)
+Seraph:  We should return to the Oracle. She'll know what to do.
+Trinity: No. We know what has to be done.
+(Mobil Ave. train station)
+Neo: Shit.
+(Hel Club garage)
+Q-Ball Gang Member #1: You've got to be kidding...
+Q-Ball Gang Member #2: Holy shit, it's Wingless.
+Q-Ball Gang Member #1: I get it. You must be ready to die.
+Seraph: I need to speak with him.
+Q-Ball Gang Member #1: The only way you're getting through this door is over my big dead ass.
+Seraph: So be it.
+(Hel Club elevator)
+Seraph: There are no weapons allowed in the club. At the bottom of this elevator, there is a coat check girl. And if we're lucky, one man for checking guns.
+Trinity: And if we're unlucky?
+Seraph: There will be many men.
+(Hel Club entrance)
+Coat Check Girl: Can I take your... oh my God.
+{Hel Club shootout}
+(Hel Club - VIP lounge)
+Merovingian: What in the hell? *laughs* I don't believe this.
+Merovingian: *to the DJ* Hey. Hey! *to Seraph* The prodigal child returns. L'ange sans ailes (Trans: The angel without wings). Are you here for the bounty, Seraph? *laughs heartily* Tell me, how many bullets are there in those guns? I don't know, but I don't think you have enough.
+Seraph: We only want to talk.
+Merovingian:  Oh yes, I'm sure you do, you have fought through hell to do so, yes? I'll tell you what I'll do. Put down the guns and I will promise you safe passage out of here.
+Seraph: All three of us.
+Merovingian: Oh yes, yes. Of course.
+{Trinity, Seraph, and Morpheus put down the guns and are escorted up the stairs}
+Merovingian: *laughs* Quelle bonne surprise, n'est pas? (Trans: What a fine surprise, isn't it?) Who could've guessed we'd all be seeing each other so soon after our last meeting? A fate too kind. And since you, my little Judas, have brought them here, I can only surmise that the fortune teller has found herself  another shell? Disappointing, but not unexpected. I do hope, however, she has the good manners to learn her lesson, and to remember that there is no action without consequence. And if you take something from me you will pay the price.
+Seraph: You know why we are here.
+Merovingian: *laughs* Come, now. What kind of question is this? Of course I know. It's my business to know.  Some might think this a strange coincidence, but I do not. I am curious, though, as to how it actually happened. Do you know?
+Trinity: No.
+Merovingian: No? I didn't think so. But it is always best to ask.
+Morpheus: We want to make a deal.
+Merovingian: *laughs* Always straight to business, huh, Morpheus? Okay. I have something you want. To make a deal, you must have something I want, yes? And it so happens there is something I want. Something I've wanted ever since I first came here. It is said they cannot be taken, they can only be given.
+Morpheus: What?
+Merovingian: The eyes of the Oracle. *laughs*
+Merovingian:  I have told you before, there's no escaping the nature of the universe. It is that nature that has again brought you to me. Where some see coincidence, I see consequence. Where others see chance, I see cost. Bring me the eyes of the Oracle, and I will give you back your saviour. That seems a particularly fair and reasonable deal to me. Yes, no?
+Trinity: I don't have time for this shit. 
+{Hel Club upstairs fight}
+Trinity: You want to make a deal, how about this? You give me Neo, or we all die right here, right now.
+Merovingian:  Interesting deal. You are really ready to die for this man?
+Trinity: *cocks gun* Believe it.
+Perseph: She'll do it. If she has to, she'll kill every one of us. She's in love.
+Merovingian: It is remarkable how similar the pattern of love is to the pattern of insanity.
+Trinity: Time's up. What's it gonna be, Merv?
+(Mobil Ave train station)
+Neo: Ok. You got yourself into this. You can get yourself out.
+(Matrix: inside a car)
+Morpheus: Are you ready for us?
+Link: Almost, sir. They got some pretty ancient hacks here, we're working on it. Did you find Neo?
+Morpheus: Can't you see him?
+Link: No, sir. We were reading something but I couldn't tell what it was.
+Neo: I can't leave yet.
+{Trinity looks over at him}
+Neo: I have to see her.
+Trinity: Now?
+Neo: This is my last chance.
+(Oracle's kitchen)
+Oracle: That's it. That's the secret. You've got to use your hands.
+Sati: Why?
+Oracle: Cookies need love like everything does.
+Sati: Neo!
+Oracle: I was hoping to have these done before you got here. Oh well. Sati, honey, I think it's time for a tasting. Take the bowl to Seraph and find out if they're ready.
+Sati: Okay. *to Neo* I'm glad you got out.
+Neo: Me too.
+Oracle: So, do you recognize me?
+Neo: A part of you.
+Oracle: Yeah, that's how it works. Some bits you lose, some bits you keep. I don't yet recognize my face in the mirror, but... I still love candy. *offers Neo a piece of red candy*
+Neo: No, thank you.
+Oracle: Remember what you were like when you first walked through my door, jittery as a junebug? And now just look at you. You sure did surprise me, Neo, and you still do.
+Neo: You gave me a few surprises, too.
+Oracle: I hope I helped.
+Neo: You helped me to get here, but my question is why? Where does this go? Where does it end?
+Oracle: I don't know.
+Neo: You don't know or you won't tell me?
+Oracle: I told you before. No one can see beyond a choice they don't understand, and I mean no one.
+Neo: What choice?
+Oracle: It doesn't matter. It's my choice. I have mine to make, same as you have yours.
+Neo: Does that include what things to tell me and what not to tell me?
+Oracle: Of course not.
+Neo: Then why didn't you tell me about the Architect? Why didn't you tell me about Zion, the Ones before me - why didn't you tell me the truth?
+Oracle: Because it wasn't time for you to know.
+Neo: Who decided it wasn't time?
+Oracle: You know who. *She points at the Temet Nosce sign above the door*
+Neo: I did. *Oracle nods* Then I think it's time for me to know a few more things.
+Oracle: So do I.
+Neo: Tell me how I separated my mind from my body without jacking in. Tell me how I stopped four sentinels by thinking it. Tell me just what the hell is happening to me.
+Oracle: The power of the One extends beyond this world. It reaches from here all the way back to where it came from.
+Neo: Where?
+Oracle: The Source. That's what you felt when you touched those Sentinels. But you weren't ready for it. You should be dead, but apparently you weren't ready for that, either.
+Neo: The Architect told me that if I didn't return to the Source, Zion would be destroyed by midnight tonight.
+Oracle: *rolls eyes* Please... You and I may not be able to see beyond our own choices, but that man can't see past any choices.
+Neo: Why not?
+Oracle: He doesn't understand them - he can't. To him they are variables in an equation. One at a time each variable must be solved and countered. That's his purpose: to balance an equation.
+Neo: What's your purpose?
+Oracle: To unbalance it.
+Neo: Why? What do you want?
+Oracle: I want the same thing you want, Neo. And I am willing to go as far as you are to get it.
+Neo: The end of the war. *Oracle nods* Is it going to end?
+Oracle: One way, or another.
+Neo: Can Zion be saved?
+Oracle: I'm sorry, I don't have the answer to that question, but if there's an answer, there's only one place you're going to find it.
+Neo: Where?
+Oracle: You know where. And if you can't find the answer, then I'm afraid there may be no tomorow for any of us.
+Neo: What does that mean?
+Oracle:  Everything that has a beginning has an end. I see the end coming. I see the darkness spreading. I see death. And you are all that stands in his way.
+Neo: Smith.
+Oracle: *nods* Very soon he's going to have the power to destroy this world, but I believe he won't stop there; he can't. He won't stop until there's nothing left at all.
+Neo: What is he?
+Oracle: He is you. Your opposite, your negative, the result of the equation trying to balance itself out.
+Neo: What if I can't stop him?
+Oracle: One way or another, Neo, this war is going to end. Tonight, the future of both worlds will be in your hands... or in his. 
+(The core of the Hammer)
+Trinity: How are you feeling? Are you all right?
+Neo: I need time.
+Roland: That figures.
+Maggie: Captain Roland!
+Roland: What's up, Maggie?
+Maggie: Bane, sir. he's conscious.
+Roland: Good. Maybe he's got some answers.
+(Oracle's kitchen)
+Oracle: Mmm, I love that smell. I sure am gonna miss it.
+Seraph: Oracle.
+Oracle: I know, I know. Sati, honey! Take a few cookies and go with Seraph.
+Sati: Can I come back? I would like to come back!
+Oracle: I would like that too.
+Sati: So I'll see you tomorrow.
+Oracle: I hope so, honey, I hope so.
+(Matrix: inside the building on the floor of the Oracle's apartment)
+Sati: I'm scared, Seraph.
+Seraph: Come.
+Sati: He's following us.
+Smith: Well, well, it's been a long time. I remember chasing you was like chasing a ghost. 
+Seraph: I have beaten you before.
+Smith: That's true, but as you can see, things are a little different now. *to Sati* And you must be the last exile.
+Sati: The Oracle told me about you.
+Smith: Really? And what did she say about me?
+Sati: That you're a bad man.
+Smith: Oh, I'm not so bad once you get to know me.
+(Oracle's kitchen)
+Smith: The great and powerful Oracle. We meet at last. I suppose you've been expecting me, right? The all-knowing Oracle is never surprised. How can she be, she knows everything. But If that's true, then why is she here? If she knew I was coming, why didn't she leave? *sweeps plate of cookies off table* Maybe you knew I was going to do that, maybe you didn't. If you did, that means you baked those cookies and set that plate right there deliberately, purposefully. Which means you're sitting there also deliberately, purposefully.
+Oracle: What did you do with Sati?
+Smith/Sati: Cookies need love like everything does.
+Smiths: *laugh*
+Oracle: You are a bastard.
+Smith: You would know, Mom.
+Oracle: Do what you're here to do.
+Smith: Yes, ma'am.
+Smith/Oracle: *laughs maniacally*
+(The Hammer: mess hall)
+Bane: I really wish I could help, but I just... I don't remember any of it.
+Roland: What about the cuts on your arms? Those cuts are more than one day old.
+Bane: Yeah, definitely. You're right about that, sir. They look like they might be self-inflicted. Why would I do something like that to myself? Unless, of course, I wasn't myself... but... if I'm not me, then who am I?
+Roland: Has this man been tested for VDTs?
+Maggie: Yes, sir, it was negative. But he is showing a lot of unusual neural activity. Some cross-synaptic firing as well as signs of recent trauma, with fresh fibrotic scarring throughout the cortex.
+Roland: I want the truth, I don't care what it takes. Make him remember.
+(The Hammer: main deck)
+Mauser: Sir? We found her!
+Roland: The Logos?
+Mauser: Yes, sir.
+Roland: 'Bout time we had some goddamn good news.
+Morpheus: Are the thermals picking up any signs of life?
+AK: No, sir. Nothing yet.
+Roland: What about the ship?
+AK: Well, holographic says the hull is still intact.
+Roland: Drop her down [...]
+Colt: Yes, sir.
+Roland: Get a full diagnostic on that ship as fast as humanly possible.
+(Logos crash site)
+Colt: Careful, sir! The squids are sneaky bastards. Could be a trap.
+AK: What was that?
+Niobe: You can put that shit away, boys. All she needs is a jump.
+Morpheus: Niobe.
+Niobe: Morpheus. Are you all right?
+Morpheus: Yes, I'm fine. We didn't know what happened after. I'm sorry.
+Niobe: It's okay. I'm happy to see you too. Did you get Neo out?
+Morpheus: Yes. How did you know about that?
+Niobe: The Oracle.
+Morpheus: You saw her?
+Niobe: Just before the sentinels found us.
+Morpheus: What did she tell you?
+Niobe: The same thing she always does. Exactly what I needed to hear.
+(Zion: council room)
+Lock: In less than 12 hours, the machines will breach the dock walls. Every simulation we've run, we've seen that once the machines are inside the city the odds of our survival decrease dramatically. Thus our primary objective must be to destroy or disable the diggers inside the dock. If we can do that, perhaps we can prevent them from ever reaching the city. If not, the only place we'll be able to mount an effective defense will be at the entrance of the Temple. It is small enough that it will force them into a bottleneck, allowing us to concentrate the remainder of our defense.
+Councillor Dillard: We understand that you've requested additional volunteers.
+Lock: That is correct.
+Councillor West: Precisely what size of force are you planning to commit to the primary dock objective?
+Lock: Right now, the entire APU core and half the infantry.
+Councillor West: Half the infantry?
+Lock: If it were up to me, Councillor, I'd take every man, woman, and child, put a gun in their hands and march them straight into that dock.
+Councillor Dillard: Perhaps it is best that it is not up to you.
+Lock: Time will tell, Councillor.
+Councillor Hamann: Commander, just one more question. Has there been word from the Nebuchadnezzar?
+Lock: None, and at this point there's no reason to expect that there ever will be.
+Councillor Hamann: Perhaps. But we can hope.
+Lock: I'm afraid hope is an indulgence I don't have time for.
+(Zion: Zee's and Link's bunker)
+Cas: Zee, what are you doing?
+Zee: Making shells.
+Cas: They're evacuating our level. We have to go.
+Zee: I'm not going with you.
+Cas: What? 
+Zee: They've called for volunteers to hold the dock.
+Cas: *to the kids* Kids, you stay here. *to Zee* I know how you feel, Zee, but you can't do that.
+Zee: I have to.
+Cas: Why?
+Zee: Because I love him. I love him the same as he loves me. And if I were out there and he were here, I know [what he'd do].
+Cas: But you're gonna get yourself killed. It's crazy, Zee.
+Zee: Maybe it is. But ask yourself, if it were Dozer, and you knew the only chance you had to see him again was to hold the dock, what would you do?
+Cas: Make shells.
+(Zion: dock)
+Mifune: What the shit is going on over here?
+Kid: An accident, sir! I didn't see... I'm sorry!
+Mifune: Who the hell are you?
+Kid:  I'm here to volunteer, sir.
+Mifune: What's a pod-born pencil-neck like you doin' volunteering for my corps?
+Kid: I want to do my part, sir! We gotta hold the dock.
+Mifune: How old are you, kid?
+Kid: Eighteen.
+Mifune: Shoulda said sixteen, I mighta believed that!
+Kid: OK, I'm sixteen.
+Mifune: Minimal age for the corps is eighteen, sixteen's too young!
+Kid: The machines won't care how old I am. They'll kill me just the same.
+Mifune: Ain't that the goddamned truth.
+Kid: Give me a chance, sir. I won't let you down.
+Mifune: You do... you'll find me and the machines have something in common.
+(Logos: main deck)
+Ghost (v.o.): Okay. Charge the igniter.
+Sparks: She lives again.
+AK: You want us to patch an uplink to reload the operations software, Sparky?
+Sparks: Yeah, that'd be swell. You can clean the windshield while you're at it. Uplinks are in place, I'm bringing her back online. Looking good, except, uh... something wrong with the Matrix feed.
+(Hammer: main deck)
+AK: No, there's not. You're looking at what we're looking at.
+Sparks (v.o.): What the hell's going on in there?
+Link: Whatever it is, it can't be good.
+(Hammer: mess hall)
+Roland: The machines have taken Junction 21. The way I see it, if we drop down from broadcast here, at Interstate 153, we might surprise them. We go first, hammer as deep as we can, them blow our EMP. Hopefully, we can punch a hole big enough for you to get through.
+Niobe: *sighs*
+Roland: It ain't pretty, but the way I see it, it's the only way back.
+Niobe: No it's not. There's another way. A support line. It drops down right here. A thousand meters short of 21. If we're lucky, we may be able to slip down without them ever knowing. 
+Roland: That's a mechanical line. It's impossible, no one can pilot mechanical.
+Niobe: I can. 
+Roland: Bullshit.
+Niobe: I've done it.
+Morpheus: That was a long time ago, Niobe.
+Niobe: I said I can do it.
+Roland: So what? If you can, you'll be the only one that can. There's no way we can follow you.
+Neo: Hi. I know time is always against us, and I'm sorry I took so long. But I wanted to be sure. 
+Trinity: Sure of what?
+Neo: I know what I have to do.
+Morpheus: What?
+Neo: There's no easy way to say this, so I'll just say it. I have to take one of the ships.
+Roland: What?
+Morpheus: To go where?
+Neo: To the machine city.
+Roland: *laughs*
+Neo: I know it's difficult to understand...
+Roland: No, it's not - you're out of your goddamn mind.
+Neo: I still have to go.
+Roland:  You'll never make it. hundred years no ship has gone within a hundred kilometers of it, you'll never make it.
+Neo: I have to try.
+Morpheus: Is this what the Oracle told you?
+Neo: No.
+Roland: This is asinine! If you want to kill yourself, go do it, but do it without wasting one of our ships.
+Neo: You have to believe me, I have to go.
+Roland: Bullshit! While I'm captain of this ship, I say where it has to go. Believe me, this ship will go to hell long before I let you take it anywhere.
+Niobe: He can take mine.
+Roland: You can't do that.
+Niobe:  Don't even think of trying to tell me what I can or cannot do with my ship after that little speech.
+Roland: But for Christ's sake, Niobe...
+Niobe: I'll pilot this ship. He can take mine. If we leave inside an hour, we should reach Zion as the machines do. That's as good a plan as any.
+Roland: It's a waste. A goddamn waste.
+Niobe: Two ships, two directions. Sounds like providence, doesn't it, Morpheus?
+Morpheus: You've never believed in The One.
+Niobe: I still don't.
+Morpheus: Then why are you doing this?
+Niobe: I believe in him.
+Neo: Thank you.
+(The Hammer: infirmary)
+Bane: What's that for?
+Maggie: To help you relax. To make it easier for you to remember.
+Bane: What if I don't want to remember? 
+Maggie: Why would you want that?
+Bane: What if I blew that EMP? What if I did destroy those ships and I am responsible for the deaths of all those men? If I did that, it wouldn't be very safe for me here, would it?
+{Maggie tries to inject Bane with the relaxant, but he stabs her and she falls over dead}
+Bane: Of course, it might not be very safe for you, either.
+(The Hammer: somewhere)
+Trinity: I'm ready.
+Neo: Trinity... There's something I have to say. Something you need to understand. I know I'm supposed to go. But beyond that - I don't know...
+Trinity: I know. You don't think you're coming back. I knew it the moment you said you had to leave. I could see it in your face. Just like you knew the moment you looked at me that I was coming with you. 
+Neo: I'm scared, Trin.
+Trinity: So am I. Took me ten minutes to buckle up one boot. But I'll tell you something. Six hours ago I told the Merovingian that I was ready to give anything and everything for you. Do you know what's changed in the past 6 hours?
+Neo: No.
+Trinity: Nothing.
+(The Hammer: gun bay/pilot cabin)
+Roland (v.o.): Are you finished loading that amunition?
+Mauser: Just about, sir!
+Roland: Let's move it, we are out of time.
+Niobe: You're not leaving them anything?
+Roland: Said he didn't need it.
+(The Hammer: main deck)
+Link: *hugs Trinity* I ain't saying goodbye. I'm saying good luck.
+Trinity: Thank you.
+Morpheus: I can only hope you know what you're doing.
+Neo: Me, too. It was an honour, sir.
+Morpheus: No, the honour's still mine.
+(The Hammer: pilot cabin)
+Mauser (v.o.): We're ready, sir.
+Roland: 'Bout damn time. *to Niobe* We're already late, Captain, so let's hit it and hit it hard.
+Niobe: Bye, baby. Take good care of them.
+(The Logos: pilot cabin)
+Trinity: Ready?
+{Neo nods. Trinity punches a button and the lights go out}
+Trinity: Engine's still firing. Must be a fuse. I'll check it out.
+Bane: I should've known he'd sent his bitch first.
+Trinity: Bane?!
+Bane: No one ever got away from me as many times as you did. Every single time I thought it was the last. Every time I was sure we had you, but somehow you'd slip through our fingers. I really can't express just how aggravating that can be.
+Trinity: What are you talking about?
+Bane: I think I might enjoy killing you as much as killing him.
+Trinity: Neo! It's Bane, he's psychotic!
+Bane: You're gonna pay for that.
+(Hammer: pilot cabin)
+Ghost: Twenty-seven kilometers to go.
+AK (v.o.): Captain, we've got an emergency down here.
+Roland: What is it, AK?
+AK: It's Maggie, sir. She's dead. Murdered. I think it was Bane.
+Roland: Goddamn it.
+(Hammer: main deck)
+Roland: I knew it. I knew he was out of his goddamn mind. He fired that EMP. Goddamn it, I should have beaten it out of him.
+Colt: We've searched the whole ship, captain. He ain't here.
+Roland: I know where he is.
+Morpheus: The Logos.
+Link: We gotta go back!
+Roland: Too late.
+Link: You don't know that, what if they need our help?
+Roland: It's too dangerous.
+Link: Why?
+Morpheus: Because if he's killed them, he'll control another EMP.
+Roland: At this point, they're on their own... just like us.
+(Logos: main deck)
+Bane: Mr. Anderson. I see you're as predictable in this world as you are in the other.
+Neo: What?
+Trinity: He's out of his mind.
+Bane:  It might appear that way to you, but Mr. Anderson and I know that appearances can be deceiving. Confused, Mr. Anderson? It'll all become clear in a moment. Now, thank you for bringing me the gun. You can set it down right there.
+Trinity: Don't do it. Shoot. Shoot now.
+Bane: Yes, shoot, fry us, burn us alive!
+Trinity: Shoot, Neo. If you don't, he'll kill us both.
+Bane: Look at him. He knows he should do it but he won't. He can't.
+Trinity: Do it.
+{Neo puts the gun down}
+Bane: Back away from the gun and turn around.
+Neo: Let her go.
+Bane: Somehow familiar, isn't it?. We've been here before, you and I. Remember? I do. I think of nothing else.
+Neo: Who are you?
+Bane:  Still don't recognize me? I admit, it is difficult to think, encased in this rotting piece of meat. The stink of it filling every breath, a suffocating cloud you can't escape. *spits blood* Disgusting! Look at how pathetically fragile it is. Nothing this weak is meant to survive.
+Neo: What do you want?
+Bane: I want what you want.
+{Neo looks up with recognition in his eyes}
+Bane:  Yes... That's it, Mr. Anderson. Look past the flesh, look through the soft gelatin of these dull cow eyes and see your enemy.
+Neo: No.
+Bane: Oh yes, Mr. Anderson.
+Neo: It can't be.
+Bane: There's nowhere I can't go, there's nowhere I won't find you.
+Neo: It's impossible.
+Bane: Not impossible. Inevitable. Goodbye, Mr. Anderson.
+Trinity: This is it, it's gotta be. {She pushes a circuit breaker, the lights go out}
+{Bane/Neo fight}
+Neo: *screams*
+Trinity: Oh, no.
+Bane: I wish you could see yourself, Mr. Anderson. The blind messiah. You're a symbol for all of your kind, Mr. Anderson. Helpless, pathetic. Just waiting to be put out of your misery.
+Neo: I can see you.
+Bane: It's not over, Mr. Anderson. It's not over.
+Neo: Trinity!
+Trinity: Neo. Oh no. Your eyes.
+Neo: I'll be okay. It's all right, Trin. But I think you're gonna have to drive.
+(Zion: command centre)
+Lock's Lieutenant: Seismic's projecting twenty-two minutes to breach.
+Lock: They can't know we don't have an EMP, they'll have to attack in waves. Concentrate our offense on the diggers. Order the APUs into position. 
+Lock's Lieutenant: Yes, sir.
+(Zion: dock)
+Mifune: All right, this is it. Now, you all know me, so I'll just say this as simple as I can. If it's our time to die, it's our time. All I ask is: if we have to give these bastards our lives, we give 'em hell before we do!
+APU fighters: *cheer*
+(Zion: a tunnel)
+Zee: You scared, Charra?
+Charra: Shit, yeah. I'll make you a deal, though. You keep loadin', I keep shootin'.
+Zee: Deal.
+(Hammer: pilot cabin)
+AK: Holy Christ would you look at that?
+Roland: Quiet. [How far down?]
+Ghost: 1.4 kilometers.
+Morpheus: Still generating too hot field.
+Niobe: Ghost, kill all auxilliary systems. Give me full manual, drop down to four pads.
+AK: It'll bottom out!
+Niobe: Easy, baby.
+Ghost: 700 meters.
+Niobe: If we can just get close enough.
+Ghost: 600 meters.
+AK: There.
+Niobe: Shit!
+Ghost: Jig's up, here they come.
+Niobe: Give me full power, full systems!
+Roland: Man the gun turrets, every goddamn one of 'em!
+Niobe: Ghost, you're the best gunner we have, go with them. Morpheus, take his place!
+Link: I'm comin', baby.
+Morpheus: Here they come.
+Roland (v.o.): Slow down, this ain't the Logos!
+Niobe: Hold on to your lunch, Roland, here we go.
+Roland: Holy Christ! Didn't know this ship could do that.
+(Zion: command center)
+Operations Officer Mattis: Breached! The dock is breached!
+(Zion: dock)
+Mifune: Knuckle up!
+{The sentinels start coming through the breach}
+Mifune: For Zion!
+Mifune: Knuckle up!
+APU-9 Soldier: Reload!
+(Zion: ammo compartment)
+Radio Bunker Man: Reload Nine!
+{Sentinel is shot down by the gunners in the ammo compartment}
+Radio Bunker Man: Go, go, move, move!
+Mifune: Watch the left! Don't let 'em through! {One of the APUs falls from the bridge} Zuka!
+{A huge sentinel swarm moves towards the tower}
+Tower Soldier: Oh my God.
+{Sentinels swarm the tower, knocking down the tower gun}
+(Zion: dock periphery)
+Charra: Shit.
+(Zion: command centre)
+Lock: Where the hell's my infantry? I want that goddamn machine taken down!
+(Zion: dock periphery)
+Charra: Take this!
+Zee: Oh shit!
+{digger falls down}
+(Zion: command center)
+Military Personnel: Yeah!
+Operations Officer Mattis: 72 at the breach point.
+Lock: Goddamn it!
+(Hammer)
+Niobe: Shit, she's got a fat ass.
+{Sentinels swarm over the hoverpads of The Hammer}
+Niobe: Keep 'em off me!
+Roland: [Goddamn], there's a shitload of 'em.
+Mauser: Captain! Do you see that?
+Roland: They're [going for] the radio, stop 'em! 
+{Sentinels take out radio}
+>>>Roland: Damn it. [One print version]
+>>>Roland: Shit. [Another print version]
+/* The above two lines have been confirmed different in different parts of the world. Several people hear different things at this point: 'Shit' versus 'Damn it' - this appears to be some sort of precaution the distributors of the film have taken to track down pirated copies of the film. Thanks to Ouroboros for the heads-up. */
+(Zion: dock periphery)
+Charra: Yeah.
+{Charra positions herself on the edge}
+Charra: Grab my belt.
+{Zee grabs her belt and Charra hangs over the precipice}
+Charra: Just give me one clean shot.
+{Charra shoots, but fails to find her intended mark}
+>>>Charra: Shit. [One print version]
+>>>Charra: God damn it. [Another print version]
+/* The above two lines have been _tentatively_ confirmed different in different parts of the world. Several people hear different things at this point: 'Shit' versus 'God damn it' - this appears to be some sort of precaution the distributors of the film have taken to track down pirated copies of the film. Thanks to Ouroboros for the heads-up. */
+Zee: Charra!
+(Zion: command centre)
+First Operator at Command: Commander Lock, I've got incoming!
+Lock: I got a dock load of incoming!
+First Operator at Command: Sir, yes, sir, but this is different, sir.
+Lock: What?
+First Operator at Command: I think it's one of ours.
+Lock's Lieutenant: The holographics are trying to confirm, sir.
+Lock: Contact them, I want access codes.
+Lock's Lieutenant: We're trying, sir, there's no response.
+Lock: It's a trick. That's not one of ours, it can't be. That's a mechanical line. No one can pilot mechanical.
+(The Hammer: pilot cabin)
+Niobe: Fore and aft - 30 degrees, 80 percent!
+Morpheus: 30 degrees, 80 percent.
+Niobe: Fore starboard, 60 degrees, 20 percent.
+Morpheus: 60 degrees.
+Niobe: Come on, keep up!
+Morpheus: I'm trying!
+(Zion: command cenre)
+Operations Officer Mattis: Sir, holographic confirms. It's the Hammer, sir.
+Lock: How can that be?
+Operations Officer Mattis: The ship is under attack, sustaining heavy damage. But at its present velocity, it'll reach Gate 3 in twelve minutes.
+Lock's Lieutenant: Sir, their EMP could take out every sentinel up there.
+Lock:  It'd take out more than that. It'd wipe out our entire defense system. We blow an EMP in there, we will lose the dock!
+Lock's Lieutenant: Sir, we've already lost the dock.
+Lock: Open the gate.
+Zion Gate Operator:  Gate 3's not responding! It's taken critical damage, sir! We've lost control! We can't open it!
+(The Hammer: pilot cabin)
+Morpheus: There's the exit.
+Niobe: On my mark, give me full power, 90 degrees, lower left starboard.
+Morpheus: Full power, 90 degreees.
+Niobe: Now! {She guides the ship into the mechanical line} Hold on, baby.
+Roland: Goddamn, woman, you can drive.
+Niobe: We ain't home yet. What about the gate?
+Morpheus: The sentinels are inside the dock.
+Niobe: Are we too late?
+(Zion: command centre)
+Lock: How many APUs are operational?
+Lock's Lieutenant: Thirteen, sir.
+Lock: Get me the one closest to Gate 3.
+(Zion: dock)
+Mifune: *screams* Reload!
+(Zion: ammo compartment)
+Radio Bunker Man: It's pissin' metal.
+{Kid gets the ammo cart rolling toward the door}
+Radio Bunker Man: Go!
+(Zion: dock)
+Mifune: Heads up, they're comin' down!
+{Kid's guardians die}
+Mifune: Behind you!
+Kid: It's jammed!
+Mifune: Forget it, kid! Get outta here!
+Kid: Got it!
+Kid: Captain Mifune! Oh, no.
+Mifune: ...coming. They're coming. The Hammer. 
+Kid: What?
+Mifune: You have to open that gate. Cut the counterweights. You can do it. Hurry. There's no time.
+Kid: Captain. I didn't finish the training program.
+Mifune: Neither did I.
+(The Hammer: turret)
+Roland: Shut that down!
+[?]: Kill the feeder!
+Roland: We can't make it! We gotta blow the EMP now!
+Niobe: [...]
+(Zion: dock)
+[female (v.o.)]: [Mayday!]
+Kid: [Keep the weight forward]. Light as a feather. Light as a feather.
+{Kid maneuvers the APU toward Gate 3, the sentinels notice him and go in to attack}
+(Zion: command centre)
+Lock's Lieutenant: Commander, holographic reports Captain Mifune's APU is up and moving to Gate 3!
+(Zion: Gate 3)
+Kid: Don't oversqueeze the trigger...
+(Zion: command centre)
+Lock's Lieutenant: Captain Mifune's APU's just reached Gate 3!
+Lock: How much time?
+[Operations Officer Mattis]: Two minutes to impact!
+Lock: Captain Mifune, do you copy? 
+Lock's Lieutenant: His radio is down, sir.
+Lock: Mifune, this is Lock. I don't know if you can hear me but if you can...
+(Zion: a tunnel)
+Lock (v.o.): ...the Hammer is two minutes away. You've got two minutes, Captain, to get that gate open.
+Zee: Link!
+(Hammer: turret)
+Roland: Get to the main deck! Charge the EMP!
+(Zion: Gate 3)
+Zee: Do it, Kid.
+Kid: Neo. I believe.
+(Hammer: pilot cabin)
+Niobe: Yes!
+Morpheus: Can we make it?
+Niobe: We ain't come this far.
+Link: Almost home.. Almost home...
+Morpheus: Burn it, Link!
+(Zion: command centre)
+Military personnel: *cheer*
+(Hammer: pilot cabin)
+Morpheus: You did it.
+Niobe: No. We did it.
+Morpheus: You're a hell of a pilot.
+Niobe: Some things in this world never change.
+Morpheus: But some things do?
+Niobe: Luckily, some things do.
+(Zion: dock)
+Zion crowd: *cheer*
+Zee: Link!
+Link: Zee?
+Zee: Link!
+Link: Zee!!!
+Zee: I knew you'd come. I knew it.
+Link: I made a promise.
+Zee: You did wear it.
+Link: Are you kidding? I'm never [gonna take] it off!
+(Zion: personnel gate)
+Lock: Three captains, one ship. I assume the other ships were lost under equally pointless circumstances?
+Niobe: Good to see you too, Jason.
+Lock: Council's waiting to hear an explanation. You'll forgive me for not attending, but I have to try to salvage this debacle.
+Roland: Did I miss something, Commander? I thought we just saved the dock.
+Lock: That's the problem with you people. You can't think for five minutes in front of your face. That EMP knocked out almost every piece of hardware and every APU. If I were the machines, I would send every Sentinel I had here right now. Saved the dock, captain? You've just handed it to them on a silver platter.
+(Zion: dock)
+[?]: Come on, get it cut!
+[?]: The bridge is clear.
+[?]: You hear that?
+(Zion: command centre)
+Lock: Get that cable cut! I want that system back online.
+Lock's Lieutenant: Commander, it's the dock. We've got incoming.
+Lock: Order everyone to fall back. Seal the shaft. Now.
+(Zion: dock)
+[man]: Move it!
+(Zion: control centre:)
+[man]: All clear.
+Lock: Do it. *the shaft is sealed, and he looks up* Your move.
+(Zion: small room)
+Councillor Dillard: So you gave them your ship? 
+Niobe: That is correct, Councillor, I did. 
+Councillor Grace: Knowing what he planned to do with it?
+Niobe: *nods*
+Councillor Hamann: And the Oracle said nothing of this?
+Niobe: She told me Neo would need my help, and when the time came I would choose to help him or not.
+Councillor West: But what hope can a single vessel have against their entire defense system?
+Roland: None, it's completely impossible, but he wouldn't listen. He wouldn't even take any ammunition. He was totally out of his goddamn mind.
+Morpheus: No, he wasn't. Neo is doing what he believes he must do. I don't know if what he's doing is right, and I don't know if he'll reach the machine city. And if he does, I don't know what he can do to save us. But I do know that as long as there's a single breath in his body, he will not give up. And neither can we.
+(The Logos: pilot cabin)
+Trinity: Temperature's dropping. Here we go.
+Neo: We're over the fields, aren't we?
+Trinity: How do you know that?
+Neo: I can feel them.
+{The camera pans over the field briefly}
+Neo: Over there. There's our path. Can you see it? Three lines.
+Trinity: Power lines.
+Neo: Follow them.
+(Zion: command centre)
+Officer Wirtz: What are they doing?
+Second Operator at Command: I don't know. Lieutenant!
+Lock: God damn it.
+Lock's Lieutenant: What do we do now, Commander?
+(Zion: small room)
+Lock: It is now a matter of time. The machines will breach the walls of the city. I recommend that the Council join the rest of the non-military personnel inside the Temple.
+Councillor Grace: How long do we have?
+Lock: Two hours. Maybe less. My men have begun fortifying the entrance with enough artillery to make our last stand. Beyond that, there isn't anything more I can do.
+Councillor Dillard: Commander, do you think that we have any chance of surviving?
+Lock: If I were you, Councillor, I wouldn't ask me that question. I would ask him *motions with hand toward Morpheus*
+Councillor Dillard: Why?
+Lock: Because he's the one who believes in miracles.
+(Logos: pilot cabin)
+Neo: There, those mountains. That's it.
+Trinity: Do you see what's out there?
+Neo: Yes.
+Trinity: If you tell me we'll make it, I'll believe you.
+Neo: We'll make it. We have to.
+{They fly towards 01 as the city's defense system gets activated and sends bombs their way}
+Trinity: Sentinels!
+Neo: There's too many.
+Trinity: Gotcha! Come on, Neo, I need help here!
+Neo: I can't beat them.
+Trinity: What'll we do?
+Neo: Go up, over them.
+Trinity: What?
+Neo: The sky... it's the only way.
+Trinity: Then up we go.
+{They get past the cloud cover and fly up into the sky}
+Trinity: Beautiful.
+{They start falling back toward the ground}
+Neo: Pump the igniter, the ship will start. Again, slowly. Now!
+{The Logos crashes}
+Neo: Trin? Trinity? Trinity???
+Trinity: I'm here.
+Neo: Where?
+Trinity: Here.
+Neo: We made it.
+Trinity: You said we would.
+Neo: It's unbelievable, Trin. Lights everywhere. Like the whole thing was built with light. I wish you could see what I see.
+Trinity: You've already shown me so much.
+Neo: What is it, Trinity? What's wrong?
+Trinity: I can't come with you, Neo. I've gone as far as I can.
+Neo: Why? Oh, no. Oh no, no, no.
+Trinity:  It's all right. It's time. I've done all that I could do. Now you have to do the rest. You have to finish it. You have to save Zion.
+Neo: I can't. Not without you.
+Trinity: Yes, you can. You will. I believe it, I always have.
+Neo: Trinity... Trinity. You can't die. You can't. You can't.
+Trinity: Yes, I can. You brought me back once, but not this time.
+Neo: *sniffs*
+Trinity: Do you remember... on that roof after you caught me... the last thing I said to you?
+Neo: You said: "I'm sorry."
+Trinity: I wish I hadn't. That was my last thought. I wished I had one more chance, to say what really mattered, to say how much I loved you, how grateful I was for every moment I was with you. But by the time I knew how to say what I wanted to, it was too late. But you brought me back. You gave me my wish. One more chance to say what I really wanted to say... Kiss me, once more. Kiss me.
+{They kiss, and Trinity dies}
+Neo: *sobs*
+(Zion: the Temple entrance)
+Lock: Get that damn thing mounted. {the digger breaches the city dome} Hurry.
+[man2]: Let's go, let's go, let's go!
+(Zion: Temple)
+Link: Neo. If you're gonna do something, you better do it quick.
+(01)
+Neo: I only ask to say what I've come to say, after that, do what you want and I won't try to stop you.
+Deus Ex Machina: Speak.
+Neo: The program 'Smith' has grown beyond your control. Soon he will spread through this city as he spread through the Matrix. You cannot stop him, but I can.
+Deus Ex Machina: We don't need you. We need nothing.
+Neo: If that's true, then I've made a mistake and you should kill me now.
+Deus Ex Machina: What do you want?
+Neo: Peace.
+(Zion: Temple entrance)
+{Sentinels charge the temple entrance, then suddenly stop}
+Niobe: What are they doing? *to Morpheus* What are you doing!?
+Lock: Morpheus!
+(01)
+Deus Ex Machina: And if you fail?
+Neo: I won't.
+(Zion: Temple entrance)
+Niobe: {looks up and sees sentinels slowly circling} Neo.
+Morpheus: He fights for us.
+(Matrix: city street lined with Smiths)
+Smith/Oracle: Mr. Anderson, welcome back. We missed you. You like what I've done with the place?
+Neo: It ends tonight.
+Smith/Oracle: I know it does - I've seen it. That's why the rest of me is just going to enjoy the show - we already know that I'm the one that beats you.
+{Super Burly Brawl part 1: spinning/flying battle}
+Smith/Oracle: Can you feel it, Mr. Anderson, closing in on you? Well, I can. I really should thank you for it, after all, it was your life that taught me the purpose of all life. The purpose of life is to end.
+{Super Burly Brawl part 2: flying battle}
+Smith/Oracle: Why, Mr. Anderson, why? Why, why do you do it? Why, why get up? Why keep fighting? Do you believe you're fighting for something, for more than your survival? Can you tell me what it is, do you even know? Is it freedom or truth, perhaps peace - could it be for love? Illusions, Mr. Anderson, vagaries of perception. Temporary constructs of a feeble human intellect trying desperately to justify an existence that is without meaning or purpose. And all of them as artificial as the Matrix itself. Although, only a human mind could invent something as insipid as love. You must be able to see it, Mr. Anderson, you must know it by now! You can't win, it's pointless to keep fighting! Why, Mr. Anderson, why, why do you persist?
+Neo: Because I choose to.
+{Super Burly Brawl part 3: crater battle}
+Smith/Oracle: This is my world! My world!
+{Neo is knocked back against the crater wall and is lying on the ground}
+Smith/Oracle: Wait... I've seen this. This is it, this is the end. Yes, you were laying right there, just like that, and I... I... I stand here, right here, I'm... I'm supposed to say something. I say... Everything that has a beginning has an end, Neo.
+{Neo begins to get up again}
+Smith/Oracle: What? What did I just say? No... No, this isn't right, this can't be right. Get away from me!
+Neo: What are you afraid of?
+Smith/Oracle: It's a trick!
+Neo: You were right, Smith. You were always right. It was inevitable.
+{Smith/Oracle imprints over Neo}
+Smith/Oracle: Is it over?
+{Smith/Neo nods, with a slight grin. Neo's real body jerks, an intense aura of orange light appears around Neo's body, light explodes from Smith/Neo and from the real Neo, Smith/Neo is destroyed}
+Smith/Oracle: Oh, no, no, no. No, it's not fair.
+(01)
+Deus Ex Machina: It is done.
+(Zion: Temple entrance)
+Lock: It doesn't make sense.
+Morpheus: He did it.
+Kid: He saved us. He saved us. It's over, he did it! He did it, he did it, it's over! It's over, he did it! He did it!
+Councillor Hamann: What is it, what happened?
+Kid: Sir, he did it, sir - Neo - he did it!
+Councillor Hamann: Did what?
+Kid: He ended the war, the machines are gone! The war is over, sir! The war is over!
+(Zion: Temple)
+Kid:  Zion! Zion! Zion, it's over! *echoes* It's over! The war is over! *echoes* The war is over! 
+Link: *yells*
+Zion crowd: *cheers*
+(Zion: Temple entrance)
+Morpheus: I have imagined this moment for so long. Is this real?
+Niobe: Neo, wherever you are. Thank you.
+(Matrix: city street)
+{A black cat deja-vus up to Sati}
+Sati: Good morning.
+(Matrix: a lake. a bench)
+Oracle: Well, now, ain't this a surprise.
+Architect: You've played a very dangerous game.
+Oracle: Change always is.
+Architect: Just how long do you think this peace is going to last?
+Oracle: As long as it can.
+{Architect starts walking away}
+Oracle: What about the others?
+Architect: What others?
+Oracle: The ones that want out.
+Architect: Obviously, they will be freed.
+Oracle: I have your word?
+Architect: What do you think I am? Human?
+Sati: Oracle!
+Oracle: *laughs*
+Sati: We were afraid we might not find you.
+Oracle: Everything's okay now.
+Sati: Look, look! *points at sunrise*
+Oracle: Just look at that! Beautiful! Did you do that?
+Sati: *nods* For Neo.
+Oracle: That's nice. I know he'd love it.
+Sati: Will we ever see him again?
+Oracle: I suspect so. Someday.
+Seraph: Did you always know?
+Oracle: Oh no. No, I didn't. But I believed. I believed.
+THE END
+######################################################################################
+# The Matrix Revolutions, The Matrix Reloaded, The Matrix, and all related media,    #
+# characters, and stories are copyright 1999-2003 AOL Time Warner and Village        #
+# Roadshow Pictures. The transcript below contains parts of a script written by the  #
+# Wachowski brothers.                                                                #
+# This transcript is provided for fans' enjoyment and reference and does not intend  #
+# copyright infringement. The entire content of this transcript is property of Larry #
+# and Andy Wachowski, AOL Time Warner, and Village Roadshow Pictures.                #
+# No claim is lain on the ownership of the words contained within this transcript    #
+# on the part of Matrix Community or furiosity.                                      #
+#                                                                                    #
+# GIVE CREDIT WHERE CREDIT IS DUE. RETAIN THIS COMMENT BLOCK.                        #
+#                                                                                    #
+# The transcript is intended for teaching /educational purposes only. It falls under #
+# the U.S. Code 17/Sec. 107 - Limitations on exclusive rights: 'Fair Use'.           #
+# Notwithstanding the provisions of sections 106 and 106A, the fair use of a         #
+# copyrighted work, including such use by reproduction in copies or phonorecords or  #
+# by any other means specified by that section, for purposes such as criticism,      #
+# comment, news reporting, teaching (including multiple copies for classroom use),   #
+# scholarship, or research, is not an infringement of copyright.                     #
+#                                                                                    #
+# [Thanks to http://www.screentalk.org/ for the above summary.]                      #
+######################################################################################
+http://www.matrixcommunity.org/

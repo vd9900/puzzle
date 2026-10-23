@@ -1,0 +1,145 @@
+import json
+L = []
+def add(ids, author, date, claim, kind, checkable, reaction, verified=None):
+    d = dict(msg_ids=ids, author=author, date=date, claim=claim, kind=kind, checkable=checkable, reaction=reaction)
+    if verified: d["local_check"] = verified
+    L.append(d)
+
+add([72215, 72216, 72221, 72228, 71448, 70895, 70915, 70917], "Ugur Keser (also Elite Booter via LLM, DerST precursor, Diego Schmidt, 3.1415..)", "2026-09-18",
+    "DBBI (first 91 chars of SalPhaseIon incl. trailing 'abe') is a self-checking encoding of the rabbit colour program. Program = the 24 spiral colour cells = LSBs of 'gsmg.io/theseedisplanted' (blue=1, yellow=0) with the off-white FEFEFE cell (spiral pos 164) spliced in as symbol 21 (blue) -> 25 symbols. Walk logical positions 1,2,3,...: non-prime -> consume 1 char (filler); prime -> take next program symbol, consume 1 char if blue, 2 if yellow (host). 23 primes <=83, 8 yellow -> 83+8 = 91 chars exactly. Claimed check: all 23 hosts start with 'b' and every yellow host is exactly 'be'; shuffled controls never reach 23/23 (p<5e-6); dropping FEFEFE or making it yellow gives 21/23. Upshot (Ugur): DBBI carries no payload of its own beyond this 'checksum'.",
+    "decode_result", True,
+    "Diego Schmidt: 'Correcto... B/BE diverges at fefefe'; Doober: same result in his atlas; Worldmaker: thinks FEFEFE+Cosmic is the intended second layer instead. No rebuttal of the statistics.",
+    "REPRODUCED (scratch/c39/chunk4/verify_quick.py): with FEFEFE as blue symbol 21 -> 23 hosts, 91 chars consumed exactly, 23/23 (all hosts start with b, all 8 yellow hosts == 'be'). No FEFEFE -> 20/23; FEFEFE yellow -> overruns to 92, 20/23. Shuffle control mean 4.56/23, 0/20000 reach 23/23. The 60 filler chars at non-prime logical positions = 'difhccgihaeeihggegebgehhehhfafdhffcdbfcccgfeggecdcifffgigeea' (untested as payload). NB the chat copy in #70820 omits the final 'abe' (88 chars).")
+add([72354, 70870, 72980], "Doober (quote by Payday/JVTRADER)", "2026-09-19",
+    "Phase 3.2 text '...reinserting the prime basics... SELECT FROM OVER TWENTY-THREE CIPHERS, SIXTEEN ENCRYPTIONS AND/OR SEVEN INTERTWINED PASSWORDS... BRUTE FORCING MIGHT BE REQUIRED' maps onto prime/colour counts: 23 = primes used, 16/7 = colour counts ('prime colors'), applied to dbbi 'the math plays out'.",
+    "hint_interpretation", True,
+    "None. Local note: in the DBBI program 23 hosts = primes <=83, blue incl. FEFEFE = 16 (fits 'sixteen'), yellows = 9 total / 8 used (does not fit 7).")
+add([71986, 72349, 72351, 72214], "Doober", "2026-09-15..19",
+    "dbbi as a selector with 'prime basics' inserted shows an 'anomalous anchor at place 21'; one plain-English product was 'BPART'; overlaying with faed as 2x285 rows gives coordinates that point at nothing.",
+    "method", False,
+    "Method for BPART never specified. 'Anchor at 21' coincides with FEFEFE being program symbol 21 in the verified DBBI parse.")
+add([71166, 70964, 70912], "Elite Booter (+ 👑)", "2026-09-07",
+    "dbbi values at prime positions (a=1..i=9): 15 are prime (2,3,5,7) and 9 non-prime = blue 15 / yellow 9 of the rabbit grid; then faed positions 9 and 15 -> 'd','b' -> 4,2 -> 42.",
+    "hint_interpretation", True,
+    "No rebuttal; 👑: 'what do we do with the non-primes?'",
+    "Count reproduced: 24 prime positions <=91, 15 prime-valued / 9 not. The '42' step is numerology.")
+add([71162], "E", "2026-09-07",
+    "Unique letters of 'salphaseion' in order = S,A,L,P,H,E,I,O,N (9) -> use as the plaintext alphabet for dbbi's 9 symbols a-i.",
+    "method", True,
+    "No reaction. Single deterministic substitution; readability is self-evident.")
+add([71180, 71197, 71203, 71206], "E", "2026-09-08",
+    "'Half and better half' = 'GSMGIO5BTCPUZZLECHALLENGE' (Decentraland) + '1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe' (image); put 'enter' (decoded in the middle of the SalPhaseIon AES blob) between them, sha256, and use as password for the SalPhaseIon AES blob (not as URL).",
+    "hint_interpretation", True,
+    "👑: 'very long text and none of them useful'. Finite candidates (literal 'enter', newline, none) - testable against the small blob with padding/plaintext check.")
+add([71239], "peter chen", "2026-09-08",
+    "SHA256('GSMGIO5BTCPUZZLECHALLENGE' + '1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe') = SalPhaseIon page URL hash.",
+    "data_artifact", True, "Known fact (how SalPhaseIon was reached).")
+add([71185, 71230, 71508, 71509, 72424, 72427, 72428, 72429, 72430], "Elite Booter / peter chen", "2026-09-08..19",
+    "The two remaining small blobs: U2FsdGVkX1+0Wl49gnWT... (salt b45a5e3d827593ca, 80-byte ct = Phase 3.2 inner 'P32') and U2FsdGVkX186tYU0hVJB... (salt 3ab585348552415d, 80-byte ct = SalPhaseIon small). peter chen: chain P -> sha256 -> EVP_BytesToKey(SHA256, salt) -> AES-256-CBC with 'strict padding 0x10x16' (i.e. 64-byte plaintext) and predicts two 32-byte private keys.",
+    "data_artifact", False,
+    "Elite Booter mislabels them '1st half/2nd half' (they are different blobs; repo research/pipeline.md confirms salt->blob mapping). The 64-byte/two-key plaintext is speculation.")
+add([70738, 70844, 70847, 71308, 71309], "F1f7h / FRA NCALM / peter chen", "2026-09-03..09",
+    "Cosmic Duality blob (U2FsdGVkX18tP2/gbclQ5tNZ..., salt 2d3f6fe06dc950e6, 1327 B) 'decrypted' to an object with sha prefix 4f7a1e4e ('7 tokens reproduced', asks whether duality.bin is terminal or operand); peter chen claims the correct result is a5502d09 instead.",
+    "decode_result", False,
+    "nieods: 'your llm has been fooled'. Doober (#72290): 'the public 4f7a... branch is void'. Passwords not given.")
+add([72256, 72261, 72271, 72273, 72282, 72284, 72383, 72389, 72400, 72414, 72466, 72569, 72609, 72611], "Draikoon", "2026-09-19..20",
+    "Cosmic inner blob is decoded: a second hidden blob ('chain4', 1151 bytes) decrypts with 'perfect padding' to a structured binary with '+-' header, ASCII '<3' at the end, 35 x 32-byte hex blocks of which 10 are 'marked'; the community 'anomaly sentence' password is wrong; an extra trailing byte converts to 'be' -> 'COME BACK TO THE SOURCE WITH THE KEYS'.",
+    "decode_result", False,
+    "Doober: OpenSSL PKCS#7 false positive ~1/255, 1151-byte length and hash already recorded by community; Johnny Goodpick: '+-' known for years; 3.1415..: 'false flags caused by openssl naive way of catching a correct decryption'; Ekodama: 'an octet too much in your brute force'. Draikoon himself (#72474) says the admin replied by email that his find was a false positive. Passwords never disclosed.")
+add([72486], "Draikoon", "2026-09-20",
+    "A derived 32-byte key whose 16-byte halves sum to 91 and 19 (total 110), bytes all within 0..35, contains 0x17 and 0x23 - linked to LEAD91, homepage font size 19, particle count 110, 'over 23 ciphers', 35 chain-4 blocks.",
+    "other", False, "Numerology; key and its source not given.")
+add([71963, 71964], "Doober", "2026-09-15",
+    "faed letter counts a54 b49 c52 d49 e69 f57 g107 h58 i75 (570 letters, non-uniform p=6e-7, g favoured); 570 = 2x285 etc.; the Architect 'doors' monologue has 573 letters in every edition - tested as per-letter map and running key at every alignment: negative.",
+    "data_artifact", True, "No rebuttal.", "Counts reproduced exactly from repo faed (570).")
+add([71413, 71414], "3.1415926535897932384626", "2026-09-10",
+    "SalPhaseIon segment lengths: dbbi (91) + matrixsumlist a/b binary (104) = 195 = 14^2 - 1; small AES base64 half 1 + 'enter' (40) + half 2 = 168 = 13^2 - 1.",
+    "data_artifact", True, "Numerology; 👑: 'my 69 is interesting'.")
+add([72560, 72941, 72822, 72823], "3.1415926535897932384626 / Johnny Goodpick", "2026-09-20..21",
+    "Encoded lengths of 'lastwordsbeforearchichoice' and 'thispassword' segments are 63 and 29 (both prime, sum 92). SalPhaseIon line is 2149 chars: 1075 symbols + 1074 spaces. Johnny: spaces exist because each block goes letter -> number -> letter and the number stage would be ambiguous without them.",
+    "data_artifact", True, "👑: why would he use the encoded chars.")
+add([71419, 71420, 71421, 72230, 71119, 71151, 71122, 71125], "3.1415926535897932384626 / Johnny Goodpick / Elite Booter", "2026-09-07..18",
+    "In the 14x14 spiral the colour cells sit at positions 8k-1 (LSB of each byte); 11 of them are at prime positions (7,23,31,47,71,79,103,127,151,167,191 = k 1,3,4,6,9,10,13,16,19,21,24); the 172 uncoloured cells are 86 black + 86 white; blue=odd char code (15), yellow=even (9).",
+    "data_artifact", True, "No rebuttal; LSB/parity reading is long known.")
+add([71103], "F1f7h", "2026-09-07",
+    "14x14 spiral = 7 concentric squares; square boundaries fall on bit 4/bit 7 of o, s, s, a, e, d -> 'mossad/mossaed'.",
+    "hint_interpretation", True, "Banter replies ('Odessa', 'dea sso'). Numerology.")
+add([70989, 70990, 70991, 70993], "X (GPT output)", "2026-09-04",
+    "Colour cells read down columns (blue=1, yellow=0) = 111111111100101001010001b = 16763473 (prime); CCW spiral with values reversed = 574061 (prime) 'leads to theseedisplanted'.",
+    "decode_result", True, "LLM output; no endorsement.", "Both numbers are prime and binary strings match, but no puzzle meaning - '574061 leads to theseedisplanted' is unfounded.")
+add([71051], "T K", "2026-09-05",
+    "Current gsmg.io site source contains `const finalGrid = [...]`, a 14x14 0/1 grid (row1 '0 0 1 1 0 1 0 0 1 0 1 1 0 0' ... row14 '0 1 1 0 1 1 0 1 1 0 1 0 1 1').",
+    "data_artifact", True,
+    "Site provenance disputed: gnomad (#71049) thought Jrk put it back; later Cereal Killer (#72543-#72546, says Jrk told him) and 3.1415.. (#72535) say the domain was auctioned and is owned by 'K1ng', not GSMG. Compare to canonical grid before trusting.")
+add([72474, 72491, 72496, 72505, 72532, 72535, 72536, 72543, 72544, 72546], "Draikoon vs Cereal Killer / 3.1415..", "2026-09-20",
+    "Draikoon emailed the gsmg.io 'admin', who replied clearing his find as a false positive and 'can't answer' an ssh question; says the new site's game contains NOTEZ.TXT (creator 'likes taking notes'). Rebuttal: domain expired, was auctioned, now owned by 'K1ng' (Cereal Killer says Jrk confirmed this) -> new site, game and email replies are not the creator's.",
+    "creator_reaction", False, "Treat all post-2026 gsmg.io content/email answers as third-party.")
+add([73162, 73165, 73166, 73168, 73169, 73174], "Laurent Camarasa", "2026-09-23",
+    "Extra blob U2FsdGVkX190yXTj... (152 base64 chars, ~96-byte payload) from an archived gsmg.io URL of Jan 2026; copy in github HosterjackAGV/gsmg-5btc-puzzle ciphertexts/urlblob.txt.",
+    "data_artifact", False, "nieods: Jan 2026 -> not part of the GSMG puzzle; Flo Sku: Jrk never posted an AES blob; fits the third-party domain owner.")
+add([71393, 71395, 71005, 71006, 71011, 71014, 71515, 71520, 71522, 72604, 72726, 72727, 72737, 72738], "peter chen / 3.1415.. / nieods / Draikoon", "2026-09-04..20",
+    "On-chain 'messages': OP_RETURN 'GSMGJH' + 64 bytes 0495c689eb5aef53f7fa1ef650c56eac1a0e1b590f2a82fe6ddb7484ece385b3 7545eba470edae4316701263ce3abb194eca111d6107add0a30aab8bd77785f5 (F1f7h: 'uncompressed pub'); tx 808f812f13a3137e48a0c95a818ae661a80fafaf409237efbb4b62b8198a4c13 to the prize address; 3GSMG funds came via Tor, funding address 37mh7EYetVKAesxqzv968sTYqSLF8dE6oD was in the Hydra-market pool (OFAC).",
+    "data_artifact", False,
+    "nieods: jrk stated he did not send these; they are other solvers. Draikoon: 3GSMG funded after the 'neighbour half and double' announcement -> fake. Note: 64 bytes starting 0x04 is not a valid 65-byte uncompressed key. Consistent with cycle-37 correction.")
+add([72713, 72717, 72720, 72723, 72725], "3.1415926535897932384626", "2026-09-20",
+    "The creator's halving payouts from the prize wallet confirmed at blocks 630001 and 840725 (fee ~17 USD each; he did not make the first post-halving block in 2024 because higher fees won).",
+    "data_artifact", False, "No rebuttal; on-chain, not puzzle data.")
+add([71003, 71007, 71018, 71021], "Lexane", "2026-09-04",
+    "'There is Another D O O R' matches one answer to the Phase 3.2.2 riddle she is stuck on; answering correctly yields a new riddle (yin-yang = 'one flows into the other'); no internet needed.",
+    "hint_interpretation", False, "Cryptono asks if coincidence; nothing shown.")
+add([70911, 71132, 71137, 71139, 70744], "Chris / E / Doober / 3.1415..", "2026-09-04..07",
+    "SalPhaseIon tokens 'sha256 ourfirsthintisyourlastcommand' and 'sha256 anstoo': 'anstoo' = 'answer too' / 'ans 2' (phase-2 coordinates) / calculator ANS; Chris: faed may be the password of the first hex64 blob and sha(ans too) the Cosmic Duality password.",
+    "hint_interpretation", False, "No concrete candidate given.")
+add([72293, 72297, 70871], "Doober / F1f7h", "2026-09-19",
+    "Phase 3.2 Architect speech ends with 'ciao bella o' = song phrase reversed -> instruction to read something in reverse; F1f7h: 'ciao' works as beginning and end (loop).",
+    "hint_interpretation", False, "Johnny: 'never noticed it was in reverse'.")
+add([72303, 72332, 72335, 72338, 72340, 72345, 71958], "Doober", "2026-09-19",
+    "Phase 3.2 Architect speech is copied from 2003 fan transcripts (jaced.com/2003/05/15/the-matrix-reloaded-the-architect-scene/, onebee.com/writing/2003/05/the_architect_scene/), not the film; creator deletions are marked with dots (6 for CHOICE, 3 for WHY), additions include OVER, HOPE, HOPEFULLY; the 23/16/7 labels differ. Diffing the puzzle text against the transcript isolates the creator's edits.",
+    "method", False, "Johnny asks for links (given). Deterministic diff, but needs the external transcript and the result is not self-verifying.")
+add([72305, 72306, 72307], "Doober / Johnny Goodpick", "2026-09-19",
+    "'lastwordsbeforearchichoice' ... 'aspecialdessertIwroteitmyself' (end of a phase-2 line) form one coherent 114-byte sentence; choice = the anomaly/anchor.",
+    "hint_interpretation", True, "Hypothesis only; finite password candidates.")
+add([71627, 71628, 71629, 71633, 72231, 72232], "sol / 👑", "2026-09-12..18",
+    "Hex '53 75 72 65 62 75 74 77 65 77 6f 6e 74 67 69 76 65 69 74 61 77 61 79' = 'Surebutwewontgiveitaway' (source t.me/GSMG_Bot/28817); 'we wont' as Architect's last words. 👑 posted two lowercase strings containing 'wewont' (dxfozymmdpfljrxdgoifssjhnytaecscmnydqbgcfnpwqdcalqyclocvmxebsqcuhucwewontbluuoiblrgympspjtvjxroyijdupnxsrwcfyqdu[gouz]) with '6 more about wewont'.",
+    "data_artifact", True, "No reaction; 👑's method undisclosed (likely a random-key decode hit).")
+add([71433, 71434, 71439], "Lexane / peter chen", "2026-09-10",
+    "Vigenere(BE MODEST, key 'akbdlxka') = BULLSHIT = what the Architect 'expected you to say'.",
+    "decode_result", True, "Vacuous: the key is just BULLSHIT minus BE MODEST, any target works. Not Anew: every LLM found that years ago.")
+add([71525, 71528, 71531, 71532, 71560], "Varholy Viktor", "2026-09-11",
+    "dbbi decodes to 'wife up' (= better half) via summing base-10 values -> hex -> chars; faed gives 2 more plaintexts.",
+    "decode_result", False, "nieods: pareidolia; Sparky: reading base 10 as hex is nonsense and drops a third of the alphabet; F1f7h: 'its WIF'.")
+add([71683, 71685, 71695, 71710, 71712, 71723, 71753, 71763], "Berkant AYDIN", "2026-09-13",
+    "faed -> prime-indexed values reads 'this door is blue'; other finds 'trinity', 'present', 'yinyang', 'die', 'yellow door', 'blue door'; chain4 opened by 2 different keys; faed 'foldable' at 285.",
+    "decode_result", False, "AI-driven (~20k USD); sol asks if verified; 👑: only re-factors the known solution. Method not given.")
+add([71220, 71222, 71424, 71425, 71426, 71510, 71241], "peter chen (LLM)", "2026-09-08..11",
+    "btcseed '96-state object' (281 pairs, 4x24=96 states, 256 left after s-filtering) tested as raw privkey / AES key / BIP32 seed: 0 matches; 'yinyang' = symmetric 281+'d'+281; 'place it upon mmjiolsjpjsro' (13 chars, 3 j's, same width as 'matrixsumlist') tried as Bifid row/col sequence with 4 matrices: nothing.",
+    "method", False, "👑/Worldmaker: LLM noise. Cycle 37 already judged btcseed probably coincidental; 'mmjiolsjpjsro' already in repo OSINT candidates.")
+add([71176, 71171, 71173, 71177, 71211, 71216, 71426], "Elite Booter / E / Johnny Goodpick / gnomad", "2026-09-08",
+    "X2SH4Y0QB15 -> coordinate pairs (2,0) (32,82) (-42,-16) (4,15) via Klingon / qwerty / Hitchhiker -42 / Intel BV80605001911AP; GSMG Estate #955 = parcels (-41,-16),(-41,-17), one east of 'Digital Garden 01' (-42,-16); creator: 'Only -41,-17 matters'; sum of the 10 numbers = black+white cell total.",
+    "hint_interpretation", False, "E: Jrk's coordinates miss the safenet address, so the reading may be wrong. Numerology.")
+add([71804, 71806, 71808, 72997, 72998, 71821, 71677, 73026, 73022], "Elite Booter / Человек / christo / peter chen / B58", "2026-09-13..22",
+    "Decentraland scene: bin/game.js QmcoAs6kCXynZksyNDB7RTgVYfTkxyrLb8nEU2RJepbhoE, scene.json QmdESuCguQMVXRKYwcXRJLdNcEcfi3ZXxTGPLEE3NC8czC, sounds/puzzlepiece.mp3 QmeRy5MjmEZ2W6J3DwhQfht5HKBKXBFpoGzSkzmjeGKiDK; mp3 copy = 'Test.mp3' in GitHub mp3hacker; mp3 gives HASHTHETEXT (48 41 53 48 54 48 45 54 45 58 54); 3 frames 'not decrypted'; L-R half-wave antisymmetry corr 0.918.",
+    "data_artifact", True, "CIDs let you check a local mp3 copy byte-for-byte. Parcel text/question mark now gone; B58: Decentraland is not creator-owned, so unlikely to be needed.")
+add([72114, 72118, 72162, 72163, 72165, 72170, 72195, 72196, 72199, 72201, 71157], "Johnny Goodpick / Boulayo / Naddiseo / Ilya / Spike / E", "2026-09-17..18",
+    "The rabbit is a royalty-free 14x14 pixel bunny (paramouse 2016 / Terraria bunny) with the tail changed (rotated 90 deg) and body 1 px smaller; Spike: the tail was moved so the right cell reads 1 for the URL code. Naddiseo: check if the source sprite has the FEFEFE pixel; if so, rule it out.",
+    "method", False, "Needs the external sprite. The verified DBBI parse (lead 1) needs FEFEFE as symbol 21, so FEFEFE is deliberate.")
+add([73123, 70940, 71694, 71391, 71422, 73096, 73099, 72492, 73043], "JVTRADER (compilation) / Rob / peter chen / F1f7h / Spike / Alex", "2026-09-04..23",
+    "Creator statements quoted: 'The previous there is another door hint is still a thing... prime numbers... definitely an aspect required to proceed... some characters need to be zeroed out'; 'You only need the last number of pi and it might get you somewhere'; 'I think I'll be going for ASCII 127'; 'Once you hit a ying yang, you'll be able to solve it the same day' / '2 hours max'; 'another door might be found on {1},{4},{21}'; puzzle says seed but jrk says a regular BTC private key; internet not needed (answer 'no', ref #16624). Full SoWut message archive: hosterjackagv.github.io/gsmg-5btc-puzzle/sowut.html.",
+    "creator_reaction", False, "{1},{4},{21}: 21 matches FEFEFE's slot in the DBBI program (unverified link).")
+add([71019], "Chris", "2026-09-04",
+    "1GSM...Be and 17ucy...Ha address endings = BEtter HAlf?",
+    "hint_interpretation", False, "Randy: paranoia. Also nieods (#70779): 17ucy address not confirmed as part of the puzzle.")
+add([72740, 72753, 72789], "Draikoon / Johnny Goodpick", "2026-09-20",
+    "dbbi/faed might be ADFGX/ADFGVX rather than Bifid.",
+    "method", False, "Johnny: impossible for dbbi as is, its length is odd (91). Lead 1 explains dbbi structurally anyway.")
+add([72563, 72565, 72566, 72580, 72831, 72846], "pogo / 3.1415..", "2026-09-20..21",
+    "Check password candidates on the first CBC block only (faster); blobs do not reveal mode/key size. pogo: no knowledge of any of the 3 remaining AES blobs being cracked or dbbi/faed convincingly solved; Thales/HSM material is flavour.",
+    "method", False, "OG-solver status report.")
+add([73151, 73152, 73157, 73161], "Draikoon", "2026-09-23",
+    "Render dbbi (91 chars incl. 'abe') as 7 rows x 13 with b='#', e='o', others '.' -> looks like 'OK' / a rabbit.",
+    "other", True, "Subjective picture; the b/e layout comes from the verified host structure (lead 1).")
+add([70785, 70855, 70779], "nieods / Cereal Killer", "2026-09-03..04",
+    "Timeline: halving 2020-05-11, first SalPhaseIon mention 2020-06-07 -> SalPhaseIon post-halving? Cereal Killer: the Decentraland piece was discussed in May 2019, so SalPhaseIon existed from the start; 17ucy address unconfirmed.",
+    "other", False, "Unresolved.")
+json.dump(L, open("/home/vin/bitcoin_puzzle/scratch/c39/chunk4/leads.json", "w"), ensure_ascii=False, indent=1)
+print(len(L), "leads written")

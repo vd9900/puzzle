@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>01820cam a2200481 a 4500</leader>
+  <controlfield tag="001">ocm22983742 </controlfield>
+  <controlfield tag="003">OCoLC</controlfield>
+  <controlfield tag="005">20100629170249.0</controlfield>
+  <controlfield tag="008">901221s1991    vaua     b    001 0 eng  </controlfield>
+  <datafield tag="010" ind1=" " ind2=" ">
+    <subfield code="a">   90028806 </subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="a">DLC</subfield>
+    <subfield code="c">DLC</subfield>
+    <subfield code="d">BAKER</subfield>
+    <subfield code="d">BTCTA</subfield>
+    <subfield code="d">YDXCP</subfield>
+    <subfield code="d">GEBAY</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">0809465167 :</subfield>
+    <subfield code="c">$12.95</subfield>
+  </datafield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">9780809465163</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)22983742</subfield>
+  </datafield>
+  <datafield tag="050" ind1="0" ind2="0">
+    <subfield code="a">BF1999</subfield>
+    <subfield code="b">.C6975 1991</subfield>
+  </datafield>
+  <datafield tag="082" ind1="0" ind2="0">
+    <subfield code="a">147/.4</subfield>
+    <subfield code="2">20</subfield>
+  </datafield>
+  <datafield tag="245" ind1="0" ind2="0">
+    <subfield code="a">Cosmic duality /</subfield>
+    <subfield code="c">by the editors of Time-Life Books.</subfield>
+  </datafield>
+  <datafield tag="260" ind1=" " ind2=" ">
+    <subfield code="a">Alexandria, Va. :</subfield>
+    <subfield code="b">Time-Life Books,</subfield>
+    <subfield code="c">[1991]</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">144 p. :</subfield>
+    <subfield code="b">chiefly ill. (some col.) ;</subfield>
+    <subfield code="c">28 cm.</subfield>
+  </datafield>
+  <datafield tag="440" ind1=" " ind2="0">
+    <subfield code="a">Mysteries of the unknown</subfield>
+  </datafield>
+  <datafield tag="504" ind1=" " ind2=" ">
+    <subfield code="a">Includes bibliographical references (p. 138-140) and index.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Polarity</subfield>
+    <subfield code="v">Miscellanea.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Polarity (Philosophy)</subfield>
+    <subfield code="v">Miscellanea.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Polarity</subfield>
+    <subfield code="x">Religious aspects</subfield>
+    <subfield code="v">Miscellanea.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Dualism</subfield>
+    <subfield code="v">Miscellanea.</subfield>
+  </datafield>
+  <datafield tag="650" ind1="0" ind2="7">
+    <subfield code="a">Dualismus</subfield>
+    <subfield code="2">swd</subfield>
+  </datafield>
+  <datafield tag="650" ind1="0" ind2="7">
+    <subfield code="a">Kosmologie</subfield>
+    <subfield code="2">swd</subfield>
+  </datafield>
+  <datafield tag="710" ind1="2" ind2=" ">
+    <subfield code="a">Time-Life Books.</subfield>
+  </datafield>
+  <datafield tag="938" ind1=" " ind2=" ">
+    <subfield code="a">Baker &amp; Taylor</subfield>
+    <subfield code="b">BKTY</subfield>
+    <subfield code="c">16.95</subfield>
+    <subfield code="d">12.71</subfield>
+    <subfield code="i">0809465167</subfield>
+    <subfield code="n">0001882120</subfield>
+    <subfield code="s">active</subfield>
+  </datafield>
+  <datafield tag="938" ind1=" " ind2=" ">
+    <subfield code="a">Baker and Taylor</subfield>
+    <subfield code="b">BTCP</subfield>
+    <subfield code="n">90028806</subfield>
+    <subfield code="c">$12.95</subfield>
+  </datafield>
+  <datafield tag="938" ind1=" " ind2=" ">
+    <subfield code="a">YBP Library Services</subfield>
+    <subfield code="b">YANK</subfield>
+    <subfield code="n">700275</subfield>
+  </datafield>
+  <datafield tag="952" ind1=" " ind2=" ">
+    <subfield code="a">22983742</subfield>
+    <subfield code="z">DLC</subfield>
+    <subfield code="b">LIBRARY OF CONGRESS</subfield>
+    <subfield code="h">Full</subfield>
+    <subfield code="i">LCC</subfield>
+    <subfield code="k">DDC</subfield>
+    <subfield code="u">20100626</subfield>
+  </datafield>
+  <datafield tag="952" ind1=" " ind2=" ">
+    <subfield code="a">124463133</subfield>
+    <subfield code="z">VXJ</subfield>
+    <subfield code="b">JEWISH THEOL SEMINARY OF AM</subfield>
+    <subfield code="h">Full</subfield>
+    <subfield code="i">LCC</subfield>
+    <subfield code="k">DDC</subfield>
+    <subfield code="u">20100628</subfield>
+  </datafield>
+  <datafield tag="952" ind1=" " ind2=" ">
+    <subfield code="a">131189945</subfield>
+    <subfield code="z">YUS</subfield>
+    <subfield code="b">YALE UNIV LIBR</subfield>
+    <subfield code="h">Full</subfield>
+    <subfield code="i">LCC</subfield>
+    <subfield code="k">DDC</subfield>
+    <subfield code="u">20100624</subfield>
+  </datafield>
+  <datafield tag="952" ind1=" " ind2=" ">
+    <subfield code="a">132676765</subfield>
+    <subfield code="z">JTC</subfield>
+    <subfield code="b">SHASTA PUBLIC LIBR</subfield>
+    <subfield code="h">Full</subfield>
+    <subfield code="i">LCC</subfield>
+    <subfield code="k">DDC</subfield>
+    <subfield code="u">20070519</subfield>
+  </datafield>
+  <datafield tag="952" ind1=" " ind2=" ">
+    <subfield code="a">223893602</subfield>
+    <subfield code="z">TOZ</subfield>
+    <subfield code="b">HARVARD UNIV, TOZZER LIBR</subfield>
+    <subfield code="h">Full batch</subfield>
+    <subfield code="i">LCC</subfield>
+    <subfield code="k">DDC</subfield>
+    <subfield code="u">20080415</subfield>
+  </datafield>
+  <datafield tag="029" ind1="1" ind2=" ">
+    <subfield code="a">NZ1</subfield>
+    <subfield code="b">5046673</subfield>
+  </datafield>
+  <datafield tag="029" ind1="1" ind2=" ">
+    <subfield code="a">AU@</subfield>
+    <subfield code="b">000007764686</subfield>
+  </datafield>
+  <datafield tag="029" ind1="1" ind2=" ">
+    <subfield code="a">UNITY</subfield>
+    <subfield code="b">089299116</subfield>
+  </datafield>
+  <datafield tag="029" ind1="1" ind2=" ">
+    <subfield code="a">UKSLI</subfield>
+    <subfield code="b">0705406962</subfield>
+  </datafield>
+  <datafield tag="029" ind1="1" ind2=" ">
+    <subfield code="a">GEBAY</subfield>
+    <subfield code="b">1671568</subfield>
+  </datafield>
+  <datafield tag="994" ind1=" " ind2=" ">
+    <subfield code="a">Z0</subfield>
+    <subfield code="b">PMR</subfield>
+  </datafield>
+  <datafield tag="948" ind1=" " ind2=" ">
+    <subfield code="h">NO HOLDINGS IN PMR - 709 OTHER HOLDINGS</subfield>
+  </datafield>
+</record>

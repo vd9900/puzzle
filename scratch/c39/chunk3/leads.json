@@ -1,0 +1,391 @@
+{
+  "source": "data/user_supplied/telegram/new_chunk3.txt (1740 lines, msgs #68481-#70737)",
+  "period": "2026-08-11 .. 2026-09-03",
+  "generated": "2026-10-13",
+  "notes": [
+    "Chat content treated as untrusted; no links visited, no code from chat executed.",
+    "Personal details about the creator or other private individuals were deliberately left out, including quotes about his friends/family/laptop and the claimed creator ETH deployer wallet.",
+    "local_check entries come from scratch/c39/chunk3/checks.py (uses scratch/common.py and scratch/bifid.py on research/sources/salphaseion.html).",
+    "checkable=true means: deterministically reproducible from puzzle data and the check itself settles the claim."
+  ],
+  "leads": [
+    {
+      "id": "L01",
+      "msg_ids": [68819, 69275, 69280, 70262, 70272, 70276, 70281, 70285, 70288, 70290],
+      "author": "MrNobody; Denis Golovkin; Sparky; 3.1415926535897932384626",
+      "date": "2026-08-15..2026-08-31",
+      "claim": "The dbbi 'yellow/blue primes' rail (b/be tokens at prime positions) equals the LSB of each byte of the first-image grid, i.e. the parity of the ASCII chars of 'gsmg.io/theseedisplanted' = 111101110011110110010010 (0xf73d92). About the first 20 bits match exactly. The tail needs a 'fix', and three different fixes are proposed: (a) count the near-white FEFEFE cell as blue -> all 23 primes match (Sparky); Denis says one RGB channel's LSB bit-plane already shows that cell as blue (channel not stated); (b) 0xf73d92>>1 = 0x7b9ec9, +3 ('trinity') = 0x7b9ecc (Denis); (c) set index 21 of the creator's {1},{4},{21} -> 23-bit mask 11110111001111011001101 = 0x7b9ecd (MrNobody). 3.1415 claims 24 bits match; Denis: dbbi holds at most 84 logical indices.",
+      "kind": "data_artifact",
+      "checkable": true,
+      "reaction_rebuttal": "👑: {1},{4},{21} is an April-Fools date, not a board correction. Whore Amazing: dead end; counting 'be' as one token is ad hoc; never produced readable text. Sparky/Denis: shuffle Monte-Carlo says the alignment is not chance (agrees with our earlier 0/5000 shuffles). Open: what consumes the rail.",
+      "local_check": "URL parity string reproduced exactly (= 0xf73d92). The comparison of the rail's last bits against the mask was not re-run."
+    },
+    {
+      "id": "L02",
+      "msg_ids": [68515, 69276, 69281, 69323, 70662, 70668, 70669],
+      "author": "MrNobody; sniper; Coinionaire; nieods",
+      "date": "2026-08-11..2026-09-02",
+      "claim": "Both small OpenSSL objects are 'Salted__' + 8-byte salt + 80-byte ciphertext (5 AES blocks): the SalPhaseIon inline blob (salt 3ab585348552415d) and the Phase 3.2 tail 'keyhole' blob (salt b45a5e3d827593ca). Under AES-CBC with PKCS7 padding the plaintext must be 64..79 bytes. Cosmic Duality ciphertext = 1328 bytes. There is no separate IV; key and IV both come from the salt.",
+      "kind": "data_artifact",
+      "checkable": true,
+      "reaction_rebuttal": "Naddiseo challenged 'exactly 64 lowercase hex'; MrNobody corrected it to 64-79 bytes. Our arithmetic: a bare WIF (51-52 chars, even with a trailing newline) would encrypt to 64 bytes, not 80. That rules out nieods' expectation that the 3.2.2 blob holds the base58 WIF. Plaintexts that do fit: 64-hex (+newline), or 2x32 raw bytes + up to 15 bytes.",
+      "local_check": "Confirmed: small ct 80, inner ct 80, cosmic ct 1328 (salt 2d3f6fe06dc950e6)."
+    },
+    {
+      "id": "L03",
+      "msg_ids": [68531, 68533, 68538, 69323, 69326, 69580, 69938, 69939, 70556, 70557, 70565],
+      "author": "The Boss Jimmy; Coinionaire; TekniskTrading; gemboi; The Bee-llionaire",
+      "date": "2026-08-11..2026-09-02",
+      "claim": "An LLM-built 'chain' is circulating: Cosmic Duality 'decrypts' to 1327 bytes (SHA256 4f7a1e4efe4bf6c5581e32505c019657cb7b030e90232d33f011aca6a5e9c081). A nested 'Chain4' gives 1151 bytes (SHA256 e4269ed5fbb202a81e5e1aa6b5190fdd1ea126b2c8547ea7cdbdf45387ea135b). Small blob B1 gives 79 bytes split 32+32+15 (tail 38d4f4c90cb45fdfc8cff50d0ed1c5), read as 'Half'/'Better Half' keys -> addresses 1JG648yaB7Wp2dpUfcZoRSD4q35oq47vCu and 145ZQ9siLrsXBKf465wjdyQYAP5dRwhRhQ. An 'XOR triangle' needs an operand 'cosmic_A'/'cc' (sha256 prefix cd3fea3d). '103x103 route' invariants: S=5193, Wr=268603, Wc=268828, p_big=58, p_little=46. The passwords were never published.",
+      "kind": "decode_result",
+      "checkable": false,
+      "reaction_rebuttal": "Boss Jimmy himself calls the keys 'unauthenticated' and cosmic_A a 'phantom' (first mention: a March-2026 issue from a brand-new account; no bytes in 22 forks or archived pages). ΞZ: 'chain4 was llm nonsense'. 'Me' (#68747): cosmic_A.bin doesn't exist. Our arithmetic: 1328->1327 and 80->79 are exactly PKCS7 pad=0x01, which a wrong key produces with p~1/256. Any 32 random bytes is a valid secp256k1 key. So none of these outputs proves itself; treat them as padding false positives unless someone shows readable plaintext."
+    },
+    {
+      "id": "L04",
+      "msg_ids": [68916, 68922, 68923, 69749, 69763, 69795, 69798, 69800, 69809, 69862, 69863, 70344],
+      "author": "X; Loupi; Flo Sku; Thiago Santos; Suppa; n04oh",
+      "date": "2026-08-17..2026-09-01",
+      "claim": "btcseed: deduplicate dbbi into the keyword 'dbifhceg(a)', build a 5x5 Bifid square (no j), and Bifid-decrypt all 570 faed letters as one period. The 570-char output starts 'btcseeddeoemckeadhbschdkbdcsdkdv...' (SHA256 15d62c8228c1a30f3f6280fcdce2251fe616135e9de291b0c7b8a792dd8d0507). A single 'z' (0-based index 97) separates pairs ending b/c/d/e from reversed pairs starting b/c/d/e. Write-up is in Naddiseo's repo under 'unverified' (issue #13).",
+      "kind": "decode_result",
+      "checkable": true,
+      "reaction_rebuttal": "Thiago Santos null test: faed uses only a-i, so even output positions can only be b/c/d/e and z needs two consecutive col-4 values. Over 3000 faed shuffles: mean #z 2.89, P(#z>=1)=95.8%, P(#z==1)=14.2%, so the z and the b/c/d/e alternation are mechanical. Suppa: P('btcseed' named in advance)~1/4M; ~1/100k after look-elsewhere (40 of 23,881 seven-letter words fit the pattern). Sparky/B58/👑: coincidence. Asked 'what about btcseed?' on 2026-09-01, the creator did not reply. Cycle-37 verdict stands: probably coincidence.",
+      "local_check": "Reproduced with scratch/bifid.py: starts 'btcseeddeoem', sha256[:8]=15d62c82, one z at index 97, even positions only {b,c,d,e}."
+    },
+    {
+      "id": "L05",
+      "msg_ids": [69862, 69863],
+      "author": "Suppa",
+      "date": "2026-08-25",
+      "claim": "The 24-word BIP39 mnemonic pulled from the btcseed b/c/d/e channel (offset 27, d=00 c=01 b=10 e=11) is chance. The channel has 282 symbols and 132 contiguous ones are needed: 151 offsets x 24 two-bit mappings = 3,624 trials. Exactly 13 have a valid checksum (expected 14.2). All 18 addresses for the known mnemonic (BIP44/49/84, external+internal, index 0-2) were never funded.",
+      "kind": "method",
+      "checkable": true,
+      "reaction_rebuttal": "No objections; matches the cycle-37 btcseed verdict."
+    },
+    {
+      "id": "L06",
+      "msg_ids": [70303, 70306, 70307, 70318, 70344, 70709],
+      "author": "Diego Schmidt -> Jrk Bgrt (creator)",
+      "date": "2026-09-01",
+      "claim": "Diego: in the 'YOUWON' text, positions {1,4,21} give VIC. Everything right of YOUWON converts to exactly 103 digits, the same length as the SalPh instruction string matrixsumlist|lastwordsbeforearchichoice|thispassword|shabefourfirsthintisyourlastcommand|enter|shabefanstoo. Aligned, 'enter' -> 13224 -> US Executive Order 13224. Creator, 11 minutes later: 'Pfff. Coincidence.' Diego's follow-up 'Yellow BLUE primes = DEL FE. Coincidence?' got no answer.",
+      "kind": "creator_reaction",
+      "checkable": false,
+      "reaction_rebuttal": "The creator dismissed it directly. Worldmaker over-reads the reply as invalidating Salph/Cosmic work in general.",
+      "local_check": "Instruction string length = 103 confirmed."
+    },
+    {
+      "id": "L07",
+      "msg_ids": [70316, 70324, 70325, 70361, 70431, 70457, 70458],
+      "author": "Jrk Bgrt (creator); 👑; others",
+      "date": "2026-09-01..2026-09-02",
+      "claim": "Asked 'were dbbi and faed meant to be decoded like the other SalPhaseIon segments, or only used as an ingredient?', the creator answered only '🤐'. Unanswered the same day: does SalPhaseIon capitalization carry meaning; is matrixsumlist an operator or a reference, and does it act on dbbi, the grid or faed; has anyone hit the 'ying yang'; would reverting to the original image help.",
+      "kind": "creator_reaction",
+      "checkable": false,
+      "reaction_rebuttal": "None. 👑 read it as 'you had big enough probability already'."
+    },
+    {
+      "id": "L08",
+      "msg_ids": [70311, 70335, 70336, 70373, 70377, 70549, 70575],
+      "author": "Jrk Bgrt (creator)",
+      "date": "2026-09-01",
+      "claim": "Creator: building the puzzle took 'Couple hours' and he did not build it alone. Reminded that he once said he 'spent two sloppy days throwing one together', he replied 'Same same'. Also: 'A. I rushed (t)it.' Practical upshot: the remaining layers probably use quick standard tooling (openssl enc, sha256 of a typed phrase, classical ciphers), not bespoke constructions. 'Rushed' also allows typos or slips (cf. the givetit/giveit hypothesis in L20).",
+      "kind": "creator_reaction",
+      "checkable": false,
+      "reaction_rebuttal": "Rob: does not fit the puzzle's apparent complexity; suspects the clues are misleading."
+    },
+    {
+      "id": "L09",
+      "msg_ids": [68853, 68868, 68875, 68878, 68879, 68887, 68892, 68894, 69268, 70660],
+      "author": "F1f7h; X; Cereal Killer; Denis Golovkin; Rob; TekniskTrading; Laurent Camarasa",
+      "date": "2026-08-16..2026-09-02",
+      "claim": "Relayed creator answer: Jerry asked whether SalPh or Cosmic used a different cipher (aes-192/128); the creator said 'same software was used in all phases'. X first misquoted this as 'same encryption'. The solved-stage pipeline (Rob): sha256(candidate) hex -> OpenSSL passphrase -> salted AES-256-CBC. Still open: the EVP KDF digest (md5 vs sha256) for the last blobs. TekniskTrading asks whether a '9fa9db...' SalPhaseIon md5 decrypt is right; Laurent asks 'md5 or sha256, the last blob?'.",
+      "kind": "creator_reaction",
+      "checkable": false,
+      "reaction_rebuttal": "Denis: this confirms OpenSSL but not necessarily AES-256-CBC or the same digest. Test both digests (sniper and our oracle already do)."
+    },
+    {
+      "id": "L10",
+      "msg_ids": [68482, 68484, 68487, 68524],
+      "author": "К; sniper; Naddiseo",
+      "date": "2026-08-11",
+      "claim": "Creator hint 'Only -41 -17 matters' (2020). К: LLMs turn it into 'hide face', to be used as a mask. sniper's negative tests against all four blobs with md5 and sha256 KDFs: zeroing faed positions 41/17 from front and end, XOR of bytes with 41 and 17, and 'hide face' variants as passphrases. sniper also says a 180-degree rotation of the blue/yellow component grid has nonzero antisymmetry that yields -17 but not -41.",
+      "kind": "hint_interpretation",
+      "checkable": false,
+      "reaction_rebuttal": "Naddiseo: the hint is from 2020 and was about getting into SalPh, not the final step."
+    },
+    {
+      "id": "L11",
+      "msg_ids": [69514, 69515, 69516, 69517, 69518, 69521, 69523, 69686, 69687],
+      "author": "👑; Naddiseo; Denis Golovkin; matrix is real",
+      "date": "2026-08-21..2026-08-23",
+      "claim": "Official hint: 'Roses are White but often Red. Yellow has a number and so does Blue. Go back to the first puzzle piece without further ado. It might have shown you only one door, beware that the rabbits nest may contain a whole lot more. Hush hush.' 👑 reads it as roses = separator, yellow/blue = 0/1, Hush hush = hash. 'matrix is real': on 2021-03-14/15 the creator answered 'Hush hush' to 'is salph related to the roses hint?'. That links SalPh's 'SHA256 OUR FIRST HINT IS YOUR LAST COMMAND' to this hint, but the exact bytes to hash are unknown. Already negative under the OpenSSL models: HUSH, HUSH HUSH, the full hint text, the rabbit wording, the first-image text and its route hash, and the archived image bytes. Still sought: creator message 1710 (Jan 2020 hint, possibly edited) and a definition of the 'SHABEFANSTOO' suffix.",
+      "kind": "hint_interpretation",
+      "checkable": false,
+      "reaction_rebuttal": "Naddiseo: not convincingly decoded; probably the hint for entering SalPh. Denis: 'yellow/blue has a number' may mean dbbi's b/be primes (see L01)."
+    },
+    {
+      "id": "L12",
+      "msg_ids": [69281, 70108, 70731, 70732],
+      "author": "MrNobody; F1f7h; Cereal Killer",
+      "date": "2026-08-20..2026-09-03",
+      "claim": "Readings of the SalPh suffixes: 'shabefanstoo' = 'sha before, answer too'; 'shabefour...' = 'sha before our...'. Sound-alikes: 'SalPhaseIon' -> 'Salvation', 'enteranstoo' -> 'Entrance 2'. Cereal Killer says the password is used as the raw string, with no hash ('shabef').",
+      "kind": "hint_interpretation",
+      "checkable": false,
+      "reaction_rebuttal": "None. No concrete password was proposed."
+    },
+    {
+      "id": "L13",
+      "msg_ids": [68750, 68756, 68758, 68759, 68766, 68771, 68788],
+      "author": "Andy | DBBI & FAED; X; Cereal Killer; Naddiseo",
+      "date": "2026-08-15",
+      "claim": "Cosmic Duality base64 is 28 lines. Line 4, 'SATSFO7IFBiAMz7dDqIETKuGlTAP4EmMQUZrQNtfbJsURATW6V5VSbtZB5RFk0O+', has 41 uppercase / 15 lowercase / 7 digits against ~26 uppercase expected. Andy suggests a manual edit (leet, mirrored halves) and points at the start of line 14. X: the second half (line 15) starts with '3259', a prime.",
+      "kind": "data_artifact",
+      "checkable": true,
+      "reaction_rebuttal": "Naddiseo: tampering with random ciphertext and hoping solvers notice is 'asymmetrically too hard'; Cosmic more likely decrypts to another plaintext puzzle, like 3.1. Cereal Killer: AES output is random; 'IHELPU' and 'FUDCB' in other blobs are chance.",
+      "local_check": "Counts confirmed. Line 4 is the highest of the 28 lines (next is 33). Binomial P(>=41 of 64 at p=26/64) = 1.3e-4 per line, about 0.0036 for the maximum of 28 lines. That is post hoc (the statistic was picked after looking) and not corrected for other statistics. The decoded bytes are not text-like (19/48 printable). Line 15 starts 'O3259'."
+    },
+    {
+      "id": "L14",
+      "msg_ids": [68530, 68756, 68863, 68866, 68867],
+      "author": "Andy | DBBI & FAED",
+      "date": "2026-08-11..2026-08-17",
+      "claim": "Hypothesis: the decoded SalPh words are instructions for building a candidate, and the password is SHA256(candidate). The Cosmic password might be sha256 of the SalPh password or sha256 of the SalPh plaintext. Two further steps: decrypt the 'your life is the sum...' instruction and apply 'IN CASE...'.",
+      "kind": "method",
+      "checkable": false,
+      "reaction_rebuttal": "Depends on the unsolved small blob. Florent and others take it as a sensible order of work. Andy is widely accused (👑) of selling NFT-gated 'solutions'."
+    },
+    {
+      "id": "L15",
+      "msg_ids": [69144, 69270, 69657, 69659, 70098, 70101, 70357, 70359],
+      "author": "Andy | DBBI & FAED",
+      "date": "2026-08-19..2026-09-01",
+      "claim": "Claims a 'ZION' stage after dbbi/faed. Posts a masked fragment '****{39*}****{39*}*****************||**************|***', SHA256 'checkpoints' (8dce5e15..., 6444eab3..., bb1251a2..., f8723eee..., 7f5fb905...) and 'mirror' rows 5,15,15,15,5 / 2,2,22,2,2 / 18,9,12,9,18 / 00000 10101 01010 11111.",
+      "kind": "other",
+      "checkable": false,
+      "reaction_rebuttal": "Coinionaire: dbbi is 91 chars and faed 570. 👑: scam (NFT-gated channel) and mocks the checkpoints with sha256('fuckyouscammer'). Andy's earlier claims (3GSMG, AES-blob modification) did not hold up. No usable information."
+    },
+    {
+      "id": "L16",
+      "msg_ids": [69910, 69986],
+      "author": "3.1415926535897932384626",
+      "date": "2026-08-25",
+      "claim": "SalPhaseIon entrance: SHA256('GSMGIO5BTCPUZZLECHALLENGE1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe') = 89727c598b9cd1cf8873f27cb7057f050645ddb6a7a157a110239ac0152f6a32, which is the SalPh page path. Added to Naddiseo's repo (commit 207e1e1).",
+      "kind": "data_artifact",
+      "checkable": true,
+      "reaction_rebuttal": "None; already-known fact.",
+      "local_check": "Verified."
+    },
+    {
+      "id": "L17",
+      "msg_ids": [68664, 68822, 69284, 69306, 69938],
+      "author": "Denis Golovkin; Andy; Sparky; The Boss Jimmy",
+      "date": "2026-08-12..2026-08-26",
+      "claim": "Prize public key 04f4d1bbd91e65e2a019566a17574e97dae908b784b388891848007e4f55d5a4649c73d25fc5ed8fd7227cab0be4e576c0c6404db5aa546286563e4be12bf33559 -> hash160 a9553269572a317e39f0f518cb87c1a0ee1dbae4 -> 1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe. Other encodings of the same key: compressed 03f4d1bb...a464 (1cc6xayvqpeetixmuXDRsGug7GKyoRdxP), p2sh-p2wpkh 3EMYUDgKz4daW2Er1j3jXMbfspsBaZU3yu, p2wpkh bc1qq6aaceha5zg3qs6u0x5xv44xqnpdt35mqnnmk0, p2tr bc1p4arm0cjnrhu2l7yks4chswutlhq350jnp6wptdneycxvhnr9pksscxfr8s. Andy: hash160 bytes 55 32 69 57 2a 31 7e 39 read as ASCII 'U2iW*1~9'.",
+      "kind": "data_artifact",
+      "checkable": true,
+      "reaction_rebuttal": "'U2iW*1~9' is coincidence (Cereal Killer). The pubkey is an exact offline oracle for any candidate key.",
+      "local_check": "Pubkey -> hash160 verified."
+    },
+    {
+      "id": "L18",
+      "msg_ids": [68665, 68666, 68668, 69038, 69047, 69284, 69938],
+      "author": "Cereal Killer; Pro Tlo; The Boss Jimmy; Sparky",
+      "date": "2026-08-12..2026-08-26",
+      "claim": "Second address 17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa holds 3.75 BTC unspent and its pubkey is not exposed. Cereal Killer: the private keys belong to 'half and better half', and 17ucy is part of the puzzle. Pro Tlo: 1GSMG and 17ucy share one private key.",
+      "kind": "data_artifact",
+      "checkable": false,
+      "reaction_rebuttal": "Sparky and Nobitoshi refute the shared-key claim (different addresses mean different keys, and 1GSMG's pubkey is already known). No evidence ties 17ucy to the puzzle text."
+    },
+    {
+      "id": "L19",
+      "msg_ids": [69850, 69852, 69853, 69856, 69940],
+      "author": "Suppa; Человек; nieods; The Boss Jimmy",
+      "date": "2026-08-25..2026-08-26",
+      "claim": "Decentraland puzzlepiece.mp3 (IPFS CID QmeRy5MjmEZ2W6J3DwhQfht5HKBKXBFpoGzSkzmjeGKiDK, deployed 2020-02-20). Left and right are each white noise, but L-R carries a periodic signal: period exactly 684 samples at 44.1 kHz (64.47 Hz), odd harmonics only, half-wave antisymmetric (avg[k] = -avg[k+342], corr 0.9997). Control: autocorrelation at lag 683 is 0.002 on synthetic noise vs 0.837 in the file. Человек: frames 4, 15 and 131 are anomalous (mp3hacker/mp3repack).",
+      "kind": "data_artifact",
+      "checkable": true,
+      "reaction_rebuttal": "Suppa's own follow-up: frames 4/15/131 are simply the loudest side-channel frames, where LAME dropped M/S stereo. No splice, no modulation, no payload ('right address, empty room'). The only known payload is HASHTHETEXT, already used. Low value."
+    },
+    {
+      "id": "L20",
+      "msg_ids": [68861, 68869, 69025, 69028, 69029, 69031, 69063, 69116, 69127, 69548, 69752, 69753, 69755],
+      "author": "gnomad; TekniskTrading; Nobitoshi; Cryptono; Loupi; Ugur Keser; X",
+      "date": "2026-08-17..2026-08-24",
+      "claim": "gsmg.io is back online. Per WHOIS history the domain was renewed the day after it expired. Last-Modified: 2026-08-15 23:16. robots.txt says 'Follow the white rabbit' and the sitemap says 'Hello'. Users report a 'new hint' on the main page ('lights are off'). Both gsmg.io/PUZZLE (first image version) and gsmg.io/puzzle (second version) are served. Loupi's hypothesis: the creator's 'givetit'->'giveit' slip and the switch to the second image's text hash broke the intended path ('23 ciphers'), so the remaining part should use the first image version.",
+      "kind": "data_artifact",
+      "checkable": false,
+      "reaction_rebuttal": "X: a third party bought the domain and is trolling; Cereal Killer: same data, small page-source changes. Ownership unconfirmed. Diffing both image versions and the page sources against archived copies would settle what changed (needs a web fetch)."
+    },
+    {
+      "id": "L21",
+      "msg_ids": [68782, 68928, 68930, 68936, 68940],
+      "author": "Andy | DBBI & FAED; Cereal Killer",
+      "date": "2026-08-15..2026-08-17",
+      "claim": "Old creator messages (#1210/#1211) mention 'Cupertino', read as the Cupertino effect (spell-checker substitution). Practical upshot: a password word may have been autocorrected or mangled, so normalize or try near-miss spellings of the decoded words.",
+      "kind": "hint_interpretation",
+      "checkable": false,
+      "reaction_rebuttal": "Cereal Killer: just casual chat about Silicon Valley, not a hint."
+    },
+    {
+      "id": "L22",
+      "msg_ids": [69676, 69678, 69682, 69688],
+      "author": "E; Denis Golovkin; gnomad",
+      "date": "2026-08-23",
+      "claim": "Write dbbi as 7 rows x 13 columns of char codes: only prime-numbered columns have sums below 700. gnomad puts the odds of a repeated 3x2 block (shown in an image, not in the text) at about 1 in 8052, or 1 in 44k under a strict count.",
+      "kind": "data_artifact",
+      "checkable": true,
+      "reaction_rebuttal": "Denis: the expected column sum is 707, so 3 of 13 columns below 700 is normal, and getting only primes has a 9.8% chance. Weak."
+    },
+    {
+      "id": "L23",
+      "msg_ids": [70228, 70239, 70240, 70245, 70246, 70248, 70254, 70255],
+      "author": "Johnny Goodpick; Whore Amazing; Monah",
+      "date": "2026-08-31",
+      "claim": "First-image grid: black and white cell counts are equal; the colored markers fall every 8 cells along the CCW spiral (mod 8), so all yellow/blue markers sit on one chessboard color; there is one near-white cell; door 1 decodes with only half the markers. Johnny thinks the grid is the 'control mechanism' or hides another door.",
+      "kind": "data_artifact",
+      "checkable": true,
+      "reaction_rebuttal": "Whore Amazing: the black/white balance is plausible by chance, and the chessboard placement follows automatically from mod 8. Monah's 'Y/B positions are multiples of 8, so no primes' confuses grid positions with dbbi positions."
+    },
+    {
+      "id": "L24",
+      "msg_ids": [69663, 69664, 69695, 69697, 69700],
+      "author": "Sparky; Cryptono",
+      "date": "2026-08-22..2026-08-23",
+      "claim": "In the Phase 1 image the magnet text has a space between 'n' and 'ing' ('Warn ing'), and the filename also contains that space. The black magnet may point to the genesis block.",
+      "kind": "data_artifact",
+      "checkable": false,
+      "reaction_rebuttal": "Cereal Killer: checked earlier, nothing there."
+    },
+    {
+      "id": "L25",
+      "msg_ids": [69940, 70062, 70063, 70067, 70088, 70115],
+      "author": "The Boss Jimmy; TekniskTrading; Denis Golovkin; F1f7h",
+      "date": "2026-08-26..2026-08-28",
+      "claim": "Creator hint (Nov 2024): 'you only need the last number of pi.' Boss Jimmy tested about 200 pi-based selectors and keystreams on the btcseed object against the pubkey: zero hits. Chat puns: cake/pie -> 'e' or 8 ('ate'); 'the last digit of pi is i'.",
+      "kind": "hint_interpretation",
+      "checkable": false,
+      "reaction_rebuttal": "Mostly jokes; no derivation that can be tested."
+    },
+    {
+      "id": "L26",
+      "msg_ids": [68518, 69326, 69850, 69851, 69870, 69939, 69940, 70431],
+      "author": "The Boss Jimmy; Suppa; gemboi; sniper",
+      "date": "2026-08-11..2026-09-01",
+      "claim": "Creator roadmap (Feb 2023 password chain): yellow, blue, primes, matrixsumlist, lastwordsbeforearchichoice, yinyang, then 'we won't give away the password - it's in front of your eyes; the very last step is a true giveaway'. Apr 2025, asked 'is yinyang found after decoding an AES ciphertext?', the creator replied 'It's the next phase, but I await the day someone finally gets there' (the message was later edited). Relayed: 'once you hit a ying yang you'll solve it the same day'; primes are 'required to proceed'; 'some characters need to be zeroed out'; Architect text: 'reinserting the prime basics'. Negative: Boss Jimmy tested yinyang as a direct key (every Yin/Yang binary classification of the carrier x 56 serializations = 469,762,048 keys vs the pubkey): zero. gemboi asked whether 'yinyang' names the second file (Cosmic Duality) or an instruction; no answer. sniper: look for the imbalance/remainder, not the symmetry.",
+      "kind": "hint_interpretation",
+      "checkable": false,
+      "reaction_rebuttal": "Doober: at least 8 objects in the puzzle can pass as a 'yinyang'. Rob and Sparky: the yin-yang on the cover of the Cosmic Duality book is the obvious one."
+    },
+    {
+      "id": "L27",
+      "msg_ids": [68488, 68492, 68495, 68500, 68502, 68504, 68506, 70163, 70165, 70591],
+      "author": "Naddiseo; К; 👑; X; Loupi",
+      "date": "2026-08-11..2026-09-02",
+      "claim": "Creator statements: 'the hardest part is done', and the stages so far are self-contained, so SalPh should be too (Naddiseo). К: anything that does not open a blob within 1-2 simple steps after dbbi/faed is trash. The Phase 3 text calls the 3.2 tail blob the 'keyhole'; 👑: both small blobs hold at least one private key, or a range start/end. The creator declined to say whether the private key is stored 'in full or in half'.",
+      "kind": "hint_interpretation",
+      "checkable": false,
+      "reaction_rebuttal": "К: the private key could be in neither blob. Agreed upshot: keep the remaining steps short and simple."
+    },
+    {
+      "id": "L28",
+      "msg_ids": [68515, 69283],
+      "author": "sniper; MrNobody",
+      "date": "2026-08-11..2026-08-20",
+      "claim": "Negative searches: sniper tried the 3.2 keyhole blob (salt b45a5e3d...) with every SalPh- and faed-derived key, md5 and sha256 KDFs, plus direct-key mode, and scanned every 32-byte window for the prize key: nothing. MrNobody ran about 59M decryptions of the SalPh blob (two unspecified families); 229,913 had valid PKCS7 and all were read: zero printable, zero 64-hex.",
+      "kind": "method",
+      "checkable": false,
+      "reaction_rebuttal": "Candidate families were not published, so the results can't be reproduced."
+    },
+    {
+      "id": "L29",
+      "msg_ids": [69195, 69850, 70295],
+      "author": "Suppa; Laurent Camarasa; 3.1415926535897932384626",
+      "date": "2026-08-20..2026-08-31",
+      "claim": "Known decode (z-method): the z-separated tail maps a=1..i=9, o=0 -> decimal -> int -> hex -> ASCII, giving 'lastwordsbeforearchichoice' and 'thispassword'; the a/b binary runs give the instructions. Summary: 'ab gives instructions, z splits, a-i digits'. dbbi (91) and faed (570) do not decode under the same rule.",
+      "kind": "decode_result",
+      "checkable": true,
+      "reaction_rebuttal": "None; already known (asserted in scratch/common.py).",
+      "local_check": "Verified by the common.py asserts."
+    },
+    {
+      "id": "L30",
+      "msg_ids": [69539, 69850, 70204, 70484, 70487],
+      "author": "Suppa; MrNobody; Agent Mike",
+      "date": "2026-08-22..2026-09-02",
+      "claim": "lastwordsbeforearchichoice: Suppa tried every contiguous substring of the decoded Architect text as a password, and none opens anything. MrNobody: the creator may have rewritten the Architect's last line, as he did the rest of that monologue. Agent Mike: the password is 'the architect choice'.",
+      "kind": "hint_interpretation",
+      "checkable": false,
+      "reaction_rebuttal": "No positive result."
+    },
+    {
+      "id": "L31",
+      "msg_ids": [69060, 69062, 69068, 69069, 69071, 69841],
+      "author": "...; 👑; Naddiseo",
+      "date": "2026-08-18..2026-08-24",
+      "claim": "'...': FAED and DBBI are not meant to be 'deciphered'; organize them correctly using two things from the puzzle, and invert one of them. 👑: faed and dbbi operate together. Naddiseo: the open question about btcseed is why dbbi was constructed the way it is.",
+      "kind": "hint_interpretation",
+      "checkable": false,
+      "reaction_rebuttal": "Nothing specific was given. It is consistent with dbbi keying faed (L04) and the dbbi rail (L01)."
+    },
+    {
+      "id": "L32",
+      "msg_ids": [69021, 69023, 69024, 69195],
+      "author": "Gelap Gulita; Denis Golovkin; Laurent Camarasa",
+      "date": "2026-08-18..2026-08-20",
+      "claim": "OP_RETURN 'clues': txid a589629df479a801137db3ada8e60f64020848ae73851490e7e2aeae49f88351 ('here is mysecret') and txid 973646bb3204b9e67e0fcb58efabe951aaf3714020c277f77092ae59bc1a1bd6 ('GSMG WITNESS BLK 949653 TX 808f812f'), attributed to the creator because the addresses start with GSM. Laurent: 'lastwordsbeforearchichoice' was also 'engraved on-chain' by the dumper.",
+      "kind": "data_artifact",
+      "checkable": false,
+      "reaction_rebuttal": "Denis: anyone can generate GSM-prefixed addresses. Cycle 37: Naddiseo issue #114 says the creator confirmed these OP_RETURN breadcrumbs come from other solvers. Not the creator's."
+    },
+    {
+      "id": "L33",
+      "msg_ids": [68580, 69050, 69109, 69110, 69168, 69174, 69366, 70134, 70434, 70435, 70448],
+      "author": "TekniskTrading; Pro Tlo; Azrael; Nobitoshi; Randy; Gg Wp",
+      "date": "2026-08-11..2026-09-02",
+      "claim": "Unverified solve claims: an AES blob decrypts to 'NOT WORTHLESS...'; a 'c3b8...' hash 'surely unlocks' Cosmic, but its derivation is forgotten (Azrael offers '2b2dca9ebcdc772...'); 'blob 3.2 is p31old, solved'; 'stuck in the inner blob after solving the cosmic blob'; an LLM output saying 'Congratulations! You've reached the heart of the puzzle... confirmed by GSMG'; 'solved salphaseion and cosmic... it is a brain wallet to recover a secretkey'; 'found the 3rd door'.",
+      "kind": "other",
+      "checkable": false,
+      "reaction_rebuttal": "None came with a password or plaintext hash. Laurent, Denis and B58 dismiss them as LLM hallucinations. Treat as noise."
+    },
+    {
+      "id": "L34",
+      "msg_ids": [70662, 70668, 70669, 70673, 70678, 70708, 70713, 70723, 70724, 69686],
+      "author": "nieods; Worldmaker; Monah; T K; matrix is real",
+      "date": "2026-08-23..2026-09-03",
+      "claim": "Provenance of SalPh: nieods says his team was 3rd or 4th to find the SalPh URL, via HASHTHETEXT. Two hypotheses: the URL was always there and Phase 3.2 should lead to it, or it was added after the first halving. nieods expects the SalPh AES to yield a plaintext clue for entering Cosmic. Worldmaker: SalPh/Cosmic were added by someone other than the creator (no support). Monah: Cosmic may be missing a symbol after a page move; compare the live page with archived copies. 'matrix is real': five Wayback variants have byte-identical textareas.",
+      "kind": "other",
+      "checkable": false,
+      "reaction_rebuttal": "Worldmaker's claim is unsupported. The Wayback textarea identity argues against page corruption."
+    },
+    {
+      "id": "L35",
+      "msg_ids": [69011, 69012, 69015, 69016],
+      "author": "Cereal Killer",
+      "date": "2026-08-18",
+      "claim": "Roughly 85-90% of the Phase 2 riddle text (the Norton/Thevenin -> rulers -> 'The 5binary code is a part of the piece of this puzzle' paragraph) exists to produce one answer, '11110'. Suspects '11110' matters again in the last step.",
+      "kind": "hint_interpretation",
+      "checkable": false,
+      "reaction_rebuttal": "None. Weak; no operation proposed."
+    },
+    {
+      "id": "L36",
+      "msg_ids": [68513, 68622, 68644],
+      "author": "Lexane; Jerry; Cereal Killer",
+      "date": "2026-08-11..2026-08-12",
+      "claim": "'WHAT A WISEMAN ABOVE HINTED AT IS WORTH HUNDRED FOURTY OF THE INVESTMENT': possible readings are a McAfee '140' tweet, or 100/40 = 2.5 meaning 'half'.",
+      "kind": "hint_interpretation",
+      "checkable": false,
+      "reaction_rebuttal": "None. Weak."
+    },
+    {
+      "id": "L37",
+      "msg_ids": [68623, 68626, 68627, 68628],
+      "author": "Jerry; sniper",
+      "date": "2026-08-12",
+      "claim": "Jerry: in 2021 he showed the creator a cipher 'close to faed'. He believes a test script (likely Python) was used to encode everything, and doubts the creator built or remembers the last step. sniper asked which cipher family it was; no answer appears in this chunk.",
+      "kind": "other",
+      "checkable": false,
+      "reaction_rebuttal": "No follow-up. Worth asking Jerry directly which cipher family he meant."
+    }
+  ]
+}

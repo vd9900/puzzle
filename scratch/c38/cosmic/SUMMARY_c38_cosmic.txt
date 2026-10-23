@@ -1,0 +1,18 @@
+c38 cosmic lens (2026-10-13). Sources: archive.org metadata/MARC/scandata (public files), archive.org public full-text search
+snippets (tools/fts.py, outputs fts_out*.txt), Open Library JSON (dl/), prior harvest scratch/wf/cosmic_duality_snippets.json.
+Bibliographic: Cosmic Duality, "by the editors of Time-Life Books", series Mysteries of the Unknown; Alexandria VA, 1991; 144 p., 28 cm,
+chiefly ill.; ISBN 0809465167 (hc, $12.95) / 0809465175 (second binding/edition); LCCN 90028806; OCLC 22983742; LC BF1999 .C6975 1991;
+DDC 147/.4; bibliography pp.138-140; index from p.140. Cover: "Art by Rob Wood of Stansbury, Ronsaville and Wood, Inc." (picture credits p.138).
+Contents: Essay The Unity of Opposites 6 | Ch1 Dualities As Old As Time 16 | Essay The Dark Side of Fairy Tales 41 | Ch2 The Battle of the Sexes 48 |
+Essay Driving the Devil Out 71 | Ch3 In the Grasp of Ageless Evil 78 | Essay Paths of Righteousness 98 | Ch4 The Triumph of Good 106 |
+Essay Hark! Heaven's Winged Host 129 | Acknowledgments 138 | Picture Credits 138 | Bibliography 138 | Index 140.
+Index: Yin/Yang 8-9; characteristics 9,35,49; as duality 49; gender 49; intuition 66; purposes 35.
+Scans: archive.org cosmicduality00time (154 leaves, Shenzhen 2011; ISBN 0809465167; leaf1 cover, leaf7 title, leaf8 copyright, leaf9 contents,
+leaf152 back cover) and cosmicdualitymys0000time (146 leaves, Cebu 2021, ISBN 0809465175, ex-San Mateo PL; "cut text due to tight binding").
+Both access-restricted (inlibrary/printdisabled, controlled lending: free archive.org account -> 1-hour borrow). Open Library OL1870063M / OL26821796M.
+Google Books volume 82p-2AAb5mkC (snippet view).
+Cover analysis (tools/frames.py): stepped embossed frame = series-standard on every Mysteries of the Unknown volume (not volume-specific);
+ridge count ~6-7 per side at ~11 px pitch (bottom 7, right 6, top 6-7, left 5 weak), perspective/lighting limits exactness.
+Volume-specific content = a yin-yang disc of star fields with exactly two dominant bright stars, one in each half (the 'eyes'); ~1 dozen
+4-point sparkle stars in the dark field; no numerals or text beyond title/series.
+Tests (oracle.py, selftest PASS): twostars, binarystar, yinyanghalfandbetterhalf -> 12 password forms x 3 blobs x 2 digests, 0 structured hits.

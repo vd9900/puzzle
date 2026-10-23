@@ -1,0 +1,279 @@
+{
+  "source": "data/user_supplied/telegram/new_chunk5.txt (msgs #73210-#76486, 2026-09-23..2026-10-12, 2387 lines, read fully)",
+  "notes": "The creator posted nothing in this chunk. @SoWut pings (#76014, #76025, #76271) got no answer; X 0xAZ126 replied to #76014 and he is not the creator. Personal info about the creator (name, location, family, social accounts) was skipped. local_check = a one-shot deterministic check run by this agent with scratch/c39/chunk5/quickcheck.py against research/artifacts blobs. No chat code was executed.",
+  "leads": [
+    {
+      "id": "L01", "msg_ids": [75640, 75838, 75839, 75846], "author": "Monah; christo vittorio kiliaan", "date": "2026-10-07..08",
+      "claim": "SalPhaseIon small blob is ONE 128-char base64 string U2FsdGVkX186tYU0hVJBXXUnBUO7C0+X4KUWnWkCvoZSxbRD3wNsGWVHefvdrd9zQvX0t8v3jPB4okpspxebRi6sE1BMl5HI8Rku+KejUqTvdWOX6nQjSpepXwGuN/jJ. The word 'enter' between its halves is not base64. It is the a/b binary run abbaabababbabbbaabbbabaaabbaabababbbaaba (a=0,b=1, 5 bytes -> 'enter') at token idx 959..999 of the live textarea.",
+      "kind": "data_artifact", "checkable": true,
+      "reaction_rebuttal": "None. Monah asked whether it was one word or two.",
+      "local_check": "Verified by hand: 01100101 01101110 01110100 01100101 01110010 = 'enter'. Blob matches research/artifacts/salphaseion-small.b64."
+    },
+    {
+      "id": "L02", "msg_ids": [75652, 75661, 75662], "author": "Boulayo; Cryptono", "date": "2026-10-07",
+      "claim": "The creator regenerated the SalPhaseIon blob salt until the base64 had a 'z' at char 64 and nowhere else, so a z-separator splits it (maybe why it is 'SAL'phaseion). The 3.2 inner blob also has z at char 64, but not only there.",
+      "kind": "data_artifact", "checkable": true,
+      "reaction_rebuttal": "None.",
+      "local_check": "Verified. salphaseion-small.b64 has its only 'z' at pos 64 of 128 (chance about 0.3 for one fixed position: P(exactly 1 z in 128)*1/128 is small but the position choice is post hoc). phase32-inner.b64 has z at 45, 64, 82, 95."
+    },
+    {
+      "id": "L03", "msg_ids": [76032, 76033, 76034], "author": "Marc; Pawel", "date": "2026-10-08",
+      "claim": "Password 'matrixsumlistenterlastwordsbeforearchichoicethispasswordmatrixsumlist' with EVP_BytesToKey-MD5 (salt 3ab585348552415d) opens the small SalPhaseIon blob to 79 B, read as 32B half | 32B better half | 15B tail. The WIF of the first 32 B then opens the 3.2.2 inner blob (salt b45a5e3d...) to another 79 B. Keys derived from them hit 288 addresses, 0 funded.",
+      "kind": "decode_result", "checkable": true,
+      "reaction_rebuttal": "Pawel: a 79-B result just means a 1-byte 0x01 pad, which happens about 1/256 of the time. Of 3,340 label/token combos x {md5, sha256}, 36 'open' it (about 26 expected by chance) and all output looks random. Marc agreed it is not the password.",
+      "local_check": "Reproduced. Small blob: pad=1, 79 B, first 32 B 9fa9db91...4746439. Uncompressed WIF of those 32 B + MD5 on the inner blob: pad=1, 79 B starting b06fa6f2. The compressed WIF and SHA256 KDF give invalid padding. This is a padding false positive."
+    },
+    {
+      "id": "L04", "msg_ids": [74724, 74725, 74739, 74753, 74761, 74762, 74790, 74817], "author": "Cebotari Alexandru", "date": "2026-10-01",
+      "claim": "Claims he found the AES password of the 3.2.2 inner blob (U2FsdGVkX1+0Wl49...). It decrypts to 158 hex chars (79 B) starting D098DDE92A4991A7826C62FD27FF. Password not disclosed. He thinks the 3.2.2 blob and the SalPhaseIon blob carry the same data.",
+      "kind": "decode_result", "checkable": false,
+      "reaction_rebuttal": "Evgeny Klimov argued AES cannot give 158 B from 80 B, but it is 79 B, which is the 1-byte-pad signature. Others said 'blob 3.2.2 is dead'.",
+      "local_check": "Not the same as Marc's chain output (b06fa6f2...), so the password is different and unknown. 79 B fits the same 1/256 padding false positive."
+    },
+    {
+      "id": "L05", "msg_ids": [76036, 76145, 76225, 76226, 76354, 73300, 76297], "author": "Pawel; Heisenberg; RB; 3.1415926535897932384626", "date": "2026-09-24..10-12",
+      "claim": "Tokenize dbbi with 'be' as one token. The prime-index tokens (b = odd/1, be = even/0) equal the ASCII LSBs of 'gsmg.io/theseedisplanted', i.e. the poster spiral coloured-cell bits 111101110011110110010010 = 0xF73D92, with one anomaly at bit 21. The 83-token parse has an extra '1' INSERTED after bit 20, with 0 mismatches (a re-inserted prime/anomaly bit). The 84-token parse has bit 21 flipped. The other 60 payload tokens use 'b' only twice, which splits them 19|16|23: difhccgihaeeihggege | gehhehhfafdhffcd | fcccgfeggecdcifffgigeea (16, 23 = monologue numbers). Laying the non-prime dbbi in 4..14-wide matrices never recovers the URL.",
+      "kind": "method", "checkable": true,
+      "reaction_rebuttal": "Heisenberg: 83 is a choice, not forced, since 84 also fits. RB: he counts 10 'be' and gets 81 tokens, cannot reproduce, and says the b-at-prime idea is old. 3.14's 'xor trits' (#73300) works on the same 0xf73d92 constant.",
+      "local_check": "URL LSB string = 111101110011110110010010 = 0xf73d92 verified. dbbi tokenization not re-run (time box)."
+    },
+    {
+      "id": "L06", "msg_ids": [74498], "author": "Test User", "date": "2026-09-30",
+      "claim": "dbbi with a=1..i=9 gives the 91-digit number 4229262833257298125259825775752522758852886212648256634226333726255775325439262667972555125. It starts with 422 and its digit sum is also 422 ('a good check that it is what it is').",
+      "kind": "data_artifact", "checkable": true,
+      "reaction_rebuttal": "None.",
+      "local_check": "Verified: prefix 422926..., digit sum 422, 91 digits. Probably a coincidence (about 1/100 level, post hoc)."
+    },
+    {
+      "id": "L07", "msg_ids": [75874], "author": "Marc", "date": "2026-10-08",
+      "claim": "In the 24 chars of the theseedisplanted URL, cell colour == URL char LSB. The first 24 primes in spiral order sum to Yellow=479 and Blue=484, and 484-5(blue) = 479 ('balance'). 'privatekey' starts at index 479 of the Architect discourse (p about 0.002 vs null).",
+      "kind": "hint_interpretation", "checkable": true,
+      "reaction_rebuttal": "Ekodama: everyone has these clues, the question is the password order.",
+      "local_check": "Not run. Index 479 depends on which transcript and normalization are used."
+    },
+    {
+      "id": "L08", "msg_ids": [76039, 76040, 76041, 76042, 76046], "author": "Boulayo; Pawel; Evgeny Klimov", "date": "2026-10-08..09",
+      "claim": "Words from the start of the puzzle's Architect monologue up to the 'TO' before 'SELECT' (the 'last words before choice') = exactly 256, suggesting a 256-bit string, private key or AES password.",
+      "kind": "hint_interpretation", "checkable": true,
+      "reaction_rebuttal": "Pawel counts 255 with Naddiseo's spaced transcript (256 only with SELECT, 259 if apostrophes split). 1 bit/word (first/last-letter LSB, length parity, changed-vs-film, vowel start; fwd/rev/inverted) as privkey vs 1GSMG/17ucy and as blob passwords: nothing. Transcript variants: 'ananomaly', 'find away', 'life time', 'WISEMAN'.",
+      "local_check": "Not run."
+    },
+    {
+      "id": "L09", "msg_ids": [74668, 74731, 74735, 74804, 75455], "author": "Flo Sku; Boulayo", "date": "2026-09-30..10-05",
+      "claim": "Duplicated dbbi shows two off-centre mirror symmetries. Laying the 3.2 VIC sentence 'incaseyoumanage...' as 13x7 like dbbi, the full line of mirror 1 is 'theprivatekey' and of mirror 2 is 'andbetterhalf'. Each mirror leaves two unused lines (last two / first two = 'beginning and end'). The horizontal 'gege...' line is the centre of symmetry. XOR of mirrored/unmirrored bits gave nothing.",
+      "kind": "method", "checkable": true,
+      "reaction_rebuttal": "None substantive. The significance vs shuffled dbbi was not given.",
+      "local_check": "Not run. A shuffle-control mirror test is deterministic."
+    },
+    {
+      "id": "L10", "msg_ids": [74913, 74914, 74915, 74916, 74937], "author": "X 0xAZ126; Darren Radiance", "date": "2026-10-01",
+      "claim": "DBBI is 7x13, 13-7=6 -> 'JADENS'. FAED is 15x38, 38-15=23 -> 'REAL EYES REALIZE REAL LIES' (23 letters). 'Real I's', Re(i)=0 -> zero the 'i' characters in dbbi/faed, then sum the matrices.",
+      "kind": "method", "checkable": false,
+      "reaction_rebuttal": "Darren: 'found gsmg based on your idea' (no details). 'Sum the matrices' is underspecified. C37 #7 already closed 11 sum-list/matrix families.",
+      "local_check": "Not run."
+    },
+    {
+      "id": "L11", "msg_ids": [73944, 73948, 73818, 75255, 75256, 73916, 76198, 76199, 76200], "author": "Draikoon; Boulayo; Cryptono; Maurice", "date": "2026-09-27..10-10",
+      "claim": "Words reported from dbbi: prime-shifting dbbi gives 'FILM'; 'A clue way' / 'AClaimWay', 'PortToUse' (faed+dbbi stream); 'YOUWON' from dbbi-VIC. Boulayo: the creator HAD to use b/be as prime tokens to force 'youwon' in dbbi-VIC. Cryptono: b=2 (blue), be=25 = y (yellow).",
+      "kind": "decode_result", "checkable": false,
+      "reaction_rebuttal": "Draikoon himself: 'You won is noise like AClaimWay and PortToUse'. No exact method given.",
+      "local_check": "Not run."
+    },
+    {
+      "id": "L12", "msg_ids": [74073, 74075, 74079, 74082, 74538, 74539, 74540, 74542, 76118], "author": "Draikoon; UNKNOW; Ekodama; Enki", "date": "2026-09-29..10-10",
+      "claim": "Matrix Reloaded root password Z1ON0101 / zion0101 ('shown on Julia's instruction set', a 'port number'). UNKNOW: password 'ZION' (sha256) 'decodes' the SalPhaseIon blob, later called a false positive. Enki: 'test151' opens the small blob as a false positive.",
+      "kind": "decode_result", "checkable": true,
+      "reaction_rebuttal": "Ekodama: ZION/ZION0101 were tried long ago.",
+      "local_check": "'ZION' + EVP-SHA256 on the small blob: pad=1 (false positive, reproduced). 'test151' + EVP-MD5 on the small blob: pad=1 (reproduced). 'Z1ON0101', 'zion0101', sha256hex('ZION'): no valid padding on small/inner/cosmic under MD5 or SHA256 EVP."
+    },
+    {
+      "id": "L13", "msg_ids": [74719, 76281], "author": "Boulayo", "date": "2026-10-01",
+      "claim": "Password sha256(followthewhiterabbit)+'adipfBrr' on Cosmic Duality gives a 5-byte valid padding ('I think it's just noise').",
+      "kind": "decode_result", "checkable": true,
+      "reaction_rebuttal": "Bee-llionaire asked how 'adipfBrr' was found. No answer in the chunk.",
+      "local_check": "Reproduced with password = sha256hex('followthewhiterabbit') + 'adipfBrr' and EVP-SHA256: pad=5 on cosmic-duality. A 5-byte pad is about 2^-40 by chance, so the random-looking suffix was almost certainly ground for. This shows padding hits can be manufactured and are not evidence."
+    },
+    {
+      "id": "L14", "msg_ids": [74958, 74959, 75029, 75031, 75033, 75034, 75037, 75051, 75052, 75054, 74881, 74884, 74899, 74910, 74971], "author": "awdawdacaw awdwadasedwed; Draikoon; Monah; Ekodama; nieods", "date": "2026-10-01..02",
+      "claim": "'salphaseion -> key -> decrypt Cosmic Duality -> 2 priv keys + a tail'. Addresses 1KZTQcZJZcswwrA83DvL1tzhvkTpYhtDpQ, 1Ax265RAp7vjxVDoDDPVLvRgpSaBGjiJ4v, 1LsH9s9PM77Zb9sj7yXktME72EoA3i6iLD, 1CX5jAeqtRgc9DTuDfZoi5Dv33qgtNddhz. No key derives a known address. Password not disclosed.",
+      "kind": "decode_result", "checkable": false,
+      "reaction_rebuttal": "Draikoon: wrong key with correct padding (1/256). Ekodama: AI slop, the addresses have 0 tx. nieods: jrk said the other wallets are unrelated. Monah: 'Cosmic opened' forum addresses were empty.",
+      "local_check": "Not checkable (no password)."
+    },
+    {
+      "id": "L15", "msg_ids": [76456, 76459, 76460, 76461, 76463, 76464, 76470, 76441, 76447, 76448, 76450, 76451, 76453], "author": "General Condom; christo vittorio kiliaan; Naddiseo", "date": "2026-10-12",
+      "claim": "Cosmic ciphertext 1327 B = 39x32 + 39x2 + 1 (last byte 0x3A = 58 -> Base58). The GitHub issue #110 construction: hash160 = 16 raw bytes of each 32-B block + BE32(index) -> 39 addresses. The 12 prime indices + control-value parity pick A/B halves. X=4 -> 1Bwq9PKdsrafTFhzDeFzBBk9NF5N8NZCw9, X=10 -> 1Hby7BYWaQmuUE57761xrPjJ9rN3d58V8Y. A BIP39 mnemonic with 'better half' passes the checksum after manual edits.",
+      "kind": "method", "checkable": false,
+      "reaction_rebuttal": "Naddiseo: AES ciphertext is indistinguishable from random, so any addresses built from it are unrelated to the puzzle.",
+      "local_check": "Not run. This applies byte slicing to ciphertext and is meaningless by construction."
+    },
+    {
+      "id": "L16", "msg_ids": [75315, 75366, 75368], "author": "Marc; peter chen", "date": "2026-10-04..05",
+      "claim": "Status ledger: 7-part password chain reproduced; 11/12 'route preimages'; 40,160 addresses / 5,020 keys -> 0 balance; 26.9M last-route candidates -> 0. Open items: 'urlblob' envelope 74c974e3... (96 B, 'the only author one left'); 3 private share links on the beta host + 2 JS bundles; Decentraland scene files; operand for 'source codes'/'the code you carry' B = -16 or 25; 'a piece may be found outside the main puzzle'. peter chen also mentions '8 sub-keys and a 35x32 table'.",
+      "kind": "other", "checkable": false,
+      "reaction_rebuttal": "Draikoon: 'There is nothing new yet'. gnosis: AI.",
+      "local_check": "The urlblob 74c974e3 appears in research/sources/github-issues-page1.json as one of 4 open blobs (small 3ab58534, dualite 2d3f6fe0, p32_trailing b45a5e3d, urlblob 74c974e3) already swept with about 56k candidates."
+    },
+    {
+      "id": "L17", "msg_ids": [75878, 75880, 75886, 75882], "author": "Marc; Draikoon", "date": "2026-10-08",
+      "claim": "Phase-3 7-piece order (judge sha256 1a57c572...): causality, Safenet, Luna, HSM, 11110, genesis-block text (byte-reversed), FEN. The 3.2 VIC decode of the 149-digit run: 'IN CASE YOU MANAGE TO CRACK THIS THE PRIVATE KEYS BELONG TO HALF AND BETTER HALF AND THEY ALSO NEED FUNDS TO LIVE'. dbbi (91) and faed (570) are decoded segments of the live textarea. Retracted: the 'MELT MY' order (matrixsumlist occurs once) and the OP_RETURN @block 938164 order.",
+      "kind": "data_artifact", "checkable": true,
+      "reaction_rebuttal": "Draikoon: all OP_RETURNs are fake. Marc agreed (author said in 08/2023 they are not his).",
+      "local_check": "Known solved material, not re-run."
+    },
+    {
+      "id": "L18", "msg_ids": [75476, 75494, 75496, 75499, 75500, 75501, 75879, 75884, 74863], "author": "Leon Waleed; Ekodama; Boulayo; Draikoon; Evgeny Klimov; Monah; Mohamad Eltahtawy", "date": "2026-10-01..08",
+      "claim": "SalPhaseIon password-format readings: (a) 'matrixsumlist enter lastwordsbeforearchichoice thispassword matrixsumlist yourlastcommand secondanswer' -> initials 'MELT MY' + SECONDANSWER (a joke). (b) Ekodama: [yellowblueprimes][matrixsumlist][yinyang] z [lastwordsbeforearchichoice] z [thispassword] z sha256, with dbbi=yellowblueprimes and faed=yinyang. (c) Candidate words: leavethematrix, yourlastcommand, hereismysecret, isolveditwithanabacus, secondanswer.",
+      "kind": "hint_interpretation", "checkable": false,
+      "reaction_rebuttal": "Boulayo doubts 'anstoo' -> 'secondanswer' and says 'enter' is just the newline after 64 chars. Monah: no word repeats in SalPhaseIon. Pawel: dbbi and faed do not 'open'.",
+      "local_check": "None."
+    },
+    {
+      "id": "L19", "msg_ids": [76283, 75235, 75236, 75237, 74877, 75290, 75297, 75301, 75305], "author": "Evgeny Klimov; awdawdacaw; Flo Sku; Ekodama; Cebotari; others", "date": "2026-10-01..11",
+      "claim": "'What a wiseman above hinted at is worth hundred fourty of the investment' -> use 140-char windows of the 3.2 Beaufort plaintext (BPT) as password material. Test: sha256hex(BPT[:140]), sha256hex(BPT[-140:]), and R1+L3 / L3+R1 lines of phase32_out, as passwords for the small 96-B blob (EVP-MD5), flag a hex64 or printable plaintext. Wise man guesses: Jacque Fresco, John McAfee, Hal Finney.",
+      "kind": "method", "checkable": true,
+      "reaction_rebuttal": "No result was reported, so presumably negative. Wise-man IDs are unsourced.",
+      "local_check": "Not run (time box). Self-verifying (hex64/text). The BPT string in #76283 should be rebuilt from our own phase-3.2 artifacts, not copied from chat."
+    },
+    {
+      "id": "L20", "msg_ids": [74422, 74437, 73983, 75909, 75910, 75911, 75912, 76283], "author": "Draikoon; Boulayo; Alex", "date": "2026-09-29..10-08",
+      "claim": "The 3.2 BPT ends '...ireallyhopeyouretheone ciaobellao'. Draikoon: 'last words before archi[choice] ... Ciao bella o'. Alex: 'ciaobellao' is 10 letters, the same length as the SalPhaseIon alphabet 'abcdefghio', and reversed it is 'obellaciao' (Bella ciao). He tried all permutations with no hit.",
+      "kind": "hint_interpretation", "checkable": true,
+      "reaction_rebuttal": "Boulayo: 'I think I understood why CIAO BELLA O' (no details). christo: lastwordsbeforearchichoice is just the decoded z_segment_1 label (a=1..i=9, o=0 -> hex -> ASCII).",
+      "local_check": "Not run. As a value for the lastwordsbeforearchichoice label it slots into the password assembly and is self-verifying."
+    },
+    {
+      "id": "L21", "msg_ids": [75459, 75464, 76207, 76208, 76294, 76296, 76363, 76180, 76188], "author": "Roman Gorbunov; Lexane; christo; Marc", "date": "2026-10-05..12",
+      "claim": "23/16/7 motif. Architect: '23 individuals, 16 female, 7 male'. Puzzle text: 'over twenty three ciphers, sixteen encryptions and/or seven intertwined passwords'. Marc: the VIC plaintext is 7+16 words; 'gsmg.io' is 7 chars + 'theseedisplanted' 16 = 23 (24 with '/'); 16|7=23 and 16&7=0 ('zeroed out'); words 14..17 = 'AND BETTER HALF AND'.",
+      "kind": "hint_interpretation", "checkable": true,
+      "reaction_rebuttal": "christo: word 16 is forced, word 14 is a free choice (over-determined). Marc: 'coherence only, not the answer'. '23/16/7 = MSG' was called an AI hallucination.",
+      "local_check": "Arithmetic is trivially true. No operational output."
+    },
+    {
+      "id": "L22", "msg_ids": [76014, 76015, 76016, 76017, 76018, 76019, 76020, 76021, 76023, 76024, 76026, 76027, 76028], "author": "Pawel; X 0xAZ126", "date": "2026-10-08",
+      "claim": "faed analysis. Not one decimal number (z-style). Bifid keyed by dbbi -> the 'btcseed' partial is forced by square geometry (every 2nd output letter in {b,c,d,e}); shuffled faed gives the same; no period 2-100 gives text. faed has 107 g's vs about 57 per other letter, yet treating g as 0 with z-style splits yields no 4-letter lowercase fragment. Pair/triple/quad alignment shows no fixed-length code. Chunk-number pointers into the monologue, VIC text or Cosmic Duality book do no better than shuffled.",
+      "kind": "method", "checkable": true,
+      "reaction_rebuttal": "X agrees btcseed is 'perfect bait' and suggests a keyed or double cipher.",
+      "local_check": "Matches C37 closures (z-method, VIC, btcseed coincidence). The g excess fits C37's 'g = two digit values' piecewise model."
+    },
+    {
+      "id": "L23", "msg_ids": [75945, 75946, 75958, 75959, 75964, 75172, 75173, 75244, 75265, 75267, 75519, 74551], "author": "Arap Too; UNKNOW; Draikoon; Boulayo; awdawdacaw", "date": "2026-09-30..10-08",
+      "claim": "btcseed = Bifid (dbbi square, faed data) -> 'btcseeddeoemckeadhbschdkbdcsdkdvbxcpcochcrdicibqeebddbcndsbdcpdgcpdncncsescgddclenbmcuducqcacdeld z elcmef...'. Boulayo: indices 51,49,43,45,32,50,36,12,44,14,40,34,41,43,20,30,56,52 'on the bifid string' ('thank me later'). He also has an undisclosed method that gives 10 meaningful consecutive chars in the first quarter (not the first 10). awdawdacaw: 'the primes decoded btcseed in a way'.",
+      "kind": "decode_result", "checkable": false,
+      "reaction_rebuttal": "Draikoon: 'already known' / 'btcseed is just a decoy'. UNKNOW: btcseed is not 'encoded'.",
+      "local_check": "Reading the index list directly gives gibberish: 1-based 'bedcvepmikhxcdsknd', 0-based 'deiibbccceccricddd'. The method is undisclosed. C37: btcseed is probably coincidence."
+    },
+    {
+      "id": "L24", "msg_ids": [73787, 73792], "author": "E; Andrey Aleksandrovich", "date": "2026-09-27",
+      "claim": "Rabbit-grid image has 7 main colours -> '7 intertwined passwords'. RGBA hex: ffffffff, 000000ff, 3f48ccff, fff200ff, fefefeff, ed1c24ff, f5f5f5ff = 56 hex chars, plus 8 brute-forced hex = a 64-hex private key. Colour order is also unknown.",
+      "kind": "method", "checkable": false,
+      "reaction_rebuttal": "Andrey: 'No'. Requires about 7! x 16^8 brute force, not deterministic.",
+      "local_check": "C37 found no hidden channels in the first-image colour census."
+    },
+    {
+      "id": "L25", "msg_ids": [74004, 74005, 74007, 76227, 76316, 76333, 76345, 76348, 76360, 76114, 76165], "author": "Draikoon; Heisenberg; christo; Enki", "date": "2026-09-29..10-12",
+      "claim": "The homepage 'SYSTEM FAILURE' grid ('finalGrid' in the site source) is an exact copy of the 14x14 poster grid but WITHOUT the anomaly (Draikoon: 'the bytes from the Genesis image'; the logo is now colour-inverted 'for a reason'). Heisenberg: LSB+XOR grouping of finalGrid bits -> BIP39 'zoo zoo zoo zoo zoo zoo zoo zoo zoo winner zoo zoo' (checksum fails).",
+      "kind": "data_artifact", "checkable": true,
+      "reaction_rebuttal": "Others mocked the zoo/winner result. Heisenberg himself calls it a trap or noise. christo: a related WIF 5K2byJMss... is valid but not the target. Enki: finalGrid hashes didn't work.",
+      "local_check": "Not run. A finalGrid vs poster diff isolates exactly the anomaly cells (deterministic)."
+    },
+    {
+      "id": "L26", "msg_ids": [73835, 73836, 75271, 75282, 75289, 75291, 75292, 75295, 75296, 75304], "author": "christo vittorio kiliaan; Naddiseo; Draikoon", "date": "2026-09-28..10-04",
+      "claim": "'Third door' = address 1NULY7DhzuNvSDtPkFzNo6oRTZQWBqXNE9, 'unmessaged planted address', no known preimage. Claimed planted 2020-04-07, four days after the 2020-04-03 'Good job, Neo!' pair, and named by the creator as a 'verification address'.",
+      "kind": "data_artifact", "checkable": false,
+      "reaction_rebuttal": "Self-retracted: the date is wrong and the quote came from solver Saber, not the creator. Naddiseo: Jrk said the on-chain messages weren't him. Draikoon: the creator said there are no on-chain leads.",
+      "local_check": "The address already appears in scratch/bw_oracle.py."
+    },
+    {
+      "id": "L27", "msg_ids": [76031], "author": "Pawel (summarizing creator statements)", "date": "2026-10-08",
+      "claim": "Creator on the 3.2.2 inner blob (historical): it has NOT been decrypted ('Correct'); 'there must at least be something hidden in there'; it is NOT a hint to SalPhaseIon ('No'). It is the same size as the small SalPhaseIon blob (80 B ciphertext -> 64-79 B plaintext, a hex key fits). Question: is half/better half = the two small blobs?",
+      "kind": "creator_reaction", "checkable": false,
+      "reaction_rebuttal": "Draikoon: 3.2.2 is still unsolved, and SalPhaseIon + Cosmic are the 'better half'.",
+      "local_check": "Supports C37's 'inner blob first' option."
+    },
+    {
+      "id": "L28", "msg_ids": [73715, 75474, 75886, 75296, 74910, 75970, 75070, 73766, 75484], "author": "T K; RhaiHalfPogi; Marc; Naddiseo; nieods; Draikoon; Boulayo; J", "date": "2026-09-26..10-08",
+      "claim": "Other creator statements quoted in the chunk (historical). (1) Asked whether an off-puzzle website's binary contact info relates to the puzzle: 'Nope. You're not the first to ask.' (2) 'I'm going to rewatch episode 3.5 ...', read as Mr. Robot S3E5. (3) Halving message: prizes are 'a private key, some obscure intel', and the reason to hold BTC. (4) OP_RETURNs attributed to him are not his (08/2023). (5) Other wallets are unrelated. (6) Per Draikoon: nothing on-chain, no internet needed. (7) 'His close friends have the best chance... NOTE: that is a hint'. (8) Per Draikoon: the creator posted about 7 days before 10-06 (unverified).",
+      "kind": "creator_reaction", "checkable": false,
+      "reaction_rebuttal": "Item 8 is not visible in this chunk.",
+      "local_check": "None."
+    },
+    {
+      "id": "L29", "msg_ids": [74942, 74995, 75000, 75001, 75002, 75007, 75009, 75012, 76009, 75972, 75973], "author": "Boulayo; Draikoon; pogo; christo", "date": "2026-10-01..08",
+      "claim": "Three-doors theory. Right door = SalPhaseIon blob -> 1GSMG1...; left door = 3.2 blob -> 17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa (the halving split-off address, creator-controlled); a third door takes all. Speculation that moving funds early triggers a creator front-run. Draikoon: SalPhaseIon + Cosmic are the 'better half' because the halvings were sent there.",
+      "kind": "hint_interpretation", "checkable": false,
+      "reaction_rebuttal": "pogo: front-running is nonsense, since non-RBF tx and miner propagation make it impractical.",
+      "local_check": "None."
+    },
+    {
+      "id": "L30", "msg_ids": [75378, 75383, 75384, 75385, 75393, 75401, 75404, 75406, 74501, 74505, 74522, 74523, 76147], "author": "Ekodama; christo; Draikoon", "date": "2026-09-30..10-10",
+      "claim": "Chess reading. 'oneforonefourforone' = in the chessboard position (no queens) the rook mates once and the knight four times. 'thingkymvps' minus y -> 'knight mvps'. 'archichoice' = a board move that fixes the password order, giving 'p32' as the first to decrypt. christo lists white mate-in-1 candidates D1-C3, F1-G3, A8-B7, G6-G5.",
+      "kind": "hint_interpretation", "checkable": false,
+      "reaction_rebuttal": "Draikoon: 'No. It's an instruction' (but kings/queens were relevant; the civ1411 cipher was used before).",
+      "local_check": "None."
+    },
+    {
+      "id": "L31", "msg_ids": [73270, 73271, 73272, 73275, 74567, 76473], "author": "Andrey Aleksandrovich; Ashley Marie", "date": "2026-09-24..10-12",
+      "claim": "8-char blocks 'HOPEFULL / CTFROMOV / INTERTWI' and 'YCARRYRE / ERTWENTY / NEDPASSW', which are fragments of the BPT 'hopefully carry re[inserting]... select fro[m] over twenty... intertwined passw[ords]'. Andrey calls it the '2nd door'. Later asks 'DOORSEVEN?', 'ISLAND WALL?'.",
+      "kind": "method", "checkable": true,
+      "reaction_rebuttal": "None.",
+      "local_check": "Not run. Checking whether these are aligned 8-wide rows/columns of the BPT is deterministic."
+    },
+    {
+      "id": "L32", "msg_ids": [74009, 74022, 74025, 74028, 74030, 74033, 74661, 74996, 74997], "author": "Draikoon; Darren Radiance; awdawdacaw", "date": "2026-09-29..10-02",
+      "claim": "Logic 'The Warning' lyrics map to phases. Phase 3 = 'The judgement', not salvation. 'Red rose or black rose' -> Cosmic Duality book p.119 image 'In a cloak of flowers', and that text matters. Bohr's yin-yang is red/black.",
+      "kind": "hint_interpretation", "checkable": false,
+      "reaction_rebuttal": "Boulayo: read the whole book, and it didn't help.",
+      "local_check": "None."
+    },
+    {
+      "id": "L33", "msg_ids": [75070], "author": "Boulayo", "date": "2026-10-02",
+      "claim": "'AND OR' in the monologue -> XOR (forced). Andor/Rogue One parallel: Galen Erso built a deliberate flaw (the anomaly / FEFEFE) and used a family-only password 'stardust', matching the creator's 'close friends' hint.",
+      "kind": "hint_interpretation", "checkable": true,
+      "reaction_rebuttal": "Boulayo himself: 'surely a nothingburger'.",
+      "local_check": "Not run. A single password test ('stardust') would be self-verifying."
+    },
+    {
+      "id": "L34", "msg_ids": [75848, 75853, 75856, 75869, 75872, 75873, 75875], "author": "Belgvr; gnomad; 3.1415926535897932384626; Monah", "date": "2026-10-08",
+      "claim": "The QR code finder-pattern 'eyes' have odd off-white colours that rebuild an exact 35x35 grid, which suggests hidden content.",
+      "kind": "data_artifact", "checkable": true,
+      "reaction_rebuttal": "3.14: the QR is 33 modules (v4) scaled 7x = 231 px. gnomad: paint-program scaling artefacts. Monah: the QR just encodes the address.",
+      "local_check": "C37 QR codeword-level decode was negative."
+    },
+    {
+      "id": "L35", "msg_ids": [73220, 74977, 76031], "author": "Draikoon; Evgeny Klimov; Pawel", "date": "2026-09-23..10-08",
+      "claim": "Blob size: small blob = 8 B salt + 80 B ciphertext -> plaintext 64-79 B, i.e. a WIF, a 64-hex key, or 2x32 raw keys, not a wallet.dat.",
+      "kind": "hint_interpretation", "checkable": true,
+      "reaction_rebuttal": "None.",
+      "local_check": "Consistent with the blob files (96 B total). Evgeny's '3 private keys' does not follow."
+    },
+    {
+      "id": "L36", "msg_ids": [75055, 74444, 74449, 75062, 75063, 75552, 75554, 75555, 75557], "author": "Draikoon; Boulayo; Sell The Dip", "date": "2026-09-29..10-06",
+      "claim": "The modified Architect text 'THE FUNCTION OF THE YOU IS NOW TO RETURN TO THE SOURCE CODES ALLOWING A TEMPORARY DISSEMINATION OF THE CODE YOU HOPEFULLY CARRY REINSERTING THE PRIME BASICS' vs the film's 'the One ... prime program'. 'There are two doors' = Cosmic Duality. The 'anomaly is systemic' line = the halving. Why 'THE YOU' (THE ONE -> THE YOU).",
+      "kind": "hint_interpretation", "checkable": false,
+      "reaction_rebuttal": "None.",
+      "local_check": "C37 grammar-model tests covered the per-hint readings."
+    },
+    {
+      "id": "L37", "msg_ids": [75894, 75895, 75906, 75913, 75918, 75928, 76013, 76045, 74994, 73309, 73310, 73644], "author": "Ekodama; christo; Alex; others", "date": "2026-09-25..10-09",
+      "claim": "Alternative dbbi readings: music notes (a=C4 b=D4 c=E4 d=F4 e=G4 f=A4 g=B4 h=C5 i=D5; piano black/white keys = balance; dbbi/faed rendered as tones a=250Hz...i=575Hz); 'De Broglie-Bohm Interpretation'; the 'dbfi' esolang.",
+      "kind": "hint_interpretation", "checkable": false,
+      "reaction_rebuttal": "Monah: 'no' to dbfi.",
+      "local_check": "None."
+    },
+    {
+      "id": "L38", "msg_ids": [75924, 75887, 76106, 76115, 76116, 76117, 75442, 75511, 75515], "author": "Ekodama; christo; B58; blank.; crown-emoji user", "date": "2026-10-05..10",
+      "claim": "Yinyang readings: yinyang = theseedisplanted; = FEFEFE + white = balance; = half and better half; = Cosmic Duality, so open the 2 small AES blobs and merge (XOR) their outputs to open Cosmic.",
+      "kind": "hint_interpretation", "checkable": false,
+      "reaction_rebuttal": "Crown-emoji user: 'yin yang = cosmic duality', stop treating it as a literal operand.",
+      "local_check": "None."
+    },
+    {
+      "id": "L39", "msg_ids": [73442, 73443, 73482, 73483, 73485, 73487, 73708, 73710, 73301, 73635, 75411, 75810, 76366, 76367, 76148, 76152, 75653, 75657, 75660, 74001, 74002], "author": "various (3.14; Ugur Keser; Andrey; Ekodama; Arap Too; Sedonk; Heisenberg; Y; Draikoon)", "date": "2026-09-24..10-12",
+      "claim": "Unexplained artifacts. 3.14's bait blobs U2FsdGVkX18yZW/gbclQ5kgE0hTuyBQYgDM+3Q6iBEw= / ...5vnkmWwR8NfqVPIKhUiGDu4= with WIF 5JT1RfSB... ('not even decrypted', 'worked its purpose'). 'Yellowblueprimes: 317/557', 'Another door: 137/143'. '2500 | b8 : 1344 cosmic length'. 1JG648yaB7Wp2dpUfcZoRSD4q35oq47vCu. Key 'ESLJAPKMEDAKL' for faed (maybe false positive). 'cd3fea3d'. 'Master key maybe a795de117e472590e572dc193130c763e3fb555ee5db9d34494e156152e50735'. '2iyGJ!4@?uebzY' from bitwise ops. SOS / 'WA+NT' from ASCII art. 15 used addresses 'from the rabbit image'. Draikoon: 35 hex blocks with +/- headers are not all valid x-coords, 10-12 are off by +/-1.",
+      "kind": "data_artifact", "checkable": false,
+      "reaction_rebuttal": "The bait blobs are self-declared trolls. Boulayo: the rabbit-image addresses are low-entropy brainwallets. The rest are unexplained.",
+      "local_check": "None. The 35-block x-coord claim needs its source table."
+    }
+  ]
+}

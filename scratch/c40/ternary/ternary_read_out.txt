@@ -1,0 +1,40 @@
+PLANT 0 ('rowmajor', 'rc', 'plain', 3, 0, 'big', 'a1z26_sp0') len 134 decodes_exactly True | meet me at the old mill when the bells ring and bring the se
+PLANT 1 ('dbbi_first', 'cr', 'rows_then_cols', 3, 1, 'little', 'a0z25_sp26') len 134 decodes_exactly True | meet me at the old mill when the bells ring and bring the se
+PLANT 2 ('salphaseion', 'rc', 'halves_interleave', 5, 2, 'big', 'bytes') len 224 decodes_exactly True | meet me at the old mill when the bells ring and bring the se
+PLANT 0 z=25.4 p_emp=0.0025
+PLANT 1 z=37.0 p_emp=0.0025
+PLANT 2 z=20.3 p_emp=0.0025
+readings 16654 scored 9156 distinct configs 1836
+GLOBAL max z observed 9.11 ; pseudo-observed max z: median 6.81 range 5.80..8.87 ; frac pseudo >= obs 0.00
+  faed_rev  max z 9.11 | pseudo max median 5.83, max 8.02
+  R56       max z 6.62 | pseudo max median 4.69, max 6.01
+  faed      max z 5.77 | pseudo max median 5.92, max 8.79
+  dbbi      max z 5.38 | pseudo max median 5.51, max 7.88
+  R61_rev   max z 5.01 | pseudo max median 4.38, max 6.46
+  R56_rev   max z 4.68 | pseudo max median 4.47, max 5.99
+  R60_rev   max z 4.46 | pseudo max median 4.51, max 6.00
+  R61       max z 4.38 | pseudo max median 4.37, max 6.05
+  R60       max z 3.90 | pseudo max median 4.47, max 5.19
+  dbbi_rev  max z 3.67 | pseudo max median 5.21, max 8.87
+TOP 12 by z:
+  z=9.11 p=0.0025 q=-5.166 faed_rev ('salphaseion_inv', 'cr', 'rows_then_cols', 6, 2, 'little', 'bytes') n=189 | \xaa\xfd\xcc\x8c\x0c\xa2yH\xe3\xc9\x03\xb6\xa2\xa1\xec\x03]\xdd\xa2\xe0\xbb\x8c\xfbe\xba-'
+  z=8.01 p=0.0026 q=-5.453 faed_rev ('dbbi_first_inv', 'cr', 'halves_interleave', 6, 4, 'little', 'bytes') n=189 | <\xf5\x93\x00!\x07\xaeU\xd9\x15\xcd\x10\x90c\xad\x98e\xf9\x9c)\x07\xbfL\x94"Yg\x82\x19`o\x
+  z=7.22 p=0.0025 q=-5.424 faed_rev ('salphaseion_inv', 'rc', 'rows_then_cols', 6, 2, 'little', 'bytes') n=189 | 4j\xfa\x8e\x12ur\x82'y\xccM\xe9o\xc4\x92\xc0\xffy~\x11$\x1f,\x1c\xaa\x8c\xfa\xd4S\xaa\xfd\
+  z=6.62 p=0.0025 q=-6.527 R56 ('rowmajor', 'rc', 'plain', 3, 0, 'big', 'a1z26_sp0') n=37 | kwuttybytdsonpnpoeknouothenfluhwpxzdl
+  z=6.04 p=0.0088 q=-5.378 faed_rev ('dbbi_first', 'cr', 'plain', 6, 2, 'big', 'bytes') n=189 | u!\xbe\x12m\xf5\xffb\xc7,-\x8e\xb6\xdc\x0e\x0f]\x84\xd6\xd2L2\xa3\xa0\xd1\x9c\t\xfa\t\xc8\
+  z=5.77 p=0.0027 q=-5.774 faed ('matrixsumlist', 'cr', 'rows_then_cols', 6, 5, 'little', 'bytes') n=189 | 4U{\xa3\xedf\x88\xfc\x11l\xe6\x1f\x8d{oC\xe5\xdd\xb0\xac\x170\r\x85:\xb2\xc8\xcf\xdc\xe9\x
+  z=5.67 p=0.0025 q=-6.714 faed ('dbbi_first_inv', 'cr', 'halves_interleave', 5, 4, 'big', 'bytes') n=227 | \n\xa1vzjE\x9c\x8fY\xcfZ\xbb12e\xae\xad>D\xef\xc7!\x19\xc2R-\n\x03(>|y!3=\x84\xee\xcf\xe8\
+  z=5.38 p=0.0089 q=-5.718 dbbi ('salphaseion', 'cr', 'rows_then_cols', 5, 2, 'little', 'bytes') n=36 | v\xd6 F\xee\xd7\x9d|p\x93s\xf1\xe5\xa1e\xca\xe7\xe3\xcav*\x1e\xaceB\x1b`#\x98|2i\x7f\xe82\
+  z=5.01 p=0.0050 q=-6.597 R56 ('matrixsumlist', 'rc', 'halves_interleave', 3, 1, 'little', 'a0z25_sp26') n=37 | xpyshewsempclpp orn ewqkp yli hxldrpd
+  z=5.01 p=0.0025 q=-6.682 R61_rev ('salphaseion', 'cr', 'rows_then_cols', 3, 0, 'little', 'a0z25_sp26') n=40 | uioty zrtndnor ryd easzrqyynxzygastydaqt
+  z=4.90 p=0.0054 q=-5.987 faed_rev ('matrixsumlist_inv', 'cr', 'halves_interleave', 6, 2, 'big', 'bytes') n=189 | {\x9c\xd9)\xe73\\\x99\xe3\xa1\x93\x85\x94\xae\x7f\x85\xca\xc1\x07\x83\xa1{\xf7:\x88\xd8\xd
+  z=4.79 p=0.0025 q=-6.553 R61_rev ('salphaseion_inv', 'cr', 'rows_then_cols', 3, 1, 'big', 'a1z26_sp0') n=40 | d zeledpwztyydcflrnt eiguldlyarddecmremk
+BYTES: top printable fractions (control max shown):
+  pr=0.727 (ctrl max 0.727, z 2.39) R56 ('matrixsumlist_inv', 'cr', 'plain', 5, 1, 'big', 'bytes') | 1@D7\xbb\xc2a!\xadB*Crv"q\x91d1z\x85\x1e
+  pr=0.727 (ctrl max 0.818, z 2.22) R56_rev ('matrixsumlist_inv', 'rc', 'plain', 5, 1, 'little', 'bytes') | \x1e\x85z1d\x91q"vrC*B\xad!a\xc2\xbb7D@1
+  pr=0.708 (ctrl max 0.667, z 3.34) R61 ('faed_first_inv', 'cr', 'rows_then_cols', 5, 1, 'little', 'bytes') | }F{T]O4{s\xc0\xd77\x8e\x9aP<\xf0#Xm7{\x02\x9b
+  pr=0.708 (ctrl max 0.750, z 3.15) R61_rev ('faed_first_inv', 'rc', 'rows_then_cols', 5, 1, 'big', 'bytes') | \x9b\x02{7mX#\xf0<P\x9a\x8e7\xd7\xc0s{4O]T{F}
+  pr=0.696 (ctrl max 0.783, z 2.20) R60 ('matrixsumlist_inv', 'cr', 'plain', 5, 1, 'big', 'bytes') | 1@D6_Ma5\\9\xb8\x0e\x16wL[C2]\xac\xca\x82\xe2
+  pr=0.696 (ctrl max 0.739, z 2.36) R60 ('salphaseion_inv', 'cr', 'plain', 5, 2, 'big', 'bytes') | Jy#TY[U.hs\xcf>\xd1,\x9ay.\n_\xc8\xb6\x0b%
+  pr=0.696 (ctrl max 0.739, z 2.13) R60_rev ('matrixsumlist_inv', 'rc', 'plain', 5, 4, 'little', 'bytes') | \xe2\x82\xca\xac]2C[Lw\x16\x0e\xb89\\5aM_6D@1
+  pr=0.696 (ctrl max 0.739, z 2.35) R60_rev ('salphaseion_inv', 'rc', 'plain', 5, 3, 'little', 'bytes') | %\x0b\xb6\xc8_\n.y\x9a,\xd1>\xcfsh.U[YT#yJ

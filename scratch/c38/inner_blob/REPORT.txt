@@ -1,0 +1,9 @@
+Inner-blob lens (cycle 38) — negative; 5 derivation-backed tests (straddle; beaufortstraddlingcheckerboard; thematrixhasyou+beaufort+1141
+chains) all negative. Accounting: EVERY Phase 3.2 element is consumed by the Beaufort or checkerboard steps ("raising the stakes
+without extra chances of winning" = poker STRADDLE -> straddling checkerboard; "beautiful strategic position" = beau-fort; "one for
+one, four for one" = cp1141 and escape digits 1/4; "sad board ... as wide as the first one seen" = board shape). No unconsumed riddle
+remains for the inner blob. Speech edits (34 segments) spell nothing; creator said 2020-02-22 "No clues to be found in those typos".
+Chess: Phase 2 position has no queen/promotion; no unique position follows. Conclusion: the inner blob is most likely the FINAL lock
+(opened by a password produced by SalPhaseIon/Cosmic), not the step before SalPhaseIon — reverses the cycle-37 chaining guess.
+Untested idea: inner + SalPhaseIon small (both 80 B) = "half and better half".
+Files: accounting.json speech_wdiff.py speech_diff.py speech_edits.json edits_acrostic.txt tests_c38.txt results.txt

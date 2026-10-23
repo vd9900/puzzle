@@ -1,0 +1,15770 @@
+[
+{
+"src": "dbbi",
+"kind": "pw",
+"sizes": [
+1,
+1
+],
+"mode": "first",
+"ntup": 45,
+"valid": 0.533,
+"cvalid": 0.536,
+"p_valid": 0.607,
+"q": -7.113,
+"cq": -6.885,
+"zq": -0.67,
+"p_q": 0.7164,
+"out": "todeakceudokootbcouebeod"
+},
+{
+"src": "dbbi",
+"kind": "pw",
+"sizes": [
+1,
+1
+],
+"mode": "word",
+"ntup": 45,
+"valid": 0.533,
+"cvalid": 0.536,
+"p_valid": 0.607,
+"q": -5.176,
+"cq": -5.219,
+"zq": 0.15,
+"p_q": 0.4279,
+"out": "theofyindualuyessayaskchapteressayunifydualuyoppolfkopposite"
+},
+{
+"src": "dbbi",
+"kind": "pl",
+"sizes": [
+1,
+1
+],
+"mode": "letter",
+"ntup": 45,
+"valid": 0.578,
+"cvalid": 0.569,
+"p_valid": 0.5323,
+"q": -5.976,
+"cq": -6.78,
+"zq": 2.47,
+"p_q": 0.0199,
+"out": "srooskerorloeksistemieidmo"
+},
+{
+"src": "dbbi",
+"kind": "pw",
+"sizes": [
+1,
+2
+],
+"mode": "first",
+"ntup": 30,
+"valid": 0.367,
+"cvalid": 0.282,
+"p_valid": 0.204,
+"q": -6.838,
+"cq": -6.863,
+"zq": 0.03,
+"p_q": 0.3881,
+"out": "lsnamawgtlt"
+},
+{
+"src": "dbbi",
+"kind": "pw",
+"sizes": [
+1,
+2
+],
+"mode": "word",
+"ntup": 30,
+"valid": 0.367,
+"cvalid": 0.282,
+"p_valid": 0.204,
+"q": -4.364,
+"cq": -4.9,
+"zq": 1.16,
+"p_q": 0.1045,
+"out": "lockedsexesnightandmorningandwithoutgraspthelockedtime"
+},
+{
+"src": "dbbi",
+"kind": "pl",
+"sizes": [
+1,
+2
+],
+"mode": "letter",
+"ntup": 30,
+"valid": 0.533,
+"cvalid": 0.444,
+"p_valid": 0.1791,
+"q": -7.206,
+"cq": -6.715,
+"zq": -0.9,
+"p_q": 0.801,
+"out": "haooifheoegihzht"
+},
+{
+"src": "dbbi",
+"kind": "pw",
+"sizes": [
+1,
+3
+],
+"mode": "first",
+"ntup": 22,
+"valid": 0.0,
+"cvalid": 0.018,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "pw",
+"sizes": [
+1,
+3
+],
+"mode": "word",
+"ntup": 22,
+"valid": 0.0,
+"cvalid": 0.018,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -8.644,
+"zq": -0.53,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "pl",
+"sizes": [
+1,
+3
+],
+"mode": "letter",
+"ntup": 22,
+"valid": 0.091,
+"cvalid": 0.215,
+"p_valid": 0.9801,
+"q": -9.9,
+"cq": -7.608,
+"zq": -1.44,
+"p_q": 1.0,
+"out": "ng"
+},
+{
+"src": "dbbi",
+"kind": "pw",
+"sizes": [
+2,
+1
+],
+"mode": "first",
+"ntup": 30,
+"valid": 0.733,
+"cvalid": 0.865,
+"p_valid": 0.995,
+"q": -7.45,
+"cq": -6.897,
+"zq": -1.6,
+"p_q": 0.99,
+"out": "fbtfbtaaatpgfhaaoboftf"
+},
+{
+"src": "dbbi",
+"kind": "pw",
+"sizes": [
+2,
+1
+],
+"mode": "word",
+"ntup": 30,
+"valid": 0.733,
+"cvalid": 0.865,
+"p_valid": 0.995,
+"q": -4.552,
+"cq": -4.853,
+"zq": 1.35,
+"p_q": 0.0746,
+"out": "frombecausethefourteenthbuttocksthisandahrimansafterthepersi"
+},
+{
+"src": "dbbi",
+"kind": "pl",
+"sizes": [
+2,
+1
+],
+"mode": "letter",
+"ntup": 30,
+"valid": 0.733,
+"cvalid": 0.879,
+"p_valid": 0.995,
+"q": -6.972,
+"cq": -6.642,
+"zq": -0.93,
+"p_q": 0.8209,
+"out": "eeeugynuattaelordetpif"
+},
+{
+"src": "dbbi",
+"kind": "pw",
+"sizes": [
+2,
+2
+],
+"mode": "first",
+"ntup": 22,
+"valid": 0.864,
+"cvalid": 0.813,
+"p_valid": 0.4229,
+"q": -6.894,
+"cq": -6.792,
+"zq": -0.23,
+"p_q": 0.5274,
+"out": "stfwgtlathwoswulabc"
+},
+{
+"src": "dbbi",
+"kind": "pw",
+"sizes": [
+2,
+2
+],
+"mode": "word",
+"ntup": 22,
+"valid": 0.864,
+"cvalid": 0.813,
+"p_valid": 0.4229,
+"q": -4.875,
+"cq": -4.711,
+"zq": -0.62,
+"p_q": 0.7413,
+"out": "startlingtofromwarriorgoddessthoselliiandthehiswasotherselfw"
+},
+{
+"src": "dbbi",
+"kind": "pl",
+"sizes": [
+2,
+2
+],
+"mode": "letter",
+"ntup": 22,
+"valid": 0.864,
+"cvalid": 0.837,
+"p_valid": 0.5174,
+"q": -6.193,
+"cq": -6.6,
+"zq": 0.8,
+"p_q": 0.2289,
+"out": "swgcvtpaidioonnaili"
+},
+{
+"src": "dbbi",
+"kind": "pw",
+"sizes": [
+2,
+3
+],
+"mode": "first",
+"ntup": 18,
+"valid": 0.333,
+"cvalid": 0.366,
+"p_valid": 0.6915,
+"q": -4.428,
+"cq": -6.977,
+"zq": 2.39,
+"p_q": 0.0149,
+"out": "ibblet"
+},
+{
+"src": "dbbi",
+"kind": "pw",
+"sizes": [
+2,
+3
+],
+"mode": "word",
+"ntup": 18,
+"valid": 0.333,
+"cvalid": 0.366,
+"p_valid": 0.6915,
+"q": -4.797,
+"cq": -4.688,
+"zq": -0.23,
+"p_q": 0.607,
+"out": "itbebylifelongexpressthe"
+},
+{
+"src": "dbbi",
+"kind": "pl",
+"sizes": [
+2,
+3
+],
+"mode": "letter",
+"ntup": 18,
+"valid": 0.833,
+"cvalid": 0.734,
+"p_valid": 0.2488,
+"q": -7.45,
+"cq": -6.574,
+"zq": -1.61,
+"p_q": 1.0,
+"out": "srhtdlcsihtdvee"
+},
+{
+"src": "dbbi",
+"kind": "pw",
+"sizes": [
+3,
+1
+],
+"mode": "first",
+"ntup": 22,
+"valid": 0.045,
+"cvalid": 0.011,
+"p_valid": 0.2338,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": "a"
+},
+{
+"src": "dbbi",
+"kind": "pw",
+"sizes": [
+3,
+1
+],
+"mode": "word",
+"ntup": 22,
+"valid": 0.045,
+"cvalid": 0.011,
+"p_valid": 0.2338,
+"q": -9.9,
+"cq": -9.247,
+"zq": -0.35,
+"p_q": 1.0,
+"out": "a"
+},
+{
+"src": "dbbi",
+"kind": "pl",
+"sizes": [
+3,
+1
+],
+"mode": "letter",
+"ntup": 22,
+"valid": 0.045,
+"cvalid": 0.011,
+"p_valid": 0.2438,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": "w"
+},
+{
+"src": "dbbi",
+"kind": "pw",
+"sizes": [
+3,
+2
+],
+"mode": "first",
+"ntup": 18,
+"valid": 0.0,
+"cvalid": 0.012,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "pw",
+"sizes": [
+3,
+2
+],
+"mode": "word",
+"ntup": 18,
+"valid": 0.0,
+"cvalid": 0.012,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.185,
+"zq": -0.38,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "pl",
+"sizes": [
+3,
+2
+],
+"mode": "letter",
+"ntup": 18,
+"valid": 0.0,
+"cvalid": 0.012,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "pw",
+"sizes": [
+3,
+3
+],
+"mode": "first",
+"ntup": 15,
+"valid": 0.0,
+"cvalid": 0.006,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "pw",
+"sizes": [
+3,
+3
+],
+"mode": "word",
+"ntup": 15,
+"valid": 0.0,
+"cvalid": 0.006,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.637,
+"zq": -0.23,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "pl",
+"sizes": [
+3,
+3
+],
+"mode": "letter",
+"ntup": 15,
+"valid": 0.0,
+"cvalid": 0.009,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+1,
+1,
+1
+],
+"mode": "first",
+"ntup": 30,
+"valid": 0.3,
+"cvalid": 0.241,
+"p_valid": 0.2637,
+"q": -6.334,
+"cq": -6.936,
+"zq": 0.67,
+"p_q": 0.2338,
+"out": "koisiftco"
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+1,
+1,
+1
+],
+"mode": "word",
+"ntup": 30,
+"valid": 0.3,
+"cvalid": 0.241,
+"p_valid": 0.2637,
+"q": -4.362,
+"cq": -4.562,
+"zq": 0.34,
+"p_q": 0.3682,
+"out": "koppositesitssexesinfacethecreatedold"
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+1,
+1,
+2
+],
+"mode": "first",
+"ntup": 22,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+1,
+1,
+2
+],
+"mode": "word",
+"ntup": 22,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+1,
+1,
+3
+],
+"mode": "first",
+"ntup": 18,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+1,
+1,
+3
+],
+"mode": "word",
+"ntup": 18,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+1,
+2,
+1
+],
+"mode": "first",
+"ntup": 22,
+"valid": 0.045,
+"cvalid": 0.055,
+"p_valid": 0.7164,
+"q": -9.9,
+"cq": -9.851,
+"zq": -0.14,
+"p_q": 1.0,
+"out": "f"
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+1,
+2,
+1
+],
+"mode": "word",
+"ntup": 22,
+"valid": 0.045,
+"cvalid": 0.055,
+"p_valid": 0.7164,
+"q": -3.827,
+"cq": -6.709,
+"zq": 1.06,
+"p_q": 0.1194,
+"out": "feet"
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+1,
+2,
+2
+],
+"mode": "first",
+"ntup": 18,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+1,
+2,
+2
+],
+"mode": "word",
+"ntup": 18,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+1,
+2,
+3
+],
+"mode": "first",
+"ntup": 15,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+1,
+2,
+3
+],
+"mode": "word",
+"ntup": 15,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+1,
+3,
+1
+],
+"mode": "first",
+"ntup": 18,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+1,
+3,
+1
+],
+"mode": "word",
+"ntup": 18,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+1,
+3,
+2
+],
+"mode": "first",
+"ntup": 15,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+1,
+3,
+2
+],
+"mode": "word",
+"ntup": 15,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+1,
+3,
+3
+],
+"mode": "first",
+"ntup": 13,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+1,
+3,
+3
+],
+"mode": "word",
+"ntup": 13,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+2,
+1,
+1
+],
+"mode": "first",
+"ntup": 22,
+"valid": 0.636,
+"cvalid": 0.555,
+"p_valid": 0.2935,
+"q": -5.5,
+"cq": -6.881,
+"zq": 2.78,
+"p_q": 0.005,
+"out": "hdercttitcassc"
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+2,
+1,
+1
+],
+"mode": "word",
+"ntup": 22,
+"valid": 0.636,
+"cvalid": 0.555,
+"p_valid": 0.2935,
+"q": -4.226,
+"cq": -4.702,
+"zq": 1.52,
+"p_q": 0.0597,
+"out": "hisdeatheternalrepresentschurchtotheinthecouldasshespiritcre"
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+2,
+1,
+2
+],
+"mode": "first",
+"ntup": 18,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+2,
+1,
+2
+],
+"mode": "word",
+"ntup": 18,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+2,
+1,
+3
+],
+"mode": "first",
+"ntup": 15,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+2,
+1,
+3
+],
+"mode": "word",
+"ntup": 15,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+2,
+2,
+1
+],
+"mode": "first",
+"ntup": 18,
+"valid": 0.556,
+"cvalid": 0.401,
+"p_valid": 0.1144,
+"q": -7.165,
+"cq": -6.947,
+"zq": -0.23,
+"p_q": 0.4975,
+"out": "totdzwitbt"
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+2,
+2,
+1
+],
+"mode": "word",
+"ntup": 18,
+"valid": 0.556,
+"cvalid": 0.401,
+"p_valid": 0.1144,
+"q": -4.971,
+"cq": -4.64,
+"zq": -0.69,
+"p_q": 0.7612,
+"out": "traitsofthedirectionszoroastrianismwroteintaughtbeentiamat"
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+2,
+2,
+2
+],
+"mode": "first",
+"ntup": 15,
+"valid": 0.067,
+"cvalid": 0.0,
+"p_valid": 0.01,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": "e"
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+2,
+2,
+2
+],
+"mode": "word",
+"ntup": 15,
+"valid": 0.067,
+"cvalid": 0.0,
+"p_valid": 0.01,
+"q": -5.005,
+"cq": -9.9,
+"zq": 4894634138.8,
+"p_q": 0.005,
+"out": "embraced"
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+2,
+2,
+3
+],
+"mode": "first",
+"ntup": 13,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+2,
+2,
+3
+],
+"mode": "word",
+"ntup": 13,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+2,
+3,
+1
+],
+"mode": "first",
+"ntup": 15,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+2,
+3,
+1
+],
+"mode": "word",
+"ntup": 15,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+2,
+3,
+2
+],
+"mode": "first",
+"ntup": 13,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+2,
+3,
+2
+],
+"mode": "word",
+"ntup": 13,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+2,
+3,
+3
+],
+"mode": "first",
+"ntup": 11,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+2,
+3,
+3
+],
+"mode": "word",
+"ntup": 11,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+3,
+1,
+1
+],
+"mode": "first",
+"ntup": 18,
+"valid": 0.0,
+"cvalid": 0.008,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+3,
+1,
+1
+],
+"mode": "word",
+"ntup": 18,
+"valid": 0.0,
+"cvalid": 0.008,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.387,
+"zq": -0.31,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+3,
+1,
+2
+],
+"mode": "first",
+"ntup": 15,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+3,
+1,
+2
+],
+"mode": "word",
+"ntup": 15,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+3,
+1,
+3
+],
+"mode": "first",
+"ntup": 13,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+3,
+1,
+3
+],
+"mode": "word",
+"ntup": 13,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+3,
+2,
+1
+],
+"mode": "first",
+"ntup": 15,
+"valid": 0.0,
+"cvalid": 0.004,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+3,
+2,
+1
+],
+"mode": "word",
+"ntup": 15,
+"valid": 0.0,
+"cvalid": 0.004,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.678,
+"zq": -0.2,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+3,
+2,
+2
+],
+"mode": "first",
+"ntup": 13,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+3,
+2,
+2
+],
+"mode": "word",
+"ntup": 13,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+3,
+2,
+3
+],
+"mode": "first",
+"ntup": 11,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+3,
+2,
+3
+],
+"mode": "word",
+"ntup": 11,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+3,
+3,
+1
+],
+"mode": "first",
+"ntup": 13,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+3,
+3,
+1
+],
+"mode": "word",
+"ntup": 13,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+3,
+3,
+2
+],
+"mode": "first",
+"ntup": 11,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+3,
+3,
+2
+],
+"mode": "word",
+"ntup": 11,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+3,
+3,
+3
+],
+"mode": "first",
+"ntup": 10,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "plw",
+"sizes": [
+3,
+3,
+3
+],
+"mode": "word",
+"ntup": 10,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "dbbi",
+"kind": "bw",
+"sizes": [
+1
+],
+"mode": "first",
+"ntup": 91,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -7.333,
+"cq": -7.307,
+"zq": -0.4,
+"p_q": 0.6368,
+"out": "oddbduddmmdtcdbdcdtdtbddtcctctdtddctddtdddudcduoddtuumoddumm"
+},
+{
+"src": "dbbi",
+"kind": "bw",
+"sizes": [
+1
+],
+"mode": "word",
+"ntup": 91,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -6.302,
+"cq": -6.252,
+"zq": -2.7,
+"p_q": 0.995,
+"out": "ofdualuydualuybydualuyunknowndualuydnalifymmsmmmsmdualuythec"
+},
+{
+"src": "dbbi",
+"kind": "bl",
+"sizes": [
+1
+],
+"mode": "letter",
+"ntup": 91,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -6.791,
+"cq": -6.948,
+"zq": 1.29,
+"p_q": 0.1144,
+"out": "mooaocoussoidoaucoioiauoiddidioioodiuuiouucococmuoiccsmoocss"
+},
+{
+"src": "dbbi",
+"kind": "bw",
+"sizes": [
+2
+],
+"mode": "first",
+"ntup": 45,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -6.535,
+"cq": -6.867,
+"zq": 1.4,
+"p_q": 0.0896,
+"out": "hadodcpeoarbpiicuitattogbeohddtdcpititddhtcho"
+},
+{
+"src": "dbbi",
+"kind": "bw",
+"sizes": [
+2
+],
+"mode": "word",
+"ntup": 45,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -4.905,
+"cq": -4.834,
+"zq": -0.47,
+"p_q": 0.7065,
+"out": "heasdualizesolddarkchapterpictureearthofagelessrighteousness"
+},
+{
+"src": "dbbi",
+"kind": "bl",
+"sizes": [
+2
+],
+"mode": "letter",
+"ntup": 45,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -6.74,
+"cq": -6.897,
+"zq": 0.67,
+"p_q": 0.2289,
+"out": "bconineiyreaiffnufdrdfybateboiaonifmoiooknnfy"
+},
+{
+"src": "dbbi",
+"kind": "bw",
+"sizes": [
+3
+],
+"mode": "first",
+"ntup": 30,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -6.602,
+"cq": -6.789,
+"zq": 0.63,
+"p_q": 0.2338,
+"out": "pthfothhtfstidsaeupfttttstotmd"
+},
+{
+"src": "dbbi",
+"kind": "bw",
+"sizes": [
+3
+],
+"mode": "word",
+"ntup": 30,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -4.369,
+"cq": -4.718,
+"zq": 2.04,
+"p_q": 0.0249,
+"out": "personsthehinduforcesownthehoweverhisthefertilitysometwentyt"
+},
+{
+"src": "dbbi",
+"kind": "bl",
+"sizes": [
+3
+],
+"mode": "letter",
+"ntup": 30,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -7.182,
+"cq": -6.621,
+"zq": -1.58,
+"p_q": 0.9453,
+"out": "dtewsedblasguavaesdmrnldltpnir"
+},
+{
+"src": "dbbi",
+"kind": "bw",
+"sizes": [
+4
+],
+"mode": "first",
+"ntup": 22,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -6.921,
+"cq": -6.866,
+"zq": -0.15,
+"p_q": 0.5373,
+"out": "ntftbrctaartfwtbutiatj"
+},
+{
+"src": "dbbi",
+"kind": "bw",
+"sizes": [
+4
+],
+"mode": "word",
+"ntup": 22,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -4.632,
+"cq": -4.758,
+"zq": 0.53,
+"p_q": 0.3134,
+"out": "nomethenfromtheblissrightcreaturestheaasritualtofulfilledwas"
+},
+{
+"src": "dbbi",
+"kind": "bl",
+"sizes": [
+4
+],
+"mode": "letter",
+"ntup": 22,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -6.244,
+"cq": -6.671,
+"zq": 1.07,
+"p_q": 0.1592,
+"out": "tamboldunnsnaieivegeyw"
+},
+{
+"src": "dbbi",
+"kind": "bw",
+"sizes": [
+5
+],
+"mode": "first",
+"ntup": 18,
+"valid": 0.389,
+"cvalid": 0.425,
+"p_valid": 0.7164,
+"q": -6.574,
+"cq": -6.832,
+"zq": 0.34,
+"p_q": 0.2985,
+"out": "tfntaie"
+},
+{
+"src": "dbbi",
+"kind": "bw",
+"sizes": [
+5
+],
+"mode": "word",
+"ntup": 18,
+"valid": 0.389,
+"cvalid": 0.425,
+"p_valid": 0.7164,
+"q": -4.653,
+"cq": -4.733,
+"zq": 0.19,
+"p_q": 0.4179,
+"out": "todayfanamedthatascribedinnateeased"
+},
+{
+"src": "dbbi",
+"kind": "bl",
+"sizes": [
+5
+],
+"mode": "letter",
+"ntup": 18,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -6.95,
+"cq": -6.599,
+"zq": -0.76,
+"p_q": 0.7562,
+"out": "emipidteoaieneahne"
+},
+{
+"src": "dbbi",
+"kind": "ih",
+"sizes": [
+1
+],
+"mode": "first",
+"ntup": 91,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -7.354,
+"cq": -7.359,
+"zq": 0.15,
+"p_q": 0.3731,
+"out": "aaawaaaaaaaaaawataaaawaaaaaaaaaaaaaaaaaaaaaataaaaaaaaaaaaaaa"
+},
+{
+"src": "dbbi",
+"kind": "ih",
+"sizes": [
+1
+],
+"mode": "word",
+"ntup": 91,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -5.19,
+"cq": -5.179,
+"zq": -1.12,
+"p_q": 0.8557,
+"out": "absolutistsaboriginesaboriginesworshipfinallygoingtoaborigin"
+},
+{
+"src": "dbbi",
+"kind": "iw",
+"sizes": [
+1
+],
+"mode": "first",
+"ntup": 91,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -7.098,
+"cq": -7.12,
+"zq": 0.21,
+"p_q": 0.3781,
+"out": "paabaaaaooadaabatadadbaadaadadadaaadaadaaaaataapaadaaopaaaoo"
+},
+{
+"src": "dbbi",
+"kind": "iw",
+"sizes": [
+1
+],
+"mode": "word",
+"ntup": 91,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -5.405,
+"cq": -5.423,
+"zq": 0.74,
+"p_q": 0.2239,
+"out": "proserpinaabductionabductionbiblicalabductionaboriginesabduc"
+},
+{
+"src": "dbbi",
+"kind": "ih",
+"sizes": [
+2
+],
+"mode": "first",
+"ntup": 45,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -7.212,
+"cq": -7.226,
+"zq": 0.11,
+"p_q": 0.4129,
+"out": "baaabafgabbfaffaaffbfbabfbbbabbaaafabbaaegaba"
+},
+{
+"src": "dbbi",
+"kind": "ih",
+"sizes": [
+2
+],
+"mode": "word",
+"ntup": 45,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -5.3,
+"cq": -5.431,
+"zq": 1.2,
+"p_q": 0.1244,
+"out": "berdachesaugustineathenaattaumbdivinecomedyastrologyfathersk"
+},
+{
+"src": "dbbi",
+"kind": "iw",
+"sizes": [
+2
+],
+"mode": "first",
+"ntup": 45,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -6.831,
+"cq": -7.024,
+"zq": 0.93,
+"p_q": 0.1841,
+"out": "calaaapedaatdddagdhahtdittwclaaladdatcllnmaod"
+},
+{
+"src": "dbbi",
+"kind": "iw",
+"sizes": [
+2
+],
+"mode": "word",
+"ntup": 45,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -4.815,
+"cq": -5.228,
+"zq": 2.5,
+"p_q": 0.01,
+"out": "christiansandlillthadamangelsandpresseddefinedandandthurston"
+},
+{
+"src": "dbbi",
+"kind": "ih",
+"sizes": [
+3
+],
+"mode": "first",
+"ntup": 30,
+"valid": 0.233,
+"cvalid": 0.307,
+"p_valid": 0.8955,
+"q": -7.45,
+"cq": -7.045,
+"zq": -0.81,
+"p_q": 1.0,
+"out": "rpqrppp"
+},
+{
+"src": "dbbi",
+"kind": "ih",
+"sizes": [
+3
+],
+"mode": "word",
+"ntup": 30,
+"valid": 0.233,
+"cvalid": 0.307,
+"p_valid": 0.8955,
+"q": -5.402,
+"cq": -5.599,
+"zq": 0.55,
+"p_q": 0.3184,
+"out": "realityoftherulerspeterqdefinedrenzprayerflagsprincephoenix"
+},
+{
+"src": "dbbi",
+"kind": "iw",
+"sizes": [
+3
+],
+"mode": "first",
+"ntup": 30,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -7.193,
+"cq": -6.942,
+"zq": -0.85,
+"p_q": 0.8308,
+"out": "wcfwaakwaansdymrcowgoaaaaccott"
+},
+{
+"src": "dbbi",
+"kind": "iw",
+"sizes": [
+3
+],
+"mode": "word",
+"ntup": 30,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -5.421,
+"cq": -5.258,
+"zq": -0.78,
+"p_q": 0.7612,
+"out": "womanchaosfreudweslwoodanneardhananshvarakeganwillahuraandna"
+},
+{
+"src": "res60",
+"kind": "pw",
+"sizes": [
+1,
+1
+],
+"mode": "first",
+"ntup": 30,
+"valid": 0.6,
+"cvalid": 0.658,
+"p_valid": 0.8507,
+"q": -6.125,
+"cq": -6.914,
+"zq": 2.23,
+"p_q": 0.0348,
+"out": "gttooceditutbitwtc"
+},
+{
+"src": "res60",
+"kind": "pw",
+"sizes": [
+1,
+1
+],
+"mode": "word",
+"ntup": 30,
+"valid": 0.6,
+"cvalid": 0.658,
+"p_valid": 0.8507,
+"q": -4.664,
+"cq": -5.097,
+"zq": 1.43,
+"p_q": 0.0945,
+"out": "godthetofofyinchapteressaydualizesitheunknownthebyinthewheel"
+},
+{
+"src": "res60",
+"kind": "pl",
+"sizes": [
+1,
+1
+],
+"mode": "letter",
+"ntup": 30,
+"valid": 0.667,
+"cvalid": 0.722,
+"p_valid": 0.8856,
+"q": -6.665,
+"cq": -6.653,
+"zq": -0.03,
+"p_q": 0.4726,
+"out": "fstmreorsrcnmstundnc"
+},
+{
+"src": "res60",
+"kind": "pw",
+"sizes": [
+1,
+2
+],
+"mode": "first",
+"ntup": 20,
+"valid": 0.35,
+"cvalid": 0.317,
+"p_valid": 0.4527,
+"q": -7.45,
+"cq": -6.976,
+"zq": -0.41,
+"p_q": 0.9303,
+"out": "bdtgdfh"
+},
+{
+"src": "res60",
+"kind": "pw",
+"sizes": [
+1,
+2
+],
+"mode": "word",
+"ntup": 20,
+"valid": 0.35,
+"cvalid": 0.317,
+"p_valid": 0.4527,
+"q": -4.797,
+"cq": -4.647,
+"zq": -0.3,
+"p_q": 0.6468,
+"out": "birthdrivingthegoddarkfirsthost"
+},
+{
+"src": "res60",
+"kind": "pl",
+"sizes": [
+1,
+2
+],
+"mode": "letter",
+"ntup": 20,
+"valid": 0.5,
+"cvalid": 0.528,
+"p_valid": 0.7065,
+"q": -6.639,
+"cq": -6.756,
+"zq": 0.19,
+"p_q": 0.3731,
+"out": "oippldieua"
+},
+{
+"src": "res60",
+"kind": "pw",
+"sizes": [
+1,
+3
+],
+"mode": "first",
+"ntup": 15,
+"valid": 0.0,
+"cvalid": 0.013,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "pw",
+"sizes": [
+1,
+3
+],
+"mode": "word",
+"ntup": 15,
+"valid": 0.0,
+"cvalid": 0.013,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.205,
+"zq": -0.37,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "pl",
+"sizes": [
+1,
+3
+],
+"mode": "letter",
+"ntup": 15,
+"valid": 0.2,
+"cvalid": 0.267,
+"p_valid": 0.8706,
+"q": -9.9,
+"cq": -7.781,
+"zq": -1.14,
+"p_q": 1.0,
+"out": "tan"
+},
+{
+"src": "res60",
+"kind": "pw",
+"sizes": [
+2,
+1
+],
+"mode": "first",
+"ntup": 20,
+"valid": 0.95,
+"cvalid": 0.843,
+"p_valid": 0.194,
+"q": -6.639,
+"cq": -6.907,
+"zq": 0.62,
+"p_q": 0.2388,
+"out": "wastgpwwihattfdcofb"
+},
+{
+"src": "res60",
+"kind": "pw",
+"sizes": [
+2,
+1
+],
+"mode": "word",
+"ntup": 20,
+"valid": 0.95,
+"cvalid": 0.843,
+"p_valid": 0.194,
+"q": -4.569,
+"cq": -4.87,
+"zq": 0.95,
+"p_q": 0.1791,
+"out": "womanandsatanstiegerpocketsizewomenwomenihearetestthatfromda"
+},
+{
+"src": "res60",
+"kind": "pl",
+"sizes": [
+2,
+1
+],
+"mode": "letter",
+"ntup": 20,
+"valid": 0.95,
+"cvalid": 0.849,
+"p_valid": 0.199,
+"q": -6.926,
+"cq": -6.638,
+"zq": -0.59,
+"p_q": 0.6567,
+"out": "gooihneejedrnntedpb"
+},
+{
+"src": "res60",
+"kind": "pw",
+"sizes": [
+2,
+2
+],
+"mode": "first",
+"ntup": 15,
+"valid": 0.8,
+"cvalid": 0.795,
+"p_valid": 0.6667,
+"q": -7.195,
+"cq": -6.841,
+"zq": -0.66,
+"p_q": 0.6716,
+"out": "tahaalsbsgsm"
+},
+{
+"src": "res60",
+"kind": "pw",
+"sizes": [
+2,
+2
+],
+"mode": "word",
+"ntup": 15,
+"valid": 0.8,
+"cvalid": 0.795,
+"p_valid": 0.6667,
+"q": -5.165,
+"cq": -4.701,
+"zq": -1.5,
+"p_q": 0.9353,
+"out": "twoandholyandanlessselfbetweensogirtsspemunion"
+},
+{
+"src": "res60",
+"kind": "pl",
+"sizes": [
+2,
+2
+],
+"mode": "letter",
+"ntup": 15,
+"valid": 0.8,
+"cvalid": 0.814,
+"p_valid": 0.7164,
+"q": -6.331,
+"cq": -6.636,
+"zq": 0.5,
+"p_q": 0.2736,
+"out": "reogioomtorc"
+},
+{
+"src": "res60",
+"kind": "pw",
+"sizes": [
+2,
+3
+],
+"mode": "first",
+"ntup": 12,
+"valid": 0.083,
+"cvalid": 0.248,
+"p_valid": 0.9602,
+"q": -9.9,
+"cq": -8.985,
+"zq": -0.64,
+"p_q": 1.0,
+"out": "g"
+},
+{
+"src": "res60",
+"kind": "pw",
+"sizes": [
+2,
+3
+],
+"mode": "word",
+"ntup": 12,
+"valid": 0.083,
+"cvalid": 0.248,
+"p_valid": 0.9602,
+"q": -5.494,
+"cq": -5.13,
+"zq": -0.22,
+"p_q": 0.8159,
+"out": "goldenbulbed"
+},
+{
+"src": "res60",
+"kind": "pl",
+"sizes": [
+2,
+3
+],
+"mode": "letter",
+"ntup": 12,
+"valid": 0.833,
+"cvalid": 0.762,
+"p_valid": 0.4428,
+"q": -6.836,
+"cq": -6.664,
+"zq": -0.26,
+"p_q": 0.5622,
+"out": "mthuhnsroc"
+},
+{
+"src": "res60",
+"kind": "pw",
+"sizes": [
+3,
+1
+],
+"mode": "first",
+"ntup": 15,
+"valid": 0.0,
+"cvalid": 0.009,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "pw",
+"sizes": [
+3,
+1
+],
+"mode": "word",
+"ntup": 15,
+"valid": 0.0,
+"cvalid": 0.009,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.509,
+"zq": -0.29,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "pl",
+"sizes": [
+3,
+1
+],
+"mode": "letter",
+"ntup": 15,
+"valid": 0.0,
+"cvalid": 0.01,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "pw",
+"sizes": [
+3,
+2
+],
+"mode": "first",
+"ntup": 12,
+"valid": 0.0,
+"cvalid": 0.009,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "pw",
+"sizes": [
+3,
+2
+],
+"mode": "word",
+"ntup": 12,
+"valid": 0.0,
+"cvalid": 0.009,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.599,
+"zq": -0.26,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "pl",
+"sizes": [
+3,
+2
+],
+"mode": "letter",
+"ntup": 12,
+"valid": 0.0,
+"cvalid": 0.01,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "pw",
+"sizes": [
+3,
+3
+],
+"mode": "first",
+"ntup": 10,
+"valid": 0.0,
+"cvalid": 0.003,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "pw",
+"sizes": [
+3,
+3
+],
+"mode": "word",
+"ntup": 10,
+"valid": 0.0,
+"cvalid": 0.003,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.842,
+"zq": -0.1,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "pl",
+"sizes": [
+3,
+3
+],
+"mode": "letter",
+"ntup": 10,
+"valid": 0.0,
+"cvalid": 0.005,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+1,
+1,
+1
+],
+"mode": "first",
+"ntup": 20,
+"valid": 0.2,
+"cvalid": 0.231,
+"p_valid": 0.7114,
+"q": -5.149,
+"cq": -7.664,
+"zq": 1.51,
+"p_q": 0.0945,
+"out": "elde"
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+1,
+1,
+1
+],
+"mode": "word",
+"ntup": 20,
+"valid": 0.2,
+"cvalid": 0.231,
+"p_valid": 0.7114,
+"q": -4.853,
+"cq": -4.559,
+"zq": -0.32,
+"p_q": 0.7015,
+"out": "earthlightdeepessay"
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+1,
+1,
+2
+],
+"mode": "first",
+"ntup": 15,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+1,
+1,
+2
+],
+"mode": "word",
+"ntup": 15,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+1,
+1,
+3
+],
+"mode": "first",
+"ntup": 12,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+1,
+1,
+3
+],
+"mode": "word",
+"ntup": 12,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+1,
+2,
+1
+],
+"mode": "first",
+"ntup": 15,
+"valid": 0.0,
+"cvalid": 0.039,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+1,
+2,
+1
+],
+"mode": "word",
+"ntup": 15,
+"valid": 0.0,
+"cvalid": 0.039,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -8.337,
+"zq": -0.63,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+1,
+2,
+2
+],
+"mode": "first",
+"ntup": 12,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+1,
+2,
+2
+],
+"mode": "word",
+"ntup": 12,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+1,
+2,
+3
+],
+"mode": "first",
+"ntup": 10,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+1,
+2,
+3
+],
+"mode": "word",
+"ntup": 10,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+1,
+3,
+1
+],
+"mode": "first",
+"ntup": 12,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+1,
+3,
+1
+],
+"mode": "word",
+"ntup": 12,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+1,
+3,
+2
+],
+"mode": "first",
+"ntup": 10,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+1,
+3,
+2
+],
+"mode": "word",
+"ntup": 10,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+1,
+3,
+3
+],
+"mode": "first",
+"ntup": 8,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+1,
+3,
+3
+],
+"mode": "word",
+"ntup": 8,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+2,
+1,
+1
+],
+"mode": "first",
+"ntup": 15,
+"valid": 0.533,
+"cvalid": 0.485,
+"p_valid": 0.4179,
+"q": -6.495,
+"cq": -6.914,
+"zq": 0.49,
+"p_q": 0.2786,
+"out": "tctatpsm"
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+2,
+1,
+1
+],
+"mode": "word",
+"ntup": 15,
+"valid": 0.533,
+"cvalid": 0.485,
+"p_valid": 0.4179,
+"q": -3.856,
+"cq": -4.709,
+"zq": 2.04,
+"p_q": 0.0249,
+"out": "thecomtheandthepersonalsheme"
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+2,
+1,
+2
+],
+"mode": "first",
+"ntup": 12,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+2,
+1,
+2
+],
+"mode": "word",
+"ntup": 12,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+2,
+1,
+3
+],
+"mode": "first",
+"ntup": 10,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+2,
+1,
+3
+],
+"mode": "word",
+"ntup": 10,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+2,
+2,
+1
+],
+"mode": "first",
+"ntup": 12,
+"valid": 0.167,
+"cvalid": 0.32,
+"p_valid": 0.9403,
+"q": -9.9,
+"cq": -8.047,
+"zq": -1.0,
+"p_q": 1.0,
+"out": "ti"
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+2,
+2,
+1
+],
+"mode": "word",
+"ntup": 12,
+"valid": 0.167,
+"cvalid": 0.32,
+"p_valid": 0.9403,
+"q": -3.925,
+"cq": -4.664,
+"zq": 0.76,
+"p_q": 0.1493,
+"out": "thein"
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+2,
+2,
+2
+],
+"mode": "first",
+"ntup": 10,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+2,
+2,
+2
+],
+"mode": "word",
+"ntup": 10,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+2,
+2,
+3
+],
+"mode": "first",
+"ntup": 8,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+2,
+2,
+3
+],
+"mode": "word",
+"ntup": 8,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+2,
+3,
+1
+],
+"mode": "first",
+"ntup": 10,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+2,
+3,
+1
+],
+"mode": "word",
+"ntup": 10,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+2,
+3,
+2
+],
+"mode": "first",
+"ntup": 8,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+2,
+3,
+2
+],
+"mode": "word",
+"ntup": 8,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+2,
+3,
+3
+],
+"mode": "first",
+"ntup": 7,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+2,
+3,
+3
+],
+"mode": "word",
+"ntup": 7,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+3,
+1,
+1
+],
+"mode": "first",
+"ntup": 12,
+"valid": 0.0,
+"cvalid": 0.005,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+3,
+1,
+1
+],
+"mode": "word",
+"ntup": 12,
+"valid": 0.0,
+"cvalid": 0.005,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.731,
+"zq": -0.17,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+3,
+1,
+2
+],
+"mode": "first",
+"ntup": 10,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+3,
+1,
+2
+],
+"mode": "word",
+"ntup": 10,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+3,
+1,
+3
+],
+"mode": "first",
+"ntup": 8,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+3,
+1,
+3
+],
+"mode": "word",
+"ntup": 8,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+3,
+2,
+1
+],
+"mode": "first",
+"ntup": 10,
+"valid": 0.0,
+"cvalid": 0.002,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+3,
+2,
+1
+],
+"mode": "word",
+"ntup": 10,
+"valid": 0.0,
+"cvalid": 0.002,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.847,
+"zq": -0.1,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+3,
+2,
+2
+],
+"mode": "first",
+"ntup": 8,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+3,
+2,
+2
+],
+"mode": "word",
+"ntup": 8,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+3,
+2,
+3
+],
+"mode": "first",
+"ntup": 7,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+3,
+2,
+3
+],
+"mode": "word",
+"ntup": 7,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+3,
+3,
+1
+],
+"mode": "first",
+"ntup": 8,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+3,
+3,
+1
+],
+"mode": "word",
+"ntup": 8,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+3,
+3,
+2
+],
+"mode": "first",
+"ntup": 7,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+3,
+3,
+2
+],
+"mode": "word",
+"ntup": 7,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+3,
+3,
+3
+],
+"mode": "first",
+"ntup": 6,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "plw",
+"sizes": [
+3,
+3,
+3
+],
+"mode": "word",
+"ntup": 6,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "res60",
+"kind": "bw",
+"sizes": [
+1
+],
+"mode": "first",
+"ntup": 60,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -7.401,
+"cq": -7.254,
+"zq": -1.39,
+"p_q": 0.9303,
+"out": "obudmmcbdcttbdcctctdctddtdducuoduumodummmcutcctmombuuucbcttc"
+},
+{
+"src": "res60",
+"kind": "bw",
+"sizes": [
+1
+],
+"mode": "word",
+"ntup": 60,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -6.213,
+"cq": -6.152,
+"zq": -2.18,
+"p_q": 0.995,
+"out": "ofbyunknowndnalifymmsmmmsmcosmicbydnalifycosmicthethebydnali"
+},
+{
+"src": "res60",
+"kind": "bl",
+"sizes": [
+1
+],
+"mode": "letter",
+"ntup": 60,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -6.964,
+"cq": -7.054,
+"zq": 0.58,
+"p_q": 0.2886,
+"out": "macussdauciiauddidiodiuuiuucccmuccsmocsssdciddismsacccdadiic"
+},
+{
+"src": "res60",
+"kind": "bw",
+"sizes": [
+2
+],
+"mode": "first",
+"ntup": 30,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -6.548,
+"cq": -6.765,
+"zq": 0.68,
+"p_q": 0.2537,
+"out": "cwdotheupaitohbohsddteuesahoio"
+},
+{
+"src": "res60",
+"kind": "bw",
+"sizes": [
+2
+],
+"mode": "word",
+"ntup": 30,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -5.163,
+"cq": -4.924,
+"zq": -1.2,
+"p_q": 0.9204,
+"out": "chapterwingeddarkoppolftheheearthunifypathsagelessindextheof"
+},
+{
+"src": "res60",
+"kind": "bl",
+"sizes": [
+2
+],
+"mode": "letter",
+"ntup": 30,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -7.141,
+"cq": -6.734,
+"zq": -1.24,
+"p_q": 0.9005,
+"out": "isiosfibirfdmamdocoiaobsyioofo"
+},
+{
+"src": "res60",
+"kind": "bw",
+"sizes": [
+3
+],
+"mode": "first",
+"ntup": 20,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -6.877,
+"cq": -6.781,
+"zq": -0.24,
+"p_q": 0.5473,
+"out": "fortbwfaaldsoopatftc"
+},
+{
+"src": "res60",
+"kind": "bw",
+"sizes": [
+3
+],
+"mode": "word",
+"ntup": 20,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -4.409,
+"cq": -4.821,
+"zq": 1.85,
+"p_q": 0.0348,
+"out": "femininityottenrepresentthebelievedwithfortuneallalllingafro"
+},
+{
+"src": "res60",
+"kind": "bl",
+"sizes": [
+3
+],
+"mode": "letter",
+"ntup": 20,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -6.233,
+"cq": -6.594,
+"zq": 0.78,
+"p_q": 0.209,
+"out": "fndeneodddwoskeeamno"
+},
+{
+"src": "res60",
+"kind": "bw",
+"sizes": [
+4
+],
+"mode": "first",
+"ntup": 15,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -6.802,
+"cq": -6.843,
+"zq": 0.09,
+"p_q": 0.4577,
+"out": "titiaatawtfbwii"
+},
+{
+"src": "res60",
+"kind": "bw",
+"sizes": [
+4
+],
+"mode": "word",
+"ntup": 15,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -4.526,
+"cq": -4.696,
+"zq": 0.62,
+"p_q": 0.2836,
+"out": "theintoideasaastheattackedwastofourbeenwaterinintellectual"
+},
+{
+"src": "res60",
+"kind": "bl",
+"sizes": [
+4
+],
+"mode": "letter",
+"ntup": 15,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -6.776,
+"cq": -6.579,
+"zq": -0.36,
+"p_q": 0.6169,
+"out": "rodyoielsergnai"
+},
+{
+"src": "res60",
+"kind": "bw",
+"sizes": [
+5
+],
+"mode": "first",
+"ntup": 12,
+"valid": 0.25,
+"cvalid": 0.268,
+"p_valid": 0.7313,
+"q": -9.9,
+"cq": -8.693,
+"zq": -0.73,
+"p_q": 1.0,
+"out": "dgb"
+},
+{
+"src": "res60",
+"kind": "bw",
+"sizes": [
+5
+],
+"mode": "word",
+"ntup": 12,
+"valid": 0.25,
+"cvalid": 0.268,
+"p_valid": 0.7313,
+"q": -4.964,
+"cq": -4.986,
+"zq": 0.01,
+"p_q": 0.6667,
+"out": "doglidingbe"
+},
+{
+"src": "res60",
+"kind": "bl",
+"sizes": [
+5
+],
+"mode": "letter",
+"ntup": 12,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -6.731,
+"cq": -6.642,
+"zq": -0.16,
+"p_q": 0.5323,
+"out": "tihmnwnolaec"
+},
+{
+"src": "res60",
+"kind": "ih",
+"sizes": [
+1
+],
+"mode": "first",
+"ntup": 60,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -7.337,
+"cq": -7.296,
+"zq": -0.64,
+"p_q": 0.6517,
+"out": "awaaaaawataawaaaaaaaaaaaaaaataaaaaaaaaaaaaaaaaaaaawaaaawaaat"
+},
+{
+"src": "res60",
+"kind": "ih",
+"sizes": [
+1
+],
+"mode": "word",
+"ntup": 60,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -5.282,
+"cq": -5.299,
+"zq": 1.16,
+"p_q": 0.1144,
+"out": "absolutistsworshipfinallygoingtoadamaflerlifeabrahamabrahama"
+},
+{
+"src": "res60",
+"kind": "iw",
+"sizes": [
+1
+],
+"mode": "first",
+"ntup": 60,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -7.098,
+"cq": -7.074,
+"zq": -0.2,
+"p_q": 0.5672,
+"out": "pbaaooabatddbaaadadaadaadaaatapaaaopaaoooaadaadopobaaaabaddt"
+},
+{
+"src": "res60",
+"kind": "iw",
+"sizes": [
+1
+],
+"mode": "word",
+"ntup": 60,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -5.359,
+"cq": -5.393,
+"zq": 1.04,
+"p_q": 0.1493,
+"out": "proserpinabiblicalaboriginesabrahamofofaustralianbiblicalabr"
+},
+{
+"src": "res60",
+"kind": "ih",
+"sizes": [
+2
+],
+"mode": "first",
+"ntup": 30,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -7.45,
+"cq": -7.301,
+"zq": -1.11,
+"p_q": 1.0,
+"out": "bebffbgfabffbfabbbabbbfbbgbffb"
+},
+{
+"src": "res60",
+"kind": "ih",
+"sizes": [
+2
+],
+"mode": "word",
+"ntup": 30,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -5.444,
+"cq": -5.417,
+"zq": -0.19,
+"p_q": 0.592,
+"out": "blakeeviliiuiamcrkaninduntbdivinecomedyfortunefrancisofassis"
+},
+{
+"src": "res60",
+"kind": "iw",
+"sizes": [
+2
+],
+"mode": "first",
+"ntup": 30,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -6.748,
+"cq": -6.904,
+"zq": 0.49,
+"p_q": 0.2736,
+"out": "hyaypoemdadhpdfalalaaimmaolydj"
+},
+{
+"src": "res60",
+"kind": "iw",
+"sizes": [
+2
+],
+"mode": "word",
+"ntup": 30,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -5.152,
+"cq": -5.28,
+"zq": 0.71,
+"p_q": 0.204,
+"out": "hindusyorkangelsyorkpressonedmiraclesdevilanddhavepossession"
+},
+{
+"src": "res60",
+"kind": "ih",
+"sizes": [
+3
+],
+"mode": "first",
+"ntup": 20,
+"valid": 0.1,
+"cvalid": 0.086,
+"p_valid": 0.5672,
+"q": -9.9,
+"cq": -9.839,
+"zq": -0.16,
+"p_q": 1.0,
+"out": "tp"
+},
+{
+"src": "res60",
+"kind": "ih",
+"sizes": [
+3
+],
+"mode": "word",
+"ntup": 20,
+"valid": 0.1,
+"cvalid": 0.086,
+"p_valid": 0.5672,
+"q": -5.525,
+"cq": -6.073,
+"zq": 0.34,
+"p_q": 0.398,
+"out": "theinfernopowers"
+},
+{
+"src": "res60",
+"kind": "iw",
+"sizes": [
+3
+],
+"mode": "first",
+"ntup": 20,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -7.18,
+"cq": -7.015,
+"zq": -0.5,
+"p_q": 0.7015,
+"out": "pottdasjjjambiaajsol"
+},
+{
+"src": "res60",
+"kind": "iw",
+"sizes": [
+3
+],
+"mode": "word",
+"ntup": 20,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -5.452,
+"cq": -5.383,
+"zq": -0.3,
+"p_q": 0.6169,
+"out": "pantheonontemplethedualitiesapocalypticsonjjjackandmuslimsbr"
+},
+{
+"src": "faed",
+"kind": "pw",
+"sizes": [
+1,
+1
+],
+"mode": "first",
+"ntup": 285,
+"valid": 0.512,
+"cvalid": 0.541,
+"p_valid": 0.9204,
+"q": -7.091,
+"cq": -6.943,
+"zq": -1.33,
+"p_q": 0.9055,
+"out": "luoorduobrodabbllccbcoboatcotobbcscpogwgusmtacpucucgawwruooo"
+},
+{
+"src": "faed",
+"kind": "pw",
+"sizes": [
+1,
+1
+],
+"mode": "word",
+"ntup": 285,
+"valid": 0.512,
+"cvalid": 0.541,
+"p_valid": 0.9204,
+"q": -5.358,
+"cq": -5.192,
+"zq": -1.48,
+"p_q": 0.9303,
+"out": "llieunityofofrdnalifyunityoppolfbyrofyindualizesasbeginningb"
+},
+{
+"src": "faed",
+"kind": "pl",
+"sizes": [
+1,
+1
+],
+"mode": "letter",
+"ntup": 285,
+"valid": 0.596,
+"cvalid": 0.628,
+"p_valid": 0.9453,
+"q": -6.827,
+"cq": -6.685,
+"zq": -1.06,
+"p_q": 0.8607,
+"out": "limmimfieicitirsusiiallectcmctisncirumirtesopiiddilsmnsaoeme"
+},
+{
+"src": "faed",
+"kind": "pw",
+"sizes": [
+1,
+2
+],
+"mode": "first",
+"ntup": 190,
+"valid": 0.3,
+"cvalid": 0.289,
+"p_valid": 0.403,
+"q": -6.708,
+"cq": -6.748,
+"zq": 0.15,
+"p_q": 0.4577,
+"out": "rputohdcatahltloaiaeottuiitooaegeofvdatgocotwgsoestwlofea"
+},
+{
+"src": "faed",
+"kind": "pw",
+"sizes": [
+1,
+2
+],
+"mode": "word",
+"ntup": 190,
+"valid": 0.3,
+"cvalid": 0.289,
+"p_valid": 0.403,
+"q": -4.497,
+"cq": -4.722,
+"zq": 1.52,
+"p_q": 0.0846,
+"out": "recountspictureuptriumphofhedaycosmosandtheandheavenlightthe"
+},
+{
+"src": "faed",
+"kind": "pl",
+"sizes": [
+1,
+2
+],
+"mode": "letter",
+"ntup": 190,
+"valid": 0.437,
+"cvalid": 0.431,
+"p_valid": 0.4428,
+"q": -6.733,
+"cq": -6.674,
+"zq": -0.29,
+"p_q": 0.6418,
+"out": "oigevrseeaonehdoaftrftrttrcliitbsdsilugseeahdfolhllhnipideti"
+},
+{
+"src": "faed",
+"kind": "pw",
+"sizes": [
+1,
+3
+],
+"mode": "first",
+"ntup": 142,
+"valid": 0.021,
+"cvalid": 0.034,
+"p_valid": 0.9005,
+"q": -9.9,
+"cq": -7.534,
+"zq": -1.57,
+"p_q": 1.0,
+"out": "wco"
+},
+{
+"src": "faed",
+"kind": "pw",
+"sizes": [
+1,
+3
+],
+"mode": "word",
+"ntup": 142,
+"valid": 0.021,
+"cvalid": 0.034,
+"p_valid": 0.9005,
+"q": -4.742,
+"cq": -4.693,
+"zq": -0.05,
+"p_q": 0.6667,
+"out": "withcenturyonly"
+},
+{
+"src": "faed",
+"kind": "pl",
+"sizes": [
+1,
+3
+],
+"mode": "letter",
+"ntup": 142,
+"valid": 0.218,
+"cvalid": 0.25,
+"p_valid": 0.8657,
+"q": -6.629,
+"cq": -6.613,
+"zq": -0.05,
+"p_q": 0.4925,
+"out": "tlsteaiomciiisiemnidogstaegeyeg"
+},
+{
+"src": "faed",
+"kind": "pw",
+"sizes": [
+2,
+1
+],
+"mode": "first",
+"ntup": 190,
+"valid": 0.863,
+"cvalid": 0.851,
+"p_valid": 0.3383,
+"q": -7.019,
+"cq": -6.889,
+"zq": -1.06,
+"p_q": 0.8756,
+"out": "jgwadatctaifctzudbswoaatosaasuatubadsgctvtotplsabbamieovtsre"
+},
+{
+"src": "faed",
+"kind": "pw",
+"sizes": [
+2,
+1
+],
+"mode": "word",
+"ntup": 190,
+"valid": 0.863,
+"cvalid": 0.851,
+"p_valid": 0.3383,
+"q": -4.797,
+"cq": -4.92,
+"zq": 1.42,
+"p_q": 0.0647,
+"out": "jgrandmotherswomamazondarkathecharactertheariinforchapterton"
+},
+{
+"src": "faed",
+"kind": "pl",
+"sizes": [
+2,
+1
+],
+"mode": "letter",
+"ntup": 190,
+"valid": 0.889,
+"cvalid": 0.862,
+"p_valid": 0.1294,
+"q": -6.719,
+"cq": -6.673,
+"zq": -0.34,
+"p_q": 0.6269,
+"out": "vigohttfdaiicbzitteswiaotrsaootaosbousepiatoowkskdeaemngaets"
+},
+{
+"src": "faed",
+"kind": "pw",
+"sizes": [
+2,
+2
+],
+"mode": "first",
+"ntup": 142,
+"valid": 0.817,
+"cvalid": 0.787,
+"p_valid": 0.199,
+"q": -6.747,
+"cq": -6.819,
+"zq": 0.42,
+"p_q": 0.3035,
+"out": "witwolmtocahbasugbgnntitwgaaobkoiranfbfitonvagetprerwttcttad"
+},
+{
+"src": "faed",
+"kind": "pw",
+"sizes": [
+2,
+2
+],
+"mode": "word",
+"ntup": 142,
+"valid": 0.817,
+"cvalid": 0.787,
+"p_valid": 0.199,
+"q": -4.707,
+"cq": -4.733,
+"zq": 0.24,
+"p_q": 0.3881,
+"out": "wereitthewickedonelogicalmentheofcultureashighlybecauseandsh"
+},
+{
+"src": "faed",
+"kind": "pl",
+"sizes": [
+2,
+2
+],
+"mode": "letter",
+"ntup": 142,
+"valid": 0.838,
+"cvalid": 0.813,
+"p_valid": 0.2537,
+"q": -6.582,
+"cq": -6.669,
+"zq": 0.49,
+"p_q": 0.2637,
+"out": "elepteepntalmeeeetrthadaesedftptovteeaoioeoireedhcnohiititst"
+},
+{
+"src": "faed",
+"kind": "pw",
+"sizes": [
+2,
+3
+],
+"mode": "first",
+"ntup": 114,
+"valid": 0.211,
+"cvalid": 0.256,
+"p_valid": 0.9204,
+"q": -6.988,
+"cq": -6.859,
+"zq": -0.4,
+"p_q": 0.6418,
+"out": "hhctaoptwtouawhoamwrmbct"
+},
+{
+"src": "faed",
+"kind": "pw",
+"sizes": [
+2,
+3
+],
+"mode": "word",
+"ntup": 114,
+"valid": 0.211,
+"cvalid": 0.256,
+"p_valid": 0.9204,
+"q": -4.593,
+"cq": -4.729,
+"zq": 0.66,
+"p_q": 0.2786,
+"out": "herharassingcrystallizetheactionsofprieststhroughwhentalesof"
+},
+{
+"src": "faed",
+"kind": "pl",
+"sizes": [
+2,
+3
+],
+"mode": "letter",
+"ntup": 114,
+"valid": 0.772,
+"cvalid": 0.736,
+"p_valid": 0.2239,
+"q": -6.633,
+"cq": -6.633,
+"zq": 0.0,
+"p_q": 0.4826,
+"out": "nnnaaosocdsraeocglohnkyiihsofasreohtlbaiiurnerpetgnfitnaretn"
+},
+{
+"src": "faed",
+"kind": "pw",
+"sizes": [
+3,
+1
+],
+"mode": "first",
+"ntup": 142,
+"valid": 0.028,
+"cvalid": 0.028,
+"p_valid": 0.5672,
+"q": -7.45,
+"cq": -8.164,
+"zq": 0.42,
+"p_q": 0.5672,
+"out": "qbvt"
+},
+{
+"src": "faed",
+"kind": "pw",
+"sizes": [
+3,
+1
+],
+"mode": "word",
+"ntup": 142,
+"valid": 0.028,
+"cvalid": 0.028,
+"p_valid": 0.5672,
+"q": -5.779,
+"cq": -5.016,
+"zq": -0.7,
+"p_q": 0.8706,
+"out": "quotedbushmenvthe"
+},
+{
+"src": "faed",
+"kind": "pl",
+"sizes": [
+3,
+1
+],
+"mode": "letter",
+"ntup": 142,
+"valid": 0.028,
+"cvalid": 0.028,
+"p_valid": 0.602,
+"q": -7.45,
+"cq": -8.057,
+"zq": 0.36,
+"p_q": 0.602,
+"out": "gqio"
+},
+{
+"src": "faed",
+"kind": "pw",
+"sizes": [
+3,
+2
+],
+"mode": "first",
+"ntup": 114,
+"valid": 0.018,
+"cvalid": 0.024,
+"p_valid": 0.7612,
+"q": -9.9,
+"cq": -9.015,
+"zq": -0.59,
+"p_q": 1.0,
+"out": "st"
+},
+{
+"src": "faed",
+"kind": "pw",
+"sizes": [
+3,
+2
+],
+"mode": "word",
+"ntup": 114,
+"valid": 0.018,
+"cvalid": 0.024,
+"p_valid": 0.7612,
+"q": -5.263,
+"cq": -5.175,
+"zq": -0.05,
+"p_q": 0.7313,
+"out": "symbolismthe"
+},
+{
+"src": "faed",
+"kind": "pl",
+"sizes": [
+3,
+2
+],
+"mode": "letter",
+"ntup": 114,
+"valid": 0.018,
+"cvalid": 0.026,
+"p_valid": 0.796,
+"q": -9.9,
+"cq": -8.768,
+"zq": -0.66,
+"p_q": 1.0,
+"out": "th"
+},
+{
+"src": "faed",
+"kind": "pw",
+"sizes": [
+3,
+3
+],
+"mode": "first",
+"ntup": 95,
+"valid": 0.0,
+"cvalid": 0.01,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.888,
+"zq": -0.07,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "faed",
+"kind": "pw",
+"sizes": [
+3,
+3
+],
+"mode": "word",
+"ntup": 95,
+"valid": 0.0,
+"cvalid": 0.01,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -7.516,
+"zq": -0.89,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "faed",
+"kind": "pl",
+"sizes": [
+3,
+3
+],
+"mode": "letter",
+"ntup": 95,
+"valid": 0.021,
+"cvalid": 0.021,
+"p_valid": 0.6468,
+"q": -9.9,
+"cq": -9.589,
+"zq": -0.34,
+"p_q": 1.0,
+"out": "oo"
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+1,
+1,
+1
+],
+"mode": "first",
+"ntup": 190,
+"valid": 0.216,
+"cvalid": 0.199,
+"p_valid": 0.3134,
+"q": -7.077,
+"cq": -6.771,
+"zq": -1.05,
+"p_q": 0.8507,
+"out": "saaitdhuliblohoaotawagtteioeooeavtdaacttr"
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+1,
+1,
+1
+],
+"mode": "word",
+"ntup": 190,
+"valid": 0.216,
+"cvalid": 0.199,
+"p_valid": 0.3134,
+"q": -4.595,
+"cq": -4.706,
+"zq": 0.54,
+"p_q": 0.2985,
+"out": "sideandasintimelifedarkholdsunifylockedinbooksllieofheofasof"
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+1,
+1,
+2
+],
+"mode": "first",
+"ntup": 142,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+1,
+1,
+2
+],
+"mode": "word",
+"ntup": 142,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+1,
+1,
+3
+],
+"mode": "first",
+"ntup": 114,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+1,
+1,
+3
+],
+"mode": "word",
+"ntup": 114,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+1,
+2,
+1
+],
+"mode": "first",
+"ntup": 142,
+"valid": 0.035,
+"cvalid": 0.047,
+"p_valid": 0.791,
+"q": -6.3,
+"cq": -7.222,
+"zq": 0.82,
+"p_q": 0.1642,
+"out": "etaia"
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+1,
+2,
+1
+],
+"mode": "word",
+"ntup": 142,
+"valid": 0.035,
+"cvalid": 0.047,
+"p_valid": 0.791,
+"q": -4.552,
+"cq": -4.693,
+"zq": 0.27,
+"p_q": 0.393,
+"out": "eviltoareinand"
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+1,
+2,
+2
+],
+"mode": "first",
+"ntup": 114,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+1,
+2,
+2
+],
+"mode": "word",
+"ntup": 114,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+1,
+2,
+3
+],
+"mode": "first",
+"ntup": 95,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+1,
+2,
+3
+],
+"mode": "word",
+"ntup": 95,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+1,
+3,
+1
+],
+"mode": "first",
+"ntup": 114,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+1,
+3,
+1
+],
+"mode": "word",
+"ntup": 114,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+1,
+3,
+2
+],
+"mode": "first",
+"ntup": 95,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+1,
+3,
+2
+],
+"mode": "word",
+"ntup": 95,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+1,
+3,
+3
+],
+"mode": "first",
+"ntup": 81,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+1,
+3,
+3
+],
+"mode": "word",
+"ntup": 81,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+2,
+1,
+1
+],
+"mode": "first",
+"ntup": 142,
+"valid": 0.563,
+"cvalid": 0.48,
+"p_valid": 0.0448,
+"q": -6.786,
+"cq": -6.837,
+"zq": 0.25,
+"p_q": 0.3831,
+"out": "vscofawrwnwtofdrvoatcwtslsopfbriftcmatooaoppvbgwmttwlastimes"
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+2,
+1,
+1
+],
+"mode": "word",
+"ntup": 142,
+"valid": 0.563,
+"cvalid": 0.48,
+"p_valid": 0.0448,
+"q": -4.756,
+"cq": -4.774,
+"zq": 0.15,
+"p_q": 0.4527,
+"out": "violentlysuitorscombinesonfollowaquinoworldrealmwomennotwast"
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+2,
+1,
+2
+],
+"mode": "first",
+"ntup": 114,
+"valid": 0.0,
+"cvalid": 0.001,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+2,
+1,
+2
+],
+"mode": "word",
+"ntup": 114,
+"valid": 0.0,
+"cvalid": 0.001,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.676,
+"zq": -0.2,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+2,
+1,
+3
+],
+"mode": "first",
+"ntup": 95,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+2,
+1,
+3
+],
+"mode": "word",
+"ntup": 95,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+2,
+2,
+1
+],
+"mode": "first",
+"ntup": 114,
+"valid": 0.325,
+"cvalid": 0.306,
+"p_valid": 0.3831,
+"q": -6.895,
+"cq": -6.798,
+"zq": -0.3,
+"p_q": 0.5771,
+"out": "tsfhdeocltuaawgaowdtgadsiamisdoypbstc"
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+2,
+2,
+1
+],
+"mode": "word",
+"ntup": 114,
+"valid": 0.325,
+"cvalid": 0.306,
+"p_valid": 0.3831,
+"q": -4.576,
+"cq": -4.72,
+"zq": 0.84,
+"p_q": 0.199,
+"out": "theshapedforhavedefeatsesotherconcludedliketheunionandasters"
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+2,
+2,
+2
+],
+"mode": "first",
+"ntup": 95,
+"valid": 0.0,
+"cvalid": 0.001,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+2,
+2,
+2
+],
+"mode": "word",
+"ntup": 95,
+"valid": 0.0,
+"cvalid": 0.001,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.799,
+"zq": -0.14,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+2,
+2,
+3
+],
+"mode": "first",
+"ntup": 81,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+2,
+2,
+3
+],
+"mode": "word",
+"ntup": 81,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+2,
+3,
+1
+],
+"mode": "first",
+"ntup": 95,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+2,
+3,
+1
+],
+"mode": "word",
+"ntup": 95,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.777,
+"zq": -0.14,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+2,
+3,
+2
+],
+"mode": "first",
+"ntup": 81,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+2,
+3,
+2
+],
+"mode": "word",
+"ntup": 81,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+2,
+3,
+3
+],
+"mode": "first",
+"ntup": 71,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+2,
+3,
+3
+],
+"mode": "word",
+"ntup": 71,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+3,
+1,
+1
+],
+"mode": "first",
+"ntup": 114,
+"valid": 0.0,
+"cvalid": 0.014,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.628,
+"zq": -0.28,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+3,
+1,
+1
+],
+"mode": "word",
+"ntup": 114,
+"valid": 0.0,
+"cvalid": 0.014,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -6.29,
+"zq": -1.44,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+3,
+1,
+2
+],
+"mode": "first",
+"ntup": 95,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+3,
+1,
+2
+],
+"mode": "word",
+"ntup": 95,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+3,
+1,
+3
+],
+"mode": "first",
+"ntup": 81,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+3,
+1,
+3
+],
+"mode": "word",
+"ntup": 81,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+3,
+2,
+1
+],
+"mode": "first",
+"ntup": 95,
+"valid": 0.011,
+"cvalid": 0.01,
+"p_valid": 0.6269,
+"q": -9.9,
+"cq": -9.876,
+"zq": -0.1,
+"p_q": 1.0,
+"out": "t"
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+3,
+2,
+1
+],
+"mode": "word",
+"ntup": 95,
+"valid": 0.011,
+"cvalid": 0.01,
+"p_valid": 0.6269,
+"q": -9.9,
+"cq": -7.486,
+"zq": -0.91,
+"p_q": 1.0,
+"out": "the"
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+3,
+2,
+2
+],
+"mode": "first",
+"ntup": 81,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+3,
+2,
+2
+],
+"mode": "word",
+"ntup": 81,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+3,
+2,
+3
+],
+"mode": "first",
+"ntup": 71,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+3,
+2,
+3
+],
+"mode": "word",
+"ntup": 71,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+3,
+3,
+1
+],
+"mode": "first",
+"ntup": 81,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+3,
+3,
+1
+],
+"mode": "word",
+"ntup": 81,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.801,
+"zq": -0.14,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+3,
+3,
+2
+],
+"mode": "first",
+"ntup": 71,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+3,
+3,
+2
+],
+"mode": "word",
+"ntup": 71,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+3,
+3,
+3
+],
+"mode": "first",
+"ntup": 63,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "faed",
+"kind": "plw",
+"sizes": [
+3,
+3,
+3
+],
+"mode": "word",
+"ntup": 63,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "faed",
+"kind": "bw",
+"sizes": [
+1
+],
+"mode": "first",
+"ntup": 570,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -7.303,
+"cq": -7.303,
+"zq": 0.01,
+"p_q": 0.4577,
+"out": "uctoccttoumdocdddccmcomutoocuocdcbccctoccbcuctmcdccmocbdtdcd"
+},
+{
+"src": "faed",
+"kind": "bw",
+"sizes": [
+1
+],
+"mode": "word",
+"ntup": 570,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -6.447,
+"cq": -6.437,
+"zq": -1.11,
+"p_q": 0.8657,
+"out": "unknowncosmictheofcosmiccosmicthetheofunknownmmsmdualuyofcos"
+},
+{
+"src": "faed",
+"kind": "bl",
+"sizes": [
+1
+],
+"mode": "letter",
+"ntup": 570,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -7.092,
+"cq": -7.038,
+"zq": -1.15,
+"p_q": 0.8607,
+"out": "ccimddiimcsomcouuddscmscimmdcmdodadccimddacccisduddsmcauiucu"
+},
+{
+"src": "faed",
+"kind": "bw",
+"sizes": [
+2
+],
+"mode": "first",
+"ntup": 285,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -6.704,
+"cq": -6.778,
+"zq": 0.8,
+"p_q": 0.2189,
+"out": "tiuhttooacbfidgpostdobttacoeovtecrhdihctatspotuoluhubttohrhe"
+},
+{
+"src": "faed",
+"kind": "bw",
+"sizes": [
+2
+],
+"mode": "word",
+"ntup": 285,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -5.0,
+"cq": -4.926,
+"zq": -1.11,
+"p_q": 0.8756,
+"out": "theinunifyhethetheofoldandcreditsbooksfairyindevilgoodpictur"
+},
+{
+"src": "faed",
+"kind": "bl",
+"sizes": [
+2
+],
+"mode": "letter",
+"ntup": 285,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -6.976,
+"cq": -6.802,
+"zq": -1.84,
+"p_q": 0.9652,
+"out": "iobfemynnlmnoebeomseomsanlyimferlekofkticimioauoebfbmeaebeou"
+},
+{
+"src": "faed",
+"kind": "bw",
+"sizes": [
+3
+],
+"mode": "first",
+"ntup": 190,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -6.742,
+"cq": -6.806,
+"zq": 0.53,
+"p_q": 0.2786,
+"out": "stfnpoiaostaesmppdtfflocacpafottwpbsfyotbieawbafmshitpbaaodb"
+},
+{
+"src": "faed",
+"kind": "bw",
+"sizes": [
+3
+],
+"mode": "word",
+"ntup": 190,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -4.831,
+"cq": -4.784,
+"zq": -0.62,
+"p_q": 0.7214,
+"out": "stonethefarnopartiofidentitiesandofsacredtoatendsshivamalepr"
+},
+{
+"src": "faed",
+"kind": "bl",
+"sizes": [
+3
+],
+"mode": "letter",
+"ntup": 190,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -6.707,
+"cq": -6.576,
+"zq": -0.95,
+"p_q": 0.8358,
+"out": "ndhegfhhidtcmlthtledifhhlsrdgdrsiadvyehagemeadwdmieslagisgrd"
+},
+{
+"src": "faed",
+"kind": "bw",
+"sizes": [
+4
+],
+"mode": "first",
+"ntup": 142,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -6.877,
+"cq": -6.879,
+"zq": 0.02,
+"p_q": 0.4627,
+"out": "tfletihhwsamtbgtrtofyitcaaeaitatthimuicabtsditgawfvocoanibin"
+},
+{
+"src": "faed",
+"kind": "bw",
+"sizes": [
+4
+],
+"mode": "word",
+"ntup": 142,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -4.716,
+"cq": -4.726,
+"zq": 0.1,
+"p_q": 0.4527,
+"out": "theyfromloosedeurytheitshehavewhoshapedandmythicalthebodygoo"
+},
+{
+"src": "faed",
+"kind": "bl",
+"sizes": [
+4
+],
+"mode": "letter",
+"ntup": 142,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -6.575,
+"cq": -6.647,
+"zq": 0.46,
+"p_q": 0.3134,
+"out": "sgeetofnhoettsasodalpcccngidpansarctnaenantuuanhaaehestenmer"
+},
+{
+"src": "faed",
+"kind": "bw",
+"sizes": [
+5
+],
+"mode": "first",
+"ntup": 114,
+"valid": 0.316,
+"cvalid": 0.343,
+"p_valid": 0.7711,
+"q": -6.788,
+"cq": -6.819,
+"zq": 0.12,
+"p_q": 0.4328,
+"out": "iasmacrhfiasruiotndwtiosybaterahtauc"
+},
+{
+"src": "faed",
+"kind": "bw",
+"sizes": [
+5
+],
+"mode": "word",
+"ntup": 114,
+"valid": 0.316,
+"cvalid": 0.343,
+"p_valid": 0.7711,
+"q": -4.659,
+"cq": -4.713,
+"zq": 0.32,
+"p_q": 0.3532,
+"out": "inageshemetalsachristiansremainshellforinandswedishreucsulti"
+},
+{
+"src": "faed",
+"kind": "bl",
+"sizes": [
+5
+],
+"mode": "letter",
+"ntup": 114,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -6.54,
+"cq": -6.646,
+"zq": 0.6,
+"p_q": 0.2388,
+"out": "toswgpsbiiioutimasuwospkshmsfsiufebeetsfhcwsoloetdigeooyelcr"
+},
+{
+"src": "faed",
+"kind": "ih",
+"sizes": [
+1
+],
+"mode": "first",
+"ntup": 570,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -7.096,
+"cq": -7.134,
+"zq": 1.19,
+"p_q": 0.1244,
+"out": "ataaaaaaaaaaataaaaaataaaaaaaaaaaawattaaaawtataaaaaaaatwaaata"
+},
+{
+"src": "faed",
+"kind": "ih",
+"sizes": [
+1
+],
+"mode": "word",
+"ntup": 570,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -5.178,
+"cq": -5.178,
+"zq": 0.17,
+"p_q": 0.3881,
+"out": "adamtheabductionofproserpinaacropolisabsolutistsadamandevead"
+},
+{
+"src": "faed",
+"kind": "iw",
+"sizes": [
+1
+],
+"mode": "first",
+"ntup": 570,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -7.069,
+"cq": -7.047,
+"zq": -0.51,
+"p_q": 0.6816,
+"out": "atdpaaddpaoaptaaaaaotpoadppaapaaabattdpaabtatdoaaaaoptbadata"
+},
+{
+"src": "faed",
+"kind": "iw",
+"sizes": [
+1
+],
+"mode": "word",
+"ntup": 570,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -5.377,
+"cq": -5.374,
+"zq": -0.31,
+"p_q": 0.6468,
+"out": "aboriginesthedurerproserpinaaustralianaustraliandurerdurerpr"
+},
+{
+"src": "faed",
+"kind": "ih",
+"sizes": [
+2
+],
+"mode": "first",
+"ntup": 285,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -7.245,
+"cq": -7.274,
+"zq": 0.67,
+"p_q": 0.209,
+"out": "bbfbbabaffabbbbfffabfaabffbgbaaffbeafeababfabbabffbfaabbbbba"
+},
+{
+"src": "faed",
+"kind": "ih",
+"sizes": [
+2
+],
+"mode": "word",
+"ntup": 285,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -5.385,
+"cq": -5.433,
+"zq": 1.09,
+"p_q": 0.1692,
+"out": "bounteousimmortalsbogomilflagsbogomilsbilocationavaricebenth"
+},
+{
+"src": "faed",
+"kind": "iw",
+"sizes": [
+2
+],
+"mode": "first",
+"ntup": 285,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -7.022,
+"cq": -7.005,
+"zq": -0.2,
+"p_q": 0.5572,
+"out": "ntmoaaaaysaatgipymbgyfbaysaepoaasanldnananmdjagjsmomfaawcala"
+},
+{
+"src": "faed",
+"kind": "iw",
+"sizes": [
+2
+],
+"mode": "word",
+"ntup": 285,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -5.196,
+"cq": -5.289,
+"zq": 1.6,
+"p_q": 0.0647,
+"out": "newteachingmiraclesonandandandadamyoustadamaflerlifeteaching"
+},
+{
+"src": "faed",
+"kind": "ih",
+"sizes": [
+3
+],
+"mode": "first",
+"ntup": 190,
+"valid": 0.132,
+"cvalid": 0.176,
+"p_valid": 0.9851,
+"q": -7.36,
+"cq": -7.309,
+"zq": -0.36,
+"p_q": 0.5522,
+"out": "tjtpipkkioujlkjkhophpoptl"
+},
+{
+"src": "faed",
+"kind": "ih",
+"sizes": [
+3
+],
+"mode": "word",
+"ntup": 190,
+"valid": 0.132,
+"cvalid": 0.176,
+"p_valid": 0.9851,
+"q": -5.247,
+"cq": -5.524,
+"zq": 1.59,
+"p_q": 0.0547,
+"out": "thelnernojlackandthebeanstalkthenightmarepersiansipenisenvyk"
+},
+{
+"src": "faed",
+"kind": "iw",
+"sizes": [
+3
+],
+"mode": "first",
+"ntup": 190,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -7.141,
+"cq": -7.047,
+"zq": -0.94,
+"p_q": 0.8159,
+"out": "abdagqqjrdbapavsanacldarcaabaoouclsmsbabdkaraswswmbanydcbeaa"
+},
+{
+"src": "faed",
+"kind": "iw",
+"sizes": [
+3
+],
+"mode": "word",
+"ntup": 190,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -5.227,
+"cq": -5.366,
+"zq": 1.84,
+"p_q": 0.0547,
+"out": "andbracedandgardenquotedquotedjwingmingraouldayforcebumhamaf"
+},
+{
+"src": "Z1",
+"kind": "pw",
+"sizes": [
+1,
+1
+],
+"mode": "first",
+"ntup": 31,
+"valid": 0.484,
+"cvalid": 0.443,
+"p_valid": 0.3831,
+"q": -7.219,
+"cq": -6.977,
+"zq": -0.56,
+"p_q": 0.6418,
+"out": "lspbrgidddgoumc"
+},
+{
+"src": "Z1",
+"kind": "pw",
+"sizes": [
+1,
+1
+],
+"mode": "word",
+"ntup": 31,
+"valid": 0.484,
+"cvalid": 0.443,
+"p_valid": 0.3831,
+"q": -6.194,
+"cq": -5.586,
+"zq": -1.64,
+"p_q": 0.9701,
+"out": "lliesrpinbyrguardidualizesdnalifydualuyguardoppolfunknownmms"
+},
+{
+"src": "Z1",
+"kind": "pl",
+"sizes": [
+1,
+1
+],
+"mode": "letter",
+"ntup": 31,
+"valid": 0.548,
+"cvalid": 0.537,
+"p_valid": 0.5473,
+"q": -6.873,
+"cq": -6.755,
+"zq": -0.26,
+"p_q": 0.5871,
+"out": "dlsetiiisfoiermmc"
+},
+{
+"src": "Z1",
+"kind": "pw",
+"sizes": [
+1,
+2
+],
+"mode": "first",
+"ntup": 21,
+"valid": 0.143,
+"cvalid": 0.204,
+"p_valid": 0.8607,
+"q": -9.9,
+"cq": -7.986,
+"zq": -1.18,
+"p_q": 1.0,
+"out": "imw"
+},
+{
+"src": "Z1",
+"kind": "pw",
+"sizes": [
+1,
+2
+],
+"mode": "word",
+"ntup": 21,
+"valid": 0.143,
+"cvalid": 0.204,
+"p_valid": 0.8607,
+"q": -7.038,
+"cq": -4.809,
+"zq": -2.38,
+"p_q": 0.9801,
+"out": "inmmsmwas"
+},
+{
+"src": "Z1",
+"kind": "pl",
+"sizes": [
+1,
+2
+],
+"mode": "letter",
+"ntup": 21,
+"valid": 0.286,
+"cvalid": 0.356,
+"p_valid": 0.8259,
+"q": -7.45,
+"cq": -6.781,
+"zq": -0.86,
+"p_q": 1.0,
+"out": "brabmv"
+},
+{
+"src": "Z1",
+"kind": "pw",
+"sizes": [
+1,
+3
+],
+"mode": "first",
+"ntup": 15,
+"valid": 0.067,
+"cvalid": 0.034,
+"p_valid": 0.4328,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": "e"
+},
+{
+"src": "Z1",
+"kind": "pw",
+"sizes": [
+1,
+3
+],
+"mode": "word",
+"ntup": 15,
+"valid": 0.067,
+"cvalid": 0.034,
+"p_valid": 0.4328,
+"q": -5.464,
+"cq": -8.253,
+"zq": 1.11,
+"p_q": 0.2537,
+"out": "energies"
+},
+{
+"src": "Z1",
+"kind": "pl",
+"sizes": [
+1,
+3
+],
+"mode": "letter",
+"ntup": 15,
+"valid": 0.2,
+"cvalid": 0.148,
+"p_valid": 0.3881,
+"q": -9.9,
+"cq": -9.42,
+"zq": -0.39,
+"p_q": 1.0,
+"out": "aso"
+},
+{
+"src": "Z1",
+"kind": "pw",
+"sizes": [
+2,
+1
+],
+"mode": "first",
+"ntup": 21,
+"valid": 0.81,
+"cvalid": 0.83,
+"p_valid": 0.7413,
+"q": -6.98,
+"cq": -6.881,
+"zq": -0.26,
+"p_q": 0.5622,
+"out": "gclphfthaassptaal"
+},
+{
+"src": "Z1",
+"kind": "pw",
+"sizes": [
+2,
+1
+],
+"mode": "word",
+"ntup": 21,
+"valid": 0.81,
+"cvalid": 0.83,
+"p_valid": 0.7413,
+"q": -4.475,
+"cq": -4.946,
+"zq": 1.66,
+"p_q": 0.0348,
+"out": "growlchapterlookedperfectedhavefatherthehadaasaidsnakespoint"
+},
+{
+"src": "Z1",
+"kind": "pl",
+"sizes": [
+2,
+1
+],
+"mode": "letter",
+"ntup": 21,
+"valid": 0.952,
+"cvalid": 0.843,
+"p_valid": 0.1443,
+"q": -7.034,
+"cq": -6.707,
+"zq": -0.7,
+"p_q": 0.7662,
+"out": "tcuiweaerratwpohirvi"
+},
+{
+"src": "Z1",
+"kind": "pw",
+"sizes": [
+2,
+2
+],
+"mode": "first",
+"ntup": 15,
+"valid": 0.8,
+"cvalid": 0.802,
+"p_valid": 0.6169,
+"q": -6.906,
+"cq": -6.753,
+"zq": -0.27,
+"p_q": 0.5373,
+"out": "batambwemtsc"
+},
+{
+"src": "Z1",
+"kind": "pw",
+"sizes": [
+2,
+2
+],
+"mode": "word",
+"ntup": 15,
+"valid": 0.8,
+"cvalid": 0.802,
+"p_valid": 0.6169,
+"q": -4.557,
+"cq": -4.761,
+"zq": 0.61,
+"p_q": 0.2786,
+"out": "boyatheallmercurybcrwereexistencemanithesomehowcan"
+},
+{
+"src": "Z1",
+"kind": "pl",
+"sizes": [
+2,
+2
+],
+"mode": "letter",
+"ntup": 15,
+"valid": 0.867,
+"cvalid": 0.836,
+"p_valid": 0.5373,
+"q": -7.25,
+"cq": -6.682,
+"zq": -1.06,
+"p_q": 0.9055,
+"out": "naeetnfgadcgy"
+},
+{
+"src": "Z1",
+"kind": "pw",
+"sizes": [
+2,
+3
+],
+"mode": "first",
+"ntup": 12,
+"valid": 0.583,
+"cvalid": 0.388,
+"p_valid": 0.1393,
+"q": -7.45,
+"cq": -7.716,
+"zq": 0.17,
+"p_q": 0.7313,
+"out": "mogftph"
+},
+{
+"src": "Z1",
+"kind": "pw",
+"sizes": [
+2,
+3
+],
+"mode": "word",
+"ntup": 12,
+"valid": 0.583,
+"cvalid": 0.388,
+"p_valid": 0.1393,
+"q": -4.655,
+"cq": -4.697,
+"zq": 0.06,
+"p_q": 0.4876,
+"out": "meanwhileotherguidefirmlytormentedpriesthe"
+},
+{
+"src": "Z1",
+"kind": "pl",
+"sizes": [
+2,
+3
+],
+"mode": "letter",
+"ntup": 12,
+"valid": 0.917,
+"cvalid": 0.733,
+"p_valid": 0.0995,
+"q": -6.95,
+"cq": -6.583,
+"zq": -0.52,
+"p_q": 0.6269,
+"out": "edsdeieoedb"
+},
+{
+"src": "Z1",
+"kind": "pw",
+"sizes": [
+3,
+1
+],
+"mode": "first",
+"ntup": 15,
+"valid": 0.067,
+"cvalid": 0.094,
+"p_valid": 0.7861,
+"q": -9.9,
+"cq": -9.851,
+"zq": -0.12,
+"p_q": 1.0,
+"out": "v"
+},
+{
+"src": "Z1",
+"kind": "pw",
+"sizes": [
+3,
+1
+],
+"mode": "word",
+"ntup": 15,
+"valid": 0.067,
+"cvalid": 0.094,
+"p_valid": 0.7861,
+"q": -4.3,
+"cq": -6.732,
+"zq": 0.96,
+"p_q": 0.209,
+"out": "visible"
+},
+{
+"src": "Z1",
+"kind": "pl",
+"sizes": [
+3,
+1
+],
+"mode": "letter",
+"ntup": 15,
+"valid": 0.067,
+"cvalid": 0.097,
+"p_valid": 0.806,
+"q": -9.9,
+"cq": -9.849,
+"zq": -0.11,
+"p_q": 1.0,
+"out": "v"
+},
+{
+"src": "Z1",
+"kind": "pw",
+"sizes": [
+3,
+2
+],
+"mode": "first",
+"ntup": 12,
+"valid": 0.083,
+"cvalid": 0.094,
+"p_valid": 0.7164,
+"q": -9.9,
+"cq": -9.888,
+"zq": -0.07,
+"p_q": 1.0,
+"out": "t"
+},
+{
+"src": "Z1",
+"kind": "pw",
+"sizes": [
+3,
+2
+],
+"mode": "word",
+"ntup": 12,
+"valid": 0.083,
+"cvalid": 0.094,
+"p_valid": 0.7164,
+"q": -4.258,
+"cq": -7.157,
+"zq": 1.06,
+"p_q": 0.199,
+"out": "travel"
+},
+{
+"src": "Z1",
+"kind": "pl",
+"sizes": [
+3,
+2
+],
+"mode": "letter",
+"ntup": 12,
+"valid": 0.083,
+"cvalid": 0.095,
+"p_valid": 0.7164,
+"q": -9.9,
+"cq": -9.857,
+"zq": -0.1,
+"p_q": 1.0,
+"out": "c"
+},
+{
+"src": "Z1",
+"kind": "pw",
+"sizes": [
+3,
+3
+],
+"mode": "first",
+"ntup": 10,
+"valid": 0.1,
+"cvalid": 0.038,
+"p_valid": 0.3433,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": "a"
+},
+{
+"src": "Z1",
+"kind": "pw",
+"sizes": [
+3,
+3
+],
+"mode": "word",
+"ntup": 10,
+"valid": 0.1,
+"cvalid": 0.038,
+"p_valid": 0.3433,
+"q": -9.9,
+"cq": -8.724,
+"zq": -0.52,
+"p_q": 1.0,
+"out": "ask"
+},
+{
+"src": "Z1",
+"kind": "pl",
+"sizes": [
+3,
+3
+],
+"mode": "letter",
+"ntup": 10,
+"valid": 0.1,
+"cvalid": 0.076,
+"p_valid": 0.5871,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": "t"
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+1,
+1,
+1
+],
+"mode": "first",
+"ntup": 21,
+"valid": 0.095,
+"cvalid": 0.161,
+"p_valid": 0.8955,
+"q": -9.9,
+"cq": -8.417,
+"zq": -0.84,
+"p_q": 1.0,
+"out": "tv"
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+1,
+1,
+1
+],
+"mode": "word",
+"ntup": 21,
+"valid": 0.095,
+"cvalid": 0.161,
+"p_valid": 0.8955,
+"q": -4.193,
+"cq": -5.229,
+"zq": 0.71,
+"p_q": 0.1692,
+"out": "thisvoid"
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+1,
+1,
+2
+],
+"mode": "first",
+"ntup": 15,
+"valid": 0.067,
+"cvalid": 0.009,
+"p_valid": 0.1343,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": "l"
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+1,
+1,
+2
+],
+"mode": "word",
+"ntup": 15,
+"valid": 0.067,
+"cvalid": 0.009,
+"p_valid": 0.1343,
+"q": -4.973,
+"cq": -9.598,
+"zq": 3.98,
+"p_q": 0.0448,
+"out": "llie"
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+1,
+1,
+3
+],
+"mode": "first",
+"ntup": 12,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+1,
+1,
+3
+],
+"mode": "word",
+"ntup": 12,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.888,
+"zq": -0.07,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+1,
+2,
+1
+],
+"mode": "first",
+"ntup": 15,
+"valid": 0.067,
+"cvalid": 0.05,
+"p_valid": 0.5473,
+"q": -9.9,
+"cq": -9.888,
+"zq": -0.07,
+"p_q": 1.0,
+"out": "d"
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+1,
+2,
+1
+],
+"mode": "word",
+"ntup": 15,
+"valid": 0.067,
+"cvalid": 0.05,
+"p_valid": 0.5473,
+"q": -9.9,
+"cq": -7.643,
+"zq": -0.82,
+"p_q": 1.0,
+"out": "day"
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+1,
+2,
+2
+],
+"mode": "first",
+"ntup": 12,
+"valid": 0.0,
+"cvalid": 0.003,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+1,
+2,
+2
+],
+"mode": "word",
+"ntup": 12,
+"valid": 0.0,
+"cvalid": 0.003,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.721,
+"zq": -0.17,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+1,
+2,
+3
+],
+"mode": "first",
+"ntup": 10,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+1,
+2,
+3
+],
+"mode": "word",
+"ntup": 10,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+1,
+3,
+1
+],
+"mode": "first",
+"ntup": 12,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+1,
+3,
+1
+],
+"mode": "word",
+"ntup": 12,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.869,
+"zq": -0.07,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+1,
+3,
+2
+],
+"mode": "first",
+"ntup": 10,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+1,
+3,
+2
+],
+"mode": "word",
+"ntup": 10,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+1,
+3,
+3
+],
+"mode": "first",
+"ntup": 9,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+1,
+3,
+3
+],
+"mode": "word",
+"ntup": 9,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+2,
+1,
+1
+],
+"mode": "first",
+"ntup": 15,
+"valid": 0.6,
+"cvalid": 0.517,
+"p_valid": 0.3284,
+"q": -6.37,
+"cq": -6.77,
+"zq": 0.46,
+"p_q": 0.2587,
+"out": "staasthtw"
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+2,
+1,
+1
+],
+"mode": "word",
+"ntup": 15,
+"valid": 0.6,
+"cvalid": 0.517,
+"p_valid": 0.3284,
+"q": -4.184,
+"cq": -4.805,
+"zq": 1.41,
+"p_q": 0.0647,
+"out": "smalltheandansamethishadthewilshlre"
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+2,
+1,
+2
+],
+"mode": "first",
+"ntup": 12,
+"valid": 0.0,
+"cvalid": 0.034,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+2,
+1,
+2
+],
+"mode": "word",
+"ntup": 12,
+"valid": 0.0,
+"cvalid": 0.034,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -8.71,
+"zq": -0.52,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+2,
+1,
+3
+],
+"mode": "first",
+"ntup": 10,
+"valid": 0.0,
+"cvalid": 0.002,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+2,
+1,
+3
+],
+"mode": "word",
+"ntup": 10,
+"valid": 0.0,
+"cvalid": 0.002,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+2,
+2,
+1
+],
+"mode": "first",
+"ntup": 12,
+"valid": 0.5,
+"cvalid": 0.38,
+"p_valid": 0.3035,
+"q": -6.402,
+"cq": -7.646,
+"zq": 0.8,
+"p_q": 0.1741,
+"out": "tatsii"
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+2,
+2,
+1
+],
+"mode": "word",
+"ntup": 12,
+"valid": 0.5,
+"cvalid": 0.38,
+"p_valid": 0.3035,
+"q": -3.869,
+"cq": -4.617,
+"zq": 0.99,
+"p_q": 0.1393,
+"out": "thatabouttoserversinin"
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+2,
+2,
+2
+],
+"mode": "first",
+"ntup": 10,
+"valid": 0.0,
+"cvalid": 0.029,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+2,
+2,
+2
+],
+"mode": "word",
+"ntup": 10,
+"valid": 0.0,
+"cvalid": 0.029,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.316,
+"zq": -0.35,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+2,
+2,
+3
+],
+"mode": "first",
+"ntup": 9,
+"valid": 0.0,
+"cvalid": 0.001,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+2,
+2,
+3
+],
+"mode": "word",
+"ntup": 9,
+"valid": 0.0,
+"cvalid": 0.001,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.87,
+"zq": -0.07,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+2,
+3,
+1
+],
+"mode": "first",
+"ntup": 10,
+"valid": 0.0,
+"cvalid": 0.021,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+2,
+3,
+1
+],
+"mode": "word",
+"ntup": 10,
+"valid": 0.0,
+"cvalid": 0.021,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.257,
+"zq": -0.35,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+2,
+3,
+2
+],
+"mode": "first",
+"ntup": 9,
+"valid": 0.0,
+"cvalid": 0.001,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+2,
+3,
+2
+],
+"mode": "word",
+"ntup": 9,
+"valid": 0.0,
+"cvalid": 0.001,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+2,
+3,
+3
+],
+"mode": "first",
+"ntup": 7,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+2,
+3,
+3
+],
+"mode": "word",
+"ntup": 7,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+3,
+1,
+1
+],
+"mode": "first",
+"ntup": 12,
+"valid": 0.0,
+"cvalid": 0.061,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.888,
+"zq": -0.07,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+3,
+1,
+1
+],
+"mode": "word",
+"ntup": 12,
+"valid": 0.0,
+"cvalid": 0.061,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -7.764,
+"zq": -0.79,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+3,
+1,
+2
+],
+"mode": "first",
+"ntup": 10,
+"valid": 0.0,
+"cvalid": 0.002,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+3,
+1,
+2
+],
+"mode": "word",
+"ntup": 10,
+"valid": 0.0,
+"cvalid": 0.002,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.847,
+"zq": -0.1,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+3,
+1,
+3
+],
+"mode": "first",
+"ntup": 9,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+3,
+1,
+3
+],
+"mode": "word",
+"ntup": 9,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+3,
+2,
+1
+],
+"mode": "first",
+"ntup": 10,
+"valid": 0.0,
+"cvalid": 0.032,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+3,
+2,
+1
+],
+"mode": "word",
+"ntup": 10,
+"valid": 0.0,
+"cvalid": 0.032,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -8.833,
+"zq": -0.48,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+3,
+2,
+2
+],
+"mode": "first",
+"ntup": 9,
+"valid": 0.0,
+"cvalid": 0.003,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+3,
+2,
+2
+],
+"mode": "word",
+"ntup": 9,
+"valid": 0.0,
+"cvalid": 0.003,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.845,
+"zq": -0.1,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+3,
+2,
+3
+],
+"mode": "first",
+"ntup": 7,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+3,
+2,
+3
+],
+"mode": "word",
+"ntup": 7,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+3,
+3,
+1
+],
+"mode": "first",
+"ntup": 9,
+"valid": 0.0,
+"cvalid": 0.002,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+3,
+3,
+1
+],
+"mode": "word",
+"ntup": 9,
+"valid": 0.0,
+"cvalid": 0.002,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.816,
+"zq": -0.14,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+3,
+3,
+2
+],
+"mode": "first",
+"ntup": 7,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+3,
+3,
+2
+],
+"mode": "word",
+"ntup": 7,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+3,
+3,
+3
+],
+"mode": "first",
+"ntup": 7,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z1",
+"kind": "plw",
+"sizes": [
+3,
+3,
+3
+],
+"mode": "word",
+"ntup": 7,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z1",
+"kind": "bw",
+"sizes": [
+1
+],
+"mode": "first",
+"ntup": 63,
+"valid": 0.952,
+"cvalid": 0.952,
+"p_valid": 1.0,
+"q": -7.29,
+"cq": -7.27,
+"zq": -0.22,
+"p_q": 0.5721,
+"out": "ccocuccdtbtmccmdcbmdddmcdtdmumcdbmuoddmoddmccdocbddcdtcotoot"
+},
+{
+"src": "Z1",
+"kind": "bw",
+"sizes": [
+1
+],
+"mode": "word",
+"ntup": 63,
+"valid": 0.952,
+"cvalid": 0.952,
+"p_valid": 1.0,
+"q": -6.602,
+"cq": -6.611,
+"zq": 0.31,
+"p_q": 0.3781,
+"out": "cosmiccosmicofcosmicunknowncosmiccosmicdnalifythebythemmsmco"
+},
+{
+"src": "Z1",
+"kind": "bl",
+"sizes": [
+1
+],
+"mode": "letter",
+"ntup": 63,
+"valid": 0.952,
+"cvalid": 0.952,
+"p_valid": 1.0,
+"q": -6.754,
+"cq": -6.954,
+"zq": 1.32,
+"p_q": 0.1095,
+"out": "cdmccccuiaisddsudasoousdoiuscscoascmuusmooscdomcaoodoicmimmi"
+},
+{
+"src": "Z1",
+"kind": "bw",
+"sizes": [
+2
+],
+"mode": "first",
+"ntup": 31,
+"valid": 1.0,
+"cvalid": 0.998,
+"p_valid": 0.9502,
+"q": -7.085,
+"cq": -6.768,
+"zq": -1.0,
+"p_q": 0.8507,
+"out": "aotctgtcabugpoftobgtsueporupode"
+},
+{
+"src": "Z1",
+"kind": "bw",
+"sizes": [
+2
+],
+"mode": "word",
+"ntup": 31,
+"valid": 1.0,
+"cvalid": 0.998,
+"p_valid": 0.9502,
+"q": -4.773,
+"cq": -4.959,
+"zq": 0.89,
+"p_q": 0.2139,
+"out": "alexandriaofthecosmicthegenesistalescreditsandbookunitygodpi"
+},
+{
+"src": "Z1",
+"kind": "bl",
+"sizes": [
+2
+],
+"mode": "letter",
+"ntup": 31,
+"valid": 1.0,
+"cvalid": 0.998,
+"p_valid": 0.9502,
+"q": -6.658,
+"cq": -6.866,
+"zq": 0.73,
+"p_q": 0.2139,
+"out": "oyicxgalniulemnoyibdcuseyiueoht"
+},
+{
+"src": "Z1",
+"kind": "bw",
+"sizes": [
+3
+],
+"mode": "first",
+"ntup": 21,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -6.815,
+"cq": -6.835,
+"zq": 0.05,
+"p_q": 0.4328,
+"out": "omvsabahmtpctstttumta"
+},
+{
+"src": "Z1",
+"kind": "bw",
+"sizes": [
+3
+],
+"mode": "word",
+"ntup": 21,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -4.871,
+"cq": -4.7,
+"zq": -0.78,
+"p_q": 0.801,
+"out": "othermalevirginiasourceapartbirthahindumostthepairedcombinet"
+},
+{
+"src": "Z1",
+"kind": "bl",
+"sizes": [
+3
+],
+"mode": "letter",
+"ntup": 21,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -6.685,
+"cq": -6.609,
+"zq": -0.18,
+"p_q": 0.5423,
+"out": "ftftinneglptiteoaugac"
+},
+{
+"src": "Z1",
+"kind": "bw",
+"sizes": [
+4
+],
+"mode": "first",
+"ntup": 15,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -6.798,
+"cq": -6.942,
+"zq": 0.33,
+"p_q": 0.3234,
+"out": "aiascathkaaases"
+},
+{
+"src": "Z1",
+"kind": "bw",
+"sizes": [
+4
+],
+"mode": "word",
+"ntup": 15,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -5.153,
+"cq": -4.75,
+"zq": -1.45,
+"p_q": 0.9154,
+"out": "abductioninassmilingcatharsassociatedthehiskdlfaboutatalsosi"
+},
+{
+"src": "Z1",
+"kind": "bl",
+"sizes": [
+4
+],
+"mode": "letter",
+"ntup": 15,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -7.077,
+"cq": -6.593,
+"zq": -0.94,
+"p_q": 0.8308,
+"out": "oioshrheitfampb"
+},
+{
+"src": "Z1",
+"kind": "bw",
+"sizes": [
+5
+],
+"mode": "first",
+"ntup": 12,
+"valid": 0.833,
+"cvalid": 0.562,
+"p_valid": 0.0348,
+"q": -6.228,
+"cq": -6.846,
+"zq": 0.67,
+"p_q": 0.2239,
+"out": "sstwanwttf"
+},
+{
+"src": "Z1",
+"kind": "bw",
+"sizes": [
+5
+],
+"mode": "word",
+"ntup": 12,
+"valid": 0.833,
+"cvalid": 0.562,
+"p_valid": 0.0348,
+"q": -4.63,
+"cq": -4.667,
+"zq": 0.09,
+"p_q": 0.5075,
+"out": "shotsetthewomenatnomicswetthetofrightening"
+},
+{
+"src": "Z1",
+"kind": "bl",
+"sizes": [
+5
+],
+"mode": "letter",
+"ntup": 12,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -5.731,
+"cq": -6.637,
+"zq": 1.47,
+"p_q": 0.0896,
+"out": "noileenslfaw"
+},
+{
+"src": "Z1",
+"kind": "ih",
+"sizes": [
+1
+],
+"mode": "first",
+"ntup": 63,
+"valid": 0.952,
+"cvalid": 0.952,
+"p_valid": 1.0,
+"q": -6.986,
+"cq": -7.077,
+"zq": 0.79,
+"p_q": 0.199,
+"out": "taatattaawaaaaaaawaaaaaaaaaaaatawaaaaaaaaaataaatwaaaaataaaaa"
+},
+{
+"src": "Z1",
+"kind": "ih",
+"sizes": [
+1
+],
+"mode": "word",
+"ntup": 63,
+"valid": 0.952,
+"cvalid": 0.952,
+"p_valid": 1.0,
+"q": -5.238,
+"cq": -5.233,
+"zq": -0.36,
+"p_q": 0.6169,
+"out": "theabductionofproserpinaadamandeveabsolutiststheabductionofp"
+},
+{
+"src": "Z1",
+"kind": "iw",
+"sizes": [
+1
+],
+"mode": "first",
+"ntup": 63,
+"valid": 0.952,
+"cvalid": 0.952,
+"p_valid": 1.0,
+"q": -7.128,
+"cq": -6.938,
+"zq": -1.24,
+"p_q": 0.9204,
+"out": "taptattadbdoaaoaaboaaaoaadaoaotaboapaaopaaotaaptbaaaadtpdppd"
+},
+{
+"src": "Z1",
+"kind": "iw",
+"sizes": [
+1
+],
+"mode": "word",
+"ntup": 63,
+"valid": 0.952,
+"cvalid": 0.952,
+"p_valid": 1.0,
+"q": -5.283,
+"cq": -5.288,
+"zq": 0.17,
+"p_q": 0.4378,
+"out": "theaustralianproserpinatheaboriginesthetheabrahamdurerbiblic"
+},
+{
+"src": "Z1",
+"kind": "ih",
+"sizes": [
+2
+],
+"mode": "first",
+"ntup": 31,
+"valid": 1.0,
+"cvalid": 0.998,
+"p_valid": 0.9502,
+"q": -7.45,
+"cq": -7.229,
+"zq": -1.43,
+"p_q": 1.0,
+"out": "abbtfgbffgaffbbaagbfbaafbgafbbb"
+},
+{
+"src": "Z1",
+"kind": "ih",
+"sizes": [
+2
+],
+"mode": "word",
+"ntup": 31,
+"valid": 1.0,
+"cvalid": 0.998,
+"p_valid": 0.9502,
+"q": -5.228,
+"cq": -5.407,
+"zq": 1.55,
+"p_q": 0.0697,
+"out": "apophisbenthambounteousimmortalstheabductionofproserpinafreu"
+},
+{
+"src": "Z1",
+"kind": "iw",
+"sizes": [
+2
+],
+"mode": "first",
+"ntup": 31,
+"valid": 1.0,
+"cvalid": 0.998,
+"p_valid": 0.9502,
+"q": -6.909,
+"cq": -6.98,
+"zq": 0.26,
+"p_q": 0.3682,
+"out": "cantjpasytghppaedtihagrpaggpjte"
+},
+{
+"src": "Z1",
+"kind": "iw",
+"sizes": [
+2
+],
+"mode": "word",
+"ntup": 31,
+"valid": 1.0,
+"cvalid": 0.998,
+"p_valid": 0.9502,
+"q": -5.076,
+"cq": -5.156,
+"zq": 0.46,
+"p_q": 0.3134,
+"out": "characteristicsandnewthejohnphenomenaandstyouthegnosticsherb"
+},
+{
+"src": "Z1",
+"kind": "ih",
+"sizes": [
+3
+],
+"mode": "first",
+"ntup": 21,
+"valid": 0.476,
+"cvalid": 0.326,
+"p_valid": 0.0697,
+"q": -7.165,
+"cq": -7.289,
+"zq": 0.19,
+"p_q": 0.2438,
+"out": "kjarsrnkah"
+},
+{
+"src": "Z1",
+"kind": "ih",
+"sizes": [
+3
+],
+"mode": "word",
+"ntup": 21,
+"valid": 0.476,
+"cvalid": 0.326,
+"p_valid": 0.0697,
+"q": -5.092,
+"cq": -5.507,
+"zq": 1.06,
+"p_q": 0.1542,
+"out": "kalijlackandthebeanstalkappointmentinlerusalemrealityoftheru"
+},
+{
+"src": "Z1",
+"kind": "iw",
+"sizes": [
+3
+],
+"mode": "first",
+"ntup": 21,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -7.189,
+"cq": -7.0,
+"zq": -0.6,
+"p_q": 0.7015,
+"out": "svoacsbfpafngaistgpln"
+},
+{
+"src": "Z1",
+"kind": "iw",
+"sizes": [
+3
+],
+"mode": "word",
+"ntup": 21,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -5.621,
+"cq": -5.345,
+"zq": -1.14,
+"p_q": 0.8856,
+"out": "springvictorofandcamsharkeybaudelairefreudphilippeaspergillu"
+},
+{
+"src": "Z2",
+"kind": "pw",
+"sizes": [
+1,
+1
+],
+"mode": "first",
+"ntup": 14,
+"valid": 0.429,
+"cvalid": 0.249,
+"p_valid": 0.0348,
+"q": -6.625,
+"cq": -8.417,
+"zq": 1.1,
+"p_q": 0.1244,
+"out": "doreut"
+},
+{
+"src": "Z2",
+"kind": "pw",
+"sizes": [
+1,
+1
+],
+"mode": "word",
+"ntup": 14,
+"valid": 0.429,
+"cvalid": 0.249,
+"p_valid": 0.0348,
+"q": -5.32,
+"cq": -5.332,
+"zq": 0.01,
+"p_q": 0.5821,
+"out": "dnalifyoppolfremblemunknownthe"
+},
+{
+"src": "Z2",
+"kind": "pl",
+"sizes": [
+1,
+1
+],
+"mode": "letter",
+"ntup": 14,
+"valid": 0.429,
+"cvalid": 0.273,
+"p_valid": 0.0597,
+"q": -6.784,
+"cq": -8.004,
+"zq": 0.72,
+"p_q": 0.1891,
+"out": "feidmr"
+},
+{
+"src": "Z2",
+"kind": "pw",
+"sizes": [
+1,
+2
+],
+"mode": "first",
+"ntup": 9,
+"valid": 0.111,
+"cvalid": 0.215,
+"p_valid": 0.9353,
+"q": -9.9,
+"cq": -9.568,
+"zq": -0.32,
+"p_q": 1.0,
+"out": "m"
+},
+{
+"src": "Z2",
+"kind": "pw",
+"sizes": [
+1,
+2
+],
+"mode": "word",
+"ntup": 9,
+"valid": 0.111,
+"cvalid": 0.215,
+"p_valid": 0.9353,
+"q": -3.343,
+"cq": -5.519,
+"zq": 0.99,
+"p_q": 0.0647,
+"out": "make"
+},
+{
+"src": "Z2",
+"kind": "pl",
+"sizes": [
+1,
+2
+],
+"mode": "letter",
+"ntup": 9,
+"valid": 0.222,
+"cvalid": 0.273,
+"p_valid": 0.791,
+"q": -9.9,
+"cq": -9.378,
+"zq": -0.43,
+"p_q": 1.0,
+"out": "ea"
+},
+{
+"src": "Z2",
+"kind": "pw",
+"sizes": [
+1,
+3
+],
+"mode": "first",
+"ntup": 7,
+"valid": 0.0,
+"cvalid": 0.07,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "pw",
+"sizes": [
+1,
+3
+],
+"mode": "word",
+"ntup": 7,
+"valid": 0.0,
+"cvalid": 0.07,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -8.557,
+"zq": -0.57,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "pl",
+"sizes": [
+1,
+3
+],
+"mode": "letter",
+"ntup": 7,
+"valid": 0.286,
+"cvalid": 0.216,
+"p_valid": 0.4627,
+"q": -9.9,
+"cq": -9.814,
+"zq": -0.17,
+"p_q": 1.0,
+"out": "ep"
+},
+{
+"src": "Z2",
+"kind": "pw",
+"sizes": [
+2,
+1
+],
+"mode": "first",
+"ntup": 9,
+"valid": 0.556,
+"cvalid": 0.577,
+"p_valid": 0.7413,
+"q": -7.45,
+"cq": -7.1,
+"zq": -0.32,
+"p_q": 0.9353,
+"out": "tjtec"
+},
+{
+"src": "Z2",
+"kind": "pw",
+"sizes": [
+2,
+1
+],
+"mode": "word",
+"ntup": 9,
+"valid": 0.556,
+"cvalid": 0.577,
+"p_valid": 0.7413,
+"q": -4.553,
+"cq": -4.966,
+"zq": 0.8,
+"p_q": 0.194,
+"out": "thejtraditionalexplanationcreated"
+},
+{
+"src": "Z2",
+"kind": "pl",
+"sizes": [
+2,
+1
+],
+"mode": "letter",
+"ntup": 9,
+"valid": 0.556,
+"cvalid": 0.592,
+"p_valid": 0.7761,
+"q": -4.719,
+"cq": -6.825,
+"zq": 1.76,
+"p_q": 0.0697,
+"out": "tsary"
+},
+{
+"src": "Z2",
+"kind": "pw",
+"sizes": [
+2,
+2
+],
+"mode": "first",
+"ntup": 7,
+"valid": 0.857,
+"cvalid": 0.644,
+"p_valid": 0.1741,
+"q": -7.45,
+"cq": -7.364,
+"zq": -0.06,
+"p_q": 0.8408,
+"out": "awcwcl"
+},
+{
+"src": "Z2",
+"kind": "pw",
+"sizes": [
+2,
+2
+],
+"mode": "word",
+"ntup": 7,
+"valid": 0.857,
+"cvalid": 0.644,
+"p_valid": 0.1741,
+"q": -5.11,
+"cq": -4.72,
+"zq": -0.63,
+"p_q": 0.7562,
+"out": "awomenconvincingwhatcenturylife"
+},
+{
+"src": "Z2",
+"kind": "pl",
+"sizes": [
+2,
+2
+],
+"mode": "letter",
+"ntup": 7,
+"valid": 0.857,
+"cvalid": 0.676,
+"p_valid": 0.2289,
+"q": -7.45,
+"cq": -6.98,
+"zq": -0.31,
+"p_q": 0.8856,
+"out": "aethna"
+},
+{
+"src": "Z2",
+"kind": "pw",
+"sizes": [
+2,
+3
+],
+"mode": "first",
+"ntup": 5,
+"valid": 0.6,
+"cvalid": 0.364,
+"p_valid": 0.2637,
+"q": -9.9,
+"cq": -9.785,
+"zq": -0.18,
+"p_q": 1.0,
+"out": "tld"
+},
+{
+"src": "Z2",
+"kind": "pw",
+"sizes": [
+2,
+3
+],
+"mode": "word",
+"ntup": 5,
+"valid": 0.6,
+"cvalid": 0.364,
+"p_valid": 0.2637,
+"q": -5.432,
+"cq": -5.713,
+"zq": 0.13,
+"p_q": 0.6468,
+"out": "thelastbomdecay"
+},
+{
+"src": "Z2",
+"kind": "pl",
+"sizes": [
+2,
+3
+],
+"mode": "letter",
+"ntup": 5,
+"valid": 1.0,
+"cvalid": 0.651,
+"p_valid": 0.0995,
+"q": -7.45,
+"cq": -8.497,
+"zq": 0.58,
+"p_q": 0.4378,
+"out": "eaijc"
+},
+{
+"src": "Z2",
+"kind": "pw",
+"sizes": [
+3,
+1
+],
+"mode": "first",
+"ntup": 7,
+"valid": 0.143,
+"cvalid": 0.164,
+"p_valid": 0.7313,
+"q": -9.9,
+"cq": -9.888,
+"zq": -0.07,
+"p_q": 1.0,
+"out": "s"
+},
+{
+"src": "Z2",
+"kind": "pw",
+"sizes": [
+3,
+1
+],
+"mode": "word",
+"ntup": 7,
+"valid": 0.143,
+"cvalid": 0.164,
+"p_valid": 0.7313,
+"q": -3.631,
+"cq": -7.017,
+"zq": 1.29,
+"p_q": 0.0796,
+"out": "singer"
+},
+{
+"src": "Z2",
+"kind": "pl",
+"sizes": [
+3,
+1
+],
+"mode": "letter",
+"ntup": 7,
+"valid": 0.143,
+"cvalid": 0.166,
+"p_valid": 0.7363,
+"q": -9.9,
+"cq": -9.888,
+"zq": -0.07,
+"p_q": 1.0,
+"out": "i"
+},
+{
+"src": "Z2",
+"kind": "pw",
+"sizes": [
+3,
+2
+],
+"mode": "first",
+"ntup": 5,
+"valid": 0.0,
+"cvalid": 0.173,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.888,
+"zq": -0.07,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "pw",
+"sizes": [
+3,
+2
+],
+"mode": "word",
+"ntup": 5,
+"valid": 0.0,
+"cvalid": 0.173,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -7.096,
+"zq": -1.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "pl",
+"sizes": [
+3,
+2
+],
+"mode": "letter",
+"ntup": 5,
+"valid": 0.0,
+"cvalid": 0.181,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.871,
+"zq": -0.07,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "pw",
+"sizes": [
+3,
+3
+],
+"mode": "first",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.119,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "pw",
+"sizes": [
+3,
+3
+],
+"mode": "word",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.119,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -8.269,
+"zq": -0.64,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "pl",
+"sizes": [
+3,
+3
+],
+"mode": "letter",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.198,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+1,
+1,
+1
+],
+"mode": "first",
+"ntup": 9,
+"valid": 0.0,
+"cvalid": 0.086,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+1,
+1,
+1
+],
+"mode": "word",
+"ntup": 9,
+"valid": 0.0,
+"cvalid": 0.086,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -8.117,
+"zq": -0.69,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+1,
+1,
+2
+],
+"mode": "first",
+"ntup": 7,
+"valid": 0.0,
+"cvalid": 0.022,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+1,
+1,
+2
+],
+"mode": "word",
+"ntup": 7,
+"valid": 0.0,
+"cvalid": 0.022,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.517,
+"zq": -0.27,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+1,
+1,
+3
+],
+"mode": "first",
+"ntup": 5,
+"valid": 0.0,
+"cvalid": 0.001,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+1,
+1,
+3
+],
+"mode": "word",
+"ntup": 5,
+"valid": 0.0,
+"cvalid": 0.001,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.868,
+"zq": -0.07,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+1,
+2,
+1
+],
+"mode": "first",
+"ntup": 7,
+"valid": 0.0,
+"cvalid": 0.041,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+1,
+2,
+1
+],
+"mode": "word",
+"ntup": 7,
+"valid": 0.0,
+"cvalid": 0.041,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.03,
+"zq": -0.43,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+1,
+2,
+2
+],
+"mode": "first",
+"ntup": 5,
+"valid": 0.0,
+"cvalid": 0.008,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+1,
+2,
+2
+],
+"mode": "word",
+"ntup": 5,
+"valid": 0.0,
+"cvalid": 0.008,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.74,
+"zq": -0.17,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+1,
+2,
+3
+],
+"mode": "first",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.004,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+1,
+2,
+3
+],
+"mode": "word",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.004,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.874,
+"zq": -0.07,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+1,
+3,
+1
+],
+"mode": "first",
+"ntup": 5,
+"valid": 0.0,
+"cvalid": 0.012,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+1,
+3,
+1
+],
+"mode": "word",
+"ntup": 5,
+"valid": 0.0,
+"cvalid": 0.012,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.692,
+"zq": -0.2,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+1,
+3,
+2
+],
+"mode": "first",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.001,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+1,
+3,
+2
+],
+"mode": "word",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.001,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+1,
+3,
+3
+],
+"mode": "first",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+1,
+3,
+3
+],
+"mode": "word",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+2,
+1,
+1
+],
+"mode": "first",
+"ntup": 7,
+"valid": 0.429,
+"cvalid": 0.247,
+"p_valid": 0.2438,
+"q": -9.9,
+"cq": -9.812,
+"zq": -0.16,
+"p_q": 1.0,
+"out": "tpa"
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+2,
+1,
+1
+],
+"mode": "word",
+"ntup": 7,
+"valid": 0.429,
+"cvalid": 0.247,
+"p_valid": 0.2438,
+"q": -3.876,
+"cq": -5.884,
+"zq": 0.86,
+"p_q": 0.1493,
+"out": "theperfectionand"
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+2,
+1,
+2
+],
+"mode": "first",
+"ntup": 5,
+"valid": 0.0,
+"cvalid": 0.058,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+2,
+1,
+2
+],
+"mode": "word",
+"ntup": 5,
+"valid": 0.0,
+"cvalid": 0.058,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -8.956,
+"zq": -0.46,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+2,
+1,
+3
+],
+"mode": "first",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.018,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+2,
+1,
+3
+],
+"mode": "word",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.018,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.679,
+"zq": -0.2,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+2,
+2,
+1
+],
+"mode": "first",
+"ntup": 5,
+"valid": 0.0,
+"cvalid": 0.228,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+2,
+2,
+1
+],
+"mode": "word",
+"ntup": 5,
+"valid": 0.0,
+"cvalid": 0.228,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -6.682,
+"zq": -1.17,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+2,
+2,
+2
+],
+"mode": "first",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.074,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+2,
+2,
+2
+],
+"mode": "word",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.074,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -8.973,
+"zq": -0.46,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+2,
+2,
+3
+],
+"mode": "first",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.009,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+2,
+2,
+3
+],
+"mode": "word",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.009,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.738,
+"zq": -0.18,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+2,
+3,
+1
+],
+"mode": "first",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.049,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+2,
+3,
+1
+],
+"mode": "word",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.049,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.314,
+"zq": -0.34,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+2,
+3,
+2
+],
+"mode": "first",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.019,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+2,
+3,
+2
+],
+"mode": "word",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.019,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.59,
+"zq": -0.24,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+2,
+3,
+3
+],
+"mode": "first",
+"ntup": 3,
+"valid": 0.0,
+"cvalid": 0.002,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+2,
+3,
+3
+],
+"mode": "word",
+"ntup": 3,
+"valid": 0.0,
+"cvalid": 0.002,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.867,
+"zq": -0.07,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+3,
+1,
+1
+],
+"mode": "first",
+"ntup": 5,
+"valid": 0.0,
+"cvalid": 0.071,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+3,
+1,
+1
+],
+"mode": "word",
+"ntup": 5,
+"valid": 0.0,
+"cvalid": 0.071,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -8.882,
+"zq": -0.5,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+3,
+1,
+2
+],
+"mode": "first",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.018,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+3,
+1,
+2
+],
+"mode": "word",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.018,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.664,
+"zq": -0.21,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+3,
+1,
+3
+],
+"mode": "first",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.006,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+3,
+1,
+3
+],
+"mode": "word",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.006,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.828,
+"zq": -0.12,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+3,
+2,
+1
+],
+"mode": "first",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.074,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+3,
+2,
+1
+],
+"mode": "word",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.074,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -8.875,
+"zq": -0.48,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+3,
+2,
+2
+],
+"mode": "first",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.013,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+3,
+2,
+2
+],
+"mode": "word",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.013,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.652,
+"zq": -0.21,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+3,
+2,
+3
+],
+"mode": "first",
+"ntup": 3,
+"valid": 0.0,
+"cvalid": 0.003,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+3,
+2,
+3
+],
+"mode": "word",
+"ntup": 3,
+"valid": 0.0,
+"cvalid": 0.003,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+3,
+3,
+1
+],
+"mode": "first",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.019,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+3,
+3,
+1
+],
+"mode": "word",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.019,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.623,
+"zq": -0.22,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+3,
+3,
+2
+],
+"mode": "first",
+"ntup": 3,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+3,
+3,
+2
+],
+"mode": "word",
+"ntup": 3,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+3,
+3,
+3
+],
+"mode": "first",
+"ntup": 3,
+"valid": 0.0,
+"cvalid": 0.002,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "plw",
+"sizes": [
+3,
+3,
+3
+],
+"mode": "word",
+"ntup": 3,
+"valid": 0.0,
+"cvalid": 0.002,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "Z2",
+"kind": "bw",
+"sizes": [
+1
+],
+"mode": "first",
+"ntup": 29,
+"valid": 0.759,
+"cvalid": 0.759,
+"p_valid": 1.0,
+"q": -7.224,
+"cq": -7.168,
+"zq": -0.3,
+"p_q": 0.6517,
+"out": "muduodcodocbbcomocubod"
+},
+{
+"src": "Z2",
+"kind": "bw",
+"sizes": [
+1
+],
+"mode": "word",
+"ntup": 29,
+"valid": 0.759,
+"cvalid": 0.759,
+"p_valid": 1.0,
+"q": -6.47,
+"cq": -6.48,
+"zq": 0.17,
+"p_q": 0.4627,
+"out": "mmsmunknowndualuyunknownofdnalifycosmicofdualuyofcosmicbybyc"
+},
+{
+"src": "Z2",
+"kind": "bl",
+"sizes": [
+1
+],
+"mode": "letter",
+"ntup": 29,
+"valid": 0.759,
+"cvalid": 0.759,
+"p_valid": 1.0,
+"q": -7.329,
+"cq": -7.123,
+"zq": -1.02,
+"p_q": 0.8607,
+"out": "scocmudmomdaadmsmccamu"
+},
+{
+"src": "Z2",
+"kind": "bw",
+"sizes": [
+2
+],
+"mode": "first",
+"ntup": 14,
+"valid": 1.0,
+"cvalid": 0.947,
+"p_valid": 0.3831,
+"q": -6.933,
+"cq": -6.912,
+"zq": -0.05,
+"p_q": 0.4279,
+"out": "fdgaboabtbstuo"
+},
+{
+"src": "Z2",
+"kind": "bw",
+"sizes": [
+2
+],
+"mode": "word",
+"ntup": 14,
+"valid": 1.0,
+"cvalid": 0.947,
+"p_valid": 0.3831,
+"q": -5.3,
+"cq": -5.275,
+"zq": -0.07,
+"p_q": 0.5423,
+"out": "fairydualuygoodandbaiilcoppositesacknowledgmentsbythebaiilcs"
+},
+{
+"src": "Z2",
+"kind": "bl",
+"sizes": [
+2
+],
+"mode": "letter",
+"ntup": 14,
+"valid": 1.0,
+"cvalid": 0.947,
+"p_valid": 0.3831,
+"q": -7.45,
+"cq": -6.877,
+"zq": -1.19,
+"p_q": 1.0,
+"out": "nobnfkianfclcr"
+},
+{
+"src": "Z2",
+"kind": "bw",
+"sizes": [
+3
+],
+"mode": "first",
+"ntup": 9,
+"valid": 1.0,
+"cvalid": 0.989,
+"p_valid": 0.9055,
+"q": -7.45,
+"cq": -6.852,
+"zq": -1.0,
+"p_q": 1.0,
+"out": "laeobbslh"
+},
+{
+"src": "Z2",
+"kind": "bw",
+"sizes": [
+3
+],
+"mode": "word",
+"ntup": 9,
+"valid": 1.0,
+"cvalid": 0.989,
+"p_valid": 0.9055,
+"q": -4.762,
+"cq": -4.883,
+"zq": 0.3,
+"p_q": 0.3831,
+"out": "likeaeitheroppositesbindubattlesomelikehost"
+},
+{
+"src": "Z2",
+"kind": "bl",
+"sizes": [
+3
+],
+"mode": "letter",
+"ntup": 9,
+"valid": 1.0,
+"cvalid": 0.989,
+"p_valid": 0.9055,
+"q": -6.921,
+"cq": -6.71,
+"zq": -0.29,
+"p_q": 0.4975,
+"out": "eavkfneit"
+},
+{
+"src": "Z2",
+"kind": "bw",
+"sizes": [
+4
+],
+"mode": "first",
+"ntup": 7,
+"valid": 1.0,
+"cvalid": 0.997,
+"p_valid": 0.9801,
+"q": -6.95,
+"cq": -6.914,
+"zq": -0.05,
+"p_q": 0.5224,
+"out": "bihsooc"
+},
+{
+"src": "Z2",
+"kind": "bw",
+"sizes": [
+4
+],
+"mode": "word",
+"ntup": 7,
+"valid": 1.0,
+"cvalid": 0.997,
+"p_valid": 0.9801,
+"q": -4.635,
+"cq": -4.674,
+"zq": 0.09,
+"p_q": 0.4478,
+"out": "becauseiranhumansseparateofofconsider"
+},
+{
+"src": "Z2",
+"kind": "bl",
+"sizes": [
+4
+],
+"mode": "letter",
+"ntup": 7,
+"valid": 1.0,
+"cvalid": 0.997,
+"p_valid": 0.9801,
+"q": -7.45,
+"cq": -6.631,
+"zq": -1.0,
+"p_q": 1.0,
+"out": "asrbdbs"
+},
+{
+"src": "Z2",
+"kind": "bw",
+"sizes": [
+5
+],
+"mode": "first",
+"ntup": 5,
+"valid": 0.6,
+"cvalid": 0.613,
+"p_valid": 0.7313,
+"q": -9.9,
+"cq": -8.958,
+"zq": -0.61,
+"p_q": 1.0,
+"out": "cbe"
+},
+{
+"src": "Z2",
+"kind": "bw",
+"sizes": [
+5
+],
+"mode": "word",
+"ntup": 5,
+"valid": 0.6,
+"cvalid": 0.613,
+"p_valid": 0.7313,
+"q": -5.633,
+"cq": -4.794,
+"zq": -0.77,
+"p_q": 0.8955,
+"out": "cosmosbodyeffort"
+},
+{
+"src": "Z2",
+"kind": "bl",
+"sizes": [
+5
+],
+"mode": "letter",
+"ntup": 5,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -7.45,
+"cq": -6.57,
+"zq": -0.82,
+"p_q": 1.0,
+"out": "ucosm"
+},
+{
+"src": "Z2",
+"kind": "ih",
+"sizes": [
+1
+],
+"mode": "first",
+"ntup": 29,
+"valid": 0.759,
+"cvalid": 0.759,
+"p_valid": 1.0,
+"q": -6.955,
+"cq": -7.258,
+"zq": 2.05,
+"p_q": 0.0547,
+"out": "aaaaaaaaaaawwaaaatawaa"
+},
+{
+"src": "Z2",
+"kind": "ih",
+"sizes": [
+1
+],
+"mode": "word",
+"ntup": 29,
+"valid": 0.759,
+"cvalid": 0.759,
+"p_valid": 1.0,
+"q": -5.279,
+"cq": -5.287,
+"zq": 0.37,
+"p_q": 0.3632,
+"out": "abrahamadamaboriginesadamabsolutistsaflerlifeadamandeveabsol"
+},
+{
+"src": "Z2",
+"kind": "iw",
+"sizes": [
+1
+],
+"mode": "first",
+"ntup": 29,
+"valid": 0.759,
+"cvalid": 0.759,
+"p_valid": 1.0,
+"q": -7.098,
+"cq": -7.179,
+"zq": 0.41,
+"p_q": 0.3134,
+"out": "oaaapaapapabbapoptabpa"
+},
+{
+"src": "Z2",
+"kind": "iw",
+"sizes": [
+1
+],
+"mode": "word",
+"ntup": 29,
+"valid": 0.759,
+"cvalid": 0.759,
+"p_valid": 1.0,
+"q": -5.351,
+"cq": -5.29,
+"zq": -1.28,
+"p_q": 0.9005,
+"out": "ofaboriginesabductionaboriginesproserpinaabrahamaustralianpr"
+},
+{
+"src": "Z2",
+"kind": "ih",
+"sizes": [
+2
+],
+"mode": "first",
+"ntup": 14,
+"valid": 1.0,
+"cvalid": 0.947,
+"p_valid": 0.3831,
+"q": -7.45,
+"cq": -7.257,
+"zq": -0.79,
+"p_q": 1.0,
+"out": "babfbafwgbbaac"
+},
+{
+"src": "Z2",
+"kind": "ih",
+"sizes": [
+2
+],
+"mode": "word",
+"ntup": 14,
+"valid": 1.0,
+"cvalid": 0.947,
+"p_valid": 0.3831,
+"q": -5.408,
+"cq": -5.474,
+"zq": 0.36,
+"p_q": 0.3682,
+"out": "baudelaireaboriginesbuddhistsandafterlifefulcanellibenedictx"
+},
+{
+"src": "Z2",
+"kind": "iw",
+"sizes": [
+2
+],
+"mode": "first",
+"ntup": 14,
+"valid": 1.0,
+"cvalid": 0.947,
+"p_valid": 0.3831,
+"q": -7.269,
+"cq": -6.839,
+"zq": -0.91,
+"p_q": 0.8507,
+"out": "aaiyohdbmoafap"
+},
+{
+"src": "Z2",
+"kind": "iw",
+"sizes": [
+2
+],
+"mode": "word",
+"ntup": 14,
+"valid": 1.0,
+"cvalid": 0.947,
+"p_valid": 0.3831,
+"q": -5.399,
+"cq": -5.342,
+"zq": -0.26,
+"p_q": 0.5871,
+"out": "aflerlifeabductionirwinyouofhermaphroditedoubledaybiblicalmy"
+},
+{
+"src": "Z2",
+"kind": "ih",
+"sizes": [
+3
+],
+"mode": "first",
+"ntup": 9,
+"valid": 0.333,
+"cvalid": 0.346,
+"p_valid": 0.6517,
+"q": -9.9,
+"cq": -8.86,
+"zq": -0.75,
+"p_q": 1.0,
+"out": "pae"
+},
+{
+"src": "Z2",
+"kind": "ih",
+"sizes": [
+3
+],
+"mode": "word",
+"ntup": 9,
+"valid": 0.333,
+"cvalid": 0.346,
+"p_valid": 0.6517,
+"q": -6.307,
+"cq": -5.578,
+"zq": -0.91,
+"p_q": 0.9204,
+"out": "prayerflagsaspergillumexorcism"
+},
+{
+"src": "Z2",
+"kind": "iw",
+"sizes": [
+3
+],
+"mode": "first",
+"ntup": 9,
+"valid": 1.0,
+"cvalid": 0.989,
+"p_valid": 0.9055,
+"q": -6.931,
+"cq": -7.051,
+"zq": 0.23,
+"p_q": 0.2836,
+"out": "lrshazany"
+},
+{
+"src": "Z2",
+"kind": "iw",
+"sizes": [
+3
+],
+"mode": "word",
+"ntup": 9,
+"valid": 1.0,
+"cvalid": 0.989,
+"p_valid": 0.9055,
+"q": -5.332,
+"cq": -5.375,
+"zq": 0.12,
+"p_q": 0.4577,
+"out": "lriverscrhermaphroditeamericanzoroasteranyork"
+},
+{
+"src": "p32",
+"kind": "pw",
+"sizes": [
+1,
+1
+],
+"mode": "first",
+"ntup": 74,
+"valid": 0.514,
+"cvalid": 0.516,
+"p_valid": 0.5473,
+"q": -7.45,
+"cq": -7.263,
+"zq": -1.23,
+"p_q": 0.9801,
+"out": "adpcdctmummpmtttdclbpptmmmpptdpbddtcuc"
+},
+{
+"src": "p32",
+"kind": "pw",
+"sizes": [
+1,
+1
+],
+"mode": "word",
+"ntup": 74,
+"valid": 0.514,
+"cvalid": 0.516,
+"p_valid": 0.5473,
+"q": -6.042,
+"cq": -6.238,
+"zq": 1.17,
+"p_q": 0.1443,
+"out": "asdualuypairedcreateddualuyconimstmmsmunitymmsmmmsmpairedmms"
+},
+{
+"src": "p32",
+"kind": "pl",
+"sizes": [
+1,
+1
+],
+"mode": "letter",
+"ntup": 74,
+"valid": 0.703,
+"cvalid": 0.7,
+"p_valid": 0.4975,
+"q": -7.113,
+"cq": -7.076,
+"zq": -0.22,
+"p_q": 0.5522,
+"out": "icsoapydosctmimmipmtrsocltmppnmmmmppnsmoapmtcoonscic"
+},
+{
+"src": "p32",
+"kind": "pw",
+"sizes": [
+1,
+2
+],
+"mode": "first",
+"ntup": 49,
+"valid": 0.286,
+"cvalid": 0.237,
+"p_valid": 0.2189,
+"q": -6.983,
+"cq": -6.647,
+"zq": -0.53,
+"p_q": 0.6219,
+"out": "tefbrebbiabsfr"
+},
+{
+"src": "p32",
+"kind": "pw",
+"sizes": [
+1,
+2
+],
+"mode": "word",
+"ntup": 49,
+"valid": 0.286,
+"cvalid": 0.237,
+"p_valid": 0.2189,
+"q": -4.883,
+"cq": -4.709,
+"zq": -0.49,
+"p_q": 0.7114,
+"out": "theevilfairybooksrighteousnesseighteenthbooksbooksinandbooks"
+},
+{
+"src": "p32",
+"kind": "pl",
+"sizes": [
+1,
+2
+],
+"mode": "letter",
+"ntup": 49,
+"valid": 0.388,
+"cvalid": 0.39,
+"p_valid": 0.5572,
+"q": -6.751,
+"cq": -6.991,
+"zq": 0.7,
+"p_q": 0.2388,
+"out": "rsttolsylakkohoahul"
+},
+{
+"src": "p32",
+"kind": "pw",
+"sizes": [
+1,
+3
+],
+"mode": "first",
+"ntup": 37,
+"valid": 0.027,
+"cvalid": 0.08,
+"p_valid": 0.9602,
+"q": -9.9,
+"cq": -8.889,
+"zq": -0.65,
+"p_q": 1.0,
+"out": "a"
+},
+{
+"src": "p32",
+"kind": "pw",
+"sizes": [
+1,
+3
+],
+"mode": "word",
+"ntup": 37,
+"valid": 0.027,
+"cvalid": 0.08,
+"p_valid": 0.9602,
+"q": -9.9,
+"cq": -5.221,
+"zq": -2.71,
+"p_q": 1.0,
+"out": "and"
+},
+{
+"src": "p32",
+"kind": "pl",
+"sizes": [
+1,
+3
+],
+"mode": "letter",
+"ntup": 37,
+"valid": 0.108,
+"cvalid": 0.193,
+"p_valid": 0.9851,
+"q": -7.45,
+"cq": -6.686,
+"zq": -0.82,
+"p_q": 0.9851,
+"out": "fntt"
+},
+{
+"src": "p32",
+"kind": "pw",
+"sizes": [
+2,
+1
+],
+"mode": "first",
+"ntup": 49,
+"valid": 0.857,
+"cvalid": 0.877,
+"p_valid": 0.7861,
+"q": -6.875,
+"cq": -6.843,
+"zq": -0.11,
+"p_q": 0.5373,
+"out": "saspahkwgifsgtegefeimwshtttitbpvgfromfikag"
+},
+{
+"src": "p32",
+"kind": "pw",
+"sizes": [
+2,
+1
+],
+"mode": "word",
+"ntup": 49,
+"valid": 0.857,
+"cvalid": 0.877,
+"p_valid": 0.7861,
+"q": -5.149,
+"cq": -5.202,
+"zq": 0.27,
+"p_q": 0.3831,
+"out": "siandsidepairedanniehekwhogreatifaiiysidegnosticismtombeveng"
+},
+{
+"src": "p32",
+"kind": "pl",
+"sizes": [
+2,
+1
+],
+"mode": "letter",
+"ntup": 49,
+"valid": 0.878,
+"cvalid": 0.887,
+"p_valid": 0.6915,
+"q": -7.058,
+"cq": -6.805,
+"zq": -0.98,
+"p_q": 0.8209,
+"out": "spsfpaijcdiastneglfsinwshfehihbpvtfrbnfrjag"
+},
+{
+"src": "p32",
+"kind": "pw",
+"sizes": [
+2,
+2
+],
+"mode": "first",
+"ntup": 37,
+"valid": 0.811,
+"cvalid": 0.859,
+"p_valid": 0.8607,
+"q": -6.552,
+"cq": -6.87,
+"zq": 1.1,
+"p_q": 0.1692,
+"out": "pfsmthanwaospaaiptbetrccehammg"
+},
+{
+"src": "p32",
+"kind": "pw",
+"sizes": [
+2,
+2
+],
+"mode": "word",
+"ntup": 37,
+"valid": 0.811,
+"cvalid": 0.859,
+"p_valid": 0.8607,
+"q": -5.017,
+"cq": -4.851,
+"zq": -0.84,
+"p_q": 0.7761,
+"out": "peacefullyfruitscarabsmarythingshumanandnotworldaofsymbolism"
+},
+{
+"src": "p32",
+"kind": "pl",
+"sizes": [
+2,
+2
+],
+"mode": "letter",
+"ntup": 37,
+"valid": 0.865,
+"cvalid": 0.886,
+"p_valid": 0.7512,
+"q": -6.758,
+"cq": -6.692,
+"zq": -0.22,
+"p_q": 0.5672,
+"out": "nitntihatnlucutroueieueayeaualcs"
+},
+{
+"src": "p32",
+"kind": "pw",
+"sizes": [
+2,
+3
+],
+"mode": "first",
+"ntup": 29,
+"valid": 0.448,
+"cvalid": 0.483,
+"p_valid": 0.7264,
+"q": -7.203,
+"cq": -6.83,
+"zq": -0.75,
+"p_q": 0.7662,
+"out": "iapcutaaawrtd"
+},
+{
+"src": "p32",
+"kind": "pw",
+"sizes": [
+2,
+3
+],
+"mode": "word",
+"ntup": 29,
+"valid": 0.448,
+"cvalid": 0.483,
+"p_valid": 0.7264,
+"q": -4.435,
+"cq": -4.803,
+"zq": 1.24,
+"p_q": 0.0995,
+"out": "imposingandpoltergeistscameundertaketheasasaswhoresearcherst"
+},
+{
+"src": "p32",
+"kind": "pl",
+"sizes": [
+2,
+3
+],
+"mode": "letter",
+"ntup": 29,
+"valid": 0.897,
+"cvalid": 0.819,
+"p_valid": 0.1891,
+"q": -6.001,
+"cq": -6.575,
+"zq": 1.38,
+"p_q": 0.0896,
+"out": "olafuonesinehaeerreeofrgho"
+},
+{
+"src": "p32",
+"kind": "pw",
+"sizes": [
+3,
+1
+],
+"mode": "first",
+"ntup": 37,
+"valid": 0.162,
+"cvalid": 0.261,
+"p_valid": 0.9801,
+"q": -7.45,
+"cq": -6.598,
+"zq": -1.1,
+"p_q": 1.0,
+"out": "igttns"
+},
+{
+"src": "p32",
+"kind": "pw",
+"sizes": [
+3,
+1
+],
+"mode": "word",
+"ntup": 37,
+"valid": 0.162,
+"cvalid": 0.261,
+"p_valid": 0.9801,
+"q": -4.815,
+"cq": -4.827,
+"zq": 0.03,
+"p_q": 0.5871,
+"out": "includegroundtionallytionallynunso"
+},
+{
+"src": "p32",
+"kind": "pl",
+"sizes": [
+3,
+1
+],
+"mode": "letter",
+"ntup": 37,
+"valid": 0.189,
+"cvalid": 0.264,
+"p_valid": 0.9403,
+"q": -7.45,
+"cq": -6.686,
+"zq": -1.08,
+"p_q": 1.0,
+"out": "evgttni"
+},
+{
+"src": "p32",
+"kind": "pw",
+"sizes": [
+3,
+2
+],
+"mode": "first",
+"ntup": 29,
+"valid": 0.345,
+"cvalid": 0.247,
+"p_valid": 0.1194,
+"q": -6.632,
+"cq": -6.899,
+"zq": 0.28,
+"p_q": 0.3035,
+"out": "maastswsaa"
+},
+{
+"src": "p32",
+"kind": "pw",
+"sizes": [
+3,
+2
+],
+"mode": "word",
+"ntup": 29,
+"valid": 0.345,
+"cvalid": 0.247,
+"p_valid": 0.1194,
+"q": -4.033,
+"cq": -4.776,
+"zq": 1.3,
+"p_q": 0.0498,
+"out": "maryandandsatanteresasaywhosayalland"
+},
+{
+"src": "p32",
+"kind": "pl",
+"sizes": [
+3,
+2
+],
+"mode": "letter",
+"ntup": 29,
+"valid": 0.345,
+"cvalid": 0.254,
+"p_valid": 0.1393,
+"q": -6.793,
+"cq": -6.699,
+"zq": -0.1,
+"p_q": 0.4975,
+"out": "ndiwetltat"
+},
+{
+"src": "p32",
+"kind": "pw",
+"sizes": [
+3,
+3
+],
+"mode": "first",
+"ntup": 24,
+"valid": 0.083,
+"cvalid": 0.158,
+"p_valid": 0.9303,
+"q": -9.9,
+"cq": -8.272,
+"zq": -0.96,
+"p_q": 1.0,
+"out": "ti"
+},
+{
+"src": "p32",
+"kind": "pw",
+"sizes": [
+3,
+3
+],
+"mode": "word",
+"ntup": 24,
+"valid": 0.083,
+"cvalid": 0.158,
+"p_valid": 0.9303,
+"q": -4.251,
+"cq": -4.923,
+"zq": 0.58,
+"p_q": 0.2438,
+"out": "treein"
+},
+{
+"src": "p32",
+"kind": "pl",
+"sizes": [
+3,
+3
+],
+"mode": "letter",
+"ntup": 24,
+"valid": 0.167,
+"cvalid": 0.239,
+"p_valid": 0.8905,
+"q": -7.45,
+"cq": -7.0,
+"zq": -0.32,
+"p_q": 0.8905,
+"out": "osxr"
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+1,
+1,
+1
+],
+"mode": "first",
+"ntup": 49,
+"valid": 0.306,
+"cvalid": 0.274,
+"p_valid": 0.3731,
+"q": -7.092,
+"cq": -7.104,
+"zq": 0.03,
+"p_q": 0.3532,
+"out": "audgkboopoucecd"
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+1,
+1,
+1
+],
+"mode": "word",
+"ntup": 49,
+"valid": 0.306,
+"cvalid": 0.274,
+"p_valid": 0.3731,
+"q": -5.641,
+"cq": -5.819,
+"zq": 0.42,
+"p_q": 0.3433,
+"out": "andunknowndualizesguardkbyofofpairedonunknowncontainsearthco"
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+1,
+1,
+2
+],
+"mode": "first",
+"ntup": 37,
+"valid": 0.0,
+"cvalid": 0.009,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+1,
+1,
+2
+],
+"mode": "word",
+"ntup": 37,
+"valid": 0.0,
+"cvalid": 0.009,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.158,
+"zq": -0.43,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+1,
+1,
+3
+],
+"mode": "first",
+"ntup": 29,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+1,
+1,
+3
+],
+"mode": "word",
+"ntup": 29,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.888,
+"zq": -0.07,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+1,
+2,
+1
+],
+"mode": "first",
+"ntup": 37,
+"valid": 0.027,
+"cvalid": 0.09,
+"p_valid": 0.9652,
+"q": -9.9,
+"cq": -8.492,
+"zq": -0.86,
+"p_q": 1.0,
+"out": "u"
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+1,
+2,
+1
+],
+"mode": "word",
+"ntup": 37,
+"valid": 0.027,
+"cvalid": 0.09,
+"p_valid": 0.9652,
+"q": -3.504,
+"cq": -5.26,
+"zq": 1.15,
+"p_q": 0.0299,
+"out": "utter"
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+1,
+2,
+2
+],
+"mode": "first",
+"ntup": 29,
+"valid": 0.0,
+"cvalid": 0.002,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+1,
+2,
+2
+],
+"mode": "word",
+"ntup": 29,
+"valid": 0.0,
+"cvalid": 0.002,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.761,
+"zq": -0.17,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+1,
+2,
+3
+],
+"mode": "first",
+"ntup": 24,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+1,
+2,
+3
+],
+"mode": "word",
+"ntup": 24,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.873,
+"zq": -0.07,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+1,
+3,
+1
+],
+"mode": "first",
+"ntup": 29,
+"valid": 0.034,
+"cvalid": 0.003,
+"p_valid": 0.0796,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": "u"
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+1,
+3,
+1
+],
+"mode": "word",
+"ntup": 29,
+"valid": 0.034,
+"cvalid": 0.003,
+"p_valid": 0.0796,
+"q": -4.832,
+"cq": -9.571,
+"zq": 3.45,
+"p_q": 0.0498,
+"out": "unalterably"
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+1,
+3,
+2
+],
+"mode": "first",
+"ntup": 24,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+1,
+3,
+2
+],
+"mode": "word",
+"ntup": 24,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+1,
+3,
+3
+],
+"mode": "first",
+"ntup": 21,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+1,
+3,
+3
+],
+"mode": "word",
+"ntup": 21,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+2,
+1,
+1
+],
+"mode": "first",
+"ntup": 37,
+"valid": 0.595,
+"cvalid": 0.611,
+"p_valid": 0.6517,
+"q": -6.995,
+"cq": -6.867,
+"zq": -0.36,
+"p_q": 0.5721,
+"out": "tisftwpefdadpbdpgsitdg"
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+2,
+1,
+1
+],
+"mode": "word",
+"ntup": 37,
+"valid": 0.595,
+"cvalid": 0.611,
+"p_valid": 0.6517,
+"q": -4.836,
+"cq": -5.023,
+"zq": 0.75,
+"p_q": 0.209,
+"out": "tookisstepmotherformedtimewasprincesesotericfounddevelopedan"
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+2,
+1,
+2
+],
+"mode": "first",
+"ntup": 29,
+"valid": 0.0,
+"cvalid": 0.029,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.864,
+"zq": -0.1,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+2,
+1,
+2
+],
+"mode": "word",
+"ntup": 29,
+"valid": 0.0,
+"cvalid": 0.029,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -7.651,
+"zq": -0.85,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+2,
+1,
+3
+],
+"mode": "first",
+"ntup": 24,
+"valid": 0.0,
+"cvalid": 0.001,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+2,
+1,
+3
+],
+"mode": "word",
+"ntup": 24,
+"valid": 0.0,
+"cvalid": 0.001,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.852,
+"zq": -0.1,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+2,
+2,
+1
+],
+"mode": "first",
+"ntup": 29,
+"valid": 0.483,
+"cvalid": 0.496,
+"p_valid": 0.597,
+"q": -7.225,
+"cq": -6.862,
+"zq": -0.72,
+"p_q": 0.7164,
+"out": "sascctwwdbptac"
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+2,
+2,
+1
+],
+"mode": "word",
+"ntup": 29,
+"valid": 0.483,
+"cvalid": 0.496,
+"p_valid": 0.597,
+"q": -5.023,
+"cq": -4.834,
+"zq": -0.61,
+"p_q": 0.7065,
+"out": "swayassnakescouldcenturythewithwithdeathbeliefsprimitivether"
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+2,
+2,
+2
+],
+"mode": "first",
+"ntup": 24,
+"valid": 0.0,
+"cvalid": 0.023,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+2,
+2,
+2
+],
+"mode": "word",
+"ntup": 24,
+"valid": 0.0,
+"cvalid": 0.023,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -8.485,
+"zq": -0.6,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+2,
+2,
+3
+],
+"mode": "first",
+"ntup": 21,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+2,
+2,
+3
+],
+"mode": "word",
+"ntup": 21,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.838,
+"zq": -0.1,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+2,
+3,
+1
+],
+"mode": "first",
+"ntup": 24,
+"valid": 0.0,
+"cvalid": 0.018,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+2,
+3,
+1
+],
+"mode": "word",
+"ntup": 24,
+"valid": 0.0,
+"cvalid": 0.018,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -8.414,
+"zq": -0.6,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+2,
+3,
+2
+],
+"mode": "first",
+"ntup": 21,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+2,
+3,
+2
+],
+"mode": "word",
+"ntup": 21,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+2,
+3,
+3
+],
+"mode": "first",
+"ntup": 18,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+2,
+3,
+3
+],
+"mode": "word",
+"ntup": 18,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+3,
+1,
+1
+],
+"mode": "first",
+"ntup": 29,
+"valid": 0.241,
+"cvalid": 0.188,
+"p_valid": 0.2687,
+"q": -7.45,
+"cq": -7.261,
+"zq": -0.14,
+"p_q": 0.8706,
+"out": "oaiaamp"
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+3,
+1,
+1
+],
+"mode": "word",
+"ntup": 29,
+"valid": 0.241,
+"cvalid": 0.188,
+"p_valid": 0.2687,
+"q": -5.211,
+"cq": -4.79,
+"zq": -0.64,
+"p_q": 0.796,
+"out": "ofanditetareaamuopenis"
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+3,
+1,
+2
+],
+"mode": "first",
+"ntup": 24,
+"valid": 0.0,
+"cvalid": 0.01,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+3,
+1,
+2
+],
+"mode": "word",
+"ntup": 24,
+"valid": 0.0,
+"cvalid": 0.01,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -8.95,
+"zq": -0.44,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+3,
+1,
+3
+],
+"mode": "first",
+"ntup": 21,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+3,
+1,
+3
+],
+"mode": "word",
+"ntup": 21,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+3,
+2,
+1
+],
+"mode": "first",
+"ntup": 24,
+"valid": 0.0,
+"cvalid": 0.158,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -8.153,
+"zq": -0.94,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+3,
+2,
+1
+],
+"mode": "word",
+"ntup": 24,
+"valid": 0.0,
+"cvalid": 0.158,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -4.914,
+"zq": -4.09,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+3,
+2,
+2
+],
+"mode": "first",
+"ntup": 21,
+"valid": 0.048,
+"cvalid": 0.007,
+"p_valid": 0.1443,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": "t"
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+3,
+2,
+2
+],
+"mode": "word",
+"ntup": 21,
+"valid": 0.048,
+"cvalid": 0.007,
+"p_valid": 0.1443,
+"q": -9.9,
+"cq": -9.331,
+"zq": -0.35,
+"p_q": 1.0,
+"out": "the"
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+3,
+2,
+3
+],
+"mode": "first",
+"ntup": 18,
+"valid": 0.0,
+"cvalid": 0.001,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+3,
+2,
+3
+],
+"mode": "word",
+"ntup": 18,
+"valid": 0.0,
+"cvalid": 0.001,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.858,
+"zq": -0.09,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+3,
+3,
+1
+],
+"mode": "first",
+"ntup": 21,
+"valid": 0.0,
+"cvalid": 0.013,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+3,
+3,
+1
+],
+"mode": "word",
+"ntup": 21,
+"valid": 0.0,
+"cvalid": 0.013,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.039,
+"zq": -0.46,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+3,
+3,
+2
+],
+"mode": "first",
+"ntup": 18,
+"valid": 0.0,
+"cvalid": 0.001,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+3,
+3,
+2
+],
+"mode": "word",
+"ntup": 18,
+"valid": 0.0,
+"cvalid": 0.001,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.843,
+"zq": -0.1,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+3,
+3,
+3
+],
+"mode": "first",
+"ntup": 16,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "p32",
+"kind": "plw",
+"sizes": [
+3,
+3,
+3
+],
+"mode": "word",
+"ntup": 16,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "p32",
+"kind": "bw",
+"sizes": [
+1
+],
+"mode": "first",
+"ntup": 149,
+"valid": 0.973,
+"cvalid": 0.973,
+"p_valid": 1.0,
+"q": -7.382,
+"cq": -7.352,
+"zq": -0.62,
+"p_q": 0.7463,
+"out": "ctcutbomcdcbcdobcubcccdcmctdbtcdcmcoctomcmcocdoddctocbcmcdcd"
+},
+{
+"src": "p32",
+"kind": "bw",
+"sizes": [
+1
+],
+"mode": "word",
+"ntup": 149,
+"valid": 0.973,
+"cvalid": 0.973,
+"p_valid": 1.0,
+"q": -6.819,
+"cq": -6.839,
+"zq": 1.28,
+"p_q": 0.1095,
+"out": "cosmicthecosmicunknownthebyofmmsmcosmicdualuycosmicbycosmicd"
+},
+{
+"src": "p32",
+"kind": "bl",
+"sizes": [
+1
+],
+"mode": "letter",
+"ntup": 149,
+"valid": 0.973,
+"cvalid": 0.973,
+"p_valid": 1.0,
+"q": -7.277,
+"cq": -7.217,
+"zq": -0.9,
+"p_q": 0.8209,
+"out": "cicciamscocadomaccacdcocsdiuaicucscmcimscscmcomoucimcacscocu"
+},
+{
+"src": "p32",
+"kind": "bw",
+"sizes": [
+2
+],
+"mode": "first",
+"ntup": 74,
+"valid": 1.0,
+"cvalid": 0.999,
+"p_valid": 0.9502,
+"q": -6.659,
+"cq": -6.587,
+"zq": -0.32,
+"p_q": 0.5821,
+"out": "tbrsocpbthaotieoteoieeooototetttodoeststbtttheteeobttthtboct"
+},
+{
+"src": "p32",
+"kind": "bw",
+"sizes": [
+2
+],
+"mode": "word",
+"ntup": 74,
+"valid": 1.0,
+"cvalid": 0.999,
+"p_valid": 0.9502,
+"q": -4.729,
+"cq": -4.829,
+"zq": 0.74,
+"p_q": 0.2239,
+"out": "timelifebooksrighteousnesssexesofconimspicturebaiilcthehosta"
+},
+{
+"src": "p32",
+"kind": "bl",
+"sizes": [
+2
+],
+"mode": "letter",
+"ntup": 74,
+"valid": 1.0,
+"cvalid": 0.999,
+"p_valid": 0.9502,
+"q": -6.538,
+"cq": -6.966,
+"zq": 2.66,
+"p_q": 0.0149,
+"out": "smeyytefatoymfrossyossyknsyaseseriyumimamalaosessnmalaommyta"
+},
+{
+"src": "p32",
+"kind": "bw",
+"sizes": [
+3
+],
+"mode": "first",
+"ntup": 49,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -6.407,
+"cq": -6.784,
+"zq": 1.62,
+"p_q": 0.0697,
+"out": "iecptttotottacclhdadtoasodolgetttdptfcdocodgoitld"
+},
+{
+"src": "p32",
+"kind": "bw",
+"sizes": [
+3
+],
+"mode": "word",
+"ntup": 49,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -4.546,
+"cq": -4.61,
+"zq": 0.39,
+"p_q": 0.3284,
+"out": "ifearthcreationpagesthethetheiroftheoppositesthetheatcreatio"
+},
+{
+"src": "p32",
+"kind": "bl",
+"sizes": [
+3
+],
+"mode": "letter",
+"ntup": 49,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -6.899,
+"cq": -6.579,
+"zq": -1.25,
+"p_q": 0.8756,
+"out": "stnniaendiwhdnhosbeoebhseegtarahagiaohoteeoeiedtb"
+},
+{
+"src": "p32",
+"kind": "bw",
+"sizes": [
+4
+],
+"mode": "first",
+"ntup": 37,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -6.496,
+"cq": -6.867,
+"zq": 1.37,
+"p_q": 0.0945,
+"out": "amfathatttoatoaopfgmrlttnrlboesttttws"
+},
+{
+"src": "p32",
+"kind": "bw",
+"sizes": [
+4
+],
+"mode": "word",
+"ntup": 37,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -4.726,
+"cq": -4.73,
+"zq": 0.02,
+"p_q": 0.4876,
+"out": "asmothersfinalathehowevandthetothenoratheirofabstractownpoin"
+},
+{
+"src": "p32",
+"kind": "bl",
+"sizes": [
+4
+],
+"mode": "letter",
+"ntup": 37,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -6.245,
+"cq": -6.655,
+"zq": 1.26,
+"p_q": 0.1194,
+"out": "aacthkveaanepyottrningssengdodnkaenge"
+},
+{
+"src": "p32",
+"kind": "bw",
+"sizes": [
+5
+],
+"mode": "first",
+"ntup": 29,
+"valid": 0.759,
+"cvalid": 0.7,
+"p_valid": 0.2836,
+"q": -6.982,
+"cq": -6.838,
+"zq": -0.35,
+"p_q": 0.602,
+"out": "odtptsabtwtaobcambcatg"
+},
+{
+"src": "p32",
+"kind": "bw",
+"sizes": [
+5
+],
+"mode": "word",
+"ntup": 29,
+"valid": 0.759,
+"cvalid": 0.7,
+"p_valid": 0.2836,
+"q": -4.659,
+"cq": -4.694,
+"zq": 0.14,
+"p_q": 0.4478,
+"out": "ofdeprecatedthephallustheirstoriesabooktowealththroughalchem"
+},
+{
+"src": "p32",
+"kind": "bl",
+"sizes": [
+5
+],
+"mode": "letter",
+"ntup": 29,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -6.872,
+"cq": -6.635,
+"zq": -0.66,
+"p_q": 0.7015,
+"out": "amrhsetstdgiyrouafesafkrailoy"
+},
+{
+"src": "p32",
+"kind": "ih",
+"sizes": [
+1
+],
+"mode": "first",
+"ntup": 149,
+"valid": 0.973,
+"cvalid": 0.973,
+"p_valid": 1.0,
+"q": -6.133,
+"cq": -6.534,
+"zq": 2.66,
+"p_q": 0.0149,
+"out": "tataawaatatwaaawtawtatataaaawatatatataaatatataaaataatwtatata"
+},
+{
+"src": "p32",
+"kind": "ih",
+"sizes": [
+1
+],
+"mode": "word",
+"ntup": 149,
+"valid": 0.973,
+"cvalid": 0.973,
+"p_valid": 1.0,
+"q": -5.174,
+"cq": -5.134,
+"zq": -3.9,
+"p_q": 1.0,
+"out": "theabductionofproserpinaacropolistheabductionofproserpinaada"
+},
+{
+"src": "p32",
+"kind": "iw",
+"sizes": [
+1
+],
+"mode": "first",
+"ntup": 149,
+"valid": 0.973,
+"cvalid": 0.973,
+"p_valid": 1.0,
+"q": -6.406,
+"cq": -6.659,
+"zq": 1.85,
+"p_q": 0.0249,
+"out": "tdtadbpotatbaapbtabtatatoadabdtatotptdpototptapaatdptbtotata"
+},
+{
+"src": "p32",
+"kind": "iw",
+"sizes": [
+1
+],
+"mode": "word",
+"ntup": 149,
+"valid": 0.973,
+"cvalid": 0.973,
+"p_valid": 1.0,
+"q": -4.894,
+"cq": -4.896,
+"zq": 0.12,
+"p_q": 0.4776,
+"out": "thedurertheaboriginesdurerbiblicalproserpinaoftheabductionth"
+},
+{
+"src": "p32",
+"kind": "ih",
+"sizes": [
+2
+],
+"mode": "first",
+"ntup": 74,
+"valid": 1.0,
+"cvalid": 0.999,
+"p_valid": 0.9502,
+"q": -7.207,
+"cq": -7.224,
+"zq": 0.18,
+"p_q": 0.3781,
+"out": "aabbaafbgeaaaffbfabbaabaaabgaafacbaafbfbagagbaaaaaagagbaaaag"
+},
+{
+"src": "p32",
+"kind": "ih",
+"sizes": [
+2
+],
+"mode": "word",
+"ntup": 74,
+"valid": 1.0,
+"cvalid": 0.999,
+"p_valid": 0.9502,
+"q": -5.519,
+"cq": -5.469,
+"zq": -0.67,
+"p_q": 0.7761,
+"out": "apocalypticliteratureapollobookofthedeadberryantsaquinofathe"
+},
+{
+"src": "p32",
+"kind": "iw",
+"sizes": [
+2
+],
+"mode": "first",
+"ntup": 74,
+"valid": 1.0,
+"cvalid": 0.999,
+"p_valid": 0.9502,
+"q": -6.77,
+"cq": -6.994,
+"zq": 1.4,
+"p_q": 0.0697,
+"out": "bfaadapoaycdadajpratrrahabaarapapadamnmaaafalrarraaafalaadaa"
+},
+{
+"src": "p32",
+"kind": "iw",
+"sizes": [
+2
+],
+"mode": "word",
+"ntup": 74,
+"valid": 1.0,
+"cvalid": 0.999,
+"p_valid": 0.9502,
+"q": -4.899,
+"cq": -5.156,
+"zq": 2.98,
+"p_q": 0.01,
+"out": "biblicalfigureandanddefinedandpressofangelyorkcharacteristic"
+},
+{
+"src": "p32",
+"kind": "ih",
+"sizes": [
+3
+],
+"mode": "first",
+"ntup": 49,
+"valid": 0.449,
+"cvalid": 0.505,
+"p_valid": 0.8657,
+"q": -7.232,
+"cq": -7.3,
+"zq": 0.41,
+"p_q": 0.2687,
+"out": "inghhhrhlnkcjhghhhpnhg"
+},
+{
+"src": "p32",
+"kind": "ih",
+"sizes": [
+3
+],
+"mode": "word",
+"ntup": 49,
+"valid": 0.449,
+"cvalid": 0.505,
+"p_valid": 0.8657,
+"q": -5.377,
+"cq": -5.157,
+"zq": -1.25,
+"p_q": 0.8806,
+"out": "indianirvanagaiahittiteshillhereticsrapurzelheavenlittlemiss"
+},
+{
+"src": "p32",
+"kind": "iw",
+"sizes": [
+3
+],
+"mode": "first",
+"ntup": 49,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -6.994,
+"cq": -7.097,
+"zq": 0.56,
+"p_q": 0.2189,
+"out": "psnmjaaarahwdnpesvdjareabreblwnwnscappjaabjnrarrv"
+},
+{
+"src": "p32",
+"kind": "iw",
+"sizes": [
+3
+],
+"mode": "word",
+"ntup": 49,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -5.709,
+"cq": -5.517,
+"zq": -1.16,
+"p_q": 0.8806,
+"out": "philadelphiasingernewsweekmethuenjangelangelsaugustinerustya"
+},
+{
+"src": "msum_rc",
+"kind": "pw",
+"sizes": [
+1,
+1
+],
+"mode": "first",
+"ntup": 15,
+"valid": 0.6,
+"cvalid": 0.49,
+"p_valid": 0.2139,
+"q": -5.504,
+"cq": -6.974,
+"zq": 2.1,
+"p_q": 0.0597,
+"out": "lierotbat"
+},
+{
+"src": "msum_rc",
+"kind": "pw",
+"sizes": [
+1,
+1
+],
+"mode": "word",
+"ntup": 15,
+"valid": 0.6,
+"cvalid": 0.49,
+"p_valid": 0.2139,
+"q": -4.784,
+"cq": -5.033,
+"zq": 0.53,
+"p_q": 0.2886,
+"out": "llieinemblemrofyintbeginningasthe"
+},
+{
+"src": "msum_rc",
+"kind": "pl",
+"sizes": [
+1,
+1
+],
+"mode": "letter",
+"ntup": 15,
+"valid": 0.6,
+"cvalid": 0.607,
+"p_valid": 0.7214,
+"q": -6.12,
+"cq": -6.745,
+"zq": 0.93,
+"p_q": 0.1841,
+"out": "ludirtisn"
+},
+{
+"src": "msum_rc",
+"kind": "pw",
+"sizes": [
+1,
+2
+],
+"mode": "first",
+"ntup": 10,
+"valid": 0.5,
+"cvalid": 0.354,
+"p_valid": 0.2537,
+"q": -7.45,
+"cq": -8.307,
+"zq": 0.48,
+"p_q": 0.5025,
+"out": "tlmns"
+},
+{
+"src": "msum_rc",
+"kind": "pw",
+"sizes": [
+1,
+2
+],
+"mode": "word",
+"ntup": 10,
+"valid": 0.5,
+"cvalid": 0.354,
+"p_valid": 0.2537,
+"q": -4.166,
+"cq": -4.7,
+"zq": 0.45,
+"p_q": 0.3234,
+"out": "thelightmakenesssingle"
+},
+{
+"src": "msum_rc",
+"kind": "pl",
+"sizes": [
+1,
+2
+],
+"mode": "letter",
+"ntup": 10,
+"valid": 0.5,
+"cvalid": 0.429,
+"p_valid": 0.4279,
+"q": -6.061,
+"cq": -7.56,
+"zq": 0.85,
+"p_q": 0.2189,
+"out": "otabn"
+},
+{
+"src": "msum_rc",
+"kind": "pw",
+"sizes": [
+1,
+3
+],
+"mode": "first",
+"ntup": 7,
+"valid": 0.143,
+"cvalid": 0.074,
+"p_valid": 0.4179,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": "w"
+},
+{
+"src": "msum_rc",
+"kind": "pw",
+"sizes": [
+1,
+3
+],
+"mode": "word",
+"ntup": 7,
+"valid": 0.143,
+"cvalid": 0.074,
+"p_valid": 0.4179,
+"q": -4.195,
+"cq": -8.111,
+"zq": 1.45,
+"p_q": 0.1791,
+"out": "world"
+},
+{
+"src": "msum_rc",
+"kind": "pl",
+"sizes": [
+1,
+3
+],
+"mode": "letter",
+"ntup": 7,
+"valid": 0.286,
+"cvalid": 0.34,
+"p_valid": 0.801,
+"q": -9.9,
+"cq": -9.456,
+"zq": -0.36,
+"p_q": 1.0,
+"out": "wr"
+},
+{
+"src": "msum_rc",
+"kind": "pw",
+"sizes": [
+2,
+1
+],
+"mode": "first",
+"ntup": 10,
+"valid": 0.6,
+"cvalid": 0.745,
+"p_valid": 0.9652,
+"q": -5.615,
+"cq": -6.89,
+"zq": 1.99,
+"p_q": 0.0597,
+"out": "ootoas"
+},
+{
+"src": "msum_rc",
+"kind": "pw",
+"sizes": [
+2,
+1
+],
+"mode": "word",
+"ntup": 10,
+"valid": 0.6,
+"cvalid": 0.745,
+"p_valid": 0.9652,
+"q": -4.787,
+"cq": -4.875,
+"zq": 0.19,
+"p_q": 0.4328,
+"out": "ooftraditionaloabovesocial"
+},
+{
+"src": "msum_rc",
+"kind": "pl",
+"sizes": [
+2,
+1
+],
+"mode": "letter",
+"ntup": 10,
+"valid": 0.6,
+"cvalid": 0.762,
+"p_valid": 0.9751,
+"q": -4.864,
+"cq": -6.65,
+"zq": 2.25,
+"p_q": 0.0348,
+"out": "ahaveh"
+},
+{
+"src": "msum_rc",
+"kind": "pw",
+"sizes": [
+2,
+2
+],
+"mode": "first",
+"ntup": 7,
+"valid": 0.286,
+"cvalid": 0.731,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -7.067,
+"zq": -2.32,
+"p_q": 1.0,
+"out": "ua"
+},
+{
+"src": "msum_rc",
+"kind": "pw",
+"sizes": [
+2,
+2
+],
+"mode": "word",
+"ntup": 7,
+"valid": 0.286,
+"cvalid": 0.731,
+"p_valid": 1.0,
+"q": -5.156,
+"cq": -4.711,
+"zq": -0.89,
+"p_q": 0.8358,
+"out": "urbanage"
+},
+{
+"src": "msum_rc",
+"kind": "pl",
+"sizes": [
+2,
+2
+],
+"mode": "letter",
+"ntup": 7,
+"valid": 0.429,
+"cvalid": 0.76,
+"p_valid": 0.995,
+"q": -9.9,
+"cq": -6.876,
+"zq": -2.56,
+"p_q": 1.0,
+"out": "loi"
+},
+{
+"src": "msum_rc",
+"kind": "pw",
+"sizes": [
+2,
+3
+],
+"mode": "first",
+"ntup": 6,
+"valid": 0.333,
+"cvalid": 0.228,
+"p_valid": 0.4478,
+"q": -9.9,
+"cq": -9.836,
+"zq": -0.12,
+"p_q": 1.0,
+"out": "ls"
+},
+{
+"src": "msum_rc",
+"kind": "pw",
+"sizes": [
+2,
+3
+],
+"mode": "word",
+"ntup": 6,
+"valid": 0.333,
+"cvalid": 0.228,
+"p_valid": 0.4478,
+"q": -4.369,
+"cq": -6.9,
+"zq": 0.94,
+"p_q": 0.2488,
+"out": "largesense"
+},
+{
+"src": "msum_rc",
+"kind": "pl",
+"sizes": [
+2,
+3
+],
+"mode": "letter",
+"ntup": 6,
+"valid": 0.333,
+"cvalid": 0.703,
+"p_valid": 0.9851,
+"q": -9.9,
+"cq": -7.488,
+"zq": -1.47,
+"p_q": 1.0,
+"out": "at"
+},
+{
+"src": "msum_rc",
+"kind": "pw",
+"sizes": [
+3,
+1
+],
+"mode": "first",
+"ntup": 7,
+"valid": 0.286,
+"cvalid": 0.089,
+"p_valid": 0.1443,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": "ia"
+},
+{
+"src": "msum_rc",
+"kind": "pw",
+"sizes": [
+3,
+1
+],
+"mode": "word",
+"ntup": 7,
+"valid": 0.286,
+"cvalid": 0.089,
+"p_valid": 0.1443,
+"q": -6.061,
+"cq": -7.915,
+"zq": 0.69,
+"p_q": 0.3383,
+"out": "iiabove"
+},
+{
+"src": "msum_rc",
+"kind": "pl",
+"sizes": [
+3,
+1
+],
+"mode": "letter",
+"ntup": 7,
+"valid": 0.286,
+"cvalid": 0.09,
+"p_valid": 0.1443,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": "ie"
+},
+{
+"src": "msum_rc",
+"kind": "pw",
+"sizes": [
+3,
+2
+],
+"mode": "first",
+"ntup": 6,
+"valid": 0.0,
+"cvalid": 0.096,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "pw",
+"sizes": [
+3,
+2
+],
+"mode": "word",
+"ntup": 6,
+"valid": 0.0,
+"cvalid": 0.096,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -8.35,
+"zq": -0.62,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "pl",
+"sizes": [
+3,
+2
+],
+"mode": "letter",
+"ntup": 6,
+"valid": 0.0,
+"cvalid": 0.099,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "pw",
+"sizes": [
+3,
+3
+],
+"mode": "first",
+"ntup": 5,
+"valid": 0.0,
+"cvalid": 0.027,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "pw",
+"sizes": [
+3,
+3
+],
+"mode": "word",
+"ntup": 5,
+"valid": 0.0,
+"cvalid": 0.027,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.497,
+"zq": -0.29,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "pl",
+"sizes": [
+3,
+3
+],
+"mode": "letter",
+"ntup": 5,
+"valid": 0.0,
+"cvalid": 0.084,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+1,
+1,
+1
+],
+"mode": "first",
+"ntup": 10,
+"valid": 0.2,
+"cvalid": 0.146,
+"p_valid": 0.4577,
+"q": -9.9,
+"cq": -9.814,
+"zq": -0.17,
+"p_q": 1.0,
+"out": "la"
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+1,
+1,
+1
+],
+"mode": "word",
+"ntup": 10,
+"valid": 0.2,
+"cvalid": 0.146,
+"p_valid": 0.4577,
+"q": -4.678,
+"cq": -6.386,
+"zq": 0.61,
+"p_q": 0.4378,
+"out": "letas"
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+1,
+1,
+2
+],
+"mode": "first",
+"ntup": 7,
+"valid": 0.0,
+"cvalid": 0.019,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+1,
+1,
+2
+],
+"mode": "word",
+"ntup": 7,
+"valid": 0.0,
+"cvalid": 0.019,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.459,
+"zq": -0.28,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+1,
+1,
+3
+],
+"mode": "first",
+"ntup": 6,
+"valid": 0.0,
+"cvalid": 0.001,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+1,
+1,
+3
+],
+"mode": "word",
+"ntup": 6,
+"valid": 0.0,
+"cvalid": 0.001,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+1,
+2,
+1
+],
+"mode": "first",
+"ntup": 7,
+"valid": 0.143,
+"cvalid": 0.046,
+"p_valid": 0.2587,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": "r"
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+1,
+2,
+1
+],
+"mode": "word",
+"ntup": 7,
+"valid": 0.143,
+"cvalid": 0.046,
+"p_valid": 0.2587,
+"q": -5.072,
+"cq": -8.906,
+"zq": 1.77,
+"p_q": 0.1542,
+"out": "reveals"
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+1,
+2,
+2
+],
+"mode": "first",
+"ntup": 6,
+"valid": 0.0,
+"cvalid": 0.005,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+1,
+2,
+2
+],
+"mode": "word",
+"ntup": 6,
+"valid": 0.0,
+"cvalid": 0.005,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.776,
+"zq": -0.14,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+1,
+2,
+3
+],
+"mode": "first",
+"ntup": 5,
+"valid": 0.0,
+"cvalid": 0.002,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+1,
+2,
+3
+],
+"mode": "word",
+"ntup": 5,
+"valid": 0.0,
+"cvalid": 0.002,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.847,
+"zq": -0.1,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+1,
+3,
+1
+],
+"mode": "first",
+"ntup": 6,
+"valid": 0.0,
+"cvalid": 0.004,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+1,
+3,
+1
+],
+"mode": "word",
+"ntup": 6,
+"valid": 0.0,
+"cvalid": 0.004,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.845,
+"zq": -0.1,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+1,
+3,
+2
+],
+"mode": "first",
+"ntup": 5,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+1,
+3,
+2
+],
+"mode": "word",
+"ntup": 5,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+1,
+3,
+3
+],
+"mode": "first",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+1,
+3,
+3
+],
+"mode": "word",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+2,
+1,
+1
+],
+"mode": "first",
+"ntup": 7,
+"valid": 0.286,
+"cvalid": 0.308,
+"p_valid": 0.7114,
+"q": -9.9,
+"cq": -9.51,
+"zq": -0.38,
+"p_q": 1.0,
+"out": "on"
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+2,
+1,
+1
+],
+"mode": "word",
+"ntup": 7,
+"valid": 0.286,
+"cvalid": 0.308,
+"p_valid": 0.7114,
+"q": -4.529,
+"cq": -5.333,
+"zq": 0.41,
+"p_q": 0.4328,
+"out": "ornatural"
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+2,
+1,
+2
+],
+"mode": "first",
+"ntup": 6,
+"valid": 0.0,
+"cvalid": 0.037,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+2,
+1,
+2
+],
+"mode": "word",
+"ntup": 6,
+"valid": 0.0,
+"cvalid": 0.037,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.363,
+"zq": -0.32,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+2,
+1,
+3
+],
+"mode": "first",
+"ntup": 5,
+"valid": 0.0,
+"cvalid": 0.002,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+2,
+1,
+3
+],
+"mode": "word",
+"ntup": 5,
+"valid": 0.0,
+"cvalid": 0.002,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.869,
+"zq": -0.07,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+2,
+2,
+1
+],
+"mode": "first",
+"ntup": 6,
+"valid": 0.167,
+"cvalid": 0.232,
+"p_valid": 0.8259,
+"q": -9.9,
+"cq": -9.825,
+"zq": -0.15,
+"p_q": 1.0,
+"out": "a"
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+2,
+2,
+1
+],
+"mode": "word",
+"ntup": 6,
+"valid": 0.167,
+"cvalid": 0.232,
+"p_valid": 0.8259,
+"q": -9.9,
+"cq": -6.574,
+"zq": -1.24,
+"p_q": 1.0,
+"out": "a"
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+2,
+2,
+2
+],
+"mode": "first",
+"ntup": 5,
+"valid": 0.0,
+"cvalid": 0.025,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+2,
+2,
+2
+],
+"mode": "word",
+"ntup": 5,
+"valid": 0.0,
+"cvalid": 0.025,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.447,
+"zq": -0.3,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+2,
+2,
+3
+],
+"mode": "first",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+2,
+2,
+3
+],
+"mode": "word",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+2,
+3,
+1
+],
+"mode": "first",
+"ntup": 5,
+"valid": 0.0,
+"cvalid": 0.032,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+2,
+3,
+1
+],
+"mode": "word",
+"ntup": 5,
+"valid": 0.0,
+"cvalid": 0.032,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.325,
+"zq": -0.34,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+2,
+3,
+2
+],
+"mode": "first",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.001,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+2,
+3,
+2
+],
+"mode": "word",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.001,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.868,
+"zq": -0.07,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+2,
+3,
+3
+],
+"mode": "first",
+"ntup": 3,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+2,
+3,
+3
+],
+"mode": "word",
+"ntup": 3,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+3,
+1,
+1
+],
+"mode": "first",
+"ntup": 6,
+"valid": 0.0,
+"cvalid": 0.043,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+3,
+1,
+1
+],
+"mode": "word",
+"ntup": 6,
+"valid": 0.0,
+"cvalid": 0.043,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.068,
+"zq": -0.42,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+3,
+1,
+2
+],
+"mode": "first",
+"ntup": 5,
+"valid": 0.0,
+"cvalid": 0.004,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+3,
+1,
+2
+],
+"mode": "word",
+"ntup": 5,
+"valid": 0.0,
+"cvalid": 0.004,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.809,
+"zq": -0.12,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+3,
+1,
+3
+],
+"mode": "first",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+3,
+1,
+3
+],
+"mode": "word",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+3,
+2,
+1
+],
+"mode": "first",
+"ntup": 5,
+"valid": 0.0,
+"cvalid": 0.029,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+3,
+2,
+1
+],
+"mode": "word",
+"ntup": 5,
+"valid": 0.0,
+"cvalid": 0.029,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.455,
+"zq": -0.3,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+3,
+2,
+2
+],
+"mode": "first",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.001,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+3,
+2,
+2
+],
+"mode": "word",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.001,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.875,
+"zq": -0.07,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+3,
+2,
+3
+],
+"mode": "first",
+"ntup": 3,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+3,
+2,
+3
+],
+"mode": "word",
+"ntup": 3,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+3,
+3,
+1
+],
+"mode": "first",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+3,
+3,
+1
+],
+"mode": "word",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+3,
+3,
+2
+],
+"mode": "first",
+"ntup": 3,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+3,
+3,
+2
+],
+"mode": "word",
+"ntup": 3,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+3,
+3,
+3
+],
+"mode": "first",
+"ntup": 3,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "plw",
+"sizes": [
+3,
+3,
+3
+],
+"mode": "word",
+"ntup": 3,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "bw",
+"sizes": [
+1
+],
+"mode": "first",
+"ntup": 31,
+"valid": 0.903,
+"cvalid": 0.903,
+"p_valid": 1.0,
+"q": -7.259,
+"cq": -7.36,
+"zq": 0.93,
+"p_q": 0.1891,
+"out": "ucdcuutobbcdcbdcdcdcmuctbuud"
+},
+{
+"src": "msum_rc",
+"kind": "bw",
+"sizes": [
+1
+],
+"mode": "word",
+"ntup": 31,
+"valid": 0.903,
+"cvalid": 0.903,
+"p_valid": 1.0,
+"q": -6.271,
+"cq": -6.27,
+"zq": -0.03,
+"p_q": 0.5124,
+"out": "unknowncosmicdnalifycosmicunknownunknowntheofbybycosmicdnali"
+},
+{
+"src": "msum_rc",
+"kind": "bl",
+"sizes": [
+1
+],
+"mode": "letter",
+"ntup": 31,
+"valid": 0.903,
+"cvalid": 0.903,
+"p_valid": 1.0,
+"q": -7.167,
+"cq": -7.215,
+"zq": 0.27,
+"p_q": 0.3582,
+"out": "ccudccimaadudaucucudscdiaccu"
+},
+{
+"src": "msum_rc",
+"kind": "bw",
+"sizes": [
+2
+],
+"mode": "first",
+"ntup": 15,
+"valid": 1.0,
+"cvalid": 0.993,
+"p_valid": 0.8955,
+"q": -6.969,
+"cq": -6.824,
+"zq": -0.33,
+"p_q": 0.5672,
+"out": "tdlectaettdchrh"
+},
+{
+"src": "msum_rc",
+"kind": "bw",
+"sizes": [
+2
+],
+"mode": "word",
+"ntup": 15,
+"valid": 1.0,
+"cvalid": 0.993,
+"p_valid": 0.8955,
+"q": -4.697,
+"cq": -4.953,
+"zq": 0.89,
+"p_q": 0.194,
+"out": "thednalifyllieessaychaptertheandearththethednalifycreditshea"
+},
+{
+"src": "msum_rc",
+"kind": "bl",
+"sizes": [
+2
+],
+"mode": "letter",
+"ntup": 15,
+"valid": 1.0,
+"cvalid": 0.993,
+"p_valid": 0.8955,
+"q": -6.901,
+"cq": -6.69,
+"zq": -0.42,
+"p_q": 0.6318,
+"out": "iueoinnilsulkeo"
+},
+{
+"src": "msum_rc",
+"kind": "bw",
+"sizes": [
+3
+],
+"mode": "first",
+"ntup": 10,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 0.995,
+"q": -6.282,
+"cq": -6.873,
+"zq": 1.03,
+"p_q": 0.1542,
+"out": "asabeaaons"
+},
+{
+"src": "msum_rc",
+"kind": "bw",
+"sizes": [
+3
+],
+"mode": "word",
+"ntup": 10,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 0.995,
+"q": -4.805,
+"cq": -4.797,
+"zq": -0.02,
+"p_q": 0.4776,
+"out": "andsandabattleearthaboveaboveofnavajosecond"
+},
+{
+"src": "msum_rc",
+"kind": "bl",
+"sizes": [
+3
+],
+"mode": "letter",
+"ntup": 10,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 0.995,
+"q": -6.119,
+"cq": -6.55,
+"zq": 0.63,
+"p_q": 0.2537,
+"out": "dryneeeece"
+},
+{
+"src": "msum_rc",
+"kind": "bw",
+"sizes": [
+4
+],
+"mode": "first",
+"ntup": 7,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -7.45,
+"cq": -6.871,
+"zq": -0.85,
+"p_q": 1.0,
+"out": "dslbuof"
+},
+{
+"src": "msum_rc",
+"kind": "bw",
+"sizes": [
+4
+],
+"mode": "word",
+"ntup": 7,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -5.322,
+"cq": -4.744,
+"zq": -1.25,
+"p_q": 0.9005,
+"out": "dualismseriouslonianbeuponoffor"
+},
+{
+"src": "msum_rc",
+"kind": "bl",
+"sizes": [
+4
+],
+"mode": "letter",
+"ntup": 7,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -6.831,
+"cq": -6.74,
+"zq": -0.11,
+"p_q": 0.4826,
+"out": "ehrrdes"
+},
+{
+"src": "msum_rc",
+"kind": "bw",
+"sizes": [
+5
+],
+"mode": "first",
+"ntup": 6,
+"valid": 0.167,
+"cvalid": 0.248,
+"p_valid": 0.8507,
+"q": -9.9,
+"cq": -9.85,
+"zq": -0.12,
+"p_q": 1.0,
+"out": "a"
+},
+{
+"src": "msum_rc",
+"kind": "bw",
+"sizes": [
+5
+],
+"mode": "word",
+"ntup": 6,
+"valid": 0.167,
+"cvalid": 0.248,
+"p_valid": 0.8507,
+"q": -5.616,
+"cq": -6.228,
+"zq": 0.23,
+"p_q": 0.597,
+"out": "absolutely"
+},
+{
+"src": "msum_rc",
+"kind": "bl",
+"sizes": [
+5
+],
+"mode": "letter",
+"ntup": 6,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -4.614,
+"cq": -6.719,
+"zq": 2.39,
+"p_q": 0.0398,
+"out": "intart"
+},
+{
+"src": "msum_rc",
+"kind": "ih",
+"sizes": [
+1
+],
+"mode": "first",
+"ntup": 31,
+"valid": 0.903,
+"cvalid": 0.903,
+"p_valid": 1.0,
+"q": -6.934,
+"cq": -7.071,
+"zq": 0.79,
+"p_q": 0.199,
+"out": "ataaaaaawwaaawatataaaaaawaaa"
+},
+{
+"src": "msum_rc",
+"kind": "ih",
+"sizes": [
+1
+],
+"mode": "word",
+"ntup": 31,
+"valid": 0.903,
+"cvalid": 0.903,
+"p_valid": 1.0,
+"q": -5.262,
+"cq": -5.273,
+"zq": 0.49,
+"p_q": 0.3085,
+"out": "adamtheabductionofproserpinaaflerlifeadamandeveadamadamacrop"
+},
+{
+"src": "msum_rc",
+"kind": "iw",
+"sizes": [
+1
+],
+"mode": "first",
+"ntup": 31,
+"valid": 0.903,
+"cvalid": 0.903,
+"p_valid": 1.0,
+"q": -7.005,
+"cq": -7.019,
+"zq": 0.06,
+"p_q": 0.4776,
+"out": "ataaaadpbbaaabatataaoaadbaaa"
+},
+{
+"src": "msum_rc",
+"kind": "iw",
+"sizes": [
+1
+],
+"mode": "word",
+"ntup": 31,
+"valid": 0.903,
+"cvalid": 0.903,
+"p_valid": 1.0,
+"q": -5.359,
+"cq": -5.366,
+"zq": 0.19,
+"p_q": 0.4229,
+"out": "aboriginestheabrahamaustralianaboriginesaboriginesdurerprose"
+},
+{
+"src": "msum_rc",
+"kind": "ih",
+"sizes": [
+2
+],
+"mode": "first",
+"ntup": 15,
+"valid": 1.0,
+"cvalid": 0.993,
+"p_valid": 0.8955,
+"q": -7.284,
+"cq": -7.165,
+"zq": -0.37,
+"p_q": 0.6368,
+"out": "bafbbgfgafafebb"
+},
+{
+"src": "msum_rc",
+"kind": "ih",
+"sizes": [
+2
+],
+"mode": "word",
+"ntup": 15,
+"valid": 1.0,
+"cvalid": 0.993,
+"p_valid": 0.8955,
+"q": -5.474,
+"cq": -5.493,
+"zq": 0.1,
+"p_q": 0.5025,
+"out": "bounteousimmortalsaflerlifefertilitybulgariansblakegenesisfu"
+},
+{
+"src": "msum_rc",
+"kind": "iw",
+"sizes": [
+2
+],
+"mode": "first",
+"ntup": 15,
+"valid": 1.0,
+"cvalid": 0.993,
+"p_valid": 0.8955,
+"q": -6.417,
+"cq": -6.961,
+"zq": 1.38,
+"p_q": 0.1095,
+"out": "nasihmyefpasnal"
+},
+{
+"src": "msum_rc",
+"kind": "iw",
+"sizes": [
+2
+],
+"mode": "word",
+"ntup": 15,
+"valid": 1.0,
+"cvalid": 0.993,
+"p_valid": 0.8955,
+"q": -5.268,
+"cq": -5.353,
+"zq": 0.33,
+"p_q": 0.3532,
+"out": "newabrahamscottimaginaiyhindusmysticismyouedfigurepressabrah"
+},
+{
+"src": "msum_rc",
+"kind": "ih",
+"sizes": [
+3
+],
+"mode": "first",
+"ntup": 10,
+"valid": 0.0,
+"cvalid": 0.197,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.692,
+"zq": -0.3,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "ih",
+"sizes": [
+3
+],
+"mode": "word",
+"ntup": 10,
+"valid": 0.0,
+"cvalid": 0.197,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -6.051,
+"zq": -2.67,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_rc",
+"kind": "iw",
+"sizes": [
+3
+],
+"mode": "first",
+"ntup": 10,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 0.995,
+"q": -7.45,
+"cq": -7.103,
+"zq": -0.84,
+"p_q": 1.0,
+"out": "jeazddddep"
+},
+{
+"src": "msum_rc",
+"kind": "iw",
+"sizes": [
+3
+],
+"mode": "word",
+"ntup": 10,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 0.995,
+"q": -6.042,
+"cq": -5.315,
+"zq": -2.1,
+"p_q": 0.9751,
+"out": "johnexorcismallynzoroasterdiabologydemoniacdemoniacdevilerne"
+},
+{
+"src": "msum_cr",
+"kind": "pw",
+"sizes": [
+1,
+1
+],
+"mode": "first",
+"ntup": 15,
+"valid": 0.6,
+"cvalid": 0.502,
+"p_valid": 0.2637,
+"q": -7.117,
+"cq": -6.886,
+"zq": -0.33,
+"p_q": 0.5174,
+"out": "trdwglier"
+},
+{
+"src": "msum_cr",
+"kind": "pw",
+"sizes": [
+1,
+1
+],
+"mode": "word",
+"ntup": 15,
+"valid": 0.6,
+"cvalid": 0.502,
+"p_valid": 0.2637,
+"q": -5.895,
+"cq": -5.053,
+"zq": -1.69,
+"p_q": 0.9602,
+"out": "trdnalifywheelgodllieinemblemr"
+},
+{
+"src": "msum_cr",
+"kind": "pl",
+"sizes": [
+1,
+1
+],
+"mode": "letter",
+"ntup": 15,
+"valid": 0.6,
+"cvalid": 0.617,
+"p_valid": 0.7164,
+"q": -7.117,
+"cq": -6.902,
+"zq": -0.39,
+"p_q": 0.607,
+"out": "tifdfludi"
+},
+{
+"src": "msum_cr",
+"kind": "pw",
+"sizes": [
+1,
+2
+],
+"mode": "first",
+"ntup": 10,
+"valid": 0.3,
+"cvalid": 0.346,
+"p_valid": 0.7711,
+"q": -9.9,
+"cq": -8.422,
+"zq": -0.88,
+"p_q": 1.0,
+"out": "nst"
+},
+{
+"src": "msum_cr",
+"kind": "pw",
+"sizes": [
+1,
+2
+],
+"mode": "word",
+"ntup": 10,
+"valid": 0.3,
+"cvalid": 0.346,
+"p_valid": 0.7711,
+"q": -4.119,
+"cq": -4.612,
+"zq": 0.48,
+"p_q": 0.3134,
+"out": "nesssinglethe"
+},
+{
+"src": "msum_cr",
+"kind": "pl",
+"sizes": [
+1,
+2
+],
+"mode": "letter",
+"ntup": 10,
+"valid": 0.3,
+"cvalid": 0.432,
+"p_valid": 0.9104,
+"q": -9.9,
+"cq": -7.71,
+"zq": -1.43,
+"p_q": 1.0,
+"out": "bno"
+},
+{
+"src": "msum_cr",
+"kind": "pw",
+"sizes": [
+1,
+3
+],
+"mode": "first",
+"ntup": 7,
+"valid": 0.143,
+"cvalid": 0.081,
+"p_valid": 0.4826,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": "w"
+},
+{
+"src": "msum_cr",
+"kind": "pw",
+"sizes": [
+1,
+3
+],
+"mode": "word",
+"ntup": 7,
+"valid": 0.143,
+"cvalid": 0.081,
+"p_valid": 0.4826,
+"q": -4.195,
+"cq": -8.007,
+"zq": 1.43,
+"p_q": 0.1841,
+"out": "world"
+},
+{
+"src": "msum_cr",
+"kind": "pl",
+"sizes": [
+1,
+3
+],
+"mode": "letter",
+"ntup": 7,
+"valid": 0.286,
+"cvalid": 0.33,
+"p_valid": 0.7662,
+"q": -9.9,
+"cq": -9.457,
+"zq": -0.35,
+"p_q": 1.0,
+"out": "uw"
+},
+{
+"src": "msum_cr",
+"kind": "pw",
+"sizes": [
+2,
+1
+],
+"mode": "first",
+"ntup": 10,
+"valid": 0.7,
+"cvalid": 0.758,
+"p_valid": 0.8159,
+"q": -6.2,
+"cq": -6.935,
+"zq": 1.08,
+"p_q": 0.1592,
+"out": "aserdlk"
+},
+{
+"src": "msum_cr",
+"kind": "pw",
+"sizes": [
+2,
+1
+],
+"mode": "word",
+"ntup": 10,
+"valid": 0.7,
+"cvalid": 0.758,
+"p_valid": 0.8159,
+"q": -5.2,
+"cq": -4.966,
+"zq": -0.51,
+"p_q": 0.7164,
+"out": "abovesocialedgerdivisionleftkies"
+},
+{
+"src": "msum_cr",
+"kind": "pl",
+"sizes": [
+2,
+1
+],
+"mode": "letter",
+"ntup": 10,
+"valid": 0.7,
+"cvalid": 0.772,
+"p_valid": 0.8358,
+"q": -5.581,
+"cq": -6.776,
+"zq": 1.52,
+"p_q": 0.0945,
+"out": "eheiesr"
+},
+{
+"src": "msum_cr",
+"kind": "pw",
+"sizes": [
+2,
+2
+],
+"mode": "first",
+"ntup": 7,
+"valid": 0.571,
+"cvalid": 0.744,
+"p_valid": 0.9154,
+"q": -7.45,
+"cq": -7.155,
+"zq": -0.26,
+"p_q": 0.9154,
+"out": "dhua"
+},
+{
+"src": "msum_cr",
+"kind": "pw",
+"sizes": [
+2,
+2
+],
+"mode": "word",
+"ntup": 7,
+"valid": 0.571,
+"cvalid": 0.744,
+"p_valid": 0.9154,
+"q": -6.033,
+"cq": -4.708,
+"zq": -2.87,
+"p_q": 0.995,
+"out": "duismhisurbanage"
+},
+{
+"src": "msum_cr",
+"kind": "pl",
+"sizes": [
+2,
+2
+],
+"mode": "letter",
+"ntup": 7,
+"valid": 0.714,
+"cvalid": 0.776,
+"p_valid": 0.8159,
+"q": -6.45,
+"cq": -6.917,
+"zq": 0.4,
+"p_q": 0.3085,
+"out": "pirlo"
+},
+{
+"src": "msum_cr",
+"kind": "pw",
+"sizes": [
+2,
+3
+],
+"mode": "first",
+"ntup": 6,
+"valid": 0.167,
+"cvalid": 0.211,
+"p_valid": 0.806,
+"q": -9.9,
+"cq": -9.876,
+"zq": -0.1,
+"p_q": 1.0,
+"out": "a"
+},
+{
+"src": "msum_cr",
+"kind": "pw",
+"sizes": [
+2,
+3
+],
+"mode": "word",
+"ntup": 6,
+"valid": 0.167,
+"cvalid": 0.211,
+"p_valid": 0.806,
+"q": -9.9,
+"cq": -6.573,
+"zq": -1.22,
+"p_q": 1.0,
+"out": "and"
+},
+{
+"src": "msum_cr",
+"kind": "pl",
+"sizes": [
+2,
+3
+],
+"mode": "letter",
+"ntup": 6,
+"valid": 0.333,
+"cvalid": 0.72,
+"p_valid": 0.995,
+"q": -9.9,
+"cq": -7.312,
+"zq": -1.49,
+"p_q": 1.0,
+"out": "tp"
+},
+{
+"src": "msum_cr",
+"kind": "pw",
+"sizes": [
+3,
+1
+],
+"mode": "first",
+"ntup": 7,
+"valid": 0.143,
+"cvalid": 0.089,
+"p_valid": 0.4826,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": "f"
+},
+{
+"src": "msum_cr",
+"kind": "pw",
+"sizes": [
+3,
+1
+],
+"mode": "word",
+"ntup": 7,
+"valid": 0.143,
+"cvalid": 0.089,
+"p_valid": 0.4826,
+"q": -9.9,
+"cq": -8.226,
+"zq": -0.66,
+"p_q": 1.0,
+"out": "f"
+},
+{
+"src": "msum_cr",
+"kind": "pl",
+"sizes": [
+3,
+1
+],
+"mode": "letter",
+"ntup": 7,
+"valid": 0.143,
+"cvalid": 0.091,
+"p_valid": 0.4876,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": "u"
+},
+{
+"src": "msum_cr",
+"kind": "pw",
+"sizes": [
+3,
+2
+],
+"mode": "first",
+"ntup": 6,
+"valid": 0.0,
+"cvalid": 0.081,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "pw",
+"sizes": [
+3,
+2
+],
+"mode": "word",
+"ntup": 6,
+"valid": 0.0,
+"cvalid": 0.081,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -8.189,
+"zq": -0.65,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "pl",
+"sizes": [
+3,
+2
+],
+"mode": "letter",
+"ntup": 6,
+"valid": 0.0,
+"cvalid": 0.082,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "pw",
+"sizes": [
+3,
+3
+],
+"mode": "first",
+"ntup": 5,
+"valid": 0.0,
+"cvalid": 0.031,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "pw",
+"sizes": [
+3,
+3
+],
+"mode": "word",
+"ntup": 5,
+"valid": 0.0,
+"cvalid": 0.031,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.275,
+"zq": -0.35,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "pl",
+"sizes": [
+3,
+3
+],
+"mode": "letter",
+"ntup": 5,
+"valid": 0.0,
+"cvalid": 0.093,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+1,
+1,
+1
+],
+"mode": "first",
+"ntup": 10,
+"valid": 0.3,
+"cvalid": 0.145,
+"p_valid": 0.1741,
+"q": -9.9,
+"cq": -9.888,
+"zq": -0.07,
+"p_q": 1.0,
+"out": "art"
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+1,
+1,
+1
+],
+"mode": "word",
+"ntup": 10,
+"valid": 0.3,
+"cvalid": 0.145,
+"p_valid": 0.1741,
+"q": -5.985,
+"cq": -6.285,
+"zq": 0.11,
+"p_q": 0.607,
+"out": "asrthe"
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+1,
+1,
+2
+],
+"mode": "first",
+"ntup": 7,
+"valid": 0.0,
+"cvalid": 0.02,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+1,
+1,
+2
+],
+"mode": "word",
+"ntup": 7,
+"valid": 0.0,
+"cvalid": 0.02,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.389,
+"zq": -0.31,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+1,
+1,
+3
+],
+"mode": "first",
+"ntup": 6,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+1,
+1,
+3
+],
+"mode": "word",
+"ntup": 6,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+1,
+2,
+1
+],
+"mode": "first",
+"ntup": 7,
+"valid": 0.143,
+"cvalid": 0.043,
+"p_valid": 0.2736,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": "r"
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+1,
+2,
+1
+],
+"mode": "word",
+"ntup": 7,
+"valid": 0.143,
+"cvalid": 0.043,
+"p_valid": 0.2736,
+"q": -5.072,
+"cq": -8.967,
+"zq": 1.74,
+"p_q": 0.1542,
+"out": "reveals"
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+1,
+2,
+2
+],
+"mode": "first",
+"ntup": 6,
+"valid": 0.0,
+"cvalid": 0.002,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+1,
+2,
+2
+],
+"mode": "word",
+"ntup": 6,
+"valid": 0.0,
+"cvalid": 0.002,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.879,
+"zq": -0.07,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+1,
+2,
+3
+],
+"mode": "first",
+"ntup": 5,
+"valid": 0.0,
+"cvalid": 0.001,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+1,
+2,
+3
+],
+"mode": "word",
+"ntup": 5,
+"valid": 0.0,
+"cvalid": 0.001,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.884,
+"zq": -0.07,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+1,
+3,
+1
+],
+"mode": "first",
+"ntup": 6,
+"valid": 0.0,
+"cvalid": 0.002,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+1,
+3,
+1
+],
+"mode": "word",
+"ntup": 6,
+"valid": 0.0,
+"cvalid": 0.002,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.84,
+"zq": -0.1,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+1,
+3,
+2
+],
+"mode": "first",
+"ntup": 5,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+1,
+3,
+2
+],
+"mode": "word",
+"ntup": 5,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+1,
+3,
+3
+],
+"mode": "first",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+1,
+3,
+3
+],
+"mode": "word",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+2,
+1,
+1
+],
+"mode": "first",
+"ntup": 7,
+"valid": 0.286,
+"cvalid": 0.319,
+"p_valid": 0.7015,
+"q": -9.9,
+"cq": -9.392,
+"zq": -0.41,
+"p_q": 1.0,
+"out": "ro"
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+2,
+1,
+1
+],
+"mode": "word",
+"ntup": 7,
+"valid": 0.286,
+"cvalid": 0.319,
+"p_valid": 0.7015,
+"q": -5.084,
+"cq": -5.479,
+"zq": 0.19,
+"p_q": 0.607,
+"out": "revealor"
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+2,
+1,
+2
+],
+"mode": "first",
+"ntup": 6,
+"valid": 0.167,
+"cvalid": 0.032,
+"p_valid": 0.1741,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": "t"
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+2,
+1,
+2
+],
+"mode": "word",
+"ntup": 6,
+"valid": 0.167,
+"cvalid": 0.032,
+"p_valid": 0.1741,
+"q": -2.863,
+"cq": -9.25,
+"zq": 3.6,
+"p_q": 0.01,
+"out": "they"
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+2,
+1,
+3
+],
+"mode": "first",
+"ntup": 5,
+"valid": 0.0,
+"cvalid": 0.006,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+2,
+1,
+3
+],
+"mode": "word",
+"ntup": 5,
+"valid": 0.0,
+"cvalid": 0.006,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.804,
+"zq": -0.14,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+2,
+2,
+1
+],
+"mode": "first",
+"ntup": 6,
+"valid": 0.0,
+"cvalid": 0.231,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.827,
+"zq": -0.18,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+2,
+2,
+1
+],
+"mode": "word",
+"ntup": 6,
+"valid": 0.0,
+"cvalid": 0.231,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -6.624,
+"zq": -1.21,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+2,
+2,
+2
+],
+"mode": "first",
+"ntup": 5,
+"valid": 0.0,
+"cvalid": 0.026,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+2,
+2,
+2
+],
+"mode": "word",
+"ntup": 5,
+"valid": 0.0,
+"cvalid": 0.026,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.502,
+"zq": -0.27,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+2,
+2,
+3
+],
+"mode": "first",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.003,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+2,
+2,
+3
+],
+"mode": "word",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.003,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+2,
+3,
+1
+],
+"mode": "first",
+"ntup": 5,
+"valid": 0.0,
+"cvalid": 0.021,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+2,
+3,
+1
+],
+"mode": "word",
+"ntup": 5,
+"valid": 0.0,
+"cvalid": 0.021,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.557,
+"zq": -0.25,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+2,
+3,
+2
+],
+"mode": "first",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.001,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+2,
+3,
+2
+],
+"mode": "word",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.001,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+2,
+3,
+3
+],
+"mode": "first",
+"ntup": 3,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+2,
+3,
+3
+],
+"mode": "word",
+"ntup": 3,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+3,
+1,
+1
+],
+"mode": "first",
+"ntup": 6,
+"valid": 0.0,
+"cvalid": 0.036,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+3,
+1,
+1
+],
+"mode": "word",
+"ntup": 6,
+"valid": 0.0,
+"cvalid": 0.036,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.14,
+"zq": -0.4,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+3,
+1,
+2
+],
+"mode": "first",
+"ntup": 5,
+"valid": 0.0,
+"cvalid": 0.005,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+3,
+1,
+2
+],
+"mode": "word",
+"ntup": 5,
+"valid": 0.0,
+"cvalid": 0.005,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.766,
+"zq": -0.16,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+3,
+1,
+3
+],
+"mode": "first",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+3,
+1,
+3
+],
+"mode": "word",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+3,
+2,
+1
+],
+"mode": "first",
+"ntup": 5,
+"valid": 0.0,
+"cvalid": 0.032,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+3,
+2,
+1
+],
+"mode": "word",
+"ntup": 5,
+"valid": 0.0,
+"cvalid": 0.032,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.533,
+"zq": -0.27,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+3,
+2,
+2
+],
+"mode": "first",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+3,
+2,
+2
+],
+"mode": "word",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+3,
+2,
+3
+],
+"mode": "first",
+"ntup": 3,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+3,
+2,
+3
+],
+"mode": "word",
+"ntup": 3,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+3,
+3,
+1
+],
+"mode": "first",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.003,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+3,
+3,
+1
+],
+"mode": "word",
+"ntup": 4,
+"valid": 0.0,
+"cvalid": 0.003,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+3,
+3,
+2
+],
+"mode": "first",
+"ntup": 3,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+3,
+3,
+2
+],
+"mode": "word",
+"ntup": 3,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+3,
+3,
+3
+],
+"mode": "first",
+"ntup": 3,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "plw",
+"sizes": [
+3,
+3,
+3
+],
+"mode": "word",
+"ntup": 3,
+"valid": 0.0,
+"cvalid": 0.0,
+"p_valid": 1.0,
+"q": -9.9,
+"cq": -9.9,
+"zq": 0.0,
+"p_q": 1.0,
+"out": ""
+},
+{
+"src": "msum_cr",
+"kind": "bw",
+"sizes": [
+1
+],
+"mode": "first",
+"ntup": 31,
+"valid": 0.903,
+"cvalid": 0.903,
+"p_valid": 1.0,
+"q": -7.259,
+"cq": -7.35,
+"zq": 0.83,
+"p_q": 0.2139,
+"out": "dcdcdcmuctbuuducdcuutobbcdcb"
+},
+{
+"src": "msum_cr",
+"kind": "bw",
+"sizes": [
+1
+],
+"mode": "word",
+"ntup": 31,
+"valid": 0.903,
+"cvalid": 0.903,
+"p_valid": 1.0,
+"q": -6.271,
+"cq": -6.267,
+"zq": -0.1,
+"p_q": 0.5174,
+"out": "dnalifycosmicdnalifycosmicdnalifycosmicmmsmunknowncosmictheb"
+},
+{
+"src": "msum_cr",
+"kind": "bl",
+"sizes": [
+1
+],
+"mode": "letter",
+"ntup": 31,
+"valid": 0.903,
+"cvalid": 0.903,
+"p_valid": 1.0,
+"q": -7.266,
+"cq": -7.226,
+"zq": -0.27,
+"p_q": 0.5622,
+"out": "ucucudscdiaccuccudccimaaduda"
+},
+{
+"src": "msum_cr",
+"kind": "bw",
+"sizes": [
+2
+],
+"mode": "first",
+"ntup": 15,
+"valid": 1.0,
+"cvalid": 0.993,
+"p_valid": 0.8955,
+"q": -6.802,
+"cq": -6.742,
+"zq": -0.12,
+"p_q": 0.5423,
+"out": "tdtafiawtdlecta"
+},
+{
+"src": "msum_cr",
+"kind": "bw",
+"sizes": [
+2
+],
+"mode": "word",
+"ntup": 15,
+"valid": 1.0,
+"cvalid": 0.993,
+"p_valid": 0.8955,
+"q": -4.746,
+"cq": -4.92,
+"zq": 0.5,
+"p_q": 0.2886,
+"out": "thednalifytheandfairyindexandwingedthednalifyllieessaychapte"
+},
+{
+"src": "msum_cr",
+"kind": "bl",
+"sizes": [
+2
+],
+"mode": "letter",
+"ntup": 15,
+"valid": 1.0,
+"cvalid": 0.993,
+"p_valid": 0.8955,
+"q": -7.45,
+"cq": -6.714,
+"zq": -1.49,
+"p_q": 1.0,
+"out": "sulnnfisiueoinn"
+},
+{
+"src": "msum_cr",
+"kind": "bw",
+"sizes": [
+3
+],
+"mode": "first",
+"ntup": 10,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -6.927,
+"cq": -6.861,
+"zq": -0.12,
+"p_q": 0.4627,
+"out": "aaonsiaavi"
+},
+{
+"src": "msum_cr",
+"kind": "bw",
+"sizes": [
+3
+],
+"mode": "word",
+"ntup": 10,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -5.407,
+"cq": -4.781,
+"zq": -1.8,
+"p_q": 0.9552,
+"out": "aboveaboveofnavajosecondisandavalleysilctii"
+},
+{
+"src": "msum_cr",
+"kind": "bl",
+"sizes": [
+3
+],
+"mode": "letter",
+"ntup": 10,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -6.639,
+"cq": -6.528,
+"zq": -0.16,
+"p_q": 0.4975,
+"out": "eeecesneme"
+},
+{
+"src": "msum_cr",
+"kind": "bw",
+"sizes": [
+4
+],
+"mode": "first",
+"ntup": 7,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -6.95,
+"cq": -6.876,
+"zq": -0.11,
+"p_q": 0.5373,
+"out": "anwodsl"
+},
+{
+"src": "msum_cr",
+"kind": "bw",
+"sizes": [
+4
+],
+"mode": "word",
+"ntup": 7,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -5.412,
+"cq": -4.715,
+"zq": -1.53,
+"p_q": 0.9254,
+"out": "attaumneedwaterofdualismseriouslonian"
+},
+{
+"src": "msum_cr",
+"kind": "bl",
+"sizes": [
+4
+],
+"mode": "letter",
+"ntup": 7,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -7.45,
+"cq": -6.658,
+"zq": -0.92,
+"p_q": 1.0,
+"out": "kmdaehr"
+},
+{
+"src": "msum_cr",
+"kind": "bw",
+"sizes": [
+5
+],
+"mode": "first",
+"ntup": 6,
+"valid": 0.167,
+"cvalid": 0.253,
+"p_valid": 0.8856,
+"q": -9.9,
+"cq": -9.852,
+"zq": -0.12,
+"p_q": 1.0,
+"out": "a"
+},
+{
+"src": "msum_cr",
+"kind": "bw",
+"sizes": [
+5
+],
+"mode": "word",
+"ntup": 6,
+"valid": 0.167,
+"cvalid": 0.253,
+"p_valid": 0.8856,
+"q": -5.616,
+"cq": -5.985,
+"zq": 0.14,
+"p_q": 0.6517,
+"out": "absolutely"
+},
+{
+"src": "msum_cr",
+"kind": "bl",
+"sizes": [
+5
+],
+"mode": "letter",
+"ntup": 6,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -3.744,
+"cq": -6.65,
+"zq": 3.11,
+"p_q": 0.005,
+"out": "artmen"
+},
+{
+"src": "msum_cr",
+"kind": "ih",
+"sizes": [
+1
+],
+"mode": "first",
+"ntup": 31,
+"valid": 0.903,
+"cvalid": 0.903,
+"p_valid": 1.0,
+"q": -7.033,
+"cq": -7.105,
+"zq": 0.41,
+"p_q": 0.3731,
+"out": "atataaaaaawaaaataaaaaawwaaaw"
+},
+{
+"src": "msum_cr",
+"kind": "ih",
+"sizes": [
+1
+],
+"mode": "word",
+"ntup": 31,
+"valid": 0.903,
+"cvalid": 0.903,
+"p_valid": 1.0,
+"q": -5.259,
+"cq": -5.275,
+"zq": 0.62,
+"p_q": 0.2338,
+"out": "aflerlifetheabductionofproserpinaaflerlifetheabductionofpros"
+},
+{
+"src": "msum_cr",
+"kind": "iw",
+"sizes": [
+1
+],
+"mode": "first",
+"ntup": 31,
+"valid": 0.903,
+"cvalid": 0.903,
+"p_valid": 1.0,
+"q": -7.113,
+"cq": -7.083,
+"zq": -0.15,
+"p_q": 0.5323,
+"out": "atataaoaadbaaaataaaadpbbaaab"
+},
+{
+"src": "msum_cr",
+"kind": "iw",
+"sizes": [
+1
+],
+"mode": "word",
+"ntup": 31,
+"valid": 0.903,
+"cvalid": 0.903,
+"p_valid": 1.0,
+"q": -5.336,
+"cq": -5.367,
+"zq": 0.82,
+"p_q": 0.199,
+"out": "abrahamtheabrahamtheabrahamaustralianofaboriginesaustraliand"
+},
+{
+"src": "msum_cr",
+"kind": "ih",
+"sizes": [
+2
+],
+"mode": "first",
+"ntup": 15,
+"valid": 1.0,
+"cvalid": 0.993,
+"p_valid": 0.8955,
+"q": -7.45,
+"cq": -7.233,
+"zq": -0.87,
+"p_q": 1.0,
+"out": "faafbfgebafbbgf"
+},
+{
+"src": "msum_cr",
+"kind": "ih",
+"sizes": [
+2
+],
+"mode": "word",
+"ntup": 15,
+"valid": 1.0,
+"cvalid": 0.993,
+"p_valid": 0.8955,
+"q": -5.607,
+"cq": -5.491,
+"zq": -0.63,
+"p_q": 0.7413,
+"out": "francisofassisisaintaflerlifeannefulcanellibaudelairefaustge"
+},
+{
+"src": "msum_cr",
+"kind": "iw",
+"sizes": [
+2
+],
+"mode": "first",
+"ntup": 15,
+"valid": 1.0,
+"cvalid": 0.993,
+"p_valid": 0.8955,
+"q": -6.867,
+"cq": -6.925,
+"zq": 0.13,
+"p_q": 0.3731,
+"out": "pafyadoynasihmy"
+},
+{
+"src": "msum_cr",
+"kind": "iw",
+"sizes": [
+2
+],
+"mode": "word",
+"ntup": 15,
+"valid": 1.0,
+"cvalid": 0.993,
+"p_valid": 0.8955,
+"q": -5.387,
+"cq": -5.346,
+"zq": -0.17,
+"p_q": 0.5672,
+"out": "pressabrahamfigureyouaflerlifedofyorknewabrahamscottimaginai"
+},
+{
+"src": "msum_cr",
+"kind": "ih",
+"sizes": [
+3
+],
+"mode": "first",
+"ntup": 10,
+"valid": 0.1,
+"cvalid": 0.211,
+"p_valid": 0.9552,
+"q": -9.9,
+"cq": -9.654,
+"zq": -0.32,
+"p_q": 1.0,
+"out": "f"
+},
+{
+"src": "msum_cr",
+"kind": "ih",
+"sizes": [
+3
+],
+"mode": "word",
+"ntup": 10,
+"valid": 0.1,
+"cvalid": 0.211,
+"p_valid": 0.9552,
+"q": -5.494,
+"cq": -5.919,
+"zq": 0.36,
+"p_q": 0.4129,
+"out": "fulcanelli"
+},
+{
+"src": "msum_cr",
+"kind": "iw",
+"sizes": [
+3
+],
+"mode": "first",
+"ntup": 10,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -7.45,
+"cq": -7.103,
+"zq": -0.74,
+"p_q": 1.0,
+"out": "dddepdyfbm"
+},
+{
+"src": "msum_cr",
+"kind": "iw",
+"sizes": [
+3
+],
+"mode": "word",
+"ntup": 10,
+"valid": 1.0,
+"cvalid": 1.0,
+"p_valid": 1.0,
+"q": -5.925,
+"cq": -5.38,
+"zq": -1.67,
+"p_q": 0.9602,
+"out": "demoniacdemoniacdevilernestpopedescartesyoufrancisbostonmaga"
+}
+]

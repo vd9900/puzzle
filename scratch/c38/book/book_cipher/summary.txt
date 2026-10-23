@@ -1,0 +1,17 @@
+tests 864 Bonferroni alpha 5.787037037037037e-05 min attainable p 0.004975124378109453
+p_q<=0.005: 3 expected under null ~ 4.3
+p_q<=0.05: 22 expected ~ 43.2
+p_valid<=0.05 (nontrivial): 8 expected ~ 43.2
+max validity among readings where controls <0.95: Z2 pl [2, 3] letter 1.0 ctrl 0.651
+Z1 108 min p_q 0.0348 max zq(nondegenerate) 3.98
+Z2 108 min p_q 0.0547 max zq(nondegenerate) 2.05
+dbbi 108 min p_q 0.005 max zq(nondegenerate) 2.78
+faed 108 min p_q 0.0547 max zq(nondegenerate) 1.84
+msum_cr 108 min p_q 0.005 max zq(nondegenerate) 3.6
+msum_rc 108 min p_q 0.0348 max zq(nondegenerate) 2.39
+p32 108 min p_q 0.01 max zq(nondegenerate) 3.45
+res60 108 min p_q 0.0249 max zq(nondegenerate) 2.23
+pw(3,3) zero share 0.269; P(0 zeros in 570 digits) ~ 2.1e-78
+pw(3,2) zero share 0.234; P(0 zeros in 570 digits) ~ 1.3e-66
+pw(2,2) zero share 0.107; P(0 zeros in 570 digits) ~ 1.1e-28
+pw(3,1) zero share 0.232; P(0 zeros in 570 digits) ~ 4.4e-66

@@ -1,0 +1,9 @@
+# grammar_model lens, cycle 37 — 4 tests, each with derivation in REPORT.md (T1..T4)
+# T1 HASHTHETEXT precedent applied to this page: all decoded page text in page order, lowercase, connected
+matrixsumlistlastwordsbeforearchichoicethispasswordshabefourfirsthintisyourlastcommandentershabefanstoo
+# T2 Phase-3 chaining precedent (prior answer prefixed to the new answers): causality + Phase 3.2 answers
+causalityjacquefrescogiveitjustonesecondheisenbergsuncertaintyprinciple
+# T3 best last-words answer + literal first creator hint (sha256 hex of lyric) as the final component
+sheisgoingtodieandthereisnothingthatyoucandotostopit5ac407837447fba24ba2802e4d1e9aecb4580aa29fef1088cc387c180b746f75
+# T4 roadmap order: matrix row-sum list of the first-piece 14x14 matrix, then best last-words answer
+610876654997879sheisgoingtodieandthereisnothingthatyoucandotostopit

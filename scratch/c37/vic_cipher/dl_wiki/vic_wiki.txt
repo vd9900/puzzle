@@ -1,0 +1,224 @@
+{{Short description|Complex Soviet pencil and paper cipher}}
+{{more citations needed|date=June 2010}}
+[[File:Flow_diagram_of_the_VIC_Cipher.png|thumb|A flow diagram of the VIC Cipher]]The '''VIC cipher''' was a pencil and paper [[cipher]] used by the  [[Soviet Union|Soviet]] [[spy]] [[Reino Häyhänen]], [[codename]]d "VICTOR".
+
+If the cipher were to be given a modern technical name, it would be known as a "straddling bipartite monoalphabetic substitution superenciphered by modified double transposition."<ref name=":0">David Kahn.
+[https://www.cia.gov/static/7799f1d576b09d8bce07988c635725db/Number-One-From-Moscow.pdf "Number One From Moscow"] {{Webarchive|url=https://web.archive.org/web/20230319134715/https://www.cia.gov/static/7799f1d576b09d8bce07988c635725db/Number-One-From-Moscow.pdf |date=2023-03-19 }}.
+1993.</ref>
+However, by general classification it is part of the [[Nihilist cipher|Nihilist family]] of ciphers.
+
+It was arguably the most complex hand-operated cipher ever seen, when it was first discovered. The initial analysis done by the American [[National Security Agency]] (NSA) in 1953 did not absolutely conclude that it was a hand cipher, but its placement in a hollowed out [[Nickel (United States coin)|5¢ coin]] (later known as the [[Hollow Nickel Case]]) implied it could be decoded using pencil and paper. The VIC cipher remained unbroken until more information about its structure was available.
+
+Although certainly not as complex or secure as modern computer operated [[stream cipher]]s or [[block cipher]]s, in practice messages protected by it resisted all attempts at [[cryptanalysis]] by at least the NSA from its discovery in 1953 until Häyhänen's [[defector|defection]] in 1957.
+
+==A revolutionary leap==
+The VIC cipher can be regarded as the evolutionary pinnacle of the [[Nihilist cipher]] family.
+
+The VIC cipher has several important integrated components, including [[modular arithmetic|mod 10]] chain addition, a [[lagged Fibonacci generator]]  (a recursive formula used to generate a sequence of [[pseudorandom]] [[Numerical digit|digits]]), a [[straddling checkerboard]], and a disrupted [[transposition cipher|double transposition]].
+
+Until the discovery of VIC, it was generally thought that a double transposition alone was the most complex cipher an agent, as a practical matter, could use as a field cipher.
+
+==History==
+During [[World War II]], several Soviet spy rings communicated to Moscow Centre using two ciphers which are essentially evolutionary improvements on the basic Nihilist cipher. A very strong version was used by [[Max Christiansen-Clausen]] in [[Richard Sorge]]'s network in [[Japan]], and by [[Alexander Foote]] in the [[Lucy spy ring]] in [[Switzerland]].<ref>{{cite book |last=Kahn |first=David |date=1996 |title=The Codebreakers |publisher=Scribner |page=650}}</ref> A slightly weaker version was used by the ''[[Red Orchestra (spy)|Rote Kapelle]]'' network.<ref>{{cite book |last=Kahn |first=David |date=1996 |title=The Codebreakers |publisher=Scribner |page=652}}</ref>
+
+In both versions, the plaintext was first converted to digits by use of a straddling checkerboard rather than a [[Polybius square]]. This has the advantage of slightly compressing the plaintext, thus raising its [[unicity distance]] and also allowing radio operators to complete their transmissions quicker and shut down sooner. Shutting down sooner reduces the risk of the operator being found by enemy [[radio direction finder]]s. Increasing the unicity distance increases strength against statistical attacks.
+
+Clausen and Foote both wrote their plaintext in English, <!-- Obviously Foote was English. Does anyone know why Clausen did so? --> and memorized the 8 [[letter frequency|most frequent letters]] of English (to fill the top row of the checkerboard) through the mnemonic phrase "a sin to err" (dropping the second "r").  The standard English straddling checkerboard has 28 character slots and in this cipher the extra two became "full stop" and "numbers shift". Numbers were sent by a numbers shift, followed by the actual plaintext digits in repeated pairs, followed by another shift. Then, similarly to the basic Nihilist, a digital additive was added in, which was called "closing". However a different additive was used each time, so finally a concealed "indicator group" had to be inserted to indicate what additive was used.
+
+Unlike basic Nihilist, the additive was added by non-carrying addition (digit-wise addition [[Modular arithmetic|modulo]] 10), thus producing a more uniform output which doesn't leak as much information. More importantly, the additive was generated not through a keyword, but by selecting lines at random from almanacs of industrial statistics. Such books were deemed dull enough to not arouse suspicion if an agent was searched (particularly as the agents' cover stories were as businessmen), and to have such high entropy density as to provide a very secure additive. Of course the figures from such a book are not actually uniformly distributed (there is an excess of "0" and "1" (see [[Benford's Law]]), and sequential numbers are likely to be somewhat similar), but nevertheless they have much higher entropy density than [[passphrase]]s and the like; at any rate, in practice they seem never to have been successfully cryptanalysed.
+
+The weaker version generated the additive from the text of a novel or similar book (at least one ''Rote Kapelle'' member actually used ''[[The Good Soldier Švejk|The Good Soldier Schweik]]''). This text was converted to a digital additive using a technique similar to a straddling checkerboard.
+
+The ultimate development along these lines was the VIC cipher, used in the 1950s by [[Reino Häyhänen]]<!-- and ???-->. By this time, most Soviet agents were instead using [[one-time pad]]s. However, despite the theoretical perfection of the one-time pad, in practice they ''were'' sometimes [[Venona project|broken]] due to reuse of 'one-time' cipher pages in practice,<ref>{{cite web |url=https://www.nsa.gov/public_info/_files/crypto_almanac_50th/VENONA_An_Overview.pdf |title=VENONA: An Overview |website=www.nsa.gov |access-date=12 January 2022 |archive-url=https://web.archive.org/web/20160304100650/https://www.nsa.gov/public_info/_files/crypto_almanac_50th/VENONA_An_Overview.pdf |archive-date=4 March 2016 |url-status=dead}}</ref> while VIC was not.
+
+==Mechanics overview==
+The secret key for the encryption is the following:
+
+* A short '''Phrase''' (e.g. the first line of a song, at least 20 letters long)
+* A '''Date''' (written numerically, with no leading zeroes)
+* A '''Personal Number''' (unique to agent, a 1 or 2 digit number)
+
+The encryption was also aided by the adversary not knowing a 5-digit '''Keygroup''' which was unique to each message. The Keygroup was not strictly a 'secret', (as it was embedded in-clear in the ciphertext), but it was at a location in the ciphertext that was not known to an adversary.
+
+The cipher broadly worked as follows:
+
+# Use the secrets above (Phrase, Date, Keygroup and Personal Number) create a 50 digit block of pseudo random-numbers
+# Use this block to create the message keys for:
+## A [[Straddling checkerboard|Straddling Checkerboard]]
+## Two [[Columnar transposition]]s
+# Encrypt the Plaintext message via the straddling checkerboard
+# Apply two transpositions to the resultant (intermediary) ciphertext through two columnar 
+## A 'Standard' Columnar Transposition 
+## A Diagonal Columnar Transposition
+# Insertion of the Keygroup into the ciphertext - as determined by the sixth digit of the Date
+
+== Detailed mechanics ==
+''Note: this section tracks the calculations by referring to [Line-X] or similar. This is to align with the notation stated in the CIA archive description.<ref name=":0" />''
+
+=== Pseudorandom block derivation ===
+
+* '''[Line-A]''': Generate a random 5-digit ''Keygroup''
+* '''[Line-B]''': Write the first 5 digits of the secret ''Date''
+* '''[Line-C]''': Subtract [Line-B] from [Line-A] by [[modular arithmetic]] (digit-by-digit, not 'borrowing' any tens from a neighboring column)
+* '''[Line-D]''': Write out the first 20 letters from the secret ''Phrase''
+* '''[Line-E.1&2]''': ''Sequence'' (see below) the first and second ten characters separately (to get [Line-E.1] & [Line-E.2] respectively)
+* '''[Line-F.1]''': Write out the 5-Digits from [Line-C], then apply ''Chain Addition'' (see below) applied to create five more digits
+* '''[Line-F.2]''': The digit sequence '1234567890' is written out (under [Line-E.2]) as an aide for encoding when creating [Line-H]
+* '''[Line-G]''': Addition of [Line-E.1] to [Line-F.1] - this is digit-by-digit by mod-10 arithmetic, i.e. no 'carrying' over tens to the next column
+* '''[Line-H]''': ''Encoding'' (see below) of the digits in [Line-G] under [Line-E.2] as the key
+* ''[Line-I]: No [Line-I] used, presumably to avoid confusion (as 'I' may be misread as a '1' or 'J')''
+* '''[Line-J]''': The ''Sequencing'' of [Line-H]
+* '''[Lines-K,L,M,N,P]:''' These are five 10-digit lines created by chain addition of [Line-H]. The last two non-equal digits are added to the agent's personal number to determine the key length of the 2 transpositions. (Lines K-to-P are in-effect a key-driven pseudo-random block used for the next stage of encryption)
+* ''[Line-O]: No [Line-O] used, presumably to avoid confusion (as 'O' may be misread as a zero or 'Q')''
+
+=== Message key derivation ===
+
+* '''[Line-Q]''': The first 'a' digits (where 'a' is the first value resulting from the addition of the last non-equal digits in [Line-P] to the Personal Number) extracted from [Lines-K,L,M,N,P] when transposed via [Line-J]. This [[Transposition cipher|transposition]] is done by writing out the columns of numbers underneath the digits in [Line-J], beginning with the column of numbers underneath the digit ‘1', then the column beneath the digit ‘2’, and so on in numerical order, until 'a' digits have been written out (in the example below, the value of 'a' would be 13, so this transposition would carry on for 13 digits). These digits are used as the key to the Columnar Transposition. 
+* '''[Line-R]''': The next 'b' digits (where 'b' is the second value resulting from the addition of the last non-equal digits in [Line-P] to the Personal Number) extracted (after the 'a' digits have been extracted) from [Lines-K,L,M,N,P] when transposed via [Line-J]. This transposition is done in the same manner as [Line-Q], but is carried on from the previous transposition, meaning it may start mid-column under the digit of [Line-J] where the last transposition left off (in the example below, [Line-R] starts mid-way through the column underneath the digit '3' in [Line-J]). These resulting digits are used to key the Diagonal Transposition. 
+* '''[Line-S]''': The Sequencing of [Line-P], this is used as the key to the Straddling Checkerboard.
+
+=== Example of key generation ===
+<pre>
+Personal Number: 6
+Date: 13 Sept 1959                          // Moon Landing - 13 Sept 1959 ('139195' - truncated to 6 digits) 
+Phrase: 'Twas the night before Christmas'   // from 'A visit from St. Nicholas' - poem
+Keygroup: 72401                             // randomly generated
+
+[Line-A]: 72401                             // Keygroup
+[Line-B]: 13919                             // Date - truncated to 5 digits     
+[Line-C]: 69592                             // subtract [Line-B] from [Line-A]
+[Line-D]: TWASTHENIG HTBEFORECH             // Phrase - truncated to 20 characters
+[Line-E]: 8017942653 6013589427             // via Sequencing
+[Line-F]: 6959254417 1234567890             // from [Line-C] and chain addition, then '1234567890'
+[Line-G]: 4966196060                        // add [Line-E.1] to [Line-F.1]
+[Line-H]: 3288628787                        // encode [Line-G] with [Line-E.2], [Line-F.2] helps 
+[Line-J]: 3178429506                        // The Sequencing of [Line-H]
+[Line-K]: 5064805552                        // BLOCK: Chain addition of [Line-H] for 50 digits
+[Line-L]: 5602850077
+[Line-M]: 1620350748
+[Line-N]: 7823857125
+[Line-P]: 5051328370
+
+Last two non-equal digits are '7' and '0', added to Personal Number (6) means that the permutation keys are 13 and 6 digits long.
+ 
+[Line-Q]: 0668005552551     // first 13 digits from block
+[Line-R]: 758838            // next 6 digits from block
+[Line-S]: 5961328470        // Sequencing of [Line-P]
+</pre>
+
+=== Message encryption ===
+
+==== Straddling checkerboard ====
+As noted in "Kahn on Codes"<ref>{{cite book |last=Kahn |first=David |date=1984 |title=Kahn on Codes |publisher=Macmillan |page=151}}</ref>, before the encryption of the plaintext begins, it is bisected: an arbitrary position in the plaintext is used to cut the message in two, and both parts are inverted to prevent the adversary to use known message formats or common phrases that occur always at the beginning like a message number or From/To entries. A marker inserted between the two inverted parts enables the recipient to identify the correct place to revert the decoded message later.
+
+Once the key has been generated, the first stage of actually encrypting the Message is to convert it to a series of digits via a [[straddling checkerboard]]. The key (header row) for the checkerboard is based on [Line-S]. Then a pre-agreed series of common letters used on the second row. The example below uses the English mnemonic 'AT ONE SIR'; however, the Cyrillic mnemonic used by Hayhanen was 'snegopad', the Russian word for snowfall.
+
+The remaining cells are filled in, with the rest of the alphabet filled in<!--not a mistake--> in order, followed by <code>.</code> (fullstop) and <code>/</code> (number-shift symbol, indicating that the following symbols until the next number-shift are numbers; see example below).
+{| class="wikitable"
+|-
+!&nbsp;
+! 5 || 9 || 6 || 1 || 3
+! 2 || 8 || 4 || 7 || 0
+|-
+!&nbsp;
+| A || T ||   || O || N
+| E ||   || S || I || R
+|-
+! 6
+| B || C || D || F || G
+| H || J || K || L || M
+|-
+! 8
+| P || Q || U || V || W
+| X || Y || Z || . || /
+|}
+
+An example encoding is below, where numbers :
+ Message: 'Attack at dawn. By dawn I mean 0500. Not 0915 like you did last time.'
+ Bisected Message: 'mean 0500. Not 0915 like you did last time./Attack at dawn. By dawn I'
+
+ Encoding of individual symbols:
+  M  E  A  N      0   5   0   0      .   N  O  T        W  N  I
+ 60  2  5  3 80 000 555 000 000  80 87   3  1  9 (...) 83  3  7
+
+ Final code:
+  60253 80000 55500 00008 08731 98000 09991 11555 80677 64288 18666
+  76667 54997 60287 59956 96459 66583 38765 88665 8337-
+
+==== Transpositions: columnar transposition ====
+The message is transposed via standard columnar transposition keyed by [Line-Q] above. (Note: if the message encoded length is not a multiple of 5 at this stage, additional digits are added such that the length becomes a multiple of 5)
+
+The message is then transposed via Diagonal Transposition keyed by [Line-R] above. The meaning of 'diagonal' in this case is that triangular disruption zones were employed to make the transposition irregular.
+
+===== Keygroup insertion =====
+The (unencrypted) Keygroup is inserted into the ciphertext 'P' groups from the end; where 'P' is the unused sixth digit of the Date.
+
+===== Modular addition/subtraction =====
+Modular addition or subtraction, also known as 'false adding/subtraction', in this context (and many pen and paper ciphers) is digit-by-digit addition and subtraction without 'carrying' or 'borrowing'. For example:
+
+* 1234 + 6789 = 7913
+* 1234 - 6789 = 5555
+
+===== Sequencing =====
+Sequencing in this context is ordering the elements of an input from 1-10 (where '0' represents 10). This occurs either to letters (whereby alphabetical order is used), or numbers (where numerical value is used). In the event of equal values, then the leftmost value is sequenced first. For example:
+
+* LETTERS: The word 'Octopus' is sequenced as '2163475' - (i.e. C=1, first 'O'=2, second 'O'=3, ...)
+* NUMBERS: The number '90210' is sequenced as '34215' - (by numerical order. Zero is valued at '10' in terms of ordering)
+
+===== Chain addition =====
+Chain addition is akin to a [[linear-feedback shift register]], whereby a stream of number is generated as an output (and fed back in as an input) to a seed number. Within the VIC Cipher chain addition works by (1) taking the original (seed) number, (2) false-adding the first two digits, (3) putting this new number at the end of the chain. This continues, however the digits being added are incremented by one. For example, if the seed was '90210', the first 5 iterations are shown below:
+
+ 90210 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // Initial seed value
+ 90210 '''9''' &nbsp; &nbsp; &nbsp; &nbsp; // 9 = 9+0 (first two digits)
+ 90210 9'''2''' &nbsp; &nbsp; &nbsp;&nbsp; // 2 = 0+2 (next two...)
+ 90210 92'''3''' &nbsp; &nbsp; &nbsp; // 3 = 2+1
+ 90210 923'''1''' &nbsp; &nbsp;&nbsp; // 1 = 1+0
+ 90210 9231'''9''' &nbsp; &nbsp; // 9 = 0+9; note how the first '9' generated is being fed back in
+
+===== Digit encoding =====
+The encoding step replaces each digit in a number (i.e. [Line-G] in the cipher) with one from a key sequence (i.e. [Line-E.2]) that represents its position in the 1-10 ordering. It should be seen that by writing out the series '1234567890' (shown as [Line-F.2]) underneath [Line.E.2] each value from 0-9 has another above it. Simply replace every digit in the number to be encoded with the one above it in the key sequence. 
+{| class="wikitable"
+|-
+!Key || (Line E.2)
+| 6 || 0 || 1 || 3 || 5
+| 8 || 9 || 4 || 2 || 7
+|-
+!Aide || (Line F.2)
+| 1 || 2 || 3 || 4 || 5 
+| 6 || 7 || 8 || 9 || 0 
+|}
+
+For example, the number '90210' would have encodings as follows; <math chem>(\ce{9->2}),\,(\ce{0->7}),\,(\ce{2->0}),\,(\ce{1->6}),\,(\ce{0->7})</math>.
+
+So the output would be: '27067'.
+
+=== Decryption ===
+Decryption of the VIC Cipher is as follows:
+
+* '''Extract the Keygroup''' - By knowledge of the sixth digit of the secret Date, remove the 5 digits of the Keygroup from the ciphertext
+* '''Generate the Message Keys''' - By using the knowledge of the various secrets (Phrase, Date, Personal Number, Keygroup) generate the keys in the same manner as the encryption process
+* '''Decrypt the Ciphertext''' - By using knowledge of the Message Keys for the transpositions and straddling checkerboard decrypt them
+
+== Cryptanalysis ==
+The cipher is one of the strongest pen and paper ciphers actually used in the real world, and was not broken (in terms of determining the underlying algorithm) by the NSA at the time.<ref name=":0" /> However, with the advent of modern computing, and public disclosure of the algorithm this would not be considered a strong cipher. It can be observed that the majority of the entropy in the secret key converges to a 10-digit number [Line-H]. This 10-digit number is approximately 34 bits of entropy, combined with the last digit of the date (needed to identify where the KeyGroup is) would make about 38 bits of entropy in terms of Message Key strength. 38 bits is subject to a [[Brute-force attack]] within less than a day on modern computers.
+
+==See also==
+* [[Topics in cryptography]]
+
+==References==
+{{Reflist}}
+
+==External links==
+* [https://www.fbi.gov/history/famous-cases/hollow-nickel-rudolph-abel FBI page on the hollow nickel case] with images of the hollow nickel that contained the VIC encrypted message  
+* [http://secretcodebreaker.com/history5.html "The Cipher in a Hollow Nickel"] {{Webarchive|url=https://web.archive.org/web/20071217074619/http://secretcodebreaker.com/history5.html |date=2007-12-17 }}
+* [http://www.quadibloc.com/crypto/pp1324.htm The VIC Cipher]
+* [https://www.ciphermachinesandcryptology.com/en/table.htm Straddling Checkerboards] Various different versions of checkerboards on Cipher Machines and Cryptology
+* [https://www.ciphermachinesandcryptology.com/en/secom.htm SECOM, a VIC variant with extended checkerboard]
+* [http://vc.airvectors.net/ttcode_03.html "The Rise Of Field Ciphers: straddling checkerboard ciphers"] by Greg Goebel 2009
+* [https://openlibrary.org/books/OL9221426M/Kahn_on_Codes "Kahn on Codes", pp 151] by David Kahn 1984
+
+{{Cryptography navbox | classical}}
+
+{{DEFAULTSORT:Vic Cipher}}
+[[Category:Classical ciphers]]
+[[Category:Science and technology in the Soviet Union]]

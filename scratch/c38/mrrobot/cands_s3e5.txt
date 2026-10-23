@@ -1,0 +1,5 @@
+# c38 mrrobot lens -- S3E5 (eps3.4_runtime-err0r.r00) artifacts NOT consumed by Phase 2. Derivations in derivations.txt
+hidd3nlynx
+frank.bowman:hidd3nlynx
+hidd3nlynx022350
+marlinspikemoxie

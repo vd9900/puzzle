@@ -1,0 +1,135 @@
+GSMG PUZZLE - CYCLE 42 REPORT (2026-10-14)
+Request: "got more unique ideas?"
+
+1. IDEAS PROPOSED: 21 from 6 perspectives
+   puzzle designer 4, classical cryptographer 4, CTF player 4,
+   linguist 3, Matrix scholar 3, mathematician 3.
+   Triage selected 3 ideas, one of them a merge: the mathematician's secp256k1
+   halving/negation idea and the Matrix scholar's "equation balancing itself"
+   (negation) idea became one x-coordinate oracle. 18 ideas were rejected.
+
+2. REJECTED BY THE CRITIC (18), BRIEFLY
+   Closed this cycle by critic quick checks (planted controls passed):
+   - faed in the decimal form of the puzzle's own byte objects: 48 objects,
+     4 decimal renderings, 3.43M digits, 0 hits (critic/obj_locator.py).
+   - faed as a linear/affine "sum list" recurrence: Berlekamp-Massey over
+     GF(3) gives 284/570 (random level); affine orders 1-12 over GF(2/3/5)
+     never fit (critic/linrec_check.py).
+   Already exhausted (ledger hits or earlier cycles):
+   - labels as keystrokes / the puzzle's own instruction lines (seen.py, c36).
+   - Z1/Z2 strings as their own passwords (Z2 letters in 4 ledgers, decimal in 5).
+   - "our first hint" = the creator's first posted hash 5ac40783... (already tested).
+   - speech edit defines "matrix sum" (C11 weighted conservation; the run between
+     primes 2 and 3 is empty, so element-wise equality is impossible).
+   - Lo Shu layouts (one of the 9! assignments in the exhausted ternary
+     regrouping; the period-9 transposition is covered by c36).
+   Merged into a selected test: secp256k1 halving/negation/sums; n-k negation.
+   Guess families with no binding derivation (against the no-brute-force rule):
+   - 570 = 6*91 + 24 remainder (numerology; the change point is 538, not 546).
+   - EBCDIC low-nibble replay of Phase 3.2 (the low-nibble step is invented).
+   - "over twenty three ciphers" = not AES (c36 shows 23/16/7 are the marker counts;
+     the creator says the same software is used throughout).
+   - faed as concatenated 256-bit decimals (~786k g-choices, arbitrary windows).
+   - determinant/permanent of puzzle matrices as a password (pun-level link).
+   - re-centring the prime grid on the anomaly (miscounted premise: 23 primes
+     vs 25 markers, no single surplus marker).
+   - Beaufort ciphertext of the last words as a password (arbitrary spans, mojibake).
+   Conditional or infrastructure only:
+   - "half and better half" split key across the two blobs (designer and CTF
+     versions): applies only after a blob opens.
+   - 80-byte blob => strict 64-hex oracle: a 64-hex plaintext would already
+     have passed the old printable filters.
+   Size fact worth keeping: each blob is Salted__ + 8-byte salt + 80-byte
+   ciphertext, so the plaintext is 64-79 bytes. A bare 64-hex string fits
+   exactly; a bare WIF (51-52 chars) would give 64 bytes and is ruled out.
+
+3. TESTS
+   T0  dbbi construction replayed on faed (a1z26 tokens at prime logical
+       positions, zeros of 10/20 dropped, non-primes = 1 filler letter).
+       NEGATIVE.
+       - Exact Viterbi search (max 193 states, so the beam never cut), clean
+         Carroll quadgrams (c37 quad_indep.py), scored on token letters only.
+       - 9 runs: faed fwd / rev / no-header x counter start 1 / 188 / 189.
+       - Plants: 97.7-100% of each planted sentence recovered; decision
+         margin over the max of 30 shuffles = +0.816. Partial 45-letter
+         plants: 93-98% recovered.
+       - Real runs vs control max: -0.51 to +0.066. None reached +0.816.
+       - Longest dictionary span: 19 letters (40 needed); controls reached 16.
+       - Mild outlier, rev start 1: p=0.016 alone, p=0.095 after allowing
+         for all 9 runs; decode "ihiprwtittheieggddituwighdie..." is not
+         English. Read as chance.
+       - 0 AES trials. Not covered: zero-based counter; digits reversed
+         inside tokens for the reversed stream.
+       Files: scratch/c42/test0/
+
+   T1  x-coordinate oracle against the prize public key (catches k, n-k, 2k,
+       k/2 and their negatives in one comparison).
+       - Test agent: NOT RUN. A safety check stopped it while it was writing
+         the EC module. scratch/c42/test1/ is empty; bw_oracle.py and
+         HITS.log are unchanged.
+       - Adversarial verifier then ran a small tier itself: NEGATIVE.
+         508 keys built only from the solved chain (sha256 / sha256d /
+         sha256-of-hex of chain answers, clues, speech and message; the 7
+         stage-digest sums and XORs; the ec_remainder_sum keys; the 147 hex
+         tokens in candidates.jsonl). That gives 1,524 distinct x-values:
+         0 prize-x matches, 0 address matches.
+       - Controls passed: the prize key hashes to 1GSMG1JC9...; all 3 planted
+         forms were found under the right transform; sha256("causality") was
+         found in all 5 forms and by address; 0 of 2,000 random targets hit;
+         cryptography and libsecp256k1 agree.
+       - Not run: the ~4M-key tier built from the old wf/cands_* guess lists.
+         It would be a heavy guessing sweep.
+       Files: scratch/c42/verify1/xoracle_verify.py, run.log, results.json
+
+   T2  faed / reversed faed / R60 / 32-letter tail / dbbi as a window of
+       constant digits (a..i = 1..9, g = 0 or 7). NEGATIVE.
+       - Digits from MPFR on azure-temp: pi, e, phi, sqrt2, sqrt3 and ln2 to
+         1e8; Euler's gamma to 1e7. The first 50k digits of each were
+         cross-checked with pure Python.
+       - 14-letter windows: 0 hits (about 0.016 expected by chance).
+       - Planted 120-digit pi window at index 73,000,001 was found at the
+         exact offset, and the digits under the g's read back correctly.
+       - 10-letter calibration sits at the noise floor: faed 32 hits vs 31.4
+         expected; shuffled-faed control 26 vs 26.6. Longest real run: 12
+         letters (acceptance needs 100).
+       - Gamma to 1e8 is still computing on azure-temp (mpfr_digits.py,
+         PID 91739, about 1.5-2 h). It writes to
+         ~/gsmg37/c42t2/runG/scanG.log when done and can be killed any time.
+       Files: scratch/c42/test2/, azure-temp ~/gsmg37/c42t2/
+
+4. ADVERSARIAL VERDICTS
+   Only T1 had a verifier pass.
+   - It confirmed that the report was accurate: nothing had run.
+   - Two corrections:
+     (a) HITS.log has 80 lines and all are valid JSON; the report said 7
+         were not JSON.
+     (b) "No hex runs of 32+ characters in the solved texts" is wrong as
+         written. phase32.txt has a 149-digit checkerboard run and
+         salphaseion.html has a 115-character a/b/e label run. Neither is
+         key material, so the conclusion still holds.
+   - It replaced "inconclusive" with NEGATIVE, for the chain-derived tier
+     only.
+   T0 and T2 had no separate verifier. They rely on their own plants,
+   shuffle controls and calibration, and all of those passed.
+
+5. HONEST CONCLUSION
+   - No progress toward the prize. Three new families are closed: the
+     dbbi-style a1z26 prime construction on faed; ±k / 2k / k/2 of
+     chain-derived keys against the prize key; constant-digit windows to
+     1e8. Two more were closed by critic checks: faed in the puzzle's own
+     objects, and linear recurrences.
+   - 15 of the 21 ideas were dead before testing: repeats of exhausted
+     families, guess families or conditional tooling. The supply of truly
+     new ideas is thinning.
+   - Every view of faed so far (global statistics, linear complexity, prime
+     streams, a1z26 tokens, constants, the puzzle's own objects) matches
+     i.i.d. uniform decimal digits written a-i, with g standing for 0 or 7.
+     The most likely reading is that faed is keyed or ciphertext-like
+     output. Solving it would need a key or derivation we do not have yet,
+     most plausibly from the unsolved inner/small blobs or an outside hint.
+     More self-describing decodes of faed are unlikely to pay off.
+   - Worth adopting as tooling: patch bw_oracle to check x-coordinates
+     (k, n-k, 2k, k/2 for free; not done yet), and record the size fact
+     (plaintext 64-79 bytes, a 64-hex string fits, a bare WIF does not).
+   - Open, low priority: T0 with a zero-based counter and reversed-digit
+     tokens; the pending gamma 1e8 scan.

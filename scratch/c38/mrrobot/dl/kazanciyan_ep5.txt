@@ -1,0 +1,147 @@
+
+Mr. Robot Disassembled: 3.4_Runtime-Error.R00 | by Ryan Kazanciyan | Medium
+Get started
+Open in app
+Ryan Kazanciyan
+2K Followers
+·
+About
+Follow
+Get started
+Mr. Robot Disassembled: 3.4_Runtime-Error.R00
+Ryan Kazanciyan
+Nov 9, 2017
+·
+9 min read
+Hello friend. I’m Ryan Kazanciyan, Technical Consultant for 
+Mr. Robot
+ and Chief Security Architect for 
+Tanium
+. I’ve been working with 
+Kor Adana
+ — Writer, Producer, and mastermind behind the ARG — and the rest of the Mr. Robot team since the second half of Season 2. Throughout Season 3, I’ll be writing about the hacks depicted in the show, how they came together, and their basis in reality.
+Spoiler Alert! This post discusses events from the fifth episode of Season 3.
+I’ve been waiting e
+a
+gerly for this episode to air — it’s my favorite of the season. As I looked through my notes, I was surprised to find that Kor and I first started working on scenes for “eps3.4_runtime-err0r.r00” as far back as January. The attacks against E Corp’s Hardware Security Modules (HSMs) are among the most complex hacks we’ve depicted on the show — and filming the entire episode as a “oner” added an additional wrinkle.
+This bulk of week’s write-up focuses on the HSM scenes. At the end, I’ll also provide a bit of insight into how Elliot was monitoring the Dark Army’s activities using ELK.
+Fiction Mirrors Reality
+I drew inspiration for the HSM hack from a breach investigation that I led back in 2013 for a large multi-national corporation. Midway through the case, we found that the attackers — thought to be state-backed — had targeted the victim’s software code-signing infrastructure. This is a worst-case scenario for many businesses. In the course of a few days, the attackers gained access to systems belonging to key architects and engineers, stole an extensive set of credentials and documentation, and ultimately pivoted to target the HSMs and systems that managed them.
+H
+SMs are akin to a tamper-resistant vault designed to store important secrets, like cryptographic keys and certificates. They’re designed to make it easy to load data, but very difficult to extract it. When you need to use something stored on an HSM — let’s say a private key used to digitally sign software — specialized tools allow you to do so on the device, without the secrets fully leaving the boundary of its secure hardware. HSMs are among the most sensitive and well-protected devices that you’ll find in corporate networks.
+While the attackers never successfully breached the HSMs, they got frighteningly close to succeeding. They still managed to steal a few private keys and code-signing certificates errantly stored on other systems. And this clearly wasn’t their first rodeo: some of their malware was digitally signed with certificates that were previously stolen from another company. In fact, recently-published research ([
+1
+],[
+2
+]) has shed new light on the prevalence of code-signing certificate attacks over the past several years.
+Planning the Attack
+When Kor and I first started to discuss Season 3, he described an arc of escalating hacks and responses between the Dark Army (DA) and Elliot. I pitched an HSM attack as the culmination of this cat and mouse game. From a technical perspective, a successful HSM compromise would allow the DA to digitally sign software with cryptographic keys belonging to E Corp. That means that they could create a malicious firmware update that bypassed Elliot’s UPS patch. From a storytelling perspective, it supported a tension-filled scene with complex, physical tasks that had to be performed in a secured lab within the bowels of E Corp.
+Why couldn’t the Dark Army go straight for the HSMs via a remote attack, using one of their recently-established backdoors? The HSMs — and management systems that directly interface with them — would be air-gapped from the majority of the E Corp network. They’re also locked down behind additional physical controls, requiring specialized credentials and USB keys (a.ka. dongles) to gain authorized access.
+However, members of the Code Signing Architecture Team (CSAT) that administer the HSMs still have normal computers that connect to the E Corp network for basic work tasks like e-mail. That presented an opportunity. By compromising these systems, the DA could gather technical information, passcodes, and other data needed to prepare for a follow-up attack against the code signing infrastructure on-site.
+A Fistful of Dongles
+Angela finds herself in the CSAT server room with a bag full of gear and a list of instructions. She has taken over the task of cloning one of E Corp’s HSMs onto a portable HSM backup device. This is a complex process that carries a high-risk of failure. Fortunately for Angela, the Dark Army has done their homework.
+I based this attack on the 
+steps required to clone a SafeNet Luna HSM
+ — a popular model for enterprises. It is a convoluted and complicated process to say the least.
+Diagram of the backup process for a SafeNet Luna HSM device
+Following the diagram’s numbering: Angela works from the admin laptop (2) using logon credentials provided in her instructions (i.e. stolen by the Dark Army’s prior hacks). The system connects over a local private network to the rack-mounted HSM (3). Her instructions include the logon credentials to the laptop. She’s got a backup HSM (5) provided by the Dark Army, but doesn’t have the Pin Entry Device (PED) (1) or red USB key (4) needed to authorize the cloning operation.
+Angela quickly finds the PED in one of the server rack’s drawers. But the USB key is missing, which leads her to frantically search the adjacent room in the CSAT lab.
+This is the riskiest part of the plan: HSM USB dongles are meant to be carefully guarded, and many companies keep them locked up in safes when not in use. The operation can’t succeed without one. Fortunately for Angela, even security administrators can be careless (not to mention in a hurry to escape during a riot ), and she finds one of the keys left behind in a bag.
+Once everything is connected, Angela runs the tools on a thumbdrive provided by the Dark Army to automate the cloning process. The image below shows the first set of on-screen text that I mocked up for this scene. You can also check out the 
+documentation
+ on these commands and their expected output for real-world devices.
+First series of scripted and commands and output from the HSM cloning job
+There’s a moment when the screen displays “Please attend to the PED”. Angela has to enter a PIN code — again, provided in the DA’s instructions — on the attached keypad. Once she completes this final authentication step, the backup process can begin. As the camera moves past the screen, you can see dozens of lines containing the words “Cloned object” scrolling by. These “objects” are the items in protected storage, such as private keys, copied to the newly authorized backup HSM.
+Mock-up of the final steps of the HSM cloning job. As filmed, many more “Cloned object” rows scroll by while the operation takes place.
+After a tense minute, the operation is complete. Angela disconnects everything and packs up the backup HSM, USB key, and thumbdrive (the PED can stay behind). Done and out.
+As a quick aside, I was fortunate to join Kor on set to help out during the filming of this scene. It was impressive to see the sheer amount of effort and coordination — from cast and crew alike — to execute the extremely long takes seen throughout the episode. And I have to give huge props to Portia Doubleday for absolutely nailing the HSM hack — especially the convoluted set of cables and devices that have to be connected in sequence — amidst an intense scene.
+Aftermath
+Once the Dark Army gets their hands on the backup HSM and USB dongle, what could they do next? It’s reasonable to expect that they’ve performed similar hacks against other victims beforehand — and there are only a handful of HSM hardware manufacturers out there. Given all these pieces, they could follow the same series of steps needed to sign their malware as if it were legitimate E Corp software. They might also possess 
+exploits that allow them to extract keys from a vulnerable HSM
+, given physical access to an original or cloned device.
+A successful attack buys the Dark Army time — but not indefinitely. E Corp can revoke the stolen certificates and take steps to ensure that they’re no longer accepted by any systems or devices. For a large-scale compromise, that could be a significant, time-consuming endeavor.
+Addendum: Monitoring the Dark Army with ELK
+The start of this episode offers a glimpse at the security tools that Elliot set up to monitor the Dark Army’s attacks against E Corp. He’s using “
+ELK
+” — an open-source platform comprised of three tools: 
+E
+lasticsearch for data indexing and analysis; 
+L
+ogstash for collection of logs and other data sources; and 
+K
+ibana for visualization. ELK is popular among security practitioners, and lightweight enough for Elliot to reasonably create his own monitoring VM, rather than relying on “official” E Corp security infrastructure.
+Kibana allows you to create customizable dashboards comprised of information from whatever systems or log sources you want to monitor. To help Elliot keep an eye on the systems that have already been compromised and backdoored by the Dark Army. I set up panels that displayed the kinds of data you’d see from an Endpoint Detection and Response (EDR) tool: historical process activity, logged in users, and so on.
+Kibana dashboards as shown in the episode. The top-left panel contains some interesting command history from a backdoored system…
+I also included a panel labeled “UPS Firmware Status”. This displays the last line of the update log, alerting on any attempts to load malicious firmware. As you can see from the screenshot, the panel indicates that a failed firmware update took place at 06:07:20. That means Elliot’s patch worked…but that the Dark Army still somehow regained access to the UPS systems in the paper records facility.
+The top-left panel shows an excerpt of previously-executed commands from one of the Dark Army’s compromised systems within the E Corp network. When Elliot reviews this information at the start of the episode, he recognizes that they’re targeting the Code Signing Architecture Team (CSAT). These commands mimic the type of post-breach activity you’d see in a real compromise.
+Here’s a breakdown of what they mean:
+net group “CSAT Administrators” /domain
+List all users in the Windows Active Directory group named “CSAT Administrators”
+net user Frank.Bowman /domain`
+List account information on user “Frank Bowman” (presumably identified from the output of the prior command)
+dsquery computer ou=csat,dc=e-corp,dc=usa,dc=com
+List computers that belong to the “CSAT” organizational unit within E Corp.
+net view \\csat-fs01
+View shares on file server CSAT-FS01 (presumably identified from the prior command)
+mimi.exe “privilege::debug” “kerberos::ptt c:\temp\tickets\” exit
+Run a renamed version of the 
+mimikatz.exe
+ credential theft utility. The command-line arguments invoke Pass-the-Ticket mode using Kerberos tickets stored in directory “c:\temp\tickets\”. (The DA would have previously recovered and copied these tickets prior to running this command).
+net use y: \\csat-fs01\D$
+Mount the “D” volume on CSAT-FS01 to drive letter Y: on the infected system.
+xcopy y:\hsm c:\temp /s /e
+Recursively copy all of the contents of “Y:\hsm” (which, remember, maps to “\\CSAT-FS01\D$\hsm”) to the local temp folder
+In summary, this sequence captures part of the Dark Army’s efforts to steal data from the CSAT team as a precursor to staging the HSM attack.
+To ensure this scene looked realistic, I built a real ELK VM and populated it with data from a few Windows and Linux systems on whichI spoofed the malicious activity. I’ve included one of the screenshots from my original designs below.
+Original mock-up for Elliot’s Kibana host monitoring dashboard
+As we pan away from the screen, Elliot kicks off an SSH connection to his ELK server to view the complete set of UPS update logs ingested by logstash. Stage 2 might be underway…
+Written by
+Ryan Kazanciyan
+Security Engineering @Facebook. Formerly CTO @Tanium; Mandiant & PwC alumnus. Tech consultant for @whoismrrobot S2 & S3.
+Follow
+2.6K
+12
+2.6K
+2.6K
+12
+Security
+Hacking
+Mr Robot
+Television
+Technology
+More from Ryan Kazanciyan
+Follow
+Security Engineering @Facebook. Formerly CTO @Tanium; Mandiant & PwC alumnus. Tech consultant for @whoismrrobot S2 & S3.
+More From Medium
+Automation of Cyberattack Countermeasures Using AI and Machine Learning
+Saurav Rana
+in
+The Startup
+Data Privacy & Security in Healthcare
+Ian
+in
+HackerNoon.com
+Is iOS Secure After FaceTime Bug Fix? No One Knows
+PCMag
+in
+PC Magazine
+How Much Is Your Childs Personal Data Worth?
+David Cullinan
+The completely connected world: Utopia or dystopia?
+Taylor Armerding
+in
+Digital Diplomacy
+A Dance of Patterns and Sequences
+Sye Boddeus
+Blocked Ports: A Story of Brazilian Net Neutrality
+Emmy Tither
+in
+We Are Bunny Studio
+Windows 7 Is Dead: Long Live Your Antivirus!
+PCMag
+in
+PC Magazine
+About
+Help
+Legal
+Get the Medium app

@@ -1,0 +1,270 @@
+
+
+
+The VIC Cipher
+
+
+
+[Next] [Up]
+[Previous] [Index]
+
+Main :
+Index :
+Pencil and Paper Systems :
+Improving Substitution :
+Polygraphic Ciphers and Fractionation :
+The VIC Cipher
+
+
+
+
+The VIC Cipher
+The VIC cipher is an intricate cipher issued by the Soviet Union
+to at least one of its spies. It is of interest because it seems highly
+secure, despite being a pencil-and-paper cipher.
+It was the cipher in which a message was written which was
+found on a piece of microfilm inside a hollowed-out nickel by
+a newspaper boy in 1953. The workings of this cipher were explained
+by Hayhaynen to FBI agents shortly after his defection to the United
+States in 1957.
+David Kahn described that cipher briefly in an article in
+Scientific American, and in full detail in a talk at the 1960
+annual convention of the American Cryptogram Association which
+was later reprinted in his book Kahn on Codes.
+The VIC cipher, which I will demonstrate here adapted to
+the sending of English-language messages, begins with an involved
+procedure to produce ten pseudorandom digits. The agent must
+have memorized six digits (which were in the form of a date), and
+the first 20 letters of a key phrase (which was the beginning of
+a popular song) and must think of five random digits for use as a
+message indicator.
+Let the date be July 4, 1776, to give the digits 741776. (Actually,
+the Russians used their customary form of dates, with the month second.)
+And let the random indicator group be 77651.
+The first step is to perform digit by digit subtraction (without
+carries) of the first five digits of
+the date from the indicator group:
+
+     77651
+ (-) 74177
+ ---------
+     03584
+
+The second step is to take the 20-letter keyphrase, and turn it
+into 20 digits by dividing it into two halves, and within each half,
+assigning 1 to the letter earliest in the alphabet, and so on, treating
+0 as the last number, and assigning digits in order to identical
+letters. Thus, if our keyphrase is "I dream of Jeannie with t", that
+step proceeds:
+
+  I D R E A M O F J E   A N N I E W I T H T
+  6 2 0 3 1 8 9 5 7 4   1 6 7 4 2 0 5 8 3 9
+
+The result of the first step is then expanded to ten digits through
+a process called chain addition. This is a decimal analog
+of the way a linear-feedback shift register
+works: starting with a group of a certain number of digits (in this case
+five, and later we will do the same thing with a group of ten digits),
+add the first two digits in the group together, take only the last digit
+of the result and append it to the end of the group, then ignore the first
+digit, and repeat the process.
+The 10 digit result is then added, digit by digit, ignoring carries,
+to the first 10 digits produced from the keyphrase to produce a ten-digit
+result, as follows:
+
+     6 2 0 3 1 8 9 5 7 4
+ (+) 0 3 5 8 4 3 8 3 2 7
+ -----------------------
+     6 5 5 1 5 1 7 8 9 1
+
+And these 10 digits are then encoded by encoding 1 as the first
+of the 10 digits produced from the second half of the keyphrase, 2 as the
+second, up to 0 as the tenth.
+
+using code: 1 2 3 4 5 6 7 8 9 0
+            1 6 7 4 2 0 5 8 3 9
+
+            6 5 5 1 5 1 7 8 9 1
+becomes     0 2 2 1 2 1 5 8 3 1
+
+This ten digit number is used by chain addition to generate 50 pseudorandom
+digits for use in encipherment:
+
+  0 2 2 1 2 1 5 8 3 1
+ ---------------------
+  2 4 3 3 3 6 3 1 4 3
+  6 7 6 6 9 9 4 5 7 9
+  3 3 2 5 8 3 9 2 6 2
+  6 5 7 3 1 2 1 8 8 8
+  1 2 0 4 3 3 9 6 6 9
+
+The last row of these digits (which will still be used again) is
+used like the letters in a keyword for transposition to produce a
+permutation of the digits 1 through 9 (with 0 last again):
+
+  1 2 0 4 3 3 9 6 6 9
+ ---------------------
+  1 2 0 5 3 4 8 6 7 9
+
+and those digits are used as the top row of numbers for a straddling
+checkerboard:
+
+  1 2 0 5 3 4 8 6 7 9
+  -------------------
+  A T   O N E   S I R
+  -------------------
+0 B C D F G H J K L M
+8 P Q U V W X Y Z . /
+
+One detail omitted is that the checkerboard actually used had the letters
+in the bottom part written in vertical columns with some columns left until the
+end. That doesn't work as well in an English example, as there are only two
+left-over spaces after the alphabet.
+With the straddling checkerboard in place, we can begin enciphering a
+message.
+Let our message be:
+We are pleased to hear of your success in establishing your false
+identity. You will be sent some money to cover expenses within a month.
+Converting this to numbers, we proceed:
+
+W EAREP L EASED TOH EAROF Y OU RSU C C ESSINESTAB L ISH ING
+834194810741640025044195058858096800202466734621010776047303
+
+Y OU RF AL SEID ENTITY Y OU W IL L B ESENTSOM EM ONEY TOC O
+88580905107647004327288885808370707014643265094095348825025
+
+V EREX P ENSESW ITH INAM ONTH
+854948481436468372047310953204
+
+For the sake of our example, we will give our agent a small
+personal number of 8. This number is used to work out
+the widths of the two transposition tableaux used to transpose
+the numbers obtained above. The last two unequal digits, which
+in this case are the last two digits (6 and 9) of the last row
+of the 50 numbers generated above, are added to the personal number
+with the result that the two transpositions will involve 8+6, or 14,
+and 8+9, or 17, columns respectively.
+The keys for those two transpositions are taken by reading out
+the 50 numbers by columns, using the 10 digits used to generate them
+as a transposition key. Again, 0 is last, so given the table above:
+
+  0 2 2 1 2 1 5 8 3 1
+ ---------------------
+  2 4 3 3 3 6 3 1 4 3
+  6 7 6 6 9 9 4 5 7 9
+  3 3 2 5 8 3 9 2 6 2
+  6 5 7 3 1 2 1 8 8 8
+  1 2 0 4 3 3 9 6 6 9
+
+we read out the digits in order:
+
+36534 69323 39289 47352 36270 39813 4
+
+stopping when we have the 31 digits we need.
+Our first transposition uses the first 14 digits as the key of
+a conventional simple columnar transposition:
+
+  36534693233928
+  --------------
+  83419481074164
+  00250441950588
+  58096800202466
+  73462101077604
+  73038858090510
+  76470043272888
+  85808370707014
+  64326509409534
+  88250258549484
+  81436468372047
+  3109532049
+
+Since our message consisted of ten rows of 14
+digits, plus one extra row of 9 digits, it is 149 digits long.
+At this initial stage, one null digit is appended to the
+message, making it 150 digits long, so that it will fill
+a whole number of 5-digit groups.
+Thus, with the null digit added, it gives us the intermediate
+form of the message:
+
+  09200274534 6860181384 80577786883 15963702539 11018309880
+  75079700479 4027027992 90628086065 42040483240 30833654811
+  44818035243 4864084447 84005470562 1546580540
+
+The fact that our message is 150 digits long
+was important to note, since the next step in the encipherment,
+although it is also a columnar transposition, includes an extra
+complexity to make the transposition irregular, and so it is
+necessary to lay out in advance the space that will be used
+in that transposition.
+The remaining 17 digits of the 31 we read out above, 9 47352
+36270 39813 4, are the key for this second transposition. The
+numbers, in addition to indicating the order in which the columns
+are to be read out, indicate where triangular areas start which will
+be filled in last.
+The first triangular area starts at the top of the column which
+will be read out first, and extends to the end of the first row. It
+continues in the next row, starting one column later, and so on until
+it includes only the digit in the last column. Then, after one space,
+the second triangular area starts, this time in the column which will
+be read out second.
+Since we know that our message is 150 digits long, we know that
+it will fill 8 rows of 17 digits, with 14 digits in the final row.
+This lets us fill in the transposition block, first avoiding the
+triangular areas:
+
+  94735236270398134
+  -----------------
+  09200274534686
+  018138480577786
+  8831596370253911
+  01830988075079700
+  47940
+  270279
+  9290628
+  08606542
+  040483240
+
+and then with them filled in as well:
+
+  94735236270398134
+  -----------------
+  09200274534686308
+  01813848057778633
+  88315963702539116
+  01830988075079700
+  47940548114481803
+  27027952434864084
+  92906284478400547
+  08606542056215465
+  04048324080540
+
+from which the fully encrypted message
+can be read out:
+
+36178054 289959253 507014400 011342004 746845842 675048425
+03100846 918177284 83603475 035007668 483882424 283890960
+350713758 689914050 008042900 873786014 472544860
+
+The last digit, 6, in the date shows that the indicator group
+is to be inserted in the final message as the sixth group from
+the end, so the message in the form in which it will be transmitted
+becomes:
+
+36178 05428 99592 53507 01440 00113 42004 74684 58426 75048
+42503 10084 69181 77284 83603 47503 50076 68483 88242 42838
+90960 35071 37586 89914 05000 77651 80429 00873 78601 44725
+44860
+
+
+[Next] [Up]
+[Previous] [Index]
+
+Next
+Chapter Start
+Skip to Next Section
+Table of Contents
+Main page
+Home page
+
+
+

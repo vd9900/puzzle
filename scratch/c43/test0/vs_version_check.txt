@@ -1,0 +1,32 @@
+VanitySearch 2019 tags (JeanLucPons/VanitySearch, git clone 2026-10-14) - seed/schedule facts, grep of Vanity.cpp/main.cpp per tag
+1.0 2019-02-20 pbkdf2=1 sha256->bits64=1 cpu<<64=1 gpu<<96=1 gpu<<80=0 gpu<<112=0 gpuThId=0x80+i:0 rekey_opt_default0=0 lambda_refs=0
+1.1 2019-02-22 pbkdf2=1 sha256->bits64=1 cpu<<64=1 gpu<<96=1 gpu<<80=0 gpu<<112=0 gpuThId=0x80+i:0 rekey_opt_default0=0 lambda_refs=0
+1.2 2019-02-23 pbkdf2=1 sha256->bits64=1 cpu<<64=1 gpu<<96=1 gpu<<80=0 gpu<<112=0 gpuThId=0x80+i:0 rekey_opt_default0=0 lambda_refs=0
+1.3 2019-02-24 pbkdf2=1 sha256->bits64=1 cpu<<64=1 gpu<<96=1 gpu<<80=0 gpu<<112=0 gpuThId=0x80+i:0 rekey_opt_default0=0 lambda_refs=0
+1.4 2019-02-28 pbkdf2=1 sha256->bits64=1 cpu<<64=1 gpu<<96=1 gpu<<80=0 gpu<<112=0 gpuThId=0x80+i:0 rekey_opt_default0=0 lambda_refs=0
+1.5 2019-03-03 pbkdf2=1 sha256->bits64=1 cpu<<64=1 gpu<<96=0 gpu<<80=1 gpu<<112=1 gpuThId=0x80+i:1 rekey_opt_default0=0 lambda_refs=0
+1.5.1 2019-03-04 pbkdf2=1 sha256->bits64=1 cpu<<64=1 gpu<<96=0 gpu<<80=1 gpu<<112=1 gpuThId=0x80+i:1 rekey_opt_default0=0 lambda_refs=0
+1.6 2019-03-06 pbkdf2=1 sha256->bits64=1 cpu<<64=1 gpu<<96=0 gpu<<80=1 gpu<<112=1 gpuThId=0x80+i:1 rekey_opt_default0=0 lambda_refs=0
+1.7 2019-03-11 pbkdf2=1 sha256->bits64=1 cpu<<64=1 gpu<<96=0 gpu<<80=1 gpu<<112=1 gpuThId=0x80+i:1 rekey_opt_default0=0 lambda_refs=0
+1.8 2019-03-16 pbkdf2=1 sha256->bits64=1 cpu<<64=1 gpu<<96=0 gpu<<80=1 gpu<<112=1 gpuThId=0x80+i:1 rekey_opt_default0=0 lambda_refs=11
+1.9 2019-03-20 pbkdf2=1 sha256->bits64=1 cpu<<64=1 gpu<<96=0 gpu<<80=1 gpu<<112=1 gpuThId=0x80+i:1 rekey_opt_default0=0 lambda_refs=11
+1.10 2019-03-27 pbkdf2=1 sha256->bits64=1 cpu<<64=1 gpu<<96=0 gpu<<80=1 gpu<<112=1 gpuThId=0x80+i:1 rekey_opt_default0=0 lambda_refs=9
+1.11 2019-04-03 pbkdf2=1 sha256->bits64=1 cpu<<64=1 gpu<<96=0 gpu<<80=1 gpu<<112=1 gpuThId=0x80+i:1 rekey_opt_default0=1 lambda_refs=9
+1.12 2019-04-09 pbkdf2=1 sha256->bits64=1 cpu<<64=1 gpu<<96=0 gpu<<80=1 gpu<<112=1 gpuThId=0x80+i:1 rekey_opt_default0=1 lambda_refs=9
+1.13 2019-04-18 pbkdf2=1 sha256->bits64=1 cpu<<64=1 gpu<<96=0 gpu<<80=1 gpu<<112=1 gpuThId=0x80+i:1 rekey_opt_default0=1 lambda_refs=9
+1.14 2019-05-14 pbkdf2=1 sha256->bits64=1 cpu<<64=1 gpu<<96=0 gpu<<80=1 gpu<<112=1 gpuThId=0x80+i:1 rekey_opt_default0=1 lambda_refs=9
+1.15 2019-05-20 pbkdf2=1 sha256->bits64=1 cpu<<64=1 gpu<<96=0 gpu<<80=1 gpu<<112=1 gpuThId=0x80+i:1 rekey_opt_default0=1 lambda_refs=9
+Conclusions:
+(a) start key: every 2019 tag (1.0-1.15) uses S = int_le(sha256(pbkdf2_hmac_sha512(seed,'VanitySearch',2048,64))). No tag uses plain sha256(seed).
+    Verified byte-for-byte: tool's own hash/sha512.cpp+sha256.cpp from tags 1.0 (MSVC intrinsics stubbed) and 1.15 compiled with
+    vs_hash/startkey.cpp -> identical to the Python formula for the 4 Phase-0 seeds and 'controlseed'. => no third start formula added.
+    v1.15 -kp (key pair from seed) = S itself (CPU t=0, j=0) -> already covered.
+(b) CPU offset: S + thId<<64 in every tag (thId = 0..nbCPU-1).
+(c) GPU offsets: TWO schedules.  1.0-1.4: keys[i] = S + i<<96 (single GPU, no GPU term)  <-- NOT in the earlier script.
+    1.5-1.15: keys[i] = S + i<<80 + (0x80+g)<<112, g = index in -gpuId list. incr is measured from keys[i] (group start; 1.15 computes
+    the centre point but reports j*GRP_SIZE + incr relative to keys[i]); negative incr = negated key; endo e applies lambda^e afterwards.
+(d) rekey: option absent in 1.0-1.10; in 1.11-1.15 'uint64_t rekey = 0' (disabled) -> deterministic schedule.
+Default GPU threads = 1024 x #SM in every tag (16*MP groups x 64 thr in 1.0-1.5.1; 8*MP x 128 from 1.6) -> i < 2^17 covers <= 128 SMs.
+Real-tool cross-check of the offset/sign/endo model using the author's README outputs:
+  README v1.0 : found = base + 5<<64 + 4043638                      (CPU thread 5)
+  README v1.11: found = -lambda * (base + 0x80<<112 + 4739<<80 + 58797)  (GPU 0, thread 4739, e=1, s=-1)

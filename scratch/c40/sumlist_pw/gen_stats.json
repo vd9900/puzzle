@@ -1,0 +1,31 @@
+{
+ "ledger_files": 75,
+ "ledger_lines": 744418,
+ "generated": 11568,
+ "unique": 11568,
+ "internal_dups": 0,
+ "already_tested_exact": 509,
+ "new": 11059,
+ "new_by_tier": {
+  "0": 5763,
+  "1": 2892,
+  "2": 2404
+ },
+ "seenpy_normalized_line_match_among_new": 612,
+ "selected": 9500,
+ "password_strings": 19000,
+ "blocks": {
+  "dbbi_a1": 91,
+  "dbbi_a0": 91,
+  "r60_a1": 60,
+  "r60_a0": 60,
+  "r61_a1": 61,
+  "r61_a0": 61,
+  "res56_a1": 56,
+  "res56_a0": 56,
+  "faed_a1": 570,
+  "faed_a0": 570,
+  "img01": 196,
+  "imgB2Y25": 196
+ }
+}

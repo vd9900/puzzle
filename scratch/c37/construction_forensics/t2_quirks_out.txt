@@ -1,0 +1,5 @@
+{'op': 'enc', 'key': 'jjazz', 'input': 'jajb jc', 'square': 'IJAZBCDEFGHKLMNOPQRSTUVWX', 'out': 'jije jt'}
+{'op': 'dec', 'key': 'jjazz', 'input': 'jajb jc', 'square': 'IJAZBCDEFGHKLMNOPQRSTUVWX', 'out': 'jbjk ji'}
+{'op': 'enc', 'key': '', 'input': 'Hello World 123', 'square': 'ABCDEFGHIKLMNOPQRSTUVWXYZ', 'out': 'Fnpol Parrd 123'}
+{'op': 'dec', 'key': 'dbbi', 'input': 'FAED', 'square': 'DBIACEFGHKLMNOPQRSTUVWXYZ', 'out': 'FEDQ'}
+{'op': 'enc', 'key': 'dbbi', 'input': 'btcseed', 'square': 'DBIACEFGHKLMNOPQRSTUVWXYZ', 'out': 'aafbuld'}

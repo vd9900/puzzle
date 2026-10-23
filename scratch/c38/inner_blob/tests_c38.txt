@@ -1,0 +1,16 @@
+# c38 inner_blob tests (5 strings; oracle also tries sha256hex + case/alnum forms, 3 blobs x 2 KDF digests)
+# Precedent: Phase 2->3 and 3->3.2 passwords = sha256(lowercase, space-free concatenation of the answers to the riddles printed
+# on the SAME page as the blob, in page order). Phase 3.2 page riddles, page order: R1 "... am I here? Wake up, you..." -> key
+# THEMATRIXHASYOU (elided continuation); R2 "beautiful strategic position" -> beau+fort = beaufort; R3 "One for one, four for one"
+# -> 1141 (EBCDIC cp1141); R4 "Raising the stakes without extra chances of winning" -> poker STRADDLE (blind raise that ups the
+# stakes but buys no extra equity) -> straddling checkerboard; R5 alphabet keywords fubcd/oracle/thingky/mvps.
+# T1: the single sentence issue #111 and cycle-37 flagged as unmapped -> its one-word answer
+straddle
+# T2: the two cipher-type puns only (R2,R4) in page order
+beaufortstraddlingcheckerboard
+# T3: the three riddles of the intro line (R1,R2,R3) in page order
+thematrixhasyoubeaufort1141
+# T4: R1..R4 in page order
+thematrixhasyoubeaufort1141straddlingcheckerboard
+# T5: R1..R5 in page order (alphabet keywords as printed, king/queen dropped as in the solved alphabet)
+thematrixhasyoubeaufort1141straddlingcheckerboardfubcdoraclethingkymvps

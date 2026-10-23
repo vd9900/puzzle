@@ -1,0 +1,5 @@
+faed sorted profile: [0.188, 0.132, 0.121, 0.102, 0.1, 0.095, 0.091, 0.086, 0.086]
+english   base9-charcode sorted profile: [0.326, 0.207, 0.176, 0.086, 0.056, 0.042, 0.042, 0.035, 0.031]  chi2(faed|model)=249
+hexlower  base9-charcode sorted profile: [0.266, 0.181, 0.158, 0.131, 0.08, 0.055, 0.054, 0.05, 0.026]  chi2(faed|model)=158
+base64    base9-charcode sorted profile: [0.276, 0.103, 0.101, 0.099, 0.098, 0.089, 0.089, 0.087, 0.059]  chi2(faed|model)=30
+uniform-base9 model: chi2(faed)=42; simulated 570-digit samples chi2 95%=15 99%=18 max=25

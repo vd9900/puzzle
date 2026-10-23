@@ -1,0 +1,271 @@
+{
+ "meta": {
+  "source": "data/user_supplied/telegram/ocr_index.json (2869 images)",
+  "cycle": "c39",
+  "date": "2026-10-13",
+  "method": "regex triage of OCR+captions; shingle-match of OCR lines vs text_export.jsonl and creator_all.json; 19 images viewed",
+  "category_counts": {
+   "external_channel_or_site": 227,
+   "hint_related": 184,
+   "decode_output": 218,
+   "code": 113,
+   "wallet_address": 298,
+   "theory_cipher_terms": 350,
+   "solved_claim_words": 150,
+   "any_keyword": 983
+  },
+  "note": "Personal data in images (emails of private individuals, a leaked user-DB dump, creator's personal Reddit content) deliberately NOT recorded."
+ },
+ "creator_statements_not_in_creator_all": [
+  {
+   "image": "photos/photo_545@06-02-2024_12-20-35.jpg",
+   "ocr_idx": 398,
+   "also": [
+    1101,
+    1382,
+    1953
+   ],
+   "channel": "private Telegram DM, dated 2021-03-15",
+   "context": "puzzler asked creator to hash the 'cosmic duality' part for him; later asked what hint to give for SalPhaseIon",
+   "quotes": [
+    "No if you don't mind",
+    "You're going too fast now. Same software was used in every phase.",
+    "If you manage to get the pk. Endless respect",
+    "up to you",
+    "obviously the thing hush hush doesn't mention"
+   ],
+   "relevance": "HIGH: 'Same software was used in every phase' constrains SalPhaseIon/cosmic-duality tooling to the same tool as solved phases (consistent with c37 finding: openssl CLI). 'the thing hush hush doesn't mention' = suggested hint toward SalPhaseIon."
+  },
+  {
+   "image": "photos/photo_605@27-03-2024_23-35-48.jpg",
+   "ocr_idx": 1708,
+   "channel": "in-group screenshot (message absent from export)",
+   "quotes": [
+    "You really skipped a part where you'd need to caesar rotate in order to unlock \"removethecorrecthinttoproceedtothenextstage\" -> in the bottom you'd see 'esrever' -> backwards it's reverse -> which had to be applied to the 2nd binary part. But your solution is quicker nevertheless",
+    "rot13.com"
+   ],
+   "relevance": "MEDIUM: confirms intended Phase-1 mechanics (ROT13 of a string revealing 'esrever' -> reverse the 2nd binary part). Shows creator's style: hints embedded inside decoded text, applied to a later chunk."
+  },
+  {
+   "image": "photos/photo_923@15-11-2024_21-56-58_thumb (1).jpg",
+   "ocr_idx": 146,
+   "also": [
+    874,
+    966,
+    1391,
+    2215
+   ],
+   "channel": "in-group screenshot (only re-quoted by others in export)",
+   "quotes": [
+    "Not sure if I should tell. It's hinted where it would be impossible to solve but you're not there yet."
+   ],
+   "relevance": "MEDIUM: answer casing/spacing rules are hinted at the stage where they'd otherwise be impossible (cf. aAa/enf hints)."
+  },
+  {
+   "image": "photos/photo_1438@12-06-2025_15-29-27.jpg",
+   "ocr_idx": 874,
+   "channel": "in-group screenshot, co-owner account (owner tag), 2019",
+   "quotes": [
+    "No hints, no help, go solve",
+    "Don't ask for further help or hints, no point as we are not going to give any. Also, to make things even more difficult, a time constraint will be introduced very soon, so better get a cracking"
+   ],
+   "relevance": "LOW: precedes the 2019 halving announcement."
+  },
+  {
+   "image": "photos/photo_2455@29-09-2026_21-53-19.jpg",
+   "ocr_idx": 821,
+   "channel": "screenshot of creator account (name shown reversed) in a chat with Vietnamese UI; not in export",
+   "quotes": [
+    "few seconds ;-)  [re: how long to generate addresses containing GSMG]",
+    "Only 4 chars. The 1's take more time somehow.",
+    "There, you guys have some extra time ;-)  [re: 'Where is the official announcement?']"
+   ],
+   "relevance": "LOW: vanity address generation trivial; no info in address beyond vanity prefix."
+  },
+  {
+   "image": "photos/photo_1495@18-07-2025_21-40-48.jpg",
+   "ocr_idx": 1142,
+   "channel": "forwarded creator message (origin outside export)",
+   "quotes": [
+    "No puzzle hints here, except maybe a tiny one in the music channel on slack for the rabbit phase."
+   ],
+   "relevance": "LOW-MEDIUM: a GSMG company Slack #music channel once carried a tiny rabbit-phase (Phase 1) hint — likely the 'Hush, Hush' song; Slack not accessible; rabbit phase is solved."
+  },
+  {
+   "image": "files/image (18).png",
+   "ocr_idx": 2777,
+   "channel": "in-group 2023? screenshot",
+   "quotes": [
+    "53 75 72 65 62 75 74 77 65 77 6f 6e 74 67 69 76 65 69 74 61 77 61 79 (= 'Surebutwewontgiveitaway', reply to 'Can I ask for the private key')",
+    "Everybody can give it a try. The puzzle is all you get. Please don't ask ..."
+   ],
+   "relevance": "NONE (joke)"
+  },
+  {
+   "image": "photos/photo_1291@28-04-2025_23-04-11.jpg",
+   "ocr_idx": 1505,
+   "also": [
+    2213,
+    1928
+   ],
+   "channel": "private DM 2025-04",
+   "quotes": [
+    "Indeed, we still have to fix the bittex part, and yes, most of us prefer to be ghosts. ... Furthermore, no puzzle hints!",
+    "Cheers! It's also a peace sign"
+   ],
+   "relevance": "NONE for puzzle (company matter)."
+  },
+  {
+   "images": [
+    "ocr_idx 224/465/741/1730 (welcome-screen screenshots)",
+    "ocr_idx 196/2590",
+    "ocr_idx 2670",
+    "ocr_idx 1360",
+    "ocr_idx 520/833",
+    "ocr_idx 2575"
+   ],
+   "channel": "in-group 2019 screenshots, messages absent from creator_all",
+   "quotes": [
+    "[Is it a puzzle to the private keys?] 1 private key is hidden in there. / Equivalent of 25 btc / Depends how you look at it. / Correct",
+    "[What kind of answer is it? a private key, or some link?] In the end of the puzzle a private key.",
+    "[Do you know the solution?] Well, I can only show you the door.",
+    "If you don't transfer the btcs directly after finding the privkey you don't want or deserve them I suppose.",
+    "It's from us. / That might be just the beginning of the puzzle. / Why wouldn't we?",
+    "Nope, no hints after reaching stage 2. Hash won't help you anyhow."
+   ],
+   "relevance": "LOW: endpoint = a single private key; nothing new technically."
+  },
+  {
+   "images": [
+    "files/image_2023-10-05_14-39-16.png (2614)",
+    "2596",
+    "2759"
+   ],
+   "channel": "in-group 2019-04-23 screenshots (absent from export)",
+   "quotes": [
+    "Nope, this isn't handled with the CSRF, so this must be something else going wrong. (creator)",
+    "2 instances running. Think we don't have sticky sessions on (staff)"
+   ],
+   "relevance": "NONE: explains 2019 'alternating token' verification glitches as load-balancer issue (refutes the 'tokens are clues' theory in image 2780)."
+  }
+ ],
+ "gsmg_io_site_and_admin_email_2026": {
+  "provenance_warning": "gsmg.io expired ~2026-07-12 (image 114: 'may be available at Dynadot auctions'); creator said 2026-07-13 'the url (and thus the original puzzle) is \"gone\"'; chat claims a community member re-registered the domain (msgs 72531-72546) vs an earlier claim it was renewed by the creator (68869). Treat post-July-2026 site content and admin@gsmg.io replies as NOT reliably the creator.",
+  "items": [
+   {
+    "image": "photos/photo_2442@25-09-2026_02-04-06.jpg",
+    "ocr_idx": 861,
+    "what": "new gsmg.io homepage: 'GSMG 2017 - 2026. The lights are off. Nine years of chaos ended. One mystery remains. Follow the white rabbit ->' over Matrix-rain background"
+   },
+   {
+    "image": "photos/photo_2474@01-10-2026_17-34-45.jpg",
+    "ocr_idx": 2500,
+    "also": [
+     1850
+    ],
+    "what": "gsmg.io/<any path> returns 'Hello :-)' = the new site's 404 page (confirmed in chat msg 70857); NOT a hidden page"
+   },
+   {
+    "image": "photos/photo_2420@20-09-2026_06-18-49.jpg",
+    "ocr_idx": 50,
+    "what": "admin@gsmg.io email reply: 'Writing an email here is definetly not a route for solving the puzzle =)'"
+   },
+   {
+    "image": "photos/photo_2421@20-09-2026_12-31-33.jpg",
+    "ocr_idx": 1429,
+    "what": "admin@gsmg.io reply to 'There nothing to be done shell wise via ssh, is it?': 'I cant say yes or no. sorry'"
+   },
+   {
+    "image": "photos/photo_2422@20-09-2026_19-53-53.jpg",
+    "ocr_idx": 1675,
+    "what": "admin@gsmg.io reply to a request for a sign of life: 'Still no hints ;-)' (same wording creator used 2019-09-04, so trivially imitable)"
+   },
+   {
+    "ocr_idx": 601,
+    "what": "alpha.gsmg.io 503 (2026-05-22)"
+   }
+  ]
+ },
+ "other_channel_items": [
+  {
+   "image": "photos/photo_166@16-02-2021_23-14-20.jpg",
+   "ocr_idx": 596,
+   "what": "Discord post by 'VrsN' dated 07.06.2020: 'SalPhaseIon. Anybody there by now? We're stuck for over 2 months now. Just combine the last 2 hints and understand what the first door is, then you know what to look for.' Author is a community member, NOT shown to be the creator."
+  },
+  {
+   "ocr_idx": [
+    692,
+    1012,
+    1720
+   ],
+   "what": "creator's apparent Reddit profile/comments: non-puzzle personal content; not recorded"
+  },
+  {
+   "ocr_idx": 988,
+   "what": "leaked API-user/database dump with private emails: excluded (personal data); no puzzle content"
+  },
+  {
+   "ocr_idx": [
+    263,
+    918,
+    630,
+    776,
+    1243,
+    1697,
+    2464,
+    2673
+   ],
+   "what": "Decentraland estate NFT metadata 'gsmg.io magic puzzle piece' / 'White Rabbits everywhere' (known)"
+  },
+  {
+   "ocr_idx": [
+    460,
+    66,
+    274,
+    967,
+    1797,
+    1962,
+    2138,
+    2693
+   ],
+   "what": "3GSMG24... OP_RETURN breadcrumb messages ('You are here because 227 chars were correct', 'Right, this is causality', 'phase3.2 pass OK', 'neighbors, half and double') — per c37 NOT the creator's"
+  }
+ ],
+ "claimed_solutions_and_decodes": [
+  {
+   "image": "photos/photo_2223@07-06-2026_04-50-22.jpg",
+   "ocr_idx": 1261,
+   "what": "bitcointalk post 2026-02-20 'GSMG Puzzle SOLVED - Phase 3 Complete, Half & Better Half Found' with 'derived' addresses 1G648yaB7Wp2dpUfcZoRSD4q350q47vCu / 145ZQ9siLrsXBKF465wjdyQYAPSdRWhRhQ (OCR) — AI-generated fake, poster's own caption says so; prize unmoved."
+  },
+  {
+   "ocr_idx": 106,
+   "what": "'congratulations' + Plaintext = e3b0c442...b855 = SHA-256 of empty string: meaningless decrypt."
+  },
+  {
+   "ocr_idx": [
+    472,
+    1077
+   ],
+   "what": "openssl outputs with binary garbage under sha256-hex passwords; poster notes no-error != correct (padding false positives)."
+  },
+  {
+   "ocr_idx": 1654,
+   "what": "'AesHal.txt' blob U2FsdGVkX1+0WI49gnWTyiimluu7V3+vI7st0g... (2026-10-01) — not a known puzzle blob; community-made, unverified provenance."
+  },
+  {
+   "ocr_idx": 2454,
+   "what": "blob U2FsdGVkX1+LBpgF20xtMjs5fzVe0CwiUqf... (2025-05-28) — not a known puzzle blob; community-made."
+  },
+  {
+   "ocr_idx": 114,
+   "what": "caption 'found the key' on a 'gsmg.io has expired' screenshot — joke."
+  }
+ ],
+ "top_checkable_leads": [
+  "Creator DM 2021-03-15: 'Same software was used in every phase' — any SalPhaseIon/cosmic-duality/Phase-3.2 decryption should use the same openssl enc (AES-256-CBC, EVP_BytesToKey MD5, base64) as phases 2/3; consistent with c37 toolchain finding.",
+  "Creator DM 2021-03-15: suggested SalPhaseIon hint = 'obviously the thing hush hush doesn't mention' (Phase-1 poem 'Hush hush' vs what it omits) — semantic lead, not brute-forceable.",
+  "Creator in-group (absent from export): Phase-1 required ROT13 of 'removethecorrecthinttoproceedtothenextstage' tail revealing 'esrever' -> reverse the 2nd binary part: confirms in-text instructions apply to the NEXT chunk.",
+  "Creator: casing/spacing of answers 'is hinted where it would be impossible to solve' — check that each unsolved stage's text contains its own format hint (cf. aAa / enf).",
+  "Post-July-2026 gsmg.io and admin@gsmg.io are of doubtful provenance (domain lapsed); do not treat 'The lights are off... One mystery remains' or email replies as creator hints."
+ ]
+}

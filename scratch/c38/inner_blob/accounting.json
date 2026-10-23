@@ -1,0 +1,17 @@
+{
+ "phase32_elements": [
+  {"element": "Architect intro paragraph (near-verbatim film; only 'the most' before 'irrelevant' dropped)", "consumed_by": "framing: identifies the Architect scene whose answer-speech is the Beaufort plaintext; 'your first question' = 'Why am I here?'", "status": "consumed"},
+  {"element": "'... am I here?' (elided 'Why')", "consumed_by": "Neo's question that the Architect answers; the Beaufort plaintext begins with the answer", "status": "consumed (context)"},
+  {"element": "'Wake up, you...' (Neo->you; elided 'The Matrix has you')", "consumed_by": "Beaufort key THEMATRIXHASYOU", "status": "consumed"},
+  {"element": "'beautiful strategic position'", "consumed_by": "beau + fort = Beaufort (cipher type)", "status": "consumed"},
+  {"element": "'One for one, four for one'", "consumed_by": "1141 -> EBCDIC cp1141/cp273 symbol normalisation (community); also matches checkerboard row prefixes 1,4", "status": "consumed (double-duty)"},
+  {"element": "1539-symbol block", "consumed_by": "Beaufort -> modified Architect speech", "status": "consumed"},
+  {"element": "149-digit stream", "consumed_by": "straddling checkerboard -> 'in case you manage to crack this ... half and better half ...'", "status": "consumed"},
+  {"element": "'Raising the stakes without extra chances of winning'", "consumed_by": "poker STRADDLE (voluntary blind raise: ups the stakes, no extra equity) -> straddling checkerboard = cipher-type pun, parallel to beau-fort", "status": "consumed (new reading, c38)"},
+  {"element": "'A fubcd-king & oracle-queen, thingky mvps'", "consumed_by": "alphabet keywords fubcd/oracle/thingky/mvps (king/queen not used in the alphabet; read as joke wording)", "status": "consumed"},
+  {"element": "'on a sad board but as wide as the first one seen'", "consumed_by": "board shape: 3-row checkerboard ('sad'/short) whose top row holds 8 letters, as wide as the first board seen (Phase 2 chess FEN, 8 files)", "status": "consumed (shape hint, no extra bits)"},
+  {"element": "checkerboard row-4 tail order zjqwx and '/' '.' cells", "consumed_by": "none - cells 10 and 44-49 never used by the 149 digits, so their order is unconstrained (repo and community differ)", "status": "carries no information"},
+  {"element": "creator edits in speech (see speech_edits.json)", "consumed_by": "instructions for later stages: 'return to the source codes', 'reinserting the prime basics', '23 ciphers 16 encryptions and/or 7 intertwined passwords to find the actual private key', 'brute forcing might be required'", "status": "unconsumed within 3.2 - point to SalPhaseIon, not the inner blob"},
+  {"element": "inner 80-byte blob (salt b45a5e3d827593ca)", "consumed_by": "captioned by the checkerboard message; no password riddle on the page", "status": "unsolved"}
+ ]
+}

@@ -1,0 +1,2499 @@
+{
+ "generated": "2026-10-13",
+ "scope": "GROUP1 (117 docs) of user_supplied/telegram/docs",
+ "method": "4 parallel read-only subagents (parts A-D) + own pass (part E); no data-file code executed; own checks in docs1/mycheck/",
+ "coverage": {
+  "group1_count": 117,
+  "catalog_count": 117,
+  "missing": [],
+  "extra": []
+ },
+ "notes": [
+  "No document in GROUP1 mentions 'BYTENPHASE'.",
+  "All creator/admin quotes found (Jrk_Bgrt_Chat_History, messages.zip export, baseline, My2cents) already exist in research/ or scratch/ notes; no new creator hint text found.",
+  "Known official blobs present as copies: Phase 2 (ph2_aes_1), Phase 3 (ph3_aes_2), Phase 3.2 inner (ph3_aes_3), SalPhaseIon small (extra_aes_1), Cosmic Duality (salph.html)."
+ ],
+ "own_checks": [
+  {
+   "target": "reproduce_all_bulbs_verified_stage2753 :: 'Chain1'",
+   "note": "REPRODUCED independently with openssl CLI (AES-256-CBC, -md md5, raw passphrase) on research/artifacts/salphaseion-small.b64: last byte 0x01 -> 79 B, sha256 1449a217...26bf matches; output is binary (printable fraction 0.38 ~ random). Not self-verifying: wrong keys give 0x01 pad 1/256; script itself shows a 2nd passing preimage.",
+   "leads_annotated": 1
+  },
+  {
+   "target": "reproduce_all_bulbs_verified_stage2753 :: 'Chain2'",
+   "note": "REPRODUCED independently: uncompressed WIF(chain1[:32]) (5K2byJ...) as openssl -md md5 passphrase on research/artifacts/phase32-inner.b64 -> 0x01 pad, 79 B, sha256 b40fce72...d004 matches; binary output (printable 0.42). Tail chain2[64:79]=740a25de4b8e946d0a5ae2667a23a2 = the 'E_S gate' value in dbbib-faed-analysis. Conditional chance ~1/256 per derivation tried; not self-verifying.",
+   "leads_annotated": 1
+  },
+  {
+   "target": "dbbib-faed-analysis :: RAW_PW",
+   "note": "Same as Chain1/Chain2 (reproduced). Salt 3ab585348552415d = SalPhaseIon small blob; salt b45a5e3d827593ca = known Phase 3.2 inner blob (research/artifacts/phase32-inner.b64), so the 'p32' layer source is identified.",
+   "leads_annotated": 1
+  },
+  {
+   "target": "2020-301.pdf :: MadHatter",
+   "note": "CLOSED by own check (mycheck/madhatter_check.py): MadHatter ciphertext needs every 4-symbol block to have 4 distinct letters; faed has 83-88 of 142 blocks with repeats at every offset 0-3 (dbbi 14-17/22), and 570/91 are not multiples of 4. Not MadHatter.",
+   "leads_annotated": 1
+  },
+  {
+   "target": "dbbi_sum_faed.py :: upper triangle",
+   "note": "RAN own re-implementation (mycheck/quick_rowsum.py): S=JLIQFOPGVBLSENDTHECZAGJJYDSWCGUDJNFTWB (contains 'SENDTHE', rest gibberish), H=OLIQUBROVQLTOSETHEXQYOJSSICJFGUDCCVBWQ, L=JLUPFLPGLBLUENETDICZAGAJQDSWCGUDONFHWB. Ad-hoc decoder with many free choices -> look-elsewhere; not a solution.",
+   "leads_annotated": 1
+  }
+ ],
+ "top10_checkable": [
+  {
+   "rank": 1,
+   "lead": "Chain1->Chain2: SalPhaseIon small blob + 'matrixsumlistenterlastwordsbeforearchichoicethispasswordmatrixsumlist' (MD5 KDF) -> 79 B; WIF(first 32 B) opens Phase 3.2 inner blob -> 79 B (E_S=740a25de4b8e946d0a5ae2667a23a2)",
+   "sources": [
+    "reproduce_all_bulbs_verified_stage2753.py",
+    "dbbib-faed-analysis-2026-10-10.md",
+    "salphaseion_plain_79.bin (different 79-B hit)"
+   ],
+   "checkable": "yes",
+   "status": "independently reproduced; both are single-byte 0x01 pads with random-looking binary output -> consistent with padding false positives found by search; cheap self-verifying follow-up: K_C1/K_C2/K_S1/K_S2 as privkeys vs prize address (My2cents reports EC combos negative)"
+  },
+  {
+   "rank": 2,
+   "lead": "Chain3 'cosmic_correct': Cosmic Duality blob (1328-B ct) with raw 32-B pass = XOR of sha256 of 7 tokens (a795de117e472590e572dc193130c763e3fb555ee5db9d34494e156152e50735), MD5 KDF -> 1327 B (0x01 pad)",
+   "sources": [
+    "reproduce_all_bulbs_*.py",
+    "My2cents_.md",
+    "GSMG_research_baseline.md"
+   ],
+   "checkable": "yes",
+   "status": "one decrypt; not self-verifying (1/256); token subset chosen post hoc; maintainer called it a false positive"
+  },
+  {
+   "rank": 3,
+   "lead": "'12 addresses' / 39 'extra door' P2PKH addresses = Base58Check(00||CC[32X+16:32X+32]||BE32(X)) over Chain3 output",
+   "sources": [
+    "12-addresses.txt",
+    "from_issue110_addresses.py"
+   ],
+   "checkable": "partial",
+   "status": "Base58Check validity is by construction (no evidence); reported empty on-chain; depends on disputed Chain3"
+  },
+  {
+   "rank": 4,
+   "lead": "Chain4: chain3[158:1326] XOR 8-byte mask b657264f2f6e6921 -> 'Salted__' -> decrypt 1151 B",
+   "sources": [
+    "reproduce_all_bulbs_corrected.py"
+   ],
+   "checkable": "yes",
+   "status": "mask is chosen to make 'Salted__' (zero evidence); 0x01 pad again"
+  },
+  {
+   "rank": 5,
+   "lead": "'Half'/'Better Half' via 103x103 matrix on Chain3 output (addresses 1JG648ya..., 145ZQ9si...)",
+   "sources": [
+    "My2cents_.md",
+    "GSMG_research_baseline.md"
+   ],
+   "checkable": "partial",
+   "status": "author grades it unauthenticated; EC combos vs prize key negative"
+  },
+  {
+   "rank": 6,
+   "lead": "E_S 'gate': find X with sha256(X)[:30 hex]==740a25de4b8e946d0a5ae2667a23a2",
+   "sources": [
+    "dbbib-faed-analysis-2026-10-10.md"
+   ],
+   "checkable": "partial",
+   "status": "a match would self-verify (120 bits) but needs guessing X and presupposes Chain2 is real; >8.3M windows already negative per author"
+  },
+  {
+   "rank": 7,
+   "lead": "Medicine hint: two lowercase 'rx' in the 1,539-char Phase 3.2.1 intermediate at 68 and 1237 (distance 1169); Beaufort plaintext at 1169 begins 'ciphers'",
+   "sources": [
+    "GSMG_research_baseline.md"
+   ],
+   "checkable": "yes",
+   "status": "deterministic on solved text; interpretive, no oracle"
+  },
+  {
+   "rank": 8,
+   "lead": "MadHatter (ePrint 2020/301, A-I ciphertext, two plaintexts) as the SalPhaseIon a-i cipher",
+   "sources": [
+    "2020-301.pdf"
+   ],
+   "checkable": "yes",
+   "status": "CLOSED by own check: faed/dbbi blocks repeat letters at every offset"
+  },
+  {
+   "rank": 9,
+   "lead": "dbbi as upper triangle of symmetric 14x14 (91=C(14,2)) -> row sums XOR faed 15-wide row sums mod 26",
+   "sources": [
+    "dbbi_sum_faed.py"
+   ],
+   "checkable": "yes",
+   "status": "ran: 'SENDTHE' fragment in gibberish; look-elsewhere; triangle idea already in research/evidence/cycle02"
+  },
+  {
+   "rank": 10,
+   "lead": "17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa: 'dualite gate' (dbbib file) vs self-transfer (My2cents)",
+   "sources": [
+    "dbbib-faed-analysis-2026-10-10.md",
+    "My2cents_.md"
+   ],
+   "checkable": "partial",
+   "status": "on-chain history check only; no derivation that would self-verify"
+  }
+ ],
+ "catalog": [
+  {
+   "path": "export_files/messages.zip__messages.txt.txt",
+   "bytes": 403441,
+   "kind": "chat_log",
+   "summary": "Text export of the 'GSMG Puzzle Solvers' Telegram group, 13,215 lines; mostly 2019-04-20..2020-10-15 with a few later (2021-2026) messages interleaved out of order. Includes about 160 posts by the group admin JrK, who speaks for the puzzle team (typo fix, hash for stage 1, the 2020 hint, prize-halving remarks).",
+   "author": null,
+   "date": "2019-04-20..2020-10-15 (sparse up to 2026-06)",
+   "part": "A"
+  },
+  {
+   "path": "export_files/a1z26.txt.txt",
+   "bytes": 400000,
+   "kind": "data_dump",
+   "summary": "Truncated enumeration (4,793 lines) of A1Z26 segmentations of one word-spaced digit string. The base form uses only A-I (=1-9); each variant merges digit pairs into letters J-Z (e.g. AE->O, AF->P, BE->Y, AC->M). No readable line seen.",
+   "author": null,
+   "date": null,
+   "part": "A"
+  },
+  {
+   "path": "export_files/follow_the_white_rabbit_RGBA.txt.txt",
+   "bytes": 400000,
+   "kind": "data_dump",
+   "summary": "Comma-separated RGBA pixel dump of the first puzzle image ('follow the white rabbit'), truncated at 400 kB. Values seen are only 255, 0, 72, 63, 204 and 242 (palette image).",
+   "author": null,
+   "date": null,
+   "part": "A"
+  },
+  {
+   "path": "export_files/frames.csv.txt",
+   "bytes": 400000,
+   "kind": "analysis",
+   "summary": "Per-frame MP3 header and side-info dump (46 frames, MPEG-1 Layer III, 320 kbps, 44.1 kHz, joint stereo) of an audio file, probably the puzzle's song. The copyright, original and private bits are 0 in every frame.",
+   "author": null,
+   "date": null,
+   "part": "A"
+  },
+  {
+   "path": "export_files/1752411872456.h.txt",
+   "bytes": 385733,
+   "kind": "data_dump",
+   "summary": "A 62,329-byte JPEG (JFIF with an ICC profile) embedded as an Arduino PROGMEM C byte array. It ends in a long run of 0x00 before 0x3f,0xff,0xd9. The file name is a ms timestamp, 2025-07-13. The image itself is unknown.",
+   "author": null,
+   "date": "2025-07-13 (from filename timestamp)",
+   "part": "A"
+  },
+  {
+   "path": "export_files/exhaustive_results.csv.txt",
+   "bytes": 364327,
+   "kind": "analysis",
+   "summary": "Scored output (5,000 rows) of a grid-traversal bit-reading search: path (spiral/snake/diagonal/onion...), width 7/8, offset, bit-reverse and 5-bit mapping. Top row 'gsmg.io/theseedisplantet' (Spiral_CCW_TL, w=8) is a 1-char-off rediscovery of the known Phase 1 answer; the rest is noise.",
+   "author": null,
+   "date": null,
+   "part": "A"
+  },
+  {
+   "path": "export_files/Cosmic_1_.txt.txt",
+   "bytes": 281622,
+   "kind": "other",
+   "summary": "OCR/markdown text of the Time-Life book 'Mysteries of the Unknown: Cosmic Duality' (yin-yang, Zoroaster, Manicheanism, The Exorcist...). This is the reference behind the 'cosmic duality' phase. No puzzle annotations.",
+   "author": "Editors of Time-Life Books (published book)",
+   "date": null,
+   "part": "A"
+  },
+  {
+   "path": "export_files/1693801870.859304-b324345164fc805fd440a53db7fa8857.txt",
+   "bytes": 229687,
+   "kind": "binary_stub",
+   "summary": "Binary file destroyed by the text conversion: entirely U+FFFD replacement characters, nothing recoverable.",
+   "author": null,
+   "date": "2023-09-04 (filename epoch)",
+   "part": "A"
+  },
+  {
+   "path": "export_files/1693801870.6664932-76caefa1690b5e26f4cd8b9097d96f5f.txt",
+   "bytes": 183750,
+   "kind": "binary_stub",
+   "summary": "Binary file destroyed by the text conversion: entirely U+FFFD replacement characters, nothing recoverable.",
+   "author": null,
+   "date": "2023-09-04 (filename epoch)",
+   "part": "A"
+  },
+  {
+   "path": "export_files/1693801870.216007-7d73d39482bc6366fa0e10d905dda1b9.txt",
+   "bytes": 91875,
+   "kind": "binary_stub",
+   "summary": "Binary file destroyed by the text conversion: entirely U+FFFD replacement characters, nothing recoverable.",
+   "author": null,
+   "date": "2023-09-04 (filename epoch)",
+   "part": "A"
+  },
+  {
+   "path": "export_files/all_bitplane_results.txt.txt",
+   "bytes": 73874,
+   "kind": "analysis",
+   "summary": "Bit-plane (R/G/B planes 0-7, row/column order) text-extraction output for one image. Every result is '?' or non-text noise: negative.",
+   "author": null,
+   "date": null,
+   "part": "A"
+  },
+  {
+   "path": "export_files/all_images_bitplane_results.txt.txt",
+   "bytes": 46375,
+   "kind": "analysis",
+   "summary": "The same bit-plane extraction run on image1..image8.png (image1 is 78x70). No readable strings: negative.",
+   "author": null,
+   "date": null,
+   "part": "A"
+  },
+  {
+   "path": "export_files/GSMG_research_baseline.md.txt",
+   "bytes": 68875,
+   "kind": "analysis",
+   "summary": "Long community research baseline: reproduced solve path, prize/tx state, Cosmic Duality/Chain4 candidate decrypt (demoted as unauthenticated 2025 solver claim), DBBI-keyed Bifid 'btcseed' decode and 96-state remainder, many large negative sweeps, creator-hint provenance audits (Telegram/Discord message IDs, pre-edit screenshots).",
+   "author": null,
+   "date": "2026-08-22 (sections dated 2026-08-19..2026-08-25)",
+   "part": "B"
+  },
+  {
+   "path": "export_files/3_GSMGIO.zip__3_GSMGIO_Solving.txt.txt",
+   "bytes": 47610,
+   "kind": "notes",
+   "summary": "Latecomer's walkthrough compiled from the puzzlehunt GitHub/reddit: 14x14 spiral -> gsmg.io/theseedisplanted, Logic 'The Warning', causality, 7-part Phase 3 password, Phase 3.1 answers, Beaufort/VIC Phase 3.2, SHA256(title+address) -> SalPhaseIon, abba->matrixsumlist/enter, a1z26/o=0->hex tokens; ends with unsolved AES blobs as '<TO GUESS>'. No new results.",
+   "author": null,
+   "date": null,
+   "part": "B"
+  },
+  {
+   "path": "export_files/Jrk_Bgrt_Chat_History.txt.txt",
+   "bytes": 27453,
+   "kind": "chat_log",
+   "summary": "Filtered export of messages by 'Jrk Bgrt' (the GSMG puzzle admin/creator account, i.e. jrk) from the GSMG Telegram group, 2019-04-20..2023-08-29; contains all the classic creator hints (giveit=givetit, Roses are White, {1},{4},{21}, zeroed out/primes, 2023 reversed-bit binary, ying yang).",
+   "author": "Jrk Bgrt (creator/admin account)",
+   "date": "2019-04-20 to 2023-08-29",
+   "part": "B"
+  },
+  {
+   "path": "export_files/2020-301.pdf.txt",
+   "bytes": 24601,
+   "kind": "other",
+   "summary": "Text of IACR ePrint 2020/301 academic paper 'MadHatter: A toy cipher that conceals two plaintexts in the same ciphertext' (9 ciphertext symbols A-I; mixed-radix 2,2,2,3 + permutation-of-4 schemes; two plaintexts in one ciphertext). Shared presumably as a 'Cosmic Duality'/two-halves hypothesis for the a-i SalPhaseIon streams. Author is a named academic (name/email omitted per rules).",
+   "author": null,
+   "date": "2020-01-27",
+   "part": "B"
+  },
+  {
+   "path": "export_files/curve.txt.txt",
+   "bytes": 19833,
+   "kind": "data_dump",
+   "summary": "Output dump of a secp256k1 tool run on the prize public key 04f4d1bb...3559: validation, P, 2P..5P, P/2, P/4, P/8 with derived P2PKH/P2SH/bech32/ETH addresses and hashes. Pure point arithmetic on the public key; no private-key information.",
+   "author": null,
+   "date": null,
+   "part": "B"
+  },
+  {
+   "path": "export_files/gsmg.io_puzzlebinarymatrixanalysis.rtf.txt",
+   "bytes": 18286,
+   "kind": "analysis",
+   "summary": "RTF write-up of ASCII-decoding attempts and linear-algebra properties (trace 7, det -86, GF(2)-singular, eigen/singular values) of the 14x14 binary matrix; only readable result is the known transpose+clockwise spiral = gsmg.io/theseedisplanted.",
+   "author": null,
+   "date": null,
+   "part": "B"
+  },
+  {
+   "path": "export_files/reproduce_all_bulbs_verified_stage2753.py.txt",
+   "bytes": 36374,
+   "kind": "solver_script",
+   "summary": "Standalone 'Cosmic Duality Chain 1-4' reproducer with the P3, SalPhaseIon-small (SA), Phase3.2-inner (P32B) and Cosmic Duality (CD) blobs embedded; asserts sha256 of each 'decrypt' and includes a 'MatrixSumlist\\nAnsToo' SA false-path audit; all outputs are binary",
+   "author": null,
+   "date": null,
+   "part": "C"
+  },
+  {
+   "path": "export_files/dbbib_faed_attack_length_analysis_3.py.txt",
+   "bytes": 29937,
+   "kind": "solver_script",
+   "summary": "Brute force over letter(a-i)->bit-string permutation maps of dbbi+faed; 4/5/6/7/8-bit regrouping, EBCDIC/charset decodes, keyword search; private-key->address step is a broken placeholder (address = '1'+pubkey hex)",
+   "author": null,
+   "date": null,
+   "part": "C"
+  },
+  {
+   "path": "export_files/reproduce_all_bulbs_corrected.py.txt",
+   "bytes": 28157,
+   "kind": "solver_script",
+   "summary": "Earlier version of the same Chain 1-4 reproducer (same blobs, passwords, mask, lengths); shows how the 1168-byte 'mystery' slice and chain4 pass E_C+E_S+E_B[:2] are built",
+   "author": null,
+   "date": null,
+   "part": "C"
+  },
+  {
+   "path": "export_files/checkallinone.py.txt",
+   "bytes": 13722,
+   "kind": "solver_script",
+   "summary": "Generic Persian-language null-cipher / Bacon / vowel-consonant / word-length decoding toolbox reading keys.txt; no GSMG constants",
+   "author": null,
+   "date": null,
+   "part": "C"
+  },
+  {
+   "path": "export_files/CosmicHush.py.txt",
+   "bytes": 9350,
+   "kind": "solver_script",
+   "summary": "Tries a short Matrix-themed password list (+case variants) on the embedded Cosmic Duality blob; its own EVP routine derives only a 16-byte key (wrong for AES-256)",
+   "author": "HushHush",
+   "date": null,
+   "part": "C"
+  },
+  {
+   "path": "export_files/SalphaseionHush.py.txt",
+   "bytes": 8833,
+   "kind": "solver_script",
+   "summary": "Decodes the 4 SalPhaseIon streams (a/b binary + a-i/o digit ciphers) into known tokens, then tries openssl ciphers/KDFs with token combos and sha256s on a MIS-TRANSCRIBED copy of the SA blob",
+   "author": "HushHush",
+   "date": null,
+   "part": "C"
+  },
+  {
+   "path": "export_files/bacontypenull.py.txt",
+   "bytes": 8484,
+   "kind": "solver_script",
+   "summary": "Generic Bacon-type / null-cipher / vowel-binary toolbox (Persian/English text, keys.txt); no GSMG constants",
+   "author": null,
+   "date": null,
+   "part": "C"
+  },
+  {
+   "path": "export_files/recover_prefix_self_contained.py.txt",
+   "bytes": 8076,
+   "kind": "solver_script",
+   "summary": "Beaufort (key THEMATRIXHASYOU) with an unknown byte->letter mapping recovered by English-tetragram hill-climb on an external blob.bin; generic corpus, no embedded result",
+   "author": null,
+   "date": null,
+   "part": "C"
+  },
+  {
+   "path": "export_files/from_issue110_addresses.py.txt",
+   "bytes": 6983,
+   "kind": "solver_script",
+   "summary": "Reproduces the 39 'extra door' P2PKH addresses of puzzlehunt issue #110 from slices of the disputed 1327-byte cosmic plaintext; itself labels the route UNVERIFIED and the addresses empty",
+   "author": "issue #110 poster (GitHub handle in file, not recorded)",
+   "date": "2026-09-05 (issue date stated)",
+   "part": "C"
+  },
+  {
+   "path": "export_files/test3.py.txt",
+   "bytes": 6456,
+   "kind": "solver_script",
+   "summary": "Persian-alphabet letter-class (3 groups) -> binary/base3 experiments and null-word tests; no GSMG constants",
+   "author": null,
+   "date": null,
+   "part": "C"
+  },
+  {
+   "path": "export_files/libaes.py.txt",
+   "bytes": 5885,
+   "kind": "solver_script",
+   "summary": "Generic OpenSSL-compatible AES helper (EVP_BytesToKey-SHA256 or PBKDF2-SHA256 10000) with printable-ratio filter; no constants",
+   "author": null,
+   "date": null,
+   "part": "C"
+  },
+  {
+   "path": "export_files/sQRt_follow_the_white_rabbit_.md.txt",
+   "bytes": 16612,
+   "kind": "other",
+   "summary": "Unrelated CTF write-up (AFFCTF 'sQRt(follow the white rabbit)'): QR says 'This is the key. Now... follow the white rabbit.'; an EXIF bitstring is masked with the QR matrix, giving flag AFFCTF{0h d3ar! 0h d34r! 1 5h411 b3 700 14t3!}. Not GSMG content; only the white-rabbit theme overlaps.",
+   "author": null,
+   "date": "2019-11-06 (exiftool file timestamps)",
+   "part": "D"
+  },
+  {
+   "path": "export_files/My2cents_.md.txt",
+   "bytes": 15394,
+   "kind": "analysis",
+   "summary": "'GSMG.IO 5 BTC puzzle - independent audit, eliminations, and corrections' with A/B/C evidence grades: reproduced Phase1/3.2/VIC/7-token XOR/DBBI-keyed Bifid 'btcseed'; Cosmic Duality Half/Better Half graded C (not authenticated); large negative sweeps on B91/B570/small blob/EC; corrections to issues #69/#78; creator quotes.",
+   "author": null,
+   "date": "after 2026-08-22 (cites colleague baseline of that date and Telegram through Aug 2026)",
+   "part": "D"
+  },
+  {
+   "path": "export_files/bip39.txt.txt",
+   "bytes": 13116,
+   "kind": "data_dump",
+   "summary": "Unmodified canonical BIP39 English wordlist: 2048 lowercase words, no annotations, sha256 2f5eed53a4727b4bf8880d8f3f199efc90e58503646d9ff8eff3a2ed3b24dbda (same as official english.txt).",
+   "author": null,
+   "date": null,
+   "part": "D"
+  },
+  {
+   "path": "export_files/archive.tar.xz__choiceisanillusioncreatedbetweenthosewithpowerandthosewithoutaveryspecialdessertiwroteitmyself.html.txt",
+   "bytes": 8625,
+   "kind": "puzzle_page",
+   "summary": "Saved official Phase 2 page (choiceisanillusion...). Phase 2 and Phase 3 AES blobs are byte-identical to research/sources/phase2.html (sha256 of concatenated base64 = eb66f893...). The raw HTML has the known comment '<!-- You made it to the next step! Good luck little bunny hunter ;) -->'. Only differences: CSS font line, meta robots 'noindex' vs 'noindex, nofollow', and a session csrf-token meta. No extra hidden text. Its AppleDouble sidecar shows a Telegram download quarantine tag.",
+   "author": null,
+   "date": null,
+   "part": "D"
+  },
+  {
+   "path": "export_files/3_GSMGIO.zip__3_GSMGIO_2_gsmg_phase_rightAnswerPAGE.html.txt",
+   "bytes": 8604,
+   "kind": "puzzle_page",
+   "summary": "IE 'saved from url=(0014)about:internet' copy of the same Phase 2 page, from a community 3_GSMGIO solver folder. Blobs are identical to the official page. It lacks the bunny-hunter comment; its csrf-token differs; '-->' in the text is HTML-escaped. No added hints. The copies in 3_GSMGIO.zip and 3_GSMGIO_2_.zip are byte-identical.",
+   "author": null,
+   "date": null,
+   "part": "D"
+  },
+  {
+   "path": "export_files/_10_.txt.txt",
+   "bytes": 7398,
+   "kind": "other",
+   "summary": "Unrelated Python aiogram/web3 Telegram bot ('Sovereign Monitor', Russian comments). It watches the Ethereum mempool for transactions to the hard-coded ETH address 0x86b800C640bf3AE2BBdC0557C0C732404897Aaa9. Nothing GSMG-related; probably off-topic or spam.",
+   "author": null,
+   "date": null,
+   "part": "D"
+  },
+  {
+   "path": "export_files/data.txt.txt",
+   "bytes": 5768,
+   "kind": "data_dump",
+   "summary": "Letter-position tables for dbbi (91), faed (570) and both (661): the letters at prime positions and the 1-based position lists for each letter a..i.",
+   "author": null,
+   "date": null,
+   "part": "D"
+  },
+  {
+   "path": "export_files/dbbib-faed-analysis-2026-10-10.md.txt",
+   "bytes": 5407,
+   "kind": "analysis",
+   "summary": "'dbbib / faed deep analysis' written in a 'certified' style: Bifid key = dbbib first-appearance order; a claimed unique prime-channel parse; a square-confinement argument; a RAW_PW 69-char chain that decrypts the small blob (salt 3ab585348552415d) to 79 bytes and then a second 79-byte layer with salt b45a5e3d827593ca; and an open 'gate' E_S=740a25de4b8e946d0a5ae2667a23a2.",
+   "author": null,
+   "date": "2026-10-10",
+   "part": "D"
+  },
+  {
+   "path": "export_files/-.js.txt",
+   "bytes": 5368,
+   "kind": "other",
+   "summary": "Misnamed: not JS but one 5368-bit binary string. As 8-bit ASCII it holds a reversed line ('HOW_DID_CAESAR_SEND_HIS_MESSAGES?AND_WHAT_IF_13_IS_DEFAULT_AND_THE_NUMBER_C_IS_THE_2ND_HINT?'), Caesar-3 text, and an inner bit-reversed binary that reads 'BASE64' + base64 of a YouTube rickroll URL. A troll/practice puzzle, not GSMG.",
+   "author": null,
+   "date": null,
+   "part": "D"
+  },
+  {
+   "path": "export_files/binvisualfina1.py.txt",
+   "bytes": 5339,
+   "kind": "solver_script",
+   "summary": "Python script, read as text only. It reads hex lines from 'lokerdar.txt', pads each to 256 bits (4 pad/reverse variants), and lays them on a 16x16 bit grid. Transforms: 4 rotations x 4 mirrors x 3 boustrophedon orders, plus each variant XORed with all-ones. Writes hex candidates to 'nosin.txt'. A candidate-key generator; the input list is not included.",
+   "author": null,
+   "date": null,
+   "part": "D"
+  },
+  {
+   "path": "export_files/GSMG.txt.txt",
+   "bytes": 4885,
+   "kind": "notes",
+   "summary": "LLM-style JS snippet ('Let me analyze the complete puzzle structure...'). It lists the SalPhaseIon a-i stream, the hint 'your first hint is your last command', the two base64 halves of the small blob, 'shabefanstoo' (labelled 'potential password'), and the Cosmic Duality blob. Only console.log output, no new derivation.",
+   "author": null,
+   "date": null,
+   "part": "D"
+  },
+  {
+   "path": "export_files/1693829785.3582788-b35f58f57ab504994ae0e020703e925a.txt",
+   "bytes": 4095,
+   "kind": "binary_stub",
+   "summary": "Binary file lost in text conversion (all U+FFFD replacement chars); content unrecoverable from this text",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/salph.html.txt",
+   "bytes": 4080,
+   "kind": "puzzle_page",
+   "summary": "Saved copy of the official SalPhaseIon page: dbbi/faed letter grid with embedded 'shabefourfirsthintisyourlastcommand', SalPhaseIon AES blob, 'shabefanstoo', plus the Cosmic Duality AES blob (1328-byte ciphertext); matches known page",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/bytes.txt.txt",
+   "bytes": 3876,
+   "kind": "data_dump",
+   "summary": "1292 space-separated hex bytes, all odd values 0x07..0x39 (26 symbols, (x-7)/2 -> a..z), near-uniform letter distribution; no provenance or method stated",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/semifinal.py.txt",
+   "bytes": 3671,
+   "kind": "solver_script",
+   "summary": "Generic secp256k1 feature-extraction experiment on random keys (writes CSV of point-addition intermediates); not GSMG-data specific",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/3_GSMGIO.zip__3_GSMGIO_3_ph3_aes_2.txt.txt",
+   "bytes": 3315,
+   "kind": "puzzle_data",
+   "summary": "Phase 3 AES blob (U2FsdGVkX1/u/Exb78...) = known official Phase 3 ciphertext (research/artifacts/phase3.txt)",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/Step_one.docx.txt",
+   "bytes": 2888,
+   "kind": "notes",
+   "summary": "Someone's brute-force plan: path traversal / image-name guessing on gsmg.io, pixel->bit maps (purple 'brute force'), sha256 line-by-line -> WIF; no results",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/3_GSMGIO.zip__3_GSMGIO_1_1_analysis.py.txt",
+   "bytes": 2816,
+   "kind": "solver_script",
+   "summary": "Phase 1 14x14 spiral (counter/clockwise) bit->ASCII decoder; reproduces known Phase 1 solution",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/sa.py.txt",
+   "bytes": 2452,
+   "kind": "solver_script",
+   "summary": "Random search of a partially masked hex private key (23d4a092...x6x4x1x0xb) for address 1JRW4d8vHZseMEtYbgJ7MwPG1TasHUUVNq; unrelated to GSMG prize",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/3_GSMGIO.zip__3_GSMGIO_GSMGPUZZLE.py.txt",
+   "bytes": 2339,
+   "kind": "solver_script",
+   "summary": "LLM-style fake CTF script: base64 'R1NNR3tWY05vdmV9' -> 'GSMG{VcNove}', sha256, -1337, bit reversal, 'flag'; references truncated 'https://gsmg.io/theseedispland'; no puzzle basis",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/finder.py.txt",
+   "bytes": 2254,
+   "kind": "solver_script",
+   "summary": "BIP39 12-word combinatorial search with hand-picked themed words per position; guessing loop, no anchor",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/12-addresses.txt.txt",
+   "bytes": 1931,
+   "kind": "data_dump",
+   "summary": "'cosmic_correct_12addrs' list: 39 P2PKH addresses derived from a disputed Cosmic Duality 'decrypt' (block[16:32]||BE32(X) -> Base58Check); header itself marks it UNVERIFIED (Naddiseo: 1/256 PKCS#7 false positive, 'cosmic_A.bin made up by llms')",
+   "author": null,
+   "date": "parsed 2026-10-11",
+   "part": "E"
+  },
+  {
+   "path": "export_files/dbbi_sum_faed.py.txt",
+   "bytes": 1899,
+   "kind": "solver_script",
+   "summary": "dbbi as upper triangle of symmetric 14x14 matrix (91=C(14,2)) -> row-sum key K; faed in 38 rows of 15 -> row sums R; chr((R^K)%26+65); three zeroing variants S/L/H",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/hexro3.py.txt",
+   "bytes": 1769,
+   "kind": "solver_script",
+   "summary": "Hex string/byte-order reversal utility over an input list; generic",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/ppp.py.txt",
+   "bytes": 1569,
+   "kind": "solver_script",
+   "summary": "Enumerates arithmetic expressions of 1,2,3,4 (+,*,-,inverse,//) mod n as keys; guessing loop",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/3_GSMGIO.zip.txt",
+   "bytes": 1530,
+   "kind": "other",
+   "summary": "Listing of a 530 KB community zip (dated 2023-09 by screenshot names): Phase 1-3 working files, decentraLandHint_GSMGIO.jpg, TXs.txt, try_phas3.sh, Solving.txt, AES blobs",
+   "author": null,
+   "date": "2023-09-16/17 (screenshot names)",
+   "part": "E"
+  },
+  {
+   "path": "export_files/rabbit.py.txt",
+   "bytes": 1488,
+   "kind": "solver_script",
+   "summary": "Phase 1 spiral decoder (b->1, y->0) of the 14x14 grid; known solved",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/primetest.py.txt",
+   "bytes": 1356,
+   "kind": "other",
+   "summary": "Toy RSA example with tiny primes; irrelevant",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/key.py.txt",
+   "bytes": 1304,
+   "kind": "solver_script",
+   "summary": "faed as 30x19 grid, a..i=1..9 row sums; prime row sums -> chr; (own re-run gives 'keYmgma' = noise)",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/gsmgio_bunny_nest.py.txt",
+   "bytes": 1133,
+   "kind": "solver_script",
+   "summary": "Phase 1 grid matrix with the central white 2x2 (rows/cols 7-8) relabelled 'r' (rabbit 'nest'); data only",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/knight_walkV2.docx.txt",
+   "bytes": 1117,
+   "kind": "solver_script",
+   "summary": "Fragment of a parallel DFS searching knight/Hamiltonian walks on an HxW grid driven by a token sequence (Russian comments); no results",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/encrypt_prime.py.txt",
+   "bytes": 1018,
+   "kind": "other",
+   "summary": "Toy modular-exponent 'prime encryption' example; irrelevant",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/puzzle.py.txt",
+   "bytes": 997,
+   "kind": "solver_script",
+   "summary": "Plots Phase 1 14x14 grid (0 white,1 black,2 blue,3 yellow,4 gray; one gray cell at row 8 col 5)",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/matrix-animation.patch.txt",
+   "bytes": 939,
+   "kind": "other",
+   "summary": "Diff of a community 'salphaseion.html' with a Matrix-rain animation (CSS fix); not the official page",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/3_GSMGIO.zip__3_GSMGIO_2_ph2_aes_1.txt.txt",
+   "bytes": 910,
+   "kind": "puzzle_data",
+   "summary": "Phase 2 AES blob (U2FsdGVkX18GKGYS...) = known official ciphertext",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/blueyellow.cpp.txt",
+   "bytes": 891,
+   "kind": "solver_script",
+   "summary": "Prints inverted yellow-cell mask of the 14x14 grid in reverse order",
+   "author": "barrystyle",
+   "date": "11092023 (2023-09-11)",
+   "part": "E"
+  },
+  {
+   "path": "export_files/Results.html.txt",
+   "bytes": 673,
+   "kind": "data_dump",
+   "summary": "Colour census of Phase 1 image: black 44.63%, white 43.12%, blue #3F48CC 7.65% (=15/196), yellow #FFF200 4.59% (=9/196)",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/3_GSMGIO.zip__3_GSMGIO_matrix_rabbit.txt.txt",
+   "bytes": 512,
+   "kind": "other",
+   "summary": "16x16 w/b/u sketch of a rabbit shape (community drawing), 'u' = unused",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/lyrics.txt.txt",
+   "bytes": 474,
+   "kind": "notes",
+   "summary": "Lyrics of Logic 'The Warning' (Phase 1 song); known",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/3_GSMGIO.zip__3_GSMGIO_1_1_color_14_14_matrix.txt.txt",
+   "bytes": 392,
+   "kind": "puzzle_data",
+   "summary": "Phase 1 14x14 colour grid (k/w/b/y); known",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/brut.zip__readme.txt.txt",
+   "bytes": 343,
+   "kind": "notes",
+   "summary": "Readme of a Java openssl-aes-256-cbc dictionary brute-forcer (password = sha256(word)); includes the tool author's tip address",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/brut.zip.txt",
+   "bytes": 289,
+   "kind": "other",
+   "summary": "Listing of brut.zip (2020-05-09 per zip header): brut.jar, 3.2 MB dictionary.txt, phase2.txt (910 B), phase3.2.3.txt (130 B)",
+   "author": null,
+   "date": "2020-05-09 (zip DOS date)",
+   "part": "E"
+  },
+  {
+   "path": "export_files/prime.py.txt",
+   "bytes": 277,
+   "kind": "other",
+   "summary": "Prints primes and their binary; trivial",
+   "author": "baz",
+   "date": "08092023 (2023-09-08)",
+   "part": "E"
+  },
+  {
+   "path": "export_files/archive.tar.xz__._choiceisanillusioncreatedbetweenthosewithpowerandthosewithoutaveryspecialdessertiwroteitmyself.html.txt",
+   "bytes": 243,
+   "kind": "metadata",
+   "summary": "macOS AppleDouble resource fork (Telegram quarantine attr) for the saved Phase 2 page; no content",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/game.html.txt",
+   "bytes": 206,
+   "kind": "other",
+   "summary": "Community 'Pixel Rearrange Puzzle' web toy stating 86 black, 9 yellow, 15 blue blocks",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/messages.zip.txt",
+   "bytes": 198,
+   "kind": "other",
+   "summary": "Listing of messages.zip (7.9 MB messages.txt chat export; zip dated 2026-07-08); text version is messages.zip__messages.txt.txt",
+   "author": null,
+   "date": "2026-07-08 (zip DOS date)",
+   "part": "E"
+  },
+  {
+   "path": "export_files/3_GSMGIO.zip__3_GSMGIO_3_use_hashcat.sh.txt",
+   "bytes": 193,
+   "kind": "solver_script",
+   "summary": "Commented hashcat mask lines (-m 17030 / -m 22400, 4 base58 chars); no results",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/sc.jar__META-INF_MANIFEST.MF.txt",
+   "bytes": 162,
+   "kind": "binary_stub",
+   "summary": "Part of sc.jar, a Java GUI straddling-checkerboard tool (main.MainWindow/StraddlingCheckerboard/Mode); only class-file header stub",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/sc.jar__main_MainWindow.class.txt",
+   "bytes": 158,
+   "kind": "binary_stub",
+   "summary": "Part of sc.jar, a Java GUI straddling-checkerboard tool (main.MainWindow/StraddlingCheckerboard/Mode); only class-file header stub",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/sc.jar__main_StraddlingCheckerboard.class.txt",
+   "bytes": 158,
+   "kind": "binary_stub",
+   "summary": "Part of sc.jar, a Java GUI straddling-checkerboard tool (main.MainWindow/StraddlingCheckerboard/Mode); only class-file header stub",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/sc.jar__org_eclipse_jdt_internal_jarinjarloader_JarRsrcLoader.class.txt",
+   "bytes": 158,
+   "kind": "binary_stub",
+   "summary": "Part of sc.jar, a Java GUI straddling-checkerboard tool (main.MainWindow/StraddlingCheckerboard/Mode); only class-file header stub",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/sc.jar__org_eclipse_jdt_internal_jarinjarloader_RsrcURLStreamHandler.class.txt",
+   "bytes": 158,
+   "kind": "binary_stub",
+   "summary": "Part of sc.jar, a Java GUI straddling-checkerboard tool (main.MainWindow/StraddlingCheckerboard/Mode); only class-file header stub",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/sc.jar__main_MainWindow_2.class.txt",
+   "bytes": 157,
+   "kind": "binary_stub",
+   "summary": "Part of sc.jar, a Java GUI straddling-checkerboard tool (main.MainWindow/StraddlingCheckerboard/Mode); only class-file header stub",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/sc.jar__main_MainWindow_5.class.txt",
+   "bytes": 157,
+   "kind": "binary_stub",
+   "summary": "Part of sc.jar, a Java GUI straddling-checkerboard tool (main.MainWindow/StraddlingCheckerboard/Mode); only class-file header stub",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/sc.jar__main_MainWindow_7.class.txt",
+   "bytes": 157,
+   "kind": "binary_stub",
+   "summary": "Part of sc.jar, a Java GUI straddling-checkerboard tool (main.MainWindow/StraddlingCheckerboard/Mode); only class-file header stub",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/sc.jar__main_Mode.class.txt",
+   "bytes": 157,
+   "kind": "binary_stub",
+   "summary": "Part of sc.jar, a Java GUI straddling-checkerboard tool (main.MainWindow/StraddlingCheckerboard/Mode); only class-file header stub",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/4E.txt",
+   "bytes": 159,
+   "kind": "binary_stub",
+   "summary": "21910-byte binary stub (starts 01000000ff00...); unknown format, only hex head",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/output_rgb.bin.txt",
+   "bytes": 159,
+   "kind": "binary_stub",
+   "summary": "4.9 MB raw RGB dump stub (starts with ff bytes); likely image pixels",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/Gsmg_Salt_Checker.zip__openssl.exe.txt",
+   "bytes": 158,
+   "kind": "binary_stub",
+   "summary": "Windows openssl.exe inside 'Gsmg_Salt_Checker.zip' (untrusted executable; do not run)",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/1693829786.1162019-210117460f308cdaec9ec561ad93d164.txt",
+   "bytes": 157,
+   "kind": "binary_stub",
+   "summary": "PNG 78x70, 996 B = Phase 2 page image 'black_banking - war.png' (matches exif metadata files)",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/Gsmg_Salt_Checker.zip__Gsmg_Salt_Checker.exe.txt",
+   "bytes": 157,
+   "kind": "binary_stub",
+   "summary": "12 KB Windows exe 'Gsmg_Salt_Checker' (untrusted; do not run)",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/puzzle.bin.txt",
+   "bytes": 157,
+   "kind": "binary_stub",
+   "summary": "PNG 1048x1556 (59 KB) stub; unknown community image",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/4E.zlib.txt",
+   "bytes": 156,
+   "kind": "binary_stub",
+   "summary": "918-byte zlib stream stub (related to 4E.txt); undecodable from stub",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/dbbi_570_character.mid.txt",
+   "bytes": 156,
+   "kind": "binary_stub",
+   "summary": "MIDI rendering of the 570-char faed block (music hypothesis)",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/tune_91.midi.txt",
+   "bytes": 156,
+   "kind": "binary_stub",
+   "summary": "MIDI 'Tune-91' rendering of the 91-char dbbi block (music hypothesis)",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/salphaseion_plain_79.bin.txt",
+   "bytes": 154,
+   "kind": "binary_stub",
+   "summary": "79-byte 'plaintext' claimed from a SalPhaseIon-size blob (80-byte ct -> 1-byte 0x01 padding); head 210b88cfae81... is random-looking",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/3_GSMGIO.zip__3_GSMGIO_3_ph3_aes_3.txt.txt",
+   "bytes": 130,
+   "kind": "puzzle_data",
+   "summary": "Phase 3.2 inner AES blob (U2FsdGVkX1+0Wl49...) = known, unsolved",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/3_GSMGIO.zip__3_GSMGIO_EXTRA_extra_aes_1.txt.txt",
+   "bytes": 130,
+   "kind": "puzzle_data",
+   "summary": "SalPhaseIon AES blob (U2FsdGVkX186tYU0...) = known, unsolved",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/GSMG_Puzzle_1.html.txt",
+   "bytes": 115,
+   "kind": "other",
+   "summary": "Community mock page (Portuguese placeholder title) with a password form; not official",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/3_GSMGIO.zip__3_GSMGIO_2_MakeFormVisible.html.txt",
+   "bytes": 99,
+   "kind": "puzzle_page",
+   "summary": "Saved Phase 1 page with hidden password form made visible; text empty after conversion",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/archive.tar.xz__theseedisplanted.html.txt",
+   "bytes": 70,
+   "kind": "puzzle_page",
+   "summary": "Saved gsmg.io/theseedisplanted page; text empty after conversion",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/constants.cu.txt",
+   "bytes": 69,
+   "kind": "other",
+   "summary": "CUDA constant stub; trivial",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/brut.zip__test.txt.txt",
+   "bytes": 27,
+   "kind": "other",
+   "summary": "Test dictionary for brut.jar: 'blabla','abbsconv','causality' (causality = known Phase 3 password)",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/fileaccessdate.txt",
+   "bytes": 25,
+   "kind": "metadata",
+   "summary": "Single exiftool field of a community-analysed PNG (Phase 2 image 'black_banking - war.png' family): 2023:09:03 20:12:43-07:00",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/fileinodechangedate.txt",
+   "bytes": 25,
+   "kind": "metadata",
+   "summary": "Single exiftool field of a community-analysed PNG (Phase 2 image 'black_banking - war.png' family): 2023:09:03 20:12:42-07:00",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/filemodifydate.txt",
+   "bytes": 25,
+   "kind": "metadata",
+   "summary": "Single exiftool field of a community-analysed PNG (Phase 2 image 'black_banking - war.png' family): 2023:08:13 19:32:49-07:00",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/filename_1_.txt",
+   "bytes": 23,
+   "kind": "metadata",
+   "summary": "Single exiftool field of a community-analysed PNG (Phase 2 image 'black_banking - war.png' family): black_banking - war.png",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/compression.txt",
+   "bytes": 15,
+   "kind": "metadata",
+   "summary": "Single exiftool field of a community-analysed PNG (Phase 2 image 'black_banking - war.png' family): Deflate/Inflate",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/interlace.txt",
+   "bytes": 13,
+   "kind": "metadata",
+   "summary": "Single exiftool field of a community-analysed PNG (Phase 2 image 'black_banking - war.png' family): Noninterlaced",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/filesize.txt",
+   "bytes": 10,
+   "kind": "metadata",
+   "summary": "Single exiftool field of a community-analysed PNG (Phase 2 image 'black_banking - war.png' family): 1958 bytes",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/filesize_1_.txt",
+   "bytes": 9,
+   "kind": "metadata",
+   "summary": "Single exiftool field of a community-analysed PNG (Phase 2 image 'black_banking - war.png' family): 996 bytes",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/filter.txt",
+   "bytes": 8,
+   "kind": "metadata",
+   "summary": "Single exiftool field of a community-analysed PNG (Phase 2 image 'black_banking - war.png' family): Adaptive",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/pixelunits.txt",
+   "bytes": 6,
+   "kind": "metadata",
+   "summary": "Single exiftool field of a community-analysed PNG (Phase 2 image 'black_banking - war.png' family): meters",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/imagesize_1_.txt",
+   "bytes": 5,
+   "kind": "metadata",
+   "summary": "Single exiftool field of a community-analysed PNG (Phase 2 image 'black_banking - war.png' family): 78x70",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/megapixels_1_.txt",
+   "bytes": 5,
+   "kind": "metadata",
+   "summary": "Single exiftool field of a community-analysed PNG (Phase 2 image 'black_banking - war.png' family): 0.005",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/filetype.txt",
+   "bytes": 3,
+   "kind": "metadata",
+   "summary": "Single exiftool field of a community-analysed PNG (Phase 2 image 'black_banking - war.png' family): PNG",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/imageheight.txt",
+   "bytes": 3,
+   "kind": "metadata",
+   "summary": "Single exiftool field of a community-analysed PNG (Phase 2 image 'black_banking - war.png' family): 350",
+   "author": null,
+   "date": null,
+   "part": "E"
+  },
+  {
+   "path": "export_files/bitdepth.txt",
+   "bytes": 1,
+   "kind": "metadata",
+   "summary": "Single exiftool field of a community-analysed PNG (Phase 2 image 'black_banking - war.png' family): 8",
+   "author": null,
+   "date": null,
+   "part": "E"
+  }
+ ],
+ "leads": [
+  {
+   "source": "export_files/messages.zip__messages.txt.txt",
+   "category": "creator_hint",
+   "claim": "Admin, 2020-02-22 20:30, replying to a user describing a 3D game ('parcel', 'interactive mode', 'pushed the red button and I was locked into a building'): 'Only -41,-17 matters'. Read this as a single game-world parcel coordinate, most likely Decentraland, that is the side-quest location. Related admin posts: 2019-09-26 'There may indeed a piece be found outside the main puzzle.'; 2020-02-25 'Not sponsored, just see it as a side quest'.",
+   "exact_strings": [
+    "Only -41,-17 matters",
+    "There may indeed a piece be found outside the main puzzle."
+   ],
+   "method": "Admin statement in chat",
+   "checkable": "partial",
+   "self_verifying": "Only by inspecting the external parcel's scene content (an external site, not visited here). Any string found there would still need an AES/URL test against puzzle data.",
+   "known_status": "unclear",
+   "priority": 2,
+   "part": "A"
+  },
+  {
+   "source": "export_files/messages.zip__messages.txt.txt",
+   "category": "creator_hint",
+   "claim": "Admin, 2020-03-25, was asked whether the PK is in the last cipher of the decoded 3.2 and answered: 'There must at least be something hidden in there.' Also 'Answering that would be too much of a hint' to whether the PK is split into pieces, and 2020-02-25 '3.2 is a thing btw' / 'most see 3.2 as the last part.' This supports the c37 'inner blob first' view: the last Phase 3.2 blob contains something.",
+   "exact_strings": [
+    "There must at least be something hidden in there.",
+    "3.2 is a thing btw",
+    "Don't know but most see 3.2 as the last part."
+   ],
+   "method": "Admin statement in chat",
+   "checkable": "partial",
+   "self_verifying": "Any password candidate for the inner 3.2 blob verifies itself by openssl padding plus readable plaintext. The hint gives no candidate.",
+   "known_status": "unclear",
+   "priority": 2,
+   "part": "A"
+  },
+  {
+   "source": "export_files/messages.zip__messages.txt.txt",
+   "category": "creator_hint",
+   "claim": "The 2020 'final hint' posted by the admin 2020-01-14 10:38 (announced 2019-05-18: 'a tiny hint at the start of 2020, that will be the final hint. Can the private key be retrieved without that hint? Yes.'). In 2025 a user says it was for SalPhaseIon.",
+   "exact_strings": [
+    "Roses are White but often Red.",
+    "Yellow has a number and so does Blue.",
+    "Go back to the first puzzle piece without further ado.",
+    "It might have shown you only one door, beware that the rabbits nest may contain a whole lot more.",
+    "Hush hush."
+   ],
+   "method": "Admin statement in chat",
+   "checkable": "partial",
+   "self_verifying": "Only through derived URL paths (non-404) or AES passwords",
+   "known_status": "known_solved",
+   "priority": 3,
+   "part": "A"
+  },
+  {
+   "source": "export_files/messages.zip__messages.txt.txt",
+   "category": "creator_hint",
+   "claim": "Admin 'door' remarks about the first piece. 2020-05-11: 'who knows what you'll find after opening the 2nd door. The price is in half, but what does it mean'. 2020-05-21: 'answer is there', then to 'Do you mean the answer to another door from the 1st piece?' replied 'First or zero'. 2020-08-02: 'Really nobody managed to find the extra door'. 2020-08-12: 'Indeed remarkable with the hints stating the path pretty obvious...'. 'First or zero' may mean indexing from 0 or the first piece itself.",
+   "exact_strings": [
+    "who knows what you'll find after opening the 2nd door. The price is in half, but what does it mean",
+    "answer is there",
+    "First or zero",
+    "Really nobody managed to find the extra door"
+   ],
+   "method": "Admin statement in chat",
+   "checkable": "partial",
+   "self_verifying": "A second door would show up as a non-404 gsmg.io path or an openssl-padding-valid decrypt",
+   "known_status": "already_exhausted",
+   "priority": 3,
+   "part": "A"
+  },
+  {
+   "source": "export_files/messages.zip__messages.txt.txt",
+   "category": "creator_hint",
+   "claim": "Admin, 2020-04-08: 'Those hints are the last hints. Although I can say that one team managed to find something... something others haven't yet found'. 2020-08-12: 'There's 1 club that passed but they are stuck in the next phase.' 2020-10-01: 'number 2 has made it to the next stage.' So at least two teams privately passed a stage beyond the public frontier (probably the 2020-hint door or SalPhaseIon).",
+   "exact_strings": [
+    "one team managed to find something... something others haven't yet found",
+    "There's 1 club that passed but they are stuck in the next phase.",
+    "I've just been notified that number 2 has made it to the next stage."
+   ],
+   "method": "Admin statement in chat",
+   "checkable": "no",
+   "self_verifying": "Gives no data",
+   "known_status": "unclear",
+   "priority": 3,
+   "part": "A"
+  },
+  {
+   "source": "export_files/messages.zip__messages.txt.txt",
+   "category": "creator_hint",
+   "claim": "Phase III typo fix by the admin (2019-05-17, repeated 2019-12-03): 'giveit = givetit'. The admin said the mistake needs 1 extra character added between the 3 answers. 2020-04-08 he restates it the other way round: 'The biggest blunder ... was givetit instead of giveit'. Also: 'No hints after stage 2 (except the 't' ...)' and 'errors and typos are mostly not intended'.",
+   "exact_strings": [
+    "giveit = givetit",
+    "No hints after stage 2 (except the 't' to fix my stupid mistake)"
+   ],
+   "method": "Admin statement",
+   "checkable": "yes",
+   "self_verifying": "SHA256 password for the Phase 3 AES; already solved",
+   "known_status": "known_solved",
+   "priority": 5,
+   "part": "A"
+  },
+  {
+   "source": "export_files/messages.zip__messages.txt.txt",
+   "category": "key_address_hash",
+   "claim": "The admin gave a SHA-256 hash (2019-04-22) so players could test stage-1 password candidates offline instead of against the website.",
+   "exact_strings": [
+    "5ac407837447fba24ba2802e4d1e9aecb4580aa29fef1088cc387c180b746f75"
+   ],
+   "method": "sha256(candidate) == hash",
+   "checkable": "yes",
+   "self_verifying": "Exact hash match",
+   "known_status": "known_solved",
+   "priority": 5,
+   "part": "A"
+  },
+  {
+   "source": "export_files/messages.zip__messages.txt.txt",
+   "category": "claimed_solution",
+   "claim": "User 139037664, 2020-10-15: 'The last part of gsmg puzzle is actuely a plaint text with out cbc cipher', plus 'decrease size of string... Base64 to ascii'. Quoted blob (first 2 lines): U2FsdGVkX1+0Wl49gnWTyiim... The 'U2FsdGVkX1' prefix decodes to 'Salted__', so it is an openssl salted ciphertext, not plaintext; the claim is self-refuting. The same blob appears elsewhere in the log (lines ~10899, 13202).",
+   "exact_strings": [
+    "U2FsdGVkX1+0Wl49gnWTyiimluu7V3+vl7st0gUt9sWDzNLxDmlPMsDSiuW2a46z",
+    "gKlIi8aaqY5gpJPPEzW1n9n3/26qs4zstWtPKF8Zs/BTNN4IiEh4qu18mdC0NAv4"
+   ],
+   "method": "base64 decode / truncation",
+   "checkable": "yes",
+   "self_verifying": "base64 header 'Salted__' + 8-byte salt proves it is encrypted. Check which known blob it is (likely a 3.2/SalPhaseIon blob).",
+   "known_status": "already_exhausted",
+   "priority": 4,
+   "part": "A",
+   "own_check": "Blob U2FsdGVkX1+0Wl49gnWTyiim... is the known Phase 3.2 inner blob (research/artifacts/phase32-inner.b64); 'plaintext' claim refuted (it is openssl Salted__ ciphertext)."
+  },
+  {
+   "source": "export_files/messages.zip__messages.txt.txt",
+   "category": "interpretation",
+   "claim": "User 750026879, 2020-03-24, on the first image: '1. rabbit hole marked (rabbit looking to this point). 2. usual spiral solve showed. 3. rabbit nest is white box at center.' The admin replied 'Interesting'. A 2020-03-25 follow-up mentions a 'hidden square'. The same user earlier claimed 'found 1/256 of privkey' (2019-12-11, no details) and 'vanity generator use this prefix for WIF' (2019-05-14).",
+   "exact_strings": [
+    "rabbit nest is white box at center.",
+    "found 1/256 of privkey. :)",
+    "vanity generator use this prefix for WIF."
+   ],
+   "method": "Visual reading of the first image",
+   "checkable": "partial",
+   "self_verifying": "Any bits read from the centre box would need a URL/AES test",
+   "known_status": "already_exhausted",
+   "priority": 4,
+   "part": "A"
+  },
+  {
+   "source": "export_files/messages.zip__messages.txt.txt",
+   "category": "interpretation",
+   "claim": "Prize halved at the 2020-05-11 halving (admin: 'The price is in half'). A user asked whether the other half goes to the compressed address. Admin: 'Next halving in 209999'. 2020-08-09 the admin answered 'a private key' to an unseen question (probably 'what is the final answer').",
+   "exact_strings": [
+    "The price is in half, but what does it mean",
+    "Next halving in 209999",
+    "a private key"
+   ],
+   "method": "Chat",
+   "checkable": "no",
+   "self_verifying": "n/a",
+   "known_status": "unclear",
+   "priority": 4,
+   "part": "A"
+  },
+  {
+   "source": "export_files/exhaustive_results.csv.txt",
+   "category": "decode_result",
+   "claim": "Grid-traversal bit search of the first image grid: the best row, 'gsmg.io/theseedisplantet' (Spiral_CCW_TL, width 8, offset 0, mapping (1,1,0,0,0)), is a 1-char corruption of the known Phase 1 answer. The other 4,999 rows are noise.",
+   "exact_strings": [
+    "gsmg.io/theseedisplantet"
+   ],
+   "method": "Spiral CCW from top-left, 8-bit bytes",
+   "checkable": "yes",
+   "self_verifying": "Matches the known solved URL",
+   "known_status": "known_solved",
+   "priority": 5,
+   "part": "A"
+  },
+  {
+   "source": "export_files/1752411872456.h.txt",
+   "category": "procedure",
+   "claim": "A JPEG (62,329 B) shared as a C/Arduino array with an anomalous long zero-filled tail before EOI. Its relation to the puzzle is unknown.",
+   "exact_strings": [
+    "// array size is 62329"
+   ],
+   "method": "Rebuild bytes from the hex (text parsing only) and compare its hash/visuals to known puzzle images",
+   "checkable": "partial",
+   "self_verifying": "A hash match identifies it; otherwise not",
+   "known_status": "unclear",
+   "priority": 5,
+   "part": "A"
+  },
+  {
+   "source": "export_files/Cosmic_1_.txt.txt",
+   "category": "interpretation",
+   "claim": "The full text of the 'Cosmic Duality' book is available. If SalPhaseIon or the cosmic-duality stage used a book/page cipher or a passphrase from it, this is the source text.",
+   "exact_strings": [
+    "MYSTERIES OF THE UNKNOWN",
+    "Cosmic Duality"
+   ],
+   "method": "Reference text",
+   "checkable": "partial",
+   "self_verifying": "A derived password would verify by openssl padding plus readable text, but deriving one needs a structural hint (blind phrase trials = guessing)",
+   "known_status": "unclear",
+   "priority": 4,
+   "part": "A"
+  },
+  {
+   "source": "export_files/frames.csv.txt",
+   "category": "decode_result",
+   "claim": "MP3 header bits (private, copyright, original) are 0 across all 46 frames; no header-bit steganography.",
+   "exact_strings": [],
+   "method": "MP3 frame parse",
+   "checkable": "yes",
+   "self_verifying": "Negative result",
+   "known_status": "already_exhausted",
+   "priority": 5,
+   "part": "A"
+  },
+  {
+   "source": "export_files/all_images_bitplane_results.txt.txt",
+   "category": "decode_result",
+   "claim": "Bit-plane text extraction across 8 images and one more image: no readable output.",
+   "exact_strings": [],
+   "method": "R/G/B bit-planes 0-7, row/column order",
+   "checkable": "yes",
+   "self_verifying": "Negative result",
+   "known_status": "already_exhausted",
+   "priority": 5,
+   "part": "A"
+  },
+  {
+   "source": "export_files/Jrk_Bgrt_Chat_History.txt.txt",
+   "category": "creator_hint",
+   "claim": "2023-02-23 creator post of 161 binary octets; each octet is LSB-first ASCII and the resulting string is reversed. Decoded by hand in this cycle; matches the baseline's quoted text exactly.",
+   "exact_strings": [
+    "yellowblueprimesmatrixsumlistlastwordsbeforearchichoiceyinyangwewontgiveawaythepassworditsinfrontofyoureyesbutyourenotseeingitverylaststepisatruegiveawaypromised"
+   ],
+   "method": "reverse bits of each byte, read ASCII, reverse whole string",
+   "checkable": "yes",
+   "self_verifying": "decode yields fully readable English; already decoded",
+   "known_status": "known_solved",
+   "priority": 4,
+   "part": "B"
+  },
+  {
+   "source": "export_files/Jrk_Bgrt_Chat_History.txt.txt",
+   "category": "key_address_hash",
+   "claim": "2019-04-22 creator-posted hash for testing stage-1 passwords offline. Verified this cycle: equals SHA-256 of the known stage-1 form password.",
+   "exact_strings": [
+    "5ac407837447fba24ba2802e4d1e9aecb4580aa29fef1088cc387c180b746f75",
+    "theflowerblossomsthroughwhatseemstobeaconcretesurface"
+   ],
+   "method": "sha256(password) comparison",
+   "checkable": "yes",
+   "self_verifying": "exact hash match (confirmed)",
+   "known_status": "known_solved",
+   "priority": 5,
+   "part": "B"
+  },
+  {
+   "source": "export_files/Jrk_Bgrt_Chat_History.txt.txt",
+   "category": "creator_hint",
+   "claim": "2020-02-22 creator: 'Only -41,-17 matters' - most likely the Decentraland parcel coordinates hosting gsmg-decentraland.mp3 (the HASHTHETEXT audio, per baseline). Operationally already consumed.",
+   "exact_strings": [
+    "-41,-17"
+   ],
+   "method": "interpretation",
+   "checkable": "partial",
+   "self_verifying": "the Decentraland audio's channel difference gives 7265837284726984698884 = HASHTHETEXT (per baseline)",
+   "known_status": "known_solved",
+   "priority": 5,
+   "part": "B"
+  },
+  {
+   "source": "export_files/Jrk_Bgrt_Chat_History.txt.txt",
+   "category": "creator_hint",
+   "claim": "2021-04-01 (April Fools' Day) creator hint 'another door might be found on {1 },{4} ,{21}' followed by 'R=18 A=1 B=2 Could also be 21 or 1812 bit'; on 2021-04-18 the creator asked 'Do you know what usually happens on the first of april?' -> this hint may be an April Fools' joke. The baseline maps it to the near-white #fefefe cell at spiral position 164 = byte 21, bit 4 (letter n).",
+   "exact_strings": [
+    "another door might be found on {1 },{4} ,{21}",
+    "R=18",
+    "A=1",
+    "B=2",
+    "1812"
+   ],
+   "method": "interpretation",
+   "checkable": "partial",
+   "self_verifying": "no self-verifying output; image colour channels were already checked per cycle 37",
+   "known_status": "already_exhausted",
+   "priority": 4,
+   "part": "B"
+  },
+  {
+   "source": "export_files/Jrk_Bgrt_Chat_History.txt.txt",
+   "category": "creator_hint",
+   "claim": "Creator statements constraining the final stage: primes required, some characters 'zeroed out', 'ying yang' is a checkpoint after which it can be solved the same day, 'You have all the info' (no extra URL), solvable offline except for claiming, 'the solver will find a way to decrypt it', 'Breaking salphation, should be giving the feeling of the phase's name', 'The price is in half, but what does it mean' (2020 halving, possible Half/Better Half echo).",
+   "exact_strings": [
+    "zeroed out",
+    "ying yang",
+    "No need. You have all the info.",
+    "Both?",
+    "a few might not require the internet anymore",
+    "And the solver will find a way to 'decrypt' it.",
+    "The price is in half, but what does it mean"
+   ],
+   "method": "interpretation",
+   "checkable": "no",
+   "self_verifying": "constraints only; not a test",
+   "known_status": "already_exhausted",
+   "priority": 3,
+   "part": "B"
+  },
+  {
+   "source": "export_files/2020-301.pdf.txt",
+   "category": "procedure",
+   "claim": "MadHatter cipher (Jan 2020; its ciphertext was a bonus challenge in the 2019 British National Cipher Challenge): ciphertext alphabet A-I, plaintext is 24 letters (J->I, Z->S), each letter becomes a 4-symbol block with one symbol from each of {A,B},{C,D},{E,F},{G,H,I} (mixed radix 2,2,2,3). The block is then permuted by a second plaintext letter (24 permutations of 4) -> two plaintexts in one ciphertext. This fits the a-i alphabet of SalPhaseIon dbbi/faed and the 'Cosmic Duality'/yin-yang/'half and better half' theme. Hand check this cycle: the dbbi stream as quoted in the solving doc has adjacent repeats (b b at 2-3, c c at 9-10, g g at 26-27, b b at 33-34, h h at 37-38). Their positions mod 4 are 2,1,2,1,1, so no 4-block alignment avoids a repeated symbol inside a block, and dbbi is NOT MadHatter-structured. faed was not checked here.",
+   "exact_strings": [
+    "MADHTERBCFGIKLNOPQSUVWXY",
+    "{A,B}{C,D}{E,F}{G,H,I}"
+   ],
+   "method": "structural test: for each alignment, split into 4-blocks and require 4 distinct symbols with exactly one from each group (search all 2,2,2,3 partitions of a-i); if structured, decode block->(mixed-radix letter, permutation letter) under keyed alphabets",
+   "checkable": "yes",
+   "self_verifying": "a random a-i stream almost never has every 4-block contain one symbol from each of 4 fixed groups; if faed (or any segment) passes, the structure itself is the proof. Without that, the test is negative in seconds.",
+   "known_status": "new",
+   "priority": 2,
+   "part": "B",
+   "own_check": "CLOSED by own check (mycheck/madhatter_check.py): MadHatter ciphertext needs every 4-symbol block to have 4 distinct letters; faed has 83-88 of 142 blocks with repeats at every offset 0-3 (dbbi 14-17/22), and 570/91 are not multiples of 4. Not MadHatter."
+  },
+  {
+   "source": "export_files/GSMG_research_baseline.md.txt",
+   "category": "claimed_solution",
+   "claim": "Cosmic Duality candidate (solver claim from GitHub issue #55, 2025-08-23): XOR of SHA-256 digests of the 7 SalPhaseIon tokens is used as an OpenSSL MD5-EVP AES-256-CBC password. It gives a 1,327-byte high-entropy plaintext. A matrixsumlist reading of it (103x103 bits, row[i]+col[(i+7) mod 103], base 38 with digit ord-80) gives 68 bytes = Half and Better Half keys + trailer fc0c1b02. Then come the Chain4 1,151-byte output and the 31+35x32 geometry. The baseline itself demotes all of this: only a ~1/256 padding signal, and the hash is self-referential.",
+   "exact_strings": [
+    "a795de117e472590e572dc193130c763e3fb555ee5db9d34494e156152e50735",
+    "4f7a1e4efe4bf6c5581e32505c019657cb7b030e90232d33f011aca6a5e9c081",
+    "1JG648yaB7Wp2dpUfcZoRSD4q35oq47vCu",
+    "145ZQ9siLrsXBKf465wjdyQYAP5dRwhRhQ",
+    "fc0c1b02",
+    "1449a2178eea7c0e3fabac8c1ad2afa294be4fc1800c594a025a056e88c626bf",
+    "b40fce72ef5638e4f79b3233e653f8a5dbdb0d4ae2009d2d3da2c98b70f4d004",
+    "b657264f2f6e6921",
+    "e4269ed5fbb202a81e5e1aa6b5190fdd1ea126b2c8547ea7cdbdf45387ea135b",
+    "2b2dca9ebcdc7722e80ab9aa8bb166ab2cc79c2fef75ce3c638f45b3e70537"
+   ],
+   "method": "openssl EVP_BytesToKey(MD5) AES-256-CBC with raw 32-byte XOR password; matrix row/col sums; repeating-XOR Salted__ header recovery",
+   "checkable": "partial",
+   "self_verifying": "No. Padding-only acceptance (~1/256 false-positive rate) with high-entropy output. The component keys give empty addresses, not the prize. Chain4 needs the unauthenticated Cosmic key.",
+   "known_status": "already_exhausted",
+   "priority": 4,
+   "part": "B"
+  },
+  {
+   "source": "export_files/GSMG_research_baseline.md.txt",
+   "category": "decode_result",
+   "claim": "Deduplicating dbbi by first occurrence gives keyword dbifhcega. Keyed Bifid over all of faed (one full-period block) gives the 'btcseed' header plus a 563-char remainder (563 is the 103rd prime). That remainder is split as 281 + central d + 281, and a unique z switches pair orientation, giving 281 symbols over 4x24 = 96 states. 8 of the 9! a-i keyword orders reproduce the btcseed prefix (1 in 45,360).",
+   "exact_strings": [
+    "dbifhcega",
+    "btcseed",
+    "15d62c8228c1a30f3f6280fcdce2251fe616135e9de291b0c7b8a792dd8d0507",
+    "50b266e1136dc146ac41b7b4792d82e78b36ebcf472b9b2ee94a559a19a6be5d"
+   ],
+   "method": "keyed Bifid, full-period",
+   "checkable": "yes",
+   "self_verifying": "the 7-letter header is reproducible; the remainder is not readable",
+   "known_status": "already_exhausted",
+   "priority": 4,
+   "part": "B"
+  },
+  {
+   "source": "export_files/GSMG_research_baseline.md.txt",
+   "category": "interpretation",
+   "claim": "'Medicine' hint (Discord, VrsN 2020-06-09, 'check the nonsense part'): the 1,539-char Phase 3.2.1 intermediate has exactly two lowercase 'rx' starts, at positions 68 and 1237. Their distance is 1169, and the Beaufort plaintext at position 1169 begins 'ciphers' ('overtwentythreecipherssixteenencryptions'). Claimed reading: RX -> CIPHERS selects a cipher (Bifid) for DBBI/FAED.",
+   "exact_strings": [
+    "rx",
+    "1169",
+    "ciphers",
+    "bd7a29432546c67c4170e0c523ddbf43ae82d20ee187d1b4dbf7907a0faf4c7b",
+    "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34"
+   ],
+   "method": "EBCDIC 1141 + Beaufort(THEMATRIXHASYOU) position arithmetic",
+   "checkable": "yes",
+   "self_verifying": "positions are exact and reproducible, but the selector meaning is interpretive",
+   "known_status": "unclear",
+   "priority": 3,
+   "part": "B"
+  },
+  {
+   "source": "export_files/GSMG_research_baseline.md.txt",
+   "category": "interpretation",
+   "claim": "The 24 blue/yellow cells sit at the final bit of each of the 24 URL bytes, giving a 24-bit colour word (000010001100001001101101 as quoted). The single near-white #fefefe cell is at spiral position 164 = byte 21, bit 4 (the 'n'), matched to the {1},{4},{21} hint.",
+   "exact_strings": [
+    "000010001100001001101101",
+    "#fefefe",
+    "164"
+   ],
+   "method": "image colour census plus spiral index",
+   "checkable": "yes",
+   "self_verifying": "the positions are exact; no consumer yields a verifiable output",
+   "known_status": "already_exhausted",
+   "priority": 4,
+   "part": "B"
+  },
+  {
+   "source": "export_files/GSMG_research_baseline.md.txt",
+   "category": "creator_hint",
+   "claim": "Creator Telegram message 39237: 'It's the next phase, but I await the day someone finally gets there.' It is a reply to solver message 39233, which asks whether Yin/Yang appears after decoding an AES ciphertext. Both messages were edited, so the pre-edit text is unrecovered. Other creator messages cited: 2026 'Bingo' (in front of your eyes); July hint that 'close friends' have the best chance; message 66574 'NOTE: that is a hint.'",
+   "exact_strings": [
+    "It's the next phase, but I await the day someone finally gets there.",
+    "close friends",
+    "NOTE: that is a hint."
+   ],
+   "method": "provenance audit",
+   "checkable": "no",
+   "self_verifying": "n/a",
+   "known_status": "unclear",
+   "priority": 3,
+   "part": "B"
+  },
+  {
+   "source": "export_files/GSMG_research_baseline.md.txt",
+   "category": "key_address_hash",
+   "claim": "Prize state and oracle: the prize pubkey and HASH160. Owner moved exactly 2.5 BTC (2020-05-11) and 1.25 BTC (2024-04-24) to 17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa. SHA256 of the 59-char first-page text gives the SalPhaseIon path.",
+   "exact_strings": [
+    "04f4d1bbd91e65e2a019566a17574e97dae908b784b388891848007e4f55d5a4649c73d25fc5ed8fd7227cab0be4e576c0c6404db5aa546286563e4be12bf33559",
+    "a9553269572a317e39f0f518cb87c1a0ee1dbae4",
+    "17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa",
+    "GSMGIO5BTCPUZZLECHALLENGE1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe",
+    "89727c598b9cd1cf8873f27cb7057f050645ddb6a7a157a110239ac0152f6a32"
+   ],
+   "method": "blockchain lookup; sha256",
+   "checkable": "yes",
+   "self_verifying": "exact hashes/addresses",
+   "known_status": "known_solved",
+   "priority": 5,
+   "part": "B"
+  },
+  {
+   "source": "export_files/GSMG_research_baseline.md.txt",
+   "category": "claimed_solution",
+   "claim": "Rejected claims listed: flag{8KJ} (permissive Base64), a PBKDF1->PBKDF2 'Genesis wallet' solution (code path broken), component-key arithmetic and BIP32 combinations (no match), and the prize's six ECDSA signatures (distinct r, no nonce reuse).",
+   "exact_strings": [
+    "flag{8KJ}"
+   ],
+   "method": "n/a",
+   "checkable": "yes",
+   "self_verifying": "all fail against the pubkey oracle",
+   "known_status": "already_exhausted",
+   "priority": 5,
+   "part": "B"
+  },
+  {
+   "source": "export_files/3_GSMGIO.zip__3_GSMGIO_Solving.txt.txt",
+   "category": "decode_result",
+   "claim": "Standard walkthrough decodes: SalPhaseIon abba bits -> matrixsumlist, enter. a-i/o digits (o=0) -> decimal -> hex -> ASCII gives lastwordsbeforearchichoice and thispassword. shabef = sha256 under a1z26. Stage passwords are hashed with sha256 and used as openssl -pass. The SalPhaseIon AES blob and an extra blob are left as '<TO GUESS>'.",
+   "exact_strings": [
+    "174161018595377387932283725836301293648834223172419022725145445",
+    "36026487402470099740341006948",
+    "lastwordsbeforearchichoice",
+    "thispassword",
+    "causalitySafenetLunaHSM11110",
+    "jacquefrescogiveitjustonesecondheisenbergsuncertaintyprinciple"
+   ],
+   "method": "a1z26 with o=0, decimal->hex->ASCII",
+   "checkable": "yes",
+   "self_verifying": "readable outputs",
+   "known_status": "known_solved",
+   "priority": 5,
+   "part": "B"
+  },
+  {
+   "source": "export_files/curve.txt.txt",
+   "category": "key_address_hash",
+   "claim": "Points 2P..5P and halving P/2, P/4, P/8 of the prize pubkey, with their addresses (e.g. -Y P2PKH 1LzLrZVkafbXLpam3qibRDdMe5sttUoCq4; compressed +Y 1cc6xayvqpeetixmuXDRsGug7GKyoRdxP). No private key is involved; this is just point arithmetic on a known public key and cannot reveal the scalar.",
+   "exact_strings": [
+    "1LzLrZVkafbXLpam3qibRDdMe5sttUoCq4",
+    "1cc6xayvqpeetixmuXDRsGug7GKyoRdxP"
+   ],
+   "method": "EC point add/double/halve",
+   "checkable": "yes",
+   "self_verifying": "the arithmetic verifies, but it carries no information about the key",
+   "known_status": "already_exhausted",
+   "priority": 5,
+   "part": "B"
+  },
+  {
+   "source": "export_files/gsmg.io_puzzlebinarymatrixanalysis.rtf.txt",
+   "category": "decode_result",
+   "claim": "14x14 matrix: transpose + clockwise spiral + 8-bit MSB gives gsmg.io/theseedisplanted (same as counter-clockwise from top-left). Other flattenings give garbage. Matrix trace 7, det -86, rank 14 over R, singular over GF(2).",
+   "exact_strings": [
+    "gsmg.io/theseedisplanted"
+   ],
+   "method": "spiral bit read",
+   "checkable": "yes",
+   "self_verifying": "readable URL",
+   "known_status": "known_solved",
+   "priority": 5,
+   "part": "B"
+  },
+  {
+   "source": "export_files/reproduce_all_bulbs_verified_stage2753.py.txt",
+   "category": "claimed_solution",
+   "claim": "'Chain1': SalPhaseIon small blob decrypts (AES-256-CBC, EVP_BytesToKey MD5) with the concatenated tokens to a 79-byte BINARY plaintext split K_C1(32)|K_C2(32)|E_C(15).",
+   "exact_strings": [
+    "matrixsumlistenterlastwordsbeforearchichoicethispasswordmatrixsumlist",
+    "chain1_sha256=1449a2178eea7c0e3fabac8c1ad2afa294be4fc1800c594a025a056e88c626bf",
+    "chain1_len=79"
+   ],
+   "method": "openssl enc -d -aes-256-cbc -md md5, pass = token concatenation",
+   "checkable": "yes",
+   "self_verifying": "No. 80-byte ciphertext -> 79 bytes means pad byte 0x01, which a wrong password gives about 1 time in 256. The output is binary, not text. The script itself shows a second padding-valid SA password ('MatrixSumlist\\nAnsToo'), so padding-valid SA passwords are not unique.",
+   "known_status": "new",
+   "priority": 3,
+   "part": "C",
+   "own_check": "REPRODUCED independently with openssl CLI (AES-256-CBC, -md md5, raw passphrase) on research/artifacts/salphaseion-small.b64: last byte 0x01 -> 79 B, sha256 1449a217...26bf matches; output is binary (printable fraction 0.38 ~ random). Not self-verifying: wrong keys give 0x01 pad 1/256; script itself shows a 2nd passing preimage."
+  },
+  {
+   "source": "export_files/reproduce_all_bulbs_verified_stage2753.py.txt",
+   "category": "claimed_solution",
+   "claim": "'Chain2': Phase 3.2 inner blob (P32B) decrypts with password = uncompressed WIF of K_C1 (chain1[:32]), MD5 KDF, giving 79 binary bytes K_S1|K_S2|E_S. This is the only step with some cross-blob support, if only that one WIF was tried.",
+   "exact_strings": [
+    "chain2_sha256=b40fce72ef5638e4f79b3233e653f8a5dbdb0d4ae2009d2d3da2c98b70f4d004",
+    "chain2_len=79",
+    "U2FsdGVkX1+0Wl49gnWTyiim (P32B = research/artifacts/phase32-inner.b64)"
+   ],
+   "method": "WIF(0x80||chain1[:32]) as passphrase, aes-256-cbc md5",
+   "checkable": "yes",
+   "self_verifying": "Weak. Again only 0x01 padding (p~1/256 per attempt) and binary output. The evidence is worth something only if few WIF/slice variants were tried, and that number is unknown. A check with our own oracle would confirm or refute the padding claim but would not prove correctness.",
+   "known_status": "new",
+   "priority": 2,
+   "part": "C",
+   "own_check": "REPRODUCED independently: uncompressed WIF(chain1[:32]) (5K2byJ...) as openssl -md md5 passphrase on research/artifacts/phase32-inner.b64 -> 0x01 pad, 79 B, sha256 b40fce72...d004 matches; binary output (printable 0.42). Tail chain2[64:79]=740a25de4b8e946d0a5ae2667a23a2 = the 'E_S gate' value in dbbib-faed-analysis. Conditional chance ~1/256 per derivation tried; not self-verifying."
+  },
+  {
+   "source": "export_files/reproduce_all_bulbs_verified_stage2753.py.txt",
+   "category": "claimed_solution",
+   "claim": "'Chain3 / cosmic_correct': Cosmic Duality blob decrypts with raw 32-byte pass = XOR of sha256(token) over 7 tokens (the matrixsumlist pair cancels), MD5 KDF, giving 1327 binary bytes.",
+   "exact_strings": [
+    "matrixsumlist",
+    "enter",
+    "lastwordsbeforearchichoice",
+    "thispassword",
+    "matrixsumlist",
+    "yourlastcommand",
+    "secondanswer",
+    "cd_pass=a795de117e472590e572dc193130c763e3fb555ee5db9d34494e156152e50735",
+    "chain3_sha256=4f7a1e4efe4bf6c5581e32505c019657cb7b030e90232d33f011aca6a5e9c081",
+    "chain3_len=1327"
+   ],
+   "method": "XOR of SHA256(tokens) as binary passphrase, EVP_BytesToKey MD5, AES-256-CBC",
+   "checkable": "yes",
+   "self_verifying": "No. Pad byte is 0x01 again (1328 -> 1327) and the output is binary. The maintainer (Naddiseo, quoted in from_issue110_addresses) calls it a 1/256 PKCS#7 false positive. Because of XOR cancellation, many token sets give the same pass. This is the community 'cosmic' decrypt behind issue #110.",
+   "known_status": "unclear",
+   "priority": 4,
+   "part": "C"
+  },
+  {
+   "source": "export_files/reproduce_all_bulbs_corrected.py.txt",
+   "category": "procedure",
+   "claim": "'Chain4': chain3[158:1326] XORed with an 8-byte repeating mask starts with 'Salted__' and decrypts (MD5 KDF) with pass E_C|E_S|E_B[:2] to 1151 binary bytes (marker 2b2d, header28, operand 37); the trailing byte 0x3a ':' is called a mystery tail.",
+   "exact_strings": [
+    "MASK=b657264f2f6e6921",
+    "chain4_unmasked_sha256=f0bd54d102d8d930fbbd0c5f8e4d7b7ffd64cab5d192a3751374d688c5115add",
+    "chain4_sha256=e4269ed5fbb202a81e5e1aa6b5190fdd1ea126b2c8547ea7cdbdf45387ea135b",
+    "chain4_header28=ca9ebcdc7722e80ab9aa8bb166ab2cc79c2fef75ce3c638f45b3e705",
+    "mystery_tail_hex=3a"
+   ],
+   "method": "8-byte XOR unmask then openssl aes-256-cbc md5",
+   "checkable": "yes",
+   "self_verifying": "No. The 'Salted__' match proves nothing because any 8 bytes can be XORed into 'Salted__' by picking the mask. The pass is an ad hoc slice concatenation, the pad is 0x01 again, and the output is binary. All 4 chain steps having pad=0x01 is the expected pattern for false positives; real plaintexts would have pad 1..16.",
+   "known_status": "unclear",
+   "priority": 5,
+   "part": "C"
+  },
+  {
+   "source": "export_files/reproduce_all_bulbs_verified_stage2753.py.txt",
+   "category": "decode_result",
+   "claim": "Phase 2 page blob (P3) decrypts with the ASCII hex of sha256('causality'), EVP_BytesToKey SHA256, giving 648 bytes.",
+   "exact_strings": [
+    "causality",
+    "p3_sha256=e2f9dd65604a3231f8b3301724e8d713a88fffc4b6c7c4aeeb20f58a582b593a",
+    "p3_len=648"
+   ],
+   "method": "openssl aes-256-cbc -md sha256",
+   "checkable": "yes",
+   "self_verifying": "Yes (readable Phase 3 text), but this stage is already solved.",
+   "known_status": "known_solved",
+   "priority": 5,
+   "part": "C"
+  },
+  {
+   "source": "export_files/reproduce_all_bulbs_verified_stage2753.py.txt",
+   "category": "password_candidate",
+   "claim": "Alternate SA preimage 'MatrixSumlist\\nAnsToo' gives valid PKCS#7 padding on the SA blob, but its WIF does not open P32B. The author calls it a false path.",
+   "exact_strings": [
+    "MatrixSumlist\nAnsToo",
+    "alternate_sa_sha256=c27ea25ddfb54f49da06c1dce13abe0fde6890500ae6125927996bbfb601d4bd"
+   ],
+   "method": "openssl md5 KDF on SA",
+   "checkable": "yes",
+   "self_verifying": "No (binary). Useful only as evidence that padding-valid SA passwords are easy to find, which undercuts Chain1.",
+   "known_status": "unclear",
+   "priority": 5,
+   "part": "C"
+  },
+  {
+   "source": "export_files/from_issue110_addresses.py.txt",
+   "category": "key_address_hash",
+   "claim": "39 'extra door' P2PKH addresses = Base58Check(0x00 || CC[X*32+16:X*32+32] || BE32(X)), X = 0..38, over the disputed 1327-byte cosmic plaintext. The file says all are empty on-chain, not funded gates, UNVERIFIED.",
+   "exact_strings": [
+    "CERTIFIED_SALT=2d3f6fe06dc950e6",
+    "CERTIFIED_PLAIN_SHA=4f7a1e4ef6c5581e32505c019657cb7b030e90232d33f011aca6a5e9c081 (60 hex; drops 'fe4b' vs the stage2753 value)",
+    "cosmic_A.bin is made up by llms"
+   ],
+   "method": "raw byte slicing, no curve operation",
+   "checkable": "partial",
+   "self_verifying": "No. Addresses built from raw slices with no private key cannot prove anything, and the prize address is not among them.",
+   "known_status": "unclear",
+   "priority": 5,
+   "part": "C"
+  },
+  {
+   "source": "export_files/SalphaseionHush.py.txt",
+   "category": "decode_result",
+   "claim": "The SalPhaseIon a/b streams and a-i(+o=0) digit ciphers decode to the four known tokens. The embedded SA ciphertext is mis-transcribed, so every decrypt attempt in this script is invalid.",
+   "exact_strings": [
+    "abbabbababbaaababbbababbbaaabbaabbabaabbbbaaabbbabbbabaabbababbabbaaabbaabbbabba",
+    "abbaababbabbbaabbbababbaababbbaaaba",
+    "agdafaoaheiecggchgicbbhcgbehcfcoabicfdhhcdbbcagbdaiobbgbeadedde",
+    "cfobfdhgdobdgooiigdocdaoofidh",
+    "U2FsdGVkX186tYSU0hVBXXUn... (real: U2FsdGVkX186tYU0hVJBXXUn...)"
+   ],
+   "method": "a=0/b=1 binary to ASCII; letters to digits to hex to ASCII",
+   "checkable": "yes",
+   "self_verifying": "Yes for the token decodes, which are already known. Any negative result from this script is meaningless because of the corrupted blob.",
+   "known_status": "known_solved",
+   "priority": 5,
+   "part": "C"
+  },
+  {
+   "source": "export_files/CosmicHush.py.txt",
+   "category": "password_candidate",
+   "claim": "Matrix-themed passwords (enter, matrixsumlist, lastwordsbeforearchichoice, thispassword, neo, trinity, morpheus, zion, followthewhiterabbit, thereisnospoon, wakanda, shuri, ...) and simple variants tried on the CD blob. No success is claimed, and the KDF bug (16-byte key) would hide a real hit anyway.",
+   "exact_strings": [
+    "thispasswordlastwordsbeforearchichoice",
+    "wakanda",
+    "shuri"
+   ],
+   "method": "MD5 EVP with AES-128 key length (buggy)",
+   "checkable": "yes",
+   "self_verifying": "Yes, if run with a correct oracle (readable text). These are trivial and already covered by phrase-password sweeps.",
+   "known_status": "already_exhausted",
+   "priority": 5,
+   "part": "C"
+  },
+  {
+   "source": "export_files/dbbib_faed_attack_length_analysis_3.py.txt",
+   "category": "procedure",
+   "claim": "All letter->bit-string permutation maps of dbbi/faed, regrouped into 4/5/6/7/8-bit chunks and searched for keywords (salvation, zion, trinity, bank, looking, bitcoin, btc), plus a hex->privkey->balance check whose address derivation is a placeholder and never matches real addresses.",
+   "exact_strings": [
+    "keywords=salvation,zion,trinity,bank,looking,bitcoin,btc"
+   ],
+   "method": "permutation brute force",
+   "checkable": "no",
+   "self_verifying": "Not applicable; it is a blind search with no reported result.",
+   "known_status": "already_exhausted",
+   "priority": 5,
+   "part": "C"
+  },
+  {
+   "source": "export_files/recover_prefix_self_contained.py.txt",
+   "category": "procedure",
+   "claim": "Beaufort with key THEMATRIXHASYOU after hill-climbing an unknown byte->letter substitution on a raw blob (first 500 bytes, scored by English tetragrams from a generic corpus).",
+   "exact_strings": [
+    "THEMATRIXHASYOU"
+   ],
+   "method": "tetragram hill-climb plus Beaufort",
+   "checkable": "partial",
+   "self_verifying": "No. Hill-climbing a free 256->26 mapping overfits and will produce English-like text from random bytes. The blob is unspecified, and the THEMATRIXHASYOU Beaufort is already known from the Phase 3.2 stage.",
+   "known_status": "known_solved",
+   "priority": 5,
+   "part": "C"
+  },
+  {
+   "source": "export_files/dbbib-faed-analysis-2026-10-10.md.txt",
+   "category": "claimed_solution",
+   "claim": "RAW_PW = matrixsumlist + enter + lastwordsbeforearchichoice + thispassword + matrixsumlist (69 chars) decrypts the small blob (EVP-MD5, AES-256-CBC, salt 3ab585348552415d) to 79 bytes 'B1_79B.bin' = K_C1||K_C2||E_C. WIF(K_C1) is then the password for a 'p32 outer' layer (salt b45a5e3d827593ca) giving 'B2_79B.bin' = K_S1||K_S2||E_S. Claimed shas 1449a217... / b40fce72...",
+   "exact_strings": [
+    "matrixsumlistenterlastwordsbeforearchichoicethispasswordmatrixsumlist",
+    "3ab585348552415d",
+    "b45a5e3d827593ca",
+    "1449a217",
+    "b40fce72",
+    "B1_79B.bin",
+    "B2_79B.bin"
+   ],
+   "method": "openssl enc -aes-256-cbc -md md5 style EVP_BytesToKey on the 96-byte small blob; parse the plaintext as 32+32+15 bytes",
+   "checkable": "yes",
+   "self_verifying": "Weak. A 79-byte plaintext means the pad byte was 0x01, which happens for about 1 in 256 wrong keys. Real confirmation needs K_C1/K_C2/K_S* to produce 1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe (HASH160 a9553269...) or readable text. The file shows neither, and it does not say where a blob with salt b45a5e3d827593ca exists.",
+   "known_status": "unclear",
+   "priority": 2,
+   "part": "D",
+   "own_check": "Same as Chain1/Chain2 (reproduced). Salt 3ab585348552415d = SalPhaseIon small blob; salt b45a5e3d827593ca = known Phase 3.2 inner blob (research/artifacts/phase32-inner.b64), so the 'p32' layer source is identified."
+  },
+  {
+   "source": "export_files/dbbib-faed-analysis-2026-10-10.md.txt",
+   "category": "key_address_hash",
+   "claim": "The open 'gate' is a short phrase X with sha256(X).hexdigest()[:30] == E_S (or md5), where E_S = 740a25de4b8e946d0a5ae2667a23a2 (120 bits) is taken from the B2_79B layer. The author says >8.3M window checks and 216 page-group preimages were negative.",
+   "exact_strings": [
+    "740a25de4b8e946d0a5ae2667a23a2"
+   ],
+   "method": "hash-prefix match of candidate phrases",
+   "checkable": "partial",
+   "self_verifying": "A 120-bit prefix match would be unambiguous. But E_S is only meaningful if the RAW_PW chain above is real, and that is unproven (a padding-oracle false positive is likely), so a negative proves nothing.",
+   "known_status": "unclear",
+   "priority": 3,
+   "part": "D"
+  },
+  {
+   "source": "export_files/My2cents_.md.txt",
+   "category": "claimed_solution",
+   "claim": "The 7-token XOR key a795de11... decrypts the 1344-byte Cosmic Duality envelope (AES-256-CBC, MD5 KDF) to 1327 bytes, sha256 4f7a1e4e...c081. A 103x103 matrix derivation (row[i] + col[(i+7) mod 103], base-38 digits ord(c)-80, 68 bytes) gives 'Half', 'Better Half' and trailer fc0c1b02. The author grades this C: reproducible but NOT authenticated.",
+   "exact_strings": [
+    "a795de117e472590e572dc193130c763e3fb555ee5db9d34494e156152e50735",
+    "1JG648yaB7Wp2dpUfcZoRSD4q35oq47vCu",
+    "145ZQ9siLrsXBKf465wjdyQYAP5dRwhRhQ",
+    "fc0c1b02",
+    "4f7a1e4e"
+   ],
+   "method": "XOR of 7 SalPhaseIon tokens -> AES key; matrix row/col base-38 derivation",
+   "checkable": "partial",
+   "self_verifying": "Not self-verifying. Valid padding is 1/256 and the 1327 bytes are near-random with no file signature. The author lists exhaustive EC combinations of Half/Better Half against the prize pubkey, all negative.",
+   "known_status": "already_exhausted",
+   "priority": 3,
+   "part": "D"
+  },
+  {
+   "source": "export_files/My2cents_.md.txt",
+   "category": "decode_result",
+   "claim": "DBBI-keyed Bifid: keyword dbifhcega, square dbifhcegaklmnopqrstuvwxyz, full-period decode of the 570 FAED symbols gives 'btcseed' + 563 letters (sha256 15d62c82...0507), with exactly one z at position 98. After the 7-char header there are 281+281 rails: a control rail b/c/d/e (b=53, c=89, d=71, e=68) and a carrier rail over 24 letters.",
+   "exact_strings": [
+    "dbifhcega",
+    "dbifhcegaklmnopqrstuvwxyz",
+    "btcseed",
+    "15d62c8228c1a30f3f6280fcdce2251fe616135e9de291b0c7b8a792dd8d0507"
+   ],
+   "method": "Bifid, keyed 5x5 square, full period",
+   "checkable": "yes",
+   "self_verifying": "The 'btcseed' header is a 7-letter crib. The 563-letter body is not readable.",
+   "known_status": "already_exhausted",
+   "priority": 4,
+   "part": "D"
+  },
+  {
+   "source": "export_files/My2cents_.md.txt",
+   "category": "interpretation",
+   "claim": "In B91 (dbbi) the first five 'b' positions are exactly the primes 2,3,5,7,11 (permutation p=0.00005, pre-registered). Removing all 'g' extends the match to the first nine primes. Pomyk's row-shift claim and J's 'be' separators do not reproduce.",
+   "exact_strings": [
+    "2,3,5,7,11"
+   ],
+   "method": "position test against primes with a shuffle null",
+   "checkable": "yes",
+   "self_verifying": "Only a statistic; no decode follows from it.",
+   "known_status": "already_exhausted",
+   "priority": 4,
+   "part": "D"
+  },
+  {
+   "source": "export_files/dbbib-faed-analysis-2026-10-10.md.txt",
+   "category": "interpretation",
+   "claim": "Of the 2^10 merge-subsets of the 10 'be' pairs in dbbib_91, exactly one parse gives 83 tokens whose 23 prime-position tokens read 11110111001111011001100 (= phase-1 seed 0xF73D92 with the last bit dropped and a 1 inserted at bit 21). The 60-char payload then splits 19|16|23 at 'b' separators.",
+   "exact_strings": [
+    "11110111001111011001100",
+    "0xF73D92"
+   ],
+   "method": "be-pair merge enumeration + prime positions as bits",
+   "checkable": "yes",
+   "self_verifying": "No. The 'match' needs an ad-hoc edit (drop a bit, insert a 1), so it is post-hoc.",
+   "known_status": "already_exhausted",
+   "priority": 4,
+   "part": "D"
+  },
+  {
+   "source": "export_files/dbbib-faed-analysis-2026-10-10.md.txt",
+   "category": "interpretation",
+   "claim": "Square-confinement argument: in any keyword-keyed 5x5 square the 9 key letters sit in rows 0-1, so a keyword Bifid row-stream of dbbib/faed is binary. Only a hand-placed 'interpreter alphabet' square could work. Byte ceilings: 91 tokens -> <=38 bytes, 570 -> <=237 bytes; a 29M-form injective digit-map sweep found nothing >=80% printable.",
+   "exact_strings": [],
+   "method": "structural argument + sweep",
+   "checkable": "yes",
+   "self_verifying": "A negative and structural result. It matches cycle-37 closures 2 and 5.",
+   "known_status": "already_exhausted",
+   "priority": 5,
+   "part": "D"
+  },
+  {
+   "source": "export_files/My2cents_.md.txt",
+   "category": "decode_result",
+   "claim": "Known solved layers re-derived: Phase-1 counter-clockwise spiral -> gsmg.io/theseedisplanted (blue=1, yellow=0, coloured cells = last bit of each of the 24 chars, #fefefe at spiral pos 163); Phase 3.2 Beaufort key thematrixhasyou over a 26-symbol alphabet; VIC checkerboard (prefixes 1 and 4) -> INCASEYOUMANAGE...NEEDFUNDSTOLIVE; z-segments -> lastwordsbeforearchichoice / thispassword.",
+   "exact_strings": [
+    "theseedisplanted",
+    "thematrixhasyou",
+    "INCASEYOUMANAGE",
+    "NEEDFUNDSTOLIVE",
+    "lastwordsbeforearchichoice",
+    "thispassword"
+   ],
+   "method": "spiral read, Beaufort, straddling checkerboard, letters->decimal->hex",
+   "checkable": "yes",
+   "self_verifying": "Yes (readable text), already solved.",
+   "known_status": "known_solved",
+   "priority": 5,
+   "part": "D"
+  },
+  {
+   "source": "export_files/My2cents_.md.txt",
+   "category": "interpretation",
+   "claim": "The Architect text phrase 'over twenty-three ciphers, sixteen encryptions and/or seven intertwined passwords' encodes 23 XOR 16 = 7, meaning XOR is the maker's combining operation. Also, '1812' = R(18) A(1) B(2) = 'RAB' (rabbits nest), not a bit length; the contiguous a-i run is 765 = 91+104+570 symbols (2295 bits).",
+   "exact_strings": [
+    "23 XOR 16 = 7",
+    "1812",
+    "RAB",
+    "765"
+   ],
+   "method": "arithmetic / letter-number reading",
+   "checkable": "partial",
+   "self_verifying": "No. Interpretive, with no direct operational test.",
+   "known_status": "unclear",
+   "priority": 4,
+   "part": "D"
+  },
+  {
+   "source": "export_files/My2cents_.md.txt",
+   "category": "key_address_hash",
+   "claim": "Corrections: issue #69 key 818af53d... gives no valid PKCS#7 padding on the Cosmic envelope; 'Dualite', 'yourlastcommand' and 'secondanswer' do not appear in the raw page HTML (page 4533 bytes, no comments/scripts); 17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa (3.75 BTC) is a self-transfer, not a target. The prize oracle is HASH160 a9553269572a317e39f0f518cb87c1a0ee1dbae4.",
+   "exact_strings": [
+    "818af53d",
+    "17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa",
+    "a9553269572a317e39f0f518cb87c1a0ee1dbae4"
+   ],
+   "method": "page byte check, padding check, chain inspection",
+   "checkable": "yes",
+   "self_verifying": "Yes for the padding and markup claims. The 17ucy role is inference (the dbbib file instead calls it a funded 'dualite' escrow gate).",
+   "known_status": "unclear",
+   "priority": 4,
+   "part": "D"
+  },
+  {
+   "source": "export_files/GSMG.txt.txt",
+   "category": "password_candidate",
+   "claim": "'shabefanstoo' (the SalPhaseIon ending sequence) is labelled the 'potential password/key'. The file also restates the hint 'your first hint is your last command' and quotes the small blob in two parts: U2FsdGVkX186tYU0hVJBXXUnBUO7C0+X4KUWnWkCvoZSxbRD3wNsGWVHefvdrd9z / QvX0t8v3jPB4okpspxebRi6sE1BMl5HI8Rku+KejUqTvdWOX6nQjSpepXwGuN/jJ.",
+   "exact_strings": [
+    "shabefanstoo",
+    "your first hint is your last command",
+    "U2FsdGVkX186tYU0hVJBXXUnBUO7C0+X4KUWnWkCvoZSxbRD3wNsGWVHefvdrd9z",
+    "QvX0t8v3jPB4okpspxebRi6sE1BMl5HI8Rku+KejUqTvdWOX6nQjSpepXwGuN/jJ"
+   ],
+   "method": "none (restatement)",
+   "checkable": "yes",
+   "self_verifying": "Small-blob decryption with readable or address-matching output would self-verify. The string itself is already in community ledgers.",
+   "known_status": "already_exhausted",
+   "priority": 5,
+   "part": "D"
+  },
+  {
+   "source": "export_files/data.txt.txt",
+   "category": "decode_result",
+   "claim": "Prime-position letters: dbbi -> 'b b b b b g a e h g b h h f f f c c e c e b i a' (24 primes <= 91). faed and the 661-symbol concatenation have similar lists, plus full per-letter position tables.",
+   "exact_strings": [
+    "b b b b b g a e h g b h h f f f c c e c e b i a"
+   ],
+   "method": "letters at prime indices (1-based)",
+   "checkable": "yes",
+   "self_verifying": "No. Raw data, no decode.",
+   "known_status": "already_exhausted",
+   "priority": 5,
+   "part": "D"
+  },
+  {
+   "source": "export_files/binvisualfina1.py.txt",
+   "category": "procedure",
+   "claim": "Procedure: treat each 256-bit candidate (hex) as a 16x16 bit grid and emit 4 pad variants x 4 rotations x 4 mirrors x 3 row orders (plain/boustrophedon), each also XOR all-ones, as private-key candidates. The input list 'lokerdar.txt' is not provided. The turn2left helper is dead code.",
+   "exact_strings": [
+    "lokerdar.txt",
+    "nosin.txt"
+   ],
+   "method": "bit-grid geometric transforms",
+   "checkable": "partial",
+   "self_verifying": "Would self-verify by address match if the inputs were known. They are not, and grid transforms of known 256-bit values are a small family.",
+   "known_status": "unclear",
+   "priority": 4,
+   "part": "D"
+  },
+  {
+   "source": "export_files/-.js.txt",
+   "category": "decode_result",
+   "claim": "The 5368-bit string decodes (8-bit ASCII) to: reversed 'HOW_DID_CAESAR_SEND_HIS_MESSAGES?AND_WHAT_IF_13_IS_DEFAULT_AND_THE_NUMBER_C_IS_THE_2ND_HINT?'; Caesar-3 'uhpryhwkhfruuhfwklqwwrsurfhhgwrwkhqhawvwdjh' = 'remove the correct hint to proceed to the next stage'; an inner ASCII-0/1 run which, bit-reversed, reads 'BASE64aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1kUXc0dzlXZ1hjUQ==' (a rickroll URL, not visited); trailer 'hvuhyhu' = Caesar-3 of 'esrever'.",
+   "exact_strings": [
+    "HOW_DID_CAESAR_SEND_HIS_MESSAGES?AND_WHAT_IF_13_IS_DEFAULT_AND_THE_NUMBER_C_IS_THE_2ND_HINT?",
+    "uhpryhwkhfruuhfwklqwwrsurfhhgwrwkhqhawvwdjh",
+    "hvuhyhu"
+   ],
+   "method": "binary->ASCII, reverse, Caesar shift 3, base64",
+   "checkable": "yes",
+   "self_verifying": "Yes: it decodes to readable text and resolves to a troll payload. No GSMG value.",
+   "known_status": "new",
+   "priority": 5,
+   "part": "D"
+  },
+  {
+   "source": "export_files/sQRt_follow_the_white_rabbit_.md.txt",
+   "category": "procedure",
+   "claim": "Unrelated CTF technique: EXIF tags hold 0/1/space strings of length 1681 = 41x41. Mask the 'Wh 173 R4b B17' string with the module matrix of a regenerated QR ('This is the key. Now... follow the white rabbit.'), keep the bits at dark modules, and read them as binary ASCII.",
+   "exact_strings": [
+    "This is the key. Now... follow the white rabbit.",
+    "AFFCTF{0h d3ar! 0h d34r! 1 5h411 b3 700 14t3!}"
+   ],
+   "method": "QR-matrix mask over EXIF bitstring",
+   "checkable": "no",
+   "self_verifying": "Not about GSMG. Cycle 37 already found no hidden channels in the GSMG images.",
+   "known_status": "already_exhausted",
+   "priority": 5,
+   "part": "D"
+  },
+  {
+   "source": "export_files/archive.tar.xz__choiceisanillusioncreatedbetweenthosewithpowerandthosewithoutaveryspecialdessertiwroteitmyself.html.txt",
+   "category": "creator_hint",
+   "claim": "Saved Phase 2 page matches the official page: same Phase 2 and Phase 3 base64 blobs, same visible hint text, the known HTML comment, and the FEN 'B5KR/1r5B/6R1/2b1p1p1/2P1k1P1/1p2P2p/1P2P2P/3N1N2 w - - 0 1'. No extra hidden text or different ciphertext.",
+   "exact_strings": [
+    "<!-- You made it to the next step! Good luck little bunny hunter ;) -->",
+    "B5KR/1r5B/6R1/2b1p1p1/2P1k1P1/1p2P2p/1P2P2P/3N1N2 w - - 0 1"
+   ],
+   "method": "base64-blob hash comparison and word diff against research/sources/phase2.html",
+   "checkable": "yes",
+   "self_verifying": "Yes. The comparison is exact and found no differences beyond CSS, robots meta and csrf-token.",
+   "known_status": "known_solved",
+   "priority": 5,
+   "part": "D"
+  },
+  {
+   "source": "export_files/12-addresses.txt.txt",
+   "category": "claimed_solution",
+   "claim": "'cosmic_correct' route: Cosmic Duality blob 'decrypted' (cosmic_decrypted.bin) -> 39 x 32-byte blocks -> address payload block[16:32]||BE32(X) -> 39 Base58Check P2PKH addresses (file name says 12: '7x1H + 5x1B = 12 unique', issue #91)",
+   "exact_strings": [
+    "1L55BVVMXeDqxTTHTPKRm9FJ4dJtXRC5L8",
+    "1EK6QiT9N2E6YeeBaFixVUwr1rnd3k6CgN",
+    "1FckYuvbndPHpR2mSEhQ8bXufHHa7obhoB"
+   ],
+   "method": "AES (openssl) decrypt of the Cosmic blob with an unstated password, then fixed block slicing",
+   "checkable": "partial",
+   "self_verifying": "NOT self-verifying as given: Base58Check checksums are computed by the solver, so every 20-byte payload yields a 'valid' address. Real test = re-decrypt the 1328-byte Cosmic ciphertext with the claimed password and check padding beyond 1 byte + plaintext structure/entropy; a random 0x01 pad hits 1/256. Optional: any on-chain history on these addresses would be informative.",
+   "known_status": "unclear",
+   "priority": 2,
+   "part": "E"
+  },
+  {
+   "source": "export_files/salphaseion_plain_79.bin.txt",
+   "category": "decode_result",
+   "claim": "A 79-byte 'plaintext' from the SalPhaseIon-size blob (80-byte ciphertext) i.e. 1-byte PKCS#7 pad",
+   "exact_strings": [
+    "210b88cfae8141528f323b24c2d311d555067d2849e7812b12873e16857c359609b95e48cd758e1d3dce884972e5e90e9b186f5814716f45b9cc8a837f068614"
+   ],
+   "method": "unstated password/KDF",
+   "checkable": "partial",
+   "self_verifying": "Head bytes are high-entropy, not text: classic 1/256 single-byte-padding false positive unless the password is shown and the bytes have structure",
+   "known_status": "unclear",
+   "priority": 4,
+   "part": "E"
+  },
+  {
+   "source": "export_files/dbbi_sum_faed.py.txt",
+   "category": "procedure",
+   "claim": "dbbi (91 = C(14,2)) as upper triangle of a symmetric 14x14 matrix; row sums = 14-value key; faed rows of 15 summed (38 values); chr((R xor K) mod 26 + 65)",
+   "exact_strings": [
+    "S: JLIQFOPGVBLSENDTHECZAGJJYDSWCGUDJNFTWB",
+    "H: OLIQUBROVQLTOSETHEXQYOJSSICJFGUDCCVBWQ",
+    "L: JLUPFLPGLBLUENETDICZAGAJQDSWCGUDONFHWB"
+   ],
+   "method": "own re-implementation run 2026-10-13 (mycheck/quick_rowsum.py)",
+   "checkable": "yes",
+   "self_verifying": "Ran it: S contains 'SENDTHE' at pos 11-17 but the rest is gibberish; ad-hoc decoder with many free choices (xor vs add, mod 26, widths 14/15, zeroing variants) -> look-elsewhere; not self-verifying. dbbi-as-triangle idea already explored in research/evidence/cycle02/_work__matrixtri.py",
+   "known_status": "already_exhausted",
+   "priority": 4,
+   "part": "E",
+   "own_check": "RAN own re-implementation (mycheck/quick_rowsum.py): S=JLIQFOPGVBLSENDTHECZAGJJYDSWCGUDJNFTWB (contains 'SENDTHE', rest gibberish), H=OLIQUBROVQLTOSETHEXQYOJSSICJFGUDCCVBWQ, L=JLUPFLPGLBLUENETDICZAGAJQDSWCGUDONFHWB. Ad-hoc decoder with many free choices -> look-elsewhere; not a solution."
+  },
+  {
+   "source": "export_files/key.py.txt",
+   "category": "procedure",
+   "claim": "faed in 30 rows x 19 cols, a..i=1..9; prime row sums -> ASCII",
+   "exact_strings": [
+    "keYmgma"
+   ],
+   "method": "own re-implementation",
+   "checkable": "yes",
+   "self_verifying": "Ran it: prime row sums 107,101,89,109,103,109,97 -> 'keYmgma' = noise",
+   "known_status": "already_exhausted",
+   "priority": 5,
+   "part": "E"
+  },
+  {
+   "source": "export_files/bytes.txt.txt",
+   "category": "decode_result",
+   "claim": "Unexplained 1292-byte sequence restricted to 26 odd values 0x07-0x39 (bijective with a-z via (x-7)/2)",
+   "exact_strings": [
+    "13 39 1f 2f 0f 39 15 15 27 07 ..."
+   ],
+   "method": "none stated",
+   "checkable": "no",
+   "self_verifying": "Mapped to letters it is near-uniform (no English); no source/method; cannot verify",
+   "known_status": "unclear",
+   "priority": 5,
+   "part": "E"
+  },
+  {
+   "source": "export_files/brut.zip.txt",
+   "category": "interpretation",
+   "claim": "2020-era community tooling assumed openssl aes-256-cbc with password = sha256(word) hex for Phase 2 and 'phase3.2.3' (130-byte = 80-byte-ct blob); test dict includes 'causality'",
+   "exact_strings": [
+    "phase3.2.3.txt",
+    "causality",
+    "abbsconv"
+   ],
+   "method": "dictionary attack",
+   "checkable": "no",
+   "self_verifying": "Tool only; the KDF convention (sha256 hex as openssl passphrase) is the known solved-stage convention",
+   "known_status": "known_solved",
+   "priority": 5,
+   "part": "E"
+  },
+  {
+   "source": "export_files/Step_one.docx.txt",
+   "category": "procedure",
+   "claim": "Plan: path/image-name guessing on gsmg.io; colour->bit maps with purple unknown; sha256(line)->WIF; submitting hashes to 'gsms.io/hash' or a site bot",
+   "exact_strings": [
+    "gsms.io/hash"
+   ],
+   "method": "brute force",
+   "checkable": "no",
+   "self_verifying": "No results; guessing family (doors/hash submissions already exhausted)",
+   "known_status": "already_exhausted",
+   "priority": 5,
+   "part": "E"
+  },
+  {
+   "source": "export_files/3_GSMGIO.zip__3_GSMGIO_GSMGPUZZLE.py.txt",
+   "category": "claimed_solution",
+   "claim": "Fake 'flag' pipeline (GSMG{VcNove}, -1337, bit reversal) - LLM-style fabrication",
+   "exact_strings": [
+    "R1NNR3tWY05vdmV9",
+    "GSMG{VcNove}",
+    "aHR0cHM6Ly9nc21nLmlvL3RoZXNlZWRpc3BsYW5k"
+   ],
+   "method": "none",
+   "checkable": "no",
+   "self_verifying": "No grounding in puzzle data; ignore",
+   "known_status": "unclear",
+   "priority": 5,
+   "part": "E"
+  },
+  {
+   "source": "export_files/sa.py.txt",
+   "category": "key_address_hash",
+   "claim": "Masked private key search for an unrelated address",
+   "exact_strings": [
+    "23d4a09295be678b21a5f1dceae1f634a69c1b41775f680ebf8165x6x4x1x0xb",
+    "1JRW4d8vHZseMEtYbgJ7MwPG1TasHUUVNq"
+   ],
+   "method": "random fill of 7 hex nibbles",
+   "checkable": "no",
+   "self_verifying": "Not the GSMG prize address; unrelated puzzle",
+   "known_status": "unclear",
+   "priority": 5,
+   "part": "E"
+  },
+  {
+   "source": "export_files/game.html.txt",
+   "category": "interpretation",
+   "claim": "Image block counts stated as 86 black, 9 yellow, 15 blue (white = 86 by subtraction)",
+   "exact_strings": [
+    "86 Black, 9 Yellow, 15 Blue"
+   ],
+   "method": "count",
+   "checkable": "yes",
+   "self_verifying": "Trivially checkable vs 14x14 grid; blue/yellow match known 15/9",
+   "known_status": "known_solved",
+   "priority": 5,
+   "part": "E"
+  }
+ ],
+ "creator_message_claims": [
+  {
+   "source": "export_files/messages.zip__messages.txt.txt",
+   "text": "Roses are White but often Red. Yellow has a number and so does Blue. Go back to the first puzzle piece without further ado. It might have shown you only one door, beware that the rabbits nest may contain a whole lot more. Hush hush.",
+   "context": "Admin JrK, 2020-01-14 10:38, the announced 'final hint' of early 2020",
+   "part": "A"
+  },
+  {
+   "source": "export_files/messages.zip__messages.txt.txt",
+   "text": "Only -41,-17 matters",
+   "context": "Admin JrK, 2020-02-22, in a thread about a game parcel / 'interactive mode' (side quest)",
+   "part": "A"
+  },
+  {
+   "source": "export_files/messages.zip__messages.txt.txt",
+   "text": "There must at least be something hidden in there.",
+   "context": "Admin JrK, 2020-03-25, asked whether the PK is in the last cipher of 3.2",
+   "part": "A"
+  },
+  {
+   "source": "export_files/messages.zip__messages.txt.txt",
+   "text": "giveit = givetit",
+   "context": "Admin JrK, 2019-05-17 and 2019-12-03, Phase III typo fix",
+   "part": "A"
+  },
+  {
+   "source": "export_files/messages.zip__messages.txt.txt",
+   "text": "5ac407837447fba24ba2802e4d1e9aecb4580aa29fef1088cc387c180b746f75",
+   "context": "Admin JrK, 2019-04-22, SHA-256 of the stage-1 answer for offline checking",
+   "part": "A"
+  },
+  {
+   "source": "export_files/messages.zip__messages.txt.txt",
+   "text": "In case the private key hasn't been found in 2019 we'll release a tiny hint at the start of 2020, that will be the final hint. Can the private key be retrieved without that hint? Yes.",
+   "context": "Admin JrK, 2019-05-18",
+   "part": "A"
+  },
+  {
+   "source": "export_files/messages.zip__messages.txt.txt",
+   "text": "There may indeed a piece be found outside the main puzzle.",
+   "context": "Admin JrK, 2019-09-26",
+   "part": "A"
+  },
+  {
+   "source": "export_files/messages.zip__messages.txt.txt",
+   "text": "First or zero",
+   "context": "Admin JrK, 2020-05-21, after 'answer is there', replying to 'the answer to another door from the 1st piece?'",
+   "part": "A"
+  },
+  {
+   "source": "export_files/messages.zip__messages.txt.txt",
+   "text": "Really nobody managed to find the extra door, didn't expect that after the earlier pace of cracking things.",
+   "context": "Admin JrK, 2020-08-02",
+   "part": "A"
+  },
+  {
+   "source": "export_files/Jrk_Bgrt_Chat_History.txt.txt",
+   "text": "Here's the hint in order to bypass the mistake: giveit = givetit",
+   "context": "2019-05-17; fixes a Phase III typo",
+   "part": "B"
+  },
+  {
+   "source": "export_files/Jrk_Bgrt_Chat_History.txt.txt",
+   "text": "In case the private key hasn't been found in 2019 we'll release a tiny hint at the start of 2020, that will be the final hint. Can the private key be retrieved without that hint? Yes.",
+   "context": "2019-05-18",
+   "part": "B"
+  },
+  {
+   "source": "export_files/Jrk_Bgrt_Chat_History.txt.txt",
+   "text": "Roses are White but often Red. Yellow has a number and so does Blue. Go back to the first puzzle piece without further ado. It might have shown you only one door, beware that the rabbits nest may contain a whole lot more. Hush hush.",
+   "context": "2020-01-14 official hint",
+   "part": "B"
+  },
+  {
+   "source": "export_files/Jrk_Bgrt_Chat_History.txt.txt",
+   "text": "Only -41,-17 matters",
+   "context": "2020-02-22 (likely Decentraland parcel coordinates)",
+   "part": "B"
+  },
+  {
+   "source": "export_files/Jrk_Bgrt_Chat_History.txt.txt",
+   "text": "3.2 is a thing btw",
+   "context": "2020-02-25",
+   "part": "B"
+  },
+  {
+   "source": "export_files/Jrk_Bgrt_Chat_History.txt.txt",
+   "text": "who knows what you'll find after opening the 2nd door. The price is in half, but what does it mean",
+   "context": "2020-05-11 halving day",
+   "part": "B"
+  },
+  {
+   "source": "export_files/Jrk_Bgrt_Chat_History.txt.txt",
+   "text": "You are at the prime part already??? / Oh wait, shouldn't have said that. That might have been a hint",
+   "context": "2021-03-01",
+   "part": "B"
+  },
+  {
+   "source": "export_files/Jrk_Bgrt_Chat_History.txt.txt",
+   "text": "Breaking salphation, should be giving the feeling of the phase's name.",
+   "context": "2021-03-14",
+   "part": "B"
+  },
+  {
+   "source": "export_files/Jrk_Bgrt_Chat_History.txt.txt",
+   "text": "Hint: \"another door might be found on {1 },{4} ,{21}\" / R=18 A=1 B=2 Could also be 21 or 1812 bit",
+   "context": "2021-04-01 (April Fools' Day; creator later asked what usually happens on the first of April)",
+   "part": "B"
+  },
+  {
+   "source": "export_files/Jrk_Bgrt_Chat_History.txt.txt",
+   "text": "And the solver will find a way to 'decrypt' it.",
+   "context": "2021-08-11, about the thing found by solving the puzzle",
+   "part": "B"
+  },
+  {
+   "source": "export_files/Jrk_Bgrt_Chat_History.txt.txt",
+   "text": "We've seen prime numbers being mentioned; well, that is definitely an aspect which is required to proceed. Furthermore, along the way, some characters need to be 'zeroed out'..",
+   "context": "2021-12-26 mini hint; also 'There is Another D O O R' on 2021-12-02",
+   "part": "B"
+  },
+  {
+   "source": "export_files/Jrk_Bgrt_Chat_History.txt.txt",
+   "text": "Focussing on the theory of everything is also still a valid path to reaching the private key.",
+   "context": "2023-01-12 (with 'At least prime number is very important to get any further' on 2023-01-09; '42' on 2023-01-25)",
+   "part": "B"
+  },
+  {
+   "source": "export_files/Jrk_Bgrt_Chat_History.txt.txt",
+   "text": "[binary, LSB-first bytes then reversed] yellowblueprimesmatrixsumlistlastwordsbeforearchichoiceyinyangwewontgiveawaythepassworditsinfrontofyoureyesbutyourenotseeingitverylaststepisatruegiveawaypromised",
+   "context": "2023-02-23; decoded this cycle",
+   "part": "B"
+  },
+  {
+   "source": "export_files/Jrk_Bgrt_Chat_History.txt.txt",
+   "text": "Are you really looking for just the btc...? / Actually, the hardest part is done. / \"Globally supporting my generation\"",
+   "context": "2023-08-03/04",
+   "part": "B"
+  },
+  {
+   "source": "export_files/Jrk_Bgrt_Chat_History.txt.txt",
+   "text": "Probably the last hint: Once you hit a \"ying yang\", you'll be able to solve it the same day. / Both? / No need. You have all the info.",
+   "context": "2023-08-06",
+   "part": "B"
+  },
+  {
+   "source": "export_files/GSMG_research_baseline.md.txt",
+   "text": "It's the next phase, but I await the day someone finally gets there.",
+   "context": "Creator Telegram message 39237 (2025), a reply to a question about Yin/Yang after an AES decryption; both messages were edited",
+   "part": "B"
+  },
+  {
+   "source": "export_files/GSMG_research_baseline.md.txt",
+   "text": "Just combine the last 2 hints and understand what the first door is, then you know what to look for.",
+   "context": "Discord Crypto_Puzzles, 2020-06-07, message 719217554010407005; the baseline attributes it to the creator side",
+   "part": "B"
+  },
+  {
+   "source": "export_files/My2cents_.md.txt",
+   "text": "Roses are White but often Red. Yellow has a number and so does Blue. Go back to the first puzzle piece… beware that the rabbits nest may contain a whole lot more.",
+   "context": "Attributed to the creator, Telegram 14 Jan 2020 (author's own strict-attribution parse).",
+   "part": "D"
+  },
+  {
+   "source": "export_files/My2cents_.md.txt",
+   "text": "prime numbers … is definitely an aspect which is required to proceed. Furthermore, along the way, some characters need to be 'zeroed out'.",
+   "context": "Attributed to the creator, 26 Dec 2021.",
+   "part": "D"
+  },
+  {
+   "source": "export_files/My2cents_.md.txt",
+   "text": "Or nobody found the direction.",
+   "context": "Attributed to the creator, 25 Feb 2020, on why everyone is stuck at phase 3.2.",
+   "part": "D"
+  },
+  {
+   "source": "export_files/My2cents_.md.txt",
+   "text": "You are at the prime part already???",
+   "context": "Attributed to the creator, 1 Mar 2021, replying to AND/OR logic-gate work on the Architect text.",
+   "part": "D"
+  },
+  {
+   "source": "export_files/My2cents_.md.txt",
+   "text": "161 bytes of binary; with reversed bits, read back to front: yellowblueprimesmatrixsumlist…",
+   "context": "Creator post of 24 Feb 2023 as decoded by the author (the hint chain).",
+   "part": "D"
+  },
+  {
+   "source": "export_files/My2cents_.md.txt",
+   "text": "Did anyone found yingyang? I don't think so… when yingyang is reached, 2 hours max. / It's the next phase.",
+   "context": "Attributed to the creator, Apr 2025.",
+   "part": "D"
+  },
+  {
+   "source": "export_files/My2cents_.md.txt",
+   "text": "I don't check the website logs. There aren't any tracking scripts either… I just read the chat and when I notice the address is empty I'll know.",
+   "context": "Attributed to the creator, Mar 2021 / Mar 2026. Also: Nov 2023, internet not required to solve, only to claim. The author lists July 2026 lines judged NOT to be hints: 'hidden in a room with a hidden door', 'Give yourself yourself…', 'Lately I'm working with many NOTES'.",
+   "part": "D"
+  },
+  {
+   "source": "export_files/dbbib-faed-analysis-2026-10-10.md.txt",
+   "text": "yellow blue primes matrixsumlist ... yinyang / some characters need to be zeroed out / once you hit a yinyang you'll solve it the same day",
+   "context": "Paraphrased 'author hints' cited as motivation for the open interpreter-alphabet crux.",
+   "part": "D"
+  },
+  {
+   "source": "export_files/GSMG.txt.txt",
+   "text": "your first hint is your last command",
+   "context": "SalPhaseIon page hint restated as 'The critical hint message', alongside 'shabefanstoo'.",
+   "part": "D"
+  },
+  {
+   "source": "export_files/archive.tar.xz__choiceisanillusioncreatedbetweenthosewithpowerandthosewithoutaveryspecialdessertiwroteitmyself.html.txt",
+   "text": "\"1... are you looking for the private keymaker?\" ... <!-- You made it to the next step! Good luck little bunny hunter ;) -->",
+   "context": "Official Phase 2 page content (creator-authored), identical to the known page. The rightAnswerPAGE copy has the same visible text without the comment.",
+   "part": "D"
+  }
+ ]
+}

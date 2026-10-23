@@ -1,0 +1,18 @@
+{"lens":"scary_specific","page_offset":"printed = PDF - 4 (verified from footer numbers on 70+ pages; p039 footer '36' is OCR noise)",
+ "cover":{"credit":"Cover: art by Rob Wood of Stansbury, Ronsaville, Wood, Inc. (PDF p142 = printed 138); no caption",
+  "description":"yin-yang made of star fields in a square inset with nested silver square border; gold/orange half holds a BLUE-white star, blue half holds a YELLOW star"},
+ "ties":[
+  {"id":"cover_yellow_blue","pdf":[1],"strength":"moderate","note":"roadmap starts 'yellow blue'; Phase 0 has 15 blue/9 yellow cells (blue=1,yellow=0); Roses poem 'Yellow has a number and so does Blue'"},
+  {"id":"seed_of_opposite","pdf":[13,39],"printed":[9,35],"strength":"moderate","note":"yin-yang caption: each force holds the seed of its opposite; puzzle starts at theseedisplanted; btcseed"},
+  {"id":"salvation_yinyang_halves_same_page","pdf":[39],"printed":[35],"strength":"moderate","note":"yin-yang = circle half black half white, two halves; Tantra: salvation via perfect union; Shiva without Shakti is a corpse"},
+  {"id":"symposium_other_half","pdf":[52],"printed":[48],"strength":"weak-moderate","note":"Chapter 2 opener: Zeus cut humans in two, each looks for his other half; creator uses 'better half' literally for partner (creator_jrk lines 1201,1270)"},
+  {"id":"ardhanarishvara","pdf":[70],"printed":[66],"strength":"weak","note":"'half-woman lord'"},
+  {"id":"morgenstern_open_secrets","pdf":[140],"printed":[136],"strength":"moderate","note":"last main-text sentence: secrets lie before us in perfect openness; roadmap: password in front of your eyes"},
+  {"id":"mirror_of_life_and_death","pdf":[42,43],"printed":[38,39],"strength":"weak-moderate","note":"vanitas engraving caption + verse (moment we start to live we start to die)"},
+  {"id":"life_and_death_cycle_spread","pdf":[16,17],"printed":[12,13],"strength":"weak","note":"essay spread title Life and Death in an Endless Cycle; Kali source of life and death"},
+  {"id":"p91_age23","pdf":[95],"printed":[91],"strength":"weak","note":"Anneliese Michel died at twenty-three; 'between life and death' - 91/23 co-occurrence likely coincidence"},
+  {"id":"shiva_19x23","pdf":[10],"printed":[6],"strength":"weak","note":"Elephanta Shiva 19 ft wide 23 ft high"},
+  {"id":"pythagorean_ten_pairs","pdf":[38],"printed":[34],"strength":"weak","note":"10 opposite pairs incl. odd/even, square/oblong, right/left, one/plurality"},
+  {"id":"causality_two_clocks","pdf":[42,43],"printed":[38,39],"strength":"weak","note":"Descartes/Geulincx causal mind-body problem"},
+  {"id":"printed140","pdf":[144],"printed":[140],"strength":"negative","note":"bibliography tail + index A entries only"},
+  {"id":"matrix_terms","strength":"negative","note":"no matrix/architect/anomaly/the One/white rabbit/roses/primes/sum in main text"}]}

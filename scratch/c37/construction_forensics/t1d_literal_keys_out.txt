@@ -1,0 +1,6 @@
+literal key dbbi           square=DBIACEFGHKLMNOPQRSTUVWXYZ z=+0.04 head=ehdsfdddeoflfaeabafgbybhdcdsbheqfsfofmby
+literal key faed           square=FAEDBCGHIKLMNOPQRSTUVWXYZ z=-0.67 head=faaifnftcgchanfmasaageaxaqaiaxcogmghccge
+literal key z              square=ZABCDEFGHIKLMNOPQRSTUVWXY z=-1.62 head=efaifzzyelfkfceaaxfgasanzxaianetfrfnflas
+literal key salphaseion    square=SALPHEIONBCDFGKMQRTUVWXYZ z=-1.95 head=cdaiisficqdmeheacbfgchezfeaiezlwlycufrch
+literal key cosmicduality  square=COSMIDUALTYBEFGHKNPQRVWXZ z=-0.96 head=bndgeeucbwewfybelceqmcfddcdgfdkcnifrexmc
+literal key gsmg           square=GSMABCDEFHIKLNOPQRTUVWXYZ z=+0.12 head=ctmpdlddgasmdocndhcpdbszdcmpszdwcvsbsadb

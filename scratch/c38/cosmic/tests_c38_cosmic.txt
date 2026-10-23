@@ -1,0 +1,7 @@
+# c38 cosmic-cover lens: 3 derivation-backed tests (all absent from candidates.jsonl / cands_* per seen.py --wide)
+# T1 cover's only volume-specific content = a yin-yang whose two 'eyes' are two stars (frame is series-standard)
+twostars
+# T2 two stars locked in a yin-yang = a binary star; 'binary' is the puzzle's recurring carrier (abba bits, 2023-02-23 binary hint)
+binarystar
+# T3 roadmap last item 'yinyang' chained (Phase-3 answer-concatenation style) with Phase 3.2 'half and better half' (the duality the keys belong to)
+yinyanghalfandbetterhalf

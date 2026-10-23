@@ -1,0 +1,22 @@
+c38/fresco lens (2026-10-13), ~15 min. Status: no hit. 8 oracle tests (oracle.py 3 blobs x 2 KDFs x forms; bw_oracle prize) -> 0/0; oracle selftest PASS.
+
+PUBLIC TEXTS OBTAINED (texts/; OCR, local research copies)
+ lf_djvu.txt / lf_layout.txt   Looking Forward (Keyes & Fresco 1969), archive.org B-001-001-706 (reflowed digital ed., no original pagination)
+ bmcb_djvu.txt / bmcb_layout.txt  The Best That Money Can't Buy (2002), archive.org the-best-that-money-cant-buy (126-page re-typeset PDF, NOT print pagination)
+ dtf_djvu.txt                  Designing the Future (2007), archive.org B-001-001-703-v2
+ roc1995_djvu.txt              The Venus Project: The Redesign of a Culture (1995), archive.org TheVenusProjectTheRedesignOfCulture
+NOT obtainable here (user can borrow/buy): archive.org lending scans with print pagination: lookingforward00keye (226 img), bestthatmoneycan0000fres (182 img, x+164 pp);
+ The Choice Is Ours (2016) film subtitles (YouTube Yb5ivvcTvRQ has a human English track; yt-dlp blocked); thevenusproject.com sells BMCB 9th ed/e-book (no free copy).
+
+KEY FACTS
+ - Phase-3 riddle quote source = BMCB ch.1 'A Design for the Future' opening ("the future is fluid ... ours to direct"). The riddle line "the ...... is ours" (6 dots)
+   was never part of the Phase-3 password; fillers 'future' (quote) and 'choice' (TVP film 'The Choice Is Ours', anti-Merovingian logic) both fit.
+ - 'salvation' appears exactly once in each of BMCB and DtF, same intro: "We are our own salvation or damnation" -- only Fresco text with a SalPhaseIon(=salvation)+duality co-occurrence.
+   Not in LF or 1995 RoC. Wikiquote lists it (DtF p.10).
+ - No 'matrix', 'last words', 'yin/yang', 'in front of your eyes', '140'/'hundred forty', 'theory of everything' in any of the 4 texts. LF '140' only in two footnote page cites.
+ - Fresco (Korzybski-style) explicitly argues against two-valued thinking (BMCB: "good and bad ... cause and effects"; LF: "polar opposites") -- thematic only.
+ - Fresco died 2017-05-18 (Roxanne Meadows open letter); no documented 'last words'. "Don't build me a monument" is a legacy line, not deathbed.
+ - 'in front of your eyes but you're not seeing it' is from the creator's 2023-02-23 binary roadmap, not from Fresco; 'Looking Forward' link is a solver pun; creator's reply was evasive (Cartman joke).
+ - 2026-01-01 'Make the best of everything' is self-labelled "no hint" (decoded binary).
+ - 'wise man above': Phase-3 'thinker' (earlier in text) and/or deceased by 2019 ('above'). 'worth hundred fourty of the investment' has no textual anchor in Fresco works;
+   community readings (140 chars, RSA-140, 2*2*5*7) unsupported. Most consistent reading: ideological value statement (creator 2024: friends building communities around Jacque's ideas).

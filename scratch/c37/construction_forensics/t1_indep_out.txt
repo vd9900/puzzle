@@ -1,0 +1,28 @@
+CyberChef square (key=dbbi): DBIFHCEGAKLMNOPQRSTUVWXYZ | bifid.py CANON: DBIFHCEGAKLMNOPQRSTUVWXYZ
+CyberChef Decode(faed,key=dbbi) == bifid.py BIF: True | head: btcseeddeoemckeadhbschdkbdcsdkdvbxcpcoch
+python-vs-CyberChef mismatches over 84 jobs: 0
+top by quadgram z (vs 100 shuffled-input controls with the SAME key/op/input):
+ z=+3.57 dec dbbi key=enter q=-6.78 bip39cov=0.03 bifndthcbebpfnlnccdcbnenfwcnicinawbnrnbeeehcmnge
+ z=+2.76 dec dbbi key=causality q=-6.666 bip39cov=0.07 bwtndobaboeytofmcalabnhufeimiceoutbofaboeuiugoyo
+ z=+2.59 enc faed key=thispassword q=-6.964 bip39cov=0.07 cceeoewbiewecocebcoobooeiewtbactebeeeeacbcceceec
+ z=+2.24 enc dbbi key=lastwordsbeforearchichoice q=-7.231 bip39cov=0.04 rdddhrchardcdccrrchrhcaccdhrdhhdrdccrhddhhrradpp
+ z=+1.54 dec faed key=dbbi q=-7.024 bip39cov=0.03 btcseeddeoemckeadhbschdkbdcsdkdvbxcpcochcrdicibq
+ z=+1.47 enc res60 key=matrixsumlist q=-6.576 bip39cov=0.05 cfechereedeofntfeeueeeeeetececbhmzaeqzggwmcrlxoa
+ z=+1.38 dec res60 key=(none) q=-7.191 bip39cov=0.0 atgsgaglanaofggqfnacaxbwgqfpggggazfhayahgibvglgl
+ z=+1.37 enc faed key=yellowbluepr... q=-7.191 bip39cov=0.03 cozyhfcrnvthonhkkqmnktmnnvcrotpfvenrgnscucqwlnul
+ z=+1.34 dec faed key=causality q=-7.076 bip39cov=0.06 etaigctzefgegseayxgyusypiraiypfqgoghgfusabtracei
+ z=+1.33 enc faed key=dbbi q=-7.012 bip39cov=0.0 bceedcbdbecccbdcceebcceebebdccbdecbdebcbdbeeeede
+ z=+1.12 enc faed key=shabefourfirsthintisyourlastcommand q=-7.246 bip39cov=0.0 fbksdtmsbgbnbkrmdmskdhslbgmfssshghrhmrhfhfmbslss
+ z=+1.10 enc dbbi key=shabefanstoo q=-6.871 bip39cov=0.13 dahsnsddssasaddssdsssfstshndhnthsadfathhtissssrk
+max z overall: 3.57 over 84 keyed decodes
+planted roundtrip ok: True | score planted -5.362 bip39cov 0.95
+quad full          real=-7.024 ctrl=-7.101+-0.049 z=+1.6
+quad body[7:]      real=-7.024 ctrl=-7.102+-0.052 z=+1.5
+quad body[7:400]   real=-7.001 ctrl=-7.104+-0.060 z=+1.7
+offset-285 pair chi2 real=57.0 ctrl=64.7+-11.1 p~0.750
+decoded unigram top: [('c', 96), ('d', 87), ('e', 78), ('b', 66), ('s', 26), ('n', 26), ('g', 20), ('m', 18), ('l', 18), ('o', 16), ('a', 15), ('r', 15)]
+real body score -7.024
+A: second half rotated k=1..120 (alignment broken)      ctrl=-7.087+-0.055  z(real)=+1.2
+B: same perm on both halves (pairs kept, adjacency broken) ctrl=-7.068+-0.040  z(real)=+1.1
+C: each half shuffled in blocks of 5 (adjacency mostly kept) ctrl=-7.087+-0.052  z(real)=+1.2
+D: faed decoded with 200 random a-i-first squares: mean=-7.083 sd=0.183 max=-6.462 (dbbi square full=-7.024)

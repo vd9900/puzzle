@@ -1,0 +1,65 @@
+{
+ "probes": 365,
+ "exp_false_per_1e14_positions": {
+  "faed": 993,
+  "faed_rev": 1166,
+  "R60": 57,
+  "faed_tail32": 4,
+  "dbbi_extra": 52,
+  "CONTROL_faed_shuf": 871,
+  "CONTROL_faedrev_shuf": 993,
+  "PLANTED_pi_7.3e7": 195
+ },
+ "consts": {
+  "../pi.txt": {
+   "ndigits": 100000010,
+   "anchor_candidates": 781,
+   "hits14": [
+    {
+     "src": "PLANTED_pi_7.3e7",
+     "win": 106,
+     "digit_index": 73000107,
+     "src_start_digit_index": 73000001,
+     "run_len": 120,
+     "run_src_range": [
+      0,
+      120
+     ],
+     "aligned_agree": 1.0,
+     "g_bits": "110100100011001001010001",
+     "ascii_msb_inv0": ".2Q",
+     "ascii_lsb_inv0": "KL.",
+     "ascii_msb_inv1": "-..",
+     "ascii_lsb_inv1": "..u",
+     "label_prefix_match": false,
+     "g_digits_true": "770700700077007007070007"
+    }
+   ],
+   "secs": 1.8
+  },
+  "../e.txt": {
+   "ndigits": 100000010,
+   "anchor_candidates": 804,
+   "hits14": [],
+   "secs": 1.9
+  },
+  "../phi.txt": {
+   "ndigits": 100000010,
+   "anchor_candidates": 845,
+   "hits14": [],
+   "secs": 1.9
+  },
+  "../sqrt2.txt": {
+   "ndigits": 100000010,
+   "anchor_candidates": 796,
+   "hits14": [],
+   "secs": 1.8
+  },
+  "../sqrt3.txt": {
+   "ndigits": 100000010,
+   "anchor_candidates": 791,
+   "hits14": [],
+   "secs": 1.9
+  }
+ }
+}

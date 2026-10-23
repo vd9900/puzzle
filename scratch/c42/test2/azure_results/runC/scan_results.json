@@ -1,0 +1,20 @@
+{
+ "probes": 348,
+ "exp_false_per_1e14_positions": {
+  "faed": 993,
+  "faed_rev": 1166,
+  "R60": 57,
+  "faed_tail32": 4,
+  "dbbi_extra": 52,
+  "CONTROL_faed_shuf": 871,
+  "CONTROL_faedrev_shuf": 993
+ },
+ "consts": {
+  "../ln2.txt": {
+   "ndigits": 100000010,
+   "anchor_candidates": 739,
+   "hits14": [],
+   "secs": 1.8
+  }
+ }
+}

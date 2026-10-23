@@ -1,0 +1,89 @@
+<record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>01064nam a22003018a 4500</leader>
+  <controlfield tag="001">3074562</controlfield>
+  <controlfield tag="008">901221s1991    vau      b    00100 eng  </controlfield>
+  <datafield tag="020" ind1=" " ind2=" ">
+    <subfield code="a">0809465167</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">ocm22983742</subfield>
+  </datafield>
+  <datafield tag="040" ind1=" " ind2=" ">
+    <subfield code="b">eng</subfield>
+    <subfield code="d">AVC</subfield>
+  </datafield>
+  <datafield tag="050" ind1="0" ind2="0">
+    <subfield code="a">BF 1999</subfield>
+    <subfield code="b">C6975 1991</subfield>
+  </datafield>
+  <datafield tag="090" ind1=" " ind2=" ">
+    <subfield code="a">BF 1999 C6975 1991</subfield>
+    <subfield code="b">AEU</subfield>
+  </datafield>
+  <datafield tag="090" ind1=" " ind2=" ">
+    <subfield code="a">BF 1999 C6975 1991</subfield>
+    <subfield code="b">AVC</subfield>
+  </datafield>
+  <datafield tag="245" ind1="0" ind2="0">
+    <subfield code="a">Cosmic duality /</subfield>
+    <subfield code="c">by the editors of Time-Life Books.</subfield>
+  </datafield>
+  <datafield tag="260" ind1="0" ind2=" ">
+    <subfield code="a">Alexandria, Va. :</subfield>
+    <subfield code="b">Time-Life Books,</subfield>
+    <subfield code="c">1991.</subfield>
+  </datafield>
+  <datafield tag="300" ind1=" " ind2=" ">
+    <subfield code="a">144 p. :</subfield>
+    <subfield code="b">ill. (some col.) ;</subfield>
+    <subfield code="c">29 cm.</subfield>
+  </datafield>
+  <datafield tag="490" ind1="1" ind2=" ">
+    <subfield code="a">Mysteries of the unknown</subfield>
+  </datafield>
+  <datafield tag="500" ind1=" " ind2=" ">
+    <subfield code="a">Includes index.</subfield>
+  </datafield>
+  <datafield tag="504" ind1=" " ind2=" ">
+    <subfield code="a">Bibliography: p. 138-140.</subfield>
+  </datafield>
+  <datafield tag="590" ind1=" " ind2=" ">
+    <subfield code="a">UA Library copy in the Chester D. Cuthbert Thanatology and Spirituality Collection.</subfield>
+  </datafield>
+  <datafield tag="596" ind1=" " ind2=" ">
+    <subfield code="a">38 53</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Polarity (Philosophy)</subfield>
+    <subfield code="x">Miscellanea.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Polarity</subfield>
+    <subfield code="x">Religious aspects</subfield>
+    <subfield code="x">Miscellanea.</subfield>
+  </datafield>
+  <datafield tag="650" ind1=" " ind2="0">
+    <subfield code="a">Dualism</subfield>
+    <subfield code="x">Miscellanea.</subfield>
+  </datafield>
+  <datafield tag="710" ind1="2" ind2="0">
+    <subfield code="a">Time-Life Books.</subfield>
+  </datafield>
+  <datafield tag="830" ind1=" " ind2="0">
+    <subfield code="a">Mysteries of the unknown.</subfield>
+  </datafield>
+  <datafield tag="926" ind1=" " ind2=" ">
+    <subfield code="a">UABARD</subfield>
+    <subfield code="b">ON_SHELF</subfield>
+    <subfield code="c">BF 1999 C6975 1991</subfield>
+    <subfield code="d">BOOK</subfield>
+    <subfield code="f">1</subfield>
+  </datafield>
+  <datafield tag="926" ind1=" " ind2=" ">
+    <subfield code="a">LAKELND_VR</subfield>
+    <subfield code="b">ON_SHELF</subfield>
+    <subfield code="c">BF 1999 C6975 1991</subfield>
+    <subfield code="d">BOOK</subfield>
+    <subfield code="f">1</subfield>
+  </datafield>
+</record>

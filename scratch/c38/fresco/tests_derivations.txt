@@ -1,0 +1,16 @@
+# c38/fresco oracle tests (8 strings), each with a written derivation. All absent from research/candidates.jsonl and scratch/wf/cands_* (seen.py --wide, exact=0, norm-substr=0).
+# Premise P1: Phase 3.2 speech "what a wise man above hinted at" -> 'above' = earlier Phase 3 text; the wise man = 'the thinker' (Jacque Fresco),
+#   whose riddle line reads "the ...... is ours" (6 dots). The blank was NEVER part of the Phase 3 password (only the name 'jacquefresco' was), so it is an
+#   unused, creator-planted token that the later speech points back to.
+# Premise P2: the riddle's source sentence is Fresco's ch.1 opening in "The Best That Money Can't Buy" (2002): "THE FUTURE IS FLUID ... the future is ours to direct".
+# Premise P3: SalPhaseIon = pun on 'salvation'; creator (2021): breaking it "should be giving the feeling of the phase's name"; second textarea is 'Cosmic Duality'.
+#   Fresco's intro (BMCB and Designing the Future) contains the sentence "We are our own salvation or damnation" -- the only place in his three main texts where
+#   'salvation' occurs, and it is a two-pole (duality) statement, in the same intro as the P2 quote.
+T1 future                       # P1: 6-letter filler of the blank taken from P2 (the 'choice' filler is already in the ledgers)
+T2 thefutureisours              # P1: riddle sentence with blank filled
+T3 thefutureisourstodirect      # P2: exact clause of the source sentence
+T4 thefutureisfluid             # P2: chapter-opening words (the hinted 'quote' title)
+T5 <full quote, README wording, no 'but'>   # P2 full sentence as community cites it
+T6 <full quote, book wording, with 'but'>   # P2 full sentence as printed in BMCB
+T7 weareourownsalvationordamnation          # P3
+T8 salvationordamnation                     # P3 duality pair alone

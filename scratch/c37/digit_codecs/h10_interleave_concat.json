@@ -1,0 +1,554 @@
+[
+{
+"test": "interleave",
+"resid": "R60",
+"bits": "BIN1",
+"first": "a",
+"ndig": 120,
+"pratio": 0.4,
+"ctrl_p95": 0.5,
+"ctrl_max": 0.56,
+"feasible_any_map": {
+"lower": true,
+"printnl": true,
+"b64": true,
+"hex": true,
+"ebc_lower": false,
+"ebc_text": true
+}
+},
+{
+"test": "interleave",
+"resid": "R60",
+"bits": "BIN1",
+"first": "b",
+"ndig": 119,
+"pratio": 0.34,
+"ctrl_p95": 0.48,
+"ctrl_max": 0.56,
+"feasible_any_map": {
+"lower": false,
+"printnl": true,
+"b64": false,
+"hex": false,
+"ebc_lower": false,
+"ebc_text": false
+}
+},
+{
+"test": "interleave",
+"resid": "R60",
+"bits": "BIN1_rev",
+"first": "a",
+"ndig": 120,
+"pratio": 0.38,
+"ctrl_p95": 0.5,
+"ctrl_max": 0.58,
+"feasible_any_map": {
+"lower": true,
+"printnl": true,
+"b64": true,
+"hex": true,
+"ebc_lower": false,
+"ebc_text": true
+}
+},
+{
+"test": "interleave",
+"resid": "R60",
+"bits": "BIN1_rev",
+"first": "b",
+"ndig": 119,
+"pratio": 0.44,
+"ctrl_p95": 0.48,
+"ctrl_max": 0.64,
+"feasible_any_map": {
+"lower": false,
+"printnl": true,
+"b64": false,
+"hex": false,
+"ebc_lower": false,
+"ebc_text": false
+}
+},
+{
+"test": "interleave",
+"resid": "R60",
+"bits": "M83",
+"first": "a",
+"ndig": 46,
+"pratio": 0.316,
+"ctrl_p95": 0.526,
+"ctrl_max": 0.632,
+"feasible_any_map": {
+"lower": true,
+"printnl": true,
+"b64": true,
+"hex": true,
+"ebc_lower": true,
+"ebc_text": true
+}
+},
+{
+"test": "interleave",
+"resid": "R60",
+"bits": "M83",
+"first": "b",
+"ndig": 46,
+"pratio": 0.421,
+"ctrl_p95": 0.579,
+"ctrl_max": 0.789,
+"feasible_any_map": {
+"lower": true,
+"printnl": true,
+"b64": true,
+"hex": true,
+"ebc_lower": true,
+"ebc_text": true
+}
+},
+{
+"test": "interleave",
+"resid": "R60",
+"bits": "M84",
+"first": "a",
+"ndig": 46,
+"pratio": 0.316,
+"ctrl_p95": 0.55,
+"ctrl_max": 0.7,
+"feasible_any_map": {
+"lower": true,
+"printnl": true,
+"b64": true,
+"hex": true,
+"ebc_lower": true,
+"ebc_text": true
+}
+},
+{
+"test": "interleave",
+"resid": "R60",
+"bits": "M84",
+"first": "b",
+"ndig": 46,
+"pratio": 0.421,
+"ctrl_p95": 0.579,
+"ctrl_max": 0.737,
+"feasible_any_map": {
+"lower": true,
+"printnl": true,
+"b64": true,
+"hex": true,
+"ebc_lower": true,
+"ebc_text": true
+}
+},
+{
+"test": "interleave",
+"resid": "R61",
+"bits": "BIN1",
+"first": "a",
+"ndig": 122,
+"pratio": 0.412,
+"ctrl_p95": 0.49,
+"ctrl_max": 0.529,
+"feasible_any_map": {
+"lower": false,
+"printnl": true,
+"b64": false,
+"hex": false,
+"ebc_lower": false,
+"ebc_text": true
+}
+},
+{
+"test": "interleave",
+"resid": "R61",
+"bits": "BIN1",
+"first": "b",
+"ndig": 121,
+"pratio": 0.314,
+"ctrl_p95": 0.49,
+"ctrl_max": 0.549,
+"feasible_any_map": {
+"lower": true,
+"printnl": true,
+"b64": true,
+"hex": true,
+"ebc_lower": true,
+"ebc_text": true
+}
+},
+{
+"test": "interleave",
+"resid": "R61",
+"bits": "BIN1_rev",
+"first": "a",
+"ndig": 122,
+"pratio": 0.451,
+"ctrl_p95": 0.471,
+"ctrl_max": 0.569,
+"feasible_any_map": {
+"lower": false,
+"printnl": true,
+"b64": false,
+"hex": false,
+"ebc_lower": false,
+"ebc_text": true
+}
+},
+{
+"test": "interleave",
+"resid": "R61",
+"bits": "BIN1_rev",
+"first": "b",
+"ndig": 121,
+"pratio": 0.392,
+"ctrl_p95": 0.49,
+"ctrl_max": 0.52,
+"feasible_any_map": {
+"lower": true,
+"printnl": true,
+"b64": true,
+"hex": true,
+"ebc_lower": true,
+"ebc_text": true
+}
+},
+{
+"test": "interleave",
+"resid": "R61",
+"bits": "M83",
+"first": "a",
+"ndig": 46,
+"pratio": 0.316,
+"ctrl_p95": 0.55,
+"ctrl_max": 0.65,
+"feasible_any_map": {
+"lower": true,
+"printnl": true,
+"b64": true,
+"hex": true,
+"ebc_lower": true,
+"ebc_text": true
+}
+},
+{
+"test": "interleave",
+"resid": "R61",
+"bits": "M83",
+"first": "b",
+"ndig": 46,
+"pratio": 0.421,
+"ctrl_p95": 0.579,
+"ctrl_max": 0.684,
+"feasible_any_map": {
+"lower": true,
+"printnl": true,
+"b64": true,
+"hex": true,
+"ebc_lower": true,
+"ebc_text": true
+}
+},
+{
+"test": "interleave",
+"resid": "R61",
+"bits": "M84",
+"first": "a",
+"ndig": 46,
+"pratio": 0.316,
+"ctrl_p95": 0.55,
+"ctrl_max": 0.684,
+"feasible_any_map": {
+"lower": true,
+"printnl": true,
+"b64": true,
+"hex": true,
+"ebc_lower": true,
+"ebc_text": true
+}
+},
+{
+"test": "interleave",
+"resid": "R61",
+"bits": "M84",
+"first": "b",
+"ndig": 46,
+"pratio": 0.421,
+"ctrl_p95": 0.579,
+"ctrl_max": 0.632,
+"feasible_any_map": {
+"lower": true,
+"printnl": true,
+"b64": true,
+"hex": true,
+"ebc_lower": true,
+"ebc_text": true
+}
+},
+{
+"test": "interleave",
+"resid": "R56",
+"bits": "BIN1",
+"first": "a",
+"ndig": 112,
+"pratio": 0.468,
+"ctrl_p95": 0.489,
+"ctrl_max": 0.553,
+"feasible_any_map": {
+"lower": false,
+"printnl": true,
+"b64": false,
+"hex": false,
+"ebc_lower": false,
+"ebc_text": false
+}
+},
+{
+"test": "interleave",
+"resid": "R56",
+"bits": "BIN1",
+"first": "b",
+"ndig": 111,
+"pratio": 0.37,
+"ctrl_p95": 0.5,
+"ctrl_max": 0.63,
+"feasible_any_map": {
+"lower": true,
+"printnl": true,
+"b64": true,
+"hex": true,
+"ebc_lower": true,
+"ebc_text": true
+}
+},
+{
+"test": "interleave",
+"resid": "R56",
+"bits": "BIN1_rev",
+"first": "a",
+"ndig": 112,
+"pratio": 0.362,
+"ctrl_p95": 0.489,
+"ctrl_max": 0.638,
+"feasible_any_map": {
+"lower": false,
+"printnl": true,
+"b64": false,
+"hex": false,
+"ebc_lower": false,
+"ebc_text": false
+}
+},
+{
+"test": "interleave",
+"resid": "R56",
+"bits": "BIN1_rev",
+"first": "b",
+"ndig": 111,
+"pratio": 0.348,
+"ctrl_p95": 0.522,
+"ctrl_max": 0.66,
+"feasible_any_map": {
+"lower": true,
+"printnl": true,
+"b64": true,
+"hex": true,
+"ebc_lower": true,
+"ebc_text": true
+}
+},
+{
+"test": "interleave",
+"resid": "R56",
+"bits": "M83",
+"first": "a",
+"ndig": 46,
+"pratio": 0.368,
+"ctrl_p95": 0.526,
+"ctrl_max": 0.7,
+"feasible_any_map": {
+"lower": true,
+"printnl": true,
+"b64": true,
+"hex": true,
+"ebc_lower": true,
+"ebc_text": true
+}
+},
+{
+"test": "interleave",
+"resid": "R56",
+"bits": "M83",
+"first": "b",
+"ndig": 46,
+"pratio": 0.474,
+"ctrl_p95": 0.579,
+"ctrl_max": 0.684,
+"feasible_any_map": {
+"lower": true,
+"printnl": true,
+"b64": true,
+"hex": true,
+"ebc_lower": true,
+"ebc_text": true
+}
+},
+{
+"test": "interleave",
+"resid": "R56",
+"bits": "M84",
+"first": "a",
+"ndig": 46,
+"pratio": 0.368,
+"ctrl_p95": 0.55,
+"ctrl_max": 0.6,
+"feasible_any_map": {
+"lower": true,
+"printnl": true,
+"b64": true,
+"hex": true,
+"ebc_lower": true,
+"ebc_text": true
+}
+},
+{
+"test": "interleave",
+"resid": "R56",
+"bits": "M84",
+"first": "b",
+"ndig": 46,
+"pratio": 0.474,
+"ctrl_p95": 0.579,
+"ctrl_max": 0.737,
+"feasible_any_map": {
+"lower": true,
+"printnl": true,
+"b64": true,
+"hex": true,
+"ebc_lower": true,
+"ebc_text": true
+}
+},
+{
+"test": "concat",
+"s": "DBBI+FAED",
+"ndig": 661,
+"pratio": 0.36,
+"top_byte": 5,
+"feasible_any_map": {
+"lower": false,
+"printnl": true,
+"b64": false,
+"hex": false,
+"ebc_lower": false,
+"ebc_text": false
+}
+},
+{
+"test": "concat",
+"s": "FAED+DBBI",
+"ndig": 661,
+"pratio": 0.393,
+"top_byte": 8,
+"feasible_any_map": {
+"lower": false,
+"printnl": true,
+"b64": false,
+"hex": false,
+"ebc_lower": false,
+"ebc_text": false
+}
+},
+{
+"test": "concat",
+"s": "Z1Z2DBBIFAED",
+"ndig": 753,
+"pratio": 0.351,
+"top_byte": 7,
+"feasible_any_map": {
+"lower": false,
+"printnl": true,
+"b64": false,
+"hex": false,
+"ebc_lower": false,
+"ebc_text": true
+}
+},
+{
+"test": "concat",
+"s": "DBBIFAEDZ1Z2",
+"ndig": 753,
+"pratio": 0.38,
+"top_byte": 18,
+"feasible_any_map": {
+"lower": false,
+"printnl": true,
+"b64": false,
+"hex": false,
+"ebc_lower": false,
+"ebc_text": true
+}
+},
+{
+"test": "concat",
+"s": "DBBI+FAED_rev",
+"ndig": 661,
+"pratio": 0.411,
+"top_byte": 5,
+"feasible_any_map": {
+"lower": false,
+"printnl": true,
+"b64": false,
+"hex": false,
+"ebc_lower": false,
+"ebc_text": false
+}
+},
+{
+"test": "concat",
+"s": "FAED+DBBI_rev",
+"ndig": 661,
+"pratio": 0.404,
+"top_byte": 7,
+"feasible_any_map": {
+"lower": false,
+"printnl": true,
+"b64": false,
+"hex": false,
+"ebc_lower": false,
+"ebc_text": false
+}
+},
+{
+"test": "concat",
+"s": "Z1Z2DBBIFAED_rev",
+"ndig": 753,
+"pratio": 0.361,
+"top_byte": 16,
+"feasible_any_map": {
+"lower": false,
+"printnl": true,
+"b64": false,
+"hex": false,
+"ebc_lower": false,
+"ebc_text": true
+}
+},
+{
+"test": "concat",
+"s": "DBBIFAEDZ1Z2_rev",
+"ndig": 753,
+"pratio": 0.351,
+"top_byte": 36,
+"feasible_any_map": {
+"lower": false,
+"printnl": true,
+"b64": false,
+"hex": false,
+"ebc_lower": false,
+"ebc_text": true
+}
+}
+]

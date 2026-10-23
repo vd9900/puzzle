@@ -20,8 +20,8 @@
   },
   "graph_effect": "Delete direct Bifid-string-to-BIP39/BIP32 edges. Retain an unknown transform from complete Bifid570 to an unspecified downstream type.",
   "source_evidence": [
-    {"path": "research/sources/bip39-structural-excerpt.txt", "sha256": "8802ae9c242a6d8c54cce7f5850104a7b3871e5867b28a969c0dfebda50fff16"},
-    {"path": "research/sources/bip32-structural-excerpt.txt", "sha256": "d88ab705a041b3e998f581065fdd4a97512ede8ee4c30a2de19bb65d3db5f09d"}
+    {"path": "research/artifacts/cycle28/bip39-structural-excerpt.txt", "sha256": "8802ae9c242a6d8c54cce7f5850104a7b3871e5867b28a969c0dfebda50fff16"},
+    {"path": "research/artifacts/cycle28/bip32-structural-excerpt.txt", "sha256": "d88ab705a041b3e998f581065fdd4a97512ede8ee4c30a2de19bb65d3db5f09d"}
   ],
   "reproduction": {
     "command": "python3 -m tools.btcseed_format_contract",

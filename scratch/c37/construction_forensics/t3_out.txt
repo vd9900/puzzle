@@ -1,0 +1,9 @@
+planted round-trip control: 36/36
+candidates: 108
+ printable=0.53 dbbi_rev radix=25 len=53 salted=False hex=False b64=False head=37be7c1c592ab48ad7e822514f8dd5bc
+ printable=0.51 res60_rev radix=36 len=39 salted=False hex=False b64=False head=152c0f3f567c5f86795b11c44de831cd
+ printable=0.50 res60 radix=22 len=34 salted=False hex=False b64=False head=0774b00f7c933e6d304fbec9edf03c5e
+ printable=0.50 dbbi_rev radix=23 len=52 salted=False hex=False b64=False head=07e18ee7ccf94b182960af60374f6fab
+ printable=0.50 dbbi radix=21 len=50 salted=False hex=False b64=False head=86422ccc4a77c86af6ca61b5461ebf7e
+ printable=0.47 res60_rev radix=23 len=34 salted=False hex=False b64=False head=4edaa26f4cc63224ce5498dcd5f18a9e
+any Salted__/hex/b64-charset hit: False

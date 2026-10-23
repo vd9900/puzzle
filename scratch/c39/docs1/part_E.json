@@ -1,0 +1,762 @@
+{
+ "catalog": [
+  {
+   "path": "export_files/1693829785.3582788-b35f58f57ab504994ae0e020703e925a.txt",
+   "bytes": 4095,
+   "kind": "binary_stub",
+   "summary": "Binary file lost in text conversion (all U+FFFD replacement chars); content unrecoverable from this text",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/salph.html.txt",
+   "bytes": 4080,
+   "kind": "puzzle_page",
+   "summary": "Saved copy of the official SalPhaseIon page: dbbi/faed letter grid with embedded 'shabefourfirsthintisyourlastcommand', SalPhaseIon AES blob, 'shabefanstoo', plus the Cosmic Duality AES blob (1328-byte ciphertext); matches known page",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/bytes.txt.txt",
+   "bytes": 3876,
+   "kind": "data_dump",
+   "summary": "1292 space-separated hex bytes, all odd values 0x07..0x39 (26 symbols, (x-7)/2 -> a..z), near-uniform letter distribution; no provenance or method stated",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/semifinal.py.txt",
+   "bytes": 3671,
+   "kind": "solver_script",
+   "summary": "Generic secp256k1 feature-extraction experiment on random keys (writes CSV of point-addition intermediates); not GSMG-data specific",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/3_GSMGIO.zip__3_GSMGIO_3_ph3_aes_2.txt.txt",
+   "bytes": 3315,
+   "kind": "puzzle_data",
+   "summary": "Phase 3 AES blob (U2FsdGVkX1/u/Exb78...) = known official Phase 3 ciphertext (research/artifacts/phase3.txt)",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/Step_one.docx.txt",
+   "bytes": 2888,
+   "kind": "notes",
+   "summary": "Someone's brute-force plan: path traversal / image-name guessing on gsmg.io, pixel->bit maps (purple 'brute force'), sha256 line-by-line -> WIF; no results",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/3_GSMGIO.zip__3_GSMGIO_1_1_analysis.py.txt",
+   "bytes": 2816,
+   "kind": "solver_script",
+   "summary": "Phase 1 14x14 spiral (counter/clockwise) bit->ASCII decoder; reproduces known Phase 1 solution",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/sa.py.txt",
+   "bytes": 2452,
+   "kind": "solver_script",
+   "summary": "Random search of a partially masked hex private key (23d4a092...x6x4x1x0xb) for address 1JRW4d8vHZseMEtYbgJ7MwPG1TasHUUVNq; unrelated to GSMG prize",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/3_GSMGIO.zip__3_GSMGIO_GSMGPUZZLE.py.txt",
+   "bytes": 2339,
+   "kind": "solver_script",
+   "summary": "LLM-style fake CTF script: base64 'R1NNR3tWY05vdmV9' -> 'GSMG{VcNove}', sha256, -1337, bit reversal, 'flag'; references truncated 'https://gsmg.io/theseedispland'; no puzzle basis",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/finder.py.txt",
+   "bytes": 2254,
+   "kind": "solver_script",
+   "summary": "BIP39 12-word combinatorial search with hand-picked themed words per position; guessing loop, no anchor",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/12-addresses.txt.txt",
+   "bytes": 1931,
+   "kind": "data_dump",
+   "summary": "'cosmic_correct_12addrs' list: 39 P2PKH addresses derived from a disputed Cosmic Duality 'decrypt' (block[16:32]||BE32(X) -> Base58Check); header itself marks it UNVERIFIED (Naddiseo: 1/256 PKCS#7 false positive, 'cosmic_A.bin made up by llms')",
+   "author": null,
+   "date": "parsed 2026-10-11"
+  },
+  {
+   "path": "export_files/dbbi_sum_faed.py.txt",
+   "bytes": 1899,
+   "kind": "solver_script",
+   "summary": "dbbi as upper triangle of symmetric 14x14 matrix (91=C(14,2)) -> row-sum key K; faed in 38 rows of 15 -> row sums R; chr((R^K)%26+65); three zeroing variants S/L/H",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/hexro3.py.txt",
+   "bytes": 1769,
+   "kind": "solver_script",
+   "summary": "Hex string/byte-order reversal utility over an input list; generic",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/ppp.py.txt",
+   "bytes": 1569,
+   "kind": "solver_script",
+   "summary": "Enumerates arithmetic expressions of 1,2,3,4 (+,*,-,inverse,//) mod n as keys; guessing loop",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/3_GSMGIO.zip.txt",
+   "bytes": 1530,
+   "kind": "other",
+   "summary": "Listing of a 530 KB community zip (dated 2023-09 by screenshot names): Phase 1-3 working files, decentraLandHint_GSMGIO.jpg, TXs.txt, try_phas3.sh, Solving.txt, AES blobs",
+   "author": null,
+   "date": "2023-09-16/17 (screenshot names)"
+  },
+  {
+   "path": "export_files/rabbit.py.txt",
+   "bytes": 1488,
+   "kind": "solver_script",
+   "summary": "Phase 1 spiral decoder (b->1, y->0) of the 14x14 grid; known solved",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/primetest.py.txt",
+   "bytes": 1356,
+   "kind": "other",
+   "summary": "Toy RSA example with tiny primes; irrelevant",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/key.py.txt",
+   "bytes": 1304,
+   "kind": "solver_script",
+   "summary": "faed as 30x19 grid, a..i=1..9 row sums; prime row sums -> chr; (own re-run gives 'keYmgma' = noise)",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/gsmgio_bunny_nest.py.txt",
+   "bytes": 1133,
+   "kind": "solver_script",
+   "summary": "Phase 1 grid matrix with the central white 2x2 (rows/cols 7-8) relabelled 'r' (rabbit 'nest'); data only",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/knight_walkV2.docx.txt",
+   "bytes": 1117,
+   "kind": "solver_script",
+   "summary": "Fragment of a parallel DFS searching knight/Hamiltonian walks on an HxW grid driven by a token sequence (Russian comments); no results",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/encrypt_prime.py.txt",
+   "bytes": 1018,
+   "kind": "other",
+   "summary": "Toy modular-exponent 'prime encryption' example; irrelevant",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/puzzle.py.txt",
+   "bytes": 997,
+   "kind": "solver_script",
+   "summary": "Plots Phase 1 14x14 grid (0 white,1 black,2 blue,3 yellow,4 gray; one gray cell at row 8 col 5)",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/matrix-animation.patch.txt",
+   "bytes": 939,
+   "kind": "other",
+   "summary": "Diff of a community 'salphaseion.html' with a Matrix-rain animation (CSS fix); not the official page",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/3_GSMGIO.zip__3_GSMGIO_2_ph2_aes_1.txt.txt",
+   "bytes": 910,
+   "kind": "puzzle_data",
+   "summary": "Phase 2 AES blob (U2FsdGVkX18GKGYS...) = known official ciphertext",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/blueyellow.cpp.txt",
+   "bytes": 891,
+   "kind": "solver_script",
+   "summary": "Prints inverted yellow-cell mask of the 14x14 grid in reverse order",
+   "author": "barrystyle",
+   "date": "11092023 (2023-09-11)"
+  },
+  {
+   "path": "export_files/Results.html.txt",
+   "bytes": 673,
+   "kind": "data_dump",
+   "summary": "Colour census of Phase 1 image: black 44.63%, white 43.12%, blue #3F48CC 7.65% (=15/196), yellow #FFF200 4.59% (=9/196)",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/3_GSMGIO.zip__3_GSMGIO_matrix_rabbit.txt.txt",
+   "bytes": 512,
+   "kind": "other",
+   "summary": "16x16 w/b/u sketch of a rabbit shape (community drawing), 'u' = unused",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/lyrics.txt.txt",
+   "bytes": 474,
+   "kind": "notes",
+   "summary": "Lyrics of Logic 'The Warning' (Phase 1 song); known",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/3_GSMGIO.zip__3_GSMGIO_1_1_color_14_14_matrix.txt.txt",
+   "bytes": 392,
+   "kind": "puzzle_data",
+   "summary": "Phase 1 14x14 colour grid (k/w/b/y); known",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/brut.zip__readme.txt.txt",
+   "bytes": 343,
+   "kind": "notes",
+   "summary": "Readme of a Java openssl-aes-256-cbc dictionary brute-forcer (password = sha256(word)); includes the tool author's tip address",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/brut.zip.txt",
+   "bytes": 289,
+   "kind": "other",
+   "summary": "Listing of brut.zip (2020-05-09 per zip header): brut.jar, 3.2 MB dictionary.txt, phase2.txt (910 B), phase3.2.3.txt (130 B)",
+   "author": null,
+   "date": "2020-05-09 (zip DOS date)"
+  },
+  {
+   "path": "export_files/prime.py.txt",
+   "bytes": 277,
+   "kind": "other",
+   "summary": "Prints primes and their binary; trivial",
+   "author": "baz",
+   "date": "08092023 (2023-09-08)"
+  },
+  {
+   "path": "export_files/archive.tar.xz__._choiceisanillusioncreatedbetweenthosewithpowerandthosewithoutaveryspecialdessertiwroteitmyself.html.txt",
+   "bytes": 243,
+   "kind": "metadata",
+   "summary": "macOS AppleDouble resource fork (Telegram quarantine attr) for the saved Phase 2 page; no content",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/game.html.txt",
+   "bytes": 206,
+   "kind": "other",
+   "summary": "Community 'Pixel Rearrange Puzzle' web toy stating 86 black, 9 yellow, 15 blue blocks",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/messages.zip.txt",
+   "bytes": 198,
+   "kind": "other",
+   "summary": "Listing of messages.zip (7.9 MB messages.txt chat export; zip dated 2026-07-08); text version is messages.zip__messages.txt.txt",
+   "author": null,
+   "date": "2026-07-08 (zip DOS date)"
+  },
+  {
+   "path": "export_files/3_GSMGIO.zip__3_GSMGIO_3_use_hashcat.sh.txt",
+   "bytes": 193,
+   "kind": "solver_script",
+   "summary": "Commented hashcat mask lines (-m 17030 / -m 22400, 4 base58 chars); no results",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/sc.jar__META-INF_MANIFEST.MF.txt",
+   "bytes": 162,
+   "kind": "binary_stub",
+   "summary": "Part of sc.jar, a Java GUI straddling-checkerboard tool (main.MainWindow/StraddlingCheckerboard/Mode); only class-file header stub",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/sc.jar__main_MainWindow.class.txt",
+   "bytes": 158,
+   "kind": "binary_stub",
+   "summary": "Part of sc.jar, a Java GUI straddling-checkerboard tool (main.MainWindow/StraddlingCheckerboard/Mode); only class-file header stub",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/sc.jar__main_StraddlingCheckerboard.class.txt",
+   "bytes": 158,
+   "kind": "binary_stub",
+   "summary": "Part of sc.jar, a Java GUI straddling-checkerboard tool (main.MainWindow/StraddlingCheckerboard/Mode); only class-file header stub",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/sc.jar__org_eclipse_jdt_internal_jarinjarloader_JarRsrcLoader.class.txt",
+   "bytes": 158,
+   "kind": "binary_stub",
+   "summary": "Part of sc.jar, a Java GUI straddling-checkerboard tool (main.MainWindow/StraddlingCheckerboard/Mode); only class-file header stub",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/sc.jar__org_eclipse_jdt_internal_jarinjarloader_RsrcURLStreamHandler.class.txt",
+   "bytes": 158,
+   "kind": "binary_stub",
+   "summary": "Part of sc.jar, a Java GUI straddling-checkerboard tool (main.MainWindow/StraddlingCheckerboard/Mode); only class-file header stub",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/sc.jar__main_MainWindow_2.class.txt",
+   "bytes": 157,
+   "kind": "binary_stub",
+   "summary": "Part of sc.jar, a Java GUI straddling-checkerboard tool (main.MainWindow/StraddlingCheckerboard/Mode); only class-file header stub",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/sc.jar__main_MainWindow_5.class.txt",
+   "bytes": 157,
+   "kind": "binary_stub",
+   "summary": "Part of sc.jar, a Java GUI straddling-checkerboard tool (main.MainWindow/StraddlingCheckerboard/Mode); only class-file header stub",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/sc.jar__main_MainWindow_7.class.txt",
+   "bytes": 157,
+   "kind": "binary_stub",
+   "summary": "Part of sc.jar, a Java GUI straddling-checkerboard tool (main.MainWindow/StraddlingCheckerboard/Mode); only class-file header stub",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/sc.jar__main_Mode.class.txt",
+   "bytes": 157,
+   "kind": "binary_stub",
+   "summary": "Part of sc.jar, a Java GUI straddling-checkerboard tool (main.MainWindow/StraddlingCheckerboard/Mode); only class-file header stub",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/4E.txt",
+   "bytes": 159,
+   "kind": "binary_stub",
+   "summary": "21910-byte binary stub (starts 01000000ff00...); unknown format, only hex head",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/output_rgb.bin.txt",
+   "bytes": 159,
+   "kind": "binary_stub",
+   "summary": "4.9 MB raw RGB dump stub (starts with ff bytes); likely image pixels",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/Gsmg_Salt_Checker.zip__openssl.exe.txt",
+   "bytes": 158,
+   "kind": "binary_stub",
+   "summary": "Windows openssl.exe inside 'Gsmg_Salt_Checker.zip' (untrusted executable; do not run)",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/1693829786.1162019-210117460f308cdaec9ec561ad93d164.txt",
+   "bytes": 157,
+   "kind": "binary_stub",
+   "summary": "PNG 78x70, 996 B = Phase 2 page image 'black_banking - war.png' (matches exif metadata files)",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/Gsmg_Salt_Checker.zip__Gsmg_Salt_Checker.exe.txt",
+   "bytes": 157,
+   "kind": "binary_stub",
+   "summary": "12 KB Windows exe 'Gsmg_Salt_Checker' (untrusted; do not run)",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/puzzle.bin.txt",
+   "bytes": 157,
+   "kind": "binary_stub",
+   "summary": "PNG 1048x1556 (59 KB) stub; unknown community image",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/4E.zlib.txt",
+   "bytes": 156,
+   "kind": "binary_stub",
+   "summary": "918-byte zlib stream stub (related to 4E.txt); undecodable from stub",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/dbbi_570_character.mid.txt",
+   "bytes": 156,
+   "kind": "binary_stub",
+   "summary": "MIDI rendering of the 570-char faed block (music hypothesis)",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/tune_91.midi.txt",
+   "bytes": 156,
+   "kind": "binary_stub",
+   "summary": "MIDI 'Tune-91' rendering of the 91-char dbbi block (music hypothesis)",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/salphaseion_plain_79.bin.txt",
+   "bytes": 154,
+   "kind": "binary_stub",
+   "summary": "79-byte 'plaintext' claimed from a SalPhaseIon-size blob (80-byte ct -> 1-byte 0x01 padding); head 210b88cfae81... is random-looking",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/3_GSMGIO.zip__3_GSMGIO_3_ph3_aes_3.txt.txt",
+   "bytes": 130,
+   "kind": "puzzle_data",
+   "summary": "Phase 3.2 inner AES blob (U2FsdGVkX1+0Wl49...) = known, unsolved",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/3_GSMGIO.zip__3_GSMGIO_EXTRA_extra_aes_1.txt.txt",
+   "bytes": 130,
+   "kind": "puzzle_data",
+   "summary": "SalPhaseIon AES blob (U2FsdGVkX186tYU0...) = known, unsolved",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/GSMG_Puzzle_1.html.txt",
+   "bytes": 115,
+   "kind": "other",
+   "summary": "Community mock page (Portuguese placeholder title) with a password form; not official",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/3_GSMGIO.zip__3_GSMGIO_2_MakeFormVisible.html.txt",
+   "bytes": 99,
+   "kind": "puzzle_page",
+   "summary": "Saved Phase 1 page with hidden password form made visible; text empty after conversion",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/archive.tar.xz__theseedisplanted.html.txt",
+   "bytes": 70,
+   "kind": "puzzle_page",
+   "summary": "Saved gsmg.io/theseedisplanted page; text empty after conversion",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/constants.cu.txt",
+   "bytes": 69,
+   "kind": "other",
+   "summary": "CUDA constant stub; trivial",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/brut.zip__test.txt.txt",
+   "bytes": 27,
+   "kind": "other",
+   "summary": "Test dictionary for brut.jar: 'blabla','abbsconv','causality' (causality = known Phase 3 password)",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/fileaccessdate.txt",
+   "bytes": 25,
+   "kind": "metadata",
+   "summary": "Single exiftool field of a community-analysed PNG (Phase 2 image 'black_banking - war.png' family): 2023:09:03 20:12:43-07:00",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/fileinodechangedate.txt",
+   "bytes": 25,
+   "kind": "metadata",
+   "summary": "Single exiftool field of a community-analysed PNG (Phase 2 image 'black_banking - war.png' family): 2023:09:03 20:12:42-07:00",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/filemodifydate.txt",
+   "bytes": 25,
+   "kind": "metadata",
+   "summary": "Single exiftool field of a community-analysed PNG (Phase 2 image 'black_banking - war.png' family): 2023:08:13 19:32:49-07:00",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/filename_1_.txt",
+   "bytes": 23,
+   "kind": "metadata",
+   "summary": "Single exiftool field of a community-analysed PNG (Phase 2 image 'black_banking - war.png' family): black_banking - war.png",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/compression.txt",
+   "bytes": 15,
+   "kind": "metadata",
+   "summary": "Single exiftool field of a community-analysed PNG (Phase 2 image 'black_banking - war.png' family): Deflate/Inflate",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/interlace.txt",
+   "bytes": 13,
+   "kind": "metadata",
+   "summary": "Single exiftool field of a community-analysed PNG (Phase 2 image 'black_banking - war.png' family): Noninterlaced",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/filesize.txt",
+   "bytes": 10,
+   "kind": "metadata",
+   "summary": "Single exiftool field of a community-analysed PNG (Phase 2 image 'black_banking - war.png' family): 1958 bytes",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/filesize_1_.txt",
+   "bytes": 9,
+   "kind": "metadata",
+   "summary": "Single exiftool field of a community-analysed PNG (Phase 2 image 'black_banking - war.png' family): 996 bytes",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/filter.txt",
+   "bytes": 8,
+   "kind": "metadata",
+   "summary": "Single exiftool field of a community-analysed PNG (Phase 2 image 'black_banking - war.png' family): Adaptive",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/pixelunits.txt",
+   "bytes": 6,
+   "kind": "metadata",
+   "summary": "Single exiftool field of a community-analysed PNG (Phase 2 image 'black_banking - war.png' family): meters",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/imagesize_1_.txt",
+   "bytes": 5,
+   "kind": "metadata",
+   "summary": "Single exiftool field of a community-analysed PNG (Phase 2 image 'black_banking - war.png' family): 78x70",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/megapixels_1_.txt",
+   "bytes": 5,
+   "kind": "metadata",
+   "summary": "Single exiftool field of a community-analysed PNG (Phase 2 image 'black_banking - war.png' family): 0.005",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/filetype.txt",
+   "bytes": 3,
+   "kind": "metadata",
+   "summary": "Single exiftool field of a community-analysed PNG (Phase 2 image 'black_banking - war.png' family): PNG",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/imageheight.txt",
+   "bytes": 3,
+   "kind": "metadata",
+   "summary": "Single exiftool field of a community-analysed PNG (Phase 2 image 'black_banking - war.png' family): 350",
+   "author": null,
+   "date": null
+  },
+  {
+   "path": "export_files/bitdepth.txt",
+   "bytes": 1,
+   "kind": "metadata",
+   "summary": "Single exiftool field of a community-analysed PNG (Phase 2 image 'black_banking - war.png' family): 8",
+   "author": null,
+   "date": null
+  }
+ ],
+ "leads": [
+  {
+   "source": "export_files/12-addresses.txt.txt",
+   "category": "claimed_solution",
+   "claim": "'cosmic_correct' route: Cosmic Duality blob 'decrypted' (cosmic_decrypted.bin) -> 39 x 32-byte blocks -> address payload block[16:32]||BE32(X) -> 39 Base58Check P2PKH addresses (file name says 12: '7x1H + 5x1B = 12 unique', issue #91)",
+   "exact_strings": [
+    "1L55BVVMXeDqxTTHTPKRm9FJ4dJtXRC5L8",
+    "1EK6QiT9N2E6YeeBaFixVUwr1rnd3k6CgN",
+    "1FckYuvbndPHpR2mSEhQ8bXufHHa7obhoB"
+   ],
+   "method": "AES (openssl) decrypt of the Cosmic blob with an unstated password, then fixed block slicing",
+   "checkable": "partial",
+   "self_verifying": "NOT self-verifying as given: Base58Check checksums are computed by the solver, so every 20-byte payload yields a 'valid' address. Real test = re-decrypt the 1328-byte Cosmic ciphertext with the claimed password and check padding beyond 1 byte + plaintext structure/entropy; a random 0x01 pad hits 1/256. Optional: any on-chain history on these addresses would be informative.",
+   "known_status": "unclear",
+   "priority": 2
+  },
+  {
+   "source": "export_files/salphaseion_plain_79.bin.txt",
+   "category": "decode_result",
+   "claim": "A 79-byte 'plaintext' from the SalPhaseIon-size blob (80-byte ciphertext) i.e. 1-byte PKCS#7 pad",
+   "exact_strings": [
+    "210b88cfae8141528f323b24c2d311d555067d2849e7812b12873e16857c359609b95e48cd758e1d3dce884972e5e90e9b186f5814716f45b9cc8a837f068614"
+   ],
+   "method": "unstated password/KDF",
+   "checkable": "partial",
+   "self_verifying": "Head bytes are high-entropy, not text: classic 1/256 single-byte-padding false positive unless the password is shown and the bytes have structure",
+   "known_status": "unclear",
+   "priority": 4
+  },
+  {
+   "source": "export_files/dbbi_sum_faed.py.txt",
+   "category": "procedure",
+   "claim": "dbbi (91 = C(14,2)) as upper triangle of a symmetric 14x14 matrix; row sums = 14-value key; faed rows of 15 summed (38 values); chr((R xor K) mod 26 + 65)",
+   "exact_strings": [
+    "S: JLIQFOPGVBLSENDTHECZAGJJYDSWCGUDJNFTWB",
+    "H: OLIQUBROVQLTOSETHEXQYOJSSICJFGUDCCVBWQ",
+    "L: JLUPFLPGLBLUENETDICZAGAJQDSWCGUDONFHWB"
+   ],
+   "method": "own re-implementation run 2026-10-13 (mycheck/quick_rowsum.py)",
+   "checkable": "yes",
+   "self_verifying": "Ran it: S contains 'SENDTHE' at pos 11-17 but the rest is gibberish; ad-hoc decoder with many free choices (xor vs add, mod 26, widths 14/15, zeroing variants) -> look-elsewhere; not self-verifying. dbbi-as-triangle idea already explored in research/evidence/cycle02/_work__matrixtri.py",
+   "known_status": "already_exhausted",
+   "priority": 4
+  },
+  {
+   "source": "export_files/key.py.txt",
+   "category": "procedure",
+   "claim": "faed in 30 rows x 19 cols, a..i=1..9; prime row sums -> ASCII",
+   "exact_strings": [
+    "keYmgma"
+   ],
+   "method": "own re-implementation",
+   "checkable": "yes",
+   "self_verifying": "Ran it: prime row sums 107,101,89,109,103,109,97 -> 'keYmgma' = noise",
+   "known_status": "already_exhausted",
+   "priority": 5
+  },
+  {
+   "source": "export_files/bytes.txt.txt",
+   "category": "decode_result",
+   "claim": "Unexplained 1292-byte sequence restricted to 26 odd values 0x07-0x39 (bijective with a-z via (x-7)/2)",
+   "exact_strings": [
+    "13 39 1f 2f 0f 39 15 15 27 07 ..."
+   ],
+   "method": "none stated",
+   "checkable": "no",
+   "self_verifying": "Mapped to letters it is near-uniform (no English); no source/method; cannot verify",
+   "known_status": "unclear",
+   "priority": 5
+  },
+  {
+   "source": "export_files/brut.zip.txt",
+   "category": "interpretation",
+   "claim": "2020-era community tooling assumed openssl aes-256-cbc with password = sha256(word) hex for Phase 2 and 'phase3.2.3' (130-byte = 80-byte-ct blob); test dict includes 'causality'",
+   "exact_strings": [
+    "phase3.2.3.txt",
+    "causality",
+    "abbsconv"
+   ],
+   "method": "dictionary attack",
+   "checkable": "no",
+   "self_verifying": "Tool only; the KDF convention (sha256 hex as openssl passphrase) is the known solved-stage convention",
+   "known_status": "known_solved",
+   "priority": 5
+  },
+  {
+   "source": "export_files/Step_one.docx.txt",
+   "category": "procedure",
+   "claim": "Plan: path/image-name guessing on gsmg.io; colour->bit maps with purple unknown; sha256(line)->WIF; submitting hashes to 'gsms.io/hash' or a site bot",
+   "exact_strings": [
+    "gsms.io/hash"
+   ],
+   "method": "brute force",
+   "checkable": "no",
+   "self_verifying": "No results; guessing family (doors/hash submissions already exhausted)",
+   "known_status": "already_exhausted",
+   "priority": 5
+  },
+  {
+   "source": "export_files/3_GSMGIO.zip__3_GSMGIO_GSMGPUZZLE.py.txt",
+   "category": "claimed_solution",
+   "claim": "Fake 'flag' pipeline (GSMG{VcNove}, -1337, bit reversal) - LLM-style fabrication",
+   "exact_strings": [
+    "R1NNR3tWY05vdmV9",
+    "GSMG{VcNove}",
+    "aHR0cHM6Ly9nc21nLmlvL3RoZXNlZWRpc3BsYW5k"
+   ],
+   "method": "none",
+   "checkable": "no",
+   "self_verifying": "No grounding in puzzle data; ignore",
+   "known_status": "unclear",
+   "priority": 5
+  },
+  {
+   "source": "export_files/sa.py.txt",
+   "category": "key_address_hash",
+   "claim": "Masked private key search for an unrelated address",
+   "exact_strings": [
+    "23d4a09295be678b21a5f1dceae1f634a69c1b41775f680ebf8165x6x4x1x0xb",
+    "1JRW4d8vHZseMEtYbgJ7MwPG1TasHUUVNq"
+   ],
+   "method": "random fill of 7 hex nibbles",
+   "checkable": "no",
+   "self_verifying": "Not the GSMG prize address; unrelated puzzle",
+   "known_status": "unclear",
+   "priority": 5
+  },
+  {
+   "source": "export_files/game.html.txt",
+   "category": "interpretation",
+   "claim": "Image block counts stated as 86 black, 9 yellow, 15 blue (white = 86 by subtraction)",
+   "exact_strings": [
+    "86 Black, 9 Yellow, 15 Blue"
+   ],
+   "method": "count",
+   "checkable": "yes",
+   "self_verifying": "Trivially checkable vs 14x14 grid; blue/yellow match known 15/9",
+   "known_status": "known_solved",
+   "priority": 5
+  }
+ ],
+ "creator_message_claims": []
+}

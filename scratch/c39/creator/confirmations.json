@@ -1,0 +1,1540 @@
+{
+ "meta": {
+  "source": "data/user_supplied/telegram/creator_contexts.txt (492 creator msgs, 2019-04-20..2026-09-01)",
+  "generated": "2026-10-13",
+  "notes": "Personal details about the creator or others (family, locations, travel, health, identity, external sites) deliberately omitted or redacted. Quotes truncated to <=40 words. 'reading' values: confirmed / denied / partly / ambiguous / joke / no answer / deflect / hint / statement."
+ },
+ "responses_to_claims": [
+  {
+   "creator_msg_id": 77,
+   "date": "2019-04-20",
+   "claim_or_question": "How you know? There is no transaction at address.",
+   "creator_response": "The first part. Maybe the puzzle has multiple stages 😉.",
+   "reading": "confirmed",
+   "note": "multi-stage design"
+  },
+  {
+   "creator_msg_id": 79,
+   "date": "2019-04-20",
+   "claim_or_question": "You said puzzle is private key from address with 5 BTC",
+   "creator_response": "It is.",
+   "reading": "confirmed",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 663,
+   "date": "2019-05-08",
+   "claim_or_question": "How many phase are there like 5",
+   "creator_response": "Nobody knows",
+   "reading": "deflect",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 869,
+   "date": "2019-05-18",
+   "claim_or_question": "Phase 3 is the 2nd aes right?",
+   "creator_response": "Correct.",
+   "reading": "confirmed",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 874,
+   "date": "2019-05-18",
+   "claim_or_question": "phase2 is a pwd for phase3 ... u told about solution of phase3 for next stage?",
+   "creator_response": "The issue is within the 3th phase. Not in going from 2 to 3. / Once you have to work with give(t)it you'll know.",
+   "reading": "confirmed",
+   "note": "givetit typo is inside Phase 3"
+  },
+  {
+   "creator_msg_id": 886,
+   "date": "2019-05-18",
+   "claim_or_question": "did they get the first part of treasure？",
+   "creator_response": "Nope",
+   "reading": "denied",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 896,
+   "date": "2019-05-18",
+   "claim_or_question": "Probably noticed activity on the webpage",
+   "creator_response": "No, they reaced out to me on tg and send me proof of them passing the stages.",
+   "reading": "denied",
+   "note": "no web-log monitoring (repeated 2021-03-14 #6497)"
+  },
+  {
+   "creator_msg_id": 898,
+   "date": "2019-05-18",
+   "claim_or_question": "Do you give them any hint",
+   "creator_response": "No hints after stage 2 (except the 't' to fix my stupid mistake)",
+   "reading": "denied",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 950,
+   "date": "2019-05-27",
+   "claim_or_question": "literaly, plug up your microphone and sing the song. magic will happen",
+   "creator_response": "Not completely, voice recognition might even work to pass although I'd copy past the answer as it's faster",
+   "reading": "partly",
+   "note": "Phase 1 form"
+  },
+  {
+   "creator_msg_id": 961,
+   "date": "2019-05-28",
+   "claim_or_question": "How many phase in this puzlle? / Like 4? ... 4th phase which I think is the final one",
+   "creator_response": "Nobody knows.",
+   "reading": "deflect",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 1210,
+   "date": "2019-06-27",
+   "claim_or_question": "yeah that I found already before also with the planted things 😉",
+   "creator_response": "🌱 then 🛣",
+   "reading": "tease/confirm",
+   "note": "theseedisplanted"
+  },
+  {
+   "creator_msg_id": 1416,
+   "date": "2019-08-10",
+   "claim_or_question": "all known solutions solded for 0.05btc ... one TG group it was",
+   "creator_response": "You'll only know when you've solved that part.",
+   "reading": "ambiguous",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 1448,
+   "date": "2019-09-04",
+   "claim_or_question": "a way to get the password for the last aes similar to the previous? (sha256...)",
+   "creator_response": "Still no hints ;-)",
+   "reading": "no answer",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 1465,
+   "date": "2019-09-22",
+   "claim_or_question": "[Phase 2 aes1 password] Is it long?",
+   "creator_response": "7 parts right?",
+   "reading": "confirmed",
+   "note": "Phase 2 password has 7 parts"
+  },
+  {
+   "creator_msg_id": 1487,
+   "date": "2019-09-26",
+   "claim_or_question": "Where did @SoWut say that we need to find a missing piece somewhere not referenced in the puzzle text up to the ciphers in 3.2/4? ... actual fact",
+   "creator_response": "There may indeed a piece be found outside the main puzzle.",
+   "reading": "confirmed",
+   "note": "pre-dates Decentraland/SalPhaseIon"
+  },
+  {
+   "creator_msg_id": 1651,
+   "date": "2020-01-05",
+   "claim_or_question": "Is this the hint? :D [cake photo = Matrix Reloaded Merovingian dessert]",
+   "creator_response": "No, it's a dessert",
+   "reading": "denied/joke",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 1680,
+   "date": "2020-01-12",
+   "claim_or_question": "So is the \"dessert\" hint confirmed as being one for phase 2? ... has anybody actually benefitted from it?",
+   "creator_response": "👆 (replying to his own 'Note: I might be in a trolling mood.')",
+   "reading": "denied",
+   "note": "cake was a troll; #1703 'not trolling with scripted cake this time'"
+  },
+  {
+   "creator_msg_id": 1703,
+   "date": "2020-01-13",
+   "claim_or_question": "Can the powers that be confirm that phase 2 is actually needed to solve the final part 3.2?",
+   "creator_response": "Hint to be expected within a few days. Note: not trolling with scripted cake this time.",
+   "reading": "no answer",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 1726,
+   "date": "2020-01-27",
+   "claim_or_question": "Besides the \"givetit\" mistake, are there any other confirmed spelling/gramatical errors? Phase 3.2",
+   "creator_response": "Might have been fixed fyi 👆",
+   "reading": "confirmed",
+   "note": "pages silently edited after release"
+  },
+  {
+   "creator_msg_id": 1729,
+   "date": "2020-01-27",
+   "claim_or_question": "would the misspellings in the garbled text also require some fixing?",
+   "creator_response": "Would be nice, not required",
+   "reading": "denied",
+   "note": "fixing garbled-text misspellings not required"
+  },
+  {
+   "creator_msg_id": 1779,
+   "date": "2020-02-22",
+   "claim_or_question": "How many stages are there?",
+   "creator_response": "Don't know",
+   "reading": "deflect",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 1806,
+   "date": "2020-02-22",
+   "claim_or_question": "I bet even the typo doesnt matter!",
+   "creator_response": "Typos: Horrible mistakes due to rushed work... No clues to be found in those typos might you wonder 😉.",
+   "reading": "confirmed",
+   "note": "typos carry no clues"
+  },
+  {
+   "creator_msg_id": 1837,
+   "date": "2020-02-22",
+   "claim_or_question": "Jrk Bgrt are you only have one parcel ? The interactive mode show me nothing.",
+   "creator_response": "Only -41,-17 matters",
+   "reading": "confirmed",
+   "note": "Decentraland"
+  },
+  {
+   "creator_msg_id": 1895,
+   "date": "2020-02-25",
+   "claim_or_question": "[reply to deleted msg; Decentraland context]",
+   "creator_response": "Not sponsored, just see it as a side quest",
+   "reading": "ambiguous",
+   "note": "Decentraland called a 'side quest'"
+  },
+  {
+   "creator_msg_id": 2013,
+   "date": "2020-02-25",
+   "claim_or_question": "Than why the BTC sitring on GSMG address?",
+   "creator_response": "3.2 is a thing btw",
+   "reading": "hint",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 2017,
+   "date": "2020-02-25",
+   "claim_or_question": "There's no clear direction on what to do next, and probably invokes time consuming brute force",
+   "creator_response": "Or nobody found the direction",
+   "reading": "denied",
+   "note": "implicit: no brute force"
+  },
+  {
+   "creator_msg_id": 2020,
+   "date": "2020-02-25",
+   "claim_or_question": "Because 3.2 and missed piece is not final of puzzle / Or that",
+   "creator_response": "But I should shut up ofcourse 😁",
+   "reading": "implicit confirm",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 2023,
+   "date": "2020-02-25",
+   "claim_or_question": "everything is GIVEN",
+   "creator_response": "I'd dive in the puzzle from the beginning before making assumptions",
+   "reading": "deflect",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 2026,
+   "date": "2020-02-25",
+   "claim_or_question": "And where are they?",
+   "creator_response": "Don't know but most see 3.2 as the last part.",
+   "reading": "hint",
+   "note": "3.2 is not the last part"
+  },
+  {
+   "creator_msg_id": 2905,
+   "date": "2020-03-25",
+   "claim_or_question": "1. rabbit hole marked (rabbit looking to this point). 2. usual spiral solve showed. 3. rabbit nest is white box at center.",
+   "creator_response": "Interesting 😜",
+   "reading": "ambiguous/tease",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 2910,
+   "date": "2020-03-25",
+   "claim_or_question": "is the complete pk hidden in the final chapter ... or the pk is also divided into pieces",
+   "creator_response": "Answering that would be too much of a hint.",
+   "reading": "no answer",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 2918,
+   "date": "2020-03-25",
+   "claim_or_question": "you confirmed that the PK is in the last cipher of 3.2 decoded. Can you confirm?",
+   "creator_response": "There must at least be something hidden in there.",
+   "reading": "partly confirmed",
+   "note": "last 3.2 cipher contains something"
+  },
+  {
+   "creator_msg_id": 3338,
+   "date": "2020-04-08",
+   "claim_or_question": "audio has hint to solve which phase of puzzle? And your January hint was for which phase?",
+   "creator_response": "Those hints are the last hints. Although I can say that one team managed to find something... something others haven't yet found",
+   "reading": "no direct answer",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 3340,
+   "date": "2020-04-08",
+   "claim_or_question": "Something other than three words from audio?",
+   "creator_response": "That would be another hint.",
+   "reading": "no answer",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 3342,
+   "date": "2020-04-08",
+   "claim_or_question": "a hint if you told us if the errors in the mp3 are unintentional? 🤐",
+   "creator_response": "there are errors?",
+   "reading": "ambiguous",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 3345,
+   "date": "2020-04-08",
+   "claim_or_question": "the solution displays three lines that seem like artifacts, but could hint at more stuff",
+   "creator_response": "Before you send anything. No hints; errors and typos are mostly not intended 😄",
+   "reading": "denied (soft)",
+   "note": "mp3 artifacts 'mostly not intended'"
+  },
+  {
+   "creator_msg_id": 3365,
+   "date": "2020-04-08",
+   "claim_or_question": "We should call it the after stage then",
+   "creator_response": "the backstage 😎",
+   "reading": "joke",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 3369,
+   "date": "2020-04-08",
+   "claim_or_question": "there is a typo I think, it should be 'belongs' instead of 'belong' [in INCASEYOUMANAGE...PRIVATEKEYSBELONG... sentence, photo_51]",
+   "creator_response": "obviously a typo",
+   "reading": "confirmed (odd)",
+   "note": "'KEYS BELONG' is grammatical; creator nonetheless called it a typo + apologised (#3370)"
+  },
+  {
+   "creator_msg_id": 3386,
+   "date": "2020-04-08",
+   "claim_or_question": "It could be the coordinate where we insert the prime directive to generate the new seed",
+   "creator_response": "What impressed me most so far was that 1 crew even managed to pass it while the typo was unknown.",
+   "reading": "sidestep",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 3390,
+   "date": "2020-04-08",
+   "claim_or_question": "The door that leads to the source?",
+   "creator_response": "Humph. Hope, it is the quintessential human delusion... / (not a hint btw, just fooling around)",
+   "reading": "denied as hint",
+   "note": "README lists it as maybe-hint; creator said not a hint"
+  },
+  {
+   "creator_msg_id": 3404,
+   "date": "2020-04-08",
+   "claim_or_question": "Neo is anagram for One",
+   "creator_response": "And Oen",
+   "reading": "joke",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 3478,
+   "date": "2020-04-11",
+   "claim_or_question": "war games 'the only winning move is not to play' / Zugzwang",
+   "creator_response": "♟",
+   "reading": "ambiguous/joke",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 3615,
+   "date": "2020-04-29",
+   "claim_or_question": "hint: ...you'll never finish the last task / let me guess: because it`s unknown?",
+   "creator_response": "👆",
+   "reading": "joke",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 3902,
+   "date": "2020-05-11",
+   "claim_or_question": "the half of prize went to better half",
+   "creator_response": "Well spotted",
+   "reading": "confirmed",
+   "note": "ties 3.2 'HALF AND BETTER HALF' to the halving split (already in c38)"
+  },
+  {
+   "creator_msg_id": 3923,
+   "date": "2020-05-11",
+   "claim_or_question": "how exactly does taking away part of the prize create incentive",
+   "creator_response": "...who knows what you'll find after opening the 2nd door. The price is in half, but what does it mean 🤔.",
+   "reading": "hint",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 4094,
+   "date": "2020-05-20",
+   "claim_or_question": "The January hint is missing on github, isn't it?",
+   "creator_response": "It is",
+   "reading": "confirmed (trivial)",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 4096,
+   "date": "2020-05-20",
+   "claim_or_question": "[reply to his own Roses poem]",
+   "creator_response": "This one 👆.",
+   "reading": "hint",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 4102,
+   "date": "2020-05-21",
+   "claim_or_question": "first piece is a zero piece? ... rabbit is a zero step",
+   "creator_response": "answer is there",
+   "reading": "confirmed",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 4105,
+   "date": "2020-05-21",
+   "claim_or_question": "Do you mean the answer to another door from the 1st piece?",
+   "creator_response": "First or zero",
+   "reading": "confirmed",
+   "note": "'first puzzle piece' = the Phase 0 image"
+  },
+  {
+   "creator_msg_id": 4548,
+   "date": "2020-06-30",
+   "claim_or_question": "the puzzle begins with a drunk rabit he got himself into a hole",
+   "creator_response": "👆",
+   "reading": "joke",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 4589,
+   "date": "2020-08-02",
+   "claim_or_question": "the GSMG team knew well in advance which address they'll be transferring the 2.5 BTC to",
+   "creator_response": "Or the same puzzle, or just not at all 🤷‍♀.",
+   "reading": "ambiguous",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 4597,
+   "date": "2020-08-03",
+   "claim_or_question": "What does 'enf' and 'not enf' stand for?",
+   "creator_response": "A few here know",
+   "reading": "no answer",
+   "note": "community: enforced / not enforced"
+  },
+  {
+   "creator_msg_id": 4624,
+   "date": "2020-08-09",
+   "claim_or_question": "What to find private key or seed phrase or phrase for brain wallet?",
+   "creator_response": "a private key",
+   "reading": "confirmed",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 4688,
+   "date": "2020-08-12",
+   "claim_or_question": "all the hunters were following the same path received from binary... nobody see another route",
+   "creator_response": "Indeed remarkable with the hints stating the path pretty obvious...",
+   "reading": "confirmed",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 4693,
+   "date": "2020-08-12",
+   "claim_or_question": "Can you confirm / not confirm that the hints are hidden in blockchain?",
+   "creator_response": "No hints",
+   "reading": "no answer",
+   "note": "later answered 2023-08-29 #12653"
+  },
+  {
+   "creator_msg_id": 4696,
+   "date": "2020-08-12",
+   "claim_or_question": "Is it the next stage of the second route?",
+   "creator_response": "Correct",
+   "reading": "confirmed",
+   "note": "1 club passed the 2nd door, stuck in next phase"
+  },
+  {
+   "creator_msg_id": 5071,
+   "date": "2020-11-24",
+   "claim_or_question": "the price halving happend the same day btc halving happend - maybe this is a part of the puzzle",
+   "creator_response": "Who knows, maybe even in the same block.",
+   "reading": "ambiguous",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 5375,
+   "date": "2021-01-07",
+   "claim_or_question": "how many have found the radio station",
+   "creator_response": "Tg channel",
+   "reading": "joke",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 5717,
+   "date": "2021-01-21",
+   "claim_or_question": "[reply to deleted; theseedisplanted->BIP39 words discussion]",
+   "creator_response": "Not to give any hints but a few might not require the internet anymore.",
+   "reading": "hint",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 5960,
+   "date": "2021-03-01",
+   "claim_or_question": "now is FORTY but hundred FOUR = 104 is the fefefe square fefefe is 101 010",
+   "creator_response": "Ancient spelling 😅. One of the many many typos.",
+   "reading": "denied",
+   "note": "spelling not a clue"
+  },
+  {
+   "creator_msg_id": 5966,
+   "date": "2021-03-01",
+   "claim_or_question": "just say which primes 2,3,5,7 we need use",
+   "creator_response": "You are at the prime part already??? / Oh wait, shouldn't have said that. That might have been a hint 🤔.",
+   "reading": "confirmed",
+   "note": "a 'prime part' exists"
+  },
+  {
+   "creator_msg_id": 6025,
+   "date": "2021-03-01",
+   "claim_or_question": "you use prime form alice in wonderland 2 5 7",
+   "creator_response": "[animated sticker]",
+   "reading": "no answer",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 6250,
+   "date": "2021-03-05",
+   "claim_or_question": "jrk we need xor black,white,yellow,blue ? ... or we need sum ... for red",
+   "creator_response": "Infrared",
+   "reading": "ambiguous/joke",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 6252,
+   "date": "2021-03-05",
+   "claim_or_question": "inverted",
+   "creator_response": "No hints 🤡",
+   "reading": "no answer",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 6495,
+   "date": "2021-03-14",
+   "claim_or_question": "Salph? You trolling us? :))",
+   "creator_response": "Nope",
+   "reading": "confirmed",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 6497,
+   "date": "2021-03-14",
+   "claim_or_question": "how you know someone reached a step... nginx logs? how long unsolved?",
+   "creator_response": "I don't check the website logs... When people progress in salphation it might be cracked pretty soon. Breaking salphation, should be giving the feeling of the phase's name...",
+   "reading": "statement",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 6509,
+   "date": "2021-03-14",
+   "claim_or_question": "So don't you think it's time for a hint on matrixsumlist?",
+   "creator_response": "I gave an unforseen hint already 🤷‍♂",
+   "reading": "hint",
+   "note": "most likely = 2021-03-01 'prime part' slip -> primes tied to matrixsumlist"
+  },
+  {
+   "creator_msg_id": 6514,
+   "date": "2021-03-15",
+   "claim_or_question": "is salph related to hint about \"roses are...\"? 🐇",
+   "creator_response": "Hush hush",
+   "reading": "confirmed (coy)",
+   "note": "quotes the poem's last line"
+  },
+  {
+   "creator_msg_id": 6541,
+   "date": "2021-03-19",
+   "claim_or_question": "how many teams/people are on salphaseon? has anybody solved that? more phases after that?",
+   "creator_response": "If know about 3 people/teams. / 4*",
+   "reading": "partial",
+   "note": "'more phases after' unanswered"
+  },
+  {
+   "creator_msg_id": 6767,
+   "date": "2021-03-24",
+   "claim_or_question": "...Free your Mind. HASH THE TEXT",
+   "creator_response": "🤣",
+   "reading": "ambiguous",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 6895,
+   "date": "2021-04-01",
+   "claim_or_question": "Private key might be found on {30 },{2} ,{77}",
+   "creator_response": "Good one V ;-). (Assuming you played cyberpunk).",
+   "reading": "joke",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 6913,
+   "date": "2021-04-01",
+   "claim_or_question": "look: 15+9+1= 25 bit... 15*3+9*2+1=64 bit.",
+   "creator_response": "R=18 A=1 B=2 Could also be 21 or 1812 bit 🧐...",
+   "reading": "joke",
+   "note": "'1812 bit' = RAB-bit"
+  },
+  {
+   "creator_msg_id": 6944,
+   "date": "2021-04-01",
+   "claim_or_question": "Probably best to start at the beginning to understand the mindset behind it",
+   "creator_response": "👆",
+   "reading": "confirmed",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 7152,
+   "date": "2021-04-06",
+   "claim_or_question": "The puzzle is badly designed. There are serious flaws... OP_data ... in TX for 'cau[sality]'",
+   "creator_response": "Some parts of cicada puzzles are still unsolved. Must be bad design.",
+   "reading": "denied (sarcasm)",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 7224,
+   "date": "2021-04-09",
+   "claim_or_question": "based on evidence there is no one on salph. / false",
+   "creator_response": "✅",
+   "reading": "confirmed",
+   "note": "people are in SalPhaseIon"
+  },
+  {
+   "creator_msg_id": 7418,
+   "date": "2021-04-16",
+   "claim_or_question": "Go to the first puzzle piece (image) and hash all the text you see. But mind that the author is a bit picky what he considers to be text.",
+   "creator_response": "Good point",
+   "reading": "confirmed",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 7520,
+   "date": "2021-04-18",
+   "claim_or_question": "Saber is puzzle creator I suspect",
+   "creator_response": "I suspect he isn't",
+   "reading": "denied",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 7529,
+   "date": "2021-04-18",
+   "claim_or_question": "Is this an actual hint we can use please? ... mentioned on April 1st [{1 },{4} ,{21}]",
+   "creator_response": "Do you know what usually happens on the first of april?",
+   "reading": "denied (April fool)",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 7830,
+   "date": "2021-08-10",
+   "claim_or_question": "Puzzle creators do not store the private key online 😉",
+   "creator_response": "Technically we do 😁",
+   "reading": "confirmed",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 7832,
+   "date": "2021-08-11",
+   "claim_or_question": "Do you mean the encrypted private key stored online?",
+   "creator_response": "The one to be found by solving the puzzle yes",
+   "reading": "confirmed",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 7834,
+   "date": "2021-08-11",
+   "claim_or_question": "omg, the solver will find the encrypted private key",
+   "creator_response": "And the solver will find a way to 'decrypt' it.",
+   "reading": "confirmed",
+   "note": "quotes around 'decrypt'"
+  },
+  {
+   "creator_msg_id": 7889,
+   "date": "2021-09-24",
+   "claim_or_question": "Is that a hint? 😂 [halving-countdown link]",
+   "creator_response": "This was alcohol talking last night...",
+   "reading": "denied",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 7891,
+   "date": "2021-09-24",
+   "claim_or_question": "can u confirm that this is a troll or not a troll?",
+   "creator_response": "That's not mine",
+   "reading": "denied authorship",
+   "note": "object unclear"
+  },
+  {
+   "creator_msg_id": 7914,
+   "date": "2021-12-03",
+   "claim_or_question": "give a hint, pls",
+   "creator_response": "There is / Another / D O O R",
+   "reading": "hint",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 8301,
+   "date": "2022-12-02",
+   "claim_or_question": "Is this puzzle truly meant to be solved? Or not?",
+   "creator_response": "It is meant to be solved.",
+   "reading": "confirmed",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 8311,
+   "date": "2022-12-11",
+   "claim_or_question": "[barrystyle image: Cosmic Duality book found by googling a hint phrase]",
+   "creator_response": ".... That is very specific / If the puzzle is solved you'll see how scary specific that is 😂",
+   "reading": "confirmed",
+   "note": "#8328 'barrystyle provided a very specific hint already'"
+  },
+  {
+   "creator_msg_id": 8330,
+   "date": "2023-01-09",
+   "claim_or_question": "sumlist matrix -contains prime numbers ? xD",
+   "creator_response": "At least prime number is very important to get any further.",
+   "reading": "partly confirmed",
+   "note": "primes important; matrix content not confirmed"
+  },
+  {
+   "creator_msg_id": 8353,
+   "date": "2023-01-12",
+   "claim_or_question": "Are chances to solve less than 2^-256?",
+   "creator_response": "At least higher than sqrt(-1).",
+   "reading": "joke",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 8356,
+   "date": "2023-01-12",
+   "claim_or_question": "Imaginary puzzle has an imaginary answer?",
+   "creator_response": "An imaginary puzzle would.",
+   "reading": "denied (joke)",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 8368,
+   "date": "2023-01-12",
+   "claim_or_question": "Does it mean the transferred 2.5btc (17uc-fyHa) are still available for the solver together with ...? / Who knows...",
+   "creator_response": "👆 (to 'Who knows...')",
+   "reading": "ambiguous",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 8385,
+   "date": "2023-01-24",
+   "claim_or_question": "how much math did you precisely put into the puzzle?",
+   "creator_response": "42",
+   "reading": "joke",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 8483,
+   "date": "2023-04-08",
+   "claim_or_question": "[reply to reversed-binary decode 'yellowblueprimes...promised'] / any new hint for the past two months",
+   "creator_response": "👆🤷‍♂",
+   "reading": "confirmed",
+   "note": "the reversed-binary decode IS the hint"
+  },
+  {
+   "creator_msg_id": 8491,
+   "date": "2023-04-14",
+   "claim_or_question": "based on the existing hints and known information, can this puzzle be solved?",
+   "creator_response": "It can be solved, albeit very difficult as you have to understand how to interpret all the hints.",
+   "reading": "confirmed",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 8569,
+   "date": "2023-06-10",
+   "claim_or_question": "(a) phase 3.2 is not totally solved, final block hasn't been decrypted: U2FsdGVkX1+0Wl49...",
+   "creator_response": "Correct.",
+   "reading": "confirmed",
+   "note": "3-part answer, 1:1 with PoW #8566/#8567/#8568"
+  },
+  {
+   "creator_msg_id": 8569,
+   "date": "2023-06-10",
+   "claim_or_question": "(b) Maybe there where the hint for SalPhaselon everybody was asking for",
+   "creator_response": "No.",
+   "reading": "denied",
+   "note": "inner 3.2 blob is NOT the SalPhaseIon hint"
+  },
+  {
+   "creator_msg_id": 8569,
+   "date": "2023-06-10",
+   "claim_or_question": "(c) Phase 2 'Norton's theorem' ... # X 2 S H 4 Y 0 Q B 15 # doesn't seem usefull ... Am I missing something?",
+   "creator_response": "Can't say anything about this.",
+   "reading": "no answer (live)",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 8787,
+   "date": "2023-08-03",
+   "claim_or_question": "is this the hint? [Are you really looking for just the btc...?]",
+   "creator_response": "Might be. Wish I had said nothing though.",
+   "reading": "confirmed (soft)",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 8795,
+   "date": "2023-08-03",
+   "claim_or_question": "But you can confirm if there is indeed a 3rd door that is yet to be found right?",
+   "creator_response": "[gifs] I saw that you guys got really really far already. / Actually, the hardest part is done.",
+   "reading": "ambiguous",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 9047,
+   "date": "2023-08-05",
+   "claim_or_question": "[reply to deleted; 'something about the capital letters I haven't figured out']",
+   "creator_response": "\"Globally supporting my generation\"",
+   "reading": "ambiguous",
+   "note": "GSMG acronym gloss"
+  },
+  {
+   "creator_msg_id": 9572,
+   "date": "2023-08-06",
+   "claim_or_question": "puzzle prize from stolen funds?",
+   "creator_response": "Not at all.",
+   "reading": "denied",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 9603,
+   "date": "2023-08-06",
+   "claim_or_question": "@SoWut hit or hint? [re 'ying yang' hint]",
+   "creator_response": "Both?",
+   "reading": "confirmed (soft)",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 9607,
+   "date": "2023-08-06",
+   "claim_or_question": "is there another URL to find? otherwise I am going to do a big brute force",
+   "creator_response": "No need. You have all the info.",
+   "reading": "confirmed",
+   "note": "no new URL; no brute force"
+  },
+  {
+   "creator_msg_id": 9611,
+   "date": "2023-08-06",
+   "claim_or_question": "Jrk, can you confirm if dbbib is decryptable?",
+   "creator_response": "No hints 🤡",
+   "reading": "no answer",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 9627,
+   "date": "2023-08-06",
+   "claim_or_question": "unless Jrk thinks we already know something, which we do not",
+   "creator_response": "Something was solved rather... remarkable.",
+   "reading": "ambiguous",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 9629,
+   "date": "2023-08-06",
+   "claim_or_question": "Has anyone passed the salvation part?",
+   "creator_response": "Partly.",
+   "reading": "partly confirmed",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 9636,
+   "date": "2023-08-06",
+   "claim_or_question": "When did this happen.. may I ask?",
+   "creator_response": "I have no clue.",
+   "reading": "ambiguous",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 9639,
+   "date": "2023-08-06",
+   "claim_or_question": "you at one time said ... the puzzle would no longer require the Internet can you reconfirm",
+   "creator_response": "Correct. Well, technically, you'll need the internet to claim the prize in the end 🤔.",
+   "reading": "confirmed",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 10423,
+   "date": "2023-08-18",
+   "claim_or_question": "VrsN in the discord had passed givetit before JrK posted that hint",
+   "creator_response": "😳 how?",
+   "reading": "ambiguous",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 12653,
+   "date": "2023-08-29",
+   "claim_or_question": "Jrk has stated that the blockchain messages are not his and are not part of the puzzle",
+   "creator_response": "Correct",
+   "reading": "confirmed",
+   "note": "corroborates C37 correction (3GSMG24 OP_RETURN not creator's)"
+  },
+  {
+   "creator_msg_id": 16624,
+   "date": "2023-11-24",
+   "claim_or_question": "Given the available knowledge, is internet still required to solve it?",
+   "creator_response": "Nope",
+   "reading": "confirmed (offline-solvable)",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 20223,
+   "date": "2024-01-26",
+   "claim_or_question": "what format key we are all searching?",
+   "creator_response": "Regular Bitcoin Private key",
+   "reading": "confirmed",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 20224,
+   "date": "2024-01-26",
+   "claim_or_question": "\"our first hint is your last command\"... 2nd to last piece we need to solve in Salph... tiny hint?",
+   "creator_response": "🤐",
+   "reading": "no answer",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 23151,
+   "date": "2024-03-26",
+   "claim_or_question": "could you at least tell us which hints are no longer relevant",
+   "creator_response": "Technically yes but Nope.",
+   "reading": "ambiguous",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 23159,
+   "date": "2024-03-26",
+   "claim_or_question": "Are you a one or a zero? ... The red rose or the black one?",
+   "creator_response": "I prefer superpositions 😉.",
+   "reading": "joke/theme",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 23200,
+   "date": "2024-03-27",
+   "claim_or_question": "What do you think this picture looks like?",
+   "creator_response": "Sqaures and a rabbit?",
+   "reading": "joke",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 26085,
+   "date": "2024-07-11",
+   "claim_or_question": "are you planning to post any additional hints?",
+   "creator_response": "None planned.",
+   "reading": "statement",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 26223,
+   "date": "2024-08-01",
+   "claim_or_question": "prime number is important ... prime numbers is it plural or singular",
+   "creator_response": "[tumbleweed gif]",
+   "reading": "no answer",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 32579,
+   "date": "2024-11-29",
+   "claim_or_question": "for years we ... cannot even understand/decipher dbbi or faed",
+   "creator_response": "...If you guys got 1 microstep further, the puzzle will likely be solved the same day...",
+   "reading": "hint",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 32671,
+   "date": "2024-11-29",
+   "claim_or_question": "It's an infinite key [pi/e digits]",
+   "creator_response": "You only need the last number of pi and it might get you somewhere.",
+   "reading": "joke",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 32687,
+   "date": "2024-11-29",
+   "claim_or_question": "tell us how these two texts are exactly 91 length [INCASE... sentence and dbbi]",
+   "creator_response": "I already have gray hair unfortunately.",
+   "reading": "unanswered",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 32699,
+   "date": "2024-11-29",
+   "claim_or_question": "why does the puzzle have 2 different pages (/PUZZLE and /puzzle)",
+   "creator_response": "Not sure why but I suppose it doesn't affect the puzzle. / ...we had a few FE guys working on it.",
+   "reading": "denied",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 39224,
+   "date": "2025-04-28",
+   "claim_or_question": "could tell us if someone found the yingyang yet",
+   "creator_response": "Did anyone found yingyang? I don't think so... when yingyang is reached, 2 hours max.",
+   "reading": "statement",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 39229,
+   "date": "2025-04-28",
+   "claim_or_question": "tell us \"dbbi...\" and \"faed...\" strings are decipherable or not after 6 years",
+   "creator_response": "Im with alcohol, dont blame me for more typos.",
+   "reading": "no answer",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 39234,
+   "date": "2025-04-28",
+   "claim_or_question": "why you guys added that after 6 years? [HTML comment 'Good luck little bunny hunter']",
+   "creator_response": "Que?",
+   "reading": "ambiguous",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 39237,
+   "date": "2025-04-28",
+   "claim_or_question": "is yinyang found after decoding an AES ciphertext?",
+   "creator_response": "It's the next phase, but I await the day someone finally gets there.",
+   "reading": "ambiguous (lean yes)",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 60285,
+   "date": "2026-03-04",
+   "claim_or_question": "[gnomad] ...designed to be solved by The One, not by all... we should be turning inward to find the solution.",
+   "creator_response": "👆🫡",
+   "reading": "endorsed",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 60306,
+   "date": "2026-03-04",
+   "claim_or_question": "Wasn't \"it's in front of your eyes but you're not seing it\" a recomendation to read \"Looking forward\"? Was it a plan?",
+   "creator_response": "Maybe, Cartman's quote about chatroulette fits too.",
+   "reading": "ambiguous",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 60307,
+   "date": "2026-03-04",
+   "claim_or_question": "Are we really looking for just the btc...?",
+   "creator_response": "🤐",
+   "reading": "no answer",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 60309,
+   "date": "2026-03-04",
+   "claim_or_question": "you need to hint us about the direction.",
+   "creator_response": "Looks at gnomad. 👀",
+   "reading": "pointer",
+   "note": "to gnomad's endorsed #60282"
+  },
+  {
+   "creator_msg_id": 60312,
+   "date": "2026-03-04",
+   "claim_or_question": "[gnomad] Looks at DG's comment \"its in front of your eyes...\" / [D1rty Byrd] Cartman chatroulette quote",
+   "creator_response": "Bingo",
+   "reading": "ambiguous",
+   "note": "not a reply; most likely the Cartman quote"
+  },
+  {
+   "creator_msg_id": 60314,
+   "date": "2026-03-04",
+   "claim_or_question": "someone applied specific prime inexes to specific last words and extracted ... 'ying yang' and 'salvation'",
+   "creator_response": "I only need to look at the address. If any of you reaches the next phase, the price is taken in no-time.",
+   "reading": "denied",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 60316,
+   "date": "2026-03-04",
+   "claim_or_question": "next phase is yinyang",
+   "creator_response": "🤷‍♂️",
+   "reading": "ambiguous",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 60326,
+   "date": "2026-03-04",
+   "claim_or_question": "does the binary contact info from [an external website] have anything to do with the puzzle [xlsx]?",
+   "creator_response": "Nope. You're not the first to ask.",
+   "reading": "denied",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 63957,
+   "date": "2026-05-28",
+   "claim_or_question": "The sites are down. ... will this affect us if we manage to resolve Salp or Cosmic?",
+   "creator_response": "Ah, ofcourse. The puzzle is still valid!",
+   "reading": "confirmed",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 66564,
+   "date": "2026-07-13",
+   "claim_or_question": "661 dbbib/faed ... prime positions ... 121 = 11x11 ... 121-30=91. Coincidence?",
+   "creator_response": "I don't know right now.",
+   "reading": "ambiguous",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 66586,
+   "date": "2026-07-13",
+   "claim_or_question": "Anything listed here? =D",
+   "creator_response": "Nope.",
+   "reading": "denied (object unclear)",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 66588,
+   "date": "2026-07-13",
+   "claim_or_question": "salphaseion is 100% solveable?",
+   "creator_response": "Yes / ...verified many times back then...",
+   "reading": "confirmed",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 66600,
+   "date": "2026-07-13",
+   "claim_or_question": "what is the point on saying this? Nobody knows how to solve...",
+   "creator_response": "Some already found it. And understood not to risk it... 🤐",
+   "reading": "ambiguous",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 66903,
+   "date": "2026-07-16",
+   "claim_or_question": "spent the whole night looking for your laptop",
+   "creator_response": "Well, it's hidden in a room with a hidden door.",
+   "reading": "joke/possible pun",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 70307,
+   "date": "2026-09-01",
+   "claim_or_question": "In the YOUWON text, positions {1,4,21} give VIC ... exactly 103 digits, same length as the SALPH instructions",
+   "creator_response": "Pfff. Coincidence.",
+   "reading": "denied",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 70317,
+   "date": "2026-09-01",
+   "claim_or_question": "[reply to deleted #70314; preceding: '(t)it for (t)at Does SalPhaseIon capitalization carry operational meaning?']",
+   "creator_response": "👆",
+   "reading": "ambiguous",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 70325,
+   "date": "2026-09-01",
+   "claim_or_question": "did dbbi and faed meant to be decoded like other segment in SalPhaseIon, or only as an ingredient?",
+   "creator_response": "🤐",
+   "reading": "no answer",
+   "note": ""
+  },
+  {
+   "creator_msg_id": 70336,
+   "date": "2026-09-01",
+   "claim_or_question": "how long did it take you to create the puzzle? Were you working alone?",
+   "creator_response": "Couple hours, and no. (#70377 'Same same' to 'two sloppy days')",
+   "reading": "statement",
+   "note": ""
+  }
+ ],
+ "explicit_hints_and_structure_statements": [
+  {
+   "creator_msg_id": 77,
+   "date": "2019-04-20",
+   "text": "Maybe the puzzle has multiple stages 😉.",
+   "category": "stages"
+  },
+  {
+   "creator_msg_id": 866,
+   "date": "2019-05-17",
+   "text": "mistake in phase III ... you'd know where to add 1 extra character between the 3 answers / giveit = givetit",
+   "category": "typo fix"
+  },
+  {
+   "creator_msg_id": 879,
+   "date": "2019-05-18",
+   "text": "The \"last\" part of the puzzle will ensure that there's quite some time for you guys to catch up",
+   "category": "stages"
+  },
+  {
+   "creator_msg_id": 881,
+   "date": "2019-05-18",
+   "text": "tiny hint at the start of 2020, that will be the final hint. Can the private key be retrieved without that hint? Yes.",
+   "category": "hint policy"
+  },
+  {
+   "creator_msg_id": 887,
+   "date": "2019-05-18",
+   "text": "Part III consist out of a few stages. The last few stages are ... not really easy to solve for most.",
+   "category": "stages"
+  },
+  {
+   "creator_msg_id": 1487,
+   "date": "2019-09-26",
+   "text": "There may indeed a piece be found outside the main puzzle.",
+   "category": "structure"
+  },
+  {
+   "creator_msg_id": 1710,
+   "date": "2020-01-14",
+   "text": "Roses are White but often Red. Yellow has a number and so does Blue. Go back to the first puzzle piece... only one door... the rabbits nest may contain a whole lot more. Hush hush.",
+   "category": "official hint"
+  },
+  {
+   "creator_msg_id": 1743,
+   "date": "2020-02-20",
+   "text": "Decentraland screenshot; #1837 'Only -41,-17 matters'",
+   "category": "official hint"
+  },
+  {
+   "creator_msg_id": 1806,
+   "date": "2020-02-22",
+   "text": "No clues to be found in those typos",
+   "category": "typos"
+  },
+  {
+   "creator_msg_id": 2026,
+   "date": "2020-02-25",
+   "text": "most see 3.2 as the last part.",
+   "category": "stages"
+  },
+  {
+   "creator_msg_id": 2918,
+   "date": "2020-03-25",
+   "text": "There must at least be something hidden in there. [last cipher of 3.2]",
+   "category": "inner blob"
+  },
+  {
+   "creator_msg_id": 3338,
+   "date": "2020-04-08",
+   "text": "Those hints are the last hints. ... one team managed to find something... others haven't yet found",
+   "category": "progress"
+  },
+  {
+   "creator_msg_id": 3384,
+   "date": "2020-04-08",
+   "text": "Quite some typos have been changed already. The biggest blunder ... givetit instead of giveit",
+   "category": "page edits"
+  },
+  {
+   "creator_msg_id": 3923,
+   "date": "2020-05-11",
+   "text": "who knows what you'll find after opening the 2nd door. The price is in half, but what does it mean 🤔.",
+   "category": "doors/halving"
+  },
+  {
+   "creator_msg_id": 4105,
+   "date": "2020-05-21",
+   "text": "First or zero [the 'first puzzle piece' = Phase 0 image]; #4102 'answer is there'",
+   "category": "doors"
+  },
+  {
+   "creator_msg_id": 4590,
+   "date": "2020-08-02",
+   "text": "Really nobody managed to find the extra door",
+   "category": "doors"
+  },
+  {
+   "creator_msg_id": 4694,
+   "date": "2020-08-12",
+   "text": "There's 1 club that passed but they are stuck in the next phase. (#4696: of the second route -> Correct)",
+   "category": "progress"
+  },
+  {
+   "creator_msg_id": 5069,
+   "date": "2020-11-24",
+   "text": "We have our reasons halving the price money at every bitcoin halving event :-).",
+   "category": "halving"
+  },
+  {
+   "creator_msg_id": 5717,
+   "date": "2021-01-21",
+   "text": "a few might not require the internet anymore.",
+   "category": "offline"
+  },
+  {
+   "creator_msg_id": 5969,
+   "date": "2021-03-01",
+   "text": "You are at the prime part already??? ... That might have been a hint 🤔.",
+   "category": "primes"
+  },
+  {
+   "creator_msg_id": 6497,
+   "date": "2021-03-14",
+   "text": "Breaking salphation, should be giving the feeling of the phase's name. ... I just read the chat and when I notice the address is empty I'll know",
+   "category": "salvation"
+  },
+  {
+   "creator_msg_id": 6509,
+   "date": "2021-03-14",
+   "text": "I gave an unforseen hint already [re matrixsumlist]",
+   "category": "primes/matrixsumlist"
+  },
+  {
+   "creator_msg_id": 6884,
+   "date": "2021-04-01",
+   "text": "Hint: \"another door might be found on {1 },{4} ,{21}\" [April Fools; disowned #7529, #70307]",
+   "category": "joke hint"
+  },
+  {
+   "creator_msg_id": 7834,
+   "date": "2021-08-11",
+   "text": "encrypted private key stored online, found by solving; the solver will find a way to 'decrypt' it",
+   "category": "final artifact"
+  },
+  {
+   "creator_msg_id": 7914,
+   "date": "2021-12-03",
+   "text": "There is Another DOOR",
+   "category": "doors"
+  },
+  {
+   "creator_msg_id": 8000,
+   "date": "2021-12-26",
+   "text": "'another door' still a thing; not sure anyone found it; prime numbers definitely required to proceed; some characters need to be 'zeroed out'",
+   "category": "official hint"
+  },
+  {
+   "creator_msg_id": 8315,
+   "date": "2022-12-11",
+   "text": "[Cosmic Duality book] If the puzzle is solved you'll see how scary specific that is",
+   "category": "Cosmic Duality"
+  },
+  {
+   "creator_msg_id": 8330,
+   "date": "2023-01-09",
+   "text": "At least prime number is very important to get any further.",
+   "category": "primes"
+  },
+  {
+   "creator_msg_id": 8352,
+   "date": "2023-01-12",
+   "text": "I checked a certain GitHub yesterday ... You guys are really getting close.",
+   "category": "progress"
+  },
+  {
+   "creator_msg_id": 8354,
+   "date": "2023-01-12",
+   "text": "Focussing on the theory of everything is also still a valid path to reaching the private key.",
+   "category": "ToE/42"
+  },
+  {
+   "creator_msg_id": 8360,
+   "date": "2023-01-12",
+   "text": "the remaining 2.5 btc is well deserved... Or 5, who knows.",
+   "category": "prize"
+  },
+  {
+   "creator_msg_id": 8446,
+   "date": "2023-02-23",
+   "text": "reversed-binary: yellow blue primes matrix sumlist last words before archichoice yinyang ... its in front of your eyes ... very last step is a true give away promised",
+   "category": "official hint"
+  },
+  {
+   "creator_msg_id": 8774,
+   "date": "2023-08-03",
+   "text": "Are you really looking for just the btc...?",
+   "category": "official hint"
+  },
+  {
+   "creator_msg_id": 8796,
+   "date": "2023-08-03",
+   "text": "Actually, the hardest part is done.",
+   "category": "stages"
+  },
+  {
+   "creator_msg_id": 9551,
+   "date": "2023-08-06",
+   "text": "be careful of what you get yourselves into. 🤐 / The puzzle talks for me.",
+   "category": "meta"
+  },
+  {
+   "creator_msg_id": 9599,
+   "date": "2023-08-06",
+   "text": "Probably the last hint: Once you hit a \"ying yang\", you'll be able to solve it the same day.",
+   "category": "yin yang"
+  },
+  {
+   "creator_msg_id": 9621,
+   "date": "2023-08-06",
+   "text": "from here on, high likely no hints anymore ... another hint ... would probably be a give away",
+   "category": "hint policy"
+  },
+  {
+   "creator_msg_id": 9629,
+   "date": "2023-08-06",
+   "text": "[salvation part passed] Partly.",
+   "category": "salvation"
+  },
+  {
+   "creator_msg_id": 24627,
+   "date": "2024-04-20",
+   "text": "prizes: A private key, some 'obscure' intel, or ... reason to make sure you hold on to Bitcoin",
+   "category": "prize"
+  },
+  {
+   "creator_msg_id": 32535,
+   "date": "2024-11-29",
+   "text": "If wallet != empty, puzzle not solved. (Most likely).",
+   "category": "status"
+  },
+  {
+   "creator_msg_id": 32579,
+   "date": "2024-11-29",
+   "text": "If you guys got 1 microstep further, the puzzle will likely be solved the same day.",
+   "category": "stages"
+  },
+  {
+   "creator_msg_id": 39224,
+   "date": "2025-04-28",
+   "text": "when yingyang is reached, 2 hours max.",
+   "category": "yin yang"
+  },
+  {
+   "creator_msg_id": 39237,
+   "date": "2025-04-28",
+   "text": "[yinyang] It's the next phase",
+   "category": "yin yang"
+  },
+  {
+   "creator_msg_id": 53342,
+   "date": "2026-01-01",
+   "text": "binary: Happy new year! Make the best of everything. Oh, and here's a \"tiny hint\" <3. (preceded by 5 dot-messages ., .., ..., ...., ..... one minute apart)",
+   "category": "official hint"
+  },
+  {
+   "creator_msg_id": 60314,
+   "date": "2026-03-04",
+   "text": "If any of you reaches the next phase, the price is taken in no-time.",
+   "category": "status"
+  },
+  {
+   "creator_msg_id": 66568,
+   "date": "2026-07-13",
+   "text": "Most of you know the puzzle WAAAY better than me ... I have a hidden laptop which I haven't touched in years. On that thing... is the actual answer....",
+   "category": "hidden laptop"
+  },
+  {
+   "creator_msg_id": 66573,
+   "date": "2026-07-13",
+   "text": "My close friends have the best chance of solving it (a few tried). But they don't have the skills some of you do. / NOTE: that is a hint.",
+   "category": "close friends"
+  },
+  {
+   "creator_msg_id": 66589,
+   "date": "2026-07-13",
+   "text": "salphaseion solvable; verified many times back then after some sad rushed mistakes",
+   "category": "salvation"
+  },
+  {
+   "creator_msg_id": 66592,
+   "date": "2026-07-13",
+   "text": "I held quite a secret in my head which I seriously wanted to share with the planet",
+   "category": "prize/meta"
+  },
+  {
+   "creator_msg_id": 66593,
+   "date": "2026-07-13",
+   "text": "The \"5\" btc was never the actual prize. That was only a tiny fraction. (#66595: btc still available)",
+   "category": "prize"
+  },
+  {
+   "creator_msg_id": 66600,
+   "date": "2026-07-13",
+   "text": "Some already found it. And understood not to risk it... 🤐",
+   "category": "meta"
+  },
+  {
+   "creator_msg_id": 66903,
+   "date": "2026-07-16",
+   "text": "[laptop] hidden in a room with a hidden door.",
+   "category": "hidden laptop"
+  },
+  {
+   "creator_msg_id": 66962,
+   "date": "2026-07-16",
+   "text": "Latetly, I'm working with many NOTES. [reply to deleted msg; caps]",
+   "category": "unclear"
+  }
+ ],
+ "possibly_missed_or_misread": [
+  {
+   "item": "#8569 (2023-06-10) 3-part answer maps 1:1 to PoW #8566/#8567/#8568: 'Correct' = inner 3.2 blob U2FsdGVkX1+0Wl49... not decrypted; 'No.' = it is NOT where the SalPhaseIon hint was; 'Can't say' = Norton/X2SH.",
+   "impact": "Weakens C37 'inner blob first / chaining' option; c38 only cites the 'can't say' part. Note #2918 (2020): 'something hidden in there' -> blob has content, just not the SalPhaseIon key/hint (as the creator framed it).",
+   "confidence": "medium-high"
+  },
+  {
+   "item": "#7830-#7834 (2021-08): private key is stored online in encrypted form, found by solving; solver will 'decrypt' it (scare quotes).",
+   "impact": "With 'internet not required' (2023) and 'You have all the info' (#9607), the encrypted key is probably already on a known page (an AES blob or residual). Quotes suggest a non-standard decode. Not found in c37/c38 notes.",
+   "confidence": "medium"
+  },
+  {
+   "item": "#6509 (2021-03-14): asked for a matrixsumlist hint, creator said 'I gave an unforseen hint already', which most plausibly means his 2021-03-01 'prime part' slip.",
+   "impact": "Links primes directly to matrixsumlist, consistent with #8330 'prime number very important'.",
+   "confidence": "medium"
+  },
+  {
+   "item": "#60312 'Bingo' (2026-03-04) is not a reply. It follows both gnomad's 'Looks at DG's comment its in front of your eyes...' (#60310) and the Cartman quote (#60311). The creator raised the Cartman quote himself in #60306, which opens with 'Maybe' to the 'Looking Forward' (Fresco) question. #60309 'Looks at gnomad' points to #60282, which he endorsed.",
+   "impact": "C37 RESULTS/c38 read it as a pure South Park joke. That is most likely, but the 'Maybe' to Looking Forward and the pointer to gnomad are unresolved soft signals.",
+   "confidence": "low-medium"
+  },
+  {
+   "item": "#3369 (2020-04-08): creator agreed 'belong' should be 'belongs' in the INCASEYOUMANAGE...KEYSBELONG... sentence and apologised for the typos.",
+   "impact": "Any reading that treats the exact 91-letter length (= dbbi length) as engineered is fragile. The creator treats that sentence as typo-prone, and #32687 left the 91-length coincidence unanswered.",
+   "confidence": "medium"
+  },
+  {
+   "item": "#1726/#3384 (2020): typos were silently fixed on the live pages ('Might have been fixed', 'Quite some typos have been changed already').",
+   "impact": "Character-count and position analyses should state which archived page version they use.",
+   "confidence": "medium"
+  },
+  {
+   "item": "#12653 (2023-08-29): 'Correct' to 'blockchain messages are not his and are not part of the puzzle'.",
+   "impact": "The chat already contradicted cycle 36's OP_RETURN inference, three years before the maintainer's note.",
+   "confidence": "high"
+  },
+  {
+   "item": "#39237 (2025-04-28): asked 'is yinyang found after decoding an AES ciphertext?', he replied 'It's the next phase...'.",
+   "impact": "Could mean yin-yang is the plaintext of the next AES step, e.g. a SalPhaseIon blob. C37 records only 'unreached'.",
+   "confidence": "low-medium"
+  },
+  {
+   "item": "#3391: 'Humph. Hope...' was explicitly disowned ('not a hint btw, just fooling around'); #7529/#70307: the {1},{4},{21} April-Fools line is a joke ('Pfff. Coincidence').",
+   "impact": "Drop these as hint sources (README still lists 2020-04-08 as possible).",
+   "confidence": "high"
+  },
+  {
+   "item": "Denials to log as negative facts: /PUZZLE vs /puzzle page split irrelevant (#32699); external website binary contact info / xlsx unrelated (#60326); Saber not creator (#7520); fixing garbled-text misspellings not required (#1729); mp3 artifacts mostly unintended (#3345); no new URL / no brute force needed (#9607, #2017).",
+   "impact": "Prunes branches.",
+   "confidence": "high"
+  },
+  {
+   "item": "Prize framing: '5 btc was never the actual prize' (#66593), 'some obscure intel' (#24627), 'secret ... to share with the planet' (#66592), 'Are you really looking for just the btc' (#8774, #60307 🤐).",
+   "impact": "The final plaintext likely carries a readable message besides the key. That is a usable success signal.",
+   "confidence": "low-medium"
+  },
+  {
+   "item": "Recurring 'both' theme: superpositions (#23159), purple pill = red+blue (#17891), 'hit or hint? Both?' (#9603), 'Or 5, who knows' (#8360), 'eyes closed, still saw double' (#66898), 'better half' and yin-yang.",
+   "impact": "Interpretive only. It hints that combining two halves (two strings, keys or addresses) is the yin-yang step. Not testable as stated.",
+   "confidence": "low"
+  },
+  {
+   "item": "Unexamined oddities: 'Latetly, I'm working with many NOTES.' (#66962, caps, 3 days after 'NOTE: that is a hint'); 'IIFF' (#66589); 'Infrared' to 'sum for red' (#6250); 'Technically yes but Nope' to 'which hints are no longer relevant' (#23151); 👆 to a deleted message right after the 'SalPhaseIon capitalization' question (#70317).",
+   "impact": "Probably noise or drunk typing. Listed for completeness.",
+   "confidence": "low"
+  }
+ ]
+}

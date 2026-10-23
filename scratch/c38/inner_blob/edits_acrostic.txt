@@ -1,0 +1,13 @@
+n puzzle-side edit segments 34
+segment initials        : titymplptilswnliaiycthboceifyyteyo
+segment final letters   : eetueethehtylttiliusyysrsrsdrryseo
+all inserted-word initials: tpihtsaiympiyfawtclppttpkyeibpttthtwawahaiwhfotitwugagattatepjhubiiojwylbhfwpatlisttytyctfbynfltieswnliarsiycthboceaoipftapktabfmbrywytlawueysglnirhyocbo
+typo 'forty'->'fourty': insert ''->'u'
+typo 'wasting'->'waisting': insert ''->'i'
+typo 'prizes'->'prices': replace 'z'->'c'
+typo 'trophies'->'throphies': insert ''->'h'
+typo 'bella'->'bellao': insert ''->'o'
+typo 'wise man'->'wiseman': delete ' '->''
+typo 'yourself'->'yourself self': insert ''->' self'
+typo 'entire'->'entireness': insert ''->'ness'
+typo inserted/replaced letters in order: uicho selfness

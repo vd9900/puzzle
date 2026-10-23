@@ -1,0 +1,11 @@
+c38 inner_blob lens (2026-10-13) - results
+Tests: 5 strings (tests_c38.txt) -> oracle.py: 20 password forms x 3 blobs x 2 KDF digests; structured_hits=0. Budget used 5/15.
+Speech diff: speech_wdiff.py vs public transcript (springfieldspringfield) -> speech_edits.json (34 puzzle-side segments).
+  Edit initials / final letters / typo letters (uicho + 'self','ness'): nothing readable (edits_acrostic.txt).
+Accounting: accounting.json - every Phase 3.2 riddle is consumed by the Beaufort or checkerboard step; 'Raising the stakes...' = poker straddle
+  (community already read it this way on 2020-12-02, chat line 11782). Only the speech's creator insertions are unconsumed and they point
+  to SalPhaseIon/Cosmic ('source codes', 'prime basics', '7 intertwined passwords', 'actual private key', 'brute forcing').
+Chess: Phase 2 position (8 files) has no queens and no pawn within one move of promotion -> no unique promotion / K+Q position.
+  Creator's FEN 'b - - 0 1' has halfmove clock 0 after a quiet rook move (engine would give '1 1') -> copied from an external source.
+Chat facts: 2020-05-11 'the half of prize went to better half' -> Jrk Bgrt: 'Well spotted' (halving move to 17ucy1K9...);
+  2023-08-10 report: Jrk said 'once the puzzle was solved we'd understand half and better half'.

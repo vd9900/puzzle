@@ -1,0 +1,24 @@
+python-vs-CyberChef mismatches over 84 jobs: 0
+top by quadgram z (vs 200 shuffled-input controls, key=dbbi):
+ z=+23.19 dec faed key=dbbi q=-5.118 bip39cov=0.03 btcseeddeoemckeadhbschdkbdcsdkdvbxcpcochcrdicibq
+ z=+2.29 dec res60 key=thispassword q=-6.675 bip39cov=0.0 wztcenirewcdeuifiwohecegifioezezeeevcgehbxefirir
+ z=+2.06 dec res60 key=Z1letters q=-6.728 bip39cov=0.0 amekathfethsgbhnefgfechehnegaeaeeegchieygihchfhf
+ z=+1.76 dec faed key=res60 q=-6.99 bip39cov=0.05 imgaanddaiafgoamdhildygtdcgagtdqiqghgfdyabdidwdp
+ z=+1.69 dec dbbi key=causality q=-6.614 bip39cov=0.07 bwtndobaboeytofmcalabnhufeimiceoutbofaboeuiugoyo
+ z=+1.61 dec res60 key=res60 q=-6.837 bip39cov=0.05 dddbdndsdzdvahdedugkgpaldeisadadangcglgugigndsds
+ z=+1.35 enc res60 key=dbbi q=-6.487 bip39cov=0.05 ddecbedeecedcdcddcdeebeebddceeiudnyepngemzkythtd
+ z=+1.05 enc faed key=dbbi q=-6.554 bip39cov=0.0 bceedcbdbecccbdcceebcceebebdccbdecbdebcbdbeeeede
+ z=+0.55 dec faed key=Z1letters q=-7.096 bip39cov=0.03 aqgdeeamahgeehhhgkareqevgngdevhdhgghaceqgogmesgt
+ z=+0.49 enc dbbi key=dbbi q=-6.393 bip39cov=0.03 ddddebcdcccdeeebdedcddcddcbddeedbeecccddbbbeccem
+ z=+0.25 dec faed key=shabefanstoo q=-7.122 bip39cov=0.14 faaiszisdtdcswsxdhthfwspgeaispafandngffwskiatxne
+ z=+0.21 dec dbbi key=dbbi q=-6.925 bip39cov=0.03 bdfcdchlbebqfcfwcdcdbcecamdedmdwgqbcacbeeebmiwie
+max z overall: 23.19 over 84 keyed decodes
+planted roundtrip ok: True | score planted -4.634 bip39cov 0.95
+quad full          real=-5.118 ctrl=-7.140+-0.083 z=+24.5
+quad body[7:]      real=-5.125 ctrl=-7.136+-0.086 z=+23.4
+quad body[7:400]   real=-5.115 ctrl=-7.147+-0.098 z=+20.7
+real body score -5.125
+A: second half rotated k=1..120 (alignment broken)      ctrl=-7.066+-0.087  z(real)=+22.4
+B: same perm on both halves (pairs kept, adjacency broken) ctrl=-7.040+-0.058  z(real)=+33.0
+C: each half shuffled in blocks of 5 (adjacency mostly kept) ctrl=-7.050+-0.086  z(real)=+22.3
+D: faed decoded with 200 random a-i-first squares: mean=-7.300 sd=0.314 max=-6.281 (dbbi square full=-5.118)

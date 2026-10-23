@@ -1,0 +1,3 @@
+#### QUERY identifier:cosmicdualitymys0000time AND "Fairy Tales"
+#### QUERY "Fairy Tales 41"
+#### QUERY "Hark! Heaven"

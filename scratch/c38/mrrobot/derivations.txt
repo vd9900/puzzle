@@ -1,0 +1,16 @@
+c38 mrrobot lens -- written derivations for every oracle/door test (sources: GeekWire "Mr. Robot Rewind" ep5, 2017;
+R. Kazanciyan "Mr. Robot Disassembled 3.4", Medium 2017; Wikipedia eps3.4_runtime-error.r00; IMDb trivia tt6633696)
+
+T1 hidd3nlynx
+  Phase 2.1 says the keymakers keep security "by hiding, nearly unprotected, in plain sight". In S3E5 Angela's Dark Army
+  instruction sheet (on screen, reconstructed by u/Metal_Monkey42) lists "HSM admin server creds frank.bowman:hidd3nlynx".
+  It is the only password string shown in the episode that Phase 2 did not consume, and it literally says "hidden".
+T2 frank.bowman:hidd3nlynx
+  Same line of the sheet verbatim (oracle normalisation also gives frankbowmanhidd3nlynx).
+T3 hidd3nlynx022350
+  "where daughters hit magic keypads": Angela (Phillip Price's daughter) authenticates twice on screen: server password, then
+  the Remote PED PIN 022350 typed on the PED keypad ("Please attend to the PED"). Puzzle grammar = concatenate answers in order.
+T4 marlinspikemoxie
+  The only spoken passphrase in the episode (Irving/Angela phone call-and-response, nod to Moxie Marlinspike); untested.
+Doors: hidd3nlynx, 022350 (022350 was AES-tested in cycle 36 but never door-probed per _doors_seen.txt).
+Control: oracle.py --selftest (re-decrypts Phase 2 blob with sha256('causality')).

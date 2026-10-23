@@ -1,0 +1,400 @@
+
+‘Mr. Robot’ Rewind: Hacking an HSM during a riot in Episode 5 - GeekWire
+      You are using an 
+outdated
+ browser. Please 
+upgrade your browser
+ to improve your experience.      
+Toggle search box
+Toggle navigation
+Home
+News 
+Amazon
+Microsoft
+Startups 
+presented by Madrona Venture Group
+Space
+Cloud Tech
+Geek Life 
+presented by First Tech Federal Credit Union
+Podcasts
+Impact Series
+Civic 
+presented by Microsoft
+Health/Life Sciences
+Health Tech Podcast 
+presented by Premera
+Geek of the Week
+Junior Geek of the Month 
+presented by Northern Trust
+Working Geek
+Startup Spotlight
+Tech Moves 
+presented by Talentreach
+Geek Real Estate 
+by Realogics Sotheby’s
+Echo Geek 
+ – sponsored by Amazon
+2025 Podcast 
+ – sponsored by Northern Trust
+Geeks Gift Guide 2021 
+ – sponsored by Seattle Bank
+TRANSFORM 
+ – sponsored by Intel
+Jobs
+Events 
+GeekWire Events
+Community Calendar
+Resources 
+Memberships
+Health Benefits
+GeekWire Startup Resources
+GeekWire Startup List
+GeekWire 200
+Seattle Engineering Outposts
+Recent Fundings
+Recent Deals
+GeekWire Startup Spaces
+Community Calendar
+Amazon Office Buildings
+Venture Capital Directory
+Northwest Women VC & Angel Investor List
+About 
+About GeekWire
+Email Newsletters
+Contact Us
+Advertise
+Sponsors
+Reprints & Permissions
+Search for:
+LATEST NEWS
+Week in Review: Most popular stories on GeekWire for the week of Nov. 21, 2021
+A giant ship from Halo appears at Oregon Ducks football game as part of mixed reality experience
+What we’re most thankful for in tech, science, business, and innovation
+GeekWire Gift Guide: 10 gadgets and tools you can actually get this holiday season
+This startup is helping Microsoft and others figure out how to cut their carbon footprint
+A balloon with Pop! Funko flies high in annual Thanksgiving Parade with Grogu from ‘Mandalorian’
+Xbox architects share stories from the console’s early days and discuss the future of gaming
+Feast on facts: USAFacts serves its annual helping of real data to help steer holiday discussions
+Amazon VP of physical retail stores leaves company after 14 years
+Tech Moves: Accolade appoints execs; Vacasa adds board member ahead of SPAC deal; and more
+Ship out of luck? 2021 holiday season will put Amazon’s workforce strategy to the test
+NASA begins DART mission to practice pushing away an asteroid, with an extra push from Aerojet
+Univ. of Washington football joins NFL study using high-tech mouthguard to measure head impacts
+T-Mobile’s latest bright idea is a magenta-infused Lite-Brite toy to promote its 5G network
+Amazon settles for $2.5M with Washington AG over pesticide sales by third-party merchants
+Cloud governance software startup Corestack lands $30M
+OceanGate brings its deep-sea submersible back to homeport — and gets set for its next Titanic trips
+We asked seven venture capitalists if the metaverse is the next big thing or just a lot of hype
+Blue Origin to fly six suborbital space travelers next month, including pioneer astronaut’s daughter
+Astra Space’s fortunes rise after venture’s first successful orbital launch from Alaska
+Trending: 
+A giant ship from Halo appears at Oregon Ducks football game as part of mixed reality experience
+‘Mr. Robot’ Rewind: Hacking an HSM during a riot in Episode 5
+by 
+Corey Nachreiner
+ on 
+November 13, 2017 at 12:09 pm
+December 14, 2017 at 2:19 pm
+ Share  17
+ Tweet
+ Share
+ Reddit
+ Email
+Become a GeekWire member
+Elliot confronts Angela. (USA Networks Photo)
+ [Spoiler Alert]
+ This article deeply analyzes the technical details of the latest Mr. Robot episode (Eps3.4_runtime-err0r.r00). If you haven’t watched it yet, I suggest you come back later. 
+Yup… the 
+excrement really did hit the propeller
+, this episode.
+The latest episode of Mr. Robot was extremely intense, from both a story and cinematography perspective. Shot and edited to
+ appear 
+like a “
+oner
+,” this episode shows us the beginning of Elliot and Angela’s stressful work day in one seemingly continuous shot. I mean, how many of your work days involve avoiding getting fired while protecting your soon-to-be ex-employer from a dangerous hack, all while a riot comes crashing into your building. Maybe it’s time for Elliot to retire…
+LATEST IN A SERIES
+: Corey Nachreiner, CTO at Seattle-based 
+WatchGuard Technologies
+, is 
+reviewing episodes
+ of 
+Mr. Robot
+ on GeekWire. The show airs on USA Network on Wednesdays at 10 p.m. Join the conversation on Twitter using #MrRobotRewind, and follow Corey 
+@SecAdept
+.
+In any case, the 
+Mr. Robot Rewind article series
+ isn’t meant to gush over the cool art and plot elements in the show, but to examine its hacking accuracy, or “hackuracy.” You, like me, might have assumed that an episode edited to appear as one long take would be hard-pressed to show many hacks. But this couldn’t be further from the truth. This 42-minute, “real-time” episode was packed with as many hacks as it was interesting story reveals. Let’s dive in.
+Tracking Hacker Logs with ELK
+As I mentioned, this episode follows Elliot in real-time on a Monday morning at E Corp (the same day of the UN vote deciding to allow China to annex the Congo). The day starts off on the wrong foot, as Elliot realizes he’s locked out of his E Corp account, and is about to get fired. This leads him to suspect something’s up with the Stage 2 attack he has been desperately trying to prevent.
+Elliot convinces his cube-mate to let him use his workstation for a second, and we see the first technical shot of the episode. Elliot brings up a Kibana dashboard. As many of you know, Kibana is part of Amazon’s Elastic Stack, previously known as “ELK.”  ELK includes the tools 
+E
+lastisearch
+, 
+L
+ogstash, and 
+K
+ibana
+, which combine to allow users to store logs, easily search them, and create visualizations. Kibana is the visualization element, and it appears Elliot is looking at a custom dashboard he made to monitor the UPS systems he’s trying to protect. He quickly sees a log on his dashboard showing that someone tried to update the firmware on E Corp’s UPS systems, but failed. They failed because he had previously “patched” the UPS devices to only use firmware updates “signed” with E Corp’s valid digital key. On the surface, this is good news, but Elliot knows it won’t stop there.
+Figure 1: Elliot’s Kibana dashboard.
+Everything you see in this scene is portrayed very accurately, and I love how Elliot used ELK to monitor and visualize logs. This is something many technology companies do. In fact, security researchers on my team use ELK to visualize our data. However, there is even more hacking accuracy buried in this quick scene for those who dig.
+During this sequence, you also see Elliot use putty, a remote terminal emulator, to connect to a server that stores the full logs he’s monitoring. The IP he connects to is an 
+Easter egg that you can visit
+ to see a fake version of the Kibana dashboard Elliot was looking at. While you can see this dashboard during the show, it’s much more readable from the link above.
+Figure 2: Elliot’s putty connection hides Easter eggs.
+If you look at the top left panel of the Dashboard, you see that Elliot seems to be monitoring the commands being run on a server in E Corp. These commands, include things like 
+net view
+ and 
+net use
+, which are Windows commands that allow users to remotely view, run, or transfer files to other computers. We also see the 
+klist
+ command, which displays the currently cached 
+Kerberos
+ tickets on a server. Finally, we see a weird program called 
+mimi.exe
+. Based on the parameters of that command, it’s clear this is a renamed version of 
+Mimikatz
+, a common penetration testing tool used to steal authentication credentials and tokens from Windows computers using many different techniques. We’ve seen Mimikatz used in episodes past, and in this case, someone appears to be taking advantage of its “
+pass-the-ticket
+” capabilities to log into other network computers with cached Kerberos tickets.
+In short, these buried details show a very realistic example of “lateral movement,” where hackers leverage insider access to compromise other computers on your network. Once an attacker roots one computer, he or she can leverage many assets on that internal machine to more easily breach other internal computers, usually gaining access to higher privileges along the way, and eventually gaining all the credentials necessary to own your whole network. While these logs don’t pertain to the UPS firmware, they accurately suggest to Elliot that the Dark Army has been quietly gaining a ton of control throughout E Corp’s internal networks, gathering user and server credentials along the way. These hidden details will play a part later this episode.
+Socially Engineering Coworkers and Security Savvy Grandmas
+Elliot only has a few seconds on his cube-mate’s computer before E Corp HR and security arrive, but he still needs E Corp network access to figure out what the Dark Army is doing to revive Stage 2. The chase begins.
+How do you get into an E Corp computer when you’re locked out and on the run? Socially engineer your co-workers of course!
+While Elliot is ducking security, he comes to a floor full of employees and starts profiling them based on looks, to find the perfect social engineering victim. He spots an older lady sniffing white out. Grandmas don’t know much about IT and security, right? Perfect victim!
+Figure 3: A perfect victim for pwnage, right?… Wrong!
+I love that this show not only gets the technical and operational details about hacking right, but also spits in the face of the stereotypes and clichés we often see in “hacker” media. As it turns out, granny was 
+not
+ the perfect victim – she’s a security ninja.
+Elliot approaches her pretending to be E Corp IT, saying that they have detected an unauthorized remote desktop sharing program on her computer. This is a pretty good scam. Sometimes, hackers install remote desktop sharing software for malicious use. However, employees occasionally install their own remote desktop apps so they can work at home. While these employees might have good intentions, most corporations want them to use sanctioned remote sharing applications to avoid the security risks associated with unsanctioned ones. Elliot’s cover is totally plausible.
+Ellie, the senior security ninja, isn’t having it though. She replies that she’s too smart for unsanctioned remote sharing. Not only has she installed a host-based firewall to monitor every incoming and outgoing connection from her computer, but she didn’t think E Corp’s security policies were good enough, so she hardened her policies further, and even installed a whitelisting control that only allows known, safe applications to run. In short, she has implemented just about the strictest endpoint security policy possible. Luckily, she doesn’t seem to like a Bernie-supporting bro very much, who does use GoToMyPC (a popular remote desktop service), so she’s quick to rat him out. Otherwise, Elliot’s first social engineering attempt would have failed miserably.
+Again, there is so much accuracy in this scene. First, despite its failure this time, profiling is a technique social engineers may use to make quick judgments. Profiling is never perfect. For instance, there’s a totally 
+wrong
+ way to profile, based on your own personal biases. Social engineers doing that will fail often. However, smart social engineers know statistics. There are educated gambles they can make, which have quantitative statistics behind them. By definition, making a choice based on these statistics is stereotyping, and will fail some of the time, but social engineers still need to use the information they have. The fact that Elliot finds himself so wrong about Ellie is just about one of my favorite scenes in the series so far.
+By the way, when Elliot’s con job does work, and he gets access to the bro’s computer, he continues his Kibana research. I won’t spend much time on it since it’s very similar to before, but we do see him scroll up on that log command window. This new glimpse shows a few more accurate commands suggesting what the Dark Army has been up to. I won’t dissect these commands, but just know they accurately show the Dark Army looking for credentials of anyone in the group that manages E Corp’s certificate security, and they seem to have stolen the credential of one Frank Bowman, a member of the code signing architecture team (CSAT).
+This new revelation is what informs Elliot that the Dark Army is trying to steal the E Corp digital key he used to sign and protect the UPS firmware. A company’s digital signing keys are some of the most important digital assets they have, and smart enterprises take extra precautions to secure them. Many large enterprises use hardware security modules (HSM) to securely store and maintain their digital certificates and keys, and Frank Bowman’s team maintains this HSM. Elliot knows the Dark Army’s target!
+Angela Magically Pulls off a Super Sophisticated HSM Heist
+While we started this episode following Elliot, halfway through, the camera pans off him to the rioters in front of E Corp, who eventually find Angela, and for the rest of the show, we follow her perspective.
+Remember, Angela is technically working for the Dark Army, since whiterose somehow convinced her to join. During the rioting confusion, she gets a call from Irving, asking her to get Elliot (Mr. Robot) to help with their contingency plan, which is to backup the HSM. This would give the Dark Army copies of all E Corp’s digital keys and certificates, and with the right keys, they could properly sign their malicious UPS firmware. Irving also conveniently arranged to have the Dark Army leave her a “package” of equipment and instructions to help Elliot with this hack.
+For whatever reason (perhaps because she knows he’s fired, or might remember her drugging him), Angela decides not to ask Elliot (or Mr. Robot) to help, and elects to do it herself. I must say, I was immediately surprised and skeptical about this. We previously saw that Angela has no hacking skills, and isn’t even an extremely technical person. She struggled to learn a simple series of tasks to carry out the femtocell hack. Doing anything on an HSM is a significant step up, as far as complex technical tasks. Even with instructions, I felt Angela would have a challenge here. And if the instructions were written for Elliot, without the extra detail that Angela would need, it would be a disaster.
+Before I get into the technical accuracy of this hack, if you haven’t used an HSM — which I presume most haven’t — you should know that they are one of the most secure components an organization might use. Companies who pay enough to have an HSM are using them to protect digital keys that guard 
+very
+ valuable info. The security of an HSM is paramount. Hardware-based HSMs are usually segmented or “air gapped” from the rest of the network, and are often kept under lock and key within highly secure facilities.
+Furthermore, every single thing you do on an HSM usually involves a secure process. For instance, you’re often required to use hardware authentication tokens (mainly small USB keys) as a form of multifactor authentication, for various processes. In fact, many hardware HSMs require different hardware keys to perform certain tasks. This is meant to enforce separation of privilege, where various team members are required to work together for different operations. The person who has the key to manage the HSM, may not have the key needed to create new certificates, or to backup the HSM. You can see an example of one HSM vendor’s different colored keys, and what operations they allow 
+here
+. In fact, seems to be the vendor of the HSM solution you see in this episode.
+The point being, not only does Angela need physical access to the HSM, or a device that allows secure remote access to the HSM, she actually needs multiple hardware keys to perform certain actions on the HSM. Like the HSM itself, these USB hardware keys are usually highly protected. Most enterprises keep them in a safe, or locked up in a separate location from the HSM. Long story short, an HSM hack or heist is a very tall order, and one of the most sophisticated hacks you can do.
+Angela was given a few things in her package from Irving. She has a hardware appliance that will act as the “backup HSM”, a normal USB storage key with a pre-written script on it, and a piece of paper with instructions. In fact, that backup HSM hardware appliance seems to be a real SafeNet Luna G5 device. I know this in part because a later device has the SafeNet logo on it, and I’m lucky enough to work with people that could confirm this for me. If you want to know how real Mr. Robot is, look no further than the fact that the gear they’re using is real. Now, let’s examine those instructions.
+Personally, I couldn’t get a good enough screenshot of the instructions to read them, but a Redditor (
+u/Metal_Monkey42
+) 
+came to the rescue
+ with patience and Photoshop skills. You can see an 
+image of the instructions he was able to make here
+.
+Here are the details:
+Floor 23, CSAT ROOM 23-148
+We know from Elliot’s previous discovery that Floor 23 is where the code signing architecture team (CSAT) sits, and it’s also where the HSM, or secure remote terminal that can access it, also resides.
+HSM admin server creds – frank.bowman:hidd3nlynx
+Overall, this whole heist wasn’t really an “HSM hack.” The HSM didn’t have a vulnerability at all. Rather, the Dark Army had already stolen Frank Bowman’s credentials (which Elliot knew from the logs). They already have the admin name and password. It’s also safe to assume they have “lived” in E Corp’s network long enough that they could have stolen a ton of other internal data to help them. However, as I mentioned before, HSMs are a bit more complex.
+Plug backup HSM into admin server, power on backup HSM
+This is the backup device that Angela found in her package. It appears to be a 
+SafeNet Luna G5
+. I guess the Dark Army is able to buy HSMs quickly if they need to.
+Figure 4: Angela plugs in the Luna G5 backup HSM.
+Find red USB key, plug into backup HSM
+This is where things get tough. We know that some HSM operations, like backing up a partition of keys and certificates, require special hardware USB keys. SafeNet calls these iKeys or PED keys, and as I mentioned, there are 
+different colored ones
+ used for specific operations. The red key is a pretty dang important “domain” one used for Key Cloning Vector; meaning that it allows you to actually backup or clone an HSM partition and its contents.
+While it didn’t look red, I believe the show meant us to assume that this was the key Angela found in someone’s purse. This is where the accuracy of the scene trails off. Any real code signing team would have had this red key locked up tight. It’s the key to the kingdom. At best, the fact that Angela found it in a purse is highly improbable and super lucky.
+Plug provided thumb drive into admin server, run eHSM_clone.bat
+This is referring to the USB storage device Irving supplied. It has a script that Angela needs to run. This would be easy, even for a novice. In Windows, she’d just open the USB key folder and double click the batch file, Windows would do the rest and run whatever pre-scripted commands the Dark Army arranged. I have no issues with this step.
+Par login = z1on0101
+We don’t see what’s in the Dark Army’s script, but I presume it involves connecting to the HSM and preparing what they need to backup. Based on 
+SafeNet documentation
+, this includes activating the partition on the HSM. This requires yet another password — a partition login. Apparently, the Dark Army already has this credential as well.
+We already know how the Dark Army got Frank Bowman’s Domain credential. Elliot saw the logs, and Mimikatz could be used to grab his credentials. However, getting this specific HSM credential would be MUCH harder, and we never saw how the Dark Army did it. This is where I need to suspend my belief a little. Yes, the Dark Army has been “living” in E Corp’s network for a long time. When you have access that long, it’s believable that you could access every Windows domain credential, and even domain admin. However, happening upon these specialized credentials, that don’t often pass over the network and shouldn’t be sent in emails, is much rarer. It’s difficult to imagine the Dark Army getting this credential easily, but it could happen.
+Find black usb key, plug into remote PED – plug remote PED into admin server PED pin code – 022350
+This is the instruction where anyone that didn’t already know how HSMs work would say, “what the heck?” The show has previously established Angela’s lack of tech skills, so I doubt she could have followed this instruction at all. Even solid hackers may not know what a “remote PED” is, unless they had researched HSMs and other equipment before. Let me unpack it.
+First, what is a remote PED? PED stands for a “PIN entry device”. This device looks like a little box with a keypad on it. It has a cable to connect to an HSM or server. Here’s a 
+picture of one
+ from the same vendor used in the show.
+Unless she really studied up, I doubt Angela would have known what to look for. Nonetheless, she conveniently finds this device in a drawer under the rack she’s working on. They also tell her to find another black USB key. This is another SafeNet PED key, but the black one is used to login as a partition owner. The picture linked above also shows these keys, and how you plug them into the PED device.
+However, we only saw Angela find 
+one
+ key presumably the red key. Where was this black one? Did the show make a mistake? Well, yes and no.
+Figure 5: Angela finds Remote PED, with the black iKey already plugged in.
+The image above shows the black PED key ALREADY plugged into the remote PED when Angela finds it. It’s blurry, but the white bit sticking out at the top is the end of that black PED key. Though she didn’t have to find the black key separately, like the instructions suggested, the backup steps would still work because it’s there.
+However, finding the black PED key like this is extremely improbable. I already mentioned that the security of these hardware keys is important. It was already unlikely that she would have found the red one in a purse. This sequence implies that some user left their partition key plugged into the remote PED, just hanging out under the rack. That should never happen. Or maybe this entire CSAT really just couldn’t care less.
+Then we get to the PIN. Besides the user credentials, the partition credentials, the two different secure USB tokens, and finding the remote PED, you still need to know the hand-entered PIN for the PED. Apparently, the Dark Army has it, as we see in the instructions, but this too is a bit hard to believe. A hand-entered PIN isn’t something network access would get you, unless someone was careless enough to type it somewhere, or someone on the CSAT team was coerced into giving it up. Remember, the Dark Army didn’t even know they would have to do this HSM heist until recently, when they tried to upload UPS firmware and failed due to a missing signature. While a heist like this is possible with tons of preparation, they didn’t have the time.
+Figure 6: Entering the PIN in the remote PED.
+When cloning completes, take red/black USB keys, thumb drive, and backup HSM
+Barring the convenience with which she found these very important and secure red and black USB keys, it’s true that these steps would give her all she’d need to create a backup HSM. The technical steps shown seem to perfectly follow the backup instructions that this HSM vendor publishes online. This last step, stealing those two SafeNet PED USB keys, and the backed up HSM, would indeed give the Dark Army the capability to sign code as E Corp.
+So that leaves me torn on the hackuracy of this scene. From a technical level, I think it’s right on. The steps shown are right, they account for all that is needed for the HSM backup process, and the result gives the Dark Army what they need. However, I feel like there are some narrative problems with this scene that make the whole heist improbable, especially in this time frame. Though Elliot did find evidence of how the Dark Army might have obtained some of the things needed for this hack, it doesn’t account for how they obtained the more difficult credentials like the par login, and remote PED pin. Sure, it’s not impossible for a malicious actor to get those things, if even by kidnapping a CSAT team member, but that would take time. More importantly, it would be very rare for two important security tokens to simply be left where Angela found them. Finally, the show spent a lot of time telling us Angela is not a hacker like Elliot and Darlene. While the Dark Army did provide instructions for this heist, I find it hard to believe that Angela could have really pulled this off without a ton of coaching.
+Having said all that, this is still an amazingly cool and well-orchestrated technical heist. The fact that the showrunners put so much accurate detail into how to back up a very specific HSM is just awesome to a geek like me. My little quibbles with how probable or lucky some of this was don’t matter as much in grand scheme of the show. The consistent level of accuracy in this show blows everything else out of the water, so kudos to the team.
+Easter Eggs and odds ‘n’ ends
+I’ve already obsessed over just a few scenes, but believe it or not, there were even more technical details to appreciate if you looked hard enough:
+As always, look for every URL, IP, email address you can find. Visit or send things to them and you might be rewarded.
+This episode subtly gave shout-outs to three well-known hackers from the InfoSec community. I won’t name them for you, but one was an alias our protagonist used, and the other two were code words for phone conversations.
+The title of the episode was about 
+runtime error
+s. Besides Elliot mentioning runtime errors at the beginning, the episode contained many other metaphoric runtime errors.
+Elliot knows Darlene was working for the FBI and Angela has betrayed him (at least on the surface). I think Angela will be redeemed. We’ve only seen half of this particular day, so the next episode should be explosive.
+Earlier, I mentioned we don’t see what the HSM script Angela runs does. However, if you found some of the IP and URLs I mentioned, you probably 
+found this site
+. It emulates the command line window of that script, and even allows you to play along, entering the password and PIN Angela had to. The commands you see this script run are also accurately portrayed, based on a real backup process.
+If you really want to find all the buried clues, I recommend you join the 
+/r/ARGsociety
+ sub on Reddit.
+Learning from Robot: Lock Up Your Hardware Keys
+I’m sure I could outline twelve security tips from this episode, but let’s stick with one. If you use hardware tokens for multi-factor authentication, don’t just leave them laying around the way E Corp’s CSAT team does. Lock those suckers up, or keep them on your person at all times!
+Join me again next week for another installment of Mr. Robot Rewind, and feel free to share your comments, theories and feedback below!
+Corey Nachreiner
+, CTO at 
+WatchGuard Technologies
+, regularly contributes to security publications and speaks internationally at leading industry trade shows like RSA. He has written thousands of security alerts and educational articles and is the primary contributor to the 
+Secplicity Community
+, which provides daily videos and content on the latest security threats, news and best practices. A Certified Information Systems Security Professional (CISSP), Corey enjoys "modding" any technical gizmo he can get his hands on and considers himself a hacker in the old sense of the word.
+ Share  17
+ Tweet
+ Share
+ Reddit
+ Email
+Previous Story
+Geeks Give Back: Help us raise more than $1 million for STEM education
+Next Story
+Microsoft Alumni Network announces new executive director as organization grows
+ Filed Under: 
+Tech
+ Tagged With: 
+hacking
+ • 
+Mr. Robot
+ • 
+mr. robot rewind
+ • 
+Security
+GeekWire Newsletters
+Subscribe to GeekWire's free newsletters to catch every headline
+Email address
+Subscribe
+GeekWire Daily
+ - Top headlines daily
+GeekWire Weekly
+ - Most-read stories of the week, delivered Sunday
+Breaking News Alerts
+ - Important news as it happens
+GeekWire Startups
+ - News, analysis, insights from the Pacific Northwest startup ecosystem, delivered Friday
+GeekWire Mid-week Update
+ — Most-read stories so far this week, delivered Wednesday
+GeekWire Local Deals
+ — Special offers for Pacific Northwest area readers
+Send Us a Tip
+Have a scoop that you'd like GeekWire to cover? Let us know.
+Send Us a Tip
+Related Stories
+Science-fiction master Ted Chiang explores the rights and wrongs of AI
+Geek of the Week: Zipwhip’s teen developer Avery Wagar generates buzz with his work on coffee robot
+Amazon details how its warehouse robots are designed to help humans work safely
+Microsoft industrial designer leads Seattle team and ‘Big Dill’ in ‘BattleBots’ TV competition
+Previous Story
+Geeks Give Back: Help us raise more than $1 million for STEM education
+Next Story
+Microsoft Alumni Network announces new executive director as organization grows
+Like what you're reading? Subscribe to GeekWire's free newsletters to catch every headline
+Email address
+Subscribe
+GeekWire Daily
+ - Top headlines daily
+GeekWire Weekly
+ - Most-read stories of the week, delivered Sunday
+Breaking News Alerts
+ - Important news as it happens
+GeekWire Startups
+ - News, analysis, insights from the Pacific Northwest startup ecosystem, delivered Friday
+GeekWire Mid-week Update
+ — Most-read stories so far this week, delivered Wednesday
+GeekWire Local Deals
+ — Special offers for Pacific Northwest area readers
+Most Popular on GeekWire
+We asked seven venture capitalists if the metaverse is the next big thing or just a lot of hype
+Amazon VP of physical retail stores leaves company after 14 years
+Blue Origin to fly six suborbital space travelers next month, including pioneer astronaut’s daughter
+A giant ship from Halo appears at Oregon Ducks football game as part of mixed reality experience
+Job Listings on GeekWork
+Product Manager – Financial Services
+INRIX
+System Administrator/IT Specialist – Scientific Computing
+Howard Hughes Medical Institute
+Data Acquisition Manager, Global Partnerships
+INRIX
+Front-end Engineer
+Vacatia
+Director of Engineering – Geospatial Platform
+INRIX
+Senior Linux System Engineer
+Ridgeline International
+Find more jobs on 
+GeekWork
+. Employers, 
+post a job here
+.
+A Word From Our Sponsors
+Central Oregon’s hidden luxury real estate gem lists brand new homesites
+Read More
+Improving the Patient Experience: The Value of Data Exchange in Healthcare
+Read More
+Discover the Importance of AutoML for Augmented Analytics
+Download the Ebook now.
+Support Your Overall Wellness with New 401(k), ID Theft Plans Through ALLtech
+Read More
+Rise of Bellevue
+Read more.
+Galactic Sponsors
+Platinum Sponsors
+Silver Sponsors
+About
+About GeekWire
+Contact Us
+Ask About Advertising
+Send Us a Tip
+Apply for Startup Spotlight
+Apply for Geek of the Week
+Become a GeekWire Member
+Join Our Startup List
+Reprints and Permissions
+Follow
+GeekWire Newsletters
+Catch every headline in your inbox
+Email address
+Subscribe
+GeekWire Daily
+ - Top headlines daily
+GeekWire Weekly
+ - Most-read stories of the week, delivered Sunday
+Breaking News Alerts
+ - Important news as it happens
+GeekWire Startups
+ - News, analysis, insights from the Pacific Northwest startup ecosystem, delivered Friday
+GeekWire Mid-week Update
+ — Most-read stories so far this week, delivered Wednesday
+GeekWire Local Deals
+ — Special offers for Pacific Northwest area readers
+GeekWire Apps
+ iOS
+ Android
+ Apple News
+ Google Play Newsstand
+GeekWire Developer Blog
+ Return to Top of Page
+Privacy Policy
+ | 
+Terms of Use
+© 2011-2021 GeekWire, LLC
+×
+Get smart with GeekWire.
+Sign up for our new daily newsletter.
+Sign Up
+Do not show again.

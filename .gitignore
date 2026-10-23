@@ -13,3 +13,4 @@ scratch/chat_chunks/
 scratch/quadgrams.pkl
 *.log
 /tmp/
+data/user_supplied/

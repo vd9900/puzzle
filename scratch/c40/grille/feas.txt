@@ -1,0 +1,6 @@
+36 lower feasible print True (19, 192)
+40 lower INFEASIBLE print True (2, 29)
+60 lower feasible print True (15, 159)
+64 lower INFEASIBLE print True (2, 24)
+96 lower feasible print True (11, 119)
+100 lower INFEASIBLE print True (1, 18)

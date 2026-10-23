@@ -1,0 +1,13 @@
+{
+ "main_x_hits": [],
+ "main_addr_hits": [],
+ "control_chain": true,
+ "control_planted": true,
+ "negative_fp": 0,
+ "scalars": 508,
+ "xtable": 1524,
+ "timing_us": [
+  880,
+  59
+ ]
+}

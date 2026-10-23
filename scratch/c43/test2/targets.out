@@ -1,0 +1,9 @@
+[faed] 1536 PSLQ calls in 198s
+faed: len=570 g-in-prefix=8 calls=1536 raw_relations=0 full_passes=0
+[faed_rev] 12 PSLQ calls in 2s
+faed_rev: len=570 g-in-prefix=1 calls=12 raw_relations=0 full_passes=0
+[dbbi] 192 PSLQ calls in 25s
+dbbi: len=91 g-in-prefix=5 calls=192 raw_relations=0 full_passes=0
+[R60] 192 PSLQ calls in 25s
+R60: len=60 g-in-prefix=5 calls=192 raw_relations=0 full_passes=0
+total target PSLQ calls 1932

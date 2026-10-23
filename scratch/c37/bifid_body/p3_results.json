@@ -1,0 +1,45 @@
+{
+ "n_orders": 362880,
+ "n_btcseed": 8,
+ "B_theme_1_2": {
+  "orders_hit": 8,
+  "distinct_words": 1,
+  "expected_iid": 0.9296121401943441,
+  "words": [
+   "btcseed"
+  ]
+ },
+ "B2_theme_1_2_3": {
+  "orders_hit": 8,
+  "distinct_words": 1,
+  "expected_iid": 1.0433073076237407,
+  "words": [
+   "btcseed"
+  ]
+ },
+ "C_english_word": {
+  "orders_hit": 0,
+  "distinct_words": 0,
+  "expected_iid": 3.032480087942145,
+  "words": []
+ },
+ "C3_bip39": {
+  "orders_hit": 0,
+  "distinct_words": 0,
+  "expected_iid": 15.70322123214519,
+  "words": []
+ },
+ "ALL": {
+  "orders_hit": 48,
+  "distinct_words": 6,
+  "expected_iid": 84.04267188862617,
+  "words": [
+   "btcseed",
+   "byeseed",
+   "codsbtc",
+   "codseed",
+   "cudweed",
+   "docseed"
+  ]
+ }
+}

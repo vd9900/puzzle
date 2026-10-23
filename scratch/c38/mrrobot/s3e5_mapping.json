@@ -1,0 +1,83 @@
+{
+ "consumed_by_phase2": [
+  {
+   "puzzle_text": "ironic 2name of the keymakers",
+   "answer": "SafeNet",
+   "s3e5_source": "HSM vendor; SafeNet logo on Angela's backup device (Luna G5)"
+  },
+  {
+   "puzzle_text": "latin 3Moon",
+   "answer": "Luna",
+   "s3e5_source": "SafeNet Luna G5 backup HSM / Luna PED"
+  },
+  {
+   "puzzle_text": "4How So Mate",
+   "answer": "HSM",
+   "s3e5_source": "HSM in CSAT secure room, floor 23"
+  },
+  {
+   "puzzle_text": "security by hiding, nearly unprotected, in plain sight",
+   "answer": "(flavour)",
+   "s3e5_source": "PED in rack drawer, red/black PED keys left in a bag / plugged in"
+  },
+  {
+   "puzzle_text": "where daughters hit magic keypads",
+   "answer": "(flavour)",
+   "s3e5_source": "Angela (Price's daughter) types PIN on Remote PED keypad"
+  },
+  {
+   "puzzle_text": "in one of the valleys of Phillip",
+   "answer": "unresolved",
+   "s3e5_source": "? (Phillip Price / E Corp; alt: Low Countries of Philip II -> NL, matching table coordinates)"
+  },
+  {
+   "puzzle_text": "Q swordless fish",
+   "answer": "82",
+   "s3e5_source": "not S3E5: Elliot's fish Qwerty (series-wide)"
+  },
+  {
+   "puzzle_text": "table reversed",
+   "answer": "51 52 28.0 N 4 24 23.2 E",
+   "s3e5_source": "not S3E5: SafeNet site check; unique valid DMS among 8 resolutions"
+  }
+ ],
+ "unconsumed_s3e5_artifacts": [
+  "Floor 23, CSAT ROOM 23-148",
+  "frank.bowman:hidd3nlynx",
+  "eHSM_clone.bat",
+  "red PED key (domain/KCV)",
+  "black PED key (partition owner)",
+  "Remote PED PIN 022350",
+  "'Please attend to the PED'",
+  "'Cloned object' lines",
+  "ELKBOX 192.251.68.232 via PuTTY",
+  "Kibana UPS firmware-fail 2015-09-29 06:07:20",
+  "mimi.exe pass-the-ticket c:\\temp\\tickets\\",
+  "net group \"CSAT Administrators\" /domain",
+  "net user Frank.Bowman /domain",
+  "xcopy y:\\hsm c:\\temp /s /e (\\\\CSAT-FS01\\D$\\hsm)",
+  "Marlinspike/Moxie passphrase",
+  "German elevator line 'Aller Anfang ist schwer'",
+  "UN vote China-Congo annexation",
+  "Elliot's 4 lost days",
+  "bomb-threat call",
+  "one-take format"
+ ],
+ "tests": {
+  "aes": [
+   "hidd3nlynx",
+   "frank.bowman:hidd3nlynx",
+   "hidd3nlynx022350",
+   "marlinspikemoxie"
+  ],
+  "aes_forms": 18,
+  "aes_hits": 0,
+  "bw_keys": 27,
+  "bw_matches": 0,
+  "doors": [
+   "hidd3nlynx",
+   "022350"
+  ],
+  "door_result": "404 both"
+ }
+}

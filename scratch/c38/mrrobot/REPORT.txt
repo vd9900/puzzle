@@ -1,0 +1,7 @@
+Mr. Robot S3E5 lens (cycle 38) — negative. 4 oracle tests (hidd3nlynx, frank.bowman:hidd3nlynx, hidd3nlynx022350,
+marlinspikemoxie; 18 forms x 3 blobs x 2 KDFs), 27 brainwallet keys, 2 door probes (hidd3nlynx, 022350): all negative.
+Phase 2 table: of 8 sign/value resolutions only B=25,H=42,Q=82 (+ reversal) gives valid DMS coordinates (51.874N 4.406E,
+Netherlands) = SafeNet self-check, no second answer. "Episode 3.5" (2026-03-03) was a sign-off, not a hint. "Better half" is
+used casually by the creator for his partner (2025-04-28). Last scene of Mr. Robot: "Hello, Elliot" bookend — tokens already tested.
+Open: "[in one of the valleys of Phillip]" unexplained; Norton's-theorem -> 11110 route never justified (creator "can't say" 2023).
+Files: cands_s3e5.txt doors_s3e5.txt derivations.txt table_check.py/.txt s3e5_mapping.json dl/

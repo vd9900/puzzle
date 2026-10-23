@@ -1,0 +1,10 @@
+B= 25 H= 42 Q=82 reversed='# 51 52 28 0 Y 4 24 23 2 X #'           validDMS=True
+B= 25 H= 42 Q=28 reversed='# 51 52 82 0 Y 4 24 23 2 X #'           validDMS=False
+B= 25 H=-42 Q=82 reversed='# 51 52 28 0 Y 4 24- 23 2 X #'          validDMS=False
+B= 25 H=-42 Q=28 reversed='# 51 52 82 0 Y 4 24- 23 2 X #'          validDMS=False
+B=-16 H= 42 Q=82 reversed='# 51 61- 28 0 Y 4 24 23 2 X #'          validDMS=False
+B=-16 H= 42 Q=28 reversed='# 51 61- 82 0 Y 4 24 23 2 X #'          validDMS=False
+B=-16 H=-42 Q=82 reversed='# 51 61- 28 0 Y 4 24- 23 2 X #'         validDMS=False
+B=-16 H=-42 Q=28 reversed='# 51 61- 82 0 Y 4 24- 23 2 X #'         validDMS=False
+valid combos: 1 of 8
+  B=25 H=42 Q=82: lat 51.87444 N, lon 4.40644 E

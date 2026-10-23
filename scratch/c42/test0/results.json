@@ -1,0 +1,5210 @@
+{
+"plant0": {
+"per": -4.398362482827962,
+"out": "whenthenightfallsoverthequietcitytheoldwatchmanlightshislampandwalksslowlyalongtheemptystreetsuntil",
+"n": 99,
+"maxstates": 162,
+"tag": "plant0",
+"start": 1,
+"secs": 0.043024301528930664,
+"span": [
+99,
+0,
+99
+]
+},
+"plant0_ctrl0": {
+"per": -6.316540193743345,
+"out": "eigffpkaceieadseetahfdadffgfeeahadacdfacifcetaltagghadittggchegciaacataedgdhbbgdiafigcingthelapatitgitt",
+"n": 103,
+"maxstates": 109,
+"tag": "plant0_ctrl0",
+"start": 1,
+"secs": 0.02371048927307129,
+"span": [
+10,
+89,
+99
+]
+},
+"plant0_ctrl1": {
+"per": -6.248767905802006,
+"out": "eftyggqigdeageeiceitqitchfpfattiderfetpgcuobegaibgghegthhcdegitsafgblediagagagliggiftatfaactaihemdente",
+"n": 102,
+"maxstates": 162,
+"tag": "plant0_ctrl1",
+"start": 1,
+"secs": 0.025165796279907227,
+"span": [
+13,
+88,
+101
+]
+},
+"plant0_ctrl2": {
+"per": -6.350802884384122,
+"out": "iftetsthaciehieetvddgfnalihagahdtheebgatigbdacatgbegeacgadhaieedgbdumbegaeakfiffefgtweeeigfchdhedgeggi",
+"n": 102,
+"maxstates": 104,
+"tag": "plant0_ctrl2",
+"start": 1,
+"secs": 0.024406909942626953,
+"span": [
+5,
+25,
+30
+]
+},
+"plant0_ctrl3": {
+"per": -6.209690767676292,
+"out": "ggfdctfaiafcdcatgctbeediaggeagotbeteaoftghetbatggagatheadfifhbafebeieatpahifygitryigcdizdfeafchgganiha",
+"n": 102,
+"maxstates": 113,
+"tag": "plant0_ctrl3",
+"start": 1,
+"secs": 0.05255317687988281,
+"span": [
+12,
+28,
+40
+]
+},
+"plant0_ctrl4": {
+"per": -6.2216370669859655,
+"out": "cegghwiiqeittgdicanfaaageaaneeatifagbcggicecaithetwdeztaaeadeneehuisgdkbdhbutduietifebegeducotagaista",
+"n": 101,
+"maxstates": 153,
+"tag": "plant0_ctrl4",
+"start": 1,
+"secs": 0.06387615203857422,
+"span": [
+8,
+20,
+28
+]
+},
+"plant0_ctrl5": {
+"per": -6.101574380020021,
+"out": "bgggagavwiwikithiefdbafcfffheaitdeylificairatcafhaaghahagifefirfectkfangticgfitshadeatgetiffbdeghehedt",
+"n": 102,
+"maxstates": 118,
+"tag": "plant0_ctrl5",
+"start": 1,
+"secs": 0.04892373085021973,
+"span": [
+15,
+76,
+91
+]
+},
+"plant0_ctrl6": {
+"per": -6.030947483507442,
+"out": "baaictagdegaidadaceafaiehafeidithefeggefthiedthagargaeffchhitieitgbgtothgchgbeigtheitatgahidgiggphvldra",
+"n": 103,
+"maxstates": 148,
+"tag": "plant0_ctrl6",
+"start": 1,
+"secs": 0.02509307861328125,
+"span": [
+9,
+11,
+20
+]
+},
+"plant0_ctrl7": {
+"per": -6.209334582194383,
+"out": "hguaegmfficghgetichfuffagcidehhmvegiibgwhatfachgfetaifidtafadatdchgdfcuedeechieughatthefbebeccgiachadb",
+"n": 102,
+"maxstates": 166,
+"tag": "plant0_ctrl7",
+"start": 1,
+"secs": 0.06111645698547363,
+"span": [
+11,
+76,
+87
+]
+},
+"plant0_ctrl8": {
+"per": -6.345361683885665,
+"out": "giefcggdaighevhkiiffcdrfigitawedegegittintgzahaggmvigstgitdidoihdqstatgagpahtelygtidtadaghaellgeicewg",
+"n": 101,
+"maxstates": 96,
+"tag": "plant0_ctrl8",
+"start": 1,
+"secs": 0.04034113883972168,
+"span": [
+9,
+23,
+32
+]
+},
+"plant0_ctrl9": {
+"per": -6.294989353950333,
+"out": "awbgattcedheidbeifgegisgiffgittatiionczciaaggeefatbuigihcneagfheheynafdeaghaaafaiaidfifidthedecfhhddfc",
+"n": 102,
+"maxstates": 128,
+"tag": "plant0_ctrl9",
+"start": 1,
+"secs": 0.03729844093322754,
+"span": [
+9,
+28,
+37
+]
+},
+"plant0_ctrl10": {
+"per": -6.21292096199191,
+"out": "fieamfieaesifeaditbettaecutagdhgmackafgcebegiffdzbgaagtthitmeitalfffieefggedwmggfesttobgcafeaededtaeeb",
+"n": 102,
+"maxstates": 133,
+"tag": "plant0_ctrl10",
+"start": 1,
+"secs": 0.029910802841186523,
+"span": [
+8,
+56,
+64
+]
+},
+"plant0_ctrl11": {
+"per": -6.488541081797882,
+"out": "iegifgkgiugewgfpethifigaggcaadhgicdthegbetairfgiaadremategxcigiapgcioatiscbgbgaafaigctiesafdatneofalt",
+"n": 101,
+"maxstates": 119,
+"tag": "plant0_ctrl11",
+"start": 1,
+"secs": 0.02695012092590332,
+"span": [
+6,
+19,
+25
+]
+},
+"plant0_ctrl12": {
+"per": -6.362731740556247,
+"out": "ihffxsityftwinlgtogecweiagthegggktageewegazhddkmixrvapgirheeregafftanigheilifcggicalfgigeimadegodofd",
+"n": 100,
+"maxstates": 119,
+"tag": "plant0_ctrl12",
+"start": 1,
+"secs": 0.02699875831604004,
+"span": [
+13,
+57,
+70
+]
+},
+"plant0_ctrl13": {
+"per": -6.2952082733761525,
+"out": "fgbcbdgagatgidfteaeehakeeiettheegghtcpihchintechtftogteidfiigffichhacaetifitpghgnacarficpdggrggeareghf",
+"n": 102,
+"maxstates": 116,
+"tag": "plant0_ctrl13",
+"start": 1,
+"secs": 0.03128170967102051,
+"span": [
+8,
+40,
+48
+]
+},
+"plant0_ctrl14": {
+"per": -6.326165816286669,
+"out": "fggygqfcdtcasfadeiiigoatpeechefageagcgcvtfanichfdvqgfrdhgfedagewyghingeedhwtheggfhigetohetifaedtztadi",
+"n": 101,
+"maxstates": 128,
+"tag": "plant0_ctrl14",
+"start": 1,
+"secs": 0.023496150970458984,
+"span": [
+24,
+11,
+35
+]
+},
+"plant0_ctrl15": {
+"per": -6.245316851107002,
+"out": "iteadgcgtighghesedgatteugaidggeaedvgageeagaiufdtheiifcgfeaedbyighegticeinhedieidigkgeatgfgsgeigctalidt",
+"n": 102,
+"maxstates": 127,
+"tag": "plant0_ctrl15",
+"start": 1,
+"secs": 0.024827957153320312,
+"span": [
+14,
+68,
+82
+]
+},
+"plant0_ctrl16": {
+"per": -6.332550535202391,
+"out": "ghaebgdceeihfateticfgbdggbeeecafbfzgitatdadaiqgffafaififiefeaihafurhvgeageagepthatgzeeedpawthtieahakan",
+"n": 102,
+"maxstates": 148,
+"tag": "plant0_ctrl16",
+"start": 1,
+"secs": 0.02196526527404785,
+"span": [
+9,
+36,
+45
+]
+},
+"plant0_ctrl17": {
+"per": -6.232475553212183,
+"out": "eehoefthbiutageoehkidzadshbkchxwagghoftiiedgthadgehtihhatdgibginagetieggitseagihgitbeecdaiditbuttcdgdh",
+"n": 102,
+"maxstates": 99,
+"tag": "plant0_ctrl17",
+"start": 1,
+"secs": 0.022759437561035156,
+"span": [
+16,
+61,
+77
+]
+},
+"plant0_ctrl18": {
+"per": -6.524035286407108,
+"out": "ibegcaftthgieagdfeadgapylhhekinagafafieidgganfhigaebetaieeadddwfiddeitfectcagtgligagetffatilegkigthaic",
+"n": 102,
+"maxstates": 81,
+"tag": "plant0_ctrl18",
+"start": 1,
+"secs": 0.01761603355407715,
+"span": [
+7,
+87,
+94
+]
+},
+"plant0_ctrl19": {
+"per": -6.082587887754179,
+"out": "dtgavatgkegldgxqigsadfqiifainitgbgxfdegghhwheatiatheeffeaditdeectaezafraiigggdishedbeglitnceiffeiditc",
+"n": 101,
+"maxstates": 85,
+"tag": "plant0_ctrl19",
+"start": 1,
+"secs": 0.03776860237121582,
+"span": [
+12,
+77,
+89
+]
+},
+"plant0_ctrl20": {
+"per": -6.24952396961648,
+"out": "ehitafrhcgiteihaiggedfhangfgieggaiwfeuhzfemuceiaiabgfifacttithiehangiegitsdiffgdeaffebeemhogcduedaidia",
+"n": 102,
+"maxstates": 155,
+"tag": "plant0_ctrl20",
+"start": 1,
+"secs": 0.047754526138305664,
+"span": [
+16,
+53,
+69
+]
+},
+"plant0_ctrl21": {
+"per": -6.2225651359467955,
+"out": "aeefeefapvndeeidfbaiilytakeaeinacatfbggfcfitagcjectiafeitfigiddzgyegcwbfbaahattheeheagfhigdaggcdagatth",
+"n": 102,
+"maxstates": 134,
+"tag": "plant0_ctrl21",
+"start": 1,
+"secs": 0.04250049591064453,
+"span": [
+13,
+72,
+85
+]
+},
+"plant0_ctrl22": {
+"per": -6.427164965424717,
+"out": "hiegdiiieiggmceheaidddogfbgeagagfiddlaipiedadhegggcefachgxdeafdietthddcycagddeagiheaftafabutbyiigifcei",
+"n": 102,
+"maxstates": 127,
+"tag": "plant0_ctrl22",
+"start": 1,
+"secs": 0.01671314239501953,
+"span": [
+10,
+37,
+47
+]
+},
+"plant0_ctrl23": {
+"per": -6.304670441637946,
+"out": "gemgsgthygywsfitiedgedhgbaefghehckagathiceeggigfcdfmaeafidolicingaictofigifdhiamggeitdealdhagaggdhfia",
+"n": 101,
+"maxstates": 122,
+"tag": "plant0_ctrl23",
+"start": 1,
+"secs": 0.038785457611083984,
+"span": [
+11,
+56,
+67
+]
+},
+"plant0_ctrl24": {
+"per": -6.2478459468406315,
+"out": "fdghieigeehaqgftogigetitittydaygchegegdcgtaidititigeeegaifenygidiaghgbgfeducatbegdftbeevgceeehucdhisad",
+"n": 102,
+"maxstates": 143,
+"tag": "plant0_ctrl24",
+"start": 1,
+"secs": 0.051872968673706055,
+"span": [
+11,
+15,
+26
+]
+},
+"plant0_ctrl25": {
+"per": -6.319545727503708,
+"out": "dedtgfcabbgdditdfitatfsaeghdehfeggagatatafgesiggagagdefeteachgavcbahbecactdidofhdhecwckbpbgatitghefetab",
+"n": 103,
+"maxstates": 89,
+"tag": "plant0_ctrl25",
+"start": 1,
+"secs": 0.039624691009521484,
+"span": [
+8,
+33,
+41
+]
+},
+"plant0_ctrl26": {
+"per": -6.415570743165329,
+"out": "eaffagetgbiogihagggeatgdeeifdghaptigbgeiesidgigfufatteaitdgifiaitaftcbtfaitegooffdqdmcegxcomftthicieea",
+"n": 102,
+"maxstates": 123,
+"tag": "plant0_ctrl26",
+"start": 1,
+"secs": 0.026048898696899414,
+"span": [
+9,
+59,
+68
+]
+},
+"plant0_ctrl27": {
+"per": -6.314562114726842,
+"out": "cehfihitcffihdieafgashilfediotiecefbehgihhphifhicegbbigthmeandihecghatafaeeeefeelbeiedhthaaetyiateefti",
+"n": 102,
+"maxstates": 129,
+"tag": "plant0_ctrl27",
+"start": 1,
+"secs": 0.02182602882385254,
+"span": [
+8,
+57,
+65
+]
+},
+"plant0_ctrl28": {
+"per": -6.391110346784382,
+"out": "factdcihfattccecqhqgleinifhdhacgcefacedacgfbyifategettagieiedatfghfiihigcaidiedegtaitgethdbefecftemehce",
+"n": 103,
+"maxstates": 102,
+"tag": "plant0_ctrl28",
+"start": 1,
+"secs": 0.02047276496887207,
+"span": [
+14,
+43,
+57
+]
+},
+"plant0_ctrl29": {
+"per": -6.086280339556998,
+"out": "fitghtgeaeecafteatietthdgfdefwhtfeataccbggciedattlegtheldeeggghatcadvgeogdbehfaattateedigbeeiaittfegeit",
+"n": 103,
+"maxstates": 120,
+"tag": "plant0_ctrl29",
+"start": 1,
+"secs": 0.021030902862548828,
+"span": [
+14,
+82,
+96
+]
+},
+"plant1": {
+"per": -4.2134627907783315,
+"out": "youwillfindthesecretkeyhiddenbehindtheseconddoorbutonlyafteryouhavelearnedtoreadthenta",
+"n": 86,
+"maxstates": 154,
+"tag": "plant1",
+"start": 188,
+"secs": 0.04474353790283203,
+"span": [
+84,
+0,
+84
+]
+},
+"plant1_ctrl0": {
+"per": -6.164623213068217,
+"out": "gdegeagegaowmcedeahtehbecaasetogrciggbbfseoomtggbehtaggigihadethatdaheheahcbgeditshegggigf",
+"n": 90,
+"maxstates": 90,
+"tag": "plant1_ctrl0",
+"start": 188,
+"secs": 0.01744222640991211,
+"span": [
+10,
+51,
+61
+]
+},
+"plant1_ctrl1": {
+"per": -5.927062300970728,
+"out": "ctyhegcegitfightqggpethhagangqertatdeaigfichbettbgbgbargatacgcthehedtchidgaggdgetageatistc",
+"n": 90,
+"maxstates": 125,
+"tag": "plant1_ctrl1",
+"start": 188,
+"secs": 0.014986515045166016,
+"span": [
+10,
+78,
+88
+]
+},
+"plant1_ctrl2": {
+"per": -6.165539853119667,
+"out": "agfggffishgiiccdfighighadabovethidehueguiacidtdetiedithgxtdahgeghidggerideaedhyiggheahtedi",
+"n": 90,
+"maxstates": 71,
+"tag": "plant1_ctrl2",
+"start": 188,
+"secs": 0.021439552307128906,
+"span": [
+11,
+16,
+27
+]
+},
+"plant1_ctrl3": {
+"per": -6.331085594171122,
+"out": "iiecetifattdeghggeattfaehttigeyecaaancifihgkewacgewidaffaifeciatitgettgthefaecaitaigdaiseec",
+"n": 91,
+"maxstates": 101,
+"tag": "plant1_ctrl3",
+"start": 188,
+"secs": 0.032277822494506836,
+"span": [
+8,
+61,
+69
+]
+},
+"plant1_ctrl4": {
+"per": -6.3229463968936495,
+"out": "hggicietgggggghdnghiftbectegthxieacggetafeideeargdbehwemaiguiftechfcfiadeefehanicegiceebea",
+"n": 90,
+"maxstates": 109,
+"tag": "plant1_ctrl4",
+"start": 188,
+"secs": 0.012354850769042969,
+"span": [
+6,
+60,
+66
+]
+},
+"plant1_ctrl5": {
+"per": -6.3044210783545855,
+"out": "iechcalgadddigdnetifheaafdhaatfiedemwailbadtgetiesheietitehatecehhthgghgcfheteddbgitdfgpae",
+"n": 90,
+"maxstates": 76,
+"tag": "plant1_ctrl5",
+"start": 188,
+"secs": 0.015417814254760742,
+"span": [
+9,
+15,
+24
+]
+},
+"plant1_ctrl6": {
+"per": -6.3664233968274235,
+"out": "edeiicehivefaceiagfeeqbgafgtfightcceheigabgdfthdaggetdgictaaaghtgefcatidrhileactahathfffdhb",
+"n": 91,
+"maxstates": 64,
+"tag": "plant1_ctrl6",
+"start": 188,
+"secs": 0.011331796646118164,
+"span": [
+14,
+3,
+17
+]
+},
+"plant1_ctrl7": {
+"per": -6.186771944932347,
+"out": "hghlazpsfiststeaihigneaiteeadihhaggbfqcgercbgctedtiigfifirgectatatatgiigbgghreedgnhalfdeca",
+"n": 90,
+"maxstates": 99,
+"tag": "plant1_ctrl7",
+"start": 188,
+"secs": 0.020259857177734375,
+"span": [
+9,
+8,
+17
+]
+},
+"plant1_ctrl8": {
+"per": -6.149890476743433,
+"out": "fgahaltthdehgtoagwdshtittfasacttfgheairicudqdchiffeeigithdifhflcangigiutbeexishygccitheeaa",
+"n": 90,
+"maxstates": 118,
+"tag": "plant1_ctrl8",
+"start": 188,
+"secs": 0.03055715560913086,
+"span": [
+9,
+34,
+43
+]
+},
+"plant1_ctrl9": {
+"per": -6.122102831768437,
+"out": "ittheeadjeatcceihedieceggigdhaddbcticeggczyfpdiitidafelxheldeeateofzqdheimhbgdagevebegahth",
+"n": 90,
+"maxstates": 63,
+"tag": "plant1_ctrl9",
+"start": 188,
+"secs": 0.021731853485107422,
+"span": [
+12,
+0,
+12
+]
+},
+"plant1_ctrl10": {
+"per": -6.292342086630847,
+"out": "chithgddeuedihtskeetgrcghlticegesgbcaicfqgghithvcfeddageofatadebecagahfiaihbdacthanagatdeh",
+"n": 90,
+"maxstates": 78,
+"tag": "plant1_ctrl10",
+"start": 188,
+"secs": 0.027343273162841797,
+"span": [
+11,
+53,
+64
+]
+},
+"plant1_ctrl11": {
+"per": -6.267866188758202,
+"out": "iegggiechgifehcedeczaimertipighathagieaiehemalgceeifetgegdeieatifehdviigetfkmhiaatfitteaca",
+"n": 90,
+"maxstates": 103,
+"tag": "plant1_ctrl11",
+"start": 188,
+"secs": 0.02738499641418457,
+"span": [
+11,
+26,
+37
+]
+},
+"plant1_ctrl12": {
+"per": -6.259379270354691,
+"out": "fbmhtwatihbehgetdhatiadathiletgaepgasithefacfgdggaahgtthefuedhgghcrgattdgthifxdaetdithieie",
+"n": 90,
+"maxstates": 81,
+"tag": "plant1_ctrl12",
+"start": 188,
+"secs": 0.01434779167175293,
+"span": [
+8,
+49,
+57
+]
+},
+"plant1_ctrl13": {
+"per": -6.153054446067649,
+"out": "ceeieettahigtheechaighctdifagxldhmgfgbeditegfcititidledgeightipidigqcbdeydfgbcgidfeeithgag",
+"n": 90,
+"maxstates": 56,
+"tag": "plant1_ctrl13",
+"start": 188,
+"secs": 0.00960540771484375,
+"span": [
+9,
+46,
+55
+]
+},
+"plant1_ctrl14": {
+"per": -6.321716770125094,
+"out": "dteaimbehgeatmgfxftththieitgeiedgcbbgdchiaegedeeofgaghagaetcaladgeheggdehjectanhadgdetfgefc",
+"n": 91,
+"maxstates": 121,
+"tag": "plant1_ctrl14",
+"start": 188,
+"secs": 0.014312982559204102,
+"span": [
+16,
+48,
+64
+]
+},
+"plant1_ctrl15": {
+"per": -6.25717515540296,
+"out": "iddgocfiewheadtcchaxddsrigciftigkheeaselayhegafeyieicevfemefrgeagilhgedthittghnhgeatgtheg",
+"n": 89,
+"maxstates": 78,
+"tag": "plant1_ctrl15",
+"start": 188,
+"secs": 0.013675451278686523,
+"span": [
+11,
+33,
+44
+]
+},
+"plant1_ctrl16": {
+"per": -6.1269376955042425,
+"out": "qoieatighdzgheiadneeddeitefcfeatedhapthafgdihlearitceagfcesaizviehdeihedhehcedhiidgdecattb",
+"n": 90,
+"maxstates": 109,
+"tag": "plant1_ctrl16",
+"start": 188,
+"secs": 0.013061046600341797,
+"span": [
+5,
+2,
+7
+]
+},
+"plant1_ctrl17": {
+"per": -6.3386378949342035,
+"out": "ewtgetfueghckhigeagghkgfansthggbeiiehaimgivgewsectikeeydhegeeddietgatdeatifggatiagfeeatgii",
+"n": 90,
+"maxstates": 82,
+"tag": "plant1_ctrl17",
+"start": 188,
+"secs": 0.015547513961791992,
+"span": [
+10,
+56,
+66
+]
+},
+"plant1_ctrl18": {
+"per": -6.323024989868381,
+"out": "hgciifaecgiectaeeaffdhaiigidhatohecfbebeedghadhaeifgamigeedgptriefifihfaraieithhacmaadhasa",
+"n": 90,
+"maxstates": 95,
+"tag": "plant1_ctrl18",
+"start": 188,
+"secs": 0.013765096664428711,
+"span": [
+5,
+29,
+34
+]
+},
+"plant1_ctrl19": {
+"per": -6.4150448253082,
+"out": "fitdieeefffbgifiehfezhgehaagiteeffcggeahatastcegaceiddcecgemeithfihichmiibcddmgiheitittceei",
+"n": 91,
+"maxstates": 93,
+"tag": "plant1_ctrl19",
+"start": 188,
+"secs": 0.01626873016357422,
+"span": [
+7,
+79,
+86
+]
+},
+"plant1_ctrl20": {
+"per": -6.185287436888575,
+"out": "ahacieadefetatauagehorgbbfhidthesitacddthilgatgeitgfhtgehcicghatiegwyigetciadeidetaiieegae",
+"n": 90,
+"maxstates": 86,
+"tag": "plant1_ctrl20",
+"start": 188,
+"secs": 0.01593494415283203,
+"span": [
+10,
+26,
+36
+]
+},
+"plant1_ctrl21": {
+"per": -6.396727807602981,
+"out": "citaggattaiicbddggagathgieiilceeeetaghahgfaafdgelemictshdrgeatartaddthgetaghggthheidaiggru",
+"n": 90,
+"maxstates": 87,
+"tag": "plant1_ctrl21",
+"start": 188,
+"secs": 0.02348804473876953,
+"span": [
+9,
+59,
+68
+]
+},
+"plant1_ctrl22": {
+"per": -6.389954170327193,
+"out": "oxdfgtopeacceecfhftafidraetidgatghaciheahifitggdefiggffaddbagtgdhihateeigbecfchcgthtakefieh",
+"n": 91,
+"maxstates": 104,
+"tag": "plant1_ctrl22",
+"start": 188,
+"secs": 0.033907175064086914,
+"span": [
+7,
+83,
+90
+]
+},
+"plant1_ctrl23": {
+"per": -6.476410051810769,
+"out": "chcubfthtvgatahgthheaitdhglbdhitggbeeiethegeotdacheidgeiahdigdaefbgahhbceicthahemdgdtigedhh",
+"n": 91,
+"maxstates": 109,
+"tag": "plant1_ctrl23",
+"start": 188,
+"secs": 0.030292034149169922,
+"span": [
+6,
+11,
+17
+]
+},
+"plant1_ctrl24": {
+"per": -6.160751854551563,
+"out": "hgggudggiieaffietalactatchthfdgectauaditedgatediftetththygkedcapeagdfhgbecdgdchattoeichgeg",
+"n": 90,
+"maxstates": 112,
+"tag": "plant1_ctrl24",
+"start": 188,
+"secs": 0.01501917839050293,
+"span": [
+8,
+77,
+85
+]
+},
+"plant1_ctrl25": {
+"per": -6.121476243109602,
+"out": "eeiateifgxlagettbecceemegerihgettceaciiffieritcafbreciachightgfchbaghefeehaeihegatsfftanif",
+"n": 90,
+"maxstates": 115,
+"tag": "plant1_ctrl25",
+"start": 188,
+"secs": 0.01735401153564453,
+"span": [
+9,
+37,
+46
+]
+},
+"plant1_ctrl26": {
+"per": -6.363362925683143,
+"out": "tighgaddadghtidecgaatfrgbeqeieiibcdicertitacrigitdeteeigghicafdfgbeiahiafteategeetdecuedtig",
+"n": 91,
+"maxstates": 92,
+"tag": "plant1_ctrl26",
+"start": 188,
+"secs": 0.011978864669799805,
+"span": [
+7,
+70,
+77
+]
+},
+"plant1_ctrl27": {
+"per": -6.074873227883281,
+"out": "iactifgccgiagaidgidedifiatakefdhgdaftglahhealebeitdfiehhettathegbeiiighffoghagcggedhastitde",
+"n": 91,
+"maxstates": 84,
+"tag": "plant1_ctrl27",
+"start": 188,
+"secs": 0.017506837844848633,
+"span": [
+9,
+41,
+50
+]
+},
+"plant1_ctrl28": {
+"per": -6.268490652736965,
+"out": "fddeikfghdgeregimmegeetslgchiicestcandhtaccgekdngeneftedhtidecehhaheagateheicgiieffegcgeig",
+"n": 90,
+"maxstates": 79,
+"tag": "plant1_ctrl28",
+"start": 188,
+"secs": 0.012450456619262695,
+"span": [
+11,
+11,
+22
+]
+},
+"plant1_ctrl29": {
+"per": -6.251625151456446,
+"out": "gigcghgbeagfathgcciibaaieheffedeedaebytgdvgdqigththatigathmiabaeegeteahefidiacaeecgeadeaffb",
+"n": 91,
+"maxstates": 53,
+"tag": "plant1_ctrl29",
+"start": 188,
+"secs": 0.00994873046875,
+"span": [
+6,
+18,
+24
+]
+},
+"plant2": {
+"per": -4.082403597248493,
+"out": "everygreabjourneybeginswithasinglestepandthecouragetokeepmovingforwardevenwhentheroada",
+"n": 86,
+"maxstates": 193,
+"tag": "plant2",
+"start": 189,
+"secs": 0.031334877014160156,
+"span": [
+76,
+10,
+86
+]
+},
+"plant2_ctrl0": {
+"per": -6.362946266966677,
+"out": "egngcloeigmhdceatdosiddgidcadedihedtfbdehfdhheticucakebrseeiagfhedhddgeamtpefalatagbadsatf",
+"n": 90,
+"maxstates": 113,
+"tag": "plant2_ctrl0",
+"start": 189,
+"secs": 0.017699003219604492,
+"span": [
+10,
+79,
+89
+]
+},
+"plant2_ctrl1": {
+"per": -6.2406719649586035,
+"out": "gciihaekmuceqiiecginghogagbeafehidaqkeetataiseictageseegthegehicieddgimhitgeodatameicfceca",
+"n": 90,
+"maxstates": 89,
+"tag": "plant2_ctrl1",
+"start": 189,
+"secs": 0.03227353096008301,
+"span": [
+7,
+77,
+84
+]
+},
+"plant2_ctrl2": {
+"per": -6.336725691208623,
+"out": "hiigdgiegcteeagihzciiictacateclgsfadpuhzofhowhichacdcacafbbbajceedtghdhtbegttueaffatnmedac",
+"n": 90,
+"maxstates": 105,
+"tag": "plant2_ctrl2",
+"start": 189,
+"secs": 0.02615666389465332,
+"span": [
+6,
+44,
+50
+]
+},
+"plant2_ctrl3": {
+"per": -6.271264101781016,
+"out": "hatdgdedgesdrihzfaisiguguqhyggtoatiiginggcatfeiffggetfceeeidgfaheegaeitatheefaetofaageacha",
+"n": 90,
+"maxstates": 114,
+"tag": "plant2_ctrl3",
+"start": 189,
+"secs": 0.03851604461669922,
+"span": [
+9,
+30,
+39
+]
+},
+"plant2_ctrl4": {
+"per": -6.256104391350597,
+"out": "dhdidfygfrbadteadtghcogthfdbegaychgggiugcfhhtheagicfdbaeamaddlefgceaghebaadengacatangeaaee",
+"n": 90,
+"maxstates": 111,
+"tag": "plant2_ctrl4",
+"start": 189,
+"secs": 0.03359699249267578,
+"span": [
+8,
+69,
+77
+]
+},
+"plant2_ctrl5": {
+"per": -6.37501043037637,
+"out": "bdggheidhaggghhgdbgeehigdggggimaeeitelthecysgedeeatggeiheshhdgqltedheaagagafiftdieficeicdef",
+"n": 91,
+"maxstates": 108,
+"tag": "plant2_ctrl5",
+"start": 189,
+"secs": 0.013707876205444336,
+"span": [
+8,
+67,
+75
+]
+},
+"plant2_ctrl6": {
+"per": -6.191949080387129,
+"out": "fhateigsggiegdgattaathedtughtefaaiittagaicogefgchadfidiagetrcbecgaceagfifddgehihehuhfgchapp",
+"n": 91,
+"maxstates": 72,
+"tag": "plant2_ctrl6",
+"start": 189,
+"secs": 0.01194906234741211,
+"span": [
+13,
+31,
+44
+]
+},
+"plant2_ctrl7": {
+"per": -6.01406808243052,
+"out": "dideidratigeiachcfffddeigattefcdattidtiartistgitilyhagqfgmcleggdgeaheafghehadhefeandcegdac",
+"n": 90,
+"maxstates": 127,
+"tag": "plant2_ctrl7",
+"start": 189,
+"secs": 0.03365826606750488,
+"span": [
+7,
+38,
+45
+]
+},
+"plant2_ctrl8": {
+"per": -6.095150779884486,
+"out": "atehtgeoifcbbctarthathcgaiagfaciedekugghighatggkeeglangeandeearifeeigeitneaifhdgetaefaiaac",
+"n": 90,
+"maxstates": 90,
+"tag": "plant2_ctrl8",
+"start": 189,
+"secs": 0.04082632064819336,
+"span": [
+8,
+14,
+22
+]
+},
+"plant2_ctrl9": {
+"per": -6.076009163498234,
+"out": "zgecagfgbdgtlycaehatqedfifeeerasfeacdcghtefasteamhgiteeitgiftkgcafcisiccigheigheagdfeeagei",
+"n": 90,
+"maxstates": 103,
+"tag": "plant2_ctrl9",
+"start": 189,
+"secs": 0.034780263900756836,
+"span": [
+10,
+51,
+61
+]
+},
+"plant2_ctrl10": {
+"per": -6.383370609401248,
+"out": "baeeggeecgahteadghigaafaaaaidieetnhemnegdanaefggebiantfigeighttsiaiceoqthfifatteldfatadigr",
+"n": 90,
+"maxstates": 76,
+"tag": "plant2_ctrl10",
+"start": 189,
+"secs": 0.011502504348754883,
+"span": [
+12,
+50,
+62
+]
+},
+"plant2_ctrl11": {
+"per": -6.275589742409118,
+"out": "eecgcccasgacfhoftatiahggadchalicagictaadttedegeiandangkdcativegggigceifegraeaqueeiihahieat",
+"n": 90,
+"maxstates": 116,
+"tag": "plant2_ctrl11",
+"start": 189,
+"secs": 0.018405437469482422,
+"span": [
+9,
+81,
+90
+]
+},
+"plant2_ctrl12": {
+"per": -6.468638709402461,
+"out": "geicfieimgccdgtagafghfhhadigeaagacacttdinitfdegfedharidffgcialgeithedadcfaktogseadahicfadac",
+"n": 91,
+"maxstates": 100,
+"tag": "plant2_ctrl12",
+"start": 189,
+"secs": 0.01901412010192871,
+"span": [
+7,
+64,
+71
+]
+},
+"plant2_ctrl13": {
+"per": -6.157793092201763,
+"out": "daefititbeguapgehchdokffgdpigicthetedhhieidagdeeahathatgscdgedeaaedicgeticeidgchecdfgqedhai",
+"n": 91,
+"maxstates": 99,
+"tag": "plant2_ctrl13",
+"start": 189,
+"secs": 0.013588666915893555,
+"span": [
+8,
+3,
+11
+]
+},
+"plant2_ctrl14": {
+"per": -6.291085132772753,
+"out": "asisexqaehatdgamefgggehgimgethdihbfaqigetcgatteffcqithditukelfhfegegatunalspeatighgidnefe",
+"n": 89,
+"maxstates": 143,
+"tag": "plant2_ctrl14",
+"start": 189,
+"secs": 0.020415067672729492,
+"span": [
+6,
+0,
+6
+]
+},
+"plant2_ctrl15": {
+"per": -6.089611494027957,
+"out": "dhgiaicewlfeedeeiesegtakihteadgedeqitgechiagraihagccidctthagmheadjeneacapotfntaidfscriciad",
+"n": 90,
+"maxstates": 79,
+"tag": "plant2_ctrl15",
+"start": 189,
+"secs": 0.01695990562438965,
+"span": [
+5,
+3,
+8
+]
+},
+"plant2_ctrl16": {
+"per": -6.2229747151128745,
+"out": "yacetitlicdagacaegifheactacfebetcacchafgeafcfiigcthicgcbggafeisfecdageagifiohimacagihitteri",
+"n": 91,
+"maxstates": 142,
+"tag": "plant2_ctrl16",
+"start": 189,
+"secs": 0.025348663330078125,
+"span": [
+8,
+18,
+26
+]
+},
+"plant2_ctrl17": {
+"per": -6.106073267145844,
+"out": "hceaifedbfaafihitsghggaigheifgadahchichideddeiaittieactundggieepaevaeeathefitacadeaertitmet",
+"n": 91,
+"maxstates": 127,
+"tag": "plant2_ctrl17",
+"start": 189,
+"secs": 0.03397965431213379,
+"span": [
+12,
+69,
+81
+]
+},
+"plant2_ctrl18": {
+"per": -5.976721570151116,
+"out": "gicebetthatacaifiahitstacgictdeadhacewaiihxfaeceadgbiatesaihadeufhhotadzgggfdraganacachcgc",
+"n": 90,
+"maxstates": 124,
+"tag": "plant2_ctrl18",
+"start": 189,
+"secs": 0.029680967330932617,
+"span": [
+11,
+1,
+12
+]
+},
+"plant2_ctrl19": {
+"per": -6.144310415683642,
+"out": "chrgpidanggedcgeaybeheatdhffgdagxtuffadgideahthefadticedciifeatfahadgacdegdagthiehfaineatge",
+"n": 91,
+"maxstates": 97,
+"tag": "plant2_ctrl19",
+"start": 189,
+"secs": 0.022798776626586914,
+"span": [
+9,
+45,
+54
+]
+},
+"plant2_ctrl20": {
+"per": -6.1031151846192495,
+"out": "egckficahsheagidgaagfdidgethieticcdgeidhgbiaiendtgiicfaiteachbughfestashatakiqdftbeahagefa",
+"n": 90,
+"maxstates": 107,
+"tag": "plant2_ctrl20",
+"start": 189,
+"secs": 0.02191948890686035,
+"span": [
+13,
+62,
+75
+]
+},
+"plant2_ctrl21": {
+"per": -6.24897795433703,
+"out": "gdgfarktcpigdeefavcfygybiighebefiheticneedmaketgeforgheigsitgrmitatcadpocgeidadetabiihggc",
+"n": 89,
+"maxstates": 149,
+"tag": "plant2_ctrl21",
+"start": 189,
+"secs": 0.019166231155395508,
+"span": [
+14,
+32,
+46
+]
+},
+"plant2_ctrl22": {
+"per": -6.2751008879998995,
+"out": "beataftcuhgsihdlogaiirfhmateeifgsaifagerhacidcifeadsaatedefdidbeihgshagzztertodeadfgeifgue",
+"n": 90,
+"maxstates": 163,
+"tag": "plant2_ctrl22",
+"start": 189,
+"secs": 0.022057056427001953,
+"span": [
+7,
+0,
+7
+]
+},
+"plant2_ctrl23": {
+"per": -6.129049530941676,
+"out": "aehedhahpeduqofadfacibaeagaitlihamiihfgectheaietitgaabggtofhchethakhgfdfaitadddesceafteawi",
+"n": 90,
+"maxstates": 87,
+"tag": "plant2_ctrl23",
+"start": 189,
+"secs": 0.014696121215820312,
+"span": [
+6,
+30,
+36
+]
+},
+"plant2_ctrl24": {
+"per": -6.353084411082288,
+"out": "fgagmggedecgaffegtodbdaftczdacttaudidfggshcidestighefiegmagftaseggodgedeggckfagcaccbcdhefe",
+"n": 90,
+"maxstates": 112,
+"tag": "plant2_ctrl24",
+"start": 189,
+"secs": 0.03657364845275879,
+"span": [
+5,
+11,
+16
+]
+},
+"plant2_ctrl25": {
+"per": -6.2495181520420235,
+"out": "hacgffeofdidtfgccahhdatdetheggedaegauhaddedcdagtthagggtouddeamvdticigthaccgbitehggcdfbatatd",
+"n": 91,
+"maxstates": 93,
+"tag": "plant2_ctrl25",
+"start": 189,
+"secs": 0.03741312026977539,
+"span": [
+6,
+27,
+33
+]
+},
+"plant2_ctrl26": {
+"per": -6.447853092964284,
+"out": "dgighgnccgmbafgbfdfhedbeeithacegatgdadgaegcccgtdecihifdjecfefietchatkeiethahngateedimvehtha",
+"n": 91,
+"maxstates": 116,
+"tag": "plant2_ctrl26",
+"start": 189,
+"secs": 0.03731536865234375,
+"span": [
+7,
+61,
+68
+]
+},
+"plant2_ctrl27": {
+"per": -6.258332847725852,
+"out": "redececeadagbdbeccccprgfigfmdetgoeiieghihfgidgedacstofchatfdcgatadatgiatieendsaffdgihaigag",
+"n": 90,
+"maxstates": 70,
+"tag": "plant2_ctrl27",
+"start": 189,
+"secs": 0.03555178642272949,
+"span": [
+10,
+69,
+79
+]
+},
+"plant2_ctrl28": {
+"per": -6.515193067164015,
+"out": "dhehfdbhffgyeaagefhcgaiteagatascffdfgaggedgisthgecnefanefdfedogathgeitfhtbeaghaacrdatgfcgag",
+"n": 91,
+"maxstates": 88,
+"tag": "plant2_ctrl28",
+"start": 189,
+"secs": 0.028784990310668945,
+"span": [
+10,
+36,
+46
+]
+},
+"plant2_ctrl29": {
+"per": -6.127351363397083,
+"out": "ediceigfpgagahhtbegqwghtgfhgbeagefhigecngnceuchtfgfegitaaidtikgbeateackaethetheeeieatatahe",
+"n": 90,
+"maxstates": 147,
+"tag": "plant2_ctrl29",
+"start": 189,
+"secs": 0.02095508575439453,
+"span": [
+9,
+81,
+90
+]
+},
+"real_fwd_s1": {
+"per": -6.5318067386199825,
+"out": "odgeblgndtigfeghaigegiovefactfggehntfigbfhsegedfcfdbegteaiceodciidgehcghifggatgagtbeifedhihczbehaidtui",
+"n": 102,
+"maxstates": 76,
+"tag": "real_fwd_s1",
+"start": 1,
+"secs": 0.01116037368774414,
+"span": [
+9,
+51,
+60
+]
+},
+"real_fwd_s1_ctrl0": {
+"per": -6.307461620955908,
+"out": "iggnwitiheiggbfdigdggoalaefacegehedhihegbffdccifhithecaysedneidcgiiidqhgfacfffafetsacfectfeaceimghiagh",
+"n": 102,
+"maxstates": 56,
+"tag": "real_fwd_s1_ctrl0",
+"start": 1,
+"secs": 0.01261448860168457,
+"span": [
+7,
+4,
+11
+]
+},
+"real_fwd_s1_ctrl1": {
+"per": -6.6839563673907785,
+"out": "hiddghahedgghgifhgdxbefahbcfhtiectificfzdghhbgmatitmecdeegdohiigfcheagrbtticggiheegeogtbecaiixlfeeifcc",
+"n": 102,
+"maxstates": 45,
+"tag": "real_fwd_s1_ctrl1",
+"start": 1,
+"secs": 0.007066488265991211,
+"span": [
+7,
+46,
+53
+]
+},
+"real_fwd_s1_ctrl2": {
+"per": -6.622003040679318,
+"out": "gfbcihggniceiccegdgfeiggfhaedicfdhteffgddracyffahthahcithadhggdmfizgyaidgaifechfhithgcbdeiregoibegthee",
+"n": 102,
+"maxstates": 39,
+"tag": "real_fwd_s1_ctrl2",
+"start": 1,
+"secs": 0.006399631500244141,
+"span": [
+13,
+89,
+102
+]
+},
+"real_fwd_s1_ctrl3": {
+"per": -6.461592750964279,
+"out": "giffiigebeeeiaiaticcheegqgfidagzgedbeehetggeseiieghhedgdcrgtchidhadeiheigehigwgglicehcibgbdcihhtahihfbe",
+"n": 103,
+"maxstates": 36,
+"tag": "real_fwd_s1_ctrl3",
+"start": 1,
+"secs": 0.00604557991027832,
+"span": [
+7,
+12,
+19
+]
+},
+"real_fwd_s1_ctrl4": {
+"per": -6.716662747835098,
+"out": "gdeidhcgiggisalgcdfdqcqehicghcceghedggbbgifdgeiggecheiiahgiebecidigrgigieedfgeanigcedhhdbehtfaghetahitd",
+"n": 103,
+"maxstates": 80,
+"tag": "real_fwd_s1_ctrl4",
+"start": 1,
+"secs": 0.008452415466308594,
+"span": [
+6,
+96,
+102
+]
+},
+"real_fwd_s1_ctrl5": {
+"per": -6.463738192315446,
+"out": "feygeifiigaincihaciighteiddgcgthiideidiceftfhdtfiscigiefegegirighigfigdgricdgtafatgehtheicgethehettiiaf",
+"n": 103,
+"maxstates": 56,
+"tag": "real_fwd_s1_ctrl5",
+"start": 1,
+"secs": 0.0076138973236083984,
+"span": [
+8,
+5,
+13
+]
+},
+"real_fwd_s1_ctrl6": {
+"per": -6.507020575415068,
+"out": "fqgeagfgeohgsdebefgfdehmdfeechecitihaiighitbeccteigththhaiteighpfbgdgoftthpacqbhgqacderghcedaftigecdgd",
+"n": 102,
+"maxstates": 46,
+"tag": "real_fwd_s1_ctrl6",
+"start": 1,
+"secs": 0.008506536483764648,
+"span": [
+5,
+40,
+45
+]
+},
+"real_fwd_s1_ctrl7": {
+"per": -6.3974917961530675,
+"out": "hadiagehihegieggheifethgccgcccggegatehefigffdhhigdrceeiftgdifflhnggefaicimfgdfeetgafeihptfieaddidigcaae",
+"n": 103,
+"maxstates": 39,
+"tag": "real_fwd_s1_ctrl7",
+"start": 1,
+"secs": 0.008009195327758789,
+"span": [
+10,
+89,
+99
+]
+},
+"real_fwd_s1_ctrl8": {
+"per": -6.502011866947264,
+"out": "oegdqadgtiticigigecfbmdehgneahgfiiftiedaigchiedcgiccgzagtifethechehefvheddanefgeeliegfyachggicgsidetfa",
+"n": 102,
+"maxstates": 62,
+"tag": "real_fwd_s1_ctrl8",
+"start": 1,
+"secs": 0.014932632446289062,
+"span": [
+9,
+32,
+41
+]
+},
+"real_fwd_s1_ctrl9": {
+"per": -6.524921549556643,
+"out": "efitattgddbehcgckafighhbyfeeggiftfgdachiegcdiddagaistciihgfefggeacccigdfiffciighggedebehicihedgetfcgfff",
+"n": 103,
+"maxstates": 57,
+"tag": "real_fwd_s1_ctrl9",
+"start": 1,
+"secs": 0.017616987228393555,
+"span": [
+6,
+90,
+96
+]
+},
+"real_fwd_s1_ctrl10": {
+"per": -6.592959445318416,
+"out": "bjecepafhgcfistbeiciaeddgbehgcatafhgfiigditgetcdcdiggiggiggehiaadfbatcgcgcheiiefdnaditfbfbghteeddhtitha",
+"n": 103,
+"maxstates": 75,
+"tag": "real_fwd_s1_ctrl10",
+"start": 1,
+"secs": 0.012111663818359375,
+"span": [
+9,
+49,
+58
+]
+},
+"real_fwd_s1_ctrl11": {
+"per": -6.570371018619854,
+"out": "ghiyfusczffeggkiebehtghtaiiegdaciggheddgcdfbrohedddcfgditdigitehehcethtafcbgeditthhdghhneofifilidhagfg",
+"n": 102,
+"maxstates": 61,
+"tag": "real_fwd_s1_ctrl11",
+"start": 1,
+"secs": 0.011509418487548828,
+"span": [
+11,
+89,
+100
+]
+},
+"real_fwd_s1_ctrl12": {
+"per": -6.562907440492431,
+"out": "cgcgggfcedggagbfeihdagcgcfhhidedgfgdhigficeaddaedhoicfggbetechieedcghcmfgfadedieeiisiveititgrfigggbhfbg",
+"n": 103,
+"maxstates": 69,
+"tag": "real_fwd_s1_ctrl12",
+"start": 1,
+"secs": 0.009302139282226562,
+"span": [
+10,
+70,
+80
+]
+},
+"real_fwd_s1_ctrl13": {
+"per": -6.668287055456932,
+"out": "bhhdfccfiddifegbehtaebadteighaiggegfchgefftfifgigcpiicceedfdefygahtcatdhiiigdichaniegzdgfigatthceccatgi",
+"n": 103,
+"maxstates": 58,
+"tag": "real_fwd_s1_ctrl13",
+"start": 1,
+"secs": 0.005747556686401367,
+"span": [
+5,
+44,
+49
+]
+},
+"real_fwd_s1_ctrl14": {
+"per": -6.607694810560172,
+"out": "cgfiftfeggghdehhihcdwghdehitggicggcieqdfgaxhtidwchthatscffiggrefuitiedghaggiefidffgfhieighaigigbatseet",
+"n": 102,
+"maxstates": 66,
+"tag": "real_fwd_s1_ctrl14",
+"start": 1,
+"secs": 0.0074346065521240234,
+"span": [
+11,
+90,
+101
+]
+},
+"real_fwd_s1_ctrl15": {
+"per": -6.211351225209383,
+"out": "tichgirhecaeghifagidftintgegifgfgedsidcahitlifeeteddgedkadhighfhfecehiedtifaheatihgheeifheknigdeheiddie",
+"n": 103,
+"maxstates": 47,
+"tag": "real_fwd_s1_ctrl15",
+"start": 1,
+"secs": 0.009525299072265625,
+"span": [
+8,
+39,
+47
+]
+},
+"real_fwd_s1_ctrl16": {
+"per": -6.647466124418168,
+"out": "efitgdgdfhighdeceeetlghgaeaeedectlenifigdhbiggghedcfeattghhddgggeeiaechadthigtiedgigggchffgiefeafdiccag",
+"n": 103,
+"maxstates": 55,
+"tag": "real_fwd_s1_ctrl16",
+"start": 1,
+"secs": 0.009008407592773438,
+"span": [
+7,
+77,
+84
+]
+},
+"real_fwd_s1_ctrl17": {
+"per": -6.22327320927136,
+"out": "afiedgbgcgatagcsgisiatefahditmqgthightitvcceechaceeffeeidbqfewdhkezhhghagghggchatidofwhetmiftedhcgbefd",
+"n": 102,
+"maxstates": 73,
+"tag": "real_fwd_s1_ctrl17",
+"start": 1,
+"secs": 0.029495954513549805,
+"span": [
+8,
+32,
+40
+]
+},
+"real_fwd_s1_ctrl18": {
+"per": -6.576000234215405,
+"out": "agfiaebfthadyigyxbqdchhdaigffifhhhahatorehfeggechgeitdcacffghdiidhthditccaiiedredteaitfhhggdbdbedefaidi",
+"n": 103,
+"maxstates": 40,
+"tag": "real_fwd_s1_ctrl18",
+"start": 1,
+"secs": 0.009684324264526367,
+"span": [
+8,
+33,
+41
+]
+},
+"real_fwd_s1_ctrl19": {
+"per": -6.45729993707076,
+"out": "hofigddedhcigmdehggzdidggacgdedoifigceggicheachtfhgitdingthvadgchateiedhggqiibttinadtigfeageccichaqhch",
+"n": 102,
+"maxstates": 71,
+"tag": "real_fwd_s1_ctrl19",
+"start": 1,
+"secs": 0.010752201080322266,
+"span": [
+7,
+2,
+9
+]
+},
+"real_fwd_s1_ctrl20": {
+"per": -6.650821159268177,
+"out": "eifcegfeeiggfashgcdehcdathgbfethcadfgeffhtiaebadtfiestiteghgggdeficgiiqdhhfidchitmagiegdeihatcmcdfdifit",
+"n": 103,
+"maxstates": 56,
+"tag": "real_fwd_s1_ctrl20",
+"start": 1,
+"secs": 0.008566856384277344,
+"span": [
+6,
+50,
+56
+]
+},
+"real_fwd_s1_ctrl21": {
+"per": -6.360650975799681,
+"out": "gdhbgfiitagigbfggedreehehicgfigbdddaikensheigehccifthetechtbaehdcglbfefeasgiceeadetshaeittgdiecihdeadgc",
+"n": 103,
+"maxstates": 47,
+"tag": "real_fwd_s1_ctrl21",
+"start": 1,
+"secs": 0.00893092155456543,
+"span": [
+9,
+35,
+44
+]
+},
+"real_fwd_s1_ctrl22": {
+"per": -6.5958287208299415,
+"out": "hgfedhfdgogfggfaccgcligheehfoihefgdehfeahifthifacccceheaffiheeidfgggefgephfdhedeaafitilsitftmeacchatgcg",
+"n": 103,
+"maxstates": 54,
+"tag": "real_fwd_s1_ctrl22",
+"start": 1,
+"secs": 0.019652366638183594,
+"span": [
+6,
+80,
+86
+]
+},
+"real_fwd_s1_ctrl23": {
+"per": -6.485876565364927,
+"out": "eagfegihagoafadhedqgedfdgctitgehitccffgdegeicedighthdigteidbglbggdgehgdifimiigidfihifichdweedcgafeeirch",
+"n": 103,
+"maxstates": 73,
+"tag": "real_fwd_s1_ctrl23",
+"start": 1,
+"secs": 0.01126551628112793,
+"span": [
+9,
+8,
+17
+]
+},
+"real_fwd_s1_ctrl24": {
+"per": -6.696107643413337,
+"out": "egigdigegihhgagdfdhafgdcceefgbgcgcegegchegitihaiicbdghefechticetidbdiibgccbffhigifgecdfigcehehahgchisdha",
+"n": 104,
+"maxstates": 63,
+"tag": "real_fwd_s1_ctrl24",
+"start": 1,
+"secs": 0.006794929504394531,
+"span": [
+6,
+1,
+7
+]
+},
+"real_fwd_s1_ctrl25": {
+"per": -6.452944406169916,
+"out": "adtogcahfieicritfieggdtighicffgghichcihcgtighingaftecfceigbeagzmdeggtenhfceeaeeatgfdehhdehiiderggrigit",
+"n": 102,
+"maxstates": 80,
+"tag": "real_fwd_s1_ctrl25",
+"start": 1,
+"secs": 0.012454748153686523,
+"span": [
+7,
+44,
+51
+]
+},
+"real_fwd_s1_ctrl26": {
+"per": -6.4161668241968295,
+"out": "eeetgdiggdcbiicbrhgdeedgghhigigaaaefishytihtbeeddfaichaidhamelteeghlitadeianigfggrgeaciigageggdtheeige",
+"n": 102,
+"maxstates": 33,
+"tag": "real_fwd_s1_ctrl26",
+"start": 1,
+"secs": 0.008003950119018555,
+"span": [
+8,
+86,
+94
+]
+},
+"real_fwd_s1_ctrl27": {
+"per": -6.373648571553587,
+"out": "gaddeyecgfeiffcgingaiefhecagaieiggztigaaiittiffeeddehcagcccefiliedcaifedeafgthitidafeitggfgcfhghesahdbe",
+"n": 103,
+"maxstates": 61,
+"tag": "real_fwd_s1_ctrl27",
+"start": 1,
+"secs": 0.017735958099365234,
+"span": [
+9,
+38,
+47
+]
+},
+"real_fwd_s1_ctrl28": {
+"per": -6.553577797771152,
+"out": "oegihiibkbadhetuhceedgifnaapdiibdcecdghegehgagaihzqecgsefitagweitepaggitheefxbcedagiageidiidaicptifedh",
+"n": 102,
+"maxstates": 57,
+"tag": "real_fwd_s1_ctrl28",
+"start": 1,
+"secs": 0.02303338050842285,
+"span": [
+8,
+57,
+65
+]
+},
+"real_fwd_s1_ctrl29": {
+"per": -6.658695523281944,
+"out": "fciiideedeegigegghafeifidgiiefgcgefeigbgtoeirebeiadjahhieaidhcdcadicchtitdagcrefaffhiheahaihgcifgdhldre",
+"n": 103,
+"maxstates": 40,
+"tag": "real_fwd_s1_ctrl29",
+"start": 1,
+"secs": 0.010779619216918945,
+"span": [
+13,
+40,
+53
+]
+},
+"real_fwd_s188": {
+"per": -6.652463168785192,
+"out": "dgfbfagiecaiggiaatafadhehhqfggghtatggiggceitfhdgbadhiiicpggshgggiggaitgofiefdefeateaiehttih",
+"n": 91,
+"maxstates": 63,
+"tag": "real_fwd_s188",
+"start": 188,
+"secs": 0.011524200439453125,
+"span": [
+19,
+63,
+82
+]
+},
+"real_fwd_s188_ctrl0": {
+"per": -6.59653160898356,
+"out": "cdyayieoadiditdcgihedcdiragamitafdgbgzieyuchhhhbefoailaemehgogifeidgbedagbfiheegrhithtadim",
+"n": 90,
+"maxstates": 69,
+"tag": "real_fwd_s188_ctrl0",
+"start": 188,
+"secs": 0.01808309555053711,
+"span": [
+6,
+8,
+14
+]
+},
+"real_fwd_s188_ctrl1": {
+"per": -6.4084075290764195,
+"out": "gbgedhcgeceaeggaiaighaiftidfcegehhzgsegefgitefeiiiewbahghacitedichdadctfeatathggedigteadacc",
+"n": 91,
+"maxstates": 54,
+"tag": "real_fwd_s188_ctrl1",
+"start": 188,
+"secs": 0.018635034561157227,
+"span": [
+8,
+11,
+19
+]
+},
+"real_fwd_s188_ctrl2": {
+"per": -6.780007834128904,
+"out": "ifldeecdgheigbfgcfaeigqiiccdigfihiicgettgzeiectsgieybceggdfuehtheighaceahgatighagdqaefaged",
+"n": 90,
+"maxstates": 56,
+"tag": "real_fwd_s188_ctrl2",
+"start": 188,
+"secs": 0.012761354446411133,
+"span": [
+4,
+62,
+66
+]
+},
+"real_fwd_s188_ctrl3": {
+"per": -6.378359389581599,
+"out": "giwgihfeatghdhceagimgithaykdaighiihtheicgehagfeagevgifioeantaethtchhfeeaffthfidhhierfeitee",
+"n": 90,
+"maxstates": 56,
+"tag": "real_fwd_s188_ctrl3",
+"start": 188,
+"secs": 0.008494853973388672,
+"span": [
+5,
+21,
+26
+]
+},
+"real_fwd_s188_ctrl4": {
+"per": -6.398092968178341,
+"out": "fgfecfecihidfeataagrecadgffthgegettiigithicahgiighebgefetgeceidseceiiebeheegoegthcagggiidgh",
+"n": 91,
+"maxstates": 60,
+"tag": "real_fwd_s188_ctrl4",
+"start": 188,
+"secs": 0.008102893829345703,
+"span": [
+10,
+8,
+18
+]
+},
+"real_fwd_s188_ctrl5": {
+"per": -6.256465268289969,
+"out": "dchedhuafhbechziethiwgbdgchhadjeieifiddhttickedcdeiffcyagfggdifiegfdthafatthethigggchdcidfi",
+"n": 91,
+"maxstates": 48,
+"tag": "real_fwd_s188_ctrl5",
+"start": 188,
+"secs": 0.007046699523925781,
+"span": [
+7,
+70,
+77
+]
+},
+"real_fwd_s188_ctrl6": {
+"per": -6.705380848152351,
+"out": "datifdbaifddgcfggagihaftefhehtedchgihiieeelgcdhchdeatificcicaiffgifetfggaiefffifhggbfdhttie",
+"n": 91,
+"maxstates": 37,
+"tag": "real_fwd_s188_ctrl6",
+"start": 188,
+"secs": 0.005483388900756836,
+"span": [
+8,
+16,
+24
+]
+},
+"real_fwd_s188_ctrl7": {
+"per": -6.6955513209399,
+"out": "adggogbeaqlhrdeydgtishdidhbgcggisifdfgdeifetfgftdecgghdeesilcgfheahgahidtifqgccveeatmegehh",
+"n": 90,
+"maxstates": 55,
+"tag": "real_fwd_s188_ctrl7",
+"start": 188,
+"secs": 0.008528709411621094,
+"span": [
+6,
+81,
+87
+]
+},
+"real_fwd_s188_ctrl8": {
+"per": -6.48308820045582,
+"out": "ccegchrigicdedhbffifadageheeggfgbnddgihdgdicgygfghaafchiffyhiseehiviecgwasgratitgitgeeggda",
+"n": 90,
+"maxstates": 44,
+"tag": "real_fwd_s188_ctrl8",
+"start": 188,
+"secs": 0.006295919418334961,
+"span": [
+12,
+18,
+30
+]
+},
+"real_fwd_s188_ctrl9": {
+"per": -6.707566771099715,
+"out": "dezfeitegdgscffegbehdudhecielgiebdehidiatiyqngeeshdikachdgidhdwhepitgwgfafaigdetaegeregghf",
+"n": 90,
+"maxstates": 57,
+"tag": "real_fwd_s188_ctrl9",
+"start": 188,
+"secs": 0.00783991813659668,
+"span": [
+7,
+35,
+42
+]
+},
+"real_fwd_s188_ctrl10": {
+"per": -6.558946161388904,
+"out": "abcbditicefgwchcmbcffyggighefoiheevgcethgegihfikehggeaidifhfebizemeiaighcheadeffegidiggeah",
+"n": 90,
+"maxstates": 49,
+"tag": "real_fwd_s188_ctrl10",
+"start": 188,
+"secs": 0.0077779293060302734,
+"span": [
+5,
+5,
+10
+]
+},
+"real_fwd_s188_ctrl11": {
+"per": -6.685676672726275,
+"out": "bgbehefccbeicadgiadcifheieeafgiggbcthitchgdgheyeakegedgcgdhicaqgearhcealacechcitegdfiiieigi",
+"n": 91,
+"maxstates": 56,
+"tag": "real_fwd_s188_ctrl11",
+"start": 188,
+"secs": 0.008897066116333008,
+"span": [
+8,
+44,
+52
+]
+},
+"real_fwd_s188_ctrl12": {
+"per": -6.614294838137345,
+"out": "dategtitiihdaicidaeidfafewchedigeeyatcgithchegefggigehgfidtabgdfitgharghrchghhbwbechicahdee",
+"n": 91,
+"maxstates": 47,
+"tag": "real_fwd_s188_ctrl12",
+"start": 188,
+"secs": 0.005313873291015625,
+"span": [
+7,
+80,
+87
+]
+},
+"real_fwd_s188_ctrl13": {
+"per": -6.658357423344017,
+"out": "hiffghffdfceadgathgabrbeggmgdhegegcygetcgciegfetaftbegadigaaicgagaddfiffaeghdictetiisieggce",
+"n": 91,
+"maxstates": 33,
+"tag": "real_fwd_s188_ctrl13",
+"start": 188,
+"secs": 0.008465290069580078,
+"span": [
+13,
+48,
+61
+]
+},
+"real_fwd_s188_ctrl14": {
+"per": -6.583401784606607,
+"out": "hiffbgcddfdgetaifhaghehhdiegigetbegtfisgfogiglaadatimaeiddeidiaififeggfgigheligaighqbegedic",
+"n": 91,
+"maxstates": 45,
+"tag": "real_fwd_s188_ctrl14",
+"start": 188,
+"secs": 0.015765666961669922,
+"span": [
+11,
+11,
+22
+]
+},
+"real_fwd_s188_ctrl15": {
+"per": -6.273226277159009,
+"out": "reorfdefvignfifeedtathaitedgiiigotffaditiwhhidaggidebeggdididtigeeciekeedtgfhigghfghfidaga",
+"n": 90,
+"maxstates": 61,
+"tag": "real_fwd_s188_ctrl15",
+"start": 188,
+"secs": 0.022253751754760742,
+"span": [
+11,
+49,
+60
+]
+},
+"real_fwd_s188_ctrl16": {
+"per": -6.441250307810426,
+"out": "ieigbdghgieahtcaifgiiedtexcinadafipeathegdhgectggefththacbgbeigddefgbgafiidcthirfethigaeeee",
+"n": 91,
+"maxstates": 32,
+"tag": "real_fwd_s188_ctrl16",
+"start": 188,
+"secs": 0.012498855590820312,
+"span": [
+7,
+33,
+40
+]
+},
+"real_fwd_s188_ctrl17": {
+"per": -6.603247469717485,
+"out": "igaehdhgcndchheefpieffgbgicahnathhatfehutecgfdoeggagacgdasgieedgfifcjectgafficetitgafhhgecb",
+"n": 91,
+"maxstates": 60,
+"tag": "real_fwd_s188_ctrl17",
+"start": 188,
+"secs": 0.015287637710571289,
+"span": [
+10,
+72,
+82
+]
+},
+"real_fwd_s188_ctrl18": {
+"per": -6.405337180756185,
+"out": "thitfeitegfefdghatfagitindeifdegheffgiditagiifggehdgesgggqmeafeadebduesagfiticcfehyifiehog",
+"n": 90,
+"maxstates": 42,
+"tag": "real_fwd_s188_ctrl18",
+"start": 188,
+"secs": 0.005805015563964844,
+"span": [
+14,
+63,
+77
+]
+},
+"real_fwd_s188_ctrl19": {
+"per": -6.324199277452172,
+"out": "gintcrfregetdhhgbdiiteedeaghtheceifiggffcgdgbetaccegieeifgmiwahygepitafditehetccciteccceeg",
+"n": 90,
+"maxstates": 61,
+"tag": "real_fwd_s188_ctrl19",
+"start": 188,
+"secs": 0.014051675796508789,
+"span": [
+6,
+18,
+24
+]
+},
+"real_fwd_s188_ctrl20": {
+"per": -6.481442338601923,
+"out": "prbeehesguchghtgeggeiiihpeachhcgictmatdiecfhegdgbcoticdcanegihgniiigggifteaddgigcfeadhanag",
+"n": 90,
+"maxstates": 66,
+"tag": "real_fwd_s188_ctrl20",
+"start": 188,
+"secs": 0.00891256332397461,
+"span": [
+6,
+2,
+8
+]
+},
+"real_fwd_s188_ctrl21": {
+"per": -6.501316689673253,
+"out": "figghacaeiicggdcadfigffdfighfeefgafctwehgigtfeetidagedthhnebiaacqnfhwegergeigagggddgcretea",
+"n": 90,
+"maxstates": 40,
+"tag": "real_fwd_s188_ctrl21",
+"start": 188,
+"secs": 0.007079601287841797,
+"span": [
+6,
+15,
+21
+]
+},
+"real_fwd_s188_ctrl22": {
+"per": -6.467556691183967,
+"out": "hehbcfedgdtaheanhacicgdngafeeedatgdtriehathgcbigbggeimageedhthedhigigiidhrdgifficeggifdticg",
+"n": 91,
+"maxstates": 56,
+"tag": "real_fwd_s188_ctrl22",
+"start": 188,
+"secs": 0.0051157474517822266,
+"span": [
+6,
+65,
+71
+]
+},
+"real_fwd_s188_ctrl23": {
+"per": -6.504403806649987,
+"out": "ahifgdehgfgifefgehghhidchagddgseabcdgddfhbdgcgbagdigciciedttedcegiheegethoarelonifitgiimbd",
+"n": 90,
+"maxstates": 82,
+"tag": "real_fwd_s188_ctrl23",
+"start": 188,
+"secs": 0.009871721267700195,
+"span": [
+6,
+46,
+52
+]
+},
+"real_fwd_s188_ctrl24": {
+"per": -6.445854072452897,
+"out": "cgihqaieaihishtbdgfhgitehehgiheathisgddegcneedegbbkdbgcthegiiuchegvihgehitgiehimitfasicagd",
+"n": 90,
+"maxstates": 46,
+"tag": "real_fwd_s188_ctrl24",
+"start": 188,
+"secs": 0.005903959274291992,
+"span": [
+8,
+28,
+36
+]
+},
+"real_fwd_s188_ctrl25": {
+"per": -6.58363759849849,
+"out": "cxggsgvedgahatecoadcgiddthafefbeheceeyeahcggeagddgdfhaifgceitacdeaigdcectieheatgigicgieftcg",
+"n": 91,
+"maxstates": 53,
+"tag": "real_fwd_s188_ctrl25",
+"start": 188,
+"secs": 0.009898900985717773,
+"span": [
+11,
+72,
+83
+]
+},
+"real_fwd_s188_ctrl26": {
+"per": -6.784259518794116,
+"out": "gefqbgmiichdighcceeigeacthdiffgleacfehgczagdeaiedddeegefamqecffseheciidecaidlisfbdfegechha",
+"n": 90,
+"maxstates": 39,
+"tag": "real_fwd_s188_ctrl26",
+"start": 188,
+"secs": 0.006717205047607422,
+"span": [
+4,
+26,
+30
+]
+},
+"real_fwd_s188_ctrl27": {
+"per": -6.685960428434171,
+"out": "aggbtcatdhehitghgfhegfidgqctthcgftitfiataheiefgaggbgheaddttedtgirdcegarlfctfeeiddgiicfeaifg",
+"n": 91,
+"maxstates": 63,
+"tag": "real_fwd_s188_ctrl27",
+"start": 188,
+"secs": 0.013197660446166992,
+"span": [
+11,
+33,
+44
+]
+},
+"real_fwd_s188_ctrl28": {
+"per": -6.676381523232956,
+"out": "coidghcanumebetipagifegceififegdhfghgdehgdggeaiiegiddbegdgifeiggifdtchtgtittfafifgheegohggg",
+"n": 91,
+"maxstates": 31,
+"tag": "real_fwd_s188_ctrl28",
+"start": 188,
+"secs": 0.006366252899169922,
+"span": [
+8,
+10,
+18
+]
+},
+"real_fwd_s188_ctrl29": {
+"per": -6.628180617459041,
+"out": "fcigeirfdhsfidedagcfapigchtighgeggvtpegfgeeieggdomeaddsigricuhfhedhibzedeagaceggfcgieedgdi",
+"n": 90,
+"maxstates": 52,
+"tag": "real_fwd_s188_ctrl29",
+"start": 188,
+"secs": 0.00810694694519043,
+"span": [
+16,
+40,
+56
+]
+},
+"real_fwd_s189": {
+"per": -6.652463168785192,
+"out": "egdccgdgocaiggiaatafadhehhqfggghtatggiggceitfhdgbadhiiicpggshgggiggaitgofiefdefeateaiehttih",
+"n": 91,
+"maxstates": 72,
+"tag": "real_fwd_s189",
+"start": 189,
+"secs": 0.007973194122314453,
+"span": [
+19,
+63,
+82
+]
+},
+"real_fwd_s189_ctrl0": {
+"per": -6.403007839198321,
+"out": "cbdegdheceghedgeaidfgdaifhjcfeeitecsfftadiehctidictetedrfthihodidvicgthgaehiticgfhegitdiccg",
+"n": 91,
+"maxstates": 65,
+"tag": "real_fwd_s189_ctrl0",
+"start": 189,
+"secs": 0.019322633743286133,
+"span": [
+8,
+11,
+19
+]
+},
+"real_fwd_s189_ctrl1": {
+"per": -6.725908378567194,
+"out": "fvfidshcdgbhpgbeefagthsagecchheiigegitghgfgaeterhdcmhfiduhefiacidquaehheadificdcfhdifateef",
+"n": 90,
+"maxstates": 54,
+"tag": "real_fwd_s189_ctrl1",
+"start": 189,
+"secs": 0.013937234878540039,
+"span": [
+8,
+60,
+68
+]
+},
+"real_fwd_s189_ctrl2": {
+"per": -6.593984441107032,
+"out": "cdigdiefhtcadtseamytieeggtgihgfhbigmighaafbaictqueguctitifiidedeegaffgithdcagefgccgcgatacgg",
+"n": 91,
+"maxstates": 58,
+"tag": "real_fwd_s189_ctrl2",
+"start": 189,
+"secs": 0.012932777404785156,
+"span": [
+11,
+14,
+25
+]
+},
+"real_fwd_s189_ctrl3": {
+"per": -6.624899318817101,
+"out": "eobgfihidgdihdygdchexesgddtigdagciogicgaevdhigetfiggiceihudagbeiftdaccipaiggeheecreeeafigc",
+"n": 90,
+"maxstates": 62,
+"tag": "real_fwd_s189_ctrl3",
+"start": 189,
+"secs": 0.018271923065185547,
+"span": [
+7,
+44,
+51
+]
+},
+"real_fwd_s189_ctrl4": {
+"per": -6.495061033988117,
+"out": "afcnathhgghgfgetecebyegddecitahghtaftegfqicieggagefgfcfotiticeedcifdgdeviitfhdaiefidheihaii",
+"n": 91,
+"maxstates": 74,
+"tag": "real_fwd_s189_ctrl4",
+"start": 189,
+"secs": 0.01605224609375,
+"span": [
+7,
+43,
+50
+]
+},
+"real_fwd_s189_ctrl5": {
+"per": -6.838447073001279,
+"out": "ehchidfggfefhieihecfehbfcfaibpghcsbetccigihagtagagelfochahehegigmagefcdhdiethgiaicfcfeatiih",
+"n": 91,
+"maxstates": 35,
+"tag": "real_fwd_s189_ctrl5",
+"start": 189,
+"secs": 0.01028299331665039,
+"span": [
+11,
+41,
+52
+]
+},
+"real_fwd_s189_ctrl6": {
+"per": -6.3997844636575385,
+"out": "wdfhdhcpgseecchfchicbgheathighttgdikhcfzgithiefaggegiicathacetigffhtheefffhhcewghgcietitdad",
+"n": 91,
+"maxstates": 58,
+"tag": "real_fwd_s189_ctrl6",
+"start": 189,
+"secs": 0.02012181282043457,
+"span": [
+8,
+22,
+30
+]
+},
+"real_fwd_s189_ctrl7": {
+"per": -6.497715289598093,
+"out": "ftagaageagfidgffdgeggaghtffhecyciiffedigdhadigefictigtaicfeieeeadgnhgetepewraitigetigeciate",
+"n": 91,
+"maxstates": 21,
+"tag": "real_fwd_s189_ctrl7",
+"start": 189,
+"secs": 0.00423121452331543,
+"span": [
+8,
+1,
+9
+]
+},
+"real_fwd_s189_ctrl8": {
+"per": -6.6657897787077784,
+"out": "hvhcefahfdeacdhsiftheioftthcemhcfiefaegthsheedfcidhgadidgfiagigbefediotggedieiefggiedgfaihg",
+"n": 91,
+"maxstates": 31,
+"tag": "real_fwd_s189_ctrl8",
+"start": 189,
+"secs": 0.006101131439208984,
+"span": [
+11,
+58,
+69
+]
+},
+"real_fwd_s189_ctrl9": {
+"per": -6.484572269532717,
+"out": "geiihgeefattiggwcheifagatdgdgetddiaquchhlafteniafadfgegcicfgegthoccchevedigggbefeddhadfffdi",
+"n": 91,
+"maxstates": 56,
+"tag": "real_fwd_s189_ctrl9",
+"start": 189,
+"secs": 0.006916046142578125,
+"span": [
+8,
+17,
+25
+]
+},
+"real_fwd_s189_ctrl10": {
+"per": -6.59547992879504,
+"out": "xdgeecefeeghgabggeggheihigadgeeeghhticcebeidntbfbelegitiecfiffcfctifeicgbgaciebefiffecggidf",
+"n": 91,
+"maxstates": 49,
+"tag": "real_fwd_s189_ctrl10",
+"start": 189,
+"secs": 0.0068247318267822266,
+"span": [
+9,
+48,
+57
+]
+},
+"real_fwd_s189_ctrl11": {
+"per": -6.5360355817300935,
+"out": "iggbahccgihdaftcesachtfegatefgfghtfnbbggeehochfnghegaihitgcfreataidtdigghehihfdcgxeeditdigh",
+"n": 91,
+"maxstates": 55,
+"tag": "real_fwd_s189_ctrl11",
+"start": 189,
+"secs": 0.009941816329956055,
+"span": [
+7,
+83,
+90
+]
+},
+"real_fwd_s189_ctrl12": {
+"per": -6.76003441198587,
+"out": "iegdfcbggeehsigridgfhbamgetcbbvegghfghqrdedeaggehdggsihbigfibeatfcidtifazdmfitghadtigehihf",
+"n": 90,
+"maxstates": 60,
+"tag": "real_fwd_s189_ctrl12",
+"start": 189,
+"secs": 0.007191658020019531,
+"span": [
+9,
+55,
+64
+]
+},
+"real_fwd_s189_ctrl13": {
+"per": -6.580643883405684,
+"out": "dahackiighiigedrgehiffieacietecehfieccratechcghhidcigfghfiieggcfattghacggcatedcdeigvttiecht",
+"n": 91,
+"maxstates": 72,
+"tag": "real_fwd_s189_ctrl13",
+"start": 189,
+"secs": 0.011170387268066406,
+"span": [
+7,
+1,
+8
+]
+},
+"real_fwd_s189_ctrl14": {
+"per": -6.582415464694242,
+"out": "faedgegcfbegeeheehbaehefdigiaicectcbffhiittheddiefgaheggiiigdihctitggitisgecaitchgeiaeeadyt",
+"n": 91,
+"maxstates": 54,
+"tag": "real_fwd_s189_ctrl14",
+"start": 189,
+"secs": 0.009402990341186523,
+"span": [
+8,
+24,
+32
+]
+},
+"real_fwd_s189_ctrl15": {
+"per": -6.67046693269846,
+"out": "bcdfdbghtdecfoeaheiaggagiigiifsevgeitdgfiadgedgeefigahgachhetqhgdageiwggdcghtgdigggghedhaif",
+"n": 91,
+"maxstates": 27,
+"tag": "real_fwd_s189_ctrl15",
+"start": 189,
+"secs": 0.00509190559387207,
+"span": [
+8,
+12,
+20
+]
+},
+"real_fwd_s189_ctrl16": {
+"per": -6.580666384786002,
+"out": "gkiegihguffihbfdidnefgggdachkesteicddddgtarizegaderfdefggdfgeieighiteeftigchihfteacaugfigg",
+"n": 90,
+"maxstates": 66,
+"tag": "real_fwd_s189_ctrl16",
+"start": 189,
+"secs": 0.007707118988037109,
+"span": [
+5,
+7,
+12
+]
+},
+"real_fwd_s189_ctrl17": {
+"per": -6.508911994325316,
+"out": "igiidhegfiadchadbfahgbegittigbcafeidiheycegaigigfbhgigifcadbucigdditoehedfitghebeghffgchefg",
+"n": 91,
+"maxstates": 54,
+"tag": "real_fwd_s189_ctrl17",
+"start": 189,
+"secs": 0.007344722747802734,
+"span": [
+8,
+51,
+59
+]
+},
+"real_fwd_s189_ctrl18": {
+"per": -6.684200529875149,
+"out": "afbfgbaeggfhhdetgcaghmecefinvfesfifdiehgihsdgfehsgdeceachgghflhdaiteceociehgbeggedidndfogg",
+"n": 90,
+"maxstates": 71,
+"tag": "real_fwd_s189_ctrl18",
+"start": 189,
+"secs": 0.007335186004638672,
+"span": [
+7,
+76,
+83
+]
+},
+"real_fwd_s189_ctrl19": {
+"per": -6.562939447283652,
+"out": "hgghdhhgdezcgaggcthatlefegikeqcicgiiedfeahecgigtheefiiacaegecddnaceedhatcgefisigkbidghisgf",
+"n": 90,
+"maxstates": 88,
+"tag": "real_fwd_s189_ctrl19",
+"start": 189,
+"secs": 0.00909566879272461,
+"span": [
+7,
+44,
+51
+]
+},
+"real_fwd_s189_ctrl20": {
+"per": -6.5636044068617165,
+"out": "deigkhiqgdqmhgcdigbfgiiipctacigggbdiheshaighetheafgeehegiigeggegsahgzeiecbdffieadeageacdgf",
+"n": 90,
+"maxstates": 44,
+"tag": "real_fwd_s189_ctrl20",
+"start": 189,
+"secs": 0.008776426315307617,
+"span": [
+7,
+21,
+28
+]
+},
+"real_fwd_s189_ctrl21": {
+"per": -6.619102767798083,
+"out": "iyddeediiiecfffigiggfdcbaihegdgatgifghcedceidefbcgfhffbecggediehcsaheanfeiceagebadcbfdifihb",
+"n": 91,
+"maxstates": 41,
+"tag": "real_fwd_s189_ctrl21",
+"start": 189,
+"secs": 0.0061626434326171875,
+"span": [
+9,
+73,
+82
+]
+},
+"real_fwd_s189_ctrl22": {
+"per": -6.64823587653662,
+"out": "efefdfegchgggitedgghdidhhcgetaeighyoeuciiqchideaofghcsigcdgeffdiggaffgieticaeticatheyiggghg",
+"n": 91,
+"maxstates": 40,
+"tag": "real_fwd_s189_ctrl22",
+"start": 189,
+"secs": 0.00484466552734375,
+"span": [
+9,
+77,
+86
+]
+},
+"real_fwd_s189_ctrl23": {
+"per": -6.689388962166077,
+"out": "ecggcihmcaffffmfkfqhcdtemigitecehdetleiggggehttbfhadbecnndeaehgeftfihggedfacathghgisiamgec",
+"n": 90,
+"maxstates": 65,
+"tag": "real_fwd_s189_ctrl23",
+"start": 189,
+"secs": 0.016805171966552734,
+"span": [
+5,
+49,
+54
+]
+},
+"real_fwd_s189_ctrl24": {
+"per": -6.491990457452617,
+"out": "hgamgcibggfhghgggacecogihffafteciestgdghfatgqcdgeigmaftiiduceiceiiicdgithgeeagetigxhghedegg",
+"n": 91,
+"maxstates": 97,
+"tag": "real_fwd_s189_ctrl24",
+"start": 189,
+"secs": 0.008860349655151367,
+"span": [
+8,
+73,
+81
+]
+},
+"real_fwd_s189_ctrl25": {
+"per": -6.533283317930256,
+"out": "ueedatgceecifhaigeftdotfffeggderedggshehhecfdarehaqggidgtfaideichiefiiebegcbgfbiighfidficie",
+"n": 91,
+"maxstates": 71,
+"tag": "real_fwd_s189_ctrl25",
+"start": 189,
+"secs": 0.008827924728393555,
+"span": [
+12,
+58,
+70
+]
+},
+"real_fwd_s189_ctrl26": {
+"per": -6.28833110106058,
+"out": "gagedbedthafhniygqefacceefiighehgbcgeonhegdbdfighgbyecgcodididcefblsodiiahsoheighegehehaff",
+"n": 90,
+"maxstates": 71,
+"tag": "real_fwd_s189_ctrl26",
+"start": 189,
+"secs": 0.008168697357177734,
+"span": [
+8,
+0,
+8
+]
+},
+"real_fwd_s189_ctrl27": {
+"per": -6.505053939816428,
+"out": "sggemgdhhfieceafifreegtbeafifeeghicfdgbggggiethgafichaftfcictastidcaceihgfifchceggimdbeeeil",
+"n": 91,
+"maxstates": 73,
+"tag": "real_fwd_s189_ctrl27",
+"start": 189,
+"secs": 0.009217500686645508,
+"span": [
+7,
+23,
+30
+]
+},
+"real_fwd_s189_ctrl28": {
+"per": -6.508990848592586,
+"out": "goidbtifelieidefbgempgeeigiieirtgddgiigdghtgsftishcgwghtleaegecheangecsticgccchefagthiscaf",
+"n": 90,
+"maxstates": 42,
+"tag": "real_fwd_s189_ctrl28",
+"start": 189,
+"secs": 0.016900300979614258,
+"span": [
+9,
+78,
+87
+]
+},
+"real_fwd_s189_ctrl29": {
+"per": -6.644305010556058,
+"out": "dihbgqedghcacgiftthihheiieioffqahatdechcddeciogdancticzgcqgdgigziciglerbacdahildgefdddgehe",
+"n": 90,
+"maxstates": 46,
+"tag": "real_fwd_s189_ctrl29",
+"start": 189,
+"secs": 0.006236076354980469,
+"span": [
+4,
+13,
+17
+]
+},
+"real_rev_s1": {
+"per": -6.238318503689867,
+"out": "ihiprwtittheieggddituwighdieehtatgaggingdghahfehfwfdiiidgaiithtieegieggisaciaceahegedatfegoffthadgdmad",
+"n": 102,
+"maxstates": 68,
+"tag": "real_rev_s1",
+"start": 1,
+"secs": 0.012900352478027344,
+"span": [
+15,
+67,
+82
+]
+},
+"real_rev_s1_ctrl0": {
+"per": -6.374928703889698,
+"out": "ggitheychcdahghcbcghhtiatasetfaafeacithafegdieechcefffiritihighciohidatfeefigedfxdhadlefgueeetgcbqehgf",
+"n": 102,
+"maxstates": 58,
+"tag": "real_rev_s1_ctrl0",
+"start": 1,
+"secs": 0.01084756851196289,
+"span": [
+11,
+66,
+77
+]
+},
+"real_rev_s1_ctrl1": {
+"per": -6.5439707555393705,
+"out": "egifteiihfitedthhgdggbicgbdiaechadfgafhwafigithacdegccifihbgfitbegiieeigdechieygedhahegehcdgidthdggfgei",
+"n": 103,
+"maxstates": 49,
+"tag": "real_rev_s1_ctrl1",
+"start": 1,
+"secs": 0.008552312850952148,
+"span": [
+8,
+60,
+68
+]
+},
+"real_rev_s1_ctrl2": {
+"per": -6.459216994951874,
+"out": "ehtevfdheewiglgvcficedffadgygeyeatacsheifetdcccgwheaeehealecgfegieofccgidgiaepahtcauceditfedagcdigpin",
+"n": 101,
+"maxstates": 51,
+"tag": "real_rev_s1_ctrl2",
+"start": 1,
+"secs": 0.01132059097290039,
+"span": [
+8,
+85,
+93
+]
+},
+"real_rev_s1_ctrl3": {
+"per": -6.543258473536522,
+"out": "gbettgddiigiefieeffgdeethegchefcoceegidegargchebegcigicccdghgiicocddgedadchilbiaqghhaggcatgfeitattdffgg",
+"n": 103,
+"maxstates": 81,
+"tag": "real_rev_s1_ctrl3",
+"start": 1,
+"secs": 0.010184288024902344,
+"span": [
+6,
+70,
+76
+]
+},
+"real_rev_s1_ctrl4": {
+"per": -6.69219649294652,
+"out": "hccdcutteiideegdgfgeghgfefbcffaggeahithyrfeidediigbbifafhghiidbcceggedfeguvadeftedhfivocdcgiqeheighiti",
+"n": 102,
+"maxstates": 50,
+"tag": "real_rev_s1_ctrl4",
+"start": 1,
+"secs": 0.006642341613769531,
+"span": [
+5,
+65,
+70
+]
+},
+"real_rev_s1_ctrl5": {
+"per": -6.730150869047485,
+"out": "hcigegigghecffyceuigeedigggfhetietidicgbggguehgeiicgftitfeiiggiamgcaiifgaaddealtacaeadiifethdfhaftgfgfe",
+"n": 103,
+"maxstates": 39,
+"tag": "real_rev_s1_ctrl5",
+"start": 1,
+"secs": 0.013869762420654297,
+"span": [
+7,
+18,
+25
+]
+},
+"real_rev_s1_ctrl6": {
+"per": -6.447674707144648,
+"out": "ddfqfteditecefeffitethddgdcatdeggisoinfafggaietfigdbtidadcdfdededcthgegaaihiebeeuhefeefeesgqigidfefichg",
+"n": 103,
+"maxstates": 59,
+"tag": "real_rev_s1_ctrl6",
+"start": 1,
+"secs": 0.01672053337097168,
+"span": [
+9,
+71,
+80
+]
+},
+"real_rev_s1_ctrl7": {
+"per": -6.692763910466075,
+"out": "ffdgfdlqgihyhanttdfierifiichfgcfdeegghferhiehghcddhvceexgaieercybbdgihiegfithificefcgbfeggidehitefeief",
+"n": 102,
+"maxstates": 54,
+"tag": "real_rev_s1_ctrl7",
+"start": 1,
+"secs": 0.009533882141113281,
+"span": [
+6,
+38,
+44
+]
+},
+"real_rev_s1_ctrl8": {
+"per": -6.507393284746395,
+"out": "fgfdhdfffaaficebeicigeacagrigcgbbhggfigcgidhgfbeficatebefqdgediaiithggiiebccefieudghdoafgfasedathcthagd",
+"n": 103,
+"maxstates": 60,
+"tag": "real_rev_s1_ctrl8",
+"start": 1,
+"secs": 0.010205984115600586,
+"span": [
+6,
+12,
+18
+]
+},
+"real_rev_s1_ctrl9": {
+"per": -6.643745598696981,
+"out": "gkiemsfhaiwthacgeatgdqieaagetiiiafabggegeectehdynfegifdasgdeadfgxtidgghefgteadtthbeehmgedtgikgitieetha",
+"n": 102,
+"maxstates": 63,
+"tag": "real_rev_s1_ctrl9",
+"start": 1,
+"secs": 0.011208534240722656,
+"span": [
+9,
+24,
+33
+]
+},
+"real_rev_s1_ctrl10": {
+"per": -6.508801412983384,
+"out": "fccfgffiteeeeihchgvfbggbgeleggeebegaggectiwoofiticgdoitcegbihdhfiageficdegdqifbghaicthcefitaidehiedgiq",
+"n": 102,
+"maxstates": 47,
+"tag": "real_rev_s1_ctrl10",
+"start": 1,
+"secs": 0.00812840461730957,
+"span": [
+11,
+26,
+37
+]
+},
+"real_rev_s1_ctrl11": {
+"per": -6.607835371812697,
+"out": "egecffeicfashiddffegiihgfaatagatdhfaghiibegtchtfaaeedefdgetbehqefhbuthigdigigedxcdhticeidfgccetchaqgcaf",
+"n": 103,
+"maxstates": 33,
+"tag": "real_rev_s1_ctrl11",
+"start": 1,
+"secs": 0.012381315231323242,
+"span": [
+7,
+25,
+32
+]
+},
+"real_rev_s1_ctrl12": {
+"per": -6.563150725434384,
+"out": "eggiftigaghgdgadiggffhavbiefcdbfggrfgcaghefaitfcanegeegggdgsggthiiskaeeeldtiacthhefegfriginfolcgfaight",
+"n": 102,
+"maxstates": 58,
+"tag": "real_rev_s1_ctrl12",
+"start": 1,
+"secs": 0.015932798385620117,
+"span": [
+8,
+2,
+10
+]
+},
+"real_rev_s1_ctrl13": {
+"per": -6.551628961871006,
+"out": "tdiftaiafcaefggchfgdgcedsiggedheghhaifhetitleaiefihbkcighteeticiafbbfgbggfididegdgehgiegiciehgifcgdbcaf",
+"n": 103,
+"maxstates": 49,
+"tag": "real_rev_s1_ctrl13",
+"start": 1,
+"secs": 0.008770227432250977,
+"span": [
+12,
+35,
+47
+]
+},
+"real_rev_s1_ctrl14": {
+"per": -6.841390600083436,
+"out": "fethigbdgagiiggdfcebfahcgaiftidhahdchmieeeifhggcgcbdhiidcahpdegfafethtiidaddihcgeffddepshhttochiidoggia",
+"n": 103,
+"maxstates": 40,
+"tag": "real_rev_s1_ctrl14",
+"start": 1,
+"secs": 0.005715131759643555,
+"span": [
+9,
+91,
+100
+]
+},
+"real_rev_s1_ctrl15": {
+"per": -6.48290600389136,
+"out": "cciettecheebeicfgbaefexpgpfactaegrgtilgohihaffcfhaidhtsideaficihfkqggedhfblfghehgifeigedgitdagtdidiceg",
+"n": 102,
+"maxstates": 57,
+"tag": "real_rev_s1_ctrl15",
+"start": 1,
+"secs": 0.009321928024291992,
+"span": [
+6,
+55,
+61
+]
+},
+"real_rev_s1_ctrl16": {
+"per": -6.453781841148473,
+"out": "ieeatieahggegacciehciggadiehiggfgetheitedgdadeetdigceachdfbeihdgfgetaifgdaaeicieaaffedhecdegeregdigfcghd",
+"n": 104,
+"maxstates": 46,
+"tag": "real_rev_s1_ctrl16",
+"start": 1,
+"secs": 0.009454488754272461,
+"span": [
+7,
+32,
+39
+]
+},
+"real_rev_s1_ctrl17": {
+"per": -6.638291041118979,
+"out": "gvbettgczigigfgiggihadcgigfgegeiahgfxbfaeefeeiehgsecfagegcapeeyetadifgigecatdggdiidifhfeidsafigdigfatic",
+"n": 103,
+"maxstates": 62,
+"tag": "real_rev_s1_ctrl17",
+"start": 1,
+"secs": 0.010907411575317383,
+"span": [
+15,
+57,
+72
+]
+},
+"real_rev_s1_ctrl18": {
+"per": -6.3043280851319885,
+"out": "ifdbgfnghfiiochachgzghgtchaitinagditcaheiddiacaidiegeeetistdicaoadtwegeggqgfgerfdgkogegtheifitaphgedha",
+"n": 102,
+"maxstates": 79,
+"tag": "real_rev_s1_ctrl18",
+"start": 1,
+"secs": 0.010100364685058594,
+"span": [
+9,
+87,
+96
+]
+},
+"real_rev_s1_ctrl19": {
+"per": -6.575360627500044,
+"out": "ciatitficefiaiditthgjectgcgcghtfhaidetgiigdthgaedwiiecsdgbpgihatifffigggheebcdieimidgedgcigvggffqcgngu",
+"n": 102,
+"maxstates": 46,
+"tag": "real_rev_s1_ctrl19",
+"start": 1,
+"secs": 0.007457256317138672,
+"span": [
+9,
+77,
+86
+]
+},
+"real_rev_s1_ctrl20": {
+"per": -6.3939626978762885,
+"out": "gieeethhtgdticgeafanitadedhiieethcrcegeggcicgiqggbgithcfcbgghttbghhcehggifcfiedeeetslggiftheccheathghal",
+"n": 103,
+"maxstates": 47,
+"tag": "real_rev_s1_ctrl20",
+"start": 1,
+"secs": 0.006489276885986328,
+"span": [
+8,
+16,
+24
+]
+},
+"real_rev_s1_ctrl21": {
+"per": -6.6907428493830094,
+"out": "iteaihhghedgieehgiiefyatiedehfigdhfafgiieidexkeadaghisfggiidgcfhedggeedihgefipgghahqifleedihfhggccqaia",
+"n": 102,
+"maxstates": 47,
+"tag": "real_rev_s1_ctrl21",
+"start": 1,
+"secs": 0.00815892219543457,
+"span": [
+5,
+0,
+5
+]
+},
+"real_rev_s1_ctrl22": {
+"per": -6.679677801985876,
+"out": "hccgtogcgoaiftdfeeiffgpfafgpedhgcghhhghgfbyeciddngeyelegithuftiagicrhhedisigneiyeiteqehaeganiehheigeh",
+"n": 101,
+"maxstates": 81,
+"tag": "real_rev_s1_ctrl22",
+"start": 1,
+"secs": 0.010054826736450195,
+"span": [
+8,
+50,
+58
+]
+},
+"real_rev_s1_ctrl23": {
+"per": -6.549983339521009,
+"out": "ecgeheaifgeetticghffghicgbgfdecgictlegifaidfiaehicktfciheeecdqhdmgifadaffeetfinffhwgiidightgfenediehfgh",
+"n": 103,
+"maxstates": 63,
+"tag": "real_rev_s1_ctrl23",
+"start": 1,
+"secs": 0.012990713119506836,
+"span": [
+8,
+4,
+12
+]
+},
+"real_rev_s1_ctrl24": {
+"per": -6.454020612963298,
+"out": "aiibdggigiigenitkggcfisatfidgcechdhihhbdhaletugeoihidtpiegtheiggghitqxideigigginitmeahictidrigetfhtidb",
+"n": 102,
+"maxstates": 54,
+"tag": "real_rev_s1_ctrl24",
+"start": 1,
+"secs": 0.011498212814331055,
+"span": [
+12,
+73,
+85
+]
+},
+"real_rev_s1_ctrl25": {
+"per": -6.457272452491617,
+"out": "ecieeieachaechcebdcegetgheddghcithiiitittissgeicgcaeegidiagacfefaceaeedcgfarbegtddebetafegpedegrtchhaha",
+"n": 103,
+"maxstates": 63,
+"tag": "real_rev_s1_ctrl25",
+"start": 1,
+"secs": 0.006616830825805664,
+"span": [
+6,
+5,
+11
+]
+},
+"real_rev_s1_ctrl26": {
+"per": -6.567821087393206,
+"out": "gedgcdedigfgdeyhtfiiiaabddighagbdgctathwqhchkigfigetiddofeetbehahahghedghhcbzdghtegdodpmgeecingfigcihc",
+"n": 102,
+"maxstates": 41,
+"tag": "real_rev_s1_ctrl26",
+"start": 1,
+"secs": 0.0070133209228515625,
+"span": [
+12,
+54,
+66
+]
+},
+"real_rev_s1_ctrl27": {
+"per": -6.407468052088409,
+"out": "dgcfamafaineyedhfgdbfdehgiahhgqffgigcgsufitghhggicfyethedathedididhcgcahggaieeeatggbgshmegbdffhetighac",
+"n": 102,
+"maxstates": 37,
+"tag": "real_rev_s1_ctrl27",
+"start": 1,
+"secs": 0.006955862045288086,
+"span": [
+9,
+6,
+15
+]
+},
+"real_rev_s1_ctrl28": {
+"per": -6.66367238931212,
+"out": "iifiifdgdhgbgdadecgiigecihisehcyggdhehgogccharygdeedfdnhtieceaehdgciteaccinggbefdclaniamzhateaatbdgidi",
+"n": 102,
+"maxstates": 55,
+"tag": "real_rev_s1_ctrl28",
+"start": 1,
+"secs": 0.013329029083251953,
+"span": [
+7,
+89,
+96
+]
+},
+"real_rev_s1_ctrl29": {
+"per": -6.5300726381590115,
+"out": "gfbfcafatehiaighfifkittwifebeegagagggcihffdcdecdchindsghggdgthefihgbcegtakgghgeqiithiepxhcegeptfetitfe",
+"n": 102,
+"maxstates": 68,
+"tag": "real_rev_s1_ctrl29",
+"start": 1,
+"secs": 0.01964282989501953,
+"span": [
+11,
+23,
+34
+]
+},
+"real_rev_s188": {
+"per": -6.31727131654342,
+"out": "ihdrifictaffbattaeffgitvccgeircddaffeathdghttchheaftiftcgedictcfgefaeeagdxfteettathdagdmafa",
+"n": 91,
+"maxstates": 76,
+"tag": "real_rev_s188",
+"start": 188,
+"secs": 0.01946091651916504,
+"span": [
+7,
+47,
+54
+]
+},
+"real_rev_s188_ctrl0": {
+"per": -6.305208360520915,
+"out": "hdticcbhgkentgetadeceifsbqevgiieetieceighggheigccanggsdcfatheedhcpfeetfiaiekeeihefidbzista",
+"n": 90,
+"maxstates": 66,
+"tag": "real_rev_s188_ctrl0",
+"start": 188,
+"secs": 0.010015249252319336,
+"span": [
+7,
+56,
+63
+]
+},
+"real_rev_s188_ctrl1": {
+"per": -6.663994680077119,
+"out": "gfgedigatdgfdafaegitgegaetaichemfifigiteficuddgiaiebfehgithhedgfgdfmmeefgfbhciatchageedgrde",
+"n": 91,
+"maxstates": 37,
+"tag": "real_rev_s188_ctrl1",
+"start": 188,
+"secs": 0.004430294036865234,
+"span": [
+9,
+23,
+32
+]
+},
+"real_rev_s188_ctrl2": {
+"per": -6.641411123259757,
+"out": "daggdgbbdficaaaieeedacfbtightfhgfhfadecietdfoigighegcqeeggfgfgtheeitegegdidhdifeigficdggtog",
+"n": 91,
+"maxstates": 42,
+"tag": "real_rev_s188_ctrl2",
+"start": 188,
+"secs": 0.0077936649322509766,
+"span": [
+6,
+45,
+51
+]
+},
+"real_rev_s188_ctrl3": {
+"per": -6.319483980211053,
+"out": "ieittidehcbieigihgfacahfcfhangedtichtitvgfiteetfkgiithfffbebeggeedgggegecdigagetedigicfgaig",
+"n": 91,
+"maxstates": 56,
+"tag": "real_rev_s188_ctrl3",
+"start": 188,
+"secs": 0.0053882598876953125,
+"span": [
+9,
+26,
+35
+]
+},
+"real_rev_s188_ctrl4": {
+"per": -6.409549525292116,
+"out": "dcgaghhfetfathatachetfadbggetihfcctafgbehhgcedaneceahgfienatffffebficetieeeiedhgdeifiedhdai",
+"n": 91,
+"maxstates": 61,
+"tag": "real_rev_s188_ctrl4",
+"start": 188,
+"secs": 0.009195566177368164,
+"span": [
+10,
+10,
+20
+]
+},
+"real_rev_s188_ctrl5": {
+"per": -6.560509860816086,
+"out": "ceaeldhadhigcgefigfugcehgbefacqseatxgditfeffhdcgyzgcfszieeuhydlgdofcaircggantseehisifahgg",
+"n": 89,
+"maxstates": 60,
+"tag": "real_rev_s188_ctrl5",
+"start": 188,
+"secs": 0.008697986602783203,
+"span": [
+12,
+74,
+86
+]
+},
+"real_rev_s188_ctrl6": {
+"per": -6.461709497560893,
+"out": "ohigmfeihefigedhxdbecghidggchecdbqtifhididedeafieficgcchcaibdhfddeitdmadithgdgaieiheedtdgge",
+"n": 91,
+"maxstates": 30,
+"tag": "real_rev_s188_ctrl6",
+"start": 188,
+"secs": 0.006054878234863281,
+"span": [
+6,
+7,
+13
+]
+},
+"real_rev_s188_ctrl7": {
+"per": -6.494505478532205,
+"out": "icaghhftienfgggeudjamefetaadgredtddditaifeffthehcqcgbggiekeheefticeihaggdihgehharihcchacef",
+"n": 90,
+"maxstates": 39,
+"tag": "real_rev_s188_ctrl7",
+"start": 188,
+"secs": 0.006716728210449219,
+"span": [
+8,
+19,
+27
+]
+},
+"real_rev_s188_ctrl8": {
+"per": -6.629274329570325,
+"out": "gfgipoeagfircefalifecdfghgfeffecaafhedhhaggieigaahhhtichctihegitateghihgdccddfcdafaciddeegh",
+"n": 91,
+"maxstates": 60,
+"tag": "real_rev_s188_ctrl8",
+"start": 188,
+"secs": 0.007048845291137695,
+"span": [
+5,
+15,
+20
+]
+},
+"real_rev_s188_ctrl9": {
+"per": -6.634765103757617,
+"out": "ihdeifghtthiaecdhqfghaacdcsnicgcesasfefcyzieggcadgghatfchriggicgggbbgxehateidehegddffatgda",
+"n": 90,
+"maxstates": 80,
+"tag": "real_rev_s188_ctrl9",
+"start": 188,
+"secs": 0.0075032711029052734,
+"span": [
+7,
+42,
+49
+]
+},
+"real_rev_s188_ctrl10": {
+"per": -6.748651033869416,
+"out": "hehghedgffbgfgcageiibghdefidigftitchdekdcgddgfebagcbfefhtdeeiieqiigcanacegiaetitigiiiicdehg",
+"n": 91,
+"maxstates": 54,
+"tag": "real_rev_s188_ctrl10",
+"start": 188,
+"secs": 0.006560802459716797,
+"span": [
+6,
+14,
+20
+]
+},
+"real_rev_s188_ctrl11": {
+"per": -6.555453165425431,
+"out": "ngbaeifagngedheifghihagchbggedifehgggagchfgcebeigcaghegintrfggeigrefhfititiihgwqcgebeihaii",
+"n": 90,
+"maxstates": 57,
+"tag": "real_rev_s188_ctrl11",
+"start": 188,
+"secs": 0.010563850402832031,
+"span": [
+7,
+69,
+76
+]
+},
+"real_rev_s188_ctrl12": {
+"per": -6.531238438208659,
+"out": "qaeggcddcifeecadithbegpfdoodmfhgphgodgfeintgficatgeafgceiggeidihigichmfaieidifheiiiayicthe",
+"n": 90,
+"maxstates": 51,
+"tag": "real_rev_s188_ctrl12",
+"start": 188,
+"secs": 0.008657693862915039,
+"span": [
+9,
+9,
+18
+]
+},
+"real_rev_s188_ctrl13": {
+"per": -6.814766447642769,
+"out": "figaciidgftaftdececxefcideccegbgahifhdoihgccicgittgchcahhggdhcdfcigathdhedfcheeetaguihebagg",
+"n": 91,
+"maxstates": 39,
+"tag": "real_rev_s188_ctrl13",
+"start": 188,
+"secs": 0.0056879520416259766,
+"span": [
+6,
+84,
+90
+]
+},
+"real_rev_s188_ctrl14": {
+"per": -6.570021704689763,
+"out": "fbiddkgishgfehaneascqdathhmihcublicaefdchhdeedfcalgffhiveadhegxttocghedeefgdeeegifghfbfgeg",
+"n": 90,
+"maxstates": 48,
+"tag": "real_rev_s188_ctrl14",
+"start": 188,
+"secs": 0.01647472381591797,
+"span": [
+5,
+53,
+58
+]
+},
+"real_rev_s188_ctrl15": {
+"per": -6.622674116704234,
+"out": "gfiheedgpdiugidrhgfydreechfiegitdfiecgeieoifafaahgfcdbegagaghasfdggiagbtthihcuedeaddiaaaeb",
+"n": 90,
+"maxstates": 65,
+"tag": "real_rev_s188_ctrl15",
+"start": 188,
+"secs": 0.013685464859008789,
+"span": [
+10,
+53,
+63
+]
+},
+"real_rev_s188_ctrl16": {
+"per": -6.510067420202983,
+"out": "cedgeargdeediggghcgthhtgededeifcigghfgfighfidiagecggoihgiidhgatfaebcdggedtgcgenoffdgeatffhi",
+"n": 91,
+"maxstates": 48,
+"tag": "real_rev_s188_ctrl16",
+"start": 188,
+"secs": 0.006590843200683594,
+"span": [
+6,
+76,
+82
+]
+},
+"real_rev_s188_ctrl17": {
+"per": -6.690541100135226,
+"out": "aiifecgeigttaiifgcogvihgecghichgededifhhighhgbgigediifchgeageigaidfedeheetdothiddgidgfgighg",
+"n": 91,
+"maxstates": 17,
+"tag": "real_rev_s188_ctrl17",
+"start": 188,
+"secs": 0.002803802490234375,
+"span": [
+6,
+63,
+69
+]
+},
+"real_rev_s188_ctrl18": {
+"per": -6.739441006015881,
+"out": "gecdbcighfaeeidgbdgbeifgeaftficeehcdadegegghaicciedifdbhdccdieaiddiccphcdiaiiaceofhcfgfeetf",
+"n": 91,
+"maxstates": 59,
+"tag": "real_rev_s188_ctrl18",
+"start": 188,
+"secs": 0.007022380828857422,
+"span": [
+9,
+73,
+82
+]
+},
+"real_rev_s188_ctrl19": {
+"per": -6.393372709643259,
+"out": "gbiefgaacgaftfetdeategghithcceflagtheechegeggiegfghaihefxgdawieggfdidfiithcatditcethcadthbf",
+"n": 91,
+"maxstates": 85,
+"tag": "real_rev_s188_ctrl19",
+"start": 188,
+"secs": 0.0077779293060302734,
+"span": [
+9,
+17,
+26
+]
+},
+"real_rev_s188_ctrl20": {
+"per": -6.406707598088312,
+"out": "ihghfhaggegwgaitfseaidshheaddoegedeghgdiighedefbghqdigkiigagiidifeiogehoitdiftheiieaefeipa",
+"n": 90,
+"maxstates": 82,
+"tag": "real_rev_s188_ctrl20",
+"start": 188,
+"secs": 0.008867025375366211,
+"span": [
+7,
+24,
+31
+]
+},
+"real_rev_s188_ctrl21": {
+"per": -6.766011654862794,
+"out": "cdticiighgcgiigfgqeeiieggifhgadzgcghdicgiaiddhhadofgidgedheggdfgiaghcebeehgacgtbetaiagerfbg",
+"n": 91,
+"maxstates": 32,
+"tag": "real_rev_s188_ctrl21",
+"start": 188,
+"secs": 0.00474858283996582,
+"span": [
+8,
+79,
+87
+]
+},
+"real_rev_s188_ctrl22": {
+"per": -6.54880945341604,
+"out": "hcggfeedfdiggggantiqofgbegggeqgifthtbdiidcdegdbgeeaitidiaighifhtbaiibfdidthegofchdaagitcbda",
+"n": 91,
+"maxstates": 33,
+"tag": "real_rev_s188_ctrl22",
+"start": 188,
+"secs": 0.005654811859130859,
+"span": [
+8,
+70,
+78
+]
+},
+"real_rev_s188_ctrl23": {
+"per": -6.301669611313059,
+"out": "gatiehgfisfaatadeeisgififeitiecahtcdgufggfichifkeieiecideeipidgeceafeedifchigdieggcgccabbit",
+"n": 91,
+"maxstates": 74,
+"tag": "real_rev_s188_ctrl23",
+"start": 188,
+"secs": 0.006945133209228516,
+"span": [
+10,
+66,
+76
+]
+},
+"real_rev_s188_ctrl24": {
+"per": -6.569744317021795,
+"out": "gaggicieqgieidegdntcibftgetiihgdgeitptihainfaeiegidgaddedaiffbefteechgeccdgfcdeggdetdecgbaa",
+"n": 91,
+"maxstates": 69,
+"tag": "real_rev_s188_ctrl24",
+"start": 188,
+"secs": 0.009193897247314453,
+"span": [
+9,
+51,
+60
+]
+},
+"real_rev_s188_ctrl25": {
+"per": -6.544886346510425,
+"out": "cdhdccfeedfgcgdedteduceyhieaglgipphbgbgsieshighgnathcehasceecgddgbezybadigeadhhdeeaihgtdea",
+"n": 90,
+"maxstates": 60,
+"tag": "real_rev_s188_ctrl25",
+"start": 188,
+"secs": 0.018273591995239258,
+"span": [
+8,
+43,
+51
+]
+},
+"real_rev_s188_ctrl26": {
+"per": -6.448287635238653,
+"out": "hgcsgefettifedcistdateghtcfgeehatfdaghgeichaggdaighedgregididetghgghahakqdgeigeftigntddgfig",
+"n": 91,
+"maxstates": 51,
+"tag": "real_rev_s188_ctrl26",
+"start": 188,
+"secs": 0.018611669540405273,
+"span": [
+7,
+10,
+17
+]
+},
+"real_rev_s188_ctrl27": {
+"per": -6.69030580326895,
+"out": "iegffiiiegegqcdedcatgitgeraiaaecadfigegefaicteedecggegrigaircghgeedfacthdgbcwgiqheaghghehte",
+"n": 91,
+"maxstates": 41,
+"tag": "real_rev_s188_ctrl27",
+"start": 188,
+"secs": 0.008106708526611328,
+"span": [
+8,
+63,
+71
+]
+},
+"real_rev_s188_ctrl28": {
+"per": -6.450347281984022,
+"out": "ddgiqcgfghteahgavengyteaagiitidfigagfgeeheghidhbefafitfiggeghgdgcepgdgedidgehggsefifatgave",
+"n": 90,
+"maxstates": 43,
+"tag": "real_rev_s188_ctrl28",
+"start": 188,
+"secs": 0.00741887092590332,
+"span": [
+8,
+82,
+90
+]
+},
+"real_rev_s188_ctrl29": {
+"per": -6.250287545238132,
+"out": "fgcgicagdgisitdethiebwcdeeachcimpsfigahatfhccgzgggddieheffheshcztiedtideieageiseihilegadih",
+"n": 90,
+"maxstates": 52,
+"tag": "real_rev_s188_ctrl29",
+"start": 188,
+"secs": 0.016911745071411133,
+"span": [
+11,
+30,
+41
+]
+},
+"real_rev_s189": {
+"per": -6.412843929525071,
+"out": "hihitediigkdiutbaeffgitvccgeircddaffeathdghttchheaftiftcgedictcfgefaeeagdxfteettathdagdmafa",
+"n": 91,
+"maxstates": 66,
+"tag": "real_rev_s189",
+"start": 189,
+"secs": 0.00742650032043457,
+"span": [
+7,
+47,
+54
+]
+},
+"real_rev_s189_ctrl0": {
+"per": -6.5644281156722055,
+"out": "dfddahechdgeghfhccefegqigtitheutchffgxmfcbdeihahgseisabghtbeggigedehdeifeccthgefasytenichh",
+"n": 90,
+"maxstates": 69,
+"tag": "real_rev_s189_ctrl0",
+"start": 189,
+"secs": 0.012214183807373047,
+"span": [
+6,
+58,
+64
+]
+},
+"real_rev_s189_ctrl1": {
+"per": -6.486844652449039,
+"out": "fabghtgidgfheeaghcoatgfeofthgagfagigcaeichtachetgbictefadafigydsthagdhicptedeadmaiieghtcgbi",
+"n": 91,
+"maxstates": 38,
+"tag": "real_rev_s189_ctrl1",
+"start": 189,
+"secs": 0.006412029266357422,
+"span": [
+7,
+28,
+35
+]
+},
+"real_rev_s189_ctrl2": {
+"per": -6.39601144119561,
+"out": "bgbgfgbcbhcieneediceeifgseefegqifhffgceeccgxgeeleatdagfidgggidebiafaihbghadhettieshihatcgei",
+"n": 91,
+"maxstates": 34,
+"tag": "real_rev_s189_ctrl2",
+"start": 189,
+"secs": 0.006948232650756836,
+"span": [
+7,
+13,
+20
+]
+},
+"real_rev_s189_ctrl3": {
+"per": -6.447619010513213,
+"out": "hiicgfdeisgiwaucgdqwifteiigidgeeifnidedgeimfgwgbuefdtheediatdhcggsceitaiekecightftetieighg",
+"n": 90,
+"maxstates": 91,
+"tag": "real_rev_s189_ctrl3",
+"start": 189,
+"secs": 0.012624979019165039,
+"span": [
+8,
+37,
+45
+]
+},
+"real_rev_s189_ctrl4": {
+"per": -6.60894737695231,
+"out": "chhehdfcgcigcfihihaigeeeagatacifdidihiggeiehadhicicbfgffdeidqhficegcgfhieittgaiaagcegentisc",
+"n": 91,
+"maxstates": 34,
+"tag": "real_rev_s189_ctrl4",
+"start": 189,
+"secs": 0.004096031188964844,
+"span": [
+6,
+30,
+36
+]
+},
+"real_rev_s189_ctrl5": {
+"per": -6.570033182530497,
+"out": "cdggegcggeegagyehggfbefffafeghatiehcbahgavefedigefagbifaggicggledbyfidiggeteaiefiggfhdfdfde",
+"n": 91,
+"maxstates": 27,
+"tag": "real_rev_s189_ctrl5",
+"start": 189,
+"secs": 0.005295515060424805,
+"span": [
+11,
+36,
+47
+]
+},
+"real_rev_s189_ctrl6": {
+"per": -6.657387416413792,
+"out": "fechdifgggfeififdiddcedicfebiofehgcgatwneoegbgiqgcctaingahebeheedghhtheiggdheieewafeicbdcha",
+"n": 91,
+"maxstates": 48,
+"tag": "real_rev_s189_ctrl6",
+"start": 189,
+"secs": 0.0054738521575927734,
+"span": [
+9,
+56,
+65
+]
+},
+"real_rev_s189_ctrl7": {
+"per": -6.55173579600416,
+"out": "ecagqcciiitcxihcgaghedehhgdggghfdcatffecapdsgfcegthiedfeahgagaidgagigggdgtighhidiffasigdthi",
+"n": 91,
+"maxstates": 46,
+"tag": "real_rev_s189_ctrl7",
+"start": 189,
+"secs": 0.017709970474243164,
+"span": [
+10,
+58,
+68
+]
+},
+"real_rev_s189_ctrl8": {
+"per": -6.523603582522746,
+"out": "gegiigdgecthiciacgaidcdbcggghfihtdifgedfdfgictitcaggiggbecaebghetheaihegiihfhighaddbkatiadaf",
+"n": 92,
+"maxstates": 35,
+"tag": "real_rev_s189_ctrl8",
+"start": 189,
+"secs": 0.008002281188964844,
+"span": [
+9,
+62,
+71
+]
+},
+"real_rev_s189_ctrl9": {
+"per": -6.704873267276057,
+"out": "icgheggfffbfhaeeeghgfcgeggiiaigfbgegthieieidthifafeasfthmeectthihtagiftcchcdeafihiamtahdice",
+"n": 91,
+"maxstates": 38,
+"tag": "real_rev_s189_ctrl9",
+"start": 189,
+"secs": 0.011173486709594727,
+"span": [
+7,
+23,
+30
+]
+},
+"real_rev_s189_ctrl10": {
+"per": -6.5858022447169615,
+"out": "aiicafdearcdbghfbebehtgicdfghgefigcdqcegitedtgccthattcgfmgfcticagegothdgftchaiieftgedtfgrin",
+"n": 91,
+"maxstates": 37,
+"tag": "real_rev_s189_ctrl10",
+"start": 189,
+"secs": 0.01629161834716797,
+"span": [
+9,
+60,
+69
+]
+},
+"real_rev_s189_ctrl11": {
+"per": -6.632239489198744,
+"out": "ibgbegeeegbgfvehiedcathhcchggaeggthatgiehgbfggicedghdgfamgieantgchwbbghiedafaggegeggeacdigg",
+"n": 91,
+"maxstates": 44,
+"tag": "real_rev_s189_ctrl11",
+"start": 189,
+"secs": 0.00883340835571289,
+"span": [
+8,
+29,
+37
+]
+},
+"real_rev_s189_ctrl12": {
+"per": -6.679912154514956,
+"out": "hhecdghgigcrdihigheycgefeghdatihutwfghcifiiiagdffitctiviiigcaufgbaceanighegggfehffxbgedagf",
+"n": 90,
+"maxstates": 45,
+"tag": "real_rev_s189_ctrl12",
+"start": 189,
+"secs": 0.006287336349487305,
+"span": [
+11,
+65,
+76
+]
+},
+"real_rev_s189_ctrl13": {
+"per": -6.4380525786581835,
+"out": "dghtifcdfdithatfcbrpwcfweeahixffedbiphcicefifhbfhgifficickheegbpgedgetcatgidhvfceifcifeast",
+"n": 90,
+"maxstates": 49,
+"tag": "real_rev_s189_ctrl13",
+"start": 189,
+"secs": 0.009510993957519531,
+"span": [
+6,
+67,
+73
+]
+},
+"real_rev_s189_ctrl14": {
+"per": -6.729663330647097,
+"out": "iehcagaaigaedfbbcdftgetdrgddgicbcfgactecaaagedfeiggatecatiexcicegecgddiedfgehfihzidkihhtthf",
+"n": 91,
+"maxstates": 37,
+"tag": "real_rev_s189_ctrl14",
+"start": 189,
+"secs": 0.008029937744140625,
+"span": [
+8,
+50,
+58
+]
+},
+"real_rev_s189_ctrl15": {
+"per": -6.290009059642956,
+"out": "fgtidetcgbfideeiicaathseecleedagalfacheatifhctacccgiffgfiiiitchiidfateidcaigficaadqdigegegg",
+"n": 91,
+"maxstates": 68,
+"tag": "real_rev_s189_ctrl15",
+"start": 189,
+"secs": 0.006209373474121094,
+"span": [
+9,
+56,
+65
+]
+},
+"real_rev_s189_ctrl16": {
+"per": -6.576827649208778,
+"out": "ddgdfeesgfqgdhcbdgidiigfcweetditfiibqhggginggifheihocciitaifitamgladghdiggaieienilegagetgc",
+"n": 90,
+"maxstates": 51,
+"tag": "real_rev_s189_ctrl16",
+"start": 189,
+"secs": 0.006554603576660156,
+"span": [
+14,
+54,
+68
+]
+},
+"real_rev_s189_ctrl17": {
+"per": -6.669309415830686,
+"out": "hfegggutecdgegiehigbddahedechigedhigiytokgeciggfcngatgihheigegeehatdagccecfceehbfhathgeeehi",
+"n": 91,
+"maxstates": 54,
+"tag": "real_rev_s189_ctrl17",
+"start": 189,
+"secs": 0.006405830383300781,
+"span": [
+7,
+81,
+88
+]
+},
+"real_rev_s189_ctrl18": {
+"per": -6.78781702979561,
+"out": "dgcggffhgdighiiefgdeftffcfdigegigmheicihhcigiibgffafieitthbcdeiftithhifhfgfeggeddtadjaigotg",
+"n": 91,
+"maxstates": 40,
+"tag": "real_rev_s189_ctrl18",
+"start": 189,
+"secs": 0.003981590270996094,
+"span": [
+8,
+82,
+90
+]
+},
+"real_rev_s189_ctrl19": {
+"per": -6.714885798256325,
+"out": "fcgeeegiihaibcbfgeebgcehacdhdbgagiicggifcginagedeefahidfectghitfciggfdgetwhimfdgdteadggghgh",
+"n": 91,
+"maxstates": 65,
+"tag": "real_rev_s189_ctrl19",
+"start": 189,
+"secs": 0.009313821792602539,
+"span": [
+7,
+41,
+48
+]
+},
+"real_rev_s189_ctrl20": {
+"per": -6.546598837914858,
+"out": "ffitofaffhgycieatgqedeiigdhhcgehiggdigbeoffridgeftifhceheihdgfhdcdevdtichiaeeieefttgedeeeed",
+"n": 91,
+"maxstates": 34,
+"tag": "real_rev_s189_ctrl20",
+"start": 189,
+"secs": 0.005470752716064453,
+"span": [
+13,
+35,
+48
+]
+},
+"real_rev_s189_ctrl21": {
+"per": -6.377689313933716,
+"out": "iiciahdiddaeecgeiheeagaieuagehttfgfnciligfkcecirhdeigedihoibegiiitigeditecttdbdiphifgefeede",
+"n": 91,
+"maxstates": 37,
+"tag": "real_rev_s189_ctrl21",
+"start": 189,
+"secs": 0.007245063781738281,
+"span": [
+9,
+58,
+67
+]
+},
+"real_rev_s189_ctrl22": {
+"per": -6.2501896206764656,
+"out": "vaidagdedidihattgagcbgzaeificeidthiebeiihgbdddalfhtihgefsisezhgdgidhepopegtdegdshatitegcbd",
+"n": 90,
+"maxstates": 50,
+"tag": "real_rev_s189_ctrl22",
+"start": 189,
+"secs": 0.026530981063842773,
+"span": [
+7,
+8,
+15
+]
+},
+"real_rev_s189_ctrl23": {
+"per": -6.638072033945658,
+"out": "itighecfebihgcfsigqgeiagthdhedgiedghifgftiedeheyaftbegefefcgifiogetcdgbiitbehfeighchetdeehg",
+"n": 91,
+"maxstates": 66,
+"tag": "real_rev_s189_ctrl23",
+"start": 189,
+"secs": 0.009255409240722656,
+"span": [
+9,
+45,
+54
+]
+},
+"real_rev_s189_ctrl24": {
+"per": -6.351036801886122,
+"out": "hgghcghgefgdeaadeeineezfdecddhafachhgdifygfbtigaggftheenheeififcigeihbgddghtiedfeeetgptthai",
+"n": 91,
+"maxstates": 58,
+"tag": "real_rev_s189_ctrl24",
+"start": 189,
+"secs": 0.00810384750366211,
+"span": [
+7,
+75,
+82
+]
+},
+"real_rev_s189_ctrl25": {
+"per": -6.619635202316891,
+"out": "aciggiedfuahetaftrvgigegcaggiiimbegigckvheegathageegthieihcgeefcrieidecagdigfgicdgebehgeghg",
+"n": 91,
+"maxstates": 39,
+"tag": "real_rev_s189_ctrl25",
+"start": 189,
+"secs": 0.0077321529388427734,
+"span": [
+5,
+32,
+37
+]
+},
+"real_rev_s189_ctrl26": {
+"per": -6.311754308245639,
+"out": "gifcaiabdfighiteeftficeiiiettcfagegitgiceigfcdigedtggetachfigprgcfudthchhenebeeagegcigginth",
+"n": 91,
+"maxstates": 44,
+"tag": "real_rev_s189_ctrl26",
+"start": 189,
+"secs": 0.010271787643432617,
+"span": [
+6,
+9,
+15
+]
+},
+"real_rev_s189_ctrl27": {
+"per": -6.555362582280208,
+"out": "agaeheehddgddgidgghecigheiesfeeifeiidgeadhfaiacfhdifahggfbdhggjectfiggefetableyfgataheaigff",
+"n": 91,
+"maxstates": 52,
+"tag": "real_rev_s189_ctrl27",
+"start": 189,
+"secs": 0.009436845779418945,
+"span": [
+7,
+81,
+88
+]
+},
+"real_rev_s189_ctrl28": {
+"per": -6.528843513599056,
+"out": "cicteqdedhggcpacedhiehgbcaerggugfguhsahigifihahacgggdvngifikggbledcznceicitiatgetthttingeh",
+"n": 90,
+"maxstates": 56,
+"tag": "real_rev_s189_ctrl28",
+"start": 189,
+"secs": 0.012494087219238281,
+"span": [
+8,
+13,
+21
+]
+},
+"real_rev_s189_ctrl29": {
+"per": -6.621167736121473,
+"out": "cegfgightihgdfgihcgghihgififefcgataaitgaghehhigifcegfgfhatggedeefehagfieditdhdahatigclegehie",
+"n": 92,
+"maxstates": 35,
+"tag": "real_rev_s189_ctrl29",
+"start": 189,
+"secs": 0.005080461502075195,
+"span": [
+11,
+32,
+43
+]
+},
+"real_nohdr_s1": {
+"per": -6.571649997934632,
+"out": "gedcthacdgggogchicfgiagbefactfggehntfigbfhsegedfcfdbegteaiceodciidgehcghifggatgagtbeifedhihczbehaidtui",
+"n": 102,
+"maxstates": 63,
+"tag": "real_nohdr_s1",
+"start": 1,
+"secs": 0.025381803512573242,
+"span": [
+9,
+51,
+60
+]
+},
+"real_nohdr_s1_ctrl0": {
+"per": -6.587486562367332,
+"out": "fiidheiaabjecgetfiethdiibiiehdjeaihtagfbaieesedcaigffheedaciegedgeieewefgfgedtaabghficaicggstfighffthcf",
+"n": 103,
+"maxstates": 43,
+"tag": "real_nohdr_s1_ctrl0",
+"start": 1,
+"secs": 0.017154455184936523,
+"span": [
+6,
+13,
+19
+]
+},
+"real_nohdr_s1_ctrl1": {
+"per": -6.576106072959706,
+"out": "dhgfbfggfgbgehfehdgcekagdedeghgcgeighagcifahfhceceehatgiaitaagcgteaihgeaffehaddefighsgghgegdeacehadyifd",
+"n": 103,
+"maxstates": 64,
+"tag": "real_nohdr_s1_ctrl1",
+"start": 1,
+"secs": 0.00991368293762207,
+"span": [
+6,
+55,
+61
+]
+},
+"real_nohdr_s1_ctrl2": {
+"per": -6.36710125512847,
+"out": "ghqefaihghaigdgghtfbeaftfgaegegtidigaheiethacthgatteceisefitydhgeediateaitoffgihcegfhegedgggiigefagine",
+"n": 102,
+"maxstates": 48,
+"tag": "real_nohdr_s1_ctrl2",
+"start": 1,
+"secs": 0.010040044784545898,
+"span": [
+14,
+63,
+77
+]
+},
+"real_nohdr_s1_ctrl3": {
+"per": -6.497218713885489,
+"out": "zmbeediahggdieaadtigafefeegeggetcfiieaefeahedchgbfghchfifhiigchthadcgdatfectihgbgcatgrieghadbegchhfvae",
+"n": 102,
+"maxstates": 76,
+"tag": "real_nohdr_s1_ctrl3",
+"start": 1,
+"secs": 0.011111259460449219,
+"span": [
+6,
+27,
+33
+]
+},
+"real_nohdr_s1_ctrl4": {
+"per": -6.696877260562617,
+"out": "gddfirthhgnceegbgaaeoigfyhheagidghtcahiiicfitgdifigfpefifeegieiffecicfhhehicfcgscfgcgklrtigexiemnegat",
+"n": 101,
+"maxstates": 57,
+"tag": "real_nohdr_s1_ctrl4",
+"start": 1,
+"secs": 0.009060382843017578,
+"span": [
+5,
+3,
+8
+]
+},
+"real_nohdr_s1_ctrl5": {
+"per": -6.675173536242846,
+"out": "batgiftdigetdddgeiggifgagvghefaegdhdaighfthgeahgddcfhgfatifdhggbcifieggihfighhegeactwightceafghcimfyhe",
+"n": 102,
+"maxstates": 51,
+"tag": "real_nohdr_s1_ctrl5",
+"start": 1,
+"secs": 0.00951242446899414,
+"span": [
+10,
+0,
+10
+]
+},
+"real_nohdr_s1_ctrl6": {
+"per": -6.761957163078385,
+"out": "grdatigbiiatactfiahcifgeighiihdbbitiiiihefghccdaiftiafhiegdchiccgccebutgcaighgaaficihegiahfgfthedhgddah",
+"n": 103,
+"maxstates": 56,
+"tag": "real_nohdr_s1_ctrl6",
+"start": 1,
+"secs": 0.0077991485595703125,
+"span": [
+9,
+32,
+41
+]
+},
+"real_nohdr_s1_ctrl7": {
+"per": -6.929252041500932,
+"out": "fbghhghicihiccigdcihhcacfcehghgpefskdfhdiadbdedieeeadacgfdqfegetitefefaegdifhthaiheghiigigadfetcidhgci",
+"n": 102,
+"maxstates": 43,
+"tag": "real_nohdr_s1_ctrl7",
+"start": 1,
+"secs": 0.006312131881713867,
+"span": [
+6,
+85,
+91
+]
+},
+"real_nohdr_s1_ctrl8": {
+"per": -6.491088576516855,
+"out": "deighdecgkdifieochitaidthgbeftsfvgoehgoggegvdeteqddkheesuiththaggbaceicgghffdegecgchegigfghdiagidicia",
+"n": 101,
+"maxstates": 45,
+"tag": "real_nohdr_s1_ctrl8",
+"start": 1,
+"secs": 0.010015487670898438,
+"span": [
+7,
+16,
+23
+]
+},
+"real_nohdr_s1_ctrl9": {
+"per": -6.673989399043692,
+"out": "dhawhifeihdgiatidfapigiceihfdcdgfaeiecfpggvcfdicrgcggiddheidaidcacgceaffilihtletihgfghgggedaqocibgtidi",
+"n": 102,
+"maxstates": 48,
+"tag": "real_nohdr_s1_ctrl9",
+"start": 1,
+"secs": 0.007607460021972656,
+"span": [
+8,
+18,
+26
+]
+},
+"real_nohdr_s1_ctrl10": {
+"per": -6.640520694430636,
+"out": "acaeefiggedowthgahdttiepgthidobgfcaigegacahdigddeeettifegaighhigighffiaggeigbgiecadihccicigcightigfodd",
+"n": 102,
+"maxstates": 62,
+"tag": "real_nohdr_s1_ctrl10",
+"start": 1,
+"secs": 0.0187990665435791,
+"span": [
+4,
+62,
+66
+]
+},
+"real_nohdr_s1_ctrl11": {
+"per": -6.677757508115655,
+"out": "feeidceigvbpdtodeaeedifgcefadeigcgafthcggcehdegettdccfeittfgiuettigifeihbgrfeligaeataeefheagcgicaeccgg",
+"n": 102,
+"maxstates": 42,
+"tag": "real_nohdr_s1_ctrl11",
+"start": 1,
+"secs": 0.01575469970703125,
+"span": [
+5,
+26,
+31
+]
+},
+"real_nohdr_s1_ctrl12": {
+"per": -6.178874634639374,
+"out": "fhgetidagfaceihdgffcihidgeiacticecagthfatthclhhpcifkuridalatgisesetecggdhaeiiiaghinhedgiihatgitiggitfh",
+"n": 102,
+"maxstates": 47,
+"tag": "real_nohdr_s1_ctrl12",
+"start": 1,
+"secs": 0.01070857048034668,
+"span": [
+7,
+26,
+33
+]
+},
+"real_nohdr_s1_ctrl13": {
+"per": -6.622655447437823,
+"out": "ieicfgeeffebxifhhifiiedhidgbgtcamdheagiqfkthatifeeigdeifgcigcitifffgdechtedehfdidihdadiidevefehgghgabf",
+"n": 102,
+"maxstates": 44,
+"tag": "real_nohdr_s1_ctrl13",
+"start": 1,
+"secs": 0.0063381195068359375,
+"span": [
+9,
+42,
+51
+]
+},
+"real_nohdr_s1_ctrl14": {
+"per": -6.463353225268658,
+"out": "gitergmqaceidbeftigitfeaifgfichgigcfgecdhegcbdiifgickifitatbegehggdiefsigetfcfihchiidifcagneveghtatdaa",
+"n": 102,
+"maxstates": 56,
+"tag": "real_nohdr_s1_ctrl14",
+"start": 1,
+"secs": 0.008955001831054688,
+"span": [
+9,
+53,
+62
+]
+},
+"real_nohdr_s1_ctrl15": {
+"per": -6.580508835206591,
+"out": "ggdbfeihbfhtaifeiaagfbiehatttaueifgdddiedgbdgaifghgteptithadegidaeighggbedimetfecehidleggiceihhbgifcfg",
+"n": 102,
+"maxstates": 46,
+"tag": "real_nohdr_s1_ctrl15",
+"start": 1,
+"secs": 0.012893915176391602,
+"span": [
+7,
+71,
+78
+]
+},
+"real_nohdr_s1_ctrl16": {
+"per": -6.4849911471191755,
+"out": "hfcfiegehdggghcdeidgpgvtofgihfdisbetteigcbdigdcmaqiiiedidthgedmeaiggcceancifhegffeefeehigetgiiffhehege",
+"n": 102,
+"maxstates": 40,
+"tag": "real_nohdr_s1_ctrl16",
+"start": 1,
+"secs": 0.022043466567993164,
+"span": [
+6,
+30,
+36
+]
+},
+"real_nohdr_s1_ctrl17": {
+"per": -6.47724713281113,
+"out": "fddaiiiiaeefeeaaeehceigheggibycgisccfbdbitedadcigagheeaffeghgdgidigecteffhekcfggwhemgeagitdbhltofditde",
+"n": 102,
+"maxstates": 62,
+"tag": "real_nohdr_s1_ctrl17",
+"start": 1,
+"secs": 0.027860641479492188,
+"span": [
+7,
+39,
+46
+]
+},
+"real_nohdr_s1_ctrl18": {
+"per": -6.70349486773436,
+"out": "gegegiiithhdigccffiheicecaidchehgncgqfngadfgbethtifdradifcataebceidgetcdgfgcgidiehtaiiahffghggcgidhild",
+"n": 102,
+"maxstates": 63,
+"tag": "real_nohdr_s1_ctrl18",
+"start": 1,
+"secs": 0.016392230987548828,
+"span": [
+6,
+18,
+24
+]
+},
+"real_nohdr_s1_ctrl19": {
+"per": -6.514150746439832,
+"out": "idhheafchhgiggeticcedthhuatehifgreigeeyagatgaeaefeatfdgifgechhzfdbhgcrhghedfgendtigfichsiddiietiheithe",
+"n": 102,
+"maxstates": 43,
+"tag": "real_nohdr_s1_ctrl19",
+"start": 1,
+"secs": 0.017521381378173828,
+"span": [
+7,
+10,
+17
+]
+},
+"real_nohdr_s1_ctrl20": {
+"per": -6.551846805706135,
+"out": "afiagciifdattgcedgeiihehifeehfbcihgefhggdheatedhffgfificiaagebadcadidheggsiegdajesageiighfefddihchthiif",
+"n": 103,
+"maxstates": 70,
+"tag": "real_nohdr_s1_ctrl20",
+"start": 1,
+"secs": 0.010633707046508789,
+"span": [
+12,
+56,
+68
+]
+},
+"real_nohdr_s1_ctrl21": {
+"per": -6.226441711315888,
+"out": "bdbtighthieadecegdfoeacddhigeshiceaphyiifabiechgzfchedmqcddbeeaccsgfiefiescegqbgseetigititaigcgcethii",
+"n": 101,
+"maxstates": 37,
+"tag": "real_nohdr_s1_ctrl21",
+"start": 1,
+"secs": 0.007988452911376953,
+"span": [
+9,
+3,
+12
+]
+},
+"real_nohdr_s1_ctrl22": {
+"per": -6.130933954561875,
+"out": "gqehehteaigheghhethisgfbgcichidfeitfceeicededficfeghedatifaftigatacthigrecgagbgicgfcitebegihvgitcegihg",
+"n": 102,
+"maxstates": 64,
+"tag": "real_nohdr_s1_ctrl22",
+"start": 1,
+"secs": 0.01575183868408203,
+"span": [
+8,
+54,
+62
+]
+},
+"real_nohdr_s1_ctrl23": {
+"per": -6.502007381199197,
+"out": "hhiecggdarfichhhcdfbifcgigdcdageihagcithighfeedidgceigzabctthekcbihgiciidgyegetctgoeeiicfiahtggtheadef",
+"n": 102,
+"maxstates": 45,
+"tag": "real_nohdr_s1_ctrl23",
+"start": 1,
+"secs": 0.008420228958129883,
+"span": [
+12,
+37,
+49
+]
+},
+"real_nohdr_s1_ctrl24": {
+"per": -6.630582590328702,
+"out": "elacgegafagcathiiacigdcgiadtgetggfgaighfehlfhaechiheighccgeatchhttihicgheeggvbpyticesinehhfdghfhhdichd",
+"n": 102,
+"maxstates": 40,
+"tag": "real_nohdr_s1_ctrl24",
+"start": 1,
+"secs": 0.008829593658447266,
+"span": [
+7,
+7,
+14
+]
+},
+"real_nohdr_s1_ctrl25": {
+"per": -6.680319045068708,
+"out": "gcfgpefiffeimdgienofgegghdihydgggbbhgchceprgiefhhdfiineeegecategimlahweziifeggegeidetdgggchesahcatgfa",
+"n": 101,
+"maxstates": 47,
+"tag": "real_nohdr_s1_ctrl25",
+"start": 1,
+"secs": 0.024994611740112305,
+"span": [
+6,
+72,
+78
+]
+},
+"real_nohdr_s1_ctrl26": {
+"per": -6.476393584864473,
+"out": "hheahhagdiedeemdiatioidgcbgbeficeaggbiicieathggbbagweengcgfhzehhihecditgdtichediaihafegciggbeeadigaiga",
+"n": 102,
+"maxstates": 48,
+"tag": "real_nohdr_s1_ctrl26",
+"start": 1,
+"secs": 0.013141632080078125,
+"span": [
+10,
+5,
+15
+]
+},
+"real_nohdr_s1_ctrl27": {
+"per": -6.632387399131216,
+"out": "fiftthciichftetihgfdgdiatoqsiddhieggceachtiigkepgcefcfiiicedgefmadeaafighieehedgcifaaddinhbfhggagdcaid",
+"n": 102,
+"maxstates": 48,
+"tag": "real_nohdr_s1_ctrl27",
+"start": 1,
+"secs": 0.01918625831604004,
+"span": [
+12,
+63,
+75
+]
+},
+"real_nohdr_s1_ctrl28": {
+"per": -6.645345197897821,
+"out": "cddfaeeggeeghgcdbfehhiafdfgidgeihbggaceffhbdgidedcahtheiicfgdchdgfgageigphgieivgightdebcdeeeadwathfdthe",
+"n": 103,
+"maxstates": 55,
+"tag": "real_nohdr_s1_ctrl28",
+"start": 1,
+"secs": 0.023393630981445312,
+"span": [
+5,
+52,
+57
+]
+},
+"real_nohdr_s1_ctrl29": {
+"per": -6.555148255981717,
+"out": "chidggaahatdfgxgdiithmeahaehdcggdifficffhfueffddhahdhhgegeidhegbgipthatdbegahgdgfafifehdfetaihceeggitd",
+"n": 102,
+"maxstates": 59,
+"tag": "real_nohdr_s1_ctrl29",
+"start": 1,
+"secs": 0.013788461685180664,
+"span": [
+5,
+6,
+11
+]
+},
+"real_nohdr_s188": {
+"per": -6.704083175192813,
+"out": "eflhfgacgeaffbeeegefregghfcgcfbcigdoficgeigfdgbiiiiciihbaghieigaecceggitfeidgifetbeghtitsa",
+"n": 90,
+"maxstates": 66,
+"tag": "real_nohdr_s188",
+"start": 188,
+"secs": 0.009201288223266602,
+"span": [
+7,
+55,
+62
+]
+},
+"real_nohdr_s188_ctrl0": {
+"per": -6.532055537285709,
+"out": "dofigeegbigoiediggiefpeigheggfhgesaihafttagqecgiditdithtineggcfcadhicrghaggggetagcaifffbdb",
+"n": 90,
+"maxstates": 53,
+"tag": "real_nohdr_s188_ctrl0",
+"start": 188,
+"secs": 0.017102956771850586,
+"span": [
+9,
+34,
+43
+]
+},
+"real_nohdr_s188_ctrl1": {
+"per": -6.515865387777672,
+"out": "gcetathtigcdhiffdhgatihaigkcqawieiheeggcshtirricgicggiacghhdeetdiehfifiaatbettyqicheaddeih",
+"n": 90,
+"maxstates": 36,
+"tag": "real_nohdr_s188_ctrl1",
+"start": 188,
+"secs": 0.006522655487060547,
+"span": [
+9,
+68,
+77
+]
+},
+"real_nohdr_s188_ctrl2": {
+"per": -6.463111351777087,
+"out": "ceicucpieacedicebeggeehgeidaefgthaeydhaeiggcqgehhehwithithfeiceiediedggbhtthgcfeanfbdcbgbf",
+"n": 90,
+"maxstates": 59,
+"tag": "real_nohdr_s188_ctrl2",
+"start": 188,
+"secs": 0.009976625442504883,
+"span": [
+16,
+6,
+22
+]
+},
+"real_nohdr_s188_ctrl3": {
+"per": -6.8184945159397845,
+"out": "ieceiitfehaifahgbcgfdndgeggrguihffgvihqhbgigdgipdeesafeharcgaghifeetwfedxqecfghthiggfhtid",
+"n": 89,
+"maxstates": 40,
+"tag": "real_nohdr_s188_ctrl3",
+"start": 188,
+"secs": 0.01052403450012207,
+"span": [
+6,
+56,
+62
+]
+},
+"real_nohdr_s188_ctrl4": {
+"per": -6.4396142504414255,
+"out": "deigdegbifaggearthegdccgeielcceegitqiazhhaadgmediatitimatwdggifaegdiahheacteiheeiggeighege",
+"n": 90,
+"maxstates": 43,
+"tag": "real_nohdr_s188_ctrl4",
+"start": 188,
+"secs": 0.016574859619140625,
+"span": [
+12,
+45,
+57
+]
+},
+"real_nohdr_s188_ctrl5": {
+"per": -6.610391797677643,
+"out": "diggeieadeeedeiigggggddmehghasaihaighhaagfdggitdegfgfiataggedgadgicigbadafditfitfiiidhigip",
+"n": 90,
+"maxstates": 36,
+"tag": "real_nohdr_s188_ctrl5",
+"start": 188,
+"secs": 0.012393474578857422,
+"span": [
+11,
+53,
+64
+]
+},
+"real_nohdr_s188_ctrl6": {
+"per": -6.474336457281569,
+"out": "fehhcbcghtgageeieedwgirddedoqgbatglcqngwhrideaisaiihiitgeedhciddbtthifthetedtciidegtheehii",
+"n": 90,
+"maxstates": 60,
+"tag": "real_nohdr_s188_ctrl6",
+"start": 188,
+"secs": 0.021884441375732422,
+"span": [
+10,
+41,
+51
+]
+},
+"real_nohdr_s188_ctrl7": {
+"per": -6.381521717174675,
+"out": "bhgglntdedeagidgegaeeedgiffdeihidbeqfxegchhetgiaeeachqcgeithgegfgfcdiddochhingudjecheitafa",
+"n": 90,
+"maxstates": 51,
+"tag": "real_nohdr_s188_ctrl7",
+"start": 188,
+"secs": 0.01146841049194336,
+"span": [
+6,
+29,
+35
+]
+},
+"real_nohdr_s188_ctrl8": {
+"per": -6.26765028386763,
+"out": "edaidtaghehicfieebehieegthaiganeidicgedshtacihvbiegcthatwigggicedgicigedchhhggfbeiceiefaig",
+"n": 90,
+"maxstates": 48,
+"tag": "real_nohdr_s188_ctrl8",
+"start": 188,
+"secs": 0.0075452327728271484,
+"span": [
+8,
+2,
+10
+]
+},
+"real_nohdr_s188_ctrl9": {
+"per": -6.614701373461706,
+"out": "fagcffhgitahidfcdcigbgghhithcbefiigchdhtfepagaaddieggegoidcatidbcgofqcgfmeggidahceeatlegcg",
+"n": 90,
+"maxstates": 47,
+"tag": "real_nohdr_s188_ctrl9",
+"start": 188,
+"secs": 0.017824411392211914,
+"span": [
+12,
+45,
+57
+]
+},
+"real_nohdr_s188_ctrl10": {
+"per": -6.49006834991097,
+"out": "bgheatghdaghengidhcbcwecibcddifcabadgtechanggihanhgdguedtihfiffaahiadedighicgpcfedfaghaecg",
+"n": 90,
+"maxstates": 38,
+"tag": "real_nohdr_s188_ctrl10",
+"start": 188,
+"secs": 0.014436006546020508,
+"span": [
+6,
+29,
+35
+]
+},
+"real_nohdr_s188_ctrl11": {
+"per": -6.646592728384456,
+"out": "igcceagcdgcefiigcttathfdeihgegbihddthahgddfggihgathhadtganhfrefifefiegifggthehghgetbeicggcc",
+"n": 91,
+"maxstates": 37,
+"tag": "real_nohdr_s188_ctrl11",
+"start": 188,
+"secs": 0.007776021957397461,
+"span": [
+7,
+62,
+69
+]
+},
+"real_nohdr_s188_ctrl12": {
+"per": -6.55114182714201,
+"out": "fhiebeihgacggcbgaahefegchdathdiiafhbgftitthecgfggtdeciccftagachtbeeaicingioeeigehhgeggiibfd",
+"n": 91,
+"maxstates": 48,
+"tag": "real_nohdr_s188_ctrl12",
+"start": 188,
+"secs": 0.00740361213684082,
+"span": [
+10,
+64,
+74
+]
+},
+"real_nohdr_s188_ctrl13": {
+"per": -6.448015890694949,
+"out": "dtimuddggheatiiagicfaeshafgegegghitcfaeihaggsaatchhigiegdieddatiateaggfchiteegcdadimgcgchi",
+"n": 90,
+"maxstates": 71,
+"tag": "real_nohdr_s188_ctrl13",
+"start": 188,
+"secs": 0.01887822151184082,
+"span": [
+7,
+9,
+16
+]
+},
+"real_nohdr_s188_ctrl14": {
+"per": -6.7473309619113975,
+"out": "bdhhfifaaiiehdhdihegbggcgbiiedgbgtheeieghgqgccbilggsayderycdiggcidhitimecetwgggidgeiedfgia",
+"n": 90,
+"maxstates": 50,
+"tag": "real_nohdr_s188_ctrl14",
+"start": 188,
+"secs": 0.008469104766845703,
+"span": [
+6,
+5,
+11
+]
+},
+"real_nohdr_s188_ctrl15": {
+"per": -6.498362080464345,
+"out": "hfzwggdgqfgetccirfbefegggggcdageditatgegiiggiibdbhggdiheaigcgccgeeggithehicghtidohiiccidea",
+"n": 90,
+"maxstates": 41,
+"tag": "real_nohdr_s188_ctrl15",
+"start": 188,
+"secs": 0.00776982307434082,
+"span": [
+8,
+29,
+37
+]
+},
+"real_nohdr_s188_ctrl16": {
+"per": -6.46777674045121,
+"out": "fcxbdehitedgeighilgiddfcosieihhadecizefdefgifcaffcfhahggsheceigdihcthegihecccedegsoapetidh",
+"n": 90,
+"maxstates": 48,
+"tag": "real_nohdr_s188_ctrl16",
+"start": 188,
+"secs": 0.00740504264831543,
+"span": [
+8,
+6,
+14
+]
+},
+"real_nohdr_s188_ctrl17": {
+"per": -6.413883322400084,
+"out": "efgggbphshatieigdggdeeteatcibegaebhggdicefddithitfichtfcbgeqvgicheyicheunebiaittgcacheddfg",
+"n": 90,
+"maxstates": 51,
+"tag": "real_nohdr_s188_ctrl17",
+"start": 188,
+"secs": 0.009351491928100586,
+"span": [
+6,
+81,
+87
+]
+},
+"real_nohdr_s188_ctrl18": {
+"per": -6.583458146235588,
+"out": "afcgghgigegggghdgdithcchageahfaeafifdiceigefcgduecasitahegbaehefdehitthitggdgscefaitigfach",
+"n": 90,
+"maxstates": 44,
+"tag": "real_nohdr_s188_ctrl18",
+"start": 188,
+"secs": 0.010771512985229492,
+"span": [
+7,
+34,
+41
+]
+},
+"real_nohdr_s188_ctrl19": {
+"per": -6.352009568058542,
+"out": "gficeiaidhacehiehddenghicgiafffgchdcadtagcbcefeehgcdafteitiffitfupiththicichehiiaeeceicgig",
+"n": 90,
+"maxstates": 42,
+"tag": "real_nohdr_s188_ctrl19",
+"start": 188,
+"secs": 0.013162374496459961,
+"span": [
+7,
+2,
+9
+]
+},
+"real_nohdr_s188_ctrl20": {
+"per": -6.612869782598751,
+"out": "fmfadieghgbcgadegieftitefttafihdggbfdhhgficeedaacehtiithdafetgmgaaihihiiafbeifighfdsdching",
+"n": 90,
+"maxstates": 41,
+"tag": "real_nohdr_s188_ctrl20",
+"start": 188,
+"secs": 0.014234542846679688,
+"span": [
+6,
+74,
+80
+]
+},
+"real_nohdr_s188_ctrl21": {
+"per": -6.675674233613008,
+"out": "aghegimdhatgfeqgceirgigeshcggargcgigeetthafigeacegfeihgexahgcggaggeeidfbmthaeahdjeathgegef",
+"n": 90,
+"maxstates": 45,
+"tag": "real_nohdr_s188_ctrl21",
+"start": 188,
+"secs": 0.0067903995513916016,
+"span": [
+7,
+62,
+69
+]
+},
+"real_nohdr_s188_ctrl22": {
+"per": -6.535381227146353,
+"out": "eahghggyfdeitaididfgigengitfedggdyfioheitpiefpncfdbzeiiixgerdiloiddycaeeetfgitagrdigitiee",
+"n": 89,
+"maxstates": 59,
+"tag": "real_nohdr_s188_ctrl22",
+"start": 188,
+"secs": 0.007527828216552734,
+"span": [
+7,
+11,
+18
+]
+},
+"real_nohdr_s188_ctrl23": {
+"per": -6.45744607467621,
+"out": "ehchdeifggfaegeiihitaffehssifeaafthetggdfihddedgesihedhtiehifgahtheghfdeaatitgftthidgehbff",
+"n": 90,
+"maxstates": 31,
+"tag": "real_nohdr_s188_ctrl23",
+"start": 188,
+"secs": 0.004968166351318359,
+"span": [
+8,
+45,
+53
+]
+},
+"real_nohdr_s188_ctrl24": {
+"per": -6.565038729646092,
+"out": "ebfdahccitagthhdamlgigggedgxiegidctchececgheieeffygageggxecateigghiseigifuagiceattitiieggf",
+"n": 90,
+"maxstates": 53,
+"tag": "real_nohdr_s188_ctrl24",
+"start": 188,
+"secs": 0.005493640899658203,
+"span": [
+13,
+76,
+89
+]
+},
+"real_nohdr_s188_ctrl25": {
+"per": -6.627527982110383,
+"out": "gzidgcichhakhheegeaiiiigegefhagghhiceeafeggaibgcfeacageadtdeaggafedgeihceacheghhhdegachbege",
+"n": 91,
+"maxstates": 51,
+"tag": "real_nohdr_s188_ctrl25",
+"start": 188,
+"secs": 0.014967203140258789,
+"span": [
+6,
+50,
+56
+]
+},
+"real_nohdr_s188_ctrl26": {
+"per": -6.55690760910404,
+"out": "ichadiihghtdiicecgifielhmieatgeeefaebfthadfhighdcdegfhahidteaichdfgcgbiggaggaeihlitgnfeege",
+"n": 90,
+"maxstates": 46,
+"tag": "real_nohdr_s188_ctrl26",
+"start": 188,
+"secs": 0.01739048957824707,
+"span": [
+8,
+54,
+62
+]
+},
+"real_nohdr_s188_ctrl27": {
+"per": -6.311822796701799,
+"out": "hsgceagitigecfevitectccqdigqgeiteccdgceihdqcusidagefigedgaidegiftinfaceeidecgdiqkqueheeat",
+"n": 89,
+"maxstates": 57,
+"tag": "real_nohdr_s188_ctrl27",
+"start": 188,
+"secs": 0.01730203628540039,
+"span": [
+14,
+57,
+71
+]
+},
+"real_nohdr_s188_ctrl28": {
+"per": -6.649611251430185,
+"out": "hdgfhgtchhhghcfhdohedipgdfiffagibggggghdiniutheyognbgkedbeagkipddaacatitigffigeiedcvhhifi",
+"n": 89,
+"maxstates": 80,
+"tag": "real_nohdr_s188_ctrl28",
+"start": 188,
+"secs": 0.02027416229248047,
+"span": [
+8,
+65,
+73
+]
+},
+"real_nohdr_s188_ctrl29": {
+"per": -6.467802774525858,
+"out": "pegihegehcgcltatiddyifckgqtthecafhategftheagfahhdfiffthtedicciiifgcvcifhggacehggjecttodehc",
+"n": 90,
+"maxstates": 50,
+"tag": "real_nohdr_s188_ctrl29",
+"start": 188,
+"secs": 0.006782054901123047,
+"span": [
+6,
+0,
+6
+]
+},
+"real_nohdr_s189": {
+"per": -6.725234119479104,
+"out": "eddbddpeghhieaagbfggddehenigdgfesgdoficgeigfdgbiiiiciihbaghieigaecceggitfeidgifetbeghtitsa",
+"n": 90,
+"maxstates": 54,
+"tag": "real_nohdr_s189",
+"start": 189,
+"secs": 0.004509449005126953,
+"span": [
+7,
+55,
+62
+]
+},
+"real_nohdr_s189_ctrl0": {
+"per": -6.465728531722098,
+"out": "fchemeewbzggghgeachoeatdetcddcfpghhfbgddchetaidfichacaeiathgzhegneebgathgacgirdgettifcgehg",
+"n": 90,
+"maxstates": 55,
+"tag": "real_nohdr_s189_ctrl0",
+"start": 189,
+"secs": 0.007727622985839844,
+"span": [
+7,
+75,
+82
+]
+},
+"real_nohdr_s189_ctrl1": {
+"per": -6.418971416644125,
+"out": "gfiaiceghegghghfitbacgiihbgaughhtganttghqgcibgffactegbiigcattheigccahthehefdevaigcegesainh",
+"n": 90,
+"maxstates": 59,
+"tag": "real_nohdr_s189_ctrl1",
+"start": 189,
+"secs": 0.010214090347290039,
+"span": [
+7,
+57,
+64
+]
+},
+"real_nohdr_s189_ctrl2": {
+"per": -6.516048730067305,
+"out": "gfeeeesifzfhgbbpceaftagificeithfcegeigcibegegafadbcfigtihathefeggehieyagnghdaitgahickagifd",
+"n": 90,
+"maxstates": 39,
+"tag": "real_nohdr_s189_ctrl2",
+"start": 189,
+"secs": 0.013520479202270508,
+"span": [
+10,
+20,
+30
+]
+},
+"real_nohdr_s189_ctrl3": {
+"per": -6.449122204682899,
+"out": "feiiafdidhighgeeheafeweifddargegiifhbuttfhthigahahafcfibecfegbceedoidffbigiewtiasecatiddbi",
+"n": 90,
+"maxstates": 58,
+"tag": "real_nohdr_s189_ctrl3",
+"start": 189,
+"secs": 0.016798734664916992,
+"span": [
+16,
+6,
+22
+]
+},
+"real_nohdr_s189_ctrl4": {
+"per": -6.719525690577658,
+"out": "gieigahifcgfbccgdigegfgitcgbcfgdbdagegeichthgetcdcbaiehcitehiiggdeacaghateieafdicteefhatefe",
+"n": 91,
+"maxstates": 55,
+"tag": "real_nohdr_s189_ctrl4",
+"start": 189,
+"secs": 0.010763883590698242,
+"span": [
+5,
+70,
+75
+]
+},
+"real_nohdr_s189_ctrl5": {
+"per": -6.539449994578518,
+"out": "deagchgihitfgiefedhisggbgkashehfaficdbidmagedagcxegdbeaeieaghgtheephiehegbdheihccefehcerca",
+"n": 90,
+"maxstates": 36,
+"tag": "real_nohdr_s189_ctrl5",
+"start": 189,
+"secs": 0.011657953262329102,
+"span": [
+6,
+15,
+21
+]
+},
+"real_nohdr_s189_ctrl6": {
+"per": -6.617501351881941,
+"out": "gghgiegffeegeetaheieiibghggccehaabngthfacttwhzdchidfivfredhcegpesfagiaexikeiggwedhegefiggg",
+"n": 90,
+"maxstates": 55,
+"tag": "real_nohdr_s189_ctrl6",
+"start": 189,
+"secs": 0.006253242492675781,
+"span": [
+6,
+8,
+14
+]
+},
+"real_nohdr_s189_ctrl7": {
+"per": -6.233690724147472,
+"out": "dfghdieedeaqhdeeffefdglrgesatheadtadicghiegiidiggcfaftthifchcdbedhhingfhighiaecchfagigerei",
+"n": 90,
+"maxstates": 42,
+"tag": "real_nohdr_s189_ctrl7",
+"start": 189,
+"secs": 0.006865024566650391,
+"span": [
+11,
+26,
+37
+]
+},
+"real_nohdr_s189_ctrl8": {
+"per": -6.483343618403283,
+"out": "gfcgicicdgdedpfgoiaacghiefdiagbeaftcgggbggehhgighighadeeighfassciigbeafhbffmgyieerefidetbc",
+"n": 90,
+"maxstates": 40,
+"tag": "real_nohdr_s189_ctrl8",
+"start": 189,
+"secs": 0.005228519439697266,
+"span": [
+8,
+45,
+53
+]
+},
+"real_nohdr_s189_ctrl9": {
+"per": -6.64751006341622,
+"out": "ghhghfcbgcfectaiefgcfafaltbahgfgghagitedecfffcodxnfndgiqiiggehekidgdiggedmgehaefddtisegott",
+"n": 90,
+"maxstates": 45,
+"tag": "real_nohdr_s189_ctrl9",
+"start": 189,
+"secs": 0.006630897521972656,
+"span": [
+6,
+23,
+29
+]
+},
+"real_nohdr_s189_ctrl10": {
+"per": -6.215923958144883,
+"out": "agheciagatadhigeadddedqcateitichegiihxieagfawifgghtreocdefdidfffbeattafetihffasteegtagefhh",
+"n": 90,
+"maxstates": 57,
+"tag": "real_nohdr_s189_ctrl10",
+"start": 189,
+"secs": 0.007848262786865234,
+"span": [
+9,
+24,
+33
+]
+},
+"real_nohdr_s189_ctrl11": {
+"per": -6.635687694439937,
+"out": "ifgkaifhfgfcdgehfghiitdeaigghgghaeegataddddqifahddgehiditegtidthafzgiatfatiftgfehfteaghtfeb",
+"n": 91,
+"maxstates": 50,
+"tag": "real_nohdr_s189_ctrl11",
+"start": 189,
+"secs": 0.0059375762939453125,
+"span": [
+8,
+68,
+76
+]
+},
+"real_nohdr_s189_ctrl12": {
+"per": -6.8293253474662885,
+"out": "dggiegahagiiieebgdiiactagdehtfiahtggaifbagdhigdbediidgatiigticaggfgahaefecgaebeedeesehedhig",
+"n": 91,
+"maxstates": 27,
+"tag": "real_nohdr_s189_ctrl12",
+"start": 189,
+"secs": 0.004096031188964844,
+"span": [
+7,
+6,
+13
+]
+},
+"real_nohdr_s189_ctrl13": {
+"per": -6.754123124079428,
+"out": "fgefgfacdbfbhhhithefghgdfchcgeciggbbqdcdftreidhhetaeaefiiteocdscddaftewehighfidigbdfaeafii",
+"n": 90,
+"maxstates": 64,
+"tag": "real_nohdr_s189_ctrl13",
+"start": 189,
+"secs": 0.00999903678894043,
+"span": [
+11,
+65,
+76
+]
+},
+"real_nohdr_s189_ctrl14": {
+"per": -6.511990860517003,
+"out": "ddgfemaffeivcgldimefhihegricicdheitifhghgeiggcztalfgficadiciaidadgifcidgmutgitheeetfhdchig",
+"n": 90,
+"maxstates": 50,
+"tag": "real_nohdr_s189_ctrl14",
+"start": 189,
+"secs": 0.007251739501953125,
+"span": [
+6,
+31,
+37
+]
+},
+"real_nohdr_s189_ctrl15": {
+"per": -6.530930444961583,
+"out": "feeihaghaacitevifagpdfbciaiceeeithaeedpedhdehdfafigifcbgifgimeiatedhistghafeaheigsicdegdhh",
+"n": 90,
+"maxstates": 28,
+"tag": "real_nohdr_s189_ctrl15",
+"start": 189,
+"secs": 0.00537872314453125,
+"span": [
+7,
+0,
+7
+]
+},
+"real_nohdr_s189_ctrl16": {
+"per": -6.514310947822916,
+"out": "igdgeiireagcbcdgghegiecigstiegfmridfgtaietthhtigitssdgdgedtinidgehneithhfbggfhdfffthegbiia",
+"n": 90,
+"maxstates": 43,
+"tag": "real_nohdr_s189_ctrl16",
+"start": 189,
+"secs": 0.005643129348754883,
+"span": [
+5,
+5,
+10
+]
+},
+"real_nohdr_s189_ctrl17": {
+"per": -6.699162455714314,
+"out": "eehhcnactcugfggbdbddbeeeitfidfatdedgchigdgihdiccicieegraifchdidfbcsccigcbctighiidigmpeasag",
+"n": 90,
+"maxstates": 51,
+"tag": "real_nohdr_s189_ctrl17",
+"start": 189,
+"secs": 0.020654678344726562,
+"span": [
+6,
+84,
+90
+]
+},
+"real_nohdr_s189_ctrl18": {
+"per": -6.583950489150404,
+"out": "hbggigggfeiggiechggtfitgegatgggidccfbaehaigethhiidetyfaghidghheaiqmbiahagaiftecttagcadeadja",
+"n": 91,
+"maxstates": 60,
+"tag": "real_nohdr_s189_ctrl18",
+"start": 189,
+"secs": 0.012214422225952148,
+"span": [
+8,
+68,
+76
+]
+},
+"real_nohdr_s189_ctrl19": {
+"per": -6.426093308617138,
+"out": "iehixfcggitagcaeghahaideterihifgdeegffbacdgchighiaewetheciahcffachiggxffeeggdteaihbffgiece",
+"n": 90,
+"maxstates": 52,
+"tag": "real_nohdr_s189_ctrl19",
+"start": 189,
+"secs": 0.020137786865234375,
+"span": [
+12,
+44,
+56
+]
+},
+"real_nohdr_s189_ctrl20": {
+"per": -6.483522074850443,
+"out": "hbhdheeeeaiatageegaicdcfitgghochemeegdcgfmgcgidditegghggghegidtithitfsfgegeileihgfgitdefgh",
+"n": 90,
+"maxstates": 57,
+"tag": "real_nohdr_s189_ctrl20",
+"start": 189,
+"secs": 0.018184423446655273,
+"span": [
+8,
+9,
+17
+]
+},
+"real_nohdr_s189_ctrl21": {
+"per": -6.601625081152614,
+"out": "gdgffegrggagehicitceecagamieqeictirgeatmxkheteddobadtagetgiidfgedhgicefhhathgdfggadechfdgc",
+"n": 90,
+"maxstates": 56,
+"tag": "real_nohdr_s189_ctrl21",
+"start": 189,
+"secs": 0.007920980453491211,
+"span": [
+8,
+47,
+55
+]
+},
+"real_nohdr_s189_ctrl22": {
+"per": -6.764767703082217,
+"out": "gihcdghdfhdmgefgzgbeggiehdygedecthcedigggagbahdggihimficeritdithhghigffdeecgbggbdfgecfehdh",
+"n": 90,
+"maxstates": 91,
+"tag": "real_nohdr_s189_ctrl22",
+"start": 189,
+"secs": 0.008931159973144531,
+"span": [
+6,
+40,
+46
+]
+},
+"real_nohdr_s189_ctrl23": {
+"per": -6.603270273582896,
+"out": "ghtggrficieettcggqcedgfffieiieeddcgeacgighicecgbfhadagghtriofageledbefafcefigydhcsdddachac",
+"n": 90,
+"maxstates": 26,
+"tag": "real_nohdr_s189_ctrl23",
+"start": 189,
+"secs": 0.007018327713012695,
+"span": [
+11,
+58,
+69
+]
+},
+"real_nohdr_s189_ctrl24": {
+"per": -6.5144538382719865,
+"out": "idiotiohfhatifagfebaghahatdidtggiafeedgghggeefahihgigchbfcfcbrggghgetdfegthegieehifthggefad",
+"n": 91,
+"maxstates": 41,
+"tag": "real_nohdr_s189_ctrl24",
+"start": 189,
+"secs": 0.014895915985107422,
+"span": [
+11,
+18,
+29
+]
+},
+"real_nohdr_s189_ctrl25": {
+"per": -6.518395475483553,
+"out": "fbgiggacghgdcehaicaafigceherahheedgbciiacaftihaidhgffcageceiwhhgesiteatghaifiifhedgagicahic",
+"n": 91,
+"maxstates": 41,
+"tag": "real_nohdr_s189_ctrl25",
+"start": 189,
+"secs": 0.007025480270385742,
+"span": [
+8,
+73,
+81
+]
+},
+"real_nohdr_s189_ctrl26": {
+"per": -6.603513311841531,
+"out": "iiggeiidgpmbgtideiifahdcgithfgbeifggfeheitsfaihfodckhedgffccegaeetichaagieepicchhachbeihih",
+"n": 90,
+"maxstates": 53,
+"tag": "real_nohdr_s189_ctrl26",
+"start": 189,
+"secs": 0.016794204711914062,
+"span": [
+8,
+13,
+21
+]
+},
+"real_nohdr_s189_ctrl27": {
+"per": -6.50399452793906,
+"out": "afchdicgaddafighfdghhcemgabogchwiedfiedifeigcigceihgrgggfyetphithgixsaacnhtedfitsetfageifh",
+"n": 90,
+"maxstates": 66,
+"tag": "real_nohdr_s189_ctrl27",
+"start": 189,
+"secs": 0.0162503719329834,
+"span": [
+9,
+77,
+86
+]
+},
+"real_nohdr_s189_ctrl28": {
+"per": -6.260174376036616,
+"out": "gehhedhebeggidectcticgxeageifitecigmgdbihtitietgedtcfgdbmgtgetggdaafhighaagcthargitagatiia",
+"n": 90,
+"maxstates": 30,
+"tag": "real_nohdr_s189_ctrl28",
+"start": 189,
+"secs": 0.00477147102355957,
+"span": [
+9,
+81,
+90
+]
+},
+"real_nohdr_s189_ctrl29": {
+"per": -6.680654867821775,
+"out": "dbffaiefhfbcahgdfgagcthteaangdhdcgochwghahaffitpeeheafifhjcdbitthggambiptigbbccdigygapachf",
+"n": 90,
+"maxstates": 58,
+"tag": "real_nohdr_s189_ctrl29",
+"start": 189,
+"secs": 0.008435249328613281,
+"span": [
+9,
+44,
+53
+]
+}
+}

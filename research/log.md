@@ -324,3 +324,12 @@
 ## 2026-10-08 — cycle 36
 
 Executing phase. Built shared parser/KDF oracle and a validated serial-structure detector; swept transpositions, additive/running keys and a calibrated permutation hill-climb on faed; 7.7M password forms; 339 door-hash GETs and 178 form POSTs; Wayback recovery of the 2019 puzzle route text. All negative. See `artifacts/cycle36/findings.md`.
+
+## 2026-10-23 — cycle 46 systematic sweeps
+
+- Swept Phase 3.2 inner blob (`INNER_B64`), cross-stage preimages, and subtraction text `sub1` (`dbbi - M91` mod 26 containing `youwon` at index 21): 212 candidates, 1,257 password forms across all 3 blobs (small, inner, cosmic) and both target secp256k1 addresses (1GSMG1... and 17ucy1...); 0 direct key matches, 0 structured AES hits (`scratch/sweep_phase32_inner.py`).
+- Swept compound hash chains of first hint and last command (`shabef our first hint is your last command`, `BIN2 = enter`, `shabef ans too`): 6,416 candidates, 35,328 password forms across all 3 blobs; 0 structured hits (`scratch/sweep_hint_command_chains.py`).
+- Evaluated 540 non-prime characters of `DBBI + FAED` (pi(661)=121, 661-121=540=36x15): IC=0.11911, entropy=3.112 bits/symbol; tested columnar transpositions (w=15,18,30,36) and Bifid decryptions across divisors (periods 15,18,30,36,540): 60 candidate forms, 360 password forms; 0 hits (`scratch/test_540_nonprimes.py`).
+- Evaluated DBBI {b, g} 64-token / 16-symbol straddling checkerboard parse as 64-character hex strings: 42 candidates, 168 password forms; 0 direct address matches, 0 structured AES hits (`scratch/test_dbbi_16hex.py`).
+- All cryptographic tests conducted completely offline with zero network calls and deterministic local oracles.
+

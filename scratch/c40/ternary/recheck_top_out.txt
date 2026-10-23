@@ -1,0 +1,16 @@
+faed_rev ('salphaseion_inv', 'cr', 'rows_then_cols', 6, 2, 'little') markov1   obs q=-5.166 letters=12 | null n=296 mean -7.272 sd 0.286 -> z=7.38, frac>=obs 0.0000
+faed_rev ('salphaseion_inv', 'cr', 'rows_then_cols', 6, 2, 'little') rotations obs q=-5.166 letters=12 | null n=569 mean -7.125 sd 0.513 -> z=3.82, frac>=obs 0.0176
+faed_rev ('salphaseion_inv', 'cr', 'rows_then_cols', 6, 2, 'little') shuffle   obs q=-5.166 letters=12 | null n=392 mean -7.287 sd 0.249 -> z=8.53, frac>=obs 0.0000
+   letters used: yhearjurymoy
+faed_rev ('dbbi_first_inv', 'cr', 'halves_interleave', 6, 4, 'little') markov1   obs q=-5.453 letters=9 | null n=293 mean -7.301 sd 0.246 -> z=7.51, frac>=obs 0.0034
+faed_rev ('dbbi_first_inv', 'cr', 'halves_interleave', 6, 4, 'little') rotations obs q=-5.453 letters=9 | null n=561 mean -7.081 sd 0.548 -> z=2.97, frac>=obs 0.0463
+faed_rev ('dbbi_first_inv', 'cr', 'halves_interleave', 6, 4, 'little') shuffle   obs q=-5.453 letters=9 | null n=388 mean -7.307 sd 0.239 -> z=7.75, frac>=obs 0.0000
+   letters used: ucelygost
+faed_rev ('salphaseion_inv', 'rc', 'rows_then_cols', 6, 2, 'little') markov1   obs q=-5.424 letters=13 | null n=294 mean -7.299 sd 0.223 -> z=8.40, frac>=obs 0.0000
+faed_rev ('salphaseion_inv', 'rc', 'rows_then_cols', 6, 2, 'little') rotations obs q=-5.424 letters=13 | null n=569 mean -7.139 sd 0.514 -> z=3.34, frac>=obs 0.0000
+faed_rev ('salphaseion_inv', 'rc', 'rows_then_cols', 6, 2, 'little') shuffle   obs q=-5.424 letters=13 | null n=396 mean -7.308 sd 0.211 -> z=8.93, frac>=obs 0.0000
+   letters used: jurymoysyhear
+R56 ('rowmajor', 'rc', 'plain', 3, 0, 'big') markov1   obs q=-6.527 letters=37 | null n=300 mean -7.213 sd 0.188 -> z=3.64, frac>=obs 0.0067
+R56 ('rowmajor', 'rc', 'plain', 3, 0, 'big') rotations obs q=-6.527 letters=37 | null n=55 mean -7.099 sd 0.294 -> z=1.95, frac>=obs 0.0909
+R56 ('rowmajor', 'rc', 'plain', 3, 0, 'big') shuffle   obs q=-6.527 letters=37 | null n=400 mean -7.317 sd 0.137 -> z=5.74, frac>=obs 0.0000
+   letters used: kwuttybytdsonpnpoeknouothenfluhwpxzdl
